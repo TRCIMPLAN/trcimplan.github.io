@@ -25,45 +25,32 @@ namespace SalaPrensa;
 /**
  * Clase DiagnosticoPoliticaIndustrial
  */
-class DiagnosticoPoliticaIndustrial extends \Base\Publicacion {
+class DiagnosticoPoliticaIndustrial extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Implan desarrollará Diagnóstico de Política Industrial';
-    //  $this->autor           = 'Autor';
-        $this->fecha           = '2016-04-13T13:10';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2016-04-13-diagnostico-politica-industrial';
-        $this->imagen          = '2016-04-13-diagnostico-politica-industrial/imagen.jpg';
-        $this->imagen_previa   = '2016-04-13-diagnostico-politica-industrial/imagen-previa.jpg';
+        $this->nombre                     = 'IMPLAN desarrollará Diagnóstico de Política Industrial';
+        $this->autor                      = 'Lic. Adriana Vargas Flores';
+        $this->fecha                      = '2016-04-13T13:10';
+        // El nombre del archivo a crear
+        $this->archivo                    = '2016-04-13-diagnostico-politica-industrial';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Alicia Valdez Ibarra, encargada de indicadores económicos del IMPLAN, dio a conocer ante el Cabildo de Torreón el avance de este proyecto, que consiste en su primera etapa en la elaboración de un diagnóstico para conocer las características de cada industria.';
-        $this->claves          = 'IMPLAN, Torreon, Diagnostico, Politica, Industrial';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'Alicia Valdez Ibarra, encargada de indicadores económicos del IMPLAN, dio a conocer ante el Cabildo de Torreón el avance de este proyecto, que consiste en su primera etapa en la elaboración de un diagnóstico para conocer las características de cada industria.';
+        $this->claves                     = 'IMPLAN, Torreon, Diagnostico, Politica, Industrial';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu                = 'Sala de Prensa';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/DiagnosticoPoliticaIndustrial.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Gobierno');
-        $this->fuentes         = array('IMPLAN');
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array();
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase DiagnosticoPoliticaIndustrial

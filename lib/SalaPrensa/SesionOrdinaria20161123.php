@@ -33,7 +33,7 @@ class SesionOrdinaria20161123 extends \Base\PublicacionSchemaBlogPosting {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'El IMPLAN presenta ante su consejo el Informe 2016';
-    //  $this->autor                      = '';
+        $this->autor                      = 'Lic. Adriana Vargas Flores';
         $this->fecha                      = '2016-11-23T15:10';
         // El nombre del archivo a crear
         $this->archivo                    = '2016-11-23-sesion-ordinaria';
@@ -50,7 +50,7 @@ class SesionOrdinaria20161123 extends \Base\PublicacionSchemaBlogPosting {
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón');
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase SesionOrdinaria20161123

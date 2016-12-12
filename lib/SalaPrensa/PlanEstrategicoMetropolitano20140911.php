@@ -25,47 +25,32 @@ namespace SalaPrensa;
 /**
  * Clase PlanEstrategicoMetropolitano20140911
  */
-class PlanEstrategicoMetropolitano20140911 extends \Base\Publicacion {
+class PlanEstrategicoMetropolitano20140911 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Convocatoria del Plan Estratégico Metropolitano';
-     // $this->autor           = 'Autor';
-        $this->fecha           = '2014-09-11T08:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2014-09-11-plan-estrategico-metropolitano';
-        $this->imagen          = '2014-09-11-plan-estrategico-metropolitano/imagen.jpg';
-        $this->imagen_previa   = '2014-09-11-plan-estrategico-metropolitano/imagen-previa.jpg';
+        $this->nombre                     = 'Convocatoria del Plan Estratégico Metropolitano';
+    //  $this->autor                      = '';
+        $this->fecha                      = '2014-09-11T08:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = '2014-09-11-plan-estrategico-metropolitano';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
-        $this->claves          = 'IMPLAN, Torreon';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
-        $this->poner_imagen_en_contenido = false;
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/SalaPrensa/PlanEstrategicoMetropolitano20140911.html';
+        $this->descripcion                = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
+        $this->claves                     = 'IMPLAN, Torreon, Plan, Estrategico, Metropolitano, Convocatoria';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu                = 'Sala de Prensa';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/SalaPrensa/PlanEstrategicoMetropolitano20140911.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Gobierno', 'Participación Ciudadana');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias                 = array();
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase PlanEstrategicoMetropolitano20140911

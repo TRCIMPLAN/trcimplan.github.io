@@ -25,45 +25,32 @@ namespace SalaPrensa;
 /**
  * Clase LagunaRobotChallange2015Presentacion
  */
-class LagunaRobotChallange2015Presentacion extends \Base\Publicacion {
+class LagunaRobotChallange2015Presentacion extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'IMPLAN busca hacer de La Laguna “Capital de la Robótica”';
-     // $this->autor           = '';
-        $this->fecha           = '2015-11-12T15:30';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2015-11-12-laguna-robot-challange-2015-presentacion';
-        $this->imagen          = '2015-11-12-laguna-robot-challange-2015-presentacion/imagen.jpg';
-        $this->imagen_previa   = '2015-11-12-laguna-robot-challange-2015-presentacion/imagen-previa.jpg';
+        $this->nombre                     = 'IMPLAN busca hacer de La Laguna “Capital de la Robótica”';
+    //  $this->autor                      = '';
+        $this->fecha                      = '2015-11-12T15:30';
+        // El nombre del archivo a crear
+        $this->archivo                    = '2015-11-12-laguna-robot-challange-2015-presentacion';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Ante empresarios y la comunidad educativa, se dio a conocer el evento “Laguna Robot Challenge”, en el cual niños entre 9 y 14 años, tienen la oportunidad de aprender a diseñar, programar y poner en marcha robots LEGO Mindstorms NXT.';
-        $this->claves          = 'IMPLAN, Torreon, Robotica';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'Ante empresarios y la comunidad educativa, se dio a conocer el evento “Laguna Robot Challenge”, en el cual niños entre 9 y 14 años, tienen la oportunidad de aprender a diseñar, programar y poner en marcha robots LEGO Mindstorms NXT.';
+        $this->claves                     = 'IMPLAN, Torreon, Robotica';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu                = 'Sala de Prensa';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/LagunaRobotChallange2015Presentacion.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Innovación');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias                 = array();
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase LagunaRobotChallange2015Presentacion

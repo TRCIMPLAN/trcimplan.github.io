@@ -25,47 +25,32 @@ namespace SalaPrensa;
 /**
  * Clase CongresoInternacionalCiudadesTransporte2016
  */
-class CongresoInternacionalCiudadesTransporte2016 extends \Base\PublicacionSchemaArticle {
+class CongresoInternacionalCiudadesTransporte2016 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'IMPLAN Torreón participa en el Congreso Internacional Ciudades y Transporte';
-    //~ $this->autor           = '';
-        $this->fecha           = '2016-10-12T12:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2016-10-12-congreso-internacional-ciudades-transporte';
-        $this->imagen          = '2016-10-12-congreso-internacional-ciudades-transporte/imagen.jpg';
-        $this->imagen_previa   = '2016-10-12-congreso-internacional-ciudades-transporte/imagen-previa.jpg';
+        $this->nombre                     = 'IMPLAN Torreón participa en el Congreso Internacional Ciudades y Transporte';
+        $this->autor                      = 'Lic. Adriana Vargas Flores';
+        $this->fecha                      = '2016-10-12T12:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = '2016-10-12-congreso-internacional-ciudades-transporte';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El director de planeación Luis Campos participó como ponente en el panel "Gobiernos Abiertos: experiencias y lecciones aprendidas en ciudades mexicanas".';
-        $this->claves          = 'IMPLAN, Torreon, Gobierno, Abierto';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // Sin imagen en el contenido
-        $this->poner_imagen_en_contenido = false;
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'El director de planeación Luis Campos participó como ponente en el panel "Gobiernos Abiertos: experiencias y lecciones aprendidas en ciudades mexicanas".';
+        $this->claves                     = 'IMPLAN, Torreon, Gobierno, Abierto';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu                = 'Sala de Prensa';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/CongresoInternacionalCiudadesTransporte2016.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array();
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array();
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase CongresoInternacionalCiudadesTransporte2016

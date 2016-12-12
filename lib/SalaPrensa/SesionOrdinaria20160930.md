@@ -1,6 +1,4 @@
 
-IMPLAN presenta resultados de Doing Business y del índice de Competitividad Urbana del IMCO
-
 El pasado 30 de septiembre el **Consejo Directivo** del **Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón,** llevó a cabo su novena sesión en donde destacaron dos temas importantes: **"La Laguna en el Índice de Competitividad Urbana IMCO 2016"** y **"Resultados de Doing Business 2016".**
 
 La reunión fue presidida por **Eduardo Holguín Zehfuss,** titular de la dependencia y contó con la participación del contralor municipal **Javier Lechuga Jiménez Labora,** quien presentó datos en la medición de **Doing Business,** en la que este año el municipio de **Torreón** y **Coahuila** subieron al **lugar 17 de 32 estados.**

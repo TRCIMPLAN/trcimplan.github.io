@@ -25,45 +25,32 @@ namespace SalaPrensa;
 /**
  * Clase ComunicadoPrensa20140512
  */
-class ComunicadoPrensa20140512 extends \Base\Publicacion {
+class ComunicadoPrensa20140512 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Comunicado de Prensa 12.5.14';
-        $this->autor           = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha           = '2014-05-12T08:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2014-05-12-comunicado-prensa';
-        $this->imagen          = '2014-05-12-comunicado-prensa/implan.png';
-        $this->imagen_previa   = '2014-05-12-comunicado-prensa/imagen-previa.png';
+        $this->nombre                     = 'Comunicado de Prensa 12.5.14';
+        $this->autor                      = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha                      = '2014-05-12T08:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = '2014-05-12-comunicado-prensa';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Precisiones respecto a conferencia de Sam Podolsky.';
-        $this->claves          = 'IMPLAN, Torreon, Competitividad, Gobernanza, Bienestar';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/SalaPrensa/ComunicadoPrensa20140512.html';
+        $this->descripcion                = 'Precisiones respecto a conferencia de Sam Podolsky.';
+        $this->claves                     = 'IMPLAN, Torreon, Competitividad, Gobernanza, Bienestar';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu                = 'Sala de Prensa';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/SalaPrensa/ComunicadoPrensa20140512.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Gobierno');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias                 = array();
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase ComunicadoPrensa20140512

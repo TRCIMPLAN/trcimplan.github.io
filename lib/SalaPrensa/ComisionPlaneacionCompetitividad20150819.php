@@ -25,47 +25,32 @@ namespace SalaPrensa;
 /**
  * Clase ComisionPlaneacionCompetitividad20150819
  */
-class ComisionPlaneacionCompetitividad20150819 extends \Base\Publicacion {
+class ComisionPlaneacionCompetitividad20150819 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Sesión de la Comisión de Planeación y Competitividad';
-     // $this->autor           = 'Autor';
-        $this->fecha           = '2015-08-19T11:30';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2015-08-19-comision-planeacion-competitividad';
-        $this->imagen          = '2015-08-19-comision-planeacion-competitividad/imagen.jpg';
-        $this->imagen_previa   = '2015-08-19-comision-planeacion-competitividad/imagen-previa.jpg';
+        $this->nombre                     = 'Sesión de la Comisión de Planeación y Competitividad';
+    //  $this->autor                      = '';
+        $this->fecha                      = '2015-08-19T11:30';
+        // El nombre del archivo a crear
+        $this->archivo                    = '2015-08-19-comision-planeacion-competitividad';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El pasado 19 de agosto de 2015 se llevó a cabo la Sesión de la Comisión de Planeación y Competitividad.';
-        $this->claves          = 'IMPLAN, Torreon, Comision, Planeacion';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
-        $this->poner_imagen_en_contenido = false;
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaSalaPrensaPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/SalaPrensa/ComisionPlaneacionCompetitividad20150819.html';
+        $this->descripcion                = 'El pasado 19 de agosto de 2015 se llevó a cabo la Sesión de la Comisión de Planeación y Competitividad.';
+        $this->claves                     = 'IMPLAN, Torreon, Comision, Planeacion';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu                = 'Sala de Prensa';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/SalaPrensa/ComisionPlaneacionCompetitividad20150819.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Gobierno');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array();
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase ComisionPlaneacionCompetitividad20150819

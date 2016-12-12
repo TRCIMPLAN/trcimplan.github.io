@@ -1,0 +1,258 @@
+/**
+ * Movimiento Libre
+ *
+ * Copyright (C) 2016 Guillermo Valdés Lozano
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+/*
+ * Global
+ */
+body {
+    font-family:'Droid Sans',sans-serif;
+    font-weight:400;
+    background-color:#12283B;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-family:'Droid Sans',sans-serif;
+    font-weight:700;
+    line-height:1.2;
+}
+a         { color:#1161A8; text-decoration:none; font-weight:700; }
+a:link,
+a:visited { color:#1161A8; text-decoration:none; }
+a:hover,
+a:active  { color:#0088FF; text-decoration:underline; }
+
+/*
+ * Page wrapper
+ */
+#page-wrapper  {
+    padding:0;
+}
+
+/*
+ * Navegación
+ */
+.navbar-default {
+    background-color:#12283B;
+    border-color:#827798;
+}
+.navbar-header { color:white; }
+.navbar-default,
+.navbar-default a,
+.navbar-default a:link,
+.navbar-default a:visited,
+.navbar-default a:hover,
+.navbar-default a:active               { color:white; }
+.navbar-brand,
+.navbar-brand a,
+.navbar-brand a:link,
+.navbar-brand a:visited,
+.navbar-brand a:hover,
+.navbar-brand a:active                 { color:white; }
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand a,
+.navbar-default .navbar-brand a:link,
+.navbar-default .navbar-brand a:visited,
+.navbar-default .navbar-brand a:hover,
+.navbar-default .navbar-brand a:active { color:white; }
+.navbar-static-top                     { background-color:#12283B; }
+#side-menu a,
+#side-menu a:link,
+#side-menu a:visited { color:#9FB7CC; background-color:#22374A; font-weight:400; }
+#side-menu a:hover,
+#side-menu a:active  { color:white; background-color:#4E6375; }
+.sidebar ul li       { border-bottom-color:#12283B; }
+
+/*
+ * Cuerpo
+ */
+.autor                  { background-color:#B4C0CD; }
+.encabezado             { border-bottom:1px solid #CCC; }
+.encabezado-descripcion { color:#666; }
+.encabezado-autor-fecha { color:#888; }
+.detallados-encabezado,
+.titulo                 { font-size:1.4em; line-height:1.2; }
+.detallados-descripcion,
+.descripcion            { font-size:1.2em; line-height:1.2; }
+.detallados-autor-fecha { font-size:1.0em; line-height:1.0; }
+
+/*
+ * En las presentaciones uso la clase diapositiva para que tengan sobra las vistas previas
+ */
+.diapositiva-sombra {
+    margin:12px 8px;
+    padding:0;
+    box-shadow:4px 4px 2px #888888;
+}
+
+/*
+ * Mapa inferior
+ */
+.mapa-inferior            { background-color:#BEC5CB; }
+.redes-sociales a,
+.redes-sociales a:link,
+.redes-sociales a:visited { color:#12283B; text-decoration:none; }
+.redes-sociales a:hover,
+.redes-sociales a:active  { color:#4E6375; text-decoration:none; }
+
+/*
+ * Página inicial
+ */
+#organizacion {
+    background-color:#003060;
+    background-image:url('../imagenes/encabezado.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height:190px;
+}
+#organizacion .encabezado {
+    color:white;
+    border-bottom:none;
+}
+#organizacion .encabezado-descripcion {
+    color:white;
+}
+#destacado {
+    padding:16px;
+    background-color:#C9D1D9;
+}
+#destacado .contenido-imagen-previa {
+    margin:8px;
+}
+#categorias { background-color:#BDD1E0; }
+#redes      { background-color:#BEC5CB; }
+
+/*
+ * Responsivo
+ */
+@media only screen and (max-width: 1190px) {
+    body {
+        font-size:14px;
+        line-height:1.2;
+    }
+    #destacado .contenido-imagen-previa {
+        width:112px;
+        height:112px;
+        margin:6px;
+    }
+    #ultimas-publicaciones .media-object {
+        width:112px;
+        height:112px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    h1, .h1 { font-size:24px; }
+    h2, .h2 { font-size:20px; }
+    h3, .h3 { font-size:18px; }
+    h4, .h4 { font-size:14px; }
+    h5, .h5 { font-size:12px; }
+    h6, .h6 { font-size:10px; }
+    body {
+        font-size:13px;
+        line-height:1.2;
+    }
+    .encabezado-descripcion {
+        font-size:13px;
+    }
+    .encabezado-autor-fecha {
+        font-size:10px;
+    }
+    .destacado-servicio {
+        min-height:110px;
+    }
+    #destacado .contenido-imagen-previa {
+        width:96px;
+        height:96px;
+        margin:0 4px;
+        float:left;
+    }
+    #ultimas-publicaciones .media-object {
+        width:96px;
+        height:96px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    h1, .h1 { font-size:22px; }
+    h2, .h2 { font-size:18px; }
+    h3, .h3 { font-size:16px; }
+    h4, .h4 { font-size:14px; }
+    h5, .h5 { font-size:12px; }
+    h6, .h6 { font-size:10px; }
+    body {
+        font-size:12px;
+        line-height:1.1;
+    }
+    .encabezado-descripcion {
+        font-size:12px;
+    }
+    .encabezado-autor-fecha {
+        font-size:9px;
+    }
+    .destacado-servicio {
+        min-height:90px;
+    }
+    #destacado .contenido-imagen-previa {
+        width:80px;
+        height:80px;
+        margin:0 4px;
+        float:left;
+    }
+    #ultimas-publicaciones .media-object {
+        width:80px;
+        height:80px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    h1, .h1 { font-size:18px; }
+    h2, .h2 { font-size:16px; }
+    h3, .h3 { font-size:14px; }
+    h4, .h4 { font-size:12px; }
+    h5, .h5 { font-size:11px; }
+    h6, .h6 { font-size:9px; }
+    body {
+        font-size:12px;
+        line-height:1.0;
+    }
+    .encabezado-descripcion {
+        font-size:11px;
+    }
+    .encabezado-autor-fecha {
+        font-size:9px;
+    }
+    .destacado-servicio {
+        min-height:70px;
+    }
+    #destacado .contenido-imagen-previa {
+        width:64px;
+        height:64px;
+        margin:0 2px;
+        float:left;
+    }
+    #ultimas-publicaciones .breve {
+        padding:4px;
+    }
+    #ultimas-publicaciones .media-object {
+        width:64px;
+        height:64px;
+    }
+}
