@@ -34,6 +34,7 @@ class SchemaDataset extends SchemaCreativeWork {
     // public $identation;          // Integer. Level of identation (beautiful code).
     // public $id_property;         // Text. id property for article/div tag. Use to aply a unique CSS style.
     // public $class_property;      // Text. class property for div tag. Use to aply a general CSS style.
+    // public $is_article;          // Boolean. Use true for enclose with <article>
     // public $big_heading;         // Boolean. Use true to use a big heading for the web page.
     // public $extra;               // Text. Additional HTML to put inside.
     // public $description;         // Text. A short description of the item.
@@ -87,16 +88,19 @@ class SchemaDataset extends SchemaCreativeWork {
         if (is_object($this->catalog) && ($this->catalog instanceof SchemaDataCatalog)) {
             $this->catalog->onTypeProperty = 'catalog';
             $this->catalog->identation     = $this->identation + 1;
+            $this->catalog->is_article     = FALSE;
             $a[] = $this->catalog->html();
         }
         if (is_object($this->distribution) && ($this->distribution instanceof SchemaDataDownload)) {
             $this->distribution->onTypeProperty = 'distribution';
             $this->distribution->identation     = $this->identation + 1;
+            $this->distribution->is_article     = FALSE;
             $a[] = $this->distribution->html();
         }
         if (is_object($this->spatial) && ($this->spatial instanceof SchemaPlace)) {
             $this->spatial->onTypeProperty = 'spatial';
             $this->spatial->identation     = $this->identation + 1;
+            $this->spatial->is_article     = FALSE;
             $a[] = $this->spatial->html();
         }
         $a[] = $this->temporal_html();

@@ -96,6 +96,7 @@ class SchemaOrganization extends SchemaThing {
         if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
             $this->address->onTypeProperty = 'address';
             $this->address->identation     = $this->identation + 1;
+            $this->address->is_article     = FALSE;
             $a[] = $this->address->html();
         }
         if ($ttel = $this->telephone_html()) {
@@ -110,6 +111,7 @@ class SchemaOrganization extends SchemaThing {
         if (is_object($this->location) && (($this->location instanceof SchemaPostalAddress) || ($this->location instanceof SchemaPlace))) {
             $this->location->onTypeProperty = 'location';
             $this->location->identation     = $this->identation + 1;
+            $this->location->is_article     = FALSE;
             $a[] = $this->address->html();
         }
         $a[] = $this->itemscope_end();

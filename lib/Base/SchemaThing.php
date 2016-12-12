@@ -187,7 +187,7 @@ class SchemaThing {
         }
         if ($this->onTypeProperty != '') {
             if ($this->is_article) {
-                return "  <article{$id_property}><div{$class_property} itemprop=\"{$this->onTypeProperty}\" {$itemscope}\">";
+                return "  <article{$id_property}><div{$class_property} itemprop=\"{$this->onTypeProperty}\" {$itemscope}>";
             } else {
                 return "  <div{$id_property}{$class_property} itemprop=\"{$this->onTypeProperty}\" {$itemscope}>";
             }

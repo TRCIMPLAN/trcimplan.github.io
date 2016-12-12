@@ -34,6 +34,7 @@ class SchemaPlace extends SchemaThing {
     // public $identation;          // Integer. Level of identation (beautiful code).
     // public $id_property;         // Text. id property for article/div tag. Use to aply a unique CSS style.
     // public $class_property;      // Text. class property for div tag. Use to aply a general CSS style.
+    // public $is_article;          // Boolean. Use true for enclose with <article>
     // public $big_heading;         // Boolean. Use true to use a big heading for the web page.
     // public $extra;               // Text. Additional HTML to put inside.
     // public $description;         // Text. A short description of the item.
@@ -94,16 +95,19 @@ class SchemaPlace extends SchemaThing {
         if (is_object($this->hasMap) && ($this->hasMap instanceof SchemaMap)) {
             $this->hasMap->onTypeProperty = 'hasMap';
             $this->hasMap->identation     = $this->identation + 1;
+            $this->hasMap->is_article     = FALSE;
             $a[] = $this->hasMap->html();
         }
         if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
             $this->address->onTypeProperty = 'address';
             $this->address->identation     = $this->identation + 1;
+            $this->address->is_article     = FALSE;
             $a[] = $this->address->html();
         }
         if (is_object($this->geo) && ($this->geo instanceof SchemaGeoCoordinates)) {
             $this->geo->onTypeProperty = 'geo';
             $this->geo->identation     = $this->identation + 1;
+            $this->geo->is_article     = FALSE;
             $a[] = $this->geo->html();
         }
         $a[] = $this->telephone_html();

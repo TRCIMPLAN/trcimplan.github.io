@@ -98,6 +98,7 @@ class SchemaProduct extends SchemaThing {
         if (is_object($this->manufacturer) && ($this->manufacturer instanceof SchemaOrganization)) {
             $this->address->onTypeProperty = 'manufacturer';
             $this->address->identation     = $this->identation + 1;
+            $this->address->is_article     = FALSE;
             $a[] = $this->manufacturer->html();
         }
         if ($trel = $this->relase_date_html()) {

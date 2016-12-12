@@ -34,6 +34,7 @@ class SchemaBlog extends SchemaCreativeWork {
     // public $identation;          // Integer. Level of identation (beautiful code).
     // public $id_property;         // Text. id property for article/div tag. Use to aply a unique CSS style.
     // public $class_property;      // Text. class property for div tag. Use to aply a general CSS style.
+    // public $is_article;          // Boolean. Use true for enclose with <article>
     // public $big_heading;         // Boolean. Use true to use a big heading for the web page.
     // public $extra;               // Text. Additional HTML to put inside.
     // public $description;         // Text. A short description of the item.
