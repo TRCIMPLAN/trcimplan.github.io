@@ -1,5 +1,9 @@
 User-Agent: *
+Disallow: /beta/
 Disallow: /bin/
 Disallow: /buscador-resultados.html
+Disallow: /desagregacion/
 Disallow: /include/
 Disallow: /lib/
+Disallow: /PEM/
+Disallow: /SMIv1/
