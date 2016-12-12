@@ -27,7 +27,7 @@ E_FATAL=99
 PLATAFORMA_DIR="$HOME/Documentos/GitHub/MovimientoLibre/movimientolibre.github.io"
 SITIO_WEB_DIR="$HOME/Documentos/GitHub/TrcIMPLAN/trcimplan.github.io"
 
-echo "[Copiar] Inicia"
+echo "[Copiar] los programas de la Plataforma del Conocimiento"
 echo "  Origen:  $PLATAFORMA_DIR"
 echo "  Destino: $SITIO_WEB_DIR"
 
@@ -73,9 +73,6 @@ rm -rf scss
 
 echo "  Eliminando en bin..."
 rm -f bin/Crear.php
-
-# echo "  Eliminando en css..."
-# rm -f css/plataforma-de-conocimiento.css
 
 echo "  Eliminando en lib..."
 rm -rf lib/Base
