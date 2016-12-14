@@ -30,22 +30,29 @@ namespace Base;
  */
 class SchemaProduct extends SchemaThing {
 
-    // public $onTypeProperty;      // Text. Use when this item is part of another one.
-    // public $identation;          // Integer. Level of identation (beautiful code).
-    // public $id_property;         // Text. id property for article/div tag. Use to aply a unique CSS style.
-    // public $class_property;      // Text. class property for div tag. Use to aply a general CSS style.
-    // public $is_article;          // Boolean. Use true for enclose with <article>
-    // public $big_heading;         // Boolean. Use true to use a big heading for the web page.
-    // public $extra;               // Text. Additional HTML to put inside.
-    // public $description;         // Text. A short description of the item.
-    // public $image;               // URL or ImageObject. An image of the item.
-    // public $image_show;          // Boolean. Use true to put an img tag. Use false to put a meta tag.
-    // public $name;                // Text. The name of the item.
-    // public $url;                 // URL of the item.
-    // public $url_label;           // Label for the URL of the item.
-    public $logo;                   // ImageObject or URL. An associated logo.
-    public $manufacturer;           // Organization. The manufacturer of the product.
-    public $releaseDate;            // Date. The release date of a product or product model. This can be used to distinguish the exact variant of a product.
+    // En Schema
+    // public $onTypeProperty;  // Text. Use when this item is part of another one.
+    // public $identation;      // Integer. Level of identation (beautiful code).
+    // public $id_property;     // Text. id property for article/div tag. Use to aply a unique CSS style.
+    // public $class_property;  // Text. class property for div tag. Use to aply a general CSS style.
+    // public $is_article;      // Boolean. Use true for enclose with <article>
+    // En SchemaThing
+    // public $big_heading;     // Boolean. Use true to use a big heading for the web page.
+    // public $headline;        // Text. Headline of the article.
+    // public $headline_style;  // Text. CSS style or Hex color.
+    // public $headline_icon;   // Text. Font Awsome icon.
+    // public $content;         // Text. HTML content to put INSIDE.
+    // public $extra;           // Text. Additional HTML to put ASIDE.
+    // public $description;     // Text. A short description of the item.
+    // public $image;           // URL or ImageObject. An image of the item.
+    // public $image_show;      // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    // public $name;            // Text. The name of the item.
+    // public $url;             // URL of the item.
+    // public $url_label;       // Label for the URL of the item.
+    // En SchemaProduct
+    public $logo;               // ImageObject or URL. An associated logo.
+    public $manufacturer;       // Organization. The manufacturer of the product.
+    public $releaseDate;        // Date. The release date of a product or product model. This can be used to distinguish the exact variant of a product.
 
     /**
      * Logo HTML
@@ -83,7 +90,7 @@ class SchemaProduct extends SchemaThing {
      * @return string Código HTML
      */
     public function html() {
-        // Acumularemos la entrega en este arreglo
+        // Iniciar acumulador
         $a = array();
         // Acumular
         $a[] = $this->itemscope_start('itemscope itemtype="http://schema.org/Product"');
@@ -96,24 +103,18 @@ class SchemaProduct extends SchemaThing {
             $a[] = $this->description_html();
         }
         if (is_object($this->manufacturer) && ($this->manufacturer instanceof SchemaOrganization)) {
-            $this->address->onTypeProperty = 'manufacturer';
-            $this->address->identation     = $this->identation + 1;
-            $this->address->is_article     = FALSE;
-            $a[] = $this->manufacturer->html();
+            $this->manufacturer->onTypeProperty = 'manufacturer';
+            $this->manufacturer->identation     = $this->identation + 1;
+            $this->manufacturer->is_article     = FALSE;
+            $a[]                                = $this->manufacturer->html();
         }
-        if ($trel = $this->relase_date_html()) {
-            $a[] = $trel;
-        }
-        if ($turl = $this->url_html()) {
-            $a[] = $turl;
-        }
+        $a[] = $this->relase_date_html();
+        $a[] = $this->url_html();
+        $a[] = $this->content_html();
         $a[] = $this->itemscope_end();
-        if ($this->extra != '') {
-            $a[] = "<aside>{$this->extra}</aside>";
-        }
+        $a[] = $this->extra_html();
         // Entregar
-        $spaces = str_repeat('  ', $this->identation);
-        return implode("\n$spaces", $a);
+        return $this->clean_html($a);
     } // html
 
 } // Clase SchemaProduct

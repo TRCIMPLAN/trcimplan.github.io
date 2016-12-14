@@ -30,116 +30,30 @@ namespace Base;
  */
 class SchemaCreativeWork extends SchemaThing {
 
-    // public $onTypeProperty;      // Text. Use when this item is part of another one.
-    // public $identation;          // Integer. Level of identation (beautiful code).
-    // public $id_property;         // Text. id property for article/div tag. Use to aply a unique CSS style.
-    // public $class_property;      // Text. class property for div tag. Use to aply a general CSS style.
-    // public $is_article;          // Boolean. Use true for enclose with <article>
-    // public $big_heading;         // Boolean. Use true to use a big heading for the web page.
-    // public $extra;               // Text. Additional HTML to put inside.
-    // public $description;         // Text. A short description of the item.
-    // public $image;               // URL or ImageObject. An image of the item.
-    // public $image_show;          // Boolean. Use true to put an img tag. Use false to put a meta tag.
-    // public $name;                // Text. The name of the item.
-    // public $url;                 // URL of the item.
-    // public $url_label;           // Label for the URL of the item.
-    public $author;                 // Organization or Person. The author of this content.
-    public $contentLocation;        // Place. The location of the content.
-    public $datePublished;          // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30
-    public $headline;               // Text. Headline of the article.
-    public $headline_style;         // Text. CSS style for encabezado.
-    public $headline_icon;          // Text. Font Awsome icon for encabezado.
-    public $producer;               // Organization or Person. The person or organization who produced the work.
-
-    /**
-     * Headline HTML
-     *
-     * @return string Código HTML
-     */
-    protected function headline_html() {
-        if ($this->headline != '') {
-            if ($this->name == '') {
-                $this->name = $this->headline;
-                return sprintf('  <h1 itemprop="name">%s</h1>', $this->headline);
-            } elseif ($this->name != $this->headline) {
-                return sprintf("  <h1 itemprop=\"headline\">%s</h1>\n    <h4 itemprop=\"name\">%s</h4>", $this->headline, $this->name);
-            }
-        } elseif ($this->name != '') {
-            $this->headline = $this->name;
-            return sprintf('  <h1 itemprop="name">%s</h1>', $this->name);
-        } else {
-            return '';
-        }
-    } // headline_html
-
-    /**
-     * Author Date Published HTML
-     *
-     * @return string Código HTML
-     */
-    protected function author_date_published_html() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Si author es un arreglo o si es un texto
-        if (is_array($this->author) && (count($this->author) > 0)) {
-            $author = implode(', ', $this->author);
-        } elseif (is_string($this->author) && ($this->author != '')) {
-            $author = $this->author;
-        } else {
-            $author = '';
-        }
-        // Acumular
-        if (($author != '') && ($this->datePublished != '')) {
-            $a[] = '<div class="encabezado-autor-fecha">';
-            $a[] = sprintf('  Por <span itemprop="author">%s</span>', $author);
-            $a[] = sprintf('  - <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
-            $a[] = '</div>';
-        } elseif ($this->datePublished != '') {
-            $a[] = '<div class="encabezado-autor-fecha">';
-            $a[] = sprintf('  <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
-            $a[] = '</div>';
-        } elseif ($author != '') {
-            $a[] = '<div class="encabezado-autor-fecha">';
-            $a[] = sprintf('  Por <span itemprop="author">%s</span>', $author);
-            $a[] = '</div>';
-        }
-        // Entregar
-        if (count($a) > 0) {
-            $spaces = str_repeat('  ', $this->identation + 1);
-            return $spaces.implode("\n$spaces", $a);
-        } else {
-            return '';
-        }
-    } // author_date_published_html
-
-    /**
-     * Big Heading HTML
-     *
-     * @return string Código HTML
-     */
-    protected function big_heading_html() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Puede recibir un estilo o un color hexadecimal
-        if ($this->headline_style != '') {
-            if (preg_match('/^#[[:xdigit:]]{6}$/', $this->headline_style) === 1) {
-                $a[] = "<div class=\"encabezado\" style=\"background-color:{$this->headline_style};\">";
-            } else {
-                $a[] = "<div class=\"encabezado\" style=\"{$this->headline_style};\">";
-            }
-        } else {
-            $a[] = "<div class=\"encabezado\">";
-        }
-        $a[] = $this->headline_html();
-        if ($this->description != '') {
-            $a[] = "  <div class=\"encabezado-descripcion\" itemprop=\"description\">{$this->description}</div>";
-        }
-        $a[] = $this->author_date_published_html();
-        $a[] = "</div>";
-        // Entregar
-        $spaces = str_repeat('  ', $this->identation + 1);
-        return $spaces.implode("\n$spaces", $a);
-    } // big_heading_html
+    // En Schema
+    // public $onTypeProperty;  // Text. Use when this item is part of another one.
+    // public $identation;      // Integer. Level of identation (beautiful code).
+    // public $id_property;     // Text. id property for article/div tag. Use to aply a unique CSS style.
+    // public $class_property;  // Text. class property for div tag. Use to aply a general CSS style.
+    // public $is_article;      // Boolean. Use true for enclose with <article>
+    // En SchemaThing
+    // public $big_heading;     // Boolean. Use true to use a big heading for the web page.
+    // public $headline;        // Text. Headline of the article.
+    // public $headline_style;  // Text. CSS style or Hex color.
+    // public $headline_icon;   // Text. Font Awsome icon.
+    // public $content;         // Text. HTML content to put INSIDE.
+    // public $extra;           // Text. Additional HTML to put ASIDE.
+    // public $description;     // Text. A short description of the item.
+    // public $image;           // URL or ImageObject. An image of the item.
+    // public $image_show;      // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    // public $name;            // Text. The name of the item.
+    // public $url;             // URL of the item.
+    // public $url_label;       // Label for the URL of the item.
+    // En SchemaCreativeWork
+    public $author;             // Organization or Person. The author of this content.
+    public $contentLocation;    // Place. The location of the content.
+    public $datePublished;      // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30
+    public $producer;           // Organization or Person. The person or organization who produced the work.
 
     /**
      * HTML
@@ -147,25 +61,28 @@ class SchemaCreativeWork extends SchemaThing {
      * @return string Código HTML
      */
     public function html() {
-        // Acumularemos la entrega en este arreglo
+        // Iniciar acumulador
         $a = array();
         // Acumular
         $a[] = $this->itemscope_start('itemscope itemtype="http://schema.org/CreativeWork"');
-        $a[] = $this->big_heading_html();
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
+        } else {
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
+        }
         $a[] = $this->image_html();
         if (is_object($this->contentLocation) && ($this->contentLocation instanceof SchemaPlace)) {
             $this->contentLocation->onTypeProperty = 'contentLocation';
             $this->contentLocation->identation     = $this->identation + 1;
             $this->contentLocation->is_article     = FALSE;
-            $a[] = $this->contentLocation->html();
+            $a[]                                   = $this->contentLocation->html();
         }
+        $a[] = $this->content_html();
         $a[] = $this->itemscope_end();
-        if ($this->extra != '') {
-            $a[] = "<aside>{$this->extra}</aside>";
-        }
+        $a[] = $this->extra_html();
         // Entregar
-        $spaces = str_repeat('  ', $this->identation);
-        return implode("\n$spaces", $a);
+        return $this->clean_html($a);
     } // html
 
 } // Clase SchemaCreativeWork

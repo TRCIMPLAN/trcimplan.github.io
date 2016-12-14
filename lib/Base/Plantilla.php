@@ -252,6 +252,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
+        $a[] = '<!-- Javascript común -->';
         if ($this->scripts_jquery_js != '') {
             $a[] = $this->scripts_jquery_js;
         }
@@ -288,7 +289,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = $externo_js;
             }
         }
-        if (is_array($this->javascript)) {
+        if (is_array($this->javascript) && (count($this->javascript) > 0)) {
             $b = array();
             foreach ($this->javascript as $js) {
                 if (trim($js) != '') {
@@ -300,19 +301,17 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 }
             }
             if (count($b) > 0) {
-                $a[] = implode("\n", $b);
+                $a[] = "<!-- Javascript: Inicia  -->\n".implode("\n", $b)."\n<!-- Javascript: Termina -->";
             }
         } elseif (is_string($this->javascript) && (trim($this->javascript) != '')) {
-            if (substr(trim($this->javascript), 0, 8) == '<script ') {
-                $a[] = $this->javascript;
+            if (substr(trim($this->javascript), 0, 7) == '<script') {
+                $a[] = "<!-- Javascript -->\n".$this->javascript;
             } else {
-                $a[] = '<script>';
-                $a[] = $this->javascript;
-                $a[] = '</script>';
+                $a[] = "<!-- Javascript -->\n<script>\n{$this->javascript}\n</script>";
             }
         }
-        if (isset($this->google_analytics)) {
-            $a[] = $this->google_analytics;
+        if (is_string($this->google_analytics) && ($this->google_analytics != '')) {
+            $a[] = "<!-- Google Analytics -->\n{$this->google_analytics}";
         }
         // Entregar
         return implode("\n", $a);

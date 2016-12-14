@@ -142,10 +142,12 @@ class Completo {
         $a = array();
         // Acumular Javascript de la publicación
         $js = $this->publicacion->javascript();
-        if (substr(trim($js), 0, 7) == '<script') {
-            $a[] = $js;
-        } else {
-            $a[] = "<script>\n$js\n</script>";
+        if (is_string($js) && (trim($js) != '')) {
+            if (substr(trim($js), 0, 7) == '<script') {
+                $a[] = $js;
+            } else {
+                $a[] = "<script>\n$js\n</script>";
+            }
         }
         // Acumular Javascript de Twitter
         if ($this->publicacion->para_compartir && (strtolower($this->publicacion->estado) == 'publicar')) {
@@ -157,7 +159,11 @@ class Completo {
 FINAL;
         }
         // Entregar
-        return implode("\n", $a);
+        if (count($a) > 0) {
+            return implode("\n", $a);
+        } else {
+            return '';
+        }
     } // javascript
 
 } // Clase Completo

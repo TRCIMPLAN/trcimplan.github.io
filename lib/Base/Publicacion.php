@@ -361,7 +361,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
         $this->validar();
         // Entregar verdadero si es derivado de SchemaCreativeWork
         if (is_object($this->contenido)) {
-            if ($this->contenido instanceof SchemaCreativeWork) {
+            if ($this->contenido instanceof Schema) {
                 return true;
             } else {
                 return false;

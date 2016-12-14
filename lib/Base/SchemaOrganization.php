@@ -30,23 +30,30 @@ namespace Base;
  */
 class SchemaOrganization extends SchemaThing {
 
-    // public $onTypeProperty;      // Text. Use when this item is part of another one.
-    // public $identation;          // Integer. Level of identation (beautiful code).
-    // public $id_property;         // Text. id property for article/div tag. Use to aply a unique CSS style.
-    // public $class_property;      // Text. class property for div tag. Use to aply a general CSS style.
-    // public $is_article;          // Boolean. Use true for enclose with <article>
-    // public $big_heading;         // Boolean. Use true to use a big heading for the web page.
-    // public $extra;               // Text. Additional HTML to put inside.
-    // public $description;         // Text. A short description of the item.
-    // public $image;               // URL or ImageObject. An image of the item.
-    // public $image_show;          // Boolean. Use true to put an img tag. Use false to put a meta tag.
-    // public $name;                // Text. The name of the item.
-    // public $url;                 // URL of the item.
-    // public $url_label;           // Label for the URL of the item.
-    public $address;                // Instance of SchemaPostalAddress. Physical address of the item.
-    public $email;                  // Text. Email address.
-    public $location;               // Instance of SchemaPostalAddress or SchemaPlace. The location of the event, organization or action.
-    public $telephone;              // Text. The telephone number.
+    // En Schema
+    // public $onTypeProperty;  // Text. Use when this item is part of another one.
+    // public $identation;      // Integer. Level of identation (beautiful code).
+    // public $id_property;     // Text. id property for article/div tag. Use to aply a unique CSS style.
+    // public $class_property;  // Text. class property for div tag. Use to aply a general CSS style.
+    // public $is_article;      // Boolean. Use true for enclose with <article>
+    // En SchemaThing
+    // public $big_heading;     // Boolean. Use true to use a big heading for the web page.
+    // public $headline;        // Text. Headline of the article.
+    // public $headline_style;  // Text. CSS style or Hex color.
+    // public $headline_icon;   // Text. Font Awsome icon.
+    // public $content;         // Text. HTML content to put INSIDE.
+    // public $extra;           // Text. Additional HTML to put ASIDE.
+    // public $description;     // Text. A short description of the item.
+    // public $image;           // URL or ImageObject. An image of the item.
+    // public $image_show;      // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    // public $name;            // Text. The name of the item.
+    // public $url;             // URL of the item.
+    // public $url_label;       // Label for the URL of the item.
+    // En SchemaOrganization
+    public $address;            // PostalAddress. Physical address of the item.
+    public $email;              // Text. Email address.
+    public $location;           // PostalAddress or Place. The location of the event, organization or action.
+    public $telephone;          // Text. The telephone number.
 
     /**
      * e-mail HTML
@@ -80,7 +87,7 @@ class SchemaOrganization extends SchemaThing {
      * @return string Código HTML
      */
     public function html() {
-        // Acumularemos la entrega en este arreglo
+        // Iniciar acumulador
         $a = array();
         // Acumular
         $a[] = $this->itemscope_start('itemscope itemtype="http://schema.org/Organization"');
@@ -90,37 +97,27 @@ class SchemaOrganization extends SchemaThing {
             $a[] = $this->title_html();
             $a[] = $this->description_html();
         }
-        if ($timg = $this->image_html()) {
-            $a[] = $timg;
-        }
+        $a[] = $this->image_html();
         if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
             $this->address->onTypeProperty = 'address';
             $this->address->identation     = $this->identation + 1;
             $this->address->is_article     = FALSE;
-            $a[] = $this->address->html();
+            $a[]                           = $this->address->html();
         }
-        if ($ttel = $this->telephone_html()) {
-            $a[] = $ttel;
-        }
-        if ($tema = $this->email_html()) {
-            $a[] = $tema;
-        }
-        if ($turl = $this->url_html()) {
-            $a[] = $turl;
-        }
+        $a[] = $this->telephone_html();
+        $a[] = $this->email_html();
+        $a[] = $this->url_html();
         if (is_object($this->location) && (($this->location instanceof SchemaPostalAddress) || ($this->location instanceof SchemaPlace))) {
             $this->location->onTypeProperty = 'location';
             $this->location->identation     = $this->identation + 1;
             $this->location->is_article     = FALSE;
-            $a[] = $this->address->html();
+            $a[]                            = $this->location->html();
         }
+        $a[] = $this->content_html();
         $a[] = $this->itemscope_end();
-        if ($this->extra != '') {
-            $a[] = "<aside>{$this->extra}</aside>";
-        }
+        $a[] = $this->extra_html();
         // Entregar
-        $spaces = str_repeat('  ', $this->identation);
-        return implode("\n$spaces", $a);
+        return $this->clean_html($a);
     } // html
 
 } // Clase SchemaOrganization

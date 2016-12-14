@@ -48,7 +48,7 @@ class Contacto extends \Base\Publicacion {
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado         = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir = false;
+        $this->para_compartir = FALSE;
         // El contenido es estructurado en un esquema de Organización Gubernamental
         $this->contenido      = new \Base\SchemaGovernmentOrganization();
     } // constructor
@@ -86,11 +86,11 @@ class Contacto extends \Base\Publicacion {
 
 FINAL;
         // Definir los datos de la Organización Gubernamental, en el constructor se inició
-        $this->contenido->big_heading = false;
+        $this->contenido->big_heading = TRUE;
         $this->contenido->name        = 'Instituto Municipal de Planeación y Competitividad de Torreón';
         $this->contenido->description = 'Órgano técnico responsable de la planeación municipal del desarrollo del municipio de Torreón, Coahuila, México.';
         $this->contenido->image       = '../imagenes/trcimplan.jpg';
-        $this->contenido->image_show  = true;
+        $this->contenido->image_show  = TRUE;
         $this->contenido->url         = 'http://www.trcimplan.gob.mx';
         $this->contenido->url_label   = 'www.trcimplan.gob.mx';
         $this->contenido->telephone   = '(871) 500 7078';

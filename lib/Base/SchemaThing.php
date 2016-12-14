@@ -28,57 +28,76 @@ namespace Base;
  * The most generic type of item.
  * http://schema.org/Thing
  */
-class SchemaThing {
+class SchemaThing extends Schema {
 
-    public $onTypeProperty;      // Text. Use when this item is part of another one.
-    public $identation;          // Integer. Level of identation (beautiful code).
-    public $id_property;         // Text. id property for article/div tag. Use to aply a unique CSS style.
-    public $class_property;      // Text. class property for div tag. Use to aply a general CSS style.
-    public $is_article;          // Boolean. Use true for enclose with <article>
-    public $big_heading;         // Boolean. Use true to use a big heading for the web page.
-    public $headline_style;      // Text. Style or Hex Color for big heading.
-    public $extra;               // Text. Additional HTML to put inside.
-    public $description;         // Text. A short description of the item.
-    public $image;               // URL or ImageObject. An image of the item.
-    public $image_show;          // Boolean. Use true to put an img tag. Use false to put a meta tag.
-    public $name;                // Text. The name of the item.
-    public $url;                 // URL of the item.
-    public $url_label;           // Label for the URL of the item.
+    // En Schema
+    // public $onTypeProperty;  // Text. Use when this item is part of another one.
+    // public $identation;      // Integer. Level of identation (beautiful code).
+    // public $id_property;     // Text. id property for article/div tag. Use to aply a unique CSS style.
+    // public $class_property;  // Text. class property for div tag. Use to aply a general CSS style.
+    // public $is_article;      // Boolean. Use true for enclose with <article>
+    // En SchemaThing
+    public $big_heading;        // Boolean. Use true to use a big heading for the web page.
+    public $headline;           // Text. Headline of the article.
+    public $headline_style;     // Text. CSS style or Hex color.
+    public $headline_icon;      // Text. Font Awsome icon.
+    public $content;            // Text. HTML content to put INSIDE.
+    public $extra;              // Text. Additional HTML to put ASIDE.
+    public $description;        // Text. A short description of the item.
+    public $image;              // URL or ImageObject. An image of the item.
+    public $image_show;         // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    public $name;               // Text. The name of the item.
+    public $url;                // URL of the item.
+    public $url_label;          // Label for the URL of the item.
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->identation  = 3;
-        $this->is_article  = true;
-        $this->big_heading = false;
-        $this->image_show  = false;
-    } // construct
+        parent::__construct();
+        $this->big_heading = FALSE; // Por defecto NO se usa el encabezado grande
+        $this->image_show  = FALSE; // Por defecto es INVISIBLE con tag meta
+    } // constructor
 
     /**
-     * Fecha con formato humano
+     * Author Date Published HTML
      *
-     * @return string Fecha en el formato DD/MM/YYYY hh:mm
+     * @return string Código HTML
      */
-    protected function fecha_con_formato_humano($in_fecha) {
-        $t = strtotime($in_fecha);
-        if ($t === false) {
-            return ''; // Fecha mal escrita, no se entrega nada
+    protected function author_date_published_html() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Si author es un arreglo o si es un texto
+        if (is_array($this->author) && (count($this->author) > 0)) {
+            $author = implode(', ', $this->author);
+        } elseif (is_string($this->author) && ($this->author != '')) {
+            $author = $this->author;
         } else {
-            // Sí se interpretó bien
-            $a      = getdate($t);
-            $ano    = $a['year'];
-            $mes    = $a['mon'];
-            $dia    = $a['mday'];
-            $hora   = $a['hours'];
-            $minuto = $a['minutes'];
-            if (($hora > 0) || ($minuto > 00)) {
-                return sprintf('%02d/%02d/%04d %02d:%02d', $dia, $mes, $ano, $hora, $minuto);
-            } else {
-                return sprintf('%02d/%02d/%04d', $dia, $mes, $ano);
-            }
+            $author = '';
         }
-    } // fecha_con_formato_humano
+        // Acumular
+        if (($author != '') && ($this->datePublished != '')) {
+            $a[] = '<div class="encabezado-autor-fecha">';
+            $a[] = sprintf('  Por <span itemprop="author">%s</span> -', $author);
+            $a[] = sprintf('  <meta itemprop="datePublished" content="%s">%s', $this->datePublished, Funciones::fecha_con_formato_humano($this->datePublished));
+            $a[] = '</div>';
+        } elseif ($this->datePublished != '') {
+            $a[] = '<div class="encabezado-autor-fecha">';
+            $a[] = sprintf('  <meta itemprop="datePublished" content="%s">%s', $this->datePublished, Funciones::fecha_con_formato_humano($this->datePublished));
+            $a[] = '</div>';
+        } elseif ($author != '') {
+            $a[] = '<div class="encabezado-autor-fecha">';
+            $a[] = sprintf('  Por <span itemprop="author">%s</span>', $author);
+            $a[] = '</div>';
+        }
+        // Entregar
+        if (count($a) > 0) {
+            $spaces = str_repeat('  ', $this->identation + 3);
+            return '  '.implode("\n$spaces", $a);
+        } else {
+            return '';
+        }
+    } // author_date_published_html
 
     /**
      * Big Heading HTML
@@ -98,17 +117,25 @@ class SchemaThing {
         } else {
             $a[] = "<div class=\"encabezado\">";
         }
-        // Acumular
-        if ($this->name != '') {
-            $a[] = "  <h1 itemprop=\"name\">{$this->name}</h1>";
+        if ($this->headline != '') {
+            if ($this->name == '') {
+                $this->name = $this->headline;
+                $a[] = sprintf('  <h1 itemprop="name">%s</h1>', $this->headline);
+            } elseif ($this->name != $this->headline) {
+                $a[] = sprintf('  <h1 itemprop="headline">%s</h1><h4 itemprop="name">%s</h4>', $this->headline, $this->name);
+            }
+        } elseif ($this->name != '') {
+            $this->headline = $this->name;
+            $a[] = sprintf('  <h1 itemprop="name">%s</h1>', $this->name);
         }
         if ($this->description != '') {
             $a[] = "  <div class=\"encabezado-descripcion\" itemprop=\"description\">{$this->description}</div>";
         }
+        $a[] = $this->author_date_published_html();
         $a[] = "</div>";
         // Entregar
-        $spaces = str_repeat('  ', $this->identation + 1);
-        return $spaces.implode("\n$spaces", $a);
+        $spaces = str_repeat('  ', $this->identation + 2);
+        return '  '.implode("\n$spaces", $a);
     } // big_heading_html
 
     /**
@@ -176,41 +203,40 @@ class SchemaThing {
     } // url_html
 
     /**
-     * Itemscope start
+     * Content HTML
+     *
+     * Pone contenido dentro
      */
-    protected function itemscope_start($itemscope) {
-        if ($this->id_property != '') {
-            $id_property = " id=\"{$this->id_property}\"";
-        }
-        if ($this->class_property != '') {
-            $class_property = " class=\"{$this->class_property}\"";
-        }
-        if ($this->onTypeProperty != '') {
-            if ($this->is_article) {
-                return "  <article{$id_property}><div{$class_property} itemprop=\"{$this->onTypeProperty}\" {$itemscope}>";
-            } else {
-                return "  <div{$id_property}{$class_property} itemprop=\"{$this->onTypeProperty}\" {$itemscope}>";
-            }
+    protected function content_html() {
+        if ($this->content != '') {
+            $a      = array();
+            $a[]    = '<!-- Contenido: Inicia  -->';
+            $a[]    = $this->content;
+            $a[]    = '<!-- Contenido: Termina -->';
+            return implode("\n  ", $a);
         } else {
-            $spaces = str_repeat('  ', $this->identation);
-            if ($this->is_article) {
-                return "{$spaces}<article{$id_property}><div{$class_property} {$itemscope}>";
-            } else {
-                return "{$spaces}<div{$id_property}{$class_property} {$itemscope}>";
-            }
+            return '';
         }
-    } // itemscope_start
+    } // content_html
 
     /**
-     * Itemscope end
+     * Extra
+     *
+     * Pone contenido entre tags aside
      */
-    protected function itemscope_end() {
-        if ($this->is_article) {
-            return '</div></article>';
+    protected function extra_html() {
+        if ($this->extra != '') {
+            $a      = array();
+            $a[]    = '<aside>';
+            $a[]    = '<!-- Extra: Inicia  -->';
+            $a[]    = $this->extra;
+            $a[]    = '<!-- Extra: Termina -->';
+            $a[]    = '</aside>';
+            return implode("\n  ", $a);
         } else {
-            return '</div>';
+            return '';
         }
-    } // itemscope_end
+    } // extra_html
 
     /**
      * HTML
@@ -218,7 +244,7 @@ class SchemaThing {
      * @return string Código HTML
      */
     public function html() {
-        // Acumularemos la entrega en este arreglo
+        // Iniciar acumulador
         $a = array();
         // Acumular
         $a[] = $this->itemscope_start('itemscope itemtype="http://schema.org/Thing"');
@@ -230,23 +256,12 @@ class SchemaThing {
         }
         $a[] = $this->image_html();
         $a[] = $this->url_html();
+        $a[] = $this->content_html();
         $a[] = $this->itemscope_end();
-        if ($this->extra != '') {
-            $a[] = "<aside>{$this->extra}</aside>";
-        }
+        $a[] = $this->extra_html();
         // Entregar
-        $spaces = str_repeat('  ', $this->identation);
-        return implode("\n$spaces", $a);
+        return $this->clean_html($a);
     } // html
-
-    /**
-     * Javascript
-     *
-     * @return String Texto vacío porque no hay Javascript
-     */
-    public function javascript() {
-        return '';
-    } // javascript
 
 } // Clase SchemaThing
 

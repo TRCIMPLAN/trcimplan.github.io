@@ -44,6 +44,31 @@ class Funciones {
     } // caracteres_azar
 
     /**
+     * Fecha con formato humano
+     *
+     * @return string Fecha en el formato DD/MM/YYYY hh:mm
+     */
+    public static function fecha_con_formato_humano($in_fecha) {
+        $t = strtotime($in_fecha);
+        if ($t === false) {
+            return ''; // Fecha mal escrita, no se entrega nada
+        } else {
+            // Sí se interpretó bien
+            $a      = getdate($t);
+            $ano    = $a['year'];
+            $mes    = $a['mon'];
+            $dia    = $a['mday'];
+            $hora   = $a['hours'];
+            $minuto = $a['minutes'];
+            if (($hora > 0) || ($minuto > 00)) {
+                return sprintf('%02d/%02d/%04d %02d:%02d', $dia, $mes, $ano, $hora, $minuto);
+            } else {
+                return sprintf('%02d/%02d/%04d', $dia, $mes, $ano);
+            }
+        }
+    } // fecha_con_formato_humano
+
+    /**
      * Caracteres para web
      *
      * @param  string  Nombre a convertir, puede tener a-zA-Z0-9áÁéÉíÍóÓúÚüÜñÑ() .,_-
