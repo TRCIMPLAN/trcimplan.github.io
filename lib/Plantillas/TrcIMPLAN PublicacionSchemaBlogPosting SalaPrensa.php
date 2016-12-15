@@ -36,7 +36,7 @@ class CLASE extends \Base\PublicacionSchemaBlogPosting {
     //  $this->autor                      = '';
         $this->fecha                      = '2016-00-00T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '2016-00-00-sesion-ordinaria';
+        $this->archivo                    = '';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Descripción.';
         $this->claves                     = 'IMPLAN, Torreon, ';

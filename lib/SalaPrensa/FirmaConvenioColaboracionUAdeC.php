@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - CLASE
+ * TrcIMPLAN Sitio Web - FirmaConvenioColaboracionUAdeC
  *
  * Copyright (C) 2016 IMPLAN Torreón
  *
@@ -20,30 +20,30 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace PET;
+namespace SalaPrensa;
 
 /**
- * Clase CLASE
+ * Clase FirmaConvenioColaboracionUAdeC
  */
-class CLASE extends \Base\PublicacionSchemaBlogPosting {
+class FirmaConvenioColaboracionUAdeC extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                     = 'Título';
-        $this->autor                      = '';
-        $this->fecha                      = '2016-00-00T00:00';
+        $this->nombre                     = 'El IMPLAN y la Escuela de Arquitectura de la UAC firman convenio de colaboración';
+    //  $this->autor                      = '';
+        $this->fecha                      = '2016-12-15T12:43';
         // El nombre del archivo a crear
-        $this->archivo                    = '';
+        $this->archivo                    = '2016-12-15-firma-convenio-colaboracion-uadec';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Descripción.';
+        $this->descripcion                = 'La Escuela de Arquitectura de la Universidad Autónoma de Coahuila (UAC) cuenta con 270 alumnos inscritos. Los que cursan a partir del sexto semestre podrán prestar 480 horas de servicio social en esta institución.';
         $this->claves                     = 'IMPLAN, Torreon, ';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
+        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/PET/CLASE.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/FirmaConvenioColaboracionUAdeC.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
@@ -53,6 +53,6 @@ class CLASE extends \Base\PublicacionSchemaBlogPosting {
         $this->regiones                   = array();
     } // constructor
 
-} // Clase CLASE
+} // Clase FirmaConvenioColaboracionUAdeC
 
 ?>

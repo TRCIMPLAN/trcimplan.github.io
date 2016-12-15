@@ -31,26 +31,27 @@ class Contacto extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre         = 'Medios de contacto';
-     // $this->autor          = '';
-        $this->fecha          = '2014-05-01T08:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo        = 'contacto';
-     // $this->imagen         = 'contacto/imagen.jpg';
-     // $this->imagen_previa  = 'contacto/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion    = 'Datos de contacto como redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
-        $this->claves         = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
-        $this->categorias     = array('Contacto');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio     = 'contacto';
-        $this->nombre_menu    = 'Contacto > Medios de contacto';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado         = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir = FALSE;
+        $this->nombre                    = 'Medios de contacto';
+    //  $this->autor                     = '';
+        $this->fecha                     = '2014-05-01T08:00';
+        // El nombre del archivo a crear
+        $this->archivo                   = 'contacto';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion               = 'Datos de contacto como redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
+        $this->claves                    = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
+        // Opción del menú Navegación a poner como activa
+        $this->nombre_menu               = 'Contacto > Medios de contacto';
+        // Banderas
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->para_compartir            = FALSE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                    = 'publicar';
+        // Para el Organizador
+        $this->categorias                = array();
+        $this->fuentes                   = array();
+        $this->regiones                  = array();
         // El contenido es estructurado en un esquema de Organización Gubernamental
-        $this->contenido      = new \Base\SchemaGovernmentOrganization();
+        $this->contenido                 = new \Base\SchemaGovernmentOrganization();
     } // constructor
 
     /**
@@ -60,21 +61,20 @@ class Contacto extends \Base\Publicacion {
      */
     public function html() {
         // Definir Dirección
-        $direccion                  = new \Base\SchemaPostalAddress();
-        $direccion->name            = 'Antiguo Edificio del Banco de México, segundo piso.';
-        $direccion->streetAddress   = 'Av. Morelos 1217 Pte. esquina con C. Cepeda. Col. Centro.';
-        $direccion->addressLocality = 'Torreón';
-        $direccion->addressRegion   = 'Coahuila';
-        $direccion->addressCountry  = 'MX';
-        $direccion->postalCode      = '27000';
+        $direccion                    = new \Base\SchemaPostalAddress();
+        $direccion->name              = 'Antiguo Edificio del Banco de México, segundo piso.';
+        $direccion->streetAddress     = 'Av. Morelos 1217 Pte. esquina con C. Cepeda. Col. Centro.';
+        $direccion->addressLocality   = 'Torreón';
+        $direccion->addressRegion     = 'Coahuila';
+        $direccion->addressCountry    = 'MX';
+        $direccion->postalCode        = '27000';
         // Definir Ubicación
-        $ubicacion                 = new \Base\SchemaPlace();
-     // $ubicacion->name           = 'Location: Antiguo Edificio del Banco de México, segundo piso.';
-        $ubicacion->geo            = new \Base\SchemaGeoCoordinates();
-        $ubicacion->geo->name      = 'Antiguo Edificio del Banco de México';
-        $ubicacion->geo->latitude  = 25.5393;
-        $ubicacion->geo->longitude = -103.4622;
-        $ubicacion->extra          = <<<FINAL
+        $ubicacion                    = new \Base\SchemaPlace();
+        $ubicacion->geo               = new \Base\SchemaGeoCoordinates();
+        $ubicacion->geo->name         = 'Antiguo Edificio del Banco de México';
+        $ubicacion->geo->latitude     = 25.5393;
+        $ubicacion->geo->longitude    = -103.4622;
+        $ubicacion->content           = <<<FINAL
 <div style="clear:left;"></div>
 <h3>Ubicación</h3>
 <iframe width="100%" height="400" frameborder="0" src="http://guivaloz.cartodb.com/viz/1cdb40aa-b3bf-11e4-91ec-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
@@ -95,7 +95,7 @@ FINAL;
         $this->contenido->url_label   = 'www.trcimplan.gob.mx';
         $this->contenido->telephone   = '(871) 500 7078';
         $this->contenido->email       = 'info@trcimplan.gob.mx';
-        $this->contenido->extra       = <<<FINAL
+        $this->contenido->content     = <<<FINAL
 <div style="clear:left;"></div>
 <h3>Correos electrónicos</h3>
 <ul>
@@ -110,8 +110,8 @@ FINAL;
 
 FINAL;
         // Pasar la dirección y la ubicación a la organización gubernamental
-        $this->contenido->address  = $direccion;
-        $this->contenido->location = $ubicacion;
+        $this->contenido->address     = $direccion;
+        $this->contenido->location    = $ubicacion;
         // Ejecutar este método en el padre
         return parent::html();
     } // html

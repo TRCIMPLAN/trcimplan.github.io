@@ -36,7 +36,7 @@ class CLASE extends \Base\Publicacion {
         $this->autor                     = ''; // Puede ser un arreglo de textos
         $this->fecha                     = '2016-00-00T00:00';
         // El nombre del archivo a crear
-        $this->archivo                   = 'titulo';
+        $this->archivo                   = '';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion               = 'Descripción.';
         $this->claves                    = 'Clave1, Clave2, Clave3';
