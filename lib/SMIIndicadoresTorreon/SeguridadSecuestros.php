@@ -364,7 +364,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
           <tr>
             <td>Matamoros</td>
             <td>2016-11-30</td>
-            <td>ND</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

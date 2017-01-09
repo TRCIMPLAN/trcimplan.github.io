@@ -307,12 +307,6 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
           </tr>
           <tr>
             <td>30/11/2016</td>
-            <td>222</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2016</td>
             <td>35</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
@@ -661,12 +655,6 @@ FINAL;
           <tr>
             <td>31/10/2016</td>
             <td>49</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2016</td>
-            <td>222</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
