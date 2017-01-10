@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-01-09</lastmod>
+    <lastmod>2017-01-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -28,6 +28,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/balance-2015-repunte-de-la-competitividad-en-la-laguna.html</loc>
     <lastmod>2016-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/balance-del-tercer-trimestre-en-la-economia-de-la-laguna.html</loc>
+    <lastmod>2017-01-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -406,6 +411,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/blog/la-accesibilidad-universal-en-espacios-publicos.html</loc>
+    <lastmod>2017-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/blog/la-alameda-y-la-consulta-ciudadana.html</loc>
     <lastmod>2016-07-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -688,6 +698,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/primer-analisis-de-datos-abiertos-en-seguridad-vial.html</loc>
     <lastmod>2016-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/principales-enfermedades-en-la-laguna-y-causas-de-defuncion.html</loc>
+    <lastmod>2017-01-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
