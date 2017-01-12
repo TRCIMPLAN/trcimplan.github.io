@@ -85,6 +85,7 @@ class SociedadGradoPromedioDeEscolaridad extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -106,9 +107,19 @@ class SociedadGradoPromedioDeEscolaridad extends \Base\Publicacion {
             <td>INEGI</td>
             <td>Consulta la [Fuente](http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5)</td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>10.5800</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Grados aprobados.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Grado Promedio de Escolaridad en Torreón</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Grado Promedio de Escolaridad</h3>
@@ -127,29 +138,50 @@ class SociedadGradoPromedioDeEscolaridad extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td>10.2300</td>
+            <td>2015-12-31</td>
+            <td>10.5800</td>
             <td>INEGI</td>
-            <td>Consulta la [Fuente](http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td>9.1700</td>
+            <td>2015-12-31</td>
+            <td>9.4800</td>
             <td>INEGI</td>
-            <td>Consulta la [Fuente](http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td>8.9300</td>
+            <td>2015-12-31</td>
+            <td>9.3000</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td>8.1300</td>
+            <td>2015-12-31</td>
+            <td>8.6900</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2015-12-31</td>
+            <td>9.9000</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2015-12-31</td>
+            <td>9.1500</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2015-12-31</td>
+            <td>9.1600</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -170,13 +202,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 10.2300 },{ fecha: '2015-12-31', dato: 10.5800 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 10.2300 },{ region: 'Gómez Palacio', dato: 9.1700 },{ region: 'Lerdo', dato: 8.9300 },{ region: 'Matamoros', dato: 8.1300 }],
+      data: [{ region: 'Torreón', dato: 10.5800 },{ region: 'Gómez Palacio', dato: 9.4800 },{ region: 'Lerdo', dato: 9.3000 },{ region: 'Matamoros', dato: 8.6900 },{ region: 'Coahuila', dato: 9.9000 },{ region: 'Durango', dato: 9.1500 },{ region: 'Nacional', dato: 9.1600 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -220,6 +268,12 @@ FINAL;
             <td>10.2300</td>
             <td>INEGI</td>
             <td>Consulta la [Fuente](http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5)</td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>10.5800</td>
+            <td>INEGI</td>
+            <td></td>
           </tr>
         </tbody>
       </table>

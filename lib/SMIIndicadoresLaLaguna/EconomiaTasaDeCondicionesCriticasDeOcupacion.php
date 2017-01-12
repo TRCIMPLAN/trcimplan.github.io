@@ -85,6 +85,7 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -106,9 +107,19 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \Base\Publicacion {
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/09/2016</td>
+            <td>12.42 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Tasa de Condiciones Críticas de Ocupación en La Laguna</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Tasa de Condiciones Críticas de Ocupación</h3>
@@ -127,36 +138,36 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-03-31</td>
-            <td>8.77 %</td>
+            <td>2016-09-30</td>
+            <td>11.59 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-03-31</td>
-            <td>11.40 %</td>
+            <td>2016-09-30</td>
+            <td>12.45 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-03-31</td>
-            <td>8.89 %</td>
+            <td>2016-09-30</td>
+            <td>9.21 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-03-31</td>
-            <td>18.45 %</td>
+            <td>2016-09-30</td>
+            <td>16.67 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-03-31</td>
-            <td>10.50 %</td>
+            <td>2016-09-30</td>
+            <td>12.42 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -191,13 +202,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2016-03-31', dato: 10.5000 },{ fecha: '2016-09-30', dato: 12.4200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 8.7700 },{ region: 'Gómez Palacio', dato: 11.4000 },{ region: 'Lerdo', dato: 8.8900 },{ region: 'Matamoros', dato: 18.4500 },{ region: 'La Laguna', dato: 10.5000 },{ region: 'Coahuila', dato: 9.5100 },{ region: 'Nacional', dato: 13.9500 }],
+      data: [{ region: 'Torreón', dato: 11.5900 },{ region: 'Gómez Palacio', dato: 12.4500 },{ region: 'Lerdo', dato: 9.2100 },{ region: 'Matamoros', dato: 16.6700 },{ region: 'La Laguna', dato: 12.4200 },{ region: 'Coahuila', dato: 9.5100 },{ region: 'Nacional', dato: 13.9500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -239,6 +266,12 @@ FINAL;
           <tr>
             <td>31/03/2016</td>
             <td>10.50 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2016</td>
+            <td>12.42 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
