@@ -29,18 +29,18 @@ Por todo esto, **es latente la necesidad de generar proyectos que promuevan la r
 
 ### Ejemplos de señalización accesible
 
-<img class="img-responsive" src="la-accesibilidad-universal-en-espacios-publicos/senalizacion-accesible-ejemplos.png" alt="">
+<img class="img-responsive" src="la-accesibilidad-universal-en-espacios-publicos/senalizacion-accesible-ejemplos.png" alt="Ejemplos de señalizacion accesible">
 
 ### Personas con discapacidad en la ZML
 
-<img class="img-responsive" src="la-accesibilidad-universal-en-espacios-publicos/personas-con-discapacidad-en-la-zml.png" alt="">
+<img class="img-responsive" src="la-accesibilidad-universal-en-espacios-publicos/personas-con-discapacidad-en-la-zml.png" alt="Personas con discapacidad en la Zona Metropolitana de La Laguna">
 
 * Principales resultados por localidad (ITER). Censo de Población y Vivienda 2010 INEGI.
 * Estimaciones realizadas en base a INEGI 2010, CONAPO 2016.
 
 ### Personas con discapacidad y tipo de discapacidad
 
-<img class="img-responsive" src="la-accesibilidad-universal-en-espacios-publicos/personas-con-discapacidad-tipo-discapacidad.png" alt="">
+<img class="img-responsive" src="la-accesibilidad-universal-en-espacios-publicos/personas-con-discapacidad-tipo-discapacidad.png" alt="Personas con discapacidad por tipo de discapacidad">
 
 * Principales resultados por localidad (ITER). Censo de Población y Vivienda 2010 INEGI
 * Estimaciones realizadas en base a INEGI 2010, CONAPO 2016

@@ -46,7 +46,7 @@ Lugar | Enfermedad                       | Cantidad de personas
 
 ### Grupos de edad más afectados
 
-<img class="img-responsive" src="principales-enfermedades-en-la-laguna-y-causas-de-defuncion/grupos-de-edad-mas-afectados.png" alt="">
+<img class="img-responsive" src="principales-enfermedades-en-la-laguna-y-causas-de-defuncion/grupos-de-edad-mas-afectados.png" alt="Grupos de edad mas afectados">
 
 ### Este análisis fue publicado en Milenio Laguna
 
