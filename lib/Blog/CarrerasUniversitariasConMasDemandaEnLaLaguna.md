@@ -45,3 +45,7 @@ Una de las **principales recomendaciones** del CIDAC, para las instituciones, lo
 
 * Investigación [Profesionistas Torreón](http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon.html) del Centro de Investigación para el Desarrollo, A.C. (CIDAC) 2016.
 * [Anuario Estadístico](http://www.anuies.mx/iinformacion-y-servicios/informacion-estadistica-de-educacion-superior/anuario-estadistico-de-educacion-superior) de la Asociación Nacional de Universidades e Instituciones de Educación Superior (ANUIES) 2014-2015.
+
+### Este análisis fue publicado en Milenio Laguna
+
+[Carreras universitarias con más demanda en La Laguna](http://www.milenio.com/region/nuestra_metropoli_desde_el_implan-implan_torreon-carreras_laguna-milenio_0_882511765.html)
