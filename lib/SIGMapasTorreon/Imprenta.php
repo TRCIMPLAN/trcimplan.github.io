@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - SIGMapasTorreon Imprenta
+/**
+ * TrcIMPLAN Sitio Web - SIG Imprenta
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,25 +31,25 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
      * Constructor
      */
     public function __construct() {
-        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
+        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'SIGMapasTorreon';
-        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
+        // Los siguientes parámetros dan datos para el índice/galería que será creado
         $this->titulo                   = 'Sistema de Información Geográfica de Torreón';
-        $this->descripcion              = 'Mapas con información georreferenciada para Torreón';
-        $this->claves                   = 'IMPLAN, Torreon, Información, Geográfica, Torreón';
-        $this->encabezado_color         = '#008000';
-        // Opción de Navegación a poner activa
+        $this->descripcion              = 'Mapas con información georreferenciada de Torreón';
+        $this->claves                   = 'IMPLAN, SIG, Información, Geográfica, Torreón';
+        $this->encabezado_color         = '#646464';
+        // Etiqueta de Navegación a poner activa
         $this->nombre_menu              = 'Información Geográfica > Mapas de Torreón';
-        // Ruta a la clase para hacer las páginas con los índices
-        $this->indices_paginas          = '\\Base\\PaginasTarjetas'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\Base\PaginasTarjetas';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'sig-mapas-torreon';
-        // Pasar a la página índice estos parámetros
+        // Pasar a la PaginasTarjetas estos parámetros
         $this->ultimas_encabezado       = 'Últimos mapas del SIG Torreón';
-        $this->ultimas_vinculos         = '\\Base\\VinculosTarjetas';
-        $this->ultimas_cantidad         = 4;
+        $this->ultimas_vinculos         = '\Base\VinculosTarjetas';
+        $this->ultimas_cantidad         = 8;
         $this->categorias_encabezado    = 'Todos los mapas clasificados por categorías';
-        $this->categorias_vinculos      = '\\Base\\VinculosCompactos';
+        $this->categorias_vinculos      = '\Base\VinculosCompactos';
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

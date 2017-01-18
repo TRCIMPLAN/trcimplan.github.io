@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SIG Mapas Ámbito Regional de la Zona Metropolitana de La Laguna
+ * TrcIMPLAN Sitio Web - SIG Mapas Ámbito Regional de la Zona Metropolitana de La Laguna
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -35,22 +35,23 @@ class AmbitoRegionalZonaMetropolitanaLaguna extends \Base\Publicacion {
         $this->nombre             = 'Ámbito Regional de la Zona Metropolitana de La Laguna';
         $this->autor              = 'Arq. Jair Miramontes Chávez';
         $this->fecha              = '2016-10-27T11:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear y rutas relativas a las imágenes
         $this->archivo            = 'ambito-regional-zona-metropolitana-laguna';
         $this->imagen             = 'ambito-regional-zona-metropolitana-laguna/imagen.jpg';
         $this->imagen_previa      = 'ambito-regional-zona-metropolitana-laguna/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion        = 'Zona Metropolitana de La Laguna con vinculación regional inmediata y su conexión con el Corredor Interoceánico Mazatlán – Matamoros.';
         $this->claves             = 'Carreteras, Corredor, Mazatlan, Torreon, Gomez Palacio, Lerdo, Matamoros, Saltillo, Monterrey, Matamoros';
-        $this->categorias         = array('Infraestructura', 'Vialidad');
-        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu        = 'Información Geográfica';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        // El estado puede ser publicar, revisar o ignorar
         $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir     = true;
+        $this->para_compartir     = TRUE;
+        // Para el Organizador
+        $this->categorias         = array('Infraestructura', 'Vialidad');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.carto.com/u/sigimplan/viz/8ac33b30-68f7-11e4-871f-0e018d66dc29/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
@@ -80,7 +81,6 @@ FINAL;
         $paquete->datePublished   = $this->fecha;
         $paquete->headline_style  = $this->encabezado_color;
         $paquete->image           = $this->imagen;
-     // $paquete->image_show      = false; // Por defecto la imagen NO se agrega al principio del contenido
         $paquete->contentLocation = $lugar;
         // El contenido es una instancia de SchemaCreativeWork
         $this->contenido          = $paquete;

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SIG Mapas Polígonos de Pobreza
+ * TrcIMPLAN Sitio Web - SIG Mapas Polígonos de Pobreza
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -35,22 +35,23 @@ class PoligonosPobreza extends \Base\Publicacion {
         $this->nombre             = 'Polígonos de Pobreza';
         $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
         $this->fecha              = '2016-02-11T14:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear y rutas relativas a las imágenes
         $this->archivo            = 'poligonos-pobreza';
         $this->imagen             = 'poligonos-pobreza/imagen.jpg';
         $this->imagen_previa      = 'poligonos-pobreza/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion        = 'Localización y demarcación de los territorios que presentan una mayor situación de pobreza y de rezago, conocidos como polígonos de pobreza.';
         $this->claves             = 'IMPLAN, Torreon, Poligonos, Pobreza';
-        $this->categorias         = array('Bienestar', 'Población');
-        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu        = 'Información Geográfica';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        // El estado puede ser publicar, revisar o ignorar
         $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir     = true;
+        $this->para_compartir     = TRUE;
+        // Para el Organizador
+        $this->categorias         = array('Bienestar', 'Población');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/d4ef8bb0-9ea6-11e5-8b0e-0e5db1731f59/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
@@ -81,7 +82,6 @@ FINAL;
         $paquete->datePublished   = $this->fecha;
         $paquete->headline_style  = $this->encabezado_color;
         $paquete->image           = $this->imagen;
-     // $paquete->image_show      = false; // Por defecto la imagen NO se agrega al principio del contenido
         $paquete->contentLocation = $lugar;
         // El contenido es una instancia de SchemaCreativeWork
         $this->contenido          = $paquete;
