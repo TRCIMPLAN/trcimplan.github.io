@@ -42,7 +42,6 @@ class TransformacionUrbana extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion     = 'Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.';
         $this->claves          = 'IMPLAN, Torreon, Ciclistas, Bicicletas, Transporte';
-        $this->categorias      = array('Transporte');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class TransformacionUrbana extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/TransformacionUrbana.html';
+        // Para el Organizador
+        $this->categorias      = array('Movilidad', 'Participación Ciudadana');
+        $this->fuentes         = array();
+        $this->regiones        = array('Torreón', 'La Laguna');
     } // constructor
 
 } // Clase TransformacionUrbana
