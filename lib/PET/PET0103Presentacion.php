@@ -34,7 +34,7 @@ class PET0103Presentacion extends \Base\PublicacionSchemaBlogPosting {
         // Título, autor y fecha
         $this->nombre                     = 'Presentación';
     //  $this->autor                      = '';
-        $this->fecha                      = '2016-00-00T00:00';
+        $this->fecha                      = '2016-12-05T12:05';
         // El nombre del archivo a crear
         $this->archivo                    = 'presentacion';
         // La descripción y claves dan información a los buscadores y redes sociales
