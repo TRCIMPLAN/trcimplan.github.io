@@ -48,9 +48,9 @@ class PET0651VisionMovilidadTransporte extends \Base\PublicacionSchemaArticle {
         $this->poner_imagen_en_contenido  = false;
         $this->para_compartir             = false;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Grupos Vulnerables', 'Movilidad', 'Transporte', 'Vialidad');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
 
 } // Clase PET0651VisionMovilidadTransporte

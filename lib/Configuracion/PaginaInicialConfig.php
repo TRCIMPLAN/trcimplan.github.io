@@ -383,7 +383,7 @@ FINAL;
     //  $this->ibc();
     //  $this->aviso();
         $this->ultimas_publicaciones();
-    //  $this->categorias();
+        $this->categorias();
         $this->mapa();
         $this->redes();
         // Entregar resultado del método en el padre

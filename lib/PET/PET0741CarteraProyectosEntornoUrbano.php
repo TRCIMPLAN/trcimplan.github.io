@@ -48,9 +48,9 @@ class PET0741CarteraProyectosEntornoUrbano extends \Base\PublicacionSchemaArticl
         $this->poner_imagen_en_contenido  = false;
         $this->para_compartir             = false;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Infraestructura', 'Recursos Naturales', 'Servicios Públicos', 'Transporte', 'Vivienda');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
 
 } // Clase PET0741CarteraProyectosEntornoUrbano

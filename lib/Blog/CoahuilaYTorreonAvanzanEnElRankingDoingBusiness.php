@@ -61,7 +61,7 @@ class CoahuilaYTorreonAvanzanEnElRankingDoingBusiness extends \Base\Publicacion 
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CoahuilaYTorreonAvanzanEnElRankingDoingBusiness.md';
         // Para el Organizador
-        $this->categorias      = array('Doing Business', 'Torreón');
+        $this->categorias      = array('Doing Business');
         $this->fuentes         = array();
         $this->regiones        = array('Torreón', 'Coahuila');
     } // constructor

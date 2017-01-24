@@ -61,7 +61,7 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/ComportamientoTendenciaIncidenciaDelictiva.html';
         // Para el Organizador
-        $this->categorias      = array('Delitos', 'Seguridad');
+        $this->categorias      = array('Delincuencia', 'Seguridad');
         $this->fuentes         = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
         $this->regiones        = array('Torreón');
     } // constructor

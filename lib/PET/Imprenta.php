@@ -34,8 +34,8 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'PET';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Índice Alfabético';
-        $this->descripcion              = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Índice Alfabético.';
+        $this->titulo                   = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040';
+        $this->descripcion              = 'Índice Alfabético.';
         $this->claves                   = 'Plan, Estratégico, Torreón, 2040, Metropolitano';
     //  $this->encabezado_color         = '#DF9C0A';
         // Opción de Navegación a poner activa
