@@ -38,7 +38,7 @@ class SesionOrdinaria20160226 extends \Base\PublicacionSchemaBlogPosting {
         // El nombre del archivo a crear
         $this->archivo                    = '2016-02-26-sesion-ordinaria';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'El viernes 26 de febrero se llevó a cabo la segunda sesión del Consejo Directivo del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón en este año en la que  fueron presentados proyectos como la Actualización del Plan Director de Desarrollo Urbano.';
+        $this->descripcion                = 'El viernes 26 de febrero se llevó a cabo la segunda sesión del Consejo Directivo del Instituto Municipal de Planeación y Competitividad IMPLAN de Torreón en este año en la que fueron presentados proyectos como la Actualización del Plan Director de Desarrollo Urbano.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
         $this->nombre_menu                = 'Sala de Prensa';
