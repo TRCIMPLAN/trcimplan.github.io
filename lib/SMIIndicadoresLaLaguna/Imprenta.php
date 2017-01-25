@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna Imprenta
+/**
+ * TrcIMPLAN - SMI Indicadores La Laguna Imprenta (Creado por Central:SmiLanzadera)
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -41,7 +41,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Indicadores > Indicadores por Región';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas          = '\Base\PaginasListado';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'indicadores-la-laguna';
         // Ejecutar constructor en el padre

@@ -311,6 +311,12 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2016</td>
+            <td>73</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -336,36 +342,36 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-11-30</td>
-            <td>39</td>
+            <td>2016-12-31</td>
+            <td>73</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-11-30</td>
-            <td>17</td>
+            <td>2016-12-31</td>
+            <td>12</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-11-30</td>
-            <td>5</td>
+            <td>2016-12-31</td>
+            <td>8</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-11-30</td>
-            <td>3</td>
+            <td>2016-12-31</td>
+            <td>4</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-11-30</td>
-            <td>64</td>
+            <td>2016-12-31</td>
+            <td>97</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -392,7 +398,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 123 },{ fecha: '2014-02-28', dato: 147 },{ fecha: '2014-03-31', dato: 87 },{ fecha: '2014-04-30', dato: 95 },{ fecha: '2014-05-31', dato: 138 },{ fecha: '2014-06-30', dato: 98 },{ fecha: '2014-07-31', dato: 89 },{ fecha: '2014-08-31', dato: 86 },{ fecha: '2014-09-30', dato: 92 },{ fecha: '2014-10-31', dato: 105 },{ fecha: '2014-11-30', dato: 78 },{ fecha: '2014-12-31', dato: 72 },{ fecha: '2015-01-31', dato: 96 },{ fecha: '2015-02-28', dato: 83 },{ fecha: '2015-03-31', dato: 79 },{ fecha: '2015-04-30', dato: 106 },{ fecha: '2015-05-31', dato: 60 },{ fecha: '2015-06-30', dato: 57 },{ fecha: '2015-07-31', dato: 68 },{ fecha: '2015-08-31', dato: 43 },{ fecha: '2015-09-30', dato: 57 },{ fecha: '2015-10-31', dato: 51 },{ fecha: '2015-11-30', dato: 28 },{ fecha: '2015-12-31', dato: 21 },{ fecha: '2016-01-31', dato: 30 },{ fecha: '2016-02-29', dato: 34 },{ fecha: '2016-03-31', dato: 56 },{ fecha: '2016-04-30', dato: 32 },{ fecha: '2016-05-31', dato: 44 },{ fecha: '2016-06-30', dato: 99 },{ fecha: '2016-07-31', dato: 68 },{ fecha: '2016-08-30', dato: 51 },{ fecha: '2016-09-30', dato: 79 },{ fecha: '2016-10-31', dato: 71 },{ fecha: '2016-11-30', dato: 39 }],
+      data: [{ fecha: '2014-01-31', dato: 123 },{ fecha: '2014-02-28', dato: 147 },{ fecha: '2014-03-31', dato: 87 },{ fecha: '2014-04-30', dato: 95 },{ fecha: '2014-05-31', dato: 138 },{ fecha: '2014-06-30', dato: 98 },{ fecha: '2014-07-31', dato: 89 },{ fecha: '2014-08-31', dato: 86 },{ fecha: '2014-09-30', dato: 92 },{ fecha: '2014-10-31', dato: 105 },{ fecha: '2014-11-30', dato: 78 },{ fecha: '2014-12-31', dato: 72 },{ fecha: '2015-01-31', dato: 96 },{ fecha: '2015-02-28', dato: 83 },{ fecha: '2015-03-31', dato: 79 },{ fecha: '2015-04-30', dato: 106 },{ fecha: '2015-05-31', dato: 60 },{ fecha: '2015-06-30', dato: 57 },{ fecha: '2015-07-31', dato: 68 },{ fecha: '2015-08-31', dato: 43 },{ fecha: '2015-09-30', dato: 57 },{ fecha: '2015-10-31', dato: 51 },{ fecha: '2015-11-30', dato: 28 },{ fecha: '2015-12-31', dato: 21 },{ fecha: '2016-01-31', dato: 30 },{ fecha: '2016-02-29', dato: 34 },{ fecha: '2016-03-31', dato: 56 },{ fecha: '2016-04-30', dato: 32 },{ fecha: '2016-05-31', dato: 44 },{ fecha: '2016-06-30', dato: 99 },{ fecha: '2016-07-31', dato: 68 },{ fecha: '2016-08-30', dato: 51 },{ fecha: '2016-09-30', dato: 79 },{ fecha: '2016-10-31', dato: 71 },{ fecha: '2016-11-30', dato: 39 },{ fecha: '2016-12-31', dato: 73 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -408,7 +414,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 39 },{ region: 'Gómez Palacio', dato: 17 },{ region: 'Lerdo', dato: 5 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 64 }],
+      data: [{ region: 'Torreón', dato: 73 },{ region: 'Gómez Palacio', dato: 12 },{ region: 'Lerdo', dato: 8 },{ region: 'Matamoros', dato: 4 },{ region: 'La Laguna', dato: 97 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -654,6 +660,12 @@ FINAL;
           <tr>
             <td>30/11/2016</td>
             <td>39</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2016</td>
+            <td>73</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

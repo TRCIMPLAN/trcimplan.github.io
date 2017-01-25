@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - SMIIndicadoresGomezPalacio Imprenta
+/**
+ * TrcIMPLAN - SMI Indicadores Gómez Palacio Imprenta (Creado por Central:SmiLanzadera)
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -37,11 +37,11 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Indicadores de Gómez Palacio';
         $this->descripcion              = 'Sistema Metropolitano de Indicadores, Región Gómez Palacio';
         $this->claves                   = 'IMPLAN, SMI, Indicadores, Metropolitanos, Gómez Palacio';
-        $this->encabezado_color         = '#808080';
+        $this->encabezado_color         = '#CA198A';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Indicadores > Indicadores por Región';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas          = '\Base\PaginasListado';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'indicadores-gomez-palacio';
         // Ejecutar constructor en el padre
