@@ -172,8 +172,8 @@ class SeguridadTasaDeExtorsion extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-11-30</td>
-            <td>2.30 %</td>
+            <td>2016-12-31</td>
+            <td>2.75 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -200,7 +200,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 0.8000 },{ region: 'Durango', dato: 2.3000 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 0.8000 },{ region: 'Durango', dato: 2.7500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

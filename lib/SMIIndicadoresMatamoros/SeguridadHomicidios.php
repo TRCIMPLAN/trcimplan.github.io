@@ -313,7 +313,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2016</td>
-            <td>5</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -364,7 +364,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
           <tr>
             <td>Matamoros</td>
             <td>2016-12-31</td>
-            <td>5</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -398,7 +398,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 3 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 4 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 2 },{ fecha: '2014-06-30', dato: 1 },{ fecha: '2014-07-31', dato: 0 },{ fecha: '2014-08-31', dato: 3 },{ fecha: '2014-09-30', dato: 0 },{ fecha: '2014-10-31', dato: 1 },{ fecha: '2014-11-30', dato: 1 },{ fecha: '2014-12-31', dato: 2 },{ fecha: '2015-01-31', dato: 4 },{ fecha: '2015-02-28', dato: 1 },{ fecha: '2015-03-31', dato: 1 },{ fecha: '2015-04-30', dato: 2 },{ fecha: '2015-05-31', dato: 0 },{ fecha: '2015-06-30', dato: 0 },{ fecha: '2015-07-31', dato: 3 },{ fecha: '2015-08-31', dato: 1 },{ fecha: '2015-09-30', dato: 0 },{ fecha: '2015-10-31', dato: 1 },{ fecha: '2015-11-30', dato: 0 },{ fecha: '2015-12-31', dato: 1 },{ fecha: '2016-01-31', dato: 0 },{ fecha: '2016-02-29', dato: 0 },{ fecha: '2016-03-31', dato: 2 },{ fecha: '2016-04-30', dato: 1 },{ fecha: '2016-05-31', dato: 4 },{ fecha: '2016-06-30', dato: 2 },{ fecha: '2016-07-31', dato: 4 },{ fecha: '2016-08-31', dato: 3 },{ fecha: '2016-09-30', dato: 0 },{ fecha: '2016-10-31', dato: 1 },{ fecha: '2016-11-30', dato: 1 },{ fecha: '2016-12-31', dato: 5 }],
+      data: [{ fecha: '2014-01-31', dato: 3 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 4 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 2 },{ fecha: '2014-06-30', dato: 1 },{ fecha: '2014-07-31', dato: 0 },{ fecha: '2014-08-31', dato: 3 },{ fecha: '2014-09-30', dato: 0 },{ fecha: '2014-10-31', dato: 1 },{ fecha: '2014-11-30', dato: 1 },{ fecha: '2014-12-31', dato: 2 },{ fecha: '2015-01-31', dato: 4 },{ fecha: '2015-02-28', dato: 1 },{ fecha: '2015-03-31', dato: 1 },{ fecha: '2015-04-30', dato: 2 },{ fecha: '2015-05-31', dato: 0 },{ fecha: '2015-06-30', dato: 0 },{ fecha: '2015-07-31', dato: 3 },{ fecha: '2015-08-31', dato: 1 },{ fecha: '2015-09-30', dato: 0 },{ fecha: '2015-10-31', dato: 1 },{ fecha: '2015-11-30', dato: 0 },{ fecha: '2015-12-31', dato: 1 },{ fecha: '2016-01-31', dato: 0 },{ fecha: '2016-02-29', dato: 0 },{ fecha: '2016-03-31', dato: 2 },{ fecha: '2016-04-30', dato: 1 },{ fecha: '2016-05-31', dato: 4 },{ fecha: '2016-06-30', dato: 2 },{ fecha: '2016-07-31', dato: 4 },{ fecha: '2016-08-31', dato: 3 },{ fecha: '2016-09-30', dato: 0 },{ fecha: '2016-10-31', dato: 1 },{ fecha: '2016-11-30', dato: 1 },{ fecha: '2016-12-31', dato: 1 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -414,7 +414,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 17 },{ region: 'Gómez Palacio', dato: 6 },{ region: 'Lerdo', dato: 5 },{ region: 'Matamoros', dato: 5 },{ region: 'La Laguna', dato: 29 }],
+      data: [{ region: 'Torreón', dato: 17 },{ region: 'Gómez Palacio', dato: 6 },{ region: 'Lerdo', dato: 5 },{ region: 'Matamoros', dato: 1 },{ region: 'La Laguna', dato: 29 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -665,7 +665,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2016</td>
-            <td>5</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
