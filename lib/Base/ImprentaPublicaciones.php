@@ -36,6 +36,7 @@ class ImprentaPublicaciones extends Imprenta {
     public $nombre_menu;              // Texto, opción del menú activa
     public $titulo;                   // Texto, título de la página
     public $descripcion;              // Texto, descripción para meta tag
+    public $nivel = 0;                // Entero, es el orden de la rama para las páginas por categorías
     protected $archivo_ruta;          // Texto opcional, ruta al archivo index
     protected $indices_paginas;       // Ruta a la clase. Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
     protected $recolector;            // Instancia de Recolector

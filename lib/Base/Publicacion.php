@@ -62,6 +62,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $fuentes          = array();       // Arreglo con las fuentes. Lo usa el Organizador.
     public $regiones         = array();       // Arreglo con las regiones. Lo usa el Organizador.
     public $imprenta_titulo;                  // Título de la imprenta. Es usado por VinculosAcordeonesListados.
+    public $imprenta_nivel;                   // Entero, nivel de la imprenta, se usa para ordenar los listados por categorías
     protected $contenido     = array();       // Contenido código HTML de la publicación
     protected $javascript    = array();       // Código Javascript. Debe estar aparte para ponerlo al final de la página.
     protected $redifusion    = array();       // Código HTML con la publicación que va para redifusión (RSS feed).
@@ -451,6 +452,15 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public function definir_imprenta_titulo($titulo) {
         $this->imprenta_titulo = $titulo;
     } // definir_imprenta_titulo
+
+    /**
+     * Definir nivel de la imprenta
+     *
+     * @param integer Nivel de la imprenta
+     */
+    public function definir_imprenta_nivel($nivel) {
+        $this->imprenta_nivel = $nivel;
+    } // definir_imprenta_nivel
 
     /**
      * HTML

@@ -60,6 +60,8 @@ class PublicacionSchemaBlogPosting extends PublicacionSchemaArticle {
     // public $categorias;
     // public $fuentes;
     // public $regiones;
+    // public $imprenta_titulo;
+    // public $imprenta_nivel;
     // protected $contenido;
     // protected $javascript;
     // protected $redifusion;

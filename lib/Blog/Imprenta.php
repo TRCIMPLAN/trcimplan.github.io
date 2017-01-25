@@ -50,6 +50,8 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         $this->ultimas_cantidad         = 8;
         $this->categorias_encabezado    = 'Todos los análisis clasificados por categorías';
         $this->categorias_vinculos      = '\\Base\\VinculosCompactos';
+        // Nivel es el orden de la rama para los índices por autores y categorías, debe ser grande
+        $this->nivel                    = 10000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

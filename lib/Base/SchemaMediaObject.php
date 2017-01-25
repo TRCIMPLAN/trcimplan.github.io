@@ -33,6 +33,7 @@ class SchemaMediaObject extends SchemaCreativeWork {
     // public $id_property;     // Text. id property for article/div tag. Use to aply a unique CSS style.
     // public $class_property;  // Text. class property for div tag. Use to aply a general CSS style.
     // public $is_article;      // Boolean. Use true for enclose with <article>
+    // public $is_visible;      // Boolean. Use true for use invisible meta tags.
     // En SchemaThing
     // public $big_heading;     // Boolean. Use true to use a big heading for the web page.
     // public $headline;        // Text. Headline of the article.

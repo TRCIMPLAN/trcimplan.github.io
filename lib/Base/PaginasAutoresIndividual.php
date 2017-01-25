@@ -117,6 +117,9 @@ class PaginasAutoresIndividual extends Paginas {
             case 'dir_nombre_asc':
                 $this->recolector->ordenar_por_directorio_nombre_asc();
                 break;
+            case 'nivel_asc':
+                $this->recolector->ordenar_por_nivel_asc();
+                break;
             case 'fecha_desc':
             default:
                 $this->recolector->ordenar_por_tiempo_desc();

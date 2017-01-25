@@ -108,6 +108,24 @@ class Recolector {
     } // ordenar_por_tiempo_desc
 
     /**
+     * Ordenar por nivel de forma ascendente
+     */
+    public function ordenar_por_nivel_asc() {
+        $temporal = array();
+        $posicion = NULL;
+        foreach ($this->publicaciones as $publicacion) {
+            if ($publicacion->imprenta_nivel !== $nivel) {
+                $nivel    = $publicacion->imprenta_nivel;
+                $posicion = $nivel;
+            }
+            $posicion++;
+            $temporal[$posicion] = $publicacion;
+        }
+        ksort($temporal);
+        $this->publicaciones = $temporal;
+    } // ordenar_por_nivel_asc
+
+    /**
      * Obtener cantidad de publicaciones
      *
      * Entrega un número entero con la cantidad de publicaciones recolectadas
@@ -160,6 +178,7 @@ class Recolector {
                         $publicacion->definir_directorio($imprenta->directorio);
                         $publicacion->definir_nombre_menu($imprenta->nombre_menu);
                         $publicacion->definir_imprenta_titulo($imprenta->titulo);
+                        $publicacion->definir_imprenta_nivel($imprenta->nivel);
                     }
                     // Acumular
                     $this->publicaciones[] = $publicacion;

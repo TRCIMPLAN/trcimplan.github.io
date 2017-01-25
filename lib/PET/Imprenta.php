@@ -44,6 +44,8 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->indices_paginas          = '\\Base\\PaginasListadoAlfabetico'; // \\Base\\PaginasDetallados
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'pet';
+        // Nivel es el orden de la rama para los índices por autores y categorías, debe ser grande
+        $this->nivel                    = 40000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

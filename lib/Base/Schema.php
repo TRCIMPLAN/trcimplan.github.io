@@ -31,7 +31,8 @@ abstract class Schema {
     public $identation;     // Integer. Level of identation (beautiful code).
     public $id_property;    // Text. id property for article/div tag. Use to aply a unique CSS style.
     public $class_property; // Text. class property for div tag. Use to aply a general CSS style.
-    public $is_article;     // Boolean. Use true for enclose with <article>
+    public $is_article;     // Boolean. Use true for enclose with <article>.
+    public $is_visible;     // Boolean. Use true for use invisible meta tags.
 
     /**
      * Constructor
@@ -39,6 +40,7 @@ abstract class Schema {
     public function __construct() {
         $this->identation = 2;
         $this->is_article = TRUE;
+        $this->is_visible = TRUE;
     } // constructor
 
     /**
@@ -51,21 +53,32 @@ abstract class Schema {
         if ($this->id_property != '') {
             $id = " id=\"{$this->id_property}\"";
         }
-        if ($this->class_property != '') {
-            $class = " class=\"{$this->class_property}\"";
+        // Si es visible
+        if ($this->is_visible) {
+            if ($this->class_property != '') {
+                $class = " class=\"{$this->class_property}\"";
+            } else {
+                $class = "";
+            }
+            $style = "";
+        } else {
+            $class = "";
+            $style = " style=\"display:none\"";
+            $this->is_article = FALSE; // Si es invisible, NO será un artículo
         }
+        // Si está anidado
         if ($this->onTypeProperty != '') {
             if ($this->is_article) {
-                return "<article{$id}><div{$class} itemprop=\"{$this->onTypeProperty}\" {$itemscope}>";
+                return "<article{$id}><div{$class}{$style} itemprop=\"{$this->onTypeProperty}\" {$itemscope}>";
             } else {
-                return "<div{$id}{$class} itemprop=\"{$this->onTypeProperty}\" {$itemscope}>";
+                return "<div{$id}{$class}{$style} itemprop=\"{$this->onTypeProperty}\" {$itemscope}>";
             }
         } else {
             $spaces = str_repeat('  ', $this->identation);
             if ($this->is_article) {
-                return "<article{$id}><div{$class} {$itemscope}>";
+                return "<article{$id}><div{$class}{$style} {$itemscope}>";
             } else {
-                return "<div{$id}{$class} {$itemscope}>";
+                return "<div{$id}{$class}{$style} {$itemscope}>";
             }
         }
     } // itemscope_start

@@ -36,6 +36,7 @@ class ImprentaPublicacionesClasificadasPorCategorias extends ImprentaPublicacion
     // public $nombre_menu;
     // public $titulo;
     // public $descripcion;
+    // public $nivel = 0;
     // protected $archivo_ruta;
     // protected $indices_paginas;
     // protected $recolector;
