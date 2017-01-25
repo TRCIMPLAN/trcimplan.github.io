@@ -77,6 +77,7 @@ class CreadorConfig {
             '\\SIGMapasTorreon\\Imprenta',
             '\\SMIIndicadoresGomezPalacio\\Imprenta',
             '\\SMIIndicadoresLaLaguna\\Imprenta',
+            '\\SMIIndicadoresLerdo\\Imprenta',
             '\\SMIIndicadoresMatamoros\\Imprenta',
             '\\SMIIndicadoresTorreon\\Imprenta');
         $this->imprentas_categorias     = $this->imprentas_autores;
