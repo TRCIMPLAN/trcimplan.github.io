@@ -78,3 +78,7 @@ Fuente: CONAVIM.
 
 * Los Centros de Justicia para la Mujer (CJM), operan desde 2010 buscan conjuntar en una sola instancia, servicios para atender a las mujeres violentadas. En la ciudad de Torreón opera un CJM.
 * Anteriormente la mujer violentada tenia que recurrir a diversas dependencias para ser atendida.
+
+### Este análisis fue publicado en Milenio Laguna
+
+[Las mujeres y su acceso a una vida sin violencia](http://www.milenio.com/region/nuestra_metropoli_desde_el_implan-implan_torreon-violencia_de_genero-milenio_0_891510874.html)

@@ -1,8 +1,8 @@
 <?php
 /**
- * Sitio Web - DiagnosticoPoliticaIndustrial
+ * TrcIMPLAN Sitio Web - SesionOrdinaria20170126
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,29 +23,29 @@
 namespace SalaPrensa;
 
 /**
- * Clase DiagnosticoPoliticaIndustrial
+ * Clase SesionOrdinaria20170126
  */
-class DiagnosticoPoliticaIndustrial extends \Base\PublicacionSchemaBlogPosting {
+class SesionOrdinaria20170126 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                     = 'IMPLAN desarrollará Diagnóstico de Política Industrial';
+        $this->nombre                     = 'Presentan la Plataforma del Conocimiento trcimplan.gob.mx';
     //  $this->autor                      = '';
-        $this->fecha                      = '2016-04-13T13:10';
+        $this->fecha                      = '2017-01-26T11:30';
         // El nombre del archivo a crear
-        $this->archivo                    = '2016-04-13-diagnostico-politica-industrial';
+        $this->archivo                    = '2017-01-26-sesion-ordinaria';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Alicia Valdez Ibarra, encargada de indicadores económicos del IMPLAN, dio a conocer ante el Cabildo de Torreón el avance de este proyecto, que consiste en su primera etapa en la elaboración de un diagnóstico para conocer las características de cada industria.';
-        $this->claves                     = 'IMPLAN, Torreon, Diagnostico, Politica, Industrial';
+        $this->descripcion                = 'El IMPLAN Torreón llevó a cabo su primera sesión de Consejo Directivo de 2017, con el fin de presentar a los consejeros y asistentes cómo pueden utilizar la Plataforma del Conocimiento.';
+        $this->claves                     = 'IMPLAN, Torreon, Plataforma, Sitio Web, Conocimiento';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/DiagnosticoPoliticaIndustrial.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20170126.md';
         // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
+        $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
@@ -53,6 +53,6 @@ class DiagnosticoPoliticaIndustrial extends \Base\PublicacionSchemaBlogPosting {
         $this->regiones                   = array('Torreón');
     } // constructor
 
-} // Clase DiagnosticoPoliticaIndustrial
+} // Clase SesionOrdinaria20170126
 
 ?>
