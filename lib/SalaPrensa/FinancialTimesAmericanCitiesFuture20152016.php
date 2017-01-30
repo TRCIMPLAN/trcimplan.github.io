@@ -32,7 +32,7 @@ class FinancialTimesAmericanCitiesFuture20152016 extends \Base\PublicacionSchema
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                     = 'Torreón 4to lugar en Costo Beneficio de inversión en Ranking del Financial Times \'American Cities of the Future 2015-2016\'';
+        $this->nombre                     = 'Torreón 4to lugar en Costo Beneficio de inversión en Ranking del Financial Times - American Cities of the Future 2015-2016';
     //  $this->autor                      = '';
         $this->fecha                      = '2015-05-14T10:00';
         // El nombre del archivo a crear
