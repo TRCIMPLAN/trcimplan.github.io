@@ -34,12 +34,12 @@ class LasMujeresYSuAccesoAUnaVidaSinViolencia extends \Base\PublicacionSchemaBlo
         // Título, autor y fecha
         $this->nombre                     = 'Las mujeres y su acceso a una vida sin violencia';
         $this->autor                      = 'Arq. Ilse Ávila García';
-        $this->fecha                      = '2017-01-27T13:30';
+        $this->fecha                      = '2017-01-30T11:05';
         // El nombre del archivo a crear
         $this->archivo                    = 'las-mujeres-y-su-acceso-a-una-vida-sin-violencia';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En Torreón, así como a nivel nacional, se calcula que 63% de las mujeres mayores de 15 años es susceptible a vivir un episodio de violencia. En México las mujeres que se encuentran más expuestas a violencia de pareja son las jóvenes  de entre 20 y 39 años de edad.';
-        $this->claves                     = 'IMPLAN, Torreon, ';
+        $this->claves                     = 'IMPLAN, Torreon, Violencia, Genero, Femenino, Justicia';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
@@ -48,8 +48,8 @@ class LasMujeresYSuAccesoAUnaVidaSinViolencia extends \Base\PublicacionSchemaBlo
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
-        $this->fuentes                    = array();
+        $this->categorias                 = array('Género', 'Seguridad');
+        $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
