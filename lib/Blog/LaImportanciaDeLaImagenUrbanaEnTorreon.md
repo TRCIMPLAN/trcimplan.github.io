@@ -19,7 +19,7 @@ Con la aplicación de una normatividad acorde a los tiempos actuales, **volverá
 
 Todo esto llevará a una recuperación del paisaje de la ciudad **por medio de la instalación ordenada de anuncios,** de acuerdo con una concepción moderna de la colocación de la publicidad exterior, que cumpla su función y no contribuya al desorden urbano.
 
-<img class="img-responsive" src="la-importanciade-la-imagen-urbana-en-torreon/antiguo-banco-chino-torreon-coahuila.jpg" alt="Antiguo Banco Chino en Torreon, Coahuila">
+<img class="img-responsive" src="la-importancia-de-la-imagen-urbana-en-torreon/antiguo-banco-chino-torreon-coahuila.jpg" alt="Antiguo Banco Chino en Torreon, Coahuila">
 
 ### Impacto visual
 
