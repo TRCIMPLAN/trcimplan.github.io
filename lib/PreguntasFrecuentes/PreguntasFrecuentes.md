@@ -17,8 +17,8 @@ Es el órgano técnico responsable de la planeación municipal del desarrollo de
 
 * El [Sistema Metropolitano de Indicadores](../smi/introduccion.html) es un banco de datos de los municipios que conforman la Zona Metropolitana de La Laguna que da seguimiento a diversos factores, a través del tiempo, comparables con otras ciudades y estándares internacionales.
 * El [Sistema de Información Geográfica](../sig/introduccion.html) representa visualmente variables muy diversas y de múltiples fuentes en mapas interactivos con datos georreferenciados.
-* Próximamante el [Banco Municipal de Proyectos de Inversión](../proyectos/introduccion.html) dará seguimiento a los distintos proyectos del municipio.
-* Así como documentos de [Análisis](../blog/index.html) redactados por los integrantes del IMPLAN e información institucional.
+* El [Plan Estratégico para Torreón](../pet/indice.html) con enfoque Metropolitano 2040 es el fruto del trabajo coordinado por el IMPLAN de Torreón, en el cual participaron de manera activa las instituciones gubernamentales, empresarios, organismos de la sociedad civil y ciudadanos comprometidos con el desarrollo de esta importante zona del país.
+* Así como documentos como [Análisis](../blog/index.html) e [Investigaciones](../investigaciones/index.html) que amplían nuestros recursos en cada materia y sirven de guía para elaborar soluciones a los retos de nuestra región.
 
 ### ¿Puedo usar la información de este sitio web para otros fines?
 
