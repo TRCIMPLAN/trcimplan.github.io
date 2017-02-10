@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-02-03</lastmod>
+    <lastmod>2017-02-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -633,6 +633,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/obras-son-competitividad-que-no-buenas-razones.html</loc>
     <lastmod>2016-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/paisajismo-natural-en-torreon-y-la-laguna.html</loc>
+    <lastmod>2017-02-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -1378,6 +1383,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2016-07-21-nueva-gobernanza-construyendo-normas-con-los-habitantes-de-la-ciudad.html</loc>
     <lastmod>2016-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-02-09-piden-georreferenciar-avance-y-desarrollo-de-obra-publica.html</loc>
+    <lastmod>2017-02-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
