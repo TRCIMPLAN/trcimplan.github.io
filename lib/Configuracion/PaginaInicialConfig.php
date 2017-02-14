@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - Pagina Inicial Config
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -73,8 +73,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->directorio               = '.';
         $this->archivo_ruta             = "index.html";
         $this->imagen_previa_ruta       = 'imagenes/imagen-previa.jpg';
-        $this->contenido_en_renglon     = false;
-        $this->google_site_verification = '<meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
+        $this->contenido_en_renglon     = FALSE;
+        $this->google_site_verification = '';
     } // constructor
 
     /**
@@ -86,8 +86,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $organizacion->name           = 'Instituto Municipal de Planeación y Competitividad de Torreón';
         $organizacion->description    = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.';
         $organizacion->image          = 'imagenes/implan-logo.png';
-        $organizacion->is_article     = false;
-        $organizacion->big_heading    = true;
+        $organizacion->is_article     = FALSE;
+        $organizacion->big_heading    = TRUE;
         $organizacion->headline_style = 'organizacion';
         // Acumular
         $this->contenido[] = '  <section id="organizacion">';
@@ -380,8 +380,8 @@ FINAL;
         // Elaborar secciones
         $this->organizacion();
         $this->servicios();
-    //  $this->ibc();
-    //  $this->aviso();
+    //~ $this->ibc();
+    //~ $this->aviso();
         $this->ultimas_publicaciones();
         $this->categorias();
         $this->mapa();
