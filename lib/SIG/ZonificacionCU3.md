@@ -1,5 +1,5 @@
 
-La zonificación “CU3” Corredor Urbano de Industria y Servicios, tendrá las siguientes restricciones de uso:
+La zonificación "CU3" Corredor Urbano de Industria y Servicios, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 

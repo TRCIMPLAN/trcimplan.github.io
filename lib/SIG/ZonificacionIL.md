@@ -1,5 +1,5 @@
 
-La zonificación “IL” Industria Ligera, tendrá las siguientes restricciones de uso:
+La zonificación "IL" Industria Ligera, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 

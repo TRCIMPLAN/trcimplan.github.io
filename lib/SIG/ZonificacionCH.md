@@ -1,5 +1,5 @@
 
-La zonificación “CH” Centro Histórico, tendrá las siguientes restricciones de uso:
+La zonificación "CH" Centro Histórico, tendrá las siguientes restricciones de uso:
 
 I. Generales:
 

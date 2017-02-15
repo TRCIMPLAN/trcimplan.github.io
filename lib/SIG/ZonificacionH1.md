@@ -1,5 +1,5 @@
 
-La zonificación “H1” habitacional de densidad baja, unifamiliar, tendrá las siguientes restricciones de uso:
+La zonificación "H1" habitacional de densidad baja, unifamiliar, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 

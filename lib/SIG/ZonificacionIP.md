@@ -1,5 +1,5 @@
 
-La zonificación “IP” Industria Pesada tendrá las siguientes restricciones de uso:
+La zonificación "IP" Industria Pesada tendrá las siguientes restricciones de uso:
 
 I. Generales:
 

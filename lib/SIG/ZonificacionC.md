@@ -1,5 +1,5 @@
 
-La zonificación “C” Equipamiento de Abastos, tendrá las siguientes restricciones de uso:
+La zonificación "C" Equipamiento de Abastos, tendrá las siguientes restricciones de uso:
 
 I. Generales, no especificados.
 

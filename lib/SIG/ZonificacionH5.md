@@ -1,5 +1,5 @@
 
-La zonificación “H5” Habitacional de Densidad Media Alta, tendrá las siguientes restricciones de uso:
+La zonificación "H5" Habitacional de Densidad Media Alta, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 

@@ -1,5 +1,5 @@
 
-La zonificación “CB”, Centro de Barrio, tendrá las siguientes restricciones de uso:
+La zonificación "CB", Centro de Barrio, tendrá las siguientes restricciones de uso:
 
 I. Generales:
 

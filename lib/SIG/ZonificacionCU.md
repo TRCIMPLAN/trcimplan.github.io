@@ -1,5 +1,5 @@
 
-La zonificación “CU” Corredor Urbano del Plan Parcial Corredor Torreón-San Pedro tendrá las siguientes restricciones de uso:
+La zonificación "CU" Centro Urbano tendrá las siguientes restricciones de uso:
 
 I. Generales, Según lo dispuesto por el Plan Parcial.
 
@@ -72,7 +72,7 @@ II. Usos Permitidos:
 65. Helipuertos.
 66. Plazas, Jardines, Explanadas, y Parques.
 
-III. Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU Corredor Urbano Torreón San Pedro se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.
+III. Usos condicionados y Normas Mínimas de Evaluación. Para el Uso "CU" Centro Urbano se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.
 
 1. Vivienda plurifamiliar y multifamiliar de dos o más viviendas por lote (B).
 2. Conjuntos habitacionales de más de 50 viviendas (B).

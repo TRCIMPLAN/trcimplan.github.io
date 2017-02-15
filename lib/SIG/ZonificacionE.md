@@ -1,5 +1,5 @@
 
-La zonificación “E” Equipamiento de Administración, Salud, Educación y Cultura, tendrá las siguientes restricciones de uso:
+La zonificación "E" Equipamiento de Administración, Salud, Educación y Cultura, tendrá las siguientes restricciones de uso:
 
 I.- Generales, no especificados.
 

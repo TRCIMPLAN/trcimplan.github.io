@@ -1,5 +1,5 @@
 
-La zonificación “H6” Habitacional de Densidad Muy Alta, tendrá las siguientes restricciones de uso:
+La zonificación "H6" Habitacional de Densidad Muy Alta, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 

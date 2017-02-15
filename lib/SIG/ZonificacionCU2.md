@@ -1,5 +1,5 @@
 
-La zonificación “CU2” Corredor Urbano de Habitación y Comercio, tendrá las siguientes restricciones de uso:
+La zonificación "CU2" Corredor Urbano de Habitación y Comercio, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 

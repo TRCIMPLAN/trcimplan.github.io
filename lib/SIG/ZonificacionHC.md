@@ -1,5 +1,5 @@
 
-La zonificación “HC” Habitacional Campestre, tendrá las siguientes restricciones de uso:
+La zonificación "HC" Habitacional Campestre, tendrá las siguientes restricciones de uso:
 
 I. Generales:
 

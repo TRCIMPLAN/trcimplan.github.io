@@ -1,5 +1,5 @@
 
-La zonificación “CU 1.1” Corredor Urbano, Habitación, Comercio y servicios tendrá las siguientes restricciones de uso:
+La zonificación "CU 1.1" Corredor Urbano, Habitación, Comercio y servicios tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 

@@ -1,5 +1,5 @@
 
-La zonificación “HB” Habitacional de Densidad Muy Baja, unifamiliar, tendrá las siguientes restricciones de uso:
+La zonificación "HB" Habitacional de Densidad Muy Baja, unifamiliar, tendrá las siguientes restricciones de uso:
 
 I. Generales:
 

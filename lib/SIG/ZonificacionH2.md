@@ -1,5 +1,5 @@
 
-La zonificación “H2” Habitacional de Densidad Media, unifamiliar, tendrá las siguientes restricciones de uso:
+La zonificación "H2" Habitacional de Densidad Media, unifamiliar, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 

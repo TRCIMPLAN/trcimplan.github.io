@@ -1,5 +1,5 @@
 
-La zonificación “I” Equipamiento de Infraestructura, tendrá las siguientes restricciones de uso:
+La zonificación "I" Equipamiento de Infraestructura, tendrá las siguientes restricciones de uso:
 
 I. Generales, no especificados.
 
