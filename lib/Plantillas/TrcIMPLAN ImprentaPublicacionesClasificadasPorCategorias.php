@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - Imprenta Publicaciones Clasificadas por Categorías
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -38,8 +38,8 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         $this->descripcion              = 'Descripción.';
         $this->claves                   = 'Clave1, Clave2, Clave3';
         $this->encabezado_color         = '#FFFFFF';
-        // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Opción';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu              = 'Menú > Submenú';
         // Ruta a la clase para hacer las páginas con los índices
         $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
@@ -50,6 +50,8 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         $this->ultimas_cantidad         = 8;
         $this->categorias_encabezado    = 'Categorías';
         $this->categorias_concentrador  = '\\Base\\VinculosCompactos';
+        // Nivel es el orden de la rama para los índices por autores y categorías, debe ser un entero grande
+        $this->nivel                    = 00000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

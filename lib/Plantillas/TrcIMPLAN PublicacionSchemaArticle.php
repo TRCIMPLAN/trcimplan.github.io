@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - CLASE
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -33,15 +33,15 @@ class CLASE extends \Base\PublicacionSchemaArticle {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Título';
-        $this->autor                      = ''; // Puede ser un arreglo de textos
-        $this->fecha                      = '2016-00-00T00:00';
+        $this->autor                      = 'Autor'; // Puede ser un arreglo de textos
+        $this->fecha                      = '2017-00-00T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '';
+        $this->archivo                    = 'archivo'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Descripción.';
         $this->claves                     = 'Clave1, Clave2, Clave3';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu                = '';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Menú > Submenú';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/DIRECTORIO/CLASE.md';
         // Ruta al archivo HTML con el contenido
