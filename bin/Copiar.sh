@@ -31,9 +31,7 @@ echo "[Copiar] los programas de la Plataforma del Conocimiento"
 echo "  Origen:  $PLATAFORMA_DIR"
 echo "  Destino: $SITIO_WEB_DIR"
 
-#
 # Verificar
-#
 if [ ! -d $PLATAFORMA_DIR ]; then
     echo "Error: No se encuentra el directorio $PLATAFORMA_DIR"
     exit $E_FATAL
@@ -51,18 +49,14 @@ if [ ! -d $SITIO_WEB_DIR/lib ]; then
     exit $E_FATAL
 fi
 
-#
 # Preservar, para luego sobreescribir
-#
 cd $SITIO_WEB_DIR
 echo "  Preservando css."
 mv css backup-css
 echo "  Preservando imagenes."
 mv imagenes backup-imagenes
 
-#
 # Eliminar
-#
 cd $SITIO_WEB_DIR
 echo "  Eliminando en la raíz..."
 rm -rf fonts
@@ -78,9 +72,7 @@ echo "  Eliminando en lib..."
 rm -rf lib/Base
 rm -rf lib/Michelf
 
-#
 # Copiar
-#
 cd $SITIO_WEB_DIR
 echo "  Copiando a la raíz..."
 cp -r $PLATAFORMA_DIR/css .
@@ -100,9 +92,7 @@ echo "  Copiando a lib..."
 cp -r $PLATAFORMA_DIR/lib/Base .
 cp -r $PLATAFORMA_DIR/lib/Michelf .
 
-#
 # Sobreescribir
-#
 cd $SITIO_WEB_DIR/css
 echo "  Sobreescribiendo css..."
 cp -r ../backup-css/* .

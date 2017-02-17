@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Planes
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -19,7 +19,6 @@
  *
  */
 
-// Namespace
 namespace SIG;
 
 /**

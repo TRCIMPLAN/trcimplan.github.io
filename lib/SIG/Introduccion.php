@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - Introducción al Sistema de Información Geográfica del IMPLAN Torreón
+ * TrcIMPLAN Sitio Web - Introducción al Sistema de Información Geográfica
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -19,7 +19,6 @@
  *
  */
 
-// Namespace
 namespace SIG;
 
 /**

@@ -19,36 +19,57 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-cd "/home/guivaloz/Documentos/GitHub/TrcIMPLAN/trcimplan.github.io"
-rm -f autores/*.html
-rm -f blog/*.html
-rm -f categorias/*.html
-rm -f consejo-directivo/*.html
-rm -f contacto/*.html
-# rm -f ibc/*.html
-# rm -f ibc-torreon/*.html
-# rm -f ibc-torreon/*.json
-rm -f indicadores-categorias/*.html
-rm -f indicadores-gomez-palacio/*.html
-rm -f indicadores-la-laguna/*.html
-rm -f indicadores-lerdo/*.html
-rm -f indicadores-matamoros/*.html
-rm -f indicadores-torreon/*.html
-rm -f institucional/*.html
-rm -f investigaciones/*.html
-rm -f pet/*.html
-rm -f plan-estrategico-metropolitano/*.html
-rm -f plan-estrategico-torreon-enfoque-metropolitano-2040/*.html
-# rm -f plan-estrategico-torreon/*.html
-rm -f preguntas-frecuentes/*.html
-rm -f proyectos/*.html
-rm -f sala-prensa/*.html
-rm -f sig/*.html
-rm -f sig-mapas-torreon/*.html
-rm -f sig-planes/*.html
-rm -f smi/*.html
-rm -f smi-georreferenciados/*.html
-rm -f terminos/*.html
-rm -f *.html
-rm -f *.xml
-echo "¡Destruido!"
+# Constantes que definen los tipos de errores
+EXITO=0
+E_FATAL=99
+
+# Constantes
+SITIO_WEB_DIR="$HOME/Documentos/GitHub/TrcIMPLAN/trcimplan.github.io"
+
+# Definir directorios
+declare -a DIRECTORIOS=(
+    "autores"
+    "blog"
+    "categorias"
+    "consejo-directivo"
+    "contacto"
+    "indicadores-categorias"
+    "indicadores-gomez-palacio"
+    "indicadores-la-laguna"
+    "indicadores-lerdo"
+    "indicadores-matamoros"
+    "indicadores-torreon"
+    "institucional"
+    "investigaciones"
+    "pet"
+    "plan-estrategico-metropolitano"
+    "plan-estrategico-torreon-enfoque-metropolitano-2040"
+    "preguntas-frecuentes"
+    "proyectos"
+    "sala-prensa"
+    "sig"
+    "sig-mapas-torreon"
+    "sig-planes"
+    "smi"
+    "smi-georreferenciados"
+    "terminos")
+
+# Destruir
+echo "[Destruir] Inicia..."
+cd "$SITIO_WEB_DIR"
+echo "  Eliminando archivos html y xml de la raiz..."
+rm -f *.html *.xml
+for DIRECTORIO in "${DIRECTORIOS[@]}"
+do
+    if [ -d "$DIRECTORIO" ]; then
+        echo "  Eliminando archivos html en $DIRECTORIO"
+        rm -f $DIRECTORIO/*.html
+    else
+        echo "  ERROR: No existe $DIRECTORIO"
+        exit $E_FATAL
+    fi
+done
+
+# Mostrar mensaje de término
+echo "[Destruir] Terminó."
+exit $EXITO
