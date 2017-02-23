@@ -34,7 +34,7 @@ class TorreonBajoLaMiradaDeONUHabitat extends \Base\PublicacionSchemaBlogPosting
         // Título, autor y fecha
         $this->nombre                     = 'Torreón bajo la mirada de ONU Hábitat';
         $this->autor                      = 'Lic. Rodrigo González Morales';
-        $this->fecha                      = '2017-02-21T12:05';
+        $this->fecha                      = '2017-02-23T09:03';
         // El nombre del archivo a crear
         $this->archivo                    = 'torreon-bajo-la-mirada-de-onu-habitat';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -51,8 +51,6 @@ class TorreonBajoLaMiradaDeONUHabitat extends \Base\PublicacionSchemaBlogPosting
         $this->categorias                 = array('Bienestar', 'Empresas', 'Gobierno', 'Infraestructura', 'Recursos Naturales');
         $this->fuentes                    = array('INFONAVIT', 'ONU-Habitat');
         $this->regiones                   = array('Torreón', 'La Laguna');
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'revisar';
     } // constructor
 
 } // Clase TorreonBajoLaMiradaDeONUHabitat

@@ -58,3 +58,7 @@ Resultados CPI | Factores del estado de Prosperidad | Nivel de intervención
 
 * INFONAVIT – [ONU Hábitat](http://unhabitat.org) - SEDATU (2016), Índice Básico d ellas Ciudades Prósperas. Informe final municipal: Torreón, Coahuila de Zaragoza.
 * [ONU Hábitat](http://unhabitat.org) (2015),  Global City Report.
+
+### Este análisis fue publicado en Milenio Laguna
+
+[Torreón bajo la mirada de ONU Hábitat.](http://www.milenio.com/region/nuestra_metropoli_desde_el_implan-implan_torreon-prosperidad_torreon-milenio_0_908309202.html)
