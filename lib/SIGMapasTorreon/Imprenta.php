@@ -50,6 +50,8 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         $this->ultimas_cantidad         = 8;
         $this->categorias_encabezado    = 'Todos los mapas clasificados por categorías';
         $this->categorias_vinculos      = '\Base\VinculosCompactos';
+        // Nivel
+        $this->nivel                    = 61000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor
