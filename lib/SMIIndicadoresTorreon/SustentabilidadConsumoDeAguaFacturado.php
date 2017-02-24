@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Sustentabilidad Consumo de Agua Facturado (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SustentabilidadConsumoDeAguaFacturado
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,70 +25,45 @@ namespace SMIIndicadoresTorreon;
 /**
  * Clase SustentabilidadConsumoDeAguaFacturado
  */
-class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
+class SustentabilidadConsumoDeAguaFacturado extends \SMIBase\PublicacionWeb {
+
+    protected $lenguetas;
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Consumo de Agua Facturado en Torreón';
-        $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19:49';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sustentabilidad-consumo-de-agua-facturado';
-        $this->imagen            = '../smi/introduccion/imagen.jpg';
-        $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
+        $this->nombre                    = 'Consumo de Agua Facturado en Torreón';
+        $this->autor                     = 'Dirección de Investigación Estratégica';
+        $this->fecha                     = '2014-10-21T16:19:49';
+        // El nombre del archivo a crear
+        $this->archivo                   = 'sustentabilidad-consumo-de-agua-facturado';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Consumo anual de agua por persona expresado en metros cúbicos.';
-        $this->claves            = 'IMPLAN, Torreón, Recursos Naturales, Objetivos del Milenio';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-torreon';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu       = 'Indicadores';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado            = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir    = true;
-        // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
-        $region                  = new \Base\SchemaPostalAddress();
-        $region->addressCountry  = 'MX';
-        $region->addressRegion   = 'Coahuila de Zaragoza';
-        $region->addressLocality = 'Torreón';
-        // Instancia de SchemaPlace agrupa la región y el mapa
-        $lugar                   = new \Base\SchemaPlace();
-        $lugar->address          = $region;
-        // El contenido es estructurado en un esquema
-        $schema                  = new \Base\SchemaArticle();
-        $schema->name            = $this->nombre;
-        $schema->description     = $this->descripcion;
-        $schema->datePublished   = $this->fecha;
-        $schema->image           = $this->imagen;
-        $schema->image_show      = false;
-        $schema->author          = $this->autor;
-        $schema->contentLocation = $lugar;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        $this->descripcion               = 'Consumo anual de agua por persona expresado en metros cúbicos.';
+        $this->claves                    = 'IMPLAN, Torreón, Recursos Naturales, Objetivos del Milenio';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu               = 'Indicadores';
+        // Banderas
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->para_compartir            = TRUE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                    = 'publicar';
         // Para el Organizador
-        $this->categorias        = array('Recursos Naturales', 'Objetivos del Milenio');
-        $this->fuentes           = array('SIMAS');
-        $this->regiones          = 'Torreón';
+        $this->categorias                = array('Recursos Naturales', 'Objetivos del Milenio');
+        $this->fuentes                   = array('SIMAS');
+        $this->regiones                  = array('Torreón');
+        // Inicializar las lengüetas
+        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
     } // constructor
 
     /**
-     * HTML
+     * Sección Datos HTML
      *
      * @return string Código HTML
      */
-    public function html() {
-        // Cargar en el Schema el HTML de las lengüetas
-        $this->contenido->articleBody = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-  </ul>
-  <div class="tab-content lengueta-contenido">
-    <div class="tab-pane" id="smi-indicador-datos">
+    protected function seccion_datos_html() {
+        return <<<FINAL
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -136,27 +111,32 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
       <h3>Observaciones</h3>
 <p>Total facturado dividido entre la población.</p>
 
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Consumo de Agua Facturado en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
-    </div>
-  </div>
 FINAL;
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
+    } // seccion_datos_html
 
     /**
-     * Javascript
+     * Sección Gráfica HTML
      *
-     * @return string No hay código Javascript, entrega un texto vacío
+     * @return string Código HTML
      */
-    public function javascript() {
-        // JavaScript
-        $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+    protected function seccion_grafica_html() {
+        return <<<FINAL
+      <h3>Gráfica de Consumo de Agua Facturado en Torreón</h3>
+      <div id="graficaDatos" class="grafica"></div>
+      <p><b>Unidad:</b> Metros cúbicos per cápita.</p>
+      <h3>Observaciones</h3>
+<p>Total facturado dividido entre la población.</p>
+
+FINAL;
+    } // seccion_grafica_html
+
+    /**
+     * Sección Gráfica JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_grafica_javascript() {
+        return <<<FINAL
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -170,12 +150,34 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
-});
-// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
-$(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
-});
 FINAL;
+    } // seccion_grafica_javascript
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Ejecutar los métodos que alimentan cada lengüeta
+        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
+        $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
+        $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
+        $this->lenguetas->definir_activa(); // Primer lengüeta activa
+        // Definir contenido HTML en el esquema
+        $this->contenido->articleBody = $this->lenguetas->html();
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript está dentro de las lengüetas
+        $this->javascript = $this->lenguetas->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript
@@ -186,59 +188,8 @@ FINAL;
      * @return string Código HTML
      */
     public function redifusion_html() {
-        // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Consumo anual de agua por persona expresado en metros cúbicos.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2010</td>
-            <td>47.7700</td>
-            <td>SIMAS</td>
-            <td>Consumo anual</td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>46.7500</td>
-            <td>SIMAS</td>
-            <td>Consumo anual</td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>44.5700</td>
-            <td>SIMAS</td>
-            <td>Consumo anual</td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>41.9900</td>
-            <td>SIMAS</td>
-            <td>Consumo anual</td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>41.2000</td>
-            <td>SIMAS</td>
-            <td>Consumo anual. Consulta la Base de Datos en http://datostrc.gob.mx/datasets/ver/33190.</td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Metros cúbicos per cápita.</p>
-      <h3>Observaciones</h3>
-<p>Total facturado dividido entre la población.</p>
-
-FINAL;
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
         // Ejecutar este método en el padre
         return parent::redifusion_html();
     } // redifusion_html

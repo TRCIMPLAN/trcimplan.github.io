@@ -34,11 +34,9 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Litros de Combustible Gastados por Habitante en Torreón - IMPLAN Torreón">
   <meta name="twitter:description" content="Determina la relación de litros de combustible gastados por el gobierno municipal respecto de su población total.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-litros-de-combustible-gastados-por-habitante.html">
   <meta name="og:title" content="Litros de Combustible Gastados por Habitante en Torreón - IMPLAN Torreón">
   <meta name="og:description" content="Determina la relación de litros de combustible gastados por el gobierno municipal respecto de su población total.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-litros-de-combustible-gastados-por-habitante.html">
   <title>Litros de Combustible Gastados por Habitante en Torreón - IMPLAN Torreón</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -161,7 +159,7 @@
   <div id="page-wrapper">
     <div class="cuerpo">
       <article><div itemscope itemtype="http://schema.org/Article">
-        <div class="encabezado" style="background-color:#CA198A;">
+        <div class="encabezado">
           <h1 itemprop="name">Litros de Combustible Gastados por Habitante en Torreón</h1>
           <div class="encabezado-descripcion" itemprop="description">Determina la relación de litros de combustible gastados por el gobierno municipal respecto de su población total.</div>
           <div class="encabezado-autor-fecha">
@@ -169,16 +167,15 @@
             <meta itemprop="datePublished" content="2015-07-06T15:09:06">06/07/2015 15:09
           </div>
         </div>
-        <meta itemprop="image" alt="Litros de Combustible Gastados por Habitante en Torreón" src="../smi/introduccion/imagen.jpg">
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Información recopilada</h3>
+    <div class="tab-pane active" id="smi-indicador-datos">
+            <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -209,18 +206,15 @@
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Litros de Combustible Gastados por Habitante en Torreón</h3>
+            <h3>Gráfica de Litros de Combustible Gastados por Habitante en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
+      <p><b>Unidad:</b> Litros por Persona.</p>
+      <h3>Observaciones</h3>
+<p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
+
     </div>
   </div>
 <!-- Contenido: Termina -->
-        </div>
-              <div itemprop="contentLocation" itemscope itemtype="http://schema.org/Place">
-                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <div class="direccion">
-  <span itemprop="addressLocality">Torreón</span>, <span itemprop="addressRegion">Coahuila de Zaragoza</span>. <meta itemprop="addressCountry" content="MX">México.
-  </div>
-          </div>
         </div>
       </div></article>
       <aside>
@@ -316,9 +310,7 @@
 <script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
 <!-- Javascript: Inicia  -->
 <script>
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
@@ -330,12 +322,8 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  }
-});
-// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
-$(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
-});
+  } });
+$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
 </script>
 <script>
   // Twitter

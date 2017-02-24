@@ -34,11 +34,9 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Alumnos de Preescolar por Docente en Gómez Palacio - IMPLAN Torreón">
   <meta name="twitter:description" content="Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/../smi/introduccion/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-alumnos-de-preescolar-por-docente.html">
   <meta name="og:title" content="Alumnos de Preescolar por Docente en Gómez Palacio - IMPLAN Torreón">
   <meta name="og:description" content="Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/../smi/introduccion/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-alumnos-de-preescolar-por-docente.html">
   <title>Alumnos de Preescolar por Docente en Gómez Palacio - IMPLAN Torreón</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -161,7 +159,7 @@
   <div id="page-wrapper">
     <div class="cuerpo">
       <article><div itemscope itemtype="http://schema.org/Article">
-        <div class="encabezado" style="background-color:#CA198A;">
+        <div class="encabezado">
           <h1 itemprop="name">Alumnos de Preescolar por Docente en Gómez Palacio</h1>
           <div class="encabezado-descripcion" itemprop="description">Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.</div>
           <div class="encabezado-autor-fecha">
@@ -169,16 +167,15 @@
             <meta itemprop="datePublished" content="2015-05-21T14:08:17">21/05/2015 14:08
           </div>
         </div>
-        <meta itemprop="image" alt="Alumnos de Preescolar por Docente en Gómez Palacio" src="../smi/introduccion/imagen.jpg">
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Información recopilada</h3>
+    <div class="tab-pane active" id="smi-indicador-datos">
+            <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -202,8 +199,8 @@
 <p>Consulta la <a href="http://planeacion.sep.gob.mx/principalescifras/">Base de Datos</a></p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Alumnos de Preescolar por Docente</h3>
+    <div class="tab-pane" id="smi-indicador-otras-regiones">
+            <h3>Gráfica con los últimos datos de Alumnos de Preescolar por Docente</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
       <h3>Últimos datos de Alumnos de Preescolar por Docente</h3>
       <table class="table table-hover table-bordered matriz">
@@ -275,16 +272,13 @@
           </tr>
         </tbody>
       </table>
+      <p><b>Unidad:</b> Personas.</p>
+      <h3>Observaciones</h3>
+<p>Consulta la <a href="http://planeacion.sep.gob.mx/principalescifras/">Base de Datos</a></p>
+
     </div>
   </div>
 <!-- Contenido: Termina -->
-        </div>
-              <div itemprop="contentLocation" itemscope itemtype="http://schema.org/Place">
-                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <div class="direccion">
-  <span itemprop="addressLocality">Gómez Palacio</span>, <span itemprop="addressRegion">Durango</span>. <meta itemprop="addressCountry" content="MX">México.
-  </div>
-          </div>
         </div>
       </div></article>
       <aside>
@@ -369,9 +363,7 @@
 <script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
 <!-- Javascript: Inicia  -->
 <script>
-// LENGUETA smi-indicador-otras_regiones
-$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
-  // Gráfica
+$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
@@ -381,12 +373,8 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
       labels: ['Dato'],
       barColors: ['#FF5B02']
     });
-  }
-});
-// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
-$(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
-});
+  } });
+$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
 </script>
 <script>
   // Twitter

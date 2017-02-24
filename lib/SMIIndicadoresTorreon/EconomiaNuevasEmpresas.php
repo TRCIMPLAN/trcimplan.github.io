@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Nuevas Empresas (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon EconomiaNuevasEmpresas
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,70 +25,45 @@ namespace SMIIndicadoresTorreon;
 /**
  * Clase EconomiaNuevasEmpresas
  */
-class EconomiaNuevasEmpresas extends \Base\Publicacion {
+class EconomiaNuevasEmpresas extends \SMIBase\PublicacionWeb {
+
+    protected $lenguetas;
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Nuevas Empresas en Torreón';
-        $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-02-09T08:43:29';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'economia-nuevas-empresas';
-        $this->imagen            = '../smi/introduccion/imagen.jpg';
-        $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
+        $this->nombre                    = 'Nuevas Empresas en Torreón';
+        $this->autor                     = 'Dirección de Investigación Estratégica';
+        $this->fecha                     = '2015-02-09T08:43:29';
+        // El nombre del archivo a crear
+        $this->archivo                   = 'economia-nuevas-empresas';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.';
-        $this->claves            = 'IMPLAN, Torreón, Empresas';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-torreon';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu       = 'Indicadores';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado            = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir    = true;
-        // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
-        $region                  = new \Base\SchemaPostalAddress();
-        $region->addressCountry  = 'MX';
-        $region->addressRegion   = 'Coahuila de Zaragoza';
-        $region->addressLocality = 'Torreón';
-        // Instancia de SchemaPlace agrupa la región y el mapa
-        $lugar                   = new \Base\SchemaPlace();
-        $lugar->address          = $region;
-        // El contenido es estructurado en un esquema
-        $schema                  = new \Base\SchemaArticle();
-        $schema->name            = $this->nombre;
-        $schema->description     = $this->descripcion;
-        $schema->datePublished   = $this->fecha;
-        $schema->image           = $this->imagen;
-        $schema->image_show      = false;
-        $schema->author          = $this->autor;
-        $schema->contentLocation = $lugar;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        $this->descripcion               = 'Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.';
+        $this->claves                    = 'IMPLAN, Torreón, Empresas';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu               = 'Indicadores';
+        // Banderas
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->para_compartir            = TRUE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                    = 'publicar';
         // Para el Organizador
-        $this->categorias        = array('Empresas');
-        $this->fuentes           = array('Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón');
-        $this->regiones          = 'Torreón';
+        $this->categorias                = array('Empresas');
+        $this->fuentes                   = array('Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón');
+        $this->regiones                  = array('Torreón');
+        // Inicializar las lengüetas
+        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
     } // constructor
 
     /**
-     * HTML
+     * Sección Datos HTML
      *
      * @return string Código HTML
      */
-    public function html() {
-        // Cargar en el Schema el HTML de las lengüetas
-        $this->contenido->articleBody = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-  </ul>
-  <div class="tab-content lengueta-contenido">
-    <div class="tab-pane" id="smi-indicador-datos">
+    protected function seccion_datos_html() {
+        return <<<FINAL
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -661,27 +636,29 @@ class EconomiaNuevasEmpresas extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Nuevas Empresas en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
-    </div>
-  </div>
 FINAL;
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
+    } // seccion_datos_html
 
     /**
-     * Javascript
+     * Sección Gráfica HTML
      *
-     * @return string No hay código Javascript, entrega un texto vacío
+     * @return string Código HTML
      */
-    public function javascript() {
-        // JavaScript
-        $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+    protected function seccion_grafica_html() {
+        return <<<FINAL
+      <h3>Gráfica de Nuevas Empresas en Torreón</h3>
+      <div id="graficaDatos" class="grafica"></div>
+      <p><b>Unidad:</b> Cantidad.</p>
+FINAL;
+    } // seccion_grafica_html
+
+    /**
+     * Sección Gráfica JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_grafica_javascript() {
+        return <<<FINAL
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -695,12 +672,34 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
-});
-// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
-$(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
-});
 FINAL;
+    } // seccion_grafica_javascript
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Ejecutar los métodos que alimentan cada lengüeta
+        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
+        $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
+        $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
+        $this->lenguetas->definir_activa(); // Primer lengüeta activa
+        // Definir contenido HTML en el esquema
+        $this->contenido->articleBody = $this->lenguetas->html();
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript está dentro de las lengüetas
+        $this->javascript = $this->lenguetas->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript
@@ -711,584 +710,8 @@ FINAL;
      * @return string Código HTML
      */
     public function redifusion_html() {
-        // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/01/2009</td>
-            <td>71</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2009</td>
-            <td>77</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2009</td>
-            <td>95</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2009</td>
-            <td>66</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2009</td>
-            <td>60</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2009</td>
-            <td>99</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2009</td>
-            <td>93</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2009</td>
-            <td>93</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2009</td>
-            <td>139</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2009</td>
-            <td>87</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2009</td>
-            <td>73</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>25</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2010</td>
-            <td>58</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2010</td>
-            <td>137</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2010</td>
-            <td>144</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2010</td>
-            <td>126</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2010</td>
-            <td>111</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2010</td>
-            <td>77</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2010</td>
-            <td>91</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2010</td>
-            <td>113</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2010</td>
-            <td>77</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2010</td>
-            <td>86</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2010</td>
-            <td>73</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>52</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2011</td>
-            <td>88</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2011</td>
-            <td>152</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2011</td>
-            <td>127</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2011</td>
-            <td>98</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2011</td>
-            <td>128</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2011</td>
-            <td>136</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2011</td>
-            <td>85</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2011</td>
-            <td>108</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2011</td>
-            <td>129</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2011</td>
-            <td>188</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2011</td>
-            <td>165</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>90</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2012</td>
-            <td>89</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/02/2012</td>
-            <td>135</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2012</td>
-            <td>206</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2012</td>
-            <td>187</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2012</td>
-            <td>182</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2012</td>
-            <td>161</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2012</td>
-            <td>122</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2012</td>
-            <td>96</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2012</td>
-            <td>74</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2012</td>
-            <td>113</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2012</td>
-            <td>99</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>36</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2013</td>
-            <td>71</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2013</td>
-            <td>117</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2013</td>
-            <td>121</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2013</td>
-            <td>122</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2013</td>
-            <td>147</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2013</td>
-            <td>112</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2013</td>
-            <td>121</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2013</td>
-            <td>146</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2013</td>
-            <td>165</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2013</td>
-            <td>132</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2013</td>
-            <td>92</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>37</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2014</td>
-            <td>53</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2014</td>
-            <td>101</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2014</td>
-            <td>112</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2014</td>
-            <td>98</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2014</td>
-            <td>121</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>94</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2014</td>
-            <td>327</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2014</td>
-            <td>362</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2014</td>
-            <td>334</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2014</td>
-            <td>297</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2014</td>
-            <td>230</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>102</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2015</td>
-            <td>123</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2015</td>
-            <td>152</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2015</td>
-            <td>269</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2015</td>
-            <td>203</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2015</td>
-            <td>196</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>204</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2015</td>
-            <td>252</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2015</td>
-            <td>204</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2015</td>
-            <td>218</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2015</td>
-            <td>234</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2015</td>
-            <td>184</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>84</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2016</td>
-            <td>127</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/02/2016</td>
-            <td>223</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2016</td>
-            <td>210</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2016</td>
-            <td>233</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2016</td>
-            <td>221</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>208</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2016</td>
-            <td>166</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2016</td>
-            <td>183</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2016</td>
-            <td>165</td>
-            <td>Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-FINAL;
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
         // Ejecutar este método en el padre
         return parent::redifusion_html();
     } // redifusion_html

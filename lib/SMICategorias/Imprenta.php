@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN - SMI Categorías Imprenta (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN Sitio Web - Imprenta
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,19 +31,21 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
-        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
+        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'SMICategorias';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Indicadores por Categoría';
-        $this->descripcion              = 'Sistema Metropolitano de Indicadores, Listado de Categorías';
-        $this->claves                   = 'IMPLAN, SMI, Indicadores, Metropolitanos';
-        $this->encabezado_color         = '#CA198A';
-        // Opción de Navegación a poner activa
+        $this->descripcion              = 'Sistema Metropolitano de Indicadores, Listado de Categorías.';
+        $this->claves                   = 'IMPLAN, SMI, Indicadores, Metropolitanos, Categorias';
+        $this->encabezado_color         = '#808080';
+        // Opción de navegación a poner como activa
         $this->nombre_menu              = 'Indicadores > Indicadores por Categoría';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\Base\PaginasGalerias';
+        $this->indices_paginas          = '\\Base\\PaginasGalerias';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'indicadores-categorias';
+        // Nivel es el orden de la rama para los índices por autores y categorías, debe ser un entero grande
+        $this->nivel                    = 20999;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

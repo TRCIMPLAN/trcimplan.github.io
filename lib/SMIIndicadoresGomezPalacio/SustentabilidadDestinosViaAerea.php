@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Gómez Palacio Sustentabilidad Destinos Vía Aérea (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN Sitio Web - SMIIndicadoresGomezPalacio SustentabilidadDestinosViaAerea
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,70 +25,45 @@ namespace SMIIndicadoresGomezPalacio;
 /**
  * Clase SustentabilidadDestinosViaAerea
  */
-class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
+class SustentabilidadDestinosViaAerea extends \SMIBase\PublicacionWeb {
+
+    protected $lenguetas;
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Destinos Vía Aérea en Gómez Palacio';
-        $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19:49';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sustentabilidad-destinos-via-aerea';
-        $this->imagen            = '../smi/introduccion/imagen.jpg';
-        $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
+        $this->nombre                    = 'Destinos Vía Aérea en Gómez Palacio';
+        $this->autor                     = 'Dirección de Investigación Estratégica';
+        $this->fecha                     = '2014-10-21T16:19:49';
+        // El nombre del archivo a crear
+        $this->archivo                   = 'sustentabilidad-destinos-via-aerea';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
-        $this->claves            = 'IMPLAN, Gómez Palacio, Movilidad';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-gomez-palacio';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu       = 'Indicadores';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado            = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir    = true;
-        // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
-        $region                  = new \Base\SchemaPostalAddress();
-        $region->addressCountry  = 'MX';
-        $region->addressRegion   = 'Durango';
-        $region->addressLocality = 'Gómez Palacio';
-        // Instancia de SchemaPlace agrupa la región y el mapa
-        $lugar                   = new \Base\SchemaPlace();
-        $lugar->address          = $region;
-        // El contenido es estructurado en un esquema
-        $schema                  = new \Base\SchemaArticle();
-        $schema->name            = $this->nombre;
-        $schema->description     = $this->descripcion;
-        $schema->datePublished   = $this->fecha;
-        $schema->image           = $this->imagen;
-        $schema->image_show      = false;
-        $schema->author          = $this->autor;
-        $schema->contentLocation = $lugar;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        $this->descripcion               = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
+        $this->claves                    = 'IMPLAN, Gómez Palacio, Movilidad';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu               = 'Indicadores';
+        // Banderas
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->para_compartir            = TRUE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                    = 'publicar';
         // Para el Organizador
-        $this->categorias        = array('Movilidad');
-        $this->fuentes           = array('Operadora Mexicana de Aeropuertos (OMA)');
-        $this->regiones          = 'Gómez Palacio';
+        $this->categorias                = array('Movilidad');
+        $this->fuentes                   = array('Operadora Mexicana de Aeropuertos (OMA)');
+        $this->regiones                  = array('Gómez Palacio');
+        // Inicializar las lengüetas
+        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
     } // constructor
 
     /**
-     * HTML
+     * Sección Datos HTML
      *
      * @return string Código HTML
      */
-    public function html() {
-        // Cargar en el Schema el HTML de las lengüetas
-        $this->contenido->articleBody = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-  </ul>
-  <div class="tab-content lengueta-contenido">
-    <div class="tab-pane" id="smi-indicador-datos">
+    protected function seccion_datos_html() {
+        return <<<FINAL
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -112,8 +87,16 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
       <h3>Observaciones</h3>
 <p>Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
 
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras_regiones">
+FINAL;
+    } // seccion_datos_html
+
+    /**
+     * Sección Otras Regiones HTML
+     *
+     * @return string Código HTML
+     */
+    protected function seccion_otras_regiones_html() {
+        return <<<FINAL
       <h3>Gráfica con los últimos datos de Destinos Vía Aérea</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
       <h3>Últimos datos de Destinos Vía Aérea</h3>
@@ -165,23 +148,20 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
           </tr>
         </tbody>
       </table>
-    </div>
-  </div>
+      <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
+
 FINAL;
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
+    } // seccion_otras_regiones_html
 
     /**
-     * Javascript
+     * Sección Otras Regiones JavaScript
      *
-     * @return string No hay código Javascript, entrega un texto vacío
+     * @return string Código JavaScript
      */
-    public function javascript() {
-        // JavaScript
-        $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-otras_regiones
-$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+    protected function seccion_otras_regiones_javascript() {
+        return <<<FINAL
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
@@ -193,12 +173,34 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
       barColors: ['#FF5B02']
     });
   }
-});
-// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
-$(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
-});
 FINAL;
+    } // seccion_otras_regiones_javascript
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Ejecutar los métodos que alimentan cada lengüeta
+        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
+        $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
+        $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
+        $this->lenguetas->definir_activa(); // Primer lengüeta activa
+        // Definir contenido HTML en el esquema
+        $this->contenido->articleBody = $this->lenguetas->html();
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript está dentro de las lengüetas
+        $this->javascript = $this->lenguetas->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript
@@ -209,35 +211,8 @@ FINAL;
      * @return string Código HTML
      */
     public function redifusion_html() {
-        // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/03/2014</td>
-            <td>No tiene</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
-
-FINAL;
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
         // Ejecutar este método en el padre
         return parent::redifusion_html();
     } // redifusion_html

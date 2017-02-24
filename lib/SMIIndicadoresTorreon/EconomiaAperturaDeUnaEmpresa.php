@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Apertura de una empresa (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon EconomiaAperturaDeUnaEmpresa
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,70 +25,45 @@ namespace SMIIndicadoresTorreon;
 /**
  * Clase EconomiaAperturaDeUnaEmpresa
  */
-class EconomiaAperturaDeUnaEmpresa extends \Base\Publicacion {
+class EconomiaAperturaDeUnaEmpresa extends \SMIBase\PublicacionWeb {
+
+    protected $lenguetas;
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Apertura de una empresa en Torreón';
-        $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19:49';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'economia-apertura-de-una-empresa';
-        $this->imagen            = '../smi/introduccion/imagen.jpg';
-        $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
+        $this->nombre                    = 'Apertura de una empresa en Torreón';
+        $this->autor                     = 'Dirección de Investigación Estratégica';
+        $this->fecha                     = '2014-10-21T16:19:49';
+        // El nombre del archivo a crear
+        $this->archivo                   = 'economia-apertura-de-una-empresa';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Número de días necesarios para el trámite de apertura de una empresa.';
-        $this->claves            = 'IMPLAN, Torreón, Empresas, Doing Business';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-torreon';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu       = 'Indicadores';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado            = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir    = true;
-        // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
-        $region                  = new \Base\SchemaPostalAddress();
-        $region->addressCountry  = 'MX';
-        $region->addressRegion   = 'Coahuila de Zaragoza';
-        $region->addressLocality = 'Torreón';
-        // Instancia de SchemaPlace agrupa la región y el mapa
-        $lugar                   = new \Base\SchemaPlace();
-        $lugar->address          = $region;
-        // El contenido es estructurado en un esquema
-        $schema                  = new \Base\SchemaArticle();
-        $schema->name            = $this->nombre;
-        $schema->description     = $this->descripcion;
-        $schema->datePublished   = $this->fecha;
-        $schema->image           = $this->imagen;
-        $schema->image_show      = false;
-        $schema->author          = $this->autor;
-        $schema->contentLocation = $lugar;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        $this->descripcion               = 'Número de días necesarios para el trámite de apertura de una empresa.';
+        $this->claves                    = 'IMPLAN, Torreón, Empresas, Doing Business';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu               = 'Indicadores';
+        // Banderas
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->para_compartir            = TRUE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                    = 'publicar';
         // Para el Organizador
-        $this->categorias        = array('Empresas', 'Doing Business');
-        $this->fuentes           = array('Doing Business');
-        $this->regiones          = 'Torreón';
+        $this->categorias                = array('Empresas', 'Doing Business');
+        $this->fuentes                   = array('Doing Business');
+        $this->regiones                  = array('Torreón');
+        // Inicializar las lengüetas
+        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
     } // constructor
 
     /**
-     * HTML
+     * Sección Datos HTML
      *
      * @return string Código HTML
      */
-    public function html() {
-        // Cargar en el Schema el HTML de las lengüetas
-        $this->contenido->articleBody = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-  </ul>
-  <div class="tab-content lengueta-contenido">
-    <div class="tab-pane" id="smi-indicador-datos">
+    protected function seccion_datos_html() {
+        return <<<FINAL
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -141,27 +116,29 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
         </tbody>
       </table>
       <p><b>Unidad:</b> Días.</p>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Apertura de una empresa en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
-    </div>
-  </div>
 FINAL;
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
+    } // seccion_datos_html
 
     /**
-     * Javascript
+     * Sección Gráfica HTML
      *
-     * @return string No hay código Javascript, entrega un texto vacío
+     * @return string Código HTML
      */
-    public function javascript() {
-        // JavaScript
-        $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+    protected function seccion_grafica_html() {
+        return <<<FINAL
+      <h3>Gráfica de Apertura de una empresa en Torreón</h3>
+      <div id="graficaDatos" class="grafica"></div>
+      <p><b>Unidad:</b> Días.</p>
+FINAL;
+    } // seccion_grafica_html
+
+    /**
+     * Sección Gráfica JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_grafica_javascript() {
+        return <<<FINAL
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -175,12 +152,34 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
-});
-// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
-$(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
-});
 FINAL;
+    } // seccion_grafica_javascript
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Ejecutar los métodos que alimentan cada lengüeta
+        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
+        $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
+        $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
+        $this->lenguetas->definir_activa(); // Primer lengüeta activa
+        // Definir contenido HTML en el esquema
+        $this->contenido->articleBody = $this->lenguetas->html();
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript está dentro de las lengüetas
+        $this->javascript = $this->lenguetas->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript
@@ -191,64 +190,8 @@ FINAL;
      * @return string Código HTML
      */
     public function redifusion_html() {
-        // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Número de días necesarios para el trámite de apertura de una empresa.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2007</td>
-            <td>28.0000</td>
-            <td>Doing Business</td>
-            <td>En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2007 para Torreón son: 
-
-- # de procedimientos/trámites: 9 
-- Costo (% del PIB per cápita): 13 
-- Ranking en apertura de negocio: 6</td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>11.0000</td>
-            <td>Doing Business</td>
-            <td>En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2012 para Torreón son:
-
-- # de procedimientos: 7
-- Costo (% del ingreso per cápita): 12.8
-
-- Ranking en apertura de negocio: 22</td>
-          </tr>
-          <tr>
-            <td>31/10/2013</td>
-            <td>9.5000</td>
-            <td>Doing Business</td>
-            <td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014.
-
-Los Indicadores complementarios en apertura de un negocio fueron los siguientes para Torreón:
-Procedimientos (número) = 7 ; 
-Costo (% de ingreso per cápita) = 21,2 ;
-Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>11.5000</td>
-            <td>Doing Business</td>
-            <td>Obtenido del reporte Doing Business en México 2016.</td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Días.</p>
-FINAL;
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
         // Ejecutar este método en el padre
         return parent::redifusion_html();
     } // redifusion_html
