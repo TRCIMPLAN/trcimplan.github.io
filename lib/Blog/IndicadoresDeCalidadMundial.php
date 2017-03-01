@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Torreón en proceso de certificación internacional
+ * TrcIMPLAN Sitio Web - IndicadoresDeCalidadMundial
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,27 +23,27 @@
 namespace Blog;
 
 /**
- * Clase TorreonEnProcesoDeCertificacionInternacional
+ * Clase IndicadoresDeCalidadMundial
  */
-class TorreonEnProcesoDeCertificacionInternacional extends \Base\PublicacionSchemaBlogPosting {
+class IndicadoresDeCalidadMundial extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                     = 'Torreón en proceso de certificación internacional';
+        $this->nombre                     = 'Indicadores de Calidad Mundial';
         $this->autor                      = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha                      = '2017-03-01T15:00';
+        $this->fecha                      = '2017-03-01T16:00';
         // El nombre del archivo a crear
-        $this->archivo                    = 'torreon-en-proceso-de-certificacion-internacional';
+        $this->archivo                    = 'indicadores-de-calidad-mundial';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Torreón está en proceso de certificación de la norma ISO 37120:2014 Desarrollo Sostenible de Ciudades por parte del Consejo Mundial de Información de las Ciudades (WCCD). Nuestra ciudad se medirá con los estándares internacionales que buscan elevar la calidad de vida de la población.';
         $this->claves                     = 'IMPLAN, Torreon, Certificacion, Ciudades, WCCD';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/Blog/TorreonEnProcesoDeCertificacionInternacional.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/IndicadoresDeCalidadMundial.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
@@ -53,6 +53,6 @@ class TorreonEnProcesoDeCertificacionInternacional extends \Base\PublicacionSche
         $this->regiones                   = array('Torreón');
     } // constructor
 
-} // Clase TorreonEnProcesoDeCertificacionInternacional
+} // Clase IndicadoresDeCalidadMundial
 
 ?>
