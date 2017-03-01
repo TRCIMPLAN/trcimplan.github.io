@@ -175,7 +175,10 @@ class SociedadCamasCensables extends \SMIBase\PublicacionWeb {
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
       <h3>Observaciones</h3>
-<p>Hasta los datos de 2012 la Dirección General de Información de Salud (DGIS) considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio. Para 2013 y 2014 se agregan las cifras de las unidades pertenecientes al IMSS, SEDENA, SSA, ISSSTE y Universitarios.</p>
+<ol>
+<li>Hasta los datos de 2012 la Dirección General de Información de Salud (DGIS) considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio. Para 2013 y 2014 se agregan las cifras de las unidades pertenecientes al IMSS, SEDENA, SSA, ISSSTE y Universitarios.</li>
+<li>Los datos de años anteriores a 2013 irán aumentando debido a la carga de la información concerniente al punto anterior.</li>
+</ol>
 
 FINAL;
     } // seccion_datos_html
@@ -191,7 +194,10 @@ FINAL;
       <div id="graficaDatosSinaisSsa" class="grafica"></div>
       <p><b>Unidad:</b> Cantidad.</p>
       <h3>Observaciones</h3>
-<p>Hasta los datos de 2012 la Dirección General de Información de Salud (DGIS) considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio. Para 2013 y 2014 se agregan las cifras de las unidades pertenecientes al IMSS, SEDENA, SSA, ISSSTE y Universitarios.</p>
+<ol>
+<li>Hasta los datos de 2012 la Dirección General de Información de Salud (DGIS) considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio. Para 2013 y 2014 se agregan las cifras de las unidades pertenecientes al IMSS, SEDENA, SSA, ISSSTE y Universitarios.</li>
+<li>Los datos de años anteriores a 2013 irán aumentando debido a la carga de la información concerniente al punto anterior.</li>
+</ol>
 
 FINAL;
     } // seccion_grafica_html
@@ -300,7 +306,10 @@ FINAL;
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
       <h3>Observaciones</h3>
-<p>Hasta los datos de 2012 la Dirección General de Información de Salud (DGIS) considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio. Para 2013 y 2014 se agregan las cifras de las unidades pertenecientes al IMSS, SEDENA, SSA, ISSSTE y Universitarios.</p>
+<ol>
+<li>Hasta los datos de 2012 la Dirección General de Información de Salud (DGIS) considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio. Para 2013 y 2014 se agregan las cifras de las unidades pertenecientes al IMSS, SEDENA, SSA, ISSSTE y Universitarios.</li>
+<li>Los datos de años anteriores a 2013 irán aumentando debido a la carga de la información concerniente al punto anterior.</li>
+</ol>
 
 FINAL;
     } // seccion_otras_regiones_html

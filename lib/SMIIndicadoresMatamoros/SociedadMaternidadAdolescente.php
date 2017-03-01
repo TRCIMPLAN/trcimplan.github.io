@@ -40,7 +40,7 @@ class SociedadMaternidadAdolescente extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo                   = 'sociedad-maternidad-adolescente';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = '';
+        $this->descripcion               = 'Porcentaje de nacimientos registrados cuyas madres son menores de 17 años.';
         $this->claves                    = 'IMPLAN, Matamoros, Género';
         // Opción de navegación a poner como activa
         $this->nombre_menu               = 'Indicadores';
