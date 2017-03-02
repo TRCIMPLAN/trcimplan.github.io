@@ -51,7 +51,7 @@ class InfraestructuraVial extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Infraestructura', 'Vialidad');
+        $this->categorias         = array('Infraestructura', 'Movilidad', 'Vialidad');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/3e3e7590-7982-11e4-8c5e-0e4fddd5de28/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
