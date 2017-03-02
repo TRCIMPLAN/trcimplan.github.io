@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SIG Mapas Vida en la Ciudad
+ * TrcIMPLAN Sitio Web - SIGMapasTorreon VidaEnCiudad
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
