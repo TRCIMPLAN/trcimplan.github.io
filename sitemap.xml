@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-03-02</lastmod>
+    <lastmod>2017-03-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1488,6 +1488,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-01-26-sesion-ordinaria.html</loc>
     <lastmod>2017-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-03-07-taller-anticipacion-estrategica-para-la-planeacion-urbana.html</loc>
+    <lastmod>2017-03-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IMPLAN inicia transmisiones en vivo con temas de interés ciudadano
+ * TrcIMPLAN Sitio Web - TallerAnticipacionEstrategicaParaLaPlaneacionUrbana
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,36 +23,36 @@
 namespace SalaPrensa;
 
 /**
- * Clase IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano
+ * Clase TallerAnticipacionEstrategicaParaLaPlaneacionUrbana
  */
-class IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano extends \Base\PublicacionSchemaBlogPosting {
+class TallerAnticipacionEstrategicaParaLaPlaneacionUrbana extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                     = 'IMPLAN inicia transmisiones en vivo con temas de interés ciudadano';
+        $this->nombre                     = 'IMPLAN asiste al taller Anticipación Estratégica para la Planeación Urbana';
     //~ $this->autor                      = '';
-        $this->fecha                      = '2017-02-21T14:40';
+        $this->fecha                      = '2017-03-07T12:16';
         // El nombre del archivo a crear
-        $this->archivo                    = '2017-02-21-implan-inicia-transmisiones-en-vivo';
+        $this->archivo                    = '2017-03-07-taller-anticipacion-estrategica-para-la-planeacion-urbana';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Con el fin de dar difusión a los temas que involucran el futuro de la ciudad, el IMPLAN ha iniciado una serie de transmisiones en vivo a través de su página de Facebook.';
-        $this->claves                     = 'IMPLAN, Torreon, Tramisiones, En vivo';
+        $this->descripcion                = 'En León, Guanajuato; los expertos en prospectiva e inteligencia estratégica nos mostraron cómo analizar el futuro de las ciudades para poder modificarlo en el presente.';
+        $this->claves                     = 'IMPLAN, Torreon, Prospectiva, Inteligencia, Estrategica, Anticipacion, Planeacion';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/TallerAnticipacionEstrategicaParaLaPlaneacionUrbana.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Bienestar');
         $this->fuentes                    = array('IMPLAN');
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
 
-} // Clase IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano
+} // Clase TallerAnticipacionEstrategicaParaLaPlaneacionUrbana
 
 ?>
