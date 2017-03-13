@@ -52,7 +52,7 @@ Resultados CPI | Factores del estado de Prosperidad | Nivel de intervención
 
 ### Torreón y sus factores de properidad
 
-<img class="img-responsive" src="indicadores-de-calidad-mundial/torreon-y-sus-factores-de-prosperidad.png" alt="Torreón y sus factores de properidad">
+<img class="img-responsive" src="torreon-bajo-la-mirada-de-onu-habitat/torreon-y-sus-factores-de-prosperidad.png" alt="Torreón y sus factores de properidad">
 
 ### Fuentes
 
