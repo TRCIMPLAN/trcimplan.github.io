@@ -82,7 +82,12 @@ class CreadorConfig {
             '\\SMIIndicadoresTorreon\\Imprenta');
         $this->imprentas_categorias     = $this->imprentas_autores;
         $this->imprentas_redifusion     = $this->imprentas_autores;
-        $this->imprentas_pagina_inicial = $this->imprentas_autores;
+        $this->imprentas_pagina_inicial = array(
+            '\\Blog\\Imprenta',
+            '\\PET\\Imprenta',
+            '\\Proyectos\\Imprenta',
+            '\\SalaPrensa\\Imprenta',
+            '\\SIGMapasTorreon\\Imprenta');
     //  $this->imprentas_json           = array(
     //      '\\IBCTorreon\\ImprentaJSONs');
     //  $this->imprentas_csv            = array(
