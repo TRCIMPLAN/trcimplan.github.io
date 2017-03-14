@@ -302,6 +302,7 @@ class PorRegiones extends \SMIBase\PublicacionWeb {
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html" target="_blank">Consumo de Agua Facturado</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-densidad-media-urbana.html" target="_blank">Densidad Media Urbana</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -565,6 +566,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+              <li><a href="../indicadores-gomez-palacio/sustentabilidad-densidad-media-urbana.html" target="_blank">Densidad Media Urbana</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -824,6 +826,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+              <li><a href="../indicadores-lerdo/sustentabilidad-densidad-media-urbana.html" target="_blank">Densidad Media Urbana</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -1084,6 +1087,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+              <li><a href="../indicadores-matamoros/sustentabilidad-densidad-media-urbana.html" target="_blank">Densidad Media Urbana</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
