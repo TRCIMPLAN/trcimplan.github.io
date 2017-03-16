@@ -289,6 +289,12 @@
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>7013</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -321,36 +327,50 @@
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>4421</td>
+            <td>2015-12-31</td>
+            <td>4876</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-12-31</td>
-            <td>1682</td>
+            <td>2015-12-31</td>
+            <td>1585</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-12-31</td>
-            <td>362</td>
+            <td>2015-12-31</td>
+            <td>343</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-12-31</td>
-            <td>164</td>
+            <td>2015-12-31</td>
+            <td>209</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
-            <td>6509</td>
+            <td>2015-12-31</td>
+            <td>7013</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2015-12-31</td>
+            <td>14641</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2015-12-31</td>
+            <td>5379</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -461,7 +481,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1997-12-31', dato: 4404 },{ fecha: '1998-12-31', dato: 5709 },{ fecha: '1999-12-31', dato: 6208 },{ fecha: '2000-12-31', dato: 8169 },{ fecha: '2001-12-31', dato: 8933 },{ fecha: '2002-12-31', dato: 8986 },{ fecha: '2003-12-31', dato: 8507 },{ fecha: '2005-12-31', dato: 9366 },{ fecha: '2006-12-31', dato: 10324 },{ fecha: '2007-12-31', dato: 9612 },{ fecha: '2008-12-31', dato: 8831 },{ fecha: '2009-12-31', dato: 6995 },{ fecha: '2010-12-31', dato: 5577 },{ fecha: '2011-12-31', dato: 4568 },{ fecha: '2012-12-31', dato: 4107 },{ fecha: '2013-12-31', dato: 3362 },{ fecha: '2014-12-31', dato: 6509 }],
+      data: [{ fecha: '1997-12-31', dato: 4404 },{ fecha: '1998-12-31', dato: 5709 },{ fecha: '1999-12-31', dato: 6208 },{ fecha: '2000-12-31', dato: 8169 },{ fecha: '2001-12-31', dato: 8933 },{ fecha: '2002-12-31', dato: 8986 },{ fecha: '2003-12-31', dato: 8507 },{ fecha: '2005-12-31', dato: 9366 },{ fecha: '2006-12-31', dato: 10324 },{ fecha: '2007-12-31', dato: 9612 },{ fecha: '2008-12-31', dato: 8831 },{ fecha: '2009-12-31', dato: 6995 },{ fecha: '2010-12-31', dato: 5577 },{ fecha: '2011-12-31', dato: 4568 },{ fecha: '2012-12-31', dato: 4107 },{ fecha: '2013-12-31', dato: 3362 },{ fecha: '2014-12-31', dato: 6509 },{ fecha: '2015-12-31', dato: 7013 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -474,7 +494,7 @@ $('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 4421 },{ region: 'Gómez Palacio', dato: 1682 },{ region: 'Lerdo', dato: 362 },{ region: 'Matamoros', dato: 164 },{ region: 'La Laguna', dato: 6509 }],
+      data: [{ region: 'Torreón', dato: 4876 },{ region: 'Gómez Palacio', dato: 1585 },{ region: 'Lerdo', dato: 343 },{ region: 'Matamoros', dato: 209 },{ region: 'La Laguna', dato: 7013 },{ region: 'Coahuila', dato: 14641 },{ region: 'Durango', dato: 5379 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

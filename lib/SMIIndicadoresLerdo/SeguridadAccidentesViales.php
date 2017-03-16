@@ -183,6 +183,12 @@ class SeguridadAccidentesViales extends \SMIBase\PublicacionWeb {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>343</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -219,7 +225,7 @@ FINAL;
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1997-12-31', dato: 423 },{ fecha: '1998-12-31', dato: 486 },{ fecha: '1999-12-31', dato: 497 },{ fecha: '2000-12-31', dato: 581 },{ fecha: '2001-12-31', dato: 643 },{ fecha: '2002-12-31', dato: 645 },{ fecha: '2003-12-31', dato: 670 },{ fecha: '2004-12-31', dato: 666 },{ fecha: '2005-12-31', dato: 1343 },{ fecha: '2006-12-31', dato: 1104 },{ fecha: '2007-12-31', dato: 884 },{ fecha: '2008-12-31', dato: 602 },{ fecha: '2009-12-31', dato: 566 },{ fecha: '2010-12-31', dato: 519 },{ fecha: '2011-12-31', dato: 433 },{ fecha: '2012-12-31', dato: 362 },{ fecha: '2013-12-31', dato: 242 },{ fecha: '2014-12-31', dato: 362 }],
+      data: [{ fecha: '1997-12-31', dato: 423 },{ fecha: '1998-12-31', dato: 486 },{ fecha: '1999-12-31', dato: 497 },{ fecha: '2000-12-31', dato: 581 },{ fecha: '2001-12-31', dato: 643 },{ fecha: '2002-12-31', dato: 645 },{ fecha: '2003-12-31', dato: 670 },{ fecha: '2004-12-31', dato: 666 },{ fecha: '2005-12-31', dato: 1343 },{ fecha: '2006-12-31', dato: 1104 },{ fecha: '2007-12-31', dato: 884 },{ fecha: '2008-12-31', dato: 602 },{ fecha: '2009-12-31', dato: 566 },{ fecha: '2010-12-31', dato: 519 },{ fecha: '2011-12-31', dato: 433 },{ fecha: '2012-12-31', dato: 362 },{ fecha: '2013-12-31', dato: 242 },{ fecha: '2014-12-31', dato: 362 },{ fecha: '2015-12-31', dato: 343 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -254,36 +260,50 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>4421</td>
+            <td>2015-12-31</td>
+            <td>4876</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-12-31</td>
-            <td>1682</td>
+            <td>2015-12-31</td>
+            <td>1585</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-12-31</td>
-            <td>362</td>
+            <td>2015-12-31</td>
+            <td>343</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-12-31</td>
-            <td>164</td>
+            <td>2015-12-31</td>
+            <td>209</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
-            <td>6509</td>
+            <td>2015-12-31</td>
+            <td>7013</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2015-12-31</td>
+            <td>14641</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2015-12-31</td>
+            <td>5379</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -307,7 +327,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 4421 },{ region: 'Gómez Palacio', dato: 1682 },{ region: 'Lerdo', dato: 362 },{ region: 'Matamoros', dato: 164 },{ region: 'La Laguna', dato: 6509 }],
+      data: [{ region: 'Torreón', dato: 4876 },{ region: 'Gómez Palacio', dato: 1585 },{ region: 'Lerdo', dato: 343 },{ region: 'Matamoros', dato: 209 },{ region: 'La Laguna', dato: 7013 },{ region: 'Coahuila', dato: 14641 },{ region: 'Durango', dato: 5379 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
