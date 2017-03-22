@@ -39,6 +39,11 @@ abstract class PublicacionWeb extends \Base\Publicacion implements SalidaWeb {
         }
         // Ejecutar método en el padre
         parent::validar();
+        // Por defecto
+        if (($this->imagen == '') || ($this->imagen_previa == '')) {
+            $this->imagen        = '../smi/introduccion/imagen.jpg';
+            $this->imagen_previa = '../smi/introduccion/imagen-previa.jpg';
+        }
         // El contenido es estructurado en un esquema SchemaArticle
         $this->contenido                = new \Base\SchemaArticle();
         $this->contenido->name          = $this->nombre;
