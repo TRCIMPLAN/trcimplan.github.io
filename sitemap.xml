@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-03-22</lastmod>
+    <lastmod>2017-03-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -533,6 +533,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/las-mujeres-y-su-acceso-a-una-vida-sin-violencia.html</loc>
     <lastmod>2017-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/los-barrios-tradicionales-en-el-centro-historico-de-torreon.html</loc>
+    <lastmod>2017-03-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
