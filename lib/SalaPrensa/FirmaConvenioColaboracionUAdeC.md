@@ -1,10 +1,4 @@
 
-Torreón, Coahuila; A 13 de diciembre de 2016
-
-BOLETIN DE PRENSA
-
-## El IMPLAN y la Escuela de Arquitectura de la UAC firman convenio de colaboración
-
 Esta mañana el **Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN)** y la **Escuela de Arquitectura de la Universidad Autónoma de Coahuila,** firmaron un **convenio de colaboración para que los estudiantes de dicha licenciatura realicen su servicio social en esta institución,** a partir del 2017.
 
 El convenio fue firmado por el director del IMPLAN **Eduardo Holguín** y los arquitectos **Ricardo Valdez Cano y Gonzalo Pérez–Gómez Martínez,** maestros de la carrera de arquitectura en la U.A. de C., quienes manifestaron que es el interés de la universidad mejorar la educación teórico – práctica de los estudiantes y coadyuvar al desarrollo social de la región.

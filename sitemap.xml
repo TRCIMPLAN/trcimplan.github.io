@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-03-24</lastmod>
+    <lastmod>2017-03-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1383,6 +1383,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2016-12-15-firma-convenio-colaboracion-uadec.html</loc>
     <lastmod>2016-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/firman-la-convenio-facultad-de-ingenieria-civil-de-la-uac-y-el-implan-torreon.html</loc>
+    <lastmod>2017-03-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

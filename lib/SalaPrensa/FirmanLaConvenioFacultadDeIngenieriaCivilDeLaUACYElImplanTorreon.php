@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - FirmaConvenioColaboracionUAdeC
+ * TrcIMPLAN Sitio Web - FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,27 +23,27 @@
 namespace SalaPrensa;
 
 /**
- * Clase FirmaConvenioColaboracionUAdeC
+ * Clase FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon
  */
-class FirmaConvenioColaboracionUAdeC extends \Base\PublicacionSchemaBlogPosting {
+class FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                     = 'El IMPLAN y la Escuela de Arquitectura de la UAC firman convenio de colaboración';
+        $this->nombre                     = 'Firman la Convenio Facultad de Ingeniería Civil de la UAC y el IMPLAN Torreón';
     //  $this->autor                      = '';
-        $this->fecha                      = '2016-12-15T12:43';
+        $this->fecha                      = '2017-03-27T14:22';
         // El nombre del archivo a crear
-        $this->archivo                    = '2016-12-15-firma-convenio-colaboracion-uadec';
+        $this->archivo                    = 'firman-la-convenio-facultad-de-ingenieria-civil-de-la-uac-y-el-implan-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'La Escuela de Arquitectura de la Universidad Autónoma de Coahuila (UAC) cuenta con 270 alumnos inscritos. Los que cursan a partir del sexto semestre podrán prestar 480 horas de servicio social en esta institución.';
-        $this->claves                     = 'IMPLAN, Torreon, UAC, Convenio, Arquitectura';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->descripcion                = 'La Facultad de Ingeniería Civil de la Universidad Autónoma de Coahuila y el IMPLAN Torreón firmaron un convenio de colaboración para que estudiantes realicen prácticas profesionales.';
+        $this->claves                     = 'IMPLAN, Torreon, UAC, Convenio, Ingenieria Civil';
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/FirmaConvenioColaboracionUAdeC.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
@@ -53,6 +53,6 @@ class FirmaConvenioColaboracionUAdeC extends \Base\PublicacionSchemaBlogPosting 
         $this->regiones                   = array('Torreón');
     } // constructor
 
-} // Clase FirmaConvenioColaboracionUAdeC
+} // Clase FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon
 
 ?>
