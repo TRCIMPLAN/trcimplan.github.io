@@ -90,14 +90,14 @@ En marzo de 2017, **el Instituto Nacional de Transparencia, Acceso a la Informac
 
 **La Métrica de Gobierno Abierto es un instrumento que busca medir qué tanto puede conocer el ciudadano lo que realizan sus gobiernos y qué tanto puede incidir en sus decisiones.**
 
-Ésta utiliza una metodología novedosa: Se compone de dos dimensiones: transparencia y participación ciudadana; y de dos perspectivas: la de gobierno y la del ciudadano.
+**Ésta utiliza una metodología novedosa:** Se compone de dos dimensiones: transparencia y participación ciudadana; y de dos perspectivas: la de gobierno y la del ciudadano.
 
-Dimensiones               | Transparencia del Gobierno Abierto                                                                                                           | Participación en el Gobierno Abierto
---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------
-Perspectiva Gubernamental | ¿El gobierno hace pública la información relativa a sus decisiones y acciones? ¿En qué medida lo hace? ¿De qué calidad es dicha información? | ¿Mediante qué formas pueden los ciudadanos incidir en la toma de decisiones públicas?
-Perspectiva Ciudadana     | ¿Que tan factible es que un ciudadano obtenga información oportuna y relevante para tomar decisiones?                                        | ¿Qué posibilidad tienen los ciudadanos para activar un mecanismo que les permita incidir en las decisiones públicas?
+Dimensiones                   | Transparencia del Gobierno Abierto                                                                                                           | Participación en el Gobierno Abierto
+------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------
+**Perspectiva Gubernamental** | ¿El gobierno hace pública la información relativa a sus decisiones y acciones? ¿En qué medida lo hace? ¿De qué calidad es dicha información? | ¿Mediante qué formas pueden los ciudadanos incidir en la toma de decisiones públicas?
+**Perspectiva Ciudadana**     | ¿Que tan factible es que un ciudadano obtenga información oportuna y relevante para tomar decisiones?                                        | ¿Qué posibilidad tienen los ciudadanos para activar un mecanismo que les permita incidir en las decisiones públicas?
 
-La métrica deriva en un estudio amplio y complejo; **no sólo involucra la calidad de las plataformas de datos abiertos, sino que mide el desempeño que los ciudadanos hacen de las plataformas.** En un análisis futuro, abordaremos esta importante propuesta.
+La métrica deriva en un estudio amplio y complejo; **que no sólo evalúa la calidad de las plataformas de datos abiertos, sino que mide el uso que los ciudadanos hacen de las plataformas como componente para participar en el gobierno.** En un análisis futuro, abordaremos esta importante propuesta.
 
 ### Referencias
 

@@ -52,7 +52,7 @@ class PlataformasDeConocimientoDeCalidad extends \Base\PublicacionSchemaBlogPost
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Coahuila');
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'revisar';
+        $this->estado                     = 'revisar';
     } // constructor
 
 } // Clase PlataformasDeConocimientoDeCalidad
