@@ -1,13 +1,13 @@
 
-En una sociedad democrática es necesario que los ciudadanos sepan qué está haciendo su gobierno. **De acuerdo a las investigaciones realizadas por la [World Wide Web Foundation](http://webfoundation.org/) tan sólo 8% de los países proporcionan acceso en línea sin restricciones a conjuntos de datos sobre gasto público, adquisiciones y sobre desempeños de los servicios de salud y educación.**
+En una sociedad democrática es necesario que los ciudadanos sepan qué está haciendo su gobierno. **De acuerdo a las investigaciones realizadas por la [World Wide Web Foundation](http://webfoundation.org/) tan sólo 8% de los países proporcionan acceso en línea sin restricciones a conjuntos de datos** sobre gasto público, adquisiciones y sobre desempeños de los servicios de salud y educación.
 
 **Necesitamos que todos puedan acceder, estudiar y usar los datos para mejorar la calidad de vida, crear oportunidades de desarrollo para las empresas, impulsar la innovación y combatir la corrupción.**
 
-**Para que los datos abiertos sean pilares de un gobierno abierto deben ser divulgados en sitios web que vayan más allá de lo convencional;** es decir, no basta usar un gestor de contenidos Web y subir los archivos con los datos para cumplir con este propósito. **Es necesario que sean "plataformas de conocimiento", que sean detonantes de una nueva cultura ciudadana y constituyan eficientes herramientas para monitorear las políticas públicas, amigables para las personas y con virtudes técnicas que faciliten su procesamiento por programas de software.**
+Para que los datos abiertos sean pilares de un gobierno abierto deben ser divulgados en sitios web que vayan más allá de lo convencional; es decir, no basta usar un gestor de contenidos Web y subir los archivos para cumplir con este propósito. **Es necesario que sean "plataformas de conocimiento", que sean detonantes de una nueva cultura ciudadana y constituyan eficientes herramientas para monitorear las políticas públicas; que sean amigables con las personas y con virtudes técnicas para desarrollar aplicaciones de software.**
 
-**Lo bueno es que hoy en día disponemos de tecnologías de punta, software libre y conocimiento en línea para que una copia del conocimiento, información y datos esté disponible en Internet, bajo estándares abiertos y con un costo prácticamente de cero.**
+**Lo bueno es que hoy en día disponemos de tecnologías de punta, software libre y conocimiento en línea para que una copia del conocimiento, información y datos abiertos esté disponible en Internet, con estándares abiertos y a un costo muy bajo.**
 
-**Pero como en toda labor, hay muchas formas de construir una plataforma de conocimiento, por lo que sobran las opciones.** Hay ofertas prefabricadas tanto gratuitas como de paga e iniciativas tanto ridículas como ingeniosas para lograr el fin. En este ensayo recopilaré algunos sugerencias a considerar.
+**Hay muchas formas de construir una plataforma de conocimiento,** por lo que sobran las opciones. Podemos optar por crear nuestra propia plataforma desde cero o elegir una prefabricada; existen tanto alternativas gratuitas como de paga; desde sencillas hasta complicadas. Los resultados pueden ser desde ridículos hasta ingeniosos.
 
 ### Las Cinco Estrellas de los Datos Abiertos
 
@@ -21,12 +21,11 @@ Estrellas | Logro realizado
 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> | Publicar tus datos en la Web en formatos no propietarios y con URIs (Universal Resource Locator) para hacer un vínculo claro y fijo a éstos datos.
 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> | Publicar tus datos en la Web en formatos no propietarios, con URIs claros y fijos para vincular a éstos. Además ofrece enlaces a otros datos y contenidos para proveer contexto.
 
+**Tim Berners-Lee nos recomienda que utilicemos el esquema de desarrollo como un modelo constructivo y progresivo.** Donde NO necesariamente las plataformas logren las cinco estrellas desde su inauguración; sino que vayan mejorando y enriqueciendo sus datos paso a paso, manteniendo la calidad e incrementando sus beneficios.
 
-**Cabe destacar que este esquema de desarrollo es igualmente aplicable para plataformas de datos abiertos, de indicadores y de observatorios ciudadanos.**
+Cabe destacar que este esquema de desarrollo **es igualmente aplicable para plataformas de datos abiertos, de indicadores, de observatorios ciudadanos, de sitios web gubernamentales, de organizaciones civiles y de la iniciativa privada.**
 
-**Tim Berners-Lee nos recomienda que utilicemos el esquema de desarrollo como un modelo constructivo y progresivo.** Donde NO necesariamente las plataformas logren las cinco estrellas desde su ignauguración; sino que vayan mejorando y enriqueciendo sus datos paso a paso, manteniendo la calidad e incrementando sus beneficios.
-
-**A continuación, definiremos la cantidad de estrellas de varias plataformas nacionales y regionales.** Este análisis y las imágenes fueron hechas en **marzo de 2017;** esperemos que en el futuro veamos todas las plataformas con más estrellas.
+A continuación, **ejercitaremos las "Cinco Estrellas de los Datos Abiertos" en algunas plataformas nacionales y regionales.** Este análisis y las imágenes que mostramos fueron hechas en **marzo de 2017;** por lo que en el futuro la evaluación podría cambiar.
 
 ### [datos.gob.mx](https://datos.gob.mx/)
 
