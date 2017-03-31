@@ -7,7 +7,7 @@ Para que los datos abiertos sean pilares de un gobierno abierto deben ser divulg
 
 **Lo bueno es que hoy en día disponemos de tecnologías de punta, software libre y conocimiento en línea para que una copia del conocimiento, información y datos abiertos esté disponible en Internet, con estándares abiertos y a un costo muy bajo.**
 
-**Hay muchas formas de construir una plataforma de conocimiento,** por lo que sobran las opciones. Podemos crear nuestra propia plataforma desde cero o elegir una prefabricada; elegir entre alternativas gratuitas como de paga; desde sencillas hasta complicadas. **La combinación entre el software que la estructure, la calidad de los datos y el enriquecimiento intelectual dará un resultado que puede ser decifiente o sobresaliente.**
+**Hay muchas formas de construir una plataforma de conocimiento,** por lo que sobran las opciones. Podemos crear nuestra propia plataforma desde cero o elegir una prefabricada; elegir entre alternativas gratuitas como de paga; desde sencillas hasta complicadas. **La combinación entre el software que la estructure, la calidad de los datos y el enriquecimiento intelectual dará un resultado que puede ser deficiente o sobresaliente.**
 
 ### Las Cinco Estrellas de los Datos Abiertos
 
