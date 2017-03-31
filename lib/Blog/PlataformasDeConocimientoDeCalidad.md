@@ -7,7 +7,7 @@ Para que los datos abiertos sean pilares de un gobierno abierto deben ser divulg
 
 **Lo bueno es que hoy en día disponemos de tecnologías de punta, software libre y conocimiento en línea para que una copia del conocimiento, información y datos abiertos esté disponible en Internet, con estándares abiertos y a un costo muy bajo.**
 
-**Hay muchas formas de construir una plataforma de conocimiento,** por lo que sobran las opciones. Podemos optar por crear nuestra propia plataforma desde cero o elegir una prefabricada; existen tanto alternativas gratuitas como de paga; desde sencillas hasta complicadas. Los resultados pueden ser desde ridículos hasta ingeniosos.
+**Hay muchas formas de construir una plataforma de conocimiento,** por lo que sobran las opciones. Podemos crear nuestra propia plataforma desde cero o elegir una prefabricada; elegir entre alternativas gratuitas como de paga; desde sencillas hasta complicadas. **La combinación entre el software que la estructure, la calidad de los datos y el enriquecimiento intelectual dará un resultado que puede ser decifiente o sobresaliente.**
 
 ### Las Cinco Estrellas de los Datos Abiertos
 
@@ -25,7 +25,7 @@ Estrellas | Logro realizado
 
 Cabe destacar que este esquema de desarrollo **es igualmente aplicable para plataformas de datos abiertos, de indicadores, de observatorios ciudadanos, de sitios web gubernamentales, de organizaciones civiles y de la iniciativa privada.**
 
-A continuación, **ejercitaremos las "Cinco Estrellas de los Datos Abiertos" en algunas plataformas nacionales y regionales.** Este análisis y las imágenes que mostramos fueron hechas en **marzo de 2017;** por lo que en el futuro la evaluación podría cambiar.
+A continuación, **ejercitaremos las "Cinco Estrellas de los Datos Abiertos" en algunas plataformas nacionales y regionales.** Este análisis y las imágenes que mostramos fueron hechas en **marzo de 2017;** por lo que en el futuro los resultados podrían cambiar.
 
 ### [datos.gob.mx](https://datos.gob.mx/)
 

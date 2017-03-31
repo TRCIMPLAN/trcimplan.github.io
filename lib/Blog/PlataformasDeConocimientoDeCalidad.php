@@ -45,7 +45,7 @@ class PlataformasDeConocimientoDeCalidad extends \Base\PublicacionSchemaBlogPost
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PlataformasDeConocimientoDeCalidad.md';
         // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
+        $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno', 'Gobierno Digital');
