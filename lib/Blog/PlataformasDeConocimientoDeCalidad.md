@@ -1,5 +1,5 @@
 
-En una sociedad democrática es necesario que los ciudadanos sepan qué está haciendo su gobierno. **De acuerdo a las investigaciones realizadas por la [World Wide Web Foundation](http://webfoundation.org/) tan sólo 8% de los países proporcionan acceso en línea sin restricciones a conjuntos de datos** sobre gasto público, adquisiciones y sobre desempeños de los servicios de salud y educación.
+En una sociedad democrática es necesario que los ciudadanos sepan qué está haciendo su gobierno. **De acuerdo con las investigaciones realizadas por la [World Wide Web Foundation](http://webfoundation.org/) tan sólo 8% de los países proporcionan acceso en línea sin restricciones a conjuntos de datos** sobre gasto público, adquisiciones y sobre desempeños de los servicios de salud y educación.
 
 **Necesitamos que todos puedan acceder, estudiar y usar los datos para mejorar la calidad de vida, crear oportunidades de desarrollo para las empresas, impulsar la innovación y combatir la corrupción.**
 
@@ -7,7 +7,7 @@ Para que los datos abiertos sean pilares de un gobierno abierto deben ser divulg
 
 **Lo bueno es que hoy en día disponemos de tecnologías de punta, software libre y conocimiento en línea para que una copia del conocimiento, información y datos abiertos esté disponible en Internet, con estándares abiertos y a un costo muy bajo.**
 
-**Hay muchas formas de construir una plataforma de conocimiento,** por lo que sobran las opciones. Podemos crear nuestra propia plataforma desde cero o elegir una prefabricada; elegir entre alternativas gratuitas como de paga; desde sencillas hasta complicadas. **La combinación entre el software que la estructure, la calidad de los datos y el enriquecimiento intelectual dará un resultado que puede ser deficiente o sobresaliente.**
+**Hay muchas formas de construir una plataforma de conocimiento,** por lo que sobran las opciones. Podemos crear nuestra propia plataforma desde cero o elegir una prefabricada; elegir entre alternativas gratuitas tanto de paga; desde sencillas hasta complicadas. **La combinación entre el software que la estructure, la calidad de los datos y el enriquecimiento intelectual dará un resultado que puede ser deficiente o sobresaliente.**
 
 ### Las Cinco Estrellas de los Datos Abiertos
 
