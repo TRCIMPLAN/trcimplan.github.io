@@ -5,11 +5,185 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Fri, 31 Mar 2017 14:03:32 -0600</pubDate>
+    <pubDate>Mon, 03 Apr 2017 08:37:31 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plataformas de Conocimiento de Calidad</title>
+      <link>http://www.trcimplan.gob.mx/blog/plataformas-de-conocimiento-de-calidad.html</link>
+      <guid isPermaLink="false">blog-plataformas-de-conocimiento-de-calidad</guid>
+      <pubDate>Mon, 03 Apr 2017 08:32:00 -0500</pubDate>
+      <author>Ing. Guillermo Valdés Lozano</author>
+      <description><![CDATA[<p>En una sociedad democrática es necesario que los ciudadanos sepan qué está haciendo su gobierno. <strong>De acuerdo con las investigaciones realizadas por la <a href="http://webfoundation.org/">World Wide Web Foundation</a> tan sólo 8% de los países proporcionan acceso en línea sin restricciones a conjuntos de datos</strong> sobre gasto público, adquisiciones y sobre desempeños de los servicios de salud y educación.</p>
+
+<p><strong>Necesitamos que todos puedan acceder, estudiar y usar los datos para mejorar la calidad de vida, crear oportunidades de desarrollo para las empresas, impulsar la innovación y combatir la corrupción.</strong></p>
+
+<p>Para que los datos abiertos sean pilares de un gobierno abierto deben ser divulgados en sitios web que vayan más allá de lo convencional; es decir, no basta usar un gestor de contenidos Web y subir los archivos para cumplir con este propósito. <strong>Es necesario que sean "plataformas de conocimiento", que sean detonantes de una nueva cultura ciudadana y constituyan eficientes herramientas para monitorear las políticas públicas; que sean amigables con las personas y con virtudes técnicas para desarrollar aplicaciones de software.</strong></p>
+
+<p><strong>Lo bueno es que hoy en día disponemos de tecnologías de punta, software libre y conocimiento en línea para que una copia del conocimiento, información y datos abiertos esté disponible en Internet, con estándares abiertos y a un costo muy bajo.</strong></p>
+
+<p><strong>Hay muchas formas de construir una plataforma de conocimiento,</strong> por lo que sobran las opciones. Podemos crear nuestra propia plataforma desde cero o elegir una prefabricada; elegir entre alternativas gratuitas tanto de paga; desde sencillas hasta complicadas. <strong>La combinación entre el software que la estructure, la calidad de los datos y el enriquecimiento intelectual dará un resultado que puede ser deficiente o sobresaliente.</strong></p>
+
+<h3>Las Cinco Estrellas de los Datos Abiertos</h3>
+
+<p><a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>, considerado el padre de la Web, ha sugerido un <a href="http://5stardata.info/es/">esquema de desarrollo para los datos abiertos</a>.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Estrellas</th>
+  <th>Logro realizado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><i class="fa fa-star"></i></td>
+  <td>Publicar tus datos en la Web, en cualquier formato y bajo una licencia abierta.</td>
+</tr>
+<tr>
+  <td><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+  <td>Publicar tus datos en la Web como datos estructurados (por ejemplo, Excel en vez de digitalizaciones).</td>
+</tr>
+<tr>
+  <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+  <td>Publicar tus datos en la Web en formatos no propietarios (por ejemplo, CSV en vez de Excel).</td>
+</tr>
+<tr>
+  <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+  <td>Publicar tus datos en la Web en formatos no propietarios y con URIs (Universal Resource Locator) para hacer un vínculo claro y fijo a éstos datos.</td>
+</tr>
+<tr>
+  <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+  <td>Publicar tus datos en la Web en formatos no propietarios, con URIs claros y fijos para vincular a éstos. Además ofrece enlaces a otros datos y contenidos para proveer contexto.</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Tim Berners-Lee nos recomienda que utilicemos el esquema de desarrollo como un modelo constructivo y progresivo.</strong> Donde NO necesariamente las plataformas logren las cinco estrellas desde su inauguración; sino que vayan mejorando y enriqueciendo sus datos paso a paso, manteniendo la calidad e incrementando sus beneficios.</p>
+
+<p>Cabe destacar que este esquema de desarrollo <strong>es igualmente aplicable para plataformas de datos abiertos, de indicadores, de observatorios ciudadanos, de sitios web gubernamentales, de organizaciones civiles y de la iniciativa privada.</strong></p>
+
+<p>A continuación, <strong>ejercitaremos las "Cinco Estrellas de los Datos Abiertos" en algunas plataformas nacionales y regionales.</strong> Este análisis y las imágenes que mostramos fueron hechas en <strong>marzo de 2017;</strong> por lo que en el futuro los resultados podrían cambiar.</p>
+
+<h3><a href="https://datos.gob.mx/">datos.gob.mx</a></h3>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/plataformas-de-conocimiento-de-calidad/plataforma-datos-gob-mx.jpg" alt="datos.gob.mx"></p>
+
+<ul>
+<li>Publica los datos en la web. Se organizan por instituciones (logotipos) y categorías (iconos).</li>
+<li>Publica datos estructurados.</li>
+<li>Publica parte de los archivos en formatos no propietarios; porque depende de la institución de origen.</li>
+<li>Publican en un blog diversos análisis, recomendaciones y logros.</li>
+<li>Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 1/2</li>
+</ul>
+
+<h3><a href="http://www.coahuilatodotransparente.gob.mx/">Coahuila Todo Transparente</a></h3>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/plataformas-de-conocimiento-de-calidad/plataforma-coahuila.jpg" alt="Datos Abiertos Coahuila"></p>
+
+<ul>
+<li>Publica los datos en la web. Organiza los datos por dependencias y etiquetas.</li>
+<li>Publica datos estructurados.</li>
+<li>Publica en formatos no propietarios. Ofrece la descarga principalmente en CSV.</li>
+<li>Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
+</ul>
+
+<h3><a href="http://gobiernoabierto.cdmx.gob.mx">Datos Abiertos CDMX</a></h3>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/plataformas-de-conocimiento-de-calidad/plataforma-ciudad-de-mexico.jpg" alt="Ciudad de Mexico"></p>
+
+<ul>
+<li>Publica los datos en la web. Organiza los datos abiertos por categorías identificadas por íconos amigables.</li>
+<li>Publica datos estructurados.</li>
+<li>Publica en formatos no propietarios. Ofrece las descargas en JSON, XML y CSV.</li>
+<li>Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
+</ul>
+
+<h3><a href="http://www.torreon.gob.mx/transparencia/">Torreón Transparencia</a></h3>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/plataformas-de-conocimiento-de-calidad/plataforma-torreon-transparencia.jpg" alt="Torreon transparencia"></p>
+
+<ul>
+<li>Publica los datos en la web. Se organizan por instituciones.</li>
+<li>Publica parte de los datos como datos estructurados, por ejemplo, en Excel.</li>
+<li>Estrellas <i class="fa fa-star"></i> 1/2</li>
+</ul>
+
+<h3><a href="http://datostrc.gob.mx">datostrc.gob.mx</a></h3>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/plataformas-de-conocimiento-de-calidad/plataforma-datostrc.jpg" alt="datostrc.gob.mx"></p>
+
+<ul>
+<li>Publica los datos en la web. Se organizan por instituciones y categorías.</li>
+<li>Publica datos estructurados. Principalmente en Excel.</li>
+<li>Hace uso de archivos RDF que sirven para establecer un URI directo con los archivos de datos abiertos.</li>
+<li>La plataforma está preparada para mostrar documentación asociada, tiene pendiente aprovechar esta característica.</li>
+<li>Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 1/2</li>
+</ul>
+
+<h3><a href="http://www.trcimplan.gob.mx">IMPLAN Torreón</a></h3>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/plataformas-de-conocimiento-de-calidad/plataforma-trcimplan.jpg" alt="Plataforma del Conocimiento IMPLAN Torreón"></p>
+
+<ul>
+<li>Publica los datos en la web. Los indicadores se clasifican en ejes y categorías; las publicaciones también están categorizadas.</li>
+<li>Publica datos estructurados.</li>
+<li>Publica los datos en formatos no propietarios. <a href="http://www.trcimplan.gob.mx/smi/datos-abiertos.html">La descarga del SMI</a> es en CSV. Está pendiente la descarga del <a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/index.html">SIG</a>.</li>
+<li>Se usan URIs claras y fijas, por ejemplo <a href="http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-viales.html">http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-viales.html</a></li>
+<li>Se ofrecen vínculos a análisis, indicadores, mapas y proyectos relacionados al final de cada publicación.</li>
+<li>Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 1/2</li>
+</ul>
+
+<h3>Métrica de Gobierno Abierto del INAI y el CIDE</h3>
+
+<p>En marzo de 2017, <strong>el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI) y el El Centro de Investigación y Docencia Económicas (CIDE) presentaron la <a href="http://eventos.inai.org.mx/metricasga/">Métrica de Gobierno Abierto</a>.</strong></p>
+
+<p><strong>La Métrica de Gobierno Abierto es un instrumento que busca medir qué tanto puede conocer el ciudadano lo que realizan sus gobiernos y qué tanto puede incidir en sus decisiones.</strong></p>
+
+<p><strong>Ésta utiliza una metodología novedosa:</strong> Se compone de dos dimensiones: transparencia y participación ciudadana; y de dos perspectivas: la de gobierno y la del ciudadano.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Dimensiones</th>
+  <th>Transparencia del Gobierno Abierto</th>
+  <th>Participación en el Gobierno Abierto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>Perspectiva Gubernamental</strong></td>
+  <td>¿El gobierno hace pública la información relativa a sus decisiones y acciones? ¿En qué medida lo hace? ¿De qué calidad es dicha información?</td>
+  <td>¿Mediante qué formas pueden los ciudadanos incidir en la toma de decisiones públicas?</td>
+</tr>
+<tr>
+  <td><strong>Perspectiva Ciudadana</strong></td>
+  <td>¿Que tan factible es que un ciudadano obtenga información oportuna y relevante para tomar decisiones?</td>
+  <td>¿Qué posibilidad tienen los ciudadanos para activar un mecanismo que les permita incidir en las decisiones públicas?</td>
+</tr>
+</tbody>
+</table>
+
+<p>La métrica deriva en un estudio amplio y complejo; <strong>que no sólo evalúa la calidad de las plataformas de datos abiertos, sino que mide el uso que los ciudadanos hacen de las plataformas como componente para participar en el gobierno.</strong> En un análisis futuro, abordaremos esta importante propuesta.</p>
+
+<h3>Referencias</h3>
+
+<ul>
+<li><a href="http://webfoundation.org/">World Wide Web Foundation</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> en Wikipedia</li>
+<li><a href="http://5stardata.info/es/">Cinco Estrellas de los Datos Abiertos</a> por Tim Berners-Lee</li>
+<li><a href="https://datos.gob.mx/">datos.gob.mx</a></li>
+<li><a href="http://www.coahuilatodotransparente.gob.mx/">Coahuila Todo Transparente</a></li>
+<li><a href="http://gobiernoabierto.cdmx.gob.mx">Datos Abiertos CDMX</a></li>
+<li><a href="http://www.torreon.gob.mx/transparencia/">Torreón Transparencia</a></li>
+<li><a href="http://datostrc.gob.mx">datostrc.gob.mx</a></li>
+<li><a href="http://www.trcimplan.gob.mx">IMPLAN Torreón</a></li>
+<li><a href="http://eventos.inai.org.mx/metricasga/">Métrica de Gobierno Abierto</a> del INAI y el CIDE</li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Muestra mejoría el mercado laboral de La Laguna</title>
       <link>http://www.trcimplan.gob.mx/blog/muestra-mejoria-el-mercado-laboral-de-la-laguna.html</link>
@@ -274,45 +448,6 @@
       <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/centros-atencion-adultos-mayores.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/centros-atencion-adultos-mayores/imagen.jpg"><br>
 
 Ubicación de centros de atención a adultos mayores en la ciudad de Torreón Coahuila.</a>]]></description>
-    </item>
-    <item>
-      <title>Indicadores de Calidad Mundial</title>
-      <link>http://www.trcimplan.gob.mx/blog/indicadores-de-calidad-mundial.html</link>
-      <guid isPermaLink="false">blog-indicadores-de-calidad-mundial</guid>
-      <pubDate>Wed, 01 Mar 2017 16:00:00 -0600</pubDate>
-      <author>Lic. Luis A. Gutiérrez Arizpe</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/indicadores-de-calidad-mundial/imagen.jpg"><br>
-
-<p>Los indicadores nos enseñan una parte de la realidad, nos dan guía y nos muestran en forma cuantitativa el estado de un fenómeno y cómo impacta en las ciudades. Sirven para ir evaluando la situación, avances o retrocesos. De igual forma son parámetros que nos sirven para medir el trabajo; desempeño y resultados.</p>
-
-<p>Actualmente existen proyectos basados en indicadores con distintos objetivos y variedad de enfoques. Esta tendencia es relativamente reciente, sobre todo cuando se trata no únicamente de dotar de información a la academia, sino de hacer estos productos prácticos y sobretodo, que incidan en la mejora de la calidad de vida de las personas. Así tenemos algunos proyectos que nos proporcionan una fotografía a nivel nacional que nos permite comparar en algunos temas a los 32 estados. Otros nos otorgan insumos para analizar a las zonas metropolitanas. Tal es el caso del <strong>Instituto Mexicano para la Competitividad (IMCO)</strong> con el <strong>Índice de Competitividad Estatal</strong> y el <strong>Índice de Competitividad Urbana.</strong></p>
-
-<p><strong>La plataforma de Agenda 2030 de los Objetivos de Desarrollo Sostenible del Gobierno Federal le da curso a los indicadores propuestos por la ONU, alcanzan el nivel estatal,</strong> lo cual facilita el seguimiento de los resultados y analizar cuál entidad y cómo se encuentra su situación respecto a una temática específica. A su vez  es posible contrastarla con otros países  lo cual dota un valor agregado al volverla comparable con otras unidades de mayor o menor escala, como es la posibilidad de analizar un dato estatal con un país o un municipio.</p>
-
-<p>En esta lógica <strong>el IMPLAN desarrolla el Sistema Metropolitano de Indicadores (SMI) que sería un nivel más local que nos dota de información para conocer la realidad,</strong> no únicamente de nuestra ciudad, sino <strong>con nuestros vecinos con los cuales conformamos la Zona Metropolitana de La Laguna.</strong></p>
-
-<p>El <strong>World Council of City Data (Consejo Mundial de Información de las Ciudades) ofrece una plataforma de alcance mundial y enfocado a las ciudades. El Ayuntamiento de Torreón promovió ante él la certificación al municipio bajo la norma ISO 37120:2014,</strong> que estandariza los indicadores, es decir, vuelve comparables datos que provienen de metodologías que cada país ha adoptado. Por lo que resulta relevante su análisis y las conclusiones a las que podremos llegar en los próximos meses cuando nuestra ciudad esté incluida.</p>
-
-<p><strong>Actualmente las ciudades que están inscritas en el portal provienen de 17 países y de los cinco continentes,</strong> y cada año se van sumando más a esta iniciativa. Londres, Barcelona, Bogotá son algunas que podemos destacar. De México encontramos a León y Guadalajara.</p>
-
-<h3>En el contexto mundial</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/indicadores-de-calidad-mundial/grafica-desempleo-pobreza.png" alt="Ubiquemos a Torreón en un contexto mundial"></p>
-
-<p>Ubiquemos a Torreón en un contexto mundial a través de la gráfica que aquí se incluye. <strong>¿Cómo estaríamos en el tema económico analizando el desempleo y la pobreza?</strong></p>
-
-<p>El eje horizontal marca: más a la derecha, existe mayor población en pobreza. El eje vertical indica mayor altura mayor desempleo. <strong>Torreón registra 5.11% en desempleo y 26.8% de población en pobreza, por lo cual compartiría un cuadrante con Buenos Aires  y Londres.</strong></p>
-
-<p>¿Y esto qué significa? <strong>Que en desempleo estamos entre Melbourne, Australia y Londres. Y en población en pobreza tenemos mayor proporción que la capital inglesa, pero menor que Buenos Aires.</strong></p>
-
-<p><strong>Pueden existir diferentes formas de ver a una ciudad, desde la economía, lo social, lo ambiental, la seguridad, etc., y todos los enfoques tienen validez. Este tipo de herramientas hacen evidente que la cuestión urbana es diversa, compleja y multi temática, es muy complicado abordarlo desde un solo enfoque.</strong></p>
-
-<p><strong>Los sistemas de indicadores en los cuales estará participando Torreón nos impulsarán a analizar la ciudad desde otras perspectivas y tener presente el trabajo multidisciplinario y transversal.</strong> Es una gran ventaja que trajo el nuevo milenio, un desarrollo tecnológico acelerado que conlleva nuevas formas de hacer las cosas, que exige un mayor dinamismo; <strong>más eficiencia y responder al mismo ritmo con el que se genera la información para conseguir un óptimo desarrollo de nuestra ciudad.</strong></p>
-
-<h3>Este análisis fue publicado en Milenio Laguna</h3>
-
-<p><a href="http://www.milenio.com/region/nuestra_metropoli_desde_el_implan-certificacion_desarrollo_sostenible-milenio_0_910708984.html">Torreón en proceso de certificación internacional</a></p>
-]]></description>
     </item>
   </channel>
 </rss>

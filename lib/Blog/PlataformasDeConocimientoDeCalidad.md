@@ -33,7 +33,7 @@ A continuación, **ejercitaremos las "Cinco Estrellas de los Datos Abiertos" en 
 
 * Publica los datos en la web. Se organizan por instituciones (logotipos) y categorías (iconos).
 * Publica datos estructurados.
-* Publica parte de los archivos en formatos no propietarios. Porque depende de la institución de origen.
+* Publica parte de los archivos en formatos no propietarios; porque depende de la institución de origen.
 * Publican en un blog diversos análisis, recomendaciones y logros.
 * Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 1/2
 
@@ -70,7 +70,7 @@ A continuación, **ejercitaremos las "Cinco Estrellas de los Datos Abiertos" en 
 * Publica los datos en la web. Se organizan por instituciones y categorías.
 * Publica datos estructurados. Principalmente en Excel.
 * Hace uso de archivos RDF que sirven para establecer un URI directo con los archivos de datos abiertos.
-* La plataforma está preparada para mostrar documentación asociada. Pero NO se está usando ese campo.
+* La plataforma está preparada para mostrar documentación asociada, tiene pendiente aprovechar esta característica.
 * Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 1/2
 
 ### [IMPLAN Torreón](http://www.trcimplan.gob.mx)
@@ -78,8 +78,8 @@ A continuación, **ejercitaremos las "Cinco Estrellas de los Datos Abiertos" en 
 <img class="img-responsive" src="plataformas-de-conocimiento-de-calidad/plataforma-trcimplan.jpg" alt="Plataforma del Conocimiento IMPLAN Torreón">
 
 * Publica los datos en la web. Los indicadores se clasifican en ejes y categorías; las publicaciones también están categorizadas.
-* Publica datos estructurados. Puede descargar todo el [SMI](http://www.trcimplan.gob.mx/smi/datos-abiertos.html) pero el [SIG](http://www.trcimplan.gob.mx/sig-mapas-torreon/index.html) NO es descargable.
-* Publica los datos en formatos no propietarios. La descarga de datos abiertos es en CSV.
+* Publica datos estructurados.
+* Publica los datos en formatos no propietarios. [La descarga del SMI](http://www.trcimplan.gob.mx/smi/datos-abiertos.html) es en CSV. Está pendiente la descarga del [SIG](http://www.trcimplan.gob.mx/sig-mapas-torreon/index.html).
 * Se usan URIs claras y fijas, por ejemplo [http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-viales.html](http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-viales.html)
 * Se ofrecen vínculos a análisis, indicadores, mapas y proyectos relacionados al final de cada publicación.
 * Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 1/2

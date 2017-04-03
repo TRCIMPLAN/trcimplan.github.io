@@ -34,7 +34,7 @@ class PlataformasDeConocimientoDeCalidad extends \Base\PublicacionSchemaBlogPost
         // Título, autor y fecha
         $this->nombre                     = 'Plataformas de Conocimiento de Calidad';
         $this->autor                      = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha                      = '2017-03-30T20:30';
+        $this->fecha                      = '2017-04-03T08:32';
         // El nombre del archivo a crear
         $this->archivo                    = 'plataformas-de-conocimiento-de-calidad';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -45,14 +45,14 @@ class PlataformasDeConocimientoDeCalidad extends \Base\PublicacionSchemaBlogPost
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PlataformasDeConocimientoDeCalidad.md';
         // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
+        $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno', 'Gobierno Digital');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Coahuila');
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
+        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase PlataformasDeConocimientoDeCalidad
