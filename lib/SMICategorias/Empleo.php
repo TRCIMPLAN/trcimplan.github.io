@@ -216,11 +216,11 @@ class Empleo extends \SMIBase\PublicacionWeb {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.69 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">6.88 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.32 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">2.17 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.75 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">4.09 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">4.37 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">3.96 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.73 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">4.39 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>

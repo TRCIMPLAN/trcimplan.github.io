@@ -90,7 +90,7 @@ class Macroeconomia extends \SMIBase\PublicacionWeb {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Inflación Anual</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inflacion-anual.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">1.67 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inflacion-anual.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, INEGI">2.94 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

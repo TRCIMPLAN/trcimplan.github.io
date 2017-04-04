@@ -299,6 +299,8 @@ class PorRegiones extends \SMIBase\PublicacionWeb {
               <li><a href="../indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras.html" target="_blank">Concentración de Partículas menores a 10 micras</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-particulas-suspendidas-totales.html" target="_blank">Concentración de Partículas Suspendidas Totales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html" target="_blank">Consumo de Agua Facturado</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>

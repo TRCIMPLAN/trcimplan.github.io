@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-04-03</lastmod>
+    <lastmod>2017-04-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -7368,6 +7368,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras.html</loc>
+    <lastmod>2017-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-particulas-suspendidas-totales.html</loc>
+    <lastmod>2017-04-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

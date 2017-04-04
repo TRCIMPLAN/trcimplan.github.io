@@ -165,6 +165,12 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2016</td>
+            <td>2.94 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -195,7 +201,7 @@ FINAL;
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2001-12-31', dato: 5.8600 },{ fecha: '2002-12-31', dato: 4.3200 },{ fecha: '2003-12-31', dato: 4.4100 },{ fecha: '2004-12-31', dato: 5.3500 },{ fecha: '2005-12-31', dato: 2.7200 },{ fecha: '2006-12-31', dato: 4.1200 },{ fecha: '2007-12-31', dato: 5.8900 },{ fecha: '2008-12-31', dato: 7.2400 },{ fecha: '2009-12-31', dato: 3.3100 },{ fecha: '2010-12-31', dato: 4.2100 },{ fecha: '2011-12-31', dato: 2.6900 },{ fecha: '2012-12-31', dato: 2.8400 },{ fecha: '2013-12-31', dato: 3.1100 },{ fecha: '2014-12-31', dato: 4.2800 },{ fecha: '2015-12-31', dato: 1.6700 }],
+      data: [{ fecha: '2001-12-31', dato: 5.8600 },{ fecha: '2002-12-31', dato: 4.3200 },{ fecha: '2003-12-31', dato: 4.4100 },{ fecha: '2004-12-31', dato: 5.3500 },{ fecha: '2005-12-31', dato: 2.7200 },{ fecha: '2006-12-31', dato: 4.1200 },{ fecha: '2007-12-31', dato: 5.8900 },{ fecha: '2008-12-31', dato: 7.2400 },{ fecha: '2009-12-31', dato: 3.3100 },{ fecha: '2010-12-31', dato: 4.2100 },{ fecha: '2011-12-31', dato: 2.6900 },{ fecha: '2012-12-31', dato: 2.8400 },{ fecha: '2013-12-31', dato: 3.1100 },{ fecha: '2014-12-31', dato: 4.2800 },{ fecha: '2015-12-31', dato: 1.6700 },{ fecha: '2016-12-31', dato: 2.9400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -230,15 +236,15 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-12-31</td>
-            <td>1.67 %</td>
+            <td>2016-12-31</td>
+            <td>2.94 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2015-12-31</td>
-            <td>2.13 %</td>
+            <td>2016-12-31</td>
+            <td>3.36 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -259,7 +265,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 1.6700 },{ region: 'Nacional', dato: 2.1300 }],
+      data: [{ region: 'Torreón', dato: 2.9400 },{ region: 'Nacional', dato: 3.3600 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
