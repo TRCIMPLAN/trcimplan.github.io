@@ -51,7 +51,7 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         $this->categorias_encabezado    = 'Todos los mapas clasificados por categorías';
         $this->categorias_vinculos      = '\\Base\\VinculosCompactos';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser grande
-        $this->nivel                    = 61000;
+        $this->nivel                    = 30000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor
