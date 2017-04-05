@@ -40,7 +40,7 @@ class SustentabilidadConcentracionDeParticulasMenoresA10Micras extends \SMIBase\
         // El nombre del archivo a crear
         $this->archivo                   = 'sustentabilidad-concentracion-de-particulas-menores-a-10-micras';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Medición de la calidad del aire por la medición de las partículas menores a 10 microgramos por metro cúbico. La Norma Oficial Mexicana de Salud 025 indica que se está dentro de la norma por debajo de 70 ug por m3.';
+        $this->descripcion               = 'Calidad del aire por la medición de las partículas menores a 10 microgramos por metro cúbico en promedio de 24 horas. La Norma Oficial Mexicana NOM-025-SSA1-2014 indica que el límite para efectos de protección de la salud es 75 ug por m3.';
         $this->claves                    = 'IMPLAN, Torreón, Recursos Naturales';
         // Opción de navegación a poner como activa
         $this->nombre_menu               = 'Indicadores';
@@ -722,10 +722,12 @@ class SustentabilidadConcentracionDeParticulasMenoresA10Micras extends \SMIBase\
       <p><b>Unidad:</b> ug por m3.</p>
       <h3>Observaciones</h3>
 <ul>
-<li>El municipio de Torreón cuenta con 9 equipos manuales y una estación automática para medir la calidad del aire en Partículas Suspendidas Totales (PST) y Partículas Menores a 10 micras (PM10).</li>
-<li>Se ajustaron las fuentes para separar los datos por estaciones de monitoreo.</li>
+<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
+<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
 <li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
 <li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
+<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
+<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
 </ul>
 
 FINAL;
@@ -743,10 +745,12 @@ FINAL;
       <p><b>Unidad:</b> ug por m3.</p>
       <h3>Observaciones</h3>
 <ul>
-<li>El municipio de Torreón cuenta con 9 equipos manuales y una estación automática para medir la calidad del aire en Partículas Suspendidas Totales (PST) y Partículas Menores a 10 micras (PM10).</li>
-<li>Se ajustaron las fuentes para separar los datos por estaciones de monitoreo.</li>
+<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
+<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
 <li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
 <li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
+<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
+<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
 </ul>
 
 FINAL;
@@ -787,10 +791,12 @@ FINAL;
       <p><b>Unidad:</b> ug por m3.</p>
       <h3>Observaciones</h3>
 <ul>
-<li>El municipio de Torreón cuenta con 9 equipos manuales y una estación automática para medir la calidad del aire en Partículas Suspendidas Totales (PST) y Partículas Menores a 10 micras (PM10).</li>
-<li>Se ajustaron las fuentes para separar los datos por estaciones de monitoreo.</li>
+<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
+<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
 <li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
 <li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
+<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
+<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
 </ul>
 
 FINAL;
@@ -831,10 +837,12 @@ FINAL;
       <p><b>Unidad:</b> ug por m3.</p>
       <h3>Observaciones</h3>
 <ul>
-<li>El municipio de Torreón cuenta con 9 equipos manuales y una estación automática para medir la calidad del aire en Partículas Suspendidas Totales (PST) y Partículas Menores a 10 micras (PM10).</li>
-<li>Se ajustaron las fuentes para separar los datos por estaciones de monitoreo.</li>
+<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
+<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
 <li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
 <li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
+<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
+<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
 </ul>
 
 FINAL;
