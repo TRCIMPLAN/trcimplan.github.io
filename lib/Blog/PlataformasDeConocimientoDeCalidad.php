@@ -34,7 +34,7 @@ class PlataformasDeConocimientoDeCalidad extends \Base\PublicacionSchemaBlogPost
         // Título, autor y fecha
         $this->nombre                     = 'Plataformas de Conocimiento de Calidad';
         $this->autor                      = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha                      = '2017-04-03T08:32';
+        $this->fecha                      = '2017-04-01T18:32';
         // El nombre del archivo a crear
         $this->archivo                    = 'plataformas-de-conocimiento-de-calidad';
         // La descripción y claves dan información a los buscadores y redes sociales

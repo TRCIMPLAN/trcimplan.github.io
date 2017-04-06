@@ -189,18 +189,22 @@ class PaginaInicialConfig extends \Base\Plantilla {
      */
     protected function aviso() {
         $this->contenido[]  = '  <section id="aviso">';
-        $this->contenido[]  = '    <div class="panel" style="margin:4px;border:2px solid #FF3300;">';
-        $this->contenido[]  = '        <div class="panel-heading" style="background-color:#FFFFFF">';
-        $this->contenido[]  = '            <h2>Elección de Consejeros de Representación Sectorial 2015</h2>';
-        $this->contenido[]  = '            <div>Resultado del proceso de elección de los ciudadanos que van a formar parte del Consejo Directivo como Consejeros de Representación Sectorial en el IMPLAN Torreón.</div>';
+        $this->contenido[]  = '    <div class="panel panel-default">'; // style="margin:4px;border:2px solid #FF3300;"
+        $this->contenido[]  = '        <div class="panel-heading" style="background-color:#CACACA">';
+        $this->contenido[]  = '            <h3 class="panel-title">Suspensión de difusión y propaganda por periodo electoral</h3>';
         $this->contenido[]  = '        </div>';
-        $this->contenido[]  = '        <a href="consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015.html">';
-        $this->contenido[]  = '            <div class="panel-footer" style="background-color:#CACACA">';
-        $this->contenido[]  = '                <span class="pull-left">Ir a la página</span>';
-        $this->contenido[]  = '                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>';
-        $this->contenido[]  = '                <div class="clearfix"></div>';
-        $this->contenido[]  = '            </div>';
-        $this->contenido[]  = '        </a>';
+        $this->contenido[]  = '        <div class="panel-body">';
+        $this->contenido[]  = '            <p>A partir del primer minuto de este domingo 2 de abril y hasta las 24:00 horas del día 4 de junio, el Ayuntamiento de Torreón suspenderá toda su difusión promocional en todos los medios de comunicación en cumplimiento a las disposiciones del acuerdo emitido por el Consejo General del Instituto Nacional Electoral.</p>';
+        $this->contenido[]  = '            <p>El IMPLAN Torreón acatará las disposiciones de este órgano federal electoral en cuanto a sus normas reglamentarias sobre la propaganda gubernamental para los procesos electorales 2016-2017 respecto al artículo 41, base III, apartado C de la Constitución Política de los Estados Unidos Mexicanos.</p>';
+        $this->contenido[]  = '            <p>Ante estas disposiciones, se dejarán de emitir boletines de prensa y el Sistema Metropolitano de Indicadores (SMI) así como el Sistema de Información Geográfica (SIG) recibirán información que no sea considerada como propaganda gubernamental.</p>';
+        $this->contenido[]  = '        </div>';
+    //~ $this->contenido[]  = '        <a href="consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015.html">';
+    //~ $this->contenido[]  = '            <div class="panel-footer" style="background-color:#CACACA">';
+    //~ $this->contenido[]  = '                <span class="pull-left">Ir a la página</span>';
+    //~ $this->contenido[]  = '                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>';
+    //~ $this->contenido[]  = '                <div class="clearfix"></div>';
+    //~ $this->contenido[]  = '            </div>';
+    //~ $this->contenido[]  = '        </a>';
         $this->contenido[]  = '    </div>';
         $this->contenido[]  = '  </section>';
     } // aviso
@@ -229,8 +233,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         }
         // Acumular Últimas Publicaciones y Twitter Timeline
         $this->contenido[]  = '  <section id="ultimas-publicaciones">';
-        $this->contenido[]  = '    <div class="row">';
-        $this->contenido[]  = '      <div class="col-md-8">';
+    //~ $this->contenido[]  = '    <div class="row">';
+    //~ $this->contenido[]  = '      <div class="col-md-8">';
         $this->contenido[]  = '        <div class="ultimas">';
         $this->contenido[]  = '          <h2>Últimas publicaciones</h2>';
         $this->contenido[]  = $concentrador->html();
@@ -238,19 +242,19 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[]  = "            <a href=\"blog/index.html\" class=\"btn btn-default\" role=\"button\">Todos los Análisis Publicados</a>";
         $this->contenido[]  = '          </div>';
         $this->contenido[]  = '        </div>';
-        $this->contenido[]  = '      </div>';
-        $this->contenido[]  = '      <div class="col-md-4">';
-        $this->contenido[]  = '        <div class="red-social-twitter">';
-        $this->contenido[]  = '          <a class="twitter-timeline" height="720px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
-        $this->contenido[]  = '        </div>';
-        $this->contenido[]  = '      </div>';
-        $this->contenido[]  = '    </div>';
+    //~ $this->contenido[]  = '      </div>';
+    //~ $this->contenido[]  = '      <div class="col-md-4">';
+    //~ $this->contenido[]  = '        <div class="red-social-twitter">';
+    //~ $this->contenido[]  = '          <a class="twitter-timeline" height="720px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
+    //~ $this->contenido[]  = '        </div>';
+    //~ $this->contenido[]  = '      </div>';
+    //~ $this->contenido[]  = '    </div>';
         $this->contenido[]  = '  </section>';
         // Acumular javascipt del Twitter Timeline
-        $this->javascript[] = <<<FINAL
+    /*  $this->javascript[] = <<<FINAL
   // Twitter timeline
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-FINAL;
+FINAL; */
     } // ultimas_publicaciones
 
     /**
@@ -379,9 +383,9 @@ FINAL;
     public function html() {
         // Elaborar secciones
         $this->organizacion();
+        $this->aviso();
         $this->servicios();
     //~ $this->ibc();
-    //~ $this->aviso();
         $this->ultimas_publicaciones();
         $this->categorias();
         $this->mapa();
