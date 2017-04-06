@@ -189,9 +189,9 @@ class PaginaInicialConfig extends \Base\Plantilla {
      */
     protected function aviso() {
         $this->contenido[]  = '  <section id="aviso">';
-        $this->contenido[]  = '    <div class="panel panel-default">'; // style="margin:4px;border:2px solid #FF3300;"
-        $this->contenido[]  = '        <div class="panel-heading" style="background-color:#CACACA">';
-        $this->contenido[]  = '            <h3 class="panel-title">Suspensión de difusión y propaganda por periodo electoral</h3>';
+        $this->contenido[]  = '    <div class="panel panel-default">';
+        $this->contenido[]  = '        <div class="panel-heading" style="background-color:#CACACA;padding:0px 15px;">';
+        $this->contenido[]  = '            <h2 style="border-bottom:none">Suspensión de difusión y propaganda por periodo electoral</h2>';
         $this->contenido[]  = '        </div>';
         $this->contenido[]  = '        <div class="panel-body">';
         $this->contenido[]  = '            <p>A partir del primer minuto de este domingo 2 de abril y hasta las 24:00 horas del día 4 de junio, el Ayuntamiento de Torreón suspenderá toda su difusión promocional en todos los medios de comunicación en cumplimiento a las disposiciones del acuerdo emitido por el Consejo General del Instituto Nacional Electoral.</p>';
