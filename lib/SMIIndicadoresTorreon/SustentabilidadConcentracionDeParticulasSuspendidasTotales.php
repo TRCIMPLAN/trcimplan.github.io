@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class SustentabilidadConcentracionDeParticulasSuspendidasTotales extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Concentración de Partículas Suspendidas Totales en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2017-04-04T09:26:11';
+        $this->nombre      = 'Concentración de Partículas Suspendidas Totales en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2017-04-04T09:26:11';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sustentabilidad-concentracion-de-particulas-suspendidas-totales';
+        $this->archivo     = 'sustentabilidad-concentracion-de-particulas-suspendidas-totales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Calidad del aire por la medición de las partículas suspendidas en microgramos por metro cúbico en promedio de 24 horas. La Norma Oficial Mexicana NOM-025-SSA1-1993 indica que el límite para efectos de protección de la salud es 210 ug por m3.';
-        $this->claves                    = 'IMPLAN, Torreón, Recursos Naturales';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Calidad del aire por la medición de las partículas suspendidas en microgramos por metro cúbico en promedio de 24 horas. La Norma Oficial Mexicana NOM-025-SSA1-1993 indica que el límite para efectos de protección de la salud es 210 ug por m3.';
+        $this->claves      = 'IMPLAN, Torreón, Recursos Naturales';
         // Para el Organizador
-        $this->categorias                = array('Recursos Naturales');
-        $this->fuentes                   = array('DIF Revolución', 'Esc. Secundaria General No. 2', 'Esc. Primaria Emiliano Zapata', 'Centro Cultural José R. Mijares', 'Esc. Secundaria General No. 3', 'Cap. Divina Providencia', 'Esc. Secundaria Técnica No. 83');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Recursos Naturales');
+        $this->fuentes     = array('DIF Revolución', 'Esc. Secundaria General No. 2', 'Esc. Primaria Emiliano Zapata', 'Centro Cultural José R. Mijares', 'Esc. Secundaria General No. 3', 'Cap. Divina Providencia', 'Esc. Secundaria Técnica No. 83');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,2031 +54,357 @@ class SustentabilidadConcentracionDeParticulasSuspendidasTotales extends \SMIBas
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>12/01/2016</td>
-            <td>152</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/01/2016</td>
-            <td>137</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/01/2016</td>
-            <td>178</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/01/2016</td>
-            <td>196</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/01/2016</td>
-            <td>172</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/01/2016</td>
-            <td>205</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/01/2016</td>
-            <td>248</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/01/2016</td>
-            <td>212</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/01/2016</td>
-            <td>222</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/01/2016</td>
-            <td>377</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/01/2016</td>
-            <td>254</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/01/2016</td>
-            <td>193</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/01/2016</td>
-            <td>296</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/01/2016</td>
-            <td>390</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/01/2016</td>
-            <td>171</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/01/2016</td>
-            <td>208</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/01/2016</td>
-            <td>230</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/01/2016</td>
-            <td>88</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/01/2016</td>
-            <td>91</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/01/2016</td>
-            <td>83</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/01/2016</td>
-            <td>129</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/02/2016</td>
-            <td>109</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/02/2016</td>
-            <td>106</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/02/2016</td>
-            <td>122</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/02/2016</td>
-            <td>136</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/02/2016</td>
-            <td>144</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/02/2016</td>
-            <td>154</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/02/2016</td>
-            <td>172</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/02/2016</td>
-            <td>165</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/02/2016</td>
-            <td>171</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/02/2016</td>
-            <td>230</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/02/2016</td>
-            <td>213</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/02/2016</td>
-            <td>229</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/02/2016</td>
-            <td>218</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/02/2016</td>
-            <td>307</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/02/2016</td>
-            <td>268</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/02/2016</td>
-            <td>240</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/02/2016</td>
-            <td>398</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/02/2016</td>
-            <td>215</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/02/2016</td>
-            <td>199</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/02/2016</td>
-            <td>216</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/02/2016</td>
-            <td>309</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/02/2016</td>
-            <td>191</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/02/2016</td>
-            <td>236</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/02/2016</td>
-            <td>266</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/02/2016</td>
-            <td>204</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/02/2016</td>
-            <td>114</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/02/2016</td>
-            <td>224</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/02/2016</td>
-            <td>325</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/03/2016</td>
-            <td>133</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/03/2016</td>
-            <td>171</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/03/2016</td>
-            <td>246</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/03/2016</td>
-            <td>183</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/03/2016</td>
-            <td>174</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/03/2016</td>
-            <td>202</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/03/2016</td>
-            <td>322</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/03/2016</td>
-            <td>307</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/03/2016</td>
-            <td>190</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/03/2016</td>
-            <td>393</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/03/2016</td>
-            <td>55</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/03/2016</td>
-            <td>32</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/03/2016</td>
-            <td>50</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/03/2016</td>
-            <td>67</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/03/2016</td>
-            <td>172</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/03/2016</td>
-            <td>185</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/03/2016</td>
-            <td>236</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/03/2016</td>
-            <td>206</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/03/2016</td>
-            <td>158</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/03/2016</td>
-            <td>289</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/03/2016</td>
-            <td>193</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/03/2016</td>
-            <td>142</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/03/2016</td>
-            <td>215</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/03/2016</td>
-            <td>315</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/03/2016</td>
-            <td>236</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/03/2016</td>
-            <td>236</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/03/2016</td>
-            <td>354</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/03/2016</td>
-            <td>92</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/03/2016</td>
-            <td>96</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/03/2016</td>
-            <td>136</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/03/2016</td>
-            <td>121</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/03/2016</td>
-            <td>89</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/03/2016</td>
-            <td>164</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/03/2016</td>
-            <td>107</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/03/2016</td>
-            <td>117</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/03/2016</td>
-            <td>140</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/03/2016</td>
-            <td>169</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/04/2016</td>
-            <td>164</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/04/2016</td>
-            <td>161</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/04/2016</td>
-            <td>213</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/04/2016</td>
-            <td>218</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/04/2016</td>
-            <td>248</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/04/2016</td>
-            <td>246</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/04/2016</td>
-            <td>292</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/04/2016</td>
-            <td>149</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/04/2016</td>
-            <td>234</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/04/2016</td>
-            <td>169</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/04/2016</td>
-            <td>209</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/04/2016</td>
-            <td>234</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/04/2016</td>
-            <td>222</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/04/2016</td>
-            <td>262</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/04/2016</td>
-            <td>301</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/04/2016</td>
-            <td>167</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/04/2016</td>
-            <td>152</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/04/2016</td>
-            <td>160</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/04/2016</td>
-            <td>298</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/05/2016</td>
-            <td>133</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/05/2016</td>
-            <td>158</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/05/2016</td>
-            <td>163</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>04/05/2016</td>
-            <td>132</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>04/05/2016</td>
-            <td>131</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>04/05/2016</td>
-            <td>130</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>04/05/2016</td>
-            <td>213</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/05/2016</td>
-            <td>141</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/05/2016</td>
-            <td>148</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/05/2016</td>
-            <td>188</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11/05/2016</td>
-            <td>132</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11/05/2016</td>
-            <td>119</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11/05/2016</td>
-            <td>135</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11/05/2016</td>
-            <td>191</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/05/2016</td>
-            <td>116</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/05/2016</td>
-            <td>97</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/05/2016</td>
-            <td>134</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18/05/2016</td>
-            <td>148</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18/05/2016</td>
-            <td>134</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18/05/2016</td>
-            <td>141</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18/05/2016</td>
-            <td>195</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/05/2016</td>
-            <td>156</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/05/2016</td>
-            <td>151</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/05/2016</td>
-            <td>199</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>25/05/2016</td>
-            <td>287</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>25/05/2016</td>
-            <td>274</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>25/05/2016</td>
-            <td>331</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>25/05/2016</td>
-            <td>425</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2016</td>
-            <td>162</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2016</td>
-            <td>167</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2016</td>
-            <td>204</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/06/2016</td>
-            <td>164</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/06/2016</td>
-            <td>153</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/06/2016</td>
-            <td>210</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/06/2016</td>
-            <td>289</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/06/2016</td>
-            <td>126</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/06/2016</td>
-            <td>139</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/06/2016</td>
-            <td>196</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/06/2016</td>
-            <td>135</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/06/2016</td>
-            <td>140</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/06/2016</td>
-            <td>122</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/06/2016</td>
-            <td>176</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/06/2016</td>
-            <td>129</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/06/2016</td>
-            <td>128</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/06/2016</td>
-            <td>172</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/06/2016</td>
-            <td>186</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/06/2016</td>
-            <td>197</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/06/2016</td>
-            <td>227</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/06/2016</td>
-            <td>285</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/06/2016</td>
-            <td>96</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/06/2016</td>
-            <td>71</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/06/2016</td>
-            <td>130</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>22/06/2016</td>
-            <td>101</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>22/06/2016</td>
-            <td>85</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>22/06/2016</td>
-            <td>98</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>22/06/2016</td>
-            <td>167</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/06/2016</td>
-            <td>87</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/06/2016</td>
-            <td>83</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/06/2016</td>
-            <td>91</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/06/2016</td>
-            <td>111</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/06/2016</td>
-            <td>133</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/06/2016</td>
-            <td>110</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/06/2016</td>
-            <td>143</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/07/2016</td>
-            <td>110</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/07/2016</td>
-            <td>91</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/07/2016</td>
-            <td>130</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/07/2016</td>
-            <td>123</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/07/2016</td>
-            <td>107</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/07/2016</td>
-            <td>118</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/07/2016</td>
-            <td>161</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/07/2016</td>
-            <td>141</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/07/2016</td>
-            <td>148</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/07/2016</td>
-            <td>167</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/07/2016</td>
-            <td>88</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/07/2016</td>
-            <td>63</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/07/2016</td>
-            <td>80</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/07/2016</td>
-            <td>111</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/07/2016</td>
-            <td>164</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/07/2016</td>
-            <td>129</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/07/2016</td>
-            <td>156</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/07/2016</td>
-            <td>101</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/07/2016</td>
-            <td>70</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/07/2016</td>
-            <td>91</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/07/2016</td>
-            <td>157</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/07/2016</td>
-            <td>117</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/07/2016</td>
-            <td>125</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/07/2016</td>
-            <td>153</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/07/2016</td>
-            <td>148</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/07/2016</td>
-            <td>119</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/07/2016</td>
-            <td>124</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/07/2016</td>
-            <td>162</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/08/2016</td>
-            <td>114</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/08/2016</td>
-            <td>129</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/08/2016</td>
-            <td>123</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/08/2016</td>
-            <td>138</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/08/2016</td>
-            <td>113</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/08/2016</td>
-            <td>116</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>03/08/2016</td>
-            <td>151</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/08/2016</td>
-            <td>73</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/08/2016</td>
-            <td>84</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/08/2016</td>
-            <td>71</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/08/2016</td>
-            <td>107</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/08/2016</td>
-            <td>91</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/08/2016</td>
-            <td>112</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10/08/2016</td>
-            <td>123</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/08/2016</td>
-            <td>87</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/08/2016</td>
-            <td>106</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/08/2016</td>
-            <td>83</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/08/2016</td>
-            <td>89</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/08/2016</td>
-            <td>84</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/08/2016</td>
-            <td>74</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>17/08/2016</td>
-            <td>102</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/08/2016</td>
-            <td>114</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/08/2016</td>
-            <td>114</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/08/2016</td>
-            <td>153</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/08/2016</td>
-            <td>79</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/08/2016</td>
-            <td>77</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/08/2016</td>
-            <td>98</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>24/08/2016</td>
-            <td>108</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/09/2016</td>
-            <td>103</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/09/2016</td>
-            <td>116</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/09/2016</td>
-            <td>116</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/09/2016</td>
-            <td>134</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/09/2016</td>
-            <td>132</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/09/2016</td>
-            <td>147</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/09/2016</td>
-            <td>203</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/09/2016</td>
-            <td>147</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/09/2016</td>
-            <td>140</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/09/2016</td>
-            <td>167</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/09/2016</td>
-            <td>144</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/09/2016</td>
-            <td>102</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/09/2016</td>
-            <td>146</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/09/2016</td>
-            <td>220</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/09/2016</td>
-            <td>108</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/09/2016</td>
-            <td>127</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/09/2016</td>
-            <td>133</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/09/2016</td>
-            <td>127</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/09/2016</td>
-            <td>118</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/09/2016</td>
-            <td>112</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/09/2016</td>
-            <td>193</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/09/2016</td>
-            <td>97</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/09/2016</td>
-            <td>138</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27/09/2016</td>
-            <td>97</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/09/2016</td>
-            <td>147</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/09/2016</td>
-            <td>159</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/09/2016</td>
-            <td>169</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/09/2016</td>
-            <td>214</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>04/10/2016</td>
-            <td>161</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>04/10/2016</td>
-            <td>140</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>04/10/2016</td>
-            <td>184</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/10/2016</td>
-            <td>203</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/10/2016</td>
-            <td>167</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/10/2016</td>
-            <td>248</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>05/10/2016</td>
-            <td>306</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11/10/2016</td>
-            <td>161</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11/10/2016</td>
-            <td>141</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11/10/2016</td>
-            <td>300</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/10/2016</td>
-            <td>216</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/10/2016</td>
-            <td>209</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/10/2016</td>
-            <td>240</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12/10/2016</td>
-            <td>313</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18/10/2016</td>
-            <td>229</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18/10/2016</td>
-            <td>223</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18/10/2016</td>
-            <td>271</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/10/2016</td>
-            <td>193</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/10/2016</td>
-            <td>204</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/10/2016</td>
-            <td>236</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>19/10/2016</td>
-            <td>227</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>25/10/2016</td>
-            <td>124</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>25/10/2016</td>
-            <td>129</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>25/10/2016</td>
-            <td>141</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/10/2016</td>
-            <td>162</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/10/2016</td>
-            <td>139</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/10/2016</td>
-            <td>130</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26/10/2016</td>
-            <td>213</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/11/2016</td>
-            <td>215</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/11/2016</td>
-            <td>203</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/11/2016</td>
-            <td>293</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/11/2016</td>
-            <td>226</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/11/2016</td>
-            <td>204</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/11/2016</td>
-            <td>264</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>02/11/2016</td>
-            <td>293</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/11/2016</td>
-            <td>129</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/11/2016</td>
-            <td>141</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08/11/2016</td>
-            <td>137</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/11/2016</td>
-            <td>77</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/11/2016</td>
-            <td>58</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/11/2016</td>
-            <td>70</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>09/11/2016</td>
-            <td>97</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/11/2016</td>
-            <td>216</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/11/2016</td>
-            <td>140</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>15/11/2016</td>
-            <td>329</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/11/2016</td>
-            <td>206</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>16/11/2016</td>
-            <td>258</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>22/11/2016</td>
-            <td>187</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>22/11/2016</td>
-            <td>159</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>22/11/2016</td>
-            <td>213</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/11/2016</td>
-            <td>185</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/11/2016</td>
-            <td>169</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>23/11/2016</td>
-            <td>201</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/11/2016</td>
-            <td>154</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/11/2016</td>
-            <td>137</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/11/2016</td>
-            <td>251</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2016</td>
-            <td>259</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2016</td>
-            <td>206</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2016</td>
-            <td>296</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2016</td>
-            <td>341</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>06/12/2016</td>
-            <td>267</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/12/2016</td>
-            <td>277</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/12/2016</td>
-            <td>206</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/12/2016</td>
-            <td>261</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/12/2016</td>
-            <td>220</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/12/2016</td>
-            <td>321</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>07/12/2016</td>
-            <td>327</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/12/2016</td>
-            <td>311</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/12/2016</td>
-            <td>204</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13/12/2016</td>
-            <td>477</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/12/2016</td>
-            <td>374</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/12/2016</td>
-            <td>261</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/12/2016</td>
-            <td>503</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/12/2016</td>
-            <td>477</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20/12/2016</td>
-            <td>342</td>
-            <td>Esc. Primaria Emiliano Zapata</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/12/2016</td>
-            <td>324</td>
-            <td>Centro Cultural José R. Mijares</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/12/2016</td>
-            <td>245</td>
-            <td>Cap. Divina Providencia</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/12/2016</td>
-            <td>306</td>
-            <td>Esc. Secundaria General No. 2</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/12/2016</td>
-            <td>241</td>
-            <td>DIF Revolución</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/12/2016</td>
-            <td>227</td>
-            <td>Esc. Secundaria General No. 3</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/12/2016</td>
-            <td>371</td>
-            <td>Esc. Secundaria Técnica No. 83</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> ug por m3.</p>
-      <h3>Observaciones</h3>
-<ul>
-<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
-<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
-<li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
-<li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
-<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
-<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
-</ul>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2016-01-12', 'valor' => '152', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-01-12', 'valor' => '137', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-01-12', 'valor' => '178', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-01-13', 'valor' => '196', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-01-13', 'valor' => '172', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-01-13', 'valor' => '205', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-01-13', 'valor' => '248', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-01-19', 'valor' => '212', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-01-19', 'valor' => '222', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-01-19', 'valor' => '377', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-01-20', 'valor' => '254', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-01-20', 'valor' => '193', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-01-20', 'valor' => '296', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-01-20', 'valor' => '390', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-01-26', 'valor' => '171', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-01-26', 'valor' => '208', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-01-26', 'valor' => '230', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-01-27', 'valor' => '88', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-01-27', 'valor' => '91', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-01-27', 'valor' => '83', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-01-27', 'valor' => '129', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-02-02', 'valor' => '109', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-02-02', 'valor' => '106', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-02-02', 'valor' => '122', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-02-03', 'valor' => '136', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-02-03', 'valor' => '144', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-02-03', 'valor' => '154', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-02-03', 'valor' => '172', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-02-09', 'valor' => '165', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-02-09', 'valor' => '171', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-02-09', 'valor' => '230', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-02-10', 'valor' => '213', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-02-10', 'valor' => '229', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-02-10', 'valor' => '218', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-02-10', 'valor' => '307', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-02-16', 'valor' => '268', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-02-16', 'valor' => '240', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-02-16', 'valor' => '398', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-02-17', 'valor' => '215', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-02-17', 'valor' => '199', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-02-17', 'valor' => '216', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-02-17', 'valor' => '309', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-02-23', 'valor' => '191', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-02-23', 'valor' => '236', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-02-23', 'valor' => '266', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-02-24', 'valor' => '204', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-02-24', 'valor' => '114', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-02-24', 'valor' => '224', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-02-24', 'valor' => '325', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-03-01', 'valor' => '133', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-03-01', 'valor' => '171', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-03-01', 'valor' => '246', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-03-02', 'valor' => '183', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-03-02', 'valor' => '174', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-03-02', 'valor' => '202', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-03-02', 'valor' => '322', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-03-08', 'valor' => '307', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-03-08', 'valor' => '190', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-03-08', 'valor' => '393', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-03-09', 'valor' => '55', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-03-09', 'valor' => '32', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-03-09', 'valor' => '50', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-03-09', 'valor' => '67', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-03-12', 'valor' => '172', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-03-12', 'valor' => '185', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-03-12', 'valor' => '236', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-03-15', 'valor' => '206', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-03-15', 'valor' => '158', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-03-15', 'valor' => '289', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-03-16', 'valor' => '193', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-03-16', 'valor' => '142', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-03-16', 'valor' => '215', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-03-16', 'valor' => '315', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-03-19', 'valor' => '236', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-03-19', 'valor' => '236', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-03-19', 'valor' => '354', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-03-26', 'valor' => '92', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-03-26', 'valor' => '96', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-03-26', 'valor' => '136', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-03-29', 'valor' => '121', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-03-29', 'valor' => '89', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-03-29', 'valor' => '164', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-03-30', 'valor' => '107', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-03-30', 'valor' => '117', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-03-30', 'valor' => '140', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-03-30', 'valor' => '169', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-04-05', 'valor' => '164', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-04-05', 'valor' => '161', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-04-05', 'valor' => '213', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-04-06', 'valor' => '218', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-04-06', 'valor' => '248', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-04-06', 'valor' => '246', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-04-06', 'valor' => '292', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-04-13', 'valor' => '149', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-04-13', 'valor' => '234', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-04-13', 'valor' => '169', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-04-13', 'valor' => '209', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-04-20', 'valor' => '234', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-04-20', 'valor' => '222', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-04-20', 'valor' => '262', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-04-20', 'valor' => '301', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-04-27', 'valor' => '167', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-04-27', 'valor' => '152', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-04-27', 'valor' => '160', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-04-27', 'valor' => '298', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-05-03', 'valor' => '133', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-05-03', 'valor' => '158', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-05-03', 'valor' => '163', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-05-04', 'valor' => '132', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-05-04', 'valor' => '131', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-05-04', 'valor' => '130', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-05-04', 'valor' => '213', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-05-10', 'valor' => '141', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-05-10', 'valor' => '148', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-05-10', 'valor' => '188', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-05-11', 'valor' => '132', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-05-11', 'valor' => '119', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-05-11', 'valor' => '135', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-05-11', 'valor' => '191', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-05-17', 'valor' => '116', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-05-17', 'valor' => '97', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-05-17', 'valor' => '134', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-05-18', 'valor' => '148', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-05-18', 'valor' => '134', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-05-18', 'valor' => '141', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-05-18', 'valor' => '195', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-05-24', 'valor' => '156', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-05-24', 'valor' => '151', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-05-24', 'valor' => '199', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-05-25', 'valor' => '287', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-05-25', 'valor' => '274', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-05-25', 'valor' => '331', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-05-25', 'valor' => '425', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-05-31', 'valor' => '162', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-05-31', 'valor' => '167', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-05-31', 'valor' => '204', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-06-01', 'valor' => '164', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-06-01', 'valor' => '153', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-06-01', 'valor' => '210', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-06-01', 'valor' => '289', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-06-07', 'valor' => '126', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-06-07', 'valor' => '139', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-06-07', 'valor' => '196', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-06-08', 'valor' => '135', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-06-08', 'valor' => '140', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-06-08', 'valor' => '122', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-06-08', 'valor' => '176', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-06-14', 'valor' => '129', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-06-14', 'valor' => '128', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-06-14', 'valor' => '172', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-06-15', 'valor' => '186', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-06-15', 'valor' => '197', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-06-15', 'valor' => '227', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-06-15', 'valor' => '285', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-06-21', 'valor' => '96', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-06-21', 'valor' => '71', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-06-21', 'valor' => '130', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-06-22', 'valor' => '101', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-06-22', 'valor' => '85', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-06-22', 'valor' => '98', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-06-22', 'valor' => '167', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-06-28', 'valor' => '87', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-06-28', 'valor' => '83', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-06-28', 'valor' => '91', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-06-29', 'valor' => '111', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-06-29', 'valor' => '133', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-06-29', 'valor' => '110', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-06-29', 'valor' => '143', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-07-05', 'valor' => '110', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-07-05', 'valor' => '91', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-07-05', 'valor' => '130', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-07-06', 'valor' => '123', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-07-06', 'valor' => '107', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-07-06', 'valor' => '118', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-07-06', 'valor' => '161', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-07-12', 'valor' => '141', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-07-12', 'valor' => '148', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-07-12', 'valor' => '167', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-07-13', 'valor' => '88', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-07-13', 'valor' => '63', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-07-13', 'valor' => '80', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-07-13', 'valor' => '111', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-07-19', 'valor' => '164', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-07-19', 'valor' => '129', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-07-19', 'valor' => '156', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-07-20', 'valor' => '101', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-07-20', 'valor' => '70', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-07-20', 'valor' => '91', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-07-20', 'valor' => '157', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-07-26', 'valor' => '117', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-07-26', 'valor' => '125', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-07-26', 'valor' => '153', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-07-27', 'valor' => '148', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-07-27', 'valor' => '119', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-07-27', 'valor' => '124', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-07-27', 'valor' => '162', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-08-02', 'valor' => '114', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-08-02', 'valor' => '129', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-08-02', 'valor' => '123', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-08-03', 'valor' => '138', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-08-03', 'valor' => '113', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-08-03', 'valor' => '116', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-08-03', 'valor' => '151', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-08-09', 'valor' => '73', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-08-09', 'valor' => '84', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-08-09', 'valor' => '71', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-08-10', 'valor' => '107', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-08-10', 'valor' => '91', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-08-10', 'valor' => '112', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-08-10', 'valor' => '123', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-08-16', 'valor' => '87', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-08-16', 'valor' => '106', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-08-16', 'valor' => '83', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-08-17', 'valor' => '89', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-08-17', 'valor' => '84', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-08-17', 'valor' => '74', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-08-17', 'valor' => '102', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-08-23', 'valor' => '114', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-08-23', 'valor' => '114', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-08-23', 'valor' => '153', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-08-24', 'valor' => '79', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-08-24', 'valor' => '77', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-08-24', 'valor' => '98', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-08-24', 'valor' => '108', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-09-06', 'valor' => '103', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-09-06', 'valor' => '116', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-09-06', 'valor' => '116', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-09-07', 'valor' => '134', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-09-07', 'valor' => '132', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-09-07', 'valor' => '147', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-09-07', 'valor' => '203', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-09-13', 'valor' => '147', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-09-13', 'valor' => '140', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-09-13', 'valor' => '167', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-09-14', 'valor' => '144', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-09-14', 'valor' => '102', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-09-14', 'valor' => '146', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-09-14', 'valor' => '220', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-09-20', 'valor' => '108', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-09-20', 'valor' => '127', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-09-20', 'valor' => '133', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-09-21', 'valor' => '127', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-09-21', 'valor' => '118', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-09-21', 'valor' => '112', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-09-21', 'valor' => '193', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-09-27', 'valor' => '97', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-09-27', 'valor' => '138', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-09-27', 'valor' => '97', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-09-28', 'valor' => '147', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-09-28', 'valor' => '159', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-09-28', 'valor' => '169', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-09-28', 'valor' => '214', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-10-04', 'valor' => '161', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-10-04', 'valor' => '140', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-10-04', 'valor' => '184', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-10-05', 'valor' => '203', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-10-05', 'valor' => '167', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-10-05', 'valor' => '248', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-10-05', 'valor' => '306', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-10-11', 'valor' => '161', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-10-11', 'valor' => '141', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-10-11', 'valor' => '300', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-10-12', 'valor' => '216', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-10-12', 'valor' => '209', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-10-12', 'valor' => '240', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-10-12', 'valor' => '313', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-10-18', 'valor' => '229', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-10-18', 'valor' => '223', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-10-18', 'valor' => '271', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-10-19', 'valor' => '193', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-10-19', 'valor' => '204', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-10-19', 'valor' => '236', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-10-19', 'valor' => '227', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-10-25', 'valor' => '124', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-10-25', 'valor' => '129', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-10-25', 'valor' => '141', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-10-26', 'valor' => '162', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-10-26', 'valor' => '139', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-10-26', 'valor' => '130', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-10-26', 'valor' => '213', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-11-01', 'valor' => '215', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-11-01', 'valor' => '203', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-11-01', 'valor' => '293', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-11-02', 'valor' => '226', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-11-02', 'valor' => '204', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-11-02', 'valor' => '264', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-11-02', 'valor' => '293', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-11-08', 'valor' => '129', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-11-08', 'valor' => '141', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-11-08', 'valor' => '137', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-11-09', 'valor' => '77', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-11-09', 'valor' => '58', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-11-09', 'valor' => '70', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-11-09', 'valor' => '97', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-11-15', 'valor' => '216', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-11-15', 'valor' => '140', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-11-15', 'valor' => '329', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-11-16', 'valor' => '206', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-11-16', 'valor' => '258', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-11-22', 'valor' => '187', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-11-22', 'valor' => '159', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-11-22', 'valor' => '213', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-11-23', 'valor' => '185', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-11-23', 'valor' => '169', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-11-23', 'valor' => '201', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-11-29', 'valor' => '154', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-11-29', 'valor' => '137', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-11-29', 'valor' => '251', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-11-30', 'valor' => '259', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-11-30', 'valor' => '206', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-11-30', 'valor' => '296', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-11-30', 'valor' => '341', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-12-06', 'valor' => '267', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-12-07', 'valor' => '277', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-12-07', 'valor' => '206', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-12-07', 'valor' => '261', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-12-07', 'valor' => '220', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-12-07', 'valor' => '321', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-12-07', 'valor' => '327', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-12-13', 'valor' => '311', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-12-13', 'valor' => '204', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-12-13', 'valor' => '477', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-12-14', 'valor' => '374', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-12-14', 'valor' => '261', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-12-14', 'valor' => '503', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-12-14', 'valor' => '477', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => ''),
+            array('fecha' => '2016-12-20', 'valor' => '342', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata', 'notas' => ''),
+            array('fecha' => '2016-12-21', 'valor' => '324', 'fuente_nombre' => 'Centro Cultural José R. Mijares', 'notas' => ''),
+            array('fecha' => '2016-12-21', 'valor' => '245', 'fuente_nombre' => 'Cap. Divina Providencia', 'notas' => ''),
+            array('fecha' => '2016-12-21', 'valor' => '306', 'fuente_nombre' => 'Esc. Secundaria General No. 2', 'notas' => ''),
+            array('fecha' => '2016-12-21', 'valor' => '241', 'fuente_nombre' => 'DIF Revolución', 'notas' => ''),
+            array('fecha' => '2016-12-21', 'valor' => '227', 'fuente_nombre' => 'Esc. Secundaria General No. 3', 'notas' => ''),
+            array('fecha' => '2016-12-21', 'valor' => '371', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica 1 HTML
@@ -2434,7 +751,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-grafica-7', 'Gráfica 7', $this->seccion_grafica_7_html());
         $this->lenguetas->agregar_javascript($this->seccion_grafica_7_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -2446,8 +763,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

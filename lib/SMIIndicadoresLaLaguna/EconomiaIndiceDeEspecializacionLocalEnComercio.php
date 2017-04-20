@@ -27,34 +27,25 @@ namespace SMIIndicadoresLaLaguna;
  */
 class EconomiaIndiceDeEspecializacionLocalEnComercio extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Índice de Especialización Local en Comercio en La Laguna';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Índice de Especialización Local en Comercio en La Laguna';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-indice-de-especializacion-local-en-comercio';
+        $this->archivo     = 'economia-indice-de-especializacion-local-en-comercio';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).';
-        $this->claves                    = 'IMPLAN, La Laguna, Mercados';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).';
+        $this->claves      = 'IMPLAN, La Laguna, Mercados';
         // Para el Organizador
-        $this->categorias                = array('Mercados');
-        $this->fuentes                   = array('Elaboración propia con datos obtenidos del INEGI');
-        $this->regiones                  = array('La Laguna');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Mercados');
+        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI');
+        $this->regiones    = array('La Laguna');
     } // constructor
 
     /**
@@ -63,58 +54,28 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \SMIBase\Publicacio
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/1998</td>
-            <td>12.84 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2003</td>
-            <td>12.58 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>8.33 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>9.79 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>El índice de especialización nacional en el comercio es de:</p>
-
-<ul>
-<li>2008 = 9.76%</li>
-<li>2003 = 13.17%</li>
-<li>1998 = 13.82%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '1998-12-31', 'valor' => '12.8400', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2003-12-31', 'valor' => '12.5800', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2008-12-31', 'valor' => '8.3300', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2013-12-31', 'valor' => '9.7923', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -186,56 +147,56 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>9.03 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>11.15 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>16.60 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>17.51 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>9.79 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>6.24 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>15.76 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>10.68 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
@@ -291,7 +252,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -303,8 +264,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

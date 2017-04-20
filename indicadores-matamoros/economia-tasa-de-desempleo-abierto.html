@@ -41,8 +41,6 @@
   <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../smi/introduccion/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tasa-de-desempleo-abierto.html">
   <title>Tasa de Desempleo Abierto en Matamoros - IMPLAN Torreón</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
   <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
   <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
@@ -52,13 +50,16 @@
   <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
   <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
   <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
-  <link rel="stylesheet" type="text/css" href="../css/morris.css">
-  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
-  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
-  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
   <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
   <!-- SOPORTE PARA IE -->
   <!--[if lt IE 9]>
   <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -162,14 +163,13 @@
     <div class="cuerpo">
       <article><div itemscope itemtype="http://schema.org/Article">
         <div class="encabezado">
-          <h1 itemprop="name">Tasa de Desempleo Abierto en Matamoros</h1>
+          <h1 itemprop="headline">Tasa de Desempleo Abierto en Matamoros</h1>
           <div class="encabezado-descripcion" itemprop="description">Número total de desempleados entre la Población económicamente activa.</div>
           <div class="encabezado-autor-fecha">
             Por <span itemprop="author">Dirección de Investigación Estratégica</span> -
             <meta itemprop="datePublished" content="2014-10-21T16:19:49">21/10/2014 16:19
           </div>
         </div>
-        <meta itemprop="image" alt="Tasa de Desempleo Abierto en Matamoros" src="../smi/introduccion/imagen.jpg">
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
@@ -181,378 +181,360 @@
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane active" id="smi-indicador-datos">
-            <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>12/03/1990</td>
-            <td>3.32 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14/02/2000</td>
-            <td>1.18 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2005</td>
-            <td>6.06 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2005</td>
-            <td>1.59 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2005</td>
-            <td>2.13 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2005</td>
-            <td>2.65 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2006</td>
-            <td>3.07 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2006</td>
-            <td>2.27 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2006</td>
-            <td>3.09 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/12/2006</td>
-            <td>1.97 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2007</td>
-            <td>5.30 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2007</td>
-            <td>5.84 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2007</td>
-            <td>2.68 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2007</td>
-            <td>1.26 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2008</td>
-            <td>3.92 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2008</td>
-            <td>1.20 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2008</td>
-            <td>3.90 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>6.90 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>6.58 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2009</td>
-            <td>7.53 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2009</td>
-            <td>8.06 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2009</td>
-            <td>9.02 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>7.37 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>9.02 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2010</td>
-            <td>11.76 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>25/06/2010</td>
-            <td>6.07 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2010</td>
-            <td>5.30 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2010</td>
-            <td>5.64 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>8.25 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>8.52 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2011</td>
-            <td>8.47 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2011</td>
-            <td>6.57 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2011</td>
-            <td>6.38 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>7.58 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>7.45 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2012</td>
-            <td>9.14 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2012</td>
-            <td>4.64 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2012</td>
-            <td>6.28 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>6.19 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>7.69 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2013</td>
-            <td>9.84 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2013</td>
-            <td>13.79 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2013</td>
-            <td>9.02 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>5.34 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2014</td>
-            <td>6.90 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>3.81 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2014</td>
-            <td>5.31 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>7.14 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2015</td>
-            <td>3.13 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>2.99 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2015</td>
-            <td>3.61 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2015</td>
-            <td>2.82 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>3.74 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2016</td>
-            <td>1.90 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>4.09 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2016</td>
-            <td>2.17 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2016</td>
-            <td>5.73 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Media nacional del indicador:</p>
-
-<ul>
-<li>2010 = 3.72</li>
-<li>2010 = 0.98%</li>
-<li>1990 = 2.32%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">INEGI. Censos de población y vivienda</a></p>
-
-<p>Media Nacional 2014:
-1er. Trimestre: 4.80 %
-2do. Trimestre: 4.90 %
-3er. Trimestre: 5.20 %</p>
-
+        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1990-03-12</td>
+        <td>3.3200</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2000-02-14</td>
+        <td>1.1800</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2005-03-31</td>
+        <td>6.0606</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2005-06-30</td>
+        <td>1.5873</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2005-09-30</td>
+        <td>2.1277</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2005-12-31</td>
+        <td>2.6490</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2006-03-31</td>
+        <td>3.0675</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2006-06-30</td>
+        <td>2.2727</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2006-09-30</td>
+        <td>3.0864</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2006-12-30</td>
+        <td>1.9737</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2007-03-31</td>
+        <td>5.2980</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2007-06-30</td>
+        <td>5.8442</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2007-09-30</td>
+        <td>2.6846</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2007-12-31</td>
+        <td>1.2579</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2008-03-31</td>
+        <td>3.9216</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2008-06-30</td>
+        <td>1.2048</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2008-09-30</td>
+        <td>3.8961</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2008-12-31</td>
+        <td>6.9049</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2008-12-31</td>
+        <td>6.5789</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2009-03-31</td>
+        <td>7.5342</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2009-06-30</td>
+        <td>8.0645</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2009-09-30</td>
+        <td>9.0226</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2009-12-31</td>
+        <td>7.3692</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2009-12-31</td>
+        <td>9.0226</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2010-03-31</td>
+        <td>11.7647</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2010-06-25</td>
+        <td>6.0700</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2010-06-30</td>
+        <td>5.2980</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2010-09-30</td>
+        <td>5.6410</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2010-12-31</td>
+        <td>8.2500</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2010-12-31</td>
+        <td>8.5227</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2011-03-31</td>
+        <td>8.4700</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2011-06-30</td>
+        <td>6.5700</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2011-09-30</td>
+        <td>6.3800</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2011-12-31</td>
+        <td>7.5821</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2011-12-31</td>
+        <td>7.4500</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2012-03-31</td>
+        <td>9.1400</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2012-06-30</td>
+        <td>4.6400</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2012-09-30</td>
+        <td>6.2800</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2012-12-31</td>
+        <td>6.1880</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2012-12-31</td>
+        <td>7.6900</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2013-03-31</td>
+        <td>9.8400</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2013-06-30</td>
+        <td>13.7900</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2013-09-30</td>
+        <td>9.0200</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2013-12-31</td>
+        <td>5.3400</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2014-03-31</td>
+        <td>6.9000</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2014-06-30</td>
+        <td>3.8100</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2014-09-30</td>
+        <td>5.3100</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2014-12-31</td>
+        <td>7.1400</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2015-03-31</td>
+        <td>3.1300</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2015-06-30</td>
+        <td>2.9851</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2015-08-31</td>
+        <td>3.6100</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2015-09-30</td>
+        <td>2.8169</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2015-12-31</td>
+        <td>3.7383</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2016-03-31</td>
+        <td>1.9048</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2016-06-30</td>
+        <td>4.0900</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2016-09-30</td>
+        <td>2.1700</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2016-12-31</td>
+        <td>5.7300</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
             <h3>Gráfica de Tasa de Desempleo Abierto en Matamoros con fuente INEGI</h3>
@@ -634,58 +616,58 @@
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-12-31</td>
+            <td>31/12/2016</td>
             <td>4.09 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-12-31</td>
+            <td>31/12/2016</td>
             <td>4.37 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-12-31</td>
+            <td>31/12/2016</td>
             <td>3.96 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-12-31</td>
+            <td>31/12/2016</td>
             <td>5.73 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-12-31</td>
+            <td>31/12/2016</td>
             <td>4.39 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-12-31</td>
+            <td>31/12/2016</td>
             <td>3.91 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-09-30</td>
-            <td>4.90 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td>31/12/2016</td>
+            <td>3.50 %</td>
+            <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2016-09-30</td>
-            <td>4.03 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td>31/12/2016</td>
+            <td>3.54 %</td>
+            <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
         </tbody>
@@ -779,13 +761,15 @@
   </div>
 </div>
 <!-- Javascript común -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script type="text/javascript" src="../js/raphael-min.js"></script>
-<script type="text/javascript" src="../js/morris.min.js"></script>
-<script type="text/javascript" src="../js/plugins/metisMenu/metisMenu.min.js"></script>
-<script type="text/javascript" src="../js/sb-admin-2.js"></script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="../vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
 <script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
 <!-- Javascript: Inicia  -->
 <script>
@@ -832,7 +816,7 @@ $('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 4.0900 },{ region: 'Gómez Palacio', dato: 4.3700 },{ region: 'Lerdo', dato: 3.9600 },{ region: 'Matamoros', dato: 5.7300 },{ region: 'La Laguna', dato: 4.3900 },{ region: 'Coahuila', dato: 3.9100 },{ region: 'Durango', dato: 4.9000 },{ region: 'Nacional', dato: 4.0300 }],
+      data: [{ region: 'Torreón', dato: 4.0900 },{ region: 'Gómez Palacio', dato: 4.3700 },{ region: 'Lerdo', dato: 3.9600 },{ region: 'Matamoros', dato: 5.7300 },{ region: 'La Laguna', dato: 4.3900 },{ region: 'Coahuila', dato: 3.9100 },{ region: 'Durango', dato: 3.5000 },{ region: 'Nacional', dato: 3.5400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -840,6 +824,23 @@ $('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', f
     });
   } });
 $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
+// DataTables
+$(document).ready(function(){
+  $('#smi-indicador-datos-tabla').DataTable( {
+    "language": {
+      "lengthMenu":   "Mostrando _MENU_ filas por página",
+      "zeroRecords":  "No se encontró nada",
+      "info":         "Mostrando página _PAGE_ de _PAGES_",
+      "infoEmpty":    "No se encontraron registros",
+      "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+      "search":       "Filtrar:",
+      "paginate": {
+        "previous":   "Anterior",
+        "next":       "Siguiente"
+      }
+    }
+  });
+});
 </script>
 <script>
   // Twitter

@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class GobiernoCapacitacionAEmpleadosDeConfianza extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Capacitación a Empleados de Confianza en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-07-14T17:48:01';
+        $this->nombre      = 'Capacitación a Empleados de Confianza en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2015-07-14T17:48:01';
         // El nombre del archivo a crear
-        $this->archivo                   = 'gobierno-capacitacion-a-empleados-de-confianza';
+        $this->archivo     = 'gobierno-capacitacion-a-empleados-de-confianza';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Expresa la relación de horas de capacitación promedio brindadas a los empleados municipales cuyo estatus es de confianza. Total de Horas de Capacitación a Empleados de Confianza entre el total de Empleados de Confianza.';
-        $this->claves                    = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Gobierno';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Expresa la relación de horas de capacitación promedio brindadas a los empleados municipales cuyo estatus es de confianza. Total de Horas de Capacitación a Empleados de Confianza entre el total de Empleados de Confianza.';
+        $this->claves      = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Gobierno';
         // Para el Organizador
-        $this->categorias                = array('Sistema de Indicadores de Desempeño (SINDES)', 'Gobierno');
-        $this->fuentes                   = array('Ayuntamiento de Torreón');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Sistema de Indicadores de Desempeño (SINDES)', 'Gobierno');
+        $this->fuentes     = array('Ayuntamiento de Torreón');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,38 +54,26 @@ class GobiernoCapacitacionAEmpleadosDeConfianza extends \SMIBase\PublicacionWeb 
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>30/06/2014</td>
-            <td>11.6200</td>
-            <td>Ayuntamiento de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/12/2014</td>
-            <td>3.1500</td>
-            <td>Ayuntamiento de Torreón</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Horas.</p>
-      <h3>Observaciones</h3>
-<p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2014-06-30', 'valor' => '11.6200', 'fuente_nombre' => 'Ayuntamiento de Torreón', 'notas' => ''),
+            array('fecha' => '2014-12-30', 'valor' => '3.1500', 'fuente_nombre' => 'Ayuntamiento de Torreón', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -146,7 +125,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
         $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -158,8 +137,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

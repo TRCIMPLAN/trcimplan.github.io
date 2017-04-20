@@ -27,34 +27,25 @@ namespace SMIIndicadoresMatamoros;
  */
 class EconomiaEmpresasExportadoras extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Empresas Exportadoras en Matamoros';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-12-05T11:28:10';
+        $this->nombre      = 'Empresas Exportadoras en Matamoros';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-12-05T11:28:10';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-empresas-exportadoras';
+        $this->archivo     = 'economia-empresas-exportadoras';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.';
-        $this->claves                    = 'IMPLAN, Matamoros, Empresas';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.';
+        $this->claves      = 'IMPLAN, Matamoros, Empresas';
         // Para el Organizador
-        $this->categorias                = array('Empresas');
-        $this->fuentes                   = array('Secretaría de Economía');
-        $this->regiones                  = array('Matamoros');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Empresas');
+        $this->fuentes     = array('Secretaría de Economía');
+        $this->regiones    = array('Matamoros');
     } // constructor
 
     /**
@@ -63,32 +54,25 @@ class EconomiaEmpresasExportadoras extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>24/11/2014</td>
-            <td>5</td>
-            <td>Secretaría de Economía</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad de Empresas.</p>
-      <h3>Observaciones</h3>
-<p>Datos obtenidos de <a href="http://www.economia.gob.mx/comunidad-negocios/industria-y-comercio/instrumentos-de-comercio-exterior/directorios-y-discos-de-captura">Secretaría de Economía</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2014-11-24', 'valor' => '5', 'fuente_nombre' => 'Secretaría de Economía', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Otras Regiones HTML
@@ -113,35 +97,35 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-11-24</td>
+            <td>24/11/2014</td>
             <td>113</td>
             <td>Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-11-24</td>
+            <td>24/11/2014</td>
             <td>55</td>
             <td>Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-11-24</td>
+            <td>24/11/2014</td>
             <td>11</td>
             <td>Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-11-24</td>
+            <td>24/11/2014</td>
             <td>5</td>
             <td>Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-11-24</td>
+            <td>24/11/2014</td>
             <td>184</td>
             <td>Secretaría de Economía</td>
             <td></td>
@@ -187,7 +171,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -199,8 +183,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

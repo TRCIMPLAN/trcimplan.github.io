@@ -27,34 +27,25 @@ namespace SMIIndicadoresMatamoros;
  */
 class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Pasajeros Aéreos Internacionales Anuales en Matamoros';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Pasajeros Aéreos Internacionales Anuales en Matamoros';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sustentabilidad-pasajeros-aereos-internacionales-anuales';
+        $this->archivo     = 'sustentabilidad-pasajeros-aereos-internacionales-anuales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
-        $this->claves                    = 'IMPLAN, Matamoros, Movilidad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
+        $this->claves      = 'IMPLAN, Matamoros, Movilidad';
         // Para el Organizador
-        $this->categorias                = array('Movilidad');
-        $this->fuentes                   = array('Operadora Mexicana de Aeropuertos (OMA)');
-        $this->regiones                  = array('Matamoros');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Movilidad');
+        $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)');
+        $this->regiones    = array('Matamoros');
     } // constructor
 
     /**
@@ -63,46 +54,25 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2013</td>
-            <td>No tiene</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Personas.</p>
-      <h3>Observaciones</h3>
-<p>El flujo de pasajeros a nivel internacional es de:</p>
-
-<ul>
-<li>2013 = 1,833,223</li>
-<li>2012 = 1,825,145</li>
-<li>2011 = 1,784,252</li>
-<li>2010 = 1,927,529</li>
-<li>2009 = 1,806,105</li>
-<li>2008 = 2,327,839</li>
-<li>2007 = 2,471,947</li>
-<li>2006 = 2,525,279</li>
-<li>2005 = 2,479,772</li>
-</ul>
-
-<p>Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'caracter'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2013-12-31', 'valor' => 'X', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Otras Regiones HTML
@@ -127,42 +97,42 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-12-31</td>
+            <td>31/12/2015</td>
             <td>54307</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-12-31</td>
+            <td>31/12/2015</td>
             <td>54307</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2015-12-31</td>
+            <td>31/12/2015</td>
             <td>14551000</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
@@ -222,7 +192,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -234,8 +204,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

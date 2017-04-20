@@ -27,20 +27,20 @@ namespace SMIIndicadoresLerdo;
  */
 class SociedadIndiceDeMarginacion extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Índice de Marginación en Lerdo';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2016-06-10T13:47';
+        $this->nombre      = 'Índice de Marginación en Lerdo';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2016-06-10T13:47';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sociedad-indice-de-marginacion';
+        $this->archivo     = 'sociedad-indice-de-marginacion';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Indicador compuesto por los siguientes datos: 
+        $this->descripcion = 'Indicador compuesto por los siguientes datos: 
 Porcentaje de población de 15 años o más analfabeta 
 Porcentaje de población de 15 años o más sin primaria completa 
 Porcentaje de ocupantes en viviendas sin drenaje ni excusado
@@ -50,20 +50,11 @@ Porcentaje de viviendas con algún nivel de hacinamiento
 Porcentaje de ocupantes en viviendas con piso de tierra
 Porcentaje de población en localidades con menos de 5 000 habitantes
 Porcentaje de población ocupada con ingresos de hasta 2 salarios mínimos';
-        $this->claves                    = 'IMPLAN, Lerdo, Bienestar, Grupos Vulnerables';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->claves      = 'IMPLAN, Lerdo, Bienestar, Grupos Vulnerables';
         // Para el Organizador
-        $this->categorias                = array('Bienestar', 'Grupos Vulnerables');
-        $this->fuentes                   = array('CONAPO');
-        $this->regiones                  = array('Lerdo');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Bienestar', 'Grupos Vulnerables');
+        $this->fuentes     = array('CONAPO');
+        $this->regiones    = array('Lerdo');
     } // constructor
 
     /**
@@ -72,56 +63,29 @@ Porcentaje de población ocupada con ingresos de hasta 2 salarios mínimos';
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/1990</td>
-            <td>-1.1560</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1995</td>
-            <td>-1.0750</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2000</td>
-            <td>-1.3080</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2005</td>
-            <td>-1.2790</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>-1.2150</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Puntos.</p>
-      <h3>Observaciones</h3>
-<p>Menos es menor grado de marginación</p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '1990-12-31', 'valor' => '-1.1560', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '1995-12-31', 'valor' => '-1.0750', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2000-12-31', 'valor' => '-1.3080', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2005-12-31', 'valor' => '-1.2790', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2015-12-31', 'valor' => '-1.2150', 'fuente_nombre' => 'CONAPO', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -185,28 +149,28 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-12-31</td>
+            <td>31/12/2015</td>
             <td>-1.7220</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-12-31</td>
+            <td>31/12/2015</td>
             <td>-1.4880</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-12-31</td>
+            <td>31/12/2015</td>
             <td>-1.2150</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-12-31</td>
+            <td>31/12/2015</td>
             <td>-1.0980</td>
             <td>CONAPO</td>
             <td></td>
@@ -254,7 +218,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -266,8 +230,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

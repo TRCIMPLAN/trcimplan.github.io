@@ -27,34 +27,25 @@ namespace SMIIndicadoresLerdo;
  */
 class EconomiaTotalDeEmpresasRegistradasEnElSiem extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Total de Empresas Registradas en el SIEM en Lerdo';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Total de Empresas Registradas en el SIEM en Lerdo';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-total-de-empresas-registradas-en-el-siem';
+        $this->archivo     = 'economia-total-de-empresas-registradas-en-el-siem';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = '';
-        $this->claves                    = 'IMPLAN, Lerdo, Empresas';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = '';
+        $this->claves      = 'IMPLAN, Lerdo, Empresas';
         // Para el Organizador
-        $this->categorias                = array('Empresas');
-        $this->fuentes                   = array('Sistema de Información Empresarial Mexicano (SIEM)');
-        $this->regiones                  = array('Lerdo');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Empresas');
+        $this->fuentes     = array('Sistema de Información Empresarial Mexicano (SIEM)');
+        $this->regiones    = array('Lerdo');
     } // constructor
 
     /**
@@ -63,39 +54,26 @@ class EconomiaTotalDeEmpresasRegistradasEnElSiem extends \SMIBase\PublicacionWeb
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2013</td>
-            <td>158</td>
-            <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2014</td>
-            <td>178</td>
-            <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad de Empresas.</p>
-      <h3>Observaciones</h3>
-<p>Las empresas de La Laguna representan el 1.34% del total de 666,684 empresas a nivel nacional para el año 2013.
-Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoPublico.asp?p=1">SIEM</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2013-12-31', 'valor' => '158', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)', 'notas' => ''),
+            array('fecha' => '2014-07-31', 'valor' => '178', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -160,56 +138,56 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-07-31</td>
+            <td>31/07/2014</td>
             <td>7402</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-07-31</td>
+            <td>31/07/2014</td>
             <td>2032</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-07-31</td>
+            <td>31/07/2014</td>
             <td>178</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-07-31</td>
+            <td>31/07/2014</td>
             <td>173</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-07-31</td>
+            <td>31/07/2014</td>
             <td>9785</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2014-07-31</td>
+            <td>31/07/2014</td>
             <td>17810</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2014-07-31</td>
+            <td>31/07/2014</td>
             <td>7193</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2014-07-31</td>
+            <td>31/07/2014</td>
             <td>701136</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
@@ -258,7 +236,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -270,8 +248,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

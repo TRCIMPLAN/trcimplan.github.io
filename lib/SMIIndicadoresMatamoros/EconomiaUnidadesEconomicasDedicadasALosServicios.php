@@ -27,34 +27,25 @@ namespace SMIIndicadoresMatamoros;
  */
 class EconomiaUnidadesEconomicasDedicadasALosServicios extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Unidades Económicas Dedicadas a los Servicios en Matamoros';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Unidades Económicas Dedicadas a los Servicios en Matamoros';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-unidades-economicas-dedicadas-a-los-servicios';
+        $this->archivo     = 'economia-unidades-economicas-dedicadas-a-los-servicios';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.';
-        $this->claves                    = 'IMPLAN, Matamoros, Empresas, Mercados';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.';
+        $this->claves      = 'IMPLAN, Matamoros, Empresas, Mercados';
         // Para el Organizador
-        $this->categorias                = array('Empresas', 'Mercados');
-        $this->fuentes                   = array('INEGI');
-        $this->regiones                  = array('Matamoros');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Empresas', 'Mercados');
+        $this->fuentes     = array('INEGI');
+        $this->regiones    = array('Matamoros');
     } // constructor
 
     /**
@@ -63,56 +54,29 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \SMIBase\Publicac
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/1998</td>
-            <td>23.41 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2003</td>
-            <td>24.93 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>30.22 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2013</td>
-            <td>35.17 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>40.90 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '1998-12-31', 'valor' => '23.4100', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2003-12-31', 'valor' => '24.9300', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2008-12-31', 'valor' => '30.2200', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2013-10-31', 'valor' => '35.1700', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2014-12-31', 'valor' => '40.9001', 'fuente_nombre' => 'INEGI', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -176,42 +140,42 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
+            <td>31/12/2014</td>
             <td>49.02 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-12-31</td>
+            <td>31/12/2014</td>
             <td>46.13 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-12-31</td>
+            <td>31/12/2014</td>
             <td>43.36 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-12-31</td>
+            <td>31/12/2014</td>
             <td>40.90 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
+            <td>31/12/2014</td>
             <td>47.30 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2013-10-31</td>
+            <td>31/10/2013</td>
             <td>38.66 %</td>
             <td>INEGI</td>
             <td></td>
@@ -259,7 +223,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -271,8 +235,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

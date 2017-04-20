@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class SociedadMortalidad extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Mortalidad en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Mortalidad en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sociedad-mortalidad';
+        $this->archivo     = 'sociedad-mortalidad';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Tasa de Mortalidad. Número de muertes por cada mil habitantes.';
-        $this->claves                    = 'IMPLAN, Torreón, Salud';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Tasa de Mortalidad. Número de muertes por cada mil habitantes.';
+        $this->claves      = 'IMPLAN, Torreón, Salud';
         // Para el Organizador
-        $this->categorias                = array('Salud');
-        $this->fuentes                   = array('SINAIS (SSA)');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Salud');
+        $this->fuentes     = array('SINAIS (SSA)');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,110 +54,38 @@ class SociedadMortalidad extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2000</td>
-            <td>4.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2001</td>
-            <td>5.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2002</td>
-            <td>5.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2003</td>
-            <td>5.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2004</td>
-            <td>4.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2005</td>
-            <td>5.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2006</td>
-            <td>5.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2007</td>
-            <td>5.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>5.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>5.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>5.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>6.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>6.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>5.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada mil.</p>
-      <h3>Observaciones</h3>
-<p>Fuente: Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2013. Base de Datos Defunciones Cifras Oficiales Preliminares-SEED [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. &lt;www.dgis.salud.gob.mx> [Consulta: 29 Junio 2015]. Con estimaciones de población de CONAPO.</p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2000-12-31', 'valor' => '4.9000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2001-12-31', 'valor' => '5.0000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2002-12-31', 'valor' => '5.0000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2003-12-31', 'valor' => '5.1000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2004-12-31', 'valor' => '4.9000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2005-12-31', 'valor' => '5.3000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2006-12-31', 'valor' => '5.2000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2007-12-31', 'valor' => '5.3000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2008-12-31', 'valor' => '5.3000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2009-12-31', 'valor' => '5.4000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2010-12-31', 'valor' => '5.8000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2011-12-31', 'valor' => '6.0000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2012-12-31', 'valor' => '6.1000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => ''),
+            array('fecha' => '2013-12-31', 'valor' => '5.8000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -230,56 +149,56 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>5.8000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>7.0000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>3.2000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>4.9000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>5.6000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>5.4000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>5.4000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>5.1000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
@@ -327,7 +246,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -339,8 +258,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

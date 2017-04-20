@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class EconomiaPosgradosDeCalidad extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Posgrados de Calidad en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Posgrados de Calidad en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-posgrados-de-calidad';
+        $this->archivo     = 'economia-posgrados-de-calidad';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Programas aceptados por CONACYT como posgrados de calidad';
-        $this->claves                    = 'IMPLAN, Torreón, Educación, Innovación';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Programas aceptados por CONACYT como posgrados de calidad';
+        $this->claves      = 'IMPLAN, Torreón, Educación, Innovación';
         // Para el Organizador
-        $this->categorias                = array('Educación', 'Innovación');
-        $this->fuentes                   = array('CONACYT');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Educación', 'Innovación');
+        $this->fuentes     = array('CONACYT');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,32 +54,25 @@ class EconomiaPosgradosDeCalidad extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>30/04/2014</td>
-            <td>11</td>
-            <td>CONACYT</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad de Posgrados.</p>
-      <h3>Observaciones</h3>
-<p>Datos obtenidos de <a href="http://svrtmp.main.conacyt.mx/ConsultasPNPC/listar_padron.php">CONACYT</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2014-04-30', 'valor' => '11', 'fuente_nombre' => 'CONACYT', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Otras Regiones HTML
@@ -113,28 +97,28 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-04-30</td>
+            <td>30/04/2014</td>
             <td>11</td>
             <td>CONACYT</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-03-31</td>
+            <td>31/03/2014</td>
             <td>0</td>
             <td>CONACYT</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2014-04-30</td>
+            <td>30/04/2014</td>
             <td>51</td>
             <td>CONACYT</td>
             <td>Fuente: [CONACYT](http://www.conacyt.gob.mx)</td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2014-04-30</td>
+            <td>30/04/2014</td>
             <td>15</td>
             <td>CONACYT</td>
             <td></td>
@@ -180,7 +164,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -192,8 +176,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

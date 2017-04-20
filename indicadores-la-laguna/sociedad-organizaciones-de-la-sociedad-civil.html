@@ -41,8 +41,6 @@
   <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../smi/introduccion/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html">
   <title>Organizaciones de la Sociedad Civil en La Laguna - IMPLAN Torreón</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
   <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
   <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
@@ -52,13 +50,16 @@
   <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
   <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
   <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
-  <link rel="stylesheet" type="text/css" href="../css/morris.css">
-  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
-  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
-  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
   <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
   <!-- SOPORTE PARA IE -->
   <!--[if lt IE 9]>
   <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -162,14 +163,13 @@
     <div class="cuerpo">
       <article><div itemscope itemtype="http://schema.org/Article">
         <div class="encabezado">
-          <h1 itemprop="name">Organizaciones de la Sociedad Civil en La Laguna</h1>
+          <h1 itemprop="headline">Organizaciones de la Sociedad Civil en La Laguna</h1>
           <div class="encabezado-descripcion" itemprop="description">Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas.</div>
           <div class="encabezado-autor-fecha">
             Por <span itemprop="author">Dirección de Investigación Estratégica</span> -
             <meta itemprop="datePublished" content="2014-10-21T16:19:49">21/10/2014 16:19
           </div>
         </div>
-        <meta itemprop="image" alt="Organizaciones de la Sociedad Civil en La Laguna" src="../smi/introduccion/imagen.jpg">
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
@@ -180,66 +180,60 @@
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane active" id="smi-indicador-datos">
-            <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2008</td>
-            <td>6.3110</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>6.3110</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>6.3110</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>6.3110</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>6.3110</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2014</td>
-            <td>41.2200</td>
-            <td>RFOSC</td>
-            <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
-          </tr>
-          <tr>
-            <td>25/11/2016</td>
-            <td>49.1400</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
-Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
-
+        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2008-12-31</td>
+        <td>6.3110</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2009-12-31</td>
+        <td>6.3110</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2010-12-31</td>
+        <td>6.3110</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2011-12-31</td>
+        <td>6.3110</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2012-12-31</td>
+        <td>6.3110</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>2014-03-31</td>
+        <td>41.2200</td>
+        <td>RFOSC</td>
+        <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
+      </tr>
+      <tr>
+        <td>2016-11-25</td>
+        <td>49.1400</td>
+        <td>RFOSC</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
             <h3>Gráfica de Organizaciones de la Sociedad Civil en La Laguna con fuente IMCO</h3>
@@ -276,56 +270,56 @@ Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http:
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>55.0500</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>57.5500</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>31.3000</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>11.0100</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>49.1400</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>26.4300</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>143.3800</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>28.8400</td>
             <td>RFOSC</td>
             <td>http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/</td>
@@ -421,13 +415,15 @@ Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http:
   </div>
 </div>
 <!-- Javascript común -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script type="text/javascript" src="../js/raphael-min.js"></script>
-<script type="text/javascript" src="../js/morris.min.js"></script>
-<script type="text/javascript" src="../js/plugins/metisMenu/metisMenu.min.js"></script>
-<script type="text/javascript" src="../js/sb-admin-2.js"></script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="../vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
 <script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
 <!-- Javascript: Inicia  -->
 <script>
@@ -469,6 +465,23 @@ $('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', f
     });
   } });
 $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
+// DataTables
+$(document).ready(function(){
+  $('#smi-indicador-datos-tabla').DataTable( {
+    "language": {
+      "lengthMenu":   "Mostrando _MENU_ filas por página",
+      "zeroRecords":  "No se encontró nada",
+      "info":         "Mostrando página _PAGE_ de _PAGES_",
+      "infoEmpty":    "No se encontraron registros",
+      "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+      "search":       "Filtrar:",
+      "paginate": {
+        "previous":   "Anterior",
+        "next":       "Siguiente"
+      }
+    }
+  });
+});
 </script>
 <script>
   // Twitter

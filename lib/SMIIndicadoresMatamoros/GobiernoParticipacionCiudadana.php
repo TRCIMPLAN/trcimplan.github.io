@@ -27,34 +27,25 @@ namespace SMIIndicadoresMatamoros;
  */
 class GobiernoParticipacionCiudadana extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Participación Ciudadana en Matamoros';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-07-14T14:35:57';
+        $this->nombre      = 'Participación Ciudadana en Matamoros';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2015-07-14T14:35:57';
         // El nombre del archivo a crear
-        $this->archivo                   = 'gobierno-participacion-ciudadana';
+        $this->archivo     = 'gobierno-participacion-ciudadana';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Porcentaje de la lista nominal de elecciones federales. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la población que participó en las últimas elecciones federales.';
-        $this->claves                    = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Participación Ciudadana';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Porcentaje de la lista nominal de elecciones federales. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la población que participó en las últimas elecciones federales.';
+        $this->claves      = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Participación Ciudadana';
         // Para el Organizador
-        $this->categorias                = array('Índice de Competitividad Urbana', 'Participación Ciudadana');
-        $this->fuentes                   = array('IMCO');
-        $this->regiones                  = array('Matamoros');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Participación Ciudadana');
+        $this->fuentes     = array('IMCO');
+        $this->regiones    = array('Matamoros');
     } // constructor
 
     /**
@@ -63,56 +54,29 @@ class GobiernoParticipacionCiudadana extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2008</td>
-            <td>49.21 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>49.21 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>49.21 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>66.29 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>66.29 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Para los años 2008, 2009 y 2010 se consideraron los datos de las elecciones de 2009, mientras que para los años 2011 y 2012 se tomaron datos de las elecciones de 2012. Unidades: Porcentaje de la lista nominal. Fuente: Instituto Federal Electoral (IFE), 2009 y 2012.</p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2008-12-31', 'valor' => '49.2100', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2009-12-31', 'valor' => '49.2100', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2010-12-31', 'valor' => '49.2100', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2011-12-31', 'valor' => '66.2900', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2012-12-31', 'valor' => '66.2900', 'fuente_nombre' => 'IMCO', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -176,35 +140,35 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>64.66 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>58.31 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>59.57 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>66.29 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>62.53 %</td>
             <td>IMCO</td>
             <td></td>
@@ -252,7 +216,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -264,8 +228,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

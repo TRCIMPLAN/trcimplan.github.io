@@ -27,34 +27,25 @@ namespace SMIIndicadoresGomezPalacio;
  */
 class EconomiaProduccionBrutaTotalPerCapita extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Producción Bruta Total Per Cápita en Gómez Palacio';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Producción Bruta Total Per Cápita en Gómez Palacio';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-produccion-bruta-total-per-capita';
+        $this->archivo     = 'economia-produccion-bruta-total-per-capita';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).';
-        $this->claves                    = 'IMPLAN, Gómez Palacio, Macroeconomía, Finanzas Públicas';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Macroeconomía, Finanzas Públicas';
         // Para el Organizador
-        $this->categorias                = array('Macroeconomía', 'Finanzas Públicas');
-        $this->fuentes                   = array('Elaboración propia con datos obtenidos del INEGI');
-        $this->regiones                  = array('Gómez Palacio');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
+        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI');
+        $this->regiones    = array('Gómez Palacio');
     } // constructor
 
     /**
@@ -63,68 +54,28 @@ class EconomiaProduccionBrutaTotalPerCapita extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/1998</td>
-            <td>$ 64,469.91</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $6,514.55. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630</td>
-          </tr>
-          <tr>
-            <td>31/12/2003</td>
-            <td>$ 117,603.88</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $10,465.59. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720</td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>$ 157,032.38</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $11,352.42. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250</td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>$ 154,519.29</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Pesos.</p>
-      <h3>Observaciones</h3>
-<p>La producción bruta total per cápita a nivel nacional es de:</p>
-
-<ul>
-<li>2008 = $103,094.93 </li>
-<li>2003 = $60,324.54 </li>
-<li>1998 = $37,765.57 </li>
-</ul>
-
-<p>La producción bruta total per cápita en dólares a nivel nacional es de:</p>
-
-<ul>
-<li>2008 = $7,453.09 </li>
-<li>2003 = $5,368.29 </li>
-<li>1998 = $3,816.13 </li>
-</ul>
-
-<p>Calculados con el tipo de cambio Fix publicado por el Banxico al cierre del año correspondiente.</p>
-
-<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI Censos económicos.</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '1998-12-31', 'valor' => '64469.91', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $6,514.55. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630'),
+            array('fecha' => '2003-12-31', 'valor' => '117603.88', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $10,465.59. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720'),
+            array('fecha' => '2008-12-31', 'valor' => '157032.38', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $11,352.42. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250'),
+            array('fecha' => '2013-12-31', 'valor' => '154519.29', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -206,56 +157,56 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>$ 225,170.46</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>$ 154,519.29</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>$ 26,085.15</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>$ 18,450.05</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>$ 164,908.36</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>$ 218,704.95</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>$ 63,345.06</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>$ 118,115.69</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
@@ -321,7 +272,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -333,8 +284,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

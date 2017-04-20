@@ -27,34 +27,25 @@ namespace SMIIndicadoresGomezPalacio;
  */
 class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Organizaciones de la Sociedad Civil en Gómez Palacio';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Organizaciones de la Sociedad Civil en Gómez Palacio';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sociedad-organizaciones-de-la-sociedad-civil';
+        $this->archivo     = 'sociedad-organizaciones-de-la-sociedad-civil';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas.';
-        $this->claves                    = 'IMPLAN, Gómez Palacio, Participación Ciudadana, Gobierno, Índice de Competitividad Urbana';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas.';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Participación Ciudadana, Gobierno, Índice de Competitividad Urbana';
         // Para el Organizador
-        $this->categorias                = array('Participación Ciudadana', 'Gobierno', 'Índice de Competitividad Urbana');
-        $this->fuentes                   = array('IMCO', 'RFOSC');
-        $this->regiones                  = array('Gómez Palacio');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Participación Ciudadana', 'Gobierno', 'Índice de Competitividad Urbana');
+        $this->fuentes     = array('IMCO', 'RFOSC');
+        $this->regiones    = array('Gómez Palacio');
     } // constructor
 
     /**
@@ -63,69 +54,31 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2008</td>
-            <td>0.2367</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>0.2367</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>0.2367</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>0.2367</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>0.8743</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2014</td>
-            <td>45.8400</td>
-            <td>RFOSC</td>
-            <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
-          </tr>
-          <tr>
-            <td>25/11/2016</td>
-            <td>57.5500</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
-Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2008-12-31', 'valor' => '0.2367', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2009-12-31', 'valor' => '0.2367', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2010-12-31', 'valor' => '0.2367', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2011-12-31', 'valor' => '0.2367', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2012-12-31', 'valor' => '0.8743', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2014-03-31', 'valor' => '45.8400', 'fuente_nombre' => 'RFOSC', 'notas' => 'Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)'),
+            array('fecha' => '2016-11-25', 'valor' => '57.5500', 'fuente_nombre' => 'RFOSC', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica 1 HTML
@@ -230,56 +183,56 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>55.0500</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>57.5500</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>31.3000</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>11.0100</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>49.1400</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>26.4300</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>143.3800</td>
             <td>RFOSC</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2016-11-25</td>
+            <td>25/11/2016</td>
             <td>28.8400</td>
             <td>RFOSC</td>
             <td>http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/</td>
@@ -330,7 +283,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -342,8 +295,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

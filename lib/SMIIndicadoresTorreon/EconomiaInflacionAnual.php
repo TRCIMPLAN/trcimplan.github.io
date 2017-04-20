@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Inflación Anual en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-02-09T12:19:43';
+        $this->nombre      = 'Inflación Anual en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2015-02-09T12:19:43';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-inflacion-anual';
+        $this->archivo     = 'economia-inflacion-anual';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = '';
-        $this->claves                    = 'IMPLAN, Torreón, Macroeconomía';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = '';
+        $this->claves      = 'IMPLAN, Torreón, Macroeconomía';
         // Para el Organizador
-        $this->categorias                = array('Macroeconomía');
-        $this->fuentes                   = array('INEGI');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Macroeconomía');
+        $this->fuentes     = array('INEGI');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,119 +54,40 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2001</td>
-            <td>5.86 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2002</td>
-            <td>4.32 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2003</td>
-            <td>4.41 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2004</td>
-            <td>5.35 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2005</td>
-            <td>2.72 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2006</td>
-            <td>4.12 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2007</td>
-            <td>5.89 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>7.24 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>3.31 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>4.21 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>2.69 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>2.84 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>3.11 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>4.28 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>1.67 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2016</td>
-            <td>2.94 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2001-12-31', 'valor' => '5.8600', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2002-12-31', 'valor' => '4.3200', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2003-12-31', 'valor' => '4.4100', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2004-12-31', 'valor' => '5.3500', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2005-12-31', 'valor' => '2.7200', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2006-12-31', 'valor' => '4.1200', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2007-12-31', 'valor' => '5.8900', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2008-12-31', 'valor' => '7.2400', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2009-12-31', 'valor' => '3.3100', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2010-12-31', 'valor' => '4.2100', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2011-12-31', 'valor' => '2.6900', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2012-12-31', 'valor' => '2.8400', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2013-12-31', 'valor' => '3.1100', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2014-12-31', 'valor' => '4.2800', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2015-12-31', 'valor' => '1.6700', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            array('fecha' => '2016-12-31', 'valor' => '2.9400', 'fuente_nombre' => 'INEGI', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -236,14 +148,14 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-12-31</td>
+            <td>31/12/2016</td>
             <td>2.94 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2016-12-31</td>
+            <td>31/12/2016</td>
             <td>3.36 %</td>
             <td>INEGI</td>
             <td></td>
@@ -288,7 +200,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -300,8 +212,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

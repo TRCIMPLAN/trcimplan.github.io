@@ -27,34 +27,25 @@ namespace SMIIndicadoresLaLaguna;
  */
 class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Jornadas Laborales Muy Largas en La Laguna';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-07-14T14:33:21';
+        $this->nombre      = 'Jornadas Laborales Muy Largas en La Laguna';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2015-07-14T14:33:21';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-jornadas-laborales-muy-largas';
+        $this->archivo     = 'economia-jornadas-laborales-muy-largas';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Mide los trabajadores que laboran más de 48 horas por semana, como un proxy de la baja productividad del trabajo. Existe evidencia que sustenta que entre más horas se trabajen, por encima de un umbral, la productividad decrece o al menos no aumenta. Sin embargo, los efectos psicológicos y sociales de jornadas muy largas son negativos.';
-        $this->claves                    = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Empleo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Mide los trabajadores que laboran más de 48 horas por semana, como un proxy de la baja productividad del trabajo. Existe evidencia que sustenta que entre más horas se trabajen, por encima de un umbral, la productividad decrece o al menos no aumenta. Sin embargo, los efectos psicológicos y sociales de jornadas muy largas son negativos.';
+        $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Empleo';
         // Para el Organizador
-        $this->categorias                = array('Índice de Competitividad Urbana', 'Empleo');
-        $this->fuentes                   = array('IMCO');
-        $this->regiones                  = array('La Laguna');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo');
+        $this->fuentes     = array('IMCO');
+        $this->regiones    = array('La Laguna');
     } // constructor
 
     /**
@@ -63,53 +54,29 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2008</td>
-            <td>26.87 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>18.44 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>23.35 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>22.83 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>25.54 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2008-12-31', 'valor' => '26.8700', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2009-12-31', 'valor' => '18.4400', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2010-12-31', 'valor' => '23.3500', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2011-12-31', 'valor' => '22.8300', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2012-12-31', 'valor' => '25.5400', 'fuente_nombre' => 'IMCO', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -170,35 +137,35 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>23.33 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>27.45 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>29.84 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>29.63 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>25.54 %</td>
             <td>IMCO</td>
             <td></td>
@@ -243,7 +210,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -255,8 +222,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

@@ -27,34 +27,25 @@ namespace SMIIndicadoresGomezPalacio;
  */
 class SociedadRazonDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Razón de Mortalidad Materna en Gómez Palacio';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-01-13T16:19:50';
+        $this->nombre      = 'Razón de Mortalidad Materna en Gómez Palacio';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2015-01-13T16:19:50';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sociedad-razon-de-mortalidad-materna';
+        $this->archivo     = 'sociedad-razon-de-mortalidad-materna';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.';
-        $this->claves                    = 'IMPLAN, Gómez Palacio, Salud, Género, Bienestar, Objetivos del Milenio';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Salud, Género, Bienestar, Objetivos del Milenio';
         // Para el Organizador
-        $this->categorias                = array('Salud', 'Género', 'Bienestar', 'Objetivos del Milenio');
-        $this->fuentes                   = array('SINAIS (SSA)');
-        $this->regiones                  = array('Gómez Palacio');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Salud', 'Género', 'Bienestar', 'Objetivos del Milenio');
+        $this->fuentes     = array('SINAIS (SSA)');
+        $this->regiones    = array('Gómez Palacio');
     } // constructor
 
     /**
@@ -63,32 +54,25 @@ class SociedadRazonDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2013</td>
-            <td>33.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Utilizado como uno de los indicadores para los Objetivos del Milenio (Mejorar la Salud Materna). Dirección General de Información en Salud (DGIS). Base de datos de muertes maternas, 2013. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 13 de enero 2015].</p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2013-12-31', 'valor' => '33.3000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Otras Regiones HTML
@@ -113,49 +97,49 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>33.0000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>33.3000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2011-12-31</td>
+            <td>31/12/2011</td>
             <td>55.3000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>62.7000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>26.9000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>43.6000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>39.2000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
@@ -201,7 +185,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -213,8 +197,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

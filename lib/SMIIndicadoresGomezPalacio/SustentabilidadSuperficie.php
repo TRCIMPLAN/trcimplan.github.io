@@ -27,34 +27,25 @@ namespace SMIIndicadoresGomezPalacio;
  */
 class SustentabilidadSuperficie extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Superficie en Gómez Palacio';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2016-03-09T10:53:55';
+        $this->nombre      = 'Superficie en Gómez Palacio';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2016-03-09T10:53:55';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sustentabilidad-superficie';
+        $this->archivo     = 'sustentabilidad-superficie';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Superficie territorial medida en hectáreas.';
-        $this->claves                    = 'IMPLAN, Gómez Palacio, Recursos Naturales';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Superficie territorial medida en hectáreas.';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Recursos Naturales';
         // Para el Organizador
-        $this->categorias                = array('Recursos Naturales');
-        $this->fuentes                   = array('INEGI');
-        $this->regiones                  = array('Gómez Palacio');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Recursos Naturales');
+        $this->fuentes     = array('INEGI');
+        $this->regiones    = array('Gómez Palacio');
     } // constructor
 
     /**
@@ -63,29 +54,25 @@ class SustentabilidadSuperficie extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2010</td>
-            <td>84,546.5800</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Hectáreas.</p>
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2010-12-31', 'valor' => '84546.5800', 'fuente_nombre' => 'INEGI', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Otras Regiones HTML
@@ -110,35 +97,35 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>124,199.7500</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>84,546.5800</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>211,889.3200</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>82,163.7300</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>502,799.3800</td>
             <td>INEGI</td>
             <td>El indicador hace referencia a los cuatro municipios que conforman la Zona Metropolitana de la Laguna: Torreón, Matamoros, Gómez Palacio y Lerdo.</td>
@@ -181,7 +168,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -193,8 +180,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

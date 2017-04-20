@@ -27,35 +27,26 @@ namespace SMIIndicadoresTorreon;
  */
 class SeguridadTasaDeHomicidios extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Tasa de Homicidios en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Tasa de Homicidios en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'seguridad-tasa-de-homicidios';
+        $this->archivo     = 'seguridad-tasa-de-homicidios';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.
+        $this->descripcion = 'Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.
 Las tasas de elaboración propia consideran las defunciones por homicidio ocurridas en el municipio de acuerdo a los registros administrativos de INEGI.';
-        $this->claves                    = 'IMPLAN, Torreón, Seguridad, Delincuencia, Índice de Competitividad Urbana';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->claves      = 'IMPLAN, Torreón, Seguridad, Delincuencia, Índice de Competitividad Urbana';
         // Para el Organizador
-        $this->categorias                = array('Seguridad', 'Delincuencia', 'Índice de Competitividad Urbana');
-        $this->fuentes                   = array('Elaboración propia con datos obtenidos del INEGI', 'IMCO');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Seguridad', 'Delincuencia', 'Índice de Competitividad Urbana');
+        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI', 'IMCO');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -64,206 +55,54 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/1990</td>
-            <td>9.7788</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1991</td>
-            <td>17.0827</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1992</td>
-            <td>17.2057</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1993</td>
-            <td>11.5461</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1994</td>
-            <td>13.9794</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>01/12/1995</td>
-            <td>9.6442</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1996</td>
-            <td>6.6275</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1997</td>
-            <td>11.7762</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1998</td>
-            <td>8.0302</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/1999</td>
-            <td>7.9530</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2000</td>
-            <td>6.9876</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2002</td>
-            <td>7.5098</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2003</td>
-            <td>5.7724</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2004</td>
-            <td>6.0401</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2005</td>
-            <td>6.9267</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2006</td>
-            <td>5.5912</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2007</td>
-            <td>4.3102</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>15.9094</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2008</td>
-            <td>14.7603</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>23.8267</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>22.6945</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>46.6435</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>45.0261</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>75.1916</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>75.3348</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>109.7160</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>120.7270</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>52.6807</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>29.4274</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>19.7265</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '1990-12-31', 'valor' => '9.7788', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1991-12-31', 'valor' => '17.0827', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1992-12-31', 'valor' => '17.2057', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1993-12-31', 'valor' => '11.5461', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1994-12-31', 'valor' => '13.9794', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1995-12-01', 'valor' => '9.6442', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1996-12-31', 'valor' => '6.6275', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1997-12-31', 'valor' => '11.7762', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1998-12-31', 'valor' => '8.0302', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '1999-12-31', 'valor' => '7.9530', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2000-12-31', 'valor' => '6.9876', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2002-12-31', 'valor' => '7.5098', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2003-12-31', 'valor' => '5.7724', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2004-12-31', 'valor' => '6.0401', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2005-12-31', 'valor' => '6.9267', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2006-12-31', 'valor' => '5.5912', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2007-12-31', 'valor' => '4.3102', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2008-12-31', 'valor' => '15.9094', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2008-12-31', 'valor' => '14.7603', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2009-12-31', 'valor' => '23.8267', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2009-12-31', 'valor' => '22.6945', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2010-12-31', 'valor' => '46.6435', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2010-12-31', 'valor' => '45.0261', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2011-12-31', 'valor' => '75.1916', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2011-12-31', 'valor' => '75.3348', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2012-12-31', 'valor' => '109.7160', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            array('fecha' => '2012-12-31', 'valor' => '120.7270', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2013-12-31', 'valor' => '52.6807', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2014-12-31', 'valor' => '29.4274', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
+            array('fecha' => '2015-12-31', 'valor' => '19.7265', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica 1 HTML
@@ -366,42 +205,42 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-12-31</td>
+            <td>31/12/2015</td>
             <td>19.7265</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>43.7146</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>41.8962</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>36.2831</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>77.5463</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2001-12-31</td>
+            <td>31/12/2001</td>
             <td>10.2293</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
@@ -451,7 +290,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -463,8 +302,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

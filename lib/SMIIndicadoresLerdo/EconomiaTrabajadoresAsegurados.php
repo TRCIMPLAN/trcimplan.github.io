@@ -27,34 +27,25 @@ namespace SMIIndicadoresLerdo;
  */
 class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Trabajadores Asegurados en Lerdo';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-11-07T09:04:55';
+        $this->nombre      = 'Trabajadores Asegurados en Lerdo';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-11-07T09:04:55';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-trabajadores-asegurados';
+        $this->archivo     = 'economia-trabajadores-asegurados';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal';
-        $this->claves                    = 'IMPLAN, Lerdo, Empleo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal';
+        $this->claves      = 'IMPLAN, Lerdo, Empleo';
         // Para el Organizador
-        $this->categorias                = array('Empleo');
-        $this->fuentes                   = array('Instituto Mexicano del Seguro Social (IMSS)');
-        $this->regiones                  = array('Lerdo');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Empleo');
+        $this->fuentes     = array('Instituto Mexicano del Seguro Social (IMSS)');
+        $this->regiones    = array('Lerdo');
     } // constructor
 
     /**
@@ -63,236 +54,59 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>30/11/2013</td>
-            <td>13739</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>13518</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2014</td>
-            <td>13811</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2014</td>
-            <td>13947</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2014</td>
-            <td>13894</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2014</td>
-            <td>13791</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2014</td>
-            <td>13667</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>13347</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2014</td>
-            <td>13336</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2014</td>
-            <td>13314</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2014</td>
-            <td>13251</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 267 trabajadores menos durante el presente año.</td>
-          </tr>
-          <tr>
-            <td>31/10/2014</td>
-            <td>12960</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2014</td>
-            <td>12994</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>12906</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2015</td>
-            <td>12590</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2015</td>
-            <td>13380</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2015</td>
-            <td>13448</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2015</td>
-            <td>13540</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2015</td>
-            <td>13905</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>13933</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2015</td>
-            <td>14011</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2015</td>
-            <td>14056</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2015</td>
-            <td>14112</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2015</td>
-            <td>14152</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2015</td>
-            <td>14237</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>14230</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2016</td>
-            <td>14086</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/02/2016</td>
-            <td>14113</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2016</td>
-            <td>14428</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2016</td>
-            <td>14414</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2016</td>
-            <td>14928</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>14641</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2016</td>
-            <td>14364</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2016</td>
-            <td>14651</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2016</td>
-            <td>14257</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Personas.</p>
-      <h3>Observaciones</h3>
-<p>Datos obtenidos de <a href="http://datos.imss.gob.mx/dataset">IMSS</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2013-11-30', 'valor' => '13739', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2013-12-31', 'valor' => '13518', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-01-31', 'valor' => '13811', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-02-28', 'valor' => '13947', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-03-31', 'valor' => '13894', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-04-30', 'valor' => '13791', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-05-31', 'valor' => '13667', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-06-30', 'valor' => '13347', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-07-31', 'valor' => '13336', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-08-31', 'valor' => '13314', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-09-30', 'valor' => '13251', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 267 trabajadores menos durante el presente año.'),
+            array('fecha' => '2014-10-31', 'valor' => '12960', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-11-30', 'valor' => '12994', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2014-12-31', 'valor' => '12906', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-01-31', 'valor' => '12590', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-02-28', 'valor' => '13380', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-03-31', 'valor' => '13448', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-04-30', 'valor' => '13540', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-05-31', 'valor' => '13905', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-06-30', 'valor' => '13933', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-07-31', 'valor' => '14011', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-08-31', 'valor' => '14056', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-09-30', 'valor' => '14112', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-10-31', 'valor' => '14152', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-11-30', 'valor' => '14237', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2015-12-31', 'valor' => '14230', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-01-31', 'valor' => '14086', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-02-29', 'valor' => '14113', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-03-31', 'valor' => '14428', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-04-30', 'valor' => '14414', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-05-31', 'valor' => '14928', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-06-30', 'valor' => '14641', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-07-31', 'valor' => '14364', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-08-31', 'valor' => '14651', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-09-30', 'valor' => '14257', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -356,35 +170,35 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-09-30</td>
+            <td>30/09/2016</td>
             <td>187057</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-09-30</td>
+            <td>30/09/2016</td>
             <td>76824</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-09-30</td>
+            <td>30/09/2016</td>
             <td>14257</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-09-30</td>
+            <td>30/09/2016</td>
             <td>8669</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-09-30</td>
+            <td>30/09/2016</td>
             <td>286807</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
@@ -432,7 +246,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -444,8 +258,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

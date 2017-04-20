@@ -27,34 +27,25 @@ namespace SMIIndicadoresMatamoros;
  */
 class SociedadPobrezaExtrema extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Pobreza Extrema en Matamoros';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Pobreza Extrema en Matamoros';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sociedad-pobreza-extrema';
+        $this->archivo     = 'sociedad-pobreza-extrema';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Porcentaje de la población en situación de pobreza extrema.';
-        $this->claves                    = 'IMPLAN, Matamoros, Bienestar, Objetivos del Milenio';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Porcentaje de la población en situación de pobreza extrema.';
+        $this->claves      = 'IMPLAN, Matamoros, Bienestar, Objetivos del Milenio';
         // Para el Organizador
-        $this->categorias                = array('Bienestar', 'Objetivos del Milenio');
-        $this->fuentes                   = array('CONEVAL');
-        $this->regiones                  = array('Matamoros');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Bienestar', 'Objetivos del Milenio');
+        $this->fuentes     = array('CONEVAL');
+        $this->regiones    = array('Matamoros');
     } // constructor
 
     /**
@@ -63,32 +54,25 @@ class SociedadPobrezaExtrema extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2010</td>
-            <td>3.90 %</td>
-            <td>CONEVAL</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx">Base de Datos</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2010-12-31', 'valor' => '3.9000', 'fuente_nombre' => 'CONEVAL', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Otras Regiones HTML
@@ -113,56 +97,56 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>2.84 %</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>5.30 %</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>6.80 %</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>3.90 %</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>4.00 %</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>2.94 %</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>10.12 %</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2010-12-31</td>
+            <td>31/12/2010</td>
             <td>11.20 %</td>
             <td>CONEVAL</td>
             <td></td>
@@ -208,7 +192,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -220,8 +204,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

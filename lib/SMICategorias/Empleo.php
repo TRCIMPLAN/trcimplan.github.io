@@ -225,25 +225,25 @@ class Empleo extends \SMIBase\PublicacionWeb {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Informalidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">44.51 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">44.73 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">42.11 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">51.67 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">45.39 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">42.81 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">45.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">45.36 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">38.12 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">43.11 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">187,057</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">76,824</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">14,257</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">8,669</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">286,807</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">187057</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">76824</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">14257</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">8669</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2016, Instituto Mexicano del Seguro Social (IMSS)">286807</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados (Región)</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados-region.html" data-toggle="tooltip" title="Personas, 31/12/2013, IMSS Subdelegación Torreón">187,050</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados-region.html" data-toggle="tooltip" title="Personas, 31/12/2013, IMSS Subdelegación Torreón">187050</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

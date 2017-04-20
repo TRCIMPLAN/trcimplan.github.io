@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class SustentabilidadPasajerosAereosTotalesMensuales extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Pasajeros Aéreos Totales Mensuales en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-05-20T15:50:37';
+        $this->nombre      = 'Pasajeros Aéreos Totales Mensuales en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2015-05-20T15:50:37';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sustentabilidad-pasajeros-aereos-totales-mensuales';
+        $this->archivo     = 'sustentabilidad-pasajeros-aereos-totales-mensuales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Flujo de pasajeros aéreos en el Aeropuerto Internacional Francisco Sarabia.';
-        $this->claves                    = 'IMPLAN, Torreón, Movilidad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Flujo de pasajeros aéreos en el Aeropuerto Internacional Francisco Sarabia.';
+        $this->claves      = 'IMPLAN, Torreón, Movilidad';
         // Para el Organizador
-        $this->categorias                = array('Movilidad');
-        $this->fuentes                   = array('Operadora Mexicana de Aeropuertos (OMA)');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Movilidad');
+        $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,362 +54,80 @@ class SustentabilidadPasajerosAereosTotalesMensuales extends \SMIBase\Publicacio
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/01/2012</td>
-            <td>31198</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/02/2012</td>
-            <td>29353</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2012</td>
-            <td>34010</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2012</td>
-            <td>30685</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2012</td>
-            <td>35988</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2012</td>
-            <td>38722</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2012</td>
-            <td>39255</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2012</td>
-            <td>34182</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2012</td>
-            <td>37614</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2012</td>
-            <td>35856</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>34398</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2013</td>
-            <td>33338</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2013</td>
-            <td>30032</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2013</td>
-            <td>33574</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2013</td>
-            <td>34288</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2013</td>
-            <td>35548</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2013</td>
-            <td>36960</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2013</td>
-            <td>46259</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2013</td>
-            <td>42396</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2013</td>
-            <td>40305</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2013</td>
-            <td>44357</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2013</td>
-            <td>44446</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2013</td>
-            <td>45895</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2014</td>
-            <td>40735</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2014</td>
-            <td>38383</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2014</td>
-            <td>43883</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2014</td>
-            <td>42197</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2014</td>
-            <td>46761</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>44214</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2014</td>
-            <td>50483</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2014</td>
-            <td>46847</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2014</td>
-            <td>41393</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2014</td>
-            <td>43946</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2014</td>
-            <td>42264</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>42677</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2015</td>
-            <td>36810</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2015</td>
-            <td>35740</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2015</td>
-            <td>45201</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2015</td>
-            <td>43676</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2015</td>
-            <td>45529</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>45626</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2015</td>
-            <td>51813</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2015</td>
-            <td>50115</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2015</td>
-            <td>46698</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2015</td>
-            <td>52057</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2015</td>
-            <td>50786</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>52398</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2016</td>
-            <td>42204</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29/02/2016</td>
-            <td>42939</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/03/2016</td>
-            <td>51846</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2016</td>
-            <td>52300</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/05/2016</td>
-            <td>55215</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>53902</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/07/2016</td>
-            <td>61928</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/08/2016</td>
-            <td>59501</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2016</td>
-            <td>53258</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Personas.</p>
-      <h3>Observaciones</h3>
-<p>Toda referencia sobre volumen de pasajeros se refiere a pasajeros terminales, los cuales incluyen los pasajeros de los tres tipos de aviación (comercial, charter y aviación general), y excluye los pasajeros en tránsito.Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2012-01-31', 'valor' => '31198', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-02-29', 'valor' => '29353', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-03-31', 'valor' => '34010', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-04-30', 'valor' => '30685', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-05-31', 'valor' => '35988', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-07-31', 'valor' => '38722', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-08-31', 'valor' => '39255', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-09-30', 'valor' => '34182', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-10-31', 'valor' => '37614', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-11-30', 'valor' => '35856', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2012-12-31', 'valor' => '34398', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-01-31', 'valor' => '33338', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-02-28', 'valor' => '30032', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-03-31', 'valor' => '33574', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-04-30', 'valor' => '34288', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-05-31', 'valor' => '35548', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-06-30', 'valor' => '36960', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-07-31', 'valor' => '46259', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-08-31', 'valor' => '42396', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-09-30', 'valor' => '40305', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-10-31', 'valor' => '44357', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-11-30', 'valor' => '44446', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2013-12-31', 'valor' => '45895', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-01-31', 'valor' => '40735', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-02-28', 'valor' => '38383', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-03-31', 'valor' => '43883', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-04-30', 'valor' => '42197', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-05-31', 'valor' => '46761', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-06-30', 'valor' => '44214', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-07-31', 'valor' => '50483', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-08-31', 'valor' => '46847', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-09-30', 'valor' => '41393', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-10-31', 'valor' => '43946', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-11-30', 'valor' => '42264', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2014-12-31', 'valor' => '42677', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-01-31', 'valor' => '36810', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-02-28', 'valor' => '35740', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-03-31', 'valor' => '45201', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-04-30', 'valor' => '43676', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-05-31', 'valor' => '45529', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-06-30', 'valor' => '45626', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-07-31', 'valor' => '51813', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-08-31', 'valor' => '50115', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-09-30', 'valor' => '46698', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-10-31', 'valor' => '52057', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-11-30', 'valor' => '50786', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2015-12-31', 'valor' => '52398', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-01-31', 'valor' => '42204', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-02-29', 'valor' => '42939', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-03-30', 'valor' => '51846', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-04-30', 'valor' => '52300', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-05-30', 'valor' => '55215', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-06-30', 'valor' => '53902', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-07-31', 'valor' => '61928', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-08-31', 'valor' => '59501', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => ''),
+            array('fecha' => '2016-09-30', 'valor' => '53258', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -470,7 +179,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
         $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -482,8 +191,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

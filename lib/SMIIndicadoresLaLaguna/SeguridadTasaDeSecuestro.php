@@ -27,34 +27,25 @@ namespace SMIIndicadoresLaLaguna;
  */
 class SeguridadTasaDeSecuestro extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Tasa de Secuestro en La Laguna';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-04-29T13:58:56';
+        $this->nombre      = 'Tasa de Secuestro en La Laguna';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2015-04-29T13:58:56';
         // El nombre del archivo a crear
-        $this->archivo                   = 'seguridad-tasa-de-secuestro';
+        $this->archivo     = 'seguridad-tasa-de-secuestro';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = '';
-        $this->claves                    = 'IMPLAN, La Laguna, Seguridad, Delincuencia';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = '';
+        $this->claves      = 'IMPLAN, La Laguna, Seguridad, Delincuencia';
         // Para el Organizador
-        $this->categorias                = array('Seguridad', 'Delincuencia');
-        $this->fuentes                   = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
-        $this->regiones                  = array('La Laguna');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Seguridad', 'Delincuencia');
+        $this->fuentes     = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
+        $this->regiones    = array('La Laguna');
     } // constructor
 
     /**
@@ -63,32 +54,25 @@ class SeguridadTasaDeSecuestro extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/03/2015</td>
-            <td>No disponible</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Fuente: <a href="http://secretariadoejecutivo.gob.mx/incidencia-delictiva/incidencia-delictiva-fuero-comun.php">Secretariado Ejecutivo del Sistema Nacional de Seguridad</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'caracter'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2015-03-31', 'valor' => 'Y', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => 'El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Otras Regiones HTML
@@ -113,49 +97,49 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-03-31</td>
+            <td>31/03/2015</td>
             <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-03-31</td>
+            <td>31/03/2015</td>
             <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-03-31</td>
+            <td>31/03/2015</td>
             <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-03-31</td>
+            <td>31/03/2015</td>
             <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-03-31</td>
+            <td>31/03/2015</td>
             <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2017-02-28</td>
+            <td>28/02/2017</td>
             <td>0.03 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2017-02-28</td>
+            <td>28/02/2017</td>
             <td>0.22 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
@@ -201,7 +185,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -213,8 +197,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

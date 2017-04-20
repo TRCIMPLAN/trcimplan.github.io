@@ -27,34 +27,25 @@ namespace SMIIndicadoresLaLaguna;
  */
 class SociedadPoblacionEstimada extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Población Estimada en La Laguna';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Población Estimada en La Laguna';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'sociedad-poblacion-estimada';
+        $this->archivo     = 'sociedad-poblacion-estimada';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Población estimada a mitad de año.';
-        $this->claves                    = 'IMPLAN, La Laguna, Población';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Población estimada a mitad de año.';
+        $this->claves      = 'IMPLAN, La Laguna, Población';
         // Para el Organizador
-        $this->categorias                = array('Población');
-        $this->fuentes                   = array('CONAPO');
-        $this->regiones                  = array('La Laguna');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Población');
+        $this->fuentes     = array('CONAPO');
+        $this->regiones    = array('La Laguna');
     } // constructor
 
     /**
@@ -63,86 +54,34 @@ class SociedadPoblacionEstimada extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>30/06/2011</td>
-            <td>1251771</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2012</td>
-            <td>1267630</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2013</td>
-            <td>1283072</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>1298270</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>1313161</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>1327769</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2017</td>
-            <td>1342139</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2018</td>
-            <td>1356216</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2019</td>
-            <td>1369939</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2020</td>
-            <td>1383303</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Estimaciones de CONAPO en base a INEGI. Consulta la <a href="http://www.conapo.gob.mx/es/CONAPO/Proyecciones_Datos">Base de Datos</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2011-06-30', 'valor' => '1251771', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2012-06-30', 'valor' => '1267630', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2013-06-30', 'valor' => '1283072', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2014-06-30', 'valor' => '1298270', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2015-06-30', 'valor' => '1313161', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2016-06-30', 'valor' => '1327769', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2017-06-30', 'valor' => '1342139', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2018-06-30', 'valor' => '1356216', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2019-06-30', 'valor' => '1369939', 'fuente_nombre' => 'CONAPO', 'notas' => ''),
+            array('fecha' => '2020-06-30', 'valor' => '1383303', 'fuente_nombre' => 'CONAPO', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -206,56 +145,56 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-06-30</td>
+            <td>30/06/2016</td>
             <td>700656</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-06-30</td>
+            <td>30/06/2016</td>
             <td>357664</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-06-30</td>
+            <td>30/06/2016</td>
             <td>154621</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-06-30</td>
+            <td>30/06/2016</td>
             <td>114829</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-06-30</td>
+            <td>30/06/2016</td>
             <td>1327769</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-06-30</td>
+            <td>30/06/2016</td>
             <td>2995374</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-06-30</td>
+            <td>30/06/2016</td>
             <td>1782205</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2016-06-30</td>
+            <td>30/06/2016</td>
             <td>122273473</td>
             <td>CONAPO</td>
             <td></td>
@@ -303,7 +242,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -315,8 +254,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

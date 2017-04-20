@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class EconomiaRegistroDeUnaPropiedad extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Registro de una Propiedad en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Registro de una Propiedad en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-registro-de-una-propiedad';
+        $this->archivo     = 'economia-registro-de-una-propiedad';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Días que toma el trámite para el registro de una propiedad.';
-        $this->claves                    = 'IMPLAN, Torreón, Doing Business, Gobierno';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Días que toma el trámite para el registro de una propiedad.';
+        $this->claves      = 'IMPLAN, Torreón, Doing Business, Gobierno';
         // Para el Organizador
-        $this->categorias                = array('Doing Business', 'Gobierno');
-        $this->fuentes                   = array('Doing Business');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Doing Business', 'Gobierno');
+        $this->fuentes     = array('Doing Business');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,59 +54,40 @@ class EconomiaRegistroDeUnaPropiedad extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2007</td>
-            <td>51</td>
-            <td>Doing Business</td>
-            <td>En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2007 para Torreón son: 
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2007-12-31', 'valor' => '51', 'fuente_nombre' => 'Doing Business', 'notas' => 'En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2007 para Torreón son: 
 
 - # de procedimientos/trámites: 8
 - Costo (% del valor de la propiedad): 4.27 
-- Ranking en registro de propiedades: 29</td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>33</td>
-            <td>Doing Business</td>
-            <td>En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2012 para Torreón son: 
+- Ranking en registro de propiedades: 29'),
+            array('fecha' => '2012-12-31', 'valor' => '33', 'fuente_nombre' => 'Doing Business', 'notas' => 'En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2012 para Torreón son: 
 
 - # de procedimientos: 6 
 - Costo (% del valor de la propiedad): 4.3 
-- Ranking en registro de propiedades: 22</td>
-          </tr>
-          <tr>
-            <td>31/10/2013</td>
-            <td>28</td>
-            <td>Doing Business</td>
-            <td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014. 
+- Ranking en registro de propiedades: 22'),
+            array('fecha' => '2013-10-31', 'valor' => '28', 'fuente_nombre' => 'Doing Business', 'notas' => 'Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014. 
 
 Los Indicadores complementarios en registro de propiedades fueron los siguientes para Torreón: 
 Procedimientos (número) = 6 ; 
-Costo (% del valor de la propiedad) = 4,5</td>
-          </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>24</td>
-            <td>Doing Business</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Días.</p>
-FINAL;
+Costo (% del valor de la propiedad) = 4,5'),
+            array('fecha' => '2015-12-31', 'valor' => '24', 'fuente_nombre' => 'Doing Business', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -164,7 +136,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
         $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -176,8 +148,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

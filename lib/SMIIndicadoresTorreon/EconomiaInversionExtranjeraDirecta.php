@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class EconomiaInversionExtranjeraDirecta extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Inversión Extranjera Directa en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Inversión Extranjera Directa en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'economia-inversion-extranjera-directa';
+        $this->archivo     = 'economia-inversion-extranjera-directa';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Promedio de inversión entre 2008 y 2012.';
-        $this->claves                    = 'IMPLAN, Torreón, Macroeconomía';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Promedio de inversión entre 2008 y 2012.';
+        $this->claves      = 'IMPLAN, Torreón, Macroeconomía';
         // Para el Organizador
-        $this->categorias                = array('Macroeconomía');
-        $this->fuentes                   = array('Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Macroeconomía');
+        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,35 +54,25 @@ class EconomiaInversionExtranjeraDirecta extends \SMIBase\PublicacionWeb {
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2012</td>
-            <td>$ 46.50</td>
-            <td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Millones de dólares.</p>
-      <h3>Observaciones</h3>
-<p>El promedio de IED nacional de 2008 a 2012 es de 20685.96 millones de dólares, por lo que la IED de La Laguna representa el 1.31% de la nacional.</p>
-
-<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a>
-y <a href="http://www.economia.gob.mx/comunidad-negocios/competitividad-normatividad/inversion-extranjera-directa/estadistica-oficial-de-ied-en-mexico">Secretaría de Economía</a></p>
-
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2012-12-31', 'valor' => '46.50', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Otras Regiones HTML
@@ -116,42 +97,42 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>$ 46.50</td>
             <td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>$ 214.49</td>
             <td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-05-31</td>
+            <td>31/05/2012</td>
             <td>$ 9.79</td>
             <td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>$ 0.61</td>
             <td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>$ 271.40</td>
             <td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2012-12-31</td>
+            <td>31/12/2012</td>
             <td>$ 20,685.96</td>
             <td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td>
             <td></td>
@@ -200,7 +181,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -212,8 +193,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript

@@ -27,34 +27,25 @@ namespace SMIIndicadoresTorreon;
  */
 class GobiernoCumplimientoEnInformacionPublicaMinina extends \SMIBase\PublicacionWeb {
 
-    protected $lenguetas;
-
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Cumplimiento en Información Pública Mínina en Torreón';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2014-10-21T16:19:49';
+        $this->nombre      = 'Cumplimiento en Información Pública Mínina en Torreón';
+        $this->autor       = 'Dirección de Investigación Estratégica';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo                   = 'gobierno-cumplimiento-en-informacion-publica-minina';
+        $this->archivo     = 'gobierno-cumplimiento-en-informacion-publica-minina';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Cumplimiento sobre total de obligaciones.';
-        $this->claves                    = 'IMPLAN, Torreón, Transparencia';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion = 'Cumplimiento sobre total de obligaciones.';
+        $this->claves      = 'IMPLAN, Torreón, Transparencia';
         // Para el Organizador
-        $this->categorias                = array('Transparencia');
-        $this->fuentes                   = array('ICAI-IDAIP');
-        $this->regiones                  = array('Torreón');
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        $this->categorias  = array('Transparencia');
+        $this->fuentes     = array('ICAI-IDAIP');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -63,77 +54,33 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \SMIBase\Publicacio
      * @return string Código HTML
      */
     protected function seccion_datos_html() {
-        return <<<FINAL
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>03/03/2014</td>
-            <td>100.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>98.72 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/09/2014</td>
-            <td>96.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/10/2014</td>
-            <td>72.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/11/2014</td>
-            <td>83.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>82.67 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/01/2015</td>
-            <td>82.67 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2015</td>
-            <td>89.33 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2015</td>
-            <td>89.33 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-FINAL;
+        $this->datos_tabla->definir_estructura(array(
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
+        $this->datos_tabla->definir_panal(array(
+            array('fecha' => '2014-03-03', 'valor' => '100.0000', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => ''),
+            array('fecha' => '2014-06-30', 'valor' => '98.7200', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => ''),
+            array('fecha' => '2014-09-30', 'valor' => '96.0000', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => ''),
+            array('fecha' => '2014-10-31', 'valor' => '72.0000', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => ''),
+            array('fecha' => '2014-11-30', 'valor' => '83.0000', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => ''),
+            array('fecha' => '2014-12-31', 'valor' => '82.6700', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => ''),
+            array('fecha' => '2015-01-31', 'valor' => '82.6700', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => ''),
+            array('fecha' => '2015-02-28', 'valor' => '89.3300', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => ''),
+            array('fecha' => '2015-03-31', 'valor' => '89.3300', 'fuente_nombre' => 'ICAI-IDAIP', 'notas' => '')));
+        // Entregar
+        return $this->datos_tabla->html();
     } // seccion_datos_html
+
+    /**
+     * Sección Datos JavaScript
+     *
+     * @return string Código JavaScript
+     */
+    protected function seccion_datos_javascript() {
+        return $this->datos_tabla->javascript();
+    } // seccion_datos_javascript
 
     /**
      * Sección Gráfica HTML
@@ -194,35 +141,35 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-03-31</td>
+            <td>31/03/2015</td>
             <td>89.33 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-08-31</td>
+            <td>31/08/2014</td>
             <td>86.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-08-31</td>
+            <td>31/08/2014</td>
             <td>100.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-03-31</td>
+            <td>31/03/2015</td>
             <td>70.67 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
+            <td>31/12/2013</td>
             <td>80.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
@@ -267,7 +214,7 @@ FINAL;
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
+        // Definir el contenido de esta publicación que es un SchemaArticle
         $this->contenido->articleBody = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
@@ -279,8 +226,10 @@ FINAL;
      * @return string Código Javascript
      */
     public function javascript() {
-        // JavaScript está dentro de las lengüetas
-        $this->javascript = $this->lenguetas->javascript();
+        // JavaScript de las lengüetas, es el de las gráficas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // JavaScript para la carga completa del documento, es el de la tabla con los datos
+        $this->javascript[] = $this->datos_tabla->javascript();
         // Ejecutar este método en el padre
         return parent::javascript();
     } // javascript
