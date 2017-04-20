@@ -27,24 +27,18 @@ namespace Configuracion;
  */
 class PlantillaConfig {
 
-    public $sitio_titulo    = 'IMPLAN Torreón';
+    public $sitio_titulo    = 'IMPLAN Torreón';              // Título del sitio
     public $sitio_url       = 'http://www.trcimplan.gob.mx'; // Sin diagonal al final
-    public $rss             = 'rss.xml';
-    public $favicon         = 'imagenes/favicon.png';
-    public $propio_css      = 'css/trcimplan.css';
-    public $en_raiz         = FALSE; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
-    public $para_compartir  = TRUE;  // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
-    public $autor           = 'TrcIMPLAN Staff'; // Autor por defecto
+    public $rss             = 'rss.xml';                     // Archivo con la sindicalización (RSS Feed)
+    public $favicon         = 'imagenes/favicon.png';        // Archivo favicon
+    public $propio_css      = 'dist/css/trcimplan.css';      // CSS propio de este sitio web
+    public $en_raiz         = FALSE;                         // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
+    public $para_compartir  = TRUE;                          // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
+    public $autor           = 'TrcIMPLAN Staff';             // Autor por defecto
     public $mensaje_oculto;
     public $pie;
     protected $google_analytics;
     protected $google_site_verification;
-    protected $cabecera_bootstrap_css;
-    protected $cabecera_font_awesome_css;
-    protected $cabecera_externos_css;
-    protected $scripts_jquery_js;
-    protected $scripts_bootstrap_js;
-    protected $scripts_externos_js;
     public $favicons = array(
         array('ruta' => 'imagenes/apple-touch-icon.png',         'rel' => 'apple-touch-icon', 'size' => ''),
         array('ruta' => 'imagenes/apple-touch-icon-76x76.png',   'rel' => 'apple-touch-icon', 'size' => '76x76'),
@@ -54,50 +48,37 @@ class PlantillaConfig {
         array('ruta' => 'imagenes/icon-hires.png',               'rel' => 'icon',             'size' => '192x192'),
         array('ruta' => 'imagenes/icon-normal.png',              'rel' => 'icon',             'size' => '128x128'),
     );
+    protected $vinculos_css;
+    protected $vinculos_js;
 
     /**
      * Constructor
-     *
-     * Twitter Bootstrap desde http://www.bootstrapcdn.com/
-     * Font Awsome desde http://www.bootstrapcdn.com/fontawesome/
-     * JQuery desde Google apis segun https://developers.google.com/speed/libraries/
      */
     public function __construct() {
-        // Al usar FLASE las siguientes propiedades apuntarán a archivos locales, así el sitio podrá funcionar en una intranet
-        if (TRUE) {
-            // jQuery según https://developers.google.com/speed/libraries/#jquery
-            $this->scripts_jquery_js         = '<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>';
-            // Twitter Bootstrap según https://www.bootstrapcdn.com/
-            $this->cabecera_bootstrap_css    = '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">';
-            $this->scripts_bootstrap_js      = '<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>';
-            // Font Awesome según https://www.bootstrapcdn.com/
-            $this->cabecera_font_awesome_css = '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">';
-        }
-        // CSS Externos
-        // - Google Fonts Questrial y Roboto Condensed
-        // - Carto
-        $this->cabecera_externos_css = array(
-            '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">',
-            '<link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">');
-        // Javascript Externos
-        // - Google Charts para las gráficas de IBC
-        // - Carto para los mapas de IBC
-        $this->scripts_externos_js = array(
-            '<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>',
-            '<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>');
-        // Google Analytics
-        $this->google_analytics = <<<FINAL
-<script>
-  // Google Analytics
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-58290501-1', 'auto');
-  ga('send', 'pageview');
-</script>
-FINAL;
-        // Algo divertido
+        // Vínculos CSS a archivos locales o URLs remotas
+        $this->vinculos_css   = array();
+        $this->vinculos_css[] = 'vendor/bootstrap/css/bootstrap.min.css';                             // Bootstap
+        $this->vinculos_css[] = 'vendor/metisMenu/metisMenu.min.css';                                 // Metis Menu
+        $this->vinculos_css[] = 'dist/css/sb-admin-2.min.css';                                        // SBadmin2
+        $this->vinculos_css[] = 'vendor/datatables-plugins/dataTables.bootstrap.css';                 // DataTables
+        $this->vinculos_css[] = 'vendor/morrisjs/morris.css';                                         // MorrisJS
+        $this->vinculos_css[] = 'vendor/font-awesome/css/font-awesome.min.css';                       // Fontawesome
+        $this->vinculos_css[] = 'dist/css/plataforma-de-conocimiento.css';                            // Plataforma del conocimiento
+        $this->vinculos_css[] = 'https://fonts.googleapis.com/css?family=Droid+Sans:400,700';         // Google Fonts
+        $this->vinculos_css[] = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css'; // Carto
+        // Vínculos Javascript a archivos locales o URLs remotas
+        $this->vinculos_js    = array();
+        $this->vinculos_js[]  = 'vendor/jquery/jquery.min.js';                                        // jQuery
+        $this->vinculos_js[]  = 'vendor/bootstrap/js/bootstrap.min.js';                               // Bootstrap
+        $this->vinculos_js[]  = 'vendor/metisMenu/metisMenu.min.js';                                  // Metis menu
+        $this->vinculos_js[]  = 'dist/js/sb-admin-2.min.js';                                          // SBadmin2
+        $this->vinculos_js[]  = 'vendor/datatables/js/jquery.dataTables.min.js';                      // DataTables
+        $this->vinculos_js[]  = 'vendor/datatables-plugins/dataTables.bootstrap.min.js';              // DataTables
+        $this->vinculos_js[]  = 'vendor/datatables-responsive/dataTables.responsive.js';              // DataTables
+        $this->vinculos_js[]  = 'vendor/raphael/raphael.min.js';                                      // MorrisJS
+        $this->vinculos_js[]  = 'vendor/morrisjs/morris.min.js';                                      // MorrisJS
+        $this->vinculos_js[]  = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js';             // Carto
+        // Mensaje oculto
         $this->mensaje_oculto = <<<FINAL
 <!-- ===================================================================================================
 
@@ -123,6 +104,18 @@ FINAL;
           IMPLAN Torreón         https://github.com/TRCIMPLAN
 
      =================================================================================================== -->
+FINAL;
+        // Google Analytics
+        $this->google_analytics = <<<FINAL
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
 FINAL;
     } // constructor
 

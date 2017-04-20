@@ -55,6 +55,21 @@ class SchemaCreativeWork extends SchemaThing {
     public $contentLocation;    // Place. The location of the content.
     public $datePublished;      // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30
     public $producer;           // Organization or Person. The person or organization who produced the work.
+    public $publisher;          // Organization or Person. The publisher of the creative work.
+
+    /**
+     * Big Heading HTML
+     *
+     * @return string Código HTML
+     */
+    protected function big_heading_html() {
+        // Siempre debe estar definido el headline sobre name
+        if ($this->headline == '') {
+            $this->headline = $this->name;
+        }
+        // Entregar
+        return parent::big_heading_html();
+    } // big_heading_html
 
     /**
      * HTML
@@ -80,6 +95,11 @@ class SchemaCreativeWork extends SchemaThing {
             $a[]                                   = $this->contentLocation->html();
         }
         $a[] = $this->content_html();
+        if (is_object($this->publisher) && ($this->publisher instanceof SchemaOrganization)) {
+            $this->publisher->onTypeProperty = 'publisher';
+            $this->publisher->identation     = $this->identation + 1;
+            $a[]                             = $this->publisher->html();
+        }
         $a[] = $this->itemscope_end();
         $a[] = $this->extra_html();
         // Entregar

@@ -40,6 +40,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     // public $estado;
     // public $poner_imagen_en_contenido;
     // public $include_extra_directorio;
+    // public $publisher;
     public $nombre;                           // Título completo
     public $nombre_menu;                      // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
     public $directorio;                       // Directorio donde se guardará la publicación completa

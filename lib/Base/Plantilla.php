@@ -39,12 +39,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     // public $pie;
     // protected $google_analytics;
     // protected $google_site_verification;
-    // protected $cabecera_bootstrap_css;
-    // protected $cabecera_font_awesome_css;
-    // protected $cabecera_externos_css;
-    // protected $_js;
-    // protected $scripts_bootstrap_js;
-    // protected $scripts_externos_js;
+    // protected $favicons;
+    // protected $vinculos_css;
+    // protected $vinculos_js;
     public $titulo;                         // Título de la página
     public $descripcion;                    // Descripción del sitio o la página
     public $claves;                         // Claves que ayuden a los buscadores
@@ -56,7 +53,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $contenido            = array(); // Texto o arreglo, código HTML con el contenido
     public $mapa_inferior;                  // Instancia de \Base\MapaInferior
     public $javascript           = array(); // Arreglo que acumula el código Javascript a poner al final de la página
-    public $contenido_en_renglon = true;    // Encierra el contenido en renglón y cuerpo.
+    public $contenido_en_renglon = TRUE;    // Encierra el contenido en renglón y cuerpo.
 
     /**
      * Incorporar Publicacion
@@ -161,12 +158,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = "  {$this->google_site_verification}";
         }
         $a[] = "  <title>$titulo</title>";
-        if ($this->cabecera_bootstrap_css != '') {
-            $a[] = "  {$this->cabecera_bootstrap_css}";
-        }
-        if ($this->cabecera_font_awesome_css != '') {
-            $a[] = "  {$this->cabecera_font_awesome_css}";
-        }
         if ($this->en_raiz) {
             if ($this->favicon != '') {
                 $a[] = "  <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"{$this->favicon}\">";
@@ -183,17 +174,11 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             if ($this->rss != '') {
                 $a[] = "  <link rel=\"alternate\" type=\"application/rss+xml\" href=\"{$this->rss}\" title=\"{$this->sitio_titulo}\">";
             }
-            if ($this->cabecera_bootstrap_css == '') {
-                $a[] = '  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">';
+            if (is_array($this->vinculos_css) && (count($this->vinculos_css) > 0)) {
+                foreach ($this->vinculos_css as $v) {
+                    $a[] = sprintf('  <link rel="stylesheet" type="text/css" href="%s">', $v);
+                }
             }
-            $a[] = '  <link rel="stylesheet" type="text/css" href="css/morris.css">';
-        //  $a[] = '  <link rel="stylesheet" type="text/css" href="css/leaflet.css">';
-            $a[] = '  <link rel="stylesheet" type="text/css" href="css/plugins/metisMenu/metisMenu.min.css">';
-            $a[] = '  <link rel="stylesheet" type="text/css" href="css/sb-admin-2.css">';
-            if ($this->cabecera_font_awesome_css == '') {
-                $a[] = '  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">';
-            }
-            $a[] = '  <link rel="stylesheet" type="text/css" href="css/plataforma-de-conocimiento.css">';
             if ($this->propio_css != '') {
                 $a[] = "  <link rel=\"stylesheet\" type=\"text/css\" href=\"{$this->propio_css}\">";
             }
@@ -213,24 +198,17 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             if ($this->rss != '') {
                 $a[] = "  <link rel=\"alternate\" type=\"application/rss+xml\" href=\"../{$this->rss}\" title=\"{$this->sitio_titulo}\">";
             }
-            if ($this->cabecera_bootstrap_css == '') {
-                $a[] = '  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">';
+            if (is_array($this->vinculos_css) && (count($this->vinculos_css) > 0)) {
+                foreach ($this->vinculos_css as $v) {
+                    if (preg_match('/^(http|https):\/\//', $v) === 1) {
+                        $a[] = sprintf('  <link rel="stylesheet" type="text/css" href="%s">', $v);
+                    } else {
+                        $a[] = sprintf('  <link rel="stylesheet" type="text/css" href="../%s">', $v);
+                    }
+                }
             }
-            $a[] = '  <link rel="stylesheet" type="text/css" href="../css/morris.css">';
-        //  $a[] = '  <link rel="stylesheet" type="text/css" href="../css/leaflet.css">';
-            $a[] = '  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">';
-            $a[] = '  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">';
-            if ($this->cabecera_font_awesome_css == '') {
-                $a[] = '  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">';
-            }
-            $a[] = '  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">';
             if ($this->propio_css != '') {
                 $a[] = "  <link rel=\"stylesheet\" type=\"text/css\" href=\"../{$this->propio_css}\">";
-            }
-        }
-        if (is_array($this->cabecera_externos_css)) {
-            foreach ($this->cabecera_externos_css as $externo_css) {
-                $a[] = "  $externo_css";
             }
         }
         $a[] = '  <!-- SOPORTE PARA IE -->';
@@ -253,42 +231,54 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a = array();
         // Acumular
         $a[] = '<!-- Javascript común -->';
-        if ($this->scripts_jquery_js != '') {
-            $a[] = $this->scripts_jquery_js;
-        }
-        if ($this->scripts_bootstrap_js != '') {
-            $a[] = $this->scripts_bootstrap_js;
-        }
+        //~ if ($this->scripts_jquery_js != '') {
+            //~ $a[] = $this->scripts_jquery_js;
+        //~ }
+        //~ if ($this->scripts_bootstrap_js != '') {
+            //~ $a[] = $this->scripts_bootstrap_js;
+        //~ }
         if ($this->en_raiz) {
-            if ($this->scripts_jquery_js == '') {
-                $a[] = '<script type="text/javascript" src="js/jquery.min.js"></script>';
+            if (is_array($this->vinculos_js) && (count($this->vinculos_js) > 0)) {
+                foreach ($this->vinculos_js as $v) {
+                    $a[] = sprintf('<script type="text/javascript" src="%s"></script>', $v);
+                }
             }
-            if ($this->scripts_bootstrap_js == '') {
-                $a[] = '<script type="text/javascript" src="js/bootstrap.min.js"></script>';
-            }
-            $a[] = '<script type="text/javascript" src="js/raphael-min.js"></script>';
-            $a[] = '<script type="text/javascript" src="js/morris.min.js"></script>';
-        //  $a[] = '<script type="text/javascript" src="js/leaflet.js"></script>';
-            $a[] = '<script type="text/javascript" src="js/plugins/metisMenu/metisMenu.min.js"></script>';
-            $a[] = '<script type="text/javascript" src="js/sb-admin-2.js"></script>';
+            //~ if ($this->scripts_jquery_js == '') {
+                //~ $a[] = '<script type="text/javascript" src="js/jquery.min.js"></script>';
+            //~ }
+            //~ if ($this->scripts_bootstrap_js == '') {
+                //~ $a[] = '<script type="text/javascript" src="js/bootstrap.min.js"></script>';
+            //~ }
+            //~ $a[] = '<script type="text/javascript" src="js/raphael-min.js"></script>';
+            //~ $a[] = '<script type="text/javascript" src="js/morris.min.js"></script>';
+            //~ $a[] = '<script type="text/javascript" src="js/plugins/metisMenu/metisMenu.min.js"></script>';
+            //~ $a[] = '<script type="text/javascript" src="js/sb-admin-2.js"></script>';
         } else {
-            if ($this->scripts_jquery_js == '') {
-                $a[] = '<script type="text/javascript" src="../js/jquery.min.js"></script>';
+            if (is_array($this->vinculos_js) && (count($this->vinculos_js) > 0)) {
+                foreach ($this->vinculos_js as $v) {
+                    if (preg_match('/^(http|https):\/\//', $v) === 1) {
+                        $a[] = sprintf('<script type="text/javascript" src="%s"></script>', $v);
+                    } else {
+                        $a[] = sprintf('<script type="text/javascript" src="../%s"></script>', $v);
+                    }
+                }
             }
-            if ($this->scripts_bootstrap_js == '') {
-                $a[] = '<script type="text/javascript" src="../js/bootstrap.min.js"></script>';
-            }
-            $a[] = '<script type="text/javascript" src="../js/raphael-min.js"></script>';
-            $a[] = '<script type="text/javascript" src="../js/morris.min.js"></script>';
-        //  $a[] = '<script type="text/javascript" src="../js/leaflet.js"></script>';
-            $a[] = '<script type="text/javascript" src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
-            $a[] = '<script type="text/javascript" src="../js/sb-admin-2.js"></script>';
+            //~ if ($this->scripts_jquery_js == '') {
+                //~ $a[] = '<script type="text/javascript" src="../js/jquery.min.js"></script>';
+            //~ }
+            //~ if ($this->scripts_bootstrap_js == '') {
+                //~ $a[] = '<script type="text/javascript" src="../js/bootstrap.min.js"></script>';
+            //~ }
+            //~ $a[] = '<script type="text/javascript" src="../js/raphael-min.js"></script>';
+            //~ $a[] = '<script type="text/javascript" src="../js/morris.min.js"></script>';
+            //~ $a[] = '<script type="text/javascript" src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
+            //~ $a[] = '<script type="text/javascript" src="../js/sb-admin-2.js"></script>';
         }
-        if (is_array($this->scripts_externos_js)) {
-            foreach ($this->scripts_externos_js as $externo_js) {
-                $a[] = $externo_js;
-            }
-        }
+        //~ if (is_array($this->scripts_externos_js)) {
+            //~ foreach ($this->scripts_externos_js as $externo_js) {
+                //~ $a[] = $externo_js;
+            //~ }
+        //~ }
         if (is_array($this->javascript) && (count($this->javascript) > 0)) {
             $b = array();
             foreach ($this->javascript as $js) {
@@ -310,6 +300,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = "<!-- Javascript -->\n<script>\n{$this->javascript}\n</script>";
             }
         }
+        // Google Analytics
         if (is_string($this->google_analytics) && ($this->google_analytics != '')) {
             $a[] = "<!-- Google Analytics -->\n{$this->google_analytics}";
         }

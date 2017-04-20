@@ -55,6 +55,7 @@ class SchemaArticle extends SchemaCreativeWork {
     // public $contentLocation; // Place. The location of the content.
     // public $datePublished;   // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30
     // public $producer;        // Organization or Person. The person or organization who produced the work.
+    // public $publisher;       // Organization or Person. The publisher of the creative work.
     // En SchemaArticle
     public $articleBody;        // Text. The actual body of the article.
 
@@ -112,6 +113,11 @@ class SchemaArticle extends SchemaCreativeWork {
             $a[]                                   = $this->contentLocation->html();
         }
         $a[] = $this->content_html();
+        if (is_object($this->publisher) && ($this->publisher instanceof SchemaOrganization)) {
+            $this->publisher->onTypeProperty = 'publisher';
+            $this->publisher->identation     = $this->identation + 1;
+            $a[]                             = $this->publisher->html();
+        }
         $a[] = $this->itemscope_end();
         $a[] = $this->extra_html();
         // Entregar

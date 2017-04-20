@@ -27,6 +27,28 @@ namespace SMIBase;
  */
 abstract class PublicacionWeb extends \Base\Publicacion implements SalidaWeb {
 
+    protected $lenguetas;
+    protected $datos_tabla;
+
+    /**
+     * Constructor
+     */
+    public function __construct() {
+        // Ejecutar constructor en el padre
+        //~ parent::__construct();
+        // Opción de navegación a poner como activa
+        $this->nombre_menu               = 'Indicadores';
+        // Banderas
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->para_compartir            = TRUE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                    = 'publicar';
+        // Inicializar las lengüetas
+        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        // Inicializar la tabla con los datos
+        $this->datos_tabla               = new TablaWeb('smi-indicador-datos-tabla');
+    } // constructor
+
     /**
      * Validar
      *

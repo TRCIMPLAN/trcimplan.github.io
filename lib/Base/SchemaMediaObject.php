@@ -52,6 +52,7 @@ class SchemaMediaObject extends SchemaCreativeWork {
     // public $contentLocation; // Place. The location of the content.
     // public $datePublished;   // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30
     // public $producer;        // Organization or Person. The person or organization who produced the work.
+    // public $publisher;       // Organization or Person. The publisher of the creative work.
     // En SchemaMediaObject
     public $contentSize;        // Text. File size in (mega/kilo) bytes.
     public $contentUrl;         // Text. URL.
@@ -123,6 +124,11 @@ class SchemaMediaObject extends SchemaCreativeWork {
         $a[] = $this->content_url_html();
         $a[] = $this->encoding_format_html();
         $a[] = $this->content_html();
+        if (is_object($this->publisher) && ($this->publisher instanceof SchemaOrganization)) {
+            $this->publisher->onTypeProperty = 'publisher';
+            $this->publisher->identation     = $this->identation + 1;
+            $a[]                             = $this->publisher->html();
+        }
         $a[] = $this->itemscope_end();
         $a[] = $this->extra_html();
         // Entregar

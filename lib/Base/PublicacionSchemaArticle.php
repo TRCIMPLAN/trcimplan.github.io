@@ -39,6 +39,7 @@ class PublicacionSchemaArticle extends Publicacion {
     // public $estado;
     // public $poner_imagen_en_contenido;
     // public $include_extra_directorio;
+    // public $publisher;
     // public $nombre;
     // public $nombre_menu;
     // public $directorio;
@@ -129,8 +130,11 @@ class PublicacionSchemaArticle extends Publicacion {
         $schema->image         = $this->imagen;
         $schema->image_show    = $this->poner_imagen_en_contenido;
     //  $schema->articleBody   = ; // En el método html de Publicación será procesado
+        if ($this->publisher instanceof SchemaOrganization) {
+            $schema->publisher = $this->publisher;
+        }
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
+        $this->contenido = $schema;
     } // validar
 
 } // Clase PublicacionSchemaArticle
