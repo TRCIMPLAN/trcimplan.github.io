@@ -52,7 +52,7 @@ class LosDeterminantesSocialesDeLaSalud extends \Base\PublicacionSchemaBlogPosti
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Salud');
         $this->fuentes                    = array('INEGI', 'Organización Mundial de la Salud (OMS)');
-        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones                   = array('Torreón', 'Matamoros', 'La Laguna', 'Coahuila');
     } // constructor
 
 } // Clase LosDeterminantesSocialesDeLaSalud

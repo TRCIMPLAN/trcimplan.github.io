@@ -31,6 +31,8 @@ class CLASE extends \Base\PublicacionSchemaArticle {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Título';
         $this->autor                      = 'Autor'; // Puede ser un arreglo de textos

@@ -54,7 +54,7 @@ class PublicacionConfig {
         $this->publisher->big_heading    = FALSE;
         $this->publisher->image_show     = TRUE;
         $this->publisher->is_article     = FALSE;
-        $this->publisher->class_property = 'publicador'; // Estilo CSS que está definido en /dist/css/trcimplan.css
+        $this->publisher->class_property = 'publicador'; // Estilo CSS
     } // constructor
 
 } // Clase PublicacionConfig

@@ -31,6 +31,8 @@ class CLASE extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                    = 'Título';
         $this->autor                     = 'Autor'; // Puede ser un arreglo de textos
@@ -76,7 +78,7 @@ FINAL;
         $this->javascript = <<<FINAL
 FINAL;
         // Ejecutar este método en el padre
-        return parent::html();
+        return parent::javascript();
     } // javascript
 
     /**

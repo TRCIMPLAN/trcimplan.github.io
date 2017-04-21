@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - CLASE
+ * TrcIMPLAN Sitio Web - LaImportanciaDeLosEspaciosPublicosYAreasVerdesEnLaLaguna
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace Blog;
 
 /**
- * Clase CLASE
+ * Clase LaImportanciaDeLosEspaciosPublicosYAreasVerdesEnLaLaguna
  */
-class CLASE extends \Base\PublicacionSchemaBlogPosting {
+class LaImportanciaDeLosEspaciosPublicosYAreasVerdesEnLaLaguna extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -34,27 +34,27 @@ class CLASE extends \Base\PublicacionSchemaBlogPosting {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Título';
-        $this->autor                      = 'Autor'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2017-00-00T00:00';
+        $this->nombre                     = 'La importancia de los espacios públicos y áreas verdes en La Laguna';
+        $this->autor                      = 'Arq. Teresita Benítez Saludado';
+        $this->fecha                      = '2017-04-21T12:30';
         // El nombre del archivo a crear
-        $this->archivo                    = 'archivo'; // En minúsculas, sin espacios, use guiones, letras y números
+        $this->archivo                    = 'la-importancia-de-los-espacios-publicos-y-areas-verdes-en-la-laguna';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Descripción.';
-        $this->claves                     = 'IMPLAN, Torreon, ';
+        $this->descripcion                = 'En la actualidad son pocos los espacios públicos y con áreas verdes inclusivos a todos los ciudadanos de la región lagunera. El crecimiento de las ciudades provocó un rezago significativo de espacios dimensionados, diseñados y ubicados apropiadamente en el territorio urbano para la recreación y convivencia de la población Lagunera.';
+        $this->claves                     = 'IMPLAN, Torreon, Espacios Publicos, Areas Verdes';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/Blog/CLASE.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/LaImportanciaDeLosEspaciosPublicosYAreasVerdesEnLaLaguna.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'La Laguna');
     } // constructor
 
-} // Clase CLASE
+} // Clase LaImportanciaDeLosEspaciosPublicosYAreasVerdesEnLaLaguna
 
 ?>
