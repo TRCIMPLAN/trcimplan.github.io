@@ -94,11 +94,13 @@ class SchemaOrganization extends SchemaThing {
         $a[] = $this->itemscope_start('itemscope itemtype="http://schema.org/Organization"');
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();
+            $a[] = $this->image_html();
         } else {
+            $a[] = $this->image_html();
             $a[] = $this->title_html();
             $a[] = $this->description_html();
+            $a[] = $this->image_final_html();
         }
-        $a[] = $this->image_html();
         if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
             $this->address->onTypeProperty = 'address';
             $this->address->identation     = $this->identation + 1;

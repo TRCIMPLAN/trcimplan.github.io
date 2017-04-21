@@ -50,9 +50,10 @@ class PublicacionConfig {
         $this->publisher                 = new \Base\SchemaOrganization();
         $this->publisher->name           = 'Instituto Municipal de Planeación y Competitividad de Torreón';
         $this->publisher->description    = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.';
-        $this->publisher->image          = 'imagenes/implan-logo.png';
-        $this->publisher->is_article     = FALSE;
+        $this->publisher->image          = '../imagenes/implan-logo.png';
         $this->publisher->big_heading    = FALSE;
+        $this->publisher->image_show     = TRUE;
+        $this->publisher->is_article     = FALSE;
         $this->publisher->class_property = 'publicador'; // Estilo CSS que está definido en /dist/css/trcimplan.css
     } // constructor
 

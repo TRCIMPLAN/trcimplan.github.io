@@ -41,15 +41,15 @@ class MapaInferiorConfig {
         $a = array();
         // Acumular
         $a[] = '    <div class="mapa-inferior">';
-        $a[] = '      <div class="row">';
-        $a[] = '        <div class="col-md-8">';
-        if ($this->en_raiz) {
-            $a[] = sprintf('            <a href="index.html"><img class="img-responsive mapa-inferior-logo" src="%s" alt="%s"></a>', $this->logotipo, $this->sitio_titulo);
-        } else {
-            $a[] = sprintf('            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../%s" alt="%s"></a>', $this->logotipo, $this->sitio_titulo);
-        }
-        $a[] = '        </div>'; // col-md-8
-        $a[] = '        <div class="col-md-4">';
+    //~ $a[] = '      <div class="row">';
+    //~ $a[] = '        <div class="col-md-8">';
+    //~ if ($this->en_raiz) {
+        //~ $a[] = sprintf('            <a href="index.html"><img class="img-responsive mapa-inferior-logo" src="%s" alt="%s"></a>', $this->logotipo, $this->sitio_titulo);
+    //~ } else {
+        //~ $a[] = sprintf('            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../%s" alt="%s"></a>', $this->logotipo, $this->sitio_titulo);
+    //~ }
+    //~ $a[] = '        </div>'; // col-md-8
+    //~ $a[] = '        <div class="col-md-4">';
         $a[] = '          <div class="pull-right redes-sociales">';
         $a[] = '            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>';
         $a[] = '            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>';
@@ -61,8 +61,8 @@ class MapaInferiorConfig {
             $a[] = '            <a class="fa fa-rss-square" href="../rss.xml"></a>';
         }
         $a[] = '          </div>'; // redes-sociales
-        $a[] = '        </div>'; // col-md-4
-        $a[] = '      </div>'; // row
+    //~ $a[] = '        </div>'; // col-md-4
+    //~ $a[] = '      </div>'; // row
         $a[] = '    </div>'; // mapa-inferior
         // Entregar
         return implode("\n", $a);

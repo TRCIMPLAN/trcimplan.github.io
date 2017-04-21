@@ -5,11 +5,209 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 20 Apr 2017 15:04:24 -0500</pubDate>
+    <pubDate>Fri, 21 Apr 2017 11:18:11 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Los Determinantes Sociales de la Salud</title>
+      <link>http://www.trcimplan.gob.mx/blog/los-determinantes-sociales-de-la-salud.html</link>
+      <guid isPermaLink="false">blog-los-determinantes-sociales-de-la-salud</guid>
+      <pubDate>Fri, 21 Apr 2017 09:30:00 -0500</pubDate>
+      <author>Lic. Alfredo Viesca Domínguez</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/los-determinantes-sociales-de-la-salud/imagen.jpg"><br>
+
+<p><strong>Los determinantes sociales de la salud son las circunstancias en que las personas nacen, crecen, viven, trabajan y envejecen, incluido el sistema de salud.</strong></p>
+
+<p>Esas circunstancias son el resultado de la distribución del dinero, el poder y los recursos a nivel mundial, nacional y local, que depende a su vez de las políticas adoptadas</p>
+
+<blockquote>
+  <p><strong>Los determinantes sociales de la salud explican la mayor parte de las inequidades sanitarias,</strong> esto es, de las diferencias injustas y evitables observadas en y entre los países en lo que respecta a la situación sanitaria.</p>
+  
+  <p>(OMS) Organización Mundial de la Salud.</p>
+</blockquote>
+
+<p>A partir de estas consideraciones, los análisis de las enfermedades que más afectan a la población en México así como de los  estados y municipios donde estas se presentan, tendrá que fundamentarse en una visión más amplia, es decir, no solo en el estudio de la afectación individual sino colectiva, y sobre todo priorizar los determinantes sociales del proceso salud-enfermedad.</p>
+
+<p><strong>En el caso de México y en específico del estado de Coahuila, hay cuando menos dos aspectos importantes que analizar:</strong></p>
+
+<p><strong>Las principales causas de enfermedad y Las principales causas de defunción.</strong></p>
+
+<p>A nivel nacional los datos son los siguientes:</p>
+
+<p>De acuerdo con los datos de la <strong>Secretaría de Salud</strong> en 2015, dentro de las veinte principales causas de enfermedad en el país destacan tres:</p>
+
+<h3>Principales causas de enfermendad en México</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Causas de enfermedad en 2015</th>
+  <th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Infecciones respiratorias agudas</td>
+  <td align="right">23;755,831</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Infecciones intestinales por otros organismos y las mal definidas</td>
+  <td align="right">4;899,424</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>Infección de vías urinarias</td>
+  <td align="right">4;098,042</td>
+</tr>
+</tbody>
+</table>
+
+<p>FUENTE: <a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/nacional/grupo_edad.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015</a></p>
+
+<h3>Principales causas de enfermendad en Coahuila</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Causas de enfermedad en 2015</th>
+  <th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Infecciones respiratorias agudas</td>
+  <td align="right">654,892</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Infecciones intestinales por otros organismos y las mal definidas</td>
+  <td align="right">146,147</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>Infección de vías urinarias</td>
+  <td align="right">45,954</td>
+</tr>
+</tbody>
+</table>
+
+<p>FUENTE: <a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/estatal_institucion/coah.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015</a></p>
+
+<p><strong>Un aspecto importante en el análisis de estos padecimientos es no solo el número, sino también las condiciones sociales, económicas y culturales en que las personas enferman, solo por mencionar algunos determinantes sociales.</strong></p>
+
+<p>En cuanto a las defunciones, de acuerdo con la información del <strong>INEGI,</strong> en 2015 las principales causas de mortalidad en México fueron:</p>
+
+<h3>Principales causas de mortalidad en México</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Causas de mortalidad en 2015</th>
+  <th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1.0</td>
+  <td>Enfermedades del corazón</td>
+  <td align="right">128,731</td>
+</tr>
+<tr>
+  <td align="right">1.1</td>
+  <td>Enfermedades isquémicas del corazón</td>
+  <td align="right">88,144</td>
+</tr>
+<tr>
+  <td align="right">2.0</td>
+  <td>Diabetes Mellitus</td>
+  <td align="right">98,521</td>
+</tr>
+<tr>
+  <td align="right">3.0</td>
+  <td>Tumores Malignos</td>
+  <td align="right">79,519</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: INEGI. Dirección de Estadísticas Sociodemográficas; Estadísticas Vitales. Principales causas de mortalidad por residencia habitual, sexo y grupo de edad del fallecido.</p>
+
+<p>En el caso del estado de <strong>Coahuila, la Secretaría de Salud</strong> informa en su sitio de internet que en 2015 las principales causas de defunción son las siguientes:</p>
+
+<h3>Principales causas de mortalidad en Coahuila</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Causas de mortalidad en 2015</th>
+  <th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Infecciones respiratorias agudas</td>
+  <td align="right">654,892</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Infecciones intestinales por otros organismos y las mal definidas</td>
+  <td align="right">146,147</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>Infección de vías urinarias</td>
+  <td align="right">45,954</td>
+</tr>
+</tbody>
+</table>
+
+<p>FUENTE: <a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/estatal_institucion/coah.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015</a></p>
+
+<p>En este caso también <strong>es importante saber las condiciones en las que se ven inmersas las personas en el proceso de salud-enfermedad,</strong> por ejemplo, identificar los aspectos fundamentales en la detección del cáncer de mama o cervicouterino, es decir, cuántas mujeres pudieron tener acceso a la detención oportuna del cáncer en función de sus características sociales y demográficas y como esto pudo afectar o no para salvar su vida.</p>
+
+<p><strong>Aspectos importantes como el lugar donde habitan,</strong> es decir,  si es en el área rural o urbana, <strong>el grado de escolaridad, su estrato socioeconómico y si tiene derechohabiencia o no, etc. resultan ser elementos clave en el análisis.</strong></p>
+
+<p>Con respecto a este último dato, en el estado de Coahuila <strong>la Secretaría de Salud informa que en 2016 existían 905,816 personas sin derechohabiencia,</strong> más específicamente en la jurisdicción número 6 que comprende los municipios de Torreón, Matamoros y Viesca del total de la población en estos tres municipio, (838,443 habitantes), 239,625 habitantes viven sin derechoabiencia.</p>
+
+<p>En este sentido <strong>la reflexión debería llevar a preguntarse</strong> en primer lugar lo siguiente, <strong>en caso de enfermar, ¿a dónde acuden estas personas?,</strong> si no tienen ningún tipo de derechohabiencia se debe a que <strong>¿no tienen un empleo formal?</strong> Y si esto es así, <strong>¿cual será el escenario para estas personas en el futuro inmediato y que políticas se deberán implementar para remediar en el corto, mediano y largo plazo la situación de estas personas?</strong></p>
+
+<p><strong>El caso de la derechohabiencia es solo uno de los determinantes sociales que afecta de manera negativa la salud de los habitantes del estado y de los municipios mencionados,</strong> sin embargo, existen otros igual de importantes y conocerlos ayudará a contar con un diagnóstico general que permita establecer una política pública que no solo sea eficaz sino también eficiente.</p>
+
+<p>Esto es solo una parte de la realidad en donde la vida de muchas personas está en juego, esos son los retos en lo inmediato y se necesitan de acciones de gran calado para la atención y solución de este tipo de problemas que está afectando a un buen número de personas.</p>
+
+<blockquote>
+  <p>La justicia social es una cuestión de vida o muerte. Afecta al modo en que vive la gente, a la probabilidad de enfermar y al riesgo de morir de forma prematura.</p>
+  
+  <p>Dentro de cada país hay grandes diferencias sanitarias estrechamente ligadas al grado de desfavorecimiento social.</p>
+  
+  <p>Esas desigualdades y esa inequidad sanitaria, que podría evitarse, son el resultado de la situación en que la población crece, vive, trabaja y envejece, y del tipo de sistemas que se utilizan para combatir la enfermedad. A su vez, las condiciones en que la gente vive y muere están determinadas por fuerzas políticas, sociales y económicas.</p>
+  
+  <p>Comisión sobre Determinantes Sociales de la Salud</p>
+  
+  <p>Organización Mundial de la Salud (OMS)</p>
+</blockquote>
+
+<h3>Bibliografía</h3>
+
+<ul>
+<li>Comisión sobre Determinantes Sociales de la Salud <a href="http://apps.who.int/iris/bitstream/10665/69830/1/WHO_IER_CSDH_08.1_spa.pdf">Resumen analítico del informe final</a></li>
+<li><a href="http://www.who.int/social_determinants/es/">Organización Mundial de la Salud (Concepto)</a></li>
+<li><a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/estatal_institucion/coah.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015 - Estatal</a></li>
+<li><a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/nacional/grupo_edad.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015 - Por grupo de edad</a></li>
+<li><a href="http://www.saludcoahuila.gob.mx/">Secretaría de Salud de Coahuila</a></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Sector Manufacturero</title>
       <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/sector-manufacturero.html</link>
@@ -296,88 +494,6 @@ Localización de los predios que cuentan con Uso de Suelo Industrial en la Zona 
 <p><strong>La Facultad de Ingeniería Civil cuenta con más de 400 alumnos inscritos, varios de ellos podrán prestar 480 horas de servicio social en esta institución. El área donde los alumnos trabajarán en el IMPLAN es en Planeación Urbana.</strong></p>
 
 <p>El director del IMPLAN Torreón, <strong>Eduardo Holguín,</strong> comentó que la institución <strong>continuará realizando visitas a las universidades de la región para promover la plataforma del conocimiento.</strong> Se tiene la meta de llegar a más de 3 mil estudiantes.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Los Barrios Tradicionales en el Centro Histórico de Torreón</title>
-      <link>http://www.trcimplan.gob.mx/blog/los-barrios-tradicionales-en-el-centro-historico-de-torreon.html</link>
-      <guid isPermaLink="false">blog-los-barrios-tradicionales-en-el-centro-historico-de-torreon</guid>
-      <pubDate>Fri, 24 Mar 2017 13:35:00 -0600</pubDate>
-      <author>Arq. Cecilio Pedro Secunza Schott</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/los-barrios-tradicionales-en-el-centro-historico-de-torreon/imagen.jpg"><br>
-
-<p><strong>El Conjunto Histórico de la Ciudad de Torreón está delimitado por el polígono de 241 manzanas que conformaban el casco urbano en 1907</strong> (fecha en que se elevó la Villa de Torreón al rango de ciudad), mediante el Decreto Municipal N.96 en Noviembre de 1996.</p>
-
-<p>El crecimiento de la ciudad se dio <strong>a partir de la traza diseñada por el ingeniero Federico Wulff mediante una retícula cuadrada de manzanas regulares,</strong> que siguió hacia el oriente la vía de Ferrocarril Internacional Mexicano con ruta a Saltillo (actualmente bulevar Revolución).</p>
-
-<p>Para finales del Siglo XIX, el casco histórico ya presentaba un crecimiento importante en sus sectores Primitivo Centro y Primer Fraccionamiento de Cobián. Sin embargo, estos crecimientos contenían a su vez <strong>barrios internos que se distinguieron por sus características urbanas y actividades predominantes.</strong></p>
-
-<p><strong>Son diez los barrios identificados,</strong> que aunque han sufrido una perdida sostenida de identidad debido a la destrucción de sus edificaciones originales así como la migración de su población tradicional hacia otros sectores de la ciudad, <strong>éstos siguen presentando ciertas características urbanas y sociales que los conforma como barrios tradicionales dentro del centro histórico.</strong></p>
-
-<p>De poniente a oriente, los barrios son: Torreón Viejo, Alianza, de los Fierreros, La Paloma, Primer Cuadro, Mercado Juárez, de los Palacios, Mercado Villa, Rayón y Alameda.</p>
-
-<p>Para la regeneración de estos barrios, son necesarios proyectos como mejoramiento de banquetas, arborización, instalación de mobiliario urbano y señalética con identidad propia del barrio, restauración de edificios histórico, etc.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/los-barrios-tradicionales-en-el-centro-historico-de-torreon/barrios-tradicionales-en-torreon.png" alt="Barrios Tradicionales de Torreon"></p>
-
-<h3>Torreón Viejo</h3>
-
-<p>Sector que aunque en su mayoría se ubica fuera del polígono decretado del Conjunto Histórico de Torreón, es considerado como el sector que presentó los primeros asentamientos humanos de la ciudad. En él, se encuentran los restos de lo que fue la Hacienda del Torreón y la Compañía Harinera, hoy convertidos en museo y plaza comercial respectivamente. Actualmente, presenta usos habitacionales predominantemente.</p>
-
-<h3>Alianza</h3>
-
-<p>Toma su nombre de la Compañía Manufacturera “La Alianza” industria que produjo aceites y jabones y posteriormente cambió su actividad a molinos de harina. Se ubicó en los predios donde actualmente se encuentra el mercado de abastos que heredó el nombre y da identidad y actividad comercial al sector.</p>
-
-<h3>Fierreros</h3>
-
-<p>Zona comercial donde se llegó a ubicar en diferentes épocas el mercado de los “fierreros”, comerciantes semi-ambulantes que ofrecen mercancías muy variadas como herramientas, antigüedades, artículos del hogar, calzado, etc.</p>
-
-<h3>La Paloma</h3>
-
-<p>Barrio histórico residencial de tipo popular que ha mantenido su carácter habitacional con edificaciones, callejones y manzanas de pequeña escala.</p>
-
-<h3>Primer Cuadro</h3>
-
-<p>Corresponde a las 8 manzanas colindantes a la Plaza de Armas (originalmente llamada “Plaza del 2 de Abril”). Esta  zona se ha desempeñado como el centro financiero, comercial y de servicios más importante de la ciudad.</p>
-
-<p>Actualmente, conserva edificios con valor histórico-patrimonial de distintas épocas. A su vez, sufrió la demolición de edificios como el Cine Princesa (actual estacionamiento).</p>
-
-<h3>Mercado Juárez</h3>
-
-<p>Desde su fundación en 1907, el Mercado Juárez fungió como el nodo comercial más importante de la ciudad como alternativa el Mercado Alianza. Este “barrio” tradicional ha mantenido su carácter comercial destacando las zapaterías como actividad predominante.</p>
-
-<h3>De los Palacios</h3>
-
-<p>Llamado así por contener el Palacio Federal (1946) y la Presidencia Municipal (demolida). Actualmente se ubica la Plaza Mayor y el nuevo edificio de Presidencia. Las actividades predominantes son comerciales y de servicios.</p>
-
-<h3>Mercado Villa</h3>
-
-<p>El mercado fue demolido en 2010 para dar paso a la construcción de la Plaza Mayor. Actualmente, este sector conforma junto con el sector “de los Palacios” un nuevo nodo con identidad y actividades propias en torno a la nueva plaza y sus edificios gubernamentales.</p>
-
-<h3>Rayón</h3>
-
-<p>Este pequeño sector que históricamente ha sido residencial, está conformado por 12 manzanas de distintos tamaños. Se caracteriza principalmente por albergar casas-habitación unifamiliares con estilos arquitectónicos variados como el “vernáculo lagunero” de ladrillo, californiano y moderno.</p>
-
-<h3>Alameda</h3>
-
-<p>Es el único de los barrios enlistados que no pertenece al sector denominado Primitivo Centro, sino al primero de los 5 fraccionamientos que Feliciano Cobián fraccionó en 1898. Un año más tarde, el empresario Joaquín Serrano compró a Cobián cuatro manzanas que convirtió en la Alameda. El sector se caracterizó por albergar las casonas (o chalets) más lujosas de principios de Siglo XX.</p>
-
-<h3>Problemáticas</h3>
-
-<p>Al igual que el resto del Centro Histórico de Torreón, estos diez polígonos presentan diferentes problemáticas como:</p>
-
-<p><strong>Migración de su población:</strong> A lo largo del tiempo, la población del sector en general ha disminuido considerablemente. El barrio con menos población es el sector Alianza. De acuerdo con el Censo de INEGI  en 2010, sólo cuenta con 3 habitantes, mientras Torreón Viejo presenta la mayor, con una población de 698.</p>
-
-<p><strong>Destrucción del patrimonio construido:</strong> La Dirección de Centro Histórico de Torreón establece que el INBA cuenta con 79 edificios catalogados con valor artístico, mientras que el INAH cuenta con 81 edificios con valor histórico. 23 de ellos han sido demolido en las últimas dos décadas, muchos de ellos ubicados en Centro Histórico.</p>
-
-<p><strong>Deterioro de la Infraestructura Urbana:</strong> Aunque cada uno de los barrios cuenta con diferentes estados de conservación de su infraestructura, se puede generalizar que en su mayoría presentan deterioro en sus banquetas, mobiliario urbano, servicios públicos etc.</p>
-
-<h3>Fuentes</h3>
-
-<ol>
-<li>Gobierno del Estado de Coahuila, Ayuntamiento de Torreón. (2012). Programa Parcial de Desarrollo Urbano del Centro Histórico de Torreón. Torreón, Coah.</li>
-<li>Eduardo Guerra. (2006). Historia de Torreón. Torreón, Coah. Ayuntamiento de Torreón.</li>
-</ol>
 ]]></description>
     </item>
   </channel>

@@ -183,6 +183,15 @@ class SchemaThing extends Schema {
     } // image_html
 
     /**
+     * Image final HTML
+     *
+     * @return string Código HTML
+     */
+    protected function image_final_html() {
+        return '  <div class="contenido-imagen-previa-final"></div>'; // En el CSS tiene clear:left
+    } // image_final_html
+
+    /**
      * URL HTML
      *
      * @return string Código HTML

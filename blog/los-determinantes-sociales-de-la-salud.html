@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="En Coahuila la Secretaría de Salud informa que en 2016 existían 905,816 personas sin derechohabiencia. En la jurisdicción no. 6 que comprende Torreón, Matamoros y Viesca del total de la población (838,443 habitantes), 239,625 habitantes viven sin derechoabiencia.">
+  <meta name="author" content="Lic. Alfredo Viesca Domínguez">
+  <meta name="keywords" content="IMPLAN, Torreon, Salud, Determinantes, Sociales">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Los Determinantes Sociales de la Salud - IMPLAN Torreón">
+  <meta name="twitter:description" content="En Coahuila la Secretaría de Salud informa que en 2016 existían 905,816 personas sin derechohabiencia. En la jurisdicción no. 6 que comprende Torreón, Matamoros y Viesca del total de la población (838,443 habitantes), 239,625 habitantes viven sin derechoabiencia.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/los-determinantes-sociales-de-la-salud/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/los-determinantes-sociales-de-la-salud.html">
+  <meta name="og:title" content="Los Determinantes Sociales de la Salud - IMPLAN Torreón">
+  <meta name="og:description" content="En Coahuila la Secretaría de Salud informa que en 2016 existían 905,816 personas sin derechohabiencia. En la jurisdicción no. 6 que comprende Torreón, Matamoros y Viesca del total de la población (838,443 habitantes), 239,625 habitantes viven sin derechoabiencia.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/los-determinantes-sociales-de-la-salud/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/los-determinantes-sociales-de-la-salud.html">
+  <title>Los Determinantes Sociales de la Salud - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="https://docs.google.com/document/d/1V4nwGxAd8umhGQDuWCOAJD7pVu-ghVGqcIrJ1xNU5wM/edit?usp=sharing" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="encabezado">
+          <h1 itemprop="headline">Los Determinantes Sociales de la Salud</h1>
+          <div class="encabezado-descripcion" itemprop="description">En Coahuila la Secretaría de Salud informa que en 2016 existían 905,816 personas sin derechohabiencia. En la jurisdicción no. 6 que comprende Torreón, Matamoros y Viesca del total de la población (838,443 habitantes), 239,625 habitantes viven sin derechoabiencia.</div>
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Lic. Alfredo Viesca Domínguez</span> -
+            <meta itemprop="datePublished" content="2017-04-21T09:30">21/04/2017 09:30
+          </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Los Determinantes Sociales de la Salud" src="los-determinantes-sociales-de-la-salud/imagen.jpg"></span>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<p><strong>Los determinantes sociales de la salud son las circunstancias en que las personas nacen, crecen, viven, trabajan y envejecen, incluido el sistema de salud.</strong></p>
+
+<p>Esas circunstancias son el resultado de la distribución del dinero, el poder y los recursos a nivel mundial, nacional y local, que depende a su vez de las políticas adoptadas</p>
+
+<blockquote>
+  <p><strong>Los determinantes sociales de la salud explican la mayor parte de las inequidades sanitarias,</strong> esto es, de las diferencias injustas y evitables observadas en y entre los países en lo que respecta a la situación sanitaria.</p>
+  
+  <p>(OMS) Organización Mundial de la Salud.</p>
+</blockquote>
+
+<p>A partir de estas consideraciones, los análisis de las enfermedades que más afectan a la población en México así como de los  estados y municipios donde estas se presentan, tendrá que fundamentarse en una visión más amplia, es decir, no solo en el estudio de la afectación individual sino colectiva, y sobre todo priorizar los determinantes sociales del proceso salud-enfermedad.</p>
+
+<p><strong>En el caso de México y en específico del estado de Coahuila, hay cuando menos dos aspectos importantes que analizar:</strong></p>
+
+<p><strong>Las principales causas de enfermedad y Las principales causas de defunción.</strong></p>
+
+<p>A nivel nacional los datos son los siguientes:</p>
+
+<p>De acuerdo con los datos de la <strong>Secretaría de Salud</strong> en 2015, dentro de las veinte principales causas de enfermedad en el país destacan tres:</p>
+
+<h3>Principales causas de enfermendad en México</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Causas de enfermedad en 2015</th>
+  <th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Infecciones respiratorias agudas</td>
+  <td align="right">23;755,831</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Infecciones intestinales por otros organismos y las mal definidas</td>
+  <td align="right">4;899,424</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>Infección de vías urinarias</td>
+  <td align="right">4;098,042</td>
+</tr>
+</tbody>
+</table>
+
+<p>FUENTE: <a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/nacional/grupo_edad.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015</a></p>
+
+<h3>Principales causas de enfermendad en Coahuila</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Causas de enfermedad en 2015</th>
+  <th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Infecciones respiratorias agudas</td>
+  <td align="right">654,892</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Infecciones intestinales por otros organismos y las mal definidas</td>
+  <td align="right">146,147</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>Infección de vías urinarias</td>
+  <td align="right">45,954</td>
+</tr>
+</tbody>
+</table>
+
+<p>FUENTE: <a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/estatal_institucion/coah.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015</a></p>
+
+<p><strong>Un aspecto importante en el análisis de estos padecimientos es no solo el número, sino también las condiciones sociales, económicas y culturales en que las personas enferman, solo por mencionar algunos determinantes sociales.</strong></p>
+
+<p>En cuanto a las defunciones, de acuerdo con la información del <strong>INEGI,</strong> en 2015 las principales causas de mortalidad en México fueron:</p>
+
+<h3>Principales causas de mortalidad en México</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Causas de mortalidad en 2015</th>
+  <th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1.0</td>
+  <td>Enfermedades del corazón</td>
+  <td align="right">128,731</td>
+</tr>
+<tr>
+  <td align="right">1.1</td>
+  <td>Enfermedades isquémicas del corazón</td>
+  <td align="right">88,144</td>
+</tr>
+<tr>
+  <td align="right">2.0</td>
+  <td>Diabetes Mellitus</td>
+  <td align="right">98,521</td>
+</tr>
+<tr>
+  <td align="right">3.0</td>
+  <td>Tumores Malignos</td>
+  <td align="right">79,519</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: INEGI. Dirección de Estadísticas Sociodemográficas; Estadísticas Vitales. Principales causas de mortalidad por residencia habitual, sexo y grupo de edad del fallecido.</p>
+
+<p>En el caso del estado de <strong>Coahuila, la Secretaría de Salud</strong> informa en su sitio de internet que en 2015 las principales causas de defunción son las siguientes:</p>
+
+<h3>Principales causas de mortalidad en Coahuila</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Causas de mortalidad en 2015</th>
+  <th align="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Infecciones respiratorias agudas</td>
+  <td align="right">654,892</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Infecciones intestinales por otros organismos y las mal definidas</td>
+  <td align="right">146,147</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>Infección de vías urinarias</td>
+  <td align="right">45,954</td>
+</tr>
+</tbody>
+</table>
+
+<p>FUENTE: <a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/estatal_institucion/coah.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015</a></p>
+
+<p>En este caso también <strong>es importante saber las condiciones en las que se ven inmersas las personas en el proceso de salud-enfermedad,</strong> por ejemplo, identificar los aspectos fundamentales en la detección del cáncer de mama o cervicouterino, es decir, cuántas mujeres pudieron tener acceso a la detención oportuna del cáncer en función de sus características sociales y demográficas y como esto pudo afectar o no para salvar su vida.</p>
+
+<p><strong>Aspectos importantes como el lugar donde habitan,</strong> es decir,  si es en el área rural o urbana, <strong>el grado de escolaridad, su estrato socioeconómico y si tiene derechohabiencia o no, etc. resultan ser elementos clave en el análisis.</strong></p>
+
+<p>Con respecto a este último dato, en el estado de Coahuila <strong>la Secretaría de Salud informa que en 2016 existían 905,816 personas sin derechohabiencia,</strong> más específicamente en la jurisdicción número 6 que comprende los municipios de Torreón, Matamoros y Viesca del total de la población en estos tres municipio, (838,443 habitantes), 239,625 habitantes viven sin derechoabiencia.</p>
+
+<p>En este sentido <strong>la reflexión debería llevar a preguntarse</strong> en primer lugar lo siguiente, <strong>en caso de enfermar, ¿a dónde acuden estas personas?,</strong> si no tienen ningún tipo de derechohabiencia se debe a que <strong>¿no tienen un empleo formal?</strong> Y si esto es así, <strong>¿cual será el escenario para estas personas en el futuro inmediato y que políticas se deberán implementar para remediar en el corto, mediano y largo plazo la situación de estas personas?</strong></p>
+
+<p><strong>El caso de la derechohabiencia es solo uno de los determinantes sociales que afecta de manera negativa la salud de los habitantes del estado y de los municipios mencionados,</strong> sin embargo, existen otros igual de importantes y conocerlos ayudará a contar con un diagnóstico general que permita establecer una política pública que no solo sea eficaz sino también eficiente.</p>
+
+<p>Esto es solo una parte de la realidad en donde la vida de muchas personas está en juego, esos son los retos en lo inmediato y se necesitan de acciones de gran calado para la atención y solución de este tipo de problemas que está afectando a un buen número de personas.</p>
+
+<blockquote>
+  <p>La justicia social es una cuestión de vida o muerte. Afecta al modo en que vive la gente, a la probabilidad de enfermar y al riesgo de morir de forma prematura.</p>
+  
+  <p>Dentro de cada país hay grandes diferencias sanitarias estrechamente ligadas al grado de desfavorecimiento social.</p>
+  
+  <p>Esas desigualdades y esa inequidad sanitaria, que podría evitarse, son el resultado de la situación en que la población crece, vive, trabaja y envejece, y del tipo de sistemas que se utilizan para combatir la enfermedad. A su vez, las condiciones en que la gente vive y muere están determinadas por fuerzas políticas, sociales y económicas.</p>
+  
+  <p>Comisión sobre Determinantes Sociales de la Salud</p>
+  
+  <p>Organización Mundial de la Salud (OMS)</p>
+</blockquote>
+
+<h3>Bibliografía</h3>
+
+<ul>
+<li>Comisión sobre Determinantes Sociales de la Salud <a href="http://apps.who.int/iris/bitstream/10665/69830/1/WHO_IER_CSDH_08.1_spa.pdf">Resumen analítico del informe final</a></li>
+<li><a href="http://www.who.int/social_determinants/es/">Organización Mundial de la Salud (Concepto)</a></li>
+<li><a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/estatal_institucion/coah.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015 - Estatal</a></li>
+<li><a href="http://www.epidemiologia.salud.gob.mx/anuario/2015/principales/nacional/grupo_edad.pdf">SUIVE/DGE/Secretaría de Salud/Estados Unidos Mexicanos 2015 - Por grupo de edad</a></li>
+<li><a href="http://www.saludcoahuila.gob.mx/">Secretaría de Salud de Coahuila</a></li>
+</ul>
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Flos-determinantes-sociales-de-la-salud.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript común -->
+<script type="text/javascript" src="../vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<!-- Javascript: Inicia  -->
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<!-- Javascript: Termina -->
+<!-- Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
