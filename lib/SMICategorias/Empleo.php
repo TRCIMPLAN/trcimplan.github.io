@@ -198,20 +198,20 @@ class Empleo extends \SMIBase\PublicacionWeb {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Salario Promedio Mensual para Trabajadores de Tiempo Completo</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,282.40</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,698.27</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,896.23</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 4,872.94</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,896.38</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,775.10</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,966.48</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,336.03</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 3,672.46</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,426.66</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Condiciones Críticas de Ocupación</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">11.59 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">12.45 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">9.21 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">16.67 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">12.42 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">30.39 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">10.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.15 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">10.50 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">9.12 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
