@@ -31,6 +31,8 @@ class ConoceALosConsejerosDelIMPLAN20142015 extends \Base\PublicacionSchemaBlogP
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Conoce a los Consejeros del IMPLAN 2014-2015';
         $this->autor                      = 'Lic. Adriana Vargas Flores';
@@ -50,7 +52,7 @@ class ConoceALosConsejerosDelIMPLAN20142015 extends \Base\PublicacionSchemaBlogP
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase ConoceALosConsejerosDelIMPLAN20142015

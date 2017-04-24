@@ -31,6 +31,8 @@ class PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040 extends \Base
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Presentación del Plan Estratégico Torreón con visión metropolitana 2040';
         $this->autor                      = 'Lic. Adriana Vargas Flores';
@@ -50,7 +52,7 @@ class PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040 extends \Base
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040

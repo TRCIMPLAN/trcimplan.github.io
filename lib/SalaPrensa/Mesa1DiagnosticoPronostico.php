@@ -31,6 +31,8 @@ class Mesa1DiagnosticoPronostico extends \Base\PublicacionSchemaBlogPosting {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Plan Estratégico Metropolitano, Mesa 1: Diagnóstico - Pronóstico';
     //  $this->autor                      = '';
@@ -50,7 +52,7 @@ class Mesa1DiagnosticoPronostico extends \Base\PublicacionSchemaBlogPosting {
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase Mesa1DiagnosticoPronostico

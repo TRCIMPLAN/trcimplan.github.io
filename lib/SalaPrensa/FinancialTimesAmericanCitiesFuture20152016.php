@@ -31,6 +31,8 @@ class FinancialTimesAmericanCitiesFuture20152016 extends \Base\PublicacionSchema
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Torreón 4to lugar en Costo Beneficio de inversión en Ranking del Financial Times - American Cities of the Future 2015-2016';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class FinancialTimesAmericanCitiesFuture20152016 extends \Base\PublicacionSchema
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Empresas', 'Empleo');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase FinancialTimesAmericanCitiesFuture20152016

@@ -31,6 +31,8 @@ class ComunicadoPrensa20150318 extends \Base\PublicacionSchemaBlogPosting {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Comunicado de Prensa 18.3.15';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class ComunicadoPrensa20150318 extends \Base\PublicacionSchemaBlogPosting {
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Gobierno');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase ComunicadoPrensa20150318

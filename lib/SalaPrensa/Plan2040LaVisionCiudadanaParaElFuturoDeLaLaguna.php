@@ -31,6 +31,8 @@ class Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna extends \Base\PublicacionS
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Plan 2040: La visión ciudadana para el futuro de la Laguna';
     //  $this->autor                      = '';
@@ -50,7 +52,7 @@ class Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna extends \Base\PublicacionS
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna

@@ -31,6 +31,8 @@ class PlataformaTrcImplanGobMxPremioIclei extends \Base\PublicacionSchemaBlogPos
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Plataforma trcimplan.gob.mx Premio ICLEI';
     //  $this->autor                      = '';
@@ -50,7 +52,7 @@ class PlataformaTrcImplanGobMxPremioIclei extends \Base\PublicacionSchemaBlogPos
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase PlataformaTrcImplanGobMxPremioIclei

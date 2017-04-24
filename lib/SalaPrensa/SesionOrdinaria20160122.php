@@ -31,6 +31,8 @@ class SesionOrdinaria20160122 extends \Base\PublicacionSchemaBlogPosting {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Realiza IMPLAN Sesión Ordinaria del Consejo Directivo del Instituto';
         $this->autor                      = 'Lic. Adriana Vargas Flores';
@@ -50,7 +52,7 @@ class SesionOrdinaria20160122 extends \Base\PublicacionSchemaBlogPosting {
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase SesionOrdinaria20160122

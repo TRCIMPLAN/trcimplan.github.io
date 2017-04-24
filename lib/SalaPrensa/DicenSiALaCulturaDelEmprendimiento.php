@@ -31,6 +31,8 @@ class DicenSiALaCulturaDelEmprendimiento extends \Base\PublicacionSchemaBlogPost
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Dicen sí a la cultura del emprendimiento';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class DicenSiALaCulturaDelEmprendimiento extends \Base\PublicacionSchemaBlogPost
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Empresas', 'Empleo');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase DicenSiALaCulturaDelEmprendimiento

@@ -31,6 +31,8 @@ class PlanEstrategicoMetropolitano20140911 extends \Base\PublicacionSchemaBlogPo
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Convocatoria del Plan Estratégico Metropolitano';
     //  $this->autor                      = '';
@@ -50,7 +52,7 @@ class PlanEstrategicoMetropolitano20140911 extends \Base\PublicacionSchemaBlogPo
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase PlanEstrategicoMetropolitano20140911

@@ -31,6 +31,8 @@ class ComisionPlaneacionCompetitividad20150819 extends \Base\PublicacionSchemaBl
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Sesión de la Comisión de Planeación y Competitividad';
     //  $this->autor                      = '';
@@ -50,7 +52,7 @@ class ComisionPlaneacionCompetitividad20150819 extends \Base\PublicacionSchemaBl
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase ComisionPlaneacionCompetitividad20150819

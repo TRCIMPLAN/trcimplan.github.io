@@ -31,6 +31,8 @@ class TorreonRecibeTresReconocimientosANivelNacional extends \Base\PublicacionSc
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Torreón recibe tres reconocimientos a nivel nacional';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class TorreonRecibeTresReconocimientosANivelNacional extends \Base\PublicacionSc
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Innovación');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase TorreonRecibeTresReconocimientosANivelNacional

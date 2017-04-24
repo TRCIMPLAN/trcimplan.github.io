@@ -31,6 +31,8 @@ class PlanEstrategicoMetropolitanoSaludLaguna extends \Base\PublicacionSchemaBlo
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN organiza taller para fortalecer el Clúster Salud en La Laguna';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class PlanEstrategicoMetropolitanoSaludLaguna extends \Base\PublicacionSchemaBlo
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Salud');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase PlanEstrategicoMetropolitanoSaludLaguna

@@ -31,6 +31,8 @@ class SesionOrdinaria20160831 extends \Base\PublicacionSchemaBlogPosting {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Presentan evaluación del impacto social y urbano de Ciudad DIF';
         $this->autor                      = 'Lic. Adriana Vargas Flores';
@@ -48,9 +50,9 @@ class SesionOrdinaria20160831 extends \Base\PublicacionSchemaBlogPosting {
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Grupos Vulnerables');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase SesionOrdinaria20160831

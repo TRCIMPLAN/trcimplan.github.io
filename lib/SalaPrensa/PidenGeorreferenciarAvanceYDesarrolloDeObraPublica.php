@@ -31,6 +31,8 @@ class PidenGeorreferenciarAvanceYDesarrolloDeObraPublica extends \Base\Publicaci
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Piden georreferenciar avance y desarrollo de obra pública';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class PidenGeorreferenciarAvanceYDesarrolloDeObraPublica extends \Base\Publicaci
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Infraestructura', 'Finanzas Públicas');
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros');
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase PidenGeorreferenciarAvanceYDesarrolloDeObraPublica

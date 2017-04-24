@@ -31,6 +31,8 @@ class RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza extends \Base\Public
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Realizan mesas de trabajo sobre el Bosque Venustiano Carranza';
         $this->autor                      = 'Lic. Adriana Vargas Flores';
@@ -48,9 +50,9 @@ class RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza extends \Base\Public
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza

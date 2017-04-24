@@ -31,6 +31,8 @@ class IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano extends \Base\Pu
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN inicia transmisiones en vivo con temas de interés ciudadano';
     //~ $this->autor                      = '';
@@ -49,8 +51,8 @@ class IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano extends \Base\Pu
         $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
-        $this->fuentes                    = array('IMPLAN');
-        $this->regiones                   = array('Torreón', 'La Laguna');
+        $this->fuentes                    = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano

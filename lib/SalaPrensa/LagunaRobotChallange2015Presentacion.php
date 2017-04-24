@@ -31,6 +31,8 @@ class LagunaRobotChallange2015Presentacion extends \Base\PublicacionSchemaBlogPo
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN busca hacer de La Laguna “Capital de la Robótica”';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class LagunaRobotChallange2015Presentacion extends \Base\PublicacionSchemaBlogPo
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Competitividad', 'Educación');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('La Laguna');
     } // constructor
 
 } // Clase LagunaRobotChallange2015Presentacion

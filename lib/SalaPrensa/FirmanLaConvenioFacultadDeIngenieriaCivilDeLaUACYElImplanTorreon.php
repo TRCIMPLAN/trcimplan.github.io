@@ -31,6 +31,8 @@ class FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon extends \
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Firman la Convenio Facultad de Ingeniería Civil de la UAC y el IMPLAN Torreón';
     //  $this->autor                      = '';
@@ -48,7 +50,7 @@ class FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon extends \
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Educación');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón');
     } // constructor

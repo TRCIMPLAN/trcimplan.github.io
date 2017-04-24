@@ -31,6 +31,8 @@ class CongresoInternacionalCiudadesTransporte2016 extends \Base\PublicacionSchem
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN Torreón participa en el Congreso Internacional Ciudades y Transporte';
         $this->autor                      = 'Lic. Adriana Vargas Flores';
@@ -48,9 +50,9 @@ class CongresoInternacionalCiudadesTransporte2016 extends \Base\PublicacionSchem
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Movilidad');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase CongresoInternacionalCiudadesTransporte2016

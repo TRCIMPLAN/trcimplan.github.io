@@ -31,6 +31,8 @@ class ComunicadoPrensa20140512 extends \Base\PublicacionSchemaBlogPosting {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Comunicado de Prensa 12.5.14';
         $this->autor                      = 'Lic. Eduardo Holguín Zehfuss';
@@ -50,7 +52,7 @@ class ComunicadoPrensa20140512 extends \Base\PublicacionSchemaBlogPosting {
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase ComunicadoPrensa20140512

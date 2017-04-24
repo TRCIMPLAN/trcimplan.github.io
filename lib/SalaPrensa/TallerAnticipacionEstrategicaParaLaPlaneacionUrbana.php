@@ -31,6 +31,8 @@ class TallerAnticipacionEstrategicaParaLaPlaneacionUrbana extends \Base\Publicac
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN asiste al taller Anticipación Estratégica para la Planeación Urbana';
     //~ $this->autor                      = '';
@@ -48,9 +50,9 @@ class TallerAnticipacionEstrategicaParaLaPlaneacionUrbana extends \Base\Publicac
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array('Bienestar');
-        $this->fuentes                    = array('IMPLAN');
-        $this->regiones                   = array('Torreón', 'La Laguna');
+        $this->categorias                 = array('Movilidad', 'Vialidad');
+        $this->fuentes                    = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase TallerAnticipacionEstrategicaParaLaPlaneacionUrbana

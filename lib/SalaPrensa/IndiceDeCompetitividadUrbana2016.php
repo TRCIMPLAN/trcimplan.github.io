@@ -31,6 +31,8 @@ class IndiceDeCompetitividadUrbana2016 extends \Base\PublicacionSchemaBlogPostin
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Índice de Competitividad Urbana 2016';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class IndiceDeCompetitividadUrbana2016 extends \Base\PublicacionSchemaBlogPostin
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Competitividad', 'Índice de Competitividad Urbana');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase IndiceDeCompetitividadUrbana2016

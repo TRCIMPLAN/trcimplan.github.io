@@ -31,6 +31,8 @@ class PlanEstrategicoMetropolitanoMovilidadNoMotorizada extends \Base\Publicacio
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN Torreón impulsa la creación del Plan de Movilidad no Motorizada';
     //  $this->autor                      = '';
@@ -48,9 +50,9 @@ class PlanEstrategicoMetropolitanoMovilidadNoMotorizada extends \Base\Publicacio
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Movilidad');
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase PlanEstrategicoMetropolitanoMovilidadNoMotorizada

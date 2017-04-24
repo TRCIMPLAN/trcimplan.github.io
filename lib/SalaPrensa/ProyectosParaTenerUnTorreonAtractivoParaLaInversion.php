@@ -31,6 +31,8 @@ class ProyectosParaTenerUnTorreonAtractivoParaLaInversion extends \Base\Publicac
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Proyectos para tener un Torreón atractivo para la inversión';
     //  $this->autor                      = '';
@@ -48,7 +50,7 @@ class ProyectosParaTenerUnTorreonAtractivoParaLaInversion extends \Base\Publicac
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Empresas');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón');
     } // constructor
