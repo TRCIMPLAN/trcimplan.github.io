@@ -57,27 +57,27 @@ class PlantillaConfig {
     public function __construct() {
         // Vínculos CSS a archivos locales o URLs remotas
         $this->vinculos_css   = array();
-        $this->vinculos_css[] = 'vendor/bootstrap/css/bootstrap.min.css';                             // Bootstap
-        $this->vinculos_css[] = 'vendor/metisMenu/metisMenu.min.css';                                 // Metis Menu
-        $this->vinculos_css[] = 'dist/css/sb-admin-2.min.css';                                        // SBadmin2
-        $this->vinculos_css[] = 'vendor/datatables-plugins/dataTables.bootstrap.css';                 // DataTables
-        $this->vinculos_css[] = 'vendor/morrisjs/morris.css';                                         // MorrisJS
-        $this->vinculos_css[] = 'vendor/font-awesome/css/font-awesome.min.css';                       // Fontawesome
-        $this->vinculos_css[] = 'dist/css/plataforma-de-conocimiento.css';                            // Plataforma del conocimiento
-        $this->vinculos_css[] = 'https://fonts.googleapis.com/css?family=Droid+Sans:400,700';         // Google Fonts
-        $this->vinculos_css[] = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css'; // Carto
+        $this->vinculos_css[] = 'vendor/bootstrap/css/bootstrap.min.css';                                    // Bootstap
+        $this->vinculos_css[] = 'vendor/metisMenu/metisMenu.min.css';                                        // Metis Menu
+        $this->vinculos_css[] = 'vendor/datatables-plugins/dataTables.bootstrap.css';                        // DataTables
+        $this->vinculos_css[] = 'vendor/morrisjs/morris.css';                                                // MorrisJS
+        $this->vinculos_css[] = 'vendor/font-awesome/css/font-awesome.min.css';                              // Fontawesome
+        $this->vinculos_css[] = 'dist/css/sb-admin-2.min.css';                                               // SBadmin2
+        $this->vinculos_css[] = 'dist/css/plataforma-de-conocimiento.css';                                   // Plataforma del conocimiento
+        $this->vinculos_css[] = 'http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700'; // Google Fonts: Noto Sans y Roboto Condensed
+        $this->vinculos_css[] = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css';        // Carto
         // Vínculos Javascript a archivos locales o URLs remotas
         $this->vinculos_js    = array();
-        $this->vinculos_js[]  = 'vendor/jquery/jquery.min.js';                                        // jQuery
-        $this->vinculos_js[]  = 'vendor/bootstrap/js/bootstrap.min.js';                               // Bootstrap
-        $this->vinculos_js[]  = 'vendor/metisMenu/metisMenu.min.js';                                  // Metis menu
-        $this->vinculos_js[]  = 'dist/js/sb-admin-2.min.js';                                          // SBadmin2
-        $this->vinculos_js[]  = 'vendor/datatables/js/jquery.dataTables.min.js';                      // DataTables
-        $this->vinculos_js[]  = 'vendor/datatables-plugins/dataTables.bootstrap.min.js';              // DataTables
-        $this->vinculos_js[]  = 'vendor/datatables-responsive/dataTables.responsive.js';              // DataTables
-        $this->vinculos_js[]  = 'vendor/raphael/raphael.min.js';                                      // MorrisJS
-        $this->vinculos_js[]  = 'vendor/morrisjs/morris.min.js';                                      // MorrisJS
-        $this->vinculos_js[]  = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js';             // Carto
+        $this->vinculos_js[]  = 'vendor/jquery/jquery.min.js';                                               // jQuery
+        $this->vinculos_js[]  = 'vendor/bootstrap/js/bootstrap.min.js';                                      // Bootstrap
+        $this->vinculos_js[]  = 'vendor/metisMenu/metisMenu.min.js';                                         // Metis menu
+        $this->vinculos_js[]  = 'vendor/datatables/js/jquery.dataTables.min.js';                             // DataTables
+        $this->vinculos_js[]  = 'vendor/datatables-plugins/dataTables.bootstrap.min.js';                     // DataTables
+        $this->vinculos_js[]  = 'vendor/datatables-responsive/dataTables.responsive.js';                     // DataTables
+        $this->vinculos_js[]  = 'vendor/raphael/raphael.min.js';                                             // MorrisJS
+        $this->vinculos_js[]  = 'vendor/morrisjs/morris.min.js';                                             // MorrisJS
+        $this->vinculos_js[]  = 'dist/js/sb-admin-2.min.js';                                                 // SBadmin2
+        $this->vinculos_js[]  = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js';                    // Carto
         // Mensaje oculto
         $this->mensaje_oculto = <<<FINAL
 <!-- ===================================================================================================
