@@ -25,45 +25,34 @@ namespace Blog;
 /**
  * Clase Balance2015RepunteDeLaCompetitividadEnLaLaguna
  */
-class Balance2015RepunteDeLaCompetitividadEnLaLaguna extends \Base\Publicacion {
+class Balance2015RepunteDeLaCompetitividadEnLaLaguna extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Balance 2015: repunte de la competitividad en La Laguna';
-        $this->autor           = 'Lic. Rodrigo González Morales';
-        $this->fecha           = '2016-01-04T11:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'balance-2015-repunte-de-la-competitividad-en-la-laguna';
-        $this->imagen          = 'balance-2015-repunte-de-la-competitividad-en-la-laguna/imagen.jpg';
-        $this->imagen_previa   = 'balance-2015-repunte-de-la-competitividad-en-la-laguna/imagen-previa.jpg';
+        $this->nombre                     = 'Balance 2015: repunte de la competitividad en La Laguna';
+        $this->autor                      = 'Lic. Rodrigo González Morales';
+        $this->fecha                      = '2016-01-04T11:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'balance-2015-repunte-de-la-competitividad-en-la-laguna';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Indicadores sociales, económicos y demográficos muestran la tendencia de recuperación de la competitividad de la Zona Metropolitana.';
-        $this->claves          = 'IMPLAN, Torreon, Competitividad, Indicadores, Recuperacion';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
+        $this->descripcion                = 'Indicadores sociales, económicos y demográficos muestran la tendencia de recuperación de la competitividad de la Zona Metropolitana.';
+        $this->claves                     = 'IMPLAN, Torreon, Competitividad, Indicadores, Recuperacion';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
+        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/Balance2015RepunteDeLaCompetitividadEnLaLaguna.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Bienestar', 'Competitividad', 'Mercados');
-        $this->fuentes         = array('CIDE', 'IMCO', 'INEGI');
-        $this->regiones        = array('Torreón', 'La Laguna');
+        $this->categorias                 = array('Bienestar', 'Competitividad', 'Mercados');
+        $this->fuentes                    = array('CIDE', 'IMCO', 'INEGI');
+        $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
 
 } // Clase Balance2015RepunteDeLaCompetitividadEnLaLaguna

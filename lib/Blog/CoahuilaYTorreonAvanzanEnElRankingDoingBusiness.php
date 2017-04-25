@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web -
+ * TrcIMPLAN Sitio Web - Coahuila y Torreón avanzan en el ranking Doing Business
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -25,45 +25,34 @@ namespace Blog;
 /**
  * Clase CoahuilaYTorreonAvanzanEnElRankingDoingBusiness
  */
-class CoahuilaYTorreonAvanzanEnElRankingDoingBusiness extends \Base\Publicacion {
+class CoahuilaYTorreonAvanzanEnElRankingDoingBusiness extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Coahuila y Torreón avanzan en el ranking Doing Business';
-        $this->autor           = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha           = '2016-09-28T15:50';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'coahuila-y-torreon-avanzan-en-el-ranking-doing-business';
-        $this->imagen          = 'coahuila-y-torreon-avanzan-en-el-ranking-doing-business/imagen.jpg';
-        $this->imagen_previa   = 'coahuila-y-torreon-avanzan-en-el-ranking-doing-business/imagen-previa.jpg';
+        $this->nombre                     = 'Coahuila y Torreón avanzan en el ranking Doing Business';
+        $this->autor                      = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha                      = '2016-09-28T15:50';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'coahuila-y-torreon-avanzan-en-el-ranking-doing-business';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'En el reporte Doing Business en México 2016 Coahuila califica en el lugar 17 de los 32 estados de la República. El estado, evaluado a través del municipio de Torreón, destacó en el indicador Cumplimiento de contratos ocupando el séptimo lugar del país.';
-        $this->claves          = 'IMPLAN, Torreon, ';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
+        $this->descripcion                = 'En el reporte Doing Business en México 2016 Coahuila califica en el lugar 17 de los 32 estados de la República. El estado, evaluado a través del municipio de Torreón, destacó en el indicador Cumplimiento de contratos ocupando el séptimo lugar del país.';
+        $this->claves                     = 'IMPLAN, Torreon, ';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
+        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CoahuilaYTorreonAvanzanEnElRankingDoingBusiness.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Doing Business');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Coahuila');
+        $this->categorias                 = array('Doing Business');
+        $this->fuentes                    = array();
+        $this->regiones                   = array('Torreón', 'Coahuila');
     } // constructor
 
 } // Clase CoahuilaYTorreonAvanzanEnElRankingDoingBusiness

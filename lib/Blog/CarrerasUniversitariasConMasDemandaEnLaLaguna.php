@@ -31,6 +31,8 @@ class CarrerasUniversitariasConMasDemandaEnLaLaguna extends \Base\PublicacionSch
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Carreras universitarias con más demanda en La Laguna';
         $this->autor                      = 'Lic. Adriana Vargas Flores';

@@ -31,6 +31,8 @@ class BalanceDelTercerTrimestreEnLaEconomiaDeLaLaguna extends \Base\PublicacionS
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Balance del tercer trimestre en la economía de La Laguna';
         $this->autor                      = 'Lic. Alicia Valdez Ibarra';
