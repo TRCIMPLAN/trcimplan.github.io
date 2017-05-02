@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * TrcIMPLAN Sitio Web - Economía Estable
  *
  * Copyright (C) 2014 IMPLAN Torreón
@@ -17,53 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase EconomiaEstable
  */
-class EconomiaEstable extends \Base\Publicacion {
+class EconomiaEstable extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Economía Estable';
-        $this->autor           = 'Lic. Rodrigo González Morales';
-        $this->fecha           = '2014-06-24T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'economia-estable';
-        $this->imagen          = 'economia-estable/imagen.jpg';
-        $this->imagen_previa   = 'economia-estable/imagen-previa.jpg';
+        $this->nombre                     = 'Economía Estable';
+        $this->autor                      = 'Lic. Rodrigo González Morales';
+        $this->fecha                      = '2014-06-24T08:05';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'economia-estable';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.';
-        $this->claves          = 'IMPLAN, Torreon, Macroeconomia, Credito, Mercado, Hipotecario, Cartera Vencida, PIB, Desempleo';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/EconomiaEstable.html';
+        $this->descripcion                = 'Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.';
+        $this->claves                     = 'IMPLAN, Torreon, Macroeconomia, Credito, Mercado, Hipotecario, Cartera Vencida, PIB, Desempleo';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/Blog/EconomiaEstable.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Macroeconomía', 'Empleo', 'Empresas');
-        $this->fuentes         = array('Comisión Nacional Bancaria y de Valores (CNBV)', 'INEGI');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias                 = array('Macroeconomía', 'Empleo', 'Empresas');
+        $this->fuentes                    = array('Comisión Nacional Bancaria y de Valores (CNBV)', 'INEGI');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase EconomiaEstable

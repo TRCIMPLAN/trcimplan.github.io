@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Central - El fuerte crecimiento del sector automotriz en La Laguna
+ * TrcIMPLAN Sitio Web - El fuerte crecimiento del sector automotriz en La Laguna
  *
  * Copyright (C) 2015 Guillermo Valdes Lozano
  *
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Blog;
@@ -25,45 +25,34 @@ namespace Blog;
 /**
  * Clase ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna
  */
-class ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna extends \Base\Publicacion {
+class ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'El fuerte crecimiento del sector automotriz en La Laguna';
-        $this->autor           = array('Lic. Alicia Valdez Ibarra', 'Lic. Adriana Vargas Flores');
-        $this->fecha           = '2015-10-06T12:15';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna';
-        $this->imagen          = 'el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna/imagen.jpg';
-        $this->imagen_previa   = 'el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna/imagen-previa.jpg';
+        $this->nombre                     = 'El fuerte crecimiento del sector automotriz en La Laguna';
+        $this->autor                      = array('Lic. Alicia Valdez Ibarra', 'Lic. Adriana Vargas Flores');
+        $this->fecha                      = '2015-10-06T12:15';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La participación económica de la industria automotriz en la Comarca Lagunera ha crecido aceleradamente, tan sólo en Torreón el personal ocupado en las distintas ramas de este sector representa más de 20% del empleo total del municipio.';
-        $this->claves          = 'IMPLAN, Torreon, Industria Automotriz, La Laguna';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'La participación económica de la industria automotriz en la Comarca Lagunera ha crecido aceleradamente, tan sólo en Torreón el personal ocupado en las distintas ramas de este sector representa más de 20% del empleo total del municipio.';
+        $this->claves                     = 'IMPLAN, Torreon, Industria Automotriz, La Laguna';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Empleo', 'Empresas',);
-        $this->fuentes         = array('INEGI');
-        $this->regiones        = array('Torreón', 'La Laguna');
+        $this->categorias                 = array('Empleo', 'Empresas',);
+        $this->fuentes                    = array('INEGI');
+        $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
 
 } // Clase ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna

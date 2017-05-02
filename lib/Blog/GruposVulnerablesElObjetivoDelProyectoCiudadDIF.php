@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Grupos vulnerables: el objetivo del proyecto Ciudad DIF
+ * TrcIMPLAN Sitio Web - Grupos vulnerables: el objetivo del proyecto Ciudad DIF
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -25,45 +25,34 @@ namespace Blog;
 /**
  * Clase GruposVulnerablesElObjetivoDelProyectoCiudadDIF
  */
-class GruposVulnerablesElObjetivoDelProyectoCiudadDIF extends \Base\Publicacion {
+class GruposVulnerablesElObjetivoDelProyectoCiudadDIF extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Grupos vulnerables: el objetivo del proyecto Ciudad DIF';
-        $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2016-10-06T12:30';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif';
-        $this->imagen          = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif/imagen.jpg';
-        $this->imagen_previa   = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif/imagen-previa.jpg';
+        $this->nombre                     = 'Grupos vulnerables: el objetivo del proyecto Ciudad DIF';
+        $this->autor                      = 'Lic. Adriana Vargas Flores';
+        $this->fecha                      = '2016-10-06T12:30';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El actual crecimiento de la ciudad demanda un aumento en la infraestructura que permita la integración social de todos los grupos vulnerables cuya población ha ido creciendo en los últimos años.';
-        $this->claves          = 'IMPLAN, Torreon, Grupos Vulnerables, Ciudad DIF, Adutos Mayores, Migrantes';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'El actual crecimiento de la ciudad demanda un aumento en la infraestructura que permita la integración social de todos los grupos vulnerables cuya población ha ido creciendo en los últimos años.';
+        $this->claves                     = 'IMPLAN, Torreon, Grupos Vulnerables, Ciudad DIF, Adutos Mayores, Migrantes';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/GruposVulnerablesElObjetivoDelProyectoCiudadDIF.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Bienestar', 'Grupos Vulnerables', 'Salud');
-        $this->fuentes         = array('IMPLAN');
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array('Bienestar', 'Grupos Vulnerables', 'Salud');
+        $this->fuentes                    = array('IMPLAN');
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase GruposVulnerablesElObjetivoDelProyectoCiudadDIF
