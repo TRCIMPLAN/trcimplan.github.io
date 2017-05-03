@@ -27,35 +27,6 @@ namespace Configuracion;
  */
 class PaginaInicialConfig extends \Base\Plantilla {
 
-    // public $sitio_titulo;
-    // public $sitio_url;
-    // public $rss;
-    // public $favicon;
-    // public $propio_css;
-    // public $en_raiz;
-    // public $para_compartir;
-    // public $autor;
-    // public $mensaje_oculto;
-    // public $pie;
-    // protected $google_analytics;
-    // protected $google_site_verification;
-    // protected $cabecera_bootstrap_css;
-    // protected $cabecera_font_awesome_css;
-    // protected $cabecera_google_fonts_css;
-    // protected $scripts_jquery_css;
-    // protected $scripts_bootstrap_js;
-    // public $titulo;
-    // public $descripcion;
-    // public $claves;
-    // public $directorio;
-    // public $archivo_ruta;
-    // public $imagen_previa_ruta;
-    // public $icono;
-    // public $navegacion;
-    // public $contenido;
-    // public $mapa_inferior;
-    // public $javascript;
-    // public $contenido_en_renglon;
     public $imprentas;                        // Arreglo con rutas a las clases de ImprentaPublicaciones, es usado en ultimas_publicaciones
     const   ULTIMAS_PUBLICACIONES_LIMITE = 4; // Cantidad límite de últimas publicaciones
 
@@ -65,16 +36,15 @@ class PaginaInicialConfig extends \Base\Plantilla {
     public function __construct() {
         parent::__construct();
         // Propiedades para la página inicial
-        $this->en_raiz                  = true;
-        $this->titulo                   = 'IMPLAN Torreón';
-        $this->autor                    = 'IMPLAN Torreón';
-        $this->descripcion              = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.';
-        $this->claves                   = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
-        $this->directorio               = '.';
-        $this->archivo_ruta             = "index.html";
-        $this->imagen_previa_ruta       = 'imagenes/imagen-previa.jpg';
-        $this->contenido_en_renglon     = FALSE;
-        $this->google_site_verification = '';
+        $this->en_raiz              = true;
+        $this->titulo               = 'IMPLAN Torreón';
+        $this->autor                = 'IMPLAN Torreón';
+        $this->descripcion          = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.';
+        $this->claves               = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
+        $this->directorio           = '.';
+        $this->archivo_ruta         = "index.html";
+        $this->imagen_previa_ruta   = 'imagenes/imagen-previa.jpg';
+        $this->contenido_en_renglon = FALSE;
     } // constructor
 
     /**

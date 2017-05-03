@@ -27,14 +27,14 @@ namespace Configuracion;
  */
 class PlantillaConfig {
 
-    public $sitio_titulo    = 'IMPLAN Torreón';              // Título del sitio
-    public $sitio_url       = 'http://www.trcimplan.gob.mx'; // Sin diagonal al final
-    public $rss             = 'rss.xml';                     // Archivo con la sindicalización (RSS Feed)
-    public $favicon         = 'imagenes/favicon.png';        // Archivo favicon
-    public $propio_css      = 'dist/css/trcimplan.css';      // CSS propio de este sitio web
-    public $en_raiz         = FALSE;                         // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
-    public $para_compartir  = TRUE;                          // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
-    public $autor           = 'TrcIMPLAN Staff';             // Autor por defecto
+    public $sitio_titulo    = 'IMPLAN Torreón';                // Título del sitio
+    public $sitio_url       = 'http://www.trcimplan.gob.mx';   // Sin diagonal al final
+    public $rss             = 'rss.xml';                       // Archivo con la sindicalización (RSS Feed)
+    public $favicon         = 'imagenes/apple-touch-icon.png'; // Archivo favicon
+    public $propio_css      = 'dist/css/trcimplan.css';        // CSS propio de este sitio web
+    public $en_raiz         = FALSE;                           // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
+    public $para_compartir  = TRUE;                            // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
+    public $autor           = 'TrcIMPLAN Staff';               // Autor por defecto
     public $mensaje_oculto;
     public $pie;
     protected $google_analytics;
