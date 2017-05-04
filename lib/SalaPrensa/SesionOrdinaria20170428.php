@@ -1,6 +1,6 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Zonificacion CU 1.1
+/**
+ * TrcIMPLAN Sitio Web - SesionOrdinaria20170428
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,12 +20,12 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SIG;
+namespace SalaPrensa;
 
 /**
- * Clase ZonificacionCU11
+ * Clase SesionOrdinaria20170428
  */
-class ZonificacionCU11 extends \Base\PublicacionSchemaArticle {
+class SesionOrdinaria20170428 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -34,25 +34,27 @@ class ZonificacionCU11 extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Zonificación CU1.1';
-    //~ $this->autor                      = '';
-        $this->fecha                      = '2014-11-18T00:00';
+        $this->nombre                     = 'Título';
+        $this->autor                      = 'Autor'; // Puede ser un arreglo de textos
+        $this->fecha                      = '2017-00-00T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = 'zonificacion-cu11';
+        $this->archivo                    = 'archivo'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Zonificación Norma CU1.1';
-        $this->claves                     = 'IMPLAN, Torreon, SIG, Zonificacion Norma CU1.1';
+        $this->descripcion                = 'Descripción.';
+        $this->claves                     = 'IMPLAN, Torreon, ';
         // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Información Geográfica > Zonificación';
+        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SIG/ZonificacionCU11.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20170428.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
+        $this->para_compartir             = TRUE;
+        // Para el Organizador
+        $this->categorias                 = array();
+        $this->fuentes                    = array();
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
-} // Clase ZonificacionCU11
+} // Clase SesionOrdinaria20170428
 
 ?>

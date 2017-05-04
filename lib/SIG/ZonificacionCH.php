@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN Sitio Web - Zonificación CH
  *
- * Copyright (C) 2015 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,44 +17,40 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SIG;
 
 /**
  * Clase ZonificacionCH
  */
-class ZonificacionCH extends \Base\Publicacion {
+class ZonificacionCH extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre           = 'Zonificación CH';
-     // $this->autor            = 'Autor';
-        $this->fecha            = '2014-11-18';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'zonificacion-ch';
-     // $this->imagen_previa    = 'zonificacion-ch/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-ch/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Zonificación Norma CH';
-        $this->claves           = 'IMPLAN, Torreon, SIG';
-        $this->categorias       = array('Zonificación');
-        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
-        $this->directorio       = 'sig';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu      = 'Información Geográfica > Zonificación';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'revisar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = false;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionCH.md');
-     // $this->javascript       = '';
+        // Ejecutar constructor en el padre
+        parent::__construct();
+        // Título, autor y fecha
+        $this->nombre                     = 'Zonificación CH';
+    //~ $this->autor                      = '';
+        $this->fecha                      = '2014-11-18T00:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'zonificacion-ch';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion                = 'Zonificación Norma CH.';
+        $this->claves                     = 'IMPLAN, Torreon, SIG, Zonificacion Norma CH';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Información Geográfica > Zonificación';
+        // Ruta al archivo markdown con el contenido
+        $this->contenido_archivo_markdown = 'lib/SIG/ZonificacionCH.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = FALSE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase ZonificacionCH
