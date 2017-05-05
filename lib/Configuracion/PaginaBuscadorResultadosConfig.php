@@ -34,7 +34,7 @@ class PaginaBuscadorResultadosConfig extends \Base\Plantilla {
         // Ejecutar constructor del padre
         parent::__construct();
         // Definir propiedades
-        $this->en_raiz      = true;
+        $this->en_raiz      = TRUE;
         $this->titulo       = 'Resultados de la búsqueda en Google';
         $this->descripcion  = 'Resultados de la búsqueda en Google.';
         $this->claves       = 'Resultados, Buscador';
@@ -49,7 +49,7 @@ class PaginaBuscadorResultadosConfig extends \Base\Plantilla {
      */
     public function html() {
         // Indicar al padre que no queremos encerrar el contenido con row y cuerpo
-        $this->contenido_en_renglon = false;
+        $this->contenido_en_renglon = FALSE;
         // Navegacion
         $this->navegacion          = new \Base\Navegacion();
         $this->navegacion->en_raiz = $this->en_raiz;

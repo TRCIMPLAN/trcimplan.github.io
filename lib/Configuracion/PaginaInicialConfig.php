@@ -36,7 +36,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
     public function __construct() {
         parent::__construct();
         // Propiedades para la página inicial
-        $this->en_raiz              = true;
+        $this->en_raiz              = TRUE;
         $this->titulo               = 'IMPLAN Torreón';
         $this->autor                = 'IMPLAN Torreón';
         $this->descripcion          = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.';
@@ -134,28 +134,28 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $js[] = '  // Cargar mapa IBC Torreón cuando esté lista la página';
         $js[] = '  $(window).load(function() {';
         $js[] = sprintf('    cartodb.createVis(\'IBCTorreonMapa\', \'%s\', {', IBCTorreonConfig::LIMITES);
-        $js[] = '      shareable: false,';
-        $js[] = '      title: true,';
-        $js[] = '      description: true,';
-        $js[] = '      search: false,';
-        $js[] = '      scrollwheel: false,';
-        $js[] = '      infowindow: true,';
-        $js[] = '      fullscreen: true';
+        $js[] = '      shareable: FALSE,';
+        $js[] = '      title: TRUE,';
+        $js[] = '      description: TRUE,';
+        $js[] = '      search: FALSE,';
+        $js[] = '      scrollwheel: FALSE,';
+        $js[] = '      infowindow: TRUE,';
+        $js[] = '      fullscreen: TRUE';
         $js[] = '    })';
         $js[] = '    .done(function(vis, layers) {';
         $js[] = '      // Capa colonias';
         $js[] = '      var colonias_capa = layers[1];';
-        $js[] = '      colonias_capa.setInteraction(true);';
-    //  $js[] = '      // Ajustes en el mapa';
-    //  $js[] = '      var map = vis.getNativeMap();';
-    //  $js[] = '      map.setZoom(14);';
+        $js[] = '      colonias_capa.setInteraction(TRUE);';
+        $js[] = '      // Ajustes en el mapa';
+        $js[] = '      var map = vis.getNativeMap();';
+        $js[] = '      map.setZoom(14);';
         $js[] = '    })';
         $js[] = '  });';
         $this->javascript[] = implode("\n", $js);
     } // ibc
 
     /**
-     * Aviso elección de consejeros 2015
+     * Aviso
      */
     protected function aviso() {
         $this->contenido[]  = '  <section id="aviso">';
@@ -185,7 +185,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
     protected function ultimas_publicaciones() {
         // Iniciar concentrador
         $concentrador          = new \Base\VinculosDetallados();
-        $concentrador->en_raiz = true;
+        $concentrador->en_raiz = TRUE;
         // Iniciar recolector
         $recolector = new \Base\Recolector();
         $recolector->agregar_publicaciones_de_imprentas($this->imprentas);
@@ -195,8 +195,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         foreach ($recolector->obtener_publicaciones(self::ULTIMAS_PUBLICACIONES_LIMITE) as $publicacion) {
             // Iniciar vínculo
             $vinculo          = new \Base\Vinculo();
-            $vinculo->en_raiz = true;
-            $vinculo->en_otro = false;
+            $vinculo->en_raiz = TRUE;
+            $vinculo->en_otro = FALSE;
             $vinculo->definir_con_publicacion($publicacion);
             // Agregar
             $concentrador->agregar($vinculo);
@@ -245,17 +245,17 @@ FINAL; */
             // Si está definido en \Configuracion\CategoriasConfig
             if ($categoria instanceof \Base\Categoria) {
                 // Sí está definido
-                $categoria->en_raiz = true;
-                $categoria->en_otro = false;
+                $categoria->en_raiz = TRUE;
+                $categoria->en_otro = FALSE;
                 $vinculo            = new \Base\Vinculo($categoria->nombre, $categoria->url(), $categoria->icono, '', $categoria->descripcion);
-                $vinculo->en_raiz   = true;
-                $vinculo->en_otro   = false;
+                $vinculo->en_raiz   = TRUE;
+                $vinculo->en_otro   = FALSE;
                 $concentrador->agregar($vinculo);
             } elseif ($categorias_config->mostrar_no_definidos) {
                 // No está definido
                 $vinculo          = new \Base\Vinculo($nombre, sprintf('%s.html', \Base\Funciones::caracteres_para_web($nombre)), 'unknown', \Base\ImprentaCategorias::CATEGORIAS_DIR);
-                $vinculo->en_raiz = true;
-                $vinculo->en_otro = false;
+                $vinculo->en_raiz = TRUE;
+                $vinculo->en_otro = FALSE;
                 $concentrador->agregar($vinculo);
             }
         }
