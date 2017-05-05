@@ -27,7 +27,7 @@ namespace SIG;
  *
  * Ha sido descontinuada del menú de navegación. Se crea el archivo con estatus revisar sólo para recibir visitantes con el URL antiguo.
  */
-class AbrirSIG extends \Base\PublicacionSchemaArticle {
+class AbrirSIG extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -36,59 +36,24 @@ class AbrirSIG extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = '';
+        $this->nombre                     = 'Abrir el S.I.G.';
     //~ $this->autor                      = '';
-        $this->fecha                      = '';
+        $this->fecha                      = '2014-07-01T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '';
+        $this->archivo                    = 'abrir-sig';
+        // Imágenes
+        $this->imagen                     = 'introduccion/imagen.jpg';
+        $this->imagen_previa              = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = '';
-        $this->claves                     = '';
+        $this->descripcion                = 'Instrucciones para abrir el Sistema de Información Geográfica.';
+        $this->claves                     = 'IMPLAN, Torreon, SIG, Instrucciones';
         // Opción de navegación a poner como activa
-        $this->nombre_menu                = '';
-        // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SIG/CLASE.md';
+        $this->nombre_menu                = 'Información Geográfica > Mapas de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
-
-        // Título, autor y fecha
-        $this->nombre         = 'Abrir el S.I.G.';
-     // $this->autor          = 'Autor';
-        $this->fecha          = '2014-07-01';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo        = 'abrir-sig';
-        $this->imagen         = 'introduccion/imagen.jpg';
-        $this->imagen_previa  = 'introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion    = 'Instrucciones para abrir el Sistema de Información Geográfica.';
-        $this->claves         = 'IMPLAN, Torreon';
-        $this->categorias     = array();
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio     = 'sig';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu    = 'Información Geográfica';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado         = 'revisar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir = false;
-        // El contenido
-        $this->contenido      = <<<FINAL
-<img class="img-responsive" src="abrir-sig/sig-instrucciones-1.png">
-<img class="img-responsive" src="abrir-sig/sig-instrucciones-2.jpg">
-<img class="img-responsive" src="abrir-sig/sig-instrucciones-3.jpg">
-<a href="http://201.159.104.45:8080/apps/implan2.html" target="_blank"><img class="img-responsive" src="abrir-sig/sig-instrucciones-4.jpg"></a>
-FINAL;
-        // Sin JavaScript
-        $this->javascript     = '';
-        // Para redifusión, si tiene una imagen se usa y después la descripción
-        if ($this->imagen != '') {
-            $this->redifusion = sprintf("<a href=\"%s\"><img src=\"%s\"><br>\n\n%s</a>", "{$this->directorio}/{$this->archivo}.html", $this->imagen, $this->descripcion);
-        } else {
-            $this->redifusion = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
-        }
+        $this->estado                     = 'ignorar';
     } // constructor
 
     /**
@@ -99,6 +64,10 @@ FINAL;
     public function html() {
         // Contenido
         $this->contenido = <<<FINAL
+<img class="img-responsive" src="abrir-sig/sig-instrucciones-1.png">
+<img class="img-responsive" src="abrir-sig/sig-instrucciones-2.jpg">
+<img class="img-responsive" src="abrir-sig/sig-instrucciones-3.jpg">
+<a href="http://201.159.104.45:8080/apps/implan2.html" target="_blank"><img class="img-responsive" src="abrir-sig/sig-instrucciones-4.jpg"></a>
 FINAL;
         // Ejecutar este método en el padre
         return parent::html();

@@ -34,14 +34,14 @@ class SesionOrdinaria20170428 extends \Base\PublicacionSchemaBlogPosting {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Título';
-        $this->autor                      = 'Autor'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2017-00-00T00:00';
+        $this->nombre                     = 'IMPLAN y Medio Ambiente presentan el análisis Calidad del Aire';
+    //~ $this->autor                      = '';
+        $this->fecha                      = '2017-04-28T14:00';
         // El nombre del archivo a crear
-        $this->archivo                    = 'archivo'; // En minúsculas, sin espacios, use guiones, letras y números
+        $this->archivo                    = '2017-04-28-sesion-ordinaria';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Descripción.';
-        $this->claves                     = 'IMPLAN, Torreon, ';
+        $this->descripcion                = 'El Instituto Municipal de Planeación y Competitividad de Torreón llevó a cabo el pasado viernes 28 de abril su 4 Sesión de Consejo Directivo, con la presentación del tema Calidad del Aire, en conjunto con la Dirección General de Medio Ambiente de Torreón.';
+        $this->claves                     = 'IMPLAN, Torreon, Sesion Ordinaria, Medio Ambiente, Calidad del Aire, Contaminacion';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
@@ -50,9 +50,11 @@ class SesionOrdinaria20170428 extends \Base\PublicacionSchemaBlogPosting {
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones                   = array('Torreón', 'La Laguna');
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                     = 'revisar';
     } // constructor
 
 } // Clase SesionOrdinaria20170428

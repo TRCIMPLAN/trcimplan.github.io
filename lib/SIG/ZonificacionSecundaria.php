@@ -27,7 +27,7 @@ namespace SIG;
  *
  * No crea archivo. Es para poner la opción en index.html
  */
-class ZonificacionSecundaria extends \Base\PublicacionSchemaArticle {
+class ZonificacionSecundaria extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -40,17 +40,13 @@ class ZonificacionSecundaria extends \Base\PublicacionSchemaArticle {
     //~ $this->autor                      = '';
         $this->fecha                      = '2014-11-18T08:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '';
+        $this->archivo                    = ''; // No hay archivo HTML a crear
         // Imágenes
         $this->imagen                     = '../sig-mapas-torreon/zonificacion-secundaria/imagen.jpg';
         $this->imagen_previa              = '../sig-mapas-torreon/zonificacion-secundaria/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Mapa referente para consultar los usos de suelo del área urbana de Torreón. De clic en un área para mostrar detalles y el enlace al reglamento.';
         $this->claves                     = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
-        // Opción de navegación a poner como activa
-    //~ $this->nombre_menu                = '';
-        // Ruta al archivo markdown con el contenido
-    //~ $this->contenido_archivo_markdown = '';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;

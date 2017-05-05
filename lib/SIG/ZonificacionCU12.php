@@ -39,6 +39,9 @@ class ZonificacionCU12 extends \Base\PublicacionSchemaArticle {
         $this->fecha                      = '2014-11-18T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'zonificacion-cu12';
+        // Imágenes
+        $this->imagen                     = 'introduccion/imagen.jpg';
+        $this->imagen_previa              = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Zonificación Norma CU 1.2.';
         $this->claves                     = 'IMPLAN, Torreon, SIG, Zonificacion Norma CU 1.2';

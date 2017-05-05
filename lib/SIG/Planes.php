@@ -27,7 +27,7 @@ namespace SIG;
  *
  * No crea archivo. Es para poner la opción en index.html
  */
-class Planes extends \Base\PublicacionSchemaArticle {
+class Planes extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -36,53 +36,24 @@ class Planes extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = '';
+        $this->nombre                     = 'Planes';
     //~ $this->autor                      = '';
-        $this->fecha                      = '';
+        $this->fecha                      = '2015-01-01T08:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '';
+        $this->archivo                    = ''; // No hay archivo HTML a crear
+        // Imágenes
+        $this->imagen                     = 'introduccion/imagen.jpg';
+        $this->imagen_previa              = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = '';
-        $this->claves                     = '';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = '';
-        // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SIG/CLASE.md';
-        // Ruta al archivo HTML con el contenido
-     // $this->contenido_archivo_html     = 'lib/SIG/CLASE.html';
+        $this->descripcion                = 'Documentos oficiales que tienen que ver con desarrollo urbano.';
+        $this->claves                     = 'IMPLAN, Torreon, Planes, Documentos, Reglamentos';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
         $this->estado                     = 'publicar';
-
-        // Título, autor y fecha
-        $this->nombre         = 'Planes';
-     // $this->autor          = 'Autor';
-        $this->fecha          = '2015-01-01T08:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo        = ''; // No hay archivo HTML a crear
-        $this->imagen         = 'introduccion/imagen.jpg';
-        $this->imagen_previa  = 'introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion    = 'Documentos oficiales que tienen que ver con desarrollo urbano.';
-        $this->claves         = 'IMPLAN, Torreon, Planes, Documentos, Reglamentos';
-        $this->categorias     = array('Gobierno');
-        // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
-        $this->estado         = 'publicar';
         // URL de destino
-        $this->url            = '../sig-planes/index.html';
-     // $this->url_etiqueta   = '';
-        // Sin contenido
-        $this->contenido      = '';
-        // Sin JavaScript
-        $this->javascript     = '';
-        // Para redifusión, si tiene una imagen se usa y después la descripción
-        if ($this->imagen != '') {
-            $this->redifusion = sprintf("<a href=\"%s\"><img src=\"%s\"><br>\n\n%s</a>", $this->url, $this->imagen, $this->descripcion);
-        } else {
-            $this->redifusion = sprintf('<a href="%s">%s</a>', $this->url, $this->descripcion);
-        }
+        $this->url                        = '../sig-planes/index.html';
     } // constructor
 
 } // Clase Planes

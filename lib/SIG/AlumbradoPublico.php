@@ -27,7 +27,7 @@ namespace SIG;
  *
  * Ha sido descontinuada del menú de navegación. Se crea el archivo con estatus revisar sólo para recibir visitantes con el URL antiguo.
  */
-class AlumbradoPublico extends \Base\PublicacionSchemaArticle {
+class AlumbradoPublico extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -36,85 +36,26 @@ class AlumbradoPublico extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = '';
+        $this->nombre                     = 'Avance de Reconversión Tecnológica Led del Alumbrado Público';
     //~ $this->autor                      = '';
-        $this->fecha                      = '';
+        $this->fecha                      = '2014-09-08T08:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '';
+        $this->archivo                    = 'alumbrado-publico';
+        // Imágenes
+        $this->imagen                     = 'introduccion/imagen.jpg';
+        $this->imagen_previa              = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = '';
-        $this->claves                     = '';
+        $this->descripcion                = 'Mapa del Avance de Reconversión del Alumbrado Público de Torreón.';
+        $this->claves                     = 'IMPLAN, Torreon, Alumbrado, Reconversión, SIG, GIS';
         // Opción de navegación a poner como activa
-        $this->nombre_menu                = '';
-        // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SIG/CLASE.md';
+        $this->nombre_menu                = 'Información Geográfica > Mapas de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
-
-        // Título, autor y fecha
-        $this->nombre             = 'Avance de Reconversión Tecnológica Led del Alumbrado Público';
-     // $this->autor              = '';
-        $this->fecha              = '2014-09-08T08:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo            = 'alumbrado-publico';
-        $this->imagen             = 'introduccion/imagen.jpg';
-        $this->imagen_previa      = 'introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Mapa del Avance de Reconversión del Alumbrado Público de Torreón.';
-        $this->claves             = 'IMPLAN, Torreon, Alumbrado, Reconversión, SIG, GIS';
-        $this->categorias         = array();
-        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
-        $this->directorio         = 'sig';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu        = 'Información Geográfica';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado             = 'revisar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir     = true;
-        // Instancia de SchemaPostalAddress
-        $region                   = new \Base\SchemaPostalAddress();
-        $region->addressCountry   = 'MX';
-        $region->addressRegion    = 'Coahuila de Zaragoza';
-        $region->addressLocality  = 'Torreón';
-        // Instancia de SchemaMapa
-        $mapa                     = new \Base\SchemaMap();
-        $mapa->mapType            = 'VenueMap';
-        $mapa->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map';
-        $mapa->url_label          = 'Ver a pantalla completa';
-        $mapa->extra              = <<<FINAL
-            <iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-            <p>
-                <b>Nota:</b> La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.<br>
-                <b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.
-            </p>
-FINAL;
-        // Instancia de SchemaPlace
-        $lugar                    = new \Base\SchemaPlace();
-        $lugar->address           = $region;
-        $lugar->hasMap            = $mapa;
-        // Instancia de SchemaCreativeWork
-        $paquete                  = new \Base\SchemaCreativeWork();
-        $paquete->big_heading     = true;
-        $paquete->name            = $this->nombre;
-        $paquete->description     = $this->descripcion;
-        $paquete->author          = $this->autor;
-        $paquete->datePublished   = $this->fecha;
-        $paquete->headline_style  = $this->encabezado_color;
-        $paquete->image           = $this->imagen;
-        $paquete->contentLocation = $lugar;
-        // El contenido es una instancia
-        $this->contenido          = $paquete;
-        // Sin JavaScript
-        $this->javascript         = '';
-        // Para redifusión, si tiene una imagen se usa y después la descripción
-        if ($this->imagen != '') {
-            $this->redifusion = sprintf("<a href=\"%s\"><img src=\"%s\"><br>\n\n%s</a>", "{$this->directorio}/{$this->archivo}.html", $this->imagen, $this->descripcion);
-        } else {
-            $this->redifusion = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
-        }
+        $this->estado                     = 'publicar';
+        // El contenido es una instancia SchemaCreativeWork
+        $this->contenido                  = new \Base\SchemaCreativeWork();
     } // constructor
 
     /**
@@ -123,9 +64,32 @@ FINAL;
      * @return string Código HTML
      */
     public function html() {
-        // Contenido
-        $this->contenido = <<<FINAL
-FINAL;
+        // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
+        $region                           = new \Base\SchemaPostalAddress();
+        $region->addressCountry           = 'MX';
+        $region->addressRegion            = 'Coahuila de Zaragoza';
+        $region->addressLocality          = 'Torreón';
+        // Instancia de SchemaMapa con el mapa en Carto
+        $mapa                             = new \Base\SchemaMap();
+        $mapa->mapType                    = 'VenueMap';
+        $mapa->url                        = $this->url;
+        $mapa->url_label                  = $this->url_etiqueta;
+        $mapa->theMap                     = '<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>';
+        $mapa->extra                      = '<p><b>Nota:</b> La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.<br><b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.</p>';
+        // Instancia de SchemaPlace agrupa la región y el mapa
+        $lugar                            = new \Base\SchemaPlace();
+        $lugar->address                   = $region;
+        $lugar->hasMap                    = $mapa;
+        // Instancia de SchemaCreativeWork lo empaca con más datos
+        $this->contenido                  = new \Base\SchemaCreativeWork();
+        $this->contenido->big_heading     = true;
+        $this->contenido->name            = $this->nombre;
+        $this->contenido->description     = $this->descripcion;
+        $this->contenido->author          = $this->autor;
+        $this->contenido->datePublished   = $this->fecha;
+        $this->contenido->headline_style  = $this->encabezado_color;
+        $this->contenido->image           = $this->imagen;
+        $this->contenido->contentLocation = $lugar;
         // Ejecutar este método en el padre
         return parent::html();
     } // html

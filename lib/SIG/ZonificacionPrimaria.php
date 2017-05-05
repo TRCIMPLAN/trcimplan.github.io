@@ -47,10 +47,6 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Mapa para identificar el área urbana, el crecimiento urbano, la zona agrícola y las zonas de restauración y protección de Torreón, Coahuila.';
         $this->claves                     = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
-        // Opción de navegación a poner como activa
-    //~ $this->nombre_menu                = '';
-        // Ruta al archivo markdown con el contenido
-    //~ $this->contenido_archivo_markdown = '';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
