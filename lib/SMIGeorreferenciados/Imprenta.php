@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Georreferenciados';
         $this->descripcion              = 'Indicadores que tienen mapas con información georreferenciada.';
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Mapas, Georreferenciados';
-        $this->encabezado_color         = '#CA198A';
+    //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Indicadores > Georreferenciados';
         // Ruta a la clase para hacer la página con el índice

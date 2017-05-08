@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Términos';
         $this->descripcion              = 'Términos de Uso de la Información y del Sitio Web; además de el Aviso de Privacidad.';
         $this->claves                   = 'IMPLAN, Torreon, Terminos, Uso, Aviso, Privacidad';
-        $this->encabezado_color         = '#C23700';
+    //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Términos de Uso';
         // Ruta a la clase para hacer la página con el índice

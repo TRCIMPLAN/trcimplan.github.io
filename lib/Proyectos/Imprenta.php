@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Proyectos Estratégicos';
         $this->descripcion              = 'Información y seguimiento de los Proyectos Estratégicos del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Estrategicos';
-    //  $this->encabezado_color         = '#DF9C0A';
+    //  $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta a la clase para hacer la página con el índice

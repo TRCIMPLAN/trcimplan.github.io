@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Preguntas Frecuentes';
         $this->descripcion              = 'Las preguntas y respuestas más frecuentes del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Contacto, Telefono, Direccion, Ubicacion, Oficinas';
-        $this->encabezado_color         = '#795100';
+    //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Contacto > Preguntas Frecuentes';
         // Ruta a la clase para hacer la página con el índice

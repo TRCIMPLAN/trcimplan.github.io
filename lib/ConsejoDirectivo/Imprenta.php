@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Consejo Directivo';
         $this->descripcion              = 'Consejo Directivo del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Consejo, Directivo, Comites, Tecnicos';
-        $this->encabezado_color         = '#DE077E';
+    //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Consejo Directivo';
         // Ruta a la clase para hacer la página con el índice

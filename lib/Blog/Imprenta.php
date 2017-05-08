@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         $this->titulo                   = 'Análisis Publicados';
         $this->descripcion              = 'Publicaciones sobre investigación y otros temas.';
         $this->claves                   = 'IMPLAN, Torreon, Analisis, Publicaciones, Estudios, Investigacion';
-        $this->encabezado_color         = '#800000';
+    //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Análisis Publicados';
         // Ruta a la clase para hacer la página con el índice

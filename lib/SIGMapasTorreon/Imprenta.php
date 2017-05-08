@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         $this->titulo                   = 'Sistema de Información Geográfica de Torreón';
         $this->descripcion              = 'Mapas con información georreferenciada de Torreón.';
         $this->claves                   = 'IMPLAN, SIG, Información, Geográfica, Torreón';
-        $this->encabezado_color         = '#808080';
+    //~ $this->encabezado_color         = '';
         // Opción de navegación a poner como activa
         $this->nombre_menu              = 'Información Geográfica > Mapas de Torreón';
         // Ruta a la clase para hacer la página con el índice

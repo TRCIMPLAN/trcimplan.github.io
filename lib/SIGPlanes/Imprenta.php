@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Planes';
         $this->descripcion              = 'Documentos oficiales que tienen que ver con desarrollo urbano.';
         $this->claves                   = 'IMPLAN, Torreon, Planes, Documentos, Reglamentos';
-        $this->encabezado_color         = '#808080';
+    //~ $this->encabezado_color         = '';
         // Opción de navegación a poner como activa
         $this->nombre_menu              = 'Información Geográfica > Planes';
         // Ruta a la clase para hacer la página con el índice

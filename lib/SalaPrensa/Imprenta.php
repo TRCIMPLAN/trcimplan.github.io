@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN Sitio Web - SalaPrensa Imprenta
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Sala de Prensa';
         $this->descripcion              = 'Comunicados de Prensa del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Comunicados, Prensa, Sala';
-        $this->encabezado_color         = '#008000';
+    //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Sala de Prensa';
         // Ruta a la clase para hacer la página con el índice

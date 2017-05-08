@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040';
         $this->descripcion              = 'Índice Alfabético.';
         $this->claves                   = 'Plan, Estratégico, Torreón, 2040, Metropolitano';
-    //  $this->encabezado_color         = '#DF9C0A';
+    //  $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Plan Estratégico Torreón 2040 > Índice Alfabético';
         // Ruta a la clase para hacer la página con el índice

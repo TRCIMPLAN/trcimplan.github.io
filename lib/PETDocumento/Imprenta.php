@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Documentos del Plan Estratégico Torreón con Enfoque Metropolitano 2040';
         $this->descripcion              = 'Resultados de los talleres del PET2040.';
         $this->claves                   = 'IMPLAN, Torreon, Plan Estrategico Torreon 2040';
-    //  $this->encabezado_color         = '#008000';
+    //  $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Plan Estratégico Torreón 2040 > Descargar';
         // Ruta a la clase para hacer la página con el índice

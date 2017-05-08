@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Indicadores de Torreón';
         $this->descripcion              = 'Sistema Metropolitano de Indicadores, Región Torreón.';
         $this->claves                   = 'IMPLAN, SMI, Indicadores, Metropolitanos, Torreón';
-        $this->encabezado_color         = '#808080';
+    //~ $this->encabezado_color         = '';
         // Opción de navegación a poner como activa
         $this->nombre_menu              = 'Indicadores > Indicadores por Región';
         // Ruta a la clase para hacer la página con el índice

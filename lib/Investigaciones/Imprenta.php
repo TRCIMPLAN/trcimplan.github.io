@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Investigaciones';
         $this->descripcion              = 'Conocimientos para su aplicación para la solución a problemas o interrogantes de carácter científico, social o urbano.';
         $this->claves                   = 'IMPLAN, Torreon';
-        $this->encabezado_color         = '#646464';
+    //~ $this->encabezado_color         = '';
         // Etiqueta de Navegación a poner activa
         $this->nombre_menu              = 'Investigaciones';
         // Ruta a la clase para hacer la página con el índice

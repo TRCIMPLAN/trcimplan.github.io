@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Información Geográfica';
         $this->descripcion              = 'Información Geográfica del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Sistema, Informacion, Geografica, SIG, GIS';
-        $this->encabezado_color         = '#008000';
+    //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Información Geográfica';
         // Ruta a la clase para hacer la página con el índice

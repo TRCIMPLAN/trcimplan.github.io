@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Indicadores';
         $this->descripcion              = 'El Sistema Metropolitano de Indicadores contiene información de Torreón, Gómez Palacio, Lerdo, Matamoros y La Laguna.';
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
-        $this->encabezado_color         = '#CA198A';
+    //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Indicadores';
         // Ruta a la clase para hacer la página con el índice

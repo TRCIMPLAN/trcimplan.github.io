@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Plan Estratégico Metropolitano';
         $this->descripcion              = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves                   = 'IMPLAN, Torreon, Plan, Estratégico, Metropolitano';
-    //  $this->encabezado_color         = '#DF9C0A';
+    //  $this->encabezado_color         = '';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Plan Estratégico Torreón 2040';
         // Ruta a la clase para hacer la página con el índice

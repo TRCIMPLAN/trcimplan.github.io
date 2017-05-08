@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - Torreón 4to lugar en Costo Beneficio de inversión en Ranking del Financial Times 'American Cities of the Future 2015-2016'
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SalaPrensa;
