@@ -141,11 +141,18 @@ class ImprentaPublicacionesClasificadasPorCategorias extends ImprentaPublicacion
     public function imprimir() {
         echo "ImprentaPublicacionesClasificadosPorCategorias: ";
         $this->validar();
+        // Imprimir publicaciones
+        $this->recolector->iniciar_para_estado_publicar_y_revisar();
         $this->recolector->agregar_publicaciones_en($this->publicaciones_directorio, $this);
         $this->crear_directorio($this->directorio);
         $this->imprimir_publicaciones();
+        // Imprimir índice
+        $this->recolector->iniciar_para_estado_publicar();
+        $this->recolector->agregar_publicaciones_en($this->publicaciones_directorio, $this);
         $this->imprimir_indice();
+        // Imprimir categorías
         $this->imprimir_categorias();
+        // Mostrar en pantalla
         echo sprintf(" %d en %s\n", $this->contador, $this->directorio);
     } // imprimir
 

@@ -23,7 +23,7 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase Imprenta
+ * Clase Imprenta \Base\ImprentaPublicacionesClasificadasPorCategorias
  */
 class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
 

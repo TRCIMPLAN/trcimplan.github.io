@@ -1,7 +1,7 @@
 /**
  * Plataforma de Conocimiento
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2015, 2016, 2017 Guillermo Valdes Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,8 +23,8 @@
  */
 body {
     font-family:Helvetica,Arial,sans-serif;
-    font-size:14px;
-    line-height:1.4;
+    font-size:15px;
+    line-height:1.6;
 }
 h1, .h1,
 h2, .h2,
@@ -46,129 +46,134 @@ h6, .h6 { font-size:10px; margin-top:4px;  margin-bottom:2px; }
 /*
  * Page wrapper
  */
-#page-wrapper  {
-    padding:0 4px 0 4px;
-}
-.sidebar ul li {
-    border-bottom:1px solid #CCC;
-}
+#page-wrapper { padding:0; }
 
 /*
  * Cuerpo
  */
-.cuerpo {
-    padding:8px 16px;
-}
-.encabezado {
-    margin-bottom:12px;
-    padding:0;
-}
-.encabezado-descripcion {
-    margin:4px 0;
-    font-size:14px;
-}
-.encabezado-autor-fecha {
-    margin:4px 0;
-    font-size:11px;
-}
-.breve {
-    padding:8px 0;
-}
-.autor {
-    padding:8px 0;
-}
-.autor-empresa-cargo,
-.autor-email-twitter {
-    padding:4px 0 4px 0;
-    font-size:0.8em;
-}
-.autor-empresa {
-    font-weight:bold;
-}
-.autor-semblanza {
-    font-size:0.8em;
-}
-.contenido-imagen-previa {
-    padding:0 16px 8px 0;
-    float:left;
-}
-.contenido-imagen-previa-final {
-    clear:left;
-}
-.compactos        { padding:8px; }
-.compactos-cuerpo { vertical-align:middle; }
-.detallados-descripcion {
-    font-size:0.9em;
-}
-.detallados-autor-fecha {
-    font-size:0.8em;
-}
-.galeria-thumbnail {
-    background-color:transparent;
-    border:none;
-    text-align:center;
-}
-.galeria-imagen {
-    padding:4px;
-    border:none;
-}
-.tarjetas-thumbnail {
-    background-color:transparent;
-    min-height:400px;
-}
-.tarjetas-imagen {
-    background-color:transparent;
-    padding:4px;
-    border:none;
-}
-.tarjetas-descripcion {
-    font-size:0.8em;
-}
-.publicador {
-    padding:4px;
-}
-.publicador h3 {
-    padding:4px 0;
-    margin:2px 0;
-}
+.cuerpo                        { padding:8px 16px; }
 
+.encabezado                    { margin-bottom:12px; padding:0; }
+.encabezado-descripcion        { margin:4px 0; font-size:1.0em; }
+.encabezado-autor-fecha        { margin:4px 0; font-size:0.8em; }
+
+.breve                         { padding:8px 0; }
+
+.titulo                        { font-size:1.2em; line-height:1.4; }
+.descripcion                   { font-size:1.0em; line-height:1.2; }
+.autor                         { font-size:0.8em; line-height:1.0; }
+
+.autor-empresa-cargo,
+.autor-email-twitter           { padding:4px 0 4px 0; font-size:0.8em; }
+.autor-empresa                 { font-weight:bold; }
+.autor-semblanza               { font-size:0.8em; }
+
+.contenido-imagen-previa       { padding:0 16px 8px 0; float:left; }
+.contenido-imagen-previa-final { clear:left; }
+
+.compactos                     { padding:8px; }
+.compactos-cuerpo              { vertical-align:middle; }
+
+.detallados-encabezado         { font-size:1.2em; line-height:1.4; }
+.detallados-descripcion        { font-size:1.0em; line-height:1.2; }
+.detallados-autor-fecha        { font-size:0.8em; line-height:1.0; }
+
+.galeria-thumbnail             { background-color:transparent; border:none; text-align:center; }
+.galeria-imagen                { padding:4px; border:none; }
+
+.tarjetas-thumbnail            { background-color:transparent; min-height:400px; }
+.tarjetas-imagen               { background-color:transparent; padding:4px; border:none; }
+.tarjetas-descripcion          { font-size:0.8em; }
+
+.publicador                    { padding:4px; font-size:0.8em; }
+.publicador h3                 { padding:4px 0; margin:2px 0; }
 
 /*
  * Mapa inferior
  */
-.mapa-inferior {
-    padding:8px 16px;
-}
-.redes-sociales {
-    font-size:2.5em;
-}
+.mapa-inferior            { padding:8px 16px; }
+.redes-sociales           { font-size:2.5em; }
 .redes-sociales a,
 .redes-sociales a:link,
 .redes-sociales a:visited,
 .redes-sociales a:hover,
-.redes-sociales a:active   { text-decoration:none; }
+.redes-sociales a:active  { text-decoration:none; }
 
 /*
- * Página inicial
+ * Pagina inicial
  */
-#organizacion {
-    padding:8px 16px;
+#organizacion,
+#destacado,
+#ultimas-publicaciones,
+#categorias,
+#redes                              { padding:8px 16px; }
+#destacado .destacado-servicio      { min-height:128px; }
+#ultimas-publicaciones .breve       { padding:8px 0; }
+#ultimas-publicaciones .autor-fecha { font-size:0.8em; }
+
+/*
+ * Responsivo
+ */
+@media only screen and (max-width: 1190px) {
+    body                                 { font-size:14px; line-height:1.5; }
+    #destacado .contenido-imagen-previa  { width:112px; height:112px; margin:6px; }
+    #ultimas-publicaciones .media-object { width:112px; height:112px; }
 }
-#organizacion .encabezado {
-    border-bottom:none;
+@media only screen and (max-width: 990px) {
+    body                                 { font-size:13px; line-height:1.4; }
+    h1, .h1                              { font-size:24px; }
+    h2, .h2                              { font-size:20px; }
+    h3, .h3                              { font-size:18px; }
+    h4, .h4                              { font-size:14px; }
+    h5, .h5                              { font-size:12px; }
+    h6, .h6                              { font-size:10px; }
+    .encabezado-descripcion              { margin:3px 0; }
+    .encabezado-autor-fecha              { margin:3px 0; }
+    .contenido-imagen-previa             { float:none; }
+    #destacado .destacado-servicio       { min-height:110px; }
+    #destacado .contenido-imagen-previa  { width:96px; height:96px; margin:0 4px; float:left; }
+    #ultimas-publicaciones .breve        { padding:6px; }
+    #ultimas-publicaciones .media-object { width:96px; height:96px; }
 }
-#destacado {
-    padding:8px 16px;
+@media only screen and (max-width: 770px) {
+    body                                 { font-size:12px; line-height:1.3; }
+    h1, .h1                              { font-size:22px; }
+    h2, .h2                              { font-size:18px; }
+    h3, .h3                              { font-size:16px; }
+    h4, .h4                              { font-size:14px; }
+    h5, .h5                              { font-size:12px; }
+    h6, .h6                              { font-size:10px; }
+    .encabezado-descripcion              { margin:2px 0; }
+    .encabezado-autor-fecha              { margin:2px 0; }
+    .contenido-imagen-previa             { float:none; }
+    .detallados-encabezado               { font-size:1.0em; line-height:1.2; }
+    .detallados-descripcion              { font-size:0.8em; line-height:1.0; }
+    .detallados-autor-fecha              { font-size:0.6em; line-height:0.8; }
+    #destacado .destacado-servicio       { min-height:90px; }
+    #destacado .contenido-imagen-previa  { width:80px; height:80px; margin:0 4px; float:left; }
+    #ultimas-publicaciones .breve        { padding:5px; }
+    #ultimas-publicaciones .media-object { width:80px; height:80px; }
+    #categorias h4,
+    #categorias .h4                      { font-size:12px; }
 }
-#ultimas-publicaciones {
-    padding:8px 16px;
-}
-#ultimas-publicaciones .autor-fecha {
-    font-size:0.8em;
-}
-#categorias {
-    padding:8px 16px;
-}
-#redes {
-    padding:8px 16px;
+@media only screen and (max-width: 300px) {
+    body                                 { font-size:11px; line-height:1.2; }
+    h1, .h1                              { font-size:18px; }
+    h2, .h2                              { font-size:16px; }
+    h3, .h3                              { font-size:14px; }
+    h4, .h4                              { font-size:12px; }
+    h5, .h5                              { font-size:11px; }
+    h6, .h6                              { font-size:9px; }
+    .encabezado-descripcion              { margin:2px 0; }
+    .encabezado-autor-fecha              { margin:2px 0; }
+    .contenido-imagen-previa             { float:none; }
+    .detallados-encabezado               { font-size:1.0em; line-height:1.2; }
+    .detallados-descripcion              { font-size:0.8em; line-height:1.0; }
+    .detallados-autor-fecha              { font-size:0.6em; line-height:0.8; }
+    #destacado .destacado-servicio       { min-height:70px; }
+    #destacado .contenido-imagen-previa  { width:64px; height:64px; margin:0 2px; float:left; }
+    #ultimas-publicaciones .breve        { padding:4px; }
+    #ultimas-publicaciones .media-object { width:64px; height:64px; }
+    #categorias h4,
+    #categorias .h4                      { font-size:10px; }
 }

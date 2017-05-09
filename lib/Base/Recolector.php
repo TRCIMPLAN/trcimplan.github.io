@@ -29,23 +29,29 @@ namespace Base;
  */
 class Recolector {
 
-    const LIB_DIR            = 'lib';             // Directorio que contiene los namespaces de donde se recolectarán las clases
-    protected $publicaciones = array();           // Arreglo con instancias de Publicacion
-    protected $estados       = array('publicar'); // Arreglo con los estados de las publicaciones a recolectar
+    const LIB_DIR            = 'lib';                        // Directorio que contiene los namespaces de donde se recolectarán las clases
+    protected $publicaciones = array();                      // Arreglo con instancias de Publicacion
+    protected $estados       = array('publicar', 'revisar'); // Arreglo con los estados de las publicaciones a recolectar
 
     /**
-     * Definir modo para crear archivos
+     * Iniciar para estado publicar y revisar
+     *
+     * Inicia las propiedades para agregar publicaciones en estado 'publicar' y 'revisar'
      */
-    public function definir_modo_crear_archivos() {
-        $this->estados = array('publicar', 'revisar');
-    } // definir_modo_crear_archivos
+    public function iniciar_para_estado_publicar_y_revisar() {
+        $this->publicaciones = array();
+        $this->estados       = array('publicar', 'revisar');
+    } // iniciar_para_estado_publicar_y_revisar
 
     /**
-     * Definir modo para leer archivos públicos
+     * Iniciar para estado publicar
+     *
+     * Inicia las propiedades para agregar publicaciones en estado 'publicar'
      */
-    public function definir_modo_leer_archivos_publicos() {
-        $this->estados = array('publicar');
-    } // definir_modo_leer_archivos_publicos
+    public function iniciar_para_estado_publicar() {
+        $this->publicaciones = array();
+        $this->estados       = array('publicar');
+    } // iniciar_para_estado_publicar
 
     /**
      * Obtener clases en directorio
@@ -85,6 +91,9 @@ class Recolector {
      * Ordenar por directorio y nombre de forma ascendente
      */
     public function ordenar_por_directorio_nombre_asc() {
+        if (count($this->publicaciones) == 0) {
+            throw new RecolectorExceptionVacio("Aviso en Recolector: No hay publicaciones.");
+        }
         $temporal = array();
         foreach ($this->publicaciones as $publicacion) {
             $clave = Funciones::caracteres_para_web(sprintf('%s-%s', $publicacion->directorio, $publicacion->nombre));
@@ -98,6 +107,9 @@ class Recolector {
      * Ordenar por tiempo de forma descendente (más nuevo a más antiguo)
      */
     public function ordenar_por_tiempo_desc() {
+        if (count($this->publicaciones) == 0) {
+            throw new RecolectorExceptionVacio("Aviso en Recolector: No hay publicaciones.");
+        }
         $temporal = array();
         foreach ($this->publicaciones as $publicacion) {
             $clave = Funciones::caracteres_para_web(sprintf('%s-%s', $publicacion->tiempo_creado(), $publicacion->nombre));
@@ -111,6 +123,9 @@ class Recolector {
      * Ordenar por nivel de forma ascendente
      */
     public function ordenar_por_nivel_asc() {
+        if (count($this->publicaciones) == 0) {
+            throw new RecolectorExceptionVacio("Aviso en Recolector: No hay publicaciones.");
+        }
         $temporal = array();
         $posicion = NULL;
         foreach ($this->publicaciones as $publicacion) {
@@ -145,6 +160,9 @@ class Recolector {
      * @return array   Arreglo con instancias de publicaciones
      */
     public function obtener_publicaciones($limite = NULL) {
+        if (count($this->publicaciones) == 0) {
+            throw new RecolectorExceptionVacio("Aviso en Recolector: No hay publicaciones.");
+        }
         if (is_int($limite) && ($limite > 0)) {
             return array_slice($this->publicaciones, 0, $limite, true);
         } else {
@@ -157,19 +175,22 @@ class Recolector {
      *
      * Agregar las publicaciones que se encuentran en un directorio
      *
-     * @param string Nombre del directorio en LIB_DIR de donde se recolectarán las publicaciones
-     * @param mixed  Opcional, instancia de Imprenta para pasar variables
+     * @param  string Nombre del directorio en LIB_DIR de donde se recolectarán las publicaciones
+     * @param  mixed  Opcional, instancia de Imprenta para pasar variables
+     * @return boolean Verdadero si encuentra publicaciones, falso si no hay
      */
     public function agregar_publicaciones_en($lib_dir, $imprenta = NULL) {
+        // Iniciar contador
+        $c = 0;
         // Bucle con las clases recolectadas
         foreach ($this->obtener_clases_en($lib_dir) as $clase) {
             // Cargar
             $publicacion = new $clase();
             // Si es instancia de Publicacion, se acumula
             if ($publicacion instanceof Publicacion) {
-                // Si el estado está en estados (vea los métodos definir modo)
+                // Si el estado está en estados, vea iniciar_para_estado_xxx
                 if (in_array(strtolower($publicacion->estado), $this->estados)) {
-                    // Si viene una instancia de Imprenta
+                    // Si se proporcionó una instancia de ImprentaPublicaciones, sobreescribimos estos parámetros
                     if ($imprenta instanceof ImprentaPublicaciones) {
                         $publicacion->definir_encabezado($imprenta->encabezado);
                         $publicacion->definir_encabezado_color($imprenta->encabezado_color);
@@ -182,9 +203,12 @@ class Recolector {
                     }
                     // Acumular
                     $this->publicaciones[] = $publicacion;
+                    $c++;
                 }
             }
         }
+        // Entregar verdadero si se encontraron publicaciones
+        return ($c > 0);
     } // agregar_publicaciones_en
 
     /**
@@ -193,7 +217,7 @@ class Recolector {
      * Agregar las publicaciones que una o más imprentas tienen en su información
      *
      * @param  mixed   Texto (ruta a ImprentaPublicaciones), Arreglo de textos (rutas a ImprentaPublicaciones)
-     * @return boolean Verdadero encuentra publicaciones, falso si no hay
+     * @return boolean Verdadero si encuentra publicaciones, falso si no hay
      */
     public function agregar_publicaciones_de_imprentas($entrada) {
         // Definir rutas siempre como un arreglo
@@ -214,7 +238,7 @@ class Recolector {
             }
         }
         // Entregar verdadero si se encontraron publicaciones
-        return ($this->obtener_cantidad_de_publicaciones() > 0);
+        return (count($this->publicaciones) > 0);
     } // agregar_publicaciones_de_imprentas
 
 } // Clase Recolector

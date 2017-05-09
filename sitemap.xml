@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-05-08</lastmod>
+    <lastmod>2017-05-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1086,6 +1086,41 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-01-introduccion.html</loc>
+    <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-02-un-vistazo-a-torreon.html</loc>
+    <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-03-metodologia.html</loc>
+    <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-04-sectores-evaluados.html</loc>
+    <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-05-resultados.html</loc>
+    <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-06-recomendaciones.html</loc>
+    <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-07-conclusion.html</loc>
+    <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/pet/indice.html</loc>
     <lastmod>2016-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -1526,6 +1561,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-04-28-sesion-ordinaria.html</loc>
+    <lastmod>2017-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-03-07-taller-anticipacion-estrategica-para-la-planeacion-urbana.html</loc>
     <lastmod>2017-03-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -1731,6 +1771,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/peligros-quimicos-tecnologicos.html</loc>
+    <lastmod>2017-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/plantas-tratadoras-aguas-residuales.html</loc>
     <lastmod>2016-06-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -1748,6 +1793,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/rellenos-sanitarios.html</loc>
     <lastmod>2016-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/riesgos-sanitarios-ambientales.html</loc>
+    <lastmod>2017-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/riesgos-socio-organizativos.html</loc>
+    <lastmod>2017-05-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -1798,6 +1853,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-que-disponen-retrete.html</loc>
     <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento.html</loc>
+    <lastmod>2017-05-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -188,6 +188,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $concentrador->en_raiz = TRUE;
         // Iniciar recolector
         $recolector = new \Base\Recolector();
+        $recolector->iniciar_para_estado_publicar();
         $recolector->agregar_publicaciones_de_imprentas($this->imprentas);
         // Ordenar publicaciones por tiempo, de la más nueva a la más antigua
         $recolector->ordenar_por_tiempo_desc();

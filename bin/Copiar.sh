@@ -3,7 +3,7 @@
 #
 # Plataforma de Conocimiento - Copiar
 #
-# Copyright (C) 2016 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
+# Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -24,12 +24,10 @@ EXITO=0
 E_FATAL=99
 
 # Constantes
-PLATAFORMA_DIR="$HOME/Documentos/GitHub/MovimientoLibre/movimientolibre.github.io"
 SITIO_WEB_DIR="$HOME/Documentos/GitHub/TrcIMPLAN/trcimplan.github.io"
+PLATAFORMA_DIR="$HOME/Documentos/GitHub/MovimientoLibre/movimientolibre.github.io"
 
-echo "[Copiar] los programas de la Plataforma del Conocimiento"
-echo "  Origen:  $PLATAFORMA_DIR"
-echo "  Destino: $SITIO_WEB_DIR"
+echo "[Copiar] Inicia..."
 
 # Verificar
 if [ ! -d $PLATAFORMA_DIR ]; then
@@ -40,70 +38,77 @@ if [ ! -d $SITIO_WEB_DIR ]; then
     echo "Error: No se encuentra el directorio $SITIO_WEB_DIR"
     exit $E_FATAL
 fi
-if [ ! -d $SITIO_WEB_DIR/bin ]; then
+cd $SITIO_WEB_DIR
+if [ ! -d "bin" ]; then
     echo "Error: No se encuentra el directorio $SITIO_WEB_DIR/bin"
     exit $E_FATAL
 fi
-if [ ! -d $SITIO_WEB_DIR/lib ]; then
+if [ ! -d "lib" ]; then
     echo "Error: No se encuentra el directorio $SITIO_WEB_DIR/lib"
     exit $E_FATAL
 fi
 
-# Preservar, para luego sobreescribir
-cd $SITIO_WEB_DIR
-echo "  Preservando css."
-mv css backup-css
-echo "  Preservando imagenes."
-mv imagenes backup-imagenes
-
 # Eliminar
+echo "  Eliminando archivos de la Plataforma del Conocimiento..."
 cd $SITIO_WEB_DIR
-echo "  Eliminando en la raíz..."
-rm -rf fonts
-rm -rf img
-rm -rf js
-rm -rf less
-rm -rf scss
+rm -rf vendor
+cd $SITIO_WEB_DIR/lib
+rm -rf Base
+rm -rf Michelf
 
-echo "  Eliminando en bin..."
-rm -f bin/Crear.php
+# Crear directorio dist
+cd $SITIO_WEB_DIR
+if [ ! -d dist ]; then
+    echo "  Creando directorio dist"
+    mkdir dist
+fi
+if [ ! -d dist/css ]; then
+    echo "  Creando directorio dist/css"
+    mkdir dist/css
+fi
+echo "  Copiando dist/css/plataforma-de-conocimiento.css"
+cp -f $PLATAFORMA_DIR/dist/css/plataforma-de-conocimiento.css dist/css/plataforma-de-conocimiento.css
+echo "  Copiando dist/css/sb-admin-2.css"
+cp -f $PLATAFORMA_DIR/dist/css/sb-admin-2.css dist/css/sb-admin-2.css
+echo "  Copiando dist/css/sb-admin-2.min.css"
+cp -f $PLATAFORMA_DIR/dist/css/sb-admin-2.min.css dist/css/sb-admin-2.min.css
+if [ ! -d dist/js ]; then
+    echo "  Creando directorio dist/js"
+    mkdir dist/js
+fi
+echo "  Copiando dist/js/sb-admin-2.js"
+cp -f $PLATAFORMA_DIR/dist/js/sb-admin-2.js dist/js/sb-admin-2.js
+echo "  Copiando dist/js/sb-admin-2.min.js"
+cp -f $PLATAFORMA_DIR/dist/js/sb-admin-2.min.js dist/js/sb-admin-2.min.js
 
-echo "  Eliminando en lib..."
-rm -rf lib/Base
-rm -rf lib/Michelf
+# Crear directorio imagenes
+cd $SITIO_WEB_DIR
+if [ ! -d imagenes ]; then
+    echo "  Creando por primera vez el directorio imagenes..."
+    mkdir imagenes
+    cd $SITIO_WEB_DIR/imagenes
+    cp -rf $PLATAFORMA_DIR/imagenes/* .
+fi
 
 # Copiar
+echo "  Copiando archivos de la Plataforma del Conocimiento..."
 cd $SITIO_WEB_DIR
-echo "  Copiando a la raíz..."
-cp -r $PLATAFORMA_DIR/css .
-cp -r $PLATAFORMA_DIR/fonts .
-cp -r $PLATAFORMA_DIR/imagenes .
-cp -r $PLATAFORMA_DIR/img .
-cp -r $PLATAFORMA_DIR/js .
-cp -r $PLATAFORMA_DIR/less .
-cp -r $PLATAFORMA_DIR/scss .
-
+cp -r $PLATAFORMA_DIR/vendor .
 cd $SITIO_WEB_DIR/bin
-echo "  Copiando a bin..."
 cp $PLATAFORMA_DIR/bin/Crear.php .
-
 cd $SITIO_WEB_DIR/lib
-echo "  Copiando a lib..."
 cp -r $PLATAFORMA_DIR/lib/Base .
 cp -r $PLATAFORMA_DIR/lib/Michelf .
 
-# Sobreescribir
-cd $SITIO_WEB_DIR/css
-echo "  Sobreescribiendo css..."
-cp -r ../backup-css/* .
-cd $SITIO_WEB_DIR
-rm -rf backup-css
+# En lib
+cd $SITIO_WEB_DIR/lib
+if [ ! -d Autores ]; then
+    mkdir Autores
+fi
+if [ ! -d Configuracion ]; then
+    mkdir Configuracion
+fi
 
-cd $SITIO_WEB_DIR/imagenes
-echo "  Sobreescribiendo imagenes..."
-cp -r ../backup-imagenes/* .
-cd $SITIO_WEB_DIR
-rm -rf backup-imagenes
-
+# Mostrar mensaje de término
 echo "[Copiar] Terminó."
 exit $EXITO

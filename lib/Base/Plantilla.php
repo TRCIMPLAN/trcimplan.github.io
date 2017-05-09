@@ -68,7 +68,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         }
         // Omitir cuando la propiedad archivo NO está definida
         if (($publicacion->archivo == '') || ($publicacion->directorio == '')) {
-            return false;
+            return FALSE;
         }
         // Validar Navegación
         if (!is_object($this->navegacion) || !($this->navegacion instanceof Navegacion)) {
@@ -100,7 +100,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         }
         $this->icono        = $publicacion->icono;
         // Entregar verdadero
-        return true;
+        return TRUE;
     } // incorporar_publicacion
 
     /**
@@ -229,30 +229,14 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     protected function scripts() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular
-        $a[] = '<!-- Javascript común -->';
-        //~ if ($this->scripts_jquery_js != '') {
-            //~ $a[] = $this->scripts_jquery_js;
-        //~ }
-        //~ if ($this->scripts_bootstrap_js != '') {
-            //~ $a[] = $this->scripts_bootstrap_js;
-        //~ }
+        // Acumular javascript global
+        $a[] = '<!-- Javascript global inicia -->';
         if ($this->en_raiz) {
             if (is_array($this->vinculos_js) && (count($this->vinculos_js) > 0)) {
                 foreach ($this->vinculos_js as $v) {
                     $a[] = sprintf('<script type="text/javascript" src="%s"></script>', $v);
                 }
             }
-            //~ if ($this->scripts_jquery_js == '') {
-                //~ $a[] = '<script type="text/javascript" src="js/jquery.min.js"></script>';
-            //~ }
-            //~ if ($this->scripts_bootstrap_js == '') {
-                //~ $a[] = '<script type="text/javascript" src="js/bootstrap.min.js"></script>';
-            //~ }
-            //~ $a[] = '<script type="text/javascript" src="js/raphael-min.js"></script>';
-            //~ $a[] = '<script type="text/javascript" src="js/morris.min.js"></script>';
-            //~ $a[] = '<script type="text/javascript" src="js/plugins/metisMenu/metisMenu.min.js"></script>';
-            //~ $a[] = '<script type="text/javascript" src="js/sb-admin-2.js"></script>';
         } else {
             if (is_array($this->vinculos_js) && (count($this->vinculos_js) > 0)) {
                 foreach ($this->vinculos_js as $v) {
@@ -263,22 +247,10 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                     }
                 }
             }
-            //~ if ($this->scripts_jquery_js == '') {
-                //~ $a[] = '<script type="text/javascript" src="../js/jquery.min.js"></script>';
-            //~ }
-            //~ if ($this->scripts_bootstrap_js == '') {
-                //~ $a[] = '<script type="text/javascript" src="../js/bootstrap.min.js"></script>';
-            //~ }
-            //~ $a[] = '<script type="text/javascript" src="../js/raphael-min.js"></script>';
-            //~ $a[] = '<script type="text/javascript" src="../js/morris.min.js"></script>';
-            //~ $a[] = '<script type="text/javascript" src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
-            //~ $a[] = '<script type="text/javascript" src="../js/sb-admin-2.js"></script>';
         }
-        //~ if (is_array($this->scripts_externos_js)) {
-            //~ foreach ($this->scripts_externos_js as $externo_js) {
-                //~ $a[] = $externo_js;
-            //~ }
-        //~ }
+        $a[] = '<!-- Javascript global termina -->';
+        // Acumular javascript de la página
+        $a[] = '<!-- Javascript inicia -->';
         if (is_array($this->javascript) && (count($this->javascript) > 0)) {
             $b = array();
             foreach ($this->javascript as $js) {
@@ -291,18 +263,19 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 }
             }
             if (count($b) > 0) {
-                $a[] = "<!-- Javascript: Inicia  -->\n".implode("\n", $b)."\n<!-- Javascript: Termina -->";
+                $a[] = implode("\n", $b);
             }
         } elseif (is_string($this->javascript) && (trim($this->javascript) != '')) {
             if (substr(trim($this->javascript), 0, 7) == '<script') {
-                $a[] = "<!-- Javascript -->\n".$this->javascript;
+                $a[] = $this->javascript;
             } else {
-                $a[] = "<!-- Javascript -->\n<script>\n{$this->javascript}\n</script>";
+                $a[] = "<script>\n{$this->javascript}\n</script>";
             }
         }
+        $a[] = '<!-- Javascript termina -->';
         // Google Analytics
         if (is_string($this->google_analytics) && ($this->google_analytics != '')) {
-            $a[] = "<!-- Google Analytics -->\n{$this->google_analytics}";
+            $a[] = "<!-- Javascript Google Analytics -->\n{$this->google_analytics}";
         }
         // Entregar
         return implode("\n", $a);
@@ -348,9 +321,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         if (is_object($this->mapa_inferior) && ($this->mapa_inferior instanceof MapaInferior)) {
             $a[] = $this->mapa_inferior->html();
         }
-        $a[] = '  </div>';     // page-wrapper
+        $a[] = '  </div>'; // page-wrapper
         // Contenido termina
-        $a[] = '</div>';       // wrapper
+        $a[] = '</div>'; // wrapper
         if (is_string($this->pie) && (trim($this->pie) != '')) {
             $a[] = '<div id="pie">';
             $a[] = $this->pie;
