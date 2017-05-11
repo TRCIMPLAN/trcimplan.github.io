@@ -7,7 +7,7 @@ En la reunión, a la que asistió el director del IMPLAN **Eduardo Holguín** co
 
 Su misión es: **"promover y desarrollar la participación para desarrollar buenos gobiernos  y mejores ciudadanos de la Comarca Lagunera".**
 
-<img class="img-responsive" src="2017-05-04-sostienen-reunion-de-trabajo-implan-y-observatorio-de-la-laguna/foto-cci.jpg" alt="Junta con Consejo Cívico de las Instituciones">
+<img class="img-responsive" src="2017-05-04-sostienen-reunion-de-trabajo-implan-y-consejo-civico-de-las-instituciones/foto-cci.jpg" alt="Junta con Consejo Cívico de las Instituciones">
 
 **El CCI Laguna cuenta con el aval y participación de instituciones de prestigio nacional** como son: **"México Evalúa", "Observatorio Nacional Ciudadano", "México SOS",** entre otros y agrupa **también a diversas asociaciones laguneras.**
 
@@ -15,4 +15,4 @@ La misión del Observatorio es promover el análisis y evaluación de indicadore
 
 **El IMPLAN y el CCI Laguna han llegado a un acuerdo para intercambiar información y trabajar en conjunto,** con el fin de enriquecer sus respectivas plataformas sobre indicadores de Torreón y la Zona Metropolitana. De esta forma se busca lograr que más laguneros puedan acceder a información en línea que refleje la realidad del lugar en el que viven.
 
-<img class="img-responsive" src="2017-05-04-sostienen-reunion-de-trabajo-implan-y-observatorio-de-la-laguna/foto-proyector.jpg" alt="Proyector">
+<img class="img-responsive" src="2017-05-04-sostienen-reunion-de-trabajo-implan-y-consejo-civico-de-las-instituciones/foto-proyector.jpg" alt="Proyector">
