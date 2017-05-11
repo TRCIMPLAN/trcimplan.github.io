@@ -13,9 +13,9 @@ Al observar la correlación entre la existencia de pavimento y banquetas, se det
 
 De acuerdo con el [Plan Estratégico para Torreón con enfoque Metropolitano](../pet/indice.html) (TRC2040), la ciudad de Torreón cuenta con **281 km longitudinales de vialidades principales, secundarias y periféricas y 0.50 km de vialidades peatonales** (únicamente dos calles), antes de la creación del **Paseo Morelos.** Después de construido este paseo, se cuenta con 1.7 km más de vialidades peatonales.
 
-### Disponibilidad de pavimento y banquetas en manzana en Torreón.
+### Disponibilidad de pavimento y banquetas en manzana en Torreón
 
-<img class="img-responsive" src="la-accesibilidad-a-las-banquetas-en-torreon/accesabilidad.jpg" alt="Accesabilidad">
+<img class="img-responsive" src="la-accesibilidad-a-las-banquetas-en-torreon/disponibilidad-pavimento-banquetas-manzana-torreon.jpg" alt="Accesabilidad">
 
 Fuente: Elaboración propia, 2015
 
