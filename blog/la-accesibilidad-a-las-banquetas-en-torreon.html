@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Las normativas de tráfico y, en particular, la legislación de seguridad vial desde sus inicios en los años veinte del siglo pasado, han considerado a las banquetas como un espacio exclusivamente peatonal.">
+  <meta name="author" content="Arq. Daniela Patricia Corral Hernández">
+  <meta name="keywords" content="IMPLAN, Torreon, Banquetas, Peatones">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La accesibilidad a las banquetas en Torreón - IMPLAN Torreón">
+  <meta name="twitter:description" content="Las normativas de tráfico y, en particular, la legislación de seguridad vial desde sus inicios en los años veinte del siglo pasado, han considerado a las banquetas como un espacio exclusivamente peatonal.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/la-accesibilidad-a-las-banquetas-en-torreon/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/la-accesibilidad-a-las-banquetas-en-torreon.html">
+  <meta name="og:title" content="La accesibilidad a las banquetas en Torreón - IMPLAN Torreón">
+  <meta name="og:description" content="Las normativas de tráfico y, en particular, la legislación de seguridad vial desde sus inicios en los años veinte del siglo pasado, han considerado a las banquetas como un espacio exclusivamente peatonal.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/la-accesibilidad-a-las-banquetas-en-torreon/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/la-accesibilidad-a-las-banquetas-en-torreon.html">
+  <title>La accesibilidad a las banquetas en Torreón - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="https://docs.google.com/document/d/1V4nwGxAd8umhGQDuWCOAJD7pVu-ghVGqcIrJ1xNU5wM/edit?usp=sharing" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="encabezado">
+          <h1 itemprop="headline">La accesibilidad a las banquetas en Torreón</h1>
+          <div class="encabezado-descripcion" itemprop="description">Las normativas de tráfico y, en particular, la legislación de seguridad vial desde sus inicios en los años veinte del siglo pasado, han considerado a las banquetas como un espacio exclusivamente peatonal.</div>
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Arq. Daniela Patricia Corral Hernández</span> -
+            <meta itemprop="datePublished" content="2017-05-11T11:00">11/05/2017 11:00
+          </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="La accesibilidad a las banquetas en Torreón" src="la-accesibilidad-a-las-banquetas-en-torreon/imagen.jpg"></span>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<p><strong>Las banquetas de nuestras calles son espacios públicos esenciales para la vida urbana.</strong> Son lugares en los que nos comunicamos, conversamos, intercambiamos, jugamos, corremos, caminamos o simplemente estamos de pie o sentados.</p>
+
+<p><strong>Las banquetas no son canales de circulación de vehículos.</strong> El tránsito de vehículos rompe la complejidad y el carácter que tienen, es decir, la forma en la que estamos y nos comportamos en ellas. La circulación de vehículos por las banquetas es especialmente negativa para los grupos más vulnerables de la sociedad; para los niños y niñas, las personas mayores o las personas con discapacidad, el sentimiento de confianza se torna en percepción de riesgo o incomodidad.</p>
+
+<p>En los últimos tiempos, para resolver los problemas de seguridad y espacio disponible en las calzadas que tienen vehículos como las motos, las bicicletas o los diversos patines motorizados, algunos ayuntamientos están pervirtiendo el carácter de las banquetas permitiendo que estacionen o circulen por ellos, contraviniendo las leyes y rompiendo la cultura de uso del espacio público.</p>
+
+<p>Las normativas del tráfico y, en particular, la legislación de seguridad vial desde sus inicios en los años veinte del siglo pasado, han considerado <strong>las banquetas como un espacio exclusivamente peatonal.</strong></p>
+
+<h3>Infraestructura en la Laguna</h3>
+
+<p>Al observar la correlación entre la existencia de pavimento y banquetas, se detecta un patrón que se repite en las cuatro ciudades: <strong>la accesibilidad a las banquetas es más limitada que el acceso a vialidades pavimentadas.</strong></p>
+
+<p>De acuerdo con el <a href="../pet/indice.html">Plan Estratégico para Torreón con enfoque Metropolitano</a> (TRC2040), la ciudad de Torreón cuenta con <strong>281 km longitudinales de vialidades principales, secundarias y periféricas y 0.50 km de vialidades peatonales</strong> (únicamente dos calles), antes de la creación del <strong>Paseo Morelos.</strong> Después de construido este paseo, se cuenta con 1.7 km más de vialidades peatonales.</p>
+
+<h3>Disponibilidad de pavimento y banquetas en manzana en Torreón.</h3>
+
+<p><img class="img-responsive" src="la-accesibilidad-a-las-banquetas-en-torreon/accesabilidad.jpg" alt="Accesabilidad"></p>
+
+<p>Fuente: Elaboración propia, 2015</p>
+
+<p>En el caso de <strong>Torreón, la mitad de las manzanas cuenta con una infraestructura completa</strong> (pavimento y banquetas), ya que los vehículos y los peatones pueden circular aparentemente sin contratiempos (se considera la existencia o no de la infraestructura, no el estado físico actual). Es decir 5,249 manzanas cuentan con todas sus vialidades pavimentadas y con banquetas y sólo 577 manzanas no cuentan con pavimento ni banqueta en sus vialidades.</p>
+
+<p>De acuerdo con el <a href="../sig-planes/index.html">Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcciones</a>, en el apartado <strong>NORMAS TÉCNICAS RELATIVAS AL DESARROLLO URBANO Artículos 199 al 205,</strong> se expresan las especificaciones en dimensiones mínimas de banquetas para usos de suelo habitacionales variando según su densidad:</p>
+
+<h3>Dimensiones mínimas de banquetas para usos de suelo habitacionales</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Uso de Suelo Habitacional</th>
+  <th align="right">Banquetas en Avenidas</th>
+  <th align="right">Zona Arbolada</th>
+  <th align="right">Banquetas en Vialidades Locales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Artículo 199: Vivienda Densidad Muy Baja (HB)</td>
+  <td align="right">3.0 m</td>
+  <td align="right">25%</td>
+  <td align="right">2 m</td>
+</tr>
+<tr>
+  <td>Artículo 200: Vivienda Densidad Baja (H1)</td>
+  <td align="right">3.0 m</td>
+  <td align="right">25%</td>
+  <td align="right">2 m</td>
+</tr>
+<tr>
+  <td>Artículo 201: Vivienda Densidad Media Baja (H2)</td>
+  <td align="right">2.5 m</td>
+  <td align="right">40%</td>
+  <td align="right">2 m</td>
+</tr>
+<tr>
+  <td>Artículo 202: Vivienda Densidad Media (H3)</td>
+  <td align="right">2.5 m</td>
+  <td align="right">40%</td>
+  <td align="right">2 m</td>
+</tr>
+<tr>
+  <td>Artículo 203: Vivienda Densidad Media Media (H4)</td>
+  <td align="right">2.5 m</td>
+  <td align="right">40%</td>
+  <td align="right">2 m</td>
+</tr>
+<tr>
+  <td>Artículo 204: Vivienda Densidad Media Alta (H5)</td>
+  <td align="right">2.0 m</td>
+  <td align="right">20-40%</td>
+  <td align="right">2 m</td>
+</tr>
+<tr>
+  <td>Artículo 205: Vivienda Densdiad Alta (H6)</td>
+  <td align="right">2.0 m</td>
+  <td align="right">-</td>
+  <td align="right">2 m</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Banquetas: son las estructuras viales para circulación de peatones</h3>
+
+<p><strong>Artículo 230</strong></p>
+
+<p><strong>Norma 7.</strong> Banquetas. Son las estructuras viales para circulación de peatones.</p>
+
+<ul>
+<li>I. Tendrán un ancho mínimo de 200 cm de superficie plana y continua.</li>
+<li>II. La sección transversal tendrá una pendiente entre 1% y 3% hacia la calle.</li>
+<li>III. Longitudinalmente podrán tener rampas con un máximo de pendiente de 12% ligadas con superficie curvas regleadas.</li>
+<li>IV. El acabado de la superficie deberá ser lisa pero antiderrapante.</li>
+<li>V. En los accesos de vehículos a las cocheras, se respetaran las dimensiones mínimas de las banquetas y las inclinaciones máximas de las rampas.</li>
+</ul>
+
+<h3>Accesibilidad para personas con discapacidad</h3>
+
+<p>En cuanto a <strong>disponibilidad de rampas para sillas de rueda en las banquetas,</strong> el municipio de Torreón tiene una mayor cobertura que el resto de los municipios que integran la Zona Metropolitana de la Laguna (14.3%). Por su parte, Gómez Palacio cuenta con la menor cobertura (8.9%). A su vez la población con limitación para caminar es del 2.2% siendo en total 28, 555 en la Zona Metropolitana de la Laguna.</p>
+
+<p>El centro de la ciudad de Torreón es una zona atrayente de viajes de la Comarca Lagunera, por lo que comparamos la infraestructura existente para personas con discapacidad contemplando la disponibilidad de rampas en las banquetas con la que cuenta una colonia fuera del centro, es este caso Las Carolinas. Mientras en el centro el 82.5 % de las banquetas cuentan con rampas en la colonia sólo el 1.8%.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Colonia</th>
+  <th align="right">Porcentaje de población con discapacidad</th>
+  <th align="right">Porcentaje de manzanas con rampas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Centro</td>
+  <td align="right">5.4 %</td>
+  <td align="right">82.5 %</td>
+</tr>
+<tr>
+  <td>Colonia muestra</td>
+  <td align="right">2.4 %</td>
+  <td align="right">1.8 %</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: Elaboración propia, 2015</p>
+
+<p><strong>En la zona centro de Torreón existe infraestructura que permite un desplazamiento aceptable dentro del sector.</strong> En la colonia Las Carolinas existe sólo una banqueta con rampa.</p>
+
+<h3>Las normas técnicas para garantizar los derechos de las personas con discapacidad</h3>
+
+<p><strong>Artículo 423.</strong> Las normas para el entorno urbano y los espacios descubiertos serán las siguientes, seguidas de los ejemplos gráficos correspondientes:</p>
+
+<p><strong>Norma 2.</strong> Banquetas.</p>
+
+<ul>
+<li>Los pavimentos en las banquetas deberán cumplir las mismas condiciones que las recomendadas para andadores.</li>
+<li>La ocupación de las banquetas por puestos ambulantes y mobiliario urbano no deberá obstruir la circulación ni las rampas existentes.</li>
+<li>Los cruceros deberán contar con rampas de banqueta, así como cualquier cambio de nivel, como los causados por las entradas a estacionamientos.</li>
+<li>Es recomendable utilizar cambios de textura en los pavimentos, para señalizar los cruceros a las personas ciegas.</li>
+<li>Las excavaciones, escombros y obstáculos temporales o permanentes deberán estar protegidos y señalizados a 1 m de distancia.</li>
+<li>Rampas con pendiente máxima del 8%.</li>
+<li>Pavimento antiderrapante, libre de obstáculos y con un ancho mínimo de 1.2 m.</li>
+<li>Cambio de textura en el pavimento. Señalización de las rampas de banqueta.</li>
+</ul>
+
+<p><strong>Norma 3.</strong> Esquinas.</p>
+
+<ul>
+<li>Las rampas se colocarán en los extremos de las calles y deben coincidir con las franjas reservadas en el arroyo para el cruce de peatones.</li>
+<li>Tendrán un ancho mínimo de 1.00 m y pendiente máxima del 10%, así como cambio de textura para identificación de ciegos y débiles visuales.</li>
+<li>Deberán de estar señalizadas y sin obstrucciones para su uso, al menos un metro antes de su inicio.</li>
+</ul>
+
+<p>Fomentar un mayor nivel de "caminabilidad" es importante, y para eso <strong>requerimos banquetas bien diseñadas y con sus especificaciones técnicas adecuadas,</strong> no sólo por los beneficios para la salud asociados a caminar, sino también porque hacer las zonas más "caminables" <strong>genera actividad económica, incrementa los valores de los predios y el turismo, mejora la movilidad y aumenta la calidad de vida de los usuarios.</strong></p>
+
+<blockquote>
+  <p>Cuanto más caminable es una ciudad, más fuertes son los lazos que se generan en la comunidad.</p>
+</blockquote>
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fla-accesibilidad-a-las-banquetas-en-torreon.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="../vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
