@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon
+ * TrcIMPLAN Sitio Web - SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SalaPrensa;
 
 /**
- * Clase FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon
+ * Clase SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones
  */
-class FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon extends \Base\PublicacionSchemaBlogPosting {
+class SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -34,27 +34,29 @@ class FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon extends \
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Firman la Convenio Facultad de Ingeniería Civil de la UAC y el IMPLAN Torreón';
-    //  $this->autor                      = '';
-        $this->fecha                      = '2017-03-27T14:22';
+        $this->nombre                     = 'Sostienen reunión de trabajo IMPLAN y Consejo Cívico de las Instituciones';
+    //~ $this->autor                      = '';
+        $this->fecha                      = '2017-05-04T15:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '2017-03-27-firman-la-convenio-facultad-de-ingenieria-civil-de-la-uac-y-el-implan-torreon';
+        $this->archivo                    = '2017-05-04-sostienen-reunion-de-trabajo-implan-y-consejo-civico-de-las-instituciones';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'La Facultad de Ingeniería Civil de la Universidad Autónoma de Coahuila y el IMPLAN Torreón firmaron un convenio de colaboración para que estudiantes realicen prácticas profesionales.';
-        $this->claves                     = 'IMPLAN, Torreon, UAC, Convenio, Ingenieria Civil';
+        $this->descripcion                = 'El IMPLAN Torreón sostuvo una reunión con el Consejo Cívico de las Instituciones A.C., creadores del Observatorio de La Laguna, para intercambiar experiencias.';
+        $this->claves                     = 'IMPLAN, Torreon, ';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array('Educación');
+        $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                     = 'revisar';
     } // constructor
 
-} // Clase FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon
+} // Clase SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones
 
 ?>
