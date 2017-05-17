@@ -44,7 +44,7 @@ class SustentabilidadConcentracionDeParticulasSuspendidasTotales extends \SMIBas
         $this->claves      = 'IMPLAN, Torreón, Recursos Naturales';
         // Para el Organizador
         $this->categorias  = array('Recursos Naturales');
-        $this->fuentes     = array('DIF Revolución', 'Esc. Secundaria General No. 2', 'Esc. Primaria Emiliano Zapata', 'Centro Cultural José R. Mijares', 'Esc. Secundaria General No. 3', 'Cap. Divina Providencia', 'Esc. Secundaria Técnica No. 83');
+        $this->fuentes     = array('DIF Revolución', 'Esc. Primaria Emiliano Zapata', 'Esc. Secundaria General No. 2', 'Esc. Secundaria Técnica No. 83', 'Cap. Divina Providencia', 'Centro Cultural José R. Mijares', 'Esc. Secundaria General No. 3');
         $this->regiones    = array('Torreón');
     } // constructor
 

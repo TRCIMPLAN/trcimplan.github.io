@@ -72,7 +72,8 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
             array('fecha' => '2016-03-31', 'valor' => '5059.74', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
             array('fecha' => '2016-06-30', 'valor' => '4722.96', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
             array('fecha' => '2016-09-30', 'valor' => '4872.94', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
-            array('fecha' => '2016-12-31', 'valor' => '3672.46', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => '')));
+            array('fecha' => '2016-12-31', 'valor' => '3672.46', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
+            array('fecha' => '2017-03-31', 'valor' => '4705.54', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => '')));
         // Entregar
         return $this->datos_tabla->html();
     } // seccion_datos_html
@@ -152,7 +153,7 @@ FINAL;
   if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
     vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
       element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
-      data: [{ fecha: '2015-03-31', dato: 4043.13 },{ fecha: '2015-06-30', dato: 4425.56 },{ fecha: '2015-09-30', dato: 5059.90 },{ fecha: '2015-12-31', dato: 4936.80 },{ fecha: '2016-03-31', dato: 5059.74 },{ fecha: '2016-06-30', dato: 4722.96 },{ fecha: '2016-09-30', dato: 4872.94 },{ fecha: '2016-12-31', dato: 3672.46 }],
+      data: [{ fecha: '2015-03-31', dato: 4043.13 },{ fecha: '2015-06-30', dato: 4425.56 },{ fecha: '2015-09-30', dato: 5059.90 },{ fecha: '2015-12-31', dato: 4936.80 },{ fecha: '2016-03-31', dato: 5059.74 },{ fecha: '2016-06-30', dato: 4722.96 },{ fecha: '2016-09-30', dato: 4872.94 },{ fecha: '2016-12-31', dato: 3672.46 },{ fecha: '2017-03-31', dato: 4705.54 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -187,57 +188,57 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>31/12/2016</td>
-            <td>$ 6,775.10</td>
+            <td>31/03/2017</td>
+            <td>$ 6,983.93</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>31/12/2016</td>
-            <td>$ 5,966.48</td>
+            <td>31/03/2017</td>
+            <td>$ 6,254.41</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>31/12/2016</td>
-            <td>$ 6,336.03</td>
+            <td>31/03/2017</td>
+            <td>$ 6,603.44</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>31/12/2016</td>
-            <td>$ 3,672.46</td>
+            <td>31/03/2017</td>
+            <td>$ 4,705.54</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>31/12/2016</td>
-            <td>$ 6,426.66</td>
+            <td>31/03/2017</td>
+            <td>$ 6,495.63</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>31/12/2016</td>
-            <td>$ 7,116.82</td>
+            <td>31/03/2017</td>
+            <td>$ 7,225.63</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>31/12/2016</td>
-            <td>$ 5,827.82</td>
+            <td>31/03/2017</td>
+            <td>$ 6,217.26</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>31/12/2016</td>
-            <td>$ 6,429.92</td>
+            <td>31/03/2017</td>
+            <td>$ 6,543.52</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -261,7 +262,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 6775.10 },{ region: 'Gómez Palacio', dato: 5966.48 },{ region: 'Lerdo', dato: 6336.03 },{ region: 'Matamoros', dato: 3672.46 },{ region: 'La Laguna', dato: 6426.66 },{ region: 'Coahuila', dato: 7116.82 },{ region: 'Durango', dato: 5827.82 },{ region: 'Nacional', dato: 6429.92 }],
+      data: [{ region: 'Torreón', dato: 6983.93 },{ region: 'Gómez Palacio', dato: 6254.41 },{ region: 'Lerdo', dato: 6603.44 },{ region: 'Matamoros', dato: 4705.54 },{ region: 'La Laguna', dato: 6495.63 },{ region: 'Coahuila', dato: 7225.63 },{ region: 'Durango', dato: 6217.26 },{ region: 'Nacional', dato: 6543.52 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

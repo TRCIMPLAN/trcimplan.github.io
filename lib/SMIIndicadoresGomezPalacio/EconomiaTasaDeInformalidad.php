@@ -80,7 +80,8 @@ class EconomiaTasaDeInformalidad extends \SMIBase\PublicacionWeb {
             array('fecha' => '2016-03-31', 'valor' => '42.3656', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
             array('fecha' => '2016-06-30', 'valor' => '41.9300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
             array('fecha' => '2016-09-30', 'valor' => '44.7300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
-            array('fecha' => '2016-12-31', 'valor' => '45.0000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => '')));
+            array('fecha' => '2016-12-31', 'valor' => '45.0000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
+            array('fecha' => '2017-03-31', 'valor' => '41.6500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => '')));
         // Entregar
         return $this->datos_tabla->html();
     } // seccion_datos_html
@@ -118,7 +119,7 @@ FINAL;
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2011-12-31', dato: 41.0900 },{ fecha: '2012-03-31', dato: 45.8900 },{ fecha: '2012-06-30', dato: 40.7500 },{ fecha: '2012-09-30', dato: 49.4400 },{ fecha: '2012-12-31', dato: 45.4500 },{ fecha: '2013-03-31', dato: 39.5600 },{ fecha: '2013-06-30', dato: 40.2000 },{ fecha: '2013-09-30', dato: 41.2700 },{ fecha: '2013-12-31', dato: 41.5900 },{ fecha: '2014-03-31', dato: 43.2900 },{ fecha: '2014-06-30', dato: 43.5000 },{ fecha: '2014-09-30', dato: 41.0400 },{ fecha: '2014-12-31', dato: 43.6300 },{ fecha: '2015-03-31', dato: 40.9100 },{ fecha: '2015-06-30', dato: 43.9834 },{ fecha: '2015-09-30', dato: 43.3134 },{ fecha: '2015-12-31', dato: 44.3775 },{ fecha: '2016-03-31', dato: 42.3656 },{ fecha: '2016-06-30', dato: 41.9300 },{ fecha: '2016-09-30', dato: 44.7300 },{ fecha: '2016-12-31', dato: 45.0000 }],
+      data: [{ fecha: '2011-12-31', dato: 41.0900 },{ fecha: '2012-03-31', dato: 45.8900 },{ fecha: '2012-06-30', dato: 40.7500 },{ fecha: '2012-09-30', dato: 49.4400 },{ fecha: '2012-12-31', dato: 45.4500 },{ fecha: '2013-03-31', dato: 39.5600 },{ fecha: '2013-06-30', dato: 40.2000 },{ fecha: '2013-09-30', dato: 41.2700 },{ fecha: '2013-12-31', dato: 41.5900 },{ fecha: '2014-03-31', dato: 43.2900 },{ fecha: '2014-06-30', dato: 43.5000 },{ fecha: '2014-09-30', dato: 41.0400 },{ fecha: '2014-12-31', dato: 43.6300 },{ fecha: '2015-03-31', dato: 40.9100 },{ fecha: '2015-06-30', dato: 43.9834 },{ fecha: '2015-09-30', dato: 43.3134 },{ fecha: '2015-12-31', dato: 44.3775 },{ fecha: '2016-03-31', dato: 42.3656 },{ fecha: '2016-06-30', dato: 41.9300 },{ fecha: '2016-09-30', dato: 44.7300 },{ fecha: '2016-12-31', dato: 45.0000 },{ fecha: '2017-03-31', dato: 41.6500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -153,57 +154,57 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>31/12/2016</td>
-            <td>42.81 %</td>
+            <td>31/03/2017</td>
+            <td>45.92 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>31/12/2016</td>
-            <td>45.00 %</td>
+            <td>31/03/2017</td>
+            <td>41.65 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>31/12/2016</td>
-            <td>45.36 %</td>
+            <td>31/03/2017</td>
+            <td>41.82 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>31/12/2016</td>
-            <td>38.12 %</td>
+            <td>31/03/2017</td>
+            <td>39.10 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>31/12/2016</td>
-            <td>43.11 %</td>
+            <td>31/03/2017</td>
+            <td>43.46 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>31/12/2016</td>
-            <td>37.29 %</td>
+            <td>31/03/2017</td>
+            <td>37.92 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>31/12/2016</td>
-            <td>52.35 %</td>
+            <td>31/03/2017</td>
+            <td>52.23 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>31/12/2016</td>
-            <td>57.24 %</td>
+            <td>31/03/2017</td>
+            <td>57.17 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -224,7 +225,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 42.8100 },{ region: 'Gómez Palacio', dato: 45.0000 },{ region: 'Lerdo', dato: 45.3600 },{ region: 'Matamoros', dato: 38.1200 },{ region: 'La Laguna', dato: 43.1100 },{ region: 'Coahuila', dato: 37.2900 },{ region: 'Durango', dato: 52.3500 },{ region: 'Nacional', dato: 57.2400 }],
+      data: [{ region: 'Torreón', dato: 45.9200 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 43.4600 },{ region: 'Coahuila', dato: 37.9200 },{ region: 'Durango', dato: 52.2300 },{ region: 'Nacional', dato: 57.1700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
