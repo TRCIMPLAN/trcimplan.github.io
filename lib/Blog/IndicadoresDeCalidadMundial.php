@@ -31,7 +31,9 @@ class IndicadoresDeCalidadMundial extends \Base\PublicacionSchemaBlogPosting {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha
+        // Ejecutar constructor en el padre
+        parent::__construct();
+      // Título, autor y fecha
         $this->nombre                     = 'Indicadores de Calidad Mundial';
         $this->autor                      = 'Lic. Luis A. Gutiérrez Arizpe';
         $this->fecha                      = '2017-03-01T16:00';

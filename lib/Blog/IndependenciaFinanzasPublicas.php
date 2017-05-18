@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Independencia de las Finanzas Públicas
+ * TrcIMPLAN Sitio Web - Independencia de las Finanzas Públicas
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -17,53 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase IndependenciaFinanzasPublicas
  */
-class IndependenciaFinanzasPublicas extends \Base\Publicacion {
+class IndependenciaFinanzasPublicas extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Independencia de las Finanzas Públicas';
-        $this->autor           = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha           = '2014-06-19T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'independencia-finanzas-publicas';
-        $this->imagen          = 'independencia-finanzas-publicas/imagen.jpg';
-        $this->imagen_previa   = 'independencia-finanzas-publicas/imagen-previa.jpg';
+        $this->nombre                     = 'Independencia de las Finanzas Públicas';
+        $this->autor                      = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha                      = '2014-06-19T08:05';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'independencia-finanzas-publicas';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.';
-        $this->claves          = 'IMPLAN, Torreon, Ingresos, Capacidad Financiera';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/IndependenciaFinanzasPublicas.html';
+        $this->descripcion                = 'Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.';
+        $this->claves                     = 'IMPLAN, Torreon, Ingresos, Capacidad Financiera';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/Blog/IndependenciaFinanzasPublicas.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Finanzas Públicas', 'Gobierno');
-        $this->fuentes         = array('Elaboración propia con datos obtenidos del INEGI', 'INEGI');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias                 = array('Finanzas Públicas', 'Gobierno');
+        $this->fuentes                    = array('Elaboración propia con datos obtenidos del INEGI', 'INEGI');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase IndependenciaFinanzasPublicas

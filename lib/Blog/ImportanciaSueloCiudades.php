@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - La importancia del suelo en las ciudades
+ * TrcIMPLAN Sitio Web - La importancia del suelo en las ciudades
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -17,53 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase ImportanciaSueloCiudades
  */
-class ImportanciaSueloCiudades extends \Base\Publicacion {
+class ImportanciaSueloCiudades extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'La importancia del suelo en las ciudades';
-        $this->autor           = 'Arq. Ilse Ávila García';
-        $this->fecha           = '2014-10-15T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'importancia-suelo-ciudades';
-        $this->imagen          = 'importancia-suelo-ciudades/imagen.jpg';
-        $this->imagen_previa   = 'importancia-suelo-ciudades/imagen-previa.jpg';
+        $this->nombre                     = 'La importancia del suelo en las ciudades';
+        $this->autor                      = 'Arq. Ilse Ávila García';
+        $this->fecha                      = '2014-10-15T08:05';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'importancia-suelo-ciudades';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.';
-        $this->claves          = 'IMPLAN, Torreon, Suelo, Urbano, Ordenamiento';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/ImportanciaSueloCiudades.html';
+        $this->descripcion                = 'En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.';
+        $this->claves                     = 'IMPLAN, Torreon, Suelo, Urbano, Ordenamiento';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/Blog/ImportanciaSueloCiudades.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Infraestructura', 'Vivienda', 'Recursos Naturales');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array('Infraestructura', 'Vivienda', 'Recursos Naturales');
+        $this->fuentes                    = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase ImportanciaSueloCiudades

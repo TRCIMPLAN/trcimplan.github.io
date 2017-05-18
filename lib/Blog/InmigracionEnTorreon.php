@@ -41,7 +41,7 @@ class InmigracionEnTorreon extends \Base\PublicacionSchemaBlogPosting {
         $this->archivo                    = 'inmigracion-en-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Estudio sobre el fenómeno de la migración en Torréon y en la ZML donde hacemos referencia al movimiento de personas de una región geográfica a otra, motivado por factores internos o externos.';
-        $this->claves                     = 'IMPLAN, Torreon, ';
+        $this->claves                     = 'IMPLAN, Torreon, Migracion';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
@@ -50,7 +50,7 @@ class InmigracionEnTorreon extends \Base\PublicacionSchemaBlogPosting {
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias                 = array('Ponlación');
+        $this->categorias                 = array('Población');
         $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
