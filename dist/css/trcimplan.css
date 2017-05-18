@@ -615,249 +615,65 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
  * Responsivo
  */
 @media only screen and (max-width: 1190px) {
-    #carrusel .carousel-inner > .item > img {
-        height:352px;
-    }
+    #carrusel .carousel-inner > .item > img { height:352px; }
 }
 @media only screen and (max-width: 990px) {
-    h1, .h1 { font-size:24px; }
-    h2, .h2 { font-size:20px; }
-    h3, .h3 { font-size:18px; }
-    h4, .h4 { font-size:14px; }
-    h5, .h5 { font-size:12px; }
-    h6, .h6 { font-size:10px; }
-    #carrusel .carousel-inner > .item > img {
-        height:260px;
-    }
-    .destacado-servicio {
-        min-height: 140px;
-    }
-    .destacado-imagen {
-        float:left;
-        margin-right:8px;
-    }
-    .destacado-boton {
-        font-size:10pt;
-    }
-    #servicio-smi {
-        display:block;
-        width:128px;
-        height:128px;
-        background:url("../../imagenes/servicio-smi-128.png") no-repeat 0 0;
-    }
-    #servicio-smi:hover {
-        background-position:-128px 0;
-    }
-    #servicio-sig {
-        display:block;
-        width:128px;
-        height:128px;
-        background:url("../../imagenes/servicio-sig-128.png") no-repeat 0 0;
-    }
-    #servicio-sig:hover {
-        background-position:-128px 0;
-    }
-    #servicio-pem {
-        display:block;
-        width:128px;
-        height:128px;
-        background:url("../../imagenes/servicio-pem-128.png") no-repeat 0 0;
-    }
-    #servicio-pem:hover {
-        background-position:-128px 0;
-    }
-    #servicio-pet {
-        display:block;
-        width:128px;
-        height:128px;
-        background:url("../../imagenes/servicio-pet-128.png") no-repeat 0 0;
-    }
-    #servicio-pet:hover {
-        background-position:-128px 0;
-    }
-    #ultimas-publicaciones .red-social-twitter {
-        display:none;
-    }
-    #mapa {
-        display:none;
-    }
-    #mapa-chico {
-        display:block;
-        font-size:10pt;
-    }
-    .inferior-logo {
-        margin-top:4px;
-        margin-bottom:4px;
-    }
-    .inferior-mapa {
-        margin-top:4px;
-        margin-bottom:4px;
-        border-right:none;
-        height:auto;
-    }
-    .contenido-imagen {
-        padding:16px;
-    }
+    #carrusel .carousel-inner > .item > img { height:260px; }
+    .destacado-servicio { min-height: 140px; }
+    .destacado-imagen   { float:left; margin-right:8px; }
+    .destacado-boton    { font-size:10pt; }
+    #servicio-smi       { display:block; width:128px; height:128px; background:url("../../imagenes/servicio-smi-128.png") no-repeat 0 0; }
+    #servicio-smi:hover { background-position:-128px 0; }
+    #servicio-sig       { display:block; width:128px; height:128px; background:url("../../imagenes/servicio-sig-128.png") no-repeat 0 0; }
+    #servicio-sig:hover { background-position:-128px 0; }
+    #servicio-pem       { display:block; width:128px; height:128px; background:url("../../imagenes/servicio-pem-128.png") no-repeat 0 0; }
+    #servicio-pem:hover { background-position:-128px 0; }
+    #servicio-pet       { display:block; width:128px; height:128px; background:url("../../imagenes/servicio-pet-128.png") no-repeat 0 0; }
+    #servicio-pet:hover { background-position:-128px 0; }
+    #ultimas-publicaciones .red-social-twitter { display:none; }
+    #mapa               { display:none; }
+    #mapa-chico         { display:block; font-size:10pt; }
+    .inferior-logo      { margin-top:4px; margin-bottom:4px; }
+    .inferior-mapa      { margin-top:4px; margin-bottom:4px; border-right:none; height:auto; }
+    .contenido-imagen   { padding:16px; }
 }
 @media only screen and (max-width: 580px) {
-    h1, .h1 { font-size:22px; }
-    h2, .h2 { font-size:18px; }
-    h3, .h3 { font-size:16px; }
-    h4, .h4 { font-size:14px; }
-    h5, .h5 { font-size:12px; }
-    h6, .h6 { font-size:10px; }
-    #carrusel .carousel-inner > .item > img {
-        height:190px;
-    }
-    .destacado-servicio {
-        min-height: 140px;
-    }
-    .destacado-imagen {
-        float:left;
-        margin-right:8px;
-    }
-    .destacado-boton {
-        font-size:9pt;
-    }
-    #servicio-smi {
-        display:block;
-        width:64px;
-        height:64px;
-        background:url("../../imagenes/servicio-smi-64.png") no-repeat 0 0;
-    }
-    #servicio-smi:hover {
-        background-position:-64px 0;
-    }
-    #servicio-sig {
-        display:block;
-        width:64px;
-        height:64px;
-        background:url("../../imagenes/servicio-sig-64.png") no-repeat 0 0;
-    }
-    #servicio-sig:hover {
-        background-position:-64px 0;
-    }
-    #servicio-pem {
-        display:block;
-        width:64px;
-        height:64px;
-        background:url("../../imagenes/servicio-pem-64.png") no-repeat 0 0;
-    }
-    #servicio-pem:hover {
-        background-position:-64px 0;
-    }
-    #servicio-pet {
-        display:block;
-        width:64px;
-        height:64px;
-        background:url("../../imagenes/servicio-pet-64.png") no-repeat 0 0;
-    }
-    #servicio-pet:hover {
-        background-position:-64px 0;
-    }
-    #ultimas-publicaciones .red-social-twitter {
-        display:none;
-    }
-    #mapa {
-        display:none;
-    }
-    #mapa-chico {
-        display:block;
-        font-size:9pt;
-    }
-    .inferior-logo {
-        width:400px;
-        margin-top:4px;
-        margin-bottom:2px;
-    }
-    .inferior-mapa {
-        margin-top:4px;
-        margin-bottom:4px;
-        border-right:none;
-        height:auto;
-    }
-    .contenido-imagen {
-        padding:8px;
-    }
+    #carrusel .carousel-inner > .item > img { height:190px; }
+    .destacado-servicio { min-height: 140px; }
+    .destacado-imagen   { float:left; margin-right:8px; }
+    .destacado-boton    { font-size:9pt; }
+    #servicio-smi       { display:block; width:64px; height:64px; background:url("../../imagenes/servicio-smi-64.png") no-repeat 0 0; }
+    #servicio-smi:hover { background-position:-64px 0; }
+    #servicio-sig       { display:block; width:64px; height:64px; background:url("../../imagenes/servicio-sig-64.png") no-repeat 0 0; }
+    #servicio-sig:hover { background-position:-64px 0; }
+    #servicio-pem       { display:block; width:64px; height:64px; background:url("../../imagenes/servicio-pem-64.png") no-repeat 0 0; }
+    #servicio-pem:hover { background-position:-64px 0; }
+    #servicio-pet       { display:block; width:64px; height:64px; background:url("../../imagenes/servicio-pet-64.png") no-repeat 0 0; }
+    #servicio-pet:hover { background-position:-64px 0; }
+    #ultimas-publicaciones .red-social-twitter { display:none; }
+    #mapa               { display:none; }
+    #mapa-chico         { display:block; font-size:9pt; }
+    .inferior-logo      { width:400px; margin-top:4px; margin-bottom:2px; }
+    .inferior-mapa      { margin-top:4px; margin-bottom:4px; border-right:none; height:auto; }
+    .contenido-imagen   { padding:8px; }
 }
 @media only screen and (max-width: 300px) {
-    h1, .h1 { font-size:18px; }
-    h2, .h2 { font-size:16px; }
-    h3, .h3 { font-size:14px; }
-    h4, .h4 { font-size:12px; }
-    h5, .h5 { font-size:11px; }
-    h6, .h6 { font-size:9px; }
-    #carrusel .carousel-inner > .item > img {
-        height:150px;
-    }
-    .destacado-servicio {
-        min-height: 140px;
-    }
-    .destacado-imagen {
-        float:left;
-        margin-right:8px;
-    }
-    .destacado-boton {
-        font-size:8pt;
-    }
-    #servicio-smi {
-        display:block;
-        width:48px;
-        height:48px;
-        background:url("../../imagenes/servicio-smi-48.png") no-repeat 0 0;
-    }
-    #servicio-smi:hover {
-        background-position:-48px 0;
-    }
-    #servicio-sig {
-        display:block;
-        width:48px;
-        height:48px;
-        background:url("../../imagenes/servicio-sig-48.png") no-repeat 0 0;
-    }
-    #servicio-sig:hover {
-        background-position:-48px 0;
-    }
-    #servicio-pem {
-        display:block;
-        width:48px;
-        height:48px;
-        background:url("../../imagenes/servicio-pem-48.png") no-repeat 0 0;
-    }
-    #servicio-pem:hover {
-        background-position:-48px 0;
-    }
-    #servicio-pet {
-        display:block;
-        width:48px;
-        height:48px;
-        background:url("../../imagenes/servicio-pet-48.png") no-repeat 0 0;
-    }
-    #servicio-pet:hover {
-        background-position:-48px 0;
-    }
-    #ultimas-publicaciones .red-social-twitter {
-        display:none;
-    }
-    #mapa {
-        display:none;
-    }
-    #mapa-chico {
-        display:block;
-        font-size:8pt;
-    }
-    .inferior-logo {
-        width:200px;
-        margin-top:2px;
-        margin-bottom:2px;
-    }
-    .inferior-mapa {
-        margin-top:4px;
-        margin-bottom:4px;
-        border-right:none;
-        height:auto;
-    }
-    .contenido-imagen {
-        padding:4px;
-    }
+    #carrusel .carousel-inner > .item > img { height:150px; }
+    .destacado-servicio { min-height: 140px; }
+    .destacado-imagen   { float:left; margin-right:8px; }
+    .destacado-boton    { font-size:8pt; }
+    #servicio-smi       { display:block; width:48px; height:48px; background:url("../../imagenes/servicio-smi-48.png") no-repeat 0 0; }
+    #servicio-smi:hover { background-position:-48px 0; }
+    #servicio-sig       { display:block; width:48px; height:48px; background:url("../../imagenes/servicio-sig-48.png") no-repeat 0 0; }
+    #servicio-sig:hover { background-position:-48px 0; }
+    #servicio-pem       { display:block; width:48px; height:48px; background:url("../../imagenes/servicio-pem-48.png") no-repeat 0 0; }
+    #servicio-pem:hover { background-position:-48px 0; }
+    #servicio-pet       { display:block; width:48px; height:48px; background:url("../../imagenes/servicio-pet-48.png") no-repeat 0 0; }
+    #servicio-pet:hover { background-position:-48px 0; }
+    #ultimas-publicaciones .red-social-twitter { display:none; }
+    #mapa               { display:none; }
+    #mapa-chico         { display:block; font-size:8pt; }
+    .inferior-logo      { width:200px; margin-top:2px; margin-bottom:2px; }
+    .inferior-mapa      { margin-top:4px; margin-bottom:4px; border-right:none; height:auto; }
+    .contenido-imagen   { padding:4px; }
 }
