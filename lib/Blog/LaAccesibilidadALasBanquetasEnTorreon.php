@@ -34,13 +34,13 @@ class LaAccesibilidadALasBanquetasEnTorreon extends \Base\PublicacionSchemaBlogP
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'La accesibilidad a las banquetas en Torreón';
+        $this->nombre                     = 'La Accesibilidad a las Banquetas en Torreón';
         $this->autor                      = 'Arq. Daniela Patricia Corral Hernández';
         $this->fecha                      = '2017-05-11T11:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-accesibilidad-a-las-banquetas-en-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Las normativas de tráfico y, en particular, la legislación de seguridad vial desde sus inicios en los años veinte del siglo pasado, han considerado a las banquetas como un espacio exclusivamente peatonal.';
+        $this->descripcion                = 'Las normativas de tráfico y en particular, la legislación de seguridad vial desde sus inicios en los años veinte del siglo pasado, han considerado a las banquetas como un espacio exclusivamente peatonal.';
         $this->claves                     = 'IMPLAN, Torreon, Banquetas, Peatones';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
