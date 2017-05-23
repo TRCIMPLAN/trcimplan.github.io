@@ -44,7 +44,7 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Lerdo, Empleo';
         // Para el Organizador
         $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Instituto Mexicano del Seguro Social (IMSS)');
+        $this->fuentes     = array('Instituto Mexicano del Seguro Social (IMSS)', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos');
         $this->regiones    = array('Lerdo');
     } // constructor
 
@@ -94,7 +94,13 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2016-06-30', 'valor' => '14641', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
             array('fecha' => '2016-07-31', 'valor' => '14364', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
             array('fecha' => '2016-08-31', 'valor' => '14651', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
-            array('fecha' => '2016-09-30', 'valor' => '14257', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => '')));
+            array('fecha' => '2016-09-30', 'valor' => '14257', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-10-31', 'valor' => '14119', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-11-30', 'valor' => '14429', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'notas' => ''),
+            array('fecha' => '2016-12-31', 'valor' => '14273', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2017-01-31', 'valor' => '14246', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2017-02-28', 'valor' => '14857', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2017-03-31', 'valor' => '15139', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => '')));
         // Entregar
         return $this->datos_tabla->html();
     } // seccion_datos_html
@@ -109,14 +115,14 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
     } // seccion_datos_javascript
 
     /**
-     * Sección Gráfica HTML
+     * Sección Gráfica 1 HTML
      *
      * @return string Código HTML
      */
-    protected function seccion_grafica_html() {
+    protected function seccion_grafica_1_html() {
         return <<<FINAL
-      <h3>Gráfica de Trabajadores Asegurados en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Trabajadores Asegurados en Lerdo con fuente Instituto Mexicano del Seguro Social (IMSS)</h3>
+      <div id="graficaDatosInstitutoMexicanoDelSeguroSocialImss" class="grafica"></div>
       <p><b>Unidad:</b> Personas.</p>
       <h3>Observaciones</h3>
 <p>Datos obtenidos de <a href="http://datos.imss.gob.mx/dataset">IMSS</a></p>
@@ -125,17 +131,17 @@ FINAL;
     } // seccion_grafica_html
 
     /**
-     * Sección Gráfica JavaScript
+     * Sección Gráfica 1 JavaScript
      *
      * @return string Código JavaScript
      */
-    protected function seccion_grafica_javascript() {
+    protected function seccion_grafica_1_javascript() {
         return <<<FINAL
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2013-11-30', dato: 13739 },{ fecha: '2013-12-31', dato: 13518 },{ fecha: '2014-01-31', dato: 13811 },{ fecha: '2014-02-28', dato: 13947 },{ fecha: '2014-03-31', dato: 13894 },{ fecha: '2014-04-30', dato: 13791 },{ fecha: '2014-05-31', dato: 13667 },{ fecha: '2014-06-30', dato: 13347 },{ fecha: '2014-07-31', dato: 13336 },{ fecha: '2014-08-31', dato: 13314 },{ fecha: '2014-09-30', dato: 13251 },{ fecha: '2014-10-31', dato: 12960 },{ fecha: '2014-11-30', dato: 12994 },{ fecha: '2014-12-31', dato: 12906 },{ fecha: '2015-01-31', dato: 12590 },{ fecha: '2015-02-28', dato: 13380 },{ fecha: '2015-03-31', dato: 13448 },{ fecha: '2015-04-30', dato: 13540 },{ fecha: '2015-05-31', dato: 13905 },{ fecha: '2015-06-30', dato: 13933 },{ fecha: '2015-07-31', dato: 14011 },{ fecha: '2015-08-31', dato: 14056 },{ fecha: '2015-09-30', dato: 14112 },{ fecha: '2015-10-31', dato: 14152 },{ fecha: '2015-11-30', dato: 14237 },{ fecha: '2015-12-31', dato: 14230 },{ fecha: '2016-01-31', dato: 14086 },{ fecha: '2016-02-29', dato: 14113 },{ fecha: '2016-03-31', dato: 14428 },{ fecha: '2016-04-30', dato: 14414 },{ fecha: '2016-05-31', dato: 14928 },{ fecha: '2016-06-30', dato: 14641 },{ fecha: '2016-07-31', dato: 14364 },{ fecha: '2016-08-31', dato: 14651 },{ fecha: '2016-09-30', dato: 14257 }],
+  if (typeof vargraficaDatosInstitutoMexicanoDelSeguroSocialImss === 'undefined') {
+    vargraficaDatosInstitutoMexicanoDelSeguroSocialImss = Morris.Line({
+      element: 'graficaDatosInstitutoMexicanoDelSeguroSocialImss',
+      data: [{ fecha: '2013-11-30', dato: 13739 },{ fecha: '2013-12-31', dato: 13518 },{ fecha: '2014-01-31', dato: 13811 },{ fecha: '2014-02-28', dato: 13947 },{ fecha: '2014-03-31', dato: 13894 },{ fecha: '2014-04-30', dato: 13791 },{ fecha: '2014-05-31', dato: 13667 },{ fecha: '2014-06-30', dato: 13347 },{ fecha: '2014-07-31', dato: 13336 },{ fecha: '2014-08-31', dato: 13314 },{ fecha: '2014-09-30', dato: 13251 },{ fecha: '2014-10-31', dato: 12960 },{ fecha: '2014-11-30', dato: 12994 },{ fecha: '2014-12-31', dato: 12906 },{ fecha: '2015-01-31', dato: 12590 },{ fecha: '2015-02-28', dato: 13380 },{ fecha: '2015-03-31', dato: 13448 },{ fecha: '2015-04-30', dato: 13540 },{ fecha: '2015-05-31', dato: 13905 },{ fecha: '2015-06-30', dato: 13933 },{ fecha: '2015-07-31', dato: 14011 },{ fecha: '2015-08-31', dato: 14056 },{ fecha: '2015-09-30', dato: 14112 },{ fecha: '2015-10-31', dato: 14152 },{ fecha: '2015-11-30', dato: 14237 },{ fecha: '2015-12-31', dato: 14230 },{ fecha: '2016-01-31', dato: 14086 },{ fecha: '2016-02-29', dato: 14113 },{ fecha: '2016-03-31', dato: 14428 },{ fecha: '2016-04-30', dato: 14414 },{ fecha: '2016-05-31', dato: 14928 },{ fecha: '2016-06-30', dato: 14641 },{ fecha: '2016-07-31', dato: 14364 },{ fecha: '2016-08-31', dato: 14651 },{ fecha: '2016-09-30', dato: 14257 },{ fecha: '2016-10-31', dato: 14119 },{ fecha: '2016-12-31', dato: 14273 },{ fecha: '2017-01-31', dato: 14246 },{ fecha: '2017-02-28', dato: 14857 },{ fecha: '2017-03-31', dato: 15139 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -170,36 +176,50 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>30/09/2016</td>
-            <td>187057</td>
+            <td>31/03/2017</td>
+            <td>186824</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>30/09/2016</td>
-            <td>76824</td>
+            <td>31/03/2017</td>
+            <td>76145</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>30/09/2016</td>
-            <td>14257</td>
+            <td>31/03/2017</td>
+            <td>15139</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>30/09/2016</td>
-            <td>8669</td>
+            <td>31/03/2017</td>
+            <td>8415</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>30/09/2016</td>
-            <td>286807</td>
+            <td>31/03/2017</td>
+            <td>286523</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>31/03/2017</td>
+            <td>734936</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>31/03/2017</td>
+            <td>235926</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
@@ -223,7 +243,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 187057 },{ region: 'Gómez Palacio', dato: 76824 },{ region: 'Lerdo', dato: 14257 },{ region: 'Matamoros', dato: 8669 },{ region: 'La Laguna', dato: 286807 }],
+      data: [{ region: 'Torreón', dato: 186824 },{ region: 'Gómez Palacio', dato: 76145 },{ region: 'Lerdo', dato: 15139 },{ region: 'Matamoros', dato: 8415 },{ region: 'La Laguna', dato: 286523 },{ region: 'Coahuila', dato: 734936 },{ region: 'Durango', dato: 235926 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -241,8 +261,8 @@ FINAL;
     public function html() {
         // Ejecutar los métodos que alimentan cada lengüeta
         $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
-        $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
+        $this->lenguetas->agregar('smi-indicador-grafica-1', 'Gráfica 1', $this->seccion_grafica_1_html());
+        $this->lenguetas->agregar_javascript($this->seccion_grafica_1_javascript());
         $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
         $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa

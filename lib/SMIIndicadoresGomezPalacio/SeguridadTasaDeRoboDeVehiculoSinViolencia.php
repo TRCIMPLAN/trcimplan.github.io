@@ -132,15 +132,15 @@ class SeguridadTasaDeRoboDeVehiculoSinViolencia extends \SMIBase\PublicacionWeb 
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>31/03/2017</td>
-            <td>7.89 %</td>
+            <td>30/04/2017</td>
+            <td>9.41 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>31/03/2017</td>
-            <td>18.34 %</td>
+            <td>30/04/2017</td>
+            <td>23.68 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -164,7 +164,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 7.8900 },{ region: 'Durango', dato: 18.3400 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 9.4100 },{ region: 'Durango', dato: 23.6800 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

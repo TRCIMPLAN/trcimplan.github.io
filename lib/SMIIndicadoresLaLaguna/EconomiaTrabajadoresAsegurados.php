@@ -94,7 +94,13 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2016-06-30', 'valor' => '283028', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
             array('fecha' => '2016-07-31', 'valor' => '282497', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
             array('fecha' => '2016-08-31', 'valor' => '285716', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
-            array('fecha' => '2016-09-30', 'valor' => '286807', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => '')));
+            array('fecha' => '2016-09-30', 'valor' => '286807', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-10-31', 'valor' => '287610', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-11-30', 'valor' => '287990', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2016-12-31', 'valor' => '282106', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2017-01-31', 'valor' => '282620', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2017-02-28', 'valor' => '284873', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ''),
+            array('fecha' => '2017-03-31', 'valor' => '286523', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => '')));
         // Entregar
         return $this->datos_tabla->html();
     } // seccion_datos_html
@@ -135,7 +141,7 @@ FINAL;
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-11-30', dato: 256808 },{ fecha: '2013-12-31', dato: 253116 },{ fecha: '2014-01-31', dato: 254644 },{ fecha: '2014-02-28', dato: 255740 },{ fecha: '2014-03-31', dato: 257532 },{ fecha: '2014-04-30', dato: 258709 },{ fecha: '2014-05-31', dato: 259707 },{ fecha: '2014-06-30', dato: 260725 },{ fecha: '2014-07-31', dato: 261332 },{ fecha: '2014-08-31', dato: 264250 },{ fecha: '2014-09-30', dato: 266616 },{ fecha: '2014-10-31', dato: 267301 },{ fecha: '2014-11-30', dato: 268101 },{ fecha: '2014-12-31', dato: 264904 },{ fecha: '2015-01-31', dato: 265053 },{ fecha: '2015-02-28', dato: 267403 },{ fecha: '2015-03-31', dato: 268943 },{ fecha: '2015-04-30', dato: 270311 },{ fecha: '2015-05-31', dato: 270352 },{ fecha: '2015-06-30', dato: 271743 },{ fecha: '2015-07-31', dato: 272455 },{ fecha: '2015-08-31', dato: 274856 },{ fecha: '2015-09-30', dato: 273771 },{ fecha: '2015-10-31', dato: 275539 },{ fecha: '2015-11-30', dato: 276239 },{ fecha: '2015-12-31', dato: 272417 },{ fecha: '2016-01-31', dato: 274382 },{ fecha: '2016-02-29', dato: 277139 },{ fecha: '2016-03-31', dato: 277295 },{ fecha: '2016-04-30', dato: 279007 },{ fecha: '2016-05-31', dato: 280088 },{ fecha: '2016-06-30', dato: 283028 },{ fecha: '2016-07-31', dato: 282497 },{ fecha: '2016-08-31', dato: 285716 },{ fecha: '2016-09-30', dato: 286807 }],
+      data: [{ fecha: '2013-11-30', dato: 256808 },{ fecha: '2013-12-31', dato: 253116 },{ fecha: '2014-01-31', dato: 254644 },{ fecha: '2014-02-28', dato: 255740 },{ fecha: '2014-03-31', dato: 257532 },{ fecha: '2014-04-30', dato: 258709 },{ fecha: '2014-05-31', dato: 259707 },{ fecha: '2014-06-30', dato: 260725 },{ fecha: '2014-07-31', dato: 261332 },{ fecha: '2014-08-31', dato: 264250 },{ fecha: '2014-09-30', dato: 266616 },{ fecha: '2014-10-31', dato: 267301 },{ fecha: '2014-11-30', dato: 268101 },{ fecha: '2014-12-31', dato: 264904 },{ fecha: '2015-01-31', dato: 265053 },{ fecha: '2015-02-28', dato: 267403 },{ fecha: '2015-03-31', dato: 268943 },{ fecha: '2015-04-30', dato: 270311 },{ fecha: '2015-05-31', dato: 270352 },{ fecha: '2015-06-30', dato: 271743 },{ fecha: '2015-07-31', dato: 272455 },{ fecha: '2015-08-31', dato: 274856 },{ fecha: '2015-09-30', dato: 273771 },{ fecha: '2015-10-31', dato: 275539 },{ fecha: '2015-11-30', dato: 276239 },{ fecha: '2015-12-31', dato: 272417 },{ fecha: '2016-01-31', dato: 274382 },{ fecha: '2016-02-29', dato: 277139 },{ fecha: '2016-03-31', dato: 277295 },{ fecha: '2016-04-30', dato: 279007 },{ fecha: '2016-05-31', dato: 280088 },{ fecha: '2016-06-30', dato: 283028 },{ fecha: '2016-07-31', dato: 282497 },{ fecha: '2016-08-31', dato: 285716 },{ fecha: '2016-09-30', dato: 286807 },{ fecha: '2016-10-31', dato: 287610 },{ fecha: '2016-11-30', dato: 287990 },{ fecha: '2016-12-31', dato: 282106 },{ fecha: '2017-01-31', dato: 282620 },{ fecha: '2017-02-28', dato: 284873 },{ fecha: '2017-03-31', dato: 286523 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -170,36 +176,50 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>30/09/2016</td>
-            <td>187057</td>
+            <td>31/03/2017</td>
+            <td>186824</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>30/09/2016</td>
-            <td>76824</td>
+            <td>31/03/2017</td>
+            <td>76145</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>30/09/2016</td>
-            <td>14257</td>
+            <td>31/03/2017</td>
+            <td>15139</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>30/09/2016</td>
-            <td>8669</td>
+            <td>31/03/2017</td>
+            <td>8415</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>30/09/2016</td>
-            <td>286807</td>
+            <td>31/03/2017</td>
+            <td>286523</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>31/03/2017</td>
+            <td>734936</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>31/03/2017</td>
+            <td>235926</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
@@ -223,7 +243,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 187057 },{ region: 'Gómez Palacio', dato: 76824 },{ region: 'Lerdo', dato: 14257 },{ region: 'Matamoros', dato: 8669 },{ region: 'La Laguna', dato: 286807 }],
+      data: [{ region: 'Torreón', dato: 186824 },{ region: 'Gómez Palacio', dato: 76145 },{ region: 'Lerdo', dato: 15139 },{ region: 'Matamoros', dato: 8415 },{ region: 'La Laguna', dato: 286523 },{ region: 'Coahuila', dato: 734936 },{ region: 'Durango', dato: 235926 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
