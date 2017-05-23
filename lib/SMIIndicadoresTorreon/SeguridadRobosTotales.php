@@ -193,8 +193,8 @@ FINAL;
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>31/03/2017</td>
-            <td>26</td>
+            <td>30/04/2017</td>
+            <td>18</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -222,7 +222,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 251 },{ region: 'Gómez Palacio', dato: 166 },{ region: 'Lerdo', dato: 58 },{ region: 'Matamoros', dato: 26 },{ region: 'La Laguna', dato: 493 }],
+      data: [{ region: 'Torreón', dato: 251 },{ region: 'Gómez Palacio', dato: 166 },{ region: 'Lerdo', dato: 58 },{ region: 'Matamoros', dato: 18 },{ region: 'La Laguna', dato: 493 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -175,7 +175,7 @@ class Delincuencia extends \SMIBase\PublicacionWeb {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">25</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">61</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -192,7 +192,7 @@ class Delincuencia extends \SMIBase\PublicacionWeb {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">251</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">166</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">58</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/03/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">26</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">18</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/04/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">493</a></td>
   </tr>
   <tr>

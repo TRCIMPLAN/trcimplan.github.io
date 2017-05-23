@@ -201,7 +201,7 @@ FINAL;
           <tr>
             <td>La Laguna</td>
             <td>30/04/2017</td>
-            <td>ND</td>
+            <td>61</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -222,7 +222,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 25 },{ region: 'Gómez Palacio', dato: 25 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 0 }],
+      data: [{ region: 'Torreón', dato: 25 },{ region: 'Gómez Palacio', dato: 25 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 61 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
