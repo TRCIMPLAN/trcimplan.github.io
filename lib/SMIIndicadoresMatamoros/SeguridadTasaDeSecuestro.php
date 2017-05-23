@@ -132,15 +132,15 @@ class SeguridadTasaDeSecuestro extends \SMIBase\PublicacionWeb {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>31/03/2017</td>
+            <td>30/04/2017</td>
             <td>0.07 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>31/03/2017</td>
-            <td>0.33 %</td>
+            <td>30/04/2017</td>
+            <td>0.44 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -164,7 +164,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 0.0700 },{ region: 'Durango', dato: 0.3300 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 0.0700 },{ region: 'Durango', dato: 0.4400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

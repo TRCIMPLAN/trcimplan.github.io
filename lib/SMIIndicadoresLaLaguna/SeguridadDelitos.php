@@ -98,7 +98,8 @@ class SeguridadDelitos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2016-12-31', 'valor' => '2148', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
             array('fecha' => '2017-01-31', 'valor' => '1888', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
             array('fecha' => '2017-02-28', 'valor' => '1869', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
-            array('fecha' => '2017-03-31', 'valor' => '2498', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => '')));
+            array('fecha' => '2017-03-31', 'valor' => '2498', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
+            array('fecha' => '2017-04-30', 'valor' => '1943', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => '')));
         // Entregar
         return $this->datos_tabla->html();
     } // seccion_datos_html
@@ -136,7 +137,7 @@ FINAL;
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 1433 },{ fecha: '2014-02-28', dato: 1279 },{ fecha: '2014-03-31', dato: 1274 },{ fecha: '2014-04-30', dato: 1201 },{ fecha: '2014-05-31', dato: 1536 },{ fecha: '2014-06-30', dato: 1201 },{ fecha: '2014-07-31', dato: 1255 },{ fecha: '2014-08-31', dato: 1341 },{ fecha: '2014-09-30', dato: 1314 },{ fecha: '2014-10-31', dato: 1414 },{ fecha: '2014-11-30', dato: 1179 },{ fecha: '2014-12-31', dato: 1073 },{ fecha: '2015-01-31', dato: 1299 },{ fecha: '2015-02-28', dato: 1319 },{ fecha: '2015-03-31', dato: 1175 },{ fecha: '2015-04-30', dato: 1561 },{ fecha: '2015-05-31', dato: 1431 },{ fecha: '2015-06-30', dato: 1436 },{ fecha: '2015-07-31', dato: 1479 },{ fecha: '2015-08-31', dato: 1398 },{ fecha: '2015-09-30', dato: 1491 },{ fecha: '2015-10-31', dato: 1789 },{ fecha: '2015-11-30', dato: 1476 },{ fecha: '2015-12-31', dato: 1545 },{ fecha: '2016-01-31', dato: 1373 },{ fecha: '2016-02-29', dato: 1636 },{ fecha: '2016-03-31', dato: 1791 },{ fecha: '2016-04-30', dato: 1959 },{ fecha: '2016-05-31', dato: 2180 },{ fecha: '2016-06-30', dato: 2516 },{ fecha: '2016-07-31', dato: 1797 },{ fecha: '2016-08-31', dato: 1966 },{ fecha: '2016-09-30', dato: 2309 },{ fecha: '2016-10-31', dato: 2014 },{ fecha: '2016-11-30', dato: 1872 },{ fecha: '2016-12-31', dato: 2148 },{ fecha: '2017-01-31', dato: 1888 },{ fecha: '2017-02-28', dato: 1869 },{ fecha: '2017-03-31', dato: 2498 }],
+      data: [{ fecha: '2014-01-31', dato: 1433 },{ fecha: '2014-02-28', dato: 1279 },{ fecha: '2014-03-31', dato: 1274 },{ fecha: '2014-04-30', dato: 1201 },{ fecha: '2014-05-31', dato: 1536 },{ fecha: '2014-06-30', dato: 1201 },{ fecha: '2014-07-31', dato: 1255 },{ fecha: '2014-08-31', dato: 1341 },{ fecha: '2014-09-30', dato: 1314 },{ fecha: '2014-10-31', dato: 1414 },{ fecha: '2014-11-30', dato: 1179 },{ fecha: '2014-12-31', dato: 1073 },{ fecha: '2015-01-31', dato: 1299 },{ fecha: '2015-02-28', dato: 1319 },{ fecha: '2015-03-31', dato: 1175 },{ fecha: '2015-04-30', dato: 1561 },{ fecha: '2015-05-31', dato: 1431 },{ fecha: '2015-06-30', dato: 1436 },{ fecha: '2015-07-31', dato: 1479 },{ fecha: '2015-08-31', dato: 1398 },{ fecha: '2015-09-30', dato: 1491 },{ fecha: '2015-10-31', dato: 1789 },{ fecha: '2015-11-30', dato: 1476 },{ fecha: '2015-12-31', dato: 1545 },{ fecha: '2016-01-31', dato: 1373 },{ fecha: '2016-02-29', dato: 1636 },{ fecha: '2016-03-31', dato: 1791 },{ fecha: '2016-04-30', dato: 1959 },{ fecha: '2016-05-31', dato: 2180 },{ fecha: '2016-06-30', dato: 2516 },{ fecha: '2016-07-31', dato: 1797 },{ fecha: '2016-08-31', dato: 1966 },{ fecha: '2016-09-30', dato: 2309 },{ fecha: '2016-10-31', dato: 2014 },{ fecha: '2016-11-30', dato: 1872 },{ fecha: '2016-12-31', dato: 2148 },{ fecha: '2017-01-31', dato: 1888 },{ fecha: '2017-02-28', dato: 1869 },{ fecha: '2017-03-31', dato: 2498 },{ fecha: '2017-04-30', dato: 1943 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -171,36 +172,36 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>31/03/2017</td>
-            <td>1401</td>
+            <td>30/04/2017</td>
+            <td>935</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>31/03/2017</td>
-            <td>417</td>
+            <td>30/04/2017</td>
+            <td>676</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>31/03/2017</td>
-            <td>237</td>
+            <td>30/04/2017</td>
+            <td>228</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>31/03/2017</td>
-            <td>146</td>
+            <td>30/04/2017</td>
+            <td>104</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>31/03/2017</td>
-            <td>2498</td>
+            <td>30/04/2017</td>
+            <td>1943</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -221,7 +222,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 1401 },{ region: 'Gómez Palacio', dato: 417 },{ region: 'Lerdo', dato: 237 },{ region: 'Matamoros', dato: 146 },{ region: 'La Laguna', dato: 2498 }],
+      data: [{ region: 'Torreón', dato: 935 },{ region: 'Gómez Palacio', dato: 676 },{ region: 'Lerdo', dato: 228 },{ region: 'Matamoros', dato: 104 },{ region: 'La Laguna', dato: 1943 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
