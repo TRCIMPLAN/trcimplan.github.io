@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170515 WHERE nombre = 'Residencial Victoria'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Residencial Victoria'");
       })
       .error(function(err) {
         console.log(err);

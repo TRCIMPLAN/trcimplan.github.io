@@ -492,7 +492,7 @@ El Total de Actividades Económicas es cero.
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170515 WHERE nombre = 'Jardín Las Etnias'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Jardín Las Etnias'");
       })
       .error(function(err) {
         console.log(err);
