@@ -1,0 +1,57 @@
+[{
+  "Nombre":"El Pedregal",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1254,
+        "Porcentaje de población masculina":50.96,
+        "Porcentaje de población femenina":49.04,
+        "Porcentaje de población de 0 a 14 años":34.21,
+        "Porcentaje de población de 15 a 64 años":62.12,
+        "Porcentaje de población de 65 y más años":1.52,
+        "Porcentaje de población no especificada":2.15,
+        "Fecundidad promedio":1.84,
+        "Porcentaje de población con discapacidad":1.22
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.78,
+        "Población Económicamente Activa masculina":67.15,
+        "Población Económicamente Activa femenina":32.85,
+        "Población Ocupada":91.66,
+        "Población Ocupada masculina":65.99,
+        "Población Ocupada femenina":34.01,
+        "Población Desocupada":8.34,
+        "Derechohabiencia":69.62
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":329,
+        "Ocupación por Vivienda":3.81,
+        "Viviendas con Electricidad":99.7,
+        "Viviendas con Agua":99.7,
+        "Viviendas con Drenaje":99.39,
+        "Viviendas con Televisión":98.18,
+        "Viviendas con Automóvil":57.75,
+        "Viviendas con Computadora":41.34
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":33,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":36.36,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":21.21,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":21.21,
+        "Cuarta actividad nombre":"Financieros y Seguros",
+        "Cuarta actividad porcentaje":6.06,
+        "Quinta actividad nombre":"Inmobiliarios",
+        "Quinta actividad porcentaje":3.03
+      }
+    }
+  }
+}]

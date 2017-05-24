@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Residencial Las Isabeles",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":464,
+        "Porcentaje de población masculina":48.28,
+        "Porcentaje de población femenina":51.72,
+        "Porcentaje de población de 0 a 14 años":31.9,
+        "Porcentaje de población de 15 a 64 años":60.13,
+        "Porcentaje de población de 65 y más años":0.22,
+        "Porcentaje de población no especificada":7.75,
+        "Fecundidad promedio":1.56,
+        "Porcentaje de población con discapacidad":0.47
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.24,
+        "Población Económicamente Activa masculina":68.71,
+        "Población Económicamente Activa femenina":31.29,
+        "Población Ocupada":98.13,
+        "Población Ocupada masculina":68.12,
+        "Población Ocupada femenina":31.88,
+        "Población Desocupada":1.87,
+        "Derechohabiencia":83.89
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":100,
+        "Ocupación por Vivienda":4.64,
+        "Viviendas con Electricidad":99,
+        "Viviendas con Agua":97,
+        "Viviendas con Drenaje":98,
+        "Viviendas con Televisión":99,
+        "Viviendas con Automóvil":99,
+        "Viviendas con Computadora":98
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":80,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":20
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Satélite de La Laguna",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1012,
+        "Porcentaje de población masculina":46.54,
+        "Porcentaje de población femenina":53.46,
+        "Porcentaje de población de 0 a 14 años":28.95,
+        "Porcentaje de población de 15 a 64 años":67.39,
+        "Porcentaje de población de 65 y más años":3.56,
+        "Porcentaje de población no especificada":0.1,
+        "Fecundidad promedio":1.8,
+        "Porcentaje de población con discapacidad":2.09
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.6,
+        "Población Económicamente Activa masculina":59.82,
+        "Población Económicamente Activa femenina":40.18,
+        "Población Ocupada":86.29,
+        "Población Ocupada masculina":61.58,
+        "Población Ocupada femenina":38.42,
+        "Población Desocupada":13.71,
+        "Derechohabiencia":84.68
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":269,
+        "Ocupación por Vivienda":3.76,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.63,
+        "Viviendas con Automóvil":55.01,
+        "Viviendas con Computadora":48.05
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":34,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":32.35,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":23.53,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":11.76,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":11.76,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":8.82
+      }
+    }
+  }
+}]

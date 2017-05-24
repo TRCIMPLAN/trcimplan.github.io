@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Las Luisas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1738,
+        "Porcentaje de población masculina":50.12,
+        "Porcentaje de población femenina":49.88,
+        "Porcentaje de población de 0 a 14 años":33.03,
+        "Porcentaje de población de 15 a 64 años":62.55,
+        "Porcentaje de población de 65 y más años":4.41,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":2.5,
+        "Porcentaje de población con discapacidad":12.46
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.97,
+        "Población Económicamente Activa masculina":69.45,
+        "Población Económicamente Activa femenina":30.55,
+        "Población Ocupada":92.18,
+        "Población Ocupada masculina":67.7,
+        "Población Ocupada femenina":32.3,
+        "Población Desocupada":7.82,
+        "Derechohabiencia":65.36
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":433,
+        "Ocupación por Vivienda":4.01,
+        "Viviendas con Electricidad":99.54,
+        "Viviendas con Agua":99.54,
+        "Viviendas con Drenaje":99.08,
+        "Viviendas con Televisión":97.92,
+        "Viviendas con Automóvil":41.42,
+        "Viviendas con Computadora":21.43
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":53,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":39.62,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":24.53,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":20.75,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.55,
+        "Quinta actividad nombre":"Financieros y Seguros",
+        "Quinta actividad porcentaje":1.89
+      }
+    }
+  }
+}]

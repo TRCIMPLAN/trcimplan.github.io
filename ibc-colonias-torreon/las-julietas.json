@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Las Julietas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2816,
+        "Porcentaje de población masculina":50.49,
+        "Porcentaje de población femenina":49.51,
+        "Porcentaje de población de 0 a 14 años":32.81,
+        "Porcentaje de población de 15 a 64 años":62.17,
+        "Porcentaje de población de 65 y más años":4.69,
+        "Porcentaje de población no especificada":0.33,
+        "Fecundidad promedio":2.6,
+        "Porcentaje de población con discapacidad":2.66
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.54,
+        "Población Económicamente Activa masculina":70.3,
+        "Población Económicamente Activa femenina":29.7,
+        "Población Ocupada":89.96,
+        "Población Ocupada masculina":68.63,
+        "Población Ocupada femenina":31.37,
+        "Población Desocupada":10.04,
+        "Derechohabiencia":60.96
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":652,
+        "Ocupación por Vivienda":4.32,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.51,
+        "Viviendas con Drenaje":98.58,
+        "Viviendas con Televisión":97.19,
+        "Viviendas con Automóvil":41.7,
+        "Viviendas con Computadora":15.98
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":106,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":44.34,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":22.64,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":13.21,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":6.6,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":5.66
+      }
+    }
+  }
+}]

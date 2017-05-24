@@ -1,0 +1,57 @@
+[{
+  "Nombre":"José López Portillo",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":354,
+        "Porcentaje de población masculina":45.48,
+        "Porcentaje de población femenina":54.52,
+        "Porcentaje de población de 0 a 14 años":26.55,
+        "Porcentaje de población de 15 a 64 años":60.17,
+        "Porcentaje de población de 65 y más años":10.73,
+        "Porcentaje de población no especificada":2.55,
+        "Fecundidad promedio":2.47,
+        "Porcentaje de población con discapacidad":4.57
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":48.35,
+        "Población Económicamente Activa masculina":71.21,
+        "Población Económicamente Activa femenina":28.79,
+        "Población Ocupada":97.68,
+        "Población Ocupada masculina":71.32,
+        "Población Ocupada femenina":28.68,
+        "Población Desocupada":2.32,
+        "Derechohabiencia":52.26
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":84,
+        "Ocupación por Vivienda":4.21,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.81,
+        "Viviendas con Drenaje":98.81,
+        "Viviendas con Televisión":98.81,
+        "Viviendas con Automóvil":14.08,
+        "Viviendas con Computadora":18.51
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":17,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":41.18,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":29.41,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":11.76,
+        "Cuarta actividad nombre":"Gubernamentales",
+        "Cuarta actividad porcentaje":11.76,
+        "Quinta actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Quinta actividad porcentaje":5.88
+      }
+    }
+  }
+}]

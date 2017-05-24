@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Joyas del Oriente",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3037,
+        "Porcentaje de población masculina":49.98,
+        "Porcentaje de población femenina":50.02,
+        "Porcentaje de población de 0 a 14 años":35.78,
+        "Porcentaje de población de 15 a 64 años":61.98,
+        "Porcentaje de población de 65 y más años":1.15,
+        "Porcentaje de población no especificada":1.09,
+        "Fecundidad promedio":1.88,
+        "Porcentaje de población con discapacidad":2.2
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":59.76,
+        "Población Económicamente Activa masculina":66.37,
+        "Población Económicamente Activa femenina":33.63,
+        "Población Ocupada":92.95,
+        "Población Ocupada masculina":65.37,
+        "Población Ocupada femenina":34.63,
+        "Población Desocupada":7.05,
+        "Derechohabiencia":74.83
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":820,
+        "Ocupación por Vivienda":3.7,
+        "Viviendas con Electricidad":99.95,
+        "Viviendas con Agua":99.82,
+        "Viviendas con Drenaje":99.58,
+        "Viviendas con Televisión":99.09,
+        "Viviendas con Automóvil":54.31,
+        "Viviendas con Computadora":31.45
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":59,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":44.07,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":18.64,
+        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad porcentaje":8.47,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":8.47,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":6.78
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Bocanegra",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1439,
+        "Porcentaje de población masculina":48.99,
+        "Porcentaje de población femenina":51.01,
+        "Porcentaje de población de 0 a 14 años":26.89,
+        "Porcentaje de población de 15 a 64 años":64.21,
+        "Porcentaje de población de 65 y más años":8.41,
+        "Porcentaje de población no especificada":0.49,
+        "Fecundidad promedio":2.63,
+        "Porcentaje de población con discapacidad":3.4
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.04,
+        "Población Económicamente Activa masculina":63.77,
+        "Población Económicamente Activa femenina":36.23,
+        "Población Ocupada":91.28,
+        "Población Ocupada masculina":62.82,
+        "Población Ocupada femenina":37.18,
+        "Población Desocupada":8.72,
+        "Derechohabiencia":63.93
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":366,
+        "Ocupación por Vivienda":3.93,
+        "Viviendas con Electricidad":99.45,
+        "Viviendas con Agua":98.91,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.63,
+        "Viviendas con Automóvil":46.51,
+        "Viviendas con Computadora":25.28
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":87,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":35.63,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":22.99,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":12.64,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":12.64,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":3.45
+      }
+    }
+  }
+}]

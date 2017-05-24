@@ -1,0 +1,49 @@
+[{
+  "Nombre":"El Siglo De Torreón",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":234,
+        "Porcentaje de población masculina":52.96,
+        "Porcentaje de población femenina":47.04,
+        "Porcentaje de población de 0 a 14 años":42.9,
+        "Porcentaje de población de 15 a 64 años":54.36,
+        "Porcentaje de población de 65 y más años":2.68,
+        "Porcentaje de población no especificada":0.06,
+        "Fecundidad promedio":2.8,
+        "Porcentaje de población con discapacidad":8.39
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.39,
+        "Población Económicamente Activa masculina":77.61,
+        "Población Económicamente Activa femenina":22.39,
+        "Población Ocupada":88.63,
+        "Población Ocupada masculina":76.48,
+        "Población Ocupada femenina":23.52,
+        "Población Desocupada":11.37,
+        "Derechohabiencia":55.83
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":51,
+        "Ocupación por Vivienda":4.59,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.81,
+        "Viviendas con Drenaje":85.07,
+        "Viviendas con Televisión":98.76,
+        "Viviendas con Automóvil":59.94,
+        "Viviendas con Computadora":12.32
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

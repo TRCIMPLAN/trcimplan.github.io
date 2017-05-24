@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Vicente Guerrero",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":5648,
+        "Porcentaje de población masculina":48.82,
+        "Porcentaje de población femenina":51.18,
+        "Porcentaje de población de 0 a 14 años":26.27,
+        "Porcentaje de población de 15 a 64 años":63.91,
+        "Porcentaje de población de 65 y más años":9.65,
+        "Porcentaje de población no especificada":0.17,
+        "Fecundidad promedio":2.69,
+        "Porcentaje de población con discapacidad":8.45
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.12,
+        "Población Económicamente Activa masculina":66.98,
+        "Población Económicamente Activa femenina":33.02,
+        "Población Ocupada":89.19,
+        "Población Ocupada masculina":65.29,
+        "Población Ocupada femenina":34.71,
+        "Población Desocupada":10.81,
+        "Derechohabiencia":67.76
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1488,
+        "Ocupación por Vivienda":3.8,
+        "Viviendas con Electricidad":99.96,
+        "Viviendas con Agua":99.02,
+        "Viviendas con Drenaje":99.55,
+        "Viviendas con Televisión":97.92,
+        "Viviendas con Automóvil":39.04,
+        "Viviendas con Computadora":23.47
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":131,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":44.27,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16.79,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":12.21,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":9.92,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":4.58
+      }
+    }
+  }
+}]

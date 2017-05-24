@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Parque Industrial La Amistad",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":46,
+        "Porcentaje de población masculina":56.52,
+        "Porcentaje de población femenina":43.48,
+        "Porcentaje de población de 0 a 14 años":26.09,
+        "Porcentaje de población de 15 a 64 años":73.91,
+        "Porcentaje de población de 65 y más años":0,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.83,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":69.44,
+        "Población Económicamente Activa masculina":64,
+        "Población Económicamente Activa femenina":36,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":64,
+        "Población Ocupada femenina":36,
+        "Población Desocupada":0,
+        "Derechohabiencia":82.61
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":12,
+        "Ocupación por Vivienda":3.83,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":75,
+        "Viviendas con Computadora":25
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":16.67,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":16.67
+      }
+    }
+  }
+}]

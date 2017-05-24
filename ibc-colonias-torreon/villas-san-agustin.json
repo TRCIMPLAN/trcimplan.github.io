@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Villas San Agustín",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":773,
+        "Porcentaje de población masculina":49.35,
+        "Porcentaje de población femenina":50.65,
+        "Porcentaje de población de 0 a 14 años":36.95,
+        "Porcentaje de población de 15 a 64 años":62.57,
+        "Porcentaje de población de 65 y más años":0.44,
+        "Porcentaje de población no especificada":0.04,
+        "Fecundidad promedio":1.7,
+        "Porcentaje de población con discapacidad":0.77
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":66.06,
+        "Población Económicamente Activa masculina":65.94,
+        "Población Económicamente Activa femenina":34.06,
+        "Población Ocupada":96.03,
+        "Población Ocupada masculina":65.5,
+        "Población Ocupada femenina":34.5,
+        "Población Desocupada":3.97,
+        "Derechohabiencia":77.87
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":234,
+        "Ocupación por Vivienda":3.3,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.45,
+        "Viviendas con Automóvil":41.53,
+        "Viviendas con Computadora":36.26
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":23,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":47.83,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":26.09,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":8.7,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":8.7,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":4.35
+      }
+    }
+  }
+}]

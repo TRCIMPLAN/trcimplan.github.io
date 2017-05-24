@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Villas Universidad Oriente",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1095,
+        "Porcentaje de población masculina":49.04,
+        "Porcentaje de población femenina":50.96,
+        "Porcentaje de población de 0 a 14 años":34.16,
+        "Porcentaje de población de 15 a 64 años":62.83,
+        "Porcentaje de población de 65 y más años":3.01,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.09,
+        "Porcentaje de población con discapacidad":1.37
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.38,
+        "Población Económicamente Activa masculina":67.81,
+        "Población Económicamente Activa femenina":32.19,
+        "Población Ocupada":91.93,
+        "Población Ocupada masculina":67.29,
+        "Población Ocupada femenina":32.71,
+        "Población Desocupada":8.07,
+        "Derechohabiencia":72.69
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":326,
+        "Ocupación por Vivienda":3.36,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":97.85,
+        "Viviendas con Automóvil":38.04,
+        "Viviendas con Computadora":16.19
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":19,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":68.42,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":10.53,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":5.26,
+        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad porcentaje":5.26,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":5.26
+      }
+    }
+  }
+}]

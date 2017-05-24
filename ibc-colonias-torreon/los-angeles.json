@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Los Ángeles",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":556,
+        "Porcentaje de población masculina":47.54,
+        "Porcentaje de población femenina":52.46,
+        "Porcentaje de población de 0 a 14 años":16.93,
+        "Porcentaje de población de 15 a 64 años":56.15,
+        "Porcentaje de población de 65 y más años":20.81,
+        "Porcentaje de población no especificada":6.11,
+        "Fecundidad promedio":2.13,
+        "Porcentaje de población con discapacidad":5.15
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.32,
+        "Población Económicamente Activa masculina":60.73,
+        "Población Económicamente Activa femenina":39.27,
+        "Población Ocupada":99.97,
+        "Población Ocupada masculina":60.71,
+        "Población Ocupada femenina":39.29,
+        "Población Desocupada":0.03,
+        "Derechohabiencia":83.16
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":155,
+        "Ocupación por Vivienda":3.59,
+        "Viviendas con Electricidad":99.45,
+        "Viviendas con Agua":99.45,
+        "Viviendas con Drenaje":99.45,
+        "Viviendas con Televisión":96.67,
+        "Viviendas con Automóvil":93.2,
+        "Viviendas con Computadora":86.7
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":70,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":15.71,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":14.29,
+        "Tercera actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Tercera actividad porcentaje":12.86,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":12.86,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":11.43
+      }
+    }
+  }
+}]

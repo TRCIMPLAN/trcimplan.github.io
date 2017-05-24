@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Fraccionamiento Joyas del Bosque",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":831,
+        "Porcentaje de población masculina":49.1,
+        "Porcentaje de población femenina":50.9,
+        "Porcentaje de población de 0 a 14 años":37.06,
+        "Porcentaje de población de 15 a 64 años":61.01,
+        "Porcentaje de población de 65 y más años":1.56,
+        "Porcentaje de población no especificada":0.37,
+        "Fecundidad promedio":2.22,
+        "Porcentaje de población con discapacidad":0.9
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":61.22,
+        "Población Económicamente Activa masculina":66.19,
+        "Población Económicamente Activa femenina":33.81,
+        "Población Ocupada":85.96,
+        "Población Ocupada masculina":62.99,
+        "Población Ocupada femenina":37.01,
+        "Población Desocupada":14.04,
+        "Derechohabiencia":68.83
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":221,
+        "Ocupación por Vivienda":3.76,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.55,
+        "Viviendas con Automóvil":31.2,
+        "Viviendas con Computadora":11.25
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":17,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":70.59,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":23.53,
+        "Tercera actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Tercera actividad porcentaje":5.88
+      }
+    }
+  }
+}]

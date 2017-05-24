@@ -1,0 +1,57 @@
+[{
+  "Nombre":"La Amistad",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":490,
+        "Porcentaje de población masculina":50.7,
+        "Porcentaje de población femenina":49.3,
+        "Porcentaje de población de 0 a 14 años":27.25,
+        "Porcentaje de población de 15 a 64 años":66.36,
+        "Porcentaje de población de 65 y más años":5.75,
+        "Porcentaje de población no especificada":0.64,
+        "Fecundidad promedio":2.31,
+        "Porcentaje de población con discapacidad":5.7
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.94,
+        "Población Económicamente Activa masculina":70.11,
+        "Población Económicamente Activa femenina":29.89,
+        "Población Ocupada":94.53,
+        "Población Ocupada masculina":68.48,
+        "Población Ocupada femenina":31.52,
+        "Población Desocupada":5.47,
+        "Derechohabiencia":65
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":125,
+        "Ocupación por Vivienda":3.92,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":96.93,
+        "Viviendas con Automóvil":60.44,
+        "Viviendas con Computadora":44.58
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":41,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":36.59,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":17.07,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":17.07,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.32,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":7.32
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Fovissste La Rosita",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1983,
+        "Porcentaje de población masculina":47.27,
+        "Porcentaje de población femenina":52.73,
+        "Porcentaje de población de 0 a 14 años":19.97,
+        "Porcentaje de población de 15 a 64 años":71.51,
+        "Porcentaje de población de 65 y más años":8.26,
+        "Porcentaje de población no especificada":0.26,
+        "Fecundidad promedio":2.13,
+        "Porcentaje de población con discapacidad":4.61
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.2,
+        "Población Económicamente Activa masculina":55.05,
+        "Población Económicamente Activa femenina":44.95,
+        "Población Ocupada":88.41,
+        "Población Ocupada masculina":54.5,
+        "Población Ocupada femenina":45.5,
+        "Población Desocupada":11.59,
+        "Derechohabiencia":83.88
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":572,
+        "Ocupación por Vivienda":3.47,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.93,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":67.7,
+        "Viviendas con Computadora":65.26
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":51,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":27.45,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":23.53,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":13.73,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.84,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":7.84
+      }
+    }
+  }
+}]

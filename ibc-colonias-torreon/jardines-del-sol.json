@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Jardines Del Sol",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":988,
+        "Porcentaje de población masculina":49.79,
+        "Porcentaje de población femenina":50.21,
+        "Porcentaje de población de 0 a 14 años":36.24,
+        "Porcentaje de población de 15 a 64 años":62.25,
+        "Porcentaje de población de 65 y más años":0.85,
+        "Porcentaje de población no especificada":0.66,
+        "Fecundidad promedio":1.8,
+        "Porcentaje de población con discapacidad":1.37
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":63.28,
+        "Población Económicamente Activa masculina":67.43,
+        "Población Económicamente Activa femenina":32.57,
+        "Población Ocupada":93.24,
+        "Población Ocupada masculina":66.79,
+        "Población Ocupada femenina":33.21,
+        "Población Desocupada":6.76,
+        "Derechohabiencia":81.14
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":277,
+        "Ocupación por Vivienda":3.57,
+        "Viviendas con Electricidad":99.97,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.86,
+        "Viviendas con Automóvil":48.52,
+        "Viviendas con Computadora":25.9
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":29,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":68.97,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":13.79,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":6.9,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":6.9,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":3.45
+      }
+    }
+  }
+}]

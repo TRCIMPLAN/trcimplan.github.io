@@ -1,0 +1,51 @@
+[{
+  "Nombre":"San Diego",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":162,
+        "Porcentaje de población masculina":45.06,
+        "Porcentaje de población femenina":54.94,
+        "Porcentaje de población de 0 a 14 años":25.93,
+        "Porcentaje de población de 15 a 64 años":70.37,
+        "Porcentaje de población de 65 y más años":3.7,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.75,
+        "Porcentaje de población con discapacidad":3.7
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.8,
+        "Población Económicamente Activa masculina":51.85,
+        "Población Económicamente Activa femenina":48.15,
+        "Población Ocupada":94.82,
+        "Población Ocupada masculina":50.65,
+        "Población Ocupada femenina":49.35,
+        "Población Desocupada":5.18,
+        "Derechohabiencia":88.27
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":54,
+        "Ocupación por Vivienda":3,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":83.33,
+        "Viviendas con Computadora":40.74
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":50
+      }
+    }
+  }
+}]

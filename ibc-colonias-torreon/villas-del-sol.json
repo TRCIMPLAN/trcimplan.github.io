@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Villas del Sol",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1315,
+        "Porcentaje de población masculina":49.28,
+        "Porcentaje de población femenina":50.72,
+        "Porcentaje de población de 0 a 14 años":30.57,
+        "Porcentaje de población de 15 a 64 años":66.01,
+        "Porcentaje de población de 65 y más años":2.05,
+        "Porcentaje de población no especificada":1.37,
+        "Fecundidad promedio":1.44,
+        "Porcentaje de población con discapacidad":0.8
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.16,
+        "Población Económicamente Activa masculina":59.23,
+        "Población Económicamente Activa femenina":40.77,
+        "Población Ocupada":95.45,
+        "Población Ocupada masculina":59.12,
+        "Población Ocupada femenina":40.88,
+        "Población Desocupada":4.55,
+        "Derechohabiencia":88.29
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":384,
+        "Ocupación por Vivienda":3.42,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.74,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.74,
+        "Viviendas con Automóvil":93.7,
+        "Viviendas con Computadora":75.63
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":8,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":62.5,
+        "Segunda actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Inmobiliarios",
+        "Tercera actividad porcentaje":12.5
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Aviación",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":4587,
+        "Porcentaje de población masculina":49.88,
+        "Porcentaje de población femenina":50.12,
+        "Porcentaje de población de 0 a 14 años":28.38,
+        "Porcentaje de población de 15 a 64 años":64.66,
+        "Porcentaje de población de 65 y más años":6.44,
+        "Porcentaje de población no especificada":0.52,
+        "Fecundidad promedio":2.56,
+        "Porcentaje de población con discapacidad":4.28
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.46,
+        "Población Económicamente Activa masculina":68.28,
+        "Población Económicamente Activa femenina":31.72,
+        "Población Ocupada":92.01,
+        "Población Ocupada masculina":66.76,
+        "Población Ocupada femenina":33.24,
+        "Población Desocupada":7.99,
+        "Derechohabiencia":66.56
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1082,
+        "Ocupación por Vivienda":4.24,
+        "Viviendas con Electricidad":99.85,
+        "Viviendas con Agua":99.02,
+        "Viviendas con Drenaje":99.67,
+        "Viviendas con Televisión":97.91,
+        "Viviendas con Automóvil":43.61,
+        "Viviendas con Computadora":21.2
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":208,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":37.5,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":22.6,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":14.42,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":10.58,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":3.85
+      }
+    }
+  }
+}]

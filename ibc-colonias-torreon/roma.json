@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Roma",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1800,
+        "Porcentaje de población masculina":47.72,
+        "Porcentaje de población femenina":52.28,
+        "Porcentaje de población de 0 a 14 años":22.39,
+        "Porcentaje de población de 15 a 64 años":71.5,
+        "Porcentaje de población de 65 y más años":3.78,
+        "Porcentaje de población no especificada":2.33,
+        "Fecundidad promedio":1.47,
+        "Porcentaje de población con discapacidad":2.11
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.39,
+        "Población Económicamente Activa masculina":58.42,
+        "Población Económicamente Activa femenina":41.58,
+        "Población Ocupada":96.18,
+        "Población Ocupada masculina":57.51,
+        "Población Ocupada femenina":42.49,
+        "Población Desocupada":3.82,
+        "Derechohabiencia":80.39
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":494,
+        "Ocupación por Vivienda":3.64,
+        "Viviendas con Electricidad":99.6,
+        "Viviendas con Agua":99.19,
+        "Viviendas con Drenaje":99.6,
+        "Viviendas con Televisión":98.38,
+        "Viviendas con Automóvil":88.66,
+        "Viviendas con Computadora":79.55
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":11,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":63.64,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":9.09,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":9.09,
+        "Cuarta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Cuarta actividad porcentaje":9.09,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":9.09
+      }
+    }
+  }
+}]

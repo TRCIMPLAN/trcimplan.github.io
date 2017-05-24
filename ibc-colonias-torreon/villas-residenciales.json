@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Villas Residenciales",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":322,
+        "Porcentaje de población masculina":47.52,
+        "Porcentaje de población femenina":52.48,
+        "Porcentaje de población de 0 a 14 años":18.63,
+        "Porcentaje de población de 15 a 64 años":76.09,
+        "Porcentaje de población de 65 y más años":4.35,
+        "Porcentaje de población no especificada":0.93,
+        "Fecundidad promedio":1.53,
+        "Porcentaje de población con discapacidad":0.93
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.71,
+        "Población Económicamente Activa masculina":56.64,
+        "Población Económicamente Activa femenina":43.36,
+        "Población Ocupada":92.52,
+        "Población Ocupada masculina":54.89,
+        "Población Ocupada femenina":45.11,
+        "Población Desocupada":7.48,
+        "Derechohabiencia":79.81
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":92,
+        "Ocupación por Vivienda":3.5,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.91,
+        "Viviendas con Automóvil":90.22,
+        "Viviendas con Computadora":88.04
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":12,
+        "Primer actividad nombre":"Manejo de Residuos",
+        "Primer actividad porcentaje":25,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":8.33,
+        "Quinta actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Quinta actividad porcentaje":8.33
+      }
+    }
+  }
+}]

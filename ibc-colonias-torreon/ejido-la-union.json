@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido La Unión",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":4885,
+        "Porcentaje de población masculina":49.99,
+        "Porcentaje de población femenina":50.01,
+        "Porcentaje de población de 0 a 14 años":29.94,
+        "Porcentaje de población de 15 a 64 años":62.78,
+        "Porcentaje de población de 65 y más años":5.66,
+        "Porcentaje de población no especificada":1.62,
+        "Fecundidad promedio":2.54,
+        "Porcentaje de población con discapacidad":5.81
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.17,
+        "Población Económicamente Activa masculina":66.89,
+        "Población Económicamente Activa femenina":33.11,
+        "Población Ocupada":90.21,
+        "Población Ocupada masculina":65.21,
+        "Población Ocupada femenina":34.79,
+        "Población Desocupada":9.79,
+        "Derechohabiencia":60.2
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1156,
+        "Ocupación por Vivienda":4.23,
+        "Viviendas con Electricidad":99.44,
+        "Viviendas con Agua":98.14,
+        "Viviendas con Drenaje":94.23,
+        "Viviendas con Televisión":96.93,
+        "Viviendas con Automóvil":44.88,
+        "Viviendas con Computadora":27.87
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":140,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":44.29,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":17.86,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":15,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.14,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":7.14
+      }
+    }
+  }
+}]

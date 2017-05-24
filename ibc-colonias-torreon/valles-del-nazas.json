@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Valles del Nazas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1941,
+        "Porcentaje de población masculina":48.84,
+        "Porcentaje de población femenina":51.16,
+        "Porcentaje de población de 0 a 14 años":34.88,
+        "Porcentaje de población de 15 a 64 años":60.64,
+        "Porcentaje de población de 65 y más años":2.94,
+        "Porcentaje de población no especificada":1.54,
+        "Fecundidad promedio":1.72,
+        "Porcentaje de población con discapacidad":1.98
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.55,
+        "Población Económicamente Activa masculina":61.64,
+        "Población Económicamente Activa femenina":38.36,
+        "Población Ocupada":96.16,
+        "Población Ocupada masculina":61.4,
+        "Población Ocupada femenina":38.6,
+        "Población Desocupada":3.84,
+        "Derechohabiencia":78.67
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":497,
+        "Ocupación por Vivienda":3.91,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.59,
+        "Viviendas con Automóvil":68.01,
+        "Viviendas con Computadora":55.94
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":49,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":38.78,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":26.53,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":14.29,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":6.12,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":4.08
+      }
+    }
+  }
+}]

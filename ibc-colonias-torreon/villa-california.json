@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Villa California",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":10692,
+        "Porcentaje de población masculina":47.47,
+        "Porcentaje de población femenina":52.53,
+        "Porcentaje de población de 0 a 14 años":23.69,
+        "Porcentaje de población de 15 a 64 años":69.93,
+        "Porcentaje de población de 65 y más años":4.78,
+        "Porcentaje de población no especificada":1.6,
+        "Fecundidad promedio":1.93,
+        "Porcentaje de población con discapacidad":2.98
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.7,
+        "Población Económicamente Activa masculina":60.35,
+        "Población Económicamente Activa femenina":39.65,
+        "Población Ocupada":91.96,
+        "Población Ocupada masculina":59.75,
+        "Población Ocupada femenina":40.25,
+        "Población Desocupada":8.04,
+        "Derechohabiencia":72.07
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":2867,
+        "Ocupación por Vivienda":3.73,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.77,
+        "Viviendas con Drenaje":99.7,
+        "Viviendas con Televisión":99.11,
+        "Viviendas con Automóvil":64.96,
+        "Viviendas con Computadora":53.13
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":482,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":42.32,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":18.05,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":16.6,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":6.02,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":4.77
+      }
+    }
+  }
+}]

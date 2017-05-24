@@ -1,0 +1,50 @@
+[{
+  "Nombre":"Aeropuerto Internacional Francisco Sarabia Tinoco",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1,
+        "Porcentaje de población masculina":47.93,
+        "Porcentaje de población femenina":52.07,
+        "Porcentaje de población de 0 a 14 años":29.3,
+        "Porcentaje de población de 15 a 64 años":67.43,
+        "Porcentaje de población de 65 y más años":2.65,
+        "Porcentaje de población no especificada":0.62,
+        "Fecundidad promedio":1.62,
+        "Porcentaje de población con discapacidad":1.54
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.34,
+        "Población Económicamente Activa masculina":63.54,
+        "Población Económicamente Activa femenina":36.46,
+        "Población Ocupada":96.17,
+        "Población Ocupada masculina":62.78,
+        "Población Ocupada femenina":37.22,
+        "Población Desocupada":3.83,
+        "Derechohabiencia":73.47
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":35,
+        "Primer actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Primer actividad porcentaje":28.57,
+        "Segunda actividad nombre":"Inmobiliarios",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":14.29,
+        "Cuarta actividad nombre":"Gubernamentales",
+        "Cuarta actividad porcentaje":14.29,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":8.57
+      }
+    }
+  }
+}]

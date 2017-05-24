@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Jardines de California",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2292,
+        "Porcentaje de población masculina":47.56,
+        "Porcentaje de población femenina":52.44,
+        "Porcentaje de población de 0 a 14 años":13.26,
+        "Porcentaje de población de 15 a 64 años":66.36,
+        "Porcentaje de población de 65 y más años":15.27,
+        "Porcentaje de población no especificada":5.11,
+        "Fecundidad promedio":2.14,
+        "Porcentaje de población con discapacidad":7.89
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":48.31,
+        "Población Económicamente Activa masculina":56.99,
+        "Población Económicamente Activa femenina":43.01,
+        "Población Ocupada":91.67,
+        "Población Ocupada masculina":56.03,
+        "Población Ocupada femenina":43.97,
+        "Población Desocupada":8.33,
+        "Derechohabiencia":75.61
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":658,
+        "Ocupación por Vivienda":3.48,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.7,
+        "Viviendas con Drenaje":99.7,
+        "Viviendas con Televisión":99.85,
+        "Viviendas con Automóvil":79.03,
+        "Viviendas con Computadora":63.83
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":102,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":28.43,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":25.49,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":13.73,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":6.86,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":5.88
+      }
+    }
+  }
+}]

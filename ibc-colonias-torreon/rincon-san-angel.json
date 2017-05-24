@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Rincón San Ángel",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":461,
+        "Porcentaje de población masculina":50.76,
+        "Porcentaje de población femenina":49.24,
+        "Porcentaje de población de 0 a 14 años":31.67,
+        "Porcentaje de población de 15 a 64 años":57.48,
+        "Porcentaje de población de 65 y más años":4.34,
+        "Porcentaje de población no especificada":6.51,
+        "Fecundidad promedio":1.8,
+        "Porcentaje de población con discapacidad":1.08
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.48,
+        "Población Económicamente Activa masculina":65.7,
+        "Población Económicamente Activa femenina":34.3,
+        "Población Ocupada":97.01,
+        "Población Ocupada masculina":66.47,
+        "Población Ocupada femenina":33.53,
+        "Población Desocupada":2.99,
+        "Derechohabiencia":73.75
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":108,
+        "Ocupación por Vivienda":4.27,
+        "Viviendas con Electricidad":99.07,
+        "Viviendas con Agua":98.15,
+        "Viviendas con Drenaje":97.22,
+        "Viviendas con Televisión":93.52,
+        "Viviendas con Automóvil":90.68,
+        "Viviendas con Computadora":82.41
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":25,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":48,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":8,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":8,
+        "Quinta actividad nombre":"Inmobiliarios",
+        "Quinta actividad porcentaje":4
+      }
+    }
+  }
+}]

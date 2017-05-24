@@ -1,0 +1,57 @@
+[{
+  "Nombre":"San Joaquín",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3646,
+        "Porcentaje de población masculina":48.84,
+        "Porcentaje de población femenina":51.16,
+        "Porcentaje de población de 0 a 14 años":27.14,
+        "Porcentaje de población de 15 a 64 años":63.02,
+        "Porcentaje de población de 65 y más años":9.81,
+        "Porcentaje de población no especificada":0.03,
+        "Fecundidad promedio":2.58,
+        "Porcentaje de población con discapacidad":15.1
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.28,
+        "Población Económicamente Activa masculina":66.46,
+        "Población Económicamente Activa femenina":33.54,
+        "Población Ocupada":93.35,
+        "Población Ocupada masculina":66.12,
+        "Población Ocupada femenina":33.88,
+        "Población Desocupada":6.65,
+        "Derechohabiencia":59.6
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":972,
+        "Ocupación por Vivienda":3.75,
+        "Viviendas con Electricidad":98.93,
+        "Viviendas con Agua":98.31,
+        "Viviendas con Drenaje":98.42,
+        "Viviendas con Televisión":97.17,
+        "Viviendas con Automóvil":34.94,
+        "Viviendas con Computadora":23.24
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":122,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":39.34,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":15.57,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":13.11,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":8.2,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":6.56
+      }
+    }
+  }
+}]

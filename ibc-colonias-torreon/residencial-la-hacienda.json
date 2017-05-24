@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Residencial la Hacienda",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2334,
+        "Porcentaje de población masculina":48.41,
+        "Porcentaje de población femenina":51.59,
+        "Porcentaje de población de 0 a 14 años":19.57,
+        "Porcentaje de población de 15 a 64 años":72.87,
+        "Porcentaje de población de 65 y más años":3.89,
+        "Porcentaje de población no especificada":3.67,
+        "Fecundidad promedio":1.62,
+        "Porcentaje de población con discapacidad":1.64
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.95,
+        "Población Económicamente Activa masculina":58.58,
+        "Población Económicamente Activa femenina":41.42,
+        "Población Ocupada":96.76,
+        "Población Ocupada masculina":58.21,
+        "Población Ocupada femenina":41.79,
+        "Población Desocupada":3.24,
+        "Derechohabiencia":73.82
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":601,
+        "Ocupación por Vivienda":3.88,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.83,
+        "Viviendas con Televisión":99.5,
+        "Viviendas con Automóvil":93.51,
+        "Viviendas con Computadora":88.35
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":99,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":32.32,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":24.24,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":10.1,
+        "Cuarta actividad nombre":"Salud",
+        "Cuarta actividad porcentaje":7.07,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":6.06
+      }
+    }
+  }
+}]

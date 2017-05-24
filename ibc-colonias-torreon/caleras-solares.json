@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Caleras Solares",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":823,
+        "Porcentaje de población masculina":49.45,
+        "Porcentaje de población femenina":50.55,
+        "Porcentaje de población de 0 a 14 años":28.43,
+        "Porcentaje de población de 15 a 64 años":62.09,
+        "Porcentaje de población de 65 y más años":9.48,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.95,
+        "Porcentaje de población con discapacidad":14.36
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.4,
+        "Población Económicamente Activa masculina":66.04,
+        "Población Económicamente Activa femenina":33.96,
+        "Población Ocupada":90.79,
+        "Población Ocupada masculina":64.6,
+        "Población Ocupada femenina":35.4,
+        "Población Desocupada":9.21,
+        "Derechohabiencia":53.34
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":219,
+        "Ocupación por Vivienda":3.76,
+        "Viviendas con Electricidad":99.54,
+        "Viviendas con Agua":94.98,
+        "Viviendas con Drenaje":99.09,
+        "Viviendas con Televisión":96.35,
+        "Viviendas con Automóvil":20.37,
+        "Viviendas con Computadora":9.45
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":13,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":92.31,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":7.69
+      }
+    }
+  }
+}]

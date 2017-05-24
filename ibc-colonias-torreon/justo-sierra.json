@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Justo Sierra",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":120,
+        "Porcentaje de población masculina":43.74,
+        "Porcentaje de población femenina":56.26,
+        "Porcentaje de población de 0 a 14 años":27.02,
+        "Porcentaje de población de 15 a 64 años":61.47,
+        "Porcentaje de población de 65 y más años":11.5,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":2.68,
+        "Porcentaje de población con discapacidad":3.57
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":42.97,
+        "Población Económicamente Activa masculina":83.15,
+        "Población Económicamente Activa femenina":16.85,
+        "Población Ocupada":91.13,
+        "Población Ocupada masculina":81.79,
+        "Población Ocupada femenina":18.21,
+        "Población Desocupada":8.87,
+        "Derechohabiencia":71.09
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":34,
+        "Ocupación por Vivienda":3.53,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.22,
+        "Viviendas con Drenaje":95.23,
+        "Viviendas con Televisión":95.26,
+        "Viviendas con Automóvil":24.73,
+        "Viviendas con Computadora":10.05
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":25
+      }
+    }
+  }
+}]

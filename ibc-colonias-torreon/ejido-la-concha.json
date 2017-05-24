@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido La Concha",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3586,
+        "Porcentaje de población masculina":50.41,
+        "Porcentaje de población femenina":49.59,
+        "Porcentaje de población de 0 a 14 años":31.7,
+        "Porcentaje de población de 15 a 64 años":63.15,
+        "Porcentaje de población de 65 y más años":4.89,
+        "Porcentaje de población no especificada":0.26,
+        "Fecundidad promedio":2.44,
+        "Porcentaje de población con discapacidad":4.92
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.11,
+        "Población Económicamente Activa masculina":71.1,
+        "Población Económicamente Activa femenina":28.9,
+        "Población Ocupada":91.02,
+        "Población Ocupada masculina":69.41,
+        "Población Ocupada femenina":30.59,
+        "Población Desocupada":8.98,
+        "Derechohabiencia":65.6
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":852,
+        "Ocupación por Vivienda":4.21,
+        "Viviendas con Electricidad":99.79,
+        "Viviendas con Agua":96.55,
+        "Viviendas con Drenaje":94.88,
+        "Viviendas con Televisión":98.83,
+        "Viviendas con Automóvil":48.17,
+        "Viviendas con Computadora":22.15
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":89,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":48.31,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":14.61,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":7.87,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":7.87,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":5.62
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Braulio Fernández Aguirre",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3194,
+        "Porcentaje de población masculina":50.8,
+        "Porcentaje de población femenina":49.2,
+        "Porcentaje de población de 0 a 14 años":28.9,
+        "Porcentaje de población de 15 a 64 años":62.57,
+        "Porcentaje de población de 65 y más años":8.13,
+        "Porcentaje de población no especificada":0.4,
+        "Fecundidad promedio":2.82,
+        "Porcentaje de población con discapacidad":13.15
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.61,
+        "Población Económicamente Activa masculina":69.87,
+        "Población Económicamente Activa femenina":30.13,
+        "Población Ocupada":86.2,
+        "Población Ocupada masculina":68.26,
+        "Población Ocupada femenina":31.74,
+        "Población Desocupada":13.8,
+        "Derechohabiencia":69.19
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":813,
+        "Ocupación por Vivienda":3.93,
+        "Viviendas con Electricidad":99.97,
+        "Viviendas con Agua":99.6,
+        "Viviendas con Drenaje":99.73,
+        "Viviendas con Televisión":97.38,
+        "Viviendas con Automóvil":37.63,
+        "Viviendas con Computadora":19.02
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":104,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":37.5,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":18.27,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":17.31,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":12.5,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":5.77
+      }
+    }
+  }
+}]

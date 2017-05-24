@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Villa Romana",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":139,
+        "Porcentaje de población masculina":53.24,
+        "Porcentaje de población femenina":46.76,
+        "Porcentaje de población de 0 a 14 años":24.92,
+        "Porcentaje de población de 15 a 64 años":59.86,
+        "Porcentaje de población de 65 y más años":2.21,
+        "Porcentaje de población no especificada":13.01,
+        "Fecundidad promedio":1.47,
+        "Porcentaje de población con discapacidad":1.12
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.64,
+        "Población Económicamente Activa masculina":58.57,
+        "Población Económicamente Activa femenina":41.43,
+        "Población Ocupada":96.04,
+        "Población Ocupada masculina":56.94,
+        "Población Ocupada femenina":43.06,
+        "Población Desocupada":3.96,
+        "Derechohabiencia":75.01
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":39,
+        "Ocupación por Vivienda":3.56,
+        "Viviendas con Electricidad":93.61,
+        "Viviendas con Agua":93.59,
+        "Viviendas con Drenaje":93.53,
+        "Viviendas con Televisión":93.6,
+        "Viviendas con Automóvil":85.42,
+        "Viviendas con Computadora":80.03
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":3,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":33.33,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":33.33
+      }
+    }
+  }
+}]

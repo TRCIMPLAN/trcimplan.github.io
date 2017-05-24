@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Nueva Corona",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":240,
+        "Porcentaje de población masculina":45.83,
+        "Porcentaje de población femenina":54.17,
+        "Porcentaje de población de 0 a 14 años":33.33,
+        "Porcentaje de población de 15 a 64 años":62.5,
+        "Porcentaje de población de 65 y más años":4.17,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.32,
+        "Porcentaje de población con discapacidad":5.83
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":48.88,
+        "Población Económicamente Activa masculina":71.26,
+        "Población Económicamente Activa femenina":28.74,
+        "Población Ocupada":79.89,
+        "Población Ocupada masculina":72.22,
+        "Población Ocupada femenina":27.78,
+        "Población Desocupada":20.11,
+        "Derechohabiencia":73.75
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":53,
+        "Ocupación por Vivienda":4.53,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":42.28,
+        "Viviendas con Computadora":9.43
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":80,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":20
+      }
+    }
+  }
+}]

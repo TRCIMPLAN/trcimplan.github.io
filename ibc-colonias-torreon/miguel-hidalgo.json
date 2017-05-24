@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Miguel Hidalgo",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1000,
+        "Porcentaje de población masculina":48.5,
+        "Porcentaje de población femenina":51.5,
+        "Porcentaje de población de 0 a 14 años":25.3,
+        "Porcentaje de población de 15 a 64 años":62.4,
+        "Porcentaje de población de 65 y más años":12,
+        "Porcentaje de población no especificada":0.3,
+        "Fecundidad promedio":2.81,
+        "Porcentaje de población con discapacidad":10.96
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.22,
+        "Población Económicamente Activa masculina":67.23,
+        "Población Económicamente Activa femenina":32.77,
+        "Población Ocupada":92.74,
+        "Población Ocupada masculina":65.62,
+        "Población Ocupada femenina":34.38,
+        "Población Desocupada":7.26,
+        "Derechohabiencia":55.5
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":239,
+        "Ocupación por Vivienda":4.18,
+        "Viviendas con Electricidad":97.91,
+        "Viviendas con Agua":96.65,
+        "Viviendas con Drenaje":98.74,
+        "Viviendas con Televisión":94.98,
+        "Viviendas con Automóvil":19.25,
+        "Viviendas con Computadora":13.74
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":12,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":41.67,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":8.33,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":8.33
+      }
+    }
+  }
+}]

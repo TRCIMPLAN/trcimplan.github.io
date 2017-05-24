@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Residencial Los Portones",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":419,
+        "Porcentaje de población masculina":45.58,
+        "Porcentaje de población femenina":54.42,
+        "Porcentaje de población de 0 a 14 años":26.01,
+        "Porcentaje de población de 15 a 64 años":70.64,
+        "Porcentaje de población de 65 y más años":1.19,
+        "Porcentaje de población no especificada":2.16,
+        "Fecundidad promedio":1.27,
+        "Porcentaje de población con discapacidad":1.91
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.85,
+        "Población Económicamente Activa masculina":52.71,
+        "Población Económicamente Activa femenina":47.29,
+        "Población Ocupada":97.99,
+        "Población Ocupada masculina":52.26,
+        "Población Ocupada femenina":47.74,
+        "Población Desocupada":2.01,
+        "Derechohabiencia":94.27
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":124,
+        "Ocupación por Vivienda":3.38,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":97.58,
+        "Viviendas con Computadora":91.94
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Comercio Menudeo",
+        "Cuarta actividad porcentaje":16.67,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":16.67
+      }
+    }
+  }
+}]

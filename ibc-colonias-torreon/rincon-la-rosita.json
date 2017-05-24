@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Rincón La Rosita",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":445,
+        "Porcentaje de población masculina":46.97,
+        "Porcentaje de población femenina":53.03,
+        "Porcentaje de población de 0 a 14 años":19.16,
+        "Porcentaje de población de 15 a 64 años":75.74,
+        "Porcentaje de población de 65 y más años":5.1,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.51,
+        "Porcentaje de población con discapacidad":2.78
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":48.31,
+        "Población Económicamente Activa masculina":54.84,
+        "Población Económicamente Activa femenina":45.16,
+        "Población Ocupada":99.46,
+        "Población Ocupada masculina":54.59,
+        "Población Ocupada femenina":45.41,
+        "Población Desocupada":0.54,
+        "Derechohabiencia":90.56
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":129,
+        "Ocupación por Vivienda":3.45,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":97.67,
+        "Viviendas con Computadora":85.27
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":20,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":25,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":15,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":15,
+        "Cuarta actividad nombre":"Financieros y Seguros",
+        "Cuarta actividad porcentaje":10,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":10
+      }
+    }
+  }
+}]

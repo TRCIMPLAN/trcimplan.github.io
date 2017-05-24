@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Veredas de La Joya",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":22,
+        "Porcentaje de población masculina":40.91,
+        "Porcentaje de población femenina":59.09,
+        "Porcentaje de población de 0 a 14 años":40.91,
+        "Porcentaje de población de 15 a 64 años":59.09,
+        "Porcentaje de población de 65 y más años":0,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.29,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":78.57,
+        "Población Económicamente Activa masculina":54.55,
+        "Población Económicamente Activa femenina":45.45,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":54.55,
+        "Población Ocupada femenina":45.45,
+        "Población Desocupada":0,
+        "Derechohabiencia":95.45
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":7,
+        "Ocupación por Vivienda":3.14,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":100,
+        "Viviendas con Computadora":100
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

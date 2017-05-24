@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Residencial Saulo",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":64,
+        "Porcentaje de población masculina":50,
+        "Porcentaje de población femenina":50,
+        "Porcentaje de población de 0 a 14 años":34.38,
+        "Porcentaje de población de 15 a 64 años":65.62,
+        "Porcentaje de población de 65 y más años":0,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.04,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.38,
+        "Población Económicamente Activa masculina":53.18,
+        "Población Económicamente Activa femenina":46.82,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":53.06,
+        "Población Ocupada femenina":46.94,
+        "Población Desocupada":0,
+        "Derechohabiencia":67.19
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":13,
+        "Ocupación por Vivienda":4.92,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":100,
+        "Viviendas con Computadora":100
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

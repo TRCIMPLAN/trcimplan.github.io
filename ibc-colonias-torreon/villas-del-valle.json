@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Villas del Valle",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":383,
+        "Porcentaje de población masculina":49.61,
+        "Porcentaje de población femenina":50.39,
+        "Porcentaje de población de 0 a 14 años":26.11,
+        "Porcentaje de población de 15 a 64 años":68.67,
+        "Porcentaje de población de 65 y más años":5.22,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.34,
+        "Porcentaje de población con discapacidad":6.53
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.41,
+        "Población Económicamente Activa masculina":56.82,
+        "Población Económicamente Activa femenina":43.18,
+        "Población Ocupada":96.47,
+        "Población Ocupada masculina":56.47,
+        "Población Ocupada femenina":43.53,
+        "Población Desocupada":3.53,
+        "Derechohabiencia":87.47
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":116,
+        "Ocupación por Vivienda":3.3,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":81.9,
+        "Viviendas con Computadora":63.9
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":16.67
+      }
+    }
+  }
+}]

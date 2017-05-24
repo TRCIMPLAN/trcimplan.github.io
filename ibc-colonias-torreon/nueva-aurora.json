@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Nueva Aurora",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3251,
+        "Porcentaje de población masculina":50.23,
+        "Porcentaje de población femenina":49.77,
+        "Porcentaje de población de 0 a 14 años":22.6,
+        "Porcentaje de población de 15 a 64 años":66.29,
+        "Porcentaje de población de 65 y más años":11.11,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.63,
+        "Porcentaje de población con discapacidad":7.49
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.06,
+        "Población Económicamente Activa masculina":66.85,
+        "Población Económicamente Activa femenina":33.15,
+        "Población Ocupada":84.02,
+        "Población Ocupada masculina":65.09,
+        "Población Ocupada femenina":34.91,
+        "Población Desocupada":15.98,
+        "Derechohabiencia":61.45
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":889,
+        "Ocupación por Vivienda":3.66,
+        "Viviendas con Electricidad":99.58,
+        "Viviendas con Agua":99.35,
+        "Viviendas con Drenaje":99.01,
+        "Viviendas con Televisión":97.21,
+        "Viviendas con Automóvil":30.95,
+        "Viviendas con Computadora":22.96
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":125,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":39.2,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":26.4,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":9.6,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":8,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":4
+      }
+    }
+  }
+}]

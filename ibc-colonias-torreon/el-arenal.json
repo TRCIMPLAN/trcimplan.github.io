@@ -1,0 +1,53 @@
+[{
+  "Nombre":"El Arenal",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1420,
+        "Porcentaje de población masculina":50.31,
+        "Porcentaje de población femenina":49.69,
+        "Porcentaje de población de 0 a 14 años":26.74,
+        "Porcentaje de población de 15 a 64 años":62.46,
+        "Porcentaje de población de 65 y más años":10.58,
+        "Porcentaje de población no especificada":0.22,
+        "Fecundidad promedio":2.41,
+        "Porcentaje de población con discapacidad":8.63
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.4,
+        "Población Económicamente Activa masculina":66.27,
+        "Población Económicamente Activa femenina":33.73,
+        "Población Ocupada":93.22,
+        "Población Ocupada masculina":65.23,
+        "Población Ocupada femenina":34.77,
+        "Población Desocupada":6.78,
+        "Derechohabiencia":59.99
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":370,
+        "Ocupación por Vivienda":3.84,
+        "Viviendas con Electricidad":99.4,
+        "Viviendas con Agua":99.94,
+        "Viviendas con Drenaje":99.67,
+        "Viviendas con Televisión":97.78,
+        "Viviendas con Automóvil":37.05,
+        "Viviendas con Computadora":25.19
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":20,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":60,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":15
+      }
+    }
+  }
+}]

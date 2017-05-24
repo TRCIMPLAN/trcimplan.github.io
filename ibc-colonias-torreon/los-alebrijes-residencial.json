@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Los Alebrijes Residencial",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":221,
+        "Porcentaje de población masculina":48.42,
+        "Porcentaje de población femenina":51.58,
+        "Porcentaje de población de 0 a 14 años":24.43,
+        "Porcentaje de población de 15 a 64 años":65.61,
+        "Porcentaje de población de 65 y más años":1.81,
+        "Porcentaje de población no especificada":8.15,
+        "Fecundidad promedio":1.47,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.78,
+        "Población Económicamente Activa masculina":53.4,
+        "Población Económicamente Activa femenina":46.6,
+        "Población Ocupada":94.91,
+        "Población Ocupada masculina":53.06,
+        "Población Ocupada femenina":46.94,
+        "Población Desocupada":5.09,
+        "Derechohabiencia":83.71
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":66,
+        "Ocupación por Vivienda":3.35,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":96.97,
+        "Viviendas con Computadora":86.36
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

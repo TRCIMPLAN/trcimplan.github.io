@@ -1,0 +1,40 @@
+[{
+  "Nombre":"Real Del Nogalar",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1,
+        "Porcentaje de población masculina":51.68,
+        "Porcentaje de población femenina":48.32,
+        "Porcentaje de población de 0 a 14 años":32.22,
+        "Porcentaje de población de 15 a 64 años":58.7,
+        "Porcentaje de población de 65 y más años":1.95,
+        "Porcentaje de población no especificada":7.13,
+        "Fecundidad promedio":1.66,
+        "Porcentaje de población con discapacidad":1.73
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.1,
+        "Población Económicamente Activa masculina":63.38,
+        "Población Económicamente Activa femenina":36.62,
+        "Población Ocupada":95.74,
+        "Población Ocupada masculina":62.97,
+        "Población Ocupada femenina":37.03,
+        "Población Desocupada":4.26,
+        "Derechohabiencia":73.41
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

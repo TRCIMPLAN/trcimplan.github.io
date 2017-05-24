@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Tercero de Cobián (Centro)",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":9277,
+        "Porcentaje de población masculina":45.9,
+        "Porcentaje de población femenina":54.1,
+        "Porcentaje de población de 0 a 14 años":17.51,
+        "Porcentaje de población de 15 a 64 años":65.08,
+        "Porcentaje de población de 65 y más años":15.36,
+        "Porcentaje de población no especificada":2.05,
+        "Fecundidad promedio":2.19,
+        "Porcentaje de población con discapacidad":7.4
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.62,
+        "Población Económicamente Activa masculina":56.95,
+        "Población Económicamente Activa femenina":43.05,
+        "Población Ocupada":92.26,
+        "Población Ocupada masculina":56.38,
+        "Población Ocupada femenina":43.62,
+        "Población Desocupada":7.74,
+        "Derechohabiencia":68.92
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":2833,
+        "Ocupación por Vivienda":3.27,
+        "Viviendas con Electricidad":99.71,
+        "Viviendas con Agua":98.81,
+        "Viviendas con Drenaje":98.66,
+        "Viviendas con Televisión":97.6,
+        "Viviendas con Automóvil":53.08,
+        "Viviendas con Computadora":42.49
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1987,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":25.57,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":18.87,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":12.23,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":10.62,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":8.4
+      }
+    }
+  }
+}]

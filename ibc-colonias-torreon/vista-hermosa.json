@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Vista Hermosa",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":641,
+        "Porcentaje de población masculina":51.57,
+        "Porcentaje de población femenina":48.43,
+        "Porcentaje de población de 0 a 14 años":30.13,
+        "Porcentaje de población de 15 a 64 años":63.56,
+        "Porcentaje de población de 65 y más años":6.31,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.79,
+        "Porcentaje de población con discapacidad":5.95
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.72,
+        "Población Económicamente Activa masculina":73.66,
+        "Población Económicamente Activa femenina":26.34,
+        "Población Ocupada":96.87,
+        "Población Ocupada masculina":73.23,
+        "Población Ocupada femenina":26.77,
+        "Población Desocupada":3.13,
+        "Derechohabiencia":59.95
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":158,
+        "Ocupación por Vivienda":4.06,
+        "Viviendas con Electricidad":99.83,
+        "Viviendas con Agua":94.71,
+        "Viviendas con Drenaje":94.08,
+        "Viviendas con Televisión":97.91,
+        "Viviendas con Automóvil":20.77,
+        "Viviendas con Computadora":10.86
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":9,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":55.56,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":22.22,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":11.11,
+        "Cuarta actividad nombre":"Gubernamentales",
+        "Cuarta actividad porcentaje":11.11
+      }
+    }
+  }
+}]

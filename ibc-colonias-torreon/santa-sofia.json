@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Santa Sofía",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2180,
+        "Porcentaje de población masculina":51.01,
+        "Porcentaje de población femenina":48.99,
+        "Porcentaje de población de 0 a 14 años":37.33,
+        "Porcentaje de población de 15 a 64 años":60.27,
+        "Porcentaje de población de 65 y más años":1.02,
+        "Porcentaje de población no especificada":1.38,
+        "Fecundidad promedio":2.05,
+        "Porcentaje de población con discapacidad":2.23
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.04,
+        "Población Económicamente Activa masculina":71.24,
+        "Población Económicamente Activa femenina":28.76,
+        "Población Ocupada":90.73,
+        "Población Ocupada masculina":70.32,
+        "Población Ocupada femenina":29.68,
+        "Población Desocupada":9.27,
+        "Derechohabiencia":61.91
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":590,
+        "Ocupación por Vivienda":3.69,
+        "Viviendas con Electricidad":95.21,
+        "Viviendas con Agua":98.09,
+        "Viviendas con Drenaje":96.73,
+        "Viviendas con Televisión":94.85,
+        "Viviendas con Automóvil":38.79,
+        "Viviendas con Computadora":23.58
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":45,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":51.11,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":17.78,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":4.44,
+        "Quinta actividad nombre":"Gubernamentales",
+        "Quinta actividad porcentaje":2.22
+      }
+    }
+  }
+}]

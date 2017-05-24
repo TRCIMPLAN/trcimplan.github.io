@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Luis Donaldo Colosio",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1761,
+        "Porcentaje de población masculina":50.38,
+        "Porcentaje de población femenina":49.62,
+        "Porcentaje de población de 0 a 14 años":39,
+        "Porcentaje de población de 15 a 64 años":58.38,
+        "Porcentaje de población de 65 y más años":2.43,
+        "Porcentaje de población no especificada":0.19,
+        "Fecundidad promedio":2.54,
+        "Porcentaje de población con discapacidad":3.91
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.88,
+        "Población Económicamente Activa masculina":79.39,
+        "Población Económicamente Activa femenina":20.61,
+        "Población Ocupada":84.95,
+        "Población Ocupada masculina":79.29,
+        "Población Ocupada femenina":20.71,
+        "Población Desocupada":15.05,
+        "Derechohabiencia":62.7
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":481,
+        "Ocupación por Vivienda":3.66,
+        "Viviendas con Electricidad":97.82,
+        "Viviendas con Agua":77.65,
+        "Viviendas con Drenaje":81.6,
+        "Viviendas con Televisión":94.28,
+        "Viviendas con Automóvil":33.99,
+        "Viviendas con Computadora":20.06
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":49,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":53.06,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16.33,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":8.16,
+        "Cuarta actividad nombre":"Salud",
+        "Cuarta actividad porcentaje":6.12,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":4.08
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Quintas del Nazas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1671,
+        "Porcentaje de población masculina":48.65,
+        "Porcentaje de población femenina":51.35,
+        "Porcentaje de población de 0 a 14 años":36.74,
+        "Porcentaje de población de 15 a 64 años":60.2,
+        "Porcentaje de población de 65 y más años":1.08,
+        "Porcentaje de población no especificada":1.98,
+        "Fecundidad promedio":1.72,
+        "Porcentaje de población con discapacidad":2.06
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":59.15,
+        "Población Económicamente Activa masculina":62.48,
+        "Población Económicamente Activa femenina":37.52,
+        "Población Ocupada":96.19,
+        "Población Ocupada masculina":61.69,
+        "Población Ocupada femenina":38.31,
+        "Población Desocupada":3.81,
+        "Derechohabiencia":79.23
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":458,
+        "Ocupación por Vivienda":3.65,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.78,
+        "Viviendas con Drenaje":99.78,
+        "Viviendas con Televisión":99.56,
+        "Viviendas con Automóvil":72.49,
+        "Viviendas con Computadora":53.71
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":16,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":43.75,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":18.75,
+        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad porcentaje":6.25,
+        "Quinta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Quinta actividad porcentaje":6.25
+      }
+    }
+  }
+}]

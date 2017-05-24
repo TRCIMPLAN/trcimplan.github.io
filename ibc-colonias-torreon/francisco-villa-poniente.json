@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Francisco Villa Poniente",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2101,
+        "Porcentaje de población masculina":50.02,
+        "Porcentaje de población femenina":49.98,
+        "Porcentaje de población de 0 a 14 años":21.65,
+        "Porcentaje de población de 15 a 64 años":64.21,
+        "Porcentaje de población de 65 y más años":12.41,
+        "Porcentaje de población no especificada":1.73,
+        "Fecundidad promedio":2.28,
+        "Porcentaje de población con discapacidad":8.31
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.24,
+        "Población Económicamente Activa masculina":62.32,
+        "Población Económicamente Activa femenina":37.68,
+        "Población Ocupada":91.5,
+        "Población Ocupada masculina":61.24,
+        "Población Ocupada femenina":38.76,
+        "Población Desocupada":8.5,
+        "Derechohabiencia":65.03
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":579,
+        "Ocupación por Vivienda":3.63,
+        "Viviendas con Electricidad":99.75,
+        "Viviendas con Agua":99.4,
+        "Viviendas con Drenaje":99.23,
+        "Viviendas con Televisión":98.88,
+        "Viviendas con Automóvil":55.71,
+        "Viviendas con Computadora":39.05
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":66,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":22.73,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":12.12,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.58,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":7.58
+      }
+    }
+  }
+}]

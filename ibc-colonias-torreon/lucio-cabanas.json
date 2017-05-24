@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Lucio Cabañas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":386,
+        "Porcentaje de población masculina":52.33,
+        "Porcentaje de población femenina":47.67,
+        "Porcentaje de población de 0 a 14 años":32.38,
+        "Porcentaje de población de 15 a 64 años":64.51,
+        "Porcentaje de población de 65 y más años":2.33,
+        "Porcentaje de población no especificada":0.78,
+        "Fecundidad promedio":2.43,
+        "Porcentaje de población con discapacidad":5.6
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.54,
+        "Población Económicamente Activa masculina":76.83,
+        "Población Económicamente Activa femenina":23.17,
+        "Población Ocupada":66.62,
+        "Población Ocupada masculina":74.17,
+        "Población Ocupada femenina":25.83,
+        "Población Desocupada":33.38,
+        "Derechohabiencia":53.63
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":77,
+        "Ocupación por Vivienda":5.01,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":96.1,
+        "Viviendas con Automóvil":21.75,
+        "Viviendas con Computadora":15.26
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":75,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":25
+      }
+    }
+  }
+}]

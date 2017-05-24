@@ -1,0 +1,57 @@
+[{
+  "Nombre":"José Luz Torres",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3729,
+        "Porcentaje de población masculina":49.48,
+        "Porcentaje de población femenina":50.52,
+        "Porcentaje de población de 0 a 14 años":38.35,
+        "Porcentaje de población de 15 a 64 años":59.06,
+        "Porcentaje de población de 65 y más años":2.4,
+        "Porcentaje de población no especificada":0.19,
+        "Fecundidad promedio":2.43,
+        "Porcentaje de población con discapacidad":6.29
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.87,
+        "Población Económicamente Activa masculina":73.65,
+        "Población Económicamente Activa femenina":26.35,
+        "Población Ocupada":89.25,
+        "Población Ocupada masculina":72.52,
+        "Población Ocupada femenina":27.48,
+        "Población Desocupada":10.75,
+        "Derechohabiencia":59.14
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":875,
+        "Ocupación por Vivienda":4.26,
+        "Viviendas con Electricidad":99.34,
+        "Viviendas con Agua":98.08,
+        "Viviendas con Drenaje":95.9,
+        "Viviendas con Televisión":96.58,
+        "Viviendas con Automóvil":38.04,
+        "Viviendas con Computadora":16.86
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":94,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":41.49,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":20.21,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":12.77,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":12.77,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":4.26
+      }
+    }
+  }
+}]

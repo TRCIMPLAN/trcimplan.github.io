@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Torreón 2000",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":922,
+        "Porcentaje de población masculina":49.57,
+        "Porcentaje de población femenina":50.43,
+        "Porcentaje de población de 0 a 14 años":36.98,
+        "Porcentaje de población de 15 a 64 años":60.3,
+        "Porcentaje de población de 65 y más años":2.06,
+        "Porcentaje de población no especificada":0.66,
+        "Fecundidad promedio":1.75,
+        "Porcentaje de población con discapacidad":1.22
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.5,
+        "Población Económicamente Activa masculina":62.1,
+        "Población Económicamente Activa femenina":37.9,
+        "Población Ocupada":94.63,
+        "Población Ocupada masculina":60.91,
+        "Población Ocupada femenina":39.09,
+        "Población Desocupada":5.37,
+        "Derechohabiencia":80.48
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":242,
+        "Ocupación por Vivienda":3.81,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.59,
+        "Viviendas con Automóvil":76.45,
+        "Viviendas con Computadora":55.37
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":9,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Manejo de Residuos",
+        "Segunda actividad porcentaje":11.11,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":11.11,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":11.11
+      }
+    }
+  }
+}]

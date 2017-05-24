@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Maclovio Herrera",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":665,
+        "Porcentaje de población masculina":50.83,
+        "Porcentaje de población femenina":49.17,
+        "Porcentaje de población de 0 a 14 años":29.01,
+        "Porcentaje de población de 15 a 64 años":63.08,
+        "Porcentaje de población de 65 y más años":7.9,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":2.61,
+        "Porcentaje de población con discapacidad":11.87
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.32,
+        "Población Económicamente Activa masculina":64.84,
+        "Población Económicamente Activa femenina":35.16,
+        "Población Ocupada":93.39,
+        "Población Ocupada masculina":63.27,
+        "Población Ocupada femenina":36.73,
+        "Población Desocupada":6.61,
+        "Derechohabiencia":56.71
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":168,
+        "Ocupación por Vivienda":3.96,
+        "Viviendas con Electricidad":98.21,
+        "Viviendas con Agua":91.07,
+        "Viviendas con Drenaje":98.21,
+        "Viviendas con Televisión":93.97,
+        "Viviendas con Automóvil":21.29,
+        "Viviendas con Computadora":15.79
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":17,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":52.94,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":23.53,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":5.88,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":5.88,
+        "Quinta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Quinta actividad porcentaje":5.88
+      }
+    }
+  }
+}]

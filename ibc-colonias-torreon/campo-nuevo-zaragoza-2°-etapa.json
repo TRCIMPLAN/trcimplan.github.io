@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Campo Nuevo Zaragoza 2° Etapa",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2695,
+        "Porcentaje de población masculina":49.53,
+        "Porcentaje de población femenina":50.47,
+        "Porcentaje de población de 0 a 14 años":39.2,
+        "Porcentaje de población de 15 a 64 años":59.38,
+        "Porcentaje de población de 65 y más años":1.18,
+        "Porcentaje de población no especificada":0.24,
+        "Fecundidad promedio":1.72,
+        "Porcentaje de población con discapacidad":2.56
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":63.81,
+        "Población Económicamente Activa masculina":63.43,
+        "Población Económicamente Activa femenina":36.57,
+        "Población Ocupada":94.01,
+        "Población Ocupada masculina":62.75,
+        "Población Ocupada femenina":37.25,
+        "Población Desocupada":5.99,
+        "Derechohabiencia":79.38
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":744,
+        "Ocupación por Vivienda":3.62,
+        "Viviendas con Electricidad":99.78,
+        "Viviendas con Agua":98.17,
+        "Viviendas con Drenaje":99.78,
+        "Viviendas con Televisión":98.84,
+        "Viviendas con Automóvil":64.01,
+        "Viviendas con Computadora":35.09
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":36,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":38.89,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":22.22,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":8.33,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":5.56
+      }
+    }
+  }
+}]

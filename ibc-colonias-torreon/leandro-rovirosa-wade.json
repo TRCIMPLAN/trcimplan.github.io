@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Leandro Rovirosa Wade",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":420,
+        "Porcentaje de población masculina":48.06,
+        "Porcentaje de población femenina":51.94,
+        "Porcentaje de población de 0 a 14 años":24.23,
+        "Porcentaje de población de 15 a 64 años":68.55,
+        "Porcentaje de población de 65 y más años":5.76,
+        "Porcentaje de población no especificada":1.46,
+        "Fecundidad promedio":1.77,
+        "Porcentaje de población con discapacidad":5.91
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.24,
+        "Población Económicamente Activa masculina":64.08,
+        "Población Económicamente Activa femenina":35.92,
+        "Población Ocupada":97.06,
+        "Población Ocupada masculina":63.04,
+        "Población Ocupada femenina":36.96,
+        "Población Desocupada":2.94,
+        "Derechohabiencia":79.67
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":113,
+        "Ocupación por Vivienda":3.72,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.8,
+        "Viviendas con Drenaje":99.8,
+        "Viviendas con Televisión":99.81,
+        "Viviendas con Automóvil":88.91,
+        "Viviendas con Computadora":77.21
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":24,
+        "Primer actividad nombre":"Inmobiliarios",
+        "Primer actividad porcentaje":16.67,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Comercio Menudeo",
+        "Cuarta actividad porcentaje":12.5,
+        "Quinta actividad nombre":"Construcción",
+        "Quinta actividad porcentaje":12.5
+      }
+    }
+  }
+}]

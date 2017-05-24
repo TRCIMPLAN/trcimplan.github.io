@@ -1,0 +1,49 @@
+[{
+  "Nombre":"El Oasis",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":213,
+        "Porcentaje de población masculina":51.13,
+        "Porcentaje de población femenina":48.87,
+        "Porcentaje de población de 0 a 14 años":28.76,
+        "Porcentaje de población de 15 a 64 años":69.18,
+        "Porcentaje de población de 65 y más años":1.99,
+        "Porcentaje de población no especificada":0.07,
+        "Fecundidad promedio":1.55,
+        "Porcentaje de población con discapacidad":0.96
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.67,
+        "Población Económicamente Activa masculina":69.07,
+        "Población Económicamente Activa femenina":30.93,
+        "Población Ocupada":99.93,
+        "Población Ocupada masculina":69.07,
+        "Población Ocupada femenina":30.93,
+        "Población Desocupada":0.07,
+        "Derechohabiencia":81.43
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":56,
+        "Ocupación por Vivienda":3.8,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.54,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":85.74,
+        "Viviendas con Computadora":80.67
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

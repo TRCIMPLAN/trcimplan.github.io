@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Segunda Rinconada de La Unión",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":962,
+        "Porcentaje de población masculina":48.91,
+        "Porcentaje de población femenina":51.09,
+        "Porcentaje de población de 0 a 14 años":32.35,
+        "Porcentaje de población de 15 a 64 años":59.64,
+        "Porcentaje de población de 65 y más años":8.02,
+        "Porcentaje de población no especificada":-0.01,
+        "Fecundidad promedio":2.6,
+        "Porcentaje de población con discapacidad":6.52
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.88,
+        "Población Económicamente Activa masculina":71.84,
+        "Población Económicamente Activa femenina":28.16,
+        "Población Ocupada":89.99,
+        "Población Ocupada masculina":69.93,
+        "Población Ocupada femenina":30.07,
+        "Población Desocupada":10.01,
+        "Derechohabiencia":72.37
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":246,
+        "Ocupación por Vivienda":3.91,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":96.15,
+        "Viviendas con Drenaje":99.88,
+        "Viviendas con Televisión":98.14,
+        "Viviendas con Automóvil":23.16,
+        "Viviendas con Computadora":12.23
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":10,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":20,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":10
+      }
+    }
+  }
+}]

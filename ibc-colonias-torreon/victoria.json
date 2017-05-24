@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Victoria",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2163,
+        "Porcentaje de población masculina":50.37,
+        "Porcentaje de población femenina":49.63,
+        "Porcentaje de población de 0 a 14 años":29.69,
+        "Porcentaje de población de 15 a 64 años":61.62,
+        "Porcentaje de población de 65 y más años":8.69,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.66,
+        "Porcentaje de población con discapacidad":9.82
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.44,
+        "Población Económicamente Activa masculina":68.14,
+        "Población Económicamente Activa femenina":31.86,
+        "Población Ocupada":93.16,
+        "Población Ocupada masculina":67.42,
+        "Población Ocupada femenina":32.58,
+        "Población Desocupada":6.84,
+        "Derechohabiencia":66.87
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":540,
+        "Ocupación por Vivienda":4.01,
+        "Viviendas con Electricidad":98.45,
+        "Viviendas con Agua":97.51,
+        "Viviendas con Drenaje":97.89,
+        "Viviendas con Televisión":96.4,
+        "Viviendas con Automóvil":31.12,
+        "Viviendas con Computadora":18.78
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":29,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":72.41,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":10.34,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":6.9,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":6.9,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":3.45
+      }
+    }
+  }
+}]

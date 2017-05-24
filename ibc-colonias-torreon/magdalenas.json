@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Magdalenas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":4329,
+        "Porcentaje de población masculina":48.79,
+        "Porcentaje de población femenina":51.21,
+        "Porcentaje de población de 0 a 14 años":26.15,
+        "Porcentaje de población de 15 a 64 años":62.98,
+        "Porcentaje de población de 65 y más años":9.05,
+        "Porcentaje de población no especificada":1.82,
+        "Fecundidad promedio":2.6,
+        "Porcentaje de población con discapacidad":3.22
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.94,
+        "Población Económicamente Activa masculina":67.55,
+        "Población Económicamente Activa femenina":32.45,
+        "Población Ocupada":94.33,
+        "Población Ocupada masculina":66.7,
+        "Población Ocupada femenina":33.3,
+        "Población Desocupada":5.67,
+        "Derechohabiencia":64.05
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1054,
+        "Ocupación por Vivienda":4.11,
+        "Viviendas con Electricidad":99.86,
+        "Viviendas con Agua":99.57,
+        "Viviendas con Drenaje":99.48,
+        "Viviendas con Televisión":98.43,
+        "Viviendas con Automóvil":46,
+        "Viviendas con Computadora":28.83
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":268,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":29.1,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":26.49,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":19.4,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":6.72,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":4.85
+      }
+    }
+  }
+}]

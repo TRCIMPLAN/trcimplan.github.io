@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Recintos Villas Universidad",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":485,
+        "Porcentaje de población masculina":51.35,
+        "Porcentaje de población femenina":48.65,
+        "Porcentaje de población de 0 a 14 años":33.13,
+        "Porcentaje de población de 15 a 64 años":65.18,
+        "Porcentaje de población de 65 y más años":1.68,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":1.27,
+        "Porcentaje de población con discapacidad":2.52
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":69.26,
+        "Población Económicamente Activa masculina":60.37,
+        "Población Económicamente Activa femenina":39.63,
+        "Población Ocupada":96.87,
+        "Población Ocupada masculina":60.01,
+        "Población Ocupada femenina":39.99,
+        "Población Desocupada":3.13,
+        "Derechohabiencia":85.9
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":143,
+        "Ocupación por Vivienda":3.39,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.81,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.12,
+        "Viviendas con Automóvil":84.64,
+        "Viviendas con Computadora":58.61
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":13,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":46.15,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":23.08,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":15.38,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":7.69,
+        "Quinta actividad nombre":"Construcción",
+        "Quinta actividad porcentaje":7.69
+      }
+    }
+  }
+}]

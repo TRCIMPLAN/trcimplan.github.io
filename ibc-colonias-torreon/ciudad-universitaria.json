@@ -1,0 +1,30 @@
+[{
+  "Nombre":"Ciudad Universitaria",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":0
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":16,
+        "Primer actividad nombre":"Educativos",
+        "Primer actividad porcentaje":43.75,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":31.25,
+        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad porcentaje":12.5,
+        "Cuarta actividad nombre":"Gubernamentales",
+        "Cuarta actividad porcentaje":6.25,
+        "Quinta actividad nombre":"Información Medios Masivos",
+        "Quinta actividad porcentaje":6.25
+      }
+    }
+  }
+}]

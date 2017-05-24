@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Ampliación Senderos",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":125,
+        "Porcentaje de población masculina":45.46,
+        "Porcentaje de población femenina":54.54,
+        "Porcentaje de población de 0 a 14 años":25.7,
+        "Porcentaje de población de 15 a 64 años":54.19,
+        "Porcentaje de población de 65 y más años":3.27,
+        "Porcentaje de población no especificada":16.84,
+        "Fecundidad promedio":1.6,
+        "Porcentaje de población con discapacidad":1.56
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":72.72,
+        "Población Económicamente Activa masculina":56.2,
+        "Población Económicamente Activa femenina":43.8,
+        "Población Ocupada":99.83,
+        "Población Ocupada masculina":56.15,
+        "Población Ocupada femenina":43.85,
+        "Población Desocupada":0.17,
+        "Derechohabiencia":70.46
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":35,
+        "Ocupación por Vivienda":3.57,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":93.79,
+        "Viviendas con Computadora":79
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":20,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":20
+      }
+    }
+  }
+}]

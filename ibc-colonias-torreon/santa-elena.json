@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Santa Elena",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":989,
+        "Porcentaje de población masculina":49.75,
+        "Porcentaje de población femenina":50.25,
+        "Porcentaje de población de 0 a 14 años":28.01,
+        "Porcentaje de población de 15 a 64 años":66.33,
+        "Porcentaje de población de 65 y más años":3.74,
+        "Porcentaje de población no especificada":1.92,
+        "Fecundidad promedio":1.64,
+        "Porcentaje de población con discapacidad":1.15
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.09,
+        "Población Económicamente Activa masculina":55.92,
+        "Población Económicamente Activa femenina":44.08,
+        "Población Ocupada":97.08,
+        "Población Ocupada masculina":55.37,
+        "Población Ocupada femenina":44.63,
+        "Población Desocupada":2.92,
+        "Derechohabiencia":81.19
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":263,
+        "Ocupación por Vivienda":3.76,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.62,
+        "Viviendas con Automóvil":91.63,
+        "Viviendas con Computadora":82.51
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":34,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":35.29,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":23.53,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":8.82,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":5.88,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":5.88
+      }
+    }
+  }
+}]

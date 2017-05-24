@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Luis Echeverría Norte",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2867,
+        "Porcentaje de población masculina":48.13,
+        "Porcentaje de población femenina":51.87,
+        "Porcentaje de población de 0 a 14 años":25.04,
+        "Porcentaje de población de 15 a 64 años":66.24,
+        "Porcentaje de población de 65 y más años":8.62,
+        "Porcentaje de población no especificada":0.1,
+        "Fecundidad promedio":2.38,
+        "Porcentaje de población con discapacidad":5.73
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.59,
+        "Población Económicamente Activa masculina":65.2,
+        "Población Económicamente Activa femenina":34.8,
+        "Población Ocupada":88.82,
+        "Población Ocupada masculina":63.81,
+        "Población Ocupada femenina":36.19,
+        "Población Desocupada":11.18,
+        "Derechohabiencia":72.45
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":731,
+        "Ocupación por Vivienda":3.92,
+        "Viviendas con Electricidad":99.18,
+        "Viviendas con Agua":98.63,
+        "Viviendas con Drenaje":98.63,
+        "Viviendas con Televisión":98.63,
+        "Viviendas con Automóvil":44.05,
+        "Viviendas con Computadora":30.92
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":92,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":33.7,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":13.04,
+        "Tercera actividad nombre":"Gubernamentales",
+        "Tercera actividad porcentaje":13.04,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":11.96,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":7.61
+      }
+    }
+  }
+}]

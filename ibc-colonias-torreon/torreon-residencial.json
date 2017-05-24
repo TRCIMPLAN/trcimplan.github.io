@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Torreón Residencial",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":5599,
+        "Porcentaje de población masculina":47.48,
+        "Porcentaje de población femenina":52.52,
+        "Porcentaje de población de 0 a 14 años":16.81,
+        "Porcentaje de población de 15 a 64 años":75.01,
+        "Porcentaje de población de 65 y más años":7.09,
+        "Porcentaje de población no especificada":1.09,
+        "Fecundidad promedio":1.7,
+        "Porcentaje de población con discapacidad":2.1
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.93,
+        "Población Económicamente Activa masculina":56.36,
+        "Población Económicamente Activa femenina":43.64,
+        "Población Ocupada":93.6,
+        "Población Ocupada masculina":56.12,
+        "Población Ocupada femenina":43.88,
+        "Población Desocupada":6.4,
+        "Derechohabiencia":76.37
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1607,
+        "Ocupación por Vivienda":3.48,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.96,
+        "Viviendas con Televisión":99.27,
+        "Viviendas con Automóvil":87.32,
+        "Viviendas con Computadora":77.88
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":172,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":23.84,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":17.44,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":16.86,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":9.88,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":9.3
+      }
+    }
+  }
+}]

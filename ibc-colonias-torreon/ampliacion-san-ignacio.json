@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ampliación San Ignacio",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":242,
+        "Porcentaje de población masculina":49.59,
+        "Porcentaje de población femenina":50.41,
+        "Porcentaje de población de 0 a 14 años":32.64,
+        "Porcentaje de población de 15 a 64 años":64.88,
+        "Porcentaje de población de 65 y más años":2.48,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.87,
+        "Porcentaje de población con discapacidad":1.87
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.45,
+        "Población Económicamente Activa masculina":60.75,
+        "Población Económicamente Activa femenina":39.25,
+        "Población Ocupada":81.66,
+        "Población Ocupada masculina":63.33,
+        "Población Ocupada femenina":36.67,
+        "Población Desocupada":18.34,
+        "Derechohabiencia":82.23
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":70,
+        "Ocupación por Vivienda":3.46,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":61.43,
+        "Viviendas con Computadora":40
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":12,
+        "Primer actividad nombre":"Comercio Mayoreo",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad porcentaje":8.33,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":8.33,
+        "Quinta actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Quinta actividad porcentaje":8.33
+      }
+    }
+  }
+}]

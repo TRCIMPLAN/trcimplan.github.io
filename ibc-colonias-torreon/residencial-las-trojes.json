@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Residencial Las Trojes",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":134,
+        "Porcentaje de población masculina":46.85,
+        "Porcentaje de población femenina":53.15,
+        "Porcentaje de población de 0 a 14 años":29.28,
+        "Porcentaje de población de 15 a 64 años":69.67,
+        "Porcentaje de población de 65 y más años":0.96,
+        "Porcentaje de población no especificada":0.09,
+        "Fecundidad promedio":1.33,
+        "Porcentaje de población con discapacidad":0.3
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.76,
+        "Población Económicamente Activa masculina":61.5,
+        "Población Económicamente Activa femenina":38.5,
+        "Población Ocupada":98.22,
+        "Población Ocupada masculina":62.44,
+        "Población Ocupada femenina":37.56,
+        "Población Desocupada":1.78,
+        "Derechohabiencia":97.49
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":42,
+        "Ocupación por Vivienda":3.19,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":99.05,
+        "Viviendas con Computadora":96.02
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

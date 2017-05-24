@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Nueva California",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":817,
+        "Porcentaje de población masculina":45.09,
+        "Porcentaje de población femenina":54.91,
+        "Porcentaje de población de 0 a 14 años":29.89,
+        "Porcentaje de población de 15 a 64 años":63.45,
+        "Porcentaje de población de 65 y más años":6.64,
+        "Porcentaje de población no especificada":0.02,
+        "Fecundidad promedio":2.4,
+        "Porcentaje de población con discapacidad":5.51
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.59,
+        "Población Económicamente Activa masculina":66.74,
+        "Población Económicamente Activa femenina":33.26,
+        "Población Ocupada":84.46,
+        "Población Ocupada masculina":63.94,
+        "Población Ocupada femenina":36.06,
+        "Población Desocupada":15.54,
+        "Derechohabiencia":67.49
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":186,
+        "Ocupación por Vivienda":4.39,
+        "Viviendas con Electricidad":99.6,
+        "Viviendas con Agua":99.06,
+        "Viviendas con Drenaje":98.52,
+        "Viviendas con Televisión":99.06,
+        "Viviendas con Automóvil":44.01,
+        "Viviendas con Computadora":35.81
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":65,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":35.38,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":26.15,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":9.23,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.69,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":4.62
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Compresora",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1144,
+        "Porcentaje de población masculina":49.06,
+        "Porcentaje de población femenina":50.94,
+        "Porcentaje de población de 0 a 14 años":23.9,
+        "Porcentaje de población de 15 a 64 años":66.62,
+        "Porcentaje de población de 65 y más años":9.48,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.53,
+        "Porcentaje de población con discapacidad":7.17
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.4,
+        "Población Económicamente Activa masculina":66.87,
+        "Población Económicamente Activa femenina":33.13,
+        "Población Ocupada":89.78,
+        "Población Ocupada masculina":65.15,
+        "Población Ocupada femenina":34.85,
+        "Población Desocupada":10.22,
+        "Derechohabiencia":66.33
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":288,
+        "Ocupación por Vivienda":3.97,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.71,
+        "Viviendas con Automóvil":26.77,
+        "Viviendas con Computadora":21.2
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":15,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":60,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":6.67,
+        "Cuarta actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Cuarta actividad porcentaje":6.67,
+        "Quinta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Quinta actividad porcentaje":6.67
+      }
+    }
+  }
+}]

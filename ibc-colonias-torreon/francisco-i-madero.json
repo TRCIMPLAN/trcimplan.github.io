@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Francisco I. Madero",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":836,
+        "Porcentaje de población masculina":50.49,
+        "Porcentaje de población femenina":49.51,
+        "Porcentaje de población de 0 a 14 años":26.64,
+        "Porcentaje de población de 15 a 64 años":65.71,
+        "Porcentaje de población de 65 y más años":6.41,
+        "Porcentaje de población no especificada":1.24,
+        "Fecundidad promedio":2.51,
+        "Porcentaje de población con discapacidad":4.64
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.48,
+        "Población Económicamente Activa masculina":73.62,
+        "Población Económicamente Activa femenina":26.38,
+        "Población Ocupada":84.31,
+        "Población Ocupada masculina":74.37,
+        "Población Ocupada femenina":25.63,
+        "Población Desocupada":15.69,
+        "Derechohabiencia":69.64
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":207,
+        "Ocupación por Vivienda":4.04,
+        "Viviendas con Electricidad":99.29,
+        "Viviendas con Agua":99.29,
+        "Viviendas con Drenaje":98.31,
+        "Viviendas con Televisión":97.82,
+        "Viviendas con Automóvil":23.71,
+        "Viviendas con Computadora":8.04
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":9,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":77.78,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":11.11,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":11.11
+      }
+    }
+  }
+}]

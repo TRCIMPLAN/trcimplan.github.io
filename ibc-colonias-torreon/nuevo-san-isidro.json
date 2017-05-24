@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Nuevo San Isidro",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":938,
+        "Porcentaje de población masculina":48.19,
+        "Porcentaje de población femenina":51.81,
+        "Porcentaje de población de 0 a 14 años":13.18,
+        "Porcentaje de población de 15 a 64 años":75.26,
+        "Porcentaje de población de 65 y más años":8.97,
+        "Porcentaje de población no especificada":2.59,
+        "Fecundidad promedio":1.69,
+        "Porcentaje de población con discapacidad":4.07
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.06,
+        "Población Económicamente Activa masculina":55.23,
+        "Población Económicamente Activa femenina":44.77,
+        "Población Ocupada":93.08,
+        "Población Ocupada masculina":54.37,
+        "Población Ocupada femenina":45.63,
+        "Población Desocupada":6.92,
+        "Derechohabiencia":74.2
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":283,
+        "Ocupación por Vivienda":3.31,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.28,
+        "Viviendas con Drenaje":99.64,
+        "Viviendas con Televisión":98.93,
+        "Viviendas con Automóvil":93.59,
+        "Viviendas con Computadora":78.97
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":40,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":32.5,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":12.5,
+        "Tercera actividad nombre":"Financieros y Seguros",
+        "Tercera actividad porcentaje":10,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":10,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":10
+      }
+    }
+  }
+}]

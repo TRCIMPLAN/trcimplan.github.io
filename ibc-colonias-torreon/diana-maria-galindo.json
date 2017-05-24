@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Diana María Galindo",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":399,
+        "Porcentaje de población masculina":51.01,
+        "Porcentaje de población femenina":48.99,
+        "Porcentaje de población de 0 a 14 años":34.51,
+        "Porcentaje de población de 15 a 64 años":60.82,
+        "Porcentaje de población de 65 y más años":3.09,
+        "Porcentaje de población no especificada":1.58,
+        "Fecundidad promedio":2.59,
+        "Porcentaje de población con discapacidad":1.82
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.22,
+        "Población Económicamente Activa masculina":72.54,
+        "Población Económicamente Activa femenina":27.46,
+        "Población Ocupada":91.49,
+        "Población Ocupada masculina":72.82,
+        "Población Ocupada femenina":27.18,
+        "Población Desocupada":8.51,
+        "Derechohabiencia":58.39
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":90,
+        "Ocupación por Vivienda":4.43,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.82,
+        "Viviendas con Drenaje":95.34,
+        "Viviendas con Televisión":96.45,
+        "Viviendas con Automóvil":18.07,
+        "Viviendas con Computadora":2.19
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":3,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

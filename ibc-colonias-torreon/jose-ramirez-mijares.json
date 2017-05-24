@@ -1,0 +1,57 @@
+[{
+  "Nombre":"José Ramírez Mijares",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1914,
+        "Porcentaje de población masculina":47.54,
+        "Porcentaje de población femenina":52.46,
+        "Porcentaje de población de 0 a 14 años":28.44,
+        "Porcentaje de población de 15 a 64 años":64.69,
+        "Porcentaje de población de 65 y más años":6.8,
+        "Porcentaje de población no especificada":0.07,
+        "Fecundidad promedio":2.32,
+        "Porcentaje de población con discapacidad":6.68
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.53,
+        "Población Económicamente Activa masculina":71.1,
+        "Población Económicamente Activa femenina":28.9,
+        "Población Ocupada":93.88,
+        "Población Ocupada masculina":70.07,
+        "Población Ocupada femenina":29.93,
+        "Población Desocupada":6.12,
+        "Derechohabiencia":68.75
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":488,
+        "Ocupación por Vivienda":3.92,
+        "Viviendas con Electricidad":97.71,
+        "Viviendas con Agua":95.85,
+        "Viviendas con Drenaje":96.26,
+        "Viviendas con Televisión":95.83,
+        "Viviendas con Automóvil":32.82,
+        "Viviendas con Computadora":15.15
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":40,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":52.5,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":15,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":12.5,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":5,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":5
+      }
+    }
+  }
+}]

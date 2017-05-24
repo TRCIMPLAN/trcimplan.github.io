@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Lucio Blanco",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1727,
+        "Porcentaje de población masculina":46.38,
+        "Porcentaje de población femenina":53.62,
+        "Porcentaje de población de 0 a 14 años":19.69,
+        "Porcentaje de población de 15 a 64 años":65.49,
+        "Porcentaje de población de 65 y más años":14.82,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.7,
+        "Porcentaje de población con discapacidad":8.52
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.15,
+        "Población Económicamente Activa masculina":56.61,
+        "Población Económicamente Activa femenina":43.39,
+        "Población Ocupada":95.97,
+        "Población Ocupada masculina":56.2,
+        "Población Ocupada femenina":43.8,
+        "Población Desocupada":4.03,
+        "Derechohabiencia":70.41
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":489,
+        "Ocupación por Vivienda":3.53,
+        "Viviendas con Electricidad":99.8,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.8,
+        "Viviendas con Televisión":98.16,
+        "Viviendas con Automóvil":44.83,
+        "Viviendas con Computadora":36.27
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":77,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":24.68,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":23.38,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":18.18,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":16.88,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":5.19
+      }
+    }
+  }
+}]

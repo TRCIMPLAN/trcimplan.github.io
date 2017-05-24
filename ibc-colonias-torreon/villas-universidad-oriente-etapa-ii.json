@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Villas Universidad Oriente Etapa II",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":176,
+        "Porcentaje de población masculina":51.14,
+        "Porcentaje de población femenina":48.86,
+        "Porcentaje de población de 0 a 14 años":32.95,
+        "Porcentaje de población de 15 a 64 años":66.48,
+        "Porcentaje de población de 65 y más años":0.57,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.71,
+        "Porcentaje de población con discapacidad":2.81
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":68.6,
+        "Población Económicamente Activa masculina":68.67,
+        "Población Económicamente Activa femenina":31.33,
+        "Población Ocupada":85.03,
+        "Población Ocupada masculina":68.06,
+        "Población Ocupada femenina":31.94,
+        "Población Desocupada":14.97,
+        "Derechohabiencia":90.34
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":53,
+        "Ocupación por Vivienda":3.32,
+        "Viviendas con Electricidad":98.11,
+        "Viviendas con Agua":98.11,
+        "Viviendas con Drenaje":98.11,
+        "Viviendas con Televisión":98.11,
+        "Viviendas con Automóvil":67.92,
+        "Viviendas con Computadora":30.19
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":11,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":63.64,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":18.18,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":18.18
+      }
+    }
+  }
+}]

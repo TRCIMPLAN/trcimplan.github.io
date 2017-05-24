@@ -1,0 +1,30 @@
+[{
+  "Nombre":"Ferropuerto Laguna",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":0
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":23,
+        "Primer actividad nombre":"Industria Manufacturera",
+        "Primer actividad porcentaje":52.17,
+        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad porcentaje":21.74,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":13.04,
+        "Cuarta actividad nombre":"Comercio Menudeo",
+        "Cuarta actividad porcentaje":4.35,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":4.35
+      }
+    }
+  }
+}]

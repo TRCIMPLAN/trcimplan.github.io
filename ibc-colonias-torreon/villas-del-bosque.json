@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Villas del Bosque",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3077,
+        "Porcentaje de población masculina":48.52,
+        "Porcentaje de población femenina":51.48,
+        "Porcentaje de población de 0 a 14 años":36.17,
+        "Porcentaje de población de 15 a 64 años":62.59,
+        "Porcentaje de población de 65 y más años":0.91,
+        "Porcentaje de población no especificada":0.33,
+        "Fecundidad promedio":1.82,
+        "Porcentaje de población con discapacidad":2.21
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":59.33,
+        "Población Económicamente Activa masculina":64.82,
+        "Población Económicamente Activa femenina":35.18,
+        "Población Ocupada":93.19,
+        "Población Ocupada masculina":64.27,
+        "Población Ocupada femenina":35.73,
+        "Población Desocupada":6.81,
+        "Derechohabiencia":74.39
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":840,
+        "Ocupación por Vivienda":3.66,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.64,
+        "Viviendas con Drenaje":99.88,
+        "Viviendas con Televisión":97.98,
+        "Viviendas con Automóvil":41.71,
+        "Viviendas con Computadora":22.6
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":70,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":55.71,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":17.14,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":17.14,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":4.29,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":2.86
+      }
+    }
+  }
+}]

@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Quintas La Perla",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":212,
+        "Porcentaje de población masculina":48.08,
+        "Porcentaje de población femenina":51.92,
+        "Porcentaje de población de 0 a 14 años":35.44,
+        "Porcentaje de población de 15 a 64 años":63.56,
+        "Porcentaje de población de 65 y más años":0.51,
+        "Porcentaje de población no especificada":0.49,
+        "Fecundidad promedio":1.22,
+        "Porcentaje de población con discapacidad":1.45
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":74.02,
+        "Población Económicamente Activa masculina":56.95,
+        "Población Económicamente Activa femenina":43.05,
+        "Población Ocupada":99.91,
+        "Población Ocupada masculina":56.92,
+        "Población Ocupada femenina":43.08,
+        "Población Desocupada":0.09,
+        "Derechohabiencia":89.66
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":70,
+        "Ocupación por Vivienda":3.03,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":93.33,
+        "Viviendas con Automóvil":84,
+        "Viviendas con Computadora":53.57
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

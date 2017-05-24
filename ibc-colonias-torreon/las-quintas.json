@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Las Quintas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":535,
+        "Porcentaje de población masculina":46.73,
+        "Porcentaje de población femenina":53.27,
+        "Porcentaje de población de 0 a 14 años":27.66,
+        "Porcentaje de población de 15 a 64 años":66.73,
+        "Porcentaje de población de 65 y más años":1.68,
+        "Porcentaje de población no especificada":3.93,
+        "Fecundidad promedio":1.49,
+        "Porcentaje de población con discapacidad":0.99
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.87,
+        "Población Económicamente Activa masculina":57.5,
+        "Población Económicamente Activa femenina":42.5,
+        "Población Ocupada":98.56,
+        "Población Ocupada masculina":56.89,
+        "Población Ocupada femenina":43.11,
+        "Población Desocupada":1.44,
+        "Derechohabiencia":85.79
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":124,
+        "Ocupación por Vivienda":4.31,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.19,
+        "Viviendas con Drenaje":97.58,
+        "Viviendas con Televisión":98.39,
+        "Viviendas con Automóvil":97.58,
+        "Viviendas con Computadora":95.16
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

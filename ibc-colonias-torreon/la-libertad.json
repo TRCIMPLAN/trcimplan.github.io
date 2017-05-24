@@ -1,0 +1,49 @@
+[{
+  "Nombre":"La Libertad",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":427,
+        "Porcentaje de población masculina":50.58,
+        "Porcentaje de población femenina":49.42,
+        "Porcentaje de población de 0 a 14 años":30.08,
+        "Porcentaje de población de 15 a 64 años":62.18,
+        "Porcentaje de población de 65 y más años":7.74,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.63,
+        "Porcentaje de población con discapacidad":14.8
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.77,
+        "Población Económicamente Activa masculina":72.44,
+        "Población Económicamente Activa femenina":27.56,
+        "Población Ocupada":84.78,
+        "Población Ocupada masculina":72.69,
+        "Población Ocupada femenina":27.31,
+        "Población Desocupada":15.22,
+        "Derechohabiencia":47.58
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":105,
+        "Ocupación por Vivienda":4.07,
+        "Viviendas con Electricidad":98.58,
+        "Viviendas con Agua":91.91,
+        "Viviendas con Drenaje":90.96,
+        "Viviendas con Televisión":97.62,
+        "Viviendas con Automóvil":16.95,
+        "Viviendas con Computadora":12.19
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

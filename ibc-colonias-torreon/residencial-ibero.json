@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Residencial Ibero",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":106,
+        "Porcentaje de población masculina":48.14,
+        "Porcentaje de población femenina":51.86,
+        "Porcentaje de población de 0 a 14 años":36.21,
+        "Porcentaje de población de 15 a 64 años":51.14,
+        "Porcentaje de población de 65 y más años":9.55,
+        "Porcentaje de población no especificada":3.1,
+        "Fecundidad promedio":1.48,
+        "Porcentaje de población con discapacidad":1.51
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.58,
+        "Población Económicamente Activa masculina":67.84,
+        "Población Económicamente Activa femenina":32.16,
+        "Población Ocupada":96.76,
+        "Población Ocupada masculina":66.86,
+        "Población Ocupada femenina":33.14,
+        "Población Desocupada":3.24,
+        "Derechohabiencia":65.56
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":27,
+        "Ocupación por Vivienda":3.93,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":98.3,
+        "Viviendas con Computadora":81.61
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

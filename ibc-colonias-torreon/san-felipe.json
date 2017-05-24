@@ -1,0 +1,57 @@
+[{
+  "Nombre":"San Felipe",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3771,
+        "Porcentaje de población masculina":47.64,
+        "Porcentaje de población femenina":52.36,
+        "Porcentaje de población de 0 a 14 años":27.2,
+        "Porcentaje de población de 15 a 64 años":67.78,
+        "Porcentaje de población de 65 y más años":4.11,
+        "Porcentaje de población no especificada":0.91,
+        "Fecundidad promedio":1.75,
+        "Porcentaje de población con discapacidad":9.09
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.73,
+        "Población Económicamente Activa masculina":57.22,
+        "Población Económicamente Activa femenina":42.78,
+        "Población Ocupada":95.4,
+        "Población Ocupada masculina":56.98,
+        "Población Ocupada femenina":43.02,
+        "Población Desocupada":4.6,
+        "Derechohabiencia":82.2
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1027,
+        "Ocupación por Vivienda":3.67,
+        "Viviendas con Electricidad":99.83,
+        "Viviendas con Agua":98.86,
+        "Viviendas con Drenaje":99.83,
+        "Viviendas con Televisión":99.25,
+        "Viviendas con Automóvil":80.06,
+        "Viviendas con Computadora":66.62
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":144,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":31.94,
+        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad porcentaje":14.58,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":11.11,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":11.11,
+        "Quinta actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Quinta actividad porcentaje":6.94
+      }
+    }
+  }
+}]

@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Ampliación Leandro Rovirosa Wade",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1792,
+        "Porcentaje de población masculina":47.6,
+        "Porcentaje de población femenina":52.4,
+        "Porcentaje de población de 0 a 14 años":31.75,
+        "Porcentaje de población de 15 a 64 años":63.5,
+        "Porcentaje de población de 65 y más años":3.07,
+        "Porcentaje de población no especificada":1.68,
+        "Fecundidad promedio":1.51,
+        "Porcentaje de población con discapacidad":5.36
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.99,
+        "Población Económicamente Activa masculina":55.83,
+        "Población Económicamente Activa femenina":44.17,
+        "Población Ocupada":97.02,
+        "Población Ocupada masculina":56.2,
+        "Población Ocupada femenina":43.8,
+        "Población Desocupada":2.98,
+        "Derechohabiencia":75.84
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":527,
+        "Ocupación por Vivienda":3.4,
+        "Viviendas con Electricidad":99.81,
+        "Viviendas con Agua":98.86,
+        "Viviendas con Drenaje":98.67,
+        "Viviendas con Televisión":99.24,
+        "Viviendas con Automóvil":81.05,
+        "Viviendas con Computadora":68.65
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":7,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":42.86,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":42.86,
+        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad porcentaje":14.29
+      }
+    }
+  }
+}]

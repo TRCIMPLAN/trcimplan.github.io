@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido La Joya",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3054,
+        "Porcentaje de población masculina":47.64,
+        "Porcentaje de población femenina":52.36,
+        "Porcentaje de población de 0 a 14 años":30.8,
+        "Porcentaje de población de 15 a 64 años":62.64,
+        "Porcentaje de población de 65 y más años":6.41,
+        "Porcentaje de población no especificada":0.15,
+        "Fecundidad promedio":2.61,
+        "Porcentaje de población con discapacidad":4.4
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":45.43,
+        "Población Económicamente Activa masculina":73.39,
+        "Población Económicamente Activa femenina":26.61,
+        "Población Ocupada":88.78,
+        "Población Ocupada masculina":72.86,
+        "Población Ocupada femenina":27.14,
+        "Población Desocupada":11.22,
+        "Derechohabiencia":72.44
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":753,
+        "Ocupación por Vivienda":4.06,
+        "Viviendas con Electricidad":98.71,
+        "Viviendas con Agua":97.25,
+        "Viviendas con Drenaje":96.81,
+        "Viviendas con Televisión":95.93,
+        "Viviendas con Automóvil":47.95,
+        "Viviendas con Computadora":48.63
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":66,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":48.48,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":15.15,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":10.61,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":10.61,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":6.06
+      }
+    }
+  }
+}]

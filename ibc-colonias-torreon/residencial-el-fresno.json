@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Residencial El Fresno",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1078,
+        "Porcentaje de población masculina":46.95,
+        "Porcentaje de población femenina":53.05,
+        "Porcentaje de población de 0 a 14 años":25.52,
+        "Porcentaje de población de 15 a 64 años":68.73,
+        "Porcentaje de población de 65 y más años":5.1,
+        "Porcentaje de población no especificada":0.65,
+        "Fecundidad promedio":1.62,
+        "Porcentaje de población con discapacidad":2.91
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.61,
+        "Población Económicamente Activa masculina":57.94,
+        "Población Económicamente Activa femenina":42.06,
+        "Población Ocupada":99.41,
+        "Población Ocupada masculina":57.98,
+        "Población Ocupada femenina":42.02,
+        "Población Desocupada":0.59,
+        "Derechohabiencia":86.11
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":282,
+        "Ocupación por Vivienda":3.82,
+        "Viviendas con Electricidad":99.68,
+        "Viviendas con Agua":99.68,
+        "Viviendas con Drenaje":99.68,
+        "Viviendas con Televisión":99.29,
+        "Viviendas con Automóvil":97.94,
+        "Viviendas con Computadora":92.79
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":303,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":48.51,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":17.49,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":6.93,
+        "Cuarta actividad nombre":"Financieros y Seguros",
+        "Cuarta actividad porcentaje":5.61,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":2.97
+      }
+    }
+  }
+}]

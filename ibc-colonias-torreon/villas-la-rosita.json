@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Villas La Rosita",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":480,
+        "Porcentaje de población masculina":46.67,
+        "Porcentaje de población femenina":53.33,
+        "Porcentaje de población de 0 a 14 años":12.5,
+        "Porcentaje de población de 15 a 64 años":71.25,
+        "Porcentaje de población de 65 y más años":8.75,
+        "Porcentaje de población no especificada":7.5,
+        "Fecundidad promedio":1.51,
+        "Porcentaje de población con discapacidad":3.39
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.09,
+        "Población Económicamente Activa masculina":61.01,
+        "Población Económicamente Activa femenina":38.99,
+        "Población Ocupada":92.65,
+        "Población Ocupada masculina":61.08,
+        "Población Ocupada femenina":38.92,
+        "Población Desocupada":7.35,
+        "Derechohabiencia":73.75
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":128,
+        "Ocupación por Vivienda":3.75,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":97.66,
+        "Viviendas con Automóvil":96.09,
+        "Viviendas con Computadora":88.28
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":20,
+        "Primer actividad nombre":"Financieros y Seguros",
+        "Primer actividad porcentaje":15,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":15,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":10,
+        "Cuarta actividad nombre":"Comercio Menudeo",
+        "Cuarta actividad porcentaje":10,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":10
+      }
+    }
+  }
+}]

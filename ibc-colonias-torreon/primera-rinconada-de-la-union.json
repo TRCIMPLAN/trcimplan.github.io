@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Primera Rinconada de La Unión",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":837,
+        "Porcentaje de población masculina":50.49,
+        "Porcentaje de población femenina":49.51,
+        "Porcentaje de población de 0 a 14 años":27.82,
+        "Porcentaje de población de 15 a 64 años":62.23,
+        "Porcentaje de población de 65 y más años":9.95,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.36,
+        "Porcentaje de población con discapacidad":5.92
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.24,
+        "Población Económicamente Activa masculina":72.42,
+        "Población Económicamente Activa femenina":27.58,
+        "Población Ocupada":94.75,
+        "Población Ocupada masculina":70.97,
+        "Población Ocupada femenina":29.03,
+        "Población Desocupada":5.25,
+        "Derechohabiencia":64.76
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":230,
+        "Ocupación por Vivienda":3.64,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.96,
+        "Viviendas con Drenaje":99.97,
+        "Viviendas con Televisión":98.19,
+        "Viviendas con Automóvil":17.72,
+        "Viviendas con Computadora":16.22
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":12,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":8.33
+      }
+    }
+  }
+}]

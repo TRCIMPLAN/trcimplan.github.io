@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Rincón de La Joya",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":153,
+        "Porcentaje de población masculina":50.32,
+        "Porcentaje de población femenina":49.68,
+        "Porcentaje de población de 0 a 14 años":38.93,
+        "Porcentaje de población de 15 a 64 años":60.37,
+        "Porcentaje de población de 65 y más años":0.68,
+        "Porcentaje de población no especificada":0.02,
+        "Fecundidad promedio":1.94,
+        "Porcentaje de población con discapacidad":4.6
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.7,
+        "Población Económicamente Activa masculina":67.67,
+        "Población Económicamente Activa femenina":32.33,
+        "Población Ocupada":93.15,
+        "Población Ocupada masculina":67.15,
+        "Población Ocupada femenina":32.85,
+        "Población Desocupada":6.85,
+        "Derechohabiencia":64.4
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":44,
+        "Ocupación por Vivienda":3.48,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":34.33,
+        "Viviendas con Computadora":30.39
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":10,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":30,
+        "Tercera actividad nombre":"Inmobiliarios",
+        "Tercera actividad porcentaje":10,
+        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad porcentaje":10
+      }
+    }
+  }
+}]

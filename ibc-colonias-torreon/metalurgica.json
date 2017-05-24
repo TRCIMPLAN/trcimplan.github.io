@@ -1,0 +1,22 @@
+[{
+  "Nombre":"Metalúrgica",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":0
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Industria Manufacturera",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

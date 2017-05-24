@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Residencial Palma Real",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1451,
+        "Porcentaje de población masculina":50.17,
+        "Porcentaje de población femenina":49.83,
+        "Porcentaje de población de 0 a 14 años":32.64,
+        "Porcentaje de población de 15 a 64 años":64.81,
+        "Porcentaje de población de 65 y más años":1.73,
+        "Porcentaje de población no especificada":0.82,
+        "Fecundidad promedio":1.39,
+        "Porcentaje de población con discapacidad":0.46
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":67.96,
+        "Población Económicamente Activa masculina":60.96,
+        "Población Económicamente Activa femenina":39.04,
+        "Población Ocupada":99.12,
+        "Población Ocupada masculina":60.76,
+        "Población Ocupada femenina":39.24,
+        "Población Desocupada":0.88,
+        "Derechohabiencia":86.39
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":451,
+        "Ocupación por Vivienda":3.22,
+        "Viviendas con Electricidad":99.26,
+        "Viviendas con Agua":98.82,
+        "Viviendas con Drenaje":97.93,
+        "Viviendas con Televisión":98.37,
+        "Viviendas con Automóvil":97.21,
+        "Viviendas con Computadora":85.3
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

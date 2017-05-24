@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Las Flores Cooperativa Habitacional",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":159,
+        "Porcentaje de población masculina":45.28,
+        "Porcentaje de población femenina":54.72,
+        "Porcentaje de población de 0 a 14 años":23.9,
+        "Porcentaje de población de 15 a 64 años":69.81,
+        "Porcentaje de población de 65 y más años":6.29,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.88,
+        "Porcentaje de población con discapacidad":5.95
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.47,
+        "Población Económicamente Activa masculina":61.97,
+        "Población Económicamente Activa femenina":38.03,
+        "Población Ocupada":98.57,
+        "Población Ocupada masculina":62.86,
+        "Población Ocupada femenina":37.14,
+        "Población Desocupada":1.43,
+        "Derechohabiencia":71.7
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":41,
+        "Ocupación por Vivienda":3.88,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":87.8,
+        "Viviendas con Computadora":70.73
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

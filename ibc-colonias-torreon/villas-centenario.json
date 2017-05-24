@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Villas Centenario",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":279,
+        "Porcentaje de población masculina":47.82,
+        "Porcentaje de población femenina":52.18,
+        "Porcentaje de población de 0 a 14 años":32.2,
+        "Porcentaje de población de 15 a 64 años":65.25,
+        "Porcentaje de población de 65 y más años":2.53,
+        "Porcentaje de población no especificada":0.02,
+        "Fecundidad promedio":1.66,
+        "Porcentaje de población con discapacidad":1.78
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.92,
+        "Población Económicamente Activa masculina":66.89,
+        "Población Económicamente Activa femenina":33.11,
+        "Población Ocupada":96.56,
+        "Población Ocupada masculina":66.13,
+        "Población Ocupada femenina":33.87,
+        "Población Desocupada":3.44,
+        "Derechohabiencia":85.05
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":87,
+        "Ocupación por Vivienda":3.21,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.94,
+        "Viviendas con Automóvil":53.01,
+        "Viviendas con Computadora":44.32
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":13,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":61.54,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":15.38,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":15.38,
+        "Cuarta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Cuarta actividad porcentaje":7.69
+      }
+    }
+  }
+}]

@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Fraccionamiento Las Lomas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":447,
+        "Porcentaje de población masculina":48.55,
+        "Porcentaje de población femenina":51.45,
+        "Porcentaje de población de 0 a 14 años":31.54,
+        "Porcentaje de población de 15 a 64 años":64.43,
+        "Porcentaje de población de 65 y más años":1.34,
+        "Porcentaje de población no especificada":2.69,
+        "Fecundidad promedio":1.39,
+        "Porcentaje de población con discapacidad":1.58
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.49,
+        "Población Económicamente Activa masculina":53.62,
+        "Población Económicamente Activa femenina":46.38,
+        "Población Ocupada":98.03,
+        "Población Ocupada masculina":53.69,
+        "Población Ocupada femenina":46.31,
+        "Población Desocupada":1.97,
+        "Derechohabiencia":87.47
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":135,
+        "Ocupación por Vivienda":3.31,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":96.3,
+        "Viviendas con Computadora":81.48
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad porcentaje":25
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Loma Real",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2079,
+        "Porcentaje de población masculina":49.45,
+        "Porcentaje de población femenina":50.55,
+        "Porcentaje de población de 0 a 14 años":36.59,
+        "Porcentaje de población de 15 a 64 años":60.08,
+        "Porcentaje de población de 65 y más años":1.59,
+        "Porcentaje de población no especificada":1.74,
+        "Fecundidad promedio":1.9,
+        "Porcentaje de población con discapacidad":1.48
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.65,
+        "Población Económicamente Activa masculina":66.02,
+        "Población Económicamente Activa femenina":33.98,
+        "Población Ocupada":87.29,
+        "Población Ocupada masculina":66.33,
+        "Población Ocupada femenina":33.67,
+        "Población Desocupada":12.71,
+        "Derechohabiencia":71.79
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":549,
+        "Ocupación por Vivienda":3.79,
+        "Viviendas con Electricidad":99.92,
+        "Viviendas con Agua":99.92,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.2,
+        "Viviendas con Automóvil":44.35,
+        "Viviendas con Computadora":31.41
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":79,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":48.1,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":20.25,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":13.92,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":5.06,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":3.8
+      }
+    }
+  }
+}]

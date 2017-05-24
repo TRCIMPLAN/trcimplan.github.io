@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Los Periodistas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":380,
+        "Porcentaje de población masculina":50.26,
+        "Porcentaje de población femenina":49.74,
+        "Porcentaje de población de 0 a 14 años":40.79,
+        "Porcentaje de población de 15 a 64 años":58.68,
+        "Porcentaje de población de 65 y más años":0.53,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.91,
+        "Porcentaje de población con discapacidad":5.24
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.59,
+        "Población Económicamente Activa masculina":75,
+        "Población Económicamente Activa femenina":25,
+        "Población Ocupada":88.82,
+        "Población Ocupada masculina":73.91,
+        "Población Ocupada femenina":26.09,
+        "Población Desocupada":11.18,
+        "Derechohabiencia":84.21
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":96,
+        "Ocupación por Vivienda":3.96,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.96,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.96,
+        "Viviendas con Automóvil":50.51,
+        "Viviendas con Computadora":30.36
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":11,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":45.45,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":27.27,
+        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad porcentaje":9.09,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":9.09,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":9.09
+      }
+    }
+  }
+}]

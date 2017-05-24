@@ -1,0 +1,50 @@
+[{
+  "Nombre":"Ciudad Industrial",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2,
+        "Porcentaje de población masculina":42.38,
+        "Porcentaje de población femenina":57.62,
+        "Porcentaje de población de 0 a 14 años":27.34,
+        "Porcentaje de población de 15 a 64 años":64.45,
+        "Porcentaje de población de 65 y más años":5.78,
+        "Porcentaje de población no especificada":2.43,
+        "Fecundidad promedio":1.67,
+        "Porcentaje de población con discapacidad":10.17
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":59.58,
+        "Población Económicamente Activa masculina":53.57,
+        "Población Económicamente Activa femenina":46.43,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":53.57,
+        "Población Ocupada femenina":46.43,
+        "Población Desocupada":0,
+        "Derechohabiencia":93.22
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":266,
+        "Primer actividad nombre":"Industria Manufacturera",
+        "Primer actividad porcentaje":30.45,
+        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad porcentaje":26.32,
+        "Tercera actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Tercera actividad porcentaje":11.28,
+        "Cuarta actividad nombre":"Comercio Menudeo",
+        "Cuarta actividad porcentaje":10.53,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":7.89
+      }
+    }
+  }
+}]

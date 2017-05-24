@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido La Libertad",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":289,
+        "Porcentaje de población masculina":49.94,
+        "Porcentaje de población femenina":50.06,
+        "Porcentaje de población de 0 a 14 años":27.21,
+        "Porcentaje de población de 15 a 64 años":65.52,
+        "Porcentaje de población de 65 y más años":7.19,
+        "Porcentaje de población no especificada":0.08,
+        "Fecundidad promedio":2.5,
+        "Porcentaje de población con discapacidad":7.9
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.99,
+        "Población Económicamente Activa masculina":71.98,
+        "Población Económicamente Activa femenina":28.02,
+        "Población Ocupada":95.39,
+        "Población Ocupada masculina":71.76,
+        "Población Ocupada femenina":28.24,
+        "Población Desocupada":4.61,
+        "Derechohabiencia":68.07
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":70,
+        "Ocupación por Vivienda":4.13,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.28,
+        "Viviendas con Drenaje":99.77,
+        "Viviendas con Televisión":96.85,
+        "Viviendas con Automóvil":48.2,
+        "Viviendas con Computadora":17.89
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":7,
+        "Primer actividad nombre":"Educativos",
+        "Primer actividad porcentaje":28.57,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":28.57,
+        "Tercera actividad nombre":"Inmobiliarios",
+        "Tercera actividad porcentaje":14.29,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":14.29,
+        "Quinta actividad nombre":"Comercio Menudeo",
+        "Quinta actividad porcentaje":14.29
+      }
+    }
+  }
+}]

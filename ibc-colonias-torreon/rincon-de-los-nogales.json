@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Rincón de Los Nogales",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2017,
+        "Porcentaje de población masculina":50.47,
+        "Porcentaje de población femenina":49.53,
+        "Porcentaje de población de 0 a 14 años":36.79,
+        "Porcentaje de población de 15 a 64 años":54.78,
+        "Porcentaje de población de 65 y más años":3.37,
+        "Porcentaje de población no especificada":5.06,
+        "Fecundidad promedio":1.76,
+        "Porcentaje de población con discapacidad":2.04
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":59.79,
+        "Población Económicamente Activa masculina":64.52,
+        "Población Económicamente Activa femenina":35.48,
+        "Población Ocupada":91.11,
+        "Población Ocupada masculina":64.63,
+        "Población Ocupada femenina":35.37,
+        "Población Desocupada":8.89,
+        "Derechohabiencia":78.19
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":495,
+        "Ocupación por Vivienda":4.07,
+        "Viviendas con Electricidad":99.8,
+        "Viviendas con Agua":99.8,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.39,
+        "Viviendas con Automóvil":60.4,
+        "Viviendas con Computadora":37.78
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":41,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":41.46,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":21.95,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":14.63,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":9.76,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":7.32
+      }
+    }
+  }
+}]

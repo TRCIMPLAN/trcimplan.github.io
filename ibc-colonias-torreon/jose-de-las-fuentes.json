@@ -1,0 +1,55 @@
+[{
+  "Nombre":"José de Las Fuentes",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3,
+        "Porcentaje de población masculina":45.45,
+        "Porcentaje de población femenina":54.55,
+        "Porcentaje de población de 0 a 14 años":26.06,
+        "Porcentaje de población de 15 a 64 años":70.3,
+        "Porcentaje de población de 65 y más años":3.64,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.82,
+        "Porcentaje de población con discapacidad":3.64
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.57,
+        "Población Económicamente Activa masculina":52.44,
+        "Población Económicamente Activa femenina":47.56,
+        "Población Ocupada":94.89,
+        "Población Ocupada masculina":51.28,
+        "Población Ocupada femenina":48.72,
+        "Población Desocupada":5.11,
+        "Derechohabiencia":88.48
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1,
+        "Ocupación por Vivienda":3,
+        "Viviendas con Electricidad":98.18,
+        "Viviendas con Agua":98.18,
+        "Viviendas con Drenaje":98.18,
+        "Viviendas con Televisión":98.18,
+        "Viviendas con Automóvil":81.82,
+        "Viviendas con Computadora":40
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":20,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":20
+      }
+    }
+  }
+}]

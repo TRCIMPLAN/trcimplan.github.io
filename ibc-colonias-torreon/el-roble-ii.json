@@ -1,0 +1,57 @@
+[{
+  "Nombre":"El Roble II",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":565,
+        "Porcentaje de población masculina":45.31,
+        "Porcentaje de población femenina":54.69,
+        "Porcentaje de población de 0 a 14 años":21.24,
+        "Porcentaje de población de 15 a 64 años":65.49,
+        "Porcentaje de población de 65 y más años":7.43,
+        "Porcentaje de población no especificada":5.84,
+        "Fecundidad promedio":1.84,
+        "Porcentaje de población con discapacidad":3.92
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.86,
+        "Población Económicamente Activa masculina":57.98,
+        "Población Económicamente Activa femenina":42.02,
+        "Población Ocupada":96.84,
+        "Población Ocupada masculina":59.29,
+        "Población Ocupada femenina":40.71,
+        "Población Desocupada":3.16,
+        "Derechohabiencia":72.92
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":149,
+        "Ocupación por Vivienda":3.79,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":97.99,
+        "Viviendas con Drenaje":97.32,
+        "Viviendas con Televisión":97.99,
+        "Viviendas con Automóvil":75.17,
+        "Viviendas con Computadora":57.3
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":28,
+        "Primer actividad nombre":"Gubernamentales",
+        "Primer actividad porcentaje":53.57,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":17.86,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":10.71,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":7.14,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":7.14
+      }
+    }
+  }
+}]

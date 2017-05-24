@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Villas Saltillo 400 - Palmas Aeropuerto",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":395,
+        "Porcentaje de población masculina":51.14,
+        "Porcentaje de población femenina":48.86,
+        "Porcentaje de población de 0 a 14 años":25.32,
+        "Porcentaje de población de 15 a 64 años":66.58,
+        "Porcentaje de población de 65 y más años":2.78,
+        "Porcentaje de población no especificada":5.32,
+        "Fecundidad promedio":1.57,
+        "Porcentaje de población con discapacidad":1.27
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.45,
+        "Población Económicamente Activa masculina":60.57,
+        "Población Económicamente Activa femenina":39.43,
+        "Población Ocupada":91.36,
+        "Población Ocupada masculina":60.25,
+        "Población Ocupada femenina":39.75,
+        "Población Desocupada":8.64,
+        "Derechohabiencia":79.24
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":102,
+        "Ocupación por Vivienda":3.87,
+        "Viviendas con Electricidad":99.02,
+        "Viviendas con Agua":99.02,
+        "Viviendas con Drenaje":99.02,
+        "Viviendas con Televisión":99.02,
+        "Viviendas con Automóvil":82.35,
+        "Viviendas con Computadora":73.53
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":10,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":30,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":20,
+        "Cuarta actividad nombre":"Financieros y Seguros",
+        "Cuarta actividad porcentaje":10
+      }
+    }
+  }
+}]

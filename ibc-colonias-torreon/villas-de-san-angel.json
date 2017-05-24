@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Villas de San Ángel",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":195,
+        "Porcentaje de población masculina":54.87,
+        "Porcentaje de población femenina":45.13,
+        "Porcentaje de población de 0 a 14 años":36.92,
+        "Porcentaje de población de 15 a 64 años":61.03,
+        "Porcentaje de población de 65 y más años":2.05,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.95,
+        "Porcentaje de población con discapacidad":1.86
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.31,
+        "Población Económicamente Activa masculina":72.15,
+        "Población Económicamente Activa femenina":27.85,
+        "Población Ocupada":82.56,
+        "Población Ocupada masculina":71.64,
+        "Población Ocupada femenina":28.36,
+        "Población Desocupada":17.44,
+        "Derechohabiencia":65.64
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":51,
+        "Ocupación por Vivienda":3.82,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.04,
+        "Viviendas con Drenaje":98.04,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":33.33,
+        "Viviendas con Computadora":9.8
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

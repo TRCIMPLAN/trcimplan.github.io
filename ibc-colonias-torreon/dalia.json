@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Dalia",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":139,
+        "Porcentaje de población masculina":46.76,
+        "Porcentaje de población femenina":53.24,
+        "Porcentaje de población de 0 a 14 años":33.81,
+        "Porcentaje de población de 15 a 64 años":66.19,
+        "Porcentaje de población de 65 y más años":0,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.66,
+        "Porcentaje de población con discapacidad":4.51
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.61,
+        "Población Económicamente Activa masculina":70,
+        "Población Económicamente Activa femenina":30,
+        "Población Ocupada":92.89,
+        "Población Ocupada masculina":67.86,
+        "Población Ocupada femenina":32.14,
+        "Población Desocupada":7.11,
+        "Derechohabiencia":87.77
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":37,
+        "Ocupación por Vivienda":3.76,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":72.97,
+        "Viviendas con Computadora":37.84
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Financieros y Seguros",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":25
+      }
+    }
+  }
+}]

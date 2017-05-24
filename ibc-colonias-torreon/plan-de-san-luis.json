@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Plan de San Luis",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":859,
+        "Porcentaje de población masculina":49.59,
+        "Porcentaje de población femenina":50.41,
+        "Porcentaje de población de 0 a 14 años":24.1,
+        "Porcentaje de población de 15 a 64 años":72.41,
+        "Porcentaje de población de 65 y más años":3.14,
+        "Porcentaje de población no especificada":0.35,
+        "Fecundidad promedio":1.84,
+        "Porcentaje de población con discapacidad":3.93
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.88,
+        "Población Económicamente Activa masculina":62.47,
+        "Población Económicamente Activa femenina":37.53,
+        "Población Ocupada":94.15,
+        "Población Ocupada masculina":61.07,
+        "Población Ocupada femenina":38.93,
+        "Población Desocupada":5.85,
+        "Derechohabiencia":70.66
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":231,
+        "Ocupación por Vivienda":3.72,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.7,
+        "Viviendas con Automóvil":60.61,
+        "Viviendas con Computadora":48.24
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":20,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":10,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":10,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":10
+      }
+    }
+  }
+}]

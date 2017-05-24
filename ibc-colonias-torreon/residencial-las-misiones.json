@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Residencial Las Misiones",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":152,
+        "Porcentaje de población masculina":41.45,
+        "Porcentaje de población femenina":58.55,
+        "Porcentaje de población de 0 a 14 años":15.79,
+        "Porcentaje de población de 15 a 64 años":73.68,
+        "Porcentaje de población de 65 y más años":4.61,
+        "Porcentaje de población no especificada":5.92,
+        "Fecundidad promedio":1.46,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.97,
+        "Población Económicamente Activa masculina":57.63,
+        "Población Económicamente Activa femenina":42.37,
+        "Población Ocupada":98.28,
+        "Población Ocupada masculina":58.62,
+        "Población Ocupada femenina":41.38,
+        "Población Desocupada":1.72,
+        "Derechohabiencia":78.95
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":37,
+        "Ocupación por Vivienda":4.11,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":97.3,
+        "Viviendas con Computadora":81.08
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":56,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":57.14,
+        "Segunda actividad nombre":"Financieros y Seguros",
+        "Segunda actividad porcentaje":14.29,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":10.71,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":7.14,
+        "Quinta actividad nombre":"Inmobiliarios",
+        "Quinta actividad porcentaje":1.79
+      }
+    }
+  }
+}]

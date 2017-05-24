@@ -1,0 +1,50 @@
+[{
+  "Nombre":"Universidad Agraria Antonio Narro",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3,
+        "Porcentaje de población masculina":47.61,
+        "Porcentaje de población femenina":52.39,
+        "Porcentaje de población de 0 a 14 años":27.3,
+        "Porcentaje de población de 15 a 64 años":65.53,
+        "Porcentaje de población de 65 y más años":6.4,
+        "Porcentaje de población no especificada":0.77,
+        "Fecundidad promedio":2.41,
+        "Porcentaje de población con discapacidad":6.23
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.55,
+        "Población Económicamente Activa masculina":67.07,
+        "Población Económicamente Activa femenina":32.93,
+        "Población Ocupada":90.5,
+        "Población Ocupada masculina":65.48,
+        "Población Ocupada femenina":34.52,
+        "Población Desocupada":9.5,
+        "Derechohabiencia":70.48
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":11,
+        "Primer actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Primer actividad porcentaje":63.64,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":9.09,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":9.09,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":9.09,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":9.09
+      }
+    }
+  }
+}]

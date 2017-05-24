@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Las Arboledas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2959,
+        "Porcentaje de población masculina":48.12,
+        "Porcentaje de población femenina":51.88,
+        "Porcentaje de población de 0 a 14 años":32.41,
+        "Porcentaje de población de 15 a 64 años":64.21,
+        "Porcentaje de población de 65 y más años":2.77,
+        "Porcentaje de población no especificada":0.61,
+        "Fecundidad promedio":1.73,
+        "Porcentaje de población con discapacidad":2.31
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.96,
+        "Población Económicamente Activa masculina":58.08,
+        "Población Económicamente Activa femenina":41.92,
+        "Población Ocupada":96.72,
+        "Población Ocupada masculina":57.2,
+        "Población Ocupada femenina":42.8,
+        "Población Desocupada":3.28,
+        "Derechohabiencia":78.95
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":793,
+        "Ocupación por Vivienda":3.73,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.87,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.99,
+        "Viviendas con Automóvil":74,
+        "Viviendas con Computadora":57.38
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":47,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40.43,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":8.51,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":8.51,
+        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad porcentaje":8.51,
+        "Quinta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Quinta actividad porcentaje":8.51
+      }
+    }
+  }
+}]

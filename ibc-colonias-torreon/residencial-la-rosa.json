@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Residencial La Rosa",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":502,
+        "Porcentaje de población masculina":49.2,
+        "Porcentaje de población femenina":50.8,
+        "Porcentaje de población de 0 a 14 años":19.92,
+        "Porcentaje de población de 15 a 64 años":70.92,
+        "Porcentaje de población de 65 y más años":4.98,
+        "Porcentaje de población no especificada":4.18,
+        "Fecundidad promedio":1.55,
+        "Porcentaje de población con discapacidad":1
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.97,
+        "Población Económicamente Activa masculina":59.72,
+        "Población Económicamente Activa femenina":40.28,
+        "Población Ocupada":93.46,
+        "Población Ocupada masculina":58.59,
+        "Población Ocupada femenina":41.41,
+        "Población Desocupada":6.54,
+        "Derechohabiencia":79.88
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":134,
+        "Ocupación por Vivienda":3.75,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.25,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.25,
+        "Viviendas con Automóvil":92.54,
+        "Viviendas con Computadora":87.31
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":23,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":30.43,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":26.09,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":13.04,
+        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad porcentaje":13.04,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":8.7
+      }
+    }
+  }
+}]

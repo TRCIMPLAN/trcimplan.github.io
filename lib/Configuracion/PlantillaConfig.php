@@ -57,7 +57,8 @@ class PlantillaConfig {
     public function __construct() {
         // Vínculos CSS a archivos locales o URLs remotas
         $this->vinculos_css   = array();
-        $this->vinculos_css[] = 'vendor/bootstrap/css/bootstrap.min.css';                                    // Bootstap
+    //~ $this->vinculos_css[] = 'vendor/bootstrap/css/bootstrap.min.css';                                    // Bootstap
+        $this->vinculos_css[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css';     // Bootstap externo
         $this->vinculos_css[] = 'vendor/metisMenu/metisMenu.min.css';                                        // Metis Menu
         $this->vinculos_css[] = 'vendor/datatables-plugins/dataTables.bootstrap.css';                        // DataTables
         $this->vinculos_css[] = 'vendor/morrisjs/morris.css';                                                // MorrisJS
@@ -68,8 +69,10 @@ class PlantillaConfig {
         $this->vinculos_css[] = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css';        // Carto
         // Vínculos Javascript a archivos locales o URLs remotas
         $this->vinculos_js    = array();
-        $this->vinculos_js[]  = 'vendor/jquery/jquery.min.js';                                               // jQuery
-        $this->vinculos_js[]  = 'vendor/bootstrap/js/bootstrap.min.js';                                      // Bootstrap
+    //~ $this->vinculos_js[]  = 'vendor/jquery/jquery.min.js';                                               // jQuery
+    //~ $this->vinculos_js[]  = 'vendor/bootstrap/js/bootstrap.min.js';                                      // Bootstrap
+        $this->vinculos_js[]  = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js';          // jQuery externo
+        $this->vinculos_js[]  = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js';       // Bootstrap externo
         $this->vinculos_js[]  = 'vendor/metisMenu/metisMenu.min.js';                                         // Metis menu
         $this->vinculos_js[]  = 'vendor/datatables/js/jquery.dataTables.min.js';                             // DataTables
         $this->vinculos_js[]  = 'vendor/datatables-plugins/dataTables.bootstrap.min.js';                     // DataTables
@@ -78,6 +81,7 @@ class PlantillaConfig {
         $this->vinculos_js[]  = 'vendor/morrisjs/morris.min.js';                                             // MorrisJS
         $this->vinculos_js[]  = 'dist/js/sb-admin-2.min.js';                                                 // SBadmin2
         $this->vinculos_js[]  = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js';                    // Carto
+        $this->vinculos_js[]  = 'https://www.gstatic.com/charts/loader.js';                                  // Google Charts
         // Mensaje oculto
         $this->mensaje_oculto = <<<FINAL
 <!-- ===================================================================================================

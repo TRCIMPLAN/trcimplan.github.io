@@ -1,0 +1,49 @@
+[{
+  "Nombre":"San José",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":98,
+        "Porcentaje de población masculina":43.88,
+        "Porcentaje de población femenina":56.12,
+        "Porcentaje de población de 0 a 14 años":27.55,
+        "Porcentaje de población de 15 a 64 años":67.35,
+        "Porcentaje de población de 65 y más años":5.1,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.63,
+        "Porcentaje de población con discapacidad":6.15
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50,
+        "Población Económicamente Activa masculina":56.41,
+        "Población Económicamente Activa femenina":43.59,
+        "Población Ocupada":82.31,
+        "Población Ocupada masculina":51.52,
+        "Población Ocupada femenina":48.48,
+        "Población Desocupada":17.69,
+        "Derechohabiencia":75.51
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":27,
+        "Ocupación por Vivienda":3.63,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":96.3,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":66.67,
+        "Viviendas con Computadora":55.56
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

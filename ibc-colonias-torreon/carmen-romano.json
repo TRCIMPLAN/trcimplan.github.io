@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Carmen Romano",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3405,
+        "Porcentaje de población masculina":49.6,
+        "Porcentaje de población femenina":50.4,
+        "Porcentaje de población de 0 a 14 años":28.19,
+        "Porcentaje de población de 15 a 64 años":66.46,
+        "Porcentaje de población de 65 y más años":4.96,
+        "Porcentaje de población no especificada":0.39,
+        "Fecundidad promedio":2.47,
+        "Porcentaje de población con discapacidad":6.59
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.93,
+        "Población Económicamente Activa masculina":66.38,
+        "Población Económicamente Activa femenina":33.62,
+        "Población Ocupada":90.72,
+        "Población Ocupada masculina":65.4,
+        "Población Ocupada femenina":34.6,
+        "Población Desocupada":9.28,
+        "Derechohabiencia":63.73
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":876,
+        "Ocupación por Vivienda":3.89,
+        "Viviendas con Electricidad":99.54,
+        "Viviendas con Agua":99.2,
+        "Viviendas con Drenaje":98.86,
+        "Viviendas con Televisión":97.49,
+        "Viviendas con Automóvil":37.67,
+        "Viviendas con Computadora":24.72
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":99,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":47.47,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":19.19,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":14.14,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":7.07,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":5.05
+      }
+    }
+  }
+}]

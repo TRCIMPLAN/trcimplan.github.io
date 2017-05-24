@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Perla del Oriente",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":559,
+        "Porcentaje de población masculina":49.19,
+        "Porcentaje de población femenina":50.81,
+        "Porcentaje de población de 0 a 14 años":35.96,
+        "Porcentaje de población de 15 a 64 años":62.61,
+        "Porcentaje de población de 65 y más años":0.89,
+        "Porcentaje de población no especificada":0.54,
+        "Fecundidad promedio":1.71,
+        "Porcentaje de población con discapacidad":1.82
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":63.82,
+        "Población Económicamente Activa masculina":63.97,
+        "Población Económicamente Activa femenina":36.03,
+        "Población Ocupada":92.65,
+        "Población Ocupada masculina":62.17,
+        "Población Ocupada femenina":37.83,
+        "Población Desocupada":7.35,
+        "Derechohabiencia":72.81
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":158,
+        "Ocupación por Vivienda":3.54,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.37,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":96.84,
+        "Viviendas con Automóvil":48.21,
+        "Viviendas con Computadora":29.78
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":26,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":42.31,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":23.08,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":19.23,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.69,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":7.69
+      }
+    }
+  }
+}]

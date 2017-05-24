@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Miguel De La Madrid",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1318,
+        "Porcentaje de población masculina":50.91,
+        "Porcentaje de población femenina":49.09,
+        "Porcentaje de población de 0 a 14 años":27.92,
+        "Porcentaje de población de 15 a 64 años":67.22,
+        "Porcentaje de población de 65 y más años":4.63,
+        "Porcentaje de población no especificada":0.23,
+        "Fecundidad promedio":2.47,
+        "Porcentaje de población con discapacidad":6.03
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.02,
+        "Población Económicamente Activa masculina":74.76,
+        "Población Económicamente Activa femenina":25.24,
+        "Población Ocupada":92.86,
+        "Población Ocupada masculina":74.59,
+        "Población Ocupada femenina":25.41,
+        "Población Desocupada":7.14,
+        "Derechohabiencia":67.68
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":301,
+        "Ocupación por Vivienda":4.38,
+        "Viviendas con Electricidad":99.67,
+        "Viviendas con Agua":99.67,
+        "Viviendas con Drenaje":99.34,
+        "Viviendas con Televisión":98.67,
+        "Viviendas con Automóvil":41.89,
+        "Viviendas con Computadora":23.03
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":69,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":34.78,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":24.64,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":15.94,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":10.14,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":5.8
+      }
+    }
+  }
+}]

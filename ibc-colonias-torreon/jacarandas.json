@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Jacarandas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1756,
+        "Porcentaje de población masculina":48.41,
+        "Porcentaje de población femenina":51.59,
+        "Porcentaje de población de 0 a 14 años":21.01,
+        "Porcentaje de población de 15 a 64 años":64.52,
+        "Porcentaje de población de 65 y más años":8.66,
+        "Porcentaje de población no especificada":5.81,
+        "Fecundidad promedio":2.31,
+        "Porcentaje de población con discapacidad":5.13
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.35,
+        "Población Económicamente Activa masculina":59.8,
+        "Población Económicamente Activa femenina":40.2,
+        "Población Ocupada":87.71,
+        "Población Ocupada masculina":58.95,
+        "Población Ocupada femenina":41.05,
+        "Población Desocupada":12.29,
+        "Derechohabiencia":77.96
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":480,
+        "Ocupación por Vivienda":3.66,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.58,
+        "Viviendas con Drenaje":99.38,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":57.5,
+        "Viviendas con Computadora":40.62
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":79,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":56.96,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":12.66,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":12.66,
+        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad porcentaje":5.06,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":3.8
+      }
+    }
+  }
+}]

@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Residencial Frondoso",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":271,
+        "Porcentaje de población masculina":48.71,
+        "Porcentaje de población femenina":51.29,
+        "Porcentaje de población de 0 a 14 años":26.94,
+        "Porcentaje de población de 15 a 64 años":62.36,
+        "Porcentaje de población de 65 y más años":4.06,
+        "Porcentaje de población no especificada":6.64,
+        "Fecundidad promedio":1.49,
+        "Porcentaje de población con discapacidad":1.48
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.04,
+        "Población Económicamente Activa masculina":60.75,
+        "Población Económicamente Activa femenina":39.25,
+        "Población Ocupada":99.06,
+        "Población Ocupada masculina":60.38,
+        "Población Ocupada femenina":39.62,
+        "Población Desocupada":0.94,
+        "Derechohabiencia":82.29
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":65,
+        "Ocupación por Vivienda":4.17,
+        "Viviendas con Electricidad":98.46,
+        "Viviendas con Agua":96.92,
+        "Viviendas con Drenaje":96.92,
+        "Viviendas con Televisión":98.46,
+        "Viviendas con Automóvil":96.92,
+        "Viviendas con Computadora":90.77
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

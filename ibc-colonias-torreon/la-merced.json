@@ -1,0 +1,57 @@
+[{
+  "Nombre":"La Merced",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1032,
+        "Porcentaje de población masculina":50.63,
+        "Porcentaje de población femenina":49.37,
+        "Porcentaje de población de 0 a 14 años":24.45,
+        "Porcentaje de población de 15 a 64 años":67.86,
+        "Porcentaje de población de 65 y más años":6.81,
+        "Porcentaje de población no especificada":0.88,
+        "Fecundidad promedio":2.4,
+        "Porcentaje de población con discapacidad":1.92
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.93,
+        "Población Económicamente Activa masculina":70.92,
+        "Población Económicamente Activa femenina":29.08,
+        "Población Ocupada":96.67,
+        "Población Ocupada masculina":70.62,
+        "Población Ocupada femenina":29.38,
+        "Población Desocupada":3.33,
+        "Derechohabiencia":61.74
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":280,
+        "Ocupación por Vivienda":3.69,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.4,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.03,
+        "Viviendas con Automóvil":51.9,
+        "Viviendas con Computadora":26.9
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":76,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":27.63,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":19.74,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":18.42,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":13.16,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":5.26
+      }
+    }
+  }
+}]

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descripción de lo representa cada Indicador Básico por Colonia.">
+  <meta name="author" content="Dirección de Investigación Estratégica">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Basicos, Colonias, Catalogo, Conceptos">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Catálogo de Conceptos - IMPLAN Torreón">
+  <meta name="twitter:description" content="Descripción de lo representa cada Indicador Básico por Colonia.">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/ibc/catalogo-conceptos.html">
+  <meta name="og:title" content="Catálogo de Conceptos - IMPLAN Torreón">
+  <meta name="og:description" content="Descripción de lo representa cada Indicador Básico por Colonia.">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/ibc/catalogo-conceptos.html">
+  <title>Catálogo de Conceptos - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="https://docs.google.com/document/d/1V4nwGxAd8umhGQDuWCOAJD7pVu-ghVGqcIrJ1xNU5wM/edit?usp=sharing" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+        <div class="encabezado">
+          <h1 itemprop="headline">Catálogo de Conceptos</h1>
+          <div class="encabezado-descripcion" itemprop="description">Descripción de lo representa cada Indicador Básico por Colonia.</div>
+          <div class="encabezado-autor-fecha">
+            <meta itemprop="datePublished" content="2016-12-07T15:40">07/12/2016 15:40
+          </div>
+        </div>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<h3>Demografía</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Concepto</th>
+  <th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Población total</td>
+  <td>Total de personas que residen habitualmente en la colonia.</td>
+</tr>
+<tr>
+  <td>Porcentaje de población masculina</td>
+  <td>Total de hombres que residen habitualmente en la colonia.</td>
+</tr>
+<tr>
+  <td>Porcentaje de población femenina</td>
+  <td>Total de mujeres que residen habitualmente en la colonia.</td>
+</tr>
+<tr>
+  <td>Porcentaje de población de 0 a 14 años</td>
+  <td>Porcentaje de residentes de cero a 14 años de edad.</td>
+</tr>
+<tr>
+  <td>Porcentaje de población de 15 a 64 años</td>
+  <td>Porcentaje de residentes de 15 a 64 años de edad.</td>
+</tr>
+<tr>
+  <td>Porcentaje de población de 65 y más años</td>
+  <td>Porcentaje de residentes de 65 a 130 años de edad.</td>
+</tr>
+<tr>
+  <td>Porcentaje de población no especificada</td>
+  <td>Porcentaje de residentes que no especificó su edad.</td>
+</tr>
+<tr>
+  <td>Fecundidad promedio</td>
+  <td>Total de hijos nacidos vivos, divididos entre la población femenina de 12 y más años.</td>
+</tr>
+<tr>
+  <td>Porcentaje de población con discapacidad</td>
+  <td>Porcentaje de residentes que tienen dificultad para el desempeño y/o realización de tareas cotidianas.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Características Económicas</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Concepto</th>
+  <th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Población Económicamente Activa</td>
+  <td>Porcentaje de residentes de 12 años y más que trabajaron y/o buscaron trabajo.</td>
+</tr>
+<tr>
+  <td>Población Económicamente Activa masculina</td>
+  <td>Porcentaje de hombres residentes de 12 años y más que trabajaron y/o buscaron trabajo.</td>
+</tr>
+<tr>
+  <td>Población Económicamente Activa femenina</td>
+  <td>Porcentaje de mujeres residentes de 12 años y más que trabajaron y/o buscaron trabajo.</td>
+</tr>
+<tr>
+  <td>Población Ocupada</td>
+  <td>Porcentaje de residentes mayores de 12 que tienen trabajo.</td>
+</tr>
+<tr>
+  <td>Población Ocupada Masculina</td>
+  <td>Porcentaje de hombres residentes mayores de 12 que tienen trabajo.</td>
+</tr>
+<tr>
+  <td>Población Ocupada Femenina</td>
+  <td>Porcentaje de mujeres residentes mayores de 12 que tienen trabajo.</td>
+</tr>
+<tr>
+  <td>Población Desocupada</td>
+  <td>Porcentaje de residentes mayores de 12 que no tienen trabajo.</td>
+</tr>
+<tr>
+  <td>Derechohabiencia</td>
+  <td>Porcentaje de residentes que tienen derecho a recibir servicios médicos en alguna institución pública o privada.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Vivienda</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Concepto</th>
+  <th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Hogares</td>
+  <td>Total de hogares en viviendas.</td>
+</tr>
+<tr>
+  <td>Viviendas con Electricidad</td>
+  <td>Porcentaje de viviendas que tienen luz eléctrica.</td>
+</tr>
+<tr>
+  <td>Viviendas con Agua</td>
+  <td>Porcentaje de viviendas que tienen agua dentro de la vivienda o fuera de la vivienda pero dentro del terreno.</td>
+</tr>
+<tr>
+  <td>Viviendas con Drenaje</td>
+  <td>Porcentaje de viviendas que tienen drenaje.</td>
+</tr>
+<tr>
+  <td>Viviendas con Televisión</td>
+  <td>Porcentaje de viviendas que tienen televisor.</td>
+</tr>
+<tr>
+  <td>Viviendas con Automóvil</td>
+  <td>Porcentaje de viviendas que tienen automóvil o camioneta.</td>
+</tr>
+<tr>
+  <td>Viviendas con Computadora</td>
+  <td>Porcentaje de viviendas que tienen computadora.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Unidades Económicas</h3>
+
+<p>Catálogo de SCIAN del 2013</p>
+
+<ul>
+<li>11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza
+
+<ul>
+<li>111 Agricultura</li>
+<li>112 Cría y explotación de animales</li>
+<li>113 Aprovechamiento forestal</li>
+<li>114 Pesca, caza y captura</li>
+<li>115 Servicios relacionados con las actividades agropecuarias y forestales</li>
+</ul></li>
+<li>21 Minería
+
+<ul>
+<li>211 Extracción de petróleo y gas</li>
+<li>212 Minería de minerales metálicos y no metálicos, excepto petróleo y gas</li>
+<li>213 Servicios relacionados con la minería</li>
+</ul></li>
+<li>22 Generación, transmisión y distribución de energía eléctrica, suministro de agua y de gas por ductos al consumidor final
+
+<ul>
+<li>221 Generación, transmisión y distribución de energía eléctrica</li>
+<li>222 Suministro de agua y suministro de gas por ductos al consumidor final</li>
+</ul></li>
+<li>23 Construcción
+
+<ul>
+<li>236 Edificación</li>
+<li>237 Construcción de obras de ingeniería civil</li>
+<li>238 Trabajos especializados para la construcción</li>
+</ul></li>
+<li>31-33 Industrias manufactureras
+
+<ul>
+<li>311 Industria alimentaria</li>
+<li>312 Industria de las bebidas y del tabaco</li>
+<li>313 Fabricación de insumos textiles y acabado de textiles</li>
+<li>314 Fabricación de productos textiles, excepto prendas de vestir</li>
+<li>315 Fabricación de prendas de vestir</li>
+<li>316 Curtido y acabado de cuero y piel, y fabricación de productos de cuero, piel y materiales sucedáneos</li>
+<li>321 Industria de la madera</li>
+<li>322 Industria del papel</li>
+<li>323 Impresión e industrias conexas</li>
+<li>324 Fabricación de productos derivados del petróleo y del carbón</li>
+<li>325 Industria química</li>
+<li>326 Industria del plástico y del hule</li>
+<li>327 Fabricación de productos a base de minerales no metálicos</li>
+<li>331 Industrias metálicas básicas</li>
+<li>332 Fabricación de productos metálicos</li>
+<li>333 Fabricación de maquinaria y equipo</li>
+<li>334 Fabricación de equipo de computación, comunicación, medición y de otros equipos, componentes y accesorios electrónicos</li>
+<li>335 Fabricación de accesorios, aparatos eléctricos y equipo de generación de energía eléctrica</li>
+<li>336 Fabricación de equipo de transporte</li>
+<li>337 Fabricación de muebles, colchones y persianas</li>
+<li>339 Otras industrias manufactureras</li>
+</ul></li>
+<li>43 Comercio al por mayor
+
+<ul>
+<li>431 Comercio al por mayor de abarrotes, alimentos, bebidas, hielo y tabaco</li>
+<li>432 Comercio al por mayor de productos textiles y calzado</li>
+<li>433 Comercio al por mayor de productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca</li>
+<li>434 Comercio al por mayor de materias primas agropecuarias y forestales, para la industria, y materiales de desecho</li>
+<li>435 Comercio al por mayor de maquinaria, equipo y mobiliario para actividades agropecuarias, industriales, de servicios y comerciales, y de otra maquinaria y equipo de uso general</li>
+<li>436 Comercio al por mayor de camiones y de partes y refacciones nuevas para automóviles, camionetas y camiones</li>
+<li>437 Intermediación de comercio al por mayor</li>
+</ul></li>
+<li>46 Comercio al por menor
+
+<ul>
+<li>461 Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco</li>
+<li>462 Comercio al por menor en tiendas de autoservicio y departamentales</li>
+<li>463 Comercio al por menor de productos textiles, bisutería, accesorios de vestir y calzado</li>
+<li>464 Comercio al por menor de artículos para el cuidado de la salud</li>
+<li>465 Comercio al por menor de artículos de papelería, para el esparcimiento y otros artículos de uso personal</li>
+<li>466 Comercio al por menor de enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados</li>
+<li>467 Comercio al por menor de artículos de ferretería, tlapalería y vidrios</li>
+<li>468 Comercio al por menor de vehículos de motor, refacciones, combustibles y lubricantes</li>
+<li>469 Comercio al por menor exclusivamente a través de Internet, y catálogos impresos, televisión y similares</li>
+</ul></li>
+<li>48-49 Transportes, correos y almacenamiento
+
+<ul>
+<li>481 Transporte aéreo</li>
+<li>482 Transporte por ferrocarril</li>
+<li>483 Transporte por agua</li>
+<li>484 Autotransporte de carga</li>
+<li>485 Transporte terrestre de pasajeros, excepto por ferrocarril</li>
+<li>486 Transporte por ductos</li>
+<li>487 Transporte turístico</li>
+<li>488 Servicios relacionados con el transporte</li>
+<li>491 Servicios postales</li>
+<li>492 Servicios de mensajería y paquetería</li>
+<li>493 Servicios de almacenamiento</li>
+</ul></li>
+<li>51 Información en medios masivos
+
+<ul>
+<li>511 Edición de periódicos, revistas, libros, software y otros materiales, y edición de estas publicaciones integrada con la impresión</li>
+<li>512 Industria fílmica y del video, e industria del sonido</li>
+<li>515 Radio y televisión</li>
+<li>517 Telecomunicaciones</li>
+<li>518 Procesamiento electrónico de información, hospedaje y otros servicios relacionados</li>
+<li>519 Otros servicios de información</li>
+</ul></li>
+<li>52 Servicios financieros y de seguros
+
+<ul>
+<li>521 Banca central</li>
+<li>522 Instituciones de intermediación crediticia y financiera no bursátil</li>
+<li>523 Actividades bursátiles, cambiarias y de inversión financiera</li>
+<li>524 Compañías de fianzas, seguros y pensiones</li>
+</ul></li>
+<li>53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles
+
+<ul>
+<li>531 Servicios inmobiliarios</li>
+<li>532 Servicios de alquiler de bienes muebles</li>
+<li>533 Servicios de alquiler de marcas registradas, patentes y franquicias</li>
+</ul></li>
+<li>54 Servicios profesionales, científicos y técnicos
+
+<ul>
+<li>541 Servicios profesionales, científicos y técnicos</li>
+</ul></li>
+<li>55 Corporativos
+
+<ul>
+<li>551 Corporativos</li>
+</ul></li>
+<li>56 Servicios de apoyo a los negocios y manejo de residuos y desechos, y servicios de remediación
+
+<ul>
+<li>561 Servicios de apoyo a los negocios</li>
+<li>562 Manejo de residuos y desechos, y servicios de remediación</li>
+</ul></li>
+<li>61 Servicios educativos
+
+<ul>
+<li>611 Servicios educativos</li>
+</ul></li>
+<li>62 Servicios de salud y de asistencia social
+
+<ul>
+<li>621 Servicios médicos de consulta externa y servicios relacionados</li>
+<li>622 Hospitales</li>
+<li>623 Residencias de asistencia social y para el cuidado de la salud</li>
+<li>624 Otros servicios de asistencia social</li>
+</ul></li>
+<li>71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos
+
+<ul>
+<li>711 Servicios artísticos, culturales y deportivos, y otros servicios relacionados</li>
+<li>712 Museos, sitios históricos, zoológicos y similares</li>
+<li>713 Servicios de entretenimiento en instalaciones recreativas y otros servicios recreativos</li>
+</ul></li>
+<li>72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas
+
+<ul>
+<li>721 Servicios de alojamiento temporal</li>
+<li>722 Servicios de preparación de alimentos y bebidas</li>
+</ul></li>
+<li>81 Otros servicios excepto actividades gubernamentales
+
+<ul>
+<li>811 Servicios de reparación y mantenimiento</li>
+<li>812 Servicios personales</li>
+<li>813 Asociaciones y organizaciones</li>
+<li>814 Hogares con empleados domésticos</li>
+</ul></li>
+<li>93 Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales
+
+<ul>
+<li>931 Actividades legislativas, gubernamentales y de impartición de justicia</li>
+<li>932 Organismos internacionales y extraterritoriales</li>
+</ul></li>
+</ul>
+
+<!-- Contenido: Termina -->
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>

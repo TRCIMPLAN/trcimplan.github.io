@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido San Agustín",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1855,
+        "Porcentaje de población masculina":49.9,
+        "Porcentaje de población femenina":50.1,
+        "Porcentaje de población de 0 a 14 años":29.76,
+        "Porcentaje de población de 15 a 64 años":63.76,
+        "Porcentaje de población de 65 y más años":6.24,
+        "Porcentaje de población no especificada":0.24,
+        "Fecundidad promedio":2.36,
+        "Porcentaje de población con discapacidad":5.28
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49,
+        "Población Económicamente Activa masculina":71.25,
+        "Población Económicamente Activa femenina":28.75,
+        "Población Ocupada":87.98,
+        "Población Ocupada masculina":68.41,
+        "Población Ocupada femenina":31.59,
+        "Población Desocupada":12.02,
+        "Derechohabiencia":70.39
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":425,
+        "Ocupación por Vivienda":4.36,
+        "Viviendas con Electricidad":99.11,
+        "Viviendas con Agua":97.23,
+        "Viviendas con Drenaje":90.86,
+        "Viviendas con Televisión":98.38,
+        "Viviendas con Automóvil":39.59,
+        "Viviendas con Computadora":17.78
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":78,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":30.77,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":12.82,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":10.26,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":6.41
+      }
+    }
+  }
+}]

@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Ex-Hacienda Los Ángeles",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":346,
+        "Porcentaje de población masculina":52.44,
+        "Porcentaje de población femenina":47.56,
+        "Porcentaje de población de 0 a 14 años":21.87,
+        "Porcentaje de población de 15 a 64 años":73.47,
+        "Porcentaje de población de 65 y más años":4.65,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":1.84,
+        "Porcentaje de población con discapacidad":1.52
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.55,
+        "Población Económicamente Activa masculina":56.82,
+        "Población Económicamente Activa femenina":43.18,
+        "Población Ocupada":93.62,
+        "Población Ocupada masculina":57.62,
+        "Población Ocupada femenina":42.38,
+        "Población Desocupada":6.38,
+        "Derechohabiencia":86.57
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":94,
+        "Ocupación por Vivienda":3.68,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.83,
+        "Viviendas con Automóvil":85.92,
+        "Viviendas con Computadora":82.16
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":16,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":43.75,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":37.5,
+        "Tercera actividad nombre":"Inmobiliarios",
+        "Tercera actividad porcentaje":12.5,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":6.25
+      }
+    }
+  }
+}]

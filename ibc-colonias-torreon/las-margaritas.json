@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Las Margaritas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1494,
+        "Porcentaje de población masculina":47.32,
+        "Porcentaje de población femenina":52.68,
+        "Porcentaje de población de 0 a 14 años":14.67,
+        "Porcentaje de población de 15 a 64 años":60.58,
+        "Porcentaje de población de 65 y más años":14.34,
+        "Porcentaje de población no especificada":10.41,
+        "Fecundidad promedio":1.94,
+        "Porcentaje de población con discapacidad":4.51
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.46,
+        "Población Económicamente Activa masculina":56.3,
+        "Población Económicamente Activa femenina":43.7,
+        "Población Ocupada":92.99,
+        "Población Ocupada masculina":56.48,
+        "Población Ocupada femenina":43.52,
+        "Población Desocupada":7.01,
+        "Derechohabiencia":68.94
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":398,
+        "Ocupación por Vivienda":3.75,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.5,
+        "Viviendas con Televisión":98.74,
+        "Viviendas con Automóvil":88.6,
+        "Viviendas con Computadora":76.69
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":81,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":25.93,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":18.52,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":9.88,
+        "Cuarta actividad nombre":"Salud",
+        "Cuarta actividad porcentaje":7.41,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":7.41
+      }
+    }
+  }
+}]

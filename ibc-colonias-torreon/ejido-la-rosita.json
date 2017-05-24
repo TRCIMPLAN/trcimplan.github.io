@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido La Rosita",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":603,
+        "Porcentaje de población masculina":49.5,
+        "Porcentaje de población femenina":50.5,
+        "Porcentaje de población de 0 a 14 años":33.27,
+        "Porcentaje de población de 15 a 64 años":60.83,
+        "Porcentaje de población de 65 y más años":5.88,
+        "Porcentaje de población no especificada":0.02,
+        "Fecundidad promedio":2.46,
+        "Porcentaje de población con discapacidad":6.02
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.01,
+        "Población Económicamente Activa masculina":78.63,
+        "Población Económicamente Activa femenina":21.37,
+        "Población Ocupada":82.6,
+        "Población Ocupada masculina":75.87,
+        "Población Ocupada femenina":24.13,
+        "Población Desocupada":17.4,
+        "Derechohabiencia":57.21
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":149,
+        "Ocupación por Vivienda":4.05,
+        "Viviendas con Electricidad":99.35,
+        "Viviendas con Agua":92.61,
+        "Viviendas con Drenaje":85.85,
+        "Viviendas con Televisión":94.5,
+        "Viviendas con Automóvil":34.39,
+        "Viviendas con Computadora":15.08
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":15,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":20,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":13.33,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":6.67
+      }
+    }
+  }
+}]

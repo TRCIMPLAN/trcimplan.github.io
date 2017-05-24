@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Martínez Adame",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":638,
+        "Porcentaje de población masculina":47.64,
+        "Porcentaje de población femenina":52.36,
+        "Porcentaje de población de 0 a 14 años":21.62,
+        "Porcentaje de población de 15 a 64 años":64.19,
+        "Porcentaje de población de 65 y más años":14.19,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.21,
+        "Porcentaje de población con discapacidad":11.53
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.23,
+        "Población Económicamente Activa masculina":57.99,
+        "Población Económicamente Activa femenina":42.01,
+        "Población Ocupada":88.42,
+        "Población Ocupada masculina":57.6,
+        "Población Ocupada femenina":42.4,
+        "Población Desocupada":11.58,
+        "Derechohabiencia":59.15
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":186,
+        "Ocupación por Vivienda":3.43,
+        "Viviendas con Electricidad":99.53,
+        "Viviendas con Agua":92.52,
+        "Viviendas con Drenaje":99.53,
+        "Viviendas con Televisión":96.3,
+        "Viviendas con Automóvil":32.29,
+        "Viviendas con Computadora":25.56
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":39,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":28.21,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":10.26,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":10.26,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":5.13
+      }
+    }
+  }
+}]

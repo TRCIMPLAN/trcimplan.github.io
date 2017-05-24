@@ -1,0 +1,57 @@
+[{
+  "Nombre":"San Eduardo",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":139,
+        "Porcentaje de población masculina":49.64,
+        "Porcentaje de población femenina":50.36,
+        "Porcentaje de población de 0 a 14 años":39.57,
+        "Porcentaje de población de 15 a 64 años":58.99,
+        "Porcentaje de población de 65 y más años":1.44,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.19,
+        "Porcentaje de población con discapacidad":3.07
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":61.96,
+        "Población Económicamente Activa masculina":64.91,
+        "Población Económicamente Activa femenina":35.09,
+        "Población Ocupada":94.46,
+        "Población Ocupada masculina":62.96,
+        "Población Ocupada femenina":37.04,
+        "Población Desocupada":5.54,
+        "Derechohabiencia":79.14
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":36,
+        "Ocupación por Vivienda":3.86,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":69.44,
+        "Viviendas con Computadora":38.89
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":14,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":21.43,
+        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad porcentaje":14.29,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":14.29,
+        "Cuarta actividad nombre":"Inmobiliarios",
+        "Cuarta actividad porcentaje":7.14,
+        "Quinta actividad nombre":"Financieros y Seguros",
+        "Quinta actividad porcentaje":7.14
+      }
+    }
+  }
+}]

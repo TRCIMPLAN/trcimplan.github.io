@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Residencial Santiago",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":348,
+        "Porcentaje de población masculina":50.57,
+        "Porcentaje de población femenina":49.43,
+        "Porcentaje de población de 0 a 14 años":34.77,
+        "Porcentaje de población de 15 a 64 años":61.78,
+        "Porcentaje de población de 65 y más años":2.59,
+        "Porcentaje de población no especificada":0.86,
+        "Fecundidad promedio":2.08,
+        "Porcentaje de población con discapacidad":2.76
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.14,
+        "Población Económicamente Activa masculina":70.2,
+        "Población Económicamente Activa femenina":29.8,
+        "Población Ocupada":96.58,
+        "Población Ocupada masculina":71.23,
+        "Población Ocupada femenina":28.77,
+        "Población Desocupada":3.42,
+        "Derechohabiencia":83.33
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":104,
+        "Ocupación por Vivienda":3.35,
+        "Viviendas con Electricidad":99.04,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.04,
+        "Viviendas con Televisión":96.15,
+        "Viviendas con Automóvil":50.18,
+        "Viviendas con Computadora":35.73
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Educativos",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":50
+      }
+    }
+  }
+}]

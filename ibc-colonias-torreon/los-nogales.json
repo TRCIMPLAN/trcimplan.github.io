@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Los Nogales",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":697,
+        "Porcentaje de población masculina":47.2,
+        "Porcentaje de población femenina":52.8,
+        "Porcentaje de población de 0 a 14 años":14.35,
+        "Porcentaje de población de 15 a 64 años":58.97,
+        "Porcentaje de población de 65 y más años":15.06,
+        "Porcentaje de población no especificada":11.62,
+        "Fecundidad promedio":2.12,
+        "Porcentaje de población con discapacidad":4.68
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":48.97,
+        "Población Económicamente Activa masculina":59.06,
+        "Población Económicamente Activa femenina":40.94,
+        "Población Ocupada":93.52,
+        "Población Ocupada masculina":58.83,
+        "Población Ocupada femenina":41.17,
+        "Población Desocupada":6.48,
+        "Derechohabiencia":73.03
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":192,
+        "Ocupación por Vivienda":3.63,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.92,
+        "Viviendas con Drenaje":99.92,
+        "Viviendas con Televisión":99.91,
+        "Viviendas con Automóvil":87.24,
+        "Viviendas con Computadora":69.85
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":60,
+        "Segunda actividad nombre":"Salud",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Tercera actividad porcentaje":20
+      }
+    }
+  }
+}]

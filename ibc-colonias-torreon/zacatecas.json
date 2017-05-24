@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Zacatecas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":311,
+        "Porcentaje de población masculina":47.59,
+        "Porcentaje de población femenina":52.41,
+        "Porcentaje de población de 0 a 14 años":22.9,
+        "Porcentaje de población de 15 a 64 años":67.78,
+        "Porcentaje de población de 65 y más años":8.29,
+        "Porcentaje de población no especificada":1.03,
+        "Fecundidad promedio":2.62,
+        "Porcentaje de población con discapacidad":3.68
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":45.95,
+        "Población Económicamente Activa masculina":73.09,
+        "Población Económicamente Activa femenina":26.91,
+        "Población Ocupada":90.9,
+        "Población Ocupada masculina":73.31,
+        "Población Ocupada femenina":26.69,
+        "Población Desocupada":9.1,
+        "Derechohabiencia":71.7
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":85,
+        "Ocupación por Vivienda":3.66,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":98.82,
+        "Viviendas con Televisión":98.82,
+        "Viviendas con Automóvil":19.82,
+        "Viviendas con Computadora":11.06
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":16.67
+      }
+    }
+  }
+}]

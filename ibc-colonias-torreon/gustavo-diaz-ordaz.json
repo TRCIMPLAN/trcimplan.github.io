@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Gustavo Díaz Ordaz",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":505,
+        "Porcentaje de población masculina":49.06,
+        "Porcentaje de población femenina":50.94,
+        "Porcentaje de población de 0 a 14 años":22.55,
+        "Porcentaje de población de 15 a 64 años":63.7,
+        "Porcentaje de población de 65 y más años":11.91,
+        "Porcentaje de población no especificada":1.84,
+        "Fecundidad promedio":2.57,
+        "Porcentaje de población con discapacidad":8.81
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.06,
+        "Población Económicamente Activa masculina":68.1,
+        "Población Económicamente Activa femenina":31.9,
+        "Población Ocupada":88.7,
+        "Población Ocupada masculina":67.32,
+        "Población Ocupada femenina":32.68,
+        "Población Desocupada":11.3,
+        "Derechohabiencia":65.64
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":134,
+        "Ocupación por Vivienda":3.77,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.57,
+        "Viviendas con Televisión":99.55,
+        "Viviendas con Automóvil":53.62,
+        "Viviendas con Computadora":37.42
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":100,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":41,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":27,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":12,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":5,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":5
+      }
+    }
+  }
+}]

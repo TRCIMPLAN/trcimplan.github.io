@@ -1,0 +1,30 @@
+[{
+  "Nombre":"Luis Horacio Salinas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":0
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":44,
+        "Primer actividad nombre":"Comercio Mayoreo",
+        "Primer actividad porcentaje":34.09,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":18.18,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":15.91,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":9.09,
+        "Quinta actividad nombre":"Financieros y Seguros",
+        "Quinta actividad porcentaje":4.55
+      }
+    }
+  }
+}]

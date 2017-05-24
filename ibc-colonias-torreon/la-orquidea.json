@@ -1,0 +1,49 @@
+[{
+  "Nombre":"La Orquídea",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":77,
+        "Porcentaje de población masculina":47.81,
+        "Porcentaje de población femenina":52.19,
+        "Porcentaje de población de 0 a 14 años":24.22,
+        "Porcentaje de población de 15 a 64 años":66.28,
+        "Porcentaje de población de 65 y más años":9.47,
+        "Porcentaje de población no especificada":0.03,
+        "Fecundidad promedio":3.03,
+        "Porcentaje de población con discapacidad":19.54
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.29,
+        "Población Económicamente Activa masculina":65.05,
+        "Población Económicamente Activa femenina":34.95,
+        "Población Ocupada":96.65,
+        "Población Ocupada masculina":63.93,
+        "Población Ocupada femenina":36.07,
+        "Población Desocupada":3.35,
+        "Derechohabiencia":58.44
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":22,
+        "Ocupación por Vivienda":3.5,
+        "Viviendas con Electricidad":99.53,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":94.93,
+        "Viviendas con Automóvil":72.47,
+        "Viviendas con Computadora":17.97
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

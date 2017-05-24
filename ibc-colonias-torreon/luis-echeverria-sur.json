@@ -1,0 +1,43 @@
+[{
+  "Nombre":"Luis Echeverría Sur",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":5,
+        "Porcentaje de población masculina":60,
+        "Porcentaje de población femenina":40,
+        "Porcentaje de población de 0 a 14 años":0,
+        "Porcentaje de población de 15 a 64 años":60,
+        "Porcentaje de población de 65 y más años":40,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":4.5,
+        "Porcentaje de población con discapacidad":7.81
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":0,
+        "Derechohabiencia":60
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":3,
+        "Ocupación por Vivienda":1.67,
+        "Viviendas con Electricidad":99.5,
+        "Viviendas con Agua":99.34,
+        "Viviendas con Drenaje":99.17,
+        "Viviendas con Televisión":97.52,
+        "Viviendas con Automóvil":0,
+        "Viviendas con Computadora":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Industria Manufacturera",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido San Luis",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1222,
+        "Porcentaje de población masculina":47.96,
+        "Porcentaje de población femenina":52.04,
+        "Porcentaje de población de 0 a 14 años":28.02,
+        "Porcentaje de población de 15 a 64 años":65.44,
+        "Porcentaje de población de 65 y más años":6.03,
+        "Porcentaje de población no especificada":0.51,
+        "Fecundidad promedio":2.47,
+        "Porcentaje de población con discapacidad":6.65
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.67,
+        "Población Económicamente Activa masculina":68.83,
+        "Población Económicamente Activa femenina":31.17,
+        "Población Ocupada":89.43,
+        "Población Ocupada masculina":67.01,
+        "Población Ocupada femenina":32.99,
+        "Población Desocupada":10.57,
+        "Derechohabiencia":68.89
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":300,
+        "Ocupación por Vivienda":4.07,
+        "Viviendas con Electricidad":99.71,
+        "Viviendas con Agua":97.93,
+        "Viviendas con Drenaje":97.97,
+        "Viviendas con Televisión":97.86,
+        "Viviendas con Automóvil":44.5,
+        "Viviendas con Computadora":23.2
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":85,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":31.76,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":24.71,
+        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad porcentaje":9.41,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":9.41,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":7.06
+      }
+    }
+  }
+}]

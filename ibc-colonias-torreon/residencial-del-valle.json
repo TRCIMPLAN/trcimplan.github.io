@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Residencial del Valle",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":345,
+        "Porcentaje de población masculina":45.8,
+        "Porcentaje de población femenina":54.2,
+        "Porcentaje de población de 0 a 14 años":23.77,
+        "Porcentaje de población de 15 a 64 años":72.75,
+        "Porcentaje de población de 65 y más años":3.48,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.65,
+        "Porcentaje de población con discapacidad":3.99
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.41,
+        "Población Económicamente Activa masculina":58.9,
+        "Población Económicamente Activa femenina":41.1,
+        "Población Ocupada":94.98,
+        "Población Ocupada masculina":58.27,
+        "Población Ocupada femenina":41.73,
+        "Población Desocupada":5.02,
+        "Derechohabiencia":84.35
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":96,
+        "Ocupación por Vivienda":3.59,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.96,
+        "Viviendas con Automóvil":87.5,
+        "Viviendas con Computadora":79.17
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":20,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":35,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":15,
+        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad porcentaje":15,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":10,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":10
+      }
+    }
+  }
+}]

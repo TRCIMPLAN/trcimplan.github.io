@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Puerta Real",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":886,
+        "Porcentaje de población masculina":48.75,
+        "Porcentaje de población femenina":51.25,
+        "Porcentaje de población de 0 a 14 años":33.15,
+        "Porcentaje de población de 15 a 64 años":64.8,
+        "Porcentaje de población de 65 y más años":1.93,
+        "Porcentaje de población no especificada":0.12,
+        "Fecundidad promedio":1.29,
+        "Porcentaje de población con discapacidad":1.06
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.83,
+        "Población Económicamente Activa masculina":60.38,
+        "Población Económicamente Activa femenina":39.62,
+        "Población Ocupada":97.96,
+        "Población Ocupada masculina":60.81,
+        "Población Ocupada femenina":39.19,
+        "Población Desocupada":2.04,
+        "Derechohabiencia":86.07
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":275,
+        "Ocupación por Vivienda":3.22,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.89,
+        "Viviendas con Automóvil":96.37,
+        "Viviendas con Computadora":85.38
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":75,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":25
+      }
+    }
+  }
+}]

@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Las Estrellas - El Pensador",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":384,
+        "Porcentaje de población masculina":52.34,
+        "Porcentaje de población femenina":47.66,
+        "Porcentaje de población de 0 a 14 años":36.2,
+        "Porcentaje de población de 15 a 64 años":59.64,
+        "Porcentaje de población de 65 y más años":4.17,
+        "Porcentaje de población no especificada":-0.01,
+        "Fecundidad promedio":3.01,
+        "Porcentaje de población con discapacidad":6.25
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":44.4,
+        "Población Económicamente Activa masculina":71.54,
+        "Población Económicamente Activa femenina":28.46,
+        "Población Ocupada":92.15,
+        "Población Ocupada masculina":69.3,
+        "Población Ocupada femenina":30.7,
+        "Población Desocupada":7.85,
+        "Derechohabiencia":53.65
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":90,
+        "Ocupación por Vivienda":4.27,
+        "Viviendas con Electricidad":97.78,
+        "Viviendas con Agua":96.67,
+        "Viviendas con Drenaje":93.33,
+        "Viviendas con Televisión":91.11,
+        "Viviendas con Automóvil":34.44,
+        "Viviendas con Computadora":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":10,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":20,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":10
+      }
+    }
+  }
+}]

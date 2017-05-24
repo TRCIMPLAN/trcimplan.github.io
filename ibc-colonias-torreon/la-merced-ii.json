@@ -1,0 +1,57 @@
+[{
+  "Nombre":"La Merced II",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":5097,
+        "Porcentaje de población masculina":48.68,
+        "Porcentaje de población femenina":51.32,
+        "Porcentaje de población de 0 a 14 años":22.41,
+        "Porcentaje de población de 15 a 64 años":72.57,
+        "Porcentaje de población de 65 y más años":3.67,
+        "Porcentaje de población no especificada":1.35,
+        "Fecundidad promedio":1.83,
+        "Porcentaje de población con discapacidad":3.88
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.72,
+        "Población Económicamente Activa masculina":60.61,
+        "Población Económicamente Activa femenina":39.39,
+        "Población Ocupada":91.48,
+        "Población Ocupada masculina":60.03,
+        "Población Ocupada femenina":39.97,
+        "Población Desocupada":8.52,
+        "Derechohabiencia":76.67
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1368,
+        "Ocupación por Vivienda":3.73,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.85,
+        "Viviendas con Drenaje":99.93,
+        "Viviendas con Televisión":99.63,
+        "Viviendas con Automóvil":65.94,
+        "Viviendas con Computadora":56.96
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":129,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":43.41,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":16.28,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":15.5,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":4.65,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":4.65
+      }
+    }
+  }
+}]

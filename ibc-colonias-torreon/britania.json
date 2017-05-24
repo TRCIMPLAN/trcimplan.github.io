@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Britania",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":392,
+        "Porcentaje de población masculina":49.49,
+        "Porcentaje de población femenina":50.51,
+        "Porcentaje de población de 0 a 14 años":25.51,
+        "Porcentaje de población de 15 a 64 años":70.15,
+        "Porcentaje de población de 65 y más años":4.34,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.86,
+        "Porcentaje de población con discapacidad":5.4
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.18,
+        "Población Económicamente Activa masculina":58.92,
+        "Población Económicamente Activa femenina":41.08,
+        "Población Ocupada":95.49,
+        "Población Ocupada masculina":58.19,
+        "Población Ocupada femenina":41.81,
+        "Población Desocupada":4.51,
+        "Derechohabiencia":81.38
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":117,
+        "Ocupación por Vivienda":3.35,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.29,
+        "Viviendas con Automóvil":71.79,
+        "Viviendas con Computadora":52.99
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":3,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Salud",
+        "Segunda actividad porcentaje":33.33
+      }
+    }
+  }
+}]

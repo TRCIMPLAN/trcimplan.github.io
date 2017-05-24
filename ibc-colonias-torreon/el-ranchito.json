@@ -1,0 +1,57 @@
+[{
+  "Nombre":"El Ranchito",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":718,
+        "Porcentaje de población masculina":50.31,
+        "Porcentaje de población femenina":49.69,
+        "Porcentaje de población de 0 a 14 años":36.97,
+        "Porcentaje de población de 15 a 64 años":58.85,
+        "Porcentaje de población de 65 y más años":3.29,
+        "Porcentaje de población no especificada":0.89,
+        "Fecundidad promedio":2.33,
+        "Porcentaje de población con discapacidad":3.05
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.87,
+        "Población Económicamente Activa masculina":73.21,
+        "Población Económicamente Activa femenina":26.79,
+        "Población Ocupada":90.09,
+        "Población Ocupada masculina":70.98,
+        "Población Ocupada femenina":29.02,
+        "Población Desocupada":9.91,
+        "Derechohabiencia":48.89
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":171,
+        "Ocupación por Vivienda":4.2,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":85.91,
+        "Viviendas con Drenaje":66.21,
+        "Viviendas con Televisión":95.89,
+        "Viviendas con Automóvil":37.59,
+        "Viviendas con Computadora":13.16
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":47,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":29.79,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":17.02,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":14.89,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":12.77,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":6.38
+      }
+    }
+  }
+}]

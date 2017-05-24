@@ -1,0 +1,57 @@
+[{
+  "Nombre":"María Mercado de López Sánchez",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2527,
+        "Porcentaje de población masculina":50.8,
+        "Porcentaje de población femenina":49.2,
+        "Porcentaje de población de 0 a 14 años":36.88,
+        "Porcentaje de población de 15 a 64 años":52.26,
+        "Porcentaje de población de 65 y más años":2.37,
+        "Porcentaje de población no especificada":8.49,
+        "Fecundidad promedio":2.49,
+        "Porcentaje de población con discapacidad":2.92
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.17,
+        "Población Económicamente Activa masculina":78.35,
+        "Población Económicamente Activa femenina":21.65,
+        "Población Ocupada":91.77,
+        "Población Ocupada masculina":77.9,
+        "Población Ocupada femenina":22.1,
+        "Población Desocupada":8.23,
+        "Derechohabiencia":46.25
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":653,
+        "Ocupación por Vivienda":3.87,
+        "Viviendas con Electricidad":82.57,
+        "Viviendas con Agua":33.12,
+        "Viviendas con Drenaje":59.62,
+        "Viviendas con Televisión":74.88,
+        "Viviendas con Automóvil":28.23,
+        "Viviendas con Computadora":4.42
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":145,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Inmobiliarios",
+        "Segunda actividad porcentaje":18.62,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":13.79,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.59,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":7.59
+      }
+    }
+  }
+}]

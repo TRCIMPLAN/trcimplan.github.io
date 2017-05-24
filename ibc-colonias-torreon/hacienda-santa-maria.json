@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Hacienda Santa María",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":92,
+        "Porcentaje de población masculina":48.81,
+        "Porcentaje de población femenina":51.19,
+        "Porcentaje de población de 0 a 14 años":35.28,
+        "Porcentaje de población de 15 a 64 años":59.94,
+        "Porcentaje de población de 65 y más años":4.7,
+        "Porcentaje de población no especificada":0.08,
+        "Fecundidad promedio":1.46,
+        "Porcentaje de población con discapacidad":6.44
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":65.26,
+        "Población Económicamente Activa masculina":55.87,
+        "Población Económicamente Activa femenina":44.13,
+        "Población Ocupada":98.96,
+        "Población Ocupada masculina":55.63,
+        "Población Ocupada femenina":44.37,
+        "Población Desocupada":1.04,
+        "Derechohabiencia":88.02
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":28,
+        "Ocupación por Vivienda":3.29,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":58.72,
+        "Viviendas con Computadora":34.09
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":33.33,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Salud",
+        "Cuarta actividad porcentaje":16.67
+      }
+    }
+  }
+}]

@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Residencial Rincón del Desierto",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":140,
+        "Porcentaje de población masculina":49.29,
+        "Porcentaje de población femenina":50.71,
+        "Porcentaje de población de 0 a 14 años":24.29,
+        "Porcentaje de población de 15 a 64 años":72.86,
+        "Porcentaje de población de 65 y más años":2.86,
+        "Porcentaje de población no especificada":-0.01,
+        "Fecundidad promedio":1.5,
+        "Porcentaje de población con discapacidad":3.42
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.86,
+        "Población Económicamente Activa masculina":62.71,
+        "Población Económicamente Activa femenina":37.29,
+        "Población Ocupada":98.28,
+        "Población Ocupada masculina":63.79,
+        "Población Ocupada femenina":36.21,
+        "Población Desocupada":1.72,
+        "Derechohabiencia":90.71
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":39,
+        "Ocupación por Vivienda":3.59,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":97.44,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":87.18,
+        "Viviendas con Computadora":89.74
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Nuevo Torreón",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2469,
+        "Porcentaje de población masculina":47.63,
+        "Porcentaje de población femenina":52.37,
+        "Porcentaje de población de 0 a 14 años":19.98,
+        "Porcentaje de población de 15 a 64 años":64.45,
+        "Porcentaje de población de 65 y más años":10.99,
+        "Porcentaje de población no especificada":4.58,
+        "Fecundidad promedio":2.16,
+        "Porcentaje de población con discapacidad":3.29
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.77,
+        "Población Económicamente Activa masculina":60.23,
+        "Población Económicamente Activa femenina":39.77,
+        "Población Ocupada":92.72,
+        "Población Ocupada masculina":60.28,
+        "Población Ocupada femenina":39.72,
+        "Población Desocupada":7.28,
+        "Derechohabiencia":68.49
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":653,
+        "Ocupación por Vivienda":3.78,
+        "Viviendas con Electricidad":99.85,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.38,
+        "Viviendas con Televisión":98.77,
+        "Viviendas con Automóvil":72.15,
+        "Viviendas con Computadora":54.91
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":140,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":28.57,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":14.29,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":8.57,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":6.43
+      }
+    }
+  }
+}]

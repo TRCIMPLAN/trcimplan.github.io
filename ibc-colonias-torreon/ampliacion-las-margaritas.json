@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ampliación Las Margaritas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1833,
+        "Porcentaje de población masculina":46.26,
+        "Porcentaje de población femenina":53.74,
+        "Porcentaje de población de 0 a 14 años":16.04,
+        "Porcentaje de población de 15 a 64 años":65.68,
+        "Porcentaje de población de 65 y más años":10.09,
+        "Porcentaje de población no especificada":8.19,
+        "Fecundidad promedio":1.87,
+        "Porcentaje de población con discapacidad":6.84
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":48.95,
+        "Población Económicamente Activa masculina":55.06,
+        "Población Económicamente Activa femenina":44.94,
+        "Población Ocupada":91.79,
+        "Población Ocupada masculina":54.95,
+        "Población Ocupada femenina":45.05,
+        "Población Desocupada":8.21,
+        "Derechohabiencia":73.38
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":467,
+        "Ocupación por Vivienda":3.93,
+        "Viviendas con Electricidad":99.57,
+        "Viviendas con Agua":99.79,
+        "Viviendas con Drenaje":99.79,
+        "Viviendas con Televisión":99.36,
+        "Viviendas con Automóvil":76.66,
+        "Viviendas con Computadora":65.31
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":115,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":35.65,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":22.61,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":9.57,
+        "Cuarta actividad nombre":"Salud",
+        "Cuarta actividad porcentaje":5.22,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":3.48
+      }
+    }
+  }
+}]

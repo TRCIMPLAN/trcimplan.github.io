@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Torreón y Anexas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":988,
+        "Porcentaje de población masculina":50.1,
+        "Porcentaje de población femenina":49.9,
+        "Porcentaje de población de 0 a 14 años":27.94,
+        "Porcentaje de población de 15 a 64 años":62.04,
+        "Porcentaje de población de 65 y más años":9.72,
+        "Porcentaje de población no especificada":0.3,
+        "Fecundidad promedio":2.63,
+        "Porcentaje de población con discapacidad":4.22
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.17,
+        "Población Económicamente Activa masculina":71.96,
+        "Población Económicamente Activa femenina":28.04,
+        "Población Ocupada":76.73,
+        "Población Ocupada masculina":67.28,
+        "Población Ocupada femenina":32.72,
+        "Población Desocupada":23.27,
+        "Derechohabiencia":59.01
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":242,
+        "Ocupación por Vivienda":4.08,
+        "Viviendas con Electricidad":99.17,
+        "Viviendas con Agua":98.35,
+        "Viviendas con Drenaje":99.17,
+        "Viviendas con Televisión":96.69,
+        "Viviendas con Automóvil":15.59,
+        "Viviendas con Computadora":15.86
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":14,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":21.43,
+        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad porcentaje":7.14,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":7.14,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":7.14
+      }
+    }
+  }
+}]

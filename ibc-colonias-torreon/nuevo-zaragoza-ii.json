@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Nuevo Zaragoza II",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":23,
+        "Porcentaje de población masculina":43.48,
+        "Porcentaje de población femenina":56.52,
+        "Porcentaje de población de 0 a 14 años":39.13,
+        "Porcentaje de población de 15 a 64 años":60.87,
+        "Porcentaje de población de 65 y más años":0,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.13,
+        "Porcentaje de población con discapacidad":1.86
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":73.33,
+        "Población Económicamente Activa masculina":63.64,
+        "Población Económicamente Activa femenina":36.36,
+        "Población Ocupada":78.64,
+        "Población Ocupada masculina":55.56,
+        "Población Ocupada femenina":44.44,
+        "Población Desocupada":21.36,
+        "Derechohabiencia":86.96
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":7,
+        "Ocupación por Vivienda":3.29,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":57.14,
+        "Viviendas con Computadora":42.86
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

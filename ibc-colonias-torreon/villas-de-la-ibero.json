@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Villas de La Ibero",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":730,
+        "Porcentaje de población masculina":50.82,
+        "Porcentaje de población femenina":49.18,
+        "Porcentaje de población de 0 a 14 años":34.93,
+        "Porcentaje de población de 15 a 64 años":60.41,
+        "Porcentaje de población de 65 y más años":3.84,
+        "Porcentaje de población no especificada":0.82,
+        "Fecundidad promedio":1.47,
+        "Porcentaje de población con discapacidad":1.2
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.15,
+        "Población Económicamente Activa masculina":61.56,
+        "Población Económicamente Activa femenina":38.44,
+        "Población Ocupada":98.01,
+        "Población Ocupada masculina":61.46,
+        "Población Ocupada femenina":38.54,
+        "Población Desocupada":1.99,
+        "Derechohabiencia":81.64
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":202,
+        "Ocupación por Vivienda":3.61,
+        "Viviendas con Electricidad":99.01,
+        "Viviendas con Agua":99.01,
+        "Viviendas con Drenaje":99.01,
+        "Viviendas con Televisión":96.53,
+        "Viviendas con Automóvil":93.56,
+        "Viviendas con Computadora":88.61
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Gubernamentales",
+        "Tercera actividad porcentaje":16.67
+      }
+    }
+  }
+}]

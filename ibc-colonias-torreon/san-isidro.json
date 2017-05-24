@@ -1,0 +1,57 @@
+[{
+  "Nombre":"San Isidro",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2412,
+        "Porcentaje de población masculina":46.28,
+        "Porcentaje de población femenina":53.72,
+        "Porcentaje de población de 0 a 14 años":13.52,
+        "Porcentaje de población de 15 a 64 años":62.58,
+        "Porcentaje de población de 65 y más años":16.23,
+        "Porcentaje de población no especificada":7.67,
+        "Fecundidad promedio":2.06,
+        "Porcentaje de población con discapacidad":5.46
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.6,
+        "Población Económicamente Activa masculina":59.58,
+        "Población Económicamente Activa femenina":40.42,
+        "Población Ocupada":97.6,
+        "Población Ocupada masculina":59.65,
+        "Población Ocupada femenina":40.35,
+        "Población Desocupada":2.4,
+        "Derechohabiencia":75.14
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":679,
+        "Ocupación por Vivienda":3.55,
+        "Viviendas con Electricidad":99.93,
+        "Viviendas con Agua":99.33,
+        "Viviendas con Drenaje":99.48,
+        "Viviendas con Televisión":96.59,
+        "Viviendas con Automóvil":93.75,
+        "Viviendas con Computadora":82.63
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":205,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":28.29,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":15.61,
+        "Tercera actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Tercera actividad porcentaje":13.66,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":12.2,
+        "Quinta actividad nombre":"Financieros y Seguros",
+        "Quinta actividad porcentaje":6.34
+      }
+    }
+  }
+}]

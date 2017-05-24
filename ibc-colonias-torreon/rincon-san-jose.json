@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Rincón San José",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":122,
+        "Porcentaje de población masculina":43.44,
+        "Porcentaje de población femenina":56.56,
+        "Porcentaje de población de 0 a 14 años":32.79,
+        "Porcentaje de población de 15 a 64 años":63.93,
+        "Porcentaje de población de 65 y más años":0.82,
+        "Porcentaje de población no especificada":2.46,
+        "Fecundidad promedio":1.36,
+        "Porcentaje de población con discapacidad":0.21
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":69.88,
+        "Población Económicamente Activa masculina":51.72,
+        "Población Económicamente Activa femenina":48.28,
+        "Población Ocupada":96.43,
+        "Población Ocupada masculina":50,
+        "Población Ocupada femenina":50,
+        "Población Desocupada":3.57,
+        "Derechohabiencia":86.07
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":39,
+        "Ocupación por Vivienda":3.13,
+        "Viviendas con Electricidad":97.44,
+        "Viviendas con Agua":97.44,
+        "Viviendas con Drenaje":97.44,
+        "Viviendas con Televisión":97.44,
+        "Viviendas con Automóvil":84.08,
+        "Viviendas con Computadora":80.53
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

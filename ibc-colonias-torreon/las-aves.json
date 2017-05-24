@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Las Aves",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":246,
+        "Porcentaje de población masculina":46.75,
+        "Porcentaje de población femenina":53.25,
+        "Porcentaje de población de 0 a 14 años":39.13,
+        "Porcentaje de población de 15 a 64 años":59.14,
+        "Porcentaje de población de 65 y más años":0.48,
+        "Porcentaje de población no especificada":1.25,
+        "Fecundidad promedio":2.1,
+        "Porcentaje de población con discapacidad":0.6
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.95,
+        "Población Económicamente Activa masculina":62.97,
+        "Población Económicamente Activa femenina":37.03,
+        "Población Ocupada":94.74,
+        "Población Ocupada masculina":61.04,
+        "Población Ocupada femenina":38.96,
+        "Población Desocupada":5.26,
+        "Derechohabiencia":75.26
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":65,
+        "Ocupación por Vivienda":3.78,
+        "Viviendas con Electricidad":99.99,
+        "Viviendas con Agua":99.98,
+        "Viviendas con Drenaje":99.98,
+        "Viviendas con Televisión":99.98,
+        "Viviendas con Automóvil":41.84,
+        "Viviendas con Computadora":36.39
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":75,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":25
+      }
+    }
+  }
+}]

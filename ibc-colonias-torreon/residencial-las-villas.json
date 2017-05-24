@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Residencial Las Villas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":604,
+        "Porcentaje de población masculina":47.83,
+        "Porcentaje de población femenina":52.17,
+        "Porcentaje de población de 0 a 14 años":35.89,
+        "Porcentaje de población de 15 a 64 años":55.53,
+        "Porcentaje de población de 65 y más años":3.07,
+        "Porcentaje de población no especificada":5.51,
+        "Fecundidad promedio":1.69,
+        "Porcentaje de población con discapacidad":0.54
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.95,
+        "Población Económicamente Activa masculina":69.88,
+        "Población Económicamente Activa femenina":30.12,
+        "Población Ocupada":98.64,
+        "Población Ocupada masculina":70.02,
+        "Población Ocupada femenina":29.98,
+        "Población Desocupada":1.36,
+        "Derechohabiencia":82.02
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":133,
+        "Ocupación por Vivienda":4.54,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":97.74,
+        "Viviendas con Computadora":93.17
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Manejo de Residuos",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Inmobiliarios",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Tercera actividad porcentaje":25
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ciudad Nazas Polígono 27",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2082,
+        "Porcentaje de población masculina":48.32,
+        "Porcentaje de población femenina":51.68,
+        "Porcentaje de población de 0 a 14 años":36.41,
+        "Porcentaje de población de 15 a 64 años":61.91,
+        "Porcentaje de población de 65 y más años":1.25,
+        "Porcentaje de población no especificada":0.43,
+        "Fecundidad promedio":1.84,
+        "Porcentaje de población con discapacidad":1.35
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.78,
+        "Población Económicamente Activa masculina":66.02,
+        "Población Económicamente Activa femenina":33.98,
+        "Población Ocupada":92.36,
+        "Población Ocupada masculina":64.8,
+        "Población Ocupada femenina":35.2,
+        "Población Desocupada":7.64,
+        "Derechohabiencia":75.79
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":521,
+        "Ocupación por Vivienda":4,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.42,
+        "Viviendas con Drenaje":99.04,
+        "Viviendas con Televisión":99.04,
+        "Viviendas con Automóvil":54.7,
+        "Viviendas con Computadora":36.47
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":39,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":30.77,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":28.21,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":23.08,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.69,
+        "Quinta actividad nombre":"Inmobiliarios",
+        "Quinta actividad porcentaje":2.56
+      }
+    }
+  }
+}]

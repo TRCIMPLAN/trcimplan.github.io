@@ -1,0 +1,57 @@
+[{
+  "Nombre":"El Kiosco",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":639,
+        "Porcentaje de población masculina":48.67,
+        "Porcentaje de población femenina":51.33,
+        "Porcentaje de población de 0 a 14 años":37.09,
+        "Porcentaje de población de 15 a 64 años":60.41,
+        "Porcentaje de población de 65 y más años":2.03,
+        "Porcentaje de población no especificada":0.47,
+        "Fecundidad promedio":1.72,
+        "Porcentaje de población con discapacidad":1.86
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.65,
+        "Población Económicamente Activa masculina":63.4,
+        "Población Económicamente Activa femenina":36.6,
+        "Población Ocupada":98.08,
+        "Población Ocupada masculina":63.46,
+        "Población Ocupada femenina":36.54,
+        "Población Desocupada":1.92,
+        "Derechohabiencia":82.47
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":190,
+        "Ocupación por Vivienda":3.36,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.42,
+        "Viviendas con Automóvil":72.11,
+        "Viviendas con Computadora":54.21
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":18,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":38.89,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Inmobiliarios",
+        "Cuarta actividad porcentaje":11.11,
+        "Quinta actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Quinta actividad porcentaje":11.11
+      }
+    }
+  }
+}]

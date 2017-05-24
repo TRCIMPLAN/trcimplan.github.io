@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Viñedos de La Vega",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":299,
+        "Porcentaje de población masculina":48.49,
+        "Porcentaje de población femenina":51.51,
+        "Porcentaje de población de 0 a 14 años":38.13,
+        "Porcentaje de población de 15 a 64 años":60.87,
+        "Porcentaje de población de 65 y más años":1,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.88,
+        "Porcentaje de población con discapacidad":1.87
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.21,
+        "Población Económicamente Activa masculina":73.5,
+        "Población Económicamente Activa femenina":26.5,
+        "Población Ocupada":83.41,
+        "Población Ocupada masculina":72,
+        "Población Ocupada femenina":28,
+        "Población Desocupada":16.59,
+        "Derechohabiencia":64.21
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":81,
+        "Ocupación por Vivienda":3.69,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":46.1,
+        "Viviendas con Computadora":20.48
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

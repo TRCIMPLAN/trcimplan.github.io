@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ciudad Nazas Polígono 24",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2558,
+        "Porcentaje de población masculina":48.94,
+        "Porcentaje de población femenina":51.06,
+        "Porcentaje de población de 0 a 14 años":37.8,
+        "Porcentaje de población de 15 a 64 años":60.44,
+        "Porcentaje de población de 65 y más años":0.82,
+        "Porcentaje de población no especificada":0.94,
+        "Fecundidad promedio":1.81,
+        "Porcentaje de población con discapacidad":1.53
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.6,
+        "Población Económicamente Activa masculina":64.73,
+        "Población Económicamente Activa femenina":35.27,
+        "Población Ocupada":92.97,
+        "Población Ocupada masculina":63.82,
+        "Población Ocupada femenina":36.18,
+        "Población Desocupada":7.03,
+        "Derechohabiencia":77.48
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":683,
+        "Ocupación por Vivienda":3.75,
+        "Viviendas con Electricidad":99.71,
+        "Viviendas con Agua":99.71,
+        "Viviendas con Drenaje":99.71,
+        "Viviendas con Televisión":98.68,
+        "Viviendas con Automóvil":58.57,
+        "Viviendas con Computadora":36.16
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":29,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":51.72,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":20.69,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":10.34,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":6.9,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":3.45
+      }
+    }
+  }
+}]

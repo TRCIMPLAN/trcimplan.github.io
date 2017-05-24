@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Rincón de Las Noas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":903,
+        "Porcentaje de población masculina":49.94,
+        "Porcentaje de población femenina":50.06,
+        "Porcentaje de población de 0 a 14 años":36.54,
+        "Porcentaje de población de 15 a 64 años":59.91,
+        "Porcentaje de población de 65 y más años":3.54,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":1.8,
+        "Porcentaje de población con discapacidad":2.07
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.11,
+        "Población Económicamente Activa masculina":65.29,
+        "Población Económicamente Activa femenina":34.71,
+        "Población Ocupada":96.97,
+        "Población Ocupada masculina":64.85,
+        "Población Ocupada femenina":35.15,
+        "Población Desocupada":3.03,
+        "Derechohabiencia":76.63
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":231,
+        "Ocupación por Vivienda":3.91,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.7,
+        "Viviendas con Automóvil":61.46,
+        "Viviendas con Computadora":36.81
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":19,
+        "Primer actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Primer actividad porcentaje":26.32,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":21.05,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":21.05,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":10.53,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":10.53
+      }
+    }
+  }
+}]

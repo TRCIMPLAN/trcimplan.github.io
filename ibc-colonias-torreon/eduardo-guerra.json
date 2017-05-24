@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Eduardo Guerra",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":12999,
+        "Porcentaje de población masculina":49.72,
+        "Porcentaje de población femenina":50.28,
+        "Porcentaje de población de 0 a 14 años":26.35,
+        "Porcentaje de población de 15 a 64 años":64.01,
+        "Porcentaje de población de 65 y más años":7.98,
+        "Porcentaje de población no especificada":1.66,
+        "Fecundidad promedio":2.6,
+        "Porcentaje de población con discapacidad":5.41
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.24,
+        "Población Económicamente Activa masculina":65.61,
+        "Población Económicamente Activa femenina":34.39,
+        "Población Ocupada":89.26,
+        "Población Ocupada masculina":64.13,
+        "Población Ocupada femenina":35.87,
+        "Población Desocupada":10.74,
+        "Derechohabiencia":63.84
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":3237,
+        "Ocupación por Vivienda":4.02,
+        "Viviendas con Electricidad":99.81,
+        "Viviendas con Agua":99.6,
+        "Viviendas con Drenaje":99.63,
+        "Viviendas con Televisión":98.61,
+        "Viviendas con Automóvil":44.31,
+        "Viviendas con Computadora":27.34
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":444,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":36.26,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":20.5,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":14.41,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":11.94,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":3.83
+      }
+    }
+  }
+}]

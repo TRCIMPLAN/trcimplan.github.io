@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Campiñas de Iberia",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":116,
+        "Porcentaje de población masculina":51.72,
+        "Porcentaje de población femenina":48.28,
+        "Porcentaje de población de 0 a 14 años":37.93,
+        "Porcentaje de población de 15 a 64 años":62.07,
+        "Porcentaje de población de 65 y más años":0,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.45,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.26,
+        "Población Económicamente Activa masculina":63.83,
+        "Población Económicamente Activa femenina":36.17,
+        "Población Ocupada":97.83,
+        "Población Ocupada masculina":63.04,
+        "Población Ocupada femenina":36.96,
+        "Población Desocupada":2.17,
+        "Derechohabiencia":73.28
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":33,
+        "Ocupación por Vivienda":3.52,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":96.97,
+        "Viviendas con Computadora":93.94
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":33,
+        "Primer actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":15.15,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":12.12,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":9.09,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":6.06
+      }
+    }
+  }
+}]

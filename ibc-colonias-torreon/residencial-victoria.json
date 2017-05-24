@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Residencial Victoria",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1111,
+        "Porcentaje de población masculina":47.61,
+        "Porcentaje de población femenina":52.39,
+        "Porcentaje de población de 0 a 14 años":36.45,
+        "Porcentaje de población de 15 a 64 años":59.86,
+        "Porcentaje de población de 65 y más años":2.07,
+        "Porcentaje de población no especificada":1.62,
+        "Fecundidad promedio":1.92,
+        "Porcentaje de población con discapacidad":3.22
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":61.07,
+        "Población Económicamente Activa masculina":61.76,
+        "Población Económicamente Activa femenina":38.24,
+        "Población Ocupada":89.14,
+        "Población Ocupada masculina":61.22,
+        "Población Ocupada femenina":38.78,
+        "Población Desocupada":10.86,
+        "Derechohabiencia":77.32
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":296,
+        "Ocupación por Vivienda":3.75,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.66,
+        "Viviendas con Automóvil":51.68,
+        "Viviendas con Computadora":27.42
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":38,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":31.58,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":28.95,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":10.53,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":5.26,
+        "Quinta actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Quinta actividad porcentaje":5.26
+      }
+    }
+  }
+}]

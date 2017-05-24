@@ -1,0 +1,57 @@
+[{
+  "Nombre":"La Mina",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1762,
+        "Porcentaje de población masculina":51.02,
+        "Porcentaje de población femenina":48.98,
+        "Porcentaje de población de 0 a 14 años":19.19,
+        "Porcentaje de población de 15 a 64 años":70.27,
+        "Porcentaje de población de 65 y más años":5.52,
+        "Porcentaje de población no especificada":5.02,
+        "Fecundidad promedio":2.03,
+        "Porcentaje de población con discapacidad":4.61
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.79,
+        "Población Económicamente Activa masculina":62.27,
+        "Población Económicamente Activa femenina":37.73,
+        "Población Ocupada":95.41,
+        "Población Ocupada masculina":62.6,
+        "Población Ocupada femenina":37.4,
+        "Población Desocupada":4.59,
+        "Derechohabiencia":73.08
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":439,
+        "Ocupación por Vivienda":4.01,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":97.18,
+        "Viviendas con Automóvil":63.72,
+        "Viviendas con Computadora":55.63
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":50,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":8,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":8,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":8
+      }
+    }
+  }
+}]

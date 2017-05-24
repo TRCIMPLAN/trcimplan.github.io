@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Santa María",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1314,
+        "Porcentaje de población masculina":47.64,
+        "Porcentaje de población femenina":52.36,
+        "Porcentaje de población de 0 a 14 años":24.09,
+        "Porcentaje de población de 15 a 64 años":66.04,
+        "Porcentaje de población de 65 y más años":9.79,
+        "Porcentaje de población no especificada":0.08,
+        "Fecundidad promedio":2.4,
+        "Porcentaje de población con discapacidad":9.23
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":45.75,
+        "Población Económicamente Activa masculina":62.4,
+        "Población Económicamente Activa femenina":37.6,
+        "Población Ocupada":98.53,
+        "Población Ocupada masculina":62.05,
+        "Población Ocupada femenina":37.95,
+        "Población Desocupada":1.47,
+        "Derechohabiencia":71.23
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":363,
+        "Ocupación por Vivienda":3.62,
+        "Viviendas con Electricidad":99.17,
+        "Viviendas con Agua":98.9,
+        "Viviendas con Drenaje":99.45,
+        "Viviendas con Televisión":99.17,
+        "Viviendas con Automóvil":48.08,
+        "Viviendas con Computadora":33.02
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":393,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40.46,
+        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad porcentaje":30.53,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":8.14,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":7.38,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":6.11
+      }
+    }
+  }
+}]

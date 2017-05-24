@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido Ignacio Allende",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1584,
+        "Porcentaje de población masculina":50.21,
+        "Porcentaje de población femenina":49.79,
+        "Porcentaje de población de 0 a 14 años":28.82,
+        "Porcentaje de población de 15 a 64 años":65.13,
+        "Porcentaje de población de 65 y más años":5.53,
+        "Porcentaje de población no especificada":0.52,
+        "Fecundidad promedio":2.52,
+        "Porcentaje de población con discapacidad":2.91
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.22,
+        "Población Económicamente Activa masculina":70.92,
+        "Población Económicamente Activa femenina":29.08,
+        "Población Ocupada":89.19,
+        "Población Ocupada masculina":69.04,
+        "Población Ocupada femenina":30.96,
+        "Población Desocupada":10.81,
+        "Derechohabiencia":70.35
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":394,
+        "Ocupación por Vivienda":4.02,
+        "Viviendas con Electricidad":99.01,
+        "Viviendas con Agua":98.75,
+        "Viviendas con Drenaje":95.7,
+        "Viviendas con Televisión":96.97,
+        "Viviendas con Automóvil":49,
+        "Viviendas con Computadora":38.96
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":70,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":28.57,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":18.57,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":15.71,
+        "Cuarta actividad nombre":"Inmobiliarios",
+        "Cuarta actividad porcentaje":12.86,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":7.14
+      }
+    }
+  }
+}]

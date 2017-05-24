@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Santa Bárbara",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":299,
+        "Porcentaje de población masculina":49.5,
+        "Porcentaje de población femenina":50.5,
+        "Porcentaje de población de 0 a 14 años":24.08,
+        "Porcentaje de población de 15 a 64 años":73.24,
+        "Porcentaje de población de 65 y más años":1.67,
+        "Porcentaje de población no especificada":1.01,
+        "Fecundidad promedio":1.52,
+        "Porcentaje de población con discapacidad":1
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.75,
+        "Población Económicamente Activa masculina":53.9,
+        "Población Económicamente Activa femenina":46.1,
+        "Población Ocupada":95.56,
+        "Población Ocupada masculina":52.59,
+        "Población Ocupada femenina":47.41,
+        "Población Desocupada":4.44,
+        "Derechohabiencia":77.26
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":91,
+        "Ocupación por Vivienda":3.29,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.9,
+        "Viviendas con Automóvil":85.71,
+        "Viviendas con Computadora":71.43
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":3,
+        "Primer actividad nombre":"Comercio Mayoreo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":33.33
+      }
+    }
+  }
+}]

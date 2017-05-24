@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Nueva Los Ángeles",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2337,
+        "Porcentaje de población masculina":47.36,
+        "Porcentaje de población femenina":52.64,
+        "Porcentaje de población de 0 a 14 años":13.61,
+        "Porcentaje de población de 15 a 64 años":58.09,
+        "Porcentaje de población de 65 y más años":17.21,
+        "Porcentaje de población no especificada":11.09,
+        "Fecundidad promedio":2.05,
+        "Porcentaje de población con discapacidad":6.98
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.66,
+        "Población Económicamente Activa masculina":58.98,
+        "Población Económicamente Activa femenina":41.02,
+        "Población Ocupada":94.5,
+        "Población Ocupada masculina":59.24,
+        "Población Ocupada femenina":40.76,
+        "Población Desocupada":5.5,
+        "Derechohabiencia":64.71
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":640,
+        "Ocupación por Vivienda":3.65,
+        "Viviendas con Electricidad":99.36,
+        "Viviendas con Agua":99.04,
+        "Viviendas con Drenaje":99.36,
+        "Viviendas con Televisión":96.9,
+        "Viviendas con Automóvil":86.78,
+        "Viviendas con Computadora":72.45
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":146,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":21.92,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":19.18,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":17.81,
+        "Cuarta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Cuarta actividad porcentaje":6.16,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":5.48
+      }
+    }
+  }
+}]

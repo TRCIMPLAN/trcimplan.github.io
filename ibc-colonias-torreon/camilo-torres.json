@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Camilo Torres",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":878,
+        "Porcentaje de población masculina":46.94,
+        "Porcentaje de población femenina":53.06,
+        "Porcentaje de población de 0 a 14 años":28.89,
+        "Porcentaje de población de 15 a 64 años":66.89,
+        "Porcentaje de población de 65 y más años":4.21,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":2.42,
+        "Porcentaje de población con discapacidad":3.03
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.12,
+        "Población Económicamente Activa masculina":69.99,
+        "Población Económicamente Activa femenina":30.01,
+        "Población Ocupada":94.94,
+        "Población Ocupada masculina":69.35,
+        "Población Ocupada femenina":30.65,
+        "Población Desocupada":5.06,
+        "Derechohabiencia":72.44
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":227,
+        "Ocupación por Vivienda":3.87,
+        "Viviendas con Electricidad":99.86,
+        "Viviendas con Agua":94.44,
+        "Viviendas con Drenaje":97.13,
+        "Viviendas con Televisión":98.96,
+        "Viviendas con Automóvil":20.38,
+        "Viviendas con Computadora":2.56
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":21,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":23.81,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":4.76,
+        "Cuarta actividad nombre":"Gubernamentales",
+        "Cuarta actividad porcentaje":4.76
+      }
+    }
+  }
+}]

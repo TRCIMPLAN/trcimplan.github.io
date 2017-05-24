@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ampliación Los Ángeles",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":4908,
+        "Porcentaje de población masculina":46.18,
+        "Porcentaje de población femenina":53.82,
+        "Porcentaje de población de 0 a 14 años":12.97,
+        "Porcentaje de población de 15 a 64 años":59.15,
+        "Porcentaje de población de 65 y más años":18.29,
+        "Porcentaje de población no especificada":9.59,
+        "Fecundidad promedio":2.04,
+        "Porcentaje de población con discapacidad":7.9
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.94,
+        "Población Económicamente Activa masculina":57.97,
+        "Población Económicamente Activa femenina":42.03,
+        "Población Ocupada":95.25,
+        "Población Ocupada masculina":58.03,
+        "Población Ocupada femenina":41.97,
+        "Población Desocupada":4.75,
+        "Derechohabiencia":69.67
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1352,
+        "Ocupación por Vivienda":3.63,
+        "Viviendas con Electricidad":99.87,
+        "Viviendas con Agua":99.35,
+        "Viviendas con Drenaje":99.87,
+        "Viviendas con Televisión":99.35,
+        "Viviendas con Automóvil":85.85,
+        "Viviendas con Computadora":69.97
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":301,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":20.27,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":15.95,
+        "Tercera actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Tercera actividad porcentaje":8.97,
+        "Cuarta actividad nombre":"Salud",
+        "Cuarta actividad porcentaje":7.64,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":6.98
+      }
+    }
+  }
+}]

@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Cerrada Las Flores I y II",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":876,
+        "Porcentaje de población masculina":48.97,
+        "Porcentaje de población femenina":51.03,
+        "Porcentaje de población de 0 a 14 años":34.13,
+        "Porcentaje de población de 15 a 64 años":63.81,
+        "Porcentaje de población de 65 y más años":1.71,
+        "Porcentaje de población no especificada":0.35,
+        "Fecundidad promedio":1.71,
+        "Porcentaje de población con discapacidad":3.93
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.28,
+        "Población Económicamente Activa masculina":63.8,
+        "Población Económicamente Activa femenina":36.2,
+        "Población Ocupada":94.23,
+        "Población Ocupada masculina":63.64,
+        "Población Ocupada femenina":36.36,
+        "Población Desocupada":5.77,
+        "Derechohabiencia":85.39
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":237,
+        "Ocupación por Vivienda":3.7,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.58,
+        "Viviendas con Automóvil":75.53,
+        "Viviendas con Computadora":62.45
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":9,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":22.22,
+        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad porcentaje":11.11
+      }
+    }
+  }
+}]

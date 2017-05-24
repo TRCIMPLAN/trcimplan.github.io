@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Cerradas Esmeralda - Montebello",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":156,
+        "Porcentaje de población masculina":48.72,
+        "Porcentaje de población femenina":51.28,
+        "Porcentaje de población de 0 a 14 años":30.36,
+        "Porcentaje de población de 15 a 64 años":67.95,
+        "Porcentaje de población de 65 y más años":1.55,
+        "Porcentaje de población no especificada":0.14,
+        "Fecundidad promedio":1.63,
+        "Porcentaje de población con discapacidad":0.63
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.35,
+        "Población Económicamente Activa masculina":51.35,
+        "Población Económicamente Activa femenina":48.65,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":51.35,
+        "Población Ocupada femenina":48.65,
+        "Población Desocupada":0,
+        "Derechohabiencia":82.05
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":42,
+        "Ocupación por Vivienda":3.71,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":100,
+        "Viviendas con Computadora":92.86
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

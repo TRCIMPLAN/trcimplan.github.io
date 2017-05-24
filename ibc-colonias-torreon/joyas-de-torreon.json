@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Joyas de Torreón",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1913,
+        "Porcentaje de población masculina":48.98,
+        "Porcentaje de población femenina":51.02,
+        "Porcentaje de población de 0 a 14 años":35.7,
+        "Porcentaje de población de 15 a 64 años":61.42,
+        "Porcentaje de población de 65 y más años":2.25,
+        "Porcentaje de población no especificada":0.63,
+        "Fecundidad promedio":1.91,
+        "Porcentaje de población con discapacidad":1.08
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.95,
+        "Población Económicamente Activa masculina":65.73,
+        "Población Económicamente Activa femenina":34.27,
+        "Población Ocupada":93.49,
+        "Población Ocupada masculina":64.58,
+        "Población Ocupada femenina":35.42,
+        "Población Desocupada":6.51,
+        "Derechohabiencia":75.43
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":521,
+        "Ocupación por Vivienda":3.67,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.85,
+        "Viviendas con Automóvil":51.74,
+        "Viviendas con Computadora":26.76
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":56,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":44.64,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":14.29,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":10.71,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.14,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":5.36
+      }
+    }
+  }
+}]

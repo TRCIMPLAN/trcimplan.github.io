@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Santa Anita",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":564,
+        "Porcentaje de población masculina":46.63,
+        "Porcentaje de población femenina":53.37,
+        "Porcentaje de población de 0 a 14 años":26.95,
+        "Porcentaje de población de 15 a 64 años":67.91,
+        "Porcentaje de población de 65 y más años":5.14,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.59,
+        "Porcentaje de población con discapacidad":1.85
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.11,
+        "Población Económicamente Activa masculina":60.67,
+        "Población Económicamente Activa femenina":39.33,
+        "Población Ocupada":99.16,
+        "Población Ocupada masculina":60.34,
+        "Población Ocupada femenina":39.66,
+        "Población Desocupada":0.84,
+        "Derechohabiencia":82.98
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":157,
+        "Ocupación por Vivienda":3.59,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.5,
+        "Viviendas con Drenaje":99.78,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":97.1,
+        "Viviendas con Computadora":82.89
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":47,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":42.55,
+        "Segunda actividad nombre":"Financieros y Seguros",
+        "Segunda actividad porcentaje":12.77,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":10.64,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":10.64,
+        "Quinta actividad nombre":"Inmobiliarios",
+        "Quinta actividad porcentaje":4.26
+      }
+    }
+  }
+}]

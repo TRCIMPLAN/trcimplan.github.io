@@ -1,0 +1,28 @@
+[{
+  "Nombre":"San Marino",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":0
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":7,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":42.86,
+        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad porcentaje":28.57,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":14.29,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":14.29
+      }
+    }
+  }
+}]

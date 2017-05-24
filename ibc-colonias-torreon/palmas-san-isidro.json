@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Palmas San Isidro",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":381,
+        "Porcentaje de población masculina":45.54,
+        "Porcentaje de población femenina":54.46,
+        "Porcentaje de población de 0 a 14 años":12.33,
+        "Porcentaje de población de 15 a 64 años":75.1,
+        "Porcentaje de población de 65 y más años":11.59,
+        "Porcentaje de población no especificada":0.98,
+        "Fecundidad promedio":1.68,
+        "Porcentaje de población con discapacidad":12.42
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.07,
+        "Población Económicamente Activa masculina":55.31,
+        "Población Económicamente Activa femenina":44.69,
+        "Población Ocupada":97.06,
+        "Población Ocupada masculina":55.15,
+        "Población Ocupada femenina":44.85,
+        "Población Desocupada":2.94,
+        "Derechohabiencia":80.2
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":114,
+        "Ocupación por Vivienda":3.34,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":87.56,
+        "Viviendas con Computadora":80.96
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":32,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":28.12,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":21.88,
+        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad porcentaje":9.38,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":9.38,
+        "Quinta actividad nombre":"Financieros y Seguros",
+        "Quinta actividad porcentaje":6.25
+      }
+    }
+  }
+}]

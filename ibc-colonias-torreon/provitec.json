@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Provitec",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1243,
+        "Porcentaje de población masculina":47.95,
+        "Porcentaje de población femenina":52.05,
+        "Porcentaje de población de 0 a 14 años":21.48,
+        "Porcentaje de población de 15 a 64 años":73.93,
+        "Porcentaje de población de 65 y más años":4.59,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.69,
+        "Porcentaje de población con discapacidad":3.3
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.93,
+        "Población Económicamente Activa masculina":59.5,
+        "Población Económicamente Activa femenina":40.5,
+        "Población Ocupada":93,
+        "Población Ocupada masculina":60.27,
+        "Población Ocupada femenina":39.73,
+        "Población Desocupada":7,
+        "Derechohabiencia":77.15
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":351,
+        "Ocupación por Vivienda":3.54,
+        "Viviendas con Electricidad":99.72,
+        "Viviendas con Agua":99.43,
+        "Viviendas con Drenaje":99.72,
+        "Viviendas con Televisión":99.15,
+        "Viviendas con Automóvil":73.79,
+        "Viviendas con Computadora":65.81
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":82,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":39.02,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":19.51,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":12.2,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":9.76,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":6.1
+      }
+    }
+  }
+}]

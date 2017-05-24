@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Villas Universidad 2° Etapa",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":668,
+        "Porcentaje de población masculina":49.55,
+        "Porcentaje de población femenina":50.45,
+        "Porcentaje de población de 0 a 14 años":33.23,
+        "Porcentaje de población de 15 a 64 años":64.52,
+        "Porcentaje de población de 65 y más años":2.25,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.54,
+        "Porcentaje de población con discapacidad":1.69
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":66.23,
+        "Población Económicamente Activa masculina":61.44,
+        "Población Económicamente Activa femenina":38.56,
+        "Población Ocupada":95.22,
+        "Población Ocupada masculina":60.96,
+        "Población Ocupada femenina":39.04,
+        "Población Desocupada":4.78,
+        "Derechohabiencia":83.83
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":190,
+        "Ocupación por Vivienda":3.52,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.42,
+        "Viviendas con Automóvil":80.53,
+        "Viviendas con Computadora":52.11
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":14,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":64.29,
+        "Segunda actividad nombre":"Salud",
+        "Segunda actividad porcentaje":14.29,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":14.29,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":7.14
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Fovissste Nueva Los Ángeles",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":807,
+        "Porcentaje de población masculina":47.71,
+        "Porcentaje de población femenina":52.29,
+        "Porcentaje de población de 0 a 14 años":16.45,
+        "Porcentaje de población de 15 a 64 años":59.21,
+        "Porcentaje de población de 65 y más años":16.78,
+        "Porcentaje de población no especificada":7.56,
+        "Fecundidad promedio":2.34,
+        "Porcentaje de población con discapacidad":7.05
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":44.19,
+        "Población Económicamente Activa masculina":57.71,
+        "Población Económicamente Activa femenina":42.29,
+        "Población Ocupada":89.24,
+        "Población Ocupada masculina":56.73,
+        "Población Ocupada femenina":43.27,
+        "Población Desocupada":10.76,
+        "Derechohabiencia":78.32
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":218,
+        "Ocupación por Vivienda":3.7,
+        "Viviendas con Electricidad":99.55,
+        "Viviendas con Agua":99.08,
+        "Viviendas con Drenaje":99.08,
+        "Viviendas con Televisión":97.15,
+        "Viviendas con Automóvil":71.69,
+        "Viviendas con Computadora":64.55
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":22,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":22.73,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":13.64,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":13.64,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":9.09,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":9.09
+      }
+    }
+  }
+}]

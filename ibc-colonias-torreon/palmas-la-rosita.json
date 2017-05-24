@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Palmas La Rosita",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":141,
+        "Porcentaje de población masculina":53.19,
+        "Porcentaje de población femenina":46.81,
+        "Porcentaje de población de 0 a 14 años":20.57,
+        "Porcentaje de población de 15 a 64 años":67.38,
+        "Porcentaje de población de 65 y más años":5.67,
+        "Porcentaje de población no especificada":6.38,
+        "Fecundidad promedio":1.98,
+        "Porcentaje de población con discapacidad":1.31
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":44.14,
+        "Población Económicamente Activa masculina":77.55,
+        "Población Económicamente Activa femenina":22.45,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":77.55,
+        "Población Ocupada femenina":22.45,
+        "Población Desocupada":0,
+        "Derechohabiencia":89.36
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":36,
+        "Ocupación por Vivienda":3.92,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":100,
+        "Viviendas con Computadora":100
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":40,
+        "Tercera actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Tercera actividad porcentaje":20
+      }
+    }
+  }
+}]

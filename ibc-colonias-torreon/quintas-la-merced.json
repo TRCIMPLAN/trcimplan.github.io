@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Quintas La Merced",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":457,
+        "Porcentaje de población masculina":48.14,
+        "Porcentaje de población femenina":51.86,
+        "Porcentaje de población de 0 a 14 años":32.82,
+        "Porcentaje de población de 15 a 64 años":65.86,
+        "Porcentaje de población de 65 y más años":1.31,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":1.63,
+        "Porcentaje de población con discapacidad":3.37
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.15,
+        "Población Económicamente Activa masculina":60.99,
+        "Población Económicamente Activa femenina":39.01,
+        "Población Ocupada":92.35,
+        "Población Ocupada masculina":61.54,
+        "Población Ocupada femenina":38.46,
+        "Población Desocupada":7.65,
+        "Derechohabiencia":71.99
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":121,
+        "Ocupación por Vivienda":3.78,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.17,
+        "Viviendas con Televisión":98.35,
+        "Viviendas con Automóvil":71.07,
+        "Viviendas con Computadora":49.59
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":60,
+        "Segunda actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Salud",
+        "Tercera actividad porcentaje":20
+      }
+    }
+  }
+}]

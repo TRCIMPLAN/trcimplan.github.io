@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Lázaro Cárdenas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":5473,
+        "Porcentaje de población masculina":49.54,
+        "Porcentaje de población femenina":50.46,
+        "Porcentaje de población de 0 a 14 años":33,
+        "Porcentaje de población de 15 a 64 años":62.32,
+        "Porcentaje de población de 65 y más años":4.63,
+        "Porcentaje de población no especificada":0.05,
+        "Fecundidad promedio":2.53,
+        "Porcentaje de población con discapacidad":9.89
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.71,
+        "Población Económicamente Activa masculina":71.22,
+        "Población Económicamente Activa femenina":28.78,
+        "Población Ocupada":90.49,
+        "Población Ocupada masculina":70.4,
+        "Población Ocupada femenina":29.6,
+        "Población Desocupada":9.51,
+        "Derechohabiencia":64.77
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1381,
+        "Ocupación por Vivienda":3.96,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":97.09,
+        "Viviendas con Drenaje":96.79,
+        "Viviendas con Televisión":97.08,
+        "Viviendas con Automóvil":40.24,
+        "Viviendas con Computadora":17.62
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":166,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":43.98,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":19.28,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":11.45,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":9.04,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":4.22
+      }
+    }
+  }
+}]

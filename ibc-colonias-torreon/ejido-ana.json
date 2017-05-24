@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido Ana",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2572,
+        "Porcentaje de población masculina":49.51,
+        "Porcentaje de población femenina":50.49,
+        "Porcentaje de población de 0 a 14 años":31.52,
+        "Porcentaje de población de 15 a 64 años":62.94,
+        "Porcentaje de población de 65 y más años":5.04,
+        "Porcentaje de población no especificada":0.5,
+        "Fecundidad promedio":2.44,
+        "Porcentaje de población con discapacidad":4.57
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":48.5,
+        "Población Económicamente Activa masculina":74.88,
+        "Población Económicamente Activa femenina":25.12,
+        "Población Ocupada":91.19,
+        "Población Ocupada masculina":73.14,
+        "Población Ocupada femenina":26.86,
+        "Población Desocupada":8.81,
+        "Derechohabiencia":65.72
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":625,
+        "Ocupación por Vivienda":4.12,
+        "Viviendas con Electricidad":99.46,
+        "Viviendas con Agua":98.11,
+        "Viviendas con Drenaje":95.52,
+        "Viviendas con Televisión":97.71,
+        "Viviendas con Automóvil":39.5,
+        "Viviendas con Computadora":15.76
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":101,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":36.63,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":19.8,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":13.86,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":8.91,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":7.92
+      }
+    }
+  }
+}]

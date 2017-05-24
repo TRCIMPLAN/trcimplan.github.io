@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Tierra y Libertad",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3806,
+        "Porcentaje de población masculina":49.08,
+        "Porcentaje de población femenina":50.92,
+        "Porcentaje de población de 0 a 14 años":27.48,
+        "Porcentaje de población de 15 a 64 años":62.14,
+        "Porcentaje de población de 65 y más años":8.96,
+        "Porcentaje de población no especificada":1.42,
+        "Fecundidad promedio":2.9,
+        "Porcentaje de población con discapacidad":8.96
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.07,
+        "Población Económicamente Activa masculina":64.59,
+        "Población Económicamente Activa femenina":35.41,
+        "Población Ocupada":89.13,
+        "Población Ocupada masculina":63.14,
+        "Población Ocupada femenina":36.86,
+        "Población Desocupada":10.87,
+        "Derechohabiencia":63.61
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":920,
+        "Ocupación por Vivienda":4.14,
+        "Viviendas con Electricidad":99.67,
+        "Viviendas con Agua":99.57,
+        "Viviendas con Drenaje":99.57,
+        "Viviendas con Televisión":98.48,
+        "Viviendas con Automóvil":34.31,
+        "Viviendas con Computadora":18.95
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":115,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":43.48,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":13.91,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":13.04,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":12.17,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":5.22
+      }
+    }
+  }
+}]

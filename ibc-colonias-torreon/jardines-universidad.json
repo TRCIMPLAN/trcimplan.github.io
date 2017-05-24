@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Jardines Universidad",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":4867,
+        "Porcentaje de población masculina":49.77,
+        "Porcentaje de población femenina":50.23,
+        "Porcentaje de población de 0 a 14 años":25.33,
+        "Porcentaje de población de 15 a 64 años":44.87,
+        "Porcentaje de población de 65 y más años":12.45,
+        "Porcentaje de población no especificada":17.35,
+        "Fecundidad promedio":1.8,
+        "Porcentaje de población con discapacidad":1.44
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.28,
+        "Población Económicamente Activa masculina":65.66,
+        "Población Económicamente Activa femenina":34.34,
+        "Población Ocupada":90.43,
+        "Población Ocupada masculina":65.15,
+        "Población Ocupada femenina":34.85,
+        "Población Desocupada":9.57,
+        "Derechohabiencia":54.37
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":952,
+        "Ocupación por Vivienda":5.11,
+        "Viviendas con Electricidad":99.15,
+        "Viviendas con Agua":98.94,
+        "Viviendas con Drenaje":99.04,
+        "Viviendas con Televisión":98.1,
+        "Viviendas con Automóvil":52.23,
+        "Viviendas con Computadora":32.35
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":122,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50.82,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":16.39,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":15.57,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":5.74,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":4.92
+      }
+    }
+  }
+}]

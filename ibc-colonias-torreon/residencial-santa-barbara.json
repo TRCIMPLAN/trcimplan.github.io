@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Residencial Santa Bárbara",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":653,
+        "Porcentaje de población masculina":50.23,
+        "Porcentaje de población femenina":49.77,
+        "Porcentaje de población de 0 a 14 años":31.55,
+        "Porcentaje de población de 15 a 64 años":63.55,
+        "Porcentaje de población de 65 y más años":1.68,
+        "Porcentaje de población no especificada":3.22,
+        "Fecundidad promedio":1.46,
+        "Porcentaje de población con discapacidad":0.13
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":63.94,
+        "Población Económicamente Activa masculina":61.9,
+        "Población Económicamente Activa femenina":38.1,
+        "Población Ocupada":97.88,
+        "Población Ocupada masculina":61.8,
+        "Población Ocupada femenina":38.2,
+        "Población Desocupada":2.12,
+        "Derechohabiencia":79.17
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":195,
+        "Ocupación por Vivienda":3.35,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.97,
+        "Viviendas con Drenaje":98.97,
+        "Viviendas con Televisión":98.97,
+        "Viviendas con Automóvil":96.92,
+        "Viviendas con Computadora":92.82
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":26,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":42.31,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":19.23,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":15.38,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.69,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":7.69
+      }
+    }
+  }
+}]

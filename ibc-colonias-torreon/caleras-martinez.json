@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Caleras Martínez",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":840,
+        "Porcentaje de población masculina":50.3,
+        "Porcentaje de población femenina":49.7,
+        "Porcentaje de población de 0 a 14 años":27.18,
+        "Porcentaje de población de 15 a 64 años":64.48,
+        "Porcentaje de población de 65 y más años":8.34,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.68,
+        "Porcentaje de población con discapacidad":10.33
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.05,
+        "Población Económicamente Activa masculina":79.41,
+        "Población Económicamente Activa femenina":20.59,
+        "Población Ocupada":87.1,
+        "Población Ocupada masculina":77.45,
+        "Población Ocupada femenina":22.55,
+        "Población Desocupada":12.9,
+        "Derechohabiencia":57.63
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":214,
+        "Ocupación por Vivienda":3.93,
+        "Viviendas con Electricidad":99.18,
+        "Viviendas con Agua":91.23,
+        "Viviendas con Drenaje":99.18,
+        "Viviendas con Televisión":96.84,
+        "Viviendas con Automóvil":28.28,
+        "Viviendas con Computadora":13.36
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":11,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":81.82,
+        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad porcentaje":18.18
+      }
+    }
+  }
+}]

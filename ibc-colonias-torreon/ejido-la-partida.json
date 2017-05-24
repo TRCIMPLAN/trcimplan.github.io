@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ejido La Partida",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":4010,
+        "Porcentaje de población masculina":49.41,
+        "Porcentaje de población femenina":50.59,
+        "Porcentaje de población de 0 a 14 años":29.48,
+        "Porcentaje de población de 15 a 64 años":64.1,
+        "Porcentaje de población de 65 y más años":6.23,
+        "Porcentaje de población no especificada":0.19,
+        "Fecundidad promedio":2.45,
+        "Porcentaje de población con discapacidad":4.02
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.25,
+        "Población Económicamente Activa masculina":72.11,
+        "Población Económicamente Activa femenina":27.89,
+        "Población Ocupada":88.29,
+        "Población Ocupada masculina":71.73,
+        "Población Ocupada femenina":28.27,
+        "Población Desocupada":11.71,
+        "Derechohabiencia":74.17
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":987,
+        "Ocupación por Vivienda":4.06,
+        "Viviendas con Electricidad":99.36,
+        "Viviendas con Agua":98.34,
+        "Viviendas con Drenaje":94.89,
+        "Viviendas con Televisión":98.72,
+        "Viviendas con Automóvil":49.57,
+        "Viviendas con Computadora":28.62
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":149,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":46.31,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":15.44,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":15.44,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":8.05,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":4.03
+      }
+    }
+  }
+}]

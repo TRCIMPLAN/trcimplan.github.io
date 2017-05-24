@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Real del Sol II",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":574,
+        "Porcentaje de población masculina":46.68,
+        "Porcentaje de población femenina":53.32,
+        "Porcentaje de población de 0 a 14 años":38.35,
+        "Porcentaje de población de 15 a 64 años":60.58,
+        "Porcentaje de población de 65 y más años":1.06,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":1.94,
+        "Porcentaje de población con discapacidad":2
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.76,
+        "Población Económicamente Activa masculina":65.6,
+        "Población Económicamente Activa femenina":34.4,
+        "Población Ocupada":96.76,
+        "Población Ocupada masculina":64.49,
+        "Población Ocupada femenina":35.51,
+        "Población Desocupada":3.24,
+        "Derechohabiencia":68.3
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":149,
+        "Ocupación por Vivienda":3.85,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.05,
+        "Viviendas con Automóvil":34.64,
+        "Viviendas con Computadora":14.9
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

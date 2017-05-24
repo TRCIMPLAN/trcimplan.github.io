@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Valle Dorado",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3485,
+        "Porcentaje de población masculina":48.44,
+        "Porcentaje de población femenina":51.56,
+        "Porcentaje de población de 0 a 14 años":21.61,
+        "Porcentaje de población de 15 a 64 años":69.93,
+        "Porcentaje de población de 65 y más años":6.66,
+        "Porcentaje de población no especificada":1.8,
+        "Fecundidad promedio":2.03,
+        "Porcentaje de población con discapacidad":2.91
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.78,
+        "Población Económicamente Activa masculina":56.64,
+        "Población Económicamente Activa femenina":43.36,
+        "Población Ocupada":91.19,
+        "Población Ocupada masculina":55.62,
+        "Población Ocupada femenina":44.38,
+        "Población Desocupada":8.81,
+        "Derechohabiencia":75.38
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":981,
+        "Ocupación por Vivienda":3.55,
+        "Viviendas con Electricidad":99.8,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.39,
+        "Viviendas con Automóvil":75.54,
+        "Viviendas con Computadora":60.65
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":69,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":34.78,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":21.74,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":17.39,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":5.8,
+        "Quinta actividad nombre":"Inmobiliarios",
+        "Quinta actividad porcentaje":4.35
+      }
+    }
+  }
+}]

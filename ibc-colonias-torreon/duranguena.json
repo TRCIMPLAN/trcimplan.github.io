@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Durangueña",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":996,
+        "Porcentaje de población masculina":48.48,
+        "Porcentaje de población femenina":51.52,
+        "Porcentaje de población de 0 a 14 años":27.66,
+        "Porcentaje de población de 15 a 64 años":62.7,
+        "Porcentaje de población de 65 y más años":9.64,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.55,
+        "Porcentaje de población con discapacidad":8.88
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":48.95,
+        "Población Económicamente Activa masculina":70.54,
+        "Población Económicamente Activa femenina":29.46,
+        "Población Ocupada":94.67,
+        "Población Ocupada masculina":69.25,
+        "Población Ocupada femenina":30.75,
+        "Población Desocupada":5.33,
+        "Derechohabiencia":46.92
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":266,
+        "Ocupación por Vivienda":3.74,
+        "Viviendas con Electricidad":97.71,
+        "Viviendas con Agua":93.31,
+        "Viviendas con Drenaje":98.88,
+        "Viviendas con Televisión":94.49,
+        "Viviendas con Automóvil":12.32,
+        "Viviendas con Computadora":5.8
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":10,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":70,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Tercera actividad porcentaje":10
+      }
+    }
+  }
+}]

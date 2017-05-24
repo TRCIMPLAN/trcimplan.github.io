@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Polongación Los Nogales",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":3204,
+        "Porcentaje de población masculina":45.32,
+        "Porcentaje de población femenina":54.68,
+        "Porcentaje de población de 0 a 14 años":19.01,
+        "Porcentaje de población de 15 a 64 años":70.66,
+        "Porcentaje de población de 65 y más años":8.74,
+        "Porcentaje de población no especificada":1.59,
+        "Fecundidad promedio":1.99,
+        "Porcentaje de población con discapacidad":5.61
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.5,
+        "Población Económicamente Activa masculina":55.88,
+        "Población Económicamente Activa femenina":44.12,
+        "Población Ocupada":91.54,
+        "Población Ocupada masculina":54.86,
+        "Población Ocupada femenina":45.14,
+        "Población Desocupada":8.46,
+        "Derechohabiencia":78.71
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":901,
+        "Ocupación por Vivienda":3.56,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.89,
+        "Viviendas con Drenaje":99.89,
+        "Viviendas con Televisión":99.56,
+        "Viviendas con Automóvil":79.69,
+        "Viviendas con Computadora":64.82
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":91,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":36.26,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":19.78,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":10.99,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":6.59,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":6.59
+      }
+    }
+  }
+}]

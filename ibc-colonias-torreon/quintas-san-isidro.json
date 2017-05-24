@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Quintas San Isidro",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":804,
+        "Porcentaje de población masculina":48.38,
+        "Porcentaje de población femenina":51.62,
+        "Porcentaje de población de 0 a 14 años":27.68,
+        "Porcentaje de población de 15 a 64 años":68.95,
+        "Porcentaje de población de 65 y más años":2.99,
+        "Porcentaje de población no especificada":0.38,
+        "Fecundidad promedio":1.49,
+        "Porcentaje de población con discapacidad":1.28
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.63,
+        "Población Económicamente Activa masculina":62.43,
+        "Población Económicamente Activa femenina":37.57,
+        "Población Ocupada":96.88,
+        "Población Ocupada masculina":61.57,
+        "Población Ocupada femenina":38.43,
+        "Población Desocupada":3.12,
+        "Derechohabiencia":71.2
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":220,
+        "Ocupación por Vivienda":3.65,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.32,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.32,
+        "Viviendas con Automóvil":99.75,
+        "Viviendas con Computadora":89.72
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Zaragoza Norte",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":131,
+        "Porcentaje de población masculina":47.24,
+        "Porcentaje de población femenina":52.76,
+        "Porcentaje de población de 0 a 14 años":42.95,
+        "Porcentaje de población de 15 a 64 años":55.32,
+        "Porcentaje de población de 65 y más años":0.9,
+        "Porcentaje de población no especificada":0.83,
+        "Fecundidad promedio":2.34,
+        "Porcentaje de población con discapacidad":3.04
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.62,
+        "Población Económicamente Activa masculina":69.21,
+        "Población Económicamente Activa femenina":30.79,
+        "Población Ocupada":84.96,
+        "Población Ocupada masculina":69.51,
+        "Población Ocupada femenina":30.49,
+        "Población Desocupada":15.04,
+        "Derechohabiencia":74.92
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":31,
+        "Ocupación por Vivienda":4.23,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":94.03,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":49.33,
+        "Viviendas con Computadora":38.03
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Jesús García Corona",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":175,
+        "Porcentaje de población masculina":50.29,
+        "Porcentaje de población femenina":49.71,
+        "Porcentaje de población de 0 a 14 años":28,
+        "Porcentaje de población de 15 a 64 años":62.86,
+        "Porcentaje de población de 65 y más años":7.43,
+        "Porcentaje de población no especificada":1.71,
+        "Fecundidad promedio":2.86,
+        "Porcentaje de población con discapacidad":6.29
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.3,
+        "Población Económicamente Activa masculina":73.97,
+        "Población Económicamente Activa femenina":26.03,
+        "Población Ocupada":84.46,
+        "Población Ocupada masculina":76.19,
+        "Población Ocupada femenina":23.81,
+        "Población Desocupada":15.54,
+        "Derechohabiencia":42.29
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":38,
+        "Ocupación por Vivienda":4.61,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":89.47,
+        "Viviendas con Automóvil":31.58,
+        "Viviendas con Computadora":22.43
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":40,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":20
+      }
+    }
+  }
+}]

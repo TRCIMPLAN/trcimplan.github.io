@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Buenos Aires",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":238,
+        "Porcentaje de población masculina":45.66,
+        "Porcentaje de población femenina":54.34,
+        "Porcentaje de población de 0 a 14 años":29.81,
+        "Porcentaje de población de 15 a 64 años":67.09,
+        "Porcentaje de población de 65 y más años":3.1,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.12,
+        "Porcentaje de población con discapacidad":1.87
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.47,
+        "Población Económicamente Activa masculina":74.06,
+        "Población Económicamente Activa femenina":25.94,
+        "Población Ocupada":93.2,
+        "Población Ocupada masculina":73.43,
+        "Población Ocupada femenina":26.57,
+        "Población Desocupada":6.8,
+        "Derechohabiencia":74.9
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":62,
+        "Ocupación por Vivienda":3.84,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.12,
+        "Viviendas con Drenaje":99.19,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":25.82,
+        "Viviendas con Computadora":14.33
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

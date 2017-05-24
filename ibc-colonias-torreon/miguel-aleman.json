@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Miguel Alemán",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":727,
+        "Porcentaje de población masculina":46.22,
+        "Porcentaje de población femenina":53.78,
+        "Porcentaje de población de 0 a 14 años":27.65,
+        "Porcentaje de población de 15 a 64 años":62.17,
+        "Porcentaje de población de 65 y más años":9.77,
+        "Porcentaje de población no especificada":0.41,
+        "Fecundidad promedio":2.56,
+        "Porcentaje de población con discapacidad":7.02
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.87,
+        "Población Económicamente Activa masculina":62.33,
+        "Población Económicamente Activa femenina":37.67,
+        "Población Ocupada":90.71,
+        "Población Ocupada masculina":61.42,
+        "Población Ocupada femenina":38.58,
+        "Población Desocupada":9.29,
+        "Derechohabiencia":71.8
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":199,
+        "Ocupación por Vivienda":3.65,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.5,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.99,
+        "Viviendas con Automóvil":53.27,
+        "Viviendas con Computadora":35.17
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":52,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":32.69,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":19.23,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":15.38,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":9.62,
+        "Quinta actividad nombre":"Inmobiliarios",
+        "Quinta actividad porcentaje":5.77
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"La Dalia",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":4351,
+        "Porcentaje de población masculina":48.79,
+        "Porcentaje de población femenina":51.21,
+        "Porcentaje de población de 0 a 14 años":25.42,
+        "Porcentaje de población de 15 a 64 años":71.36,
+        "Porcentaje de población de 65 y más años":3.15,
+        "Porcentaje de población no especificada":0.07,
+        "Fecundidad promedio":2.2,
+        "Porcentaje de población con discapacidad":7.06
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.28,
+        "Población Económicamente Activa masculina":64.84,
+        "Población Económicamente Activa femenina":35.16,
+        "Población Ocupada":89.88,
+        "Población Ocupada masculina":63.64,
+        "Población Ocupada femenina":36.36,
+        "Población Desocupada":10.12,
+        "Derechohabiencia":77.52
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1087,
+        "Ocupación por Vivienda":4,
+        "Viviendas con Electricidad":99.91,
+        "Viviendas con Agua":99.63,
+        "Viviendas con Drenaje":99.82,
+        "Viviendas con Televisión":99.17,
+        "Viviendas con Automóvil":52.71,
+        "Viviendas con Computadora":36.25
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":88,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":51.14,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":18.18,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":12.5,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":5.68,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":4.55
+      }
+    }
+  }
+}]

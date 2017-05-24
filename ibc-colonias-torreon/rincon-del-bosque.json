@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Rincón del Bosque",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1041,
+        "Porcentaje de población masculina":51.2,
+        "Porcentaje de población femenina":48.8,
+        "Porcentaje de población de 0 a 14 años":31.12,
+        "Porcentaje de población de 15 a 64 años":62.63,
+        "Porcentaje de población de 65 y más años":4.51,
+        "Porcentaje de población no especificada":1.74,
+        "Fecundidad promedio":2.49,
+        "Porcentaje de población con discapacidad":5.15
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.3,
+        "Población Económicamente Activa masculina":70.97,
+        "Población Económicamente Activa femenina":29.03,
+        "Población Ocupada":87.03,
+        "Población Ocupada masculina":69.37,
+        "Población Ocupada femenina":30.63,
+        "Población Desocupada":12.97,
+        "Derechohabiencia":60.61
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":249,
+        "Ocupación por Vivienda":4.18,
+        "Viviendas con Electricidad":99.6,
+        "Viviendas con Agua":99.6,
+        "Viviendas con Drenaje":99.6,
+        "Viviendas con Televisión":98.39,
+        "Viviendas con Automóvil":50.48,
+        "Viviendas con Computadora":31.3
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":33,
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
+        "Primer actividad porcentaje":36.36,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":30.3,
+        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad porcentaje":9.09,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":9.09,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":6.06
+      }
+    }
+  }
+}]

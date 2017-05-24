@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Villas de La Huerta",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":972,
+        "Porcentaje de población masculina":48.46,
+        "Porcentaje de población femenina":51.54,
+        "Porcentaje de población de 0 a 14 años":38.79,
+        "Porcentaje de población de 15 a 64 años":60.19,
+        "Porcentaje de población de 65 y más años":1.03,
+        "Porcentaje de población no especificada":-0.01,
+        "Fecundidad promedio":1.71,
+        "Porcentaje de población con discapacidad":1.3
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.99,
+        "Población Económicamente Activa masculina":67.65,
+        "Población Económicamente Activa femenina":32.35,
+        "Población Ocupada":93.42,
+        "Población Ocupada masculina":66.95,
+        "Población Ocupada femenina":33.05,
+        "Población Desocupada":6.58,
+        "Derechohabiencia":75.82
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":271,
+        "Ocupación por Vivienda":3.59,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.63,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.89,
+        "Viviendas con Automóvil":54.76,
+        "Viviendas con Computadora":25.64
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":18,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":44.44,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":33.33,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":5.56
+      }
+    }
+  }
+}]

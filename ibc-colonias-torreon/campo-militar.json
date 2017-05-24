@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Campo Militar",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":324,
+        "Porcentaje de población masculina":53.4,
+        "Porcentaje de población femenina":46.6,
+        "Porcentaje de población de 0 a 14 años":37.04,
+        "Porcentaje de población de 15 a 64 años":62.65,
+        "Porcentaje de población de 65 y más años":0.31,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.69,
+        "Porcentaje de población con discapacidad":0.93
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.98,
+        "Población Económicamente Activa masculina":91.59,
+        "Población Económicamente Activa femenina":8.41,
+        "Población Ocupada":99.06,
+        "Población Ocupada masculina":91.51,
+        "Población Ocupada femenina":8.49,
+        "Población Desocupada":0.94,
+        "Derechohabiencia":99.69
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":96,
+        "Ocupación por Vivienda":3.38,
+        "Viviendas con Electricidad":97.92,
+        "Viviendas con Agua":97.92,
+        "Viviendas con Drenaje":97.92,
+        "Viviendas con Televisión":97.92,
+        "Viviendas con Automóvil":63.54,
+        "Viviendas con Computadora":53.12
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":9,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":44.44,
+        "Segunda actividad nombre":"Gubernamentales",
+        "Segunda actividad porcentaje":22.22,
+        "Tercera actividad nombre":"Inmobiliarios",
+        "Tercera actividad porcentaje":11.11,
+        "Cuarta actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Cuarta actividad porcentaje":11.11,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":11.11
+      }
+    }
+  }
+}]

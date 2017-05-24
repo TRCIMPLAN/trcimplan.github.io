@@ -1,0 +1,57 @@
+[{
+  "Nombre":"La Perla",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2587,
+        "Porcentaje de población masculina":50.17,
+        "Porcentaje de población femenina":49.83,
+        "Porcentaje de población de 0 a 14 años":39.47,
+        "Porcentaje de población de 15 a 64 años":58.56,
+        "Porcentaje de población de 65 y más años":1.74,
+        "Porcentaje de población no especificada":0.23,
+        "Fecundidad promedio":1.91,
+        "Porcentaje de población con discapacidad":2.24
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.92,
+        "Población Económicamente Activa masculina":70.98,
+        "Población Económicamente Activa femenina":29.02,
+        "Población Ocupada":94.67,
+        "Población Ocupada masculina":69.76,
+        "Población Ocupada femenina":30.24,
+        "Población Desocupada":5.33,
+        "Derechohabiencia":72.44
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":679,
+        "Ocupación por Vivienda":3.81,
+        "Viviendas con Electricidad":99.85,
+        "Viviendas con Agua":99.85,
+        "Viviendas con Drenaje":99.85,
+        "Viviendas con Televisión":99.12,
+        "Viviendas con Automóvil":45.51,
+        "Viviendas con Computadora":27.69
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":87,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":41.38,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":28.74,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":16.09,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":5.75,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":3.45
+      }
+    }
+  }
+}]

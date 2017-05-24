@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Bugambilias",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":450,
+        "Porcentaje de población masculina":49.78,
+        "Porcentaje de población femenina":50.22,
+        "Porcentaje de población de 0 a 14 años":20,
+        "Porcentaje de población de 15 a 64 años":68.89,
+        "Porcentaje de población de 65 y más años":11.11,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.46,
+        "Porcentaje de población con discapacidad":5.55
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.42,
+        "Población Económicamente Activa masculina":60.59,
+        "Población Económicamente Activa femenina":39.41,
+        "Población Ocupada":85.58,
+        "Población Ocupada masculina":57.06,
+        "Población Ocupada femenina":42.94,
+        "Población Desocupada":14.42,
+        "Derechohabiencia":68.67
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":126,
+        "Ocupación por Vivienda":3.57,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.21,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.21,
+        "Viviendas con Automóvil":55.56,
+        "Viviendas con Computadora":50
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":23,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":21.74,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":17.39,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":17.39,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":8.7,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":8.7
+      }
+    }
+  }
+}]

@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Los Portales",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":49,
+        "Porcentaje de población masculina":48.98,
+        "Porcentaje de población femenina":51.02,
+        "Porcentaje de población de 0 a 14 años":22.45,
+        "Porcentaje de población de 15 a 64 años":73.47,
+        "Porcentaje de población de 65 y más años":4.08,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.45,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":65,
+        "Población Económicamente Activa masculina":53.85,
+        "Población Económicamente Activa femenina":46.15,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":53.85,
+        "Población Ocupada femenina":46.15,
+        "Población Desocupada":0,
+        "Derechohabiencia":100
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":16,
+        "Ocupación por Vivienda":3.06,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":93.75,
+        "Viviendas con Automóvil":100,
+        "Viviendas con Computadora":100
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad porcentaje":50
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Los Monasterios 1° Etapa",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":389,
+        "Porcentaje de población masculina":46.91,
+        "Porcentaje de población femenina":53.09,
+        "Porcentaje de población de 0 a 14 años":38.7,
+        "Porcentaje de población de 15 a 64 años":60.19,
+        "Porcentaje de población de 65 y más años":1.08,
+        "Porcentaje de población no especificada":0.03,
+        "Fecundidad promedio":2.11,
+        "Porcentaje de población con discapacidad":1.59
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":60.41,
+        "Población Económicamente Activa masculina":65.7,
+        "Población Económicamente Activa femenina":34.3,
+        "Población Ocupada":97.23,
+        "Población Ocupada masculina":64.77,
+        "Población Ocupada femenina":35.23,
+        "Población Desocupada":2.77,
+        "Derechohabiencia":74.78
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":104,
+        "Ocupación por Vivienda":3.74,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.4,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.4,
+        "Viviendas con Automóvil":40.79,
+        "Viviendas con Computadora":20.99
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":18,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":38.89,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":22.22,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":22.22,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":11.11,
+        "Quinta actividad nombre":"Comercio Mayoreo",
+        "Quinta actividad porcentaje":5.56
+      }
+    }
+  }
+}]

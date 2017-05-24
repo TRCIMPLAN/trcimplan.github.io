@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Villa de Las Perlas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":313,
+        "Porcentaje de población masculina":51.76,
+        "Porcentaje de población femenina":48.24,
+        "Porcentaje de población de 0 a 14 años":27.48,
+        "Porcentaje de población de 15 a 64 años":69.01,
+        "Porcentaje de población de 65 y más años":2.56,
+        "Porcentaje de población no especificada":0.95,
+        "Fecundidad promedio":1.55,
+        "Porcentaje de población con discapacidad":2.66
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":67.83,
+        "Población Económicamente Activa masculina":56.41,
+        "Población Económicamente Activa femenina":43.59,
+        "Población Ocupada":98.7,
+        "Población Ocupada masculina":56.49,
+        "Población Ocupada femenina":43.51,
+        "Población Desocupada":1.3,
+        "Derechohabiencia":84.35
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":89,
+        "Ocupación por Vivienda":3.52,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.88,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":97.75,
+        "Viviendas con Computadora":79.78
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

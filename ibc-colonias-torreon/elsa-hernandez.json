@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Elsa Hernández",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2404,
+        "Porcentaje de población masculina":48.15,
+        "Porcentaje de población femenina":51.85,
+        "Porcentaje de población de 0 a 14 años":28.49,
+        "Porcentaje de población de 15 a 64 años":62.1,
+        "Porcentaje de población de 65 y más años":5.41,
+        "Porcentaje de población no especificada":4,
+        "Fecundidad promedio":2.59,
+        "Porcentaje de población con discapacidad":1.9
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.58,
+        "Población Económicamente Activa masculina":66.56,
+        "Población Económicamente Activa femenina":33.44,
+        "Población Ocupada":86.89,
+        "Población Ocupada masculina":66.34,
+        "Población Ocupada femenina":33.66,
+        "Población Desocupada":13.11,
+        "Derechohabiencia":59.4
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":569,
+        "Ocupación por Vivienda":4.22,
+        "Viviendas con Electricidad":99.95,
+        "Viviendas con Agua":99.78,
+        "Viviendas con Drenaje":99.25,
+        "Viviendas con Televisión":96.79,
+        "Viviendas con Automóvil":36.36,
+        "Viviendas con Computadora":16.9
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":89,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":38.2,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":23.6,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":12.36,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":7.87,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":7.87
+      }
+    }
+  }
+}]

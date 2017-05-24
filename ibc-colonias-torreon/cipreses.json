@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Cipreses",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":61,
+        "Porcentaje de población masculina":57.38,
+        "Porcentaje de población femenina":42.62,
+        "Porcentaje de población de 0 a 14 años":32.79,
+        "Porcentaje de población de 15 a 64 años":57.38,
+        "Porcentaje de población de 65 y más años":0,
+        "Porcentaje de población no especificada":9.83,
+        "Fecundidad promedio":1.81,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":71.43,
+        "Población Económicamente Activa masculina":64,
+        "Población Económicamente Activa femenina":36,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":64,
+        "Población Ocupada femenina":36,
+        "Población Desocupada":0,
+        "Derechohabiencia":77.05
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":16,
+        "Ocupación por Vivienda":3.81,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":100,
+        "Viviendas con Computadora":100
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

@@ -1,0 +1,26 @@
+[{
+  "Nombre":"Rastro Municipal",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":0
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":25,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":25
+      }
+    }
+  }
+}]

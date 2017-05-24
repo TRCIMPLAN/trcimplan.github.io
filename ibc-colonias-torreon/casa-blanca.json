@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Casa Blanca",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":742,
+        "Porcentaje de población masculina":46.5,
+        "Porcentaje de población femenina":53.5,
+        "Porcentaje de población de 0 a 14 años":21.97,
+        "Porcentaje de población de 15 a 64 años":71.83,
+        "Porcentaje de población de 65 y más años":5.8,
+        "Porcentaje de población no especificada":0.4,
+        "Fecundidad promedio":1.59,
+        "Porcentaje de población con discapacidad":1.49
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.22,
+        "Población Económicamente Activa masculina":58.1,
+        "Población Económicamente Activa femenina":41.9,
+        "Población Ocupada":97.4,
+        "Población Ocupada masculina":57.65,
+        "Población Ocupada femenina":42.35,
+        "Población Desocupada":2.6,
+        "Derechohabiencia":83.15
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":204,
+        "Ocupación por Vivienda":3.64,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":93.63,
+        "Viviendas con Computadora":85.8
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":17,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":35.29,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":17.65,
+        "Tercera actividad nombre":"Inmobiliarios",
+        "Tercera actividad porcentaje":11.76,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":11.76,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":11.76
+      }
+    }
+  }
+}]

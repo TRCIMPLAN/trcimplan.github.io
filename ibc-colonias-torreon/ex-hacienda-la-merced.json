@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ex-Hacienda La Merced",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":86,
+        "Porcentaje de población masculina":42.9,
+        "Porcentaje de población femenina":57.1,
+        "Porcentaje de población de 0 a 14 años":21.22,
+        "Porcentaje de población de 15 a 64 años":63.19,
+        "Porcentaje de población de 65 y más años":15.58,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":3.02,
+        "Porcentaje de población con discapacidad":6.96
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":50.83,
+        "Población Económicamente Activa masculina":66.15,
+        "Población Económicamente Activa femenina":33.85,
+        "Población Ocupada":83.52,
+        "Población Ocupada masculina":67.14,
+        "Población Ocupada femenina":32.86,
+        "Población Desocupada":16.48,
+        "Derechohabiencia":70.54
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":25,
+        "Ocupación por Vivienda":3.44,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":52.72,
+        "Viviendas con Computadora":48.34
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":11,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":54.55,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":18.18,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":9.09,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":9.09,
+        "Quinta actividad nombre":"Gubernamentales",
+        "Quinta actividad porcentaje":9.09
+      }
+    }
+  }
+}]

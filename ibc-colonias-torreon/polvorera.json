@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Polvorera",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1210,
+        "Porcentaje de población masculina":48.92,
+        "Porcentaje de población femenina":51.08,
+        "Porcentaje de población de 0 a 14 años":27.23,
+        "Porcentaje de población de 15 a 64 años":65.01,
+        "Porcentaje de población de 65 y más años":7.76,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.23,
+        "Porcentaje de población con discapacidad":3.78
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":51.55,
+        "Población Económicamente Activa masculina":71.2,
+        "Población Económicamente Activa femenina":28.8,
+        "Población Ocupada":97.44,
+        "Población Ocupada masculina":70.88,
+        "Población Ocupada femenina":29.12,
+        "Población Desocupada":2.56,
+        "Derechohabiencia":71.42
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":324,
+        "Ocupación por Vivienda":3.73,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.98,
+        "Viviendas con Drenaje":99.91,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":34.04,
+        "Viviendas con Computadora":18.93
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":17,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":76.47,
+        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad porcentaje":5.88,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":5.88,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":5.88,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":5.88
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Quintas Laguna",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":955,
+        "Porcentaje de población masculina":50.05,
+        "Porcentaje de población femenina":49.95,
+        "Porcentaje de población de 0 a 14 años":36.86,
+        "Porcentaje de población de 15 a 64 años":58.64,
+        "Porcentaje de población de 65 y más años":1.36,
+        "Porcentaje de población no especificada":3.14,
+        "Fecundidad promedio":1.84,
+        "Porcentaje de población con discapacidad":1.47
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.56,
+        "Población Económicamente Activa masculina":65.3,
+        "Población Económicamente Activa femenina":34.7,
+        "Población Ocupada":93.93,
+        "Población Ocupada masculina":64.93,
+        "Población Ocupada femenina":35.07,
+        "Población Desocupada":6.07,
+        "Derechohabiencia":79.06
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":243,
+        "Ocupación por Vivienda":3.93,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":99.59,
+        "Viviendas con Automóvil":62.55,
+        "Viviendas con Computadora":35.07
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":19,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":47.37,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":26.32,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":15.79,
+        "Cuarta actividad nombre":"Financieros y Seguros",
+        "Cuarta actividad porcentaje":5.26,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":5.26
+      }
+    }
+  }
+}]

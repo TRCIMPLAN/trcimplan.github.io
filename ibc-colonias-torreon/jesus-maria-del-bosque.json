@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Jesús Maria del Bosque",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":19,
+        "Porcentaje de población masculina":48.22,
+        "Porcentaje de población femenina":51.78,
+        "Porcentaje de población de 0 a 14 años":22.86,
+        "Porcentaje de población de 15 a 64 años":68.19,
+        "Porcentaje de población de 65 y más años":8.58,
+        "Porcentaje de población no especificada":0.37,
+        "Fecundidad promedio":2.31,
+        "Porcentaje de población con discapacidad":6.29
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":53.25,
+        "Población Económicamente Activa masculina":62.64,
+        "Población Económicamente Activa femenina":37.36,
+        "Población Ocupada":87.54,
+        "Población Ocupada masculina":62.08,
+        "Población Ocupada femenina":37.92,
+        "Población Desocupada":12.46,
+        "Derechohabiencia":73.15
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":4,
+        "Ocupación por Vivienda":4.75,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":58.9,
+        "Viviendas con Computadora":43.66
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

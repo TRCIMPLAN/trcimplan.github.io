@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Hogares Ferrocarrileros",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1719,
+        "Porcentaje de población masculina":47.41,
+        "Porcentaje de población femenina":52.59,
+        "Porcentaje de población de 0 a 14 años":20.42,
+        "Porcentaje de población de 15 a 64 años":66.84,
+        "Porcentaje de población de 65 y más años":11.11,
+        "Porcentaje de población no especificada":1.63,
+        "Fecundidad promedio":2.23,
+        "Porcentaje de población con discapacidad":4.47
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.64,
+        "Población Económicamente Activa masculina":58.33,
+        "Población Económicamente Activa femenina":41.67,
+        "Población Ocupada":92.47,
+        "Población Ocupada masculina":57.19,
+        "Población Ocupada femenina":42.81,
+        "Población Desocupada":7.53,
+        "Derechohabiencia":76.91
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":458,
+        "Ocupación por Vivienda":3.75,
+        "Viviendas con Electricidad":99.56,
+        "Viviendas con Agua":99.13,
+        "Viviendas con Drenaje":99.78,
+        "Viviendas con Televisión":97.82,
+        "Viviendas con Automóvil":52.93,
+        "Viviendas con Computadora":48.47
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":50,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":38,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":26,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":12,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":10,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":4
+      }
+    }
+  }
+}]

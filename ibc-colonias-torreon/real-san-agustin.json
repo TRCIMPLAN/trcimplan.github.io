@@ -1,0 +1,53 @@
+[{
+  "Nombre":"Real San Agustín",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":599,
+        "Porcentaje de población masculina":49.75,
+        "Porcentaje de población femenina":50.25,
+        "Porcentaje de población de 0 a 14 años":38.4,
+        "Porcentaje de población de 15 a 64 años":59.77,
+        "Porcentaje de población de 65 y más años":1.84,
+        "Porcentaje de población no especificada":-0.01,
+        "Fecundidad promedio":1.97,
+        "Porcentaje de población con discapacidad":3.91
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.42,
+        "Población Económicamente Activa masculina":70.91,
+        "Población Económicamente Activa femenina":29.09,
+        "Población Ocupada":89.55,
+        "Población Ocupada masculina":69.35,
+        "Población Ocupada femenina":30.65,
+        "Población Desocupada":10.45,
+        "Derechohabiencia":75.63
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":161,
+        "Ocupación por Vivienda":3.72,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":98.76,
+        "Viviendas con Drenaje":98.14,
+        "Viviendas con Televisión":98.76,
+        "Viviendas con Automóvil":37.87,
+        "Viviendas con Computadora":16.79
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":40,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":40,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":20
+      }
+    }
+  }
+}]

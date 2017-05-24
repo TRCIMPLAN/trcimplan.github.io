@@ -1,0 +1,22 @@
+[{
+  "Nombre":"Nueva Creación",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":0
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Educativos",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

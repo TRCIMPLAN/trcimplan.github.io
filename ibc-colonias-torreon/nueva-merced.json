@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Nueva Merced",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1479,
+        "Porcentaje de población masculina":49.63,
+        "Porcentaje de población femenina":50.37,
+        "Porcentaje de población de 0 a 14 años":33.91,
+        "Porcentaje de población de 15 a 64 años":62.47,
+        "Porcentaje de población de 65 y más años":3.41,
+        "Porcentaje de población no especificada":0.21,
+        "Fecundidad promedio":2.43,
+        "Porcentaje de población con discapacidad":3.82
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.71,
+        "Población Económicamente Activa masculina":78.43,
+        "Población Económicamente Activa femenina":21.57,
+        "Población Ocupada":91.94,
+        "Población Ocupada masculina":77.5,
+        "Población Ocupada femenina":22.5,
+        "Población Desocupada":8.06,
+        "Derechohabiencia":49.42
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":352,
+        "Ocupación por Vivienda":4.2,
+        "Viviendas con Electricidad":99.52,
+        "Viviendas con Agua":98.09,
+        "Viviendas con Drenaje":98.66,
+        "Viviendas con Televisión":98.38,
+        "Viviendas con Automóvil":36.49,
+        "Viviendas con Computadora":15.87
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":42,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":52.38,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":14.29,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":11.9,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":9.52,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":7.14
+      }
+    }
+  }
+}]

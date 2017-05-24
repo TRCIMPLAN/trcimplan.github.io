@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Mayrán",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1234,
+        "Porcentaje de población masculina":50.41,
+        "Porcentaje de población femenina":49.59,
+        "Porcentaje de población de 0 a 14 años":33.45,
+        "Porcentaje de población de 15 a 64 años":63.62,
+        "Porcentaje de población de 65 y más años":2.94,
+        "Porcentaje de población no especificada":-0.01,
+        "Fecundidad promedio":2.21,
+        "Porcentaje de población con discapacidad":5.21
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.04,
+        "Población Económicamente Activa masculina":70.58,
+        "Población Económicamente Activa femenina":29.42,
+        "Población Ocupada":92.38,
+        "Población Ocupada masculina":69.55,
+        "Población Ocupada femenina":30.45,
+        "Población Desocupada":7.62,
+        "Derechohabiencia":67.14
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":314,
+        "Ocupación por Vivienda":3.93,
+        "Viviendas con Electricidad":97.43,
+        "Viviendas con Agua":89.11,
+        "Viviendas con Drenaje":92.63,
+        "Viviendas con Televisión":94.87,
+        "Viviendas con Automóvil":43.58,
+        "Viviendas con Computadora":17.01
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":26,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":11.54,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":7.69,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":7.69,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":7.69
+      }
+    }
+  }
+}]

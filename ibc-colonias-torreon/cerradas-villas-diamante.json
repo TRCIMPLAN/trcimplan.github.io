@@ -1,0 +1,47 @@
+[{
+  "Nombre":"Cerradas Villas Diamante",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":109,
+        "Porcentaje de población masculina":51.38,
+        "Porcentaje de población femenina":48.62,
+        "Porcentaje de población de 0 a 14 años":27.52,
+        "Porcentaje de población de 15 a 64 años":69.72,
+        "Porcentaje de población de 65 y más años":0,
+        "Porcentaje de población no especificada":2.76,
+        "Fecundidad promedio":1.44,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":67.5,
+        "Población Económicamente Activa masculina":61.11,
+        "Población Económicamente Activa femenina":38.89,
+        "Población Ocupada":96.16,
+        "Población Ocupada masculina":61.54,
+        "Población Ocupada femenina":38.46,
+        "Población Desocupada":3.84,
+        "Derechohabiencia":83.49
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":29,
+        "Ocupación por Vivienda":3.76,
+        "Viviendas con Electricidad":96.55,
+        "Viviendas con Agua":96.55,
+        "Viviendas con Drenaje":96.55,
+        "Viviendas con Televisión":96.55,
+        "Viviendas con Automóvil":86.21,
+        "Viviendas con Computadora":82.76
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

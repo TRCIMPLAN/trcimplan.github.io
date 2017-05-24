@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Sol de Oriente",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2182,
+        "Porcentaje de población masculina":49.95,
+        "Porcentaje de población femenina":50.05,
+        "Porcentaje de población de 0 a 14 años":36.43,
+        "Porcentaje de población de 15 a 64 años":61.78,
+        "Porcentaje de población de 65 y más años":1.1,
+        "Porcentaje de población no especificada":0.69,
+        "Fecundidad promedio":1.92,
+        "Porcentaje de población con discapacidad":2.79
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.08,
+        "Población Económicamente Activa masculina":64.32,
+        "Población Económicamente Activa femenina":35.68,
+        "Población Ocupada":91.99,
+        "Población Ocupada masculina":63.43,
+        "Población Ocupada femenina":36.57,
+        "Población Desocupada":8.01,
+        "Derechohabiencia":76.4
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":597,
+        "Ocupación por Vivienda":3.65,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.66,
+        "Viviendas con Drenaje":99.5,
+        "Viviendas con Televisión":98.66,
+        "Viviendas con Automóvil":57.29,
+        "Viviendas con Computadora":34.84
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":86,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":36.05,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":22.09,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":18.6,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":4.65,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":4.65
+      }
+    }
+  }
+}]

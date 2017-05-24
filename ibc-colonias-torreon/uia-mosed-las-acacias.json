@@ -1,0 +1,24 @@
+[{
+  "Nombre":"UIA - Mosed - Las Acacias",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":0
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":4,
+        "Primer actividad nombre":"Educativos",
+        "Primer actividad porcentaje":75,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":25
+      }
+    }
+  }
+}]

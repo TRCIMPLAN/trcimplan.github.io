@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Sendas del Bosque",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":174,
+        "Porcentaje de población masculina":51.15,
+        "Porcentaje de población femenina":48.85,
+        "Porcentaje de población de 0 a 14 años":27.59,
+        "Porcentaje de población de 15 a 64 años":63.79,
+        "Porcentaje de población de 65 y más años":8.62,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":3.16,
+        "Porcentaje de población con discapacidad":1.72
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.59,
+        "Población Económicamente Activa masculina":74.65,
+        "Población Económicamente Activa femenina":25.35,
+        "Población Ocupada":94.05,
+        "Población Ocupada masculina":76.12,
+        "Población Ocupada femenina":23.88,
+        "Población Desocupada":5.95,
+        "Derechohabiencia":76.44
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":42,
+        "Ocupación por Vivienda":4.14,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":57.14,
+        "Viviendas con Computadora":30.95
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":11,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":45.45,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":27.27,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":18.18,
+        "Cuarta actividad nombre":"Inmobiliarios",
+        "Cuarta actividad porcentaje":9.09
+      }
+    }
+  }
+}]

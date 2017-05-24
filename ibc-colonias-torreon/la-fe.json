@@ -1,0 +1,53 @@
+[{
+  "Nombre":"La Fe",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":566,
+        "Porcentaje de población masculina":49.28,
+        "Porcentaje de población femenina":50.72,
+        "Porcentaje de población de 0 a 14 años":23.68,
+        "Porcentaje de población de 15 a 64 años":65.59,
+        "Porcentaje de población de 65 y más años":10.73,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":2.77,
+        "Porcentaje de población con discapacidad":13.49
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":47.02,
+        "Población Económicamente Activa masculina":68.66,
+        "Población Económicamente Activa femenina":31.34,
+        "Población Ocupada":88.58,
+        "Población Ocupada masculina":65.07,
+        "Población Ocupada femenina":34.93,
+        "Población Desocupada":11.42,
+        "Derechohabiencia":72.99
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":166,
+        "Ocupación por Vivienda":3.41,
+        "Viviendas con Electricidad":99.43,
+        "Viviendas con Agua":95.8,
+        "Viviendas con Drenaje":98.82,
+        "Viviendas con Televisión":96.39,
+        "Viviendas con Automóvil":15.15,
+        "Viviendas con Computadora":13.17
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":5,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":60,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad porcentaje":20
+      }
+    }
+  }
+}]

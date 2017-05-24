@@ -1,0 +1,49 @@
+[{
+  "Nombre":"Residencial Los Fresnos",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":936,
+        "Porcentaje de población masculina":46.58,
+        "Porcentaje de población femenina":53.42,
+        "Porcentaje de población de 0 a 14 años":27.56,
+        "Porcentaje de población de 15 a 64 años":69.23,
+        "Porcentaje de población de 65 y más años":2.46,
+        "Porcentaje de población no especificada":0.75,
+        "Fecundidad promedio":1.54,
+        "Porcentaje de población con discapacidad":1.39
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":49.05,
+        "Población Económicamente Activa masculina":66.76,
+        "Población Económicamente Activa femenina":33.24,
+        "Población Ocupada":98.31,
+        "Población Ocupada masculina":66.48,
+        "Población Ocupada femenina":33.52,
+        "Población Desocupada":1.69,
+        "Derechohabiencia":88.57
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":235,
+        "Ocupación por Vivienda":3.98,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":99.57,
+        "Viviendas con Televisión":97.87,
+        "Viviendas con Automóvil":97.87,
+        "Viviendas con Computadora":92.77
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":1,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":100
+      }
+    }
+  }
+}]

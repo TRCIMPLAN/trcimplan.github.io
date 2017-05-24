@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Monte Real",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":7297,
+        "Porcentaje de población masculina":48.98,
+        "Porcentaje de población femenina":51.02,
+        "Porcentaje de población de 0 a 14 años":37.77,
+        "Porcentaje de población de 15 a 64 años":60.07,
+        "Porcentaje de población de 65 y más años":1.43,
+        "Porcentaje de población no especificada":0.73,
+        "Fecundidad promedio":1.77,
+        "Porcentaje de población con discapacidad":1.73
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":61.46,
+        "Población Económicamente Activa masculina":63.61,
+        "Población Económicamente Activa femenina":36.39,
+        "Población Ocupada":94.43,
+        "Población Ocupada masculina":63.28,
+        "Población Ocupada femenina":36.72,
+        "Población Desocupada":5.57,
+        "Derechohabiencia":79.47
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1973,
+        "Ocupación por Vivienda":3.7,
+        "Viviendas con Electricidad":99.8,
+        "Viviendas con Agua":99.54,
+        "Viviendas con Drenaje":99.65,
+        "Viviendas con Televisión":99.54,
+        "Viviendas con Automóvil":59.76,
+        "Viviendas con Computadora":33.85
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":188,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":39.36,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":21.28,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":20.21,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":5.32,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":3.72
+      }
+    }
+  }
+}]

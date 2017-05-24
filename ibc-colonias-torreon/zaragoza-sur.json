@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Zaragoza Sur",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1487,
+        "Porcentaje de población masculina":51.31,
+        "Porcentaje de población femenina":48.69,
+        "Porcentaje de población de 0 a 14 años":38.26,
+        "Porcentaje de población de 15 a 64 años":58.71,
+        "Porcentaje de población de 65 y más años":2.96,
+        "Porcentaje de población no especificada":0.07,
+        "Fecundidad promedio":2.55,
+        "Porcentaje de población con discapacidad":5.58
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.19,
+        "Población Económicamente Activa masculina":70.3,
+        "Población Económicamente Activa femenina":29.7,
+        "Población Ocupada":89.62,
+        "Población Ocupada masculina":68.35,
+        "Población Ocupada femenina":31.65,
+        "Población Desocupada":10.38,
+        "Derechohabiencia":69.47
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":348,
+        "Ocupación por Vivienda":4.27,
+        "Viviendas con Electricidad":99.14,
+        "Viviendas con Agua":93.97,
+        "Viviendas con Drenaje":94.83,
+        "Viviendas con Televisión":95.69,
+        "Viviendas con Automóvil":34.44,
+        "Viviendas con Computadora":29.8
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":87,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":41.38,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":21.84,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":13.79,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":9.2,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":4.6
+      }
+    }
+  }
+}]

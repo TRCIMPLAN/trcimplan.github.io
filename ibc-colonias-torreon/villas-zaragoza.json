@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Villas Zaragoza",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":6123,
+        "Porcentaje de población masculina":49.83,
+        "Porcentaje de población femenina":50.17,
+        "Porcentaje de población de 0 a 14 años":36,
+        "Porcentaje de población de 15 a 64 años":62.17,
+        "Porcentaje de población de 65 y más años":1.56,
+        "Porcentaje de población no especificada":0.27,
+        "Fecundidad promedio":1.82,
+        "Porcentaje de población con discapacidad":2.16
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":64.64,
+        "Población Económicamente Activa masculina":64.42,
+        "Población Económicamente Activa femenina":35.58,
+        "Población Ocupada":91.87,
+        "Población Ocupada masculina":64.02,
+        "Población Ocupada femenina":35.98,
+        "Población Desocupada":8.13,
+        "Derechohabiencia":75.15
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":1725,
+        "Ocupación por Vivienda":3.55,
+        "Viviendas con Electricidad":99.68,
+        "Viviendas con Agua":99.79,
+        "Viviendas con Drenaje":99.68,
+        "Viviendas con Televisión":97.59,
+        "Viviendas con Automóvil":41.97,
+        "Viviendas con Computadora":28.27
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":127,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":46.46,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":19.69,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":18.11,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":7.87,
+        "Quinta actividad nombre":"Manejo de Residuos",
+        "Quinta actividad porcentaje":3.94
+      }
+    }
+  }
+}]

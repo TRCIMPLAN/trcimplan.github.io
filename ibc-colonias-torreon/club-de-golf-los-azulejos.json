@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Club de Golf Los Azulejos",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":34,
+        "Porcentaje de población masculina":47.06,
+        "Porcentaje de población femenina":52.94,
+        "Porcentaje de población de 0 a 14 años":17.65,
+        "Porcentaje de población de 15 a 64 años":79.41,
+        "Porcentaje de población de 65 y más años":2.94,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.69,
+        "Porcentaje de población con discapacidad":0
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":35.48,
+        "Población Económicamente Activa masculina":90.91,
+        "Población Económicamente Activa femenina":9.09,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":90.91,
+        "Población Ocupada femenina":9.09,
+        "Población Desocupada":0,
+        "Derechohabiencia":58.82
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":8,
+        "Ocupación por Vivienda":4.25,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":52.46,
+        "Viviendas con Computadora":0
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":3,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad porcentaje":33.33
+      }
+    }
+  }
+}]

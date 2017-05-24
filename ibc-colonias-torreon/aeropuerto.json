@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Aeropuerto",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":237,
+        "Porcentaje de población masculina":51.05,
+        "Porcentaje de población femenina":48.95,
+        "Porcentaje de población de 0 a 14 años":34.6,
+        "Porcentaje de población de 15 a 64 años":62.45,
+        "Porcentaje de población de 65 y más años":2.95,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.38,
+        "Porcentaje de población con discapacidad":0.99
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":55.81,
+        "Población Económicamente Activa masculina":62.5,
+        "Población Económicamente Activa femenina":37.5,
+        "Población Ocupada":90.98,
+        "Población Ocupada masculina":59.09,
+        "Población Ocupada femenina":40.91,
+        "Población Desocupada":9.02,
+        "Derechohabiencia":77.22
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":64,
+        "Ocupación por Vivienda":3.7,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.44,
+        "Viviendas con Automóvil":68.75,
+        "Viviendas con Computadora":50
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":50
+      }
+    }
+  }
+}]

@@ -1,0 +1,55 @@
+[{
+  "Nombre":"Magisterio - Iberoamericana",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":33,
+        "Porcentaje de población masculina":52.63,
+        "Porcentaje de población femenina":47.37,
+        "Porcentaje de población de 0 a 14 años":36.63,
+        "Porcentaje de población de 15 a 64 años":57.32,
+        "Porcentaje de población de 65 y más años":1.3,
+        "Porcentaje de población no especificada":4.75,
+        "Fecundidad promedio":1.56,
+        "Porcentaje de población con discapacidad":1.15
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.02,
+        "Población Económicamente Activa masculina":63.39,
+        "Población Económicamente Activa femenina":36.61,
+        "Población Ocupada":97.11,
+        "Población Ocupada masculina":62.96,
+        "Población Ocupada femenina":37.04,
+        "Población Desocupada":2.89,
+        "Derechohabiencia":73.18
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":8,
+        "Ocupación por Vivienda":4.12,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":94.26,
+        "Viviendas con Computadora":86.83
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Industria Manufacturera",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad porcentaje":33.33,
+        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Cuarta actividad porcentaje":16.67
+      }
+    }
+  }
+}]

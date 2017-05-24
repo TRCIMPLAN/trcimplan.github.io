@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Luis Echeverría Oriente",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1027,
+        "Porcentaje de población masculina":47.32,
+        "Porcentaje de población femenina":52.68,
+        "Porcentaje de población de 0 a 14 años":21.13,
+        "Porcentaje de población de 15 a 64 años":68.84,
+        "Porcentaje de población de 65 y más años":9.74,
+        "Porcentaje de población no especificada":0.29,
+        "Fecundidad promedio":2.29,
+        "Porcentaje de población con discapacidad":5.22
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.77,
+        "Población Económicamente Activa masculina":61.16,
+        "Población Económicamente Activa femenina":38.84,
+        "Población Ocupada":88.15,
+        "Población Ocupada masculina":61,
+        "Población Ocupada femenina":39,
+        "Población Desocupada":11.85,
+        "Derechohabiencia":75.07
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":273,
+        "Ocupación por Vivienda":3.76,
+        "Viviendas con Electricidad":99.27,
+        "Viviendas con Agua":99.27,
+        "Viviendas con Drenaje":99.27,
+        "Viviendas con Televisión":97.07,
+        "Viviendas con Automóvil":53.11,
+        "Viviendas con Computadora":41.03
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":54,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":31.48,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":14.81,
+        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad porcentaje":12.96,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":11.11,
+        "Quinta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Quinta actividad porcentaje":11.11
+      }
+    }
+  }
+}]

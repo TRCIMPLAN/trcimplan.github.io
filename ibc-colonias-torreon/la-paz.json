@@ -1,0 +1,57 @@
+[{
+  "Nombre":"La Paz",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1550,
+        "Porcentaje de población masculina":50.42,
+        "Porcentaje de población femenina":49.58,
+        "Porcentaje de población de 0 a 14 años":40.41,
+        "Porcentaje de población de 15 a 64 años":58.54,
+        "Porcentaje de población de 65 y más años":1.04,
+        "Porcentaje de población no especificada":0.01,
+        "Fecundidad promedio":2.14,
+        "Porcentaje de población con discapacidad":1.55
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.64,
+        "Población Económicamente Activa masculina":74.06,
+        "Población Económicamente Activa femenina":25.94,
+        "Población Ocupada":94.97,
+        "Población Ocupada masculina":73.47,
+        "Población Ocupada femenina":26.53,
+        "Población Desocupada":5.03,
+        "Derechohabiencia":72.63
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":398,
+        "Ocupación por Vivienda":3.89,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.82,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.31,
+        "Viviendas con Automóvil":43.4,
+        "Viviendas con Computadora":33.09
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":20,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":65,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":20,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":5,
+        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad porcentaje":5,
+        "Quinta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Quinta actividad porcentaje":5
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Quintas San Antonio",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":589,
+        "Porcentaje de población masculina":47.37,
+        "Porcentaje de población femenina":52.63,
+        "Porcentaje de población de 0 a 14 años":37.01,
+        "Porcentaje de población de 15 a 64 años":60.1,
+        "Porcentaje de población de 65 y más años":2.89,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.54,
+        "Porcentaje de población con discapacidad":1.63
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":62.85,
+        "Población Económicamente Activa masculina":57.49,
+        "Población Económicamente Activa femenina":42.51,
+        "Población Ocupada":96.22,
+        "Población Ocupada masculina":56.72,
+        "Población Ocupada femenina":43.28,
+        "Población Desocupada":3.78,
+        "Derechohabiencia":84.38
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":163,
+        "Ocupación por Vivienda":3.61,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":95.09,
+        "Viviendas con Computadora":85.28
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":6,
+        "Primer actividad nombre":"Inmobiliarios",
+        "Primer actividad porcentaje":33.33,
+        "Segunda actividad nombre":"Financieros y Seguros",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad porcentaje":16.67,
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad porcentaje":16.67,
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad porcentaje":16.67
+      }
+    }
+  }
+}]

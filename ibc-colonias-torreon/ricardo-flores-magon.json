@@ -1,0 +1,51 @@
+[{
+  "Nombre":"Ricardo Flores Magon",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":320,
+        "Porcentaje de población masculina":49.38,
+        "Porcentaje de población femenina":50.62,
+        "Porcentaje de población de 0 a 14 años":29.06,
+        "Porcentaje de población de 15 a 64 años":65,
+        "Porcentaje de población de 65 y más años":3.12,
+        "Porcentaje de población no especificada":2.82,
+        "Fecundidad promedio":2.4,
+        "Porcentaje de población con discapacidad":0.41
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.02,
+        "Población Económicamente Activa masculina":65.96,
+        "Población Económicamente Activa femenina":34.04,
+        "Población Ocupada":85.63,
+        "Población Ocupada masculina":65.85,
+        "Población Ocupada femenina":34.15,
+        "Población Desocupada":14.37,
+        "Derechohabiencia":51.25
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":73,
+        "Ocupación por Vivienda":4.38,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":35.62,
+        "Viviendas con Computadora":19.18
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":3,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":66.67,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":33.33
+      }
+    }
+  }
+}]

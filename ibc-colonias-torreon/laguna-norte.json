@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Laguna Norte",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2972,
+        "Porcentaje de población masculina":51.53,
+        "Porcentaje de población femenina":48.47,
+        "Porcentaje de población de 0 a 14 años":35.9,
+        "Porcentaje de población de 15 a 64 años":59.32,
+        "Porcentaje de población de 65 y más años":4.44,
+        "Porcentaje de población no especificada":0.34,
+        "Fecundidad promedio":2.45,
+        "Porcentaje de población con discapacidad":3.4
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":54.03,
+        "Población Económicamente Activa masculina":73.15,
+        "Población Económicamente Activa femenina":26.85,
+        "Población Ocupada":90.13,
+        "Población Ocupada masculina":72.18,
+        "Población Ocupada femenina":27.82,
+        "Población Desocupada":9.87,
+        "Derechohabiencia":50.03
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":708,
+        "Ocupación por Vivienda":4.2,
+        "Viviendas con Electricidad":99.15,
+        "Viviendas con Agua":96.52,
+        "Viviendas con Drenaje":81.36,
+        "Viviendas con Televisión":94.56,
+        "Viviendas con Automóvil":38.83,
+        "Viviendas con Computadora":12.08
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":176,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":38.07,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":26.7,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":9.66,
+        "Cuarta actividad nombre":"Inmobiliarios",
+        "Cuarta actividad porcentaje":7.39,
+        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad porcentaje":5.68
+      }
+    }
+  }
+}]

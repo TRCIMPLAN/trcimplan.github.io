@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Primitivo (Centro)",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1527,
+        "Porcentaje de población masculina":45.32,
+        "Porcentaje de población femenina":54.68,
+        "Porcentaje de población de 0 a 14 años":18.76,
+        "Porcentaje de población de 15 a 64 años":60.71,
+        "Porcentaje de población de 65 y más años":15.41,
+        "Porcentaje de población no especificada":5.12,
+        "Fecundidad promedio":1.97,
+        "Porcentaje de población con discapacidad":8.83
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":58.44,
+        "Población Económicamente Activa masculina":55.47,
+        "Población Económicamente Activa femenina":44.53,
+        "Población Ocupada":93.4,
+        "Población Ocupada masculina":54.74,
+        "Población Ocupada femenina":45.26,
+        "Población Desocupada":6.6,
+        "Derechohabiencia":58.61
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":433,
+        "Ocupación por Vivienda":3.53,
+        "Viviendas con Electricidad":99.94,
+        "Viviendas con Agua":99.69,
+        "Viviendas con Drenaje":99.47,
+        "Viviendas con Televisión":98.45,
+        "Viviendas con Automóvil":40.56,
+        "Viviendas con Computadora":30.6
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":2442,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":50.29,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":12.12,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":11.51,
+        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad porcentaje":8.15,
+        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad porcentaje":3.6
+      }
+    }
+  }
+}]

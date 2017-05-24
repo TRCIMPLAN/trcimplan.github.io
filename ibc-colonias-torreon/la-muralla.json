@@ -1,0 +1,47 @@
+[{
+  "Nombre":"La Muralla",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":119,
+        "Porcentaje de población masculina":47.06,
+        "Porcentaje de población femenina":52.94,
+        "Porcentaje de población de 0 a 14 años":37.82,
+        "Porcentaje de población de 15 a 64 años":57.98,
+        "Porcentaje de población de 65 y más años":4.2,
+        "Porcentaje de población no especificada":0,
+        "Fecundidad promedio":1.79,
+        "Porcentaje de población con discapacidad":1.74
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":61.54,
+        "Población Económicamente Activa masculina":62.22,
+        "Población Económicamente Activa femenina":37.78,
+        "Población Ocupada":100,
+        "Población Ocupada masculina":62.13,
+        "Población Ocupada femenina":37.87,
+        "Población Desocupada":0,
+        "Derechohabiencia":84.87
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":33,
+        "Ocupación por Vivienda":3.61,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":100,
+        "Viviendas con Automóvil":93.31,
+        "Viviendas con Computadora":86.08
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":0
+      }
+    }
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Ampliación Valles del Nazas",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":1776,
+        "Porcentaje de población masculina":49.66,
+        "Porcentaje de población femenina":50.34,
+        "Porcentaje de población de 0 a 14 años":36.83,
+        "Porcentaje de población de 15 a 64 años":58.15,
+        "Porcentaje de población de 65 y más años":2.82,
+        "Porcentaje de población no especificada":2.2,
+        "Fecundidad promedio":1.91,
+        "Porcentaje de población con discapacidad":1.7
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":56.48,
+        "Población Económicamente Activa masculina":66.15,
+        "Población Económicamente Activa femenina":33.85,
+        "Población Ocupada":92.12,
+        "Población Ocupada masculina":64.95,
+        "Población Ocupada femenina":35.05,
+        "Población Desocupada":7.88,
+        "Derechohabiencia":79.79
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":468,
+        "Ocupación por Vivienda":3.79,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":100,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.96,
+        "Viviendas con Automóvil":59.76,
+        "Viviendas con Computadora":44.8
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":44,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":54.55,
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad porcentaje":15.91,
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
+        "Tercera actividad porcentaje":11.36,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":4.55,
+        "Quinta actividad nombre":"Financieros y Seguros",
+        "Quinta actividad porcentaje":4.55
+      }
+    }
+  }
+}]

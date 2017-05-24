@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Bella Vista",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":737,
+        "Porcentaje de población masculina":48.98,
+        "Porcentaje de población femenina":51.02,
+        "Porcentaje de población de 0 a 14 años":28.22,
+        "Porcentaje de población de 15 a 64 años":64.86,
+        "Porcentaje de población de 65 y más años":6.11,
+        "Porcentaje de población no especificada":0.81,
+        "Fecundidad promedio":2.47,
+        "Porcentaje de población con discapacidad":6.94
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":57.04,
+        "Población Económicamente Activa masculina":62.65,
+        "Población Económicamente Activa femenina":37.35,
+        "Población Ocupada":91.69,
+        "Población Ocupada masculina":61.54,
+        "Población Ocupada femenina":38.46,
+        "Población Desocupada":8.31,
+        "Derechohabiencia":69.47
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":190,
+        "Ocupación por Vivienda":3.88,
+        "Viviendas con Electricidad":100,
+        "Viviendas con Agua":99.47,
+        "Viviendas con Drenaje":100,
+        "Viviendas con Televisión":98.42,
+        "Viviendas con Automóvil":45.06,
+        "Viviendas con Computadora":24.84
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":18,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":55.56,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16.67,
+        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad porcentaje":5.56,
+        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad porcentaje":5.56,
+        "Quinta actividad nombre":"Salud",
+        "Quinta actividad porcentaje":5.56
+      }
+    }
+  }
+}]

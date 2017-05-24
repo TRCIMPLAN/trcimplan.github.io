@@ -1,0 +1,57 @@
+[{
+  "Nombre":"Valle Revolución",
+  "IBC":{
+    "Demografía":{
+      "2010":{
+        "Población total":2584,
+        "Porcentaje de población masculina":48.3,
+        "Porcentaje de población femenina":51.7,
+        "Porcentaje de población de 0 a 14 años":22.56,
+        "Porcentaje de población de 15 a 64 años":71.21,
+        "Porcentaje de población de 65 y más años":4.02,
+        "Porcentaje de población no especificada":2.21,
+        "Fecundidad promedio":1.95,
+        "Porcentaje de población con discapacidad":2.25
+      }
+    },
+    "Características Económicas":{
+      "2010":{
+        "Población Económicamente Activa":52.31,
+        "Población Económicamente Activa masculina":61.2,
+        "Población Económicamente Activa femenina":38.8,
+        "Población Ocupada":94.27,
+        "Población Ocupada masculina":60.72,
+        "Población Ocupada femenina":39.28,
+        "Población Desocupada":5.73,
+        "Derechohabiencia":78.29
+      }
+    },
+    "Viviendas":{
+      "2010":{
+        "Hogares":678,
+        "Ocupación por Vivienda":3.81,
+        "Viviendas con Electricidad":99.85,
+        "Viviendas con Agua":99.71,
+        "Viviendas con Drenaje":99.85,
+        "Viviendas con Televisión":99.12,
+        "Viviendas con Automóvil":58.85,
+        "Viviendas con Computadora":53.69
+      }
+    },
+    "Unidades Económicas":{
+      "2010":{
+        "Total Actividades Económicas":50,
+        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad porcentaje":48,
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad porcentaje":16,
+        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad porcentaje":12,
+        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad porcentaje":6,
+        "Quinta actividad nombre":"Educativos",
+        "Quinta actividad porcentaje":4
+      }
+    }
+  }
+}]
