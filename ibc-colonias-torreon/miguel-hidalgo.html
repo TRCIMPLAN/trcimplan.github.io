@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Miguel Hidalgo en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Miguel Hidalgo">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Miguel Hidalgo - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Miguel Hidalgo en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">16.67 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">8.33 %</td>
       </tr>
       <tr>
-        <td>5° Preparación de Alimentos y Bebidas</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">8.33 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Miguel Hidalgo'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Miguel Hidalgo'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 41.67, '#59C38E', '41.67 %'],
               ['2° Otros servicios, excepto Gobierno', 25, '#8EC359', '25 %'],
               ['3° Salud', 16.67, '#C38E59', '16.67 %'],
-              ['4° Industria Manufacturera', 8.33, '#80C0FF', '8.33 %'],
-              ['5° Preparación de Alimentos y Bebidas', 8.33, '#59BFC3', '8.33 %']
+              ['4° Preparación de Alimentos y Bebidas', 8.33, '#80C0FF', '8.33 %'],
+              ['5° Industria Manufacturera', 8.33, '#59BFC3', '8.33 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

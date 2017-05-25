@@ -36,12 +36,12 @@ class MagisterioIberoamericana extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Magisterio - Iberoamericana';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'magisterio-iberoamericana';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Magisterio - Iberoamericana en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Magisterio - Iberoamericana';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -96,9 +96,9 @@ class MagisterioIberoamericana extends \IBCBase\PublicacionWeb {
             'Unidades Económicas' => array(
                 '2010' => array(
                     'Total Actividades Económicas' => 6,
-                    'Primer actividad nombre' => 'Industria Manufacturera',
+                    'Primer actividad nombre' => 'Comercio Menudeo',
                     'Primer actividad porcentaje' => 33.33,
-                    'Segunda actividad nombre' => 'Comercio Menudeo',
+                    'Segunda actividad nombre' => 'Industria Manufacturera',
                     'Segunda actividad porcentaje' => 33.33,
                     'Tercera actividad nombre' => 'Comercio Mayoreo',
                     'Tercera actividad porcentaje' => 16.67,

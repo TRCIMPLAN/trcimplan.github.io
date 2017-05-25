@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Nueva California en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Nueva California">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Nueva California - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Nueva California en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">7.69 %</td>
       </tr>
       <tr>
-        <td>5° Educativos</td>
+        <td>5° Comercio Mayoreo</td>
         <td class="derecha">4.62 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Nueva California'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Nueva California'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Otros servicios, excepto Gobierno', 26.15, '#8EC359', '26.15 %'],
               ['3° Preparación de Alimentos y Bebidas', 9.23, '#C38E59', '9.23 %'],
               ['4° Industria Manufacturera', 7.69, '#80C0FF', '7.69 %'],
-              ['5° Educativos', 4.62, '#59BFC3', '4.62 %']
+              ['5° Comercio Mayoreo', 4.62, '#59BFC3', '4.62 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

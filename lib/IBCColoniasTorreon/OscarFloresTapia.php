@@ -36,12 +36,12 @@ class OscarFloresTapia extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Oscar Flores Tapia';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'oscar-flores-tapia';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Oscar Flores Tapia en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Oscar Flores Tapia';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -100,9 +100,9 @@ class OscarFloresTapia extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 48.15,
                     'Segunda actividad nombre' => 'Comercio Menudeo',
                     'Segunda actividad porcentaje' => 25.93,
-                    'Tercera actividad nombre' => 'Industria Manufacturera',
+                    'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 11.11,
-                    'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Cuarta actividad nombre' => 'Industria Manufacturera',
                     'Cuarta actividad porcentaje' => 11.11,
                     'Quinta actividad nombre' => 'Inmobiliarios',
                     'Quinta actividad porcentaje' => 3.70

@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia San Marcos en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, San Marcos">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="San Marcos - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia San Marcos en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">8.11 %</td>
       </tr>
       <tr>
-        <td>5° Esparcimiento, Culturales, Deportivos</td>
+        <td>5° Comercio Mayoreo</td>
         <td class="derecha">4.05 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'San Marcos'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'San Marcos'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Otros servicios, excepto Gobierno', 21.62, '#8EC359', '21.62 %'],
               ['3° Industria Manufacturera', 17.57, '#C38E59', '17.57 %'],
               ['4° Preparación de Alimentos y Bebidas', 8.11, '#80C0FF', '8.11 %'],
-              ['5° Esparcimiento, Culturales, Deportivos', 4.05, '#59BFC3', '4.05 %']
+              ['5° Comercio Mayoreo', 4.05, '#59BFC3', '4.05 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

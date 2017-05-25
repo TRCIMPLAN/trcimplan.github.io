@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Las Arboledas en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Las Arboledas">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Las Arboledas - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Las Arboledas en Torreón, Coahuila de Zaragoza, México.">
@@ -385,11 +385,11 @@
         <td class="derecha">40.43 %</td>
       </tr>
       <tr>
-        <td>2° Industria Manufacturera</td>
+        <td>2° Educativos</td>
         <td class="derecha">8.51 %</td>
       </tr>
       <tr>
-        <td>3° Educativos</td>
+        <td>3° Otros servicios, excepto Gobierno</td>
         <td class="derecha">8.51 %</td>
       </tr>
       <tr>
@@ -397,7 +397,7 @@
         <td class="derecha">8.51 %</td>
       </tr>
       <tr>
-        <td>5° Otros servicios, excepto Gobierno</td>
+        <td>5° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">8.51 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Las Arboledas'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Las Arboledas'");
       })
       .error(function(err) {
         console.log(err);
@@ -696,10 +696,10 @@
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 40.43, '#59C38E', '40.43 %'],
-              ['2° Industria Manufacturera', 8.51, '#8EC359', '8.51 %'],
-              ['3° Educativos', 8.51, '#C38E59', '8.51 %'],
+              ['2° Educativos', 8.51, '#8EC359', '8.51 %'],
+              ['3° Otros servicios, excepto Gobierno', 8.51, '#C38E59', '8.51 %'],
               ['4° Manejo de Residuos', 8.51, '#80C0FF', '8.51 %'],
-              ['5° Otros servicios, excepto Gobierno', 8.51, '#59BFC3', '8.51 %']
+              ['5° Preparación de Alimentos y Bebidas', 8.51, '#59BFC3', '8.51 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

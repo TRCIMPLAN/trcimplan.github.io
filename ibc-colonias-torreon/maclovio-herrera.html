@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Maclovio Herrera en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Maclovio Herrera">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Maclovio Herrera - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Maclovio Herrera en Torreón, Coahuila de Zaragoza, México.">
@@ -389,7 +389,7 @@
         <td class="derecha">23.53 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Gubernamentales</td>
         <td class="derecha">5.88 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Maclovio Herrera'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Maclovio Herrera'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,7 +697,7 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 52.94, '#59C38E', '52.94 %'],
               ['2° Preparación de Alimentos y Bebidas', 23.53, '#8EC359', '23.53 %'],
-              ['3° Industria Manufacturera', 5.88, '#C38E59', '5.88 %'],
+              ['3° Gubernamentales', 5.88, '#C38E59', '5.88 %'],
               ['4° Educativos', 5.88, '#80C0FF', '5.88 %'],
               ['5° Otros servicios, excepto Gobierno', 5.88, '#59BFC3', '5.88 %']
           ]);

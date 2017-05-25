@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Bella Vista en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Bella Vista">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Bella Vista - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Bella Vista en Torreón, Coahuila de Zaragoza, México.">
@@ -389,15 +389,15 @@
         <td class="derecha">16.67 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Salud</td>
         <td class="derecha">5.56 %</td>
       </tr>
       <tr>
-        <td>4° Manejo de Residuos</td>
+        <td>4° Comercio Mayoreo</td>
         <td class="derecha">5.56 %</td>
       </tr>
       <tr>
-        <td>5° Salud</td>
+        <td>5° Manejo de Residuos</td>
         <td class="derecha">5.56 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Bella Vista'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Bella Vista'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 55.56, '#59C38E', '55.56 %'],
               ['2° Otros servicios, excepto Gobierno', 16.67, '#8EC359', '16.67 %'],
-              ['3° Industria Manufacturera', 5.56, '#C38E59', '5.56 %'],
-              ['4° Manejo de Residuos', 5.56, '#80C0FF', '5.56 %'],
-              ['5° Salud', 5.56, '#59BFC3', '5.56 %']
+              ['3° Salud', 5.56, '#C38E59', '5.56 %'],
+              ['4° Comercio Mayoreo', 5.56, '#80C0FF', '5.56 %'],
+              ['5° Manejo de Residuos', 5.56, '#59BFC3', '5.56 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

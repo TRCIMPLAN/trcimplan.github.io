@@ -36,12 +36,12 @@ class ClubCampestreMontebello extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Club Campestre Montebello';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'club-campestre-montebello';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Club Campestre Montebello en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Club Campestre Montebello';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -96,9 +96,9 @@ class ClubCampestreMontebello extends \IBCBase\PublicacionWeb {
             'Unidades Económicas' => array(
                 '2010' => array(
                     'Total Actividades Económicas' => 3,
-                    'Primer actividad nombre' => 'Inmobiliarios',
+                    'Primer actividad nombre' => 'Esparcimiento, Culturales, Deportivos',
                     'Primer actividad porcentaje' => 33.33,
-                    'Segunda actividad nombre' => 'Esparcimiento, Culturales, Deportivos',
+                    'Segunda actividad nombre' => 'Inmobiliarios',
                     'Segunda actividad porcentaje' => 33.33,
                     'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 33.33

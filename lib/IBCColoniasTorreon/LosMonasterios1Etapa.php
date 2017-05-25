@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon SolDeOriente2°Etapa
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon LosMonasterios1Etapa
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase SolDeOriente2°Etapa
+ * Clase LosMonasterios1Etapa
  */
-class SolDeOriente2°Etapa extends \IBCBase\PublicacionWeb {
+class LosMonasterios1Etapa extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,14 +34,14 @@ class SolDeOriente2°Etapa extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Sol de Oriente 2° Etapa';
+        $this->nombre                     = 'Los Monasterios 1° Etapa';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
-        $this->archivo                    = 'sol-de-oriente-2°-etapa';
+        $this->archivo                    = 'los-monasterios-1-etapa';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Sol de Oriente 2° Etapa en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->descripcion                = 'Colonia Los Monasterios 1° Etapa en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Los Monasterios 1° Etapa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -58,53 +58,53 @@ class SolDeOriente2°Etapa extends \IBCBase\PublicacionWeb {
         return array(
             'Demografía' => array(
                 '2010' => array(
-                    'Población total' => 1042,
-                    'Porcentaje de población masculina' => 51.06,
-                    'Porcentaje de población femenina' => 48.94,
-                    'Porcentaje de población de 0 a 14 años' => 36.76,
-                    'Porcentaje de población de 15 a 64 años' => 62.86,
-                    'Porcentaje de población de 65 y más años' => 0.38,
-                    'Porcentaje de población no especificada' => 0.00,
-                    'Fecundidad promedio' => 1.73,
-                    'Porcentaje de población con discapacidad' => 1.01
+                    'Población total' => 389,
+                    'Porcentaje de población masculina' => 46.91,
+                    'Porcentaje de población femenina' => 53.09,
+                    'Porcentaje de población de 0 a 14 años' => 38.70,
+                    'Porcentaje de población de 15 a 64 años' => 60.19,
+                    'Porcentaje de población de 65 y más años' => 1.08,
+                    'Porcentaje de población no especificada' => 0.03,
+                    'Fecundidad promedio' => 2.11,
+                    'Porcentaje de población con discapacidad' => 1.59
                 )
             ),
             'Características Económicas' => array(
                 '2010' => array(
-                    'Población Económicamente Activa' => 60.50,
-                    'Población Económicamente Activa masculina' => 65.98,
-                    'Población Económicamente Activa femenina' => 34.02,
-                    'Población Ocupada' => 93.92,
-                    'Población Ocupada masculina' => 65.85,
-                    'Población Ocupada femenina' => 34.15,
-                    'Población Desocupada' => 6.08,
-                    'Derechohabiencia' => 78.98
+                    'Población Económicamente Activa' => 60.41,
+                    'Población Económicamente Activa masculina' => 65.70,
+                    'Población Económicamente Activa femenina' => 34.30,
+                    'Población Ocupada' => 97.23,
+                    'Población Ocupada masculina' => 64.77,
+                    'Población Ocupada femenina' => 35.23,
+                    'Población Desocupada' => 2.77,
+                    'Derechohabiencia' => 74.78
                 )
             ),
             'Viviendas' => array(
                 '2010' => array(
-                    'Hogares' => 293,
-                    'Ocupación por Vivienda' => 3.56,
-                    'Viviendas con Electricidad' => 99.66,
-                    'Viviendas con Agua' => 99.66,
-                    'Viviendas con Drenaje' => 99.66,
-                    'Viviendas con Televisión' => 97.95,
-                    'Viviendas con Automóvil' => 53.24,
-                    'Viviendas con Computadora' => 35.39
+                    'Hogares' => 104,
+                    'Ocupación por Vivienda' => 3.74,
+                    'Viviendas con Electricidad' => 100.00,
+                    'Viviendas con Agua' => 99.40,
+                    'Viviendas con Drenaje' => 100.00,
+                    'Viviendas con Televisión' => 99.40,
+                    'Viviendas con Automóvil' => 40.79,
+                    'Viviendas con Computadora' => 20.99
                 )
             ),
             'Unidades Económicas' => array(
                 '2010' => array(
-                    'Total Actividades Económicas' => 36,
+                    'Total Actividades Económicas' => 18,
                     'Primer actividad nombre' => 'Comercio Menudeo',
-                    'Primer actividad porcentaje' => 47.22,
+                    'Primer actividad porcentaje' => 38.89,
                     'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Segunda actividad porcentaje' => 22.22,
-                    'Tercera actividad nombre' => 'Industria Manufacturera',
-                    'Tercera actividad porcentaje' => 5.56,
-                    'Cuarta actividad nombre' => 'Salud',
-                    'Cuarta actividad porcentaje' => 5.56,
-                    'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Tercera actividad porcentaje' => 22.22,
+                    'Cuarta actividad nombre' => 'Industria Manufacturera',
+                    'Cuarta actividad porcentaje' => 11.11,
+                    'Quinta actividad nombre' => 'Comercio Mayoreo',
                     'Quinta actividad porcentaje' => 5.56
                 )
             )
@@ -119,8 +119,8 @@ class SolDeOriente2°Etapa extends \IBCBase\PublicacionWeb {
     public function mapas() {
         return array(
             'Límites'         => \Configuracion\IBCTorreonConfig::LIMITES,
-            'Centro latitud'  => 25.540816127134,
-            'Centro longitud' => -103.328197548375
+            'Centro latitud'  => 25.4975034668072,
+            'Centro longitud' => -103.361976784569
         );
     } // mapas
 
@@ -133,6 +133,6 @@ class SolDeOriente2°Etapa extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase SolDeOriente2°Etapa
+} // Clase LosMonasterios1Etapa
 
 ?>

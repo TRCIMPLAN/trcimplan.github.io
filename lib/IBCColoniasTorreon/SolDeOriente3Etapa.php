@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon SolDeOriente3°Etapa
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon SolDeOriente3Etapa
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase SolDeOriente3°Etapa
+ * Clase SolDeOriente3Etapa
  */
-class SolDeOriente3°Etapa extends \IBCBase\PublicacionWeb {
+class SolDeOriente3Etapa extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -36,12 +36,12 @@ class SolDeOriente3°Etapa extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Sol de Oriente 3° Etapa';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
-        $this->archivo                    = 'sol-de-oriente-3°-etapa';
+        $this->archivo                    = 'sol-de-oriente-3-etapa';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Sol de Oriente 3° Etapa en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Sol de Oriente 3° Etapa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -100,9 +100,9 @@ class SolDeOriente3°Etapa extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 53.85,
                     'Segunda actividad nombre' => 'Financieros y Seguros',
                     'Segunda actividad porcentaje' => 23.08,
-                    'Tercera actividad nombre' => 'Educativos',
+                    'Tercera actividad nombre' => 'Salud',
                     'Tercera actividad porcentaje' => 7.69,
-                    'Cuarta actividad nombre' => 'Salud',
+                    'Cuarta actividad nombre' => 'Educativos',
                     'Cuarta actividad porcentaje' => 7.69,
                     'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Quinta actividad porcentaje' => 7.69
@@ -133,6 +133,6 @@ class SolDeOriente3°Etapa extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase SolDeOriente3°Etapa
+} // Clase SolDeOriente3Etapa
 
 ?>

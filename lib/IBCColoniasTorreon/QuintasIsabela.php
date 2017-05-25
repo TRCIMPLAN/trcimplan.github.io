@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon VillasUniversidad2°Etapa
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon QuintasIsabela
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase VillasUniversidad2°Etapa
+ * Clase QuintasIsabela
  */
-class VillasUniversidad2°Etapa extends \IBCBase\PublicacionWeb {
+class QuintasIsabela extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,14 +34,14 @@ class VillasUniversidad2°Etapa extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Villas Universidad 2° Etapa';
+        $this->nombre                     = 'Quintas Isabela';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
-        $this->archivo                    = 'villas-universidad-2°-etapa';
+        $this->archivo                    = 'quintas-isabela';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Villas Universidad 2° Etapa en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->descripcion                = 'Colonia Quintas Isabela en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Quintas Isabela';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -58,52 +58,44 @@ class VillasUniversidad2°Etapa extends \IBCBase\PublicacionWeb {
         return array(
             'Demografía' => array(
                 '2010' => array(
-                    'Población total' => 668,
-                    'Porcentaje de población masculina' => 49.55,
-                    'Porcentaje de población femenina' => 50.45,
-                    'Porcentaje de población de 0 a 14 años' => 33.23,
-                    'Porcentaje de población de 15 a 64 años' => 64.52,
-                    'Porcentaje de población de 65 y más años' => 2.25,
+                    'Población total' => 28,
+                    'Porcentaje de población masculina' => 53.57,
+                    'Porcentaje de población femenina' => 46.43,
+                    'Porcentaje de población de 0 a 14 años' => 21.43,
+                    'Porcentaje de población de 15 a 64 años' => 60.71,
+                    'Porcentaje de población de 65 y más años' => 17.86,
                     'Porcentaje de población no especificada' => 0.00,
-                    'Fecundidad promedio' => 1.54,
-                    'Porcentaje de población con discapacidad' => 1.69
+                    'Fecundidad promedio' => 2.09,
+                    'Porcentaje de población con discapacidad' => 0.00
                 )
             ),
             'Características Económicas' => array(
                 '2010' => array(
-                    'Población Económicamente Activa' => 66.23,
-                    'Población Económicamente Activa masculina' => 61.44,
-                    'Población Económicamente Activa femenina' => 38.56,
-                    'Población Ocupada' => 95.22,
-                    'Población Ocupada masculina' => 60.96,
-                    'Población Ocupada femenina' => 39.04,
-                    'Población Desocupada' => 4.78,
-                    'Derechohabiencia' => 83.83
+                    'Población Económicamente Activa' => 45.83,
+                    'Población Económicamente Activa masculina' => 63.64,
+                    'Población Económicamente Activa femenina' => 36.36,
+                    'Población Ocupada' => 100.00,
+                    'Población Ocupada masculina' => 63.64,
+                    'Población Ocupada femenina' => 36.36,
+                    'Población Desocupada' => 0.00,
+                    'Derechohabiencia' => 100.00
                 )
             ),
             'Viviendas' => array(
                 '2010' => array(
-                    'Hogares' => 190,
-                    'Ocupación por Vivienda' => 3.52,
+                    'Hogares' => 11,
+                    'Ocupación por Vivienda' => 2.55,
                     'Viviendas con Electricidad' => 100.00,
                     'Viviendas con Agua' => 100.00,
                     'Viviendas con Drenaje' => 100.00,
-                    'Viviendas con Televisión' => 98.42,
-                    'Viviendas con Automóvil' => 80.53,
-                    'Viviendas con Computadora' => 52.11
+                    'Viviendas con Televisión' => 100.00,
+                    'Viviendas con Automóvil' => 90.91,
+                    'Viviendas con Computadora' => 81.82
                 )
             ),
             'Unidades Económicas' => array(
                 '2010' => array(
-                    'Total Actividades Económicas' => 14,
-                    'Primer actividad nombre' => 'Comercio Menudeo',
-                    'Primer actividad porcentaje' => 64.29,
-                    'Segunda actividad nombre' => 'Salud',
-                    'Segunda actividad porcentaje' => 14.29,
-                    'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
-                    'Tercera actividad porcentaje' => 14.29,
-                    'Cuarta actividad nombre' => 'Educativos',
-                    'Cuarta actividad porcentaje' => 7.14
+                    'Total Actividades Económicas' => 0
                 )
             )
         );
@@ -117,8 +109,8 @@ class VillasUniversidad2°Etapa extends \IBCBase\PublicacionWeb {
     public function mapas() {
         return array(
             'Límites'         => \Configuracion\IBCTorreonConfig::LIMITES,
-            'Centro latitud'  => 25.5388776108608,
-            'Centro longitud' => -103.320091931291
+            'Centro latitud'  => 25.5306299699641,
+            'Centro longitud' => -103.402934229037
         );
     } // mapas
 
@@ -131,6 +123,6 @@ class VillasUniversidad2°Etapa extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase VillasUniversidad2°Etapa
+} // Clase QuintasIsabela
 
 ?>

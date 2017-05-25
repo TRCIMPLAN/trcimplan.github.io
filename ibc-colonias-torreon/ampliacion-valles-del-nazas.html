@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ampliación Valles del Nazas en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ampliación Valles del Nazas">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ampliación Valles del Nazas - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ampliación Valles del Nazas en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">11.36 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Esparcimiento, Culturales, Deportivos</td>
         <td class="derecha">4.55 %</td>
       </tr>
       <tr>
-        <td>5° Financieros y Seguros</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">4.55 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ampliación Valles del Nazas'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ampliación Valles del Nazas'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 54.55, '#59C38E', '54.55 %'],
               ['2° Preparación de Alimentos y Bebidas', 15.91, '#8EC359', '15.91 %'],
               ['3° Otros servicios, excepto Gobierno', 11.36, '#C38E59', '11.36 %'],
-              ['4° Industria Manufacturera', 4.55, '#80C0FF', '4.55 %'],
-              ['5° Financieros y Seguros', 4.55, '#59BFC3', '4.55 %']
+              ['4° Esparcimiento, Culturales, Deportivos', 4.55, '#80C0FF', '4.55 %'],
+              ['5° Industria Manufacturera', 4.55, '#59BFC3', '4.55 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

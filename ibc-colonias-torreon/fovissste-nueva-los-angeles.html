@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Fovissste Nueva Los Ángeles en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Fovissste Nueva Los Ángeles">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Fovissste Nueva Los Ángeles - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Fovissste Nueva Los Ángeles en Torreón, Coahuila de Zaragoza, México.">
@@ -385,19 +385,19 @@
         <td class="derecha">22.73 %</td>
       </tr>
       <tr>
-        <td>2° Otros servicios, excepto Gobierno</td>
+        <td>2° Salud</td>
         <td class="derecha">13.64 %</td>
       </tr>
       <tr>
-        <td>3° Salud</td>
+        <td>3° Otros servicios, excepto Gobierno</td>
         <td class="derecha">13.64 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Educativos</td>
         <td class="derecha">9.09 %</td>
       </tr>
       <tr>
-        <td>5° Educativos</td>
+        <td>5° Manejo de Residuos</td>
         <td class="derecha">9.09 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Fovissste Nueva Los Ángeles'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Fovissste Nueva Los Ángeles'");
       })
       .error(function(err) {
         console.log(err);
@@ -696,10 +696,10 @@
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 22.73, '#59C38E', '22.73 %'],
-              ['2° Otros servicios, excepto Gobierno', 13.64, '#8EC359', '13.64 %'],
-              ['3° Salud', 13.64, '#C38E59', '13.64 %'],
-              ['4° Industria Manufacturera', 9.09, '#80C0FF', '9.09 %'],
-              ['5° Educativos', 9.09, '#59BFC3', '9.09 %']
+              ['2° Salud', 13.64, '#8EC359', '13.64 %'],
+              ['3° Otros servicios, excepto Gobierno', 13.64, '#C38E59', '13.64 %'],
+              ['4° Educativos', 9.09, '#80C0FF', '9.09 %'],
+              ['5° Manejo de Residuos', 9.09, '#59BFC3', '9.09 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon CampoNuevoZaragoza2°Etapa
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon CampoNuevoZaragoza2Etapa
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase CampoNuevoZaragoza2°Etapa
+ * Clase CampoNuevoZaragoza2Etapa
  */
-class CampoNuevoZaragoza2°Etapa extends \IBCBase\PublicacionWeb {
+class CampoNuevoZaragoza2Etapa extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -36,12 +36,12 @@ class CampoNuevoZaragoza2°Etapa extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Campo Nuevo Zaragoza 2° Etapa';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
-        $this->archivo                    = 'campo-nuevo-zaragoza-2°-etapa';
+        $this->archivo                    = 'campo-nuevo-zaragoza-2-etapa';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Campo Nuevo Zaragoza 2° Etapa en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Campo Nuevo Zaragoza 2° Etapa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -133,6 +133,6 @@ class CampoNuevoZaragoza2°Etapa extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase CampoNuevoZaragoza2°Etapa
+} // Clase CampoNuevoZaragoza2Etapa
 
 ?>

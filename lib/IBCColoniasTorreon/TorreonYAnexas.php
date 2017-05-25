@@ -36,12 +36,12 @@ class TorreonYAnexas extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Torreón y Anexas';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'torreon-y-anexas';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Torreón y Anexas en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Torreón y Anexas';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -100,11 +100,11 @@ class TorreonYAnexas extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 50.00,
                     'Segunda actividad nombre' => 'Educativos',
                     'Segunda actividad porcentaje' => 21.43,
-                    'Tercera actividad nombre' => 'Manejo de Residuos',
+                    'Tercera actividad nombre' => 'Salud',
                     'Tercera actividad porcentaje' => 7.14,
                     'Cuarta actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Cuarta actividad porcentaje' => 7.14,
-                    'Quinta actividad nombre' => 'Salud',
+                    'Quinta actividad nombre' => 'Manejo de Residuos',
                     'Quinta actividad porcentaje' => 7.14
                 )
             )

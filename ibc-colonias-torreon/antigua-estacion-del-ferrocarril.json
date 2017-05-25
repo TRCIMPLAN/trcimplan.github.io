@@ -41,9 +41,9 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":2,
-        "Primer actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Primer actividad nombre":"Salud",
         "Primer actividad porcentaje":50,
-        "Segunda actividad nombre":"Salud",
+        "Segunda actividad nombre":"Esparcimiento, Culturales, Deportivos",
         "Segunda actividad porcentaje":50
       }
     }

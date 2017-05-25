@@ -16,9 +16,9 @@
         "Total Actividades Económicas":4,
         "Primer actividad nombre":"Transportes, Correo, Almacenamiento",
         "Primer actividad porcentaje":50,
-        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad nombre":"Comercio Menudeo",
         "Segunda actividad porcentaje":25,
-        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad nombre":"Industria Manufacturera",
         "Tercera actividad porcentaje":25
       }
     }

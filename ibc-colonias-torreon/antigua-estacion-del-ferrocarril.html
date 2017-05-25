@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Antigua Estación del Ferrocarril en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Antigua Estación del Ferrocarril">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Antigua Estación del Ferrocarril - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Antigua Estación del Ferrocarril en Torreón, Coahuila de Zaragoza, México.">
@@ -381,11 +381,11 @@
         <td class="derecha">2</td>
       </tr>
       <tr>
-        <td>1° Esparcimiento, Culturales, Deportivos</td>
+        <td>1° Salud</td>
         <td class="derecha">50.00 %</td>
       </tr>
       <tr>
-        <td>2° Salud</td>
+        <td>2° Esparcimiento, Culturales, Deportivos</td>
         <td class="derecha">50.00 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Antigua Estación del Ferrocarril'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Antigua Estación del Ferrocarril'");
       })
       .error(function(err) {
         console.log(err);
@@ -695,8 +695,8 @@
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Esparcimiento, Culturales, Deportivos', 50, '#59C38E', '50 %'],
-              ['2° Salud', 50, '#8EC359', '50 %']
+              ['1° Salud', 50, '#59C38E', '50 %'],
+              ['2° Esparcimiento, Culturales, Deportivos', 50, '#8EC359', '50 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

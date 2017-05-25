@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ampliación Senderos en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ampliación Senderos">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ampliación Senderos - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ampliación Senderos en Torreón, Coahuila de Zaragoza, México.">
@@ -385,11 +385,11 @@
         <td class="derecha">40.00 %</td>
       </tr>
       <tr>
-        <td>2° Otros servicios, excepto Gobierno</td>
+        <td>2° Salud</td>
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
-        <td>3° Salud</td>
+        <td>3° Otros servicios, excepto Gobierno</td>
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ampliación Senderos'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ampliación Senderos'");
       })
       .error(function(err) {
         console.log(err);
@@ -696,8 +696,8 @@
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 40, '#59C38E', '40 %'],
-              ['2° Otros servicios, excepto Gobierno', 20, '#8EC359', '20 %'],
-              ['3° Salud', 20, '#C38E59', '20 %'],
+              ['2° Salud', 20, '#8EC359', '20 %'],
+              ['3° Otros servicios, excepto Gobierno', 20, '#C38E59', '20 %'],
               ['4° Preparación de Alimentos y Bebidas', 20, '#80C0FF', '20 %']
           ]);
           var options = {

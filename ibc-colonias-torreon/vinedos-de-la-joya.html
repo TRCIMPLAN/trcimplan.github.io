@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Viñedos de La Joya en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Viñedos de La Joya">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Viñedos de La Joya - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Viñedos de La Joya en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">13.33 %</td>
       </tr>
       <tr>
-        <td>4° Educativos</td>
+        <td>4° Comercio Mayoreo</td>
         <td class="derecha">6.67 %</td>
       </tr>
       <tr>
-        <td>5° Manejo de Residuos</td>
+        <td>5° Educativos</td>
         <td class="derecha">6.67 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Viñedos de La Joya'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Viñedos de La Joya'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 40, '#59C38E', '40 %'],
               ['2° Preparación de Alimentos y Bebidas', 26.67, '#8EC359', '26.67 %'],
               ['3° Otros servicios, excepto Gobierno', 13.33, '#C38E59', '13.33 %'],
-              ['4° Educativos', 6.67, '#80C0FF', '6.67 %'],
-              ['5° Manejo de Residuos', 6.67, '#59BFC3', '6.67 %']
+              ['4° Comercio Mayoreo', 6.67, '#80C0FF', '6.67 %'],
+              ['5° Educativos', 6.67, '#59BFC3', '6.67 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -36,12 +36,12 @@ class LaAmistad extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'La Amistad';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-amistad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia La Amistad en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, La Amistad';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -98,13 +98,13 @@ class LaAmistad extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 41,
                     'Primer actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Primer actividad porcentaje' => 36.59,
-                    'Segunda actividad nombre' => 'Comercio Menudeo',
+                    'Segunda actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Segunda actividad porcentaje' => 17.07,
-                    'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Tercera actividad nombre' => 'Comercio Menudeo',
                     'Tercera actividad porcentaje' => 17.07,
-                    'Cuarta actividad nombre' => 'Industria Manufacturera',
+                    'Cuarta actividad nombre' => 'Comercio Mayoreo',
                     'Cuarta actividad porcentaje' => 7.32,
-                    'Quinta actividad nombre' => 'Comercio Mayoreo',
+                    'Quinta actividad nombre' => 'Industria Manufacturera',
                     'Quinta actividad porcentaje' => 7.32
                 )
             )

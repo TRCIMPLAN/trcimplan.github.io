@@ -41,13 +41,13 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":17,
-        "Primer actividad nombre":"Comercio Menudeo",
+        "Primer actividad nombre":"Otros servicios, excepto Gobierno",
         "Primer actividad porcentaje":23.53,
-        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad nombre":"Comercio Menudeo",
         "Segunda actividad porcentaje":23.53,
         "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
         "Tercera actividad porcentaje":17.65,
-        "Cuarta actividad nombre":"Industria Manufacturera",
+        "Cuarta actividad nombre":"Salud",
         "Cuarta actividad porcentaje":11.76,
         "Quinta actividad nombre":"Educativos",
         "Quinta actividad porcentaje":11.76

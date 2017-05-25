@@ -36,12 +36,12 @@ class SantaAnita extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Santa Anita';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'santa-anita';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Santa Anita en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Santa Anita';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -104,7 +104,7 @@ class SantaAnita extends \IBCBase\PublicacionWeb {
                     'Tercera actividad porcentaje' => 10.64,
                     'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Cuarta actividad porcentaje' => 10.64,
-                    'Quinta actividad nombre' => 'Inmobiliarios',
+                    'Quinta actividad nombre' => 'Salud',
                     'Quinta actividad porcentaje' => 4.26
                 )
             )

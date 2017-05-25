@@ -45,11 +45,11 @@
         "Primer actividad porcentaje":65,
         "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
         "Segunda actividad porcentaje":20,
-        "Tercera actividad nombre":"Industria Manufacturera",
+        "Tercera actividad nombre":"Educativos",
         "Tercera actividad porcentaje":5,
-        "Cuarta actividad nombre":"Educativos",
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
         "Cuarta actividad porcentaje":5,
-        "Quinta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Quinta actividad nombre":"Industria Manufacturera",
         "Quinta actividad porcentaje":5
       }
     }

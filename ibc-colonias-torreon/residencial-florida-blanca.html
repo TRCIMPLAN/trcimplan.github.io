@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Residencial Florida Blanca en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Residencial Florida Blanca">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Residencial Florida Blanca - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Residencial Florida Blanca en Torreón, Coahuila de Zaragoza, México.">
@@ -385,7 +385,7 @@
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
-        <td>2° Comercio Menudeo</td>
+        <td>2° Otros servicios, excepto Gobierno</td>
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
@@ -393,7 +393,7 @@
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
-        <td>4° Otros servicios, excepto Gobierno</td>
+        <td>4° Comercio Menudeo</td>
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Residencial Florida Blanca'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Residencial Florida Blanca'");
       })
       .error(function(err) {
         console.log(err);
@@ -696,9 +696,9 @@
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Educativos', 20, '#59C38E', '20 %'],
-              ['2° Comercio Menudeo', 20, '#8EC359', '20 %'],
+              ['2° Otros servicios, excepto Gobierno', 20, '#8EC359', '20 %'],
               ['3° Manejo de Residuos', 20, '#C38E59', '20 %'],
-              ['4° Otros servicios, excepto Gobierno', 20, '#80C0FF', '20 %'],
+              ['4° Comercio Menudeo', 20, '#80C0FF', '20 %'],
               ['5° Profesionales, Científicos, Técnicos', 20, '#59BFC3', '20 %']
           ]);
           var options = {

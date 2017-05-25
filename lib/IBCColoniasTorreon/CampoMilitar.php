@@ -36,12 +36,12 @@ class CampoMilitar extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Campo Militar';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'campo-militar';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Campo Militar en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Campo Militar';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -102,9 +102,9 @@ class CampoMilitar extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 22.22,
                     'Tercera actividad nombre' => 'Inmobiliarios',
                     'Tercera actividad porcentaje' => 11.11,
-                    'Cuarta actividad nombre' => 'Transportes, Correo, Almacenamiento',
+                    'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Cuarta actividad porcentaje' => 11.11,
-                    'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Quinta actividad nombre' => 'Transportes, Correo, Almacenamiento',
                     'Quinta actividad porcentaje' => 11.11
                 )
             )

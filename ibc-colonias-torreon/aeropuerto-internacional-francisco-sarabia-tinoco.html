@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Aeropuerto Internacional Francisco Sarabia Tinoco en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Aeropuerto Internacional Francisco Sarabia Tinoco">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Aeropuerto Internacional Francisco Sarabia Tinoco - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Aeropuerto Internacional Francisco Sarabia Tinoco en Torreón, Coahuila de Zaragoza, México.">
@@ -354,11 +354,11 @@ La cantidad de Hogares es cero.
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
-        <td>3° Comercio Menudeo</td>
+        <td>3° Gubernamentales</td>
         <td class="derecha">14.29 %</td>
       </tr>
       <tr>
-        <td>4° Gubernamentales</td>
+        <td>4° Comercio Menudeo</td>
         <td class="derecha">14.29 %</td>
       </tr>
       <tr>
@@ -491,7 +491,7 @@ La cantidad de Hogares es cero.
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Aeropuerto Internacional Francisco Sarabia Tinoco'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Aeropuerto Internacional Francisco Sarabia Tinoco'");
       })
       .error(function(err) {
         console.log(err);
@@ -643,8 +643,8 @@ La cantidad de Hogares es cero.
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Transportes, Correo, Almacenamiento', 28.57, '#59C38E', '28.57 %'],
               ['2° Inmobiliarios', 20, '#8EC359', '20 %'],
-              ['3° Comercio Menudeo', 14.29, '#C38E59', '14.29 %'],
-              ['4° Gubernamentales', 14.29, '#80C0FF', '14.29 %'],
+              ['3° Gubernamentales', 14.29, '#C38E59', '14.29 %'],
+              ['4° Comercio Menudeo', 14.29, '#80C0FF', '14.29 %'],
               ['5° Comercio Mayoreo', 8.57, '#59BFC3', '8.57 %']
           ]);
           var options = {

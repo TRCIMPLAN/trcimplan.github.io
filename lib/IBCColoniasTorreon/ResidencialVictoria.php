@@ -36,12 +36,12 @@ class ResidencialVictoria extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Residencial Victoria';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'residencial-victoria';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Residencial Victoria en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Residencial Victoria';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -102,7 +102,7 @@ class ResidencialVictoria extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 28.95,
                     'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 10.53,
-                    'Cuarta actividad nombre' => 'Industria Manufacturera',
+                    'Cuarta actividad nombre' => 'Salud',
                     'Cuarta actividad porcentaje' => 5.26,
                     'Quinta actividad nombre' => 'Esparcimiento, Culturales, Deportivos',
                     'Quinta actividad porcentaje' => 5.26

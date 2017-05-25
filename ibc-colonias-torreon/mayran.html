@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Mayrán en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Mayrán">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Mayrán - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Mayrán en Torreón, Coahuila de Zaragoza, México.">
@@ -389,15 +389,15 @@
         <td class="derecha">11.54 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Educativos</td>
         <td class="derecha">7.69 %</td>
       </tr>
       <tr>
-        <td>4° Educativos</td>
+        <td>4° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">7.69 %</td>
       </tr>
       <tr>
-        <td>5° Preparación de Alimentos y Bebidas</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">7.69 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Mayrán'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Mayrán'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 50, '#59C38E', '50 %'],
               ['2° Otros servicios, excepto Gobierno', 11.54, '#8EC359', '11.54 %'],
-              ['3° Industria Manufacturera', 7.69, '#C38E59', '7.69 %'],
-              ['4° Educativos', 7.69, '#80C0FF', '7.69 %'],
-              ['5° Preparación de Alimentos y Bebidas', 7.69, '#59BFC3', '7.69 %']
+              ['3° Educativos', 7.69, '#C38E59', '7.69 %'],
+              ['4° Preparación de Alimentos y Bebidas', 7.69, '#80C0FF', '7.69 %'],
+              ['5° Industria Manufacturera', 7.69, '#59BFC3', '7.69 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

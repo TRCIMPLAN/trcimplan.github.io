@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Magisterio - Iberoamericana en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Magisterio - Iberoamericana">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Magisterio - Iberoamericana - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Magisterio - Iberoamericana en Torreón, Coahuila de Zaragoza, México.">
@@ -381,11 +381,11 @@
         <td class="derecha">6</td>
       </tr>
       <tr>
-        <td>1° Industria Manufacturera</td>
+        <td>1° Comercio Menudeo</td>
         <td class="derecha">33.33 %</td>
       </tr>
       <tr>
-        <td>2° Comercio Menudeo</td>
+        <td>2° Industria Manufacturera</td>
         <td class="derecha">33.33 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Magisterio - Iberoamericana'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Magisterio - Iberoamericana'");
       })
       .error(function(err) {
         console.log(err);
@@ -695,8 +695,8 @@
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Industria Manufacturera', 33.33, '#59C38E', '33.33 %'],
-              ['2° Comercio Menudeo', 33.33, '#8EC359', '33.33 %'],
+              ['1° Comercio Menudeo', 33.33, '#59C38E', '33.33 %'],
+              ['2° Industria Manufacturera', 33.33, '#8EC359', '33.33 %'],
               ['3° Comercio Mayoreo', 16.67, '#C38E59', '16.67 %'],
               ['4° Preparación de Alimentos y Bebidas', 16.67, '#80C0FF', '16.67 %']
           ]);

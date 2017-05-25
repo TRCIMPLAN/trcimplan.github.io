@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Plan de San Luis en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Plan de San Luis">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Plan de San Luis - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Plan de San Luis en Torreón, Coahuila de Zaragoza, México.">
@@ -389,7 +389,7 @@
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Comercio Mayoreo</td>
         <td class="derecha">10.00 %</td>
       </tr>
       <tr>
@@ -397,7 +397,7 @@
         <td class="derecha">10.00 %</td>
       </tr>
       <tr>
-        <td>5° Comercio Mayoreo</td>
+        <td>5° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">10.00 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Plan de San Luis'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Plan de San Luis'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 40, '#59C38E', '40 %'],
               ['2° Otros servicios, excepto Gobierno', 20, '#8EC359', '20 %'],
-              ['3° Industria Manufacturera', 10, '#C38E59', '10 %'],
+              ['3° Comercio Mayoreo', 10, '#C38E59', '10 %'],
               ['4° Educativos', 10, '#80C0FF', '10 %'],
-              ['5° Comercio Mayoreo', 10, '#59BFC3', '10 %']
+              ['5° Preparación de Alimentos y Bebidas', 10, '#59BFC3', '10 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

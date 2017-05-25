@@ -43,13 +43,13 @@
         "Total Actividades Económicas":10,
         "Primer actividad nombre":"Comercio Menudeo",
         "Primer actividad porcentaje":30,
-        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad nombre":"Comercio Mayoreo",
         "Segunda actividad porcentaje":20,
-        "Tercera actividad nombre":"Comercio Mayoreo",
+        "Tercera actividad nombre":"Industria Manufacturera",
         "Tercera actividad porcentaje":20,
-        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad nombre":"Esparcimiento, Culturales, Deportivos",
         "Cuarta actividad porcentaje":10,
-        "Quinta actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Quinta actividad nombre":"Manejo de Residuos",
         "Quinta actividad porcentaje":10
       }
     }

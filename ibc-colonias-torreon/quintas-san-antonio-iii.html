@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Quintas San Antonio III en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Quintas San Antonio III">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Quintas San Antonio III - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Quintas San Antonio III en Torreón, Coahuila de Zaragoza, México.">
@@ -389,15 +389,15 @@
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
-        <td>3° Educativos</td>
+        <td>3° Salud</td>
         <td class="derecha">10.00 %</td>
       </tr>
       <tr>
-        <td>4° Comercio Menudeo</td>
+        <td>4° Comercio Mayoreo</td>
         <td class="derecha">10.00 %</td>
       </tr>
       <tr>
-        <td>5° Manejo de Residuos</td>
+        <td>5° Educativos</td>
         <td class="derecha">10.00 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Quintas San Antonio III'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Quintas San Antonio III'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Preparación de Alimentos y Bebidas', 30, '#59C38E', '30 %'],
               ['2° Otros servicios, excepto Gobierno', 20, '#8EC359', '20 %'],
-              ['3° Educativos', 10, '#C38E59', '10 %'],
-              ['4° Comercio Menudeo', 10, '#80C0FF', '10 %'],
-              ['5° Manejo de Residuos', 10, '#59BFC3', '10 %']
+              ['3° Salud', 10, '#C38E59', '10 %'],
+              ['4° Comercio Mayoreo', 10, '#80C0FF', '10 %'],
+              ['5° Educativos', 10, '#59BFC3', '10 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

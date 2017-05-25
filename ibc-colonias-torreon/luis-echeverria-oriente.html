@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Luis Echeverría Oriente en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Luis Echeverría Oriente">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Luis Echeverría Oriente - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Luis Echeverría Oriente en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">12.96 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Otros servicios, excepto Gobierno</td>
         <td class="derecha">11.11 %</td>
       </tr>
       <tr>
-        <td>5° Otros servicios, excepto Gobierno</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">11.11 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Luis Echeverría Oriente'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Luis Echeverría Oriente'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 31.48, '#59C38E', '31.48 %'],
               ['2° Preparación de Alimentos y Bebidas', 14.81, '#8EC359', '14.81 %'],
               ['3° Educativos', 12.96, '#C38E59', '12.96 %'],
-              ['4° Industria Manufacturera', 11.11, '#80C0FF', '11.11 %'],
-              ['5° Otros servicios, excepto Gobierno', 11.11, '#59BFC3', '11.11 %']
+              ['4° Otros servicios, excepto Gobierno', 11.11, '#80C0FF', '11.11 %'],
+              ['5° Industria Manufacturera', 11.11, '#59BFC3', '11.11 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

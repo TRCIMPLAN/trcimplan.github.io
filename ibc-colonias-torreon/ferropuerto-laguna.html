@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ferropuerto Laguna en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ferropuerto Laguna">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ferropuerto Laguna - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ferropuerto Laguna en Torreón, Coahuila de Zaragoza, México.">
@@ -276,11 +276,11 @@ La cantidad de Hogares es cero.
         <td class="derecha">13.04 %</td>
       </tr>
       <tr>
-        <td>4° Comercio Menudeo</td>
+        <td>4° Manejo de Residuos</td>
         <td class="derecha">4.35 %</td>
       </tr>
       <tr>
-        <td>5° Manejo de Residuos</td>
+        <td>5° Comercio Menudeo</td>
         <td class="derecha">4.35 %</td>
       </tr>
     </tbody>
@@ -413,7 +413,7 @@ La cantidad de Hogares es cero.
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ferropuerto Laguna'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ferropuerto Laguna'");
       })
       .error(function(err) {
         console.log(err);
@@ -432,8 +432,8 @@ La cantidad de Hogares es cero.
               ['1° Industria Manufacturera', 52.17, '#59C38E', '52.17 %'],
               ['2° Comercio Mayoreo', 21.74, '#8EC359', '21.74 %'],
               ['3° Preparación de Alimentos y Bebidas', 13.04, '#C38E59', '13.04 %'],
-              ['4° Comercio Menudeo', 4.35, '#80C0FF', '4.35 %'],
-              ['5° Manejo de Residuos', 4.35, '#59BFC3', '4.35 %']
+              ['4° Manejo de Residuos', 4.35, '#80C0FF', '4.35 %'],
+              ['5° Comercio Menudeo', 4.35, '#59BFC3', '4.35 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

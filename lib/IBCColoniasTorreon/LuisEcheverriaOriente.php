@@ -36,12 +36,12 @@ class LuisEcheverriaOriente extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Luis Echeverría Oriente';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'luis-echeverria-oriente';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Luis Echeverría Oriente en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Luis Echeverría Oriente';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -102,9 +102,9 @@ class LuisEcheverriaOriente extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 14.81,
                     'Tercera actividad nombre' => 'Educativos',
                     'Tercera actividad porcentaje' => 12.96,
-                    'Cuarta actividad nombre' => 'Industria Manufacturera',
+                    'Cuarta actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Cuarta actividad porcentaje' => 11.11,
-                    'Quinta actividad nombre' => 'Otros servicios, excepto Gobierno',
+                    'Quinta actividad nombre' => 'Industria Manufacturera',
                     'Quinta actividad porcentaje' => 11.11
                 )
             )

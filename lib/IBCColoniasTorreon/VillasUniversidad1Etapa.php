@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon VillasUniversidad1°Etapa
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon VillasUniversidad1Etapa
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase VillasUniversidad1°Etapa
+ * Clase VillasUniversidad1Etapa
  */
-class VillasUniversidad1°Etapa extends \IBCBase\PublicacionWeb {
+class VillasUniversidad1Etapa extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -36,12 +36,12 @@ class VillasUniversidad1°Etapa extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Villas Universidad 1° Etapa';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
-        $this->archivo                    = 'villas-universidad-1°-etapa';
+        $this->archivo                    = 'villas-universidad-1-etapa';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Villas Universidad 1° Etapa en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Villas Universidad 1° Etapa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -102,7 +102,7 @@ class VillasUniversidad1°Etapa extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 15.79,
                     'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 15.79,
-                    'Cuarta actividad nombre' => 'Industria Manufacturera',
+                    'Cuarta actividad nombre' => 'Comercio Mayoreo',
                     'Cuarta actividad porcentaje' => 5.26,
                     'Quinta actividad nombre' => 'Educativos',
                     'Quinta actividad porcentaje' => 5.26
@@ -133,6 +133,6 @@ class VillasUniversidad1°Etapa extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase VillasUniversidad1°Etapa
+} // Clase VillasUniversidad1Etapa
 
 ?>

@@ -36,12 +36,12 @@ class VillasLaRosita extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Villas La Rosita';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'villas-la-rosita';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Villas La Rosita en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Villas La Rosita';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -96,15 +96,15 @@ class VillasLaRosita extends \IBCBase\PublicacionWeb {
             'Unidades Económicas' => array(
                 '2010' => array(
                     'Total Actividades Económicas' => 20,
-                    'Primer actividad nombre' => 'Financieros y Seguros',
+                    'Primer actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Primer actividad porcentaje' => 15.00,
-                    'Segunda actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Segunda actividad nombre' => 'Financieros y Seguros',
                     'Segunda actividad porcentaje' => 15.00,
                     'Tercera actividad nombre' => 'Educativos',
                     'Tercera actividad porcentaje' => 10.00,
-                    'Cuarta actividad nombre' => 'Comercio Menudeo',
+                    'Cuarta actividad nombre' => 'Manejo de Residuos',
                     'Cuarta actividad porcentaje' => 10.00,
-                    'Quinta actividad nombre' => 'Manejo de Residuos',
+                    'Quinta actividad nombre' => 'Información Medios Masivos',
                     'Quinta actividad porcentaje' => 10.00
                 )
             )

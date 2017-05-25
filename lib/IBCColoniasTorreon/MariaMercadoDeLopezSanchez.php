@@ -36,12 +36,12 @@ class MariaMercadoDeLopezSanchez extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'María Mercado de López Sánchez';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'maria-mercado-de-lopez-sanchez';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia María Mercado de López Sánchez en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, María Mercado de López Sánchez';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -102,9 +102,9 @@ class MariaMercadoDeLopezSanchez extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 18.62,
                     'Tercera actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Tercera actividad porcentaje' => 13.79,
-                    'Cuarta actividad nombre' => 'Industria Manufacturera',
+                    'Cuarta actividad nombre' => 'Comercio Mayoreo',
                     'Cuarta actividad porcentaje' => 7.59,
-                    'Quinta actividad nombre' => 'Comercio Mayoreo',
+                    'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Quinta actividad porcentaje' => 7.59
                 )
             )

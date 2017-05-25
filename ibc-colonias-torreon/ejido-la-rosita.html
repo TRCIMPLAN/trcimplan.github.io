@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ejido La Rosita en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ejido La Rosita">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ejido La Rosita - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ejido La Rosita en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">13.33 %</td>
       </tr>
       <tr>
-        <td>5° Industria Manufacturera</td>
+        <td>5° Gubernamentales</td>
         <td class="derecha">6.67 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ejido La Rosita'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ejido La Rosita'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Educativos', 20, '#8EC359', '20 %'],
               ['3° Otros servicios, excepto Gobierno', 20, '#C38E59', '20 %'],
               ['4° Preparación de Alimentos y Bebidas', 13.33, '#80C0FF', '13.33 %'],
-              ['5° Industria Manufacturera', 6.67, '#59BFC3', '6.67 %']
+              ['5° Gubernamentales', 6.67, '#59BFC3', '6.67 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -43,11 +43,11 @@
         "Total Actividades Económicas":5,
         "Primer actividad nombre":"Transportes, Correo, Almacenamiento",
         "Primer actividad porcentaje":40,
-        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad nombre":"Comercio Mayoreo",
         "Segunda actividad porcentaje":20,
-        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad nombre":"Educativos",
         "Tercera actividad porcentaje":20,
-        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad nombre":"Comercio Menudeo",
         "Cuarta actividad porcentaje":20
       }
     }

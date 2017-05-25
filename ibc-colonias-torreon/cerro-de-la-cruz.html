@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Cerro de La Cruz en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Cerro de La Cruz">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Cerro de La Cruz - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Cerro de La Cruz en Torreón, Coahuila de Zaragoza, México.">
@@ -393,7 +393,7 @@
         <td class="derecha">8.57 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Salud</td>
         <td class="derecha">5.71 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Cerro de La Cruz'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Cerro de La Cruz'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,7 +698,7 @@
               ['1° Comercio Menudeo', 54.29, '#59C38E', '54.29 %'],
               ['2° Otros servicios, excepto Gobierno', 14.29, '#8EC359', '14.29 %'],
               ['3° Preparación de Alimentos y Bebidas', 8.57, '#C38E59', '8.57 %'],
-              ['4° Industria Manufacturera', 5.71, '#80C0FF', '5.71 %'],
+              ['4° Salud', 5.71, '#80C0FF', '5.71 %'],
               ['5° Educativos', 5.71, '#59BFC3', '5.71 %']
           ]);
           var options = {

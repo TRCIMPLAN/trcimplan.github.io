@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon VillaDeLasPerlas
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon VillasUniversidad2Etapa
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase VillaDeLasPerlas
+ * Clase VillasUniversidad2Etapa
  */
-class VillaDeLasPerlas extends \IBCBase\PublicacionWeb {
+class VillasUniversidad2Etapa extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,14 +34,14 @@ class VillaDeLasPerlas extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Villa de Las Perlas';
+        $this->nombre                     = 'Villas Universidad 2° Etapa';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
-        $this->archivo                    = 'villa-de-las-perlas';
+        $this->archivo                    = 'villas-universidad-2-etapa';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Villa de Las Perlas en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->descripcion                = 'Colonia Villas Universidad 2° Etapa en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Villas Universidad 2° Etapa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -58,46 +58,52 @@ class VillaDeLasPerlas extends \IBCBase\PublicacionWeb {
         return array(
             'Demografía' => array(
                 '2010' => array(
-                    'Población total' => 313,
-                    'Porcentaje de población masculina' => 51.76,
-                    'Porcentaje de población femenina' => 48.24,
-                    'Porcentaje de población de 0 a 14 años' => 27.48,
-                    'Porcentaje de población de 15 a 64 años' => 69.01,
-                    'Porcentaje de población de 65 y más años' => 2.56,
-                    'Porcentaje de población no especificada' => 0.95,
-                    'Fecundidad promedio' => 1.55,
-                    'Porcentaje de población con discapacidad' => 2.66
+                    'Población total' => 668,
+                    'Porcentaje de población masculina' => 49.55,
+                    'Porcentaje de población femenina' => 50.45,
+                    'Porcentaje de población de 0 a 14 años' => 33.23,
+                    'Porcentaje de población de 15 a 64 años' => 64.52,
+                    'Porcentaje de población de 65 y más años' => 2.25,
+                    'Porcentaje de población no especificada' => 0.00,
+                    'Fecundidad promedio' => 1.54,
+                    'Porcentaje de población con discapacidad' => 1.69
                 )
             ),
             'Características Económicas' => array(
                 '2010' => array(
-                    'Población Económicamente Activa' => 67.83,
-                    'Población Económicamente Activa masculina' => 56.41,
-                    'Población Económicamente Activa femenina' => 43.59,
-                    'Población Ocupada' => 98.70,
-                    'Población Ocupada masculina' => 56.49,
-                    'Población Ocupada femenina' => 43.51,
-                    'Población Desocupada' => 1.30,
-                    'Derechohabiencia' => 84.35
+                    'Población Económicamente Activa' => 66.23,
+                    'Población Económicamente Activa masculina' => 61.44,
+                    'Población Económicamente Activa femenina' => 38.56,
+                    'Población Ocupada' => 95.22,
+                    'Población Ocupada masculina' => 60.96,
+                    'Población Ocupada femenina' => 39.04,
+                    'Población Desocupada' => 4.78,
+                    'Derechohabiencia' => 83.83
                 )
             ),
             'Viviendas' => array(
                 '2010' => array(
-                    'Hogares' => 89,
+                    'Hogares' => 190,
                     'Ocupación por Vivienda' => 3.52,
                     'Viviendas con Electricidad' => 100.00,
-                    'Viviendas con Agua' => 98.88,
+                    'Viviendas con Agua' => 100.00,
                     'Viviendas con Drenaje' => 100.00,
-                    'Viviendas con Televisión' => 100.00,
-                    'Viviendas con Automóvil' => 97.75,
-                    'Viviendas con Computadora' => 79.78
+                    'Viviendas con Televisión' => 98.42,
+                    'Viviendas con Automóvil' => 80.53,
+                    'Viviendas con Computadora' => 52.11
                 )
             ),
             'Unidades Económicas' => array(
                 '2010' => array(
-                    'Total Actividades Económicas' => 1,
+                    'Total Actividades Económicas' => 14,
                     'Primer actividad nombre' => 'Comercio Menudeo',
-                    'Primer actividad porcentaje' => 100.00
+                    'Primer actividad porcentaje' => 64.29,
+                    'Segunda actividad nombre' => 'Salud',
+                    'Segunda actividad porcentaje' => 14.29,
+                    'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Tercera actividad porcentaje' => 14.29,
+                    'Cuarta actividad nombre' => 'Educativos',
+                    'Cuarta actividad porcentaje' => 7.14
                 )
             )
         );
@@ -111,8 +117,8 @@ class VillaDeLasPerlas extends \IBCBase\PublicacionWeb {
     public function mapas() {
         return array(
             'Límites'         => \Configuracion\IBCTorreonConfig::LIMITES,
-            'Centro latitud'  => 25.5035633602453,
-            'Centro longitud' => -103.349437254384
+            'Centro latitud'  => 25.5388776108608,
+            'Centro longitud' => -103.320091931291
         );
     } // mapas
 
@@ -125,6 +131,6 @@ class VillaDeLasPerlas extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase VillaDeLasPerlas
+} // Clase VillasUniversidad2Etapa
 
 ?>

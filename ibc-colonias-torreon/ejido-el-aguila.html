@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ejido El Águila en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ejido El Águila">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ejido El Águila - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ejido El Águila en Torreón, Coahuila de Zaragoza, México.">
@@ -176,8 +176,8 @@
           <h3 class="titulo" itemprop="name">Ejido El Águila</h3>
           <div class="descripcion" itemprop="description">Colonia Ejido El Águila en Torreón, Coahuila de Zaragoza, México.</div>
                   <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-            Latitud: <meta itemprop="latitude" content="25.530832590302">25.530832590302
-            Longitud: <meta itemprop="longitude" content="-103.33677698526">-103.33677698526
+            Latitud: <meta itemprop="latitude" content="25.531584376587">25.531584376587
+            Longitud: <meta itemprop="longitude" content="-103.33633601484">-103.33633601484
           </div>
         </div>
       <!-- Contenido: Inicia  -->
@@ -512,8 +512,8 @@
     if (mapa_limites_cargado == false) {
       var carto_json = 'https://guivaloz.carto.com/api/v2/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/viz.json'
       cartodb.createVis('MapaLimites', carto_json, {
-        center_lat: 25.530832590302,
-        center_lon: -103.33677698526,
+        center_lat: 25.531584376587,
+        center_lon: -103.33633601484,
         zoom: 14
       })
       .done(function(vis, layers) {
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ejido El Águila'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ejido El Águila'");
       })
       .error(function(err) {
         console.log(err);

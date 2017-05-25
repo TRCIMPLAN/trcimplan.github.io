@@ -36,12 +36,12 @@ class JoyasDelOriente extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Joyas del Oriente';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'joyas-del-oriente';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Joyas del Oriente en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Joyas del Oriente';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -100,9 +100,9 @@ class JoyasDelOriente extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 44.07,
                     'Segunda actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Segunda actividad porcentaje' => 18.64,
-                    'Tercera actividad nombre' => 'Manejo de Residuos',
+                    'Tercera actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Tercera actividad porcentaje' => 8.47,
-                    'Cuarta actividad nombre' => 'Otros servicios, excepto Gobierno',
+                    'Cuarta actividad nombre' => 'Manejo de Residuos',
                     'Cuarta actividad porcentaje' => 8.47,
                     'Quinta actividad nombre' => 'Educativos',
                     'Quinta actividad porcentaje' => 6.78

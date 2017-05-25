@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Residencial Tecnológico en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Residencial Tecnológico">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Residencial Tecnológico - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Residencial Tecnológico en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">1.96 %</td>
       </tr>
       <tr>
-        <td>5° Industria Manufacturera</td>
+        <td>5° Esparcimiento, Culturales, Deportivos</td>
         <td class="derecha">0.98 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Residencial Tecnológico'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Residencial Tecnológico'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Comercio Menudeo', 22.55, '#8EC359', '22.55 %'],
               ['3° Preparación de Alimentos y Bebidas', 11.76, '#C38E59', '11.76 %'],
               ['4° Otros servicios, excepto Gobierno', 1.96, '#80C0FF', '1.96 %'],
-              ['5° Industria Manufacturera', 0.98, '#59BFC3', '0.98 %']
+              ['5° Esparcimiento, Culturales, Deportivos', 0.98, '#59BFC3', '0.98 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -43,13 +43,13 @@
         "Total Actividades Económicas":20,
         "Primer actividad nombre":"Comercio Menudeo",
         "Primer actividad porcentaje":25,
-        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad nombre":"Salud",
         "Segunda actividad porcentaje":15,
-        "Tercera actividad nombre":"Salud",
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
         "Tercera actividad porcentaje":15,
-        "Cuarta actividad nombre":"Financieros y Seguros",
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
         "Cuarta actividad porcentaje":10,
-        "Quinta actividad nombre":"Profesionales, Científicos, Técnicos",
+        "Quinta actividad nombre":"Financieros y Seguros",
         "Quinta actividad porcentaje":10
       }
     }

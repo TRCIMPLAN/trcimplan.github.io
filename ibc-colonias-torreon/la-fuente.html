@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia La Fuente en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, La Fuente">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="La Fuente - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia La Fuente en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">15.57 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Educativos</td>
         <td class="derecha">3.59 %</td>
       </tr>
       <tr>
-        <td>5° Educativos</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">3.59 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'La Fuente'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'La Fuente'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 42.51, '#59C38E', '42.51 %'],
               ['2° Otros servicios, excepto Gobierno', 16.77, '#8EC359', '16.77 %'],
               ['3° Preparación de Alimentos y Bebidas', 15.57, '#C38E59', '15.57 %'],
-              ['4° Industria Manufacturera', 3.59, '#80C0FF', '3.59 %'],
-              ['5° Educativos', 3.59, '#59BFC3', '3.59 %']
+              ['4° Educativos', 3.59, '#80C0FF', '3.59 %'],
+              ['5° Industria Manufacturera', 3.59, '#59BFC3', '3.59 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

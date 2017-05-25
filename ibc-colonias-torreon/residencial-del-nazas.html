@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Residencial del Nazas en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Residencial del Nazas">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Residencial del Nazas - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Residencial del Nazas en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">13.04 %</td>
       </tr>
       <tr>
-        <td>5° Industria Manufacturera</td>
+        <td>5° Salud</td>
         <td class="derecha">2.17 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Residencial del Nazas'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Residencial del Nazas'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Otros servicios, excepto Gobierno', 21.74, '#8EC359', '21.74 %'],
               ['3° Educativos', 15.22, '#C38E59', '15.22 %'],
               ['4° Preparación de Alimentos y Bebidas', 13.04, '#80C0FF', '13.04 %'],
-              ['5° Industria Manufacturera', 2.17, '#59BFC3', '2.17 %']
+              ['5° Salud', 2.17, '#59BFC3', '2.17 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

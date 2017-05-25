@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ampliación Leandro Rovirosa Wade en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ampliación Leandro Rovirosa Wade">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ampliación Leandro Rovirosa Wade - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ampliación Leandro Rovirosa Wade en Torreón, Coahuila de Zaragoza, México.">
@@ -381,11 +381,11 @@
         <td class="derecha">7</td>
       </tr>
       <tr>
-        <td>1° Comercio Menudeo</td>
+        <td>1° Otros servicios, excepto Gobierno</td>
         <td class="derecha">42.86 %</td>
       </tr>
       <tr>
-        <td>2° Otros servicios, excepto Gobierno</td>
+        <td>2° Comercio Menudeo</td>
         <td class="derecha">42.86 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ampliación Leandro Rovirosa Wade'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ampliación Leandro Rovirosa Wade'");
       })
       .error(function(err) {
         console.log(err);
@@ -695,8 +695,8 @@
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Comercio Menudeo', 42.86, '#59C38E', '42.86 %'],
-              ['2° Otros servicios, excepto Gobierno', 42.86, '#8EC359', '42.86 %'],
+              ['1° Otros servicios, excepto Gobierno', 42.86, '#59C38E', '42.86 %'],
+              ['2° Comercio Menudeo', 42.86, '#8EC359', '42.86 %'],
               ['3° Manejo de Residuos', 14.29, '#C38E59', '14.29 %']
           ]);
           var options = {

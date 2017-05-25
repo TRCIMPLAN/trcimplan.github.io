@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia La Amistad en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, La Amistad">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="La Amistad - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia La Amistad en Torreón, Coahuila de Zaragoza, México.">
@@ -385,19 +385,19 @@
         <td class="derecha">36.59 %</td>
       </tr>
       <tr>
-        <td>2° Comercio Menudeo</td>
+        <td>2° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">17.07 %</td>
       </tr>
       <tr>
-        <td>3° Preparación de Alimentos y Bebidas</td>
+        <td>3° Comercio Menudeo</td>
         <td class="derecha">17.07 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Comercio Mayoreo</td>
         <td class="derecha">7.32 %</td>
       </tr>
       <tr>
-        <td>5° Comercio Mayoreo</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">7.32 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'La Amistad'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'La Amistad'");
       })
       .error(function(err) {
         console.log(err);
@@ -696,10 +696,10 @@
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Otros servicios, excepto Gobierno', 36.59, '#59C38E', '36.59 %'],
-              ['2° Comercio Menudeo', 17.07, '#8EC359', '17.07 %'],
-              ['3° Preparación de Alimentos y Bebidas', 17.07, '#C38E59', '17.07 %'],
-              ['4° Industria Manufacturera', 7.32, '#80C0FF', '7.32 %'],
-              ['5° Comercio Mayoreo', 7.32, '#59BFC3', '7.32 %']
+              ['2° Preparación de Alimentos y Bebidas', 17.07, '#8EC359', '17.07 %'],
+              ['3° Comercio Menudeo', 17.07, '#C38E59', '17.07 %'],
+              ['4° Comercio Mayoreo', 7.32, '#80C0FF', '7.32 %'],
+              ['5° Industria Manufacturera', 7.32, '#59BFC3', '7.32 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -28,7 +28,7 @@ namespace Configuracion;
 class IBCTorreonConfig {
 
     const LIMITES       = 'https://guivaloz.carto.com/api/v2/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/viz.json';
-    const LIMITES_TABLA = 'ibccoloniastorreon20170524';
+    const LIMITES_TABLA = 'ibccoloniastorreon20170524b';
 
 } // Clase IBCTorreonConfig
 

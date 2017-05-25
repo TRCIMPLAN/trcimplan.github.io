@@ -41,9 +41,9 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":5,
-        "Primer actividad nombre":"Educativos",
+        "Primer actividad nombre":"Salud",
         "Primer actividad porcentaje":40,
-        "Segunda actividad nombre":"Salud",
+        "Segunda actividad nombre":"Educativos",
         "Segunda actividad porcentaje":40,
         "Tercera actividad nombre":"Inmobiliarios",
         "Tercera actividad porcentaje":20

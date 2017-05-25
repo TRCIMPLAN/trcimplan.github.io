@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Valle Dorado en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Valle Dorado">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Valle Dorado - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Valle Dorado en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">5.80 %</td>
       </tr>
       <tr>
-        <td>5° Inmobiliarios</td>
+        <td>5° Salud</td>
         <td class="derecha">4.35 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Valle Dorado'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Valle Dorado'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Preparación de Alimentos y Bebidas', 21.74, '#8EC359', '21.74 %'],
               ['3° Otros servicios, excepto Gobierno', 17.39, '#C38E59', '17.39 %'],
               ['4° Industria Manufacturera', 5.8, '#80C0FF', '5.8 %'],
-              ['5° Inmobiliarios', 4.35, '#59BFC3', '4.35 %']
+              ['5° Salud', 4.35, '#59BFC3', '4.35 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

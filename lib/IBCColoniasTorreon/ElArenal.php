@@ -36,12 +36,12 @@ class ElArenal extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'El Arenal';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'el-arenal';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia El Arenal en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, El Arenal';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -115,8 +115,8 @@ class ElArenal extends \IBCBase\PublicacionWeb {
     public function mapas() {
         return array(
             'Límites'         => \Configuracion\IBCTorreonConfig::LIMITES,
-            'Centro latitud'  => 25.5484149006002,
-            'Centro longitud' => -103.464324149601
+            'Centro latitud'  => 25.5472688746397,
+            'Centro longitud' => -103.466007560929
         );
     } // mapas
 

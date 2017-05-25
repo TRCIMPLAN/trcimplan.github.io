@@ -36,12 +36,12 @@ class LaHaciendaOriente extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'La Hacienda Oriente';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-hacienda-oriente';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia La Hacienda Oriente en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, La Hacienda Oriente';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -102,9 +102,9 @@ class LaHaciendaOriente extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 16.00,
                     'Tercera actividad nombre' => 'Comercio Menudeo',
                     'Tercera actividad porcentaje' => 12.00,
-                    'Cuarta actividad nombre' => 'Inmobiliarios',
+                    'Cuarta actividad nombre' => 'Comercio Mayoreo',
                     'Cuarta actividad porcentaje' => 4.00,
-                    'Quinta actividad nombre' => 'Financieros y Seguros',
+                    'Quinta actividad nombre' => 'Educativos',
                     'Quinta actividad porcentaje' => 4.00
                 )
             )

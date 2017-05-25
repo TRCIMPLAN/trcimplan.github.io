@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Palmas San Isidro en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Palmas San Isidro">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Palmas San Isidro - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Palmas San Isidro en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">9.38 %</td>
       </tr>
       <tr>
-        <td>5° Financieros y Seguros</td>
+        <td>5° Salud</td>
         <td class="derecha">6.25 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Palmas San Isidro'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Palmas San Isidro'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Comercio Menudeo', 21.88, '#8EC359', '21.88 %'],
               ['3° Manejo de Residuos', 9.38, '#C38E59', '9.38 %'],
               ['4° Preparación de Alimentos y Bebidas', 9.38, '#80C0FF', '9.38 %'],
-              ['5° Financieros y Seguros', 6.25, '#59BFC3', '6.25 %']
+              ['5° Salud', 6.25, '#59BFC3', '6.25 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -36,12 +36,12 @@ class AngelesResidencialRinconAurora extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Angeles Residencial - Rincón Aurora';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'angeles-residencial-rincon-aurora';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Angeles Residencial - Rincón Aurora en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Angeles Residencial - Rincón Aurora';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -96,11 +96,11 @@ class AngelesResidencialRinconAurora extends \IBCBase\PublicacionWeb {
             'Unidades Económicas' => array(
                 '2010' => array(
                     'Total Actividades Económicas' => 3,
-                    'Primer actividad nombre' => 'Industria Manufacturera',
+                    'Primer actividad nombre' => 'Salud',
                     'Primer actividad porcentaje' => 33.33,
                     'Segunda actividad nombre' => 'Comercio Menudeo',
                     'Segunda actividad porcentaje' => 33.33,
-                    'Tercera actividad nombre' => 'Salud',
+                    'Tercera actividad nombre' => 'Industria Manufacturera',
                     'Tercera actividad porcentaje' => 33.33
                 )
             )
@@ -115,8 +115,8 @@ class AngelesResidencialRinconAurora extends \IBCBase\PublicacionWeb {
     public function mapas() {
         return array(
             'Límites'         => \Configuracion\IBCTorreonConfig::LIMITES,
-            'Centro latitud'  => 25.5306077523232,
-            'Centro longitud' => -103.400547349128
+            'Centro latitud'  => 25.5306066537669,
+            'Centro longitud' => -103.400543976657
         );
     } // mapas
 

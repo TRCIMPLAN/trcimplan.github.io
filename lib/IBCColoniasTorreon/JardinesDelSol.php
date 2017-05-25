@@ -36,12 +36,12 @@ class JardinesDelSol extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Jardines Del Sol';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'jardines-del-sol';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Jardines Del Sol en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Jardines Del Sol';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -100,9 +100,9 @@ class JardinesDelSol extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 68.97,
                     'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Segunda actividad porcentaje' => 13.79,
-                    'Tercera actividad nombre' => 'Industria Manufacturera',
+                    'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 6.90,
-                    'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Cuarta actividad nombre' => 'Industria Manufacturera',
                     'Cuarta actividad porcentaje' => 6.90,
                     'Quinta actividad nombre' => 'Manejo de Residuos',
                     'Quinta actividad porcentaje' => 3.45

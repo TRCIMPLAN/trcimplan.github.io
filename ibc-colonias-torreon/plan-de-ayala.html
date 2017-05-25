@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Plan de Ayala en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Plan de Ayala">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Plan de Ayala - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Plan de Ayala en Torreón, Coahuila de Zaragoza, México.">
@@ -389,15 +389,15 @@
         <td class="derecha">34.78 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Otros servicios, excepto Gobierno</td>
         <td class="derecha">8.70 %</td>
       </tr>
       <tr>
-        <td>4° Otros servicios, excepto Gobierno</td>
+        <td>4° Industria Manufacturera</td>
         <td class="derecha">8.70 %</td>
       </tr>
       <tr>
-        <td>5° Esparcimiento, Culturales, Deportivos</td>
+        <td>5° Gubernamentales</td>
         <td class="derecha">4.35 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Plan de Ayala'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Plan de Ayala'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 39.13, '#59C38E', '39.13 %'],
               ['2° Preparación de Alimentos y Bebidas', 34.78, '#8EC359', '34.78 %'],
-              ['3° Industria Manufacturera', 8.7, '#C38E59', '8.7 %'],
-              ['4° Otros servicios, excepto Gobierno', 8.7, '#80C0FF', '8.7 %'],
-              ['5° Esparcimiento, Culturales, Deportivos', 4.35, '#59BFC3', '4.35 %']
+              ['3° Otros servicios, excepto Gobierno', 8.7, '#C38E59', '8.7 %'],
+              ['4° Industria Manufacturera', 8.7, '#80C0FF', '8.7 %'],
+              ['5° Gubernamentales', 4.35, '#59BFC3', '4.35 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

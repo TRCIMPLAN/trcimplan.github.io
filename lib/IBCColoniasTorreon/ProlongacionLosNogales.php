@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon LosMonasterios1°Etapa
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon ProlongacionLosNogales
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase LosMonasterios1°Etapa
+ * Clase ProlongacionLosNogales
  */
-class LosMonasterios1°Etapa extends \IBCBase\PublicacionWeb {
+class ProlongacionLosNogales extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,14 +34,14 @@ class LosMonasterios1°Etapa extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Los Monasterios 1° Etapa';
+        $this->nombre                     = 'Polongación Los Nogales';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
-        $this->archivo                    = 'los-monasterios-1°-etapa';
+        $this->archivo                    = 'polongacion-los-nogales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Los Monasterios 1° Etapa en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->descripcion                = 'Colonia Polongación Los Nogales en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Polongación Los Nogales';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -58,54 +58,54 @@ class LosMonasterios1°Etapa extends \IBCBase\PublicacionWeb {
         return array(
             'Demografía' => array(
                 '2010' => array(
-                    'Población total' => 389,
-                    'Porcentaje de población masculina' => 46.91,
-                    'Porcentaje de población femenina' => 53.09,
-                    'Porcentaje de población de 0 a 14 años' => 38.70,
-                    'Porcentaje de población de 15 a 64 años' => 60.19,
-                    'Porcentaje de población de 65 y más años' => 1.08,
-                    'Porcentaje de población no especificada' => 0.03,
-                    'Fecundidad promedio' => 2.11,
-                    'Porcentaje de población con discapacidad' => 1.59
+                    'Población total' => 3204,
+                    'Porcentaje de población masculina' => 45.32,
+                    'Porcentaje de población femenina' => 54.68,
+                    'Porcentaje de población de 0 a 14 años' => 19.01,
+                    'Porcentaje de población de 15 a 64 años' => 70.66,
+                    'Porcentaje de población de 65 y más años' => 8.74,
+                    'Porcentaje de población no especificada' => 1.59,
+                    'Fecundidad promedio' => 1.99,
+                    'Porcentaje de población con discapacidad' => 5.61
                 )
             ),
             'Características Económicas' => array(
                 '2010' => array(
-                    'Población Económicamente Activa' => 60.41,
-                    'Población Económicamente Activa masculina' => 65.70,
-                    'Población Económicamente Activa femenina' => 34.30,
-                    'Población Ocupada' => 97.23,
-                    'Población Ocupada masculina' => 64.77,
-                    'Población Ocupada femenina' => 35.23,
-                    'Población Desocupada' => 2.77,
-                    'Derechohabiencia' => 74.78
+                    'Población Económicamente Activa' => 50.50,
+                    'Población Económicamente Activa masculina' => 55.88,
+                    'Población Económicamente Activa femenina' => 44.12,
+                    'Población Ocupada' => 91.54,
+                    'Población Ocupada masculina' => 54.86,
+                    'Población Ocupada femenina' => 45.14,
+                    'Población Desocupada' => 8.46,
+                    'Derechohabiencia' => 78.71
                 )
             ),
             'Viviendas' => array(
                 '2010' => array(
-                    'Hogares' => 104,
-                    'Ocupación por Vivienda' => 3.74,
+                    'Hogares' => 901,
+                    'Ocupación por Vivienda' => 3.56,
                     'Viviendas con Electricidad' => 100.00,
-                    'Viviendas con Agua' => 99.40,
-                    'Viviendas con Drenaje' => 100.00,
-                    'Viviendas con Televisión' => 99.40,
-                    'Viviendas con Automóvil' => 40.79,
-                    'Viviendas con Computadora' => 20.99
+                    'Viviendas con Agua' => 99.89,
+                    'Viviendas con Drenaje' => 99.89,
+                    'Viviendas con Televisión' => 99.56,
+                    'Viviendas con Automóvil' => 79.69,
+                    'Viviendas con Computadora' => 64.82
                 )
             ),
             'Unidades Económicas' => array(
                 '2010' => array(
-                    'Total Actividades Económicas' => 18,
+                    'Total Actividades Económicas' => 91,
                     'Primer actividad nombre' => 'Comercio Menudeo',
-                    'Primer actividad porcentaje' => 38.89,
+                    'Primer actividad porcentaje' => 36.26,
                     'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
-                    'Segunda actividad porcentaje' => 22.22,
+                    'Segunda actividad porcentaje' => 19.78,
                     'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
-                    'Tercera actividad porcentaje' => 22.22,
-                    'Cuarta actividad nombre' => 'Industria Manufacturera',
-                    'Cuarta actividad porcentaje' => 11.11,
-                    'Quinta actividad nombre' => 'Comercio Mayoreo',
-                    'Quinta actividad porcentaje' => 5.56
+                    'Tercera actividad porcentaje' => 10.99,
+                    'Cuarta actividad nombre' => 'Educativos',
+                    'Cuarta actividad porcentaje' => 6.59,
+                    'Quinta actividad nombre' => 'Industria Manufacturera',
+                    'Quinta actividad porcentaje' => 6.59
                 )
             )
         );
@@ -119,8 +119,8 @@ class LosMonasterios1°Etapa extends \IBCBase\PublicacionWeb {
     public function mapas() {
         return array(
             'Límites'         => \Configuracion\IBCTorreonConfig::LIMITES,
-            'Centro latitud'  => 25.4975034668072,
-            'Centro longitud' => -103.361976784569
+            'Centro latitud'  => 25.5739577366004,
+            'Centro longitud' => -103.440668240639
         );
     } // mapas
 
@@ -133,6 +133,6 @@ class LosMonasterios1°Etapa extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase LosMonasterios1°Etapa
+} // Clase ProlongacionLosNogales
 
 ?>

@@ -36,12 +36,12 @@ class VillaLosPinos extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Villa Los Pinos';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'villa-los-pinos';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Villa Los Pinos en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Villa Los Pinos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -69,9 +69,9 @@ class VillaLosPinos extends \IBCBase\PublicacionWeb {
             'Unidades Económicas' => array(
                 '2010' => array(
                     'Total Actividades Económicas' => 2,
-                    'Primer actividad nombre' => 'Inmobiliarios',
+                    'Primer actividad nombre' => 'Educativos',
                     'Primer actividad porcentaje' => 50.00,
-                    'Segunda actividad nombre' => 'Educativos',
+                    'Segunda actividad nombre' => 'Inmobiliarios',
                     'Segunda actividad porcentaje' => 50.00
                 )
             )

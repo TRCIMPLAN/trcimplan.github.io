@@ -43,13 +43,13 @@
         "Total Actividades Económicas":8,
         "Primer actividad nombre":"Comercio Menudeo",
         "Primer actividad porcentaje":50,
-        "Segunda actividad nombre":"Industria Manufacturera",
+        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
         "Segunda actividad porcentaje":12.5,
         "Tercera actividad nombre":"Manejo de Residuos",
         "Tercera actividad porcentaje":12.5,
-        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
         "Cuarta actividad porcentaje":12.5,
-        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad nombre":"Industria Manufacturera",
         "Quinta actividad porcentaje":12.5
       }
     }

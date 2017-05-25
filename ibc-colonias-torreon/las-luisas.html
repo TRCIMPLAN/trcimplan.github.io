@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Las Luisas en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Las Luisas">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Las Luisas - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Las Luisas en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">7.55 %</td>
       </tr>
       <tr>
-        <td>5° Financieros y Seguros</td>
+        <td>5° Comercio Mayoreo</td>
         <td class="derecha">1.89 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Las Luisas'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Las Luisas'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Otros servicios, excepto Gobierno', 24.53, '#8EC359', '24.53 %'],
               ['3° Preparación de Alimentos y Bebidas', 20.75, '#C38E59', '20.75 %'],
               ['4° Industria Manufacturera', 7.55, '#80C0FF', '7.55 %'],
-              ['5° Financieros y Seguros', 1.89, '#59BFC3', '1.89 %']
+              ['5° Comercio Mayoreo', 1.89, '#59BFC3', '1.89 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

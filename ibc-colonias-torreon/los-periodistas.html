@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Los Periodistas en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Los Periodistas">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Los Periodistas - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Los Periodistas en Torreón, Coahuila de Zaragoza, México.">
@@ -389,11 +389,11 @@
         <td class="derecha">27.27 %</td>
       </tr>
       <tr>
-        <td>3° Manejo de Residuos</td>
+        <td>3° Comercio Mayoreo</td>
         <td class="derecha">9.09 %</td>
       </tr>
       <tr>
-        <td>4° Comercio Mayoreo</td>
+        <td>4° Manejo de Residuos</td>
         <td class="derecha">9.09 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Los Periodistas'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Los Periodistas'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,8 +697,8 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 45.45, '#59C38E', '45.45 %'],
               ['2° Otros servicios, excepto Gobierno', 27.27, '#8EC359', '27.27 %'],
-              ['3° Manejo de Residuos', 9.09, '#C38E59', '9.09 %'],
-              ['4° Comercio Mayoreo', 9.09, '#80C0FF', '9.09 %'],
+              ['3° Comercio Mayoreo', 9.09, '#C38E59', '9.09 %'],
+              ['4° Manejo de Residuos', 9.09, '#80C0FF', '9.09 %'],
               ['5° Preparación de Alimentos y Bebidas', 9.09, '#59BFC3', '9.09 %']
           ]);
           var options = {

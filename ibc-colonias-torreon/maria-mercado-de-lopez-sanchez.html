@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia María Mercado de López Sánchez en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, María Mercado de López Sánchez">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="María Mercado de López Sánchez - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia María Mercado de López Sánchez en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">13.79 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Comercio Mayoreo</td>
         <td class="derecha">7.59 %</td>
       </tr>
       <tr>
-        <td>5° Comercio Mayoreo</td>
+        <td>5° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">7.59 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'María Mercado de López Sánchez'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'María Mercado de López Sánchez'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 40, '#59C38E', '40 %'],
               ['2° Inmobiliarios', 18.62, '#8EC359', '18.62 %'],
               ['3° Otros servicios, excepto Gobierno', 13.79, '#C38E59', '13.79 %'],
-              ['4° Industria Manufacturera', 7.59, '#80C0FF', '7.59 %'],
-              ['5° Comercio Mayoreo', 7.59, '#59BFC3', '7.59 %']
+              ['4° Comercio Mayoreo', 7.59, '#80C0FF', '7.59 %'],
+              ['5° Preparación de Alimentos y Bebidas', 7.59, '#59BFC3', '7.59 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

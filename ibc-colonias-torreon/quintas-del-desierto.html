@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Quintas del Desierto en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Quintas del Desierto">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Quintas del Desierto - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Quintas del Desierto en Torreón, Coahuila de Zaragoza, México.">
@@ -276,11 +276,11 @@ La cantidad de Hogares es cero.
         <td class="derecha">14.29 %</td>
       </tr>
       <tr>
-        <td>4° Transportes, Correo, Almacenamiento</td>
+        <td>4° Construcción</td>
         <td class="derecha">14.29 %</td>
       </tr>
       <tr>
-        <td>5° Construcción</td>
+        <td>5° Transportes, Correo, Almacenamiento</td>
         <td class="derecha">14.29 %</td>
       </tr>
     </tbody>
@@ -413,7 +413,7 @@ La cantidad de Hogares es cero.
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Quintas del Desierto'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Quintas del Desierto'");
       })
       .error(function(err) {
         console.log(err);
@@ -432,8 +432,8 @@ La cantidad de Hogares es cero.
               ['1° Comercio Mayoreo', 28.57, '#59C38E', '28.57 %'],
               ['2° Preparación de Alimentos y Bebidas', 28.57, '#8EC359', '28.57 %'],
               ['3° Otros servicios, excepto Gobierno', 14.29, '#C38E59', '14.29 %'],
-              ['4° Transportes, Correo, Almacenamiento', 14.29, '#80C0FF', '14.29 %'],
-              ['5° Construcción', 14.29, '#59BFC3', '14.29 %']
+              ['4° Construcción', 14.29, '#80C0FF', '14.29 %'],
+              ['5° Transportes, Correo, Almacenamiento', 14.29, '#59BFC3', '14.29 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

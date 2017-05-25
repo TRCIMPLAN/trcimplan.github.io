@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Satélite de La Laguna en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Satélite de La Laguna">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Satélite de La Laguna - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Satélite de La Laguna en Torreón, Coahuila de Zaragoza, México.">
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Satélite de La Laguna'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Satélite de La Laguna'");
       })
       .error(function(err) {
         console.log(err);

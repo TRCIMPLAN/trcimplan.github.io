@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Sección 38 en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Sección 38">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Sección 38 - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Sección 38 en Torreón, Coahuila de Zaragoza, México.">
@@ -393,7 +393,7 @@
         <td class="derecha">13.04 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Salud</td>
         <td class="derecha">4.35 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Sección 38'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Sección 38'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,7 +698,7 @@
               ['1° Otros servicios, excepto Gobierno', 39.13, '#59C38E', '39.13 %'],
               ['2° Comercio Menudeo', 30.43, '#8EC359', '30.43 %'],
               ['3° Preparación de Alimentos y Bebidas', 13.04, '#C38E59', '13.04 %'],
-              ['4° Industria Manufacturera', 4.35, '#80C0FF', '4.35 %'],
+              ['4° Salud', 4.35, '#80C0FF', '4.35 %'],
               ['5° Educativos', 4.35, '#59BFC3', '4.35 %']
           ]);
           var options = {

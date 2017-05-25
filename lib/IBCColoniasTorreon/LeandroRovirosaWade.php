@@ -36,12 +36,12 @@ class LeandroRovirosaWade extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Leandro Rovirosa Wade';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'leandro-rovirosa-wade';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Leandro Rovirosa Wade en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Leandro Rovirosa Wade';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -96,15 +96,15 @@ class LeandroRovirosaWade extends \IBCBase\PublicacionWeb {
             'Unidades Económicas' => array(
                 '2010' => array(
                     'Total Actividades Económicas' => 24,
-                    'Primer actividad nombre' => 'Inmobiliarios',
+                    'Primer actividad nombre' => 'Comercio Mayoreo',
                     'Primer actividad porcentaje' => 16.67,
                     'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Segunda actividad porcentaje' => 16.67,
-                    'Tercera actividad nombre' => 'Comercio Mayoreo',
+                    'Tercera actividad nombre' => 'Inmobiliarios',
                     'Tercera actividad porcentaje' => 16.67,
-                    'Cuarta actividad nombre' => 'Comercio Menudeo',
+                    'Cuarta actividad nombre' => 'Construcción',
                     'Cuarta actividad porcentaje' => 12.50,
-                    'Quinta actividad nombre' => 'Construcción',
+                    'Quinta actividad nombre' => 'Comercio Menudeo',
                     'Quinta actividad porcentaje' => 12.50
                 )
             )

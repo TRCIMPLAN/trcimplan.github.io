@@ -36,12 +36,12 @@ class ResidencialLosPortones extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Residencial Los Portones';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'residencial-los-portones';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Residencial Los Portones en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Residencial Los Portones';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -98,13 +98,13 @@ class ResidencialLosPortones extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 6,
                     'Primer actividad nombre' => 'Esparcimiento, Culturales, Deportivos',
                     'Primer actividad porcentaje' => 33.33,
-                    'Segunda actividad nombre' => 'Industria Manufacturera',
+                    'Segunda actividad nombre' => 'Educativos',
                     'Segunda actividad porcentaje' => 16.67,
-                    'Tercera actividad nombre' => 'Educativos',
+                    'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 16.67,
                     'Cuarta actividad nombre' => 'Comercio Menudeo',
                     'Cuarta actividad porcentaje' => 16.67,
-                    'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Quinta actividad nombre' => 'Industria Manufacturera',
                     'Quinta actividad porcentaje' => 16.67
                 )
             )

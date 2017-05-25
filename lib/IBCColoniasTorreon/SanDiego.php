@@ -36,12 +36,12 @@ class SanDiego extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'San Diego';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'san-diego';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia San Diego en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, San Diego';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -96,9 +96,9 @@ class SanDiego extends \IBCBase\PublicacionWeb {
             'Unidades Económicas' => array(
                 '2010' => array(
                     'Total Actividades Económicas' => 2,
-                    'Primer actividad nombre' => 'Comercio Menudeo',
+                    'Primer actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Primer actividad porcentaje' => 50.00,
-                    'Segunda actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Segunda actividad nombre' => 'Comercio Menudeo',
                     'Segunda actividad porcentaje' => 50.00
                 )
             )

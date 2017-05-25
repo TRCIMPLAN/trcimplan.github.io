@@ -36,12 +36,12 @@ class FraccionamientoLasLomas extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Fraccionamiento Las Lomas';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'fraccionamiento-las-lomas';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Fraccionamiento Las Lomas en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Fraccionamiento Las Lomas';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -98,9 +98,9 @@ class FraccionamientoLasLomas extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 4,
                     'Primer actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Primer actividad porcentaje' => 50.00,
-                    'Segunda actividad nombre' => 'Comercio Menudeo',
+                    'Segunda actividad nombre' => 'Comercio Mayoreo',
                     'Segunda actividad porcentaje' => 25.00,
-                    'Tercera actividad nombre' => 'Comercio Mayoreo',
+                    'Tercera actividad nombre' => 'Comercio Menudeo',
                     'Tercera actividad porcentaje' => 25.00
                 )
             )

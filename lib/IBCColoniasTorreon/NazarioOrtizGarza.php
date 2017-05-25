@@ -36,12 +36,12 @@ class NazarioOrtizGarza extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Nazario Ortiz Garza';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'nazario-ortiz-garza';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Nazario Ortiz Garza en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Nazario Ortiz Garza';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -96,13 +96,13 @@ class NazarioOrtizGarza extends \IBCBase\PublicacionWeb {
             'Unidades Económicas' => array(
                 '2010' => array(
                     'Total Actividades Económicas' => 17,
-                    'Primer actividad nombre' => 'Comercio Menudeo',
+                    'Primer actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Primer actividad porcentaje' => 23.53,
-                    'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
+                    'Segunda actividad nombre' => 'Comercio Menudeo',
                     'Segunda actividad porcentaje' => 23.53,
                     'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 17.65,
-                    'Cuarta actividad nombre' => 'Industria Manufacturera',
+                    'Cuarta actividad nombre' => 'Salud',
                     'Cuarta actividad porcentaje' => 11.76,
                     'Quinta actividad nombre' => 'Educativos',
                     'Quinta actividad porcentaje' => 11.76

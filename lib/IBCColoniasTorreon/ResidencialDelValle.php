@@ -36,12 +36,12 @@ class ResidencialDelValle extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Residencial del Valle';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'residencial-del-valle';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Residencial del Valle en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Residencial del Valle';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -98,9 +98,9 @@ class ResidencialDelValle extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 20,
                     'Primer actividad nombre' => 'Comercio Menudeo',
                     'Primer actividad porcentaje' => 35.00,
-                    'Segunda actividad nombre' => 'Industria Manufacturera',
+                    'Segunda actividad nombre' => 'Manejo de Residuos',
                     'Segunda actividad porcentaje' => 15.00,
-                    'Tercera actividad nombre' => 'Manejo de Residuos',
+                    'Tercera actividad nombre' => 'Industria Manufacturera',
                     'Tercera actividad porcentaje' => 15.00,
                     'Cuarta actividad nombre' => 'Comercio Mayoreo',
                     'Cuarta actividad porcentaje' => 10.00,

@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia El Pedregal en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, El Pedregal">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="El Pedregal - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia El Pedregal en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">6.06 %</td>
       </tr>
       <tr>
-        <td>5° Inmobiliarios</td>
+        <td>5° Salud</td>
         <td class="derecha">3.03 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'El Pedregal'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'El Pedregal'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Otros servicios, excepto Gobierno', 21.21, '#8EC359', '21.21 %'],
               ['3° Preparación de Alimentos y Bebidas', 21.21, '#C38E59', '21.21 %'],
               ['4° Financieros y Seguros', 6.06, '#80C0FF', '6.06 %'],
-              ['5° Inmobiliarios', 3.03, '#59BFC3', '3.03 %']
+              ['5° Salud', 3.03, '#59BFC3', '3.03 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

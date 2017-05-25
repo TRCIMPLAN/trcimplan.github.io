@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Luis Donaldo Colosio en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Luis Donaldo Colosio">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Luis Donaldo Colosio - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Luis Donaldo Colosio en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">6.12 %</td>
       </tr>
       <tr>
-        <td>5° Industria Manufacturera</td>
+        <td>5° Comercio Mayoreo</td>
         <td class="derecha">4.08 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Luis Donaldo Colosio'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Luis Donaldo Colosio'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Otros servicios, excepto Gobierno', 16.33, '#8EC359', '16.33 %'],
               ['3° Preparación de Alimentos y Bebidas', 8.16, '#C38E59', '8.16 %'],
               ['4° Salud', 6.12, '#80C0FF', '6.12 %'],
-              ['5° Industria Manufacturera', 4.08, '#59BFC3', '4.08 %']
+              ['5° Comercio Mayoreo', 4.08, '#59BFC3', '4.08 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Rastro Municipal en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Rastro Municipal">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Rastro Municipal - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Rastro Municipal en Torreón, Coahuila de Zaragoza, México.">
@@ -268,11 +268,11 @@ La cantidad de Hogares es cero.
         <td class="derecha">50.00 %</td>
       </tr>
       <tr>
-        <td>2° Industria Manufacturera</td>
+        <td>2° Comercio Menudeo</td>
         <td class="derecha">25.00 %</td>
       </tr>
       <tr>
-        <td>3° Comercio Menudeo</td>
+        <td>3° Industria Manufacturera</td>
         <td class="derecha">25.00 %</td>
       </tr>
       <tr>
@@ -413,7 +413,7 @@ La cantidad de Hogares es cero.
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Rastro Municipal'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Rastro Municipal'");
       })
       .error(function(err) {
         console.log(err);
@@ -430,8 +430,8 @@ La cantidad de Hogares es cero.
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Transportes, Correo, Almacenamiento', 50, '#59C38E', '50 %'],
-              ['2° Industria Manufacturera', 25, '#8EC359', '25 %'],
-              ['3° Comercio Menudeo', 25, '#C38E59', '25 %']
+              ['2° Comercio Menudeo', 25, '#8EC359', '25 %'],
+              ['3° Industria Manufacturera', 25, '#C38E59', '25 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Villa Los Pinos en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Villa Los Pinos">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Villa Los Pinos - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Villa Los Pinos en Torreón, Coahuila de Zaragoza, México.">
@@ -264,11 +264,11 @@ La cantidad de Hogares es cero.
         <td class="derecha">2</td>
       </tr>
       <tr>
-        <td>1° Inmobiliarios</td>
+        <td>1° Educativos</td>
         <td class="derecha">50.00 %</td>
       </tr>
       <tr>
-        <td>2° Educativos</td>
+        <td>2° Inmobiliarios</td>
         <td class="derecha">50.00 %</td>
       </tr>
       <tr>
@@ -413,7 +413,7 @@ La cantidad de Hogares es cero.
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Villa Los Pinos'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Villa Los Pinos'");
       })
       .error(function(err) {
         console.log(err);
@@ -429,8 +429,8 @@ La cantidad de Hogares es cero.
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Inmobiliarios', 50, '#59C38E', '50 %'],
-              ['2° Educativos', 50, '#8EC359', '50 %']
+              ['1° Educativos', 50, '#59C38E', '50 %'],
+              ['2° Inmobiliarios', 50, '#8EC359', '50 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

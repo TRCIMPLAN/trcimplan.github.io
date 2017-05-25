@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Villa Florida en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Villa Florida">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Villa Florida - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Villa Florida en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">20.75 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Educativos</td>
         <td class="derecha">3.77 %</td>
       </tr>
       <tr>
-        <td>5° Educativos</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">3.77 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Villa Florida'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Villa Florida'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 41.51, '#59C38E', '41.51 %'],
               ['2° Preparación de Alimentos y Bebidas', 24.53, '#8EC359', '24.53 %'],
               ['3° Otros servicios, excepto Gobierno', 20.75, '#C38E59', '20.75 %'],
-              ['4° Industria Manufacturera', 3.77, '#80C0FF', '3.77 %'],
-              ['5° Educativos', 3.77, '#59BFC3', '3.77 %']
+              ['4° Educativos', 3.77, '#80C0FF', '3.77 %'],
+              ['5° Industria Manufacturera', 3.77, '#59BFC3', '3.77 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

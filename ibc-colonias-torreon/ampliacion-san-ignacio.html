@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ampliación San Ignacio en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ampliación San Ignacio">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ampliación San Ignacio - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ampliación San Ignacio en Torreón, Coahuila de Zaragoza, México.">
@@ -389,15 +389,15 @@
         <td class="derecha">25.00 %</td>
       </tr>
       <tr>
-        <td>3° Manejo de Residuos</td>
+        <td>3° Otros servicios, excepto Gobierno</td>
         <td class="derecha">8.33 %</td>
       </tr>
       <tr>
-        <td>4° Otros servicios, excepto Gobierno</td>
+        <td>4° Manejo de Residuos</td>
         <td class="derecha">8.33 %</td>
       </tr>
       <tr>
-        <td>5° Transportes, Correo, Almacenamiento</td>
+        <td>5° Minería</td>
         <td class="derecha">8.33 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ampliación San Ignacio'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ampliación San Ignacio'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Mayoreo', 33.33, '#59C38E', '33.33 %'],
               ['2° Industria Manufacturera', 25, '#8EC359', '25 %'],
-              ['3° Manejo de Residuos', 8.33, '#C38E59', '8.33 %'],
-              ['4° Otros servicios, excepto Gobierno', 8.33, '#80C0FF', '8.33 %'],
-              ['5° Transportes, Correo, Almacenamiento', 8.33, '#59BFC3', '8.33 %']
+              ['3° Otros servicios, excepto Gobierno', 8.33, '#C38E59', '8.33 %'],
+              ['4° Manejo de Residuos', 8.33, '#80C0FF', '8.33 %'],
+              ['5° Minería', 8.33, '#59BFC3', '8.33 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

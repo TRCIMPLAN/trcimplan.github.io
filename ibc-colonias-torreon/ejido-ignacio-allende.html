@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ejido Ignacio Allende en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ejido Ignacio Allende">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ejido Ignacio Allende - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ejido Ignacio Allende en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">12.86 %</td>
       </tr>
       <tr>
-        <td>5° Industria Manufacturera</td>
+        <td>5° Comercio Mayoreo</td>
         <td class="derecha">7.14 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ejido Ignacio Allende'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ejido Ignacio Allende'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Preparación de Alimentos y Bebidas', 18.57, '#8EC359', '18.57 %'],
               ['3° Otros servicios, excepto Gobierno', 15.71, '#C38E59', '15.71 %'],
               ['4° Inmobiliarios', 12.86, '#80C0FF', '12.86 %'],
-              ['5° Industria Manufacturera', 7.14, '#59BFC3', '7.14 %']
+              ['5° Comercio Mayoreo', 7.14, '#59BFC3', '7.14 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

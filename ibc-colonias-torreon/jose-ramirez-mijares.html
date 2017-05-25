@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia José Ramírez Mijares en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, José Ramírez Mijares">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="José Ramírez Mijares - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia José Ramírez Mijares en Torreón, Coahuila de Zaragoza, México.">
@@ -393,7 +393,7 @@
         <td class="derecha">12.50 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Salud</td>
         <td class="derecha">5.00 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'José Ramírez Mijares'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'José Ramírez Mijares'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,7 +698,7 @@
               ['1° Comercio Menudeo', 52.5, '#59C38E', '52.5 %'],
               ['2° Otros servicios, excepto Gobierno', 15, '#8EC359', '15 %'],
               ['3° Preparación de Alimentos y Bebidas', 12.5, '#C38E59', '12.5 %'],
-              ['4° Industria Manufacturera', 5, '#80C0FF', '5 %'],
+              ['4° Salud', 5, '#80C0FF', '5 %'],
               ['5° Educativos', 5, '#59BFC3', '5 %']
           ]);
           var options = {

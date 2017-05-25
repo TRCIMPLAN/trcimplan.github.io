@@ -36,12 +36,12 @@ class AeropuertoInternacionalFranciscoSarabiaTinoco extends \IBCBase\Publicacion
         // Título, autor y fecha
         $this->nombre                     = 'Aeropuerto Internacional Francisco Sarabia Tinoco';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'aeropuerto-internacional-francisco-sarabia-tinoco';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Aeropuerto Internacional Francisco Sarabia Tinoco en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Aeropuerto Internacional Francisco Sarabia Tinoco';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -93,9 +93,9 @@ class AeropuertoInternacionalFranciscoSarabiaTinoco extends \IBCBase\Publicacion
                     'Primer actividad porcentaje' => 28.57,
                     'Segunda actividad nombre' => 'Inmobiliarios',
                     'Segunda actividad porcentaje' => 20.00,
-                    'Tercera actividad nombre' => 'Comercio Menudeo',
+                    'Tercera actividad nombre' => 'Gubernamentales',
                     'Tercera actividad porcentaje' => 14.29,
-                    'Cuarta actividad nombre' => 'Gubernamentales',
+                    'Cuarta actividad nombre' => 'Comercio Menudeo',
                     'Cuarta actividad porcentaje' => 14.29,
                     'Quinta actividad nombre' => 'Comercio Mayoreo',
                     'Quinta actividad porcentaje' => 8.57

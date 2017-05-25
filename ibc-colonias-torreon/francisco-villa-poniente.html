@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Francisco Villa Poniente en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Francisco Villa Poniente">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Francisco Villa Poniente - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Francisco Villa Poniente en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">12.12 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Salud</td>
         <td class="derecha">7.58 %</td>
       </tr>
       <tr>
-        <td>5° Salud</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">7.58 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Francisco Villa Poniente'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Francisco Villa Poniente'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 33.33, '#59C38E', '33.33 %'],
               ['2° Otros servicios, excepto Gobierno', 22.73, '#8EC359', '22.73 %'],
               ['3° Preparación de Alimentos y Bebidas', 12.12, '#C38E59', '12.12 %'],
-              ['4° Industria Manufacturera', 7.58, '#80C0FF', '7.58 %'],
-              ['5° Salud', 7.58, '#59BFC3', '7.58 %']
+              ['4° Salud', 7.58, '#80C0FF', '7.58 %'],
+              ['5° Industria Manufacturera', 7.58, '#59BFC3', '7.58 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

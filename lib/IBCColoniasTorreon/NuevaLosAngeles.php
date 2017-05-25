@@ -36,12 +36,12 @@ class NuevaLosAngeles extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Nueva Los Ángeles';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'nueva-los-angeles';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Nueva Los Ángeles en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Nueva Los Ángeles';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -104,7 +104,7 @@ class NuevaLosAngeles extends \IBCBase\PublicacionWeb {
                     'Tercera actividad porcentaje' => 17.81,
                     'Cuarta actividad nombre' => 'Profesionales, Científicos, Técnicos',
                     'Cuarta actividad porcentaje' => 6.16,
-                    'Quinta actividad nombre' => 'Educativos',
+                    'Quinta actividad nombre' => 'Salud',
                     'Quinta actividad porcentaje' => 5.48
                 )
             )

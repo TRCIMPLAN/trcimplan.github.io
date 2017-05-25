@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia José Luz Torres en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, José Luz Torres">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="José Luz Torres - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia José Luz Torres en Torreón, Coahuila de Zaragoza, México.">
@@ -389,11 +389,11 @@
         <td class="derecha">20.21 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">12.77 %</td>
       </tr>
       <tr>
-        <td>4° Preparación de Alimentos y Bebidas</td>
+        <td>4° Industria Manufacturera</td>
         <td class="derecha">12.77 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'José Luz Torres'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'José Luz Torres'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,8 +697,8 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 41.49, '#59C38E', '41.49 %'],
               ['2° Otros servicios, excepto Gobierno', 20.21, '#8EC359', '20.21 %'],
-              ['3° Industria Manufacturera', 12.77, '#C38E59', '12.77 %'],
-              ['4° Preparación de Alimentos y Bebidas', 12.77, '#80C0FF', '12.77 %'],
+              ['3° Preparación de Alimentos y Bebidas', 12.77, '#C38E59', '12.77 %'],
+              ['4° Industria Manufacturera', 12.77, '#80C0FF', '12.77 %'],
               ['5° Comercio Mayoreo', 4.26, '#59BFC3', '4.26 %']
           ]);
           var options = {

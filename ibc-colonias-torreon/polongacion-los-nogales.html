@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Polongación Los Nogales en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Polongación Los Nogales">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Polongación Los Nogales - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Polongación Los Nogales en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">10.99 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Educativos</td>
         <td class="derecha">6.59 %</td>
       </tr>
       <tr>
-        <td>5° Educativos</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">6.59 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Polongación Los Nogales'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Polongación Los Nogales'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 36.26, '#59C38E', '36.26 %'],
               ['2° Otros servicios, excepto Gobierno', 19.78, '#8EC359', '19.78 %'],
               ['3° Preparación de Alimentos y Bebidas', 10.99, '#C38E59', '10.99 %'],
-              ['4° Industria Manufacturera', 6.59, '#80C0FF', '6.59 %'],
-              ['5° Educativos', 6.59, '#59BFC3', '6.59 %']
+              ['4° Educativos', 6.59, '#80C0FF', '6.59 %'],
+              ['5° Industria Manufacturera', 6.59, '#59BFC3', '6.59 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

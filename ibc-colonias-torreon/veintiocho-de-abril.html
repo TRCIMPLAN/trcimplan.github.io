@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Veintiocho de Abril en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Veintiocho de Abril">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Veintiocho de Abril - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Veintiocho de Abril en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">21.05 %</td>
       </tr>
       <tr>
-        <td>4° Manejo de Residuos</td>
+        <td>4° Otros servicios, excepto Gobierno</td>
         <td class="derecha">10.53 %</td>
       </tr>
       <tr>
-        <td>5° Otros servicios, excepto Gobierno</td>
+        <td>5° Manejo de Residuos</td>
         <td class="derecha">10.53 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Veintiocho de Abril'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Veintiocho de Abril'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Preparación de Alimentos y Bebidas', 31.58, '#59C38E', '31.58 %'],
               ['2° Comercio Menudeo', 26.32, '#8EC359', '26.32 %'],
               ['3° Industria Manufacturera', 21.05, '#C38E59', '21.05 %'],
-              ['4° Manejo de Residuos', 10.53, '#80C0FF', '10.53 %'],
-              ['5° Otros servicios, excepto Gobierno', 10.53, '#59BFC3', '10.53 %']
+              ['4° Otros servicios, excepto Gobierno', 10.53, '#80C0FF', '10.53 %'],
+              ['5° Manejo de Residuos', 10.53, '#59BFC3', '10.53 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

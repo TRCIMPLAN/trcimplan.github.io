@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ejido La Joya en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ejido La Joya">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ejido La Joya - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ejido La Joya en Torreón, Coahuila de Zaragoza, México.">
@@ -389,11 +389,11 @@
         <td class="derecha">15.15 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">10.61 %</td>
       </tr>
       <tr>
-        <td>4° Preparación de Alimentos y Bebidas</td>
+        <td>4° Industria Manufacturera</td>
         <td class="derecha">10.61 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ejido La Joya'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ejido La Joya'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,8 +697,8 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 48.48, '#59C38E', '48.48 %'],
               ['2° Otros servicios, excepto Gobierno', 15.15, '#8EC359', '15.15 %'],
-              ['3° Industria Manufacturera', 10.61, '#C38E59', '10.61 %'],
-              ['4° Preparación de Alimentos y Bebidas', 10.61, '#80C0FF', '10.61 %'],
+              ['3° Preparación de Alimentos y Bebidas', 10.61, '#C38E59', '10.61 %'],
+              ['4° Industria Manufacturera', 10.61, '#80C0FF', '10.61 %'],
               ['5° Educativos', 6.06, '#59BFC3', '6.06 %']
           ]);
           var options = {

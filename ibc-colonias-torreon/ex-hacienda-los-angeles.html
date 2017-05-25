@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ex-Hacienda Los Ángeles en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ex-Hacienda Los Ángeles">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ex-Hacienda Los Ángeles - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ex-Hacienda Los Ángeles en Torreón, Coahuila de Zaragoza, México.">
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ex-Hacienda Los Ángeles'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ex-Hacienda Los Ángeles'");
       })
       .error(function(err) {
         console.log(err);

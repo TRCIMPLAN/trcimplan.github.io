@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ex-Hacienda La Merced en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ex-Hacienda La Merced">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ex-Hacienda La Merced - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ex-Hacienda La Merced en Torreón, Coahuila de Zaragoza, México.">
@@ -389,7 +389,7 @@
         <td class="derecha">18.18 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Gubernamentales</td>
         <td class="derecha">9.09 %</td>
       </tr>
       <tr>
@@ -397,7 +397,7 @@
         <td class="derecha">9.09 %</td>
       </tr>
       <tr>
-        <td>5° Gubernamentales</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">9.09 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ex-Hacienda La Merced'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ex-Hacienda La Merced'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 54.55, '#59C38E', '54.55 %'],
               ['2° Preparación de Alimentos y Bebidas', 18.18, '#8EC359', '18.18 %'],
-              ['3° Industria Manufacturera', 9.09, '#C38E59', '9.09 %'],
+              ['3° Gubernamentales', 9.09, '#C38E59', '9.09 %'],
               ['4° Otros servicios, excepto Gobierno', 9.09, '#80C0FF', '9.09 %'],
-              ['5° Gubernamentales', 9.09, '#59BFC3', '9.09 %']
+              ['5° Industria Manufacturera', 9.09, '#59BFC3', '9.09 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

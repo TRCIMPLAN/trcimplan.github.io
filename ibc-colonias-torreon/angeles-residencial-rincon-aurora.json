@@ -41,11 +41,11 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":3,
-        "Primer actividad nombre":"Industria Manufacturera",
+        "Primer actividad nombre":"Salud",
         "Primer actividad porcentaje":33.33,
         "Segunda actividad nombre":"Comercio Menudeo",
         "Segunda actividad porcentaje":33.33,
-        "Tercera actividad nombre":"Salud",
+        "Tercera actividad nombre":"Industria Manufacturera",
         "Tercera actividad porcentaje":33.33
       }
     }

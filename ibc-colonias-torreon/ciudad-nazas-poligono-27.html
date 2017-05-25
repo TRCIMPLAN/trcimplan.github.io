@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ciudad Nazas Polígono 27 en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ciudad Nazas Polígono 27">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ciudad Nazas Polígono 27 - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ciudad Nazas Polígono 27 en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">7.69 %</td>
       </tr>
       <tr>
-        <td>5° Inmobiliarios</td>
+        <td>5° Comercio Mayoreo</td>
         <td class="derecha">2.56 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ciudad Nazas Polígono 27'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ciudad Nazas Polígono 27'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Comercio Menudeo', 28.21, '#8EC359', '28.21 %'],
               ['3° Preparación de Alimentos y Bebidas', 23.08, '#C38E59', '23.08 %'],
               ['4° Industria Manufacturera', 7.69, '#80C0FF', '7.69 %'],
-              ['5° Inmobiliarios', 2.56, '#59BFC3', '2.56 %']
+              ['5° Comercio Mayoreo', 2.56, '#59BFC3', '2.56 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

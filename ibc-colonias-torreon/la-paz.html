@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia La Paz en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, La Paz">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="La Paz - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia La Paz en Torreón, Coahuila de Zaragoza, México.">
@@ -389,15 +389,15 @@
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Educativos</td>
         <td class="derecha">5.00 %</td>
       </tr>
       <tr>
-        <td>4° Educativos</td>
+        <td>4° Otros servicios, excepto Gobierno</td>
         <td class="derecha">5.00 %</td>
       </tr>
       <tr>
-        <td>5° Otros servicios, excepto Gobierno</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">5.00 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'La Paz'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'La Paz'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 65, '#59C38E', '65 %'],
               ['2° Preparación de Alimentos y Bebidas', 20, '#8EC359', '20 %'],
-              ['3° Industria Manufacturera', 5, '#C38E59', '5 %'],
-              ['4° Educativos', 5, '#80C0FF', '5 %'],
-              ['5° Otros servicios, excepto Gobierno', 5, '#59BFC3', '5 %']
+              ['3° Educativos', 5, '#C38E59', '5 %'],
+              ['4° Otros servicios, excepto Gobierno', 5, '#80C0FF', '5 %'],
+              ['5° Industria Manufacturera', 5, '#59BFC3', '5 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

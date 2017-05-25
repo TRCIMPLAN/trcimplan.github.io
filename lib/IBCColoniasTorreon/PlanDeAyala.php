@@ -36,12 +36,12 @@ class PlanDeAyala extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Plan de Ayala';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'plan-de-ayala';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Plan de Ayala en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Plan de Ayala';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -100,11 +100,11 @@ class PlanDeAyala extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 39.13,
                     'Segunda actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Segunda actividad porcentaje' => 34.78,
-                    'Tercera actividad nombre' => 'Industria Manufacturera',
+                    'Tercera actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Tercera actividad porcentaje' => 8.70,
-                    'Cuarta actividad nombre' => 'Otros servicios, excepto Gobierno',
+                    'Cuarta actividad nombre' => 'Industria Manufacturera',
                     'Cuarta actividad porcentaje' => 8.70,
-                    'Quinta actividad nombre' => 'Esparcimiento, Culturales, Deportivos',
+                    'Quinta actividad nombre' => 'Gubernamentales',
                     'Quinta actividad porcentaje' => 4.35
                 )
             )

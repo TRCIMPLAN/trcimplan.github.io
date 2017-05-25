@@ -45,11 +45,11 @@
         "Primer actividad porcentaje":33.33,
         "Segunda actividad nombre":"Industria Manufacturera",
         "Segunda actividad porcentaje":25,
-        "Tercera actividad nombre":"Manejo de Residuos",
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
         "Tercera actividad porcentaje":8.33,
-        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad nombre":"Manejo de Residuos",
         "Cuarta actividad porcentaje":8.33,
-        "Quinta actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Quinta actividad nombre":"Minería",
         "Quinta actividad porcentaje":8.33
       }
     }

@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Angeles Residencial - Rincón Aurora en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Angeles Residencial - Rincón Aurora">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Angeles Residencial - Rincón Aurora - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Angeles Residencial - Rincón Aurora en Torreón, Coahuila de Zaragoza, México.">
@@ -176,8 +176,8 @@
           <h3 class="titulo" itemprop="name">Angeles Residencial - Rincón Aurora</h3>
           <div class="descripcion" itemprop="description">Colonia Angeles Residencial - Rincón Aurora en Torreón, Coahuila de Zaragoza, México.</div>
                   <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-            Latitud: <meta itemprop="latitude" content="25.530607752323">25.530607752323
-            Longitud: <meta itemprop="longitude" content="-103.40054734913">-103.40054734913
+            Latitud: <meta itemprop="latitude" content="25.530606653767">25.530606653767
+            Longitud: <meta itemprop="longitude" content="-103.40054397666">-103.40054397666
           </div>
         </div>
       <!-- Contenido: Inicia  -->
@@ -381,7 +381,7 @@
         <td class="derecha">3</td>
       </tr>
       <tr>
-        <td>1° Industria Manufacturera</td>
+        <td>1° Salud</td>
         <td class="derecha">33.33 %</td>
       </tr>
       <tr>
@@ -389,7 +389,7 @@
         <td class="derecha">33.33 %</td>
       </tr>
       <tr>
-        <td>3° Salud</td>
+        <td>3° Industria Manufacturera</td>
         <td class="derecha">33.33 %</td>
       </tr>
       <tr>
@@ -512,8 +512,8 @@
     if (mapa_limites_cargado == false) {
       var carto_json = 'https://guivaloz.carto.com/api/v2/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/viz.json'
       cartodb.createVis('MapaLimites', carto_json, {
-        center_lat: 25.530607752323,
-        center_lon: -103.40054734913,
+        center_lat: 25.530606653767,
+        center_lon: -103.40054397666,
         zoom: 14
       })
       .done(function(vis, layers) {
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Angeles Residencial - Rincón Aurora'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Angeles Residencial - Rincón Aurora'");
       })
       .error(function(err) {
         console.log(err);
@@ -695,9 +695,9 @@
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Industria Manufacturera', 33.33, '#59C38E', '33.33 %'],
+              ['1° Salud', 33.33, '#59C38E', '33.33 %'],
               ['2° Comercio Menudeo', 33.33, '#8EC359', '33.33 %'],
-              ['3° Salud', 33.33, '#C38E59', '33.33 %']
+              ['3° Industria Manufacturera', 33.33, '#C38E59', '33.33 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

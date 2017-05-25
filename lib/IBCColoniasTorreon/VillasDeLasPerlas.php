@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon AviacionSanIgnacio2°Etapa
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon VillasDeLasPerlas
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase AviacionSanIgnacio2°Etapa
+ * Clase VillasDeLasPerlas
  */
-class AviacionSanIgnacio2°Etapa extends \IBCBase\PublicacionWeb {
+class VillasDeLasPerlas extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,14 +34,14 @@ class AviacionSanIgnacio2°Etapa extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Aviación San Ignacio 2° Etapa';
+        $this->nombre                     = 'Villa de Las Perlas';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:50';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
-        $this->archivo                    = 'aviacion-san-ignacio-2°-etapa';
+        $this->archivo                    = 'villa-de-las-perlas';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Aviación San Ignacio 2° Etapa en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->descripcion                = 'Colonia Villa de Las Perlas en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Villa de Las Perlas';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -58,44 +58,46 @@ class AviacionSanIgnacio2°Etapa extends \IBCBase\PublicacionWeb {
         return array(
             'Demografía' => array(
                 '2010' => array(
-                    'Población total' => 302,
-                    'Porcentaje de población masculina' => 52.98,
-                    'Porcentaje de población femenina' => 47.02,
-                    'Porcentaje de población de 0 a 14 años' => 40.07,
-                    'Porcentaje de población de 15 a 64 años' => 58.61,
-                    'Porcentaje de población de 65 y más años' => 0.33,
-                    'Porcentaje de población no especificada' => 0.99,
-                    'Fecundidad promedio' => 1.70,
-                    'Porcentaje de población con discapacidad' => 1.30
+                    'Población total' => 313,
+                    'Porcentaje de población masculina' => 51.76,
+                    'Porcentaje de población femenina' => 48.24,
+                    'Porcentaje de población de 0 a 14 años' => 27.48,
+                    'Porcentaje de población de 15 a 64 años' => 69.01,
+                    'Porcentaje de población de 65 y más años' => 2.56,
+                    'Porcentaje de población no especificada' => 0.95,
+                    'Fecundidad promedio' => 1.55,
+                    'Porcentaje de población con discapacidad' => 2.66
                 )
             ),
             'Características Económicas' => array(
                 '2010' => array(
-                    'Población Económicamente Activa' => 54.04,
-                    'Población Económicamente Activa masculina' => 69.16,
-                    'Población Económicamente Activa femenina' => 30.84,
-                    'Población Ocupada' => 95.11,
-                    'Población Ocupada masculina' => 67.65,
-                    'Población Ocupada femenina' => 32.35,
-                    'Población Desocupada' => 4.89,
-                    'Derechohabiencia' => 77.48
+                    'Población Económicamente Activa' => 67.83,
+                    'Población Económicamente Activa masculina' => 56.41,
+                    'Población Económicamente Activa femenina' => 43.59,
+                    'Población Ocupada' => 98.70,
+                    'Población Ocupada masculina' => 56.49,
+                    'Población Ocupada femenina' => 43.51,
+                    'Población Desocupada' => 1.30,
+                    'Derechohabiencia' => 84.35
                 )
             ),
             'Viviendas' => array(
                 '2010' => array(
-                    'Hogares' => 80,
-                    'Ocupación por Vivienda' => 3.78,
+                    'Hogares' => 89,
+                    'Ocupación por Vivienda' => 3.52,
                     'Viviendas con Electricidad' => 100.00,
-                    'Viviendas con Agua' => 100.00,
+                    'Viviendas con Agua' => 98.88,
                     'Viviendas con Drenaje' => 100.00,
                     'Viviendas con Televisión' => 100.00,
-                    'Viviendas con Automóvil' => 72.50,
-                    'Viviendas con Computadora' => 54.29
+                    'Viviendas con Automóvil' => 97.75,
+                    'Viviendas con Computadora' => 79.78
                 )
             ),
             'Unidades Económicas' => array(
                 '2010' => array(
-                    'Total Actividades Económicas' => 0
+                    'Total Actividades Económicas' => 1,
+                    'Primer actividad nombre' => 'Comercio Menudeo',
+                    'Primer actividad porcentaje' => 100.00
                 )
             )
         );
@@ -109,8 +111,8 @@ class AviacionSanIgnacio2°Etapa extends \IBCBase\PublicacionWeb {
     public function mapas() {
         return array(
             'Límites'         => \Configuracion\IBCTorreonConfig::LIMITES,
-            'Centro latitud'  => 25.5641368160378,
-            'Centro longitud' => -103.390990311822
+            'Centro latitud'  => 25.5035633602453,
+            'Centro longitud' => -103.349437254384
         );
     } // mapas
 
@@ -123,6 +125,6 @@ class AviacionSanIgnacio2°Etapa extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase AviacionSanIgnacio2°Etapa
+} // Clase VillasDeLasPerlas
 
 ?>

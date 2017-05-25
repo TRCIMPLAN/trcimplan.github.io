@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Villas San José en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Villas San José">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Villas San José - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Villas San José en Torreón, Coahuila de Zaragoza, México.">
@@ -385,11 +385,11 @@
         <td class="derecha">60.00 %</td>
       </tr>
       <tr>
-        <td>2° Industria Manufacturera</td>
+        <td>2° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
-        <td>3° Preparación de Alimentos y Bebidas</td>
+        <td>3° Industria Manufacturera</td>
         <td class="derecha">20.00 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Villas San José'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Villas San José'");
       })
       .error(function(err) {
         console.log(err);
@@ -696,8 +696,8 @@
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 60, '#59C38E', '60 %'],
-              ['2° Industria Manufacturera', 20, '#8EC359', '20 %'],
-              ['3° Preparación de Alimentos y Bebidas', 20, '#C38E59', '20 %']
+              ['2° Preparación de Alimentos y Bebidas', 20, '#8EC359', '20 %'],
+              ['3° Industria Manufacturera', 20, '#C38E59', '20 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

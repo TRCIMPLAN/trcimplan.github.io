@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ejido San Antonio de Los Bravos en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ejido San Antonio de Los Bravos">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ejido San Antonio de Los Bravos - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ejido San Antonio de Los Bravos en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">9.68 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Salud</td>
         <td class="derecha">6.45 %</td>
       </tr>
       <tr>
-        <td>5° Salud</td>
+        <td>5° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">6.45 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ejido San Antonio de Los Bravos'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ejido San Antonio de Los Bravos'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 48.39, '#59C38E', '48.39 %'],
               ['2° Otros servicios, excepto Gobierno', 16.13, '#8EC359', '16.13 %'],
               ['3° Educativos', 9.68, '#C38E59', '9.68 %'],
-              ['4° Industria Manufacturera', 6.45, '#80C0FF', '6.45 %'],
-              ['5° Salud', 6.45, '#59BFC3', '6.45 %']
+              ['4° Salud', 6.45, '#80C0FF', '6.45 %'],
+              ['5° Preparación de Alimentos y Bebidas', 6.45, '#59BFC3', '6.45 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

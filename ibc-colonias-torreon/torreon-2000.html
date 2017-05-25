@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Torreón 2000 en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Torreón 2000">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Torreón 2000 - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Torreón 2000 en Torreón, Coahuila de Zaragoza, México.">
@@ -385,11 +385,11 @@
         <td class="derecha">66.67 %</td>
       </tr>
       <tr>
-        <td>2° Manejo de Residuos</td>
+        <td>2° Otros servicios, excepto Gobierno</td>
         <td class="derecha">11.11 %</td>
       </tr>
       <tr>
-        <td>3° Otros servicios, excepto Gobierno</td>
+        <td>3° Manejo de Residuos</td>
         <td class="derecha">11.11 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Torreón 2000'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Torreón 2000'");
       })
       .error(function(err) {
         console.log(err);
@@ -696,8 +696,8 @@
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 66.67, '#59C38E', '66.67 %'],
-              ['2° Manejo de Residuos', 11.11, '#8EC359', '11.11 %'],
-              ['3° Otros servicios, excepto Gobierno', 11.11, '#C38E59', '11.11 %'],
+              ['2° Otros servicios, excepto Gobierno', 11.11, '#8EC359', '11.11 %'],
+              ['3° Manejo de Residuos', 11.11, '#C38E59', '11.11 %'],
               ['4° Preparación de Alimentos y Bebidas', 11.11, '#80C0FF', '11.11 %']
           ]);
           var options = {

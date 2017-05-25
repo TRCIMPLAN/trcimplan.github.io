@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Bugambilias en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Bugambilias">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Bugambilias - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Bugambilias en Torreón, Coahuila de Zaragoza, México.">
@@ -385,11 +385,11 @@
         <td class="derecha">21.74 %</td>
       </tr>
       <tr>
-        <td>2° Industria Manufacturera</td>
+        <td>2° Otros servicios, excepto Gobierno</td>
         <td class="derecha">17.39 %</td>
       </tr>
       <tr>
-        <td>3° Otros servicios, excepto Gobierno</td>
+        <td>3° Industria Manufacturera</td>
         <td class="derecha">17.39 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Bugambilias'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Bugambilias'");
       })
       .error(function(err) {
         console.log(err);
@@ -696,8 +696,8 @@
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 21.74, '#59C38E', '21.74 %'],
-              ['2° Industria Manufacturera', 17.39, '#8EC359', '17.39 %'],
-              ['3° Otros servicios, excepto Gobierno', 17.39, '#C38E59', '17.39 %'],
+              ['2° Otros servicios, excepto Gobierno', 17.39, '#8EC359', '17.39 %'],
+              ['3° Industria Manufacturera', 17.39, '#C38E59', '17.39 %'],
               ['4° Educativos', 8.7, '#80C0FF', '8.7 %'],
               ['5° Profesionales, Científicos, Técnicos', 8.7, '#59BFC3', '8.7 %']
           ]);

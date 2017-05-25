@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon CiudadNazasPoligono24a
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon CiudadNazasPoligono24A
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase CiudadNazasPoligono24a
+ * Clase CiudadNazasPoligono24A
  */
-class CiudadNazasPoligono24a extends \IBCBase\PublicacionWeb {
+class CiudadNazasPoligono24A extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -36,12 +36,12 @@ class CiudadNazasPoligono24a extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Ciudad Nazas Polígono 24A';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'ciudad-nazas-poligono-24a';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Ciudad Nazas Polígono 24A en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Ciudad Nazas Polígono 24A';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -98,13 +98,13 @@ class CiudadNazasPoligono24a extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 8,
                     'Primer actividad nombre' => 'Comercio Menudeo',
                     'Primer actividad porcentaje' => 50.00,
-                    'Segunda actividad nombre' => 'Industria Manufacturera',
+                    'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Segunda actividad porcentaje' => 12.50,
                     'Tercera actividad nombre' => 'Manejo de Residuos',
                     'Tercera actividad porcentaje' => 12.50,
-                    'Cuarta actividad nombre' => 'Otros servicios, excepto Gobierno',
+                    'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Cuarta actividad porcentaje' => 12.50,
-                    'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Quinta actividad nombre' => 'Industria Manufacturera',
                     'Quinta actividad porcentaje' => 12.50
                 )
             )
@@ -133,6 +133,6 @@ class CiudadNazasPoligono24a extends \IBCBase\PublicacionWeb {
         return '';
     } // resena
 
-} // Clase CiudadNazasPoligono24a
+} // Clase CiudadNazasPoligono24A
 
 ?>

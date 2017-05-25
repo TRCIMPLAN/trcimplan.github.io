@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Fraccionamiento La Ciénega en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Fraccionamiento La Ciénega">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Fraccionamiento La Ciénega - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Fraccionamiento La Ciénega en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">18.75 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Salud</td>
         <td class="derecha">8.33 %</td>
       </tr>
       <tr>
-        <td>5° Salud</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">8.33 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Fraccionamiento La Ciénega'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Fraccionamiento La Ciénega'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Preparación de Alimentos y Bebidas', 33.33, '#59C38E', '33.33 %'],
               ['2° Comercio Menudeo', 22.92, '#8EC359', '22.92 %'],
               ['3° Otros servicios, excepto Gobierno', 18.75, '#C38E59', '18.75 %'],
-              ['4° Industria Manufacturera', 8.33, '#80C0FF', '8.33 %'],
-              ['5° Salud', 8.33, '#59BFC3', '8.33 %']
+              ['4° Salud', 8.33, '#80C0FF', '8.33 %'],
+              ['5° Industria Manufacturera', 8.33, '#59BFC3', '8.33 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Vicente Guerrero en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Vicente Guerrero">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Vicente Guerrero - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Vicente Guerrero en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">9.92 %</td>
       </tr>
       <tr>
-        <td>5° Educativos</td>
+        <td>5° Salud</td>
         <td class="derecha">4.58 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Vicente Guerrero'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Vicente Guerrero'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Otros servicios, excepto Gobierno', 16.79, '#8EC359', '16.79 %'],
               ['3° Preparación de Alimentos y Bebidas', 12.21, '#C38E59', '12.21 %'],
               ['4° Industria Manufacturera', 9.92, '#80C0FF', '9.92 %'],
-              ['5° Educativos', 4.58, '#59BFC3', '4.58 %']
+              ['5° Salud', 4.58, '#59BFC3', '4.58 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

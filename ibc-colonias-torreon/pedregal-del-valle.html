@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Pedregal del Valle en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Pedregal del Valle">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Pedregal del Valle - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Pedregal del Valle en Torreón, Coahuila de Zaragoza, México.">
@@ -393,7 +393,7 @@
         <td class="derecha">18.18 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Salud</td>
         <td class="derecha">3.03 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Pedregal del Valle'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Pedregal del Valle'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,7 +698,7 @@
               ['1° Comercio Menudeo', 48.48, '#59C38E', '48.48 %'],
               ['2° Preparación de Alimentos y Bebidas', 21.21, '#8EC359', '21.21 %'],
               ['3° Otros servicios, excepto Gobierno', 18.18, '#C38E59', '18.18 %'],
-              ['4° Industria Manufacturera', 3.03, '#80C0FF', '3.03 %'],
+              ['4° Salud', 3.03, '#80C0FF', '3.03 %'],
               ['5° Educativos', 3.03, '#59BFC3', '3.03 %']
           ]);
           var options = {

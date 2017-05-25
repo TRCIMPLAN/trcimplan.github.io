@@ -36,12 +36,12 @@ class CerroDeLaCruz extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Cerro de La Cruz';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'cerro-de-la-cruz';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Cerro de La Cruz en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Cerro de La Cruz';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -102,7 +102,7 @@ class CerroDeLaCruz extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 14.29,
                     'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 8.57,
-                    'Cuarta actividad nombre' => 'Industria Manufacturera',
+                    'Cuarta actividad nombre' => 'Salud',
                     'Cuarta actividad porcentaje' => 5.71,
                     'Quinta actividad nombre' => 'Educativos',
                     'Quinta actividad porcentaje' => 5.71

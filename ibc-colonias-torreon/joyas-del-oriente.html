@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Joyas del Oriente en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Joyas del Oriente">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Joyas del Oriente - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Joyas del Oriente en Torreón, Coahuila de Zaragoza, México.">
@@ -389,11 +389,11 @@
         <td class="derecha">18.64 %</td>
       </tr>
       <tr>
-        <td>3° Manejo de Residuos</td>
+        <td>3° Otros servicios, excepto Gobierno</td>
         <td class="derecha">8.47 %</td>
       </tr>
       <tr>
-        <td>4° Otros servicios, excepto Gobierno</td>
+        <td>4° Manejo de Residuos</td>
         <td class="derecha">8.47 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Joyas del Oriente'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Joyas del Oriente'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,8 +697,8 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 44.07, '#59C38E', '44.07 %'],
               ['2° Preparación de Alimentos y Bebidas', 18.64, '#8EC359', '18.64 %'],
-              ['3° Manejo de Residuos', 8.47, '#C38E59', '8.47 %'],
-              ['4° Otros servicios, excepto Gobierno', 8.47, '#80C0FF', '8.47 %'],
+              ['3° Otros servicios, excepto Gobierno', 8.47, '#C38E59', '8.47 %'],
+              ['4° Manejo de Residuos', 8.47, '#80C0FF', '8.47 %'],
               ['5° Educativos', 6.78, '#59BFC3', '6.78 %']
           ]);
           var options = {

@@ -36,12 +36,12 @@ class MaclovioHerrera extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Maclovio Herrera';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'maclovio-herrera';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Maclovio Herrera en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Maclovio Herrera';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -100,7 +100,7 @@ class MaclovioHerrera extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 52.94,
                     'Segunda actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Segunda actividad porcentaje' => 23.53,
-                    'Tercera actividad nombre' => 'Industria Manufacturera',
+                    'Tercera actividad nombre' => 'Gubernamentales',
                     'Tercera actividad porcentaje' => 5.88,
                     'Cuarta actividad nombre' => 'Educativos',
                     'Cuarta actividad porcentaje' => 5.88,

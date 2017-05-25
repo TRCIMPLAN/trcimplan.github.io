@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Rincon de La Hacienda en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Rincon de La Hacienda">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Rincon de La Hacienda - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Rincon de La Hacienda en Torreón, Coahuila de Zaragoza, México.">
@@ -389,7 +389,7 @@
         <td class="derecha">14.81 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Salud</td>
         <td class="derecha">11.11 %</td>
       </tr>
       <tr>
@@ -397,7 +397,7 @@
         <td class="derecha">11.11 %</td>
       </tr>
       <tr>
-        <td>5° Salud</td>
+        <td>5° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">11.11 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Rincon de La Hacienda'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Rincon de La Hacienda'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 33.33, '#59C38E', '33.33 %'],
               ['2° Otros servicios, excepto Gobierno', 14.81, '#8EC359', '14.81 %'],
-              ['3° Industria Manufacturera', 11.11, '#C38E59', '11.11 %'],
+              ['3° Salud', 11.11, '#C38E59', '11.11 %'],
               ['4° Educativos', 11.11, '#80C0FF', '11.11 %'],
-              ['5° Salud', 11.11, '#59BFC3', '11.11 %']
+              ['5° Preparación de Alimentos y Bebidas', 11.11, '#59BFC3', '11.11 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

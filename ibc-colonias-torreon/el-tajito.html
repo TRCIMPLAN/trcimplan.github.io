@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia El Tajito en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, El Tajito">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="El Tajito - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia El Tajito en Torreón, Coahuila de Zaragoza, México.">
@@ -389,11 +389,11 @@
         <td class="derecha">25.25 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">8.08 %</td>
       </tr>
       <tr>
-        <td>4° Preparación de Alimentos y Bebidas</td>
+        <td>4° Industria Manufacturera</td>
         <td class="derecha">8.08 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'El Tajito'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'El Tajito'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,8 +697,8 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 35.35, '#59C38E', '35.35 %'],
               ['2° Otros servicios, excepto Gobierno', 25.25, '#8EC359', '25.25 %'],
-              ['3° Industria Manufacturera', 8.08, '#C38E59', '8.08 %'],
-              ['4° Preparación de Alimentos y Bebidas', 8.08, '#80C0FF', '8.08 %'],
+              ['3° Preparación de Alimentos y Bebidas', 8.08, '#C38E59', '8.08 %'],
+              ['4° Industria Manufacturera', 8.08, '#80C0FF', '8.08 %'],
               ['5° Salud', 7.07, '#59BFC3', '7.07 %']
           ]);
           var options = {

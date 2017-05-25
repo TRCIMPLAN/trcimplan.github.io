@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Villas Santorini en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Villas Santorini">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Villas Santorini - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Villas Santorini en Torreón, Coahuila de Zaragoza, México.">
@@ -389,15 +389,15 @@
         <td class="derecha">16.67 %</td>
       </tr>
       <tr>
-        <td>3° Inmobiliarios</td>
+        <td>3° Otros servicios, excepto Gobierno</td>
         <td class="derecha">8.33 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Inmobiliarios</td>
         <td class="derecha">8.33 %</td>
       </tr>
       <tr>
-        <td>5° Otros servicios, excepto Gobierno</td>
+        <td>5° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">8.33 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Villas Santorini'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Villas Santorini'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,9 +697,9 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 50, '#59C38E', '50 %'],
               ['2° Educativos', 16.67, '#8EC359', '16.67 %'],
-              ['3° Inmobiliarios', 8.33, '#C38E59', '8.33 %'],
-              ['4° Industria Manufacturera', 8.33, '#80C0FF', '8.33 %'],
-              ['5° Otros servicios, excepto Gobierno', 8.33, '#59BFC3', '8.33 %']
+              ['3° Otros servicios, excepto Gobierno', 8.33, '#C38E59', '8.33 %'],
+              ['4° Inmobiliarios', 8.33, '#80C0FF', '8.33 %'],
+              ['5° Preparación de Alimentos y Bebidas', 8.33, '#59BFC3', '8.33 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

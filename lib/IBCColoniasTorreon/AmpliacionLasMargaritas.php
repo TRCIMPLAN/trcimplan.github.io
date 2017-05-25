@@ -36,12 +36,12 @@ class AmpliacionLasMargaritas extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Ampliación Las Margaritas';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'ampliacion-las-margaritas';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Ampliación Las Margaritas en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Ampliación Las Margaritas';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -104,7 +104,7 @@ class AmpliacionLasMargaritas extends \IBCBase\PublicacionWeb {
                     'Tercera actividad porcentaje' => 9.57,
                     'Cuarta actividad nombre' => 'Salud',
                     'Cuarta actividad porcentaje' => 5.22,
-                    'Quinta actividad nombre' => 'Industria Manufacturera',
+                    'Quinta actividad nombre' => 'Educativos',
                     'Quinta actividad porcentaje' => 3.48
                 )
             )

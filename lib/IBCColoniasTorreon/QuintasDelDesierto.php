@@ -36,12 +36,12 @@ class QuintasDelDesierto extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Quintas del Desierto';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'quintas-del-desierto';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Quintas del Desierto en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Quintas del Desierto';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas
@@ -75,9 +75,9 @@ class QuintasDelDesierto extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 28.57,
                     'Tercera actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Tercera actividad porcentaje' => 14.29,
-                    'Cuarta actividad nombre' => 'Transportes, Correo, Almacenamiento',
+                    'Cuarta actividad nombre' => 'Construcción',
                     'Cuarta actividad porcentaje' => 14.29,
-                    'Quinta actividad nombre' => 'Construcción',
+                    'Quinta actividad nombre' => 'Transportes, Correo, Almacenamiento',
                     'Quinta actividad porcentaje' => 14.29
                 )
             )

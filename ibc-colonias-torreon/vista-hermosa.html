@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Vista Hermosa en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Vista Hermosa">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Vista Hermosa - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Vista Hermosa en Torreón, Coahuila de Zaragoza, México.">
@@ -389,11 +389,11 @@
         <td class="derecha">22.22 %</td>
       </tr>
       <tr>
-        <td>3° Otros servicios, excepto Gobierno</td>
+        <td>3° Gubernamentales</td>
         <td class="derecha">11.11 %</td>
       </tr>
       <tr>
-        <td>4° Gubernamentales</td>
+        <td>4° Otros servicios, excepto Gobierno</td>
         <td class="derecha">11.11 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Vista Hermosa'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Vista Hermosa'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,8 +697,8 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 55.56, '#59C38E', '55.56 %'],
               ['2° Preparación de Alimentos y Bebidas', 22.22, '#8EC359', '22.22 %'],
-              ['3° Otros servicios, excepto Gobierno', 11.11, '#C38E59', '11.11 %'],
-              ['4° Gubernamentales', 11.11, '#80C0FF', '11.11 %']
+              ['3° Gubernamentales', 11.11, '#C38E59', '11.11 %'],
+              ['4° Otros servicios, excepto Gobierno', 11.11, '#80C0FF', '11.11 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

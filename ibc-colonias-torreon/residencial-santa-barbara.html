@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Residencial Santa Bárbara en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Residencial Santa Bárbara">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Residencial Santa Bárbara - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Residencial Santa Bárbara en Torreón, Coahuila de Zaragoza, México.">
@@ -393,11 +393,11 @@
         <td class="derecha">15.38 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Educativos</td>
         <td class="derecha">7.69 %</td>
       </tr>
       <tr>
-        <td>5° Educativos</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">7.69 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Residencial Santa Bárbara'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Residencial Santa Bárbara'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Comercio Menudeo', 42.31, '#59C38E', '42.31 %'],
               ['2° Preparación de Alimentos y Bebidas', 19.23, '#8EC359', '19.23 %'],
               ['3° Otros servicios, excepto Gobierno', 15.38, '#C38E59', '15.38 %'],
-              ['4° Industria Manufacturera', 7.69, '#80C0FF', '7.69 %'],
-              ['5° Educativos', 7.69, '#59BFC3', '7.69 %']
+              ['4° Educativos', 7.69, '#80C0FF', '7.69 %'],
+              ['5° Industria Manufacturera', 7.69, '#59BFC3', '7.69 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

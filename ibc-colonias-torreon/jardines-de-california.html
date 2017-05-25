@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Jardines de California en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Jardines de California">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Jardines de California - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Jardines de California en Torreón, Coahuila de Zaragoza, México.">
@@ -397,7 +397,7 @@
         <td class="derecha">6.86 %</td>
       </tr>
       <tr>
-        <td>5° Industria Manufacturera</td>
+        <td>5° Salud</td>
         <td class="derecha">5.88 %</td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Jardines de California'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Jardines de California'");
       })
       .error(function(err) {
         console.log(err);
@@ -699,7 +699,7 @@
               ['2° Otros servicios, excepto Gobierno', 25.49, '#8EC359', '25.49 %'],
               ['3° Preparación de Alimentos y Bebidas', 13.73, '#C38E59', '13.73 %'],
               ['4° Educativos', 6.86, '#80C0FF', '6.86 %'],
-              ['5° Industria Manufacturera', 5.88, '#59BFC3', '5.88 %']
+              ['5° Salud', 5.88, '#59BFC3', '5.88 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

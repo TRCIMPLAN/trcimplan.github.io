@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Luis Horacio Salinas en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Luis Horacio Salinas">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Luis Horacio Salinas - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Luis Horacio Salinas en Torreón, Coahuila de Zaragoza, México.">
@@ -280,7 +280,7 @@ La cantidad de Hogares es cero.
         <td class="derecha">9.09 %</td>
       </tr>
       <tr>
-        <td>5° Financieros y Seguros</td>
+        <td>5° Gubernamentales</td>
         <td class="derecha">4.55 %</td>
       </tr>
     </tbody>
@@ -413,7 +413,7 @@ La cantidad de Hogares es cero.
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Luis Horacio Salinas'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Luis Horacio Salinas'");
       })
       .error(function(err) {
         console.log(err);
@@ -433,7 +433,7 @@ La cantidad de Hogares es cero.
               ['2° Industria Manufacturera', 18.18, '#8EC359', '18.18 %'],
               ['3° Comercio Menudeo', 15.91, '#C38E59', '15.91 %'],
               ['4° Preparación de Alimentos y Bebidas', 9.09, '#80C0FF', '9.09 %'],
-              ['5° Financieros y Seguros', 4.55, '#59BFC3', '4.55 %']
+              ['5° Gubernamentales', 4.55, '#59BFC3', '4.55 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

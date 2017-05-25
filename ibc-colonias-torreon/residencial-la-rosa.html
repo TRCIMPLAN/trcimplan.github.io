@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Residencial La Rosa en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Residencial La Rosa">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Residencial La Rosa - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Residencial La Rosa en Torreón, Coahuila de Zaragoza, México.">
@@ -389,11 +389,11 @@
         <td class="derecha">26.09 %</td>
       </tr>
       <tr>
-        <td>3° Comercio Menudeo</td>
+        <td>3° Manejo de Residuos</td>
         <td class="derecha">13.04 %</td>
       </tr>
       <tr>
-        <td>4° Manejo de Residuos</td>
+        <td>4° Comercio Menudeo</td>
         <td class="derecha">13.04 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Residencial La Rosa'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Residencial La Rosa'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,8 +697,8 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Otros servicios, excepto Gobierno', 30.43, '#59C38E', '30.43 %'],
               ['2° Preparación de Alimentos y Bebidas', 26.09, '#8EC359', '26.09 %'],
-              ['3° Comercio Menudeo', 13.04, '#C38E59', '13.04 %'],
-              ['4° Manejo de Residuos', 13.04, '#80C0FF', '13.04 %'],
+              ['3° Manejo de Residuos', 13.04, '#C38E59', '13.04 %'],
+              ['4° Comercio Menudeo', 13.04, '#80C0FF', '13.04 %'],
               ['5° Salud', 8.7, '#59BFC3', '8.7 %']
           ]);
           var options = {

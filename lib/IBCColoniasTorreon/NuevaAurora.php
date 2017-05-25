@@ -36,12 +36,12 @@ class NuevaAurora extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Nueva Aurora';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'nueva-aurora';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Nueva Aurora en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Nueva Aurora';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas

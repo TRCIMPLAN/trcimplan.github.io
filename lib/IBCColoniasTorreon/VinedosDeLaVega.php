@@ -36,12 +36,12 @@ class VinedosDeLaVega extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Viñedos de La Vega';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-15T13:54:51';
+        $this->fecha                      = '2017-05-25T10:47:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'vinedos-de-la-vega';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Viñedos de La Vega en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Viñedos de La Vega';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
         // Banderas

@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Nazario Ortiz Garza en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Nazario Ortiz Garza">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Nazario Ortiz Garza - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Nazario Ortiz Garza en Torreón, Coahuila de Zaragoza, México.">
@@ -381,11 +381,11 @@
         <td class="derecha">17</td>
       </tr>
       <tr>
-        <td>1° Comercio Menudeo</td>
+        <td>1° Otros servicios, excepto Gobierno</td>
         <td class="derecha">23.53 %</td>
       </tr>
       <tr>
-        <td>2° Otros servicios, excepto Gobierno</td>
+        <td>2° Comercio Menudeo</td>
         <td class="derecha">23.53 %</td>
       </tr>
       <tr>
@@ -393,7 +393,7 @@
         <td class="derecha">17.65 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Salud</td>
         <td class="derecha">11.76 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Nazario Ortiz Garza'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Nazario Ortiz Garza'");
       })
       .error(function(err) {
         console.log(err);
@@ -695,10 +695,10 @@
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Comercio Menudeo', 23.53, '#59C38E', '23.53 %'],
-              ['2° Otros servicios, excepto Gobierno', 23.53, '#8EC359', '23.53 %'],
+              ['1° Otros servicios, excepto Gobierno', 23.53, '#59C38E', '23.53 %'],
+              ['2° Comercio Menudeo', 23.53, '#8EC359', '23.53 %'],
               ['3° Preparación de Alimentos y Bebidas', 17.65, '#C38E59', '17.65 %'],
-              ['4° Industria Manufacturera', 11.76, '#80C0FF', '11.76 %'],
+              ['4° Salud', 11.76, '#80C0FF', '11.76 %'],
               ['5° Educativos', 11.76, '#59BFC3', '11.76 %']
           ]);
           var options = {

@@ -41,9 +41,9 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":6,
-        "Primer actividad nombre":"Industria Manufacturera",
+        "Primer actividad nombre":"Comercio Menudeo",
         "Primer actividad porcentaje":33.33,
-        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad nombre":"Industria Manufacturera",
         "Segunda actividad porcentaje":33.33,
         "Tercera actividad nombre":"Comercio Mayoreo",
         "Tercera actividad porcentaje":16.67,

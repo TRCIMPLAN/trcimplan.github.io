@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Ex-Hacienda Antigua Los Ángeles en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Ex-Hacienda Antigua Los Ángeles">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ex-Hacienda Antigua Los Ángeles - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Ex-Hacienda Antigua Los Ángeles en Torreón, Coahuila de Zaragoza, México.">
@@ -176,8 +176,8 @@
           <h3 class="titulo" itemprop="name">Ex-Hacienda Antigua Los Ángeles</h3>
           <div class="descripcion" itemprop="description">Colonia Ex-Hacienda Antigua Los Ángeles en Torreón, Coahuila de Zaragoza, México.</div>
                   <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-            Latitud: <meta itemprop="latitude" content="25.532806729954">25.532806729954
-            Longitud: <meta itemprop="longitude" content="-103.40124620907">-103.40124620907
+            Latitud: <meta itemprop="latitude" content="25.532928763493">25.532928763493
+            Longitud: <meta itemprop="longitude" content="-103.40115147845">-103.40115147845
           </div>
         </div>
       <!-- Contenido: Inicia  -->
@@ -393,11 +393,11 @@
         <td class="derecha">10.00 %</td>
       </tr>
       <tr>
-        <td>4° Industria Manufacturera</td>
+        <td>4° Comercio Mayoreo</td>
         <td class="derecha">7.50 %</td>
       </tr>
       <tr>
-        <td>5° Comercio Mayoreo</td>
+        <td>5° Industria Manufacturera</td>
         <td class="derecha">7.50 %</td>
       </tr>
     </tbody>
@@ -512,8 +512,8 @@
     if (mapa_limites_cargado == false) {
       var carto_json = 'https://guivaloz.carto.com/api/v2/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/viz.json'
       cartodb.createVis('MapaLimites', carto_json, {
-        center_lat: 25.532806729954,
-        center_lon: -103.40124620907,
+        center_lat: 25.532928763493,
+        center_lon: -103.40115147845,
         zoom: 14
       })
       .done(function(vis, layers) {
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Ex-Hacienda Antigua Los Ángeles'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Ex-Hacienda Antigua Los Ángeles'");
       })
       .error(function(err) {
         console.log(err);
@@ -698,8 +698,8 @@
               ['1° Preparación de Alimentos y Bebidas', 27.5, '#59C38E', '27.5 %'],
               ['2° Comercio Menudeo', 25, '#8EC359', '25 %'],
               ['3° Otros servicios, excepto Gobierno', 10, '#C38E59', '10 %'],
-              ['4° Industria Manufacturera', 7.5, '#80C0FF', '7.5 %'],
-              ['5° Comercio Mayoreo', 7.5, '#59BFC3', '7.5 %']
+              ['4° Comercio Mayoreo', 7.5, '#80C0FF', '7.5 %'],
+              ['5° Industria Manufacturera', 7.5, '#59BFC3', '7.5 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

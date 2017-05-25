@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Colonia Fidel Velázquez en Torreón, Coahuila de Zaragoza, México.">
   <meta name="author" content="Dirección de Investigación Estratégica">
-  <meta name="keywords" content="IMPLAN, Torreon, Desagregación, Colonia, {$this->conglomerado->nombre}">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Colonia, Fidel Velázquez">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Fidel Velázquez - IMPLAN Torreón">
   <meta name="twitter:description" content="Colonia Fidel Velázquez en Torreón, Coahuila de Zaragoza, México.">
@@ -389,11 +389,11 @@
         <td class="derecha">18.18 %</td>
       </tr>
       <tr>
-        <td>3° Industria Manufacturera</td>
+        <td>3° Salud</td>
         <td class="derecha">7.27 %</td>
       </tr>
       <tr>
-        <td>4° Salud</td>
+        <td>4° Industria Manufacturera</td>
         <td class="derecha">7.27 %</td>
       </tr>
       <tr>
@@ -521,7 +521,7 @@
         var capa_colonias = layers[1];
         // Cambiar la consulta en la subcapa
         var sub_capa = capa_colonias.getSubLayer(0);
-        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524 WHERE nombre = 'Fidel Velázquez'");
+        sub_capa.setSQL("SELECT * FROM ibccoloniastorreon20170524b WHERE nombre = 'Fidel Velázquez'");
       })
       .error(function(err) {
         console.log(err);
@@ -697,8 +697,8 @@
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
               ['1° Comercio Menudeo', 47.27, '#59C38E', '47.27 %'],
               ['2° Otros servicios, excepto Gobierno', 18.18, '#8EC359', '18.18 %'],
-              ['3° Industria Manufacturera', 7.27, '#C38E59', '7.27 %'],
-              ['4° Salud', 7.27, '#80C0FF', '7.27 %'],
+              ['3° Salud', 7.27, '#C38E59', '7.27 %'],
+              ['4° Industria Manufacturera', 7.27, '#80C0FF', '7.27 %'],
               ['5° Manejo de Residuos', 5.45, '#59BFC3', '5.45 %']
           ]);
           var options = {
