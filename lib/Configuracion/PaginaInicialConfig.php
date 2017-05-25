@@ -45,6 +45,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->archivo_ruta         = "index.html";
         $this->imagen_previa_ruta   = 'imagenes/imagen-previa.jpg';
         $this->contenido_en_renglon = FALSE;
+        // Google Site Verification
+        $this->google_site_verification = '<meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
     } // constructor
 
     /**
