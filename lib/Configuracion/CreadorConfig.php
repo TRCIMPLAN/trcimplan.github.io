@@ -71,6 +71,7 @@ class CreadorConfig {
         $this->imprentas_mapa_sitio     = $this->imprentas;
         $this->imprentas_autores        = array(
             '\\Blog\\Imprenta',
+            '\\Investigaciones\\Imprenta',
             '\\PET\\Imprenta',
             '\\Proyectos\\Imprenta',
             '\\SalaPrensa\\Imprenta',
