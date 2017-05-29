@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - Catálogo de Conceptos
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,17 +31,19 @@ class CatalogoConceptos extends \Base\PublicacionSchemaArticle {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Catálogo de Conceptos';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2016-12-07T15:40';
+        $this->fecha                      = '2017-05-29T08:10';
         // El nombre del archivo a crear
         $this->archivo                    = 'catalogo-conceptos';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Descripción de lo representa cada Indicador Básico por Colonia.';
+        $this->descripcion                = 'Descripción de lo representa cada Indicador Básico de Colonia.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Basicos, Colonias, Catalogo, Conceptos';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Catálogo de Conceptos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/IBC/CatalogoConceptos.md';
         // Banderas

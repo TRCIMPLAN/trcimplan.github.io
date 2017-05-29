@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - IBC Introduccion
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,17 +31,19 @@ class Introduccion extends \Base\PublicacionSchemaArticle {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Introducción a los Indicadores Básicos por Colonias';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2016-09-15T10:00';
+        $this->fecha                      = '2017-05-29T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'introduccion';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Introducción a los Indicadores Básicos por Colonias del IMPLAN Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Basicos, Colonias';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Introducción al IBC';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Introducción al IBC';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/IBC/Introduccion.md';
         // Banderas

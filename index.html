@@ -110,6 +110,16 @@
           </ul>
         </li>
         <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+          </ul>
+        </li>
+        <li>
           <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
@@ -218,6 +228,9 @@
         </div>
       </div>
     </div>
+  </section>
+  <section id="ibc">
+    <div id="IBCTorreonMapa" class="mapa"></div>
   </section>
   <section id="ultimas-publicaciones">
         <div class="ultimas">
@@ -572,6 +585,7 @@
         <ul>
           <li><a href="blog/index.html">Análisis Publicados</a></li>
           <li><a href="indicadores-categorias/index.html">Indicadores</a></li>
+          <li><a href="ibc/index.html">Indicadores Básicos de Colonias</a></li>
           <li><a href="sig-mapas-torreon/index.html">Información Geográfica</a></li>
           <li><a href="investigaciones/index.html">Investigaciones</a></li>
           <li><a href="pet/introduccion.html">Plan Estratégico Torreón 2040</a></li>
@@ -611,7 +625,7 @@
   </section>
   <section id="mapa-chico">
         <h4 class="mapa-encabezado">SERVICIOS</h4>
-    <p><a href="blog/index.html">Análisis Publicados</a>, <a href="indicadores-categorias/index.html">Indicadores</a>, <a href="sig-mapas-torreon/index.html">Información Geográfica</a>, <a href="investigaciones/index.html">Investigaciones</a>, <a href="pet/introduccion.html">Plan Estratégico Torreón 2040</a></p>
+    <p><a href="blog/index.html">Análisis Publicados</a>, <a href="indicadores-categorias/index.html">Indicadores</a>, <a href="ibc/index.html">Indicadores Básicos de Colonias</a>, <a href="sig-mapas-torreon/index.html">Información Geográfica</a>, <a href="investigaciones/index.html">Investigaciones</a>, <a href="pet/introduccion.html">Plan Estratégico Torreón 2040</a></p>
         <h4 class="mapa-encabezado">INSTITUCIONAL</h4>
     <p><a href="consejo-directivo/integrantes.html">Consejo Directivo</a>, <a href="institucional/estructura-organica.html">Estructura Orgánica</a>, <a href="institucional/mensaje-director.html">Mensaje del Director</a>, <a href="institucional/modelo-operativo-universal.html">Modelo Operativo Universal</a>, <a href="autores/index.html">Quienes Somos</a>, <a href="institucional/reglamentos.html">Reglamentos</a>, <a href="institucional/vision-mision.html">Visión / Misión</a></p>
         <h4 class="mapa-encabezado">INTERACCION</h4>
@@ -651,6 +665,28 @@
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
+<script>
+  // Cargar mapa IBC Torreón cuando esté lista la página
+  $(window).load(function() {
+    cartodb.createVis('IBCTorreonMapa', 'https://guivaloz.carto.com/api/v2/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/viz.json', {
+        shareable: false,
+        title: true,
+        description: true,
+        search: false,
+        scrollwheel: false,
+        infowindow: true,
+        fullscreen: true
+      })
+      .done(function(vis, layers) {
+        // Capa colonias
+        var colonias_capa = layers[1];
+        colonias_capa.setInteraction(true);
+        // Ajustes en el mapa
+        var map = vis.getNativeMap();
+        map.setZoom(14);
+      })
+  });
+</script>
 <!-- Javascript termina -->
 <!-- Javascript Google Analytics -->
 <script>

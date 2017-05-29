@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-05-26</lastmod>
+    <lastmod>2017-05-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1057,17 +1057,27 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/ibc/catalogo-conceptos.html</loc>
-    <lastmod>2016-12-07</lastmod>
+    <lastmod>2017-05-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/ibc/datos-abiertos.html</loc>
-    <lastmod>2016-09-15</lastmod>
+    <lastmod>2017-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/ibc/datos-abiertos-csv-libreoffice.html</loc>
+    <lastmod>2017-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/ibc/datos-abiertos-csv-microsoft-excel.html</loc>
+    <lastmod>2017-05-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/ibc/introduccion.html</loc>
-    <lastmod>2016-09-15</lastmod>
+    <lastmod>2017-05-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

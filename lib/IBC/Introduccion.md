@@ -1,12 +1,85 @@
 
+### Antecedentes
+
+**Es la colonia la forma más común en que nos referimos a un lugar de nuestra ciudad.** Pero hay escasa y contradictoria información sobre la exactitud de sus límites.
+
 ### Objetivos
 
-Dotar de un instrumento informativo que coadyuve a la planeación y toma de decisiones tanto de instancias gubernamentales, empresariales, de investigación académica así como de interés ciudadano a un nivel más cercano a la dinámica social, que son las colonias de una ciudad.
+Dotar de un **instrumento informativo** que **coadyuve a la planeación y toma de decisiones** tanto de instancias gubernamentales, empresariales, de investigación académica así como **de interés ciudadano a un nivel más cercano** a la dinámica social, que son las colonias de una ciudad.
 
-### Metodología
+### ¿Qué son los Indicadores Básicos de Colonias?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum.
+* El **IBC** es un componente de la plataforma [www.trcimplan.gob.mx](http://www.trcimplan.gob.mx), sumándose al **SMI** y el **SIG.**
+* Se integraron **399 fichas para el mismo número de colonias de Torreón.**
+* En cada ficha:
+    * Mapa con la ubicación.
+    * **30 indicadores en cuatro ejes.**
+    * Gráficas de los indicadores.
+    * Puede ofrecer una reseña con el origen, características propias y fotografías.
 
-### Forma de uso
+### Los Indicadores de IBC
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum.
+**Demografía**
+
+* Población Total
+* Porcentaje de población masculina
+* Porcentaje de población femenina
+* Porcentaje de población de 0 a 14 años
+* Porcentaje de población de 15 a 64 años
+* Porcentaje de población no especificada
+* Fecundidad promedio
+* Porcentaje de población con discapacidad
+
+**Características Económicas**
+
+* Población Económicamente Activa
+* Población Económicamente Activa masculina
+* Población Económicamente Activa femenina
+* Población Ocupada
+* Población Ocupada masculina
+* Población Ocupada femenina
+* Población Desocupada
+* Derechohabiencia
+
+**Viviendas**
+
+* Hogares
+* Viviendas con Electricidad
+* Viviendas con Agua
+* Viviendas con Drenaje
+* Viviendas con Televisión
+* Viviendas con Automóvil
+* Viviendas con Computadora
+
+**Unidades Económicas**
+
+* Total Actividades Económicas
+* Primer lugar en A.E.
+* Segundo lugar en A.E.
+* Tercer lugar en A.E.
+* Cuarto lugar en A.E.
+* Quinto lugar en A.E.
+
+### ¿Cómo se usa?
+
+Gracias a la Plataforma del Conocimiento, hay varias formas de encontrar una colonia:
+
+* Por medio del buscador de Google.
+* Por medio del mapa de límites de colonias de Torreón.
+* Por medio del listado alfabético.
+* Descargado los datos abiertos de IBC.
+
+### Utilidad esperada
+
+**Consideramos que IBC será de gran utilidad para todos los ciudadanos.** Porque ofrecerá al alcance de teléfonos inteligentes, tablets y computadoras con acceso a internet mucha información básica, los orígenes y la actualidad de las colonias de Torreón.
+
+**No existe un trabajo equivalente a nivel nacional.** En otros países, sí existen excelentes plataformas de información que son modelos a seguir. Por ejemplo [Place I Live de Nueva York, E.E.U.U.](https://newyork.placeilive.com/)
+
+**Paulatinamente estaremos elaborando las reseñas que serán contenidos apreciados por los colonos.** Para éstas se hace labor de investigación y visitas a las colonias para localizar y entrevistar a las personas con más años vivendo allí.
+
+### Recursos
+
+* INEGI Cartografía Geoestadística Censo 2010 cierre.
+* INEGI Directorio Estadístico Nacional de Unidades Económicas (DENUE).
+* Plataforma del Conocimiento www.trcimplan.gob.mx.
+* Proceso GSBPM.

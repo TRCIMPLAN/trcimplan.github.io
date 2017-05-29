@@ -83,7 +83,6 @@ class PaginaInicialConfig extends \Base\Plantilla {
             '<i class="fa fa-th-list"></i> Por Categoría'        => 'indicadores-categorias/index.html',
             '<i class="fa fa-table"></i> Por Región'             => 'smi/por-region.html',
             '<i class="fa fa-map-marker"></i> Georreferenciados' => 'smi-georreferenciados/index.html');
-    //      '<i class="fa fa-puzzle-piece"></i> IBCTorreón'      => 'https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map');
         // SIG
         $sig              = new \PaginaInicial\Destacado();
         $sig->name        = 'Sistema de Información Geográfica';
@@ -136,22 +135,22 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $js[] = '  // Cargar mapa IBC Torreón cuando esté lista la página';
         $js[] = '  $(window).load(function() {';
         $js[] = sprintf('    cartodb.createVis(\'IBCTorreonMapa\', \'%s\', {', IBCTorreonConfig::LIMITES);
-        $js[] = '      shareable: FALSE,';
-        $js[] = '      title: TRUE,';
-        $js[] = '      description: TRUE,';
-        $js[] = '      search: FALSE,';
-        $js[] = '      scrollwheel: FALSE,';
-        $js[] = '      infowindow: TRUE,';
-        $js[] = '      fullscreen: TRUE';
-        $js[] = '    })';
-        $js[] = '    .done(function(vis, layers) {';
-        $js[] = '      // Capa colonias';
-        $js[] = '      var colonias_capa = layers[1];';
-        $js[] = '      colonias_capa.setInteraction(TRUE);';
-        $js[] = '      // Ajustes en el mapa';
-        $js[] = '      var map = vis.getNativeMap();';
-        $js[] = '      map.setZoom(14);';
-        $js[] = '    })';
+        $js[] = '        shareable: false,';
+        $js[] = '        title: true,';
+        $js[] = '        description: true,';
+        $js[] = '        search: false,';
+        $js[] = '        scrollwheel: false,';
+        $js[] = '        infowindow: true,';
+        $js[] = '        fullscreen: true';
+        $js[] = '      })';
+        $js[] = '      .done(function(vis, layers) {';
+        $js[] = '        // Capa colonias';
+        $js[] = '        var colonias_capa = layers[1];';
+        $js[] = '        colonias_capa.setInteraction(true);';
+        $js[] = '        // Ajustes en el mapa';
+        $js[] = '        var map = vis.getNativeMap();';
+        $js[] = '        map.setZoom(14);';
+        $js[] = '      })';
         $js[] = '  });';
         $this->javascript[] = implode("\n", $js);
     } // ibc
@@ -278,7 +277,7 @@ FINAL; */
         $servicios     = new \PaginaInicial\Mapa('SERVICIOS', array(
             'Análisis Publicados'               => 'blog/index.html',
             'Indicadores'                       => 'indicadores-categorias/index.html',
-    //      'Indicadores Básicos por Colonias'  => 'ibc-torreon/index.html',
+            'Indicadores Básicos de Colonias'   => 'ibc/index.html',
             'Información Geográfica'            => 'sig-mapas-torreon/index.html',
             'Investigaciones'                   => 'investigaciones/index.html',
             'Plan Estratégico Torreón 2040'     => 'pet/introduccion.html'));
@@ -358,7 +357,7 @@ FINAL; */
         $this->organizacion();
         $this->aviso();
         $this->servicios();
-    //~ $this->ibc();
+        $this->ibc();
         $this->ultimas_publicaciones();
         $this->categorias();
         $this->mapa();
