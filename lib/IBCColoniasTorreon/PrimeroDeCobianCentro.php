@@ -36,7 +36,7 @@ class PrimeroDeCobianCentro extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Primero de Cobián (Centro)';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T20:53:08';
+        $this->fecha                      = '2017-05-29T21:23:42';
         // El nombre del archivo a crear
         $this->archivo                    = 'primero-de-cobian-centro';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -141,7 +141,7 @@ Las cuales abarcaban desde las calles Ramón Corona, Galeana, Jiménez, y Javier
 
 ### Fuente
 
-* [Historia de Torreón](Fuente: http://www.torreonhistoria.galeon.com/aficiones1001256.html)
+* [Historia de Torreón](http://www.torreonhistoria.galeon.com/aficiones1001256.html)
 FINAL;
     } // resena
 
