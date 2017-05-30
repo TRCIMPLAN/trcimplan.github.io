@@ -36,14 +36,14 @@ class SalvadorAllende extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Salvador Allende';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'salvador-allende';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Salvador Allende en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Salvador Allende';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -102,9 +102,9 @@ class SalvadorAllende extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 22.35,
                     'Tercera actividad nombre' => 'Industria Manufacturera',
                     'Tercera actividad porcentaje' => 14.12,
-                    'Cuarta actividad nombre' => 'Comercio Mayoreo',
+                    'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Cuarta actividad porcentaje' => 7.06,
-                    'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Quinta actividad nombre' => 'Comercio Mayoreo',
                     'Quinta actividad porcentaje' => 7.06
                 )
             )

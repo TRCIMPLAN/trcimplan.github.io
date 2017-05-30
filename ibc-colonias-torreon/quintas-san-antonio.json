@@ -43,13 +43,13 @@
         "Total Actividades Económicas":6,
         "Primer actividad nombre":"Inmobiliarios",
         "Primer actividad porcentaje":33.33,
-        "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
+        "Segunda actividad nombre":"Comercio Menudeo",
         "Segunda actividad porcentaje":16.67,
-        "Tercera actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Tercera actividad nombre":"Financieros y Seguros",
         "Tercera actividad porcentaje":16.67,
-        "Cuarta actividad nombre":"Comercio Menudeo",
+        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
         "Cuarta actividad porcentaje":16.67,
-        "Quinta actividad nombre":"Financieros y Seguros",
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
         "Quinta actividad porcentaje":16.67
       }
     }

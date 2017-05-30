@@ -43,13 +43,13 @@
         "Total Actividades Económicas":12,
         "Primer actividad nombre":"Comercio Menudeo",
         "Primer actividad porcentaje":66.67,
-        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad nombre":"Educativos",
         "Segunda actividad porcentaje":8.33,
-        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
         "Tercera actividad porcentaje":8.33,
-        "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
+        "Cuarta actividad nombre":"Preparación de Alimentos y Bebidas",
         "Cuarta actividad porcentaje":8.33,
-        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Quinta actividad nombre":"Comercio Mayoreo",
         "Quinta actividad porcentaje":8.33
       }
     }

@@ -36,14 +36,14 @@ class SegundoDeCobianCentro extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Segundo de Cobián (Centro)';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:55:12';
         // El nombre del archivo a crear
         $this->archivo                    = 'segundo-de-cobian-centro';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Segundo de Cobián (Centro) en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Segundo de Cobián (Centro)';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -130,7 +130,17 @@ class SegundoDeCobianCentro extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+![Fuente El Pensador](segundo-de-cobian-centro/fuente-el-pensador-800x450.jpg)
+
+### Historia
+
+El 10 de Marzo de 1898, la Hacienda de Torreón fue adquirida por Don Feliciano Cobián, quien fue destinando nuevas extensiones de la Hacienda, trazadas al Oriente de Primitivo, para los fraccionamientos, primero, segundo, tercero, cuarto y quinto que llevan su nombre.
+
+### Fuente
+
+* [Historia de Torreón](http://www.torreonhistoria.galeon.com/aficiones1001256.html)
+FINAL;
     } // resena
 
 } // Clase SegundoDeCobianCentro

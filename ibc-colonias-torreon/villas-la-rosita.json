@@ -41,15 +41,15 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":20,
-        "Primer actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Primer actividad nombre":"Financieros y Seguros",
         "Primer actividad porcentaje":15,
-        "Segunda actividad nombre":"Financieros y Seguros",
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
         "Segunda actividad porcentaje":15,
-        "Tercera actividad nombre":"Educativos",
+        "Tercera actividad nombre":"Información Medios Masivos",
         "Tercera actividad porcentaje":10,
-        "Cuarta actividad nombre":"Manejo de Residuos",
+        "Cuarta actividad nombre":"Comercio Menudeo",
         "Cuarta actividad porcentaje":10,
-        "Quinta actividad nombre":"Información Medios Masivos",
+        "Quinta actividad nombre":"Educativos",
         "Quinta actividad porcentaje":10
       }
     }

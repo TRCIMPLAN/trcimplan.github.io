@@ -36,14 +36,14 @@ class RinconDeLaJoya extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Rincón de La Joya';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'rincon-de-la-joya';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Rincón de La Joya en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Rincón de La Joya';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -100,9 +100,9 @@ class RinconDeLaJoya extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 50.00,
                     'Segunda actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Segunda actividad porcentaje' => 30.00,
-                    'Tercera actividad nombre' => 'Manejo de Residuos',
+                    'Tercera actividad nombre' => 'Inmobiliarios',
                     'Tercera actividad porcentaje' => 10.00,
-                    'Cuarta actividad nombre' => 'Inmobiliarios',
+                    'Cuarta actividad nombre' => 'Manejo de Residuos',
                     'Cuarta actividad porcentaje' => 10.00
                 )
             )

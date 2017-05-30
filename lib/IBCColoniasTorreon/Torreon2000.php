@@ -36,14 +36,14 @@ class Torreon2000 extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Torreón 2000';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'torreon-2000';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Torreón 2000 en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Torreón 2000';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -98,9 +98,9 @@ class Torreon2000 extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 9,
                     'Primer actividad nombre' => 'Comercio Menudeo',
                     'Primer actividad porcentaje' => 66.67,
-                    'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
+                    'Segunda actividad nombre' => 'Manejo de Residuos',
                     'Segunda actividad porcentaje' => 11.11,
-                    'Tercera actividad nombre' => 'Manejo de Residuos',
+                    'Tercera actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Tercera actividad porcentaje' => 11.11,
                     'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Cuarta actividad porcentaje' => 11.11

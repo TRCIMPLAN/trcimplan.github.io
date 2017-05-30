@@ -35,11 +35,11 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->publicaciones_directorio = 'IBCColoniasTorreon';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
         $this->titulo                   = 'Colonias de Torreón';
-        $this->descripcion              = 'Indicadores Básicos por Colonias de Torreón, Coahuila de Zaragoza.';
+        $this->descripcion              = 'Indicadores Básicos de Colonias de Torreón, Coahuila de Zaragoza, México.';
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Colonias, Torreón';
     //~ $this->encabezado_color         = '';
         // Opción de navegación a poner como activa
-        $this->nombre_menu              = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu              = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Ruta a la clase para hacer la página con el índice
         $this->indices_paginas          = '\\Base\\PaginasListadoAlfabetico';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas

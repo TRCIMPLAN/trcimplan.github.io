@@ -36,14 +36,14 @@ class RinconDelPedregal extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Rincón del Pedregal';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'rincon-del-pedregal';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Rincón del Pedregal en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Rincón del Pedregal';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;

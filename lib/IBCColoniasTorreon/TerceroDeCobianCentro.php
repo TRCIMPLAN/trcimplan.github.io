@@ -36,14 +36,14 @@ class TerceroDeCobianCentro extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Tercero de Cobián (Centro)';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T21:01:43';
         // El nombre del archivo a crear
         $this->archivo                    = 'tercero-de-cobian-centro';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Tercero de Cobián (Centro) en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Tercero de Cobián (Centro)';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -130,7 +130,18 @@ class TerceroDeCobianCentro extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+### Historia
+
+El 10 de Marzo de 1898, la Hacienda fue adquirida por Don Feliciano Cobián, quien fue destinando nuevas extensiones de la Hacienda, trazadas al Oriente de Primitivo, para los fraccionamientos, primero, segundo, tercero, cuarto y quinto que llevan su nombre.
+
+En el período de 1937 a 1941 sería presidente municipal de Torreón Francisco Rivera Morales y se construye el **Bosque Venustiano Carranza,** que inicialmente se iba a llamar Bosque de las Américas.
+
+### Fuentes
+
+* [Historia de Torreón](http://www.torreonhistoria.galeon.com/aficiones1001256.html)
+* [Personajes Ilustres de Torreón](https://www.facebook.com/notes/juan-martinez/personajes-ilustres-de-torre%C3%B3n-23012015/10151385720440009)
+FINAL;
     } // resena
 
 } // Clase TerceroDeCobianCentro

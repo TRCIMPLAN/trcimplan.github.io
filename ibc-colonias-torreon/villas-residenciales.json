@@ -43,13 +43,13 @@
         "Total Actividades Económicas":12,
         "Primer actividad nombre":"Manejo de Residuos",
         "Primer actividad porcentaje":25,
-        "Segunda actividad nombre":"Educativos",
+        "Segunda actividad nombre":"Comercio Menudeo",
         "Segunda actividad porcentaje":16.67,
-        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad nombre":"Educativos",
         "Tercera actividad porcentaje":16.67,
         "Cuarta actividad nombre":"Otros servicios, excepto Gobierno",
         "Cuarta actividad porcentaje":8.33,
-        "Quinta actividad nombre":"Esparcimiento, Culturales, Deportivos",
+        "Quinta actividad nombre":"Preparación de Alimentos y Bebidas",
         "Quinta actividad porcentaje":8.33
       }
     }

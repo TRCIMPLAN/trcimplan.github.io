@@ -36,14 +36,14 @@ class CalerasSolares extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Caleras Solares';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:56:04';
         // El nombre del archivo a crear
         $this->archivo                    = 'caleras-solares';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Caleras Solares en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Caleras Solares';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -124,7 +124,13 @@ class CalerasSolares extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+De acuerdo a testimonios de algunos de los primeros pobladores, como la señora Concepción Muñoz Méndez, hacia 1936 en una parte de los terrenos de las caleras propiedad del Sr. Manuel Solares, iniciaron los primeros asentamientos que con el tiempo de les denominó Colonia Caleras Solares
+
+### Fuente
+
+* Testimonios de los primeros habitantes de la colonia.
+FINAL;
     } // resena
 
 } // Clase CalerasSolares

@@ -41,9 +41,9 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":2,
-        "Primer actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Primer actividad nombre":"Comercio Menudeo",
         "Primer actividad porcentaje":50,
-        "Segunda actividad nombre":"Comercio Menudeo",
+        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
         "Segunda actividad porcentaje":50
       }
     }

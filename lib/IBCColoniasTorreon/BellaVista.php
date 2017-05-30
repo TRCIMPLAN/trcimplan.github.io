@@ -36,14 +36,14 @@ class BellaVista extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Bella Vista';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'bella-vista';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Bella Vista en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Bella Vista';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -102,9 +102,9 @@ class BellaVista extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 16.67,
                     'Tercera actividad nombre' => 'Salud',
                     'Tercera actividad porcentaje' => 5.56,
-                    'Cuarta actividad nombre' => 'Comercio Mayoreo',
+                    'Cuarta actividad nombre' => 'Manejo de Residuos',
                     'Cuarta actividad porcentaje' => 5.56,
-                    'Quinta actividad nombre' => 'Manejo de Residuos',
+                    'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Quinta actividad porcentaje' => 5.56
                 )
             )

@@ -36,14 +36,14 @@ class SanEduardo extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'San Eduardo';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'san-eduardo';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia San Eduardo en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, San Eduardo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -98,13 +98,13 @@ class SanEduardo extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 14,
                     'Primer actividad nombre' => 'Comercio Menudeo',
                     'Primer actividad porcentaje' => 21.43,
-                    'Segunda actividad nombre' => 'Comercio Mayoreo',
+                    'Segunda actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Segunda actividad porcentaje' => 14.29,
-                    'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Tercera actividad nombre' => 'Comercio Mayoreo',
                     'Tercera actividad porcentaje' => 14.29,
                     'Cuarta actividad nombre' => 'Salud',
                     'Cuarta actividad porcentaje' => 7.14,
-                    'Quinta actividad nombre' => 'Educativos',
+                    'Quinta actividad nombre' => 'Inmobiliarios',
                     'Quinta actividad porcentaje' => 7.14
                 )
             )

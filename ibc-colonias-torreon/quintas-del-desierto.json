@@ -14,15 +14,15 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":7,
-        "Primer actividad nombre":"Comercio Mayoreo",
+        "Primer actividad nombre":"Preparación de Alimentos y Bebidas",
         "Primer actividad porcentaje":28.57,
-        "Segunda actividad nombre":"Preparación de Alimentos y Bebidas",
+        "Segunda actividad nombre":"Comercio Mayoreo",
         "Segunda actividad porcentaje":28.57,
         "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
         "Tercera actividad porcentaje":14.29,
-        "Cuarta actividad nombre":"Construcción",
+        "Cuarta actividad nombre":"Transportes, Correo, Almacenamiento",
         "Cuarta actividad porcentaje":14.29,
-        "Quinta actividad nombre":"Transportes, Correo, Almacenamiento",
+        "Quinta actividad nombre":"Construcción",
         "Quinta actividad porcentaje":14.29
       }
     }

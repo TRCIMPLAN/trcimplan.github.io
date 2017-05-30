@@ -36,14 +36,14 @@ class CasaBlanca extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Casa Blanca';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'casa-blanca';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Casa Blanca en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Casa Blanca';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -102,9 +102,9 @@ class CasaBlanca extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 17.65,
                     'Tercera actividad nombre' => 'Salud',
                     'Tercera actividad porcentaje' => 11.76,
-                    'Cuarta actividad nombre' => 'Educativos',
+                    'Cuarta actividad nombre' => 'Inmobiliarios',
                     'Cuarta actividad porcentaje' => 11.76,
-                    'Quinta actividad nombre' => 'Inmobiliarios',
+                    'Quinta actividad nombre' => 'Educativos',
                     'Quinta actividad porcentaje' => 11.76
                 )
             )

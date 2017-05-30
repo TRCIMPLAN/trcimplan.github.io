@@ -36,14 +36,14 @@ class PrimitivoCentro extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Primitivo (Centro)';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T21:00:53';
         // El nombre del archivo a crear
         $this->archivo                    = 'primitivo-centro';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Primitivo (Centro) en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Primitivo (Centro)';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -130,7 +130,22 @@ class PrimitivoCentro extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+![Primitivo Centro](primitivo-centro/primitivo-foto-antigua.jpg)
+
+Foto Primitivo Centro. Fuente: Javier Olivares. Leyendas Laguna.
+
+### Historia
+
+En Noviembre de 1887, el Sr. Eppen le encomendó el trazado de unos cuadros de tierra al Ing. Federico Wulff, junto al lugar donde iba a cruzar el Ferrocarril Internacional con el Ferrocarril Central, con la posibilidad de formar un centro de población junto a la Estación del Ferrocarril.
+
+Para 1896, se contaba con un terreno destinado a Plaza Pública, en el cual se plantaron fresnos del Valle de Allende en el estado de Chihuahua. Se inauguró en el año 1898 con el nombre **Plaza del 2 de Abril**, hoy conocida como **Plaza de Armas.**
+
+### Fuentes
+
+* [Historia de Torreón](http://www.torreonhistoria.galeon.com/aficiones1001256.html)
+* [El Siglo](https://www.elsiglodedurango.com.mx/noticia/731894.moreleando-en-torreon.html)
+FINAL;
     } // resena
 
 } // Clase PrimitivoCentro

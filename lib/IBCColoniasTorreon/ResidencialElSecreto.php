@@ -36,14 +36,14 @@ class ResidencialElSecreto extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Residencial El Secreto';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'residencial-el-secreto';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Residencial El Secreto en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Residencial El Secreto';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -102,9 +102,9 @@ class ResidencialElSecreto extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 20.00,
                     'Tercera actividad nombre' => 'Educativos',
                     'Tercera actividad porcentaje' => 10.00,
-                    'Cuarta actividad nombre' => 'Construcción',
+                    'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Cuarta actividad porcentaje' => 10.00,
-                    'Quinta actividad nombre' => 'Preparación de Alimentos y Bebidas',
+                    'Quinta actividad nombre' => 'Profesionales, Científicos, Técnicos',
                     'Quinta actividad porcentaje' => 10.00
                 )
             )

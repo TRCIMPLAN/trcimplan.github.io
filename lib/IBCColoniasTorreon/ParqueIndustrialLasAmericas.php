@@ -36,14 +36,14 @@ class ParqueIndustrialLasAmericas extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Parque Industrial Las Américas';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'parque-industrial-las-americas';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Parque Industrial Las Américas en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Parque Industrial Las Américas';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -71,13 +71,13 @@ class ParqueIndustrialLasAmericas extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 13,
                     'Primer actividad nombre' => 'Industria Manufacturera',
                     'Primer actividad porcentaje' => 46.15,
-                    'Segunda actividad nombre' => 'Salud',
+                    'Segunda actividad nombre' => 'Información Medios Masivos',
                     'Segunda actividad porcentaje' => 7.69,
-                    'Tercera actividad nombre' => 'Comercio Mayoreo',
+                    'Tercera actividad nombre' => 'Salud',
                     'Tercera actividad porcentaje' => 7.69,
-                    'Cuarta actividad nombre' => 'Educativos',
+                    'Cuarta actividad nombre' => 'Servicios Generales',
                     'Cuarta actividad porcentaje' => 7.69,
-                    'Quinta actividad nombre' => 'Esparcimiento, Culturales, Deportivos',
+                    'Quinta actividad nombre' => 'Educativos',
                     'Quinta actividad porcentaje' => 7.69
                 )
             )

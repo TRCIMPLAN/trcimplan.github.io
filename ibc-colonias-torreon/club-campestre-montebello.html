@@ -106,11 +106,11 @@
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
         </li>
-        <li>
+        <li class="active">
           <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
-            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li class="active"><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
             <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
@@ -391,15 +391,15 @@
         <td class="derecha">3</td>
       </tr>
       <tr>
-        <td>1° Esparcimiento, Culturales, Deportivos</td>
+        <td>1° Inmobiliarios</td>
         <td class="derecha">33.33 %</td>
       </tr>
       <tr>
-        <td>2° Inmobiliarios</td>
+        <td>2° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">33.33 %</td>
       </tr>
       <tr>
-        <td>3° Preparación de Alimentos y Bebidas</td>
+        <td>3° Esparcimiento, Culturales, Deportivos</td>
         <td class="derecha">33.33 %</td>
       </tr>
       <tr>
@@ -705,9 +705,9 @@
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Esparcimiento, Culturales, Deportivos', 33.33, '#59C38E', '33.33 %'],
-              ['2° Inmobiliarios', 33.33, '#8EC359', '33.33 %'],
-              ['3° Preparación de Alimentos y Bebidas', 33.33, '#C38E59', '33.33 %']
+              ['1° Inmobiliarios', 33.33, '#59C38E', '33.33 %'],
+              ['2° Preparación de Alimentos y Bebidas', 33.33, '#8EC359', '33.33 %'],
+              ['3° Esparcimiento, Culturales, Deportivos', 33.33, '#C38E59', '33.33 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

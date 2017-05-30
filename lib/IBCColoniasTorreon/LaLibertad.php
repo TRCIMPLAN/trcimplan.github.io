@@ -36,14 +36,14 @@ class LaLibertad extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'La Libertad';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:57:03';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-libertad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia La Libertad en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, La Libertad';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -122,7 +122,13 @@ class LaLibertad extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+De acuerdo al testimonio del Señor Daniel Muñoz habitante de la colonia Vencedora pero nacido en la Colonia Libertad, para 1937 este sector poblacional ya existía con ese mismo nombre y como algo característico menciona la existencia de dos petroleras El Águila y La Azteca, una abastecía a los ejidatarios y la otra al público en general.
+
+### Fuente
+
+* Testimonio de los primeros habitantes de la colonia
+FINAL;
     } // resena
 
 } // Clase LaLibertad

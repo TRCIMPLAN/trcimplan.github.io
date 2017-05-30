@@ -36,14 +36,14 @@ class RinconDeLasNoas extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Rincón de Las Noas';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'rincon-de-las-noas';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Rincón de Las Noas en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Rincón de Las Noas';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -98,9 +98,9 @@ class RinconDeLasNoas extends \IBCBase\PublicacionWeb {
                     'Total Actividades Económicas' => 19,
                     'Primer actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Primer actividad porcentaje' => 26.32,
-                    'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
+                    'Segunda actividad nombre' => 'Comercio Menudeo',
                     'Segunda actividad porcentaje' => 21.05,
-                    'Tercera actividad nombre' => 'Comercio Menudeo',
+                    'Tercera actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Tercera actividad porcentaje' => 21.05,
                     'Cuarta actividad nombre' => 'Salud',
                     'Cuarta actividad porcentaje' => 10.53,

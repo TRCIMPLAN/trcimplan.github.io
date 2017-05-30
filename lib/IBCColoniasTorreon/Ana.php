@@ -36,14 +36,14 @@ class Ana extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Ana';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:53:56';
         // El nombre del archivo a crear
         $this->archivo                    = 'ana';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Ana en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Ana';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -130,7 +130,13 @@ class Ana extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+En 1932 Eduardo Guerra hace referencia a lo que se conocía como La Paloma Azul o el Barrio Nuevo, para ubicar el primitivo torreón, ese barrio se conoce hoy como La Colonia Ana.
+
+### Fuente
+
+* [El Siglo de Durango - Origen y ubicación de aquel primitivo Torreón](https://www.elsiglodedurango.com.mx/noticia/728927.origen-y-ubicacion-de-aquel-primitivo-torreon.html)
+FINAL;
     } // resena
 
 } // Clase Ana

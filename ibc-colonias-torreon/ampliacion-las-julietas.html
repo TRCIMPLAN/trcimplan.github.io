@@ -106,11 +106,11 @@
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
         </li>
-        <li>
+        <li class="active">
           <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
-            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li class="active"><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
             <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
@@ -391,11 +391,11 @@
         <td class="derecha">18</td>
       </tr>
       <tr>
-        <td>1° Otros servicios, excepto Gobierno</td>
+        <td>1° Comercio Menudeo</td>
         <td class="derecha">27.78 %</td>
       </tr>
       <tr>
-        <td>2° Comercio Menudeo</td>
+        <td>2° Otros servicios, excepto Gobierno</td>
         <td class="derecha">27.78 %</td>
       </tr>
       <tr>
@@ -407,7 +407,7 @@
         <td class="derecha">11.11 %</td>
       </tr>
       <tr>
-        <td>5° Comercio Mayoreo</td>
+        <td>5° Profesionales, Científicos, Técnicos</td>
         <td class="derecha">5.56 %</td>
       </tr>
     </tbody>
@@ -705,11 +705,11 @@
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Otros servicios, excepto Gobierno', 27.78, '#59C38E', '27.78 %'],
-              ['2° Comercio Menudeo', 27.78, '#8EC359', '27.78 %'],
+              ['1° Comercio Menudeo', 27.78, '#59C38E', '27.78 %'],
+              ['2° Otros servicios, excepto Gobierno', 27.78, '#8EC359', '27.78 %'],
               ['3° Preparación de Alimentos y Bebidas', 16.67, '#C38E59', '16.67 %'],
               ['4° Industria Manufacturera', 11.11, '#80C0FF', '11.11 %'],
-              ['5° Comercio Mayoreo', 5.56, '#59BFC3', '5.56 %']
+              ['5° Profesionales, Científicos, Técnicos', 5.56, '#59BFC3', '5.56 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

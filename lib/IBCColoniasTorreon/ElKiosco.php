@@ -36,14 +36,14 @@ class ElKiosco extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'El Kiosco';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'el-kiosco';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia El Kiosco en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, El Kiosco';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -102,9 +102,9 @@ class ElKiosco extends \IBCBase\PublicacionWeb {
                     'Segunda actividad porcentaje' => 16.67,
                     'Tercera actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Tercera actividad porcentaje' => 16.67,
-                    'Cuarta actividad nombre' => 'Esparcimiento, Culturales, Deportivos',
+                    'Cuarta actividad nombre' => 'Inmobiliarios',
                     'Cuarta actividad porcentaje' => 11.11,
-                    'Quinta actividad nombre' => 'Inmobiliarios',
+                    'Quinta actividad nombre' => 'Esparcimiento, Culturales, Deportivos',
                     'Quinta actividad porcentaje' => 11.11
                 )
             )

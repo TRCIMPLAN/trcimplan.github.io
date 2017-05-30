@@ -36,14 +36,14 @@ class NarcisoMendoza extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Narciso Mendoza';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'narciso-mendoza';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Narciso Mendoza en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Narciso Mendoza';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -104,7 +104,7 @@ class NarcisoMendoza extends \IBCBase\PublicacionWeb {
                     'Tercera actividad porcentaje' => 15.15,
                     'Cuarta actividad nombre' => 'Preparación de Alimentos y Bebidas',
                     'Cuarta actividad porcentaje' => 9.09,
-                    'Quinta actividad nombre' => 'Comercio Mayoreo',
+                    'Quinta actividad nombre' => 'Transportes, Correo, Almacenamiento',
                     'Quinta actividad porcentaje' => 3.03
                 )
             )

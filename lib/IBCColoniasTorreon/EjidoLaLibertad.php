@@ -36,14 +36,14 @@ class EjidoLaLibertad extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Ejido La Libertad';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
         $this->archivo                    = 'ejido-la-libertad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Ejido La Libertad en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Ejido La Libertad';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -100,9 +100,9 @@ class EjidoLaLibertad extends \IBCBase\PublicacionWeb {
                     'Primer actividad porcentaje' => 28.57,
                     'Segunda actividad nombre' => 'Otros servicios, excepto Gobierno',
                     'Segunda actividad porcentaje' => 28.57,
-                    'Tercera actividad nombre' => 'Inmobiliarios',
+                    'Tercera actividad nombre' => 'Comercio Menudeo',
                     'Tercera actividad porcentaje' => 14.29,
-                    'Cuarta actividad nombre' => 'Comercio Menudeo',
+                    'Cuarta actividad nombre' => 'Inmobiliarios',
                     'Cuarta actividad porcentaje' => 14.29,
                     'Quinta actividad nombre' => 'Industria Manufacturera',
                     'Quinta actividad porcentaje' => 14.29

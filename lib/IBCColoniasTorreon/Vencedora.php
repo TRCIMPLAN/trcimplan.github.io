@@ -36,14 +36,14 @@ class Vencedora extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Vencedora';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:56:31';
         // El nombre del archivo a crear
         $this->archivo                    = 'vencedora';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Vencedora en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Vencedora';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -130,7 +130,13 @@ class Vencedora extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+De acuerdo a los testimonios de algunos vecinos, aproximadamente en 1930 se establecieron en terrenos de Los Ferrocarriles Nacionales los primeros pobladores, esta empresa les cobraba 20 centavos de renta los cuales pagaban en las oficinas que en aquel entonces se ubicaban frente al Hotel Francia.
+
+### Fuente
+
+* Testimonios de los fundadores de la colonia
+FINAL;
     } // resena
 
 } // Clase Vencedora

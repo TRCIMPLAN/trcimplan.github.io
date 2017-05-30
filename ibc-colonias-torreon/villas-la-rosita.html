@@ -106,11 +106,11 @@
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
         </li>
-        <li>
+        <li class="active">
           <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
-            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li class="active"><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
             <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
@@ -391,23 +391,23 @@
         <td class="derecha">20</td>
       </tr>
       <tr>
-        <td>1° Preparación de Alimentos y Bebidas</td>
+        <td>1° Financieros y Seguros</td>
         <td class="derecha">15.00 %</td>
       </tr>
       <tr>
-        <td>2° Financieros y Seguros</td>
+        <td>2° Preparación de Alimentos y Bebidas</td>
         <td class="derecha">15.00 %</td>
       </tr>
       <tr>
-        <td>3° Educativos</td>
+        <td>3° Información Medios Masivos</td>
         <td class="derecha">10.00 %</td>
       </tr>
       <tr>
-        <td>4° Manejo de Residuos</td>
+        <td>4° Comercio Menudeo</td>
         <td class="derecha">10.00 %</td>
       </tr>
       <tr>
-        <td>5° Información Medios Masivos</td>
+        <td>5° Educativos</td>
         <td class="derecha">10.00 %</td>
       </tr>
     </tbody>
@@ -705,11 +705,11 @@
       function elaborarGraficaUniEco() {
           var data = google.visualization.arrayToDataTable([
               ['Etiqueta', 'Valor', { role: 'style' }, { role: 'annotation' }],
-              ['1° Preparación de Alimentos y Bebidas', 15, '#59C38E', '15 %'],
-              ['2° Financieros y Seguros', 15, '#8EC359', '15 %'],
-              ['3° Educativos', 10, '#C38E59', '10 %'],
-              ['4° Manejo de Residuos', 10, '#80C0FF', '10 %'],
-              ['5° Información Medios Masivos', 10, '#59BFC3', '10 %']
+              ['1° Financieros y Seguros', 15, '#59C38E', '15 %'],
+              ['2° Preparación de Alimentos y Bebidas', 15, '#8EC359', '15 %'],
+              ['3° Información Medios Masivos', 10, '#C38E59', '10 %'],
+              ['4° Comercio Menudeo', 10, '#80C0FF', '10 %'],
+              ['5° Educativos', 10, '#59BFC3', '10 %']
           ]);
           var options = {
             chartArea: { width: '60%' },

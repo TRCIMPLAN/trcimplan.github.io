@@ -43,9 +43,9 @@
         "Total Actividades Económicas":4,
         "Primer actividad nombre":"Otros servicios, excepto Gobierno",
         "Primer actividad porcentaje":50,
-        "Segunda actividad nombre":"Comercio Mayoreo",
+        "Segunda actividad nombre":"Comercio Menudeo",
         "Segunda actividad porcentaje":25,
-        "Tercera actividad nombre":"Comercio Menudeo",
+        "Tercera actividad nombre":"Comercio Mayoreo",
         "Tercera actividad porcentaje":25
       }
     }

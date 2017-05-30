@@ -47,9 +47,9 @@
         "Segunda actividad porcentaje":25,
         "Tercera actividad nombre":"Otros servicios, excepto Gobierno",
         "Tercera actividad porcentaje":10,
-        "Cuarta actividad nombre":"Comercio Mayoreo",
+        "Cuarta actividad nombre":"Industria Manufacturera",
         "Cuarta actividad porcentaje":7.5,
-        "Quinta actividad nombre":"Industria Manufacturera",
+        "Quinta actividad nombre":"Comercio Mayoreo",
         "Quinta actividad porcentaje":7.5
       }
     }

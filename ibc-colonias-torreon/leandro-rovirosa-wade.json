@@ -41,15 +41,15 @@
     "Unidades Económicas":{
       "2010":{
         "Total Actividades Económicas":24,
-        "Primer actividad nombre":"Comercio Mayoreo",
+        "Primer actividad nombre":"Inmobiliarios",
         "Primer actividad porcentaje":16.67,
         "Segunda actividad nombre":"Otros servicios, excepto Gobierno",
         "Segunda actividad porcentaje":16.67,
-        "Tercera actividad nombre":"Inmobiliarios",
+        "Tercera actividad nombre":"Comercio Mayoreo",
         "Tercera actividad porcentaje":16.67,
-        "Cuarta actividad nombre":"Construcción",
+        "Cuarta actividad nombre":"Comercio Menudeo",
         "Cuarta actividad porcentaje":12.5,
-        "Quinta actividad nombre":"Comercio Menudeo",
+        "Quinta actividad nombre":"Construcción",
         "Quinta actividad porcentaje":12.5
       }
     }

@@ -36,14 +36,14 @@ class PrimeroDeCobianCentro extends \IBCBase\PublicacionWeb {
         // Título, autor y fecha
         $this->nombre                     = 'Primero de Cobián (Centro)';
         $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-25T10:47:01';
+        $this->fecha                      = '2017-05-29T20:53:08';
         // El nombre del archivo a crear
         $this->archivo                    = 'primero-de-cobian-centro';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Colonia Primero de Cobián (Centro) en Torreón, Coahuila de Zaragoza, México.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Primero de Cobián (Centro)';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos por Colonias > Colonias de Torreón';
+        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -130,7 +130,19 @@ class PrimeroDeCobianCentro extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+![Plaza Mayor](primero-de-cobian-centro/plaza-mayor-800x450.jpg)
+
+### Historia
+
+El Coronel Don Carlos González, al vender la Hacienda del Torreón y anexas (1898), mandó fraccionar cuatro líneas de manzanas a partir de la última línea de manzanas trazadas en el Plano Primitivo (que reservó para él).
+
+Las cuales abarcaban desde las calles Ramón Corona, Galeana, Jiménez, y Javier Mina, así como la conocida Calzada Colón.
+
+### Fuente
+
+* [Historia de Torreón](Fuente: http://www.torreonhistoria.galeon.com/aficiones1001256.html)
+FINAL;
     } // resena
 
 } // Clase PrimeroDeCobianCentro
