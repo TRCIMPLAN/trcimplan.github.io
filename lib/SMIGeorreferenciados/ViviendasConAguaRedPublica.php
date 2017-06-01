@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN - Viviendas con Agua de la Red Pública
+ * TrcIMPLAN Sitio Web - Viviendas con Agua de la Red Pública
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIGeorreferenciados;
 
 /**
@@ -31,33 +31,28 @@ class ViviendasConAguaRedPublica extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre           = 'Viviendas con Agua de la Red Pública';
-        $this->autor            = 'Arq. Jair Miramontes Chávez';
-        $this->fecha            = '2015-04-13T08:10';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
-        $this->imagen           = '../sig-mapas-torreon/viviendas-con-agua-red-publica/imagen.jpg';
-        $this->imagen_previa    = '../sig-mapas-torreon/viviendas-con-agua-red-publica/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Accesibilidad de viviendas a agua potable.';
-        $this->claves           = 'IMPLAN, Torreon, Viviendas, Agua, Potable';
-        $this->categorias       = array('Servicios Públicos', 'Vivienda');
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'Publicar';
+        $this->nombre        = 'Viviendas con Agua de la Red Pública';
+        $this->autor         = 'Arq. Jair Miramontes Chávez';
+        $this->fecha         = '2015-04-13T08:10';
+        // El nombre del archivo a crear
+        $this->archivo       = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
+        $this->imagen        = '../sig-mapas-torreon/viviendas-con-agua-red-publica/imagen.jpg';
+        $this->imagen_previa = '../sig-mapas-torreon/viviendas-con-agua-red-publica/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion   = 'Accesibilidad de viviendas a agua potable.';
+        $this->claves        = 'IMPLAN, Torreon, Viviendas, Agua, Potable';
         // URL de destino
-        $this->url              = '../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html';
-        $this->url_etiqueta     = 'Ir al indicador';
+        $this->url           = '../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html';
+        $this->url_etiqueta  = 'Ir al indicador';
         // Sin contenido
-        $this->contenido        = '';
+        $this->contenido     = '';
         // Sin JavaScript
-        $this->javascript       = '';
-        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
-        } else {
-            $this->redifusion   = $this->descripcion;
-        }
+        $this->javascript    = '';
+        // Para redifusión
+        $this->redifusion    = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
     } // constructor
 
 } // Clase ViviendasConAguaRedPublica

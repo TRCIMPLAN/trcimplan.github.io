@@ -49,8 +49,6 @@ class TerminosInformacion extends \Base\PublicacionSchemaArticle {
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase TerminosInformacion

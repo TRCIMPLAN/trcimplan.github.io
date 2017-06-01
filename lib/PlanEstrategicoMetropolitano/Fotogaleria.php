@@ -25,7 +25,7 @@ namespace PlanEstrategicoMetropolitano;
 /**
  * Clase Fotogaleria
  */
-class Fotogaleria extends \Base\Publicacion {
+class Fotogaleria extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
@@ -44,6 +44,8 @@ class Fotogaleria extends \Base\Publicacion {
         $this->claves                     = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/PlanEstrategicoMetropolitano/Fotogaleria.html';
         // Banderas
         $this->poner_imagen_en_contenido  = false;
         $this->para_compartir             = false;
@@ -54,68 +56,13 @@ class Fotogaleria extends \Base\Publicacion {
     } // constructor
 
     /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Son 310 fotos
-        $a = array();
-        for ($i=1; $i <= 310; $i++) {
-            $a[] = sprintf('            <div><img u="image" src="fotogaleria/fotos%03s.jpg"></div>', $i);
-        }
-        $fotos_html = implode("\n", $a);
-        // El contenido
-        $this->contenido = <<<FINAL
-      <!-- Photo Slider inicia -->
-        <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px; height: 500px;">
-          <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 500px; overflow: hidden;">
-{$fotos_html}
-          </div>
-          <a style="display: none" href="http://www.jssor.com">Image Slider</a>
-        </div>
-      <!-- Photo Slider termina -->
-FINAL;
-        // Entregar resultado del padre
-        return parent::html();
-    } // html
-
-    /**
      * Javascript
      *
      * @return string No hay código Javascript, entrega un texto vacío
      */
     public function javascript() {
-        $this->javascript[]     = '<script type="text/javascript" src="../js/jssor.slider.min.js"></script>';
-        $this->javascript[]     = <<<FINAL
-// PHOTO SLIDER
-<script>
-jQuery(document).ready(function ($) {
-    var options = {
-        \$AutoPlay: true,
-        \$ChanceToShow: 5,
-        \$DragOrientation: 1
-    };
-    var jssor_slider1 = new \$JssorSlider\$("slider1_container", options);
-    // responsive code begin
-    function ScaleSlider() {
-        var parentWidth = $('#slider1_container').parent().width();
-        if (parentWidth) {
-            jssor_slider1.\$ScaleWidth(parentWidth);
-        }
-        else
-            window.setTimeout(ScaleSlider, 30);
-    }
-    // Scale slider after document ready
-    ScaleSlider();
-    // Scale slider while window load/resize/orientationchange.
-    $(window).bind("load", ScaleSlider);
-    $(window).bind("resize", ScaleSlider);
-    $(window).bind("orientationchange", ScaleSlider);
-    // responsive code end
-});
-</script>
-FINAL;
+        // Cargar archivo externo
+        $this->javascript = $this->cargar_archivo('lib/PlanEstrategicoMetropolitano/MesaMovilidadNoMotorizada.js');
         // Entregar resultado del padre
         return parent::javascript();
     } // javascript
@@ -126,8 +73,13 @@ FINAL;
      * @return string Código HTML
      */
     public function redifusion_html() {
-        // Para redifusión, sólo se pone la primer imagen como vínculo a la página en el sitio
-        $this->redifusion = sprintf('<a href="%s"><img src="%s"><br>%s</a>', "{$this->directorio}/{$this->archivo}.html", 'fotogaleria/fotos001.jpg', $this->descripcion);
+        // Contenido especial para redifusión
+        $this->redifusion = <<<FINAL
+<!-- Mostrar la primer imagen de la presentación como vínculo a la página -->
+<a href="{$this->archivo}.html"><img src="fotogaleria/fotos001.jpg"></a>
+<p>{$this->descripcion}</p>
+
+FINAL;
         // Entregar resultado del padre
         return parent::redifusion_html();
     } // redifusion_html

@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN - Reglamento de Desarrollo Urbano Zonificacion Uso de Suelo y Construcción del Municipio de Torreon
+/**
+ * TrcIMPLAN Sitio Web - Libro de Proyectos 2016
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Institucional;
 
 /**
@@ -31,33 +31,30 @@ class LibroDeProyectos2016 extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre           = 'Libro de Proyectos 2016';
-     // $this->autor            = '';
-        $this->fecha            = '2016-03-08T12:40';
+        $this->nombre        = 'Libro de Proyectos 2016';
+    //~ $this->autor         = '';
+        $this->fecha         = '2016-03-08T12:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
-        $this->imagen           = 'libro-de-proyectos-2016/imagen.jpg';
-        $this->imagen_previa    = 'libro-de-proyectos-2016/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Datos generales de los proyectos propuestos por el IMPLAN Torreón para el año 2016.';
-        $this->claves           = 'IMPLAN, Torreón';
-        $this->categorias       = array();
-        // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
-        $this->estado           = 'publicar';
+        $this->archivo       = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
+        $this->imagen        = 'libro-de-proyectos-2016/imagen.jpg';
+        $this->imagen_previa = 'libro-de-proyectos-2016/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion   = 'Datos generales de los proyectos propuestos por el IMPLAN Torreón para el año 2016.';
+        $this->claves        = 'IMPLAN, Torreón';
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado        = 'ignorar';
         // URL de destino
-        $this->url              = 'libro-de-proyectos-2016/libro-de-proyectos-2016.pdf';
-        $this->url_etiqueta     = 'Descargar PDF 8.2 MB';
+        $this->url           = 'libro-de-proyectos-2016/libro-de-proyectos-2016.pdf';
+        $this->url_etiqueta  = 'Descargar PDF 8.2 MB';
         // Sin contenido
-        $this->contenido        = '';
+        $this->contenido     = '';
         // Sin JavaScript
-        $this->javascript       = '';
-        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
-        } else {
-            $this->redifusion   = $this->descripcion;
-        }
+        $this->javascript    = '';
+        // Para redifusión
+        $this->redifusion    = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
     } // constructor
 
 } // Clase LibroDeProyectos2016

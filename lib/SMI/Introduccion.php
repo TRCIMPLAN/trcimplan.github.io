@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - SMI Introducción
+/**
+ * TrcIMPLAN Sitio Web - Introducción al Sistema Metropolitano de Indicadores
  *
- * Copyright (C) 2015 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,6 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SMI;
@@ -24,86 +25,30 @@ namespace SMI;
 /**
  * Clase Introduccion
  */
-class Introduccion extends \Base\Publicacion {
+class Introduccion extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre           = 'Introducción al Sistema Metropolitano de Indicadores';
-     // $this->autor            = '';
-        $this->fecha            = '2014-05-15T08:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'introduccion';
-        $this->imagen           = 'introduccion/imagen.jpg';
-        $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
+        $this->nombre                     = 'Introducción al Sistema Metropolitano de Indicadores';
+        $this->autor                      = 'Dirección de Investigación Estratégica';
+        $this->fecha                      = '2014-05-15T08:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'introduccion';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Introducción al Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
-        $this->claves           = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
-        $this->categorias       = array();
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio       = 'smi';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Indicadores > Introducción al SMI';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
-        // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaArticle();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->image_show     = false;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->headline_style = $this->encabezado_color;
-        $schema->articleBody    = <<<FINAL
-
-<h3>¿Qué es el Sistema Metropolitano de Indicadores (SMI)?</h3>
-<p>Es un banco de información sobre los temas de interés de nuestra ciudad y su zona metropolitana, para conocer el estado de distintos fenómenos comparables en el tiempo, pero también con otras ciudades y con estándares internacionales.</p>
-
-<h3>¿Por ejemplo?</h3>
-<p>Torreón tiene un Índice de Desarrollo Humano (IDH) .897, y eso ¿es mucho o es poco? Depende, en un país cercano como Guatemala es de .581 y en Estados Unidos .937, Torreón se encuentra a niveles superiores que Polonia o Portugal. En México el IDH que mide aspectos de ingresos, salud y educación, nos muestra que Torreón ocupa el lugar 35 de entre los 2443 municipios medidos para México, mientras Atlixtac, Guerrero tiene .455 y San Pedro Garza García .909.</p>
-
-<h3>Tutorial</h3>
-<div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/GJX8PsipImM?rel=0" frameborder="0" allowfullscreen></iframe></div>
-
-<h3>¿Para qué sirve el SMI?</h3>
-<p>El SMI ordena y recopila información dispersa para convertirla en conocimiento útil, para que el gobierno, empresas y sociedad conozcan las condiciones de nuestra ciudad y así sepamos hacia donde orientar nuestras acciones, y con el tiempo podamos medir el impacto no sólo de las políticas públicas sino también de los proyectos empresariales y las iniciativas sociales.</p>
-
-<h3>¿Qué metodología utiliza?</h3>
-<p>El SMI retoma metodologías probadas por instituciones expertas en diversos temas y mide lo mismo que toman en cuenta organizaciones como el Instituto Mexicano para la Competitividad (IMCO) o el Centro de investigación y Docencia Económica (CIDE) para medir la capacidad de Torreón y La Laguna para atraer y retener inversiones y talentos. Pero no solo eso, usará los mismos métodos del Programa de Naciones Unidas para el Desarrollo (PNUD) para medir el Índice de Desarrollo Humano de nuestra población y replicará las herramientas del Banco Mundial para medir la facilidad para abrir un negocio. Considera además estándares internacionales como los puestos por la Organización Mundial de la Salud para prevenir riesgos sanitarios o la OCDE para asegurar que la educación tenga la calidad a la atura de la aldea global.</p>
-
-<h3>¿Cómo se organiza la Información?</h3>
-<p>El SMI agrupa información e indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad, que son los gabinetes en los que se agrupa según el Reglamento Orgánico del Municipio de Torreón, la política pública en nuestra ciudad y a su vez son los ejes del Plan Municipal de Desarrollo 2014-2017, retomados de la Norma ISO 18091 para Gobiernos Confiables, aprobada en Suiza a inicios de este año.</p>
-<p>Sin embargo el sistema es flexible y agrupará paulatinamente indicadores de acuerdo a otras clasificaciones para poder compararnos con otras ciudades y facilitar el trabajo de organismos nacionales e internacionales que se interesan por el estado de nuestra ciudad. Es decir esta misma información contiene y puede agruparse en los 10 subíndices de competitividad del IMCO, los 4 componentes de las ciudades competitivas según el CIDE o las 5 dimensiones inteligentes que propone Smart Cities, entre otros.</p>
-
-<h3>¿De dónde Proviene la información?</h3>
-<p>La información se recopila de fuentes primarias como el INEGI, SEGOB, CONAGUA, así como organismos que generan indicadores como IMCO o CIDAC, sin embargo también  vamos a las fuentes directas procurando una periodicidad menor como Aeronáutica Civil, IMSS, CONACYT, entre otros, aprovechando además los registros administrativos municipales y estatales, con información verificable, para generar información lo más oportuna posible.</p>
-<p>Con esta información el SMI calculará indicadores con metodologías transparentes y promoviendo los datos abiertos, para que observatorios ciudadanos, otros investigadores, estudiantes, académicos y cualquier persona pueda construir sus propios estudios e investigaciones</p>
-
-<h3>¿De cuantos indicadores consta el SMI?</h3>
-<p>El sistema se compondrá de cuantos indicadores con información verificable se puedan contruir. Su primer publicación consta de 96 indicadores, sin embargo se irán sumando constantemente otros indicadores ya concentrados como los 60 indicadores del Índice de Competitividad Urbana (ICU) 2012 del IMCO y próximamente los 30 nuevos indicadores que contendrá el ICU 2014. Así mismo se irán complementando las series históricas y proyecciones de los indicadores publicados. El SMI podrá ir creciendo, incorporando todos los indicadores que nos puedan ser útiles y con información verificable, estructurándola de forma amigable para convertirla en conocimiento para el desarrollo y bienestar de nuestra ciudad y su zona metropolitana.</p>
-
-<div class="row">
-  <div class="col-md-4">
-    <a href="../indicadores-categorias/index.html"><img style="float:left;width:128px;height:128px" src="introduccion/icono-sistema.png" alt="Sistema Metropolitano de Indicadores"> Sistema Metropolitano de Indicadores</a><div style="clear:left;"></div>
-  </div>
-  <div class="col-md-4">
-    <a href="introduccion/competitividad-zml-de-acuerdo-al-imco.pdf"><img style="float:left;width:128px;height:128px" src="introduccion/icono-documento.png" alt=""> Competitividad de la ZML de acuerdo al IMCO<br>(archivo PDF 0.7 MB)</a><div style="clear:left;"></div>
-  </div>
-  <div class="col-md-4">
-    <a href="introduccion/smi.pdf"><img style="float:left;width:128px;height:128px" src="introduccion/icono-presentacion.png" alt=""> Presentacion del Sistema Metropolitano de Indicadores<br>(archivo PDF 9.3 MB)</a><div style="clear:left;"></div>
-  </div>
-</div>
-
-FINAL;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
+        $this->descripcion                = 'Introducción al Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
+        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Indicadores > Introducción al SMI';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/SMI/Introduccion.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase Introduccion

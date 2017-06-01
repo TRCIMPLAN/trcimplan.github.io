@@ -69,13 +69,13 @@ Gracias a la Plataforma del Conocimiento, hay varias formas de encontrar una col
 * Por medio del listado alfabético.
 * Descargado los datos abiertos de IBC.
 
-### Utilidad esperada
+### Destacamos
 
 **Consideramos que IBC será de gran utilidad para todos los ciudadanos.** Porque ofrecerá al alcance de teléfonos inteligentes, tablets y computadoras con acceso a internet mucha información básica, los orígenes y la actualidad de las colonias de Torreón.
 
 **No existe un trabajo equivalente a nivel nacional.** En otros países, sí existen excelentes plataformas de información que son modelos a seguir. Por ejemplo [Place I Live de Nueva York, E.E.U.U.](https://newyork.placeilive.com/)
 
-**Paulatinamente estaremos elaborando las reseñas que serán contenidos apreciados por los colonos.** Para éstas se hace labor de investigación y visitas a las colonias para localizar y entrevistar a las personas con más años vivendo allí.
+**Paulatinamente estaremos elaborando las reseñas con los orígenes, la actualidad y fotografías de las colonias más conocidas.** Para elaborarlas se está haciendo investigación cualitativa, colaboramos con el Archivo Municipal, consultamos las hemerotecas y apoyo de los historiadores. Además de visitas a las colonias para entrevistar a las personas con más años vivendo allí.
 
 ### Recursos
 

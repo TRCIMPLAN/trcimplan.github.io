@@ -81,7 +81,7 @@ class MesaMovilidadNoMotorizada extends \Base\PublicacionSchemaArticle {
 
 <!-- Se invita a descargar el archivo PDF -->
 <h3>Descargar</h3>
-<p><a href="mesa-movilidad-no-motorizada/plan-movilidad-no-motorizada-torreon.pdf">De clic aquí para descargar la presentación como archivo PDF de 3.1 MB.</a></p>
+<p><a href="mesa-movilidad-no-motorizada/plan-movilidad-no-motorizada-torreon.pdf">De clic aquí para descargar la presentación como archivo PDF.</a></p>
 
 FINAL;
         // Entregar resultado del padre

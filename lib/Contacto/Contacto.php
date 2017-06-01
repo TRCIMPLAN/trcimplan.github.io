@@ -100,9 +100,7 @@ FINAL;
 <h3>Correos electrónicos</h3>
 <ul>
     <li><b>Eduardo Holguín,</b>   Director General:                      <a href="mailto:eholguin@trcimplan.gob.mx">eholguin@trcimplan.gob.mx</a></li>
-    <li><b>Ilse Ávila,</b>        Director de Proyectos:                 <a href="mailto:iavila@trcimplan.gob.mx">iavila@trcimplan.gob.mx</a></li>
     <li><b>Luis Campos,</b>       Director de Planeación Urbana:         <a href="mailto:lcampos@trcimplan.gob.mx">lcampos@trcimplan.gob.mx</a></li>
-    <li><b>Rodrigo González,</b>  Director de Investigación Estratégica: <a href="mailto:rgonzalez@trcimplan.gob.mx">rgonzalez@trcimplan.gob.mx</a></li>
     <li><b>J. Antonio García,</b> Coordinador Administrativo:            <a href="mailto:jgarcia@trcimplan.gob.mx">jgarcia@trcimplan.gob.mx</a></li>
     <li><b>J. Javier Morán,</b>   Coordinador Jurídico:                  <a href="mailto:transparencia@trcimplan.gob.mx">transparencia@trcimplan.gob.mx</a></li>
     <li><b>Guillermo Valdés,</b>  Administrador del Sitio Web:           <a href="mailto:gvaldes@trcimplan.gob.mx">gvaldes@trcimplan.gob.mx</a></li>

@@ -81,7 +81,7 @@ class MesaSaludLaguna extends \Base\PublicacionSchemaArticle {
 
 <!-- Se invita a descargar el archivo PDF -->
 <h3>Descargar</h3>
-<p><a href="mesa-salud-laguna/presentacion-mesa-salud-laguna.pdf">De clic aquí para descargar la presentación como archivo PDF de 2.4 MB.</a></p>
+<p><a href="mesa-salud-laguna/presentacion-mesa-salud-laguna.pdf">De clic aquí para descargar la presentación como archivo PDF.</a></p>
 
 FINAL;
         // Entregar resultado del padre
