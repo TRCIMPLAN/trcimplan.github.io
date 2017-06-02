@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-06-01</lastmod>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/agua-recurso-indispensable-para-el-desarrollo-de-la-zml.html</loc>
+    <lastmod>2017-06-02</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-1.html</loc>
