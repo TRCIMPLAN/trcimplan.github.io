@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - LaImportanciaDeLosEspaciosPublicosYAreasVerdesEnLaLaguna
+ * TrcIMPLAN Sitio Web - La importancia de los espacios públicos y áreas verdes en La Laguna
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *

@@ -1,8 +1,8 @@
 <?php
-/*
- * SMIbeta - La Laguna: Metrópoli del Conocimiento
+/**
+ * TrcIMPLAN Sitio Web - La Laguna: Metrópoli del Conocimiento
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,53 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase LaLagunaMetropoliDelConocimiento
  */
-class LaLagunaMetropoliDelConocimiento extends \Base\Publicacion {
+class LaLagunaMetropoliDelConocimiento extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'La Laguna: Metrópoli del Conocimiento';
-        $this->autor           = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha           = '2014-04-28T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'la-laguna-metropoli-del-conocimiento';
-        $this->imagen          = 'la-laguna-metropoli-del-conocimiento/imagen.jpg';
-        $this->imagen_previa   = 'la-laguna-metropoli-del-conocimiento/imagen-previa.jpg';
+        $this->nombre                     = 'La Laguna: Metrópoli del Conocimiento';
+        $this->autor                      = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha                      = '2014-04-28T08:05';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'la-laguna-metropoli-del-conocimiento';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.';
-        $this->claves          = 'IMPLAN, Torreon, Conocimiento, Tecnologias, Informacion, Comunicacion, TICs';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
+        $this->descripcion                = 'Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.';
+        $this->claves                     = 'IMPLAN, Torreon, Conocimiento, Tecnologias, Informacion, Comunicacion, TICs';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
+        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/LaLagunaMetropoliDelConocimiento.html';
+        $this->contenido_archivo_html     = 'lib/Blog/LaLagunaMetropoliDelConocimiento.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Innovación', 'Empresas');
-        $this->fuentes         = array();
-        $this->regiones        = array('La Laguna');
+        $this->categorias                 = array('Innovación', 'Empresas');
+        $this->fuentes                    = array();
+        $this->regiones                   = array('La Laguna');
     } // constructor
 
 } // Clase LaLagunaMetropoliDelConocimiento

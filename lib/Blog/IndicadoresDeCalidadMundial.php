@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IndicadoresDeCalidadMundial
+ * TrcIMPLAN Sitio Web - Indicadores de Calidad Mundial
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *

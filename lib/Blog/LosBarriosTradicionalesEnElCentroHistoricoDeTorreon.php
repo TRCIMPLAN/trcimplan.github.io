@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - LosBarriosTradicionalesEnElCentroHistoricoDeTorreon
+ * TrcIMPLAN Sitio Web - Los Barrios Tradicionales en el Centro Histórico de Torreón
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -31,6 +31,8 @@ class LosBarriosTradicionalesEnElCentroHistoricoDeTorreon extends \Base\Publicac
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Los Barrios Tradicionales en el Centro Histórico de Torreón';
         $this->autor                      = 'Arq. Cecilio Pedro Secunza Schott';

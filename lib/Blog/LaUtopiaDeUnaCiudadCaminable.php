@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN - La Utopía de una Ciudad Caminable
+ * TrcIMPLAN Sitio Web - La Utopía de una Ciudad Caminable
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Blog;
@@ -25,45 +25,34 @@ namespace Blog;
 /**
  * Clase LaUtopiaDeUnaCiudadCaminable
  */
-class LaUtopiaDeUnaCiudadCaminable extends \Base\Publicacion {
+class LaUtopiaDeUnaCiudadCaminable extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'La Utopía de una Ciudad Caminable';
-        $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2015-08-07T16:35';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'la-utopia-de-una-ciudad-caminable';
-        $this->imagen          = 'la-utopia-de-una-ciudad-caminable/imagen.jpg';
-        $this->imagen_previa   = 'la-utopia-de-una-ciudad-caminable/imagen-previa.jpg';
+        $this->nombre                     = 'La Utopía de una Ciudad Caminable';
+        $this->autor                      = 'Lic. Adriana Vargas Flores';
+        $this->fecha                      = '2015-08-07T16:35';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'la-utopia-de-una-ciudad-caminable';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Un lugar agradable y atractivo es un lugar lleno de gente; es por ello que un lugar ideal es caminable, compacto, accesible y diverso.';
-        $this->claves          = 'IMPLAN, Torreon, Caminar, Ciudad, Calle, Banqueta, Peaton';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
+        $this->descripcion                = 'Un lugar agradable y atractivo es un lugar lleno de gente; es por ello que un lugar ideal es caminable, compacto, accesible y diverso.';
+        $this->claves                     = 'IMPLAN, Torreon, Caminar, Ciudad, Calle, Banqueta, Peaton';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
+        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LaUtopiaDeUnaCiudadCaminable.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Bienestar', 'Movilidad', 'Infraestructura');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array('Bienestar', 'Movilidad', 'Infraestructura');
+        $this->fuentes                    = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase LaUtopiaDeUnaCiudadCaminable

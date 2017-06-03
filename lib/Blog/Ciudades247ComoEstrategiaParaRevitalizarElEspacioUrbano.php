@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - Ciudades 24/7 como estrategia para revitalizar el espacio urbano
  *
- * Copyright (C) 2015 Guillermo Valdes Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

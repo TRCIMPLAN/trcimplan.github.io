@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - Contribucion de las TICs en la Competitividad y Productividad
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -34,25 +34,25 @@ class ContribucionTICCompetitividadProductividad extends \Base\PublicacionSchema
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Contribución de las TICs en la competitividad y productividad';
-        $this->autor           = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha           = '2014-08-04T08:05';
+        $this->nombre                     = 'Contribución de las TICs en la competitividad y productividad';
+        $this->autor                      = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha                      = '2014-08-04T08:05';
         // El nombre del archivo a crear
-        $this->archivo         = 'contribucion-tic-competitividad-productividad';
+        $this->archivo                    = 'contribucion-tic-competitividad-productividad';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
-        $this->claves          = 'IMPLAN, Torreon, TIC, Desarrollo, Empleo, Estudio, Carreras';
+        $this->descripcion                = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
+        $this->claves                     = 'IMPLAN, Torreon, TIC, Desarrollo, Empleo, Estudio, Carreras';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
+        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/ContribucionTICCompetitividadProductividad.html';
+        $this->contenido_archivo_html     = 'lib/Blog/ContribucionTICCompetitividadProductividad.html';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Competitividad', 'Innovación', 'Empleo', 'Educación');
-        $this->fuentes         = array('IMCO');
-        $this->regiones        = array('Nacional');
+        $this->categorias                 = array('Competitividad', 'Innovación', 'Empleo', 'Educación');
+        $this->fuentes                    = array('IMCO');
+        $this->regiones                   = array('Nacional');
     } // constructor
 
 } // Clase ContribucionTICCompetitividadProductividad

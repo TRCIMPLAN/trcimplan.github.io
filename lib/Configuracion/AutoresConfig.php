@@ -63,7 +63,7 @@ class AutoresConfig {
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Luis A. Gutiérrez Arizpe',          'lic-luis-a-gutierrez-arizpe',           'IMPLAN Torreón', 'Indicadores Sociodemográficos',      '', 'lgutierrez@trcimplan.gob.mx', '');
         $this->autores[] = new \Base\Autor('', 'Ing.', 'Luis Campos Hinojosa',              'unknown',                               'IMPLAN Torreón', 'Director de Planeación Urbana',      '', 'lcampos@trcimplan.gob.mx', '');
         $this->autores[] = new \Base\Autor('', 'Ing.', 'Natalia Zavala López',              'ing-natalia-zavala-lopez',              'IMPLAN Torreón', 'Integración de Proyectos',           '', '', '');
-        $this->autores[] = new \Base\Autor('', 'Lic.', 'Nayeli Alejandra García Aguirre',   'lic-nayeli-alejandra-garcia-aguirre',   'IMPLAN Torreón', 'Asistente Presidencia',              '', '', '');
+        $this->autores[] = new \Base\Autor('', 'Lic.', 'Nayeli Alejandra García Rodríguez', 'lic-nayeli-alejandra-garcia-aguirre',   'IMPLAN Torreón', 'Asistente Presidencia',              '', '', '');
         $this->autores[] = new \Base\Autor('', 'Sra.', 'Olga Lidia Delgado Ramírez',        'sra-olga-lidia-delgado-ramirez',        'IMPLAN Torreón', 'Servicios de Limpieza',              '', '', '');
         $this->autores[] = new \Base\Autor('', 'C.P.', 'Santa Julia Camarillo Aguirre',     'cp-santa-julia-camarillo-aguirre',      'IMPLAN Torreón', 'Contador',                           '', '', '');
         $this->autores[] = new \Base\Autor('', 'Ing.', 'Víctor Manuel Gómez Reynoso',       'unknown',                               'IMPLAN Torreón', 'Soporte Técnico',                    '', '', '');

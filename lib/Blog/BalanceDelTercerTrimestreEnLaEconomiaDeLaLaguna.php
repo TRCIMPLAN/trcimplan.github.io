@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - BalanceDelTercerTrimestreEnLaEconomiaDeLaLaguna
+ * TrcIMPLAN Sitio Web - Balance del tercer trimestre en la economía de La Laguna
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

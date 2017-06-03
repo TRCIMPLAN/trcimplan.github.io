@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - LasMujeresYSuAccesoAUnaVidaSinViolencia
+ * TrcIMPLAN Sitio Web - Las mujeres y su acceso a una vida sin violencia
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,6 +31,8 @@ class LasMujeresYSuAccesoAUnaVidaSinViolencia extends \Base\PublicacionSchemaBlo
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Las mujeres y su acceso a una vida sin violencia';
         $this->autor                      = 'Arq. Ilse Ávila García';

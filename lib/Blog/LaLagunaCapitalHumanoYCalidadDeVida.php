@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - La Laguna: Capital Humano y Calidad de Vida
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,47 +25,34 @@ namespace Blog;
 /**
  * Clase LaLagunaCapitalHumanoYCalidadDeVida
  */
-class LaLagunaCapitalHumanoYCalidadDeVida extends \Base\Publicacion {
+class LaLagunaCapitalHumanoYCalidadDeVida extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'La Laguna: Capital Humano y Calidad de Vida';
-        $this->autor           = 'Dirección de Investigación Estratégica';
-        $this->fecha           = '2015-11-16T08:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'la-laguna-capital-humano-y-calidad-de-vida';
-        $this->imagen          = 'la-laguna-capital-humano-y-calidad-de-vida/imagen.jpg';
-        $this->imagen_previa   = 'la-laguna-capital-humano-y-calidad-de-vida/imagen-previa.jpg';
+        $this->nombre                     = 'La Laguna: Capital Humano y Calidad de Vida';
+        $this->autor                      = 'Dirección de Investigación Estratégica';
+        $this->fecha                      = '2015-11-16T08:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'la-laguna-capital-humano-y-calidad-de-vida';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La Zona Metropolitana mantiene primeros lugares a nivel nacional en diferentes rubros, que la ubican como una de las mejores regiones para habitar. Torreón destaca como ejemplo.';
-        $this->claves          = 'IMPLAN, Torreon, Capital Humano, Calidad de Vida';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
+        $this->descripcion                = 'La Zona Metropolitana mantiene primeros lugares a nivel nacional en diferentes rubros, que la ubican como una de las mejores regiones para habitar. Torreón destaca como ejemplo.';
+        $this->claves                     = 'IMPLAN, Torreon, Capital Humano, Calidad de Vida';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
-        $this->poner_imagen_en_contenido = false;
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
+        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LaLagunaCapitalHumanoYCalidadDeVida.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Educación', 'Empleo', 'Género', 'Población', 'Salud');
-        $this->fuentes         = array('INEGI', 'CONAPO', 'IMCO', 'SEP', 'CONEVAL');
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array('Educación', 'Empleo', 'Género', 'Población', 'Salud');
+        $this->fuentes                    = array('INEGI', 'CONAPO', 'IMCO', 'SEP', 'CONEVAL');
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase LaLagunaCapitalHumanoYCalidadDeVida

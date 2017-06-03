@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - LaAccesibilidadALasBanquetasEnTorreon
+ * TrcIMPLAN Sitio Web - La Accesibilidad a las Banquetas en Torreón
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *

@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - El papel de la cultura en la competitividad
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -46,6 +46,9 @@ class ElPapelDeLaCulturaEnLaCompetitividad extends \Base\PublicacionSchemaBlogPo
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElPapelDeLaCulturaEnLaCompetitividad.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Cultura');
         $this->fuentes                    = array('Instituto Nacional de Bellas Artes (INBA)');

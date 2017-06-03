@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - InmigracionEnTorreon
+ * TrcIMPLAN Sitio Web - Inmigración en Torreón
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *

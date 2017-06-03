@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package SitioWeb
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Blog;
@@ -31,6 +31,8 @@ class LaLagunaYLaSociedadCivilValorYAportacionDeLaParticipacionCiudadana extends
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'La Laguna y la Sociedad Civil. Valor y aportación de la participación ciudadana.';
         $this->autor                      = 'Lic. Rodrigo González Morales';

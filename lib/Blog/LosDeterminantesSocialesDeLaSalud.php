@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - LosDeterminantesSocialesDeLaSalud
+ * TrcIMPLAN Sitio Web - Los Determinantes Sociales de la Salud
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
