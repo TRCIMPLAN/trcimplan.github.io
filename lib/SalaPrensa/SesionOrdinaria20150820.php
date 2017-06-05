@@ -35,14 +35,14 @@ class SesionOrdinaria20150820 extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Presenta IMPLAN un nuevo “Reglamento de Zonificación, Uso de Suelo y Construcción”';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2015-08-20T11:30';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-08-20-sesion-ordinaria';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Sesión del Consejo Directivo del IMPLAN Torreón, donde presentaron la propuesta para un nuevo ordenamiento de asentamientos humanos.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo Directivo, Reglamento, Asentamientos, Urbanos';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20150820.html';

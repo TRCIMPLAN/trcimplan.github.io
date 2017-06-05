@@ -42,9 +42,9 @@ class LagunaApostarleIndustriaAutomotriz extends \Base\PublicacionSchemaBlogPost
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En industria automotriz hay mayor inversión en la investigación y desarrollo que origina una derrama de capacidades tecnológicas con aplicación en otros sectores como el eléctrico, electrónico y aeroespacial.';
         $this->claves                     = 'IMPLAN, Torreon, Industria, Automotriz, Investigacion, Desarrollo, Manufactura';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/LagunaApostarleIndustriaAutomotriz.html';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

@@ -42,7 +42,7 @@ class LasMujeresYSuAccesoAUnaVidaSinViolencia extends \Base\PublicacionSchemaBlo
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En Torreón, así como a nivel nacional, se calcula que 63% de las mujeres mayores de 15 años es susceptible a vivir un episodio de violencia. En México las mujeres que se encuentran más expuestas a violencia de pareja son las jóvenes  de entre 20 y 39 años de edad.';
         $this->claves                     = 'IMPLAN, Torreon, Violencia, Genero, Femenino, Justicia';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LasMujeresYSuAccesoAUnaVidaSinViolencia.md';

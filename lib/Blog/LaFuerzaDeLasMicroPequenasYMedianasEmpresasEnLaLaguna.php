@@ -42,9 +42,9 @@ class LaFuerzaDeLasMicroPequenasYMedianasEmpresasEnLaLaguna extends \Base\Public
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En la Comarca Lagunera contamos con 29 MiPyMes por cada 1000 habitantes. La densidad es menor que la del promedio nacional e internacional, que es de 36 y 31 por cada 1000 habitantes respectivamente. Este sector merece un impulso cada vez mayor dada su importante participación en la economía.';
         $this->claves                     = 'IMPLAN, Torreon, Micro, Pequeña, Mediana, Empresas, La Laguna';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaFuerzaDeLasMicroPequenasYMedianasEmpresasEnLaLaguna.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

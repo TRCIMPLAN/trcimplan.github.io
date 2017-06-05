@@ -35,14 +35,14 @@ class Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna extends \Base\PublicacionS
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Plan 2040: La visión ciudadana para el futuro de la Laguna';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2016-06-14T13:50';
         // El nombre del archivo a crear
         $this->archivo                    = '2016-06-14-plan-2040-la-vision-ciudadana-para-el-futuro-de-la-laguna';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Con una esencia fundamentalmente ciudadana, el Plan Estratégico Torreón con Visión Metropolitana reúne el diagnóstico, proyecciones y visión a futuro para nuestra ciudad y la Laguna en los próximos 25 años.';
         $this->claves                     = 'IMPLAN, Torreon, Plan Torreon, Vision Metropolitana, Diagnostico, Proyecciones, Futuro';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna.md';

@@ -35,14 +35,14 @@ class ComisionPlaneacionCompetitividad20150819 extends \Base\PublicacionSchemaBl
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Sesión de la Comisión de Planeación y Competitividad';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2015-08-19T11:30';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-08-19-comision-planeacion-competitividad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El pasado 19 de agosto de 2015 se llevó a cabo la Sesión de la Comisión de Planeación y Competitividad.';
         $this->claves                     = 'IMPLAN, Torreon, Comision, Planeacion';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/SalaPrensa/ComisionPlaneacionCompetitividad20150819.html';

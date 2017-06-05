@@ -42,9 +42,9 @@ class LaLagunaMetropoliDelConocimiento extends \Base\PublicacionSchemaBlogPostin
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.';
         $this->claves                     = 'IMPLAN, Torreon, Conocimiento, Tecnologias, Informacion, Comunicacion, TICs';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/LaLagunaMetropoliDelConocimiento.html';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

@@ -42,9 +42,9 @@ class LaUtopiaDeUnaCiudadCaminable extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Un lugar agradable y atractivo es un lugar lleno de gente; es por ello que un lugar ideal es caminable, compacto, accesible y diverso.';
         $this->claves                     = 'IMPLAN, Torreon, Caminar, Ciudad, Calle, Banqueta, Peaton';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaUtopiaDeUnaCiudadCaminable.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

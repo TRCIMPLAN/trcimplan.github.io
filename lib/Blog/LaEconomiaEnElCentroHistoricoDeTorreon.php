@@ -42,9 +42,9 @@ class LaEconomiaEnElCentroHistoricoDeTorreon extends \Base\PublicacionSchemaBlog
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Este sector de la ciudad comprende 241 manzanas y concentra más del 15% de la actividad económica de Torreón, con fuerte presencia de negocios semifijos. Las políticas de crecimiento del centro, se deben dirigir a incentivar el comercio formal, un mayor uso habitacional y a la protección, restauración y conservación de edificios y plazas.';
         $this->claves                     = 'IMPLAN, Torreon, Centro Historico, Economia, Negocios';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaEconomiaEnElCentroHistoricoDeTorreon.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

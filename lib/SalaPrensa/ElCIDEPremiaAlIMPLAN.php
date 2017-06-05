@@ -35,14 +35,14 @@ class ElCIDEPremiaAlIMPLAN extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'El CIDE premia al IMPLAN por el uso efectivo de las Tecnologías de la Información y de la Comunicación';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2015-11-24T14:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-11-24-el-cide-premia-al-implan';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Recibirán el galardón del Premio Gobierno y Gestión Local 2015 el próximo 1 de diciembre en la Ciudad de Aguascalientes.';
         $this->claves                     = 'IMPLAN, Torreon, CIDE, INFOTEC, Tecnologias, Informacion, Reconocimiento';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/ElCIDEPremiaAlIMPLAN.md';

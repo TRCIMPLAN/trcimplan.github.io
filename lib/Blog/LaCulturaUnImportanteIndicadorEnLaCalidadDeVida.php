@@ -42,9 +42,9 @@ class LaCulturaUnImportanteIndicadorEnLaCalidadDeVida extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Laguna tiene un promedio muy bajo de espacios culturales por cada mil habitantes. A favor, hay un renovado impulso a la cultura gracias a iniciativas independientes, colectivos y programas de gobierno.';
         $this->claves                     = 'IMPLAN, Torreon, Espacio, Cultural, Cultura';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaCulturaUnImportanteIndicadorEnLaCalidadDeVida.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

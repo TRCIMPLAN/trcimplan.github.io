@@ -42,7 +42,7 @@ class SesionOrdinaria20160831 extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Octava Sesión Ordinaria del Consejo Directivo del IMPLAN Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20160831.md';

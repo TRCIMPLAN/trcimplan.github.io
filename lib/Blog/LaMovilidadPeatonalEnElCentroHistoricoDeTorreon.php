@@ -42,9 +42,9 @@ class LaMovilidadPeatonalEnElCentroHistoricoDeTorreon extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El IMPLAN realizó un conteo peatonal en la Plaza de Armas y Mercado Juárez. El número total de caminantes de 3 días fue de 11 mil 180, razón suficiente para darle importancia al peatón.';
         $this->claves                     = 'IMPLAN, Torreon, Movilidad, Peatonal, Conteo, Centro';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaMovilidadPeatonalEnElCentroHistoricoDeTorreon.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

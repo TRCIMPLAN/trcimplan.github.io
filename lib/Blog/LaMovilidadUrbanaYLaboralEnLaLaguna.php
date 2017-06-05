@@ -42,9 +42,9 @@ class LaMovilidadUrbanaYLaboralEnLaLaguna extends \Base\PublicacionSchemaBlogPos
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La expansión de la mancha urbana en la región ha ocasionado que se privilegie el uso de automóvil particular, provocando efectos negativos sobre la salud, ocupación creciente del espacio y costos extremos.';
         $this->claves                     = 'IMPLAN, Torreon, Transporte, Movilidad, Laboral, Municipios, La Laguna';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaMovilidadUrbanaYLaboralEnLaLaguna.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

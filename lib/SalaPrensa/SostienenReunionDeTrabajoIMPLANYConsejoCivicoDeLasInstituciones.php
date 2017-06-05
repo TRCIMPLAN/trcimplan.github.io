@@ -53,8 +53,6 @@ class SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones extends \B
         $this->categorias                 = array();
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
     } // constructor
 
 } // Clase SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones

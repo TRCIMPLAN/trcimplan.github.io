@@ -44,7 +44,7 @@ class JovenesLosMasAfectadosPorElDesempleoEnLaLaguna extends \Base\PublicacionSc
         $this->claves                     = 'IMPLAN, Torreon, Jovenes, Empleo, Salario, Eduacion, Emprendedores';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/JovenesLosMasAfectadosPorElDesempleoEnLaLaguna.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

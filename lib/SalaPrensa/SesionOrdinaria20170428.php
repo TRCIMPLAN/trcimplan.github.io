@@ -53,8 +53,6 @@ class SesionOrdinaria20170428 extends \Base\PublicacionSchemaBlogPosting {
         $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'La Laguna');
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
     } // constructor
 
 } // Clase SesionOrdinaria20170428

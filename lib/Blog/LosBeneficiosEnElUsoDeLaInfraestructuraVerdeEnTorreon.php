@@ -42,9 +42,9 @@ class LosBeneficiosEnElUsoDeLaInfraestructuraVerdeEnTorreon extends \Base\Public
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Implementar la Infraestructura Verde en la planeación de la ciudad podría tener beneficios ambientales, económicos, sociales y de salud. Entre otros puntos fomenta la creación de espacios públicos arborizados que atraen a las personas a realizar actividades recreativas.';
         $this->claves                     = 'IMPLAN, Torreon, Sustentabilidad, Infraestructura';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LosBeneficiosEnElUsoDeLaInfraestructuraVerdeEnTorreon.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

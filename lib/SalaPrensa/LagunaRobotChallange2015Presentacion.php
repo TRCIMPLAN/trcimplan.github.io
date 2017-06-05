@@ -35,14 +35,14 @@ class LagunaRobotChallange2015Presentacion extends \Base\PublicacionSchemaBlogPo
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN busca hacer de La Laguna “Capital de la Robótica”';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2015-11-12T15:30';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-11-12-laguna-robot-challange-2015-presentacion';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Ante empresarios y la comunidad educativa, se dio a conocer el evento “Laguna Robot Challenge”, en el cual niños entre 9 y 14 años, tienen la oportunidad de aprender a diseñar, programar y poner en marcha robots LEGO Mindstorms NXT.';
         $this->claves                     = 'IMPLAN, Torreon, Robotica';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/LagunaRobotChallange2015Presentacion.md';

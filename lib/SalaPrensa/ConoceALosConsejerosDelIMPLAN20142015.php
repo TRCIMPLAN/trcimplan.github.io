@@ -42,7 +42,7 @@ class ConoceALosConsejerosDelIMPLAN20142015 extends \Base\PublicacionSchemaBlogP
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El 75% del Consejo Directivo del Instituto Municipal de Planeación es ciudadano. Se presenta un perfil de los miembros de la sociedad que participan de forma activa en el Organismo.';
         $this->claves                     = 'IMPLAN, Torreon, Consejeros, Sociedad, Ciudadano';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/ConoceALosConsejerosDelIMPLAN20142015.md';

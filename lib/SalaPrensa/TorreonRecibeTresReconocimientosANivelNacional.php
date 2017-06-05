@@ -35,14 +35,14 @@ class TorreonRecibeTresReconocimientosANivelNacional extends \Base\PublicacionSc
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Torreón recibe tres reconocimientos a nivel nacional';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2015-10-29T10:40';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-10-29-torreon-recibe-tres-reconocimientos-a-nivel-nacional';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Torreón fue premiado por la plataforma www.trcimplan.gob.mx, realizada por el equipo técnico del IMPLAN, la cual ha logrado un importante vínculo informativo ciudadanía-municipio.';
         $this->claves                     = 'IMPLAN, Torreon, Reconocimiento, Plataforma';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/TorreonRecibeTresReconocimientosANivelNacional.md';

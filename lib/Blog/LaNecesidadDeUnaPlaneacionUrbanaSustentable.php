@@ -42,9 +42,9 @@ class LaNecesidadDeUnaPlaneacionUrbanaSustentable extends \Base\PublicacionSchem
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Las proyecciones de crecimiento de población y vivienda para 2020, demuestran que es necesario revisar los instrumentos de planeación existentes en la ciudad de Torreón y la Comarca Lagunera. Se calcula que habrá un aumento de 11,350 viviendas nuevas por año.';
         $this->claves                     = 'IMPLAN, Torreon, Plan, Desarrollo, Urbano, Sustentable';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaNecesidadDeUnaPlaneacionUrbanaSustentable.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;

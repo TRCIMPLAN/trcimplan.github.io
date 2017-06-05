@@ -35,14 +35,14 @@ class DiagnosticoPoliticaIndustrial extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN desarrollará Diagnóstico de Política Industrial';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2016-04-13T13:10';
         // El nombre del archivo a crear
         $this->archivo                    = '2016-04-13-diagnostico-politica-industrial';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Alicia Valdez Ibarra, encargada de indicadores económicos del IMPLAN, dio a conocer ante el Cabildo de Torreón el avance de este proyecto, que consiste en su primera etapa en la elaboración de un diagnóstico para conocer las características de cada industria.';
         $this->claves                     = 'IMPLAN, Torreon, Diagnostico, Politica, Industrial';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/DiagnosticoPoliticaIndustrial.md';

@@ -35,14 +35,14 @@ class NuevaGobernanzaConstruyendoNormasConLosHabitantesDeLaCiudad extends \Base\
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Nueva Gobernanza: Construyendo normas con los habitantes de la ciudad';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2016-07-22T13:30';
         // El nombre del archivo a crear
         $this->archivo                    = '2016-07-21-nueva-gobernanza-construyendo-normas-con-los-habitantes-de-la-ciudad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Video de la segunda edición del #SeminariOnline de OpeningCities donde las ciudades de Torreón y Aguascalientes compartieron su experiencia de inclusión de la ciudadanía en un proceso completo de construcción de normatividad.';
         $this->claves                     = 'IMPLAN, Torreon, Nueva, Gobernanza, Gobierno, Abierto';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/NuevaGobernanzaConstruyendoNormasConLosHabitantesDeLaCiudad.md';

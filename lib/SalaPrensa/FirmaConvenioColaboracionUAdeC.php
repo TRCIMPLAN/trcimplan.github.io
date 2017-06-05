@@ -35,14 +35,14 @@ class FirmaConvenioColaboracionUAdeC extends \Base\PublicacionSchemaBlogPosting 
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'El IMPLAN y la Escuela de Arquitectura de la UAC firman convenio de colaboración';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2016-12-15T12:43';
         // El nombre del archivo a crear
         $this->archivo                    = '2016-12-15-firma-convenio-colaboracion-uadec';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Escuela de Arquitectura de la Universidad Autónoma de Coahuila (UAC) cuenta con 270 alumnos inscritos. Los que cursan a partir del sexto semestre podrán prestar 480 horas de servicio social en esta institución.';
         $this->claves                     = 'IMPLAN, Torreon, UAC, Convenio, Arquitectura';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/FirmaConvenioColaboracionUAdeC.md';

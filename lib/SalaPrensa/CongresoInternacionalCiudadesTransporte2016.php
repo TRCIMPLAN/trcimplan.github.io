@@ -42,7 +42,7 @@ class CongresoInternacionalCiudadesTransporte2016 extends \Base\PublicacionSchem
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El director de planeación Luis Campos participó como ponente en el panel "Gobiernos Abiertos: experiencias y lecciones aprendidas en ciudades mexicanas".';
         $this->claves                     = 'IMPLAN, Torreon, Gobierno, Abierto';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/CongresoInternacionalCiudadesTransporte2016.md';

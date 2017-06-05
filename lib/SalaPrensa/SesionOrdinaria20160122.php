@@ -42,7 +42,7 @@ class SesionOrdinaria20160122 extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Instituto Municipal de Planeación y Competitividad de Torreón llevó a cabo la Primera Sesión Ordinaria de su Consejo Directivo en 2016.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20160122.md';

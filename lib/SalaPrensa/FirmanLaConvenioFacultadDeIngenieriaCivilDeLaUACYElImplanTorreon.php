@@ -35,7 +35,7 @@ class FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon extends \
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Firman la Convenio Facultad de Ingeniería Civil de la UAC y el IMPLAN Torreón';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2017-03-27T14:22';
         // El nombre del archivo a crear
         $this->archivo                    = '2017-03-27-firman-la-convenio-facultad-de-ingenieria-civil-de-la-uac-y-el-implan-torreon';

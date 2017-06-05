@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - La Laguna y la Sociedad Civil. Valor y aportación de la participación ciudadana.
  *
- * Copyright (C) 2016 Guillermo Valdes Lozano guillermo@movimientolibre.com
+ * Copyright (C) 2017 Guillermo Valdes Lozano guillermo@movimientolibre.com
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -42,11 +42,11 @@ class LaLagunaYLaSociedadCivilValorYAportacionDeLaParticipacionCiudadana extends
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Zona Metropolitana de La Laguna tiene casi el doble de organizaciones de la sociedad civil por habitantes que el país. La asistencia social y el fomento educativo son sus principales actividades. Más de 16 mil personas trabajan en ellas aportando con sus servicios 1,300 millones de pesos en valor agregado a nuestra ciudad.';
         $this->claves                     = 'IMPLAN, Torreon, OSC, Sociedad Civil, Organizaciones';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaLagunaYLaSociedadCivilValorYAportacionDeLaParticipacionCiudadana.md';
-        // Banderas que pueden tener un valor por defecto en \Configuracion\PublicacionConfig
+        // Banderas
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // Para el Organizador

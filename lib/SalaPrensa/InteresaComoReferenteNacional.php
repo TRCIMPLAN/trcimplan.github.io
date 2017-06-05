@@ -35,14 +35,14 @@ class InteresaComoReferenteNacional extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Interesa como referente nacional esquema de Planeación y el proyecto Calle Completa de Torreón';
-    //  $this->autor                      = '';
+    //~ $this->autor                      = '';
         $this->fecha                      = '2015-09-24T11:30';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-09-24-interesa-como-referente-nacional';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En la ONU están interesados en el proyecto “Calle Completa” como referente.';
         $this->claves                     = 'IMPLAN, Torreon, ONU, Habitat, Calle Completa';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/InteresaComoReferenteNacional.md';

@@ -42,7 +42,7 @@ class LaAccesibilidadUniversalEnEspaciosPublicos extends \Base\PublicacionSchema
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La recuperación y generación de un espacio público de calidad, busca convertir a la ciudad en un lugar mejor habitable para todos los ciudadanos, incluyendo a la población con discapacidad que en Torreón es de alrededor de un 4.5%.';
         $this->claves                     = 'IMPLAN, Torreon, Espacio Publico, Accesabilidad, Capacidades Diferentes';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaAccesibilidadUniversalEnEspaciosPublicos.md';
