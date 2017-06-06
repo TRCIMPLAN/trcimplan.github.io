@@ -1,8 +1,8 @@
 <?php
-/*
+/**
  * TrcIMPLAN Sitio Web - ¿Qué son los datos abiertos?
  *
- * Copyright (C) 2015 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,49 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase QueSonDatosAbiertos
  */
-class QueSonDatosAbiertos extends \Base\Publicacion {
+class QueSonDatosAbiertos extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre          = '¿Qué son los datos abiertos?';
-        $this->autor           = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha           = '2015-02-26T08:35';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo         = 'que-son-datos-abiertos';
-        $this->imagen          = 'que-son-datos-abiertos/imagen.jpg';
-        $this->imagen_previa   = 'que-son-datos-abiertos/imagen-previa.jpg';
+        $this->nombre                     = '¿Qué son los datos abiertos?';
+        $this->autor                      = 'Ing. Guillermo Valdés Lozano';
+        $this->fecha                      = '2015-02-26T08:35';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'que-son-datos-abiertos';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion     = 'Los datos abiertos son los datos digitales de carácter público que son accesibles en línea y que también pueden ser usados, reutilizados y redistribuidos por cualquier interesado.';
-        $this->claves          = 'IMPLAN, Torreon, Datos Abiertos';
-        $this->categorias      = array('Transparencia', 'Gobierno Digital');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio      = 'blog';
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'Los datos abiertos son los datos digitales de carácter público que son accesibles en línea y que también pueden ser usados, reutilizados y redistribuidos por cualquier interesado.';
+        $this->claves                     = 'IMPLAN, Torreon, Datos Abiertos';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/QueSonDatosAbiertos.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
+        // Para el Organizador
+        $this->categorias                 = array('Transparencia', 'Gobierno Digital');
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase QueSonDatosAbiertos

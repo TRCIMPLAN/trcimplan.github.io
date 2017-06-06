@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - PaisajismoNaturalEnTorreonYLaLaguna
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,6 +31,8 @@ class PaisajismoNaturalEnTorreonYLaLaguna extends \Base\PublicacionSchemaBlogPos
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Paisajismo natural en Torreón y La Laguna';
         $this->autor                      = 'Arq. Daniela Patricia Corral Hernández';
@@ -40,7 +42,7 @@ class PaisajismoNaturalEnTorreonYLaLaguna extends \Base\PublicacionSchemaBlogPos
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Contar con una imagen urbana paisajista, permite al habitante de la ciudad tener un elemento de identidad reconociendo su relevancia natural y cultural. En Torreón es necesario continuar con la rehabilitación de áreas verdes.';
         $this->claves                     = 'IMPLAN, Torreon, Imagen, Urbana, Paisaje, Natural';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PaisajismoNaturalEnTorreonYLaLaguna.md';

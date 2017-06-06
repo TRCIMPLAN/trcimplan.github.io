@@ -1,8 +1,8 @@
 <?php
-/*
- * SMIbeta - Prevención del delito mediante la construcción del espacio público
+/**
+ * TrcIMPLAN Sitio Web - Prevención del delito mediante la construcción del espacio público
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
@@ -31,33 +31,38 @@ class PrevencionDelitoEspacioPublico extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Prevención del delito mediante la construcción del espacio público';
-        $this->autor           = 'Arq. Victoria Aranzábal';
-        $this->fecha           = '2015-01-28T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo         = 'prevencion-delito-espacio-publico';
-        $this->imagen          = 'prevencion-delito-espacio-publico/imagen.jpg';
-        $this->imagen_previa   = 'prevencion-delito-espacio-publico/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion     = 'Ante el miedo y el temor, el lagunero ha tomado medidas en lo individual y lo colectivo en un intento por evitar ser víctimas de algún delito, se ha encerrado en lo privado despreciando el espacio público como si fuera ajeno.';
-        $this->claves          = 'IMPLAN, Torreon, Seguridad, Espacio, Publico, Calles';
-        $this->categorias      = array('Infraestructura', 'Bienestar');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio      = 'blog';
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
+        $this->nombre                     = 'Prevención del delito mediante la construcción del espacio público';
+        $this->autor                      = 'Arq. Victoria Aranzábal';
+        $this->fecha                      = '2015-01-28T08:05';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'prevencion-delito-espacio-publico';
+        $this->imagen                     = 'prevencion-delito-espacio-publico/imagen.jpg';
+        $this->imagen_previa              = 'prevencion-delito-espacio-publico/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion                = 'Ante el miedo y el temor, el lagunero ha tomado medidas en lo individual y lo colectivo en un intento por evitar ser víctimas de algún delito, se ha encerrado en lo privado despreciando el espacio público como si fuera ajeno.';
+        $this->claves                     = 'IMPLAN, Torreon, Seguridad, Espacio, Publico, Calles';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
+        $schema                           = new \Base\SchemaBlogPosting();
+        $schema->name                     = $this->nombre;
+        $schema->description              = $this->descripcion;
+        $schema->datePublished            = $this->fecha;
+        $schema->image                    = $this->imagen;
+        $schema->image_show               = $this->poner_imagen_en_contenido;
+        $schema->author                   = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
+        $this->contenido                  = $schema;
+        // Para el Organizador
+        $this->categorias                 = array('Infraestructura', 'Bienestar');
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
     /**

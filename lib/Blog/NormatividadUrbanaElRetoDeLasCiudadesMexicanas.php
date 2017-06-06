@@ -1,8 +1,8 @@
 <?php
 /**
- * Sitio Web - Normatividad Urbana: el reto de las ciudades mexicanas
+ * TrcIMPLAN Sitio Web - Normatividad Urbana: el reto de las ciudades mexicanas
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,45 +25,34 @@ namespace Blog;
 /**
  * Clase NormatividadUrbanaElRetoDeLasCiudadesMexicanas
  */
-class NormatividadUrbanaElRetoDeLasCiudadesMexicanas extends \Base\Publicacion {
+class NormatividadUrbanaElRetoDeLasCiudadesMexicanas extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Normatividad Urbana: el reto de las ciudades mexicanas';
-        $this->autor           = 'Ing. Luis Campos Hinojosa';
-        $this->fecha           = '2016-03-17T10:45';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'normatividad-urbana-el-reto-de-las-ciudades-mexicanas';
-        $this->imagen          = 'normatividad-urbana-el-reto-de-las-ciudades-mexicanas/imagen.jpg';
-        $this->imagen_previa   = 'normatividad-urbana-el-reto-de-las-ciudades-mexicanas/imagen-previa.jpg';
+        $this->nombre                     = 'Normatividad Urbana: el reto de las ciudades mexicanas';
+        $this->autor                      = 'Ing. Luis Campos Hinojosa';
+        $this->fecha                      = '2016-03-17T10:45';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'normatividad-urbana-el-reto-de-las-ciudades-mexicanas';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción, será vanguardista y congruente con la realidad urbana del municipio. Incorpora nuevos conceptos urbanísticos y será compatible con el Plan Director de Desarrollo Urbano.';
-        $this->claves          = 'IMPLAN, Torreon, ';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'El Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción, será vanguardista y congruente con la realidad urbana del municipio. Incorpora nuevos conceptos urbanísticos y será compatible con el Plan Director de Desarrollo Urbano.';
+        $this->claves                     = 'IMPLAN, Torreon, ';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/NormatividadUrbanaElRetoDeLasCiudadesMexicanas.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Bienestar', 'Infraestructura');
-        $this->fuentes         = array('ONU-Habitat');
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array('Bienestar', 'Infraestructura');
+        $this->fuentes                    = array('ONU-Habitat');
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase NormatividadUrbanaElRetoDeLasCiudadesMexicanas

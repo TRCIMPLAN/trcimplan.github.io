@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN - Movilidad Urbana y Competitividad
+/**
+ * TrcIMPLAN Sitio Web - Movilidad Urbana y Competitividad
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,49 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase MovilidadUrbanaCompetitividad
  */
-class MovilidadUrbanaCompetitividad extends \Base\Publicacion {
+class MovilidadUrbanaCompetitividad extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Movilidad Urbana y Competitividad';
-        $this->autor           = 'Arq. Cecilio Pedro Secunza Schott';
-        $this->fecha           = '2015-04-28T11:45';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo         = 'movilidad-urbana-competitividad';
-        $this->imagen          = 'movilidad-urbana-competitividad/imagen.jpg';
-        $this->imagen_previa   = 'movilidad-urbana-competitividad/imagen-previa.jpg';
+        $this->nombre                     = 'Movilidad Urbana y Competitividad';
+        $this->autor                      = 'Arq. Cecilio Pedro Secunza Schott';
+        $this->fecha                      = '2015-04-28T11:45';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'movilidad-urbana-competitividad';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion     = 'La movilidad es eje fundamental del desarrollo; al no considerar el transporte como parte de la planeación urbana, se generan graves deficiencias, como dispersión, distanciamiento y desconexión urbana.';
-        $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Infraestructura', 'Competitividad');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio      = 'blog';
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'La movilidad es eje fundamental del desarrollo; al no considerar el transporte como parte de la planeación urbana, se generan graves deficiencias, como dispersión, distanciamiento y desconexión urbana.';
+        $this->claves                     = 'IMPLAN, Torreon';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/MovilidadUrbanaCompetitividad.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
+        // Para el Organizador
+        $this->categorias                 = array('Infraestructura', 'Competitividad');
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase MovilidadUrbanaCompetitividad

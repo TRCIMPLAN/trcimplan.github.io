@@ -31,6 +31,8 @@ class ProblematicaDeLaViviendaDeshabitadaEnLaLaguna extends \Base\PublicacionSch
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Problemática de la vivienda deshabitada en La Laguna';
         $this->autor                      = 'Arq. Ángeles Melisa Rodríguez Salas';

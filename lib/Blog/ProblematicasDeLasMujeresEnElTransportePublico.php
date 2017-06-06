@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - Problemáticas de las mujeres en el transporte público
  *
- * Copyright (C) 2016 Guillermo Valdes Lozano guillermo@movimientolibre.com
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package SitioWeb
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Blog;
@@ -31,6 +31,8 @@ class ProblematicasDeLasMujeresEnElTransportePublico extends \Base\PublicacionSc
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Problemáticas de las mujeres en el transporte público';
         $this->autor                      = 'Arq. Ilse Ávila García';
@@ -40,11 +42,11 @@ class ProblematicasDeLasMujeresEnElTransportePublico extends \Base\PublicacionSc
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Las usuarias del transporte público en Torreón realizan más de un viaje al trabajo o a la escuela resultado de los roles atribuidos al hogar y la familia. Esto las lleva a enfrentar diversas problemáticas, que son analizadas en un diagnóstico del Programa ONU Mujeres.';
         $this->claves                     = 'IMPLAN, Torreon, Mujeres, Transporte, Traslados, Camiones, Dispersion';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ProblematicasDeLasMujeresEnElTransportePublico.md';
-        // Banderas que pueden tener un valor por defecto en \Configuracion\PublicacionConfig
+        // Banderas
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // Para el Organizador

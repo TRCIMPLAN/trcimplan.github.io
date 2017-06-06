@@ -31,6 +31,8 @@ class PlataformasDeConocimientoDeCalidad extends \Base\PublicacionSchemaBlogPost
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Plataformas de Conocimiento de Calidad';
         $this->autor                      = 'Ing. Guillermo Valdés Lozano';
@@ -51,8 +53,6 @@ class PlataformasDeConocimientoDeCalidad extends \Base\PublicacionSchemaBlogPost
         $this->categorias                 = array('Gobierno', 'Gobierno Digital');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Coahuila');
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase PlataformasDeConocimientoDeCalidad

@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN - Por un crecimiento ordenado en Torreón
+ * TrcIMPLAN Sitio Web - Por un crecimiento ordenado en Torreón
  *
- * Copyright (C) 2015 Guillermo Valdes Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Blog;
@@ -31,39 +31,28 @@ class PorUnCrecimientoOrdenadoEnTorreon extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Por un crecimiento ordenado en Torreón';
-        $this->autor           = 'Arq. Jair Miramontes Chávez';
-        $this->fecha           = '2015-10-20T14:20';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'por-un-crecimiento-ordenado-en-torreon';
-        $this->imagen          = 'por-un-crecimiento-ordenado-en-torreon/imagen.jpg';
-        $this->imagen_previa   = 'por-un-crecimiento-ordenado-en-torreon/imagen-previa.jpg';
+        $this->nombre                     = 'Por un crecimiento ordenado en Torreón';
+        $this->autor                      = 'Arq. Jair Miramontes Chávez';
+        $this->fecha                      = '2015-10-20T14:20';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'por-un-crecimiento-ordenado-en-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El Plan de Desarrollo Urbano propone la figura de los Polígonos de Actuación, para que la ciudad transite hacia un modelo de desarrollo urbano sustentable, integral e inteligente.';
-        $this->claves          = 'IMPLAN, Torreon, Plan, Desarrollo, Urbano';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'El Plan de Desarrollo Urbano propone la figura de los Polígonos de Actuación, para que la ciudad transite hacia un modelo de desarrollo urbano sustentable, integral e inteligente.';
+        $this->claves                     = 'IMPLAN, Torreon, Plan, Desarrollo, Urbano';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PorUnCrecimientoOrdenadoEnTorreon.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Infraestructura');
-        $this->fuentes         = array('IMPLAN');
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array('Infraestructura');
+        $this->fuentes                    = array('IMPLAN');
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase PorUnCrecimientoOrdenadoEnTorreon

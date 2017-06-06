@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - NuevaLeyDeAsentamientosHumanosEstrategiaParaOrdenarLaMetropoli
+ * TrcIMPLAN Sitio Web - Nueva Ley de Asentamientos Humanos: estrategia para ordenar la metrópoli
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,6 +31,8 @@ class NuevaLeyDeAsentamientosHumanosEstrategiaParaOrdenarLaMetropoli extends \Ba
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Nueva Ley de Asentamientos Humanos: estrategia para ordenar la metrópoli';
         $this->autor                      = array('Arq. Teresita Benítez Saludado', 'Lic. Adriana Vargas Flores');
@@ -40,7 +42,7 @@ class NuevaLeyDeAsentamientosHumanosEstrategiaParaOrdenarLaMetropoli extends \Ba
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Actualmente el uso de suelo habitacional ocupa la mayor superficie urbana de la Zona Metropolitana de La Laguna. De continuar con una baja densidad poblacional, los escenarios de expansión a futuro resultan preocupantes por la inversión que se necesita y los costos ambientales que esto implica.';
         $this->claves                     = 'IMPLAN, Torreon, Uso de suelo, Asentamientos Humanos, La Laguna, Ley';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/NuevaLeyDeAsentamientosHumanosEstrategiaParaOrdenarLaMetropoli.md';

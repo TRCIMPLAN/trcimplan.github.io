@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN - Reinventar el futuro de la metrópoli
+/**
+ * TrcIMPLAN Sitio Web - Reinventar el futuro de la metrópoli
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,49 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase ReinventarFuturoMetropoli
  */
-class ReinventarFuturoMetropoli extends \Base\Publicacion {
+class ReinventarFuturoMetropoli extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Reinventar el futuro de la metrópoli';
-        $this->autor           = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha           = '2015-05-06T12:40';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo         = 'reinventar-futuro-metropoli';
-        $this->imagen          = 'reinventar-futuro-metropoli/imagen.jpg';
-        $this->imagen_previa   = 'reinventar-futuro-metropoli/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion     = 'Ensayo sobre las nuevas tecnologías en materia de vivienda, agricultura y transporte que mejorarán nuestro futuro.';
-        $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Bienestar', 'Infraestructura');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio      = 'blog';
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->nombre                     = 'Reinventar el futuro de la metrópoli';
+        $this->autor                      = 'Ing. Guillermo Valdés Lozano';
+        $this->fecha                      = '2015-05-06T12:40';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'reinventar-futuro-metropoli';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion                = 'Ensayo sobre las nuevas tecnologías en materia de vivienda, agricultura y transporte que mejorarán nuestro futuro.';
+        $this->claves                     = 'IMPLAN, Torreon';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ReinventarFuturoMetropoli.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
+        // Para el Organizador
+        $this->categorias                 = array('Bienestar', 'Infraestructura');
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase ReinventarFuturoMetropoli

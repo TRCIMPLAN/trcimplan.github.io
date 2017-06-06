@@ -35,7 +35,7 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         $this->publicaciones_directorio = 'Blog';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Análisis Publicados';
-        $this->descripcion              = 'Publicaciones sobre investigación y otros temas.';
+        $this->descripcion              = 'A través de los análisis se logra ampliar el conocimiento y ofrecer recomendaciones documentadas de las temáticas del IMPLAN.';
         $this->claves                   = 'IMPLAN, Torreon, Analisis, Publicaciones, Estudios, Investigacion';
     //~ $this->encabezado_color         = '';
         // Opción de Navegación a poner activa

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - MuestraMejoriaElMercadoLaboralDeLaLaguna
+ * TrcIMPLAN Sitio Web - Muestra mejoría el mercado laboral de La Laguna
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -31,6 +31,8 @@ class MuestraMejoriaElMercadoLaboralDeLaLaguna extends \Base\PublicacionSchemaBl
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Muestra mejoría el mercado laboral de La Laguna';
         $this->autor                      = 'Lic. Alicia Valdez Ibarra';

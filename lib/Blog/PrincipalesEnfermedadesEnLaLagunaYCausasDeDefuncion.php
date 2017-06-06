@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - PrincipalesEnfermedadesEnLaLagunaYCausasDeDefuncion
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,6 +31,8 @@ class PrincipalesEnfermedadesEnLaLagunaYCausasDeDefuncion extends \Base\Publicac
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Principales enfermedades en La Laguna y causas de defunción';
         $this->autor                      = 'Lic. Alfredo Viesca Domínguez';
@@ -40,7 +42,7 @@ class PrincipalesEnfermedadesEnLaLagunaYCausasDeDefuncion extends \Base\Publicac
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Las enfermedades más comunes en Coahuila y la Jurisdicción Sanitaria correspondiente a Torreón, Matamoros y Viesca, son las infecciones respiratorias e intestinales que suman más del 80 % de los casos. En las causas de defunción las principales son las afecciones cardiacas y en segundo lugar la diabetes.';
         $this->claves                     = 'IMPLAN, Torreon, Enfermedades, Coahuila, Defunciones';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PrincipalesEnfermedadesEnLaLagunaYCausasDeDefuncion.md';

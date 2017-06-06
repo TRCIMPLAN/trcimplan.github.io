@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN - DESCRIPCION
+/**
+ * TrcIMPLAN Sitio Web - La Necesidad de un Diagnóstico sobre la Delincuencia Juvenil en el Municipio de Torreón
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,49 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase NecesidadDiagnosticoSobreDelincuenciaJuvenil
  */
-class NecesidadDiagnosticoSobreDelincuenciaJuvenil extends \Base\Publicacion {
+class NecesidadDiagnosticoSobreDelincuenciaJuvenil extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'La Necesidad de un Diagnóstico sobre la Delincuencia Juvenil en el Municipio de Torreón';
-        $this->autor           = 'Lic. Alfredo Viesca Domínguez';
-        $this->fecha           = '2015-04-22T09:25';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo         = 'necesidad-diagnostico-sobre-delincuencia-juvenil';
-        $this->imagen          = 'necesidad-diagnostico-sobre-delincuencia-juvenil/imagen.jpg';
-        $this->imagen_previa   = 'necesidad-diagnostico-sobre-delincuencia-juvenil/imagen-previa.jpg';
+        $this->nombre                     = 'La Necesidad de un Diagnóstico sobre la Delincuencia Juvenil en el Municipio de Torreón';
+        $this->autor                      = 'Lic. Alfredo Viesca Domínguez';
+        $this->fecha                      = '2015-04-22T09:25';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'necesidad-diagnostico-sobre-delincuencia-juvenil';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion     = 'Se debe desarrollar un trabajo conjunto entre autoridades y organizaciones civiles en el tema de la delincuencia juvenil para tener un conocimiento claro de cómo ha evolucionado, de su situación real y para crear las políticas públicas pertinentes.';
-        $this->claves          = 'IMPLAN, Torreon, Delincuencia, Juvenil, Autoridad, Organizaciones, Civiles, Politicas, Publicas';
-        $this->categorias      = array('Delincuencia', 'Seguridad');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio      = 'blog';
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'Se debe desarrollar un trabajo conjunto entre autoridades y organizaciones civiles en el tema de la delincuencia juvenil para tener un conocimiento claro de cómo ha evolucionado, de su situación real y para crear las políticas públicas pertinentes.';
+        $this->claves                     = 'IMPLAN, Torreon, Delincuencia, Juvenil, Autoridad, Organizaciones, Civiles, Politicas, Publicas';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/NecesidadDiagnosticoSobreDelincuenciaJuvenil.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
+        // Para el Organizador
+        $this->categorias                 = array('Delincuencia', 'Seguridad');
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase NecesidadDiagnosticoSobreDelincuenciaJuvenil
