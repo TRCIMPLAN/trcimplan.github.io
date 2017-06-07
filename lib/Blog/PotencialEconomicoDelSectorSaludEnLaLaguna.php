@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PotencialEconomicoDelSectorSaludEnLaLaguna
  */
-class PotencialEconomicoDelSectorSaludEnLaLaguna extends \Base\Publicacion {
+class PotencialEconomicoDelSectorSaludEnLaLaguna extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

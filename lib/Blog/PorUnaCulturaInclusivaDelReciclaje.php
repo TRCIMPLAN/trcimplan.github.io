@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PorUnaCulturaInclusivaDelReciclaje
  */
-class PorUnaCulturaInclusivaDelReciclaje extends \Base\Publicacion {
+class PorUnaCulturaInclusivaDelReciclaje extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

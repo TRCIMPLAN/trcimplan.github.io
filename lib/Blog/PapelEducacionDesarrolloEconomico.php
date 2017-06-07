@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PapelEducacionDesarrolloEconomico
  */
-class PapelEducacionDesarrolloEconomico extends \Base\Publicacion {
+class PapelEducacionDesarrolloEconomico extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

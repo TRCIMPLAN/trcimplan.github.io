@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PanoramaEducacionSuperiorZMLParte1
  */
-class PanoramaEducacionSuperiorZMLParte1 extends \Base\Publicacion {
+class PanoramaEducacionSuperiorZMLParte1 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

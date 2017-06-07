@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - TorreonHaciaLaResilienciaUrbana
  *
- * Copyright (C) 2016 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,6 +31,8 @@ class TorreonHaciaLaResilienciaUrbana extends \Base\PublicacionSchemaBlogPosting
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Torreón, hacia la resiliencia urbana';
         $this->autor                      = 'Ing. Luis Campos Hinojosa';
@@ -40,7 +42,7 @@ class TorreonHaciaLaResilienciaUrbana extends \Base\PublicacionSchemaBlogPosting
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Cada vez más ciudades en el mundo han comenzado a transitar hacia la resiliencia y la reducción de riesgos como una estrategia urbana para lograr un desarrollo sostenible. El Plan de Resiliencia Urbana debe de ser un proyecto prioritario para Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Ciudad, Resiliencia, Urbana, Plan';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonHaciaLaResilienciaUrbana.md';

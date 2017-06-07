@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase ComercioYServiciosFuerteImpulsoALaEconomiaEnTorreon
  */
-class ComercioYServiciosFuerteImpulsoALaEconomiaEnTorreon extends \Base\PublicacionSchemaArticle {
+class ComercioYServiciosFuerteImpulsoALaEconomiaEnTorreon extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

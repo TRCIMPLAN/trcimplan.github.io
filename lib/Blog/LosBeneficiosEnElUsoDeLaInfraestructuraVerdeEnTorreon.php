@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase LosBeneficiosEnElUsoDeLaInfraestructuraVerdeEnTorreon
  */
-class LosBeneficiosEnElUsoDeLaInfraestructuraVerdeEnTorreon extends \Base\PublicacionSchemaArticle {
+class LosBeneficiosEnElUsoDeLaInfraestructuraVerdeEnTorreon extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase ProgramaIrritilaBuscaElApoyoDeLaSociedadCivil
  */
-class ProgramaIrritilaBuscaElApoyoDeLaSociedadCivil extends \Base\Publicacion {
+class ProgramaIrritilaBuscaElApoyoDeLaSociedadCivil extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

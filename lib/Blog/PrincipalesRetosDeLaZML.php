@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Principales Retos De La ZML
+ * TrcIMPLAN Sitio Web - Principales retos de la Zona Metropolitana de La Laguna
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PrincipalesRetosDeLaZML
  */
-class PrincipalesRetosDeLaZML extends \Base\Publicacion {
+class PrincipalesRetosDeLaZML extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

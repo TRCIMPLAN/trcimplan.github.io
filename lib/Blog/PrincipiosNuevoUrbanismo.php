@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PrincipiosNuevoUrbanismo
  */
-class PrincipiosNuevoUrbanismo extends \Base\Publicacion {
+class PrincipiosNuevoUrbanismo extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

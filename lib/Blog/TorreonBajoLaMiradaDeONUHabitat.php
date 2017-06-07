@@ -31,6 +31,8 @@ class TorreonBajoLaMiradaDeONUHabitat extends \Base\PublicacionSchemaBlogPosting
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Torreón bajo la mirada de ONU Hábitat';
         $this->autor                      = 'Lic. Rodrigo González Morales';

@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - Torreón, municipio competitivo según datos del IMCO
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,45 +25,34 @@ namespace Blog;
 /**
  * Clase TorreonMunicipioCompetitivoSegunDatosDelIMCO
  */
-class TorreonMunicipioCompetitivoSegunDatosDelIMCO extends \Base\Publicacion {
+class TorreonMunicipioCompetitivoSegunDatosDelIMCO extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Torreón, municipio competitivo según datos del IMCO';
-        $this->autor           = 'Lic. Rodrigo González Morales';
-        $this->fecha           = '2016-11-01T12:45';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'torreon-municipio-competitivo-segun-datos-del-imco';
-        $this->imagen          = 'torreon-municipio-competitivo-segun-datos-del-imco/imagen.jpg';
-        $this->imagen_previa   = 'torreon-municipio-competitivo-segun-datos-del-imco/imagen-previa.jpg';
+        $this->nombre                     = 'Torreón, municipio competitivo según datos del IMCO';
+        $this->autor                      = 'Lic. Rodrigo González Morales';
+        $this->fecha                      = '2016-11-01T12:45';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'torreon-municipio-competitivo-segun-datos-del-imco';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'De acuerdo con los datos y metodología del IMCO, comparando los 375 municipios de las zonas metropolitanas del país, el municipio de Torreón ocupa el lugar 32.';
-        $this->claves          = 'IMPLAN, Torreon, Municipio, Competitivo, IMCO';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'De acuerdo con los datos y metodología del IMCO, comparando los 375 municipios de las zonas metropolitanas del país, el municipio de Torreón ocupa el lugar 32.';
+        $this->claves                     = 'IMPLAN, Torreon, Municipio, Competitivo, IMCO';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonMunicipioCompetitivoSegunDatosDelIMCO.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Competitividad', 'Índice de Competitividad Urbana');
-        $this->fuentes         = array('IMCO', 'IMPLAN');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros');
+        $this->categorias                 = array('Competitividad', 'Índice de Competitividad Urbana');
+        $this->fuentes                    = array('IMCO', 'IMPLAN');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros');
     } // constructor
 
 } // Clase TorreonMunicipioCompetitivoSegunDatosDelIMCO

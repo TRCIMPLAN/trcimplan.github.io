@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PapelOrganizacionesCivilesAumentoCompetitividad
  */
-class PapelOrganizacionesCivilesAumentoCompetitividad extends \Base\Publicacion {
+class PapelOrganizacionesCivilesAumentoCompetitividad extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

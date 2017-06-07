@@ -1,8 +1,8 @@
 <?php
-/*
- * SMIbeta - La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo
+/**
+ * TrcIMPLAN Sitio Web - La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,49 +17,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase ZMLSistemaDerechoConfiableObjetivo
  */
-class ZMLSistemaDerechoConfiableObjetivo extends \Base\Publicacion {
+class ZMLSistemaDerechoConfiableObjetivo extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo';
-        $this->autor           = 'Lic. Rodrigo González Morales';
-        $this->fecha           = '2014-06-02T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo         = 'zml-sistema-derecho-confiable-objetivo';
-        $this->imagen          = 'zml-sistema-derecho-confiable-objetivo/imagen.jpg';
-        $this->imagen_previa   = 'zml-sistema-derecho-confiable-objetivo/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion     = 'De acuerdo al ICU 2012, es el subíndice más débil de la región; algunos de sus subíndices ponderados con alto peso por el IMCO corresponden a rubros de seguridad pública.';
-        $this->claves          = 'IMPLAN, Torreon, Seguridad, Robo, Vehiculos, Notarios';
-        $this->categorias      = array('Seguridad');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio      = 'blog';
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/ZMLSistemaDerechoConfiableObjetivo.html';
+        $this->nombre                     = 'La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo';
+        $this->autor                      = 'Lic. Rodrigo González Morales';
+        $this->fecha                      = '2014-06-02T08:05';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'zml-sistema-derecho-confiable-objetivo';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion                = 'De acuerdo al ICU 2012, es el subíndice más débil de la región; algunos de sus subíndices ponderados con alto peso por el IMCO corresponden a rubros de seguridad pública.';
+        $this->claves                     = 'IMPLAN, Torreon, Seguridad, Robo, Vehiculos, Notarios';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
+        $this->contenido_archivo_html     = 'lib/Blog/ZMLSistemaDerechoConfiableObjetivo.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
+        // Para el Organizador
+        $this->categorias                 = array('Seguridad');
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
 } // Clase ZMLSistemaDerechoConfiableObjetivo

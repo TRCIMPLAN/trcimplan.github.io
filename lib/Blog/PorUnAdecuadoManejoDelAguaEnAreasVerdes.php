@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PorUnAdecuadoManejoDelAguaEnAreasVerdes
  */
-class PorUnAdecuadoManejoDelAguaEnAreasVerdes extends \Base\Publicacion {
+class PorUnAdecuadoManejoDelAguaEnAreasVerdes extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

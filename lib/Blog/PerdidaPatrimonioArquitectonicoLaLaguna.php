@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PerdidaPatrimonioArquitectonicoLaLaguna
  */
-class PerdidaPatrimonioArquitectonicoLaLaguna extends \Base\Publicacion {
+class PerdidaPatrimonioArquitectonicoLaLaguna extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

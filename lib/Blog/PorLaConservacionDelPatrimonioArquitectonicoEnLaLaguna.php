@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PorLaConservacionDelPatrimonioArquitectonicoEnLaLaguna
  */
-class PorLaConservacionDelPatrimonioArquitectonicoEnLaLaguna extends \Base\Publicacion {
+class PorLaConservacionDelPatrimonioArquitectonicoEnLaLaguna extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

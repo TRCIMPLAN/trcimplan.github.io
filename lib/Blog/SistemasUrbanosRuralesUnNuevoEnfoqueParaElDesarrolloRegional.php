@@ -31,6 +31,8 @@ class SistemasUrbanosRuralesUnNuevoEnfoqueParaElDesarrolloRegional extends \Base
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Sistemas Urbanos Rurales: un nuevo enfoque para el desarrollo regional';
         $this->autor                      = array('Lic. Luis A. Gutiérrez Arizpe', 'Lic. Rodrigo González Morales');

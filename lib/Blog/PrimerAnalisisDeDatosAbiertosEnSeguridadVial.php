@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PrimerAnalisisDeDatosAbiertosEnSeguridadVial
  */
-class PrimerAnalisisDeDatosAbiertosEnSeguridadVial extends \Base\Publicacion {
+class PrimerAnalisisDeDatosAbiertosEnSeguridadVial extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

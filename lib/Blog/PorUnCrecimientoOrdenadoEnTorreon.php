@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PorUnCrecimientoOrdenadoEnTorreon
  */
-class PorUnCrecimientoOrdenadoEnTorreon extends \Base\Publicacion {
+class PorUnCrecimientoOrdenadoEnTorreon extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

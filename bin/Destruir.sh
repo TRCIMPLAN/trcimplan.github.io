@@ -33,6 +33,8 @@ declare -a DIRECTORIOS=(
     "categorias"
     "consejo-directivo"
     "contacto"
+    "ibc"
+    "ibc-colonias-torreon"
     "indicadores-categorias"
     "indicadores-gomez-palacio"
     "indicadores-la-laguna"
@@ -63,7 +65,9 @@ for DIRECTORIO in "${DIRECTORIOS[@]}"
 do
     if [ -d "$DIRECTORIO" ]; then
         echo "  Eliminando archivos html en $DIRECTORIO"
+        rm -f $DIRECTORIO/*.csv
         rm -f $DIRECTORIO/*.html
+        rm -f $DIRECTORIO/*.json
     else
         echo "  ERROR: No existe $DIRECTORIO"
         exit $E_FATAL

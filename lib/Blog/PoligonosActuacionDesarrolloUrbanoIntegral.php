@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PoligonosActuacionDesarrolloUrbanoIntegral
  */
-class PoligonosActuacionDesarrolloUrbanoIntegral extends \Base\Publicacion {
+class PoligonosActuacionDesarrolloUrbanoIntegral extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

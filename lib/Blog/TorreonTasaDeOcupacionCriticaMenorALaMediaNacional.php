@@ -1,8 +1,8 @@
 <?php
 /**
- * Sitio Web - Torreón: tasa de ocupación crítica menor a la media nacional
+ * TrcIMPLAN Sitio Web - Torreón: tasa de ocupación crítica menor a la media nacional
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,45 +25,34 @@ namespace Blog;
 /**
  * Clase TorreonTasaDeOcupacionCriticaMenorALaMediaNacional
  */
-class TorreonTasaDeOcupacionCriticaMenorALaMediaNacional extends \Base\Publicacion {
+class TorreonTasaDeOcupacionCriticaMenorALaMediaNacional extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
-        $this->nombre          = 'Torreón: tasa de ocupación crítica menor a la media nacional';
-        $this->autor           = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha           = '2016-07-01T19:40';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'torreon-tasa-de-ocupacion-critica-menor-a-la-media-nacional';
-        $this->imagen          = 'torreon-tasa-de-ocupacion-critica-menor-a-la-media-nacional/imagen.jpg';
-        $this->imagen_previa   = 'torreon-tasa-de-ocupacion-critica-menor-a-la-media-nacional/imagen-previa.jpg';
+        $this->nombre                     = 'Torreón: tasa de ocupación crítica menor a la media nacional';
+        $this->autor                      = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha                      = '2016-07-01T19:40';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'torreon-tasa-de-ocupacion-critica-menor-a-la-media-nacional';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'En los últimos años ha aumentado la Tasa de Condiciones Críticas de Ocupación en la Comarca Lagunera. No obstante, Torreón se encuentra por debajo de la tasa estatal y nacional con un 8% del total del personal ocupado. Las personas que más se enfrentan a esta problemática cuentan con menor escolaridad.';
-        $this->claves          = 'IMPLAN, Torreon, Tasa, ocupacion, Trabajo, Trabajadores';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaBlogPosting();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->descripcion                = 'En los últimos años ha aumentado la Tasa de Condiciones Críticas de Ocupación en la Comarca Lagunera. No obstante, Torreón se encuentra por debajo de la tasa estatal y nacional con un 8% del total del personal ocupado. Las personas que más se enfrentan a esta problemática cuentan con menor escolaridad.';
+        $this->claves                     = 'IMPLAN, Torreon, Tasa, ocupacion, Trabajo, Trabajadores';
+        // Opción de navegación a poner como activa
+        $this->nombre_menu                = 'Análisis Publicados';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonTasaDeOcupacionCriticaMenorALaMediaNacional.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // Para el Organizador
-        $this->categorias      = array('Competitividad', 'Empleo');
-        $this->fuentes         = array('INEGI');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'La Laguna');
+        $this->categorias                 = array('Competitividad', 'Empleo');
+        $this->fuentes                    = array('INEGI');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'La Laguna');
     } // constructor
 
 } // Clase TorreonTasaDeOcupacionCriticaMenorALaMediaNacional

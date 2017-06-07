@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PrevencionDelitoSeguridad
  */
-class PrevencionDelitoSeguridad extends \Base\Publicacion {
+class PrevencionDelitoSeguridad extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

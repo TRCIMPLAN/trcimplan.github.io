@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase PlaneacionUrbanaConPerspectivaDeGenero
  */
-class PlaneacionUrbanaConPerspectivaDeGenero extends \Base\Publicacion {
+class PlaneacionUrbanaConPerspectivaDeGenero extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor

@@ -25,7 +25,7 @@ namespace Blog;
 /**
  * Clase ProductividadEnZML
  */
-class ProductividadEnZML extends \Base\Publicacion {
+class ProductividadEnZML extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
