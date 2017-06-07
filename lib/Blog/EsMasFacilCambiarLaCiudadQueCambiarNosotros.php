@@ -42,13 +42,8 @@ class EsMasFacilCambiarLaCiudadQueCambiarNosotros extends \Base\PublicacionSchem
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Debemos de tomar acciones que nos lleven a revalorizar nuestro centro histórico, donde está la historia del nacimiento de nuestra ciudad.';
         $this->claves                     = 'IMPLAN, Torreon, Patrimonio, Historico, Edificios, Cultura';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/EsMasFacilCambiarLaCiudadQueCambiarNosotros.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Cultura', 'Infraestructura');
         $this->fuentes                    = array('Instituto Nacional de Antropología e Historia (INAH)', 'Instituto Nacional de Bellas Artes (INBA)');

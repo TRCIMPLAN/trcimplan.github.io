@@ -42,13 +42,8 @@ class IndustriaMetalmecanicaLaLaguna extends \Base\PublicacionSchemaBlogPosting 
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.';
         $this->claves                     = 'IMPLAN, Torreon, Industria, Metalmecánica, Empleo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/IndustriaMetalmecanicaLaLaguna.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empresas', 'Empleo');
         $this->fuentes                    = array('Secretaría de Economía', 'INEGI');

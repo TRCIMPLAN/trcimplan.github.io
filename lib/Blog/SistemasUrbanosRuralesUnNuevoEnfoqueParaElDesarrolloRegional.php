@@ -42,13 +42,8 @@ class SistemasUrbanosRuralesUnNuevoEnfoqueParaElDesarrolloRegional extends \Base
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Este enfoque permite analizar la influencia de las ciudades al desarrollo de una región para elaborar diagnósticos y políticas más certeros acorde a las necesidades del país.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/SistemasUrbanosRuralesUnNuevoEnfoqueParaElDesarrolloRegional.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Macroeconomía', 'Población');
         $this->fuentes                    = array('INEGI', 'Secretaría de Desarrollo Urbano Territorial y Urbano (SEDATU)');

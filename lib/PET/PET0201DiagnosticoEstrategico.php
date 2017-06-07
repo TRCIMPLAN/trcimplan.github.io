@@ -31,26 +31,18 @@ class PET0201DiagnosticoEstrategico extends \Base\PublicacionSchemaArticle {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Diagnóstico Estratégico';
-     // $this->autor                      = '';
         $this->fecha                      = '2016-10-10T02:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'diagnostico-estrategico';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Diagnóstico Estratégico.';
         $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, Diagnostico';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PET/PET0201DiagnosticoEstrategico.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
-        // Para el Organizador
-        $this->categorias                 = array();
-        $this->fuentes                    = array();
-        $this->regiones                   = array();
     } // constructor
 
 } // Clase PET0201DiagnosticoEstrategico

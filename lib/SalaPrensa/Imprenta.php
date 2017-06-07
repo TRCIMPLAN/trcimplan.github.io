@@ -32,20 +32,25 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
-        $this->publicaciones_directorio = 'SalaPrensa';
+        $this->publicaciones_directorio  = 'SalaPrensa';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Sala de Prensa';
-        $this->descripcion              = 'Comunicados de Prensa del IMPLAN Torreón.';
-        $this->claves                   = 'IMPLAN, Torreon, Comunicados, Prensa, Sala';
-    //~ $this->encabezado_color         = '';
-        // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Sala de Prensa';
+        $this->titulo                    = 'Sala de Prensa';
+        $this->descripcion               = 'Comunicados de Prensa del IMPLAN Torreón.';
+        $this->claves                    = 'IMPLAN, Torreon, Comunicados, Prensa, Sala';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = TRUE;
+        $this->autor                     = 'IMPLAN Staff';
+        $this->para_compartir            = TRUE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Sala de Prensa';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas           = '\\Base\\PaginasDetallados';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'sala-prensa';
+        $this->directorio                = 'sala-prensa';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser grande
-        $this->nivel                    = 90000;
+        $this->nivel                     = 90000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

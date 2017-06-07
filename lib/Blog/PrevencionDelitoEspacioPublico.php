@@ -44,11 +44,6 @@ class PrevencionDelitoEspacioPublico extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Ante el miedo y el temor, el lagunero ha tomado medidas en lo individual y lo colectivo en un intento por evitar ser víctimas de algún delito, se ha encerrado en lo privado despreciando el espacio público como si fuera ajeno.';
         $this->claves                     = 'IMPLAN, Torreon, Seguridad, Espacio, Publico, Calles';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // El contenido es estructurado en un esquema
         $schema                           = new \Base\SchemaBlogPosting();
         $schema->name                     = $this->nombre;

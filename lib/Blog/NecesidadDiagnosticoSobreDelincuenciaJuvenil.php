@@ -42,13 +42,8 @@ class NecesidadDiagnosticoSobreDelincuenciaJuvenil extends \Base\PublicacionSche
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion                = 'Se debe desarrollar un trabajo conjunto entre autoridades y organizaciones civiles en el tema de la delincuencia juvenil para tener un conocimiento claro de cómo ha evolucionado, de su situación real y para crear las políticas públicas pertinentes.';
         $this->claves                     = 'IMPLAN, Torreon, Delincuencia, Juvenil, Autoridad, Organizaciones, Civiles, Politicas, Publicas';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/NecesidadDiagnosticoSobreDelincuenciaJuvenil.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Delincuencia', 'Seguridad');
         $this->fuentes                    = array();

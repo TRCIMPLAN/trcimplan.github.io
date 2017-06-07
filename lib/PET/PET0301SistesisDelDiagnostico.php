@@ -31,22 +31,18 @@ class PET0301SistesisDelDiagnostico extends \Base\PublicacionSchemaArticle {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Síntesis del Diagnóstico';
-     // $this->autor                      = '';
         $this->fecha                      = '2016-10-10T03:01';
         // El nombre del archivo a crear
         $this->archivo                    = 'sintesis-diagnostico';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Síntesis del Diagnóstico.';
         $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, Sintesis, Diagnostico';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PET/PET0301SistesisDelDiagnostico.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

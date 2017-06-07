@@ -42,13 +42,8 @@ class InvertirEnTorreon extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = '¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Inversiones, Empresas';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/InvertirEnTorreon.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empresas', 'Infraestructura', 'Competitividad');
         $this->fuentes                    = array();

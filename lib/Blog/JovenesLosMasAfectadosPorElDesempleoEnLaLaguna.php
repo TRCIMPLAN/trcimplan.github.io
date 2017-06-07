@@ -42,13 +42,8 @@ class JovenesLosMasAfectadosPorElDesempleoEnLaLaguna extends \Base\PublicacionSc
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El salario promedio para un lagunero de 50 años con un empleo de jornada completa es de más de 6 mil pesos, un joven de 20 años gana aproximadamente 4 mil pesos mensuales.';
         $this->claves                     = 'IMPLAN, Torreon, Jovenes, Empleo, Salario, Eduacion, Emprendedores';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/JovenesLosMasAfectadosPorElDesempleoEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empleo', 'Población');
         $this->fuentes                    = array('INEGI', 'Elaboración propia con datos obtenidos del INEGI', 'Organización Internacional del Trabajo (OIT)');

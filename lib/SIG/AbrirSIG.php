@@ -37,7 +37,6 @@ class AbrirSIG extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Abrir el S.I.G.';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2014-07-01T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'abrir-sig';
@@ -49,9 +48,6 @@ class AbrirSIG extends \Base\Publicacion {
         $this->claves                     = 'IMPLAN, Torreon, SIG, Instrucciones';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Información Geográfica > Mapas de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
         $this->estado                     = 'ignorar';
     } // constructor

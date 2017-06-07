@@ -42,13 +42,8 @@ class TorreonAumentaSuCompetitividadAerea extends \Base\PublicacionSchemaBlogPos
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El hecho de contar con más vuelos eleva la competitividad del Municipio haciéndolo un  atractivo polo de inversión  y potencializando la ocupación hotelera.';
         $this->claves                     = 'IMPLAN, Torreon, Aeropuertos, Vuelos, Transporte';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonAumentaSuCompetitividadAerea.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Índice de Competitividad Urbana', 'Movilidad');
         $this->fuentes                    = array('IMCO');

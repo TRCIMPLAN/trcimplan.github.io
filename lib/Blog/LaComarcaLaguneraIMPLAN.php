@@ -42,13 +42,10 @@ class LaComarcaLaguneraIMPLAN extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El jueves 5 de marzo en la Universidad LaSalle en Gómez Palacio, Durango se signa el convenio por José Miguel Campillo Carrete alcalde de Gómez Palacio, Dgo. y Miguel Ángel Riquelme Solís alcalde de Torreón, Coahuila para un plan metropolitano en donde en breve se sumaran Lerdo, Durango y Matamoros, Coahuila.';
         $this->claves                     = 'IMPLAN, Torreon, Plan Estrategico Metropolitano';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaComarcaLaguneraIMPLAN.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno', 'Participación Ciudadana');
         $this->fuentes                    = array();

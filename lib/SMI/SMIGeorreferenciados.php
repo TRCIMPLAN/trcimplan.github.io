@@ -35,10 +35,9 @@ class SMIGeorreferenciados extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre        = 'Indicadores Georreferenciados';
-        $this->autor         = 'Dirección de Investigación Estratégica';
         $this->fecha         = '2015-01-01T08:00';
         // El nombre del archivo a crear
-        $this->archivo       = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
+        $this->archivo       = ''; // No hay archivo HTML a crear
         $this->imagen        = 'introduccion/imagen.jpg';
         $this->imagen_previa = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno

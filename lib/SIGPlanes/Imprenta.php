@@ -32,20 +32,25 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
-        $this->publicaciones_directorio = 'SIGPlanes';
+        $this->publicaciones_directorio  = 'SIGPlanes';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Planes';
-        $this->descripcion              = 'Documentos oficiales que tienen que ver con desarrollo urbano.';
-        $this->claves                   = 'IMPLAN, Torreon, Planes, Documentos, Reglamentos';
-    //~ $this->encabezado_color         = '';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu              = 'Información Geográfica > Planes';
+        $this->titulo                    = 'Planes';
+        $this->descripcion               = 'Documentos oficiales que tienen que ver con desarrollo urbano.';
+        $this->claves                    = 'IMPLAN, Torreon, Planes, Documentos, Reglamentos';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = FALSE;
+        $this->autor                     = 'Dirección de Planeación Urbana Sustentable';
+        $this->para_compartir            = FALSE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Información Geográfica > Planes';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasTarjetas';
+        $this->indices_paginas           = '\\Base\\PaginasTarjetas';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'sig-planes';
+        $this->directorio                = 'sig-planes';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser un entero grande
-        $this->nivel                    = 60000;
+        $this->nivel                     = 60000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

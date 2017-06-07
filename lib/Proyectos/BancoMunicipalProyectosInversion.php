@@ -33,7 +33,6 @@ class BancoMunicipalProyectosInversion extends \Base\PublicacionSchemaArticle {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Banco Municipal de Proyectos de Inversión';
-        $this->autor                      = 'Dirección de Proyectos Estratégicos';
         $this->fecha                      = '2014-05-01T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'banco-municipal-proyectos-inversion';
@@ -46,9 +45,6 @@ class BancoMunicipalProyectosInversion extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/BancoMunicipalProyectosInversion.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
         // Para el Organizador
         $this->categorias                 = array('Gobierno', 'Gobierno Digital');
         $this->fuentes                    = array('Ayuntamiento de Torreón');

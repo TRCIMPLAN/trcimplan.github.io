@@ -42,13 +42,8 @@ class LosDeterminantesSocialesDeLaSalud extends \Base\PublicacionSchemaBlogPosti
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En Coahuila la Secretaría de Salud informa que en 2016 existían 905,816 personas sin derechohabiencia. En la jurisdicción no. 6 que comprende Torreón, Matamoros y Viesca del total de la población (838,443 habitantes), 239,625 habitantes viven sin derechoabiencia.';
         $this->claves                     = 'IMPLAN, Torreon, Salud, Determinantes, Sociales';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LosDeterminantesSocialesDeLaSalud.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Salud');
         $this->fuentes                    = array('INEGI', 'Organización Mundial de la Salud (OMS)');

@@ -42,13 +42,8 @@ class TransformacionUrbana extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.';
         $this->claves                     = 'IMPLAN, Torreon, Ciclistas, Bicicletas, Transporte';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/TransformacionUrbana.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Movilidad', 'Participación Ciudadana');
         $this->fuentes                    = array();

@@ -42,13 +42,8 @@ class MejoresSitiosWebParaGobiernosAbiertos extends \Base\PublicacionSchemaBlogP
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Los ciudadanos demandan que se use la tecnología para que los datos del gobierno lleguen con claridad, rapidez y efectividad.';
         $this->claves                     = 'IMPLAN, Torreon, Gobierno Abierto, Datos Abiertos, Formatos Abiertos, Carta Internacional';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/MejoresSitiosWebParaGobiernosAbiertos.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno', 'Gobierno Digital', 'Innovación');
         $this->fuentes                    = array('Gobierno de la República');

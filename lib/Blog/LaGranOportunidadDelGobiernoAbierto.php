@@ -42,13 +42,8 @@ class LaGranOportunidadDelGobiernoAbierto extends \Base\PublicacionSchemaBlogPos
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Nos encontramos frente a la posibilidad del mayor grado de cooperación que haya existido entre la sociedad y el gobierno.';
         $this->claves                     = 'IMPLAN, Torreon';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaGranOportunidadDelGobiernoAbierto.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno Digital', 'Transparencia');
         $this->fuentes                    = array('Gobierno de la República');

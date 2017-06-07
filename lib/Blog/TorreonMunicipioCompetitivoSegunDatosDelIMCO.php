@@ -42,13 +42,8 @@ class TorreonMunicipioCompetitivoSegunDatosDelIMCO extends \Base\PublicacionSche
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'De acuerdo con los datos y metodología del IMCO, comparando los 375 municipios de las zonas metropolitanas del país, el municipio de Torreón ocupa el lugar 32.';
         $this->claves                     = 'IMPLAN, Torreon, Municipio, Competitivo, IMCO';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonMunicipioCompetitivoSegunDatosDelIMCO.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Índice de Competitividad Urbana');
         $this->fuentes                    = array('IMCO', 'IMPLAN');

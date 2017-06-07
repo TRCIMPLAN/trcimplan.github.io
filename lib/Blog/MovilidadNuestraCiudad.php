@@ -42,13 +42,8 @@ class MovilidadNuestraCiudad extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion                = 'De 1970 a la fecha la expansión de la mancha urbana en la ciudad de Torreón ha crecido siete veces mientras que la población únicamente tres.';
         $this->claves                     = 'IMPLAN, Torreon, Mancha, Urbana, Expansion, Poblacion, Crecimiento';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/MovilidadNuestraCiudad.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Movilidad', 'Transporte', 'Infraestructura');
         $this->fuentes                    = array();

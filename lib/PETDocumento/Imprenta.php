@@ -32,18 +32,23 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
-        $this->publicaciones_directorio = 'PETDocumento';
+        $this->publicaciones_directorio  = 'PETDocumento';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Documentos del Plan Estratégico Torreón con Enfoque Metropolitano 2040';
-        $this->descripcion              = 'Resultados de los talleres del PET2040.';
-        $this->claves                   = 'IMPLAN, Torreon, Plan Estrategico Torreon 2040';
-    //  $this->encabezado_color         = '';
-        // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Plan Estratégico Torreón 2040 > Descargar';
+        $this->titulo                    = 'Documentos del Plan Estratégico Torreón con Enfoque Metropolitano 2040';
+        $this->descripcion               = 'Resultados de los talleres del PET2040.';
+        $this->claves                    = 'IMPLAN, Torreon, Plan Estrategico Torreon 2040';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = FALSE;
+        $this->autor                     = 'Dirección de Proyectos Estratégicos';
+        $this->para_compartir            = FALSE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Plan Estratégico Torreón 2040 > Descargar';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasTarjetas'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas           = '\\Base\\PaginasTarjetas'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'plan-estrategico-torreon-enfoque-metropolitano-2040';
+        $this->directorio                = 'plan-estrategico-torreon-enfoque-metropolitano-2040';
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

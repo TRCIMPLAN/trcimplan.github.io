@@ -42,13 +42,8 @@ class PrevencionDelitoSeguridad extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La prevención del delito debe ser el elemento central en la búsqueda de la seguridad en la Zona Metropolitana de la Laguna (ZML).';
         $this->claves                     = 'IMPLAN, Torreon, Prevecion, Delito, Seguridad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/PrevencionDelitoSeguridad.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Delincuencia', 'Seguridad');
         $this->fuentes                    = array();

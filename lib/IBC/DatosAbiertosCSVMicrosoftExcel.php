@@ -35,7 +35,6 @@ class DatosAbiertosCSVMicrosoftExcel extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Pasos para importar el CSV a Microsoft Excel';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
         $this->fecha                      = '2017-05-29T08:40';
         // El nombre del archivo a crear
         $this->archivo                    = 'datos-abiertos-csv-microsoft-excel';
@@ -46,9 +45,6 @@ class DatosAbiertosCSVMicrosoftExcel extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Indicadores Básicos de Colonias > Datos Abiertos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/IBC/DatosAbiertosCSVMicrosoftExcel.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase DatosAbiertosCSVMicrosoftExcel

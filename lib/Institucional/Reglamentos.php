@@ -25,7 +25,7 @@ namespace Institucional;
 /**
  * Clase Reglamentos
  */
-class Reglamentos extends \Base\Publicacion {
+class Reglamentos extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
@@ -35,7 +35,6 @@ class Reglamentos extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Reglamentos';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-03-18T12:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'reglamentos';
@@ -46,11 +45,6 @@ class Reglamentos extends \Base\Publicacion {
         $this->nombre_menu                = 'Institucional > Reglamentos';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Institucional/Reglamentos.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase Reglamentos

@@ -42,13 +42,8 @@ class DatosAbiertosGobiernosMunicipales extends \Base\PublicacionSchemaBlogPosti
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.';
         $this->claves                     = 'IMPLAN, Torreon, Datos Abiertos, Gobierno Abierto';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html     = 'lib/Blog/DatosAbiertosGobiernosMunicipales.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Transparencia', 'Gobierno Digital');
         $this->fuentes                    = array('Gobierno de la República');

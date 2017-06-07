@@ -42,13 +42,8 @@ class RegeneracionUrbanaParaUnaMejorCalidadDeVida2017 extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Poco a poco algunas zona olvidadas de Torreón están reviviendo por el fenómeno de regeneración urbana, que implica la rehabilitación de algún espacio que se encontraba en condiciones deplorables, como es el caso de la Línea Verde al oriente de la ciudad.';
         $this->claves                     = 'IMPLAN, Torreon, Regeneracion, Urbana, Espacios, Publicos, Ciudad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/RegeneracionUrbanaParaUnaMejorCalidadDeVida2017.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Infraestructura');
         $this->fuentes                    = array();

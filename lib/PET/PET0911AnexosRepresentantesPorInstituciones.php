@@ -31,22 +31,18 @@ class PET0911AnexosRepresentantesPorInstituciones extends \Base\PublicacionSchem
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Anexos: Representantes por Instituciones';
-     // $this->autor                      = '';
         $this->fecha                      = '2016-10-10T09:11';
         // El nombre del archivo a crear
         $this->archivo                    = 'anexos-representantes-instituciones';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Anexos: Representantes por Instituciones.';
         $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, Representantes';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PET/PET0911AnexosRepresentantesPorInstituciones.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

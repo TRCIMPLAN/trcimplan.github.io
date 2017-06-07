@@ -42,13 +42,10 @@ class ReflexionCrecimientoUrbanoTorreon extends \Base\PublicacionSchemaBlogPosti
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La ciudad de Torreón nace a partir de la visión de Sr. Andrés Guillermo Eppen con trazos ordenados, calles anchas, manzanas cuadradas y alineadas con la vía de ferrocarril.';
         $this->claves                     = 'IMPLAN, Torreon, Historia, Calles, Manzanas, Trazos, Crecimiento, Ordenado';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ReflexionCrecimientoUrbanoTorreon.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Vialidad');
         $this->fuentes                    = array();

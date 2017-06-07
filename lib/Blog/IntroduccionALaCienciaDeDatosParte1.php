@@ -42,13 +42,8 @@ class IntroduccionALaCienciaDeDatosParte1 extends \Base\PublicacionSchemaBlogPos
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Qué es la Ciencia de Datos, qué hacen los Científicos de Datos, lo que se necesita aprender y dominar para serlo.';
         $this->claves                     = 'IMPLAN, Torreon, Ciencia, Científico, Datos';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/IntroduccionALaCienciaDeDatosParte1.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno Digital', 'Innovación', 'Participación Ciudadana');
         $this->fuentes                    = array();

@@ -42,13 +42,8 @@ class MatrizEnergeticaLaguneraNecesariaVisionDeFuturo extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Es necesario reconocer el gran potencial de La Laguna en materia de energías limpias o energías renovables, dado que contamos con importantes ventajas competitivas y comparativas en la rama de energía solar, energía de la biomasa y energía eólica.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/MatrizEnergeticaLaguneraNecesariaVisionDeFuturo.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Innovación', 'Recursos Naturales');
         $this->fuentes                    = array();

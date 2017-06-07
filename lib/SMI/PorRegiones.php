@@ -31,9 +31,10 @@ class PorRegiones extends \SMIBase\PublicacionWeb {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                    = 'Indicadores por Región';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
         $this->fecha                     = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo                   = 'por-region';
@@ -42,15 +43,6 @@ class PorRegiones extends \SMIBase\PublicacionWeb {
         $this->claves                    = 'IMPLAN, Torreon, Indicadores, Por Region';
         // Opción de navegación a poner como activa
         $this->nombre_menu               = 'Indicadores > Indicadores por Región';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
-        // Para el Organizador
-        $this->categorias                = array();
-        $this->fuentes                   = array();
-        $this->regiones                  = array();
         // Inicializar las lengüetas
         $this->lenguetas                 = new \Base\Lenguetas('smi-por-regiones');
     } // constructor

@@ -35,20 +35,14 @@ class PlataformaTrcImplanGobMxPremioIclei extends \Base\PublicacionSchemaBlogPos
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Plataforma trcimplan.gob.mx Premio ICLEI';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-11-10T16:20';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-11-10-plataforma-trcimplangobmx-premio-iclei';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El ICLEI reconoció al sitio web como una herramienta para la planeación metropolitana.';
         $this->claves                     = 'IMPLAN, Torreon, Plataforma, ICLEI';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/PlataformaTrcImplanGobMxPremioIclei.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

@@ -27,20 +27,26 @@ namespace Base;
  */
 class ImprentaPublicaciones extends Imprenta {
 
-    public $directorio;               // Texto, nombre del directorio en raíz donde se guardará los archivos
-    public $publicaciones_directorio; // Texto, nombre del directorio dentro de lib que contiene los archivos con las publicaciones
-    public $encabezado;               // Código HTML para usarse como encabezado
-    public $encabezado_color;         // Texto, color de fondo del encabezado #nnnnnn
-    public $encabezado_icono;         // Texto, icono Font Awesome
-    public $claves;                   // Texto, palabras separadas por comas para meta tag
-    public $nombre_menu;              // Texto, opción del menú activa
-    public $titulo;                   // Texto, título de la página
-    public $descripcion;              // Texto, descripción para meta tag
-    public $nivel = 0;                // Entero, es el orden de la rama para las páginas por categorías
-    protected $archivo_ruta;          // Texto opcional, ruta al archivo index
-    protected $indices_paginas;       // Ruta a la clase. Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
-    protected $recolector;            // Instancia de Recolector
-    public    $contador = 0;          // Entero, cantidad de publicaciones producidas
+    public $directorio;                // Texto, nombre del directorio en raíz donde se guardará los archivos
+    public $publicaciones_directorio;  // Texto, nombre del directorio dentro de lib que contiene los archivos con las publicaciones
+    public $encabezado;                // Código HTML para usarse como encabezado
+    public $encabezado_color;          // Texto, color de fondo del encabezado #nnnnnn
+    public $encabezado_icono;          // Texto, icono Font Awesome
+    public $claves;                    // Texto, palabras separadas por comas para meta tag
+    public $nombre_menu;               // Texto, opción del menú activa
+    public $titulo;                    // Texto, título de la página
+    public $descripcion;               // Texto, descripción para meta tag
+    public $nivel = 0;                 // Entero, es el orden de la rama para las páginas por categorías
+    public $autor;                     // Texto o arreglo, si se define será pasado a las publicaciones
+    public $aparece_en_pagina_inicial; // Boleano, si se define será pasado a las publicaciones
+    public $para_compartir;            // Boleano, si se define será pasado a las publicaciones
+    public $imagen;                    // Texto, si se define será pasado a las publicaciones
+    public $imagen_previa;             // Texto, si se define será pasado a las publicaciones
+    public $poner_imagen_en_contenido; // Boleano, si se define será pasado a las publicaciones
+    protected $archivo_ruta;           // Texto opcional, ruta al archivo index
+    protected $indices_paginas;        // Ruta a la clase. Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+    protected $recolector;             // Instancia de Recolector
+    public    $contador = 0;           // Entero, cantidad de publicaciones producidas
 
     /**
      * Constructor

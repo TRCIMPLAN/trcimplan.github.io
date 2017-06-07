@@ -32,18 +32,23 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
-        $this->publicaciones_directorio = 'PlanEstrategicoMetropolitano';
+        $this->publicaciones_directorio  = 'PlanEstrategicoMetropolitano';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Plan Estratégico Metropolitano';
-        $this->descripcion              = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
-        $this->claves                   = 'IMPLAN, Torreon, Plan, Estratégico, Metropolitano';
-    //  $this->encabezado_color         = '';
-        // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Plan Estratégico Torreón 2040';
+        $this->titulo                    = 'Plan Estratégico Metropolitano';
+        $this->descripcion               = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
+        $this->claves                    = 'IMPLAN, Torreon, Plan, Estratégico, Metropolitano';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = TRUE;
+        $this->autor                     = 'Dirección de Proyectos Estratégicos';
+        $this->para_compartir            = TRUE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Plan Estratégico Torreón 2040';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasTarjetas'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas           = '\\Base\\PaginasTarjetas';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'plan-estrategico-metropolitano';
+        $this->directorio                = 'plan-estrategico-metropolitano';
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

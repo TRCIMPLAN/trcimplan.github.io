@@ -42,13 +42,8 @@ class CoahuilaYTorreonAvanzanEnElRankingDoingBusiness extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En el reporte Doing Business en México 2016 Coahuila califica en el lugar 17 de los 32 estados de la República. El estado, evaluado a través del municipio de Torreón, destacó en el indicador Cumplimiento de contratos ocupando el séptimo lugar del país.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CoahuilaYTorreonAvanzanEnElRankingDoingBusiness.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Doing Business');
         $this->fuentes                    = array();

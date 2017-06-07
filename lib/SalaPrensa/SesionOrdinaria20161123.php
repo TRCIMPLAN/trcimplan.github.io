@@ -42,13 +42,8 @@ class SesionOrdinaria20161123 extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El IMPLAN Torreón, llevó a cabo el miércoles 23 de noviembre su onceava sesión de Consejo Directivo, con la finalidad de presentar el Informe 2016, destacando los proyectos más importantes realizados en el año.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20161123.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

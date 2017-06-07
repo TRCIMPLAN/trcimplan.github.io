@@ -42,13 +42,8 @@ class PrincipiosNuevoUrbanismo extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.';
         $this->claves                     = 'IMPLAN, Torreon, Urbanismo, Ciudad, Equilibrada, Sustentable, Humana';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PrincipiosNuevoUrbanismo.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Movilidad');
         $this->fuentes                    = array();

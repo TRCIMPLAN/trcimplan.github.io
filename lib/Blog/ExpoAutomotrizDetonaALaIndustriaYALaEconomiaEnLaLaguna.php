@@ -42,13 +42,8 @@ class ExpoAutomotrizDetonaALaIndustriaYALaEconomiaEnLaLaguna extends \Base\Publi
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Expo Congreso Automotriz Laguna 2016, dejó una derrama de más de 700 mil pesos en la región, contó con la participación de casi 70 empresarios como expositores. El resultado fueron importantes perspectivas de negocio y la necesidad de contar en La Laguna con un Centro de Manufactura Avanzada.';
         $this->claves                     = 'IMPLAN, Torreon';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ExpoAutomotrizDetonaALaIndustriaYALaEconomiaEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empleo', 'Empresas');
         $this->fuentes                    = array('IMPLAN');

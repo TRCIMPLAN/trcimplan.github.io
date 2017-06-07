@@ -42,13 +42,8 @@ class CiudadAbiertaCiudadFraccionada extends \Base\PublicacionSchemaBlogPosting 
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La fragmentación social y urbana provocada por desarrollos habitacionales “seguros” tiene efectos que agravan la percepción de la inseguridad en la ciudad.';
         $this->claves                     = 'IMPLAN, Torreon, Ciudad, Fraccionamientos, Cerrados';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CiudadAbiertaCiudadFraccionada.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura');
         $this->fuentes                    = array();

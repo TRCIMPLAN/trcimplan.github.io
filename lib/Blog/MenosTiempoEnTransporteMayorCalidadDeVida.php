@@ -42,13 +42,8 @@ class MenosTiempoEnTransporteMayorCalidadDeVida extends \Base\PublicacionSchemaB
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La relación entre transporte público efectivo y competitividad es directa, pero para que la competitividad se traduzca en calidad de vida se debe reducir el tiempo de traslado de estudiantes y trabajadores. Con la llegada del Metrobus se podría lograr que el 70% de la población trabajadora invierta menos de media hora en cada traslado.';
         $this->claves                     = 'IMPLAN, Torreon, Transporte Público, Competitividad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/MenosTiempoEnTransporteMayorCalidadDeVida.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Movilidad', 'Vialidad', 'Competitividad');
         $this->fuentes                    = array('INEGI');

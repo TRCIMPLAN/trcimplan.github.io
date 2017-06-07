@@ -35,20 +35,15 @@ class SesionOrdinaria20170428 extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN y Medio Ambiente presentan el análisis Calidad del Aire';
-    //~ $this->autor                      = '';
+        $this->autor                      = 'Lic. Adriana Vargas Flores';
         $this->fecha                      = '2017-04-28T14:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2017-04-28-sesion-ordinaria';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Instituto Municipal de Planeación y Competitividad de Torreón llevó a cabo el pasado viernes 28 de abril su 4 Sesión de Consejo Directivo, con la presentación del tema Calidad del Aire, en conjunto con la Dirección General de Medio Ambiente de Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion Ordinaria, Medio Ambiente, Calidad del Aire, Contaminacion';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20170428.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array();

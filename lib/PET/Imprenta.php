@@ -32,20 +32,25 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
-        $this->publicaciones_directorio = 'PET';
+        $this->publicaciones_directorio  = 'PET';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040';
-        $this->descripcion              = 'Índice Alfabético.';
-        $this->claves                   = 'Plan, Estratégico, Torreón, 2040, Metropolitano';
-    //  $this->encabezado_color         = '';
-        // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Plan Estratégico Torreón 2040 > Índice Alfabético';
+        $this->titulo                    = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040';
+        $this->descripcion               = 'Índice Alfabético.';
+        $this->claves                    = 'Plan, Estratégico, Torreón, 2040, Metropolitano';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = TRUE;
+        $this->autor                     = 'Dirección de Proyectos Estratégicos';
+        $this->para_compartir            = TRUE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Plan Estratégico Torreón 2040 > Índice Alfabético';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasListadoAlfabetico'; // \\Base\\PaginasDetallados
+        $this->indices_paginas           = '\\Base\\PaginasListadoAlfabetico';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'pet';
+        $this->directorio                = 'pet';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser grande
-        $this->nivel                    = 40000;
+        $this->nivel                     = 40000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

@@ -42,13 +42,8 @@ class ProblematicasDeLasMujeresEnElTransportePublico extends \Base\PublicacionSc
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Las usuarias del transporte público en Torreón realizan más de un viaje al trabajo o a la escuela resultado de los roles atribuidos al hogar y la familia. Esto las lleva a enfrentar diversas problemáticas, que son analizadas en un diagnóstico del Programa ONU Mujeres.';
         $this->claves                     = 'IMPLAN, Torreon, Mujeres, Transporte, Traslados, Camiones, Dispersion';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ProblematicasDeLasMujeresEnElTransportePublico.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Género', 'Grupos Vulnerables', 'Movilidad');
         $this->fuentes                    = array('INEGI');

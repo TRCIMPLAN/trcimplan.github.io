@@ -42,13 +42,8 @@ class CalleCompletaEspacioVialTodos extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Con la inclusión del automóvil en el espacio urbano se causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.';
         $this->claves                     = 'IMPLAN, Torreon, Calle completa';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CalleCompletaEspacioVialTodos.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Transporte', 'Movilidad', 'Infraestructura');
         $this->fuentes                    = array('Logit', 'Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');

@@ -35,20 +35,14 @@ class SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones extends \B
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Sostienen reunión de trabajo IMPLAN y Consejo Cívico de las Instituciones';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2017-05-04T15:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2017-05-04-sostienen-reunion-de-trabajo-implan-y-consejo-civico-de-las-instituciones';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El IMPLAN Torreón sostuvo una reunión con el Consejo Cívico de las Instituciones A.C., creadores del Observatorio de La Laguna, para intercambiar experiencias.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SostienenReunionDeTrabajoIMPLANYConsejoCivicoDeLasInstituciones.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

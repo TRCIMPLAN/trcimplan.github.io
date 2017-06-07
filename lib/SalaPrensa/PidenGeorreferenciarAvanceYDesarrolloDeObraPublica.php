@@ -35,20 +35,14 @@ class PidenGeorreferenciarAvanceYDesarrolloDeObraPublica extends \Base\Publicaci
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Piden georreferenciar avance y desarrollo de obra pública';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2017-02-09T13:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2017-02-09-piden-georreferenciar-avance-y-desarrollo-de-obra-publica';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Para enriquecer aún más la Plataforma del Conocimiento los regidores y síndicas que participan dentro de las comisiones de Planeación y Metropolitana del Cabildo de Torreón propusieron agregar una línea que permita georreferenciar el desarrollo de obras públicas.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/PidenGeorreferenciarAvanceYDesarrolloDeObraPublica.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Finanzas Públicas');
         $this->fuentes                    = array();

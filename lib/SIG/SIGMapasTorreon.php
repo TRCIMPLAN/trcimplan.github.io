@@ -37,7 +37,6 @@ class SIGMapasTorreon extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'S.I.G. de Torreón';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-05-14T13:00';
         // El nombre del archivo a crear
         $this->archivo                    = ''; // No hay archivo HTML a crear
@@ -47,11 +46,6 @@ class SIGMapasTorreon extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Mapas del Sistema de Información Geográfica para Torreón.';
         $this->claves                     = 'IMPLAN, SIG, Información, Geográfica, Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
         // URL de destino
         $this->url                        = '../sig-mapas-torreon/index.html';
     } // constructor

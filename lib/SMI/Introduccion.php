@@ -35,7 +35,6 @@ class Introduccion extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Introducción al Sistema Metropolitano de Indicadores';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
         $this->fecha                      = '2014-05-15T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'introduccion';
@@ -46,9 +45,6 @@ class Introduccion extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Indicadores > Introducción al SMI';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/SMI/Introduccion.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase Introduccion

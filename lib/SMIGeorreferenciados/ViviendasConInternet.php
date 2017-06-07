@@ -35,13 +35,12 @@ class ViviendasConInternet extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre        = 'Viviendas con Internet';
-        $this->autor         = 'Arq. Jair Miramontes Chávez';
         $this->fecha         = '2015-04-13T08:10';
         // El nombre del archivo a crear
-        $this->archivo       = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
+        $this->archivo       = ''; // No hay archivo HTML a crear, porque es un vínculo
         $this->imagen        = '../sig-mapas-torreon/viviendas-con-internet/imagen.jpg';
         $this->imagen_previa = '../sig-mapas-torreon/viviendas-con-internet/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion   = 'Accesibilidad de Viviendas a Internet.';
         $this->claves        = 'IMPLAN, Torreon, Viviendas, Internet';
         // URL de destino

@@ -42,13 +42,8 @@ class ElPapelDeLaCulturaEnLaCompetitividad extends \Base\PublicacionSchemaBlogPo
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La ZML ocupa el lugar 54 en el ranking nacional por el número de espacios culturales con los que cuenta. Su infraestructura aún es escasa comparada con la de otras ciudades importantes del país.';
         $this->claves                     = 'IMPLAN, Torreon, Cultura, Museos, Bibliotecas';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElPapelDeLaCulturaEnLaCompetitividad.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Cultura');
         $this->fuentes                    = array('Instituto Nacional de Bellas Artes (INBA)');

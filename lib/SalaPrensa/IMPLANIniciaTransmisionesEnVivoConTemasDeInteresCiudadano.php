@@ -35,20 +35,14 @@ class IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano extends \Base\Pu
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN inicia transmisiones en vivo con temas de interés ciudadano';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2017-02-21T14:40';
         // El nombre del archivo a crear
         $this->archivo                    = '2017-02-21-implan-inicia-transmisiones-en-vivo';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Con el fin de dar difusión a los temas que involucran el futuro de la ciudad, el IMPLAN ha iniciado una serie de transmisiones en vivo a través de su página de Facebook.';
         $this->claves                     = 'IMPLAN, Torreon, Tramisiones, En vivo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/IMPLANIniciaTransmisionesEnVivoConTemasDeInteresCiudadano.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

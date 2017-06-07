@@ -33,7 +33,6 @@ class ViveTuAlameda extends \Base\PublicacionSchemaArticle {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Vive Tu Alameda';
-        $this->autor                      = 'Dirección de Proyectos Estratégicos';
         $this->fecha                      = '2016-08-11T13:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'vive-tu-alameda';
@@ -44,9 +43,6 @@ class ViveTuAlameda extends \Base\PublicacionSchemaArticle {
         $this->claves                     = 'IMPLAN, Torreon, Areas Verdes, Sustentabilidad, Alameda';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Participación Ciudadana', 'Recursos Naturales');
         $this->fuentes                    = array();

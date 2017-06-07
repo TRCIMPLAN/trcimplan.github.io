@@ -42,13 +42,8 @@ class AguaRecursoIndispensableParaElDesarrolloDeLaZML extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La región Lagunera opera con un déficit de agua, entendiendo éste como la diferencia entre la cantidad que se explota y la disposición del agua en una situación de equilibrio.';
         $this->claves                     = 'IMPLAN, Torreon, Agua, Recursos';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/AguaRecursoIndispensableParaElDesarrolloDeLaZML.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array('Comisión Nacional del Agua (CONAGUA)');

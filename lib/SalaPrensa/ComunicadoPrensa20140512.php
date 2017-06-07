@@ -42,13 +42,8 @@ class ComunicadoPrensa20140512 extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Precisiones respecto a conferencia de Sam Podolsky.';
         $this->claves                     = 'IMPLAN, Torreon, Competitividad, Gobernanza, Bienestar';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/SalaPrensa/ComunicadoPrensa20140512.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

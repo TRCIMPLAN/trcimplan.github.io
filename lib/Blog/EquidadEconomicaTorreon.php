@@ -42,13 +42,8 @@ class EquidadEconomicaTorreon extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.';
         $this->claves                     = 'IMPLAN, Torreon, Igualdad, Género, Gini, Distribución, Riqueza';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/EquidadEconomicaTorreon.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Macroeconomía', 'Grupos Vulnerables', 'Población');
         $this->fuentes                    = array('CONEVAL', 'INEGI');

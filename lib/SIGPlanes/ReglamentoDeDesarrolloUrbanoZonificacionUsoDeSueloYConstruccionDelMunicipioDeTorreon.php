@@ -33,18 +33,12 @@ class ReglamentoDeDesarrolloUrbanoZonificacionUsoDeSueloYConstruccionDelMunicipi
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                    = 'Reglamento de Desarrollo Urbano Zonificacion Uso de Suelo y Construcción del Municipio de Torreon';
-    //~ $this->autor                     = '';
         $this->fecha                     = '2016-03-30T20:10';
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion               = 'Tiene por objeto aplicar el ordenamiento urbano previsto por el Plan Director de Desarrollo Urbano, estableciendo las atribuciones, procedimientos, sanciones y normas técnicas para regular el desarrollo urbano, zonificación, usos de suelo y construcción de edificaciones.';
         $this->claves                    = 'IMPLAN, Torreón, Reglamento, Desarrollo, Urbano, Usos de suelo';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Infraestructura');
         $this->fuentes                   = array('IMPLAN');
@@ -56,46 +50,6 @@ class ReglamentoDeDesarrolloUrbanoZonificacionUsoDeSueloYConstruccionDelMunicipi
         $this->url                       = 'http://www.trcimplan.gob.mx/sig-planes/reglamento-de-desarrollo-urbano-zonificacion-uso-de-suelo-y-construccion-del-municipio-de-torreon.pdf';
         $this->url_etiqueta              = 'Descargar PDF 8.2 MB';
     } // constructor
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // SIN Contenido
-        $this->contenido = '';
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // SIN JavaScript
-        $this->javascript = '';
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        if ($this->imagen != '') {
-            $this->redifusion   = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
-        } else {
-            $this->redifusion   = $this->descripcion;
-        }
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
 
 } // Clase ReglamentoDeDesarrolloUrbanoZonificacionUsoDeSueloYConstruccionDelMunicipioDeTorreon
 

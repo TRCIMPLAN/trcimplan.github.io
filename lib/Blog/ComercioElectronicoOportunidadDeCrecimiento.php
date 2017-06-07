@@ -42,13 +42,8 @@ class ComercioElectronicoOportunidadDeCrecimiento extends \Base\PublicacionSchem
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En un estudio realizado a 60  micros y pequeñas empresas de Torreón sólo el 5 por ciento utiliza el comercio electrónico y menos del 30 por ciento de esos negocios cuenta con acceso a Internet. Se considera a las ventas en línea como una ventaja competitiva que los comercios podrían empezar a apuntalar.';
         $this->claves                     = 'IMPLAN, Torreon, Comercio, Electronico, Internet, eCommerce';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ComercioElectronicoOportunidadDeCrecimiento.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Empresas', 'Innovación');
         $this->fuentes                    = array('INEGI');

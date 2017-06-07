@@ -31,27 +31,18 @@ class Contacto extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                    = 'Medios de contacto';
-    //  $this->autor                     = '';
-        $this->fecha                     = '2014-05-01T08:00';
+        $this->nombre      = 'Medios de contacto';
+    //  $this->autor       = '';
+        $this->fecha       = '2014-05-01T08:00';
         // El nombre del archivo a crear
-        $this->archivo                   = 'contacto';
+        $this->archivo     = 'contacto';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Datos de contacto como redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
-        $this->claves                    = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
+        $this->descripcion = 'Datos de contacto como redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
+        $this->claves      = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
         // Opción del menú Navegación a poner como activa
-        $this->nombre_menu               = 'Contacto > Medios de contacto';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
-        // Para el Organizador
-        $this->categorias                = array();
-        $this->fuentes                   = array();
-        $this->regiones                  = array();
+        $this->nombre_menu = 'Contacto > Medios de contacto';
         // El contenido es estructurado en un esquema de Organización Gubernamental
-        $this->contenido                 = new \Base\SchemaGovernmentOrganization();
+        $this->contenido   = new \Base\SchemaGovernmentOrganization();
     } // constructor
 
     /**

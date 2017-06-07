@@ -42,13 +42,8 @@ class IndicadoresDeCalidadMundial extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Torreón está en proceso de certificación de la norma ISO 37120:2014 Desarrollo Sostenible de Ciudades por parte del Consejo Mundial de Información de las Ciudades (WCCD). Nuestra ciudad se medirá con los estándares internacionales que buscan elevar la calidad de vida de la población.';
         $this->claves                     = 'IMPLAN, Torreon, Certificacion, Ciudades, WCCD';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/IndicadoresDeCalidadMundial.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar');
         $this->fuentes                    = array('IMCO', 'IMPLAN', 'ONU-Habitat');

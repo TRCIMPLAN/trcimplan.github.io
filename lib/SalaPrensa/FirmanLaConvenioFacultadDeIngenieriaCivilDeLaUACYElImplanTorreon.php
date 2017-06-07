@@ -35,20 +35,14 @@ class FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon extends \
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Firman la Convenio Facultad de Ingeniería Civil de la UAC y el IMPLAN Torreón';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2017-03-27T14:22';
         // El nombre del archivo a crear
         $this->archivo                    = '2017-03-27-firman-la-convenio-facultad-de-ingenieria-civil-de-la-uac-y-el-implan-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Facultad de Ingeniería Civil de la Universidad Autónoma de Coahuila y el IMPLAN Torreón firmaron un convenio de colaboración para que estudiantes realicen prácticas profesionales.';
         $this->claves                     = 'IMPLAN, Torreon, UAC, Convenio, Ingenieria Civil';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/FirmanLaConvenioFacultadDeIngenieriaCivilDeLaUACYElImplanTorreon.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Educación');
         $this->fuentes                    = array();

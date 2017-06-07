@@ -35,20 +35,15 @@ class CLASE extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Título';
-        $this->autor                      = 'Autor'; // Puede ser un arreglo de textos
+        $this->autor                      = 'Autor';
         $this->fecha                      = '2017-00-00T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = 'archivo'; // En minúsculas, sin espacios, use guiones, letras y números
+        $this->archivo                    = 'archivo';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Descripción.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PET/CLASE.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

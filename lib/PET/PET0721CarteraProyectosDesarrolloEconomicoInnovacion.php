@@ -31,22 +31,18 @@ class PET0721CarteraProyectosDesarrolloEconomicoInnovacion extends \Base\Publica
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Cartera de Proyectos: Desarrollo Económico e Innovación';
-     // $this->autor                      = '';
         $this->fecha                      = '2016-10-10T07:21';
         // El nombre del archivo a crear
         $this->archivo                    = 'cartera-proyectos-desarrollo-economico-innovacion';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Cartera de Proyectos: Desarrollo Económico e Innovación.';
         $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, ';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PET/PET0721CarteraProyectosDesarrolloEconomicoInnovacion.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Empleo', 'Empresas', 'Infraestructura', 'Innovación');
         $this->fuentes                    = array();

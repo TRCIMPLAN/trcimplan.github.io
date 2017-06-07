@@ -42,13 +42,8 @@ class MasAreasVerdesProtegerSaludLaguneros extends \Base\PublicacionSchemaBlogPo
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion                = 'Manejar el tema de protección a la salud como punto estratégico en materia de ordenamiento territorial y urbano representa una oportunidad para el desarrollo de la región.';
         $this->claves                     = 'IMPLAN, Torreon, Areas Verdes, Salud, Ordenamiento, Territorial, Urbano';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/MasAreasVerdesProtegerSaludLaguneros.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales', 'Salud');
         $this->fuentes                    = array();

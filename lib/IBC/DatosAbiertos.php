@@ -35,7 +35,6 @@ class DatosAbiertos extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Datos Abiertos de los Indicadores Básicos de Colonias';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
         $this->fecha                      = '2017-05-29T08:20';
         // El nombre del archivo a crear
         $this->archivo                    = 'datos-abiertos';
@@ -46,9 +45,6 @@ class DatosAbiertos extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Indicadores Básicos de Colonias > Datos Abiertos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/IBC/DatosAbiertos.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase DatosAbiertos

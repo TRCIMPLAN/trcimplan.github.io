@@ -374,12 +374,82 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     } // es_contenido_esquema
 
     /**
-     * Definir Color del Encabezado
+     * Definir aparece en página principal
      *
-     * @param String Color
+     * Si NO se ha definido si aparece en página principal, se pasa el definido en Imprenta
+     *
+     * @param boolean Verdadero si aparece en página principal
+     */
+    public function definir_aparece_en_pagina_principal($aparece) {
+        if (!isset($this->aparece_en_pagina_inicial) && is_bool($aparece)) {
+            $this->aparece_en_pagina_inicial = $aparece;
+        }
+    } // definir_aparece_en_pagina_principal
+
+    /**
+     * Definir autor
+     *
+     * Si NO se ha definido el autor, se pasa el definido en Imprenta
+     *
+     * @param string Autor
+     */
+    public function definir_autor($autor) {
+        if (!isset($this->autor) && (is_string($autor) || is_array($autor))) {
+            $this->autor = $autor;
+            if (is_object($this->contenido) && ($this->contenido instanceof SchemaCreativeWork)) {
+                $this->contenido->author = $autor;
+            }
+        }
+    } // definir_autor
+
+    /**
+     * Definir claves
+     *
+     * Si NO se han definido las claves, se pasan las definidas en Imprenta
+     *
+     * @param string Claves
+     */
+    public function definir_claves($claves) {
+        if (!isset($this->claves) && is_string($claves) && ($claves != '')) {
+            $this->claves = $claves;
+        }
+    } // definir_claves
+
+    /**
+     * Definir directorio
+     *
+     * Si NO se han definido el directorio, se pasa el definido en Imprenta
+     *
+     * @param string Directorio
+     */
+    public function definir_directorio($dir) {
+        if (!isset($this->directorio) && is_string($dir) && ($dir != '')) {
+            $this->directorio = $dir;
+        }
+    } // definir_directorio
+
+    /**
+     * Definir encabezado
+     *
+     * Si NO se ha definido el encabezado, se pasa el definido en Imprenta
+     *
+     * @param string Código HTML para el encabezado
+     */
+    public function definir_encabezado($encabezado) {
+        if (!isset($this->encabezado) && is_string($encabezado) && ($encabezado != '')) {
+            $this->encabezado = $encabezado;
+        }
+    } // definir_encabezado
+
+    /**
+     * Definir color del encabezado
+     *
+     * Si NO se ha definido el color del encabezado, se pasa el definido en Imprenta
+     *
+     * @param string Color del encabezado
      */
     public function definir_encabezado_color($color) {
-        if ($this->encabezado_color == '') {
+        if (!isset($this->encabezado_color) && is_string($color) && ($color != '')) {
             $this->encabezado_color = $color;
             if (is_object($this->contenido) && ($this->contenido instanceof SchemaCreativeWork)) {
                 $this->contenido->headline_style = $color;
@@ -390,10 +460,12 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     /**
      * Definir ícono del encabezado
      *
-     * @param String Icono
+     * Si NO se ha definido el ícono del encabezado, se pasa el definido en Imprenta
+     *
+     * @param string ícono del encabezado
      */
     public function definir_encabezado_icono($icono) {
-        if ($this->icono == '') {
+        if (!isset($this->icono) && is_string($icono) && ($icono != '')) {
             $this->icono = $icono;
             if (is_object($this->contenido) && ($this->contenido instanceof SchemaCreativeWork)) {
                 $this->contenido->headline_icon = $icono;
@@ -402,66 +474,101 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     } // definir_encabezado_icono
 
     /**
-     * Definir encabezado
+     * Definir imagen
      *
-     * @param String Código HTML para el encabezado
+     * Si NO se ha definido la imagen, se pasa la definida en Imprenta
+     *
+     * @param string Imagen
      */
-    public function definir_encabezado($encabezado) {
-        if ($this->encabezado == '') {
-            $this->encabezado = $encabezado;
+    public function definir_imagen($imagen) {
+        if (!isset($this->imagen) && is_string($imagen) && ($imagen != '')) {
+            $this->imagen = $imagen;
+            if (is_object($this->contenido) && ($this->contenido instanceof SchemaThing)) {
+                $this->contenido->image = $imagen;
+            }
         }
-    } // definir_encabezado
+    } // definir_imagen
 
     /**
-     * Definir claves
+     * Definir imagen previa
      *
-     * @param String Claves
+     * Si NO se ha definido la imagen previa, se pasa la definida en Imprenta
+     *
+     * @param string Imagen previa
      */
-    public function definir_claves($claves) {
-        if ($this->claves == '') {
-            $this->claves = $claves;
+    public function definir_imagen_previa($imagen_previa) {
+        if (!isset($this->imagen_previa) && is_string($imagen_previa) && ($imagen_previa != '')) {
+            $this->imagen_previa = $imagen_previa;
         }
-    } // definir_claves
+    } // definir_imagen_previa
 
     /**
-     * Definir directorio
+     * Definir nivel de la imprenta
      *
-     * @param String Directorio
+     * Si NO se han definido el nivel, se pasa el definido en Imprenta
+     *
+     * @param integer Nivel
      */
-    public function definir_directorio($dir) {
-        if ($this->directorio == '') {
-            $this->directorio = $dir;
+    public function definir_imprenta_nivel($nivel) {
+        if (!isset($this->imprenta_nivel) && is_integer($nivel)) {
+            $this->imprenta_nivel = $nivel;
         }
-    } // definir_directorio
+    } // definir_imprenta_nivel
+
+    /**
+     * Definir título de la imprenta
+     *
+     * Si NO se han definido el título, se pasa el definido en Imprenta
+     *
+     * @param string Título
+     */
+    public function definir_imprenta_titulo($titulo) {
+        if (!isset($this->imprenta_titulo) && is_string($titulo) && ($titulo != '')) {
+            $this->imprenta_titulo = $titulo;
+        }
+    } // definir_imprenta_titulo
 
     /**
      * Definir nombre menu
      *
-     * @param String Nombre del menú activo
+     * Si NO se han definido la opción activa del menú de navegación, se pasa el definido en Imprenta
+     *
+     * @param string Nombre de la opción activa del menú de navegación
      */
     public function definir_nombre_menu($nombre_menu) {
-        if ($this->nombre_menu == '') {
+        if (!isset($this->nombre_menu) && is_string($nombre_menu) && ($nombre_menu != '')) {
             $this->nombre_menu = $nombre_menu;
         }
     } // definir_nombre_menu
 
     /**
-     * Definir título de la imprenta
+     * Definir para compartir
      *
-     * @param string Título de la imprenta
+     * Si NO se ha definido la bandera para compartir, se pasa la definida en Imprenta
+     *
+     * @param boolean Para compartir
      */
-    public function definir_imprenta_titulo($titulo) {
-        $this->imprenta_titulo = $titulo;
-    } // definir_imprenta_titulo
+    public function definir_para_compartir($compartir) {
+        if (!isset($this->para_compartir) && is_bool($compartir)) {
+            $this->para_compartir = $compartir;
+        }
+    } // definir_para_compartir
 
     /**
-     * Definir nivel de la imprenta
+     * Definir poner imagen en contenido
      *
-     * @param integer Nivel de la imprenta
+     * Si NO se ha definido la bandera para poner la imagen en el contenido, se pasa la definida en Imprenta
+     *
+     * @param boolean Poner imagen en contenido
      */
-    public function definir_imprenta_nivel($nivel) {
-        $this->imprenta_nivel = $nivel;
-    } // definir_imprenta_nivel
+    public function definir_poner_imagen_en_contenido($poner) {
+        if (!isset($this->poner_imagen_en_contenido) && is_bool($poner)) {
+            $this->poner_imagen_en_contenido = $poner;
+            if (is_object($this->contenido) && ($this->contenido instanceof SchemaThing)) {
+                $this->contenido->image_show = $poner;
+            }
+        }
+    } // definir_poner_imagen_en_contenido
 
     /**
      * HTML

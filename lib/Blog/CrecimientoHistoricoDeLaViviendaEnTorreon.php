@@ -42,13 +42,8 @@ class CrecimientoHistoricoDeLaViviendaEnTorreon extends \Base\PublicacionSchemaB
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El crecimiento disperso de la vivienda ha permitido que surjan conjuntos habitacionales alejados de los centros urbanos donde se encuentran los puntos de trabajo, educación y recreación.  Carecen de equipamientos de espacios públicos, servicios de abasto, de educación, de salud y recreación.';
         $this->claves                     = 'IMPLAN, Torreon, Crecimiento, Vivienda, Habitacional';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CrecimientoHistoricoDeLaViviendaEnTorreon.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Movilidad', 'Vialidad', 'Vivienda');
         $this->fuentes                    = array('IMPLAN');

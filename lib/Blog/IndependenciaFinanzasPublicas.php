@@ -42,13 +42,8 @@ class IndependenciaFinanzasPublicas extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.';
         $this->claves                     = 'IMPLAN, Torreon, Ingresos, Capacidad Financiera';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/IndependenciaFinanzasPublicas.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Finanzas Públicas', 'Gobierno');
         $this->fuentes                    = array('Elaboración propia con datos obtenidos del INEGI', 'INEGI');

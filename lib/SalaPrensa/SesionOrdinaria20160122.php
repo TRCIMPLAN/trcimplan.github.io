@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - SesionOrdinaria20160122
+ * TrcIMPLAN Sitio Web - SesionOrdinaria20160122
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -42,13 +42,8 @@ class SesionOrdinaria20160122 extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Instituto Municipal de Planeación y Competitividad de Torreón llevó a cabo la Primera Sesión Ordinaria de su Consejo Directivo en 2016.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20160122.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

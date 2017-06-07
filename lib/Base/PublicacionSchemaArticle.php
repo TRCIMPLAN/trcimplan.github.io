@@ -102,22 +102,22 @@ class PublicacionSchemaArticle extends Publicacion {
         }
         // Si no está definida imagen
         if ($this->imagen == '') {
-            // Si existe una imagen jpg
+            // Si existe un archivo de imagen JPG
             if (file_exists("{$this->directorio}/{$this->archivo}/imagen.jpg")) {
                 $this->imagen = "{$this->archivo}/imagen.jpg";
             }
-            // Si existe una imagen png
+            // Si existe un archivo de imagen PNG
             if (file_exists("{$this->directorio}/{$this->archivo}/imagen.png")) {
                 $this->imagen = "{$this->archivo}/imagen.png";
             }
         }
         // Si no está definida imagen previa
         if ($this->imagen_previa == '') {
-            // Si existe una imagen previa jpg
+            // Si existe un archivo de imagen previa JPG
             if (file_exists("{$this->directorio}/{$this->archivo}/imagen-previa.jpg")) {
                 $this->imagen_previa = "{$this->archivo}/imagen-previa.jpg";
             }
-            // Si existe una imagen previapng
+            // Si existe un archivo de imagen previa PNG
             if (file_exists("{$this->directorio}/{$this->archivo}/imagen-previa.png")) {
                 $this->imagen_previa = "{$this->archivo}/imagen-previa.png";
             }
@@ -129,6 +129,7 @@ class PublicacionSchemaArticle extends Publicacion {
         $schema->datePublished = $this->fecha;
         $schema->image         = $this->imagen;
         $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
     //  $schema->articleBody   = ; // En el método html de Publicación será procesado
         if ($this->publisher instanceof SchemaOrganization) {
             $schema->publisher = $this->publisher;

@@ -42,13 +42,8 @@ class ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna extends \Base\Publicacion
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La participación económica de la industria automotriz en la Comarca Lagunera ha crecido aceleradamente, tan sólo en Torreón el personal ocupado en las distintas ramas de este sector representa más de 20% del empleo total del municipio.';
         $this->claves                     = 'IMPLAN, Torreon, Industria Automotriz, La Laguna';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empleo', 'Empresas',);
         $this->fuentes                    = array('INEGI');

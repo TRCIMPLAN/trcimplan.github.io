@@ -37,7 +37,6 @@ class AlumbradoPublico extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Avance de Reconversión Tecnológica Led del Alumbrado Público';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2014-09-08T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'alumbrado-publico';
@@ -49,11 +48,6 @@ class AlumbradoPublico extends \Base\Publicacion {
         $this->claves                     = 'IMPLAN, Torreon, Alumbrado, Reconversión, SIG, GIS';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Información Geográfica > Mapas de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
         // El contenido es una instancia SchemaCreativeWork
         $this->contenido                  = new \Base\SchemaCreativeWork();
     } // constructor

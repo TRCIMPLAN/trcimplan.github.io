@@ -31,9 +31,10 @@ class DatosAbiertos extends \Base\PublicacionSchemaArticle {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Datos Abiertos del Sistema Metropolitano de Indicadores';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
         $this->fecha                      = '2015-11-08T23:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'datos-abiertos';
@@ -44,9 +45,6 @@ class DatosAbiertos extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Indicadores > Datos Abiertos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SMI/DatosAbiertos.md';
-        // Banderas que pueden tener un valor por defecto en \Configuracion\PublicacionConfig
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = true;
     } // constructor
 
 } // Clase DatosAbiertos

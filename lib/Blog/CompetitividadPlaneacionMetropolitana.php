@@ -42,13 +42,8 @@ class CompetitividadPlaneacionMetropolitana extends \Base\PublicacionSchemaBlogP
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.';
         $this->claves                     = 'IMPLAN, Torreon, Competitividad, La Laguna';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html     = 'lib/Blog/CompetitividadPlaneacionMetropolitana.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Competitividad', 'Cultura', 'Gobierno', 'Recursos Naturales');
         $this->fuentes                    = array('IMCO');

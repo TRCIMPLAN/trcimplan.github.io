@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Presentan evaluación del impacto social y urbano de Ciudad DIF
+ * TrcIMPLAN Sitio Web - Presentan evaluación del impacto social y urbano de Ciudad DIF
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -42,13 +42,8 @@ class SesionOrdinaria20160831 extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Octava Sesión Ordinaria del Consejo Directivo del IMPLAN Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20160831.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Grupos Vulnerables');
         $this->fuentes                    = array();

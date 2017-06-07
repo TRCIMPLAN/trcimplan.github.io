@@ -42,13 +42,8 @@ class BicimetroInnovacionTransporteUrbano extends \Base\PublicacionSchemaBlogPos
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación.';
         $this->claves                     = 'IMPLAN, Torreon, Bicicleta, Transporte';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/BicimetroInnovacionTransporteUrbano.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Transporte', 'Movilidad', 'Infraestructura');
         $this->fuentes                    = array('Instituto Tecnológico de Massachussets (MIT)');

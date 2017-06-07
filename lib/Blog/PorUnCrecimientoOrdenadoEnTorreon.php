@@ -42,13 +42,8 @@ class PorUnCrecimientoOrdenadoEnTorreon extends \Base\PublicacionSchemaBlogPosti
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Plan de Desarrollo Urbano propone la figura de los Polígonos de Actuación, para que la ciudad transite hacia un modelo de desarrollo urbano sustentable, integral e inteligente.';
         $this->claves                     = 'IMPLAN, Torreon, Plan, Desarrollo, Urbano';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PorUnCrecimientoOrdenadoEnTorreon.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura');
         $this->fuentes                    = array('IMPLAN');

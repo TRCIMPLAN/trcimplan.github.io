@@ -42,13 +42,8 @@ class CompetenciasEnLenguajeYMatematicasEnLosEstudiantesDeLaComarcaParte1 extend
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Contextualización de la prueba PLANEA, cuestiones metodológicas y la forma de organizar la información, así como los resultados generales de primaria con la intención de ir adentrándonos en los números.';
         $this->claves                     = 'IMPLAN, Torreon, PLANEA, Competencias, Lenguaje, Matematicas, Estudiantes';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CompetenciasEnLenguajeYMatematicasEnLosEstudiantesDeLaComarcaParte1.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Educación');
         $this->fuentes                    = array('Instituto Nacional para la Evaluación de la Educación (INEE)', 'SEP');

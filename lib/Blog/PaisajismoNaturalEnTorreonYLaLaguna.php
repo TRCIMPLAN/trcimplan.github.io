@@ -42,13 +42,8 @@ class PaisajismoNaturalEnTorreonYLaLaguna extends \Base\PublicacionSchemaBlogPos
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Contar con una imagen urbana paisajista, permite al habitante de la ciudad tener un elemento de identidad reconociendo su relevancia natural y cultural. En Torreón es necesario continuar con la rehabilitación de áreas verdes.';
         $this->claves                     = 'IMPLAN, Torreon, Imagen, Urbana, Paisaje, Natural';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PaisajismoNaturalEnTorreonYLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array('IMPLAN', 'INEGI', 'Organización Mundial de la Salud (OMS)');

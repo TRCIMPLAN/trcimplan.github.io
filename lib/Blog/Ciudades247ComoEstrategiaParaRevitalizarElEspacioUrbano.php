@@ -42,13 +42,10 @@ class Ciudades247ComoEstrategiaParaRevitalizarElEspacioUrbano extends \Base\Publ
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El reto para nuestras ciudades está en desarrollar políticas que humanicen y promuevan la noche como un espacio social positivo y menos restringido.';
         $this->claves                     = 'IMPLAN, Torreon, Espacios, Urbanos, Sociales, Vida, Nocturna, Empleo, Cultura';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/Ciudades247ComoEstrategiaParaRevitalizarElEspacioUrbano.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Cultura', 'Empleo');
         $this->fuentes                    = array();

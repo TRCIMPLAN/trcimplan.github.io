@@ -35,20 +35,14 @@ class PlanEstrategicoMetropolitanoMovilidadNoMotorizada extends \Base\Publicacio
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN Torreón impulsa la creación del Plan de Movilidad no Motorizada';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-08-13T14:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-08-13-plan-estrategico-metropolitano-movilidad-no-motorizada';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Integrantes de colectivos ciclistas, autoridades municipales, ciudadanos y profesionistas especializados en el tema se reunirán para elaborar una visión, objetivos, metas y estrategias a mediano y largo plazo que conduzcan a elevar la calidad de vida de los peatones y ciclistas en nuestra región.';
         $this->claves                     = 'IMPLAN, Torreon, Movilidad, No Motorizada, Ciclistas, Peatones, Vialidad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/PlanEstrategicoMetropolitanoMovilidadNoMotorizada.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Movilidad');
         $this->fuentes                    = array();

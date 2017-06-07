@@ -33,7 +33,6 @@ class AireParaTodos extends \Base\PublicacionSchemaArticle {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Aire Para Todos';
-        $this->autor                      = 'Dirección de Proyectos Estratégicos';
         $this->fecha                      = '2016-08-18T11:05';
         // El nombre del archivo a crear
         $this->archivo                    = 'aire-para-todos';
@@ -46,9 +45,6 @@ class AireParaTodos extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Proyectos/AireParaTodos.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Participación Ciudadana', 'Recursos Naturales');
         $this->fuentes                    = array();

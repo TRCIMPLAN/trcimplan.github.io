@@ -41,14 +41,13 @@ class CLASE extends \Base\PublicacionSchemaArticle {
         $this->archivo                    = 'archivo'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Descripción.';
-        $this->claves                     = 'Clave1, Clave2, Clave3';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Menú > Submenú';
+        $this->claves                     = 'IMPLAN, Torreon, ';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/DIRECTORIO/CLASE.md';
         // Ruta al archivo HTML con el contenido
-     // $this->contenido_archivo_html     = 'lib/DIRECTORIO/CLASE.html';
+    //~ $this->contenido_archivo_html     = 'lib/DIRECTORIO/CLASE.html';
         // Banderas
+        $this->aparece_en_pagina_inicial  = TRUE;
         $this->poner_imagen_en_contenido  = TRUE;
         $this->para_compartir             = TRUE;
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
@@ -56,7 +55,7 @@ class CLASE extends \Base\PublicacionSchemaArticle {
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array();
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase CLASE

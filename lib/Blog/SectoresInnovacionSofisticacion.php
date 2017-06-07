@@ -42,13 +42,8 @@ class SectoresInnovacionSofisticacion extends \Base\PublicacionSchemaBlogPosting
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Análisis de los indicadores relativos a la innovación.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Innovacion';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/SectoresInnovacionSofisticacion.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Innovación', 'Empresas');
         $this->fuentes                    = array();

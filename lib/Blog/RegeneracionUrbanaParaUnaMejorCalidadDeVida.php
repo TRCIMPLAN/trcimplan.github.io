@@ -42,13 +42,10 @@ class RegeneracionUrbanaParaUnaMejorCalidadDeVida extends \Base\PublicacionSchem
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La regeneración implica recuperar la funcionalidad y la revitalización de la trama urbana del municipio, para lograr el modelo de ciudad sostenible que en la actualidad se quiere alcanzar.';
         $this->claves                     = 'IMPLAN, Torreon, Regeneracion, Urbana';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/RegeneracionUrbanaParaUnaMejorCalidadDeVida.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Cultura', 'Infraestructura');
         $this->fuentes                    = array();

@@ -33,7 +33,6 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\PublicacionSchemaArticl
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Plan Estratégico de Drenaje Pluvial de Torreón';
-        $this->autor                      = 'Dirección de Proyectos Estratégicos';
         $this->fecha                      = '2016-08-04T14:30';
         // El nombre del archivo a crear
         $this->archivo                    = 'plan-estrategico-drenaje-pluvial-torreon';
@@ -44,9 +43,6 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\PublicacionSchemaArticl
         $this->claves                     = 'IMPLAN, Torreon, Drenaje, Pluvial';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura');
         $this->fuentes                    = array();

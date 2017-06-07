@@ -35,7 +35,6 @@ class CatalogoConceptos extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Catálogo de Conceptos';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
         $this->fecha                      = '2017-05-29T08:10';
         // El nombre del archivo a crear
         $this->archivo                    = 'catalogo-conceptos';
@@ -46,9 +45,6 @@ class CatalogoConceptos extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Indicadores Básicos de Colonias > Catálogo de Conceptos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/IBC/CatalogoConceptos.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase CatalogoConceptos

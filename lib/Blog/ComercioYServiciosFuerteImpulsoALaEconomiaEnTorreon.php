@@ -42,13 +42,8 @@ class ComercioYServiciosFuerteImpulsoALaEconomiaEnTorreon extends \Base\Publicac
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Durante los primeros tres trimestres de 2016 se han registrado 1,735 empresas en la ventanilla universal del Municipio de Torreón, con una inversión estimada de más de 500 millones de pesos y más de 10,000 empleos. El sector terciario fue el principal receptor de inversión en el tercer trimestre.';
         $this->claves                     = 'IMPLAN, Torreon, Comercio, Servicios, Economia';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ComercioYServiciosFuerteImpulsoALaEconomiaEnTorreon.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empleo', 'Empresas');
         $this->fuentes                    = array('IMSS', 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón');

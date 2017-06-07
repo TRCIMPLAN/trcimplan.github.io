@@ -42,13 +42,8 @@ class CarrerasUniversitariasConMasDemandaEnLaLaguna extends \Base\PublicacionSch
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Las carreras que más demandan los jóvenes laguneros son las de Ciencias Sociales, Administración y Derecho, seguido por las Ingenierías, Manufacturas y Construcción. En tercero, la carrera de Educación.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/CarrerasUniversitariasConMasDemandaEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Educación');
         $this->fuentes                    = array('CIDAC', 'IMPLAN', 'ANUIES');

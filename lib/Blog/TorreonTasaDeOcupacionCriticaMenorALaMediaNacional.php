@@ -42,13 +42,8 @@ class TorreonTasaDeOcupacionCriticaMenorALaMediaNacional extends \Base\Publicaci
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En los últimos años ha aumentado la Tasa de Condiciones Críticas de Ocupación en la Comarca Lagunera. No obstante, Torreón se encuentra por debajo de la tasa estatal y nacional con un 8% del total del personal ocupado. Las personas que más se enfrentan a esta problemática cuentan con menor escolaridad.';
         $this->claves                     = 'IMPLAN, Torreon, Tasa, ocupacion, Trabajo, Trabajadores';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonTasaDeOcupacionCriticaMenorALaMediaNacional.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Empleo');
         $this->fuentes                    = array('INEGI');

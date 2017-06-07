@@ -35,20 +35,16 @@ class ComunicadoPrensa20150318 extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Comunicado de Prensa 18.3.15';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-03-18T17:30';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-03-18-comunicado-prensa';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El 18 de marzo de 2015 fue aprobado el decreto de creación del IMPLAN Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Congreso, Coahuila, Creacion';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/ComunicadoPrensa20150318.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno');
         $this->fuentes                    = array();

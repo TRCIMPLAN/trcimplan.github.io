@@ -42,13 +42,8 @@ class ViviendaSocialYViolenciaIntrafamiliar extends \Base\PublicacionSchemaBlogP
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En la medida en que los espacios habitacionales no sean lo suficientemente amplios, se genera una alta probabilidad de que la violencia aparezca.';
         $this->claves                     = 'IMPLAN, Torreon, Vivienda, Social, Violencia, Intrafamiliar, Espacio, Habitacional';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ViviendaSocialYViolenciaIntrafamiliar.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Delincuencia', 'Seguridad', 'Vivienda');
         $this->fuentes                    = array();

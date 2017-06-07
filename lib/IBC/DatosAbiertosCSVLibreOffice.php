@@ -35,7 +35,6 @@ class DatosAbiertosCSVLibreOffice extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Pasos para importar el CSV a LibreOffice';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
         $this->fecha                      = '2017-05-29T08:30';
         // El nombre del archivo a crear
         $this->archivo                    = 'datos-abiertos-csv-libreoffice';
@@ -46,9 +45,6 @@ class DatosAbiertosCSVLibreOffice extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Indicadores Básicos de Colonias > Datos Abiertos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/IBC/DatosAbiertosCSVLibreOffice.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase DatosAbiertosCSVLibreOffice

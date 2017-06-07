@@ -35,10 +35,9 @@ class ViviendasConAguaRedPublica extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre        = 'Viviendas con Agua de la Red Pública';
-        $this->autor         = 'Arq. Jair Miramontes Chávez';
         $this->fecha         = '2015-04-13T08:10';
         // El nombre del archivo a crear
-        $this->archivo       = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
+        $this->archivo       = ''; // No hay archivo HTML a crear, porque es un vínculo
         $this->imagen        = '../sig-mapas-torreon/viviendas-con-agua-red-publica/imagen.jpg';
         $this->imagen_previa = '../sig-mapas-torreon/viviendas-con-agua-red-publica/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales

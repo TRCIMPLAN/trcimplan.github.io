@@ -42,13 +42,8 @@ class ZMLSistemaDerechoConfiableObjetivo extends \Base\PublicacionSchemaBlogPost
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'De acuerdo al ICU 2012, es el subíndice más débil de la región; algunos de sus subíndices ponderados con alto peso por el IMCO corresponden a rubros de seguridad pública.';
         $this->claves                     = 'IMPLAN, Torreon, Seguridad, Robo, Vehiculos, Notarios';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/ZMLSistemaDerechoConfiableObjetivo.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Seguridad');
         $this->fuentes                    = array();

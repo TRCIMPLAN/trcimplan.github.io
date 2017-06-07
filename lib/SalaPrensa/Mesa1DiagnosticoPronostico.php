@@ -35,20 +35,14 @@ class Mesa1DiagnosticoPronostico extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Plan Estratégico Metropolitano, Mesa 1: Diagnóstico - Pronóstico';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2014-10-16T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2014-10-16-mesa-1-diagnostico-pronostico';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El pasado 9 de octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves                     = 'IMPLAN, Torreon, Plan, Estrategico, Metropolitano, Mesa 1, Diagnostico, Pronostico';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/SalaPrensa/Mesa1DiagnosticoPronostico.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

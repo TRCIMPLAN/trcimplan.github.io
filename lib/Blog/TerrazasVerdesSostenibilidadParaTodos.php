@@ -42,13 +42,8 @@ class TerrazasVerdesSostenibilidadParaTodos extends \Base\PublicacionSchemaBlogP
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Debido que Torreón es una ciudad semidesértica de clima extremoso no lluvioso y con pocas extensiones de áreas verdes, es importante tomar en cuenta esta estrategia de espacios verdes que pueden ser aprovechados para pasar un tiempo agradable en familia.';
         $this->claves                     = 'IMPLAN, Torreon, Terrazas, Verdes, Sustentable';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TerrazasVerdesSostenibilidadParaTodos.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array();

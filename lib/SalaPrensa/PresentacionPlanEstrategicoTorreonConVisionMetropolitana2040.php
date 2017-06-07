@@ -42,13 +42,8 @@ class PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040 extends \Base
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El IMPLAN Torreón, llevó a cabo este martes la presentación del Plan Estratégico para Torreón Enfoque Metropolitano (TRC2040), en las instalaciones del ITESM Campus Laguna, con la asistencia de más de 200 personas, entre los que se encontraron ciudadanos representantes de distintos sectores de la sociedad, así como funcionarios públicos.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

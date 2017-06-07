@@ -35,20 +35,14 @@ class ProyectosParaTenerUnTorreonAtractivoParaLaInversion extends \Base\Publicac
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Proyectos para tener un Torreón atractivo para la inversión';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2017-01-19T11:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2017-01-19-proyectos-para-tener-un-torreon-atractivo-para-la-inversion';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El IMPLAN Torreón presentó ante el Cabildo los avances en los distintos ejes en los que ha trabajado el Instituto.';
         $this->claves                     = 'IMPLAN, Torreon, Inversiones, Atraer';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/ProyectosParaTenerUnTorreonAtractivoParaLaInversion.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empresas');
         $this->fuentes                    = array();

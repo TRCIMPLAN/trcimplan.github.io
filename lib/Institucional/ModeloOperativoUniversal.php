@@ -35,7 +35,6 @@ class ModeloOperativoUniversal extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Propuesta de Modelo Operativo Universal';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2016-08-19T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'modelo-operativo-universal';
@@ -44,17 +43,12 @@ class ModeloOperativoUniversal extends \Base\Publicacion {
         $this->claves                     = 'IMPLAN, Torreon, Modelo Operativo Universal';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Institucional > Modelo Operativo Univ.';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
         // El contenido es estructurado en un esquema
         $schema                           = new \Base\SchemaArticle();
         $schema->name                     = $this->nombre;
         $schema->description              = $this->descripcion;
         $schema->datePublished            = $this->fecha;
-        $schema->image                    = $this->imagen;
+    //~ $schema->image                    = $this->imagen;
         $schema->image_show               = $this->poner_imagen_en_contenido;
         $schema->author                   = $this->autor;
         // El contenido es una instancia de SchemaArticle

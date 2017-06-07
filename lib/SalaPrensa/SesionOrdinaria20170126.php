@@ -35,20 +35,15 @@ class SesionOrdinaria20170126 extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Presentan la Plataforma del Conocimiento trcimplan.gob.mx';
-    //~ $this->autor                      = '';
+        $this->autor                      = 'Lic. Adriana Vargas Flores';
         $this->fecha                      = '2017-01-26T11:30';
         // El nombre del archivo a crear
         $this->archivo                    = '2017-01-26-sesion-ordinaria';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El IMPLAN Torreón llevó a cabo su primera sesión de Consejo Directivo de 2017, con el fin de presentar a los consejeros y asistentes cómo pueden utilizar la Plataforma del Conocimiento.';
         $this->claves                     = 'IMPLAN, Torreon, Plataforma, Sitio Web, Conocimiento';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20170126.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Innovación');
         $this->fuentes                    = array();

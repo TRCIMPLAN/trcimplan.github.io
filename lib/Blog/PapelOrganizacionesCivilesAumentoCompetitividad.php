@@ -42,13 +42,8 @@ class PapelOrganizacionesCivilesAumentoCompetitividad extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En toda ciudad, estado o país debe haber sinergia entre ciudadanos, asociaciones civiles y empresas para definir programas a largo plazo que mejoren la calidad y el bienestar de todos nosotros.';
         $this->claves                     = 'IMPLAN, Torreon, Organizaciones, Civiles, Empresas, Programas, Bienestar';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PapelOrganizacionesCivilesAumentoCompetitividad.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Competitividad', 'Educación');
         $this->fuentes                    = array();

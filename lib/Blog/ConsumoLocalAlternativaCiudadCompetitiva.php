@@ -42,13 +42,8 @@ class ConsumoLocalAlternativaCiudadCompetitiva extends \Base\PublicacionSchemaBl
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El consumo local es una herramienta coherente para el desarrollo equitativo de la sociedad; en el cual, sabemos de donde vienen los materiales, sabemos quienes son las personas que lo fabrican y quienes lo venden.';
         $this->claves                     = 'IMPLAN, Torreon';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ConsumoLocalAlternativaCiudadCompetitiva.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad');
         $this->fuentes                    = array();

@@ -42,13 +42,10 @@ class PorUnAdecuadoManejoDelAguaEnAreasVerdes extends \Base\PublicacionSchemaBlo
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Estrategias específicas para las áreas verdes de la región que tienen en cuenta el uso moderado del agua.';
         $this->claves                     = 'IMPLAN, Torreon, La Laguna, Areas Verdes, Agua, Riego';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PorUnAdecuadoManejoDelAguaEnAreasVerdes.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Recursos Naturales');
         $this->fuentes                    = array('Comisión Nacional del Agua (CONAGUA)');

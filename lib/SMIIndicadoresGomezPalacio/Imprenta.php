@@ -32,20 +32,25 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
-        $this->publicaciones_directorio = 'SMIIndicadoresGomezPalacio';
+        $this->publicaciones_directorio  = 'SMIIndicadoresGomezPalacio';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Indicadores de Gómez Palacio';
-        $this->descripcion              = 'Sistema Metropolitano de Indicadores, Región Gómez Palacio.';
-        $this->claves                   = 'IMPLAN, SMI, Indicadores, Metropolitanos, Gómez Palacio';
-    //~ $this->encabezado_color         = '';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu              = 'Indicadores > Indicadores por Región';
+        $this->titulo                    = 'Indicadores de Gómez Palacio';
+        $this->descripcion               = 'Sistema Metropolitano de Indicadores, Región Gómez Palacio.';
+        $this->claves                    = 'IMPLAN, SMI, Indicadores, Metropolitanos, Gómez Palacio';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = TRUE;
+        $this->autor                     = 'Dirección de Investigación Estratégica';
+        $this->para_compartir            = TRUE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Indicadores > Indicadores por Región';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasListadoAlfabetico';
+        $this->indices_paginas           = '\\Base\\PaginasListadoAlfabetico';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'indicadores-gomez-palacio';
+        $this->directorio                = 'indicadores-gomez-palacio';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser un entero grande
-        $this->nivel                    = 20111;
+        $this->nivel                     = 20111;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

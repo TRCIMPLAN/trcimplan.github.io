@@ -42,13 +42,10 @@ class LaImportanciaDeLaImagenUrbanaEnTorreon extends \Base\PublicacionSchemaBlog
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El deterioro de la imagen urbana, principalmente en el perímetro del Centro Histórico, se debe en buena medida a la irregularidad de los anuncios que los comerciantes ubican en la fachadas de sus negocios. Se deben aplicar mayores reglas para armonizar el diseño de la ciudad.';
         $this->claves                     = 'IMPLAN, Torreon, Imagen, Urbana, Centro, Historico, Publicidad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaImportanciaDeLaImagenUrbanaEnTorreon.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno', 'Infraestructura');
         $this->fuentes                    = array('IMPLAN');

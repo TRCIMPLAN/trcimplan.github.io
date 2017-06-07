@@ -32,20 +32,25 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
-        $this->publicaciones_directorio = 'IBCColoniasTorreon';
+        $this->publicaciones_directorio  = 'IBCColoniasTorreon';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
-        $this->titulo                   = 'Colonias de Torreón';
-        $this->descripcion              = 'Indicadores Básicos de Colonias de Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                   = 'IMPLAN, Torreon, Indicadores, Colonias, Torreón';
-    //~ $this->encabezado_color         = '';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu              = 'Indicadores Básicos de Colonias > Colonias de Torreón';
+        $this->titulo                    = 'Colonias de Torreón';
+        $this->descripcion               = 'Indicadores Básicos de Colonias de Torreón, Coahuila de Zaragoza, México.';
+        $this->claves                    = 'IMPLAN, Torreon, Indicadores, Colonias, Torreón';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = TRUE;
+        $this->autor                     = 'Dirección de Investigación Estratégica';
+        $this->para_compartir            = TRUE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Indicadores Básicos de Colonias > Colonias de Torreón';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasListadoAlfabetico';
+        $this->indices_paginas           = '\\Base\\PaginasListadoAlfabetico';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'ibc-colonias-torreon';
+        $this->directorio                = 'ibc-colonias-torreon';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser un entero grande
-        $this->nivel                    = 80000;
+        $this->nivel                     = 80000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

@@ -42,13 +42,8 @@ class PrincipalesEnfermedadesEnLaLagunaYCausasDeDefuncion extends \Base\Publicac
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Las enfermedades más comunes en Coahuila y la Jurisdicción Sanitaria correspondiente a Torreón, Matamoros y Viesca, son las infecciones respiratorias e intestinales que suman más del 80 % de los casos. En las causas de defunción las principales son las afecciones cardiacas y en segundo lugar la diabetes.';
         $this->claves                     = 'IMPLAN, Torreon, Enfermedades, Coahuila, Defunciones';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PrincipalesEnfermedadesEnLaLagunaYCausasDeDefuncion.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Salud');
         $this->fuentes                    = array('IMSS Subdelegación Torreón');

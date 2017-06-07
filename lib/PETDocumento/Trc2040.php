@@ -32,7 +32,6 @@ class Trc2040 extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre           = 'Plan Estratégico Torreón con Enfoque Metropolitano 2040';
-     // $this->autor            = '';
         $this->fecha            = '2016-10-06T16:10';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo          = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga

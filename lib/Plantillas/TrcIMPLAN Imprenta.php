@@ -32,20 +32,26 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
-        $this->publicaciones_directorio = 'DIRECTORIO';
+        $this->publicaciones_directorio  = 'DIRECTORIO';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Título';
-        $this->descripcion              = 'Descripción.';
-        $this->claves                   = 'Clave1, Clave2, Clave3';
-        $this->encabezado_color         = '#FFFFFF';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu              = 'Menú > Submenú';
+        $this->titulo                    = 'Título';
+        $this->descripcion               = 'Descripción.';
+        $this->claves                    = 'Clave1, Clave2, Clave3';
+    //~ $this->encabezado_color          = '#FFFFFF';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+    //~ $this->autor                     = '';
+    //~ $this->aparece_en_pagina_inicial = TRUE;
+    //~ $this->para_compartir            = TRUE;
+    //~ $this->imagen                    = '../imagenes/imagen.jpg';
+    //~ $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+    //~ $this->poner_imagen_en_contenido = TRUE;
+        $this->nombre_menu               = 'Menú > Submenú';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas           = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'titulo';
+        $this->directorio                = 'directorio';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser un entero grande
-        $this->nivel                    = 00000;
+        $this->nivel                     = 00000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

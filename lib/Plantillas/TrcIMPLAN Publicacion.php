@@ -36,23 +36,24 @@ class CLASE extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre                    = 'Título';
         $this->autor                     = 'Autor'; // Puede ser un arreglo de textos
-        $this->fecha                     = '2016-00-00T00:00';
+        $this->fecha                     = '2017-00-00T00:00';
         // El nombre del archivo a crear
         $this->archivo                   = 'archivo'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion               = 'Descripción.';
-        $this->claves                    = 'Clave1, Clave2, Clave3';
+        $this->claves                    = 'IMPLAN, Torreon, ';
         // Opción de navegación a poner como activa
         $this->nombre_menu               = 'Menú > Submenú';
         // Banderas
-        $this->poner_imagen_en_contenido = TRUE; // Poner la imagen en la parte superior izquierda
-        $this->para_compartir            = TRUE; // Poner los botones para compartir en redes sociales
+        $this->aparece_en_pagina_inicial = TRUE;
+        $this->poner_imagen_en_contenido = TRUE;
+        $this->para_compartir            = TRUE;
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
         $this->estado                    = 'publicar';
         // Para el Organizador
         $this->categorias                = array();
         $this->fuentes                   = array();
-        $this->regiones                  = array();
+        $this->regiones                  = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
     /**

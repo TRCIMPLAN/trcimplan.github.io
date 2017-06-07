@@ -42,13 +42,8 @@ class PrincipalesRetosDeLaZML extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Es necesaria una concertación entre los cuatro municipios de la ZML (Torreón, Matamoros, Gómez Palacio y Lerdo) por medio de una agenda de temas metropolitananos, en los ejes de: Buen Gobierno, Desarrollo Económico, Desarrollo Social, Entorno Urbano, Movilidad, Medio Ambiente y Sustentabilidad.';
         $this->claves                     = 'IMPLAN, Torreon, Comarca Lagunera, Retos, Movilidad, Infraestructura, Recursos, Vivienda, Gobierno';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PrincipalesRetosDeLaZML.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Gobierno', 'Infraestructura', 'Movilidad', 'Recursos Naturales', 'Vivienda');
         $this->fuentes                    = array('CONAPO', 'Secretaría de Desarrollo Urbano Territorial y Urbano (SEDATU)', 'INEGI');

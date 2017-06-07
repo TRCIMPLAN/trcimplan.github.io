@@ -42,13 +42,8 @@ class ElBosqueVenustianoCarranzaDiagnosticoYProblematicas extends \Base\Publicac
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Bosque constituye el principal pulmón de la ciudad. En 1941, ya representaba el 5% de la mancha urbana. Dada su importancia como espacio público y ecológico el IMPLAN prepara una consulta ciudadana que refleje el sentir de la población sobre sus principales problemáticas.';
         $this->claves                     = 'IMPLAN, Torreon, Bosque, Areas verdes, Sustentabilidad, Medio Ambiente';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElBosqueVenustianoCarranzaDiagnosticoYProblematicas.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array('Dirección General de Medio Ambiente del Municipio de Torreón');

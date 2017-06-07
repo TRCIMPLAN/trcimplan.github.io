@@ -42,13 +42,8 @@ class NuevasHerramientasNuevosParadigmas extends \Base\PublicacionSchemaBlogPost
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion                = 'Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.';
         $this->claves                     = 'IMPLAN, Torreon, Informacion, Geografica, Movil';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/NuevasHerramientasNuevosParadigmas.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Innovación');
         $this->fuentes                    = array();

@@ -42,13 +42,8 @@ class ElRetoDeLaProteccionALosAdultosMayoresEnLaLaguna extends \Base\Publicacion
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El crecimiento de las personas de la tercera edad se refleja cada vez más en la Comarca Lagunera, en 2015 la población de 65 años era de 86,385 personas y se estima que para 2020 será de 104,688.';
         $this->claves                     = 'IMPLAN, Torreon, Adultos, Mayores, Tercera Edad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElRetoDeLaProteccionALosAdultosMayoresEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Grupos Vulnerables', 'Salud');
         $this->fuentes                    = array('CONAPO', 'INEGI');

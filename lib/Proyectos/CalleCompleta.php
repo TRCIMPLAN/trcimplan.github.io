@@ -46,9 +46,6 @@ class CalleCompleta extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/CalleCompleta.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
         // Para el Organizador
         $this->categorias                 = array('Movilidad', 'Vialidad');
         $this->fuentes                    = array('Logit', 'Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');

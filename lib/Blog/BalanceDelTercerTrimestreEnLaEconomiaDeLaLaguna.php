@@ -42,13 +42,8 @@ class BalanceDelTercerTrimestreEnLaEconomiaDeLaLaguna extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'A un trimestre para el cierre del año la Zona Metropolitana de La Laguna muestra mejoría en empleo, formalidad, salario promedio y apertura de empresas. Sin embargo 2016 ha sido un año difícil no sólo para la región sino también para México.';
         $this->claves                     = 'IMPLAN, Torreon, Economia, 2016, Salarios, Empleos';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/BalanceDelTercerTrimestreEnLaEconomiaDeLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Mercados', 'Empleo');
         $this->fuentes                    = array('IMSS Subdelegación Torreón', 'INEGI');

@@ -32,20 +32,25 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
-        $this->publicaciones_directorio = 'Proyectos';
+        $this->publicaciones_directorio  = 'Proyectos';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Proyectos Estratégicos';
-        $this->descripcion              = 'Información y seguimiento de los Proyectos Estratégicos del IMPLAN Torreón.';
-        $this->claves                   = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Estrategicos';
-    //  $this->encabezado_color         = '';
-        // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Plan Estratégico Torreón 2040 > Proyectos';
+        $this->titulo                    = 'Proyectos Estratégicos';
+        $this->descripcion               = 'Información y seguimiento de los Proyectos Estratégicos del IMPLAN Torreón.';
+        $this->claves                    = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Estrategicos';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = TRUE;
+        $this->autor                     = 'Dirección de Proyectos Estratégicos';
+        $this->para_compartir            = TRUE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasTarjetas'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas           = '\\Base\\PaginasTarjetas';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'proyectos';
+        $this->directorio                = 'proyectos';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser grande
-        $this->nivel                    = 41000;
+        $this->nivel                     = 41000;
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

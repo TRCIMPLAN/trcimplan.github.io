@@ -44,13 +44,6 @@ class PoliticaIndustrial extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion               = 'Estudio sobre Política Industrial para Torreón, Coahuila de Zaragoza, México.';
         $this->claves                    = 'IMPLAN, Torreon, Politica, Industrial';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Investigaciones';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
         // Para el Organizador
         $this->categorias                = array('Empresas', 'Empleo', 'Macroeconomía');
         $this->fuentes                   = array();

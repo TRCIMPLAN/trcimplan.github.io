@@ -33,7 +33,6 @@ class Zona30 extends \Base\PublicacionSchemaArticle {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Zona 30';
-        $this->autor                      = 'Dirección de Proyectos Estratégicos';
         $this->fecha                      = '2015-08-12T15:15';
         // El nombre del archivo a crear
         $this->archivo                    = 'zona-30';
@@ -46,9 +45,6 @@ class Zona30 extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/Zona30.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Vialidad');
         $this->fuentes                    = array('IMPLAN');

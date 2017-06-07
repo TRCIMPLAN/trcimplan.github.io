@@ -35,20 +35,14 @@ class Convocatoria2015 extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Convocatoria 2015';
-     // $this->autor                      = '';
         $this->fecha                      = '2015-11-17T13:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'convocatoria-2015';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Convocatoria para formar parte del Consejo Directivo.';
         $this->claves                     = 'IMPLAN, Torreon, Convocatoria, 2015, Consejo Directivo';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Consejo Directivo';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/ConsejoDirectivo/Convocatoria2015.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase Convocatoria2015

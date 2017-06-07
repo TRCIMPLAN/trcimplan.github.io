@@ -35,7 +35,6 @@ class TerminosInformacion extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Términos de Uso de la Información';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-07-28T11:20';
         // El nombre del archivo a crear
         $this->archivo                    = 'terminos-informacion';
@@ -46,9 +45,6 @@ class TerminosInformacion extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Términos de Uso > De la información';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Terminos/TerminosInformacion.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase TerminosInformacion

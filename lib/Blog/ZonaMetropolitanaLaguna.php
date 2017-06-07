@@ -42,13 +42,8 @@ class ZonaMetropolitanaLaguna extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion                = 'La Zona Metropolitana de La Laguna está conformada por los municipios de Torreón, Matamoros en el estado de Coahuila, Gómez Palacio y Lerdo en Durango.';
         $this->claves                     = 'IMPLAN, Torreon, Zona, Metropolitana, Laguna';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ZonaMetropolitanaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno');
         $this->fuentes                    = array();

@@ -35,20 +35,14 @@ class Integrantes extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Integrantes del Consejo Directivo';
-     // $this->autor                      = '';
         $this->fecha                      = '2017-05-08T14:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'integrantes';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Los Integrantes del Consejo Directivo del IMPLAN Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Consejo, Directivo, Integrantes';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Consejo Directivo';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/ConsejoDirectivo/Integrantes.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase Integrantes

@@ -33,18 +33,12 @@ class PlanIntegralMovilidadUrbanaSustentableLaLaguna extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                    = 'Plan Integral de Movilidad Urbana Sustentable de La Laguna';
-    //~ $this->autor                     = '';
         $this->fecha                     = '2015-03-01T08:00';
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion               = 'Conjunto de acciones para implementar las distintas formas de transporte sustentable: a pie, bicicleta y transporte público.';
         $this->claves                    = 'IMPLAN, Torreón, Plan, Movilidad, Urbana, Sustentable, La Laguna';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Movilidad');
         $this->fuentes                   = array('IMPLAN');
@@ -56,46 +50,6 @@ class PlanIntegralMovilidadUrbanaSustentableLaLaguna extends \Base\Publicacion {
         $this->url                       = 'http://www.torreon.gob.mx/pdf/PIMUS_LAGUNA.pdf';
         $this->url_etiqueta              = 'Descargar PDF 33.7 MB';
     } // constructor
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // SIN Contenido
-        $this->contenido = '';
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // SIN JavaScript
-        $this->javascript = '';
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        if ($this->imagen != '') {
-            $this->redifusion   = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
-        } else {
-            $this->redifusion   = $this->descripcion;
-        }
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
 
 } // Clase PlanIntegralMovilidadUrbanaSustentableLaLaguna
 

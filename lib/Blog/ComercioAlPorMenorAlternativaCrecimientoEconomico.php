@@ -42,13 +42,8 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.';
         $this->claves                     = 'IMPLAN, Torreon, Comercio, Ingreso, Ciudad';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ComercioAlPorMenorAlternativaCrecimientoEconomico.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empresas', 'Empleo');
         $this->fuentes                    = array('INEGI');

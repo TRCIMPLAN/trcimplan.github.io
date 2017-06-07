@@ -42,13 +42,8 @@ class Infraestructura extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.';
         $this->claves                     = 'IMPLAN, Torreon, Indicadores, Infraestructura, Información, TICs, Carreteras, Accidentes, Viales';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/Infraestructura.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Vialidad', 'Movilidad');
         $this->fuentes                    = array('IMCO', 'INEGI', 'SCT');

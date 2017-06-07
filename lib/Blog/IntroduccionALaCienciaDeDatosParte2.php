@@ -42,13 +42,8 @@ class IntroduccionALaCienciaDeDatosParte2 extends \Base\PublicacionSchemaBlogPos
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Ejemplo práctico de cómo bajar datos abiertos sobre escuelas y realizar un análisis de los mismos.';
         $this->claves                     = 'IMPLAN, Torreon, Ciencia, Científico, Datos';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/IntroduccionALaCienciaDeDatosParte2.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno Digital', 'Innovación');
         $this->fuentes                    = array('SEP', 'Gobierno de la República');

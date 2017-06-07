@@ -42,13 +42,8 @@ class LaLagunaYLaSociedadCivilValorYAportacionDeLaParticipacionCiudadana extends
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Zona Metropolitana de La Laguna tiene casi el doble de organizaciones de la sociedad civil por habitantes que el país. La asistencia social y el fomento educativo son sus principales actividades. Más de 16 mil personas trabajan en ellas aportando con sus servicios 1,300 millones de pesos en valor agregado a nuestra ciudad.';
         $this->claves                     = 'IMPLAN, Torreon, OSC, Sociedad Civil, Organizaciones';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaLagunaYLaSociedadCivilValorYAportacionDeLaParticipacionCiudadana.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Educación', 'Participación Ciudadana');
         $this->fuentes                    = array('INEGI', 'Registro Federal de Organizaciones de la Sociedad Civil');

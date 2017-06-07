@@ -42,13 +42,8 @@ class PlaneacionUrbanaConPerspectivaDeGenero extends \Base\PublicacionSchemaBlog
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En Torreón inició el programa “Ciudades Seguras y Libres de Violencia para las Mujeres y Niñas” que consiste en medir las condiciones de seguridad que existen para las mujeres. El tema es pertinente considerando que la fuerza laboral de las mujeres en nuestra ciudad es de casi 50% y hay un alto porcentaje de hogares con jefatura femenina.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PlaneacionUrbanaConPerspectivaDeGenero.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Género', 'Población', 'Seguridad', 'Vivienda');
         $this->fuentes                    = array('INEGI', 'IMCO');

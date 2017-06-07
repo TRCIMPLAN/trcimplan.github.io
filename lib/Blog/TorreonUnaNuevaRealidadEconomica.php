@@ -42,13 +42,8 @@ class TorreonUnaNuevaRealidadEconomica extends \Base\PublicacionSchemaBlogPostin
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La apertura de negocios, la baja inflación y una disminución en la tasa de informalidad caracterizan al segundo trimestre en el municipio de Torreón, de acuerdo con el Balance Económico Local.';
         $this->claves                     = 'IMPLAN, Torreon, Apertura, Negocios, Empresas, Informalidad, Desempleo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonUnaNuevaRealidadEconomica.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Empleo', 'Empresas');
         $this->fuentes                    = array('INEGI', 'IMSS Subdelegación Torreón', 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón');

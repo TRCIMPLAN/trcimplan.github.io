@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Índice de Competitividad Urbana 2016
+ * TrcIMPLAN Sitio Web - Índice de Competitividad Urbana 2016
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -35,20 +35,14 @@ class IndiceDeCompetitividadUrbana2016 extends \Base\PublicacionSchemaBlogPostin
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Índice de Competitividad Urbana 2016';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2016-09-07T14:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2016-09-07-indice-de-competitividad-urbana';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Zona Metropolitana de La Laguna pasó del lugar 48 en el ICU 2014 al lugar 24 en competitividad.';
         $this->claves                     = 'IMPLAN, Torreon, Competitividad, Urbana, 2016, IMCO, ICU';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/IndiceDeCompetitividadUrbana2016.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Índice de Competitividad Urbana');
         $this->fuentes                    = array();

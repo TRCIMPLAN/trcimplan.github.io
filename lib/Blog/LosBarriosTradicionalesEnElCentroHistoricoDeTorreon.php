@@ -42,13 +42,8 @@ class LosBarriosTradicionalesEnElCentroHistoricoDeTorreon extends \Base\Publicac
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Actualmente existen diez barrios que aunque han sufrido una pérdida sostenida de identidad debido a la destrucción de sus edificaciones originales así como la migración de su población, son considerados como tradicionales.';
         $this->claves                     = 'IMPLAN, Torreon, Barrios, Edificios, Antiguo, Tradicional, Historico';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LosBarriosTradicionalesEnElCentroHistoricoDeTorreon.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Vivienda');
         $this->fuentes                    = array('Ayuntamiento de Torreón');

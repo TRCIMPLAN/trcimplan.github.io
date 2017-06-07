@@ -42,13 +42,8 @@ class ElCorredorEconomicoDelNorteYSuFortalezaNacional extends \Base\PublicacionS
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Zona Metropolitana de la Laguna, anfitriona del 6to Encuentro de Instituciones del Corredor Económico del Norte, es una región líder en formación de capital humano, transparencia y productividad.';
         $this->claves                     = 'IMPLAN, Torreon';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElCorredorEconomicoDelNorteYSuFortalezaNacional.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Competitividad', 'Educación', 'Empleo', 'Mercados', 'Movilidad', 'Participación Ciudadana', 'Transparencia');
         $this->fuentes                    = array('Ayuntamiento de Torreón', 'IMCO', 'IMPLAN', 'INEGI', 'Operadora Mexicana de Aeropuertos (OMA)', 'Secretaría de Economía', 'SEP');

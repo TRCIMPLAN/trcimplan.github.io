@@ -42,13 +42,8 @@ class ProblematicaDeLaViviendaDeshabitadaEnLaLaguna extends \Base\PublicacionSch
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Tan sólo en la Ciudad de Torreón existen alrededor de 51,515 viviendas desocupadas. El sector Oriente es el que presenta el mayor índice con colonias donde el problema asciende a más del 50%.';
         $this->claves                     = 'IMPLAN, Torreon, Vivienda, Deshabitada, Comisión Nacional de la Vivienda';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ProblematicaDeLaViviendaDeshabitadaEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Vivienda');
         $this->fuentes                    = array();

@@ -35,20 +35,14 @@ class PlanEstrategicoMetropolitanoSaludLaguna extends \Base\PublicacionSchemaBlo
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN organiza taller para fortalecer el Clúster Salud en La Laguna';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-08-14T14:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-08-14-plan-estrategico-metropolitano-salud-laguna';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Se ha convocado a hospitales y clínicas públicas y privadas, colegios, asociaciones e institutos de investigación médica, técnicos del área de salud, universidades con carreras en el área de salud, instituciones públicas del sector salud y proveedores de servicios e insumos médicos.';
         $this->claves                     = 'IMPLAN, Torreon, Salud, Laguna, Medicos, Hospitales, Clinicas, Investigacion';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/PlanEstrategicoMetropolitanoSaludLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Salud');
         $this->fuentes                    = array();

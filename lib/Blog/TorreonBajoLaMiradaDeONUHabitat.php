@@ -42,13 +42,8 @@ class TorreonBajoLaMiradaDeONUHabitat extends \Base\PublicacionSchemaBlogPosting
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Índice de las Ciudades Prósperas es un proyecto impulsado por ONU Hábitat y financiado en México por INFONAVIT. Torreón mostró una prosperidad moderada, similar a ciudades como Manila en Filipinas o Quito, Ecuador.';
         $this->claves                     = 'IMPLAN, Torreon, ONU, Habitat';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonBajoLaMiradaDeONUHabitat.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Empresas', 'Gobierno', 'Infraestructura', 'Recursos Naturales');
         $this->fuentes                    = array('INFONAVIT', 'ONU-Habitat');

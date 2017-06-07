@@ -32,18 +32,23 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
-        $this->publicaciones_directorio = 'Investigaciones';
+        $this->publicaciones_directorio  = 'Investigaciones';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Investigaciones';
-        $this->descripcion              = 'Conocimientos para su aplicación para la solución a problemas o interrogantes de carácter científico, social o urbano.';
-        $this->claves                   = 'IMPLAN, Torreon';
-    //~ $this->encabezado_color         = '';
-        // Etiqueta de Navegación a poner activa
-        $this->nombre_menu              = 'Investigaciones';
+        $this->titulo                    = 'Investigaciones';
+        $this->descripcion               = 'Conocimientos para su aplicación para la solución a problemas o interrogantes de carácter científico, social o urbano.';
+        $this->claves                    = 'IMPLAN, Torreon';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = TRUE;
+        $this->autor                     = 'IMPLAN Staff';
+        $this->para_compartir            = FALSE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Investigaciones';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas           = '\\Base\\PaginasDetallados';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'investigaciones';
+        $this->directorio                = 'investigaciones';
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

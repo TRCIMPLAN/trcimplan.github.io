@@ -42,13 +42,8 @@ class CalidadDelAireEnTorreonYSusEfectosEnLaSalud extends \Base\PublicacionSchem
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La contaminación ambiental en la Comarca tiene efectos nocivos en la población más vulnerable, menores de 5 años y mayores de 65, que puede derivar en enfermedades respiratorias..';
         $this->claves                     = 'IMPLAN, Torreon, Contaminacion, Aire, Medio Ambiente';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CalidadDelAireEnTorreonYSusEfectosEnLaSalud.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales', 'Salud');
         $this->fuentes                    = array('Dirección General de Medio Ambiente del Municipio de Torreón', 'Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');

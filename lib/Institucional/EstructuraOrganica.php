@@ -35,9 +35,8 @@ class EstructuraOrganica extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Estructura Orgánica';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2014-05-01T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear
         $this->archivo                    = 'estructura-organica';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Organigrama del IMPLAN Torreón.';
@@ -46,11 +45,6 @@ class EstructuraOrganica extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Institucional > Estructura Orgánica';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Institucional/EstructuraOrganica.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase EstructuraOrganica

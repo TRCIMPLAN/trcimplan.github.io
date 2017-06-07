@@ -42,13 +42,8 @@ class SeRecuperaLaInversionExtranjeraEnLaLaguna extends \Base\PublicacionSchemaB
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Coahuila ocupa el décimo lugar en México al captar el 3.1% de la inversión extranjera nacional. Torreón y su Zona Metropolitana han registrado más empresas de capital extranjero desde 2014, pero aún falta mucho camino por recorrer ya que en 2015 ciudades como San Luis Potosí y Saltillo presentaron una mejor posición.';
         $this->claves                     = 'IMPLAN, Torreon, Inversion, Extranjera, Crecimiento';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/SeRecuperaLaInversionExtranjeraEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Doing Business', 'Empresas', 'Macroeconomía', 'Mercados');
         $this->fuentes                    = array();

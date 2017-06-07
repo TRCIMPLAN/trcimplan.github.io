@@ -42,13 +42,10 @@ class PlataformasDeConocimientoDeCalidad extends \Base\PublicacionSchemaBlogPost
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Para que los datos abiertos sean pilares de un gobierno abierto deben ser divulgados en sitios web que vayan más allá de lo convencional; que sean plataformas de conocimiento, detonantes de una nueva cultura ciudadana y que se vuelvan herramientas amigables y precisas para monitorear las políticas públicas.';
         $this->claves                     = 'IMPLAN, Torreon, Plataformas, Conocimiento, Datos Abiertos';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PlataformasDeConocimientoDeCalidad.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno', 'Gobierno Digital');
         $this->fuentes                    = array();

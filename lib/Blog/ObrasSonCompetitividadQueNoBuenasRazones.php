@@ -42,13 +42,8 @@ class ObrasSonCompetitividadQueNoBuenasRazones extends \Base\PublicacionSchemaBl
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Complejo Cultural y Deportivo La Jabonera, La Línea Verde, el Metrobús o el Paseo Morelos, son obras que van de acuerdo con las visiones y proyectos del Plan TRC2040 y que buscan ayudar a crear  una ciudad más densificada e incluyente.';
         $this->claves                     = 'IMPLAN, Torreon, Obras, Competitividad';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ObrasSonCompetitividadQueNoBuenasRazones.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura');
         $this->fuentes                    = array('INEGI');

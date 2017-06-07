@@ -37,7 +37,6 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Zonificación Secundaria';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2014-11-18T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = ''; // No hay archivo HTML a crear
@@ -47,11 +46,6 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Mapa referente para consultar los usos de suelo del área urbana de Torreón. De clic en un área para mostrar detalles y el enlace al reglamento.';
         $this->claves                     = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
         // URL de destino
         $this->url                        = '../sig-mapas-torreon/zonificacion-secundaria.html';
     } // constructor

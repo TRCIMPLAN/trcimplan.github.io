@@ -42,13 +42,8 @@ class NuevaLeyDeAsentamientosHumanosEstrategiaParaOrdenarLaMetropoli extends \Ba
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Actualmente el uso de suelo habitacional ocupa la mayor superficie urbana de la Zona Metropolitana de La Laguna. De continuar con una baja densidad poblacional, los escenarios de expansión a futuro resultan preocupantes por la inversión que se necesita y los costos ambientales que esto implica.';
         $this->claves                     = 'IMPLAN, Torreon, Uso de suelo, Asentamientos Humanos, La Laguna, Ley';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/NuevaLeyDeAsentamientosHumanosEstrategiaParaOrdenarLaMetropoli.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Vivienda');
         $this->fuentes                    = array();

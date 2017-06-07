@@ -42,13 +42,8 @@ class AnalisisDeResultadosConeval2014ParaCoahuila extends \Base\PublicacionSchem
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En Julio de 2015 se publicó el Informe de Medición de la Pobreza en México 2014, a cargo del CONEVAL. En este trabajo se analizan los cálculos para el estado de Coahuila así como los nacionales.';
         $this->claves                     = 'IMPLAN, Torreon';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/AnalisisDeResultadosConeval2014ParaCoahuila.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Grupos Vulnerables');
         $this->fuentes                    = array('CONAPO', 'CONEVAL');

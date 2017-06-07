@@ -42,13 +42,8 @@ class ReciclajeUrbanoEjemploDeRecuperacionDeLaHerenciaHistorica extends \Base\Pu
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El concepto de reciclaje urbano no es nuevo en la región y se ha aplicado con éxito, pero hace falta detonarlo aún más. Algunos ejemplos en Torreón son: el Complejo Cultural y Deportivo La Jabonera, la Línea Verde, el Centro Pilar Rioja, entre otros.';
         $this->claves                     = 'IMPLAN, Torreon, ';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ReciclajeUrbanoEjemploDeRecuperacionDeLaHerenciaHistorica.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Cultura');
         $this->fuentes                    = array();

@@ -35,7 +35,6 @@ class Introduccion extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Introducción al Sistema de Información Geográfica';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2014-08-01T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'introduccion';
@@ -46,11 +45,6 @@ class Introduccion extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Información Geográfica > Introducción al SIG';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SIG/Introduccion.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase Introduccion

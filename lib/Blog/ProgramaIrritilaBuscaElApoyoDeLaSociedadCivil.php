@@ -42,13 +42,8 @@ class ProgramaIrritilaBuscaElApoyoDeLaSociedadCivil extends \Base\PublicacionSch
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Uno de los principales proyectos de sustentabilidad en la región necesita más fondos para revertir el abatimiento del manto acuífero en la región Lagunera. El apoyo de la ciudadanía y de la iniciativa privada es fundamental para que continúe la preservación de la Cuenca Alta del Río Nazas.';
         $this->claves                     = 'IMPLAN, Torreon, Sustentabilidad, Agua, Irritila, Manto, Acuifero';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ProgramaIrritilaBuscaElApoyoDeLaSociedadCivil.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales', 'Salud', 'Servicios Públicos');
         $this->fuentes                    = array('SIMAS');

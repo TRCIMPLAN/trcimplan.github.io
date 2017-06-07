@@ -42,13 +42,8 @@ class TorreonYSuRiquezaIndustrial extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La Dirección de Desarrollo Económico y el IMPLAN han lanzado la Guía de Parques Industriales, que contiene información sobre la infraestructura que posee Torreón para recibir inversiones de clase mundial. Incluye además los principales indicadores económicos, demográficos y sociales de la región lagunera.';
         $this->claves                     = 'IMPLAN, Torreon, Zonas, Industriales, Parques, Guia, Desarrollo Economico';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonYSuRiquezaIndustrial.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empleo', 'Empresas', 'Infraestructura');
         $this->fuentes                    = array('IMPLAN');

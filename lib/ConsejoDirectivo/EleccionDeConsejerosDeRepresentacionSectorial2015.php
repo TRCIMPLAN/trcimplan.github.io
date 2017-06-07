@@ -35,20 +35,14 @@ class EleccionDeConsejerosDeRepresentacionSectorial2015 extends \Base\Publicacio
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Elección de Consejeros de Representación Sectorial 2015';
-     // $this->autor                      = '';
         $this->fecha                      = '2015-12-17T14:10';
         // El nombre del archivo a crear
         $this->archivo                    = 'eleccion-de-consejeros-de-representacion-sectorial-2015';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Resultado del proceso de elección de los ciudadanos que van a formar parte del Consejo Directivo como Consejeros de Representación Sectorial en el IMPLAN Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Convocatoria, 2015, Consejo Directivo';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Consejo Directivo';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/ConsejoDirectivo/EleccionDeConsejerosDeRepresentacionSectorial2015.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
     } // constructor
 
 } // Clase EleccionDeConsejerosDeRepresentacionSectorial2015

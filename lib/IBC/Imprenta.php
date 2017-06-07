@@ -32,18 +32,23 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
-        $this->publicaciones_directorio = 'IBC';
+        $this->publicaciones_directorio  = 'IBC';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Indicadores Básicos por Colonias';
-        $this->descripcion              = 'Conozca las características poblacionales, económicas, educativas, de vivienda y negocios de las colonias.';
-        $this->claves                   = 'IMPLAN, Torreon, Indicadores, Colonias, Poblacion, Educacion, Vivienda, Economia';
-        $this->encabezado_color         = '#128C51';
-        // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Indicadores Básicos por Colonias';
+        $this->titulo                    = 'Indicadores Básicos por Colonias';
+        $this->descripcion               = 'Conozca las características poblacionales, económicas, educativas, de vivienda y negocios de las colonias.';
+        $this->claves                    = 'IMPLAN, Torreon, Indicadores, Colonias, Poblacion, Educacion, Vivienda, Economia';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = FALSE;
+        $this->autor                     = 'Dirección de Investigación Estratégica';
+        $this->para_compartir            = FALSE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Indicadores Básicos por Colonias';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasDetallados';
+        $this->indices_paginas           = '\\Base\\PaginasDetallados';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'ibc';
+        $this->directorio                = 'ibc';
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

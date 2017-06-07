@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - IMPLAN Torreón y Obras Públicas presentan propuestas para mejorar el Centro Histórico de Torreón
+ * TrcIMPLAN Sitio Web - IMPLAN Torreón y Obras Públicas presentan propuestas para mejorar el Centro Histórico de Torreón
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -42,13 +42,8 @@ class SesionOrdinaria20160719 extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón, llevó a cabo el pasado 19 de julio la séptima Sesión Ordinaria del Consejo Directivo.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20160719.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Movilidad', 'Vialidad');
         $this->fuentes                    = array();

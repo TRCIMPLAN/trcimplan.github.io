@@ -35,7 +35,6 @@ class VisionMision extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Visión / Misión';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2014-05-01T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'vision-mision';
@@ -46,11 +45,6 @@ class VisionMision extends \Base\PublicacionSchemaArticle {
         $this->nombre_menu                = 'Institucional > Visión / Misión';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Institucional/VisionMision.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase VisionMision

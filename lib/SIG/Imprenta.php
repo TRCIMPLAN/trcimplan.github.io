@@ -32,18 +32,23 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
-        $this->publicaciones_directorio = 'SIG';
+        $this->publicaciones_directorio  = 'SIG';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Información Geográfica';
-        $this->descripcion              = 'Información Geográfica del IMPLAN Torreón.';
-        $this->claves                   = 'IMPLAN, Torreon, Sistema, Informacion, Geografica, SIG, GIS';
-    //~ $this->encabezado_color         = '';
-        // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Información Geográfica';
+        $this->titulo                    = 'Información Geográfica';
+        $this->descripcion               = 'Información Geográfica del IMPLAN Torreón.';
+        $this->claves                    = 'IMPLAN, Torreon, Sistema, Informacion, Geografica, SIG, GIS';
+        // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
+        $this->aparece_en_pagina_inicial = FALSE;
+        $this->autor                     = 'Dirección de Planeación Urbana Sustentable';
+        $this->para_compartir            = FALSE;
+        $this->imagen                    = '../imagenes/imagen.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->nombre_menu               = 'Información Geográfica';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasListado';
+        $this->indices_paginas           = '\\Base\\PaginasListado';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
-        $this->directorio               = 'sig';
+        $this->directorio                = 'sig';
         // Ejecutar constructor en el padre
         parent::__construct();
     } // constructor

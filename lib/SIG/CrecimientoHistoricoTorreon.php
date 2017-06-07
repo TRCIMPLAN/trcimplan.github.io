@@ -37,7 +37,6 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Crecimiento Histórico de Torreón';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-02-03T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'crecimiento-historico-torreon';
@@ -49,11 +48,6 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
         $this->claves                     = 'IMPLAN, Torreon, Crecimiento, Historico';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Información Geográfica > Mapas de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
         // El contenido es una instancia SchemaCreativeWork
         $this->contenido                  = new \Base\SchemaCreativeWork();
     } // constructor

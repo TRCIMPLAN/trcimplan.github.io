@@ -42,13 +42,8 @@ class DOTDesarrolloOrientadoTransporte extends \Base\PublicacionSchemaBlogPostin
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.';
         $this->claves                     = 'IMPLAN, Torreon, Trasporte';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html     = 'lib/Blog/DOTDesarrolloOrientadoTransporte.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Transporte', 'Infraestructura', 'Vialidad');
         $this->fuentes                    = array('IMPLAN', 'Secretaría de Desarrollo Social (SEDESOL)');

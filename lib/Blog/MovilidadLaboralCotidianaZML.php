@@ -42,13 +42,10 @@ class MovilidadLaboralCotidianaZML extends \Base\PublicacionSchemaBlogPosting {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion                = 'Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.';
         $this->claves                     = 'IMPLAN, Torreon, Poblacion, Ocupada, Trabajo, Municipio, La Laguna';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/MovilidadLaboralCotidianaZML.html';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Movilidad', 'Infraestructura', 'Vialidad', 'Empleo');
         $this->fuentes                    = array();

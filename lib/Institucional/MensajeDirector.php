@@ -50,9 +50,6 @@ class MensajeDirector extends \Base\PublicacionSchemaArticle {
         $this->contenido_archivo_markdown = 'lib/Institucional/MensajeDirector.md';
         // Banderas
         $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
     } // constructor
 
 } // Clase MensajeDirector

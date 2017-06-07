@@ -42,13 +42,8 @@ class NuevasTecnologiasEstandaresWeb extends \Base\PublicacionSchemaBlogPosting 
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion                = 'Recopilación de las nuevas técnicas que se deben de usar para la elaboración de sitios web institucionales. Con el objetivo de mejorarlas tanto para los humanos como para los robots (motores de búsqueda).';
         $this->claves                     = 'IMPLAN, Torreon, Sitios Web, Tecnologías, Responsivo, Esquemas, Web';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/NuevasTecnologiasEstandaresWeb.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Innovación', 'Gobierno Digital');
         $this->fuentes                    = array();

@@ -42,13 +42,8 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\PublicacionSchema
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.';
         $this->claves                     = 'IMPLAN, Torreon, Delitos, Tendencias';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html     = 'lib/Blog/ComportamientoTendenciaIncidenciaDelictiva.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Delincuencia', 'Seguridad');
         $this->fuentes                    = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');

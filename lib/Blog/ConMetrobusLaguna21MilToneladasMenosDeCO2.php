@@ -42,13 +42,8 @@ class ConMetrobusLaguna21MilToneladasMenosDeCO2 extends \Base\PublicacionSchemaB
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La disminución en tiempo de traslados en 15 minutos y el uso de un sistema que no produce emisiones contaminantes, es parte de los beneficios de la implementación del Metrobús en La Laguna. El proyecto contempla también beneficios económicos y una movilidad más equitativa.';
         $this->claves                     = 'IMPLAN, Torreon, Metrobus, Laguna, Bioxido de Carbono, CO2, Contaminacion';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ConMetrobusLaguna21MilToneladasMenosDeCO2.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Movilidad', 'Vialidad');
         $this->fuentes                    = array('IMCO');

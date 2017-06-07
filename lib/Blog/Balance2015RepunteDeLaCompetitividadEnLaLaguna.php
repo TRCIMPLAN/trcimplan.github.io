@@ -42,13 +42,8 @@ class Balance2015RepunteDeLaCompetitividadEnLaLaguna extends \Base\PublicacionSc
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Indicadores sociales, económicos y demográficos muestran la tendencia de recuperación de la competitividad de la Zona Metropolitana.';
         $this->claves                     = 'IMPLAN, Torreon, Competitividad, Indicadores, Recuperacion';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Análisis Publicados';
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/Balance2015RepunteDeLaCompetitividadEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Competitividad', 'Mercados');
         $this->fuentes                    = array('CIDE', 'IMCO', 'INEGI');

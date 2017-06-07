@@ -42,13 +42,8 @@ class TasaInflacionPreciosTorreon2014 extends \Base\PublicacionSchemaBlogPosting
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Un incremento en la inflación como el que sufrió Torreón en 2014 no es necesariamente una señal negativa pues puede ser causada por exceso de dinero en la economía.';
         $this->claves                     = 'IMPLAN, Torreon, Inflacion';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TasaInflacionPreciosTorreon2014.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Mercados');
         $this->fuentes                    = array();

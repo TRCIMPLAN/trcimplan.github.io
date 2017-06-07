@@ -84,16 +84,6 @@ class CreadorConfig {
         $this->imprentas_categorias     = $this->imprentas_autores;
         $this->imprentas_redifusion     = $this->imprentas_autores;
         $this->imprentas_pagina_inicial = $this->imprentas_autores;
-        /*
-         * Había retirado los indicadores para que no aparecieran en Últimas Publicaciones
-         * Pero la cantidad de publicaciones salía mucho menos :-(
-        $this->imprentas_pagina_inicial = array(
-            '\\Blog\\Imprenta',
-            '\\PET\\Imprenta',
-            '\\Proyectos\\Imprenta',
-            '\\SalaPrensa\\Imprenta',
-            '\\SIGMapasTorreon\\Imprenta');
-        */
         $this->imprentas_json           = array(
             '\\IBCColoniasTorreon\\ImprentaJSONs');
         $this->imprentas_csv            = array(

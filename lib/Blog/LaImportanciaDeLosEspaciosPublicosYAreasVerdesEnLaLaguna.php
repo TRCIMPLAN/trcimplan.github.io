@@ -42,13 +42,8 @@ class LaImportanciaDeLosEspaciosPublicosYAreasVerdesEnLaLaguna extends \Base\Pub
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En la actualidad son pocos los espacios públicos y con áreas verdes inclusivos a todos los ciudadanos de la región lagunera. El crecimiento de las ciudades provocó un rezago significativo de espacios dimensionados, diseñados y ubicados apropiadamente en el territorio urbano para la recreación y convivencia de la población Lagunera.';
         $this->claves                     = 'IMPLAN, Torreon, Espacios Publicos, Areas Verdes';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaImportanciaDeLosEspaciosPublicosYAreasVerdesEnLaLaguna.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Recursos Naturales');
         $this->fuentes                    = array();

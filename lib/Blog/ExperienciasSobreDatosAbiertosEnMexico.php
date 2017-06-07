@@ -42,13 +42,8 @@ class ExperienciasSobreDatosAbiertosEnMexico extends \Base\PublicacionSchemaBlog
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Representantes del gobierno del estado de Puebla y del municipio de Xalapa, Veracruz compartieron sus experiencias en materia de Datos Abiertos.';
         $this->claves                     = 'IMPLAN, Datos Abiertos, Mexico, Puebla, Xalapa, Veracruz, Red Mexico Abierto, Estrategia Digital Nacional';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ExperienciasSobreDatosAbiertosEnMexico.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Gobierno Digital', 'Innovación', 'Transparencia');
         $this->fuentes                    = array('Gobierno de la República');

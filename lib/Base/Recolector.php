@@ -192,14 +192,21 @@ class Recolector {
                 if (in_array(strtolower($publicacion->estado), $this->estados)) {
                     // Si se proporcionó una instancia de ImprentaPublicaciones, sobreescribimos estos parámetros
                     if ($imprenta instanceof ImprentaPublicaciones) {
+                        $publicacion->definir_aparece_en_pagina_principal($imprenta->aparece_en_pagina_inicial);
+                        $publicacion->definir_autor($imprenta->autor);
+                        $publicacion->definir_claves($imprenta->claves);
+                        $publicacion->definir_directorio($imprenta->directorio);
                         $publicacion->definir_encabezado($imprenta->encabezado);
                         $publicacion->definir_encabezado_color($imprenta->encabezado_color);
                         $publicacion->definir_encabezado_icono($imprenta->encabezado_icono);
-                        $publicacion->definir_claves($imprenta->claves);
-                        $publicacion->definir_directorio($imprenta->directorio);
-                        $publicacion->definir_nombre_menu($imprenta->nombre_menu);
-                        $publicacion->definir_imprenta_titulo($imprenta->titulo);
                         $publicacion->definir_imprenta_nivel($imprenta->nivel);
+                        $publicacion->definir_imprenta_titulo($imprenta->titulo);
+                        $publicacion->definir_nombre_menu($imprenta->nombre_menu);
+                        $publicacion->definir_para_compartir($imprenta->para_compartir);
+                        $publicacion->definir_poner_imagen_en_contenido($imprenta->poner_imagen_en_contenido);
+                        $publicacion->validar(); // Revisa si existen archivos para la imagen y la imagen_previa
+                        $publicacion->definir_imagen($imprenta->imagen);
+                        $publicacion->definir_imagen_previa($imprenta->imagen_previa);
                     }
                     // Acumular
                     $this->publicaciones[] = $publicacion;

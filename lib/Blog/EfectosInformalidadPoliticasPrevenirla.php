@@ -42,13 +42,8 @@ class EfectosInformalidadPoliticasPrevenirla extends \Base\PublicacionSchemaBlog
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La informalidad tiene repercusiones directas sobre la competitividad y el crecimiento económico. Es cierto que ocupa a población desempleada en el sector formal y sus insumos e inversión apoyan a la economía, sin embargo es mayor el daño generado en el crecimiento a largo plazo.';
         $this->claves                     = 'IMPLAN, Torreon, Informalidad, Crecimiento Económico, Desempleo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/EfectosInformalidadPoliticasPrevenirla.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empleo');
         $this->fuentes                    = array('Organización para la Cooperación y Desarrollo Económicos (OCDE)');

@@ -35,20 +35,14 @@ class AvancesDelProyectoCalleCompleta extends \Base\PublicacionSchemaBlogPosting
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'IMPLAN presenta avances del proyecto “Calle Completa”';
-    //~ $this->autor                      = '';
         $this->fecha                      = '2015-09-25T11:30';
         // El nombre del archivo a crear
         $this->archivo                    = '2015-09-25-avances-del-proyecto-calle-completa';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Es un modelo de vialidades integrales donde toman en cuenta todos los actores del espacio público.';
         $this->claves                     = 'IMPLAN, Torreon, Sesion, Consejo, Calle Completa';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/AvancesDelProyectoCalleCompleta.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Infraestructura', 'Movilidad', 'Vialidad');
         $this->fuentes                    = array();

@@ -42,13 +42,8 @@ class EvolucionDeLaEconomiaDeTorreonDurante2015 extends \Base\PublicacionSchemaB
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En el 2015 el municipio presenta una disminución en la tasa de desempleo durante el último trimestre y una inflación mínima histórica de 1.7% anual, sin embargo fue un año de poco movimiento para los indicadores económicos de Torreón, Coahuila y La Laguna.';
         $this->claves                     = 'IMPLAN, Torreon, Economia, 2015';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/EvolucionDeLaEconomiaDeTorreonDurante2015.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Bienestar', 'Empleo', 'Empresas', 'Macroeconomía');
         $this->fuentes                    = array('INEGI', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos');

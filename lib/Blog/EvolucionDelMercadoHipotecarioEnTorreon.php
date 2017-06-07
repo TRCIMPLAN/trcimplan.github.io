@@ -42,13 +42,8 @@ class EvolucionDelMercadoHipotecarioEnTorreon extends \Base\PublicacionSchemaBlo
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'La vivienda es una buena parte de la inversión y puede ser el mayor componente de la riqueza. El buen funcionamiento del mercado inmobiliario es clave para la salud de la economía.';
         $this->claves                     = 'IMPLAN, Torreon, Hipotecas, Economía, Inmuebles, Mercado, Cartera, Vencida';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/EvolucionDelMercadoHipotecarioEnTorreon.md';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Mercados');
         $this->fuentes                    = array('Comisión Nacional Bancaria y de Valores (CNBV)');

@@ -42,13 +42,8 @@ class RestrospectivaEstadoActualEmpleo extends \Base\PublicacionSchemaBlogPostin
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El empleo es uno de los principales indicadores, que muestra el desempeño económico de una ciudad, región o país. Desde hace 9 años Torreón y la Zona Metropolitana de la Laguna se habían separado a la alza de la media nacional.';
         $this->claves                     = 'IMPLAN, Torreon, Empleo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Análisis Publicados';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Blog/RestrospectivaEstadoActualEmpleo.html';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
-        $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array('Empleo');
         $this->fuentes                    = array();
