@@ -58,6 +58,13 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
      * @return string Código HTML
      */
     public function html() {
+        // Definir propiedades
+        $this->name           = 'Instituto Municipal de Planeación y Competitividad de Torreón';
+        $this->description    = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.';
+        $this->image          = 'imagenes/implan-logo.png';
+        $this->is_article     = FALSE;
+        $this->big_heading    = TRUE;
+        $this->headline_style = 'organizacion';
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular inicia
@@ -81,8 +88,15 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $a[] = "    <div class=\"organizacion-descripcion\" itemprop=\"description\">{$this->description}</div>";
         }
         $a[] = '  </div>';
+        // Acumular
+        $b   = array();
+        $b[] = '  <section id="organizacion">';
+    //~ $b[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
+        $b[] = '    <img class="banner" src="imagenes/banner-implan-2017-05.jpg" alt="IMPLAN Torreon">';
+        $b[] = implode("\n", $a);
+        $b[] = '  </section>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n", $b);
     } // html
 
 } // Clase Organizacion
