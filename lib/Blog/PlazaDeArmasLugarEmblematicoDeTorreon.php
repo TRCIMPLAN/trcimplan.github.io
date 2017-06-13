@@ -36,7 +36,7 @@ class PlazaDeArmasLugarEmblematicoDeTorreon extends \Base\PublicacionSchemaBlogP
         // Título, autor y fecha
         $this->nombre                     = 'Plaza De Armas: lugar emblemático de Torreón';
         $this->autor                      = 'Arq. Ángeles Melisa Rodríguez Salas';
-        $this->fecha                      = '2017-06-12T12:00';
+        $this->fecha                      = '2017-06-12T22:12';
         // El nombre del archivo a crear
         $this->archivo                    = 'plaza-de-armas-lugar-emblematico-de-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
