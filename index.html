@@ -114,9 +114,10 @@
           <ul class="nav nav-second-level">
             <li><a href="ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
             <li><a href="ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Torreón Urbano</a></li>
             <li><a href="ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
-            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
           </ul>
         </li>
         <li>
@@ -217,7 +218,30 @@
     </div>
   </section>
   <section id="ibc">
-    <div id="IBCTorreonMapa" class="mapa"></div>
+    <div class="panel panel-default panel-ibc">
+        <div class="panel-heading panel-heading-ibc">
+            <h2 style="border-bottom:none; padding:12px 0 4px 0; margin:0;">Indicadores Básicos de Colonias (IBC)</h2>
+        </div>
+        <div class="panel-body">
+            <a id="servicio-ibc" class="imagen-ibc" href="ibc/introduccion.html" title="IBC"></a>
+            <p><b>Es la <b>colonia</b> la forma más común en que nos referimos a un lugar de nuestra ciudad.</b> Razón por la que hemos construido <b>IBC</b> como un <b>instrumento informativo</b> que <b>coadyuva a la planeación y toma de decisiones</b> tanto de instancias gubernamentales, empresariales, de investigación académica, así como <b>de interés ciudadano</b> porque está a un nivel más cercano a la dinámica social.</p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="panel-footer panel-footer-ibc">
+            <b>Hay varias formas de usar IBC:</b>
+            Por medio del listado alfabético de las <a class="btn btn-default destacado-boton" role="button" href="ibc-colonias-torreon/index.html">Colonias de Torreón</a>,
+            con el <a class="btn btn-default destacado-boton" role="button" href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank">Mapa Completo</a>
+            o usar el buscador de Google:
+            <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+                <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+                <input type="hidden" value="FORID:11" name="cof">
+                <div class="input-group">
+                  <input type="text" class="form-control" name="s" value="Colonia ">
+                  <span class="input-group-btn"><button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button></span>
+                </div>
+            </form>
+        </div>
+    </div>
   </section>
   <section id="ultimas-publicaciones">
     <div class="row">
@@ -661,28 +685,6 @@
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
-<script>
-  // Cargar mapa IBC Torreón cuando esté lista la página
-  $(window).load(function() {
-    cartodb.createVis('IBCTorreonMapa', 'https://guivaloz.carto.com/api/v2/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/viz.json', {
-        shareable: false,
-        title: true,
-        description: true,
-        search: false,
-        scrollwheel: false,
-        infowindow: true,
-        fullscreen: true
-      })
-      .done(function(vis, layers) {
-        // Capa colonias
-        var colonias_capa = layers[1];
-        colonias_capa.setInteraction(true);
-        // Ajustes en el mapa
-        var map = vis.getNativeMap();
-        map.setZoom(14);
-      })
-  });
-</script>
 <script>
   // Twitter timeline
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");

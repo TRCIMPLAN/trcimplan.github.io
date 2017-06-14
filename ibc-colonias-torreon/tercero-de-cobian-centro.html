@@ -113,9 +113,10 @@
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
             <li class="active"><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Torreón Urbano</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
-            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
           </ul>
         </li>
         <li>
@@ -194,13 +195,28 @@
       <!-- Contenido: Inicia  -->
   <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasConglomerado">
-    <li role="presentation" class="active"><a href="#LenguetasConglomeradoMapas" aria-controls="LenguetasConglomeradoMapas" role="tab" data-toggle="tab">Mapas</a></li>
+    <li role="presentation" class="active"><a href="#LenguetasConglomeradoResena" aria-controls="LenguetasConglomeradoResena" role="tab" data-toggle="tab">Reseña</a></li>
+    <li role="presentation"><a href="#LenguetasConglomeradoMapas" aria-controls="LenguetasConglomeradoMapas" role="tab" data-toggle="tab">Mapas</a></li>
     <li role="presentation"><a href="#LenguetasConglomeradoDatos" aria-controls="LenguetasConglomeradoDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasConglomeradoGraficas" aria-controls="LenguetasConglomeradoGraficas" role="tab" data-toggle="tab">Gráficas</a></li>
-    <li role="presentation"><a href="#LenguetasConglomeradoResena" aria-controls="LenguetasConglomeradoResena" role="tab" data-toggle="tab">Reseña</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-  <div role="tabpanel" class="tab-pane active" id="LenguetasConglomeradoMapas">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasConglomeradoResena">
+<h3>Historia</h3>
+
+<p>El 10 de Marzo de 1898, la Hacienda fue adquirida por Don Feliciano Cobián, quien fue destinando nuevas extensiones de la Hacienda, trazadas al Oriente de Primitivo, para los fraccionamientos, primero, segundo, tercero, cuarto y quinto que llevan su nombre.</p>
+
+<p>En el período de 1937 a 1941 sería presidente municipal de Torreón Francisco Rivera Morales y se construye el <strong>Bosque Venustiano Carranza,</strong> que inicialmente se iba a llamar Bosque de las Américas.</p>
+
+<h3>Fuentes</h3>
+
+<ul>
+<li><a href="http://www.torreonhistoria.galeon.com/aficiones1001256.html">Historia de Torreón</a></li>
+<li><a href="https://www.facebook.com/notes/juan-martinez/personajes-ilustres-de-torre%C3%B3n-23012015/10151385720440009">Personajes Ilustres de Torreón</a></li>
+</ul>
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasConglomeradoMapas">
     <div id="MapaLimites" class="mapa"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasConglomeradoDatos">
@@ -485,21 +501,6 @@
   </div>
 </div>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasConglomeradoResena">
-<h3>Historia</h3>
-
-<p>El 10 de Marzo de 1898, la Hacienda fue adquirida por Don Feliciano Cobián, quien fue destinando nuevas extensiones de la Hacienda, trazadas al Oriente de Primitivo, para los fraccionamientos, primero, segundo, tercero, cuarto y quinto que llevan su nombre.</p>
-
-<p>En el período de 1937 a 1941 sería presidente municipal de Torreón Francisco Rivera Morales y se construye el <strong>Bosque Venustiano Carranza,</strong> que inicialmente se iba a llamar Bosque de las Américas.</p>
-
-<h3>Fuentes</h3>
-
-<ul>
-<li><a href="http://www.torreonhistoria.galeon.com/aficiones1001256.html">Historia de Torreón</a></li>
-<li><a href="https://www.facebook.com/notes/juan-martinez/personajes-ilustres-de-torre%C3%B3n-23012015/10151385720440009">Personajes Ilustres de Torreón</a></li>
-</ul>
-
-  </div>
   </div>
 </div>
   <!-- Contenido: Termina -->
@@ -535,7 +536,8 @@
   google.charts.load('current', {'packages':['corechart']});
   // Carto mapas
   var mapa_limites_cargado = false;
-  // LenguetaWeb LenguetasConglomeradoMapas
+  // LenguetaWeb LenguetasConglomeradoMapas ejecuta lo siguiente al mostrar
+  $('#LenguetasConglomerado a[href="#LenguetasConglomeradoMapas"]').on('shown.bs.tab', function(e){
     if (mapa_limites_cargado == false) {
       var carto_json = 'https://guivaloz.carto.com/api/v2/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/viz.json'
       cartodb.createVis('MapaLimites', carto_json, {
@@ -555,6 +557,7 @@
       });
       mapa_limites_cargado = true;
     }
+  })
   // LenguetaWeb LenguetasConglomeradoGraficas ejecuta lo siguiente al mostrar
   $('#LenguetasConglomerado a[href="#LenguetasConglomeradoGraficas"]').on('shown.bs.tab', function(e){
   // AcordeonWeb GraficasDemografia 
@@ -739,9 +742,9 @@
       }
   })
   })
-  // LenguetasWeb LenguetasConglomerado ordenar que Mapas es la que se mostrará
+  // LenguetasWeb LenguetasConglomerado ordenar que Reseña es la que se mostrará
   $(document).ready(function(){
-    $('#LenguetasConglomerado a[href="#LenguetasConglomeradoMapas"]').tab('show')
+    $('#LenguetasConglomerado a[href="#LenguetasConglomeradoResena"]').tab('show')
   });
 </script>
 <!-- Javascript termina -->

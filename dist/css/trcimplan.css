@@ -1,7 +1,7 @@
 /**
  * trcimplan.css
  *
- * Copyright (C) 2015, 2016, 2017 Guillermo Valdes Lozano
+ * Copyright (C) 2015, 2016, 2017 Guillermo Valdes Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -52,7 +52,7 @@ a:hover,
 a:active  { color:#FF3300; text-decoration:none; }
 
 /*
- * Menús
+ * Menus
  */
 .navbar-default {
     background-color:#F0F0F0;
@@ -225,7 +225,7 @@ a:active  { color:#FF3300; text-decoration:none; }
 }
 
 /*
- * Lengüetas
+ * Lenguetas
  */
 .lenguetas > li > a,
 .lenguetas > li > a:link,
@@ -276,7 +276,7 @@ a:active  { color:#FF3300; text-decoration:none; }
 .redes-sociales a:active  { color:#FF3300; }
 
 /*
- * Galería
+ * Galeria
  */
 .galeria-thumbnail {
     background-color:transparent;
@@ -357,137 +357,84 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 /*
  * Listado alfabetico
  */
-.pagination > li > a         { color:#A52100; text-decoration:none; font-weight:400; }
+.pagination > li > a               { color:#A52100; text-decoration:none; font-weight:400; }
 .pagination > li > a:link,
-.pagination > li > a:visited { color:#A52100; text-decoration:none; }
+.pagination > li > a:visited       { color:#A52100; text-decoration:none; }
 .pagination > li > a:focus,
-.pagination > li > a:active  { color:#FF3300; text-decoration:none; }
-
+.pagination > li > a:active        { color:#FF3300; text-decoration:none; }
 .pagination > .active > a,
 .pagination > .active > a:focus,
 .pagination > .active > a:hover,
 .pagination > .active > span,
 .pagination > .active > span:focus,
-.pagination > .active > span:hover {
-    background-color: #E8E8E8;
-    border-color: #E8E8E8;
-}
-
-.listado-alfabetico          { list-style:none; }
-.listado-alfabetico-titulo   { font-weight:400; border-bottom:1px solid #AAA; }
-.listado-alfabetico-arriba   { font-size:20px; }
+.pagination > .active > span:hover { background-color: #E8E8E8; border-color: #E8E8E8; }
+.listado-alfabetico                { list-style:none; }
+.listado-alfabetico-titulo         { font-weight:400; border-bottom:1px solid #AAA; }
+.listado-alfabetico-arriba         { font-size:20px; }
 
 /*
- * Página Inicial
+ * Pagina Inicial Organizacion
  */
-#organizacion {
-    padding:0;
-}
-#organizacion .banner {
-    width:100%;
-}
-.organizacion-logotipo {
-    float:left;
-    margin-right:8px;
-}
-.organizacion-titulo {
-    color:#000;
-    margin-top:6px;
-    margin-bottom:2px;
-    border-bottom:none;
-    padding:0;
-    margin:0 0 2px 0;
-}
-.organizacion-descripcion {
-    color:#646464;
-    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
-    line-height:1.2;
-    padding:0;
-    margin:0 0 2px 0;
-}
-#destacado {
-    background-color:#D1D7DC;
-    padding:8px;
-}
-.destacado-titulo {
-    line-height:1.2em;
-    margin-bottom:4px;
-    border-bottom:none;
-}
-.destacado-descripcion {
-    font-size:12px;
-    margin-bottom:4px;
-}
-.destacado-boton {
-    background-color:#F0F0F0;
-    font-size:12px;
-}
+#organizacion             { padding:0; }
+#organizacion .banner     { width:100%; }
+.organizacion-logotipo    { float:left; margin-right:8px; }
+.organizacion-titulo      { color:#000; margin-top:6px; margin-bottom:2px; border-bottom:none; padding:0; margin:0 0 2px 0; }
+.organizacion-descripcion { color:#646464; font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400; line-height:1.2; padding:0; margin:0 0 2px 0; }
 
 /*
- * Página Inicial imágenes de los servicios que cambian al pasar el ratón
+ * Pagina Inicial Servicios
  */
-#servicio-ibc       { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-ibc.png") no-repeat 0 0; }
-#servicio-ibc:hover { background-position:-200px 0; }
-#servicio-smi       { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-smi.png") no-repeat 0 0; }
-#servicio-smi:hover { background-position:-200px 0; }
-#servicio-sig       { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-sig.png") no-repeat 0 0; }
-#servicio-sig:hover { background-position:-200px 0; }
-#servicio-pem       { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-pem.png") no-repeat 0 0; }
-#servicio-pem:hover { background-position:-200px 0; }
-#servicio-pet       { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-pet.png") no-repeat 0 0; }
-#servicio-pet:hover { background-position:-200px 0; }
+#destacado             { background-color:#D1D7DC; padding:8px; }
+.destacado-titulo      { line-height:1.2em; margin-bottom:4px; border-bottom:none; }
+.destacado-descripcion { font-size:12px; margin-bottom:4px; }
+.destacado-boton       { background-color:#F0F0F0; font-size:12px; }
+/* Imagenes que cambian al pasar el ratón */
+#servicio-ibc          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-ibc.png") no-repeat 0 0; }
+#servicio-ibc:hover    { background-position:-200px 0; }
+#servicio-smi          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-smi.png") no-repeat 0 0; }
+#servicio-smi:hover    { background-position:-200px 0; }
+#servicio-sig          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-sig.png") no-repeat 0 0; }
+#servicio-sig:hover    { background-position:-200px 0; }
+#servicio-pem          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-pem.png") no-repeat 0 0; }
+#servicio-pem:hover    { background-position:-200px 0; }
+#servicio-pet          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-pet.png") no-repeat 0 0; }
+#servicio-pet:hover    { background-position:-200px 0; }
 
 /*
- * Página Inicial últimas publicaciones
+ * Pagina Inicial IBC
  */
-#ultimas-publicaciones {
-    background-color:#FFF;
-}
-#ultimas-publicaciones .ultimas {
-    padding:8px;
-}
-#ultimas-publicaciones .red-social-twitter {
-    background-color:#494043;
-    padding:8px;
-}
+.panel-ibc         { background-image:url("../../imagenes/fondo-ibc.jpg"); margin:0; }
+.panel-heading-ibc { background-color:#CACACA; padding:0px 12px; }
+.panel-footer-ibc  { background-color:#E5E5E5; }
+.imagen-ibc        { float:left; margin-right:8px; }
 
 /*
- * Página Inicial mapa del sitio
+ * Pagina Inicial Ultimas Publicaciones
+ */
+#ultimas-publicaciones                     { background-color:#FFF; }
+#ultimas-publicaciones .ultimas            { padding:8px; }
+#ultimas-publicaciones .red-social-twitter { background-color:#494043; padding:8px; }
+
+/*
+ * Página Inicial Mapa
  */
 #mapa,
-#mapa-chico {
-    background-color:#D1D7DC;
-    padding:8px;
-    color:#444;
-    font-size:14px;
-}
+#mapa-chico                    { background-color:#D1D7DC; padding:8px; color:#444; font-size:14px; }
 #mapa h4.mapa-encabezado,
-#mapa-chico h4.mapa-encabezado {
-    margin-bottom:0;
-}
-#mapa ul {
-    margin:0;
-    padding:2px 0 0 0;
-}
-#mapa li {
-    margin-top:2px;
-    margin-bottom:2px;
-    padding-left:16px;
-    list-style-type:none;
-    text-align:left;
-    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
-}
-#mapa a               { color:#646464; padding:2px; font-weight:400; display:block; }
-#mapa-chico a         { color:#646464; padding:2px; font-weight:400; }
+#mapa-chico h4.mapa-encabezado { margin-bottom:0; }
+#mapa ul                       { margin:0; padding:2px 0 0 0; }
+#mapa li                       { margin-top:2px; margin-bottom:2px; padding-left:16px; list-style-type:none; text-align:left; font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400; }
+#mapa a                        { color:#646464; padding:2px; font-weight:400; display:block; }
+#mapa-chico a                  { color:#646464; padding:2px; font-weight:400; }
 #mapa a:link,
 #mapa a:visited,
 #mapa-chico a:link,
-#mapa-chico a:visited { color:#646464; }
+#mapa-chico a:visited          { color:#646464; }
 #mapa a:hover,
 #mapa a:active,
 #mapa-chico a:hover,
-#mapa-chico a:active  { color:#FF3300; }
-#mapa-chico           { display:none; }
+#mapa-chico a:active           { color:#FF3300; }
+#mapa-chico                    { display:none; }
 
 /*
  * Página Inicial redes sociales
@@ -589,6 +536,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     .destacado-servicio { min-height: 140px; }
     .destacado-imagen   { float:left; margin-right:8px; }
     .destacado-boton    { font-size:10pt; }
+    #servicio-ibc       { display:block; width:128px; height:128px; background:url("../../imagenes/servicio-ibc-128.png") no-repeat 0 0; }
+    #servicio-ibc:hover { background-position:-128px 0; }
     #servicio-smi       { display:block; width:128px; height:128px; background:url("../../imagenes/servicio-smi-128.png") no-repeat 0 0; }
     #servicio-smi:hover { background-position:-128px 0; }
     #servicio-sig       { display:block; width:128px; height:128px; background:url("../../imagenes/servicio-sig-128.png") no-repeat 0 0; }
@@ -597,6 +546,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     #servicio-pem:hover { background-position:-128px 0; }
     #servicio-pet       { display:block; width:128px; height:128px; background:url("../../imagenes/servicio-pet-128.png") no-repeat 0 0; }
     #servicio-pet:hover { background-position:-128px 0; }
+    .imagen-ibc         { margin-right:6px; }
     #ultimas-publicaciones .red-social-twitter { display:none; }
     #mapa               { display:none; }
     #mapa-chico         { display:block; font-size:10pt; }
@@ -609,6 +559,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     .destacado-servicio { min-height: 140px; }
     .destacado-imagen   { float:left; margin-right:8px; }
     .destacado-boton    { font-size:9pt; }
+    #servicio-ibc       { display:block; width:64px; height:64px; background:url("../../imagenes/servicio-ibc-64.png") no-repeat 0 0; }
+    #servicio-ibc:hover { background-position:-64px 0; }
     #servicio-smi       { display:block; width:64px; height:64px; background:url("../../imagenes/servicio-smi-64.png") no-repeat 0 0; }
     #servicio-smi:hover { background-position:-64px 0; }
     #servicio-sig       { display:block; width:64px; height:64px; background:url("../../imagenes/servicio-sig-64.png") no-repeat 0 0; }
@@ -617,6 +569,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     #servicio-pem:hover { background-position:-64px 0; }
     #servicio-pet       { display:block; width:64px; height:64px; background:url("../../imagenes/servicio-pet-64.png") no-repeat 0 0; }
     #servicio-pet:hover { background-position:-64px 0; }
+    .imagen-ibc         { margin-right:4px; }
     #ultimas-publicaciones .red-social-twitter { display:none; }
     #mapa               { display:none; }
     #mapa-chico         { display:block; font-size:9pt; }
@@ -629,6 +582,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     .destacado-servicio { min-height: 140px; }
     .destacado-imagen   { float:left; margin-right:8px; }
     .destacado-boton    { font-size:8pt; }
+    #servicio-ibc       { display:block; width:48px; height:48px; background:url("../../imagenes/servicio-ibc-48.png") no-repeat 0 0; }
+    #servicio-ibc:hover { background-position:-48px 0; }
     #servicio-smi       { display:block; width:48px; height:48px; background:url("../../imagenes/servicio-smi-48.png") no-repeat 0 0; }
     #servicio-smi:hover { background-position:-48px 0; }
     #servicio-sig       { display:block; width:48px; height:48px; background:url("../../imagenes/servicio-sig-48.png") no-repeat 0 0; }
@@ -637,6 +592,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     #servicio-pem:hover { background-position:-48px 0; }
     #servicio-pet       { display:block; width:48px; height:48px; background:url("../../imagenes/servicio-pet-48.png") no-repeat 0 0; }
     #servicio-pet:hover { background-position:-48px 0; }
+    .imagen-ibc         { float:left; margin-right:2px; }
     #ultimas-publicaciones .red-social-twitter { display:none; }
     #mapa               { display:none; }
     #mapa-chico         { display:block; font-size:8pt; }
