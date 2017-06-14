@@ -54,7 +54,7 @@ class IBC {
         $a[] = '            <b>Hay varias formas de usar IBC:</b>';
         $a[] = '            Por medio del listado alfabético de las <a class="btn btn-default destacado-boton" role="button" href="ibc-colonias-torreon/index.html">Colonias de Torreón</a>,';
         $a[] = '            con el <a class="btn btn-default destacado-boton" role="button" href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank">Mapa Completo</a>';
-        $a[] = '            o usar el buscador de Google:';
+        $a[] = '            o con el buscador de Google:';
         $a[] = '            <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">';
         $a[] = '                <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">';
         $a[] = '                <input type="hidden" value="FORID:11" name="cof">';
