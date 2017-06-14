@@ -134,7 +134,7 @@ abstract class PublicacionWeb extends \Base\Publicacion implements SalidaWeb {
         $this->contenido->description   = $this->descripcion;
         $this->contenido->author        = $this->autor;
         $this->contenido->spatial       = $s_place;
-        $this->contenido->datePublished = '2010-01-01';
+        $this->contenido->datePublished = $this->fecha;
     //  $this->contenido->distribution  = ; // URL a JSON con http://schema.org/DataDownload
         $this->contenido->content       = $this->lenguetas->html();
         // Entregar

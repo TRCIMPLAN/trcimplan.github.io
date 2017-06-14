@@ -39,7 +39,7 @@ class TorreonUrbano extends \IBCBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo                    = 'torreon-urbano';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Indicadores del Área Urbana de Torreón, Coahuila de Zaragoza, México.';
+        $this->descripcion                = 'Indicadores del Área Urbana de Torreón, Coahuila de Zaragoza, México. INEGI Censo de Población y Vivienda 2010 y DENUE.';
         $this->claves                     = 'IMPLAN, Torreon, Urbano, Indicadores';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Indicadores Básicos de Colonias > Torreón Urbano';
