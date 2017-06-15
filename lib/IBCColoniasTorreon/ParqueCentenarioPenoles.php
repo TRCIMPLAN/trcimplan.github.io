@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IBCColoniasTorreon LuisEcheverriaSur
+ * TrcIMPLAN Sitio Web - IBCColoniasTorreon ParqueCentenarioPenoles
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace IBCColoniasTorreon;
 
 /**
- * Clase LuisEcheverriaSur
+ * Clase ParqueCentenarioPenoles
  */
-class LuisEcheverriaSur extends \IBCBase\PublicacionWeb {
+class ParqueCentenarioPenoles extends \IBCBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,13 +34,13 @@ class LuisEcheverriaSur extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre      = 'Luis Echeverría Sur';
-        $this->fecha       = '2017-05-29T20:31:44';
+        $this->nombre      = 'Parque Centenario Peñoles';
+        $this->fecha       = '2017-06-15T15:28:56';
         // El nombre del archivo a crear
-        $this->archivo     = 'luis-echeverria-sur';
+        $this->archivo     = 'parque-centenario-penoles';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Colonia Luis Echeverría Sur en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Luis Echeverría Sur';
+        $this->descripcion = 'Colonia Parque Centenario Peñoles en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Parque Centenario Peñoles';
     } // constructor
 
     /**
@@ -110,9 +110,21 @@ class LuisEcheverriaSur extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+### Historia
+
+Anteriormente fue la colonia Luis Echeverría Sur.
+
+### Parque Centenario Peñoles
+
+Fue inaugurado en septiembre del 2000. Tiene una superficie de 18 hectáreas. Cuenta con un inventario vegetal de 6,591 ejemplares y 65 especies: 2,554 mezquites, 2,015 casuarinas, 545 acacias, 486 pingüicos y 204 huizaches, entre otras.
+
+### Fuentes
+
+* [Dirección General de Medio Ambiente de Torreón](http://www.torreon.gob.mx/medioambiente/)
+FINAL;
     } // resena
 
-} // Clase LuisEcheverriaSur
+} // Clase ParqueCentenarioPenoles
 
 ?>

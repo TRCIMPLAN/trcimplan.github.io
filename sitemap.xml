@@ -2071,11 +2071,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/ibc-colonias-torreon/luis-echeverria-sur.html</loc>
-    <lastmod>2017-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/ibc-colonias-torreon/luis-horacio-salinas.html</loc>
     <lastmod>2017-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -2248,6 +2243,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/ibc-colonias-torreon/paraiso-del-nazas.html</loc>
     <lastmod>2017-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/ibc-colonias-torreon/parque-centenario-penoles.html</loc>
+    <lastmod>2017-06-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
