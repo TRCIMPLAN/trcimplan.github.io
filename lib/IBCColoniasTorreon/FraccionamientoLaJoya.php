@@ -34,19 +34,13 @@ class FraccionamientoLaJoya extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Fraccionamiento La Joya';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T20:31:44';
+        $this->nombre      = 'Fraccionamiento La Joya';
+        $this->fecha       = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
-        $this->archivo                    = 'fraccionamiento-la-joya';
+        $this->archivo     = 'fraccionamiento-la-joya';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Fraccionamiento La Joya en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Fraccionamiento La Joya';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
+        $this->descripcion = 'Colonia Fraccionamiento La Joya en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Fraccionamiento La Joya';
     } // constructor
 
     /**

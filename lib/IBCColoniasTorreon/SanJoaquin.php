@@ -34,19 +34,13 @@ class SanJoaquin extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'San Joaquín';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T20:31:44';
+        $this->nombre      = 'San Joaquín';
+        $this->fecha       = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
-        $this->archivo                    = 'san-joaquin';
+        $this->archivo     = 'san-joaquin';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia San Joaquín en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, San Joaquín';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
+        $this->descripcion = 'Colonia San Joaquín en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, San Joaquín';
     } // constructor
 
     /**

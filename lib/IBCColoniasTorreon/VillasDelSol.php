@@ -34,19 +34,13 @@ class VillasDelSol extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Villas del Sol';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T20:31:44';
+        $this->nombre      = 'Villas del Sol';
+        $this->fecha       = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
-        $this->archivo                    = 'villas-del-sol';
+        $this->archivo     = 'villas-del-sol';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Villas del Sol en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Villas del Sol';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
+        $this->descripcion = 'Colonia Villas del Sol en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Villas del Sol';
     } // constructor
 
     /**

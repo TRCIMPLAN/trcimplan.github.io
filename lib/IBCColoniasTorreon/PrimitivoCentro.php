@@ -34,19 +34,13 @@ class PrimitivoCentro extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Primitivo (Centro)';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T21:00:53';
+        $this->nombre      = 'Primitivo (Centro)';
+        $this->fecha       = '2017-05-29T21:00:53';
         // El nombre del archivo a crear
-        $this->archivo                    = 'primitivo-centro';
+        $this->archivo     = 'primitivo-centro';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Primitivo (Centro) en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Primitivo (Centro)';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
+        $this->descripcion = 'Colonia Primitivo (Centro) en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Primitivo (Centro)';
     } // constructor
 
     /**

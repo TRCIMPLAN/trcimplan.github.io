@@ -34,19 +34,13 @@ class HaciendaSantaMaria extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Hacienda Santa María';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T20:31:44';
+        $this->nombre      = 'Hacienda Santa María';
+        $this->fecha       = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
-        $this->archivo                    = 'hacienda-santa-maria';
+        $this->archivo     = 'hacienda-santa-maria';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Hacienda Santa María en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Hacienda Santa María';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
+        $this->descripcion = 'Colonia Hacienda Santa María en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Hacienda Santa María';
     } // constructor
 
     /**

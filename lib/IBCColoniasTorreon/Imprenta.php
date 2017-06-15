@@ -38,9 +38,9 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion               = 'Indicadores Básicos de Colonias de Torreón, Coahuila de Zaragoza, México.';
         $this->claves                    = 'IMPLAN, Torreon, Indicadores, Colonias, Torreón';
         // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
-        $this->aparece_en_pagina_inicial = TRUE;
+        $this->aparece_en_pagina_inicial = FALSE;
         $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->para_compartir            = TRUE;
+        $this->para_compartir            = FALSE;
         $this->imagen                    = '../imagenes/imagen.jpg';
         $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
         $this->poner_imagen_en_contenido = FALSE;

@@ -34,19 +34,13 @@ class SegundoDeCobianCentro extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Segundo de Cobián (Centro)';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T20:55:12';
+        $this->nombre      = 'Segundo de Cobián (Centro)';
+        $this->fecha       = '2017-05-29T20:55:12';
         // El nombre del archivo a crear
-        $this->archivo                    = 'segundo-de-cobian-centro';
+        $this->archivo     = 'segundo-de-cobian-centro';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Segundo de Cobián (Centro) en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Segundo de Cobián (Centro)';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
+        $this->descripcion = 'Colonia Segundo de Cobián (Centro) en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Segundo de Cobián (Centro)';
     } // constructor
 
     /**

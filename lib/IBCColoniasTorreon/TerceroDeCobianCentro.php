@@ -34,19 +34,13 @@ class TerceroDeCobianCentro extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Tercero de Cobián (Centro)';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T21:01:43';
+        $this->nombre      = 'Tercero de Cobián (Centro)';
+        $this->fecha       = '2017-05-29T21:01:43';
         // El nombre del archivo a crear
-        $this->archivo                    = 'tercero-de-cobian-centro';
+        $this->archivo     = 'tercero-de-cobian-centro';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia Tercero de Cobián (Centro) en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, Tercero de Cobián (Centro)';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
+        $this->descripcion = 'Colonia Tercero de Cobián (Centro) en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Tercero de Cobián (Centro)';
     } // constructor
 
     /**

@@ -34,19 +34,13 @@ class LaLibertad extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'La Libertad';
-        $this->autor                      = 'Dirección de Investigación Estratégica';
-        $this->fecha                      = '2017-05-29T20:57:03';
+        $this->nombre      = 'La Libertad';
+        $this->fecha       = '2017-05-29T20:57:03';
         // El nombre del archivo a crear
-        $this->archivo                    = 'la-libertad';
+        $this->archivo     = 'la-libertad';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Colonia La Libertad en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Colonia, La Libertad';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Colonias de Torreón';
-        // Banderas
-        $this->poner_imagen_en_contenido  = FALSE;
-        $this->para_compartir             = FALSE;
+        $this->descripcion = 'Colonia La Libertad en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, La Libertad';
     } // constructor
 
     /**
