@@ -13,7 +13,7 @@ Lea los pasos para usarlo con [Microsoft Excel](datos-abiertos-csv-microsoft-exc
 
 Este archivo comprimido **ZIP** contiene un conjunto de archivos _shape_ con los límites de las colonias de Torreón.
 
-<a href="../ibc-colonias-torreon/ibc-colonias-torreon-20170524b.zip"><img src="datos-abiertos/googleearth.png" alt="Indicadores Básicos por Colonias de Torreón en SHP"> Límites de IBC Torreón en SHP.</a>
+<a href="../ibc-colonias-torreon/ibc-colonias-torreon-20170615.zip"><img src="datos-abiertos/googleearth.png" alt="Indicadores Básicos por Colonias de Torreón en SHP"> Límites de IBC Torreón en SHP.</a>
 
 Descomprima y abra este archivo en un programa de información geográfica (GIS). Le recomendamos que use [QGIS](http://qgis.org/es/site/) el cual es software libre.
 
