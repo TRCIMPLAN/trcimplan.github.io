@@ -35,7 +35,7 @@ class ParqueCentenarioPenoles extends \IBCBase\PublicacionWeb {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre      = 'Parque Centenario Peñoles';
-        $this->fecha       = '2017-06-15T15:28:56';
+        $this->fecha       = '2017-06-16T09:10:11';
         // El nombre del archivo a crear
         $this->archivo     = 'parque-centenario-penoles';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -118,6 +118,14 @@ Anteriormente fue la colonia Luis Echeverría Sur.
 ### Parque Centenario Peñoles
 
 Fue inaugurado en septiembre del 2000. Tiene una superficie de 18 hectáreas. Cuenta con un inventario vegetal de 6,591 ejemplares y 65 especies: 2,554 mezquites, 2,015 casuarinas, 545 acacias, 486 pingüicos y 204 huizaches, entre otras.
+
+![Parque Centenario Peñoles 1](parque-centenario-penoles/parque-centenario-penoles-1.jpg)
+
+![Parque Centenario Peñoles 2](parque-centenario-penoles/parque-centenario-penoles-2.jpg)
+
+![Parque Centenario Peñoles 3](parque-centenario-penoles/parque-centenario-penoles-3.jpg)
+
+![Parque Centenario Peñoles 4](parque-centenario-penoles/parque-centenario-penoles-4.jpg)
 
 ### Fuentes
 
