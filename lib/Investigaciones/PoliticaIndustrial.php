@@ -25,7 +25,7 @@ namespace Investigaciones;
 /**
  * Clase PoliticaIndustrial
  */
-class PoliticaIndustrial extends \Base\Publicacion {
+class PoliticaIndustrial extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
@@ -34,20 +34,20 @@ class PoliticaIndustrial extends \Base\Publicacion {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                    = 'Política Industrial';
-        $this->autor                     = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha                     = '2017-05-26T12:00';
+        $this->nombre        = 'Política Industrial';
+        $this->autor         = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha         = '2017-05-26T12:00';
         // El nombre del archivo a crear
-        $this->archivo                   = 'politica-industrial';
-        $this->imagen                    = 'politica-industrial/imagen.jpg';
-        $this->imagen_previa             = 'politica-industrial/imagen-previa.jpg';
+        $this->archivo       = 'politica-industrial';
+        $this->imagen        = 'politica-industrial/imagen.jpg';
+        $this->imagen_previa = 'politica-industrial/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Estudio sobre Política Industrial para Torreón, Coahuila de Zaragoza, México.';
-        $this->claves                    = 'IMPLAN, Torreon, Politica, Industrial';
+        $this->descripcion   = 'Estudio sobre Política Industrial para Torreón, Coahuila de Zaragoza, México.';
+        $this->claves        = 'IMPLAN, Torreon, Politica, Industrial';
         // Para el Organizador
-        $this->categorias                = array('Empresas', 'Empleo', 'Macroeconomía');
-        $this->fuentes                   = array();
-        $this->regiones                  = array('Torreón');
+        $this->categorias    = array('Empresas', 'Empleo', 'Macroeconomía');
+        $this->fuentes       = array();
+        $this->regiones      = array('Torreón');
     } // constructor
 
     /**
@@ -56,8 +56,10 @@ class PoliticaIndustrial extends \Base\Publicacion {
      * @return string Código HTML
      */
     public function html() {
-        // Contenido
-        $this->contenido = \Base\Funciones::cargar_archivo_markdown('lib/Investigaciones/PoliticaIndustrial.md');
+        // Cargar en el Schema el archivo HTML seguido del archivo Markdown
+        $this->contenido->articleBody =
+            $this->cargar_archivo('lib/Investigaciones/PoliticaIndustrialPresentacion.html').
+            $this->cargar_archivo_markdown('lib/Investigaciones/PoliticaIndustrial.md');
         // Ejecutar este método en el padre
         return parent::html();
     } // html
@@ -65,12 +67,12 @@ class PoliticaIndustrial extends \Base\Publicacion {
     /**
      * Javascript
      *
-     * @return string Código Javascript
+     * @return string No hay código Javascript, entrega un texto vacío
      */
     public function javascript() {
-        // JavaScript
-        $this->javascript = '';
-        // Ejecutar este método en el padre
+        // Cargar archivo externo
+        $this->javascript = $this->cargar_archivo('lib/Investigaciones/PoliticaIndustrialPresentacion.js');
+        // Entregar resultado del padre
         return parent::javascript();
     } // javascript
 

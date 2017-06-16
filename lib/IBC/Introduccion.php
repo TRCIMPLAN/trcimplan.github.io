@@ -34,18 +34,42 @@ class Introduccion extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Introducción a los Indicadores Básicos por Colonias';
-        $this->fecha                      = '2017-06-01T08:00';
+        $this->nombre      = 'Introducción a los Indicadores Básicos por Colonias';
+        $this->fecha       = '2017-06-01T08:00';
         // El nombre del archivo a crear
-        $this->archivo                    = 'introduccion';
+        $this->archivo     = 'introduccion';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Introducción a los Indicadores Básicos por Colonias del IMPLAN Torreón.';
-        $this->claves                     = 'IMPLAN, Torreon, Indicadores, Basicos, Colonias';
+        $this->descripcion = 'Introducción a los Indicadores Básicos por Colonias del IMPLAN Torreón.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Basicos, Colonias';
         // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Indicadores Básicos de Colonias > Introducción al IBC';
-        // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/IBC/Introduccion.md';
+        $this->nombre_menu = 'Indicadores Básicos de Colonias > Introducción al IBC';
     } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Cargar en el Schema el archivo HTML seguido del archivo Markdown
+        $this->contenido->articleBody =
+            $this->cargar_archivo('lib/IBC/IntroduccionPresentacion.html').
+            $this->cargar_archivo_markdown('lib/IBC/Introduccion.md');
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
+        // Cargar archivo externo
+        $this->javascript = $this->cargar_archivo('lib/IBC/IntroduccionPresentacion.js');
+        // Entregar resultado del padre
+        return parent::javascript();
+    } // javascript
 
 } // Clase Introduccion
 
