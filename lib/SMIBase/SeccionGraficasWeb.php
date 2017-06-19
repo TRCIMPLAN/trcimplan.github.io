@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN IBCBase - GeoExceptionSinDatos
+ * TrcIMPLAN SMIBase - SeccionGraficasWeb
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,11 +20,29 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace IBCBase;
+namespace SMIBase;
 
 /**
- * Clase GeoExceptionSinDatos
+ * Clase SeccionGraficasWeb
  */
-class GeoExceptionSinDatos extends \Exception {}
+class SeccionGraficasWeb implements SalidaWeb {
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+    } // javascript
+
+} // Clase SeccionGraficasWeb
 
 ?>
