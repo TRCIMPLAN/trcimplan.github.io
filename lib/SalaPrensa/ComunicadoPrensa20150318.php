@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Sala de Prensa ComunicadoPrensa20150318
+ * TrcIMPLAN Sitio Web - Comunicado Prensa 20150318
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *

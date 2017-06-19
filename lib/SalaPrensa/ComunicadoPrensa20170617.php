@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Comunicado Prensa 20140512
+ * TrcIMPLAN Sitio Web - Comunicado Prensa 20170617
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SalaPrensa;
 
 /**
- * Clase ComunicadoPrensa20140512
+ * Clase ComunicadoPrensa20170617
  */
-class ComunicadoPrensa20140512 extends \Base\PublicacionSchemaBlogPosting {
+class ComunicadoPrensa20170617 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -34,22 +34,22 @@ class ComunicadoPrensa20140512 extends \Base\PublicacionSchemaBlogPosting {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Comunicado de Prensa 12.5.14';
+        $this->nombre                     = 'Comunicado de Prensa - Respuesta del IMPLAN al CLIP';
         $this->autor                      = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha                      = '2014-05-12T08:00';
+        $this->fecha                      = '2017-06-17T08:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '2014-05-12-comunicado-prensa';
+        $this->archivo                    = '2017-06-17-comunicado-prensa';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Precisiones respecto a conferencia de Sam Podolsky.';
-        $this->claves                     = 'IMPLAN, Torreon, Competitividad, Gobernanza, Bienestar';
-        // Ruta al archivo HTML con el contenido
-        $this->contenido_archivo_html     = 'lib/SalaPrensa/ComunicadoPrensa20140512.html';
+        $this->descripcion                = 'Respuesta a la apertura del CLIP al debate público y con el objetivo de hacer precisiones pertinentes a la comunidad lagunera por parte del Director General del IMPLAN Torreón sobre el proyecto de Política Industrial.';
+        $this->claves                     = 'IMPLAN, Torreon, CLIP';
+        // Ruta al archivo markdown con el contenido
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/ComunicadoPrensa20170617.md';
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Competitividad', 'Empleo', 'Empresas');
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
-} // Clase ComunicadoPrensa20140512
+} // Clase ComunicadoPrensa20170617
 
 ?>
