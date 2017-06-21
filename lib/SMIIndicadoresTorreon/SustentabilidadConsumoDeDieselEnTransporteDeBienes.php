@@ -33,9 +33,8 @@ class SustentabilidadConsumoDeDieselEnTransporteDeBienes extends \SMIBase\Public
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Consumo de Diesel en Transporte de Bienes en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T16:14:13';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-consumo-de-diesel-en-transporte-de-bienes';

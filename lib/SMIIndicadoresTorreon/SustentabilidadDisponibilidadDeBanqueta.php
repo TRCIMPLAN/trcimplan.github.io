@@ -33,9 +33,8 @@ class SustentabilidadDisponibilidadDeBanqueta extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Disponibilidad de Banqueta en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-11-24T15:58:10';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-disponibilidad-de-banqueta';

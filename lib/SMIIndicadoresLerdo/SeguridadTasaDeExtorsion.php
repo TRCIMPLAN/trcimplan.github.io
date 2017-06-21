@@ -33,9 +33,8 @@ class SeguridadTasaDeExtorsion extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Tasa de Extorsión en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-04-29T14:02:12';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-tasa-de-extorsion';
@@ -132,15 +131,15 @@ class SeguridadTasaDeExtorsion extends \SMIBase\PublicacionWeb {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>30/04/2017</td>
-            <td>0.26 %</td>
+            <td>31/05/2017</td>
+            <td>0.30 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>30/04/2017</td>
-            <td>1.11 %</td>
+            <td>31/05/2017</td>
+            <td>1.50 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -164,7 +163,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 0.2600 },{ region: 'Durango', dato: 1.1100 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 0.3000 },{ region: 'Durango', dato: 1.5000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

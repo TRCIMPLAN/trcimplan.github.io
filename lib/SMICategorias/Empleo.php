@@ -25,36 +25,28 @@ namespace SMICategorias;
 /**
  * Clase Empleo
  */
-class Empleo extends \SMIBase\PublicacionWeb {
+class Empleo extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha
-        $this->nombre                    = 'Empleo';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-01-01T08:00'; // Fecha fija
+        // Título y fecha
+        $this->nombre        = 'Empleo';
+        $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
-        $this->archivo                   = 'empleo';
+        $this->archivo       = 'empleo';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Sistema Metropolitano de Indicadores - Categoría Empleo';
-        $this->claves                    = 'IMPLAN, Indicadores, Categoría, Empleo';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores > Indicadores por Categoría';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Empleo';
+        $this->claves        = 'IMPLAN, Indicadores, Categoría, Empleo';
         // Para el Organizador
-        $this->categorias                = array();
-        $this->fuentes                   = array();
-        $this->regiones                  = array();
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
-        $this->imagen                    = '../imagenes/categorias/empleo.jpg';
-        $this->imagen_previa             = '../imagenes/categorias/empleo.jpg';
-        $this->imagen_id                 = 'categorias-empleo';
+        $this->imagen        = '../imagenes/categorias/empleo.jpg';
+        $this->imagen_previa = '../imagenes/categorias/empleo.jpg';
+        $this->imagen_id     = 'categorias-empleo';
     } // constructor
 
     /**
@@ -64,7 +56,7 @@ class Empleo extends \SMIBase\PublicacionWeb {
      */
     public function html() {
         // Definir contenido HTML en el esquema
-        $this->contenido->articleBody = <<<FINAL
+        $this->contenido = <<<FINAL
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>

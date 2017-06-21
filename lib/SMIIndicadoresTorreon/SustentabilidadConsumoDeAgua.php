@@ -33,9 +33,8 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Consumo de Agua en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T10:33:47';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-consumo-de-agua';

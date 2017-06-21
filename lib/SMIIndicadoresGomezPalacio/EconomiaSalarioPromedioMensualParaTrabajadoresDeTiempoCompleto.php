@@ -33,9 +33,8 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Salario Promedio Mensual para Trabajadores de Tiempo Completo en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:29:58';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo';

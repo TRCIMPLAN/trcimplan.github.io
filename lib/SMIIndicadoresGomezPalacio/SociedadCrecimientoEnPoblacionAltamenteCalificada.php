@@ -33,9 +33,8 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \SMIBase\Publica
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Crecimiento en Población Altamente Calificada en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:15:36';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-crecimiento-en-poblacion-altamente-calificada';

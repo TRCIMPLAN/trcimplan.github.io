@@ -33,9 +33,8 @@ class SociedadViviendasConDrenajeSoloConexionARedPublica extends \SMIBase\Public
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Viviendas con Drenaje (sólo conexión a red pública) en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:23:56';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica';

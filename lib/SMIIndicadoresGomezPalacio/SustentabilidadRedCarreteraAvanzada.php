@@ -33,9 +33,8 @@ class SustentabilidadRedCarreteraAvanzada extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Red Carretera Avanzada en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T16:03:34';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-red-carretera-avanzada';

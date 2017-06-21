@@ -33,9 +33,8 @@ class GobiernoIndiceDeHerramientasElectronicasDeGobiernosLocales extends \SMIBas
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Índice de Herramientas Electrónicas de Gobiernos Locales en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:50:08';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales';

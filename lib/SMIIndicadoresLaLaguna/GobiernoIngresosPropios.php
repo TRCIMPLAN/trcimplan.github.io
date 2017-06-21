@@ -33,9 +33,8 @@ class GobiernoIngresosPropios extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Ingresos Propios en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T10:29:39';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-ingresos-propios';

@@ -33,9 +33,8 @@ class SustentabilidadPasajerosAereosTotalesMensuales extends \SMIBase\Publicacio
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Pasajeros Aéreos Totales Mensuales en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-05-20T15:50:37';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-totales-mensuales';

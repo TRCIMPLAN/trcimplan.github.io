@@ -33,9 +33,8 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \SMIBase\Publicacio
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Cumplimiento en Información Pública Mínina en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-cumplimiento-en-informacion-publica-minina';

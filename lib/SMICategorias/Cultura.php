@@ -25,36 +25,28 @@ namespace SMICategorias;
 /**
  * Clase Cultura
  */
-class Cultura extends \SMIBase\PublicacionWeb {
+class Cultura extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha
-        $this->nombre                    = 'Cultura';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-01-01T08:00'; // Fecha fija
+        // Título y fecha
+        $this->nombre        = 'Cultura';
+        $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
-        $this->archivo                   = 'cultura';
+        $this->archivo       = 'cultura';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Sistema Metropolitano de Indicadores - Categoría Cultura';
-        $this->claves                    = 'IMPLAN, Indicadores, Categoría, Cultura';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores > Indicadores por Categoría';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Cultura';
+        $this->claves        = 'IMPLAN, Indicadores, Categoría, Cultura';
         // Para el Organizador
-        $this->categorias                = array();
-        $this->fuentes                   = array();
-        $this->regiones                  = array();
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
-        $this->imagen                    = '../imagenes/categorias/cultura.jpg';
-        $this->imagen_previa             = '../imagenes/categorias/cultura.jpg';
-        $this->imagen_id                 = 'categorias-cultura';
+        $this->imagen        = '../imagenes/categorias/cultura.jpg';
+        $this->imagen_previa = '../imagenes/categorias/cultura.jpg';
+        $this->imagen_id     = 'categorias-cultura';
     } // constructor
 
     /**
@@ -64,7 +56,7 @@ class Cultura extends \SMIBase\PublicacionWeb {
      */
     public function html() {
         // Definir contenido HTML en el esquema
-        $this->contenido->articleBody = <<<FINAL
+        $this->contenido = <<<FINAL
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>

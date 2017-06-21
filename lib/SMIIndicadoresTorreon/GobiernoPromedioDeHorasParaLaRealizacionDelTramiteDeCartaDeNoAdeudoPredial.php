@@ -33,9 +33,8 @@ class GobiernoPromedioDeHorasParaLaRealizacionDelTramiteDeCartaDeNoAdeudoPredial
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Promedio de Horas para la Realización del Trámite de Carta de No Adeudo Predial en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T17:33:20';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-promedio-de-horas-para-la-realizacion-del-tramite-de-carta-de-no-adeudo-predial';

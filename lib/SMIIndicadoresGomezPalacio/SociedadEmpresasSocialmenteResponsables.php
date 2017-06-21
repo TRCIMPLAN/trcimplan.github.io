@@ -33,9 +33,8 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Empresas Socialmente Responsables en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:42:02';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-empresas-socialmente-responsables';

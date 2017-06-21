@@ -33,9 +33,8 @@ class SociedadIndiceDeMarginacion extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Índice de Marginación en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2016-06-10T13:47';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-indice-de-marginacion';

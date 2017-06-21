@@ -33,9 +33,8 @@ class SociedadDiferencialDeGradoPromedioDeEscolaridadPorGenero extends \SMIBase\
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Diferencial de Grado Promedio de Escolaridad por Género en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero';

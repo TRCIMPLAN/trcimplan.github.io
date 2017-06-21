@@ -33,9 +33,8 @@ class SustentabilidadConcentracionDeParticulasMenoresA10Micras extends \SMIBase\
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Concentración de Partículas menores a 10 micras en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2017-04-04T09:26:11';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-concentracion-de-particulas-menores-a-10-micras';

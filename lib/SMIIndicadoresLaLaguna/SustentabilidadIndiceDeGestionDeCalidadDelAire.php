@@ -33,9 +33,8 @@ class SustentabilidadIndiceDeGestionDeCalidadDelAire extends \SMIBase\Publicacio
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Índice de Gestión de Calidad del Aire en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T11:54:56';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-indice-de-gestion-de-calidad-del-aire';

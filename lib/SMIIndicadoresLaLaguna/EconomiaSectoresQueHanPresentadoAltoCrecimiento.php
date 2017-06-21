@@ -33,9 +33,8 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Sectores que Han Presentado Alto Crecimiento en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:58:54';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-sectores-que-han-presentado-alto-crecimiento';

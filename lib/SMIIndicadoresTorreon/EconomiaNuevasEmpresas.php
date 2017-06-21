@@ -33,9 +33,8 @@ class EconomiaNuevasEmpresas extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Nuevas Empresas en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-02-09T08:43:29';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-nuevas-empresas';

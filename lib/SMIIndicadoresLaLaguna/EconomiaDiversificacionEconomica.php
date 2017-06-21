@@ -33,9 +33,8 @@ class EconomiaDiversificacionEconomica extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Diversificación Económica en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T16:54:35';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-diversificacion-economica';

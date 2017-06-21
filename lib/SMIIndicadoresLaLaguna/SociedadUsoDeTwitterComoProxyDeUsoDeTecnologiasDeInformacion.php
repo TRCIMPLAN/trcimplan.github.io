@@ -33,9 +33,8 @@ class SociedadUsoDeTwitterComoProxyDeUsoDeTecnologiasDeInformacion extends \SMIB
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Uso de Twitter como Proxy de Uso de Tecnologías de Información en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:58:42';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion';

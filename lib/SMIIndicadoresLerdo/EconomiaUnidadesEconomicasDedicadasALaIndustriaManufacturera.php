@@ -33,9 +33,8 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \SMIB
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Unidades Económicas Dedicadas a la Industria Manufacturera en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-unidades-economicas-dedicadas-a-la-industria-manufacturera';

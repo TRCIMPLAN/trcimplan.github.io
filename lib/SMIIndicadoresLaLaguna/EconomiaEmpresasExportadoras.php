@@ -33,9 +33,8 @@ class EconomiaEmpresasExportadoras extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Empresas Exportadoras en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-12-05T11:28:10';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-empresas-exportadoras';

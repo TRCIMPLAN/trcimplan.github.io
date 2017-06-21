@@ -33,9 +33,8 @@ class SeguridadRoboDeVehiculos extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Robo de Vehículos en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-robo-de-vehiculos';
@@ -99,7 +98,8 @@ class SeguridadRoboDeVehiculos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-01-31', 'valor' => '38', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
             array('fecha' => '2017-02-28', 'valor' => '19', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
             array('fecha' => '2017-03-31', 'valor' => '21', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
-            array('fecha' => '2017-04-30', 'valor' => '25', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => '')));
+            array('fecha' => '2017-04-30', 'valor' => '25', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
+            array('fecha' => '2017-05-31', 'valor' => '24', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => '')));
         // Entregar
         return $this->datos_tabla->html();
     } // seccion_datos_html
@@ -137,7 +137,7 @@ FINAL;
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 74 },{ fecha: '2014-02-28', dato: 50 },{ fecha: '2014-03-31', dato: 58 },{ fecha: '2014-04-30', dato: 89 },{ fecha: '2014-05-31', dato: 60 },{ fecha: '2014-06-30', dato: 52 },{ fecha: '2014-07-31', dato: 54 },{ fecha: '2014-08-31', dato: 51 },{ fecha: '2014-09-30', dato: 56 },{ fecha: '2014-10-31', dato: 91 },{ fecha: '2014-11-30', dato: 52 },{ fecha: '2014-12-31', dato: 57 },{ fecha: '2015-01-31', dato: 52 },{ fecha: '2015-02-28', dato: 77 },{ fecha: '2015-03-31', dato: 54 },{ fecha: '2015-04-30', dato: 41 },{ fecha: '2015-05-31', dato: 38 },{ fecha: '2015-06-30', dato: 47 },{ fecha: '2015-07-31', dato: 57 },{ fecha: '2015-08-31', dato: 28 },{ fecha: '2015-09-30', dato: 33 },{ fecha: '2015-10-31', dato: 49 },{ fecha: '2015-11-30', dato: 29 },{ fecha: '2015-12-31', dato: 40 },{ fecha: '2016-01-31', dato: 22 },{ fecha: '2016-02-29', dato: 19 },{ fecha: '2016-03-31', dato: 26 },{ fecha: '2016-04-30', dato: 30 },{ fecha: '2016-05-31', dato: 31 },{ fecha: '2016-06-30', dato: 36 },{ fecha: '2016-07-31', dato: 18 },{ fecha: '2016-08-31', dato: 52 },{ fecha: '2016-09-30', dato: 47 },{ fecha: '2016-10-31', dato: 41 },{ fecha: '2016-11-30', dato: 27 },{ fecha: '2016-12-31', dato: 36 },{ fecha: '2017-01-31', dato: 38 },{ fecha: '2017-02-28', dato: 19 },{ fecha: '2017-03-31', dato: 21 },{ fecha: '2017-04-30', dato: 25 }],
+      data: [{ fecha: '2014-01-31', dato: 74 },{ fecha: '2014-02-28', dato: 50 },{ fecha: '2014-03-31', dato: 58 },{ fecha: '2014-04-30', dato: 89 },{ fecha: '2014-05-31', dato: 60 },{ fecha: '2014-06-30', dato: 52 },{ fecha: '2014-07-31', dato: 54 },{ fecha: '2014-08-31', dato: 51 },{ fecha: '2014-09-30', dato: 56 },{ fecha: '2014-10-31', dato: 91 },{ fecha: '2014-11-30', dato: 52 },{ fecha: '2014-12-31', dato: 57 },{ fecha: '2015-01-31', dato: 52 },{ fecha: '2015-02-28', dato: 77 },{ fecha: '2015-03-31', dato: 54 },{ fecha: '2015-04-30', dato: 41 },{ fecha: '2015-05-31', dato: 38 },{ fecha: '2015-06-30', dato: 47 },{ fecha: '2015-07-31', dato: 57 },{ fecha: '2015-08-31', dato: 28 },{ fecha: '2015-09-30', dato: 33 },{ fecha: '2015-10-31', dato: 49 },{ fecha: '2015-11-30', dato: 29 },{ fecha: '2015-12-31', dato: 40 },{ fecha: '2016-01-31', dato: 22 },{ fecha: '2016-02-29', dato: 19 },{ fecha: '2016-03-31', dato: 26 },{ fecha: '2016-04-30', dato: 30 },{ fecha: '2016-05-31', dato: 31 },{ fecha: '2016-06-30', dato: 36 },{ fecha: '2016-07-31', dato: 18 },{ fecha: '2016-08-31', dato: 52 },{ fecha: '2016-09-30', dato: 47 },{ fecha: '2016-10-31', dato: 41 },{ fecha: '2016-11-30', dato: 27 },{ fecha: '2016-12-31', dato: 36 },{ fecha: '2017-01-31', dato: 38 },{ fecha: '2017-02-28', dato: 19 },{ fecha: '2017-03-31', dato: 21 },{ fecha: '2017-04-30', dato: 25 },{ fecha: '2017-05-31', dato: 24 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -172,36 +172,36 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>30/04/2017</td>
-            <td>25</td>
+            <td>31/05/2017</td>
+            <td>24</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>30/04/2017</td>
-            <td>25</td>
+            <td>31/05/2017</td>
+            <td>24</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>30/04/2017</td>
-            <td>9</td>
+            <td>31/05/2017</td>
+            <td>8</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>30/04/2017</td>
+            <td>31/05/2017</td>
             <td>2</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>30/04/2017</td>
-            <td>61</td>
+            <td>31/05/2017</td>
+            <td>58</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -222,7 +222,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 25 },{ region: 'Gómez Palacio', dato: 25 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 61 }],
+      data: [{ region: 'Torreón', dato: 24 },{ region: 'Gómez Palacio', dato: 24 },{ region: 'Lerdo', dato: 8 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 58 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

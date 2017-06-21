@@ -33,9 +33,8 @@ class SociedadUniversidadesDeCalidad extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Universidades de Calidad en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:45:25';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-universidades-de-calidad';

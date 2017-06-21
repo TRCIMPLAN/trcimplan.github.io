@@ -33,9 +33,8 @@ class EconomiaEmpleadosEnElSectorFormal extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Empleados en el Sector Formal en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T13:10:57';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-empleados-en-el-sector-formal';

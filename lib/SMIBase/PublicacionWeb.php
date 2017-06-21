@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLANSitioWeb
+ * @package PlataformaDeConocimiento
  */
 
 namespace SMIBase;
@@ -27,58 +27,26 @@ namespace SMIBase;
  */
 abstract class PublicacionWeb extends \Base\Publicacion implements SalidaWeb {
 
-    // public $sitio_url;
-    // public $fecha;
-    // public $autor;
-    // public $aparece_en_pagina_inicial;
-    // public $para_compartir;
-    // public $imagen;
-    // public $imagen_previa;
-    // public $imagen_id;
-    // public $icono;
-    // public $region_nivel;
-    // public $estado;
-    // public $poner_imagen_en_contenido;
-    // public $include_extra_directorio;
-    // public $nombre;
-    // public $nombre_menu;
-    // public $directorio;
-    // public $archivo;
-    // public $descripcion;
-    // public $claves;
-    // public $encabezado;
-    // public $encabezado_color;
-    // public $url;
-    // public $url_etiqueta;
-    // public $en_raiz;
-    // public $en_otro;
-    // public $archivo_url;
-    // public $archivo_target;
-    // public $boton_url;
-    // public $boton_target;
-    // public $contenido_archivo_html;
-    // public $contenido_archivo_markdown;
-    // public $categorias;
-    // public $fuentes;
-    // public $regiones;
-    // public $imprenta_titulo;
-    // protected $contenido;
-    // protected $javascript;
-    // protected $redifusion;
-    // protected $validado;
-    protected $lenguetas;                          // Instancia de LenguetasWeb
-    const     LENGUETAS_ID = 'LenguetasIndicador'; // Texto único que sirve de id para las lengüetas
-
-    abstract public function datos();
+    protected $lenguetas;
+    protected $datos_tabla;
 
     /**
      * Constructor
      */
     public function __construct() {
         // Ejecutar constructor en el padre
-        parent::__construct();
-        // Inicicial el contenido que será un SchemaArticle
-        $this->contenido = new \Base\SchemaArticle();
+        //~ parent::__construct();
+        // Opción de navegación a poner como activa
+        $this->nombre_menu               = 'Indicadores';
+        // Banderas
+        $this->poner_imagen_en_contenido = FALSE;
+        $this->para_compartir            = TRUE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                    = 'publicar';
+        // Inicializar las lengüetas
+        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
+        // Inicializar la tabla con los datos
+        $this->datos_tabla               = new TablaWeb('smi-indicador-datos-tabla');
     } // constructor
 
     /**
@@ -91,54 +59,23 @@ abstract class PublicacionWeb extends \Base\Publicacion implements SalidaWeb {
         if ($this->validado) {
             return;
         }
-        // Elaborar lengüetas
-        $this->lenguetas = new LenguetasWeb(self::LENGUETAS_ID);
-    } // validar
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Validar
-        $this->validar();
-        // Crear contenido en el SchemaArticle
-        $this->contenido->big_heading   = TRUE;
-        $this->contenido->headline      = $this->nombre;
+        // Ejecutar método en el padre
+        parent::validar();
+        // Por defecto
+        if (($this->imagen == '') || ($this->imagen_previa == '')) {
+            $this->imagen        = '../smi/introduccion/imagen.jpg';
+            $this->imagen_previa = '../smi/introduccion/imagen-previa.jpg';
+        }
+        // El contenido es estructurado en un esquema SchemaArticle
+        $this->contenido                = new \Base\SchemaArticle();
+        $this->contenido->name          = $this->nombre;
         $this->contenido->description   = $this->descripcion;
         $this->contenido->author        = $this->autor;
         $this->contenido->datePublished = $this->fecha;
         $this->contenido->image         = $this->imagen;
         $this->contenido->image_show    = $this->poner_imagen_en_contenido;
-        $this->contenido->articleBody   = $this->lenguetas->html();
-        // Entregar
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // Validar
-        $this->validar();
-        // Entregar
-        return parent::javascript();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Elaborar redifusión
-        $this->redifusion = "Debe haber algo aquí";
-        // Entregar
-        return parent::redifusion_html();
-    } // redifusion_html
+    //  $this->contenido->articleBody   = ; // En el método html de será procesado
+    } // validar
 
 } // Clase abstracta PublicacionWeb
 

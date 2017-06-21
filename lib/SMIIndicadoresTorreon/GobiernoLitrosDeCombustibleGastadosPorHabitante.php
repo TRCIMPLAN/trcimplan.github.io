@@ -33,9 +33,8 @@ class GobiernoLitrosDeCombustibleGastadosPorHabitante extends \SMIBase\Publicaci
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Litros de Combustible Gastados por Habitante en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-06T15:09:06';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-litros-de-combustible-gastados-por-habitante';

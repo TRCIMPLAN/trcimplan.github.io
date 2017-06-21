@@ -33,9 +33,8 @@ class SeguridadCompetenciaDeServiciosNotariales extends \SMIBase\PublicacionWeb 
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Competencia de Servicios Notariales en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T11:22:19';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-competencia-de-servicios-notariales';

@@ -33,9 +33,8 @@ class SociedadAlumnosDePreescolarPorDocente extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Alumnos de Preescolar por Docente en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-05-21T14:08:17';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-alumnos-de-preescolar-por-docente';

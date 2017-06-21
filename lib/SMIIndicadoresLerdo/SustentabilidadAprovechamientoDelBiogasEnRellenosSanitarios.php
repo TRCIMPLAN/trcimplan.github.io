@@ -33,9 +33,8 @@ class SustentabilidadAprovechamientoDelBiogasEnRellenosSanitarios extends \SMIBa
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Aprovechamiento del Biogás en Rellenos Sanitarios en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T12:16:43';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios';

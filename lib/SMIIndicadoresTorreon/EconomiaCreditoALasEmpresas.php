@@ -33,9 +33,8 @@ class EconomiaCreditoALasEmpresas extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Crédito a las Empresas en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:48:46';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-credito-a-las-empresas';

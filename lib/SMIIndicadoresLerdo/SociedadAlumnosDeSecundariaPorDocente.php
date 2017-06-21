@@ -33,9 +33,8 @@ class SociedadAlumnosDeSecundariaPorDocente extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Alumnos de Secundaria por Docente en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-05-21T15:54:26';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-alumnos-de-secundaria-por-docente';

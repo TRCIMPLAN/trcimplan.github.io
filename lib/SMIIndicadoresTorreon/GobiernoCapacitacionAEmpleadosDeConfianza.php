@@ -33,9 +33,8 @@ class GobiernoCapacitacionAEmpleadosDeConfianza extends \SMIBase\PublicacionWeb 
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Capacitación a Empleados de Confianza en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T17:48:01';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-capacitacion-a-empleados-de-confianza';

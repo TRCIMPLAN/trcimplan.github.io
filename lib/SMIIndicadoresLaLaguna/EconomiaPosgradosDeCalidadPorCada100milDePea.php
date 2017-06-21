@@ -33,9 +33,8 @@ class EconomiaPosgradosDeCalidadPorCada100milDePea extends \SMIBase\PublicacionW
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Posgrados de Calidad (por cada 100mil de PEA) en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:42:27';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-posgrados-de-calidad-por-cada-100mil-de-pea';

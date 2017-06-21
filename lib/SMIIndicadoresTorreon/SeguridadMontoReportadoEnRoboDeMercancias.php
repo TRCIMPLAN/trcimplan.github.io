@@ -33,9 +33,8 @@ class SeguridadMontoReportadoEnRoboDeMercancias extends \SMIBase\PublicacionWeb 
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Monto Reportado en Robo de Mercancías en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:22';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-monto-reportado-en-robo-de-mercancias';

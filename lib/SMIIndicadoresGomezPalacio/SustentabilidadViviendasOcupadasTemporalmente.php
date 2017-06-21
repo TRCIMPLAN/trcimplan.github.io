@@ -33,9 +33,8 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \SMIBase\Publicacion
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Viviendas Ocupadas Temporalmente en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-viviendas-ocupadas-temporalmente';

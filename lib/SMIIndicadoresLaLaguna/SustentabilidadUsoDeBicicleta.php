@@ -33,9 +33,8 @@ class SustentabilidadUsoDeBicicleta extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Uso de Bicicleta en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-11-10T10:24:58';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-uso-de-bicicleta';

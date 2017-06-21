@@ -33,9 +33,8 @@ class GobiernoPoliciasOperativosDeSeguridadPublica extends \SMIBase\PublicacionW
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Policías Operativos de Seguridad Pública en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:10:23';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-policias-operativos-de-seguridad-publica';

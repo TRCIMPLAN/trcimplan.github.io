@@ -33,9 +33,8 @@ class SeguridadPercepcionDeInseguridad extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Percepción de Inseguridad en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:29:37';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-percepcion-de-inseguridad';

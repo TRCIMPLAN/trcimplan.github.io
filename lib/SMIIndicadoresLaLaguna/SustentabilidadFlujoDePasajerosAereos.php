@@ -33,9 +33,8 @@ class SustentabilidadFlujoDePasajerosAereos extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Flujo de Pasajeros Aéreos en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T16:09:37';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-flujo-de-pasajeros-aereos';

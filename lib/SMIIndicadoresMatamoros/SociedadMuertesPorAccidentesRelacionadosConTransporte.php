@@ -33,9 +33,8 @@ class SociedadMuertesPorAccidentesRelacionadosConTransporte extends \SMIBase\Pub
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Muertes por Accidentes Relacionados con Transporte en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T16:00:22';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-muertes-por-accidentes-relacionados-con-transporte';

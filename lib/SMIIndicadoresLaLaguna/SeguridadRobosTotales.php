@@ -33,9 +33,8 @@ class SeguridadRobosTotales extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Robos Totales en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-robos-totales';
@@ -99,7 +98,8 @@ class SeguridadRobosTotales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-01-31', 'valor' => '576', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
             array('fecha' => '2017-02-28', 'valor' => '499', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
             array('fecha' => '2017-03-31', 'valor' => '635', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
-            array('fecha' => '2017-04-30', 'valor' => '493', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => '')));
+            array('fecha' => '2017-04-30', 'valor' => '493', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => ''),
+            array('fecha' => '2017-05-31', 'valor' => '470', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => '')));
         // Entregar
         return $this->datos_tabla->html();
     } // seccion_datos_html
@@ -137,7 +137,7 @@ FINAL;
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 952 },{ fecha: '2014-02-28', dato: 836 },{ fecha: '2014-03-31', dato: 825 },{ fecha: '2014-04-30', dato: 763 },{ fecha: '2014-05-31', dato: 927 },{ fecha: '2014-06-30', dato: 638 },{ fecha: '2014-07-31', dato: 742 },{ fecha: '2014-08-31', dato: 756 },{ fecha: '2014-09-30', dato: 759 },{ fecha: '2014-10-31', dato: 851 },{ fecha: '2014-11-30', dato: 638 },{ fecha: '2014-12-31', dato: 588 },{ fecha: '2015-01-31', dato: 647 },{ fecha: '2015-02-28', dato: 606 },{ fecha: '2015-03-31', dato: 487 },{ fecha: '2015-04-30', dato: 696 },{ fecha: '2015-05-31', dato: 563 },{ fecha: '2015-06-30', dato: 555 },{ fecha: '2015-07-31', dato: 602 },{ fecha: '2015-08-31', dato: 512 },{ fecha: '2015-09-30', dato: 560 },{ fecha: '2015-10-31', dato: 643 },{ fecha: '2015-11-30', dato: 492 },{ fecha: '2015-12-31', dato: 437 },{ fecha: '2016-01-31', dato: 397 },{ fecha: '2016-02-29', dato: 440 },{ fecha: '2016-03-31', dato: 559 },{ fecha: '2016-04-30', dato: 464 },{ fecha: '2016-05-31', dato: 505 },{ fecha: '2016-06-30', dato: 567 },{ fecha: '2016-07-31', dato: 395 },{ fecha: '2016-08-31', dato: 493 },{ fecha: '2016-09-30', dato: 600 },{ fecha: '2016-10-31', dato: 540 },{ fecha: '2016-11-30', dato: 434 },{ fecha: '2016-12-31', dato: 599 },{ fecha: '2017-01-31', dato: 576 },{ fecha: '2017-02-28', dato: 499 },{ fecha: '2017-03-31', dato: 635 },{ fecha: '2017-04-30', dato: 493 }],
+      data: [{ fecha: '2014-01-31', dato: 952 },{ fecha: '2014-02-28', dato: 836 },{ fecha: '2014-03-31', dato: 825 },{ fecha: '2014-04-30', dato: 763 },{ fecha: '2014-05-31', dato: 927 },{ fecha: '2014-06-30', dato: 638 },{ fecha: '2014-07-31', dato: 742 },{ fecha: '2014-08-31', dato: 756 },{ fecha: '2014-09-30', dato: 759 },{ fecha: '2014-10-31', dato: 851 },{ fecha: '2014-11-30', dato: 638 },{ fecha: '2014-12-31', dato: 588 },{ fecha: '2015-01-31', dato: 647 },{ fecha: '2015-02-28', dato: 606 },{ fecha: '2015-03-31', dato: 487 },{ fecha: '2015-04-30', dato: 696 },{ fecha: '2015-05-31', dato: 563 },{ fecha: '2015-06-30', dato: 555 },{ fecha: '2015-07-31', dato: 602 },{ fecha: '2015-08-31', dato: 512 },{ fecha: '2015-09-30', dato: 560 },{ fecha: '2015-10-31', dato: 643 },{ fecha: '2015-11-30', dato: 492 },{ fecha: '2015-12-31', dato: 437 },{ fecha: '2016-01-31', dato: 397 },{ fecha: '2016-02-29', dato: 440 },{ fecha: '2016-03-31', dato: 559 },{ fecha: '2016-04-30', dato: 464 },{ fecha: '2016-05-31', dato: 505 },{ fecha: '2016-06-30', dato: 567 },{ fecha: '2016-07-31', dato: 395 },{ fecha: '2016-08-31', dato: 493 },{ fecha: '2016-09-30', dato: 600 },{ fecha: '2016-10-31', dato: 540 },{ fecha: '2016-11-30', dato: 434 },{ fecha: '2016-12-31', dato: 599 },{ fecha: '2017-01-31', dato: 576 },{ fecha: '2017-02-28', dato: 499 },{ fecha: '2017-03-31', dato: 635 },{ fecha: '2017-04-30', dato: 493 },{ fecha: '2017-05-31', dato: 470 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -172,36 +172,36 @@ FINAL;
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>30/04/2017</td>
-            <td>251</td>
+            <td>31/05/2017</td>
+            <td>233</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>30/04/2017</td>
-            <td>166</td>
+            <td>31/05/2017</td>
+            <td>160</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>30/04/2017</td>
-            <td>58</td>
+            <td>31/05/2017</td>
+            <td>53</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>30/04/2017</td>
-            <td>18</td>
+            <td>31/05/2017</td>
+            <td>24</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>30/04/2017</td>
-            <td>493</td>
+            <td>31/05/2017</td>
+            <td>470</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -222,7 +222,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 251 },{ region: 'Gómez Palacio', dato: 166 },{ region: 'Lerdo', dato: 58 },{ region: 'Matamoros', dato: 18 },{ region: 'La Laguna', dato: 493 }],
+      data: [{ region: 'Torreón', dato: 233 },{ region: 'Gómez Palacio', dato: 160 },{ region: 'Lerdo', dato: 53 },{ region: 'Matamoros', dato: 24 },{ region: 'La Laguna', dato: 470 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

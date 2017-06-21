@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLANSitioWeb
+ * @package PlataformaDeConocimiento
  */
 
 namespace SMIBase;
@@ -62,6 +62,13 @@ class TablaWeb implements SalidaWeb {
      * Validar
      */
     protected function validar() {
+        if (is_string($this->identificador)) {
+            if (!preg_match('/^[A-Za-z0-9_-]+$/', $this->identificador)) {
+                throw new \Exception("Error en TablaWeb: Identificador No Válido: {$this->identificador}");
+            }
+        } else {
+            $this->identificador = NULL;
+        }
         if ($this->estructura == NULL) {
             throw new \Exception("Error en TablaWeb: Falta la estructura.");
         }
@@ -76,17 +83,15 @@ class TablaWeb implements SalidaWeb {
      * @return string Código HTML
      */
     public function html() {
-        // Si al validar no hay valores, pondrá un mensaje
-        try {
-            $this->validar();
-        } catch (EjeExceptionSinDatos $e) {
-            $mensaje = new MensajeWeb();
-            $mensaje->definir_mensaje_aviso('Tabla', $e->getMessage());
-            return $mensaje;
-        }
+        // Validar
+        $this->validar();
         // Acumular
-        $a   = array();
-        $a[] = "  <table class=\"table table-hover table-bordered\">";
+        $a = array();
+        if ($this->identificador != NULL) {
+            $a[] = "  <table id=\"{$this->identificador}\" class=\"table table-hover table-bordered\">";
+        } else {
+            $a[] = "  <table class=\"table table-hover table-bordered\">";
+        }
         $a[] = "    <thead>";
         $a[] = "      <tr>";
         $e   = array();
@@ -133,8 +138,32 @@ class TablaWeb implements SalidaWeb {
      * @return string Javascript
      */
     public function javascript() {
+        // Validar
         $this->validar();
-        return NULL;
+        // Si se definió el identificador
+        if ($this->identificador != NULL) {
+            return <<<FINAL
+// DataTables
+$(document).ready(function(){
+  $('#{$this->identificador}').DataTable( {
+    "language": {
+      "lengthMenu":   "Mostrando _MENU_ filas por página",
+      "zeroRecords":  "No se encontró nada",
+      "info":         "Mostrando página _PAGE_ de _PAGES_",
+      "infoEmpty":    "No se encontraron registros",
+      "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+      "search":       "Filtrar:",
+      "paginate": {
+        "previous":   "Anterior",
+        "next":       "Siguiente"
+      }
+    }
+  });
+});
+FINAL;
+        } else {
+            return NULL;
+        }
     } // javascript
 
 } // Clase TablaWeb

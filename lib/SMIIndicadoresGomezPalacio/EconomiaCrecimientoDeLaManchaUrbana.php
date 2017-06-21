@@ -33,9 +33,8 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Crecimiento de la Mancha Urbana en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T13:51:12';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-crecimiento-de-la-mancha-urbana';

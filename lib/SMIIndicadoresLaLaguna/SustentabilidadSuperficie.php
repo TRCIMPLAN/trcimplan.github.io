@@ -33,9 +33,8 @@ class SustentabilidadSuperficie extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Superficie en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2016-03-09T10:53:55';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-superficie';

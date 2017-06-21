@@ -33,9 +33,8 @@ class GobiernoCapacitacionAEmpleadosDeBase extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Capacitación a Empleados de Base en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T17:40:33';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-capacitacion-a-empleados-de-base';

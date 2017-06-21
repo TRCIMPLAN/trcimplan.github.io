@@ -33,9 +33,8 @@ class GobiernoVehiculosAutomotoresPorHabitante extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Vehículos Automotores por Habitante en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-06T15:19:12';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-vehiculos-automotores-por-habitante';

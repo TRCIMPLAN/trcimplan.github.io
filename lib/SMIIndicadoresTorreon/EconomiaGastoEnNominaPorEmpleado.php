@@ -33,9 +33,8 @@ class EconomiaGastoEnNominaPorEmpleado extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Gasto en Nómina por Empleado en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T18:35:21';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-gasto-en-nomina-por-empleado';

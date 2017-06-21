@@ -33,9 +33,8 @@ class SeguridadPresuntosDelitosDelFueroComun extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Presuntos Delitos del Fuero Común en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-04-29T15:20:25';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-presuntos-delitos-del-fuero-comun';

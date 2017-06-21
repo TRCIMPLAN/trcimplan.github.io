@@ -33,9 +33,8 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Trabajadores Asegurados en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-11-07T09:04:55';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-trabajadores-asegurados';

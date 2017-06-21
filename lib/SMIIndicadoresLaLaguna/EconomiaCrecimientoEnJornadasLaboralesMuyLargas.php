@@ -33,9 +33,8 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \SMIBase\Publicaci
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Crecimiento en Jornadas Laborales Muy Largas en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:35:13';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-crecimiento-en-jornadas-laborales-muy-largas';

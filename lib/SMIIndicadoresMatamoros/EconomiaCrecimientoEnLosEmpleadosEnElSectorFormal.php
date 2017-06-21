@@ -33,9 +33,8 @@ class EconomiaCrecimientoEnLosEmpleadosEnElSectorFormal extends \SMIBase\Publica
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Crecimiento en los Empleados en el Sector Formal en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T13:36:14';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-crecimiento-en-los-empleados-en-el-sector-formal';

@@ -33,9 +33,8 @@ class SeguridadTasaDeRoboDeVehiculoConViolencia extends \SMIBase\PublicacionWeb 
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Tasa de Robo de Vehículo con Violencia en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-04-29T14:04:34';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-tasa-de-robo-de-vehiculo-con-violencia';
@@ -132,16 +131,16 @@ class SeguridadTasaDeRoboDeVehiculoConViolencia extends \SMIBase\PublicacionWeb 
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>30/04/2017</td>
-            <td>1.49 %</td>
+            <td>31/05/2017</td>
+            <td>1.85 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>30/04/2017</td>
-            <td>3.89 %</td>
-            <td>Ayuntamiento de Torreón</td>
+            <td>31/05/2017</td>
+            <td>5.22 %</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
         </tbody>
@@ -164,7 +163,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 1.4900 },{ region: 'Durango', dato: 3.8900 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 1.8500 },{ region: 'Durango', dato: 5.2200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

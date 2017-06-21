@@ -33,9 +33,8 @@ class SustentabilidadEmpresasCertificadasComoLimpias extends \SMIBase\Publicacio
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Empresas Certificadas como Limpias en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T12:28:21';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-empresas-certificadas-como-limpias';

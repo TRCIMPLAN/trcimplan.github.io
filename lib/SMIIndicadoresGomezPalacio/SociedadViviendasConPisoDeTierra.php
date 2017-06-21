@@ -33,9 +33,8 @@ class SociedadViviendasConPisoDeTierra extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Viviendas con Piso de Tierra en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:25:45';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-viviendas-con-piso-de-tierra';

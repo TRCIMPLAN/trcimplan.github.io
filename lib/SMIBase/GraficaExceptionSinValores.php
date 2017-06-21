@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN SMIBase - Grafica
+ * TrcIMPLAN SMIBase - GraficaExceptionSinValores
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,21 +23,8 @@
 namespace SMIBase;
 
 /**
- * Clase abstracta Grafica
+ * Clase GraficaExceptionSinValores
  */
-abstract class Grafica {
-
-    protected $identificador; // Texto único que lo identifica
-
-    /**
-     * Constructor
-     *
-     * @param string Texto único que lo identifica
-     */
-    public function __construct($identificador) {
-        $this->identificador = $identificador;
-    } // constructor
-
-} // Clase abstracta Grafica
+class GraficaExceptionSinValores extends \Exception {}
 
 ?>

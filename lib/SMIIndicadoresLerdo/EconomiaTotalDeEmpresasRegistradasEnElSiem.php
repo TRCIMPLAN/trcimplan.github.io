@@ -33,9 +33,8 @@ class EconomiaTotalDeEmpresasRegistradasEnElSiem extends \SMIBase\PublicacionWeb
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Total de Empresas Registradas en el SIEM en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-total-de-empresas-registradas-en-el-siem';

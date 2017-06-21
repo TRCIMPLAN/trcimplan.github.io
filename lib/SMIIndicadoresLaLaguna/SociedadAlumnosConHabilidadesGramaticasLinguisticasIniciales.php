@@ -33,9 +33,8 @@ class SociedadAlumnosConHabilidadesGramaticasLinguisticasIniciales extends \SMIB
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2016-01-20T13:38:01';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales';

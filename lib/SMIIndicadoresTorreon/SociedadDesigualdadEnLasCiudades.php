@@ -33,9 +33,8 @@ class SociedadDesigualdadEnLasCiudades extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Desigualdad en las Ciudades en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:43:09';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-desigualdad-en-las-ciudades';

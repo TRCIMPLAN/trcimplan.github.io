@@ -33,9 +33,8 @@ class GobiernoPeriodistasMuertosODesaparecidos extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Periodistas Muertos o Desaparecidos en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:45:16';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-periodistas-muertos-o-desaparecidos';

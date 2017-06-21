@@ -33,9 +33,8 @@ class EconomiaTasaDeInformalidad extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Tasa de Informalidad en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-12-11T13:00:58';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-tasa-de-informalidad';

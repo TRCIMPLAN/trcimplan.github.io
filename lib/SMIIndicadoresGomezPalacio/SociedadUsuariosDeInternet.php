@@ -33,9 +33,8 @@ class SociedadUsuariosDeInternet extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Usuarios de Internet en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-01-14T14:50:08';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-usuarios-de-internet';

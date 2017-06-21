@@ -33,9 +33,8 @@ class SustentabilidadUsuariosDeTransporteColectivoPrivado extends \SMIBase\Publi
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Usuarios de Transporte Colectivo Privado en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2016-05-11T14:48:40';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-usuarios-de-transporte-colectivo-privado';

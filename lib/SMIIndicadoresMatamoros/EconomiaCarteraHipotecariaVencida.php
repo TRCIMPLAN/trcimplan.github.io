@@ -33,9 +33,8 @@ class EconomiaCarteraHipotecariaVencida extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Cartera Hipotecaria Vencida en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:53:40';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-cartera-hipotecaria-vencida';

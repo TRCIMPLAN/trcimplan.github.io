@@ -33,9 +33,8 @@ class SustentabilidadSistemaDeTransporteMasivo extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Sistema de Transporte Masivo en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T16:01:53';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-sistema-de-transporte-masivo';

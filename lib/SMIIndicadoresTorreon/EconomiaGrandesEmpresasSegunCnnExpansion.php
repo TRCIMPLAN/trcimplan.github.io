@@ -33,9 +33,8 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Grandes Empresas (según CNN Expansión) en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:38:09';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-grandes-empresas-segun-cnn-expansion';

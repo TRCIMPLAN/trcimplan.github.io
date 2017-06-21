@@ -33,9 +33,8 @@ class SociedadRendimientoAcademico extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Rendimiento Académico en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:48:28';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-rendimiento-academico';

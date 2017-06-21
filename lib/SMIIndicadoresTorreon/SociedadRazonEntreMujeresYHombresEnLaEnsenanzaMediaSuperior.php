@@ -33,9 +33,8 @@ class SociedadRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperior extends \SMIBa
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Razón entre Mujeres y Hombres en la Enseñanza Media Superior en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-01-22T13:57:45';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior';

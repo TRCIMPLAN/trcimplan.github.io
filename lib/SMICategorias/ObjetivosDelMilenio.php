@@ -25,36 +25,28 @@ namespace SMICategorias;
 /**
  * Clase ObjetivosDelMilenio
  */
-class ObjetivosDelMilenio extends \SMIBase\PublicacionWeb {
+class ObjetivosDelMilenio extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha
-        $this->nombre                    = 'Objetivos del Milenio';
-        $this->autor                     = 'Dirección de Investigación Estratégica';
-        $this->fecha                     = '2015-01-01T08:00'; // Fecha fija
+        // Título y fecha
+        $this->nombre        = 'Objetivos del Milenio';
+        $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
-        $this->archivo                   = 'objetivos-del-milenio';
+        $this->archivo       = 'objetivos-del-milenio';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Sistema Metropolitano de Indicadores - Categoría Objetivos del Milenio';
-        $this->claves                    = 'IMPLAN, Indicadores, Categoría, Objetivos del Milenio';
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores > Indicadores por Categoría';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Objetivos del Milenio';
+        $this->claves        = 'IMPLAN, Indicadores, Categoría, Objetivos del Milenio';
         // Para el Organizador
-        $this->categorias                = array();
-        $this->fuentes                   = array();
-        $this->regiones                  = array();
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
-        $this->imagen                    = '../imagenes/categorias/objetivos-del-milenio.jpg';
-        $this->imagen_previa             = '../imagenes/categorias/objetivos-del-milenio.jpg';
-        $this->imagen_id                 = 'categorias-objetivos-del-milenio';
+        $this->imagen        = '../imagenes/categorias/objetivos-del-milenio.jpg';
+        $this->imagen_previa = '../imagenes/categorias/objetivos-del-milenio.jpg';
+        $this->imagen_id     = 'categorias-objetivos-del-milenio';
     } // constructor
 
     /**
@@ -64,7 +56,7 @@ class ObjetivosDelMilenio extends \SMIBase\PublicacionWeb {
      */
     public function html() {
         // Definir contenido HTML en el esquema
-        $this->contenido->articleBody = <<<FINAL
+        $this->contenido = <<<FINAL
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>

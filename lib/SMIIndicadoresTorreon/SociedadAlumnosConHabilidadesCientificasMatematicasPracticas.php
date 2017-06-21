@@ -33,9 +33,8 @@ class SociedadAlumnosConHabilidadesCientificasMatematicasPracticas extends \SMIB
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Alumnos con Habilidades Científicas-Matemáticas Prácticas en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2016-01-20T13:24:20';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas';

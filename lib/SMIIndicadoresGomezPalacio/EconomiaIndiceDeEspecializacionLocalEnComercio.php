@@ -33,9 +33,8 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \SMIBase\Publicacio
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Índice de Especialización Local en Comercio en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-indice-de-especializacion-local-en-comercio';

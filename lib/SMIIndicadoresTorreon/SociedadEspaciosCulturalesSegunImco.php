@@ -33,9 +33,8 @@ class SociedadEspaciosCulturalesSegunImco extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Espacios Culturales (según IMCO) en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:37:47';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-espacios-culturales-segun-imco';

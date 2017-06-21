@@ -33,9 +33,8 @@ class SociedadCamasDeHospital extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Camas de Hospital en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:06:39';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-camas-de-hospital';

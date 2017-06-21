@@ -33,9 +33,8 @@ class SeguridadTasaDeRoboDeVehiculoSinViolencia extends \SMIBase\PublicacionWeb 
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Tasa de Robo de Vehículo Sin Violencia en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-04-29T14:06:44';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-tasa-de-robo-de-vehiculo-sin-violencia';
@@ -132,16 +131,16 @@ class SeguridadTasaDeRoboDeVehiculoSinViolencia extends \SMIBase\PublicacionWeb 
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>30/04/2017</td>
-            <td>9.41 %</td>
+            <td>31/05/2017</td>
+            <td>10.86 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>30/04/2017</td>
-            <td>23.68 %</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td>31/05/2017</td>
+            <td>28.46 %</td>
+            <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
         </tbody>
@@ -164,7 +163,7 @@ FINAL;
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 9.4100 },{ region: 'Durango', dato: 23.6800 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 10.8600 },{ region: 'Durango', dato: 28.4600 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -33,9 +33,8 @@ class GobiernoDuracionDePeriodoParaEdilesYDelegados extends \SMIBase\Publicacion
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Duración de Período para Ediles y Delegados en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:33:49';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-duracion-de-periodo-para-ediles-y-delegados';

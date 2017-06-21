@@ -33,9 +33,8 @@ class SustentabilidadDisposicionAdecuadaDeResiduosSolidos extends \SMIBase\Publi
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Disposición Adecuada de Residuos Sólidos en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T12:06:07';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-disposicion-adecuada-de-residuos-solidos';

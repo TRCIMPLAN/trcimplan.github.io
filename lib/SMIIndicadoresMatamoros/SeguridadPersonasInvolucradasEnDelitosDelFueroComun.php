@@ -33,9 +33,8 @@ class SeguridadPersonasInvolucradasEnDelitosDelFueroComun extends \SMIBase\Publi
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Personas Involucradas en Delitos del Fuero Común en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-04-29T14:59:12';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-personas-involucradas-en-delitos-del-fuero-comun';

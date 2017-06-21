@@ -33,9 +33,8 @@ class SustentabilidadDensidadMediaUrbana extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Densidad Media Urbana en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2017-03-14T11:27:37';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-densidad-media-urbana';

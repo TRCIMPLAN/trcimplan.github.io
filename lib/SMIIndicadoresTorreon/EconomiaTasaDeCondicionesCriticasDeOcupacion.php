@@ -33,9 +33,8 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \SMIBase\PublicacionW
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Tasa de Condiciones Críticas de Ocupación en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2016-07-04T13:01:06';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-tasa-de-condiciones-criticas-de-ocupacion';

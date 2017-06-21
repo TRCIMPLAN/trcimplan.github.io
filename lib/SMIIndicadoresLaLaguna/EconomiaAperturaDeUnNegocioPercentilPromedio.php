@@ -33,9 +33,8 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \SMIBase\PublicacionW
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Apertura de un Negocio (percentil promedio) en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T12:02:28';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-apertura-de-un-negocio-percentil-promedio';

@@ -33,9 +33,8 @@ class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\Publicacion
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Personas por Debajo de la Línea de Bienestar en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:41:06';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-personas-por-debajo-de-la-linea-de-bienestar';

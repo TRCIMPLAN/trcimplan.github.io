@@ -33,9 +33,8 @@ class SeguridadPersonasInvolucradasEnDelitosDelFueroFederal extends \SMIBase\Pub
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Personas Involucradas en Delitos del Fuero Federal en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-04-29T15:10:39';
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-personas-involucradas-en-delitos-del-fuero-federal';

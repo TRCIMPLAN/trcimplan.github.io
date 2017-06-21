@@ -33,9 +33,8 @@ class SociedadVisitasAMuseosInah extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Visitas a Museos INAH en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:43:41';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-visitas-a-museos-inah';

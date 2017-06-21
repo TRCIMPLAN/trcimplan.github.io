@@ -33,9 +33,8 @@ class EconomiaTamanoDelMercadoHipotecario extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Tamaño del Mercado Hipotecario en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:52:06';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-tamano-del-mercado-hipotecario';

@@ -33,9 +33,8 @@ class SociedadCrecimientoEnAccesoAServiciosDeSalud extends \SMIBase\PublicacionW
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Crecimiento en Acceso a Servicios de Salud en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:13:49';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-crecimiento-en-acceso-a-servicios-de-salud';

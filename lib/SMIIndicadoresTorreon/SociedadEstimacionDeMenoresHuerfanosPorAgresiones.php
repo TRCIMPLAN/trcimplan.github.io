@@ -33,9 +33,8 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \SMIBase\Publica
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Estimación de Menores Huérfanos por Agresiones en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-estimacion-de-menores-huerfanos-por-agresiones';

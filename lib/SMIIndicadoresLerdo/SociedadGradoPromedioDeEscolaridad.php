@@ -33,9 +33,8 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Grado Promedio de Escolaridad en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-10-21T12:51:27';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-grado-promedio-de-escolaridad';

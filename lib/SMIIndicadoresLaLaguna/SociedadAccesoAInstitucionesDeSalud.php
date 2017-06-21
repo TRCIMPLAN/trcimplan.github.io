@@ -33,9 +33,8 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Acceso a Instituciones de Salud en La Laguna';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:11:38';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-acceso-a-instituciones-de-salud';

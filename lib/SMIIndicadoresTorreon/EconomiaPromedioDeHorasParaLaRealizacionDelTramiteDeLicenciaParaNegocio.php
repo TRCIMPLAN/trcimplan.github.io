@@ -33,9 +33,8 @@ class EconomiaPromedioDeHorasParaLaRealizacionDelTramiteDeLicenciaParaNegocio ex
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Promedio de Horas para la Realización del Trámite de Licencia para Negocio en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:15:28';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio';

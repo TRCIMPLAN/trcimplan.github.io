@@ -33,9 +33,8 @@ class SociedadIngresoPromedioDeLaMujer extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Ingreso Promedio de la Mujer en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T19:36:19';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-ingreso-promedio-de-la-mujer';

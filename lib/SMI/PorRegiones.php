@@ -25,26 +25,26 @@ namespace SMI;
 /**
  * Clase PorRegiones
  */
-class PorRegiones extends \SMIBase\PublicacionWeb {
+class PorRegiones extends \Base\Publicacion {
+
+    protected $lenguetas;
 
     /**
      * Constructor
      */
     public function __construct() {
-        // Ejecutar constructor en el padre
-        parent::__construct();
-        // Título, autor y fecha
-        $this->nombre                    = 'Indicadores por Región';
-        $this->fecha                     = '2015-01-01T08:00'; // Fecha fija
+        // Título y fecha
+        $this->nombre      = 'Indicadores por Región';
+        $this->fecha       = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
-        $this->archivo                   = 'por-region';
+        $this->archivo     = 'por-region';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Sistema Metropolitano de Indicadores: Encuentre los indicadores por región';
-        $this->claves                    = 'IMPLAN, Torreon, Indicadores, Por Region';
+        $this->descripcion = 'Sistema Metropolitano de Indicadores: Encuentre los indicadores por región';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Por Region';
         // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores > Indicadores por Región';
+        $this->nombre_menu = 'Indicadores > Indicadores por Región';
         // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-por-regiones');
+        $this->lenguetas   = new \Base\Lenguetas('smi-por-regiones');
     } // constructor
 
     /**
@@ -1380,8 +1380,8 @@ FINAL;
         $this->lenguetas->agregar('smi-matamoros', 'Matamoros', $this->seccion_matamoros_html());
         $this->lenguetas->agregar('smi-la-laguna', 'La Laguna', $this->seccion_la_laguna_html());
         $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir contenido HTML en el esquema
-        $this->contenido->articleBody = $this->lenguetas->html();
+        // Definir contenido HTML
+        $this->contenido = $this->lenguetas->html();
         // Ejecutar este método en el padre
         return parent::html();
     } // html

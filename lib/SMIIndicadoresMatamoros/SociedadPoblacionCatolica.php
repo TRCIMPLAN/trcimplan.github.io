@@ -33,9 +33,8 @@ class SociedadPoblacionCatolica extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Población Católica en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-03-26T12:40:45';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-poblacion-catolica';

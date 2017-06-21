@@ -33,9 +33,8 @@ class GobiernoParticipacionCiudadana extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Participación Ciudadana en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:35:57';
         // El nombre del archivo a crear
         $this->archivo     = 'gobierno-participacion-ciudadana';

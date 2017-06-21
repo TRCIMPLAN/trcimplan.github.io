@@ -33,9 +33,8 @@ class SociedadUsoDeServiciosFinancieros extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Uso de Servicios Financieros en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T16:11:52';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-uso-de-servicios-financieros';

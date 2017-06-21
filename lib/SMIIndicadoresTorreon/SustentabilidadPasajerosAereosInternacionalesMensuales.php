@@ -33,9 +33,8 @@ class SustentabilidadPasajerosAereosInternacionalesMensuales extends \SMIBase\Pu
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Pasajeros Aéreos Internacionales Mensuales en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-05-20T16:23:28';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-internacionales-mensuales';

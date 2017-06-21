@@ -33,9 +33,8 @@ class SustentabilidadUsuariosDeAutomoviles extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Usuarios de Automóviles en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2016-05-11T14:37:35';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-usuarios-de-automoviles';

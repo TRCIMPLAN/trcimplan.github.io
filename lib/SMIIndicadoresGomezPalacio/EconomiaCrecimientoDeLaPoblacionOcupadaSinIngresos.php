@@ -33,9 +33,8 @@ class EconomiaCrecimientoDeLaPoblacionOcupadaSinIngresos extends \SMIBase\Public
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Crecimiento de la Población Ocupada sin Ingresos en Gómez Palacio';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T14:41:06';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos';

@@ -33,9 +33,8 @@ class EconomiaRegistroDeUnaPropiedadPercentilPromedio extends \SMIBase\Publicaci
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Registro de una Propiedad (percentil promedio) en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T12:35:26';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-registro-de-una-propiedad-percentil-promedio';

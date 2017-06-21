@@ -33,9 +33,8 @@ class SustentabilidadAerolineas extends \SMIBase\PublicacionWeb {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Aerolíneas en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T16:05:23';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-aerolineas';

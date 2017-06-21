@@ -33,9 +33,8 @@ class EconomiaEmpresasCertificadasConIso9000Y14000 extends \SMIBase\PublicacionW
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Empresas Certificadas con ISO-9000 y 14000 en Matamoros';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2015-07-14T15:39:34';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-empresas-certificadas-con-iso-9000-y-14000';

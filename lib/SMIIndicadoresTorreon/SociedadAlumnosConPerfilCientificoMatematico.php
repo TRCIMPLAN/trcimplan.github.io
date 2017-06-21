@@ -33,9 +33,8 @@ class SociedadAlumnosConPerfilCientificoMatematico extends \SMIBase\PublicacionW
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Alumnos con Perfil Científico-Matemático en Torreón';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-alumnos-con-perfil-cientifico-matematico';

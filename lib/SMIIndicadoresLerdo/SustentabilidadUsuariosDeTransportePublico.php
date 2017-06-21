@@ -33,9 +33,8 @@ class SustentabilidadUsuariosDeTransportePublico extends \SMIBase\PublicacionWeb
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre      = 'Usuarios de Transporte Público en Lerdo';
-        $this->autor       = 'Dirección de Investigación Estratégica';
         $this->fecha       = '2016-05-11T14:32:33';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-usuarios-de-transporte-publico';
