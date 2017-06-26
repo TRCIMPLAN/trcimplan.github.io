@@ -44,7 +44,7 @@ class SeccionMapasWeb implements SalidaWeb {
     /**
      * Preparar
      */
-    protected function prepapar() {
+    private function preparar() {
         if (!$this->preparado) {
             $this->mapas     = new GeoLimitesMapaWeb($this->publicacion_ficha);
             $this->preparado = TRUE;
@@ -57,7 +57,7 @@ class SeccionMapasWeb implements SalidaWeb {
      * @return string Código HTML
      */
     public function html() {
-        $this->prepapar();
+        $this->preparar();
         return $this->mapas->html();
     } // html
 
@@ -67,7 +67,7 @@ class SeccionMapasWeb implements SalidaWeb {
      * @return string Javascript
      */
     public function javascript() {
-        $this->prepapar();
+        $this->preparar();
         return $this->mapas->javascript();
     } // javascript
 

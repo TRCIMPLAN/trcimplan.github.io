@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN SMIBase - MensajeWeb
+ * TrcIMPLAN SMIBaseNUEVO - MensajeWeb
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *

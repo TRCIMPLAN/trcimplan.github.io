@@ -44,7 +44,7 @@ class SeccionResenaWeb implements SalidaWeb {
     /**
      * Preparar
      */
-    protected function prepapar() {
+    private function preparar() {
         if (!$this->preparado) {
             if ($this->publicacion_ficha->resena() == '') {
                 $this->resena_html = '';
@@ -64,7 +64,7 @@ class SeccionResenaWeb implements SalidaWeb {
      * @return string Código HTML
      */
     public function html() {
-        $this->prepapar();
+        $this->preparar();
         return $this->resena_html;
     } // html
 

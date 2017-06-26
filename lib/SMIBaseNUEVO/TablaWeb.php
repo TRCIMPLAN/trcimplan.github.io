@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN SMIBase - TablaWeb
+ * TrcIMPLAN SMIBaseNUEVO - TablaWeb
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano
  *

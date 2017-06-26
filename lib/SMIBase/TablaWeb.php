@@ -143,23 +143,23 @@ class TablaWeb implements SalidaWeb {
         // Si se definió el identificador
         if ($this->identificador != NULL) {
             return <<<FINAL
-// DataTables
-$(document).ready(function(){
-  $('#{$this->identificador}').DataTable( {
-    "language": {
-      "lengthMenu":   "Mostrando _MENU_ filas por página",
-      "zeroRecords":  "No se encontró nada",
-      "info":         "Mostrando página _PAGE_ de _PAGES_",
-      "infoEmpty":    "No se encontraron registros",
-      "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-      "search":       "Filtrar:",
-      "paginate": {
-        "previous":   "Anterior",
-        "next":       "Siguiente"
+  // DataTables
+  $(document).ready(function(){
+    $('#{$this->identificador}').DataTable( {
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
       }
-    }
+    });
   });
-});
 FINAL;
         } else {
             return NULL;
