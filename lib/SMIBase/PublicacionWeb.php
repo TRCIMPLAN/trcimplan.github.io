@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package PlataformaDeConocimiento
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SMIBase;
@@ -27,55 +27,184 @@ namespace SMIBase;
  */
 abstract class PublicacionWeb extends \Base\Publicacion implements SalidaWeb {
 
-    protected $lenguetas;
-    protected $datos_tabla;
+    // public $sitio_url;
+    // public $fecha;
+    // public $autor;
+    // public $aparece_en_pagina_inicial;
+    // public $para_compartir;
+    // public $imagen;
+    // public $imagen_previa;
+    // public $imagen_id;
+    // public $icono;
+    // public $region_nivel;
+    // public $estado;
+    // public $poner_imagen_en_contenido;
+    // public $include_extra_directorio;
+    // public $nombre;
+    // public $nombre_menu;
+    // public $directorio;
+    // public $archivo;
+    // public $descripcion;
+    // public $claves;
+    // public $encabezado;
+    // public $encabezado_color;
+    // public $url;
+    // public $url_etiqueta;
+    // public $en_raiz;
+    // public $en_otro;
+    // public $archivo_url;
+    // public $archivo_target;
+    // public $boton_url;
+    // public $boton_target;
+    // public $contenido_archivo_html;
+    // public $contenido_archivo_markdown;
+    // public $categorias;
+    // public $fuentes;
+    // public $regiones;
+    // public $imprenta_titulo;
+    // protected $contenido;
+    // protected $javascript;
+    // protected $redifusion;
+    // protected $validado;
+    protected $lenguetas;                          // Instancia de LenguetasWeb
+    const     LENGUETAS_ID = 'LenguetasIndicador'; // Identificador único para las lengüetas
+    protected $preparado   = FALSE;                // Bandera
 
     /**
      * Constructor
      */
     public function __construct() {
         // Ejecutar constructor en el padre
-        //~ parent::__construct();
-        // Opción de navegación a poner como activa
-        $this->nombre_menu               = 'Indicadores';
-        // Banderas
-        $this->poner_imagen_en_contenido = FALSE;
-        $this->para_compartir            = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'publicar';
-        // Inicializar las lengüetas
-        $this->lenguetas                 = new \Base\Lenguetas('smi-indicador');
-        // Inicializar la tabla con los datos
-        $this->datos_tabla               = new TablaWeb('smi-indicador-datos-tabla');
+        parent::__construct();
+        // Iniciar el contenido que será un SchemaArticle
+        $this->contenido = new \Base\SchemaArticle();
     } // constructor
 
     /**
-     * Validar
-     *
-     * Puede causar excepción si falta una propiedad obligatoria. También busca definir las opcionales.
+     * Preparar
      */
-    public function validar() {
-        // Si ya fue validado, no se hace nada
-        if ($this->validado) {
-            return;
+    public function preparar() {
+        if (!$this->preparado) {
+            // Extraer las fuentes para hacer una lengüeta/gráfica para cada una
+            $fuentes = array();
+            foreach ($this->datos() as $d) {
+                if (isset($d['fuente_nombre']) && !in_array($d['fuente_nombre'], $fuentes)) {
+                    $fuentes[] = $d['fuente_nombre'];
+                }
+            }
+            sort($fuentes);
+            // Elaborar lengüetas
+            $this->lenguetas = new LenguetasWeb(self::LENGUETAS_ID);
+            $this->lenguetas->agregar('Datos', new SeccionDatosWeb($this));
+            if (count($fuentes) > 1) {
+                // Van a ser dos o más gráficas
+                $c = 0;
+                foreach ($fuentes as $f) {
+                    $c++;
+                    $this->lenguetas->agregar("Gráfica $c", new SeccionGraficasWeb($this, $f));
+                }
+            } else {
+                // Sólo una gráfica
+                $this->lenguetas->agregar('Gráfica', new SeccionGraficasWeb($this));
+            }
+            $this->lenguetas->agregar('Otras regiones', new SeccionOtrasRegionesWeb($this));
+            // Levantar la bandera
+            $this->preparado = TRUE;
         }
-        // Ejecutar método en el padre
-        parent::validar();
-        // Por defecto
-        if (($this->imagen == '') || ($this->imagen_previa == '')) {
-            $this->imagen        = '../smi/introduccion/imagen.jpg';
-            $this->imagen_previa = '../smi/introduccion/imagen-previa.jpg';
+    } // preparar
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Validar y preparar
+        $this->validar();
+        $this->preparar();
+        // Si hay observaciones, se preparan para colocarlas después de la lengüeta
+        if ($this->observaciones() === NULL) {
+            $observaciones_html = '';
+        } else {
+            $observaciones_html = "\n<h3>Observaciones</h3>\n".\Michelf\MarkdownExtra::defaultTransform($this->observaciones());
         }
-        // El contenido es estructurado en un esquema SchemaArticle
-        $this->contenido                = new \Base\SchemaArticle();
-        $this->contenido->name          = $this->nombre;
+        // Definir propiedades del contenido que es un SchemaArticle
+        $this->contenido->big_heading   = TRUE;
+        $this->contenido->headline      = $this->nombre;
         $this->contenido->description   = $this->descripcion;
         $this->contenido->author        = $this->autor;
         $this->contenido->datePublished = $this->fecha;
         $this->contenido->image         = $this->imagen;
         $this->contenido->image_show    = $this->poner_imagen_en_contenido;
-    //  $this->contenido->articleBody   = ; // En el método html de será procesado
-    } // validar
+        $this->contenido->articleBody   = $this->lenguetas->html().$observaciones_html;
+        // Entregar
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // Validar y preparar
+        $this->validar();
+        $this->preparar();
+        // Acumular Javascript de las lengüetas
+        $this->javascript[] = $this->lenguetas->javascript();
+        // Entregar
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Validar y preparar
+        $this->validar();
+        $this->preparar();
+        // Elaborar redifusión
+        $this->redifusion = "Debe haber algo aquí.";
+        // Entregar
+        return parent::redifusion_html();
+    } // redifusion_html
+
+    /**
+     * Datos Estructura
+     *
+     * @return array Arreglo con arreglos asociativos
+     */
+    abstract public function datos_estructura();
+
+    /**
+     * Datos
+     *
+     * @return array Arreglo con arreglos asociativos
+     */
+    abstract public function datos();
+
+    /**
+     * Otras Regiones Estructura
+     *
+     * @return array Arreglo con arreglos asociativos
+     */
+    abstract public function otras_regiones_estructura();
+
+    /**
+     * Otras regiones
+     *
+     * @return array Arreglo con arreglos asociativos
+     */
+    abstract public function otras_regiones();
+
+    /**
+     * Observaciones
+     *
+     * @return string Markdown
+     */
+    abstract public function observaciones();
 
 } // Clase abstracta PublicacionWeb
 

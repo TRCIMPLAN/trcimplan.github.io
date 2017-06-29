@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN SMIBase - TablaWeb
  *
- * Copyright (C) 2017 Guillermo Valdés Lozano
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package PlataformaDeConocimiento
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SMIBase;
@@ -27,9 +27,10 @@ namespace SMIBase;
  */
 class TablaWeb implements SalidaWeb {
 
-    protected $identificador; // Texto único que lo identifica
-    protected $estructura;    // Arreglo asociativo con datos de cada columna
-    protected $panal;         // Arreglo de arreglos asociativos con instancias de CeldaWeb
+    protected $identificador;          // Texto único que lo identifica
+    protected $estructura;             // Arreglo asociativo con datos de cada columna
+    protected $panal;                  // Arreglo de arreglos asociativos con instancias de CeldaWeb
+    protected $usa_datatables = FALSE; // Boleano, habilita el javascript DataTables
 
     /**
      * Constructor
@@ -52,22 +53,37 @@ class TablaWeb implements SalidaWeb {
     /**
      * Definir panal
      *
+     * Si la cantidad de datos del arreglo es mayor a 10, se habilita DataTables
+     *
      * @param array Arreglo con arreglos asociativos, con el panal
      */
     public function definir_panal($panal) {
         $this->panal = $panal;
+        if (count($this->panal) > 10) {
+            $this->habilitar_datatables();
+        }
     } // definir_panal
+
+    /**
+     * Habilitar DataTables
+     */
+    public function habilitar_datatables() {
+        $this->usa_datatables = TRUE;
+    } // habilitar_datatables
+
+    /**
+     * Deshabilitar DataTables
+     */
+    public function deshabilitar_datatables() {
+        $this->usa_datatables = FALSE;
+    } // deshabilitar_datatables
 
     /**
      * Validar
      */
     protected function validar() {
-        if (is_string($this->identificador)) {
-            if (!preg_match('/^[A-Za-z0-9_-]+$/', $this->identificador)) {
-                throw new \Exception("Error en TablaWeb: Identificador No Válido: {$this->identificador}");
-            }
-        } else {
-            $this->identificador = NULL;
+        if (is_string($this->identificador) && (preg_match('/^[A-Za-z0-9_-]+$/', $this->identificador) === FALSE)) {
+            throw new \Exception("Error en TablaWeb: Identificador {$this->identificador} No Válido.");
         }
         if ($this->estructura == NULL) {
             throw new \Exception("Error en TablaWeb: Falta la estructura.");
@@ -87,7 +103,7 @@ class TablaWeb implements SalidaWeb {
         $this->validar();
         // Acumular
         $a = array();
-        if ($this->identificador != NULL) {
+        if (isset($this->identificador)) {
             $a[] = "  <table id=\"{$this->identificador}\" class=\"table table-hover table-bordered\">";
         } else {
             $a[] = "  <table class=\"table table-hover table-bordered\">";
@@ -141,11 +157,10 @@ class TablaWeb implements SalidaWeb {
         // Validar
         $this->validar();
         // Si se definió el identificador
-        if ($this->identificador != NULL) {
+        if ($this->usa_datatables && ($this->identificador != NULL)) {
             return <<<FINAL
-  // DataTables
-  $(document).ready(function(){
-    $('#{$this->identificador}').DataTable( {
+  if (typeof var{$this->identificador} === 'undefined') {
+     $('#{$this->identificador}').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -159,7 +174,8 @@ class TablaWeb implements SalidaWeb {
         }
       }
     });
-  });
+    var{$this->identificador} = 1;
+  }
 FINAL;
         } else {
             return NULL;

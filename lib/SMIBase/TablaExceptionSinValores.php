@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN SMIBase - PublicacionWeb
+ * TrcIMPLAN SMIBase - TablaExceptionSinValores
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,20 +23,8 @@
 namespace SMIBase;
 
 /**
- * Interfaz SalidaWeb
+ * Clase TablaExceptionSinValores
  */
-interface SalidaWeb {
-
-    /**
-     * HTML
-     */
-    public function html();
-
-    /**
-     * Javascript
-     */
-    public function javascript();
-
-} // Interfaz SalidaWeb
+class TablaExceptionSinValores extends \Exception {}
 
 ?>
