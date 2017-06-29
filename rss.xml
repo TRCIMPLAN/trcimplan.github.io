@@ -5,11 +5,21 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 21 Jun 2017 14:49:04 -0500</pubDate>
+    <pubDate>Thu, 29 Jun 2017 13:19:06 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obra Pública de Torreón</title>
+      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/obra-publica-torreon.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-obra-publica-torreon</guid>
+      <pubDate>Thu, 29 Jun 2017 13:20:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/obra-publica-torreon.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/obra-publica-torreon/imagen.jpg"><br>
+
+Mapa que muestra la obra pública del municipio de Torreón 2014-2017.</a>]]></description>
+    </item>
     <item>
       <title>Comunicado de Prensa - Respuesta del IMPLAN al CLIP</title>
       <link>http://www.trcimplan.gob.mx/sala-prensa/2017-06-17-comunicado-prensa.html</link>
@@ -471,38 +481,6 @@
 <p><strong>El IMPLAN y el CCI Laguna han llegado a un acuerdo para intercambiar información y trabajar en conjunto,</strong> con el fin de enriquecer sus respectivas plataformas sobre indicadores de Torreón y la Zona Metropolitana. De esta forma se busca lograr que más laguneros puedan acceder a información en línea que refleje la realidad del lugar en el que viven.</p>
 
 <p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2017-05-04-sostienen-reunion-de-trabajo-implan-y-consejo-civico-de-las-instituciones/foto-proyector.jpg" alt="Proyector"></p>
-]]></description>
-    </item>
-    <item>
-      <title>IMPLAN y Medio Ambiente presentan el análisis Calidad del Aire</title>
-      <link>http://www.trcimplan.gob.mx/sala-prensa/2017-04-28-sesion-ordinaria.html</link>
-      <guid isPermaLink="false">sala-prensa-2017-04-28-sesion-ordinaria</guid>
-      <pubDate>Fri, 28 Apr 2017 14:00:00 -0500</pubDate>
-      <author>Lic. Adriana Vargas Flores</author>
-      <description><![CDATA[<p>La presentación del tema corrió a cargo de la <strong>Químico Susana Estens,</strong> directora de <strong>Medio Ambiente;</strong> y <strong>Guillermo Valdés,</strong> encargado de programación del <strong>IMPLAN,</strong> quienes hicieron hincapié en la importancia de monitorear la calidad del aire en la ciudad e informar en tiempo real a la ciudadanía.</p>
-
-<p><strong>Susana Estens expresó que la contaminación del aire es un problema doble, con serias repercusiones en la salud y en el medio ambiente.</strong> Dio a conocer que la contaminación atmosférica <strong>es la causante de 1 de cada 9 muertes</strong> de acuerdo con la Organización Mundial de la Salud.</p>
-
-<p>La químico informó que en México, el <strong>Institute for Health Metrics and Evaluation (IHME)</strong> a través de la <strong>Carga Global de Enfermedad</strong> estimó <strong>para el año 2015, un total de 38,052 muertes prematuras</strong> a causa de la contaminación.</p>
-
-<p><strong>Los efectos de este problema en la salud son diversos,</strong> como: Mortalidad y hospitalización de pacientes con enfermedad pulmonar obstructiva crónica (EPOC), aumento de la necesidad de terapia en asmáticos, mortalidad y hospitalización de pacientes con enfermedades cardiovasculares y diabetes mellitus, riesgo de infarto al miocardio, inflamación de las vías respiratorias, disfunción endotelial y vascular, aumento en la incidencia de infecciones y cáncer de pulmón.</p>
-
-<p>Otros indicadores sobre la contaminación expuestos fueron los siguientes:</p>
-
-<ul>
-<li><strong>En México 18% de las emisiones de CO2 son generadas por automóviles.</strong> 75% de la contaminación ambiental es generada por los coches.</li>
-<li><strong>En La Laguna 98% de las emisiones de CO2 son de automóviles.</strong></li>
-<li><strong>En la ZML hay 260 vehículos en circulación por cada mil habitantes.</strong></li>
-<li><strong>10,000 vehículos se verifican en Torreón al año.</strong></li>
-</ul>
-
-<p>Finalmente, Susana Estens comentó que <strong>el escenario ideal para Torreón es contar con una red de diez estaciones de monitoreo ambiental.</strong></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2017-04-28-sesion-ordinaria/sesion-de-consejo-01.jpg" alt="Sesion de Consejo 1"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2017-04-28-sesion-ordinaria/sesion-de-consejo-02.jpg" alt="Sesion de Consejo 2"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2017-04-28-sesion-ordinaria/sesion-de-consejo-03.jpg" alt="Sesion de Consejo 3"></p>
 ]]></description>
     </item>
   </channel>

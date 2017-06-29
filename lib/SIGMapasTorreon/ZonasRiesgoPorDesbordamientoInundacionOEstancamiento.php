@@ -40,14 +40,14 @@ class ZonasRiesgoPorDesbordamientoInundacionOEstancamiento extends \Base\Publica
         $this->imagen             = 'zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento/imagen.jpg';
         $this->imagen_previa      = 'zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Zonas de Riesgo por desbordamiento, inundación o estancamiento.';
+        $this->descripcion        = 'Pendiente.';
         $this->claves             = 'Zonas, Riesgo, Desbordamiento, Inundacion, Estancamiento';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu        = 'Información Geográfica';
         // El estado puede ser publicar, revisar o ignorar
-        $this->estado             = 'revisar';
+        $this->estado             = 'Revisar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = FALSE;
         // Para el Organizador

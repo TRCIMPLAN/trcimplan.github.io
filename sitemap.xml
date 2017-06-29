@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-06-21</lastmod>
+    <lastmod>2017-06-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3808,6 +3808,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/maternidad-adolescente.html</loc>
     <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/obra-publica-torreon.html</loc>
+    <lastmod>2017-06-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
