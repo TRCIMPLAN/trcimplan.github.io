@@ -48,71 +48,56 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
     } // constructor
 
     /**
-     * Sección Datos HTML
+     * Datos Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_html() {
-        $this->datos_tabla->definir_estructura(array(
+    public function datos_estructura() {
+        return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
             'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
-        $this->datos_tabla->definir_panal(array(
-            array('fecha' => '2011-12-31', 'valor' => '49.0000', 'fuente_nombre' => 'Logit', 'notas' => '')));
-        // Entregar
-        return $this->datos_tabla->html();
-    } // seccion_datos_html
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // datos_estructura
 
     /**
-     * Sección Datos JavaScript
+     * Datos
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_javascript() {
-        return $this->datos_tabla->javascript();
-    } // seccion_datos_javascript
+    public function datos() {
+        return array(
+            array('fecha' => '2011-12-31', 'valor' => '49.0000', 'fuente_nombre' => 'Logit'));
+    } // datos
 
     /**
-     * HTML
+     * Otras Regiones Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    public function html() {
-        // Ejecutar los métodos que alimentan cada lengüeta
-        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir el contenido de esta publicación que es un SchemaArticle
-        $this->contenido->articleBody = $this->lenguetas->html();
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
+    public function otras_regiones_estructura() {
+        return NULL;
+    } // otras_regiones_estructura
 
     /**
-     * Javascript
+     * Otras regiones
      *
-     * @return string Código Javascript
+     * @return array Arreglo con arreglos asociativos
      */
-    public function javascript() {
-        // JavaScript de las lengüetas, es el de las gráficas
-        $this->javascript[] = $this->lenguetas->javascript();
-        // JavaScript para la carga completa del documento, es el de la tabla con los datos
-        $this->javascript[] = $this->datos_tabla->javascript();
-        // Ejecutar este método en el padre
-        return parent::javascript();
-    } // javascript
+    public function otras_regiones() {
+        return NULL;
+    } // otras_regiones
 
     /**
-     * Redifusion HTML
+     * Observaciones
      *
-     * @return string Código HTML
+     * @return string Markdown
      */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        $this->redifusion = $this->descripcion;
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
+    public function observaciones() {
+        return <<<OBSERVACIONES_FINAL
+Estudio realizado por Logit en 2011. Contempla los viajes de los municipios de Torreón y Matamoros.
+OBSERVACIONES_FINAL;
+    } // observaciones
 
 } // Clase SustentabilidadUsoDeAutomovilParticular
 

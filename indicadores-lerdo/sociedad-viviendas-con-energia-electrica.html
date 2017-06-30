@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Viviendas con Energía Eléctrica en Lerdo - IMPLAN Torreón">
   <meta name="twitter:description" content="Porcentaje de viviendas con acceso a energía eléctrica">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html">
   <meta name="og:title" content="Viviendas con Energía Eléctrica en Lerdo - IMPLAN Torreón">
   <meta name="og:description" content="Porcentaje de viviendas con acceso a energía eléctrica">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html">
   <title>Viviendas con Energía Eléctrica en Lerdo - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,14 +186,15 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosViviendasConEnergiaElectricaEnLerdo" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -217,77 +218,71 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Viviendas con Energía Eléctrica en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 corresponden a la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
-
-<p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Viviendas con Energía Eléctrica</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Viviendas con Energía Eléctrica</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2015</td>
-            <td>99.83 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2015</td>
-            <td>99.72 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2015</td>
-            <td>99.49 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2015</td>
-            <td>99.50 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2010</td>
-            <td>99.46 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 corresponden a la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
-
-<p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Viviendas con Energía Eléctrica en Lerdo </h3>
+
+    <div id="SmiGraficasViviendasConEnergiaElectricaEnLerdo" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Viviendas con Energía Eléctrica en Lerdo</h3>
+    <div id="SmiOtrasRegionesViviendasConEnergiaElectricaEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesViviendasConEnergiaElectricaEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2015-12-31</td>
+        <td>99.8300</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2015-12-31</td>
+        <td>99.7200</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2015-12-31</td>
+        <td>99.4900</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2015-12-31</td>
+        <td>99.5000</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2010-12-31</td>
+        <td>99.4600</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 corresponden a la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
+
+<p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -377,11 +372,14 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2010-12-31', dato: 99.0100 },{ fecha: '2015-12-31', dato: 99.4900 }],
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasConEnergiaElectricaEnLerdo === 'undefined') {
+    varSmiGraficasViviendasConEnergiaElectricaEnLerdo = Morris.Line({
+      element: 'SmiGraficasViviendasConEnergiaElectricaEnLerdo',
+      data: [
+        { fecha: '2010-12-31', dato: 99.0100 },
+        { fecha: '2015-12-31', dato: 99.4900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -389,35 +387,24 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesViviendasConEnergiaElectricaEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesViviendasConEnergiaElectricaEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesViviendasConEnergiaElectricaEnLerdoGrafica',
       data: [{ region: 'Torreón', dato: 99.8300 },{ region: 'Gómez Palacio', dato: 99.7200 },{ region: 'Lerdo', dato: 99.4900 },{ region: 'Matamoros', dato: 99.5000 },{ region: 'La Laguna', dato: 99.4600 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
       barColors: ['#FF5B02']
     });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
-      "language": {
-        "lengthMenu":   "Mostrando _MENU_ filas por página",
-        "zeroRecords":  "No se encontró nada",
-        "info":         "Mostrando página _PAGE_ de _PAGES_",
-        "infoEmpty":    "No se encontraron registros",
-        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-        "search":       "Filtrar:",
-        "paginate": {
-          "previous":   "Anterior",
-          "next":       "Siguiente"
-        }
-      }
-    });
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

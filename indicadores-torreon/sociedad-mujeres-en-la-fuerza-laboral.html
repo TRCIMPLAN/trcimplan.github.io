@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Mujeres en la Fuerza Laboral en Torreón - IMPLAN Torreón">
   <meta name="twitter:description" content="Incluido en el subíndice 'Sociedad Preparada, Incluyente y Sana'. Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html">
   <meta name="og:title" content="Mujeres en la Fuerza Laboral en Torreón - IMPLAN Torreón">
   <meta name="og:description" content="Incluido en el subíndice 'Sociedad Preparada, Incluyente y Sana'. Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html">
   <title>Mujeres en la Fuerza Laboral en Torreón - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,14 +186,15 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosMujeresEnLaFuerzaLaboralEnTorreon" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -235,73 +236,69 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Mujeres en la Fuerza Laboral en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Mujeres en la PEA como porcentaje del total de mujeres en edad laboral.</p>
-      <h3>Observaciones</h3>
-<p>Fuente: INEGI (ENOE).</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Mujeres en la Fuerza Laboral</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Mujeres en la Fuerza Laboral</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2012</td>
-            <td>43.61 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2012</td>
-            <td>42.52 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2012</td>
-            <td>39.57 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2012</td>
-            <td>36.66 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2012</td>
-            <td>42.29 %</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Mujeres en la PEA como porcentaje del total de mujeres en edad laboral.</p>
-      <h3>Observaciones</h3>
-<p>Fuente: INEGI (ENOE).</p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Mujeres en la Fuerza Laboral en Torreón </h3>
+
+    <div id="SmiGraficasMujeresEnLaFuerzaLaboralEnTorreon" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Mujeres en la Fuerza Laboral en Torreón</h3>
+    <div id="SmiOtrasRegionesMujeresEnLaFuerzaLaboralEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesMujeresEnLaFuerzaLaboralEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2012-12-31</td>
+        <td>43.6100</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2012-12-31</td>
+        <td>42.5200</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2012-12-31</td>
+        <td>39.5700</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2012-12-31</td>
+        <td>36.6600</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2012-12-31</td>
+        <td>42.2900</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>Fuente: INEGI (ENOE).</p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -398,11 +395,17 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2008-12-31', dato: 42.6300 },{ fecha: '2009-12-31', dato: 40.4700 },{ fecha: '2010-12-31', dato: 40.3200 },{ fecha: '2011-12-31', dato: 44.0100 },{ fecha: '2012-12-31', dato: 43.6100 }],
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasMujeresEnLaFuerzaLaboralEnTorreon === 'undefined') {
+    varSmiGraficasMujeresEnLaFuerzaLaboralEnTorreon = Morris.Line({
+      element: 'SmiGraficasMujeresEnLaFuerzaLaboralEnTorreon',
+      data: [
+        { fecha: '2008-12-31', dato: 42.6300 },
+        { fecha: '2009-12-31', dato: 40.4700 },
+        { fecha: '2010-12-31', dato: 40.3200 },
+        { fecha: '2011-12-31', dato: 44.0100 },
+        { fecha: '2012-12-31', dato: 43.6100 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -410,35 +413,24 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesMujeresEnLaFuerzaLaboralEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesMujeresEnLaFuerzaLaboralEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesMujeresEnLaFuerzaLaboralEnTorreonGrafica',
       data: [{ region: 'Torreón', dato: 43.6100 },{ region: 'Gómez Palacio', dato: 42.5200 },{ region: 'Lerdo', dato: 39.5700 },{ region: 'Matamoros', dato: 36.6600 },{ region: 'La Laguna', dato: 42.2900 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
       barColors: ['#FF5B02']
     });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
-      "language": {
-        "lengthMenu":   "Mostrando _MENU_ filas por página",
-        "zeroRecords":  "No se encontró nada",
-        "info":         "Mostrando página _PAGE_ de _PAGES_",
-        "infoEmpty":    "No se encontraron registros",
-        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-        "search":       "Filtrar:",
-        "paginate": {
-          "previous":   "Anterior",
-          "next":       "Siguiente"
-        }
-      }
-    });
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

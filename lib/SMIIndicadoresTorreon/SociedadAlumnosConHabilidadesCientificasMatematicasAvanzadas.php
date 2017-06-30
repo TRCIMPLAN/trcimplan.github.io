@@ -48,180 +48,69 @@ class SociedadAlumnosConHabilidadesCientificasMatematicasAvanzadas extends \SMIB
     } // constructor
 
     /**
-     * Sección Datos HTML
+     * Datos Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_html() {
-        $this->datos_tabla->definir_estructura(array(
+    public function datos_estructura() {
+        return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
             'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
-        $this->datos_tabla->definir_panal(array(
-            array('fecha' => '2015-12-01', 'valor' => '13.2000', 'fuente_nombre' => 'SEP', 'notas' => '')));
-        // Entregar
-        return $this->datos_tabla->html();
-    } // seccion_datos_html
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // datos_estructura
 
     /**
-     * Sección Datos JavaScript
+     * Datos
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_javascript() {
-        return $this->datos_tabla->javascript();
-    } // seccion_datos_javascript
+    public function datos() {
+        return array(
+            array('fecha' => '2015-12-01', 'valor' => '13.2000', 'fuente_nombre' => 'SEP'));
+    } // datos
 
     /**
-     * Sección Otras Regiones HTML
+     * Otras Regiones Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_otras_regiones_html() {
-        return <<<FINAL
-      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Científicas-Matemáticas Avanzadas</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Alumnos con Habilidades Científicas-Matemáticas Avanzadas</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>01/12/2015</td>
-            <td>13.20 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>01/12/2015</td>
-            <td>8.60 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>01/12/2015</td>
-            <td>7.60 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>01/12/2015</td>
-            <td>6.10 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>01/12/2015</td>
-            <td>10.60 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>01/12/2015</td>
-            <td>10.00 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>01/12/2015</td>
-            <td>7.50 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>01/12/2015</td>
-            <td>6.80 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Nivel IV: Resuelven problemas aditivos con números naturales, decimales y fraccionarios. Resuelven problemas de aplicación de áreas. Resuelven problemas que implican calcular promedios y medianas, y comparar razones. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
-
-FINAL;
-    } // seccion_otras_regiones_html
+    public function otras_regiones_estructura() {
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // otras_regiones_estructura
 
     /**
-     * Sección Otras Regiones JavaScript
+     * Otras regiones
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_otras_regiones_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 13.2000 },{ region: 'Gómez Palacio', dato: 8.6000 },{ region: 'Lerdo', dato: 7.6000 },{ region: 'Matamoros', dato: 6.1000 },{ region: 'La Laguna', dato: 10.6000 },{ region: 'Coahuila', dato: 10.0000 },{ region: 'Durango', dato: 7.5000 },{ region: 'Nacional', dato: 6.8000 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-FINAL;
-    } // seccion_otras_regiones_javascript
+    public function otras_regiones() {
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-01', 'valor' => '13.2000', 'fuente_nombre' => 'SEP'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-01', 'valor' => '8.6000', 'fuente_nombre' => 'SEP'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-01', 'valor' => '7.6000', 'fuente_nombre' => 'SEP'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-01', 'valor' => '6.1000', 'fuente_nombre' => 'SEP'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-01', 'valor' => '10.6000', 'fuente_nombre' => 'SEP'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2015-12-01', 'valor' => '10.0000', 'fuente_nombre' => 'SEP'),
+            array('region_nombre' => 'Durango', 'fecha' => '2015-12-01', 'valor' => '7.5000', 'fuente_nombre' => 'SEP'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2015-12-01', 'valor' => '6.8000', 'fuente_nombre' => 'SEP'));
+    } // otras_regiones
 
     /**
-     * HTML
+     * Observaciones
      *
-     * @return string Código HTML
+     * @return string Markdown
      */
-    public function html() {
-        // Ejecutar los métodos que alimentan cada lengüeta
-        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
-        $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
-        $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir el contenido de esta publicación que es un SchemaArticle
-        $this->contenido->articleBody = $this->lenguetas->html();
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // JavaScript de las lengüetas, es el de las gráficas
-        $this->javascript[] = $this->lenguetas->javascript();
-        // JavaScript para la carga completa del documento, es el de la tabla con los datos
-        $this->javascript[] = $this->datos_tabla->javascript();
-        // Ejecutar este método en el padre
-        return parent::javascript();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        $this->redifusion = $this->descripcion;
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
+    public function observaciones() {
+        return <<<OBSERVACIONES_FINAL
+Nivel IV: Resuelven problemas aditivos con números naturales, decimales y fraccionarios. Resuelven problemas de aplicación de áreas. Resuelven problemas que implican calcular promedios y medianas, y comparar razones. Lea el análisis [Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca](http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html). Consulta la [Base de Datos](http://planea.sep.gob.mx/ba/base_de_datos_2015/).
+OBSERVACIONES_FINAL;
+    } // observaciones
 
 } // Clase SociedadAlumnosConHabilidadesCientificasMatematicasAvanzadas
 

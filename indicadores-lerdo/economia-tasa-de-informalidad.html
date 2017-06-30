@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tasa de Informalidad en Lerdo - IMPLAN Torreón">
   <meta name="twitter:description" content="Tasa de empleos informales.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-tasa-de-informalidad.html">
   <meta name="og:title" content="Tasa de Informalidad en Lerdo - IMPLAN Torreón">
   <meta name="og:description" content="Tasa de empleos informales.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-tasa-de-informalidad.html">
   <title>Tasa de Informalidad en Lerdo - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,14 +186,15 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosTasaDeInformalidadEnLerdo" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -337,88 +338,87 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Tasa de Informalidad en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Porcentaje.</p>
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Tasa de Informalidad</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Tasa de Informalidad</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/03/2017</td>
-            <td>45.92 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/03/2017</td>
-            <td>41.65 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/03/2017</td>
-            <td>41.82 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/03/2017</td>
-            <td>39.10 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/03/2017</td>
-            <td>43.46 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/03/2017</td>
-            <td>37.92 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/03/2017</td>
-            <td>52.23 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>31/03/2017</td>
-            <td>57.17 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Tasa de Informalidad en Lerdo </h3>
+
+    <div id="SmiGraficasTasaDeInformalidadEnLerdo" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Tasa de Informalidad en Lerdo</h3>
+    <div id="SmiOtrasRegionesTasaDeInformalidadEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesTasaDeInformalidadEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2017-03-31</td>
+        <td>45.9200</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2017-03-31</td>
+        <td>41.6500</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2017-03-31</td>
+        <td>41.8200</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2017-03-31</td>
+        <td>39.1000</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2017-03-31</td>
+        <td>43.4600</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2017-03-31</td>
+        <td>37.9200</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2017-03-31</td>
+        <td>52.2300</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2017-03-31</td>
+        <td>57.1700</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -499,34 +499,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2011-12-31', dato: 57.6200 },{ fecha: '2012-03-31', dato: 56.6600 },{ fecha: '2012-06-30', dato: 60.4300 },{ fecha: '2012-09-30', dato: 60.9300 },{ fecha: '2012-12-31', dato: 61.1700 },{ fecha: '2013-03-31', dato: 60.3900 },{ fecha: '2013-06-30', dato: 57.8000 },{ fecha: '2013-09-30', dato: 57.1400 },{ fecha: '2013-12-31', dato: 58.6500 },{ fecha: '2014-03-31', dato: 66.6600 },{ fecha: '2014-06-30', dato: 52.5400 },{ fecha: '2014-09-30', dato: 61.0200 },{ fecha: '2014-12-31', dato: 57.6900 },{ fecha: '2015-03-31', dato: 58.3300 },{ fecha: '2015-06-30', dato: 61.8182 },{ fecha: '2015-09-30', dato: 62.5000 },{ fecha: '2015-12-31', dato: 65.5172 },{ fecha: '2016-03-31', dato: 51.1111 },{ fecha: '2016-06-30', dato: 50.0000 },{ fecha: '2016-09-30', dato: 42.1100 },{ fecha: '2016-12-31', dato: 45.3600 },{ fecha: '2017-03-31', dato: 41.8200 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 45.9200 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 43.4600 },{ region: 'Coahuila', dato: 37.9200 },{ region: 'Durango', dato: 52.2300 },{ region: 'Nacional', dato: 57.1700 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
-  $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTasaDeInformalidadEnLerdo === 'undefined') {
+     $('#SmiDatosTasaDeInformalidadEnLerdo').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -540,6 +515,61 @@ $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
         }
       }
     });
+    varSmiDatosTasaDeInformalidadEnLerdo = 1;
+  }
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTasaDeInformalidadEnLerdo === 'undefined') {
+    varSmiGraficasTasaDeInformalidadEnLerdo = Morris.Line({
+      element: 'SmiGraficasTasaDeInformalidadEnLerdo',
+      data: [
+        { fecha: '2011-12-31', dato: 57.6200 },
+        { fecha: '2012-03-31', dato: 56.6600 },
+        { fecha: '2012-06-30', dato: 60.4300 },
+        { fecha: '2012-09-30', dato: 60.9300 },
+        { fecha: '2012-12-31', dato: 61.1700 },
+        { fecha: '2013-03-31', dato: 60.3900 },
+        { fecha: '2013-06-30', dato: 57.8000 },
+        { fecha: '2013-09-30', dato: 57.1400 },
+        { fecha: '2013-12-31', dato: 58.6500 },
+        { fecha: '2014-03-31', dato: 66.6600 },
+        { fecha: '2014-06-30', dato: 52.5400 },
+        { fecha: '2014-09-30', dato: 61.0200 },
+        { fecha: '2014-12-31', dato: 57.6900 },
+        { fecha: '2015-03-31', dato: 58.3300 },
+        { fecha: '2015-06-30', dato: 61.8182 },
+        { fecha: '2015-09-30', dato: 62.5000 },
+        { fecha: '2015-12-31', dato: 65.5172 },
+        { fecha: '2016-03-31', dato: 51.1111 },
+        { fecha: '2016-06-30', dato: 50.0000 },
+        { fecha: '2016-09-30', dato: 42.1100 },
+        { fecha: '2016-12-31', dato: 45.3600 },
+        { fecha: '2017-03-31', dato: 41.8200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesTasaDeInformalidadEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesTasaDeInformalidadEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesTasaDeInformalidadEnLerdoGrafica',
+      data: [{ region: 'Torreón', dato: 45.9200 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 43.4600 },{ region: 'Coahuila', dato: 37.9200 },{ region: 'Durango', dato: 52.2300 },{ region: 'Nacional', dato: 57.1700 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  $(document).ready(function(){
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

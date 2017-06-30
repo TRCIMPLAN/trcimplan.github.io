@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Robo a Transeuntes en Matamoros - IMPLAN Torreón">
   <meta name="twitter:description" content="Robos a Transeuntes totales por mes.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-a-transeuntes.html">
   <meta name="og:title" content="Robo a Transeuntes en Matamoros - IMPLAN Torreón">
   <meta name="og:description" content="Robos a Transeuntes totales por mes.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-a-transeuntes.html">
   <title>Robo a Transeuntes en Matamoros - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,14 +186,15 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosRoboATranseuntesEnMatamoros" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -445,67 +446,66 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Robo a Transeuntes en Matamoros</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Cantidad.</p>
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Robo a Transeuntes</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Robo a Transeuntes</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/05/2017</td>
-            <td>29</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/05/2017</td>
-            <td>11</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/05/2017</td>
-            <td>6</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/05/2017</td>
-            <td>3</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/05/2017</td>
-            <td>49</td>
-            <td>Ayuntamiento de Torreón</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Robo a Transeuntes en Matamoros </h3>
+
+    <div id="SmiGraficasRoboATranseuntesEnMatamoros" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Robo a Transeuntes en Matamoros</h3>
+    <div id="SmiOtrasRegionesRoboATranseuntesEnMatamorosGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesRoboATranseuntesEnMatamorosTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2017-05-31</td>
+        <td>29</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2017-05-31</td>
+        <td>11</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2017-05-31</td>
+        <td>6</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2017-05-31</td>
+        <td>3</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2017-05-31</td>
+        <td>49</td>
+        <td>Ayuntamiento de Torreón</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -588,34 +588,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 7 },{ fecha: '2014-02-28', dato: 5 },{ fecha: '2014-03-31', dato: 10 },{ fecha: '2014-05-31', dato: 7 },{ fecha: '2014-06-30', dato: 4 },{ fecha: '2014-07-31', dato: 11 },{ fecha: '2014-08-31', dato: 5 },{ fecha: '2014-09-30', dato: 5 },{ fecha: '2014-10-31', dato: 7 },{ fecha: '2014-11-30', dato: 5 },{ fecha: '2014-12-31', dato: 9 },{ fecha: '2015-01-31', dato: 6 },{ fecha: '2015-02-28', dato: 6 },{ fecha: '2015-03-31', dato: 5 },{ fecha: '2015-04-30', dato: 7 },{ fecha: '2015-05-31', dato: 4 },{ fecha: '2015-06-30', dato: 3 },{ fecha: '2015-07-31', dato: 4 },{ fecha: '2015-08-31', dato: 4 },{ fecha: '2015-09-30', dato: 9 },{ fecha: '2015-10-31', dato: 7 },{ fecha: '2015-11-30', dato: 0 },{ fecha: '2015-12-31', dato: 1 },{ fecha: '2016-01-31', dato: 0 },{ fecha: '2016-02-29', dato: 1 },{ fecha: '2016-03-31', dato: 0 },{ fecha: '2016-04-30', dato: 4 },{ fecha: '2016-05-31', dato: 3 },{ fecha: '2016-06-30', dato: 5 },{ fecha: '2016-07-31', dato: 3 },{ fecha: '2016-08-31', dato: 10 },{ fecha: '2016-09-30', dato: 6 },{ fecha: '2016-10-31', dato: 5 },{ fecha: '2016-11-30', dato: 11 },{ fecha: '2016-12-31', dato: 2 },{ fecha: '2017-01-31', dato: 5 },{ fecha: '2017-02-28', dato: 1 },{ fecha: '2017-03-31', dato: 2 },{ fecha: '2017-04-30', dato: 4 },{ fecha: '2017-05-31', dato: 3 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 29 },{ region: 'Gómez Palacio', dato: 11 },{ region: 'Lerdo', dato: 6 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 49 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
-  $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosRoboATranseuntesEnMatamoros === 'undefined') {
+     $('#SmiDatosRoboATranseuntesEnMatamoros').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -629,6 +604,79 @@ $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
         }
       }
     });
+    varSmiDatosRoboATranseuntesEnMatamoros = 1;
+  }
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasRoboATranseuntesEnMatamoros === 'undefined') {
+    varSmiGraficasRoboATranseuntesEnMatamoros = Morris.Line({
+      element: 'SmiGraficasRoboATranseuntesEnMatamoros',
+      data: [
+        { fecha: '2014-01-31', dato: 7 },
+        { fecha: '2014-02-28', dato: 5 },
+        { fecha: '2014-03-31', dato: 10 },
+        { fecha: '2014-05-31', dato: 7 },
+        { fecha: '2014-06-30', dato: 4 },
+        { fecha: '2014-07-31', dato: 11 },
+        { fecha: '2014-08-31', dato: 5 },
+        { fecha: '2014-09-30', dato: 5 },
+        { fecha: '2014-10-31', dato: 7 },
+        { fecha: '2014-11-30', dato: 5 },
+        { fecha: '2014-12-31', dato: 9 },
+        { fecha: '2015-01-31', dato: 6 },
+        { fecha: '2015-02-28', dato: 6 },
+        { fecha: '2015-03-31', dato: 5 },
+        { fecha: '2015-04-30', dato: 7 },
+        { fecha: '2015-05-31', dato: 4 },
+        { fecha: '2015-06-30', dato: 3 },
+        { fecha: '2015-07-31', dato: 4 },
+        { fecha: '2015-08-31', dato: 4 },
+        { fecha: '2015-09-30', dato: 9 },
+        { fecha: '2015-10-31', dato: 7 },
+        { fecha: '2015-11-30', dato: 0 },
+        { fecha: '2015-12-31', dato: 1 },
+        { fecha: '2016-01-31', dato: 0 },
+        { fecha: '2016-02-29', dato: 1 },
+        { fecha: '2016-03-31', dato: 0 },
+        { fecha: '2016-04-30', dato: 4 },
+        { fecha: '2016-05-31', dato: 3 },
+        { fecha: '2016-06-30', dato: 5 },
+        { fecha: '2016-07-31', dato: 3 },
+        { fecha: '2016-08-31', dato: 10 },
+        { fecha: '2016-09-30', dato: 6 },
+        { fecha: '2016-10-31', dato: 5 },
+        { fecha: '2016-11-30', dato: 11 },
+        { fecha: '2016-12-31', dato: 2 },
+        { fecha: '2017-01-31', dato: 5 },
+        { fecha: '2017-02-28', dato: 1 },
+        { fecha: '2017-03-31', dato: 2 },
+        { fecha: '2017-04-30', dato: 4 },
+        { fecha: '2017-05-31', dato: 3 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesRoboATranseuntesEnMatamorosGrafica === 'undefined') {
+    varSmiOtrasRegionesRoboATranseuntesEnMatamorosGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesRoboATranseuntesEnMatamorosGrafica',
+      data: [{ region: 'Torreón', dato: 29 },{ region: 'Gómez Palacio', dato: 11 },{ region: 'Lerdo', dato: 6 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 49 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  $(document).ready(function(){
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

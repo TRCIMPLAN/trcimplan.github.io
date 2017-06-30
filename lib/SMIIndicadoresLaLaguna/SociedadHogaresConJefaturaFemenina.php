@@ -48,201 +48,67 @@ class SociedadHogaresConJefaturaFemenina extends \SMIBase\PublicacionWeb {
     } // constructor
 
     /**
-     * Sección Datos HTML
+     * Datos Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_html() {
-        $this->datos_tabla->definir_estructura(array(
+    public function datos_estructura() {
+        return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
             'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
-        $this->datos_tabla->definir_panal(array(
-            array('fecha' => '2010-12-31', 'valor' => '23.6700', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2015-12-31', 'valor' => '27.7400', 'fuente_nombre' => 'INEGI', 'notas' => '')));
-        // Entregar
-        return $this->datos_tabla->html();
-    } // seccion_datos_html
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // datos_estructura
 
     /**
-     * Sección Datos JavaScript
+     * Datos
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_javascript() {
-        return $this->datos_tabla->javascript();
-    } // seccion_datos_javascript
+    public function datos() {
+        return array(
+            array('fecha' => '2010-12-31', 'valor' => '23.6700', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '27.7400', 'fuente_nombre' => 'INEGI'));
+    } // datos
 
     /**
-     * Sección Gráfica HTML
+     * Otras Regiones Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_grafica_html() {
-        return <<<FINAL
-      <h3>Gráfica de Hogares con Jefatura Femenina en La Laguna</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a></p>
-
-FINAL;
-    } // seccion_grafica_html
+    public function otras_regiones_estructura() {
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // otras_regiones_estructura
 
     /**
-     * Sección Gráfica JavaScript
+     * Otras regiones
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_grafica_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2010-12-31', dato: 23.6700 },{ fecha: '2015-12-31', dato: 27.7400 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-FINAL;
-    } // seccion_grafica_javascript
+    public function otras_regiones() {
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '27.9200', 'fuente_nombre' => 'INEGI', 'notas' => 'Encuesta Intercensal 2015, de INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '27.9800', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '28.5700', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '24.4500', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '27.7400', 'fuente_nombre' => 'INEGI'));
+    } // otras_regiones
 
     /**
-     * Sección Otras Regiones HTML
+     * Observaciones
      *
-     * @return string Código HTML
+     * @return string Markdown
      */
-    protected function seccion_otras_regiones_html() {
-        return <<<FINAL
-      <h3>Gráfica con los últimos datos de Hogares con Jefatura Femenina</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Hogares con Jefatura Femenina</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2015</td>
-            <td>27.92 %</td>
-            <td>INEGI</td>
-            <td>Encuesta Intercensal 2015, de INEGI</td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2015</td>
-            <td>27.98 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2015</td>
-            <td>28.57 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2015</td>
-            <td>24.45 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2015</td>
-            <td>27.74 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a></p>
-
-FINAL;
-    } // seccion_otras_regiones_html
-
-    /**
-     * Sección Otras Regiones JavaScript
-     *
-     * @return string Código JavaScript
-     */
-    protected function seccion_otras_regiones_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 27.9200 },{ region: 'Gómez Palacio', dato: 27.9800 },{ region: 'Lerdo', dato: 28.5700 },{ region: 'Matamoros', dato: 24.4500 },{ region: 'La Laguna', dato: 27.7400 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-FINAL;
-    } // seccion_otras_regiones_javascript
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Ejecutar los métodos que alimentan cada lengüeta
-        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
-        $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
-        $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
-        $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
-        $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir el contenido de esta publicación que es un SchemaArticle
-        $this->contenido->articleBody = $this->lenguetas->html();
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // JavaScript de las lengüetas, es el de las gráficas
-        $this->javascript[] = $this->lenguetas->javascript();
-        // JavaScript para la carga completa del documento, es el de la tabla con los datos
-        $this->javascript[] = $this->datos_tabla->javascript();
-        // Ejecutar este método en el padre
-        return parent::javascript();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        $this->redifusion = $this->descripcion;
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
+    public function observaciones() {
+        return <<<OBSERVACIONES_FINAL
+Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/)
+OBSERVACIONES_FINAL;
+    } // observaciones
 
 } // Clase SociedadHogaresConJefaturaFemenina
 

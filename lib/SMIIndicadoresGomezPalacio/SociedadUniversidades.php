@@ -48,193 +48,98 @@ class SociedadUniversidades extends \SMIBase\PublicacionWeb {
     } // constructor
 
     /**
-     * Sección Datos HTML
+     * Datos Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_html() {
-        $this->datos_tabla->definir_estructura(array(
+    public function datos_estructura() {
+        return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
             'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
-        $this->datos_tabla->definir_panal(array(
-            array('fecha' => '2014-03-31', 'valor' => '9', 'fuente_nombre' => 'CIESLAG-FOMEC', 'notas' => '')));
-        // Entregar
-        return $this->datos_tabla->html();
-    } // seccion_datos_html
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // datos_estructura
 
     /**
-     * Sección Datos JavaScript
+     * Datos
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_javascript() {
-        return $this->datos_tabla->javascript();
-    } // seccion_datos_javascript
+    public function datos() {
+        return array(
+            array('fecha' => '2014-03-31', 'valor' => '9', 'fuente_nombre' => 'CIESLAG-FOMEC'));
+    } // datos
 
     /**
-     * Sección Otras Regiones HTML
+     * Otras Regiones Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_otras_regiones_html() {
-        return <<<FINAL
-      <h3>Gráfica con los últimos datos de Universidades</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Universidades</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/03/2014</td>
-            <td>18</td>
-            <td>CIESLAG-FOMEC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/03/2014</td>
-            <td>9</td>
-            <td>CIESLAG-FOMEC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/03/2014</td>
-            <td>3</td>
-            <td>CIESLAG-FOMEC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/03/2014</td>
-            <td>1</td>
-            <td>CIESLAG-FOMEC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/03/2014</td>
-            <td>31</td>
-            <td>CIESLAG-FOMEC</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicamente se contabilizan los planteles ubicados en Matamoros, Torreón, Gómez Palacio y Lerdo.</p>
-
-<ul>
-<li>Escuela Normal de la Laguna</li>
-<li>Escuela Normal de Torreón</li>
-<li>Instituto 18 de Marzo</li>
-<li>Instituto Superior Francisco Gonzalez de la Vega</li>
-<li>Instituto Tecnológico de Torreón (ITA 10)</li>
-<li>Instituto Tecnológico y de Estudios Superiores de Monterrey Campus Laguna</li>
-<li>Instituto Tecnológico de la Laguna</li>
-<li>Instituto Tecnológico Superior de Lerdo</li>
-<li>Universidad Autónoma Agraria Antonio Narro</li>
-<li>Universidad Autónoma de Coahuila</li>
-<li>Universidad Autónoma de la Laguna</li>
-<li>Universidad Autónoma del Noreste</li>
-<li>Universidad Iberoamericana</li>
-<li>Universidad Juárez del Estado de Durango</li>
-<li>Universidad La Salle</li>
-<li>Universidad Pedagógica Nacional</li>
-<li>Universidad del Valle de México</li>
-<li>Universidad Tec Milenio</li>
-<li>Universidad Interamericana para el Desarrollo</li>
-<li>Universidad Politécnica de Gómez Palacio</li>
-<li>Universidad del Desarrollo Profesional</li>
-<li>National Institute of Information Technologies</li>
-<li>Universidad Tecnológica de Torreón</li>
-<li>Instituto Estatal de Desarrollo Docente e investigación Educativa Unidad Matamoros</li>
-<li>Instituto Estatal de Desarrollo Docente e investigación Educativa Unidad Torreón</li>
-<li>Universidad Autónoma de Durango Campus Gómez Palacio</li>
-<li>Universidad Autónoma de Durango Campus Torreón</li>
-<li>Instituto Ma Esther Zuno de Echeverría</li>
-<li>Instituto de Estudios Superiores y Educación Normal Gral. Lázaro Cárdenas</li>
-<li>Universidad Tecnológica de La Laguna Durango</li>
-<li>Universidad Pedagógica de Durango-UGP</li>
-</ul>
-
-FINAL;
-    } // seccion_otras_regiones_html
+    public function otras_regiones_estructura() {
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // otras_regiones_estructura
 
     /**
-     * Sección Otras Regiones JavaScript
+     * Otras regiones
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_otras_regiones_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 18 },{ region: 'Gómez Palacio', dato: 9 },{ region: 'Lerdo', dato: 3 },{ region: 'Matamoros', dato: 1 },{ region: 'La Laguna', dato: 31 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-FINAL;
-    } // seccion_otras_regiones_javascript
+    public function otras_regiones() {
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-03-31', 'valor' => '18', 'fuente_nombre' => 'CIESLAG-FOMEC'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-03-31', 'valor' => '9', 'fuente_nombre' => 'CIESLAG-FOMEC'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-03-31', 'valor' => '3', 'fuente_nombre' => 'CIESLAG-FOMEC'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-03-31', 'valor' => '1', 'fuente_nombre' => 'CIESLAG-FOMEC'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-03-31', 'valor' => '31', 'fuente_nombre' => 'CIESLAG-FOMEC'));
+    } // otras_regiones
 
     /**
-     * HTML
+     * Observaciones
      *
-     * @return string Código HTML
+     * @return string Markdown
      */
-    public function html() {
-        // Ejecutar los métodos que alimentan cada lengüeta
-        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
-        $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
-        $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir el contenido de esta publicación que es un SchemaArticle
-        $this->contenido->articleBody = $this->lenguetas->html();
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
+    public function observaciones() {
+        return <<<OBSERVACIONES_FINAL
+Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicamente se contabilizan los planteles ubicados en Matamoros, Torreón, Gómez Palacio y Lerdo.
 
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // JavaScript de las lengüetas, es el de las gráficas
-        $this->javascript[] = $this->lenguetas->javascript();
-        // JavaScript para la carga completa del documento, es el de la tabla con los datos
-        $this->javascript[] = $this->datos_tabla->javascript();
-        // Ejecutar este método en el padre
-        return parent::javascript();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        $this->redifusion = $this->descripcion;
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
+* Escuela Normal de la Laguna
+* Escuela Normal de Torreón
+* Instituto 18 de Marzo
+* Instituto Superior Francisco Gonzalez de la Vega
+* Instituto Tecnológico de Torreón (ITA 10)
+* Instituto Tecnológico y de Estudios Superiores de Monterrey Campus Laguna
+* Instituto Tecnológico de la Laguna
+* Instituto Tecnológico Superior de Lerdo
+* Universidad Autónoma Agraria Antonio Narro
+* Universidad Autónoma de Coahuila
+* Universidad Autónoma de la Laguna
+* Universidad Autónoma del Noreste
+* Universidad Iberoamericana
+* Universidad Juárez del Estado de Durango
+* Universidad La Salle
+* Universidad Pedagógica Nacional
+* Universidad del Valle de México
+* Universidad Tec Milenio
+* Universidad Interamericana para el Desarrollo
+* Universidad Politécnica de Gómez Palacio
+* Universidad del Desarrollo Profesional
+* National Institute of Information Technologies
+* Universidad Tecnológica de Torreón
+* Instituto Estatal de Desarrollo Docente e investigación Educativa Unidad Matamoros
+* Instituto Estatal de Desarrollo Docente e investigación Educativa Unidad Torreón
+* Universidad Autónoma de Durango Campus Gómez Palacio
+* Universidad Autónoma de Durango Campus Torreón
+* Instituto Ma Esther Zuno de Echeverría
+* Instituto de Estudios Superiores y Educación Normal Gral. Lázaro Cárdenas
+* Universidad Tecnológica de La Laguna Durango
+* Universidad Pedagógica de Durango-UGP
+OBSERVACIONES_FINAL;
+    } // observaciones
 
 } // Clase SociedadUniversidades
 

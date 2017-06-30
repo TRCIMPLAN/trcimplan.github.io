@@ -48,232 +48,86 @@ class SeguridadAccidentesViales extends \SMIBase\PublicacionWeb {
     } // constructor
 
     /**
-     * Sección Datos HTML
+     * Datos Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_html() {
-        $this->datos_tabla->definir_estructura(array(
+    public function datos_estructura() {
+        return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
             'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
-        $this->datos_tabla->definir_panal(array(
-            array('fecha' => '1997-12-31', 'valor' => '3203', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '1998-12-31', 'valor' => '3529', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '1999-12-31', 'valor' => '3250', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2000-12-31', 'valor' => '4622', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2001-12-31', 'valor' => '5259', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2002-12-31', 'valor' => '5417', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2003-12-31', 'valor' => '5472', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2004-12-31', 'valor' => '5256', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2005-12-31', 'valor' => '5287', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2006-12-31', 'valor' => '6562', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2007-12-31', 'valor' => '5993', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2008-12-31', 'valor' => '5634', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2009-12-31', 'valor' => '4346', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2010-12-31', 'valor' => '3026', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2011-12-31', 'valor' => '2218', 'fuente_nombre' => 'INEGI', 'notas' => ''),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // datos_estructura
+
+    /**
+     * Datos
+     *
+     * @return array Arreglo con arreglos asociativos
+     */
+    public function datos() {
+        return array(
+            array('fecha' => '1997-12-31', 'valor' => '3203', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '1998-12-31', 'valor' => '3529', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '1999-12-31', 'valor' => '3250', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2000-12-31', 'valor' => '4622', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2001-12-31', 'valor' => '5259', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2002-12-31', 'valor' => '5417', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2003-12-31', 'valor' => '5472', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2004-12-31', 'valor' => '5256', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2005-12-31', 'valor' => '5287', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2006-12-31', 'valor' => '6562', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2007-12-31', 'valor' => '5993', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2008-12-31', 'valor' => '5634', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2009-12-31', 'valor' => '4346', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2010-12-31', 'valor' => '3026', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2011-12-31', 'valor' => '2218', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2012-12-31', 'valor' => '1958', 'fuente_nombre' => 'INEGI', 'notas' => 'Número de accidentes registrados durante el año 2012.'),
-            array('fecha' => '2013-12-31', 'valor' => '1831', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2014-12-31', 'valor' => '4421', 'fuente_nombre' => 'INEGI', 'notas' => ''),
-            array('fecha' => '2015-12-31', 'valor' => '4876', 'fuente_nombre' => 'INEGI', 'notas' => '')));
-        // Entregar
-        return $this->datos_tabla->html();
-    } // seccion_datos_html
+            array('fecha' => '2013-12-31', 'valor' => '1831', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2014-12-31', 'valor' => '4421', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '4876', 'fuente_nombre' => 'INEGI'));
+    } // datos
 
     /**
-     * Sección Datos JavaScript
+     * Otras Regiones Estructura
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_javascript() {
-        return $this->datos_tabla->javascript();
-    } // seccion_datos_javascript
+    public function otras_regiones_estructura() {
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // otras_regiones_estructura
 
     /**
-     * Sección Gráfica HTML
+     * Otras regiones
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_grafica_html() {
-        return <<<FINAL
-      <h3>Gráfica de Accidentes Viales en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/accidentes.asp?s=est&amp;c=13159&amp;proy=atus_accidentes">Base de Datos</a></p>
-
-FINAL;
-    } // seccion_grafica_html
+    public function otras_regiones() {
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '4876', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '1585', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '343', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '209', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '7013', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2015-12-31', 'valor' => '14641', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Durango', 'fecha' => '2015-12-31', 'valor' => '5379', 'fuente_nombre' => 'INEGI'));
+    } // otras_regiones
 
     /**
-     * Sección Gráfica JavaScript
+     * Observaciones
      *
-     * @return string Código JavaScript
+     * @return string Markdown
      */
-    protected function seccion_grafica_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '1997-12-31', dato: 3203 },{ fecha: '1998-12-31', dato: 3529 },{ fecha: '1999-12-31', dato: 3250 },{ fecha: '2000-12-31', dato: 4622 },{ fecha: '2001-12-31', dato: 5259 },{ fecha: '2002-12-31', dato: 5417 },{ fecha: '2003-12-31', dato: 5472 },{ fecha: '2004-12-31', dato: 5256 },{ fecha: '2005-12-31', dato: 5287 },{ fecha: '2006-12-31', dato: 6562 },{ fecha: '2007-12-31', dato: 5993 },{ fecha: '2008-12-31', dato: 5634 },{ fecha: '2009-12-31', dato: 4346 },{ fecha: '2010-12-31', dato: 3026 },{ fecha: '2011-12-31', dato: 2218 },{ fecha: '2012-12-31', dato: 1958 },{ fecha: '2013-12-31', dato: 1831 },{ fecha: '2014-12-31', dato: 4421 },{ fecha: '2015-12-31', dato: 4876 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-FINAL;
-    } // seccion_grafica_javascript
-
-    /**
-     * Sección Otras Regiones HTML
-     *
-     * @return string Código HTML
-     */
-    protected function seccion_otras_regiones_html() {
-        return <<<FINAL
-      <h3>Gráfica con los últimos datos de Accidentes Viales</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Accidentes Viales</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2015</td>
-            <td>4876</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2015</td>
-            <td>1585</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2015</td>
-            <td>343</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2015</td>
-            <td>209</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2015</td>
-            <td>7013</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/12/2015</td>
-            <td>14641</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/12/2015</td>
-            <td>5379</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/accidentes.asp?s=est&amp;c=13159&amp;proy=atus_accidentes">Base de Datos</a></p>
-
-FINAL;
-    } // seccion_otras_regiones_html
-
-    /**
-     * Sección Otras Regiones JavaScript
-     *
-     * @return string Código JavaScript
-     */
-    protected function seccion_otras_regiones_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 4876 },{ region: 'Gómez Palacio', dato: 1585 },{ region: 'Lerdo', dato: 343 },{ region: 'Matamoros', dato: 209 },{ region: 'La Laguna', dato: 7013 },{ region: 'Coahuila', dato: 14641 },{ region: 'Durango', dato: 5379 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-FINAL;
-    } // seccion_otras_regiones_javascript
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Ejecutar los métodos que alimentan cada lengüeta
-        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
-        $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
-        $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
-        $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
-        $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir el contenido de esta publicación que es un SchemaArticle
-        $this->contenido->articleBody = $this->lenguetas->html();
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // JavaScript de las lengüetas, es el de las gráficas
-        $this->javascript[] = $this->lenguetas->javascript();
-        // JavaScript para la carga completa del documento, es el de la tabla con los datos
-        $this->javascript[] = $this->datos_tabla->javascript();
-        // Ejecutar este método en el padre
-        return parent::javascript();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        $this->redifusion = $this->descripcion;
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
+    public function observaciones() {
+        return <<<OBSERVACIONES_FINAL
+Consulta la [Base de Datos](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/accidentes.asp?s=est&c=13159&proy=atus_accidentes)
+OBSERVACIONES_FINAL;
+    } // observaciones
 
 } // Clase SeguridadAccidentesViales
 

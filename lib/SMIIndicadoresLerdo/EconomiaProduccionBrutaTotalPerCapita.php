@@ -48,260 +48,86 @@ class EconomiaProduccionBrutaTotalPerCapita extends \SMIBase\PublicacionWeb {
     } // constructor
 
     /**
-     * Sección Datos HTML
+     * Datos Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_html() {
-        $this->datos_tabla->definir_estructura(array(
+    public function datos_estructura() {
+        return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
             'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
-        $this->datos_tabla->definir_panal(array(
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // datos_estructura
+
+    /**
+     * Datos
+     *
+     * @return array Arreglo con arreglos asociativos
+     */
+    public function datos() {
+        return array(
             array('fecha' => '1998-12-31', 'valor' => '12093.88', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $1,222.06. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630'),
             array('fecha' => '2003-12-31', 'valor' => '21705.57', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $1,931.58. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720'),
             array('fecha' => '2008-12-31', 'valor' => '16746.04', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $1,210.63. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250'),
-            array('fecha' => '2013-12-31', 'valor' => '26085.15', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => '')));
-        // Entregar
-        return $this->datos_tabla->html();
-    } // seccion_datos_html
+            array('fecha' => '2013-12-31', 'valor' => '26085.15', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+    } // datos
 
     /**
-     * Sección Datos JavaScript
+     * Otras Regiones Estructura
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_javascript() {
-        return $this->datos_tabla->javascript();
-    } // seccion_datos_javascript
+    public function otras_regiones_estructura() {
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // otras_regiones_estructura
 
     /**
-     * Sección Gráfica HTML
+     * Otras regiones
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_grafica_html() {
-        return <<<FINAL
-      <h3>Gráfica de Producción Bruta Total Per Cápita en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Pesos.</p>
-      <h3>Observaciones</h3>
-<p>La producción bruta total per cápita a nivel nacional es de:</p>
-
-<ul>
-<li>2008 = $103,094.93 </li>
-<li>2003 = $60,324.54 </li>
-<li>1998 = $37,765.57 </li>
-</ul>
-
-<p>La producción bruta total per cápita en dólares a nivel nacional es de:</p>
-
-<ul>
-<li>2008 = $7,453.09 </li>
-<li>2003 = $5,368.29 </li>
-<li>1998 = $3,816.13 </li>
-</ul>
-
-<p>Calculados con el tipo de cambio Fix publicado por el Banxico al cierre del año correspondiente.</p>
-
-<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI Censos económicos.</a></p>
-
-FINAL;
-    } // seccion_grafica_html
+    public function otras_regiones() {
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2013-12-31', 'valor' => '225170.46', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '154519.29', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '26085.15', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '18450.05', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2013-12-31', 'valor' => '164908.36', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '218704.95', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '63345.06', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '118115.69', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+    } // otras_regiones
 
     /**
-     * Sección Gráfica JavaScript
+     * Observaciones
      *
-     * @return string Código JavaScript
+     * @return string Markdown
      */
-    protected function seccion_grafica_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '1998-12-31', dato: 12093.88 },{ fecha: '2003-12-31', dato: 21705.57 },{ fecha: '2008-12-31', dato: 16746.04 },{ fecha: '2013-12-31', dato: 26085.15 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-FINAL;
-    } // seccion_grafica_javascript
+    public function observaciones() {
+        return <<<OBSERVACIONES_FINAL
+La producción bruta total per cápita a nivel nacional es de:
 
-    /**
-     * Sección Otras Regiones HTML
-     *
-     * @return string Código HTML
-     */
-    protected function seccion_otras_regiones_html() {
-        return <<<FINAL
-      <h3>Gráfica con los últimos datos de Producción Bruta Total Per Cápita</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Producción Bruta Total Per Cápita</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2013</td>
-            <td>$ 225,170.46</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2013</td>
-            <td>$ 154,519.29</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2013</td>
-            <td>$ 26,085.15</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2013</td>
-            <td>$ 18,450.05</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2013</td>
-            <td>$ 164,908.36</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/12/2013</td>
-            <td>$ 218,704.95</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/12/2013</td>
-            <td>$ 63,345.06</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>31/12/2013</td>
-            <td>$ 118,115.69</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Pesos.</p>
-      <h3>Observaciones</h3>
-<p>La producción bruta total per cápita a nivel nacional es de:</p>
+- 2008 = $103,094.93 
+- 2003 = $60,324.54 
+- 1998 = $37,765.57 
 
-<ul>
-<li>2008 = $103,094.93 </li>
-<li>2003 = $60,324.54 </li>
-<li>1998 = $37,765.57 </li>
-</ul>
+La producción bruta total per cápita en dólares a nivel nacional es de:
 
-<p>La producción bruta total per cápita en dólares a nivel nacional es de:</p>
+- 2008 = $7,453.09 
+- 2003 = $5,368.29 
+- 1998 = $3,816.13 
 
-<ul>
-<li>2008 = $7,453.09 </li>
-<li>2003 = $5,368.29 </li>
-<li>1998 = $3,816.13 </li>
-</ul>
+Calculados con el tipo de cambio Fix publicado por el Banxico al cierre del año correspondiente.
 
-<p>Calculados con el tipo de cambio Fix publicado por el Banxico al cierre del año correspondiente.</p>
-
-<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI Censos económicos.</a></p>
-
-FINAL;
-    } // seccion_otras_regiones_html
-
-    /**
-     * Sección Otras Regiones JavaScript
-     *
-     * @return string Código JavaScript
-     */
-    protected function seccion_otras_regiones_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 225170.46 },{ region: 'Gómez Palacio', dato: 154519.29 },{ region: 'Lerdo', dato: 26085.15 },{ region: 'Matamoros', dato: 18450.05 },{ region: 'La Laguna', dato: 164908.36 },{ region: 'Coahuila', dato: 218704.95 },{ region: 'Durango', dato: 63345.06 },{ region: 'Nacional', dato: 118115.69 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-FINAL;
-    } // seccion_otras_regiones_javascript
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Ejecutar los métodos que alimentan cada lengüeta
-        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
-        $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
-        $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
-        $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
-        $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir el contenido de esta publicación que es un SchemaArticle
-        $this->contenido->articleBody = $this->lenguetas->html();
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // JavaScript de las lengüetas, es el de las gráficas
-        $this->javascript[] = $this->lenguetas->javascript();
-        // JavaScript para la carga completa del documento, es el de la tabla con los datos
-        $this->javascript[] = $this->datos_tabla->javascript();
-        // Ejecutar este método en el padre
-        return parent::javascript();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        $this->redifusion = $this->descripcion;
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
+Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas/saic/)
+OBSERVACIONES_FINAL;
+    } // observaciones
 
 } // Clase EconomiaProduccionBrutaTotalPerCapita
 

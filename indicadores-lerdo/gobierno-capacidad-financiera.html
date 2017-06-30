@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Capacidad Financiera en Lerdo - IMPLAN Torreón">
   <meta name="twitter:description" content="Ingresos propios entre gastos corrientes. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/gobierno-capacidad-financiera.html">
   <meta name="og:title" content="Capacidad Financiera en Lerdo - IMPLAN Torreón">
   <meta name="og:description" content="Ingresos propios entre gastos corrientes. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/gobierno-capacidad-financiera.html">
   <title>Capacidad Financiera en Lerdo - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,14 +186,15 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosCapacidadFinancieraEnLerdo" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -259,118 +260,102 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Capacidad Financiera en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>El indicador de capacidad financiera a nivel nacional es de:</p>
-
-<ul>
-<li>2013 = 41.15%</li>
-<li>2012 = 39.41%</li>
-<li>2011 = 39.94%</li>
-<li>2010 = 41.63%</li>
-<li>2009 = 40.87%</li>
-<li>2008 = 43.36%</li>
-<li>2007 = 44.48%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&amp;c=11289&amp;proy=efipem_fmun">INEGI. Estadística de finanzas públicas estatales y municipales</a></p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Capacidad Financiera</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Capacidad Financiera</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2014</td>
-            <td>65.24 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2014</td>
-            <td>40.41 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2014</td>
-            <td>86.80 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2014</td>
-            <td>18.63 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2014</td>
-            <td>58.02 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/12/2014</td>
-            <td>52.78 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/12/2014</td>
-            <td>39.75 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>31/12/2014</td>
-            <td>39.16 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>El indicador de capacidad financiera a nivel nacional es de:</p>
-
-<ul>
-<li>2013 = 41.15%</li>
-<li>2012 = 39.41%</li>
-<li>2011 = 39.94%</li>
-<li>2010 = 41.63%</li>
-<li>2009 = 40.87%</li>
-<li>2008 = 43.36%</li>
-<li>2007 = 44.48%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&amp;c=11289&amp;proy=efipem_fmun">INEGI. Estadística de finanzas públicas estatales y municipales</a></p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Capacidad Financiera en Lerdo </h3>
+
+    <div id="SmiGraficasCapacidadFinancieraEnLerdo" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Capacidad Financiera en Lerdo</h3>
+    <div id="SmiOtrasRegionesCapacidadFinancieraEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesCapacidadFinancieraEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2014-12-31</td>
+        <td>65.2382</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2014-12-31</td>
+        <td>40.4069</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2014-12-31</td>
+        <td>86.7984</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2014-12-31</td>
+        <td>18.6306</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2014-12-31</td>
+        <td>58.0197</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2014-12-31</td>
+        <td>52.7785</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2014-12-31</td>
+        <td>39.7498</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2014-12-31</td>
+        <td>39.1581</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>El indicador de capacidad financiera a nivel nacional es de:</p>
+
+<ul>
+<li>2013 = 41.15%</li>
+<li>2012 = 39.41%</li>
+<li>2011 = 39.94%</li>
+<li>2010 = 41.63%</li>
+<li>2009 = 40.87%</li>
+<li>2008 = 43.36%</li>
+<li>2007 = 44.48%</li>
+</ul>
+
+<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&amp;c=11289&amp;proy=efipem_fmun">INEGI. Estadística de finanzas públicas estatales y municipales</a></p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -447,11 +432,20 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2007-12-31', dato: 25.5200 },{ fecha: '2008-12-31', dato: 27.7100 },{ fecha: '2009-12-31', dato: 46.3000 },{ fecha: '2010-12-31', dato: 24.1400 },{ fecha: '2011-12-31', dato: 26.0300 },{ fecha: '2012-12-31', dato: 23.7600 },{ fecha: '2013-12-31', dato: 87.6404 },{ fecha: '2014-12-31', dato: 86.7984 }],
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasCapacidadFinancieraEnLerdo === 'undefined') {
+    varSmiGraficasCapacidadFinancieraEnLerdo = Morris.Line({
+      element: 'SmiGraficasCapacidadFinancieraEnLerdo',
+      data: [
+        { fecha: '2007-12-31', dato: 25.5200 },
+        { fecha: '2008-12-31', dato: 27.7100 },
+        { fecha: '2009-12-31', dato: 46.3000 },
+        { fecha: '2010-12-31', dato: 24.1400 },
+        { fecha: '2011-12-31', dato: 26.0300 },
+        { fecha: '2012-12-31', dato: 23.7600 },
+        { fecha: '2013-12-31', dato: 87.6404 },
+        { fecha: '2014-12-31', dato: 86.7984 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -459,35 +453,24 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesCapacidadFinancieraEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesCapacidadFinancieraEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesCapacidadFinancieraEnLerdoGrafica',
       data: [{ region: 'Torreón', dato: 65.2382 },{ region: 'Gómez Palacio', dato: 40.4069 },{ region: 'Lerdo', dato: 86.7984 },{ region: 'Matamoros', dato: 18.6306 },{ region: 'La Laguna', dato: 58.0197 },{ region: 'Coahuila', dato: 52.7785 },{ region: 'Durango', dato: 39.7498 },{ region: 'Nacional', dato: 39.1581 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
       barColors: ['#FF5B02']
     });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
-      "language": {
-        "lengthMenu":   "Mostrando _MENU_ filas por página",
-        "zeroRecords":  "No se encontró nada",
-        "info":         "Mostrando página _PAGE_ de _PAGES_",
-        "infoEmpty":    "No se encontraron registros",
-        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-        "search":       "Filtrar:",
-        "paginate": {
-          "previous":   "Anterior",
-          "next":       "Siguiente"
-        }
-      }
-    });
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

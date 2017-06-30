@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Trabajadores Asegurados en La Laguna - IMPLAN Torreón">
   <meta name="twitter:description" content="Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-trabajadores-asegurados.html">
   <meta name="og:title" content="Trabajadores Asegurados en La Laguna - IMPLAN Torreón">
   <meta name="og:description" content="Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-trabajadores-asegurados.html">
   <title>Trabajadores Asegurados en La Laguna - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,14 +186,15 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosTrabajadoresAseguradosEnLaLaguna" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -451,87 +452,83 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Trabajadores Asegurados en La Laguna</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Personas.</p>
-      <h3>Observaciones</h3>
-<p>Datos obtenidos de <a href="http://datos.imss.gob.mx/dataset">IMSS</a></p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Trabajadores Asegurados</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Trabajadores Asegurados</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/03/2017</td>
-            <td>186824</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/03/2017</td>
-            <td>76145</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/03/2017</td>
-            <td>15139</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/03/2017</td>
-            <td>8415</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/03/2017</td>
-            <td>286523</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/03/2017</td>
-            <td>734936</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/03/2017</td>
-            <td>235926</td>
-            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Personas.</p>
-      <h3>Observaciones</h3>
-<p>Datos obtenidos de <a href="http://datos.imss.gob.mx/dataset">IMSS</a></p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Trabajadores Asegurados en La Laguna </h3>
+
+    <div id="SmiGraficasTrabajadoresAseguradosEnLaLaguna" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Trabajadores Asegurados en La Laguna</h3>
+    <div id="SmiOtrasRegionesTrabajadoresAseguradosEnLaLagunaGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesTrabajadoresAseguradosEnLaLagunaTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2017-03-31</td>
+        <td>186824</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2017-03-31</td>
+        <td>76145</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2017-03-31</td>
+        <td>15139</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2017-03-31</td>
+        <td>8415</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2017-03-31</td>
+        <td>286523</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2017-03-31</td>
+        <td>734936</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2017-03-31</td>
+        <td>235926</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>Datos obtenidos de <a href="http://datos.imss.gob.mx/dataset">IMSS</a></p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -620,34 +617,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2013-11-30', dato: 256808 },{ fecha: '2013-12-31', dato: 253116 },{ fecha: '2014-01-31', dato: 254644 },{ fecha: '2014-02-28', dato: 255740 },{ fecha: '2014-03-31', dato: 257532 },{ fecha: '2014-04-30', dato: 258709 },{ fecha: '2014-05-31', dato: 259707 },{ fecha: '2014-06-30', dato: 260725 },{ fecha: '2014-07-31', dato: 261332 },{ fecha: '2014-08-31', dato: 264250 },{ fecha: '2014-09-30', dato: 266616 },{ fecha: '2014-10-31', dato: 267301 },{ fecha: '2014-11-30', dato: 268101 },{ fecha: '2014-12-31', dato: 264904 },{ fecha: '2015-01-31', dato: 265053 },{ fecha: '2015-02-28', dato: 267403 },{ fecha: '2015-03-31', dato: 268943 },{ fecha: '2015-04-30', dato: 270311 },{ fecha: '2015-05-31', dato: 270352 },{ fecha: '2015-06-30', dato: 271743 },{ fecha: '2015-07-31', dato: 272455 },{ fecha: '2015-08-31', dato: 274856 },{ fecha: '2015-09-30', dato: 273771 },{ fecha: '2015-10-31', dato: 275539 },{ fecha: '2015-11-30', dato: 276239 },{ fecha: '2015-12-31', dato: 272417 },{ fecha: '2016-01-31', dato: 274382 },{ fecha: '2016-02-29', dato: 277139 },{ fecha: '2016-03-31', dato: 277295 },{ fecha: '2016-04-30', dato: 279007 },{ fecha: '2016-05-31', dato: 280088 },{ fecha: '2016-06-30', dato: 283028 },{ fecha: '2016-07-31', dato: 282497 },{ fecha: '2016-08-31', dato: 285716 },{ fecha: '2016-09-30', dato: 286807 },{ fecha: '2016-10-31', dato: 287610 },{ fecha: '2016-11-30', dato: 287990 },{ fecha: '2016-12-31', dato: 282106 },{ fecha: '2017-01-31', dato: 282620 },{ fecha: '2017-02-28', dato: 284873 },{ fecha: '2017-03-31', dato: 286523 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 186824 },{ region: 'Gómez Palacio', dato: 76145 },{ region: 'Lerdo', dato: 15139 },{ region: 'Matamoros', dato: 8415 },{ region: 'La Laguna', dato: 286523 },{ region: 'Coahuila', dato: 734936 },{ region: 'Durango', dato: 235926 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
-  $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTrabajadoresAseguradosEnLaLaguna === 'undefined') {
+     $('#SmiDatosTrabajadoresAseguradosEnLaLaguna').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -661,6 +633,80 @@ $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
         }
       }
     });
+    varSmiDatosTrabajadoresAseguradosEnLaLaguna = 1;
+  }
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTrabajadoresAseguradosEnLaLaguna === 'undefined') {
+    varSmiGraficasTrabajadoresAseguradosEnLaLaguna = Morris.Line({
+      element: 'SmiGraficasTrabajadoresAseguradosEnLaLaguna',
+      data: [
+        { fecha: '2013-11-30', dato: 256808 },
+        { fecha: '2013-12-31', dato: 253116 },
+        { fecha: '2014-01-31', dato: 254644 },
+        { fecha: '2014-02-28', dato: 255740 },
+        { fecha: '2014-03-31', dato: 257532 },
+        { fecha: '2014-04-30', dato: 258709 },
+        { fecha: '2014-05-31', dato: 259707 },
+        { fecha: '2014-06-30', dato: 260725 },
+        { fecha: '2014-07-31', dato: 261332 },
+        { fecha: '2014-08-31', dato: 264250 },
+        { fecha: '2014-09-30', dato: 266616 },
+        { fecha: '2014-10-31', dato: 267301 },
+        { fecha: '2014-11-30', dato: 268101 },
+        { fecha: '2014-12-31', dato: 264904 },
+        { fecha: '2015-01-31', dato: 265053 },
+        { fecha: '2015-02-28', dato: 267403 },
+        { fecha: '2015-03-31', dato: 268943 },
+        { fecha: '2015-04-30', dato: 270311 },
+        { fecha: '2015-05-31', dato: 270352 },
+        { fecha: '2015-06-30', dato: 271743 },
+        { fecha: '2015-07-31', dato: 272455 },
+        { fecha: '2015-08-31', dato: 274856 },
+        { fecha: '2015-09-30', dato: 273771 },
+        { fecha: '2015-10-31', dato: 275539 },
+        { fecha: '2015-11-30', dato: 276239 },
+        { fecha: '2015-12-31', dato: 272417 },
+        { fecha: '2016-01-31', dato: 274382 },
+        { fecha: '2016-02-29', dato: 277139 },
+        { fecha: '2016-03-31', dato: 277295 },
+        { fecha: '2016-04-30', dato: 279007 },
+        { fecha: '2016-05-31', dato: 280088 },
+        { fecha: '2016-06-30', dato: 283028 },
+        { fecha: '2016-07-31', dato: 282497 },
+        { fecha: '2016-08-31', dato: 285716 },
+        { fecha: '2016-09-30', dato: 286807 },
+        { fecha: '2016-10-31', dato: 287610 },
+        { fecha: '2016-11-30', dato: 287990 },
+        { fecha: '2016-12-31', dato: 282106 },
+        { fecha: '2017-01-31', dato: 282620 },
+        { fecha: '2017-02-28', dato: 284873 },
+        { fecha: '2017-03-31', dato: 286523 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesTrabajadoresAseguradosEnLaLagunaGrafica === 'undefined') {
+    varSmiOtrasRegionesTrabajadoresAseguradosEnLaLagunaGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesTrabajadoresAseguradosEnLaLagunaGrafica',
+      data: [{ region: 'Torreón', dato: 186824 },{ region: 'Gómez Palacio', dato: 76145 },{ region: 'Lerdo', dato: 15139 },{ region: 'Matamoros', dato: 8415 },{ region: 'La Laguna', dato: 286523 },{ region: 'Coahuila', dato: 734936 },{ region: 'Durango', dato: 235926 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  $(document).ready(function(){
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

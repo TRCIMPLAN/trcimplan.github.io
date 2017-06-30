@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Pasajeros Aéreos Internacionales Mensuales en Torreón - IMPLAN Torreón">
   <meta name="twitter:description" content="Flujo de pasajeros que llegan del, o, se dirigen fuera de territorio nacional.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-mensuales.html">
   <meta name="og:title" content="Pasajeros Aéreos Internacionales Mensuales en Torreón - IMPLAN Torreón">
   <meta name="og:description" content="Flujo de pasajeros que llegan del, o, se dirigen fuera de territorio nacional.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-mensuales.html">
   <title>Pasajeros Aéreos Internacionales Mensuales en Torreón - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,13 +186,14 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosPasajerosAereosInternacionalesMensualesEnTorreon" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -540,16 +541,17 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Pasajeros Aéreos Internacionales Mensuales en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Personas.</p>
-      <h3>Observaciones</h3>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Pasajeros Aéreos Internacionales Mensuales en Torreón </h3>
+
+    <div id="SmiGraficasPasajerosAereosInternacionalesMensualesEnTorreon" class="grafica"></div>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
 <p>Toda referencia sobre volumen de pasajeros se refiere a pasajeros terminales, los cuales incluyen los pasajeros de los tres tipos de aviación (comercial, charter y aviación general), y excluye los pasajeros en tránsito.Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
 
-    </div>
-  </div>
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -648,23 +650,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2012-02-29', dato: 3568 },{ fecha: '2012-03-31', dato: 4470 },{ fecha: '2012-04-30', dato: 5159 },{ fecha: '2012-05-31', dato: 5212 },{ fecha: '2012-06-30', dato: 4803 },{ fecha: '2012-07-31', dato: 6871 },{ fecha: '2012-08-31', dato: 6486 },{ fecha: '2012-09-30', dato: 4764 },{ fecha: '2012-10-31', dato: 4574 },{ fecha: '2012-11-30', dato: 4910 },{ fecha: '2012-12-31', dato: 6037 },{ fecha: '2013-01-31', dato: 5014 },{ fecha: '2013-02-28', dato: 3553 },{ fecha: '2013-03-31', dato: 5185 },{ fecha: '2013-04-30', dato: 4624 },{ fecha: '2013-05-31', dato: 4426 },{ fecha: '2013-06-30', dato: 4251 },{ fecha: '2013-07-31', dato: 5464 },{ fecha: '2013-08-31', dato: 4568 },{ fecha: '2013-09-30', dato: 4180 },{ fecha: '2013-10-31', dato: 3897 },{ fecha: '2013-11-30', dato: 4413 },{ fecha: '2013-12-31', dato: 5871 },{ fecha: '2014-01-31', dato: 4749 },{ fecha: '2014-02-28', dato: 4749 },{ fecha: '2014-03-31', dato: 4303 },{ fecha: '2014-04-30', dato: 4326 },{ fecha: '2014-05-31', dato: 4003 },{ fecha: '2014-06-30', dato: 4316 },{ fecha: '2014-07-31', dato: 5537 },{ fecha: '2014-08-31', dato: 4950 },{ fecha: '2014-09-30', dato: 4557 },{ fecha: '2014-10-31', dato: 4210 },{ fecha: '2014-11-30', dato: 4229 },{ fecha: '2014-12-31', dato: 5423 },{ fecha: '2015-01-31', dato: 4659 },{ fecha: '2015-02-28', dato: 3070 },{ fecha: '2015-03-31', dato: 3916 },{ fecha: '2015-04-30', dato: 4189 },{ fecha: '2015-05-31', dato: 4301 },{ fecha: '2015-06-30', dato: 4630 },{ fecha: '2015-07-01', dato: 5815 },{ fecha: '2015-08-31', dato: 5462 },{ fecha: '2015-09-30', dato: 4460 },{ fecha: '2015-10-31', dato: 4196 },{ fecha: '2015-11-30', dato: 4175 },{ fecha: '2015-12-31', dato: 5434 },{ fecha: '2016-01-31', dato: 4022 },{ fecha: '2016-02-29', dato: 3301 },{ fecha: '2016-03-31', dato: 5294 },{ fecha: '2016-04-30', dato: 4905 },{ fecha: '2016-05-31', dato: 5695 },{ fecha: '2016-06-30', dato: 4579 },{ fecha: '2016-07-31', dato: 4885 },{ fecha: '2016-08-31', dato: 4369 },{ fecha: '2016-09-30', dato: 4178 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
-  $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosPasajerosAereosInternacionalesMensualesEnTorreon === 'undefined') {
+     $('#SmiDatosPasajerosAereosInternacionalesMensualesEnTorreon').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -678,6 +666,82 @@ $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
         }
       }
     });
+    varSmiDatosPasajerosAereosInternacionalesMensualesEnTorreon = 1;
+  }
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPasajerosAereosInternacionalesMensualesEnTorreon === 'undefined') {
+    varSmiGraficasPasajerosAereosInternacionalesMensualesEnTorreon = Morris.Line({
+      element: 'SmiGraficasPasajerosAereosInternacionalesMensualesEnTorreon',
+      data: [
+        { fecha: '2012-02-29', dato: 3568 },
+        { fecha: '2012-03-31', dato: 4470 },
+        { fecha: '2012-04-30', dato: 5159 },
+        { fecha: '2012-05-31', dato: 5212 },
+        { fecha: '2012-06-30', dato: 4803 },
+        { fecha: '2012-07-31', dato: 6871 },
+        { fecha: '2012-08-31', dato: 6486 },
+        { fecha: '2012-09-30', dato: 4764 },
+        { fecha: '2012-10-31', dato: 4574 },
+        { fecha: '2012-11-30', dato: 4910 },
+        { fecha: '2012-12-31', dato: 6037 },
+        { fecha: '2013-01-31', dato: 5014 },
+        { fecha: '2013-02-28', dato: 3553 },
+        { fecha: '2013-03-31', dato: 5185 },
+        { fecha: '2013-04-30', dato: 4624 },
+        { fecha: '2013-05-31', dato: 4426 },
+        { fecha: '2013-06-30', dato: 4251 },
+        { fecha: '2013-07-31', dato: 5464 },
+        { fecha: '2013-08-31', dato: 4568 },
+        { fecha: '2013-09-30', dato: 4180 },
+        { fecha: '2013-10-31', dato: 3897 },
+        { fecha: '2013-11-30', dato: 4413 },
+        { fecha: '2013-12-31', dato: 5871 },
+        { fecha: '2014-01-31', dato: 4749 },
+        { fecha: '2014-02-28', dato: 4749 },
+        { fecha: '2014-03-31', dato: 4303 },
+        { fecha: '2014-04-30', dato: 4326 },
+        { fecha: '2014-05-31', dato: 4003 },
+        { fecha: '2014-06-30', dato: 4316 },
+        { fecha: '2014-07-31', dato: 5537 },
+        { fecha: '2014-08-31', dato: 4950 },
+        { fecha: '2014-09-30', dato: 4557 },
+        { fecha: '2014-10-31', dato: 4210 },
+        { fecha: '2014-11-30', dato: 4229 },
+        { fecha: '2014-12-31', dato: 5423 },
+        { fecha: '2015-01-31', dato: 4659 },
+        { fecha: '2015-02-28', dato: 3070 },
+        { fecha: '2015-03-31', dato: 3916 },
+        { fecha: '2015-04-30', dato: 4189 },
+        { fecha: '2015-05-31', dato: 4301 },
+        { fecha: '2015-06-30', dato: 4630 },
+        { fecha: '2015-07-01', dato: 5815 },
+        { fecha: '2015-08-31', dato: 5462 },
+        { fecha: '2015-09-30', dato: 4460 },
+        { fecha: '2015-10-31', dato: 4196 },
+        { fecha: '2015-11-30', dato: 4175 },
+        { fecha: '2015-12-31', dato: 5434 },
+        { fecha: '2016-01-31', dato: 4022 },
+        { fecha: '2016-02-29', dato: 3301 },
+        { fecha: '2016-03-31', dato: 5294 },
+        { fecha: '2016-04-30', dato: 4905 },
+        { fecha: '2016-05-31', dato: 5695 },
+        { fecha: '2016-06-30', dato: 4579 },
+        { fecha: '2016-07-31', dato: 4885 },
+        { fecha: '2016-08-31', dato: 4369 },
+        { fecha: '2016-09-30', dato: 4178 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  $(document).ready(function(){
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

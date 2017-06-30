@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Robos Totales en Gómez Palacio - IMPLAN Torreón">
   <meta name="twitter:description" content="Cantidad total de robos en el mes.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robos-totales.html">
   <meta name="og:title" content="Robos Totales en Gómez Palacio - IMPLAN Torreón">
   <meta name="og:description" content="Cantidad total de robos en el mes.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robos-totales.html">
   <title>Robos Totales en Gómez Palacio - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,14 +186,15 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosRobosTotalesEnGomezPalacio" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -451,67 +452,66 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Robos Totales en Gómez Palacio</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Cantidad.</p>
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Robos Totales</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Robos Totales</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/05/2017</td>
-            <td>233</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/05/2017</td>
-            <td>160</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/05/2017</td>
-            <td>53</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/05/2017</td>
-            <td>24</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/05/2017</td>
-            <td>470</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Robos Totales en Gómez Palacio </h3>
+
+    <div id="SmiGraficasRobosTotalesEnGomezPalacio" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Robos Totales en Gómez Palacio</h3>
+    <div id="SmiOtrasRegionesRobosTotalesEnGomezPalacioGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesRobosTotalesEnGomezPalacioTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2017-05-31</td>
+        <td>233</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2017-05-31</td>
+        <td>160</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2017-05-31</td>
+        <td>53</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2017-05-31</td>
+        <td>24</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2017-05-31</td>
+        <td>470</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -594,34 +594,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 320 },{ fecha: '2014-02-28', dato: 271 },{ fecha: '2014-03-31', dato: 345 },{ fecha: '2014-04-30', dato: 338 },{ fecha: '2014-05-31', dato: 281 },{ fecha: '2014-06-30', dato: 183 },{ fecha: '2014-07-31', dato: 274 },{ fecha: '2014-08-31', dato: 255 },{ fecha: '2014-09-30', dato: 278 },{ fecha: '2014-10-31', dato: 328 },{ fecha: '2014-11-30', dato: 248 },{ fecha: '2014-12-31', dato: 275 },{ fecha: '2015-01-31', dato: 247 },{ fecha: '2015-02-28', dato: 235 },{ fecha: '2015-03-31', dato: 177 },{ fecha: '2015-04-30', dato: 295 },{ fecha: '2015-05-31', dato: 227 },{ fecha: '2015-06-30', dato: 254 },{ fecha: '2015-07-31', dato: 242 },{ fecha: '2015-08-31', dato: 202 },{ fecha: '2015-09-30', dato: 210 },{ fecha: '2015-10-31', dato: 279 },{ fecha: '2015-11-30', dato: 204 },{ fecha: '2015-12-31', dato: 214 },{ fecha: '2016-01-31', dato: 155 },{ fecha: '2016-02-29', dato: 151 },{ fecha: '2016-03-31', dato: 212 },{ fecha: '2016-04-30', dato: 185 },{ fecha: '2016-05-31', dato: 197 },{ fecha: '2016-06-30', dato: 162 },{ fecha: '2016-07-31', dato: 127 },{ fecha: '2016-08-31', dato: 195 },{ fecha: '2016-09-30', dato: 204 },{ fecha: '2016-10-31', dato: 179 },{ fecha: '2016-11-30', dato: 143 },{ fecha: '2016-12-31', dato: 159 },{ fecha: '2017-01-31', dato: 163 },{ fecha: '2017-02-28', dato: 151 },{ fecha: '2017-03-31', dato: 145 },{ fecha: '2017-04-30', dato: 166 },{ fecha: '2017-05-31', dato: 160 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 233 },{ region: 'Gómez Palacio', dato: 160 },{ region: 'Lerdo', dato: 53 },{ region: 'Matamoros', dato: 24 },{ region: 'La Laguna', dato: 470 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
-  $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosRobosTotalesEnGomezPalacio === 'undefined') {
+     $('#SmiDatosRobosTotalesEnGomezPalacio').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -635,6 +610,80 @@ $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
         }
       }
     });
+    varSmiDatosRobosTotalesEnGomezPalacio = 1;
+  }
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasRobosTotalesEnGomezPalacio === 'undefined') {
+    varSmiGraficasRobosTotalesEnGomezPalacio = Morris.Line({
+      element: 'SmiGraficasRobosTotalesEnGomezPalacio',
+      data: [
+        { fecha: '2014-01-31', dato: 320 },
+        { fecha: '2014-02-28', dato: 271 },
+        { fecha: '2014-03-31', dato: 345 },
+        { fecha: '2014-04-30', dato: 338 },
+        { fecha: '2014-05-31', dato: 281 },
+        { fecha: '2014-06-30', dato: 183 },
+        { fecha: '2014-07-31', dato: 274 },
+        { fecha: '2014-08-31', dato: 255 },
+        { fecha: '2014-09-30', dato: 278 },
+        { fecha: '2014-10-31', dato: 328 },
+        { fecha: '2014-11-30', dato: 248 },
+        { fecha: '2014-12-31', dato: 275 },
+        { fecha: '2015-01-31', dato: 247 },
+        { fecha: '2015-02-28', dato: 235 },
+        { fecha: '2015-03-31', dato: 177 },
+        { fecha: '2015-04-30', dato: 295 },
+        { fecha: '2015-05-31', dato: 227 },
+        { fecha: '2015-06-30', dato: 254 },
+        { fecha: '2015-07-31', dato: 242 },
+        { fecha: '2015-08-31', dato: 202 },
+        { fecha: '2015-09-30', dato: 210 },
+        { fecha: '2015-10-31', dato: 279 },
+        { fecha: '2015-11-30', dato: 204 },
+        { fecha: '2015-12-31', dato: 214 },
+        { fecha: '2016-01-31', dato: 155 },
+        { fecha: '2016-02-29', dato: 151 },
+        { fecha: '2016-03-31', dato: 212 },
+        { fecha: '2016-04-30', dato: 185 },
+        { fecha: '2016-05-31', dato: 197 },
+        { fecha: '2016-06-30', dato: 162 },
+        { fecha: '2016-07-31', dato: 127 },
+        { fecha: '2016-08-31', dato: 195 },
+        { fecha: '2016-09-30', dato: 204 },
+        { fecha: '2016-10-31', dato: 179 },
+        { fecha: '2016-11-30', dato: 143 },
+        { fecha: '2016-12-31', dato: 159 },
+        { fecha: '2017-01-31', dato: 163 },
+        { fecha: '2017-02-28', dato: 151 },
+        { fecha: '2017-03-31', dato: 145 },
+        { fecha: '2017-04-30', dato: 166 },
+        { fecha: '2017-05-31', dato: 160 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesRobosTotalesEnGomezPalacioGrafica === 'undefined') {
+    varSmiOtrasRegionesRobosTotalesEnGomezPalacioGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesRobosTotalesEnGomezPalacioGrafica',
+      data: [{ region: 'Torreón', dato: 233 },{ region: 'Gómez Palacio', dato: 160 },{ region: 'Lerdo', dato: 53 },{ region: 'Matamoros', dato: 24 },{ region: 'La Laguna', dato: 470 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  $(document).ready(function(){
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

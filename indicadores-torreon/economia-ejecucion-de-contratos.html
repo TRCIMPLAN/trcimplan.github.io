@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ejecución de Contratos en Torreón - IMPLAN Torreón">
   <meta name="twitter:description" content="Incluido en el Subíndice de 'Sistema de Derecho Confiable y Objetivo' Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/economia-ejecucion-de-contratos.html">
   <meta name="og:title" content="Ejecución de Contratos en Torreón - IMPLAN Torreón">
   <meta name="og:description" content="Incluido en el Subíndice de 'Sistema de Derecho Confiable y Objetivo' Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/economia-ejecucion-de-contratos.html">
   <title>Ejecución de Contratos en Torreón - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,15 +186,16 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
-    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosEjecucionDeContratosEnTorreon" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -272,81 +273,74 @@ Costo (% de cantidad demandada) = 27,9</td>
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-1">
-            <h3>Gráfica de Ejecución de Contratos en Torreón con fuente Doing Business</h3>
-      <div id="graficaDatosDoingBusiness" class="grafica"></div>
-      <p><b>Unidad:</b> Días.</p>
-      <h3>Observaciones</h3>
-<p>Fuente: Doing Business en México, 2007, 2009, 2012.</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-2">
-            <h3>Gráfica de Ejecución de Contratos en Torreón con fuente IMCO</h3>
-      <div id="graficaDatosImco" class="grafica"></div>
-      <p><b>Unidad:</b> Días.</p>
-      <h3>Observaciones</h3>
-<p>Fuente: Doing Business en México, 2007, 2009, 2012.</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Ejecución de Contratos</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Ejecución de Contratos</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2015</td>
-            <td>200</td>
-            <td>Doing Business</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2012</td>
-            <td>243</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2012</td>
-            <td>243</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2012</td>
-            <td>270</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2012</td>
-            <td>256.5000</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Días.</p>
-      <h3>Observaciones</h3>
-<p>Fuente: Doing Business en México, 2007, 2009, 2012.</p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Ejecución de Contratos en Torreón con fuente Doing Business</h3>
+
+    <div id="SmiGraficasEjecucionDeContratosEnTorreonDoingBusiness" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Ejecución de Contratos en Torreón con fuente IMCO</h3>
+
+    <div id="SmiGraficasEjecucionDeContratosEnTorreonImco" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Ejecución de Contratos en Torreón</h3>
+    <div id="SmiOtrasRegionesEjecucionDeContratosEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesEjecucionDeContratosEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2015-12-31</td>
+        <td>200</td>
+        <td>Doing Business</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2012-12-31</td>
+        <td>243</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2012-12-31</td>
+        <td>243</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2012-12-31</td>
+        <td>270</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2012-12-31</td>
+        <td>256.5000</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>Fuente: Doing Business en México, 2007, 2009, 2012.</p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -439,11 +433,16 @@ Costo (% de cantidad demandada) = 27,9</td>
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosDoingBusiness === 'undefined') {
-    vargraficaDatosDoingBusiness = Morris.Line({
-      element: 'graficaDatosDoingBusiness',
-      data: [{ fecha: '2007-12-31', dato: 386 },{ fecha: '2012-12-31', dato: 270 },{ fecha: '2013-10-31', dato: 270 },{ fecha: '2015-12-31', dato: 200 }],
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasEjecucionDeContratosEnTorreonDoingBusiness === 'undefined') {
+    varSmiGraficasEjecucionDeContratosEnTorreonDoingBusiness = Morris.Line({
+      element: 'SmiGraficasEjecucionDeContratosEnTorreonDoingBusiness',
+      data: [
+        { fecha: '2007-12-31', dato: 386 },
+        { fecha: '2012-12-31', dato: 270 },
+        { fecha: '2013-10-31', dato: 270 },
+        { fecha: '2015-12-31', dato: 200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -451,12 +450,19 @@ $('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', functi
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  } });
-$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosImco === 'undefined') {
-    vargraficaDatosImco = Morris.Line({
-      element: 'graficaDatosImco',
-      data: [{ fecha: '2008-12-31', dato: 386 },{ fecha: '2009-12-31', dato: 270 },{ fecha: '2010-12-31', dato: 270 },{ fecha: '2011-12-31', dato: 270 },{ fecha: '2012-12-31', dato: 270 }],
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasEjecucionDeContratosEnTorreonImco === 'undefined') {
+    varSmiGraficasEjecucionDeContratosEnTorreonImco = Morris.Line({
+      element: 'SmiGraficasEjecucionDeContratosEnTorreonImco',
+      data: [
+        { fecha: '2008-12-31', dato: 386 },
+        { fecha: '2009-12-31', dato: 270 },
+        { fecha: '2010-12-31', dato: 270 },
+        { fecha: '2011-12-31', dato: 270 },
+        { fecha: '2012-12-31', dato: 270 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -464,35 +470,24 @@ $('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', functi
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesEjecucionDeContratosEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesEjecucionDeContratosEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesEjecucionDeContratosEnTorreonGrafica',
       data: [{ region: 'Torreón', dato: 200 },{ region: 'Gómez Palacio', dato: 243 },{ region: 'Lerdo', dato: 243 },{ region: 'Matamoros', dato: 270 },{ region: 'La Laguna', dato: 256.5000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
       barColors: ['#FF5B02']
     });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
-      "language": {
-        "lengthMenu":   "Mostrando _MENU_ filas por página",
-        "zeroRecords":  "No se encontró nada",
-        "info":         "Mostrando página _PAGE_ de _PAGES_",
-        "infoEmpty":    "No se encontraron registros",
-        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-        "search":       "Filtrar:",
-        "paginate": {
-          "previous":   "Anterior",
-          "next":       "Siguiente"
-        }
-      }
-    });
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

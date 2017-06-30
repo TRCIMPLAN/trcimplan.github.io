@@ -48,271 +48,76 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
     } // constructor
 
     /**
-     * Sección Datos HTML
+     * Datos Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_html() {
-        $this->datos_tabla->definir_estructura(array(
+    public function datos_estructura() {
+        return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
             'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
-        $this->datos_tabla->definir_panal(array(
-            array('fecha' => '2008-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO', 'notas' => ''),
-            array('fecha' => '2009-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO', 'notas' => ''),
-            array('fecha' => '2010-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO', 'notas' => ''),
-            array('fecha' => '2011-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO', 'notas' => ''),
-            array('fecha' => '2012-12-31', 'valor' => '1.8142', 'fuente_nombre' => 'IMCO', 'notas' => ''),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // datos_estructura
+
+    /**
+     * Datos
+     *
+     * @return array Arreglo con arreglos asociativos
+     */
+    public function datos() {
+        return array(
+            array('fecha' => '2008-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '1.8142', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-03-31', 'valor' => '10.7800', 'fuente_nombre' => 'RFOSC', 'notas' => 'Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)'),
-            array('fecha' => '2016-11-25', 'valor' => '11.0100', 'fuente_nombre' => 'RFOSC', 'notas' => '')));
-        // Entregar
-        return $this->datos_tabla->html();
-    } // seccion_datos_html
+            array('fecha' => '2016-11-25', 'valor' => '11.0100', 'fuente_nombre' => 'RFOSC'));
+    } // datos
 
     /**
-     * Sección Datos JavaScript
+     * Otras Regiones Estructura
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_javascript() {
-        return $this->datos_tabla->javascript();
-    } // seccion_datos_javascript
+    public function otras_regiones_estructura() {
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // otras_regiones_estructura
 
     /**
-     * Sección Gráfica 1 HTML
+     * Otras regiones
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_grafica_1_html() {
-        return <<<FINAL
-      <h3>Gráfica de Organizaciones de la Sociedad Civil en Matamoros con fuente IMCO</h3>
-      <div id="graficaDatosImco" class="grafica"></div>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
-Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
-
-FINAL;
-    } // seccion_grafica_html
+    public function otras_regiones() {
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-11-25', 'valor' => '55.0500', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-11-25', 'valor' => '57.5500', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-11-25', 'valor' => '31.3000', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-11-25', 'valor' => '11.0100', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-11-25', 'valor' => '49.1400', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2016-11-25', 'valor' => '26.4300', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Durango', 'fecha' => '2016-11-25', 'valor' => '143.3800', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2016-11-25', 'valor' => '28.8400', 'fuente_nombre' => 'RFOSC', 'notas' => 'http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/'));
+    } // otras_regiones
 
     /**
-     * Sección Gráfica 1 JavaScript
+     * Observaciones
      *
-     * @return string Código JavaScript
+     * @return string Markdown
      */
-    protected function seccion_grafica_1_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaDatosImco === 'undefined') {
-    vargraficaDatosImco = Morris.Line({
-      element: 'graficaDatosImco',
-      data: [{ fecha: '2008-12-31', dato: 0.1578 },{ fecha: '2009-12-31', dato: 0.1578 },{ fecha: '2010-12-31', dato: 0.1578 },{ fecha: '2011-12-31', dato: 0.1578 },{ fecha: '2012-12-31', dato: 1.8142 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-FINAL;
-    } // seccion_grafica_javascript
-
-    /**
-     * Sección Gráfica 2 HTML
-     *
-     * @return string Código HTML
-     */
-    protected function seccion_grafica_2_html() {
-        return <<<FINAL
-      <h3>Gráfica de Organizaciones de la Sociedad Civil en Matamoros con fuente RFOSC</h3>
-      <div id="graficaDatosRfosc" class="grafica"></div>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
-Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
-
-FINAL;
-    } // seccion_grafica_html
-
-    /**
-     * Sección Gráfica 2 JavaScript
-     *
-     * @return string Código JavaScript
-     */
-    protected function seccion_grafica_2_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaDatosRfosc === 'undefined') {
-    vargraficaDatosRfosc = Morris.Line({
-      element: 'graficaDatosRfosc',
-      data: [{ fecha: '2014-03-31', dato: 10.7800 },{ fecha: '2016-11-25', dato: 11.0100 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-FINAL;
-    } // seccion_grafica_javascript
-
-    /**
-     * Sección Otras Regiones HTML
-     *
-     * @return string Código HTML
-     */
-    protected function seccion_otras_regiones_html() {
-        return <<<FINAL
-      <h3>Gráfica con los últimos datos de Organizaciones de la Sociedad Civil</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Organizaciones de la Sociedad Civil</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>25/11/2016</td>
-            <td>55.0500</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>25/11/2016</td>
-            <td>57.5500</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>25/11/2016</td>
-            <td>31.3000</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>25/11/2016</td>
-            <td>11.0100</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>25/11/2016</td>
-            <td>49.1400</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>25/11/2016</td>
-            <td>26.4300</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>25/11/2016</td>
-            <td>143.3800</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>25/11/2016</td>
-            <td>28.8400</td>
-            <td>RFOSC</td>
-            <td>http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/</td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
-Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
-
-FINAL;
-    } // seccion_otras_regiones_html
-
-    /**
-     * Sección Otras Regiones JavaScript
-     *
-     * @return string Código JavaScript
-     */
-    protected function seccion_otras_regiones_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 55.0500 },{ region: 'Gómez Palacio', dato: 57.5500 },{ region: 'Lerdo', dato: 31.3000 },{ region: 'Matamoros', dato: 11.0100 },{ region: 'La Laguna', dato: 49.1400 },{ region: 'Coahuila', dato: 26.4300 },{ region: 'Durango', dato: 143.3800 },{ region: 'Nacional', dato: 28.8400 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-FINAL;
-    } // seccion_otras_regiones_javascript
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Ejecutar los métodos que alimentan cada lengüeta
-        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->agregar('smi-indicador-grafica-1', 'Gráfica 1', $this->seccion_grafica_1_html());
-        $this->lenguetas->agregar_javascript($this->seccion_grafica_1_javascript());
-        $this->lenguetas->agregar('smi-indicador-grafica-2', 'Gráfica 2', $this->seccion_grafica_2_html());
-        $this->lenguetas->agregar_javascript($this->seccion_grafica_2_javascript());
-        $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
-        $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
-        $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir el contenido de esta publicación que es un SchemaArticle
-        $this->contenido->articleBody = $this->lenguetas->html();
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // JavaScript de las lengüetas, es el de las gráficas
-        $this->javascript[] = $this->lenguetas->javascript();
-        // JavaScript para la carga completa del documento, es el de la tabla con los datos
-        $this->javascript[] = $this->datos_tabla->javascript();
-        // Ejecutar este método en el padre
-        return parent::javascript();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        $this->redifusion = $this->descripcion;
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
+    public function observaciones() {
+        return <<<OBSERVACIONES_FINAL
+Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
+Registro Federal de Organizaciones de la Sociedad Civil. Consulta [Base de Datos](http://www.corresponsabilidad.gob.mx/)
+OBSERVACIONES_FINAL;
+    } // observaciones
 
 } // Clase SociedadOrganizacionesDeLaSociedadCivil
 

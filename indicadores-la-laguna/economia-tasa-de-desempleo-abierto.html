@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tasa de Desempleo Abierto en La Laguna - IMPLAN Torreón">
   <meta name="twitter:description" content="Número total de desempleados entre la Población económicamente activa.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html">
   <meta name="og:title" content="Tasa de Desempleo Abierto en La Laguna - IMPLAN Torreón">
   <meta name="og:description" content="Número total de desempleados entre la Población económicamente activa.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html">
   <title>Tasa de Desempleo Abierto en La Laguna - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,16 +186,17 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
-    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
-    <li><a href="#smi-indicador-grafica-3" data-toggle="tab">Gráfica 3</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosTasaDeDesempleoAbiertoEnLaLaguna" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -549,162 +550,113 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-1">
-            <h3>Gráfica de Tasa de Desempleo Abierto en La Laguna con fuente INEGI</h3>
-      <div id="graficaDatosInegi" class="grafica"></div>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Media nacional del indicador:</p>
-
-<ul>
-<li>2010 = 3.72</li>
-<li>2010 = 0.98%</li>
-<li>1990 = 2.32%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">INEGI. Censos de población y vivienda</a></p>
-
-<p>Media Nacional 2014:
-1er. Trimestre: 4.80 %
-2do. Trimestre: 4.90 %
-3er. Trimestre: 5.20 %</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-2">
-            <h3>Gráfica de Tasa de Desempleo Abierto en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
-      <div id="graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Media nacional del indicador:</p>
-
-<ul>
-<li>2010 = 3.72</li>
-<li>2010 = 0.98%</li>
-<li>1990 = 2.32%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">INEGI. Censos de población y vivienda</a></p>
-
-<p>Media Nacional 2014:
-1er. Trimestre: 4.80 %
-2do. Trimestre: 4.90 %
-3er. Trimestre: 5.20 %</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-3">
-            <h3>Gráfica de Tasa de Desempleo Abierto en La Laguna con fuente IMCO</h3>
-      <div id="graficaDatosImco" class="grafica"></div>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Media nacional del indicador:</p>
-
-<ul>
-<li>2010 = 3.72</li>
-<li>2010 = 0.98%</li>
-<li>1990 = 2.32%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">INEGI. Censos de población y vivienda</a></p>
-
-<p>Media Nacional 2014:
-1er. Trimestre: 4.80 %
-2do. Trimestre: 4.90 %
-3er. Trimestre: 5.20 %</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Tasa de Desempleo Abierto</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Tasa de Desempleo Abierto</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/03/2017</td>
-            <td>4.29 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/03/2017</td>
-            <td>5.97 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/03/2017</td>
-            <td>2.65 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/03/2017</td>
-            <td>5.67 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/03/2017</td>
-            <td>4.86 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/03/2017</td>
-            <td>4.55 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/03/2017</td>
-            <td>4.03 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>31/03/2017</td>
-            <td>3.39 %</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Media nacional del indicador:</p>
-
-<ul>
-<li>2010 = 3.72</li>
-<li>2010 = 0.98%</li>
-<li>1990 = 2.32%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">INEGI. Censos de población y vivienda</a></p>
-
-<p>Media Nacional 2014:
-1er. Trimestre: 4.80 %
-2do. Trimestre: 4.90 %
-3er. Trimestre: 5.20 %</p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Tasa de Desempleo Abierto en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
+
+    <div id="SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Tasa de Desempleo Abierto en La Laguna con fuente IMCO</h3>
+
+    <div id="SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaImco" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
+    <h3>Tasa de Desempleo Abierto en La Laguna con fuente INEGI</h3>
+
+    <div id="SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaInegi" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Tasa de Desempleo Abierto en La Laguna</h3>
+    <div id="SmiOtrasRegionesTasaDeDesempleoAbiertoEnLaLagunaGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesTasaDeDesempleoAbiertoEnLaLagunaTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2017-03-31</td>
+        <td>4.2900</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2017-03-31</td>
+        <td>5.9700</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2017-03-31</td>
+        <td>2.6500</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2017-03-31</td>
+        <td>5.6700</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2017-03-31</td>
+        <td>4.8600</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2017-03-31</td>
+        <td>4.5500</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2017-03-31</td>
+        <td>4.0300</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2017-03-31</td>
+        <td>3.3900</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>Media nacional del indicador:</p>
+
+<ul>
+<li>2010 = 3.72</li>
+<li>2010 = 0.98%</li>
+<li>1990 = 2.32%</li>
+</ul>
+
+<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">INEGI. Censos de población y vivienda</a></p>
+
+<p>Media Nacional 2014:
+1er. Trimestre: 4.80 %
+2do. Trimestre: 4.90 %
+3er. Trimestre: 5.20 %</p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -793,60 +745,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosInegi === 'undefined') {
-    vargraficaDatosInegi = Morris.Line({
-      element: 'graficaDatosInegi',
-      data: [{ fecha: '1990-03-12', dato: 2.8100 },{ fecha: '2000-02-14', dato: 1.0300 },{ fecha: '2010-06-25', dato: 7.4300 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
-    vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
-      element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
-      data: [{ fecha: '2005-03-31', dato: 4.9618 },{ fecha: '2005-06-30', dato: 3.7779 },{ fecha: '2005-09-30', dato: 2.6576 },{ fecha: '2005-12-31', dato: 3.1532 },{ fecha: '2006-03-31', dato: 4.8006 },{ fecha: '2006-06-30', dato: 4.7273 },{ fecha: '2006-09-30', dato: 6.1928 },{ fecha: '2006-12-30', dato: 4.7101 },{ fecha: '2007-03-31', dato: 5.9297 },{ fecha: '2007-06-30', dato: 3.6490 },{ fecha: '2007-09-30', dato: 4.5558 },{ fecha: '2007-12-31', dato: 3.7818 },{ fecha: '2008-03-31', dato: 5.3558 },{ fecha: '2008-06-30', dato: 4.8084 },{ fecha: '2008-09-30', dato: 4.7836 },{ fecha: '2008-12-31', dato: 6.1224 },{ fecha: '2009-03-31', dato: 7.3877 },{ fecha: '2009-06-30', dato: 7.1599 },{ fecha: '2009-09-30', dato: 9.1900 },{ fecha: '2009-12-31', dato: 8.6179 },{ fecha: '2010-03-31', dato: 8.0321 },{ fecha: '2010-06-30', dato: 6.9712 },{ fecha: '2010-09-30', dato: 7.8947 },{ fecha: '2010-12-31', dato: 7.2250 },{ fecha: '2011-03-31', dato: 6.3900 },{ fecha: '2011-06-30', dato: 6.1300 },{ fecha: '2011-09-30', dato: 7.2500 },{ fecha: '2011-12-31', dato: 5.9100 },{ fecha: '2012-03-31', dato: 6.1900 },{ fecha: '2012-06-30', dato: 6.5500 },{ fecha: '2012-09-30', dato: 5.7000 },{ fecha: '2012-12-31', dato: 6.5400 },{ fecha: '2013-03-31', dato: 6.4100 },{ fecha: '2013-06-30', dato: 6.5400 },{ fecha: '2013-09-30', dato: 6.2400 },{ fecha: '2013-12-31', dato: 5.4900 },{ fecha: '2014-03-31', dato: 5.9300 },{ fecha: '2014-06-30', dato: 4.8400 },{ fecha: '2014-09-30', dato: 5.7400 },{ fecha: '2014-12-31', dato: 6.9900 },{ fecha: '2015-03-31', dato: 5.8500 },{ fecha: '2015-06-30', dato: 5.8700 },{ fecha: '2015-09-30', dato: 5.2529 },{ fecha: '2015-12-31', dato: 5.0883 },{ fecha: '2016-03-31', dato: 4.9520 },{ fecha: '2016-06-30', dato: 5.6400 },{ fecha: '2016-09-30', dato: 5.7500 },{ fecha: '2016-12-31', dato: 4.3900 },{ fecha: '2017-03-31', dato: 4.8600 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-grafica-3"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosImco === 'undefined') {
-    vargraficaDatosImco = Morris.Line({
-      element: 'graficaDatosImco',
-      data: [{ fecha: '2008-12-31', dato: 5.6911 },{ fecha: '2009-12-31', dato: 8.0777 },{ fecha: '2010-12-31', dato: 7.2121 },{ fecha: '2011-12-31', dato: 5.9828 },{ fecha: '2012-12-31', dato: 6.0168 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 4.2900 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.8600 },{ region: 'Coahuila', dato: 4.5500 },{ region: 'Durango', dato: 4.0300 },{ region: 'Nacional', dato: 3.3900 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
-  $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTasaDeDesempleoAbiertoEnLaLaguna === 'undefined') {
+     $('#SmiDatosTasaDeDesempleoAbiertoEnLaLaguna').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -860,6 +761,126 @@ $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
         }
       }
     });
+    varSmiDatosTasaDeDesempleoAbiertoEnLaLaguna = 1;
+  }
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
+    varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
+      element: 'SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
+      data: [
+        { fecha: '2005-03-31', dato: 4.9618 },
+        { fecha: '2005-06-30', dato: 3.7779 },
+        { fecha: '2005-09-30', dato: 2.6576 },
+        { fecha: '2005-12-31', dato: 3.1532 },
+        { fecha: '2006-03-31', dato: 4.8006 },
+        { fecha: '2006-06-30', dato: 4.7273 },
+        { fecha: '2006-09-30', dato: 6.1928 },
+        { fecha: '2006-12-30', dato: 4.7101 },
+        { fecha: '2007-03-31', dato: 5.9297 },
+        { fecha: '2007-06-30', dato: 3.6490 },
+        { fecha: '2007-09-30', dato: 4.5558 },
+        { fecha: '2007-12-31', dato: 3.7818 },
+        { fecha: '2008-03-31', dato: 5.3558 },
+        { fecha: '2008-06-30', dato: 4.8084 },
+        { fecha: '2008-09-30', dato: 4.7836 },
+        { fecha: '2008-12-31', dato: 6.1224 },
+        { fecha: '2009-03-31', dato: 7.3877 },
+        { fecha: '2009-06-30', dato: 7.1599 },
+        { fecha: '2009-09-30', dato: 9.1900 },
+        { fecha: '2009-12-31', dato: 8.6179 },
+        { fecha: '2010-03-31', dato: 8.0321 },
+        { fecha: '2010-06-30', dato: 6.9712 },
+        { fecha: '2010-09-30', dato: 7.8947 },
+        { fecha: '2010-12-31', dato: 7.2250 },
+        { fecha: '2011-03-31', dato: 6.3900 },
+        { fecha: '2011-06-30', dato: 6.1300 },
+        { fecha: '2011-09-30', dato: 7.2500 },
+        { fecha: '2011-12-31', dato: 5.9100 },
+        { fecha: '2012-03-31', dato: 6.1900 },
+        { fecha: '2012-06-30', dato: 6.5500 },
+        { fecha: '2012-09-30', dato: 5.7000 },
+        { fecha: '2012-12-31', dato: 6.5400 },
+        { fecha: '2013-03-31', dato: 6.4100 },
+        { fecha: '2013-06-30', dato: 6.5400 },
+        { fecha: '2013-09-30', dato: 6.2400 },
+        { fecha: '2013-12-31', dato: 5.4900 },
+        { fecha: '2014-03-31', dato: 5.9300 },
+        { fecha: '2014-06-30', dato: 4.8400 },
+        { fecha: '2014-09-30', dato: 5.7400 },
+        { fecha: '2014-12-31', dato: 6.9900 },
+        { fecha: '2015-03-31', dato: 5.8500 },
+        { fecha: '2015-06-30', dato: 5.8700 },
+        { fecha: '2015-09-30', dato: 5.2529 },
+        { fecha: '2015-12-31', dato: 5.0883 },
+        { fecha: '2016-03-31', dato: 4.9520 },
+        { fecha: '2016-06-30', dato: 5.6400 },
+        { fecha: '2016-09-30', dato: 5.7500 },
+        { fecha: '2016-12-31', dato: 4.3900 },
+        { fecha: '2017-03-31', dato: 4.8600 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaImco === 'undefined') {
+    varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaImco',
+      data: [
+        { fecha: '2008-12-31', dato: 5.6911 },
+        { fecha: '2009-12-31', dato: 8.0777 },
+        { fecha: '2010-12-31', dato: 7.2121 },
+        { fecha: '2011-12-31', dato: 5.9828 },
+        { fecha: '2012-12-31', dato: 6.0168 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaInegi === 'undefined') {
+    varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaInegi = Morris.Line({
+      element: 'SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaInegi',
+      data: [
+        { fecha: '1990-03-12', dato: 2.8100 },
+        { fecha: '2000-02-14', dato: 1.0300 },
+        { fecha: '2010-06-25', dato: 7.4300 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesTasaDeDesempleoAbiertoEnLaLagunaGrafica === 'undefined') {
+    varSmiOtrasRegionesTasaDeDesempleoAbiertoEnLaLagunaGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesTasaDeDesempleoAbiertoEnLaLagunaGrafica',
+      data: [{ region: 'Torreón', dato: 4.2900 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.8600 },{ region: 'Coahuila', dato: 4.5500 },{ region: 'Durango', dato: 4.0300 },{ region: 'Nacional', dato: 3.3900 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  $(document).ready(function(){
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

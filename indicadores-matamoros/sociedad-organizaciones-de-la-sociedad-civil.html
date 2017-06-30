@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Organizaciones de la Sociedad Civil en Matamoros - IMPLAN Torreón">
   <meta name="twitter:description" content="Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de 'Sistema Político Estable y Funcional'. Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html">
   <meta name="og:title" content="Organizaciones de la Sociedad Civil en Matamoros - IMPLAN Torreón">
   <meta name="og:description" content="Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de 'Sistema Político Estable y Funcional'. Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html">
   <title>Organizaciones de la Sociedad Civil en Matamoros - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,15 +186,16 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
-    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosOrganizacionesDeLaSociedadCivilEnMatamoros" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -248,105 +249,96 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-1">
-            <h3>Gráfica de Organizaciones de la Sociedad Civil en Matamoros con fuente IMCO</h3>
-      <div id="graficaDatosImco" class="grafica"></div>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
-Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-2">
-            <h3>Gráfica de Organizaciones de la Sociedad Civil en Matamoros con fuente RFOSC</h3>
-      <div id="graficaDatosRfosc" class="grafica"></div>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
-Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Organizaciones de la Sociedad Civil</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Organizaciones de la Sociedad Civil</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>25/11/2016</td>
-            <td>55.0500</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>25/11/2016</td>
-            <td>57.5500</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>25/11/2016</td>
-            <td>31.3000</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>25/11/2016</td>
-            <td>11.0100</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>25/11/2016</td>
-            <td>49.1400</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>25/11/2016</td>
-            <td>26.4300</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>25/11/2016</td>
-            <td>143.3800</td>
-            <td>RFOSC</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>25/11/2016</td>
-            <td>28.8400</td>
-            <td>RFOSC</td>
-            <td>http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/</td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
-Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Organizaciones de la Sociedad Civil en Matamoros con fuente IMCO</h3>
+
+    <div id="SmiGraficasOrganizacionesDeLaSociedadCivilEnMatamorosImco" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Organizaciones de la Sociedad Civil en Matamoros con fuente RFOSC</h3>
+
+    <div id="SmiGraficasOrganizacionesDeLaSociedadCivilEnMatamorosRfosc" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Organizaciones de la Sociedad Civil en Matamoros</h3>
+    <div id="SmiOtrasRegionesOrganizacionesDeLaSociedadCivilEnMatamorosGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesOrganizacionesDeLaSociedadCivilEnMatamorosTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2016-11-25</td>
+        <td>55.0500</td>
+        <td>RFOSC</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2016-11-25</td>
+        <td>57.5500</td>
+        <td>RFOSC</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2016-11-25</td>
+        <td>31.3000</td>
+        <td>RFOSC</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2016-11-25</td>
+        <td>11.0100</td>
+        <td>RFOSC</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2016-11-25</td>
+        <td>49.1400</td>
+        <td>RFOSC</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2016-11-25</td>
+        <td>26.4300</td>
+        <td>RFOSC</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2016-11-25</td>
+        <td>143.3800</td>
+        <td>RFOSC</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2016-11-25</td>
+        <td>28.8400</td>
+        <td>RFOSC</td>
+        <td>http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
+Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -440,11 +432,17 @@ Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http:
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosImco === 'undefined') {
-    vargraficaDatosImco = Morris.Line({
-      element: 'graficaDatosImco',
-      data: [{ fecha: '2008-12-31', dato: 0.1578 },{ fecha: '2009-12-31', dato: 0.1578 },{ fecha: '2010-12-31', dato: 0.1578 },{ fecha: '2011-12-31', dato: 0.1578 },{ fecha: '2012-12-31', dato: 1.8142 }],
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasOrganizacionesDeLaSociedadCivilEnMatamorosImco === 'undefined') {
+    varSmiGraficasOrganizacionesDeLaSociedadCivilEnMatamorosImco = Morris.Line({
+      element: 'SmiGraficasOrganizacionesDeLaSociedadCivilEnMatamorosImco',
+      data: [
+        { fecha: '2008-12-31', dato: 0.1578 },
+        { fecha: '2009-12-31', dato: 0.1578 },
+        { fecha: '2010-12-31', dato: 0.1578 },
+        { fecha: '2011-12-31', dato: 0.1578 },
+        { fecha: '2012-12-31', dato: 1.8142 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -452,12 +450,16 @@ $('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', functi
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  } });
-$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosRfosc === 'undefined') {
-    vargraficaDatosRfosc = Morris.Line({
-      element: 'graficaDatosRfosc',
-      data: [{ fecha: '2014-03-31', dato: 10.7800 },{ fecha: '2016-11-25', dato: 11.0100 }],
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasOrganizacionesDeLaSociedadCivilEnMatamorosRfosc === 'undefined') {
+    varSmiGraficasOrganizacionesDeLaSociedadCivilEnMatamorosRfosc = Morris.Line({
+      element: 'SmiGraficasOrganizacionesDeLaSociedadCivilEnMatamorosRfosc',
+      data: [
+        { fecha: '2014-03-31', dato: 10.7800 },
+        { fecha: '2016-11-25', dato: 11.0100 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -465,35 +467,24 @@ $('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', functi
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesOrganizacionesDeLaSociedadCivilEnMatamorosGrafica === 'undefined') {
+    varSmiOtrasRegionesOrganizacionesDeLaSociedadCivilEnMatamorosGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesOrganizacionesDeLaSociedadCivilEnMatamorosGrafica',
       data: [{ region: 'Torreón', dato: 55.0500 },{ region: 'Gómez Palacio', dato: 57.5500 },{ region: 'Lerdo', dato: 31.3000 },{ region: 'Matamoros', dato: 11.0100 },{ region: 'La Laguna', dato: 49.1400 },{ region: 'Coahuila', dato: 26.4300 },{ region: 'Durango', dato: 143.3800 },{ region: 'Nacional', dato: 28.8400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
       barColors: ['#FF5B02']
     });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
-      "language": {
-        "lengthMenu":   "Mostrando _MENU_ filas por página",
-        "zeroRecords":  "No se encontró nada",
-        "info":         "Mostrando página _PAGE_ de _PAGES_",
-        "infoEmpty":    "No se encontraron registros",
-        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-        "search":       "Filtrar:",
-        "paginate": {
-          "previous":   "Anterior",
-          "next":       "Siguiente"
-        }
-      }
-    });
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

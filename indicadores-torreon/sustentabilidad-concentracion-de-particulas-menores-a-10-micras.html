@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Concentración de Partículas menores a 10 micras en Torreón - IMPLAN Torreón">
   <meta name="twitter:description" content="Calidad del aire por la medición de las partículas menores a 10 microgramos por metro cúbico en promedio de 24 horas. La Norma Oficial Mexicana NOM-025-SSA1-2014 indica que el límite para efectos de protección de la salud es 75 ug por m3.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras.html">
   <meta name="og:title" content="Concentración de Partículas menores a 10 micras en Torreón - IMPLAN Torreón">
   <meta name="og:description" content="Calidad del aire por la medición de las partículas menores a 10 microgramos por metro cúbico en promedio de 24 horas. La Norma Oficial Mexicana NOM-025-SSA1-2014 indica que el límite para efectos de protección de la salud es 75 ug por m3.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-torreon/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras.html">
   <title>Concentración de Partículas menores a 10 micras en Torreón - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,15 +186,16 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
-    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
-    <li><a href="#smi-indicador-grafica-3" data-toggle="tab">Gráfica 3</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosConcentracionDeParticulasMenoresA10MicrasEnTorreon" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -848,53 +849,34 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-1">
-            <h3>Gráfica de Concentración de Partículas menores a 10 micras en Torreón con fuente DIF Revolución</h3>
-      <div id="graficaDatosDifRevolucion" class="grafica"></div>
-      <p><b>Unidad:</b> ug por m3.</p>
-      <h3>Observaciones</h3>
-<ul>
-<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
-<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
-<li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
-<li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
-<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
-<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
-</ul>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-2">
-            <h3>Gráfica de Concentración de Partículas menores a 10 micras en Torreón con fuente HECAT</h3>
-      <div id="graficaDatosHecat" class="grafica"></div>
-      <p><b>Unidad:</b> ug por m3.</p>
-      <h3>Observaciones</h3>
-<ul>
-<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
-<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
-<li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
-<li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
-<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
-<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
-</ul>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-3">
-            <h3>Gráfica de Concentración de Partículas menores a 10 micras en Torreón con fuente Centro Cultural José R. Mijares</h3>
-      <div id="graficaDatosCentroCulturalJoseRMijares" class="grafica"></div>
-      <p><b>Unidad:</b> ug por m3.</p>
-      <h3>Observaciones</h3>
-<ul>
-<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
-<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
-<li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
-<li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
-<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
-<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
-</ul>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Concentración de Partículas menores a 10 micras en Torreón con fuente Centro Cultural José R. Mijares</h3>
+
+    <div id="SmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonCentroCulturalJoseRMijares" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Concentración de Partículas menores a 10 micras en Torreón con fuente DIF Revolución</h3>
+
+    <div id="SmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonDifRevolucion" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
+    <h3>Concentración de Partículas menores a 10 micras en Torreón con fuente HECAT</h3>
+
+    <div id="SmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonHecat" class="grafica"></div>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<ul>
+<li>En 2016 Torreón contaba con 7 equipos manuales de PST (Partículas Suspendidas Totales) y 3 equipos de PM10 (Partículas Menores a 10 micras). En 2017 sólo se tienen operando los 3 equipos de PM10.</li>
+<li>Se ajustaron las fuentes para generar varias gráficas, una por cada estación de monitoreo.</li>
+<li>Fuente: <a href="http://www.torreon.gob.mx/medioambiente/">Dirección General de Medio Ambiente de Torreón</a></li>
+<li>Descarga: <a href="http://datostrc.gob.mx/datasets/ver/32732">Portal de Datos Públicos de Torreón - Resultados de Monitoreo Atmosférico</a></li>
+<li><a href="http://www.salud.gob.mx/unidades/cdi/nom/025ssa13.html">Norma Oficial Mexicana NOM-025-SSA1-1993</a></li>
+<li><a href="http://dof.gob.mx/nota_detalle.php?codigo=5357042&amp;fecha=20/08/2014">Norma Oficial Mexicana NOM-025-SSA1-2014</a></li>
+</ul>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -991,49 +973,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosDifRevolucion === 'undefined') {
-    vargraficaDatosDifRevolucion = Morris.Line({
-      element: 'graficaDatosDifRevolucion',
-      data: [{ fecha: '2016-01-12', dato: 59 },{ fecha: '2016-01-19', dato: 83 },{ fecha: '2016-01-26', dato: 40 },{ fecha: '2016-02-02', dato: 27 },{ fecha: '2016-02-09', dato: 61 },{ fecha: '2016-02-16', dato: 84 },{ fecha: '2016-02-23', dato: 54 },{ fecha: '2016-03-01', dato: 49 },{ fecha: '2016-03-08', dato: 34 },{ fecha: '2016-03-12', dato: 42 },{ fecha: '2016-03-15', dato: 56 },{ fecha: '2016-03-19', dato: 57 },{ fecha: '2016-03-26', dato: 30 },{ fecha: '2016-03-29', dato: 21 },{ fecha: '2016-04-05', dato: 55 },{ fecha: '2016-05-03', dato: 42 },{ fecha: '2016-05-10', dato: 44 },{ fecha: '2016-05-17', dato: 30 },{ fecha: '2016-05-24', dato: 51 },{ fecha: '2016-05-31', dato: 43 },{ fecha: '2016-06-07', dato: 50 },{ fecha: '2016-06-14', dato: 37 },{ fecha: '2016-06-21', dato: 28 },{ fecha: '2016-07-05', dato: 28 },{ fecha: '2016-07-12', dato: 35 },{ fecha: '2016-07-19', dato: 28 },{ fecha: '2016-07-26', dato: 35 },{ fecha: '2016-08-02', dato: 43 },{ fecha: '2016-08-09', dato: 25 },{ fecha: '2016-08-16', dato: 35 },{ fecha: '2016-08-23', dato: 35 },{ fecha: '2016-09-06', dato: 29 },{ fecha: '2016-09-13', dato: 42 },{ fecha: '2016-09-20', dato: 43 },{ fecha: '2016-09-27', dato: 48 },{ fecha: '2016-10-04', dato: 42 },{ fecha: '2016-10-11', dato: 48 },{ fecha: '2016-10-18', dato: 64 },{ fecha: '2016-10-25', dato: 42 },{ fecha: '2016-11-01', dato: 70 },{ fecha: '2016-11-08', dato: 41 },{ fecha: '2016-11-15', dato: 47 },{ fecha: '2016-11-22', dato: 49 },{ fecha: '2016-11-29', dato: 34 },{ fecha: '2016-12-06', dato: 65 },{ fecha: '2016-12-13', dato: 68 },{ fecha: '2016-12-20', dato: 76 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosHecat === 'undefined') {
-    vargraficaDatosHecat = Morris.Line({
-      element: 'graficaDatosHecat',
-      data: [{ fecha: '2016-01-13', dato: 67 },{ fecha: '2016-01-20', dato: 123 },{ fecha: '2016-01-27', dato: 36 },{ fecha: '2016-02-03', dato: 49 },{ fecha: '2016-02-10', dato: 91 },{ fecha: '2016-02-17', dato: 87 },{ fecha: '2016-02-24', dato: 84 },{ fecha: '2016-03-02', dato: 89 },{ fecha: '2016-03-09', dato: 59 },{ fecha: '2016-03-16', dato: 71 },{ fecha: '2016-03-30', dato: 92 },{ fecha: '2016-04-06', dato: 96 },{ fecha: '2016-04-13', dato: 64 },{ fecha: '2016-04-20', dato: 103 },{ fecha: '2016-04-27', dato: 47 },{ fecha: '2016-05-11', dato: 68 },{ fecha: '2016-05-18', dato: 66 },{ fecha: '2016-05-25', dato: 136 },{ fecha: '2016-06-01', dato: 77 },{ fecha: '2016-06-08', dato: 34 },{ fecha: '2016-06-15', dato: 105 },{ fecha: '2016-06-22', dato: 59 },{ fecha: '2016-06-29', dato: 54 },{ fecha: '2016-07-06', dato: 66 },{ fecha: '2016-07-13', dato: 45 },{ fecha: '2016-07-20', dato: 65 },{ fecha: '2016-07-27', dato: 64 },{ fecha: '2016-08-03', dato: 52 },{ fecha: '2016-08-10', dato: 52 },{ fecha: '2016-08-17', dato: 32 },{ fecha: '2016-08-24', dato: 32 },{ fecha: '2016-09-07', dato: 71 },{ fecha: '2016-09-14', dato: 64 },{ fecha: '2016-09-21', dato: 52 },{ fecha: '2016-09-28', dato: 63 },{ fecha: '2016-10-05', dato: 97 },{ fecha: '2016-10-12', dato: 109 },{ fecha: '2016-10-19', dato: 109 },{ fecha: '2016-10-26', dato: 64 },{ fecha: '2016-11-02', dato: 109 },{ fecha: '2016-11-09', dato: 25 },{ fecha: '2016-11-16', dato: 90 },{ fecha: '2016-11-23', dato: 76 },{ fecha: '2016-11-30', dato: 105 },{ fecha: '2016-12-07', dato: 99 },{ fecha: '2016-12-14', dato: 180 },{ fecha: '2016-12-21', dato: 126 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-grafica-3"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosCentroCulturalJoseRMijares === 'undefined') {
-    vargraficaDatosCentroCulturalJoseRMijares = Morris.Line({
-      element: 'graficaDatosCentroCulturalJoseRMijares',
-      data: [{ fecha: '2016-09-27', dato: 41 },{ fecha: '2016-10-04', dato: 111 },{ fecha: '2016-10-11', dato: 106 },{ fecha: '2016-10-18', dato: 169 },{ fecha: '2016-10-25', dato: 70 },{ fecha: '2016-11-01', dato: 155 },{ fecha: '2016-11-08', dato: 71 },{ fecha: '2016-11-15', dato: 116 },{ fecha: '2016-11-22', dato: 89 },{ fecha: '2016-11-29', dato: 84 },{ fecha: '2016-12-06', dato: 149 },{ fecha: '2016-12-13', dato: 174 },{ fecha: '2016-12-20', dato: 192 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
-  $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosConcentracionDeParticulasMenoresA10MicrasEnTorreon === 'undefined') {
+     $('#SmiDatosConcentracionDeParticulasMenoresA10MicrasEnTorreon').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -1047,6 +989,163 @@ $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
         }
       }
     });
+    varSmiDatosConcentracionDeParticulasMenoresA10MicrasEnTorreon = 1;
+  }
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonCentroCulturalJoseRMijares === 'undefined') {
+    varSmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonCentroCulturalJoseRMijares = Morris.Line({
+      element: 'SmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonCentroCulturalJoseRMijares',
+      data: [
+        { fecha: '2016-09-27', dato: 41 },
+        { fecha: '2016-10-04', dato: 111 },
+        { fecha: '2016-10-11', dato: 106 },
+        { fecha: '2016-10-18', dato: 169 },
+        { fecha: '2016-10-25', dato: 70 },
+        { fecha: '2016-11-01', dato: 155 },
+        { fecha: '2016-11-08', dato: 71 },
+        { fecha: '2016-11-15', dato: 116 },
+        { fecha: '2016-11-22', dato: 89 },
+        { fecha: '2016-11-29', dato: 84 },
+        { fecha: '2016-12-06', dato: 149 },
+        { fecha: '2016-12-13', dato: 174 },
+        { fecha: '2016-12-20', dato: 192 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonDifRevolucion === 'undefined') {
+    varSmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonDifRevolucion = Morris.Line({
+      element: 'SmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonDifRevolucion',
+      data: [
+        { fecha: '2016-01-12', dato: 59 },
+        { fecha: '2016-01-19', dato: 83 },
+        { fecha: '2016-01-26', dato: 40 },
+        { fecha: '2016-02-02', dato: 27 },
+        { fecha: '2016-02-09', dato: 61 },
+        { fecha: '2016-02-16', dato: 84 },
+        { fecha: '2016-02-23', dato: 54 },
+        { fecha: '2016-03-01', dato: 49 },
+        { fecha: '2016-03-08', dato: 34 },
+        { fecha: '2016-03-12', dato: 42 },
+        { fecha: '2016-03-15', dato: 56 },
+        { fecha: '2016-03-19', dato: 57 },
+        { fecha: '2016-03-26', dato: 30 },
+        { fecha: '2016-03-29', dato: 21 },
+        { fecha: '2016-04-05', dato: 55 },
+        { fecha: '2016-05-03', dato: 42 },
+        { fecha: '2016-05-10', dato: 44 },
+        { fecha: '2016-05-17', dato: 30 },
+        { fecha: '2016-05-24', dato: 51 },
+        { fecha: '2016-05-31', dato: 43 },
+        { fecha: '2016-06-07', dato: 50 },
+        { fecha: '2016-06-14', dato: 37 },
+        { fecha: '2016-06-21', dato: 28 },
+        { fecha: '2016-07-05', dato: 28 },
+        { fecha: '2016-07-12', dato: 35 },
+        { fecha: '2016-07-19', dato: 28 },
+        { fecha: '2016-07-26', dato: 35 },
+        { fecha: '2016-08-02', dato: 43 },
+        { fecha: '2016-08-09', dato: 25 },
+        { fecha: '2016-08-16', dato: 35 },
+        { fecha: '2016-08-23', dato: 35 },
+        { fecha: '2016-09-06', dato: 29 },
+        { fecha: '2016-09-13', dato: 42 },
+        { fecha: '2016-09-20', dato: 43 },
+        { fecha: '2016-09-27', dato: 48 },
+        { fecha: '2016-10-04', dato: 42 },
+        { fecha: '2016-10-11', dato: 48 },
+        { fecha: '2016-10-18', dato: 64 },
+        { fecha: '2016-10-25', dato: 42 },
+        { fecha: '2016-11-01', dato: 70 },
+        { fecha: '2016-11-08', dato: 41 },
+        { fecha: '2016-11-15', dato: 47 },
+        { fecha: '2016-11-22', dato: 49 },
+        { fecha: '2016-11-29', dato: 34 },
+        { fecha: '2016-12-06', dato: 65 },
+        { fecha: '2016-12-13', dato: 68 },
+        { fecha: '2016-12-20', dato: 76 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonHecat === 'undefined') {
+    varSmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonHecat = Morris.Line({
+      element: 'SmiGraficasConcentracionDeParticulasMenoresA10MicrasEnTorreonHecat',
+      data: [
+        { fecha: '2016-01-13', dato: 67 },
+        { fecha: '2016-01-20', dato: 123 },
+        { fecha: '2016-01-27', dato: 36 },
+        { fecha: '2016-02-03', dato: 49 },
+        { fecha: '2016-02-10', dato: 91 },
+        { fecha: '2016-02-17', dato: 87 },
+        { fecha: '2016-02-24', dato: 84 },
+        { fecha: '2016-03-02', dato: 89 },
+        { fecha: '2016-03-09', dato: 59 },
+        { fecha: '2016-03-16', dato: 71 },
+        { fecha: '2016-03-30', dato: 92 },
+        { fecha: '2016-04-06', dato: 96 },
+        { fecha: '2016-04-13', dato: 64 },
+        { fecha: '2016-04-20', dato: 103 },
+        { fecha: '2016-04-27', dato: 47 },
+        { fecha: '2016-05-11', dato: 68 },
+        { fecha: '2016-05-18', dato: 66 },
+        { fecha: '2016-05-25', dato: 136 },
+        { fecha: '2016-06-01', dato: 77 },
+        { fecha: '2016-06-08', dato: 34 },
+        { fecha: '2016-06-15', dato: 105 },
+        { fecha: '2016-06-22', dato: 59 },
+        { fecha: '2016-06-29', dato: 54 },
+        { fecha: '2016-07-06', dato: 66 },
+        { fecha: '2016-07-13', dato: 45 },
+        { fecha: '2016-07-20', dato: 65 },
+        { fecha: '2016-07-27', dato: 64 },
+        { fecha: '2016-08-03', dato: 52 },
+        { fecha: '2016-08-10', dato: 52 },
+        { fecha: '2016-08-17', dato: 32 },
+        { fecha: '2016-08-24', dato: 32 },
+        { fecha: '2016-09-07', dato: 71 },
+        { fecha: '2016-09-14', dato: 64 },
+        { fecha: '2016-09-21', dato: 52 },
+        { fecha: '2016-09-28', dato: 63 },
+        { fecha: '2016-10-05', dato: 97 },
+        { fecha: '2016-10-12', dato: 109 },
+        { fecha: '2016-10-19', dato: 109 },
+        { fecha: '2016-10-26', dato: 64 },
+        { fecha: '2016-11-02', dato: 109 },
+        { fecha: '2016-11-09', dato: 25 },
+        { fecha: '2016-11-16', dato: 90 },
+        { fecha: '2016-11-23', dato: 76 },
+        { fecha: '2016-11-30', dato: 105 },
+        { fecha: '2016-12-07', dato: 99 },
+        { fecha: '2016-12-14', dato: 180 },
+        { fecha: '2016-12-21', dato: 126 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  $(document).ready(function(){
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

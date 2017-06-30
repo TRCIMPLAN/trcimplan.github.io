@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna - IMPLAN Torreón">
   <meta name="twitter:description" content="Mide el salario promedio que obtienen los trabajadores que laboran 35 horas o más en cada ciudad ponderado por la participación de la población de cada municipio que integra dicha ciudad y descontando la presencia de actividades petroleras en los municipios. La lógica del indicador es que mientras más alto el salario promedio, mayor es la productividad laboral de la ciudad.">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html">
   <meta name="og:title" content="Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna - IMPLAN Torreón">
   <meta name="og:description" content="Mide el salario promedio que obtienen los trabajadores que laboran 35 horas o más en cada ciudad ponderado por la participación de la población de cada municipio que integra dicha ciudad y descontando la presencia de actividades petroleras en los municipios. La lógica del indicador es que mientras más alto el salario promedio, mayor es la productividad laboral de la ciudad.">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html">
   <title>Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,15 +186,16 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
-    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLaguna" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -290,102 +291,95 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-1">
-            <h3>Gráfica de Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna con fuente IMCO</h3>
-      <div id="graficaDatosImco" class="grafica"></div>
-      <p><b>Unidad:</b> Pesos.</p>
-      <h3>Observaciones</h3>
-<p>Pesos de 2012.</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica-2">
-            <h3>Gráfica de Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
-      <div id="graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
-      <p><b>Unidad:</b> Pesos.</p>
-      <h3>Observaciones</h3>
-<p>Pesos de 2012.</p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Salario Promedio Mensual para Trabajadores de Tiempo Completo</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Salario Promedio Mensual para Trabajadores de Tiempo Completo</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/03/2017</td>
-            <td>$ 6,983.93</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/03/2017</td>
-            <td>$ 6,254.41</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/03/2017</td>
-            <td>$ 6,603.44</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/03/2017</td>
-            <td>$ 4,705.54</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/03/2017</td>
-            <td>$ 6,495.63</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/03/2017</td>
-            <td>$ 7,225.63</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/03/2017</td>
-            <td>$ 6,217.26</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>31/03/2017</td>
-            <td>$ 6,543.52</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Pesos.</p>
-      <h3>Observaciones</h3>
-<p>Pesos de 2012.</p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
+
+    <div id="SmiGraficasSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna con fuente IMCO</h3>
+
+    <div id="SmiGraficasSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaImco" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna</h3>
+    <div id="SmiOtrasRegionesSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2017-03-31</td>
+        <td>6983.93</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2017-03-31</td>
+        <td>6254.41</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2017-03-31</td>
+        <td>6603.44</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2017-03-31</td>
+        <td>4705.54</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2017-03-31</td>
+        <td>6495.63</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2017-03-31</td>
+        <td>7225.63</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2017-03-31</td>
+        <td>6217.26</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2017-03-31</td>
+        <td>6543.52</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>Pesos de 2012.</p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -474,47 +468,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosImco === 'undefined') {
-    vargraficaDatosImco = Morris.Line({
-      element: 'graficaDatosImco',
-      data: [{ fecha: '2008-12-31', dato: 6214.90 },{ fecha: '2009-12-31', dato: 6346.57 },{ fecha: '2010-12-31', dato: 5672.21 },{ fecha: '2011-12-31', dato: 5475.57 },{ fecha: '2012-12-31', dato: 5688.95 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
-    vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
-      element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
-      data: [{ fecha: '2015-03-31', dato: 5817.26 },{ fecha: '2015-06-30', dato: 5548.04 },{ fecha: '2015-09-30', dato: 5883.32 },{ fecha: '2015-12-31', dato: 5991.45 },{ fecha: '2016-03-31', dato: 5778.02 },{ fecha: '2016-06-30', dato: 6470.65 },{ fecha: '2016-09-30', dato: 5896.38 },{ fecha: '2016-12-31', dato: 6426.66 },{ fecha: '2017-03-31', dato: 6495.63 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 6983.93 },{ region: 'Gómez Palacio', dato: 6254.41 },{ region: 'Lerdo', dato: 6603.44 },{ region: 'Matamoros', dato: 4705.54 },{ region: 'La Laguna', dato: 6495.63 },{ region: 'Coahuila', dato: 7225.63 },{ region: 'Durango', dato: 6217.26 },{ region: 'Nacional', dato: 6543.52 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
-  $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLaguna === 'undefined') {
+     $('#SmiDatosSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLaguna').DataTable({
       "language": {
         "lengthMenu":   "Mostrando _MENU_ filas por página",
         "zeroRecords":  "No se encontró nada",
@@ -528,6 +484,68 @@ $(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
         }
       }
     });
+    varSmiDatosSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLaguna = 1;
+  }
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
+    varSmiGraficasSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
+      element: 'SmiGraficasSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
+      data: [
+        { fecha: '2015-03-31', dato: 5817.26 },
+        { fecha: '2015-06-30', dato: 5548.04 },
+        { fecha: '2015-09-30', dato: 5883.32 },
+        { fecha: '2015-12-31', dato: 5991.45 },
+        { fecha: '2016-03-31', dato: 5778.02 },
+        { fecha: '2016-06-30', dato: 6470.65 },
+        { fecha: '2016-09-30', dato: 5896.38 },
+        { fecha: '2016-12-31', dato: 6426.66 },
+        { fecha: '2017-03-31', dato: 6495.63 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaImco === 'undefined') {
+    varSmiGraficasSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaImco',
+      data: [
+        { fecha: '2008-12-31', dato: 6214.90 },
+        { fecha: '2009-12-31', dato: 6346.57 },
+        { fecha: '2010-12-31', dato: 5672.21 },
+        { fecha: '2011-12-31', dato: 5475.57 },
+        { fecha: '2012-12-31', dato: 5688.95 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaGrafica === 'undefined') {
+    varSmiOtrasRegionesSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesSalarioPromedioMensualParaTrabajadoresDeTiempoCompletoEnLaLagunaGrafica',
+      data: [{ region: 'Torreón', dato: 6983.93 },{ region: 'Gómez Palacio', dato: 6254.41 },{ region: 'Lerdo', dato: 6603.44 },{ region: 'Matamoros', dato: 4705.54 },{ region: 'La Laguna', dato: 6495.63 },{ region: 'Coahuila', dato: 7225.63 },{ region: 'Durango', dato: 6217.26 },{ region: 'Nacional', dato: 6543.52 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  $(document).ready(function(){
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>

@@ -48,251 +48,86 @@ class GobiernoIngresosTotales extends \SMIBase\PublicacionWeb {
     } // constructor
 
     /**
-     * Sección Datos HTML
+     * Datos Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_html() {
-        $this->datos_tabla->definir_estructura(array(
+    public function datos_estructura() {
+        return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
             'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto')));
-        $this->datos_tabla->definir_panal(array(
-            array('fecha' => '2007-12-31', 'valor' => '241931931.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
-            array('fecha' => '2008-12-31', 'valor' => '262644851.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
-            array('fecha' => '2009-12-31', 'valor' => '308171837.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
-            array('fecha' => '2010-12-31', 'valor' => '279317865.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
-            array('fecha' => '2011-12-31', 'valor' => '324230289.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
-            array('fecha' => '2012-12-31', 'valor' => '360393013.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
-            array('fecha' => '2013-12-31', 'valor' => '475221421.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
-            array('fecha' => '2013-12-31', 'valor' => '475221421.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => ''),
-            array('fecha' => '2014-12-31', 'valor' => '525402020.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => '')));
-        // Entregar
-        return $this->datos_tabla->html();
-    } // seccion_datos_html
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // datos_estructura
 
     /**
-     * Sección Datos JavaScript
+     * Datos
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_datos_javascript() {
-        return $this->datos_tabla->javascript();
-    } // seccion_datos_javascript
+    public function datos() {
+        return array(
+            array('fecha' => '2007-12-31', 'valor' => '241931931.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2008-12-31', 'valor' => '262644851.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2009-12-31', 'valor' => '308171837.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2010-12-31', 'valor' => '279317865.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2011-12-31', 'valor' => '324230289.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2012-12-31', 'valor' => '360393013.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2013-12-31', 'valor' => '475221421.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2013-12-31', 'valor' => '475221421.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2014-12-31', 'valor' => '525402020.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+    } // datos
 
     /**
-     * Sección Gráfica HTML
+     * Otras Regiones Estructura
      *
-     * @return string Código HTML
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_grafica_html() {
-        return <<<FINAL
-      <h3>Gráfica de Ingresos Totales en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Pesos.</p>
-      <h3>Observaciones</h3>
-<p>El promedio nacional de los ingresos totales por municipio es de:</p>
-
-<ul>
-<li>2012 = 118495956.6</li>
-<li>2011 = 127070246.1</li>
-<li>2010 = 114373415.8</li>
-<li>2009 = 111150577.4</li>
-<li>2008 = 104258227.4</li>
-<li>2007 = 83404076.21</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&amp;c=11289&amp;proy=efipem_fmun">INEGI. Estadística de finanzas públicas estatales y municipales</a></p>
-
-FINAL;
-    } // seccion_grafica_html
+    public function otras_regiones_estructura() {
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+    } // otras_regiones_estructura
 
     /**
-     * Sección Gráfica JavaScript
+     * Otras regiones
      *
-     * @return string Código JavaScript
+     * @return array Arreglo con arreglos asociativos
      */
-    protected function seccion_grafica_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2007-12-31', dato: 241931931.00 },{ fecha: '2008-12-31', dato: 262644851.00 },{ fecha: '2009-12-31', dato: 308171837.00 },{ fecha: '2010-12-31', dato: 279317865.00 },{ fecha: '2011-12-31', dato: 324230289.00 },{ fecha: '2012-12-31', dato: 360393013.00 },{ fecha: '2013-12-31', dato: 475221421.00 },{ fecha: '2014-12-31', dato: 525402020.00 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-FINAL;
-    } // seccion_grafica_javascript
+    public function otras_regiones() {
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '2077991769.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '929690716.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '525402020.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '231643308.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '3764727813.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2014-12-31', 'valor' => '6649116096.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Durango', 'fecha' => '2014-12-31', 'valor' => '5277880579.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2014-12-31', 'valor' => '284519582697.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+    } // otras_regiones
 
     /**
-     * Sección Otras Regiones HTML
+     * Observaciones
      *
-     * @return string Código HTML
+     * @return string Markdown
      */
-    protected function seccion_otras_regiones_html() {
-        return <<<FINAL
-      <h3>Gráfica con los últimos datos de Ingresos Totales</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Ingresos Totales</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2014</td>
-            <td>$ 2,077,991,769.00</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2014</td>
-            <td>$ 929,690,716.00</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2014</td>
-            <td>$ 525,402,020.00</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2014</td>
-            <td>$ 231,643,308.00</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2014</td>
-            <td>$ 3,764,727,813.00</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/12/2014</td>
-            <td>$ 6,649,116,096.00</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/12/2014</td>
-            <td>$ 5,277,880,579.00</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>31/12/2014</td>
-            <td>$ 284,519,582,697.00</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Pesos.</p>
-      <h3>Observaciones</h3>
-<p>El promedio nacional de los ingresos totales por municipio es de:</p>
+    public function observaciones() {
+        return <<<OBSERVACIONES_FINAL
+El promedio nacional de los ingresos totales por municipio es de:
 
-<ul>
-<li>2012 = 118495956.6</li>
-<li>2011 = 127070246.1</li>
-<li>2010 = 114373415.8</li>
-<li>2009 = 111150577.4</li>
-<li>2008 = 104258227.4</li>
-<li>2007 = 83404076.21</li>
-</ul>
+- 2012 = 118495956.6
+- 2011 = 127070246.1
+- 2010 = 114373415.8
+- 2009 = 111150577.4
+- 2008 = 104258227.4
+- 2007 = 83404076.21
 
-<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&amp;c=11289&amp;proy=efipem_fmun">INEGI. Estadística de finanzas públicas estatales y municipales</a></p>
-
-FINAL;
-    } // seccion_otras_regiones_html
-
-    /**
-     * Sección Otras Regiones JavaScript
-     *
-     * @return string Código JavaScript
-     */
-    protected function seccion_otras_regiones_javascript() {
-        return <<<FINAL
-  // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 2077991769.00 },{ region: 'Gómez Palacio', dato: 929690716.00 },{ region: 'Lerdo', dato: 525402020.00 },{ region: 'Matamoros', dato: 231643308.00 },{ region: 'La Laguna', dato: 3764727813.00 },{ region: 'Coahuila', dato: 6649116096.00 },{ region: 'Durango', dato: 5277880579.00 },{ region: 'Nacional', dato: 284519582697.00 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-FINAL;
-    } // seccion_otras_regiones_javascript
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Ejecutar los métodos que alimentan cada lengüeta
-        $this->lenguetas->agregar('smi-indicador-datos', 'Datos', $this->seccion_datos_html());
-        $this->lenguetas->agregar('smi-indicador-grafica', 'Gráfica', $this->seccion_grafica_html());
-        $this->lenguetas->agregar_javascript($this->seccion_grafica_javascript());
-        $this->lenguetas->agregar('smi-indicador-otras-regiones', 'Otras regiones', $this->seccion_otras_regiones_html());
-        $this->lenguetas->agregar_javascript($this->seccion_otras_regiones_javascript());
-        $this->lenguetas->definir_activa(); // Primer lengüeta activa
-        // Definir el contenido de esta publicación que es un SchemaArticle
-        $this->contenido->articleBody = $this->lenguetas->html();
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        // JavaScript de las lengüetas, es el de las gráficas
-        $this->javascript[] = $this->lenguetas->javascript();
-        // JavaScript para la carga completa del documento, es el de la tabla con los datos
-        $this->javascript[] = $this->datos_tabla->javascript();
-        // Ejecutar este método en el padre
-        return parent::javascript();
-    } // javascript
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Código HTML para redifusión
-        $this->redifusion = $this->descripcion;
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
+Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
+OBSERVACIONES_FINAL;
+    } // observaciones
 
 } // Clase GobiernoIngresosTotales
 

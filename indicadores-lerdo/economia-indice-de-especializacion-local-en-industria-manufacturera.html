@@ -38,11 +38,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Índice de Especialización Local en Industria Manufacturera en Lerdo - IMPLAN Torreón">
   <meta name="twitter:description" content="Producción bruta total de la industria manufacturera entre la producción bruta total. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).">
-  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../imagenes/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-indice-de-especializacion-local-en-industria-manufacturera.html">
   <meta name="og:title" content="Índice de Especialización Local en Industria Manufacturera en Lerdo - IMPLAN Torreón">
   <meta name="og:description" content="Producción bruta total de la industria manufacturera entre la producción bruta total. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).">
-  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../imagenes/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-indice-de-especializacion-local-en-industria-manufacturera.html">
   <title>Índice de Especialización Local en Industria Manufacturera en Lerdo - IMPLAN Torreón</title>
   <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
@@ -103,7 +103,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
             <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
-            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
@@ -186,14 +186,15 @@
         </div>
         <div itemprop="articleBody">
 <!-- Contenido: Inicia  -->
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#smi-indicador-otras-regiones" data-toggle="tab">Otras regiones</a></li>
+<div>
+  <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-    <div class="tab-pane active" id="smi-indicador-datos">
-        <table id="smi-indicador-datos-tabla" class="table table-hover table-bordered">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <table id="SmiDatosIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdo" class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -229,110 +230,98 @@
       </tr>
     </tbody>
   </table>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-            <h3>Gráfica de Índice de Especialización Local en Industria Manufacturera en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>El índice de especialización en manufactura a nivel nacional es de:</p>
-
-<ul>
-<li>2008 = 44.34%</li>
-<li>2003 = 43.26%</li>
-<li>1998 = 48.52%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-otras-regiones">
-            <h3>Gráfica con los últimos datos de Índice de Especialización Local en Industria Manufacturera</h3>
-      <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Índice de Especialización Local en Industria Manufacturera</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Región</th>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Torreón</td>
-            <td>31/12/2013</td>
-            <td>74.96 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>31/12/2013</td>
-            <td>68.50 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>31/12/2013</td>
-            <td>52.63 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>31/12/2013</td>
-            <td>68.28 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>31/12/2013</td>
-            <td>72.85 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>31/12/2013</td>
-            <td>81.11 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>31/12/2013</td>
-            <td>49.19 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>31/12/2013</td>
-            <td>48.24 %</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>El índice de especialización en manufactura a nivel nacional es de:</p>
-
-<ul>
-<li>2008 = 44.34%</li>
-<li>2003 = 43.26%</li>
-<li>1998 = 48.52%</li>
-</ul>
-
-<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
-
-    </div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Índice de Especialización Local en Industria Manufacturera en Lerdo </h3>
+
+    <div id="SmiGraficasIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdo" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Índice de Especialización Local en Industria Manufacturera en Lerdo</h3>
+    <div id="SmiOtrasRegionesIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2013-12-31</td>
+        <td>74.9639</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2013-12-31</td>
+        <td>68.4953</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2013-12-31</td>
+        <td>52.6319</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2013-12-31</td>
+        <td>68.2820</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2013-12-31</td>
+        <td>72.8484</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2013-12-31</td>
+        <td>81.1136</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2013-12-31</td>
+        <td>49.1882</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2013-12-31</td>
+        <td>48.2381</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+<h3>Observaciones</h3>
+<p>El índice de especialización en manufactura a nivel nacional es de:</p>
+
+<ul>
+<li>2008 = 44.34%</li>
+<li>2003 = 43.26%</li>
+<li>1998 = 48.52%</li>
+</ul>
+
+<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
+
 <!-- Contenido: Termina -->
         </div>
       </div></article>
@@ -408,11 +397,16 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '1998-12-31', dato: 59.2500 },{ fecha: '2003-12-31', dato: 75.8500 },{ fecha: '2008-12-31', dato: 53.9400 },{ fecha: '2013-12-31', dato: 52.6319 }],
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdo === 'undefined') {
+    varSmiGraficasIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdo = Morris.Line({
+      element: 'SmiGraficasIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdo',
+      data: [
+        { fecha: '1998-12-31', dato: 59.2500 },
+        { fecha: '2003-12-31', dato: 75.8500 },
+        { fecha: '2008-12-31', dato: 53.9400 },
+        { fecha: '2013-12-31', dato: 52.6319 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -420,35 +414,24 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
-  } });
-$('#smi-indicador a[href="#smi-indicador-otras-regiones"]').on('shown.bs.tab', function (e) {   // Gráfica
-  if (typeof vargraficaOtrasRegiones === 'undefined') {
-    vargraficaOtrasRegiones = Morris.Bar({
-      element: 'graficaOtrasRegiones',
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesIndiceDeEspecializacionLocalEnIndustriaManufactureraEnLerdoGrafica',
       data: [{ region: 'Torreón', dato: 74.9639 },{ region: 'Gómez Palacio', dato: 68.4953 },{ region: 'Lerdo', dato: 52.6319 },{ region: 'Matamoros', dato: 68.2820 },{ region: 'La Laguna', dato: 72.8484 },{ region: 'Coahuila', dato: 81.1136 },{ region: 'Durango', dato: 49.1882 },{ region: 'Nacional', dato: 48.2381 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
       barColors: ['#FF5B02']
     });
-  } });
-$(document).ready(function(){ $('#smi-indicador a:first').tab('show') });
-  // DataTables
+  }
+  })
+  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
-    $('#smi-indicador-datos-tabla').DataTable( {
-      "language": {
-        "lengthMenu":   "Mostrando _MENU_ filas por página",
-        "zeroRecords":  "No se encontró nada",
-        "info":         "Mostrando página _PAGE_ de _PAGES_",
-        "infoEmpty":    "No se encontraron registros",
-        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-        "search":       "Filtrar:",
-        "paginate": {
-          "previous":   "Anterior",
-          "next":       "Siguiente"
-        }
-      }
-    });
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
   });
 </script>
 <script>
