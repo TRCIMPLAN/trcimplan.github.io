@@ -190,6 +190,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -222,6 +223,79 @@
     <h3>Microempresas en La Laguna </h3>
 
     <div id="SmiGraficasMicroempresasEnLaLaguna" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Microempresas en La Laguna</h3>
+    <div id="SmiOtrasRegionesMicroempresasEnLaLagunaGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesMicroempresasEnLaLagunaTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2014-07-31</td>
+        <td>89.6500</td>
+        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2014-07-31</td>
+        <td>88.8800</td>
+        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2014-07-31</td>
+        <td>92.7000</td>
+        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2014-07-31</td>
+        <td>95.3800</td>
+        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2014-07-31</td>
+        <td>89.6500</td>
+        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2014-07-31</td>
+        <td>89.5100</td>
+        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2014-07-31</td>
+        <td>91.3500</td>
+        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2014-07-31</td>
+        <td>92.9900</td>
+        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -335,6 +409,19 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesMicroempresasEnLaLagunaGrafica === 'undefined') {
+    varSmiOtrasRegionesMicroempresasEnLaLagunaGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesMicroempresasEnLaLagunaGrafica',
+      data: [{ region: 'Torreón', dato: 89.6500 },{ region: 'Gómez Palacio', dato: 88.8800 },{ region: 'Lerdo', dato: 92.7000 },{ region: 'Matamoros', dato: 95.3800 },{ region: 'La Laguna', dato: 89.6500 },{ region: 'Coahuila', dato: 89.5100 },{ region: 'Durango', dato: 91.3500 },{ region: 'Nacional', dato: 92.9900 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

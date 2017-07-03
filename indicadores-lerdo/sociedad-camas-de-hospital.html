@@ -190,6 +190,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -240,6 +241,58 @@
     <h3>Camas de Hospital en Lerdo </h3>
 
     <div id="SmiGraficasCamasDeHospitalEnLerdo" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Camas de Hospital en Lerdo</h3>
+    <div id="SmiOtrasRegionesCamasDeHospitalEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesCamasDeHospitalEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2012-12-31</td>
+        <td>0.7655</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2012-12-31</td>
+        <td>2.0983</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2012-12-31</td>
+        <td>2.5678</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2012-12-31</td>
+        <td>0.9071</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2012-12-31</td>
+        <td>1.3490</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -352,6 +405,19 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesCamasDeHospitalEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesCamasDeHospitalEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesCamasDeHospitalEnLerdoGrafica',
+      data: [{ region: 'Torreón', dato: 0.7655 },{ region: 'Gómez Palacio', dato: 2.0983 },{ region: 'Lerdo', dato: 2.5678 },{ region: 'Matamoros', dato: 0.9071 },{ region: 'La Laguna', dato: 1.3490 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

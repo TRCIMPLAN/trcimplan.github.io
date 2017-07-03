@@ -188,6 +188,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -220,6 +221,58 @@
     <h3>Viviendas Habitadas en Torreón </h3>
 
     <div id="SmiGraficasViviendasHabitadasEnTorreon" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Viviendas Habitadas en Torreón</h3>
+    <div id="SmiOtrasRegionesViviendasHabitadasEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesViviendasHabitadasEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2015-12-31</td>
+        <td>191890</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2015-12-31</td>
+        <td>91600</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2015-12-31</td>
+        <td>39837</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2015-12-31</td>
+        <td>27215</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2015-12-31</td>
+        <td>350542</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -343,6 +396,19 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesViviendasHabitadasEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesViviendasHabitadasEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesViviendasHabitadasEnTorreonGrafica',
+      data: [{ region: 'Torreón', dato: 191890 },{ region: 'Gómez Palacio', dato: 91600 },{ region: 'Lerdo', dato: 39837 },{ region: 'Matamoros', dato: 27215 },{ region: 'La Laguna', dato: 350542 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

@@ -187,6 +187,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -203,6 +204,51 @@
       <tr>
         <td>2012-12-31</td>
         <td>314</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Red Carretera Total en Lerdo</h3>
+    <div id="SmiOtrasRegionesRedCarreteraTotalEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesRedCarreteraTotalEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2012-12-31</td>
+        <td>226</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2012-12-31</td>
+        <td>361</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2012-12-31</td>
+        <td>314</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2012-12-31</td>
+        <td>266</td>
         <td>INEGI</td>
         <td class="nd">N/D</td>
       </tr>
@@ -315,6 +361,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesRedCarreteraTotalEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesRedCarreteraTotalEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesRedCarreteraTotalEnLerdoGrafica',
+      data: [{ region: 'Torreón', dato: 226 },{ region: 'Gómez Palacio', dato: 361 },{ region: 'Lerdo', dato: 314 },{ region: 'Matamoros', dato: 266 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

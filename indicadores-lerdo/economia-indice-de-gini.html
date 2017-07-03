@@ -189,6 +189,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -205,6 +206,58 @@
       <tr>
         <td>2010-12-31</td>
         <td>0.4387</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Índice de Gini en Lerdo</h3>
+    <div id="SmiOtrasRegionesIndiceDeGiniEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesIndiceDeGiniEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2010-12-31</td>
+        <td>0.4520</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2010-12-31</td>
+        <td>0.4208</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2010-12-31</td>
+        <td>0.4387</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2010-12-31</td>
+        <td>0.3831</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2010-12-31</td>
+        <td>0.4238</td>
         <td>CONEVAL</td>
         <td class="nd">N/D</td>
       </tr>
@@ -300,6 +353,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesIndiceDeGiniEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesIndiceDeGiniEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesIndiceDeGiniEnLerdoGrafica',
+      data: [{ region: 'Torreón', dato: 0.4520 },{ region: 'Gómez Palacio', dato: 0.4208 },{ region: 'Lerdo', dato: 0.4387 },{ region: 'Matamoros', dato: 0.3831 },{ region: 'La Laguna', dato: 0.4238 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

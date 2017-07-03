@@ -79,7 +79,12 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \SMIBase\PublicacionW
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -88,7 +93,15 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \SMIBase\PublicacionW
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2017-03-31', 'valor' => '10.4000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-03-31', 'valor' => '14.5900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2017-03-31', 'valor' => '11.8200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2017-03-31', 'valor' => '14.2900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2017-03-31', 'valor' => '12.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2017-03-31', 'valor' => '9.1900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('region_nombre' => 'Durango', 'fecha' => '2017-03-31', 'valor' => '14.6400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2017-03-31', 'valor' => '14.4300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'));
     } // otras_regiones
 
     /**

@@ -190,6 +190,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -270,6 +271,79 @@
     <h3>Capacidad Financiera en Gómez Palacio </h3>
 
     <div id="SmiGraficasCapacidadFinancieraEnGomezPalacio" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Capacidad Financiera en Gómez Palacio</h3>
+    <div id="SmiOtrasRegionesCapacidadFinancieraEnGomezPalacioGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesCapacidadFinancieraEnGomezPalacioTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2014-12-31</td>
+        <td>65.2382</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2014-12-31</td>
+        <td>40.4069</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2014-12-31</td>
+        <td>86.7984</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2014-12-31</td>
+        <td>18.6306</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2014-12-31</td>
+        <td>58.0197</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2014-12-31</td>
+        <td>52.7785</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2014-12-31</td>
+        <td>39.7498</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2014-12-31</td>
+        <td>39.1581</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -384,6 +458,19 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesCapacidadFinancieraEnGomezPalacioGrafica === 'undefined') {
+    varSmiOtrasRegionesCapacidadFinancieraEnGomezPalacioGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesCapacidadFinancieraEnGomezPalacioGrafica',
+      data: [{ region: 'Torreón', dato: 65.2382 },{ region: 'Gómez Palacio', dato: 40.4069 },{ region: 'Lerdo', dato: 86.7984 },{ region: 'Matamoros', dato: 18.6306 },{ region: 'La Laguna', dato: 58.0197 },{ region: 'Coahuila', dato: 52.7785 },{ region: 'Durango', dato: 39.7498 },{ region: 'Nacional', dato: 39.1581 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

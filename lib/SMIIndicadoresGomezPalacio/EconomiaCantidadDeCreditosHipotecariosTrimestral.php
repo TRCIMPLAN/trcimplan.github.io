@@ -80,7 +80,12 @@ class EconomiaCantidadDeCreditosHipotecariosTrimestral extends \SMIBase\Publicac
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -89,7 +94,12 @@ class EconomiaCantidadDeCreditosHipotecariosTrimestral extends \SMIBase\Publicac
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-03-31', 'valor' => '284', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)', 'notas' => 'Dato trimestral'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-03-31', 'valor' => '85', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)', 'notas' => 'Dato trimestral'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-03-31', 'valor' => '27', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)', 'notas' => 'Dato trimestral'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-03-31', 'valor' => '5', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)', 'notas' => 'Dato trimestral'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-03-31', 'valor' => '401', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)', 'notas' => 'Dato trimestral'));
     } // otras_regiones
 
     /**

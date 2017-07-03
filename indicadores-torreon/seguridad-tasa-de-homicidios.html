@@ -195,6 +195,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -401,6 +402,65 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
 
     <div id="SmiGraficasTasaDeHomicidiosEnTorreonImco" class="grafica"></div>
   </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Tasa de Homicidios en Torreón</h3>
+    <div id="SmiOtrasRegionesTasaDeHomicidiosEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesTasaDeHomicidiosEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2015-12-31</td>
+        <td>19.7265</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2012-12-31</td>
+        <td>43.7146</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2012-12-31</td>
+        <td>41.8962</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2012-12-31</td>
+        <td>36.2831</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2012-12-31</td>
+        <td>77.5463</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2001-12-31</td>
+        <td>10.2293</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
   </div>
 </div>
 <h3>Observaciones</h3>
@@ -577,6 +637,19 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesTasaDeHomicidiosEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesTasaDeHomicidiosEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesTasaDeHomicidiosEnTorreonGrafica',
+      data: [{ region: 'Torreón', dato: 19.7265 },{ region: 'Gómez Palacio', dato: 43.7146 },{ region: 'Lerdo', dato: 41.8962 },{ region: 'Matamoros', dato: 36.2831 },{ region: 'La Laguna', dato: 77.5463 },{ region: 'Coahuila', dato: 10.2293 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

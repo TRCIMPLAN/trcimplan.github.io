@@ -189,6 +189,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -205,6 +206,72 @@
       <tr>
         <td>2011-12-31</td>
         <td>55.3000</td>
+        <td>SINAIS (SSA)</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Razón de Mortalidad Materna en Lerdo</h3>
+    <div id="SmiOtrasRegionesRazonDeMortalidadMaternaEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesRazonDeMortalidadMaternaEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2013-12-31</td>
+        <td>33.0000</td>
+        <td>SINAIS (SSA)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2013-12-31</td>
+        <td>33.3000</td>
+        <td>SINAIS (SSA)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2011-12-31</td>
+        <td>55.3000</td>
+        <td>SINAIS (SSA)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2013-12-31</td>
+        <td>62.7000</td>
+        <td>SINAIS (SSA)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2013-12-31</td>
+        <td>26.9000</td>
+        <td>SINAIS (SSA)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2013-12-31</td>
+        <td>43.6000</td>
+        <td>SINAIS (SSA)</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2013-12-31</td>
+        <td>39.2000</td>
         <td>SINAIS (SSA)</td>
         <td class="nd">N/D</td>
       </tr>
@@ -311,6 +378,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesRazonDeMortalidadMaternaEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesRazonDeMortalidadMaternaEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesRazonDeMortalidadMaternaEnLerdoGrafica',
+      data: [{ region: 'Torreón', dato: 33.0000 },{ region: 'Gómez Palacio', dato: 33.3000 },{ region: 'Lerdo', dato: 55.3000 },{ region: 'Matamoros', dato: 62.7000 },{ region: 'Coahuila', dato: 26.9000 },{ region: 'Durango', dato: 43.6000 },{ region: 'Nacional', dato: 39.2000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

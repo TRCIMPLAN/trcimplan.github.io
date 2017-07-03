@@ -79,7 +79,12 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \SMIBase\Publ
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -88,7 +93,15 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \SMIBase\Publ
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2013-12-31', 'valor' => '2.3266', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '2.0232', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '0.5842', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '0.0023', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2013-12-31', 'valor' => '2.1951', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '1.4371', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '3.4563', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '2.4794', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // otras_regiones
 
     /**

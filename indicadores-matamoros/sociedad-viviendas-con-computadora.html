@@ -191,6 +191,7 @@
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -258,6 +259,58 @@
     <h3>Viviendas con Computadora en Matamoros con fuente INEGI</h3>
 
     <div id="SmiGraficasViviendasConComputadoraEnMatamorosInegi" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Viviendas con Computadora en Matamoros</h3>
+    <div id="SmiOtrasRegionesViviendasConComputadoraEnMatamorosGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesViviendasConComputadoraEnMatamorosTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2015-12-31</td>
+        <td>39.8100</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2015-12-31</td>
+        <td>30.5400</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2015-12-31</td>
+        <td>28.4800</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2015-12-31</td>
+        <td>20.8500</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2012-12-31</td>
+        <td>36.8400</td>
+        <td>IMCO</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -389,6 +442,19 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesViviendasConComputadoraEnMatamorosGrafica === 'undefined') {
+    varSmiOtrasRegionesViviendasConComputadoraEnMatamorosGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesViviendasConComputadoraEnMatamorosGrafica',
+      data: [{ region: 'Torreón', dato: 39.8100 },{ region: 'Gómez Palacio', dato: 30.5400 },{ region: 'Lerdo', dato: 28.4800 },{ region: 'Matamoros', dato: 20.8500 },{ region: 'La Laguna', dato: 36.8400 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

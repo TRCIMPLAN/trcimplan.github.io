@@ -189,6 +189,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -207,6 +208,79 @@
         <td>X</td>
         <td>INEGI</td>
         <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Usuarios de Internet en Gómez Palacio</h3>
+    <div id="SmiOtrasRegionesUsuariosDeInternetEnGomezPalacioGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesUsuariosDeInternetEnGomezPalacioTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2013-12-31</td>
+        <td>X</td>
+        <td>INEGI</td>
+        <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2013-12-31</td>
+        <td>X</td>
+        <td>INEGI</td>
+        <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2013-12-31</td>
+        <td>X</td>
+        <td>INEGI</td>
+        <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2013-12-31</td>
+        <td>X</td>
+        <td>INEGI</td>
+        <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2013-12-31</td>
+        <td>X</td>
+        <td>INEGI</td>
+        <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2013-12-31</td>
+        <td>44.0000</td>
+        <td>INEGI</td>
+        <td>Consulta la [Base deDatos](http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=tinf255&s=est&c=28978)</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2013-12-31</td>
+        <td>34.0000</td>
+        <td>INEGI</td>
+        <td>Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=tinf255&s=est&c=28978)</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2013-12-31</td>
+        <td>40.0000</td>
+        <td>INEGI</td>
+        <td>Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=tinf255&s=est&c=28978)</td>
       </tr>
     </tbody>
   </table>
@@ -300,6 +374,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesUsuariosDeInternetEnGomezPalacioGrafica === 'undefined') {
+    varSmiOtrasRegionesUsuariosDeInternetEnGomezPalacioGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesUsuariosDeInternetEnGomezPalacioGrafica',
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 44.0000 },{ region: 'Durango', dato: 34.0000 },{ region: 'Nacional', dato: 40.0000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

@@ -76,7 +76,12 @@ class SociedadRezagoAlimentario extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +90,11 @@ class SociedadRezagoAlimentario extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '17.7700', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '18.1100', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '20.8900', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '25.1000', 'fuente_nombre' => 'CONEVAL'));
     } // otras_regiones
 
     /**

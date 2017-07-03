@@ -190,6 +190,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -228,6 +229,58 @@
     <h3>Accidentes Viales Fatales en Gómez Palacio </h3>
 
     <div id="SmiGraficasAccidentesVialesFatalesEnGomezPalacio" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Accidentes Viales Fatales en Gómez Palacio</h3>
+    <div id="SmiOtrasRegionesAccidentesVialesFatalesEnGomezPalacioGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesAccidentesVialesFatalesEnGomezPalacioTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2014-12-31</td>
+        <td>17</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2014-12-31</td>
+        <td>29</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2014-12-31</td>
+        <td>6</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2014-12-31</td>
+        <td>Y</td>
+        <td>INEGI</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2014-12-31</td>
+        <td>55</td>
+        <td>INEGI</td>
+        <td>Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 3, de 2013) para calcularlo a nivel ZML.</td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -343,6 +396,19 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesAccidentesVialesFatalesEnGomezPalacioGrafica === 'undefined') {
+    varSmiOtrasRegionesAccidentesVialesFatalesEnGomezPalacioGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesAccidentesVialesFatalesEnGomezPalacioGrafica',
+      data: [{ region: 'Torreón', dato: 17 },{ region: 'Gómez Palacio', dato: 29 },{ region: 'Lerdo', dato: 6 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 55 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

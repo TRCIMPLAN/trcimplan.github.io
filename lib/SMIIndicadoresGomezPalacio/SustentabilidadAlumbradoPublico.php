@@ -77,7 +77,12 @@ class SustentabilidadAlumbradoPublico extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -86,7 +91,12 @@ class SustentabilidadAlumbradoPublico extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '3.5300', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '5.5800', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '9.0900', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '15.4200', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '5.6100', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**

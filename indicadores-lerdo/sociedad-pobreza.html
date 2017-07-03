@@ -189,6 +189,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -205,6 +206,79 @@
       <tr>
         <td>2012-12-31</td>
         <td>47.9800</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Pobreza en Lerdo</h3>
+    <div id="SmiOtrasRegionesPobrezaEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesPobrezaEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2012-12-31</td>
+        <td>26.8000</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2012-12-31</td>
+        <td>37.2900</td>
+        <td>CONEVAL</td>
+        <td>Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2012-12-31</td>
+        <td>47.9800</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2012-12-31</td>
+        <td>33.8400</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2012-12-31</td>
+        <td>32.7400</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2010-12-31</td>
+        <td>27.7000</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2010-12-31</td>
+        <td>50.3400</td>
+        <td>CONEVAL</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2010-12-31</td>
+        <td>45.5900</td>
         <td>CONEVAL</td>
         <td class="nd">N/D</td>
       </tr>
@@ -300,6 +374,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesPobrezaEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesPobrezaEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesPobrezaEnLerdoGrafica',
+      data: [{ region: 'Torreón', dato: 26.8000 },{ region: 'Gómez Palacio', dato: 37.2900 },{ region: 'Lerdo', dato: 47.9800 },{ region: 'Matamoros', dato: 33.8400 },{ region: 'La Laguna', dato: 32.7400 },{ region: 'Coahuila', dato: 27.7000 },{ region: 'Durango', dato: 50.3400 },{ region: 'Nacional', dato: 45.5900 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

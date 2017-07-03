@@ -189,6 +189,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -205,6 +206,72 @@
       <tr>
         <td>2010-12-31</td>
         <td>1.0300</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Razón entre Mujeres y Hombres en la Enseñanza Media Superior en Lerdo</h3>
+    <div id="SmiOtrasRegionesRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperiorEnLerdoGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperiorEnLerdoTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2010-12-31</td>
+        <td>1.0020</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2010-12-31</td>
+        <td>1.0210</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2010-12-31</td>
+        <td>1.0300</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2010-12-31</td>
+        <td>1.0780</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td>2010-12-31</td>
+        <td>0.9940</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td>2010-12-31</td>
+        <td>1.0230</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td>2010-12-31</td>
+        <td>1.0140</td>
         <td>INEGI. Censos de Población y Vivienda</td>
         <td class="nd">N/D</td>
       </tr>
@@ -303,6 +370,19 @@ Consulta la <a href="http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5">B
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperiorEnLerdoGrafica === 'undefined') {
+    varSmiOtrasRegionesRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperiorEnLerdoGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperiorEnLerdoGrafica',
+      data: [{ region: 'Torreón', dato: 1.0020 },{ region: 'Gómez Palacio', dato: 1.0210 },{ region: 'Lerdo', dato: 1.0300 },{ region: 'Matamoros', dato: 1.0780 },{ region: 'Coahuila', dato: 0.9940 },{ region: 'Durango', dato: 1.0230 },{ region: 'Nacional', dato: 1.0140 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

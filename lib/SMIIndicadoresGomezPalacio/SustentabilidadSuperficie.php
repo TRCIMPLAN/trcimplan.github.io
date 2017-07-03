@@ -76,7 +76,12 @@ class SustentabilidadSuperficie extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +90,12 @@ class SustentabilidadSuperficie extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '124199.7500', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '84546.5800', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '211889.3200', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '82163.7300', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2010-12-31', 'valor' => '502799.3800', 'fuente_nombre' => 'INEGI', 'notas' => 'El indicador hace referencia a los cuatro municipios que conforman la Zona Metropolitana de la Laguna: Torreón, Matamoros, Gómez Palacio y Lerdo.'));
     } // otras_regiones
 
     /**

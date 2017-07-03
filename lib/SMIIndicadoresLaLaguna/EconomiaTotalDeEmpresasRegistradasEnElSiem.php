@@ -77,7 +77,12 @@ class EconomiaTotalDeEmpresasRegistradasEnElSiem extends \SMIBase\PublicacionWeb
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -86,7 +91,15 @@ class EconomiaTotalDeEmpresasRegistradasEnElSiem extends \SMIBase\PublicacionWeb
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-07-31', 'valor' => '7402', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-07-31', 'valor' => '2032', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-07-31', 'valor' => '178', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-07-31', 'valor' => '173', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-07-31', 'valor' => '9785', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2014-07-31', 'valor' => '17810', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('region_nombre' => 'Durango', 'fecha' => '2014-07-31', 'valor' => '7193', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2014-07-31', 'valor' => '701136', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'));
     } // otras_regiones
 
     /**

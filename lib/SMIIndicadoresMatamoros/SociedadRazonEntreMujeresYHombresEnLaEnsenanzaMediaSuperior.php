@@ -76,7 +76,12 @@ class SociedadRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperior extends \SMIBa
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +90,14 @@ class SociedadRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperior extends \SMIBa
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '1.0020', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '1.0210', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '1.0300', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '1.0780', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '0.9940', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '1.0230', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2010-12-31', 'valor' => '1.0140', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

@@ -189,6 +189,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -203,6 +204,58 @@
     </thead>
     <tbody>
       <tr>
+        <td>2012-12-31</td>
+        <td>45.1100</td>
+        <td>IMCO</td>
+        <td>En el ranking Nacional La Laguna, ocupa el lugar 44 de 77 zonas metropolitanas.</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Índice de Competitividad Urbana en La Laguna</h3>
+    <div id="SmiOtrasRegionesIndiceDeCompetitividadUrbanaEnLaLagunaGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesIndiceDeCompetitividadUrbanaEnLaLagunaTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2012-12-31</td>
+        <td>50.6700</td>
+        <td>IMCO</td>
+        <td>Ese valor equivale al lugar 21 de 77 ciudades, de acuerdo a la edición 2012 del ICU.</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2012-12-31</td>
+        <td>42.5700</td>
+        <td>IMCO</td>
+        <td>Ese valor equivale al lugar 59 de 77 ciudades, de acuerdo a la edición 2012 del ICU.</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2012-12-31</td>
+        <td>37.3900</td>
+        <td>IMCO</td>
+        <td>Ese valor equivale al lugar 74 de 77 ciudades, de acuerdo a la edición 2012 del ICU.</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2012-12-31</td>
+        <td>41.5400</td>
+        <td>IMCO</td>
+        <td>Ese valor equivale al lugar 64 de 77 ciudades, de acuerdo a la edición 2012 del ICU.</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
         <td>2012-12-31</td>
         <td>45.1100</td>
         <td>IMCO</td>
@@ -299,6 +352,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesIndiceDeCompetitividadUrbanaEnLaLagunaGrafica === 'undefined') {
+    varSmiOtrasRegionesIndiceDeCompetitividadUrbanaEnLaLagunaGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesIndiceDeCompetitividadUrbanaEnLaLagunaGrafica',
+      data: [{ region: 'Torreón', dato: 50.6700 },{ region: 'Gómez Palacio', dato: 42.5700 },{ region: 'Lerdo', dato: 37.3900 },{ region: 'Matamoros', dato: 41.5400 },{ region: 'La Laguna', dato: 45.1100 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

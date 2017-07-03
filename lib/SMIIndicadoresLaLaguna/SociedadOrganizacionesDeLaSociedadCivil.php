@@ -82,7 +82,12 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -91,7 +96,15 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-11-25', 'valor' => '55.0500', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-11-25', 'valor' => '57.5500', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-11-25', 'valor' => '31.3000', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-11-25', 'valor' => '11.0100', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-11-25', 'valor' => '49.1400', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2016-11-25', 'valor' => '26.4300', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Durango', 'fecha' => '2016-11-25', 'valor' => '143.3800', 'fuente_nombre' => 'RFOSC'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2016-11-25', 'valor' => '28.8400', 'fuente_nombre' => 'RFOSC', 'notas' => 'http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/'));
     } // otras_regiones
 
     /**

@@ -76,7 +76,12 @@ class EconomiaIndiceDeCompetitividadUrbana extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +90,12 @@ class EconomiaIndiceDeCompetitividadUrbana extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '50.6700', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 21 de 77 ciudades, de acuerdo a la edición 2012 del ICU.'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '42.5700', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 59 de 77 ciudades, de acuerdo a la edición 2012 del ICU.'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '37.3900', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 74 de 77 ciudades, de acuerdo a la edición 2012 del ICU.'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '41.5400', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 64 de 77 ciudades, de acuerdo a la edición 2012 del ICU.'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '45.1100', 'fuente_nombre' => 'IMCO', 'notas' => 'En el ranking Nacional La Laguna, ocupa el lugar 44 de 77 zonas metropolitanas.'));
     } // otras_regiones
 
     /**

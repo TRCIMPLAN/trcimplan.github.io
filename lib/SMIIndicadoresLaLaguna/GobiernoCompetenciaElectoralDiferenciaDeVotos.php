@@ -76,7 +76,12 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \SMIBase\Publicacion
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +90,12 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \SMIBase\Publicacion
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2012-07-01', 'valor' => '4367', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-07-01', 'valor' => '5784', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2012-07-01', 'valor' => '2910', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2012-07-01', 'valor' => '19079', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2012-07-01', 'valor' => '32140', 'fuente_nombre' => 'INE-IEPCC', 'notas' => 'En esta cifra se incluye solo a los municipios de Torreón, Matamoros, Gómez Palacio y Lerdo'));
     } // otras_regiones
 
     /**

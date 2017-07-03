@@ -76,7 +76,12 @@ class GobiernoCompetenciaElectoralVotosTotales extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +90,12 @@ class GobiernoCompetenciaElectoralVotosTotales extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2012-07-01', 'valor' => '246044', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-07-01', 'valor' => '120131', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2012-07-01', 'valor' => '56517', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2012-07-01', 'valor' => '48093', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2012-07-01', 'valor' => '479785', 'fuente_nombre' => 'INE-IEPCC'));
     } // otras_regiones
 
     /**

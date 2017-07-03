@@ -80,7 +80,12 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -89,7 +94,14 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '1.2000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '0.5000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '0.1000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '1.9000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '1.3900', 'fuente_nombre' => 'IMCO-CONAGUA'),
+            array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '1.6000', 'fuente_nombre' => 'IMCO-CONAGUA'));
     } // otras_regiones
 
     /**

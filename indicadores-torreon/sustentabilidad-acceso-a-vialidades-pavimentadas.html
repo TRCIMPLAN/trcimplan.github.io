@@ -190,6 +190,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -222,6 +223,58 @@
     <h3>Acceso a Vialidades Pavimentadas en Torreón </h3>
 
     <div id="SmiGraficasAccesoAVialidadesPavimentadasEnTorreon" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Acceso a Vialidades Pavimentadas en Torreón</h3>
+    <div id="SmiOtrasRegionesAccesoAVialidadesPavimentadasEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesAccesoAVialidadesPavimentadasEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td>2014-12-31</td>
+        <td>94.0000</td>
+        <td>IMPLAN</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td>2014-12-31</td>
+        <td>91.0000</td>
+        <td>IMPLAN</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td>2014-12-31</td>
+        <td>74.0000</td>
+        <td>IMPLAN</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td>2014-12-31</td>
+        <td>74.0000</td>
+        <td>IMPLAN</td>
+        <td class="nd">N/D</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td>2014-12-31</td>
+        <td>89.0000</td>
+        <td>IMPLAN</td>
+        <td class="nd">N/D</td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -348,6 +401,19 @@ Encuesta Intercensal 2015. Consulta la <a href="http://www.inegi.org.mx/est/cont
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesAccesoAVialidadesPavimentadasEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesAccesoAVialidadesPavimentadasEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesAccesoAVialidadesPavimentadasEnTorreonGrafica',
+      data: [{ region: 'Torreón', dato: 94.0000 },{ region: 'Gómez Palacio', dato: 91.0000 },{ region: 'Lerdo', dato: 74.0000 },{ region: 'Matamoros', dato: 74.0000 },{ region: 'La Laguna', dato: 89.0000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

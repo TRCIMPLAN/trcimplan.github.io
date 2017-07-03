@@ -84,7 +84,12 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \SMIBase\PublicacionWeb 
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -93,7 +98,15 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \SMIBase\PublicacionWeb 
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '38.3748', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '24.3200', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '33.3260', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '9.7467', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '32.4379', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2014-12-31', 'valor' => '30.7383', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Durango', 'fecha' => '2014-12-31', 'valor' => '20.8938', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2014-12-31', 'valor' => '21.2090', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // otras_regiones
 
     /**
