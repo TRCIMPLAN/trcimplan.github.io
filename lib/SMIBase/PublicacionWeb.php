@@ -95,6 +95,7 @@ abstract class PublicacionWeb extends \Base\Publicacion implements SalidaWeb {
             sort($fuentes);
             // Elaborar lengüetas
             $this->lenguetas = new LenguetasWeb(self::LENGUETAS_ID);
+            $this->lenguetas->agregar('Mapas', new SeccionMapasWeb($this));
             $this->lenguetas->agregar('Datos', new SeccionDatosWeb($this));
             if (count($fuentes) > 1) {
                 // Van a ser dos o más gráficas
@@ -198,6 +199,13 @@ abstract class PublicacionWeb extends \Base\Publicacion implements SalidaWeb {
      * @return array Arreglo con arreglos asociativos
      */
     abstract public function otras_regiones();
+
+    /**
+     * Mapas
+     *
+     * @return array Código HTML con el iframe de Carto
+     */
+    abstract public function mapas();
 
     /**
      * Observaciones
