@@ -189,7 +189,6 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -204,58 +203,6 @@
     </thead>
     <tbody>
       <tr>
-        <td>2010-12-31</td>
-        <td>502799.3800</td>
-        <td>INEGI</td>
-        <td>El indicador hace referencia a los cuatro municipios que conforman la Zona Metropolitana de la Laguna: Torreón, Matamoros, Gómez Palacio y Lerdo.</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Superficie en La Laguna</h3>
-    <div id="SmiOtrasRegionesSuperficieEnLaLagunaGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesSuperficieEnLaLagunaTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2010-12-31</td>
-        <td>124199.7500</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2010-12-31</td>
-        <td>84546.5800</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2010-12-31</td>
-        <td>211889.3200</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2010-12-31</td>
-        <td>82163.7300</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
         <td>2010-12-31</td>
         <td>502799.3800</td>
         <td>INEGI</td>
@@ -357,19 +304,6 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesSuperficieEnLaLagunaGrafica === 'undefined') {
-    varSmiOtrasRegionesSuperficieEnLaLagunaGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesSuperficieEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 124199.7500 },{ region: 'Gómez Palacio', dato: 84546.5800 },{ region: 'Lerdo', dato: 211889.3200 },{ region: 'Matamoros', dato: 82163.7300 },{ region: 'La Laguna', dato: 502799.3800 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

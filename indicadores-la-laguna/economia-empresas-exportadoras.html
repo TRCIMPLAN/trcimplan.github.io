@@ -189,7 +189,6 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -204,58 +203,6 @@
     </thead>
     <tbody>
       <tr>
-        <td>2014-11-24</td>
-        <td>184</td>
-        <td>Secretaría de Economía</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Empresas Exportadoras en La Laguna</h3>
-    <div id="SmiOtrasRegionesEmpresasExportadorasEnLaLagunaGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesEmpresasExportadorasEnLaLagunaTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2014-11-24</td>
-        <td>113</td>
-        <td>Secretaría de Economía</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2014-11-24</td>
-        <td>55</td>
-        <td>Secretaría de Economía</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2014-11-24</td>
-        <td>11</td>
-        <td>Secretaría de Economía</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2014-11-24</td>
-        <td>5</td>
-        <td>Secretaría de Economía</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
         <td>2014-11-24</td>
         <td>184</td>
         <td>Secretaría de Economía</td>
@@ -360,19 +307,6 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesEmpresasExportadorasEnLaLagunaGrafica === 'undefined') {
-    varSmiOtrasRegionesEmpresasExportadorasEnLaLagunaGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesEmpresasExportadorasEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 113 },{ region: 'Gómez Palacio', dato: 55 },{ region: 'Lerdo', dato: 11 },{ region: 'Matamoros', dato: 5 },{ region: 'La Laguna', dato: 184 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

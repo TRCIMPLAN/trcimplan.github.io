@@ -190,7 +190,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -235,79 +234,6 @@
     <h3>Personal Ocupado en la Industria Manufacturera en La Laguna con fuente INEGI</h3>
 
     <div id="SmiGraficasPersonalOcupadoEnLaIndustriaManufactureraEnLaLagunaInegi" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Personal Ocupado en la Industria Manufacturera en La Laguna</h3>
-    <div id="SmiOtrasRegionesPersonalOcupadoEnLaIndustriaManufactureraEnLaLagunaGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesPersonalOcupadoEnLaIndustriaManufactureraEnLaLagunaTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2013-12-31</td>
-        <td>25.1459</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2013-12-31</td>
-        <td>32.3272</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2013-12-31</td>
-        <td>46.1564</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2013-12-31</td>
-        <td>37.4666</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2013-12-31</td>
-        <td>28.7366</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2013-12-31</td>
-        <td>40.7077</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2013-12-31</td>
-        <td>27.4596</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2013-12-31</td>
-        <td>23.5138</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -417,19 +343,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesPersonalOcupadoEnLaIndustriaManufactureraEnLaLagunaGrafica === 'undefined') {
-    varSmiOtrasRegionesPersonalOcupadoEnLaIndustriaManufactureraEnLaLagunaGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesPersonalOcupadoEnLaIndustriaManufactureraEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 25.1459 },{ region: 'Gómez Palacio', dato: 32.3272 },{ region: 'Lerdo', dato: 46.1564 },{ region: 'Matamoros', dato: 37.4666 },{ region: 'La Laguna', dato: 28.7366 },{ region: 'Coahuila', dato: 40.7077 },{ region: 'Durango', dato: 27.4596 },{ region: 'Nacional', dato: 23.5138 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

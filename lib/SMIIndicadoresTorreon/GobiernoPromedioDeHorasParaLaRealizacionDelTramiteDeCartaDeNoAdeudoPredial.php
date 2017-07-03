@@ -89,6 +89,15 @@ class GobiernoPromedioDeHorasParaLaRealizacionDelTramiteDeCartaDeNoAdeudoPredial
     } // otras_regiones
 
     /**
+     * Mapas
+     *
+     * @return string Código HTML con el iframe de Carto
+     */
+    public function mapas() {
+        return NULL;
+    } // mapas
+
+    /**
      * Observaciones
      *
      * @return string Markdown

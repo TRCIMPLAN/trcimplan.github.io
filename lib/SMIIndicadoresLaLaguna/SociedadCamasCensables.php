@@ -89,12 +89,7 @@ class SociedadCamasCensables extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -103,16 +98,17 @@ class SociedadCamasCensables extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-08-30', 'valor' => '893', 'fuente_nombre' => 'Secretaria de Salud del Estado de Coahuila', 'notas' => 'A la cifra 2014 se agregan las 55 camas censables nuevas disponibles con el nuevo Hospital General de la ciudad (Julio 2015)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '346', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '38', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '40', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '1262', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2014-12-31', 'valor' => '2686', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Durango', 'fecha' => '2014-12-31', 'valor' => '1700', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2014-12-31', 'valor' => '88903', 'fuente_nombre' => 'SINAIS (SSA)'));
+        return NULL;
     } // otras_regiones
+
+    /**
+     * Mapas
+     *
+     * @return string Código HTML con el iframe de Carto
+     */
+    public function mapas() {
+        return NULL;
+    } // mapas
 
     /**
      * Observaciones

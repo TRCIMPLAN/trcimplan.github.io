@@ -76,12 +76,7 @@ class SociedadAlumnosDeSecundariaPorDocente extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -90,16 +85,17 @@ class SociedadAlumnosDeSecundariaPorDocente extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-07-01', 'valor' => '12.7000', 'fuente_nombre' => 'SEP'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-07-01', 'valor' => '14.3000', 'fuente_nombre' => 'SEP'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2014-07-01', 'valor' => '14.7000', 'fuente_nombre' => 'SEP'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2014-07-01', 'valor' => '14.9000', 'fuente_nombre' => 'SEP'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-07-01', 'valor' => '13.5000', 'fuente_nombre' => 'SEP'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2014-07-01', 'valor' => '14.1000', 'fuente_nombre' => 'SEP'),
-            array('region_nombre' => 'Durango', 'fecha' => '2014-07-01', 'valor' => '13.1000', 'fuente_nombre' => 'SEP'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2014-07-01', 'valor' => '16.4000', 'fuente_nombre' => 'SEP'));
+        return NULL;
     } // otras_regiones
+
+    /**
+     * Mapas
+     *
+     * @return string Código HTML con el iframe de Carto
+     */
+    public function mapas() {
+        return NULL;
+    } // mapas
 
     /**
      * Observaciones

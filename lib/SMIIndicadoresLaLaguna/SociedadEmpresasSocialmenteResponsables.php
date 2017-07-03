@@ -81,12 +81,7 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -95,13 +90,17 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2016-05-24', 'valor' => '0.0309', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-05-24', 'valor' => '0.0214', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2016-05-24', 'valor' => '0.0000', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2016-05-24', 'valor' => '0.0000', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'));
+        return NULL;
     } // otras_regiones
+
+    /**
+     * Mapas
+     *
+     * @return string Código HTML con el iframe de Carto
+     */
+    public function mapas() {
+        return NULL;
+    } // mapas
 
     /**
      * Observaciones

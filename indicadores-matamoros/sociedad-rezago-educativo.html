@@ -197,7 +197,6 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -214,72 +213,6 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
       <tr>
         <td>2010-12-31</td>
         <td>19.2000</td>
-        <td>CONEVAL</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Rezago Educativo en Matamoros</h3>
-    <div id="SmiOtrasRegionesRezagoEducativoEnMatamorosGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesRezagoEducativoEnMatamorosTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2010-12-31</td>
-        <td>10.8300</td>
-        <td>CONEVAL</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2010-12-31</td>
-        <td>17.3100</td>
-        <td>CONEVAL</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2010-12-31</td>
-        <td>16.7600</td>
-        <td>CONEVAL</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2010-12-31</td>
-        <td>19.2000</td>
-        <td>CONEVAL</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2010-12-31</td>
-        <td>12.1000</td>
-        <td>CONEVAL</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2010-12-31</td>
-        <td>18.6000</td>
-        <td>CONEVAL</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2010-12-31</td>
-        <td>20.6000</td>
         <td>CONEVAL</td>
         <td class="nd">N/D</td>
       </tr>
@@ -381,19 +314,6 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesRezagoEducativoEnMatamorosGrafica === 'undefined') {
-    varSmiOtrasRegionesRezagoEducativoEnMatamorosGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesRezagoEducativoEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 10.8300 },{ region: 'Gómez Palacio', dato: 17.3100 },{ region: 'Lerdo', dato: 16.7600 },{ region: 'Matamoros', dato: 19.2000 },{ region: 'Coahuila', dato: 12.1000 },{ region: 'Durango', dato: 18.6000 },{ region: 'Nacional', dato: 20.6000 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

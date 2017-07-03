@@ -190,7 +190,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -259,79 +258,6 @@
     <h3>Inversión Per cápita en Torreón </h3>
 
     <div id="SmiGraficasInversionPerCapitaEnTorreon" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Inversión Per cápita en Torreón</h3>
-    <div id="SmiOtrasRegionesInversionPerCapitaEnTorreonGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesInversionPerCapitaEnTorreonTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2014-12-31</td>
-        <td>570.42</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2014-12-31</td>
-        <td>339.25</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2014-12-31</td>
-        <td>546.12</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2014-12-31</td>
-        <td>585.97</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2014-12-31</td>
-        <td>506.52</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2014-12-31</td>
-        <td>475.91</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2014-12-31</td>
-        <td>659.04</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2014-12-31</td>
-        <td>534.84</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -461,19 +387,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesInversionPerCapitaEnTorreonGrafica === 'undefined') {
-    varSmiOtrasRegionesInversionPerCapitaEnTorreonGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesInversionPerCapitaEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 570.42 },{ region: 'Gómez Palacio', dato: 339.25 },{ region: 'Lerdo', dato: 546.12 },{ region: 'Matamoros', dato: 585.97 },{ region: 'La Laguna', dato: 506.52 },{ region: 'Coahuila', dato: 475.91 },{ region: 'Durango', dato: 659.04 },{ region: 'Nacional', dato: 534.84 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

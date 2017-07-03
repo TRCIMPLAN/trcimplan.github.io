@@ -190,7 +190,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -295,79 +294,6 @@
     <h3>Médicos en Matamoros </h3>
 
     <div id="SmiGraficasMedicosEnMatamoros" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Médicos en Matamoros</h3>
-    <div id="SmiOtrasRegionesMedicosEnMatamorosGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesMedicosEnMatamorosTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2014-12-31</td>
-        <td>2.1000</td>
-        <td>SINAIS (SSA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2014-12-31</td>
-        <td>4.3000</td>
-        <td>SINAIS (SSA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2014-12-31</td>
-        <td>6.3000</td>
-        <td>SINAIS (SSA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2014-12-31</td>
-        <td>4.4000</td>
-        <td>SINAIS (SSA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2014-12-31</td>
-        <td>3.4000</td>
-        <td>SINAIS (SSA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2014-12-31</td>
-        <td>4.5000</td>
-        <td>SINAIS (SSA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2014-12-31</td>
-        <td>8.8000</td>
-        <td>SINAIS (SSA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2014-12-31</td>
-        <td>8.3000</td>
-        <td>SINAIS (SSA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -507,19 +433,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesMedicosEnMatamorosGrafica === 'undefined') {
-    varSmiOtrasRegionesMedicosEnMatamorosGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesMedicosEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 2.1000 },{ region: 'Gómez Palacio', dato: 4.3000 },{ region: 'Lerdo', dato: 6.3000 },{ region: 'Matamoros', dato: 4.4000 },{ region: 'La Laguna', dato: 3.4000 },{ region: 'Coahuila', dato: 4.5000 },{ region: 'Durango', dato: 8.8000 },{ region: 'Nacional', dato: 8.3000 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

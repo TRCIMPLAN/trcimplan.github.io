@@ -191,7 +191,6 @@
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -283,58 +282,6 @@ Costo (% de cantidad demandada) = 27,9</td>
     <h3>Ejecución de Contratos en Torreón con fuente IMCO</h3>
 
     <div id="SmiGraficasEjecucionDeContratosEnTorreonImco" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Ejecución de Contratos en Torreón</h3>
-    <div id="SmiOtrasRegionesEjecucionDeContratosEnTorreonGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesEjecucionDeContratosEnTorreonTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2015-12-31</td>
-        <td>200</td>
-        <td>Doing Business</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2012-12-31</td>
-        <td>243</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2012-12-31</td>
-        <td>243</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2012-12-31</td>
-        <td>270</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2012-12-31</td>
-        <td>256.5000</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -469,19 +416,6 @@ Costo (% de cantidad demandada) = 27,9</td>
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesEjecucionDeContratosEnTorreonGrafica === 'undefined') {
-    varSmiOtrasRegionesEjecucionDeContratosEnTorreonGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesEjecucionDeContratosEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 200 },{ region: 'Gómez Palacio', dato: 243 },{ region: 'Lerdo', dato: 243 },{ region: 'Matamoros', dato: 270 },{ region: 'La Laguna', dato: 256.5000 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

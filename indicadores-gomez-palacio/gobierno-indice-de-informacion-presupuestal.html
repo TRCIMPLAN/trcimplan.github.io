@@ -190,7 +190,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -259,72 +258,6 @@
     <h3>Índice de Información Presupuestal en Gómez Palacio </h3>
 
     <div id="SmiGraficasIndiceDeInformacionPresupuestalEnGomezPalacio" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Índice de Información Presupuestal en Gómez Palacio</h3>
-    <div id="SmiOtrasRegionesIndiceDeInformacionPresupuestalEnGomezPalacioGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesIndiceDeInformacionPresupuestalEnGomezPalacioTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2015-12-08</td>
-        <td>100.0000</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2015-12-08</td>
-        <td>30.0000</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2015-12-08</td>
-        <td>33.0000</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2015-12-08</td>
-        <td>100.0000</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2015-12-08</td>
-        <td>65.7500</td>
-        <td>IMCO</td>
-        <td>Promedio de las calificaciones de los cuatro municipios metropolitanos.</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2015-12-01</td>
-        <td>100.0000</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2015-12-01</td>
-        <td>72.0000</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -426,19 +359,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesIndiceDeInformacionPresupuestalEnGomezPalacioGrafica === 'undefined') {
-    varSmiOtrasRegionesIndiceDeInformacionPresupuestalEnGomezPalacioGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesIndiceDeInformacionPresupuestalEnGomezPalacioGrafica',
-      data: [{ region: 'Torreón', dato: 100.0000 },{ region: 'Gómez Palacio', dato: 30.0000 },{ region: 'Lerdo', dato: 33.0000 },{ region: 'Matamoros', dato: 100.0000 },{ region: 'La Laguna', dato: 65.7500 },{ region: 'Coahuila', dato: 100.0000 },{ region: 'Durango', dato: 72.0000 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

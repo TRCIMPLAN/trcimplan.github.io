@@ -188,11 +188,14 @@
 <!-- Contenido: Inicia  -->
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
-    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorMapas" aria-controls="LenguetasIndicadorMapas" role="tab" data-toggle="tab">Mapas</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorMapas">
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/476c744c-de26-11e4-b88e-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorDatos">
   <table id="SmiDatosMaternidadAdolescenteEnTorreon" class="table table-hover table-bordered">
     <thead>
       <tr>
@@ -206,51 +209,6 @@
       <tr>
         <td>2010-12-31</td>
         <td>13.9000</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Maternidad Adolescente en Torreón</h3>
-    <div id="SmiOtrasRegionesMaternidadAdolescenteEnTorreonGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesMaternidadAdolescenteEnTorreonTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2010-12-31</td>
-        <td>13.9000</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2010-12-31</td>
-        <td>16.3000</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2010-12-31</td>
-        <td>17.2000</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2010-12-31</td>
-        <td>19.9000</td>
         <td>INEGI</td>
         <td class="nd">N/D</td>
       </tr>
@@ -358,22 +316,9 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesMaternidadAdolescenteEnTorreonGrafica === 'undefined') {
-    varSmiOtrasRegionesMaternidadAdolescenteEnTorreonGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesMaternidadAdolescenteEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 13.9000 },{ region: 'Gómez Palacio', dato: 16.3000 },{ region: 'Lerdo', dato: 17.2000 },{ region: 'Matamoros', dato: 19.9000 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-  })
-  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  // LenguetasWeb LenguetasIndicador ordenar que Mapas es la que se mostrará
   $(document).ready(function(){
-    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorMapas"]').tab('show')
   });
 </script>
 <script>

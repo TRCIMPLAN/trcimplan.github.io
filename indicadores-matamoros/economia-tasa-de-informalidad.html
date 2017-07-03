@@ -190,7 +190,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -344,79 +343,6 @@
 
     <div id="SmiGraficasTasaDeInformalidadEnMatamoros" class="grafica"></div>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Tasa de Informalidad en Matamoros</h3>
-    <div id="SmiOtrasRegionesTasaDeInformalidadEnMatamorosGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesTasaDeInformalidadEnMatamorosTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2017-03-31</td>
-        <td>45.9200</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2017-03-31</td>
-        <td>41.6500</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2017-03-31</td>
-        <td>41.8200</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2017-03-31</td>
-        <td>39.1000</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2017-03-31</td>
-        <td>43.4600</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2017-03-31</td>
-        <td>37.9200</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2017-03-31</td>
-        <td>52.2300</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2017-03-31</td>
-        <td>57.1700</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
   </div>
 </div>
 <!-- Contenido: Termina -->
@@ -551,19 +477,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesTasaDeInformalidadEnMatamorosGrafica === 'undefined') {
-    varSmiOtrasRegionesTasaDeInformalidadEnMatamorosGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesTasaDeInformalidadEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 45.9200 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 43.4600 },{ region: 'Coahuila', dato: 37.9200 },{ region: 'Durango', dato: 52.2300 },{ region: 'Nacional', dato: 57.1700 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

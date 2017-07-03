@@ -188,12 +188,15 @@
 <!-- Contenido: Inicia  -->
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
-    <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation" class="active"><a href="#LenguetasIndicadorMapas" aria-controls="LenguetasIndicadorMapas" role="tab" data-toggle="tab">Mapas</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorMapas">
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/fb82a410-de21-11e4-b994-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorDatos">
   <table id="SmiDatosViviendasConDrenajeEnTorreon" class="table table-hover table-bordered">
     <thead>
       <tr>
@@ -223,58 +226,6 @@
     <h3>Viviendas con Drenaje en Torreón </h3>
 
     <div id="SmiGraficasViviendasConDrenajeEnTorreon" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Viviendas con Drenaje en Torreón</h3>
-    <div id="SmiOtrasRegionesViviendasConDrenajeEnTorreonGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesViviendasConDrenajeEnTorreonTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2015-12-31</td>
-        <td>98.1300</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2015-12-31</td>
-        <td>95.9500</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2015-12-31</td>
-        <td>95.7700</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2015-12-31</td>
-        <td>94.0700</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2010-12-31</td>
-        <td>96.2600</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -403,22 +354,9 @@
     });
   }
   })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesViviendasConDrenajeEnTorreonGrafica === 'undefined') {
-    varSmiOtrasRegionesViviendasConDrenajeEnTorreonGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesViviendasConDrenajeEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 98.1300 },{ region: 'Gómez Palacio', dato: 95.9500 },{ region: 'Lerdo', dato: 95.7700 },{ region: 'Matamoros', dato: 94.0700 },{ region: 'La Laguna', dato: 96.2600 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-  })
-  // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
+  // LenguetasWeb LenguetasIndicador ordenar que Mapas es la que se mostrará
   $(document).ready(function(){
-    $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
+    $('#LenguetasIndicador a[href="#LenguetasIndicadorMapas"]').tab('show')
   });
 </script>
 <script>

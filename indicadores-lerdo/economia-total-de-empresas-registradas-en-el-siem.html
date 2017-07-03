@@ -188,7 +188,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -221,79 +220,6 @@
     <h3>Total de Empresas Registradas en el SIEM en Lerdo </h3>
 
     <div id="SmiGraficasTotalDeEmpresasRegistradasEnElSiemEnLerdo" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Total de Empresas Registradas en el SIEM en Lerdo</h3>
-    <div id="SmiOtrasRegionesTotalDeEmpresasRegistradasEnElSiemEnLerdoGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesTotalDeEmpresasRegistradasEnElSiemEnLerdoTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2014-07-31</td>
-        <td>7402</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2014-07-31</td>
-        <td>2032</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2014-07-31</td>
-        <td>178</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2014-07-31</td>
-        <td>173</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2014-07-31</td>
-        <td>9785</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2014-07-31</td>
-        <td>17810</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2014-07-31</td>
-        <td>7193</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2014-07-31</td>
-        <td>701136</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -399,19 +325,6 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesTotalDeEmpresasRegistradasEnElSiemEnLerdoGrafica === 'undefined') {
-    varSmiOtrasRegionesTotalDeEmpresasRegistradasEnElSiemEnLerdoGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesTotalDeEmpresasRegistradasEnElSiemEnLerdoGrafica',
-      data: [{ region: 'Torreón', dato: 7402 },{ region: 'Gómez Palacio', dato: 2032 },{ region: 'Lerdo', dato: 178 },{ region: 'Matamoros', dato: 173 },{ region: 'La Laguna', dato: 9785 },{ region: 'Coahuila', dato: 17810 },{ region: 'Durango', dato: 7193 },{ region: 'Nacional', dato: 701136 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

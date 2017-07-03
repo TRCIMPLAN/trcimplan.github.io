@@ -190,7 +190,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -271,79 +270,6 @@
     <h3>Adultos Mayores en Matamoros </h3>
 
     <div id="SmiGraficasAdultosMayoresEnMatamoros" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Adultos Mayores en Matamoros</h3>
-    <div id="SmiOtrasRegionesAdultosMayoresEnMatamorosGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesAdultosMayoresEnMatamorosTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2016-06-30</td>
-        <td>49020</td>
-        <td>CONAPO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2016-06-30</td>
-        <td>21943</td>
-        <td>CONAPO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2016-06-30</td>
-        <td>10152</td>
-        <td>CONAPO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2016-06-30</td>
-        <td>7999</td>
-        <td>CONAPO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2016-06-30</td>
-        <td>89114</td>
-        <td>CONAPO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2016-06-30</td>
-        <td>202680</td>
-        <td>CONAPO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2016-06-30</td>
-        <td>126999</td>
-        <td>CONAPO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2016-06-30</td>
-        <td>8378769</td>
-        <td>CONAPO</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -455,19 +381,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesAdultosMayoresEnMatamorosGrafica === 'undefined') {
-    varSmiOtrasRegionesAdultosMayoresEnMatamorosGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesAdultosMayoresEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 49020 },{ region: 'Gómez Palacio', dato: 21943 },{ region: 'Lerdo', dato: 10152 },{ region: 'Matamoros', dato: 7999 },{ region: 'La Laguna', dato: 89114 },{ region: 'Coahuila', dato: 202680 },{ region: 'Durango', dato: 126999 },{ region: 'Nacional', dato: 8378769 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

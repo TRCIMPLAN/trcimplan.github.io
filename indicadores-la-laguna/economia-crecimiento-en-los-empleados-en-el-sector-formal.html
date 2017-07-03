@@ -194,7 +194,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -245,58 +244,6 @@
     <h3>Crecimiento en los Empleados en el Sector Formal en La Laguna </h3>
 
     <div id="SmiGraficasCrecimientoEnLosEmpleadosEnElSectorFormalEnLaLaguna" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Crecimiento en los Empleados en el Sector Formal en La Laguna</h3>
-    <div id="SmiOtrasRegionesCrecimientoEnLosEmpleadosEnElSectorFormalEnLaLagunaGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesCrecimientoEnLosEmpleadosEnElSectorFormalEnLaLagunaTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2012-12-31</td>
-        <td>-5.6600</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2012-12-31</td>
-        <td>-9.7700</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2012-12-31</td>
-        <td>-14.2700</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2012-12-31</td>
-        <td>-4.2700</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2012-12-31</td>
-        <td>-7.4600</td>
-        <td>IMCO</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -405,19 +352,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesCrecimientoEnLosEmpleadosEnElSectorFormalEnLaLagunaGrafica === 'undefined') {
-    varSmiOtrasRegionesCrecimientoEnLosEmpleadosEnElSectorFormalEnLaLagunaGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesCrecimientoEnLosEmpleadosEnElSectorFormalEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: -5.6600 },{ region: 'Gómez Palacio', dato: -9.7700 },{ region: 'Lerdo', dato: -14.2700 },{ region: 'Matamoros', dato: -4.2700 },{ region: 'La Laguna', dato: -7.4600 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

@@ -190,7 +190,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -307,79 +306,6 @@
     <h3>Motorización en Torreón </h3>
 
     <div id="SmiGraficasMotorizacionEnTorreon" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Motorización en Torreón</h3>
-    <div id="SmiOtrasRegionesMotorizacionEnTorreonGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesMotorizacionEnTorreonTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2015-12-31</td>
-        <td>211</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2015-12-31</td>
-        <td>405</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2015-12-31</td>
-        <td>304</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2015-12-31</td>
-        <td>170</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2015-12-31</td>
-        <td>271</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2015-12-31</td>
-        <td>257</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2015-12-31</td>
-        <td>325</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2015-12-31</td>
-        <td>245</td>
-        <td>INEGI</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -532,19 +458,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesMotorizacionEnTorreonGrafica === 'undefined') {
-    varSmiOtrasRegionesMotorizacionEnTorreonGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesMotorizacionEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 211 },{ region: 'Gómez Palacio', dato: 405 },{ region: 'Lerdo', dato: 304 },{ region: 'Matamoros', dato: 170 },{ region: 'La Laguna', dato: 271 },{ region: 'Coahuila', dato: 257 },{ region: 'Durango', dato: 325 },{ region: 'Nacional', dato: 245 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

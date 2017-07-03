@@ -190,7 +190,6 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -271,37 +270,6 @@
     <h3>Pasajeros Aéreos Totales Anual en Torreón </h3>
 
     <div id="SmiGraficasPasajerosAereosTotalesAnualEnTorreon" class="grafica"></div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Pasajeros Aéreos Totales Anual en Torreón</h3>
-    <div id="SmiOtrasRegionesPasajerosAereosTotalesAnualEnTorreonGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesPasajerosAereosTotalesAnualEnTorreonTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2015-12-31</td>
-        <td>556449</td>
-        <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2014-12-31</td>
-        <td>523783</td>
-        <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
   </div>
   </div>
 </div>
@@ -428,19 +396,6 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-  })
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesPasajerosAereosTotalesAnualEnTorreonGrafica === 'undefined') {
-    varSmiOtrasRegionesPasajerosAereosTotalesAnualEnTorreonGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesPasajerosAereosTotalesAnualEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 556449 },{ region: 'La Laguna', dato: 523783 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
     });
   }
   })

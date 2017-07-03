@@ -104,6 +104,15 @@ Costo (% del valor de la propiedad) = 4,5'),
     } // otras_regiones
 
     /**
+     * Mapas
+     *
+     * @return string Código HTML con el iframe de Carto
+     */
+    public function mapas() {
+        return NULL;
+    } // mapas
+
+    /**
      * Observaciones
      *
      * @return string Markdown

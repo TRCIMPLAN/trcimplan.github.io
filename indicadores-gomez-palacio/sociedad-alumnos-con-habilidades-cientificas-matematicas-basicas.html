@@ -189,7 +189,6 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -206,79 +205,6 @@
       <tr>
         <td>2015-12-01</td>
         <td>16.7000</td>
-        <td>SEP</td>
-        <td class="nd">N/D</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
-    <h3>Últimos datos de Alumnos con Habilidades Científicas-Matemáticas Básicas en Gómez Palacio</h3>
-    <div id="SmiOtrasRegionesAlumnosConHabilidadesCientificasMatematicasBasicasEnGomezPalacioGrafica" class="grafica"></div>
-  <table id="SmiOtrasRegionesAlumnosConHabilidadesCientificasMatematicasBasicasEnGomezPalacioTabla" class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <th>Región</th>
-        <th>Fecha</th>
-        <th>Dato</th>
-        <th>Fuente</th>
-        <th>Notas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Torreón</td>
-        <td>2015-12-01</td>
-        <td>17.4000</td>
-        <td>SEP</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td>2015-12-01</td>
-        <td>16.7000</td>
-        <td>SEP</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Lerdo</td>
-        <td>2015-12-01</td>
-        <td>16.4000</td>
-        <td>SEP</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Matamoros</td>
-        <td>2015-12-01</td>
-        <td>17.1000</td>
-        <td>SEP</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>La Laguna</td>
-        <td>2015-12-01</td>
-        <td>17.0000</td>
-        <td>SEP</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Coahuila</td>
-        <td>2015-12-01</td>
-        <td>18.1000</td>
-        <td>SEP</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Durango</td>
-        <td>2015-12-01</td>
-        <td>18.5000</td>
-        <td>SEP</td>
-        <td class="nd">N/D</td>
-      </tr>
-      <tr>
-        <td>Nacional</td>
-        <td>2015-12-01</td>
-        <td>18.9000</td>
         <td>SEP</td>
         <td class="nd">N/D</td>
       </tr>
@@ -375,19 +301,6 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiOtrasRegionesAlumnosConHabilidadesCientificasMatematicasBasicasEnGomezPalacioGrafica === 'undefined') {
-    varSmiOtrasRegionesAlumnosConHabilidadesCientificasMatematicasBasicasEnGomezPalacioGrafica = Morris.Bar({
-      element: 'SmiOtrasRegionesAlumnosConHabilidadesCientificasMatematicasBasicasEnGomezPalacioGrafica',
-      data: [{ region: 'Torreón', dato: 17.4000 },{ region: 'Gómez Palacio', dato: 16.7000 },{ region: 'Lerdo', dato: 16.4000 },{ region: 'Matamoros', dato: 17.1000 },{ region: 'La Laguna', dato: 17.0000 },{ region: 'Coahuila', dato: 18.1000 },{ region: 'Durango', dato: 18.5000 },{ region: 'Nacional', dato: 18.9000 }],
-      xkey: 'region',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      barColors: ['#FF5B02']
-    });
-  }
-  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

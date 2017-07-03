@@ -76,12 +76,7 @@ class EconomiaEmpresasExportadoras extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -90,13 +85,17 @@ class EconomiaEmpresasExportadoras extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-11-24', 'valor' => '113', 'fuente_nombre' => 'Secretaría de Economía'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-11-24', 'valor' => '55', 'fuente_nombre' => 'Secretaría de Economía'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2014-11-24', 'valor' => '11', 'fuente_nombre' => 'Secretaría de Economía'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2014-11-24', 'valor' => '5', 'fuente_nombre' => 'Secretaría de Economía'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-11-24', 'valor' => '184', 'fuente_nombre' => 'Secretaría de Economía'));
+        return NULL;
     } // otras_regiones
+
+    /**
+     * Mapas
+     *
+     * @return string Código HTML con el iframe de Carto
+     */
+    public function mapas() {
+        return NULL;
+    } // mapas
 
     /**
      * Observaciones

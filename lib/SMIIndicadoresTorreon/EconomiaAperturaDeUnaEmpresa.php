@@ -106,6 +106,15 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0'),
     } // otras_regiones
 
     /**
+     * Mapas
+     *
+     * @return string Código HTML con el iframe de Carto
+     */
+    public function mapas() {
+        return NULL;
+    } // mapas
+
+    /**
      * Observaciones
      *
      * @return string Markdown
