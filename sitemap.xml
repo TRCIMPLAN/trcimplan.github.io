@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-07-03</lastmod>
+    <lastmod>2017-07-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -853,6 +853,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/relaciones-internacionales.html</loc>
     <lastmod>2014-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/reserva-ecologica-municipal-sierra-y-canon-de-jimulco.html</loc>
+    <lastmod>2017-07-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
