@@ -67,7 +67,6 @@ class EjeDemografiaTablaWeb extends EjeDemografia implements SalidaWeb {
                 array('indicador' => 'Porcentaje de población de 65 y más años',      'valor' => $this->formatear('Porcentaje de población de 65 y más años')),
                 array('indicador' => 'Porcentaje de población no especificada',       'valor' => $this->formatear('Porcentaje de población no especificada')),
                 array('indicador' => 'Fecundidad promedio',                           'valor' => $this->formatear('Fecundidad promedio')),
-            //  array('indicador' => 'Porcentaje de población nacida en otro estado', 'valor' => $this->formatear('Porcentaje de población nacida en otro estado')),
                 array('indicador' => 'Porcentaje de población con discapacidad',      'valor' => $this->formatear('Porcentaje de población con discapacidad'))
             )
         );

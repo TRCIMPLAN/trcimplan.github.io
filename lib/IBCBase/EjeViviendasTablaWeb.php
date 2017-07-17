@@ -60,16 +60,13 @@ class EjeViviendasTablaWeb extends EjeViviendas implements SalidaWeb {
         $this->tabla->definir_panal(
             array(
                 array('indicador' => 'Hogares',                        'valor' => $this->formatear('Hogares')),
-            //  array('indicador' => 'Hogares con jefatura masculina', 'valor' => $this->formatear('Hogares Jefatura masculina')),
-            //  array('indicador' => 'Hogares con jefatura femenina',  'valor' => $this->formatear('Hogares Jefatura femenina')),
+                array('indicador' => 'Ocupación por Vivienda',         'valor' => $this->formatear('Ocupación por Vivienda')),
                 array('indicador' => 'Viviendas con Electricidad',     'valor' => $this->formatear('Viviendas con Electricidad')),
                 array('indicador' => 'Viviendas con Agua',             'valor' => $this->formatear('Viviendas con Agua')),
                 array('indicador' => 'Viviendas con Drenaje',          'valor' => $this->formatear('Viviendas con Drenaje')),
                 array('indicador' => 'Viviendas con Televisión',       'valor' => $this->formatear('Viviendas con Televisión')),
                 array('indicador' => 'Viviendas con Automóvil',        'valor' => $this->formatear('Viviendas con Automóvil')),
                 array('indicador' => 'Viviendas con Computadora',      'valor' => $this->formatear('Viviendas con Computadora'))
-            //  array('indicador' => 'Viviendas con Celular',          'valor' => $this->formatear('Viviendas con Celular')),
-            //  array('indicador' => 'Viviendas con Internet',         'valor' => $this->formatear('Viviendas con Internet'))
             )
         );
     } // preparar

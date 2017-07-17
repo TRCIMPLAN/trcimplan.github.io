@@ -67,12 +67,6 @@ class EjeDemografiaGraficasWeb extends EjeDemografia implements SalidaWeb {
         $graf_pob_rang->agregar('De 65 y más años', $this->demografia['Porcentaje de población de 65 y más años'], '#15630E');
         $graf_pob_rang->agregar('No especificada',  $this->demografia['Porcentaje de población no especificada'],  '#BFBFBF');
         $this->graficas[] = $graf_pob_rang;
-        // Gráfica Población Nacida en Otro Estado
-    //  $graf_pob_nac_otro_edo = new GraficaPayWeb(self::ID_GRAF_POB_NAC_OTRO_EDO);
-    //  $graf_pob_nac_otro_edo->definir_titulo('Nacida en otro estado');
-    //  $graf_pob_nac_otro_edo->agregar('Nacida en OTRO estado',       $this->demografia['Porcentaje de población nacida en otro estado'], '#7E00A8');
-    //  $graf_pob_nac_otro_edo->agregar('Nacida en este estado', 100 - $this->demografia['Porcentaje de población nacida en otro estado'], '#BFBFBF');
-    //  $this->graficas[] = $graf_pob_nac_otro_edo;
         // Gráfica Población con Discapacidad
         $graf_pob_disc = new GraficaPayWeb(self::ID_GRAF_POB_DISC);
         $graf_pob_disc->definir_titulo('Con discapacidad');

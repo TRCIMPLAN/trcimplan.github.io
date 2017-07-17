@@ -51,12 +51,6 @@ class EjeViviendasGraficasWeb extends EjeViviendas implements SalidaWeb {
             $this->graficas[] = $mensaje;
             return;
         }
-        // Gráfica Hogares Jefatura
-    //  $graf_hog_jef = new GraficaPayWeb(self::ID_GRAF_HOG_JEF);
-    //  $graf_hog_jef->definir_titulo('Hogares con jefatura...');
-    //  $graf_hog_jef->agregar('Masculina', $this->viviendas['Hogares Jefatura masculina'], '#006AC8');
-    //  $graf_hog_jef->agregar('Femenina',  $this->viviendas['Hogares Jefatura femenina'],  '#C80083');
-    //  $this->graficas[] = $graf_hog_jef;
         // Gráfica Viviendas con...
         $graf_viv_con = new GraficaBarrasWeb(self::ID_GRAF_VIV_CON);
         $graf_viv_con->definir_titulo('Viviendas con...');
@@ -66,8 +60,6 @@ class EjeViviendasGraficasWeb extends EjeViviendas implements SalidaWeb {
         $graf_viv_con->agregar('Televisión',   $this->viviendas['Viviendas con Televisión'],   '#59C38E');
         $graf_viv_con->agregar('Automóvil',    $this->viviendas['Viviendas con Automóvil'],    '#8EC359');
         $graf_viv_con->agregar('Computadora',  $this->viviendas['Viviendas con Computadora'],  '#C38E59');
-    //  $graf_viv_con->agregar('Celular',      $this->viviendas['Viviendas con Celular'],      '#FF8080');
-    //  $graf_viv_con->agregar('Internet',     $this->viviendas['Viviendas con Internet'],     '#FF80C0');
         $graf_viv_con->definir_eje_horizontal('Porcentaje', 0, 100);
         $graf_viv_con->definir_post_nota(' %');
         $this->graficas[] = $graf_viv_con;
