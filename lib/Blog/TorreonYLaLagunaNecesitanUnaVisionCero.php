@@ -34,7 +34,7 @@ class TorreonYLaLagunaNecesitanUnaVisionCero extends \Base\PublicacionSchemaBlog
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Torreón y La Laguna necesitan una "Visión Cero"';
+        $this->nombre                     = 'Torreón y La Laguna necesitan una Visión Cero';
         $this->autor                      = 'Lic. Adriana Vargas Flores';
         $this->fecha                      = '2017-07-17T14:45';
         // El nombre del archivo a crear
