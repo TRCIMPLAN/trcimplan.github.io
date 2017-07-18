@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-07-17</lastmod>
+    <lastmod>2017-07-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3498,6 +3498,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2016-12-15-firma-convenio-colaboracion-uadec.html</loc>
     <lastmod>2016-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-07-18-firman-convenio-de-colaboracion-implan-torreon-implan-saltillo.html</loc>
+    <lastmod>2017-07-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
