@@ -420,6 +420,12 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td class="nd">N/D</td>
       </tr>
+      <tr>
+        <td>2017-06-30</td>
+        <td>0</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="nd">N/D</td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -444,36 +450,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td>2017-05-31</td>
-        <td>0</td>
+        <td>2017-06-30</td>
+        <td>2</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td>2017-05-31</td>
-        <td>0</td>
+        <td>2017-06-30</td>
+        <td>1</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td>2017-05-31</td>
+        <td>2017-06-30</td>
         <td>0</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td>2017-05-31</td>
+        <td>2017-06-30</td>
         <td>0</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td>2017-05-31</td>
-        <td>0</td>
+        <td>2017-06-30</td>
+        <td>3</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td class="nd">N/D</td>
       </tr>
@@ -623,7 +629,8 @@
         { fecha: '2017-02-28', dato: 0 },
         { fecha: '2017-03-31', dato: 0 },
         { fecha: '2017-04-30', dato: 0 },
-        { fecha: '2017-05-31', dato: 0 }],
+        { fecha: '2017-05-31', dato: 0 },
+        { fecha: '2017-06-30', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -638,7 +645,7 @@
   if (typeof varSmiOtrasRegionesSecuestrosEnLerdoGrafica === 'undefined') {
     varSmiOtrasRegionesSecuestrosEnLerdoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesSecuestrosEnLerdoGrafica',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 }],
+      data: [{ region: 'Torreón', dato: 2 },{ region: 'Gómez Palacio', dato: 1 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 3 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

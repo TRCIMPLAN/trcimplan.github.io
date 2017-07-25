@@ -95,7 +95,8 @@ class SeguridadDelitosPatrimoniales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-02-28', 'valor' => '292', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2017-03-31', 'valor' => '345', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
             array('fecha' => '2017-04-30', 'valor' => '276', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2017-05-31', 'valor' => '335', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
+            array('fecha' => '2017-05-31', 'valor' => '335', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2017-06-30', 'valor' => '436', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // datos
 
     /**
@@ -119,11 +120,11 @@ class SeguridadDelitosPatrimoniales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2017-05-31', 'valor' => '152', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-05-31', 'valor' => '135', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2017-05-31', 'valor' => '35', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2017-05-31', 'valor' => '13', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2017-05-31', 'valor' => '335', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2017-06-30', 'valor' => '204', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-06-30', 'valor' => '157', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2017-06-30', 'valor' => '45', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2017-06-30', 'valor' => '30', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2017-06-30', 'valor' => '436', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
     /**

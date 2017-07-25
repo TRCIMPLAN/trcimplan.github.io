@@ -96,8 +96,8 @@ class SeguridadTasaDeRoboDeVehiculoSinViolencia extends \SMIBase\PublicacionWeb 
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-03-31', 'valor' => 'Y', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => 'El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-03-31', 'valor' => 'Y', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => 'El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2015-03-31', 'valor' => 'Y', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => 'El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2017-05-31', 'valor' => '10.8600', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Durango', 'fecha' => '2017-05-31', 'valor' => '28.4600', 'fuente_nombre' => 'Ayuntamiento de Torreón'));
+            array('region_nombre' => 'Coahuila', 'fecha' => '2017-06-30', 'valor' => '13.3000', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('region_nombre' => 'Durango', 'fecha' => '2017-06-30', 'valor' => '32.7300', 'fuente_nombre' => 'Ayuntamiento de Torreón'));
     } // otras_regiones
 
     /**
