@@ -4,14 +4,15 @@
 <div class="media">
 <div class="media-left"><a class="pull-left" href="trcimplan-smi.csv"><img class="media-object" src="datos-abiertos/faenza-csv-128.png" alt="Descargar los datos del SMI"></a></div>
 <div class="media-body">
-
-* Archivo de [texto separado por comas CSV](https://es.wikipedia.org/wiki/CSV).
-* La codificación de los caracteres es [UTF-8](https://es.wikipedia.org/wiki/UTF-8).
-* La primera línea tiene los nombres de las columnas.
-* En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).
-* Cantidad de filas: **8,381 filas.**
-* Elaboración: **26/07/17 12:53.**.
-
+<ul>
+<li><a href="trcimplan-smi.csv">De clic aquí para descargar el archivo trcimplan-smi.csv</a></li>
+<li>Lea qué es el formato <a href="https://es.wikipedia.org/wiki/CSV">texto separado por comas CSV</a> en Wikipedia.</li>
+<li>La codificación de los caracteres es <a href="https://es.wikipedia.org/wiki/UTF-8">UTF-8</a>.</li>
+<li>La primera línea tiene los nombres de las columnas.</li>
+<li>En mayúsculas y sin acentos.</li>
+<li>Cantidad de filas: <b>8,381.</b></li>
+<li>Elaboración: <b>26/07/17 13:10.</b></li>
+</ul>
 </div>
 </div>
 
