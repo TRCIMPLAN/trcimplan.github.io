@@ -1,27 +1,19 @@
 
-<h3><a href="trcimplan-smi.zip">Descargar los datos del SMI</a></h3>
+### Descargar los datos del SMI
 
 <div class="media">
-<div class="media-left"><a class="pull-left" href="trcimplan-smi.zip"><img class="media-object" src="datos-abiertos/faenza-zip-128.png" alt="Descargar los datos del SMI"></a></div>
+<div class="media-left"><a class="pull-left" href="trcimplan-smi.csv"><img class="media-object" src="datos-abiertos/faenza-csv-128.png" alt="Descargar los datos del SMI"></a></div>
 <div class="media-body">
-<ul>
-<li>Archivo ZIP que al descomprimir entrega un <a href="https://es.wikipedia.org/wiki/CSV" target="_blank">texto separado por comas CSV</a>.</li>
-<li>La codificación de los caracteres es <a href="https://es.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8</a>.</li>
-<li>La primera línea tiene los nombres de las columnas.</li>
-<li>En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).</li>
-<li>Cantidad de filas: <b>7,547 filas</b>.</li>
-<li>Elaboración: <b>24 febrero 2017 12:49</b>.</li>
-</ul>
+
+* Archivo de [texto separado por comas CSV](https://es.wikipedia.org/wiki/CSV).
+* La codificación de los caracteres es [UTF-8](https://es.wikipedia.org/wiki/UTF-8).
+* La primera línea tiene los nombres de las columnas.
+* En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).
+* Cantidad de filas: **8,381 filas.**
+* Elaboración: **26/07/17 12:53.**.
+
 </div>
 </div>
-
-### Los mismos Datos Abiertos separados por municipios y regiones
-
-* [Torreón](trcimplan-smi-torreon.zip): 1,607 filas.
-* [Gómez Palacio](trcimplan-smi-gomez-palacio.zip): 1,251 filas.
-* [Lerdo](trcimplan-smi-lerdo.zip): 1,248 filas.
-* [Matamoros](trcimplan-smi-matamoros.zip): 1,264 filas.
-* [La Laguna](trcimplan-smi-la-laguna.zip): 1,243 filas.
 
 ### ¿Qué son los datos abiertos?
 
@@ -48,3 +40,4 @@ El **formato de archivo CSV es simple y universal,** estructura los datos en fil
 <div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/ql0Kvx2Paa8?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 [Vea este mismo video en YouTube](https://www.youtube.com/watch?v=ql0Kvx2Paa8).
+
