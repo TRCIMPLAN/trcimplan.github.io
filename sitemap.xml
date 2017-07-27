@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-07-26</lastmod>
+    <lastmod>2017-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3168,6 +3168,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-07-conclusion.html</loc>
     <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/investigaciones/indice-basico-de-las-ciudades-prosperas-torreon-2016.html</loc>
+    <lastmod>2017-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
