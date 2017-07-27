@@ -1,5 +1,10 @@
 
-<a href="indice-basico-de-las-ciudades-prosperas-torreon-2016/indice-basico-de-las-ciudades-prosperas-torreon-2016.pdf"><img src="indice-basico-de-las-ciudades-prosperas-torreon-2016/imagen-previa.jpg" alt="Portada"> Descargar archivo indice-basico-de-las-ciudades-prosperas-torreon-2016.pdf de 111 páginas y 1.8 megabytes.</a>
+<div class="media breve">
+<a class="pull-left" href="indice-basico-de-las-ciudades-prosperas-torreon-2016/indice-basico-de-las-ciudades-prosperas-torreon-2016.pdf"><img src="indice-basico-de-las-ciudades-prosperas-torreon-2016/imagen.jpg" alt="Portada"></a>
+<div class="media-body">
+<a href="indice-basico-de-las-ciudades-prosperas-torreon-2016/indice-basico-de-las-ciudades-prosperas-torreon-2016.pdf">Descargar archivo <b>indice-basico-de-las-ciudades-prosperas-torreon-2016.pdf</b> de 111 páginas y 1.8 megabytes.</a>
+</div>
+</div>
 
 ### ¿Qué vía tienen que seguir las ciudades para ser más prósperas?
 
