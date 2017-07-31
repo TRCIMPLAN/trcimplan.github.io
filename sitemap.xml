@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-07-27</lastmod>
+    <lastmod>2017-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3543,6 +3543,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2016-07-21-nueva-gobernanza-construyendo-normas-con-los-habitantes-de-la-ciudad.html</loc>
     <lastmod>2016-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-07-28-onu-habitat-e-implan-presentan-el-indice-basico-de-ciudades-prosperas.html</loc>
+    <lastmod>2017-07-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
