@@ -39,7 +39,7 @@ class FirmanConvenioDeColaboracionImplanTorreonImplanSaltillo extends \Base\Publ
         // El nombre del archivo a crear
         $this->archivo                    = '2017-07-18-firman-convenio-de-colaboracion-implan-torreon-implan-saltillo';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'IMPLA Torreón recibió la visita de personal de IMPLAN Saltillo, además de la D.G. de Medio Ambiente de Torreón y firmaron convenios de colaboración para hacer el Atlas de Riesgo y otros proyectos más.';
+        $this->descripcion                = 'IMPLAN Torreón recibió la visita de personal de IMPLAN Saltillo, además de la D.G. de Medio Ambiente de Torreón y firmaron convenios de colaboración para hacer el Atlas de Riesgo y otros proyectos más.';
         $this->claves                     = 'IMPLAN, Torreon, Saltillo, Colaboración, Atlas de Riesgos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/FirmanConvenioDeColaboracionImplanTorreonImplanSaltillo.md';
