@@ -11,7 +11,7 @@
 <li>La primera línea tiene los nombres de las columnas.</li>
 <li>En mayúsculas y sin acentos.</li>
 <li>Cantidad de filas: <b>8,381.</b></li>
-<li>Elaboración: <b>26/07/17 13:10.</b></li>
+<li>Elaboración: <b>04/08/17 09:42.</b></li>
 </ul>
 </div>
 </div>

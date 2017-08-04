@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-08-02</lastmod>
+    <lastmod>2017-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4681,28 +4681,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-extorsion.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-homicidio-doloso.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -4711,7 +4691,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-secuestro.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-mensual-estatal-de-extorsion.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-mensual-estatal-de-homicidio-doloso.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-con-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-sin-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-mensual-estatal-de-secuestro.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5776,28 +5776,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-extorsion.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-homicidio-doloso.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5806,7 +5786,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-secuestro.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-mensual-estatal-de-extorsion.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-mensual-estatal-de-homicidio-doloso.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-con-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-sin-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-mensual-estatal-de-secuestro.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -6851,28 +6851,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-extorsion.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-homicidio-doloso.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6881,7 +6861,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-secuestro.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-mensual-estatal-de-extorsion.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-mensual-estatal-de-homicidio-doloso.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-con-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-sin-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-mensual-estatal-de-secuestro.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -7971,28 +7971,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-extorsion.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-homicidio-doloso.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8001,7 +7981,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-secuestro.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-mensual-estatal-de-extorsion.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-mensual-estatal-de-homicidio-doloso.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-con-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-sin-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-mensual-estatal-de-secuestro.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -9191,28 +9191,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-extorsion.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-homicidio-doloso.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
-    <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9221,7 +9201,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-secuestro.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-mensual-estatal-de-extorsion.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-mensual-estatal-de-homicidio-doloso.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-con-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-mensual-estatal-de-robo-de-vehiculo-sin-violencia.html</loc>
+    <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-mensual-estatal-de-secuestro.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
