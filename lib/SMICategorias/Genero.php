@@ -31,22 +31,26 @@ class Genero extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título y fecha
         $this->nombre        = 'Género';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo       = 'genero';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Género';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Género. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
         $this->claves        = 'IMPLAN, Indicadores, Categoría, Género';
-        // Para el Organizador
-        $this->categorias    = array();
-        $this->fuentes       = array();
-        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
         $this->imagen        = '../imagenes/categorias/genero.jpg';
         $this->imagen_previa = '../imagenes/categorias/genero.jpg';
         $this->imagen_id     = 'categorias-genero';
+        // Para el Organizador
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
+        // Iniciar el contenido que será un SchemaArticle
+        $this->contenido = new \Base\SchemaArticle();
     } // constructor
 
     /**
@@ -55,8 +59,16 @@ class Genero extends \Base\Publicacion {
      * @return string Código HTML
      */
     public function html() {
-        // Definir contenido HTML en el esquema
-        $this->contenido = <<<FINAL
+        // Definir propiedades del contenido que es un SchemaArticle
+        $this->contenido->big_heading   = TRUE;
+        $this->contenido->headline      = $this->nombre;
+        $this->contenido->description   = $this->descripcion;
+        $this->contenido->author        = $this->autor;
+        $this->contenido->datePublished = $this->fecha;
+        $this->contenido->image         = $this->imagen;
+        $this->contenido->image_show    = $this->poner_imagen_en_contenido;
+        $this->contenido->articleBody   = <<<FINAL
+<h3>Zona Metropolitana de La Laguna</h3>
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>
@@ -171,11 +183,70 @@ class Genero extends \Base\Publicacion {
   </tr>
 </tbody>
 </table>
-<p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
+<h3>Otras regiones</h3>
+<table class="table table-hover table-bordered matriz">
+<thead>
+  <tr>
+    <th>Subíndice</th>
+    <th>Indicador</th>
+    <th>Coahuila</th>
+    <th>Durango</th>
+    <th>Nacional</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Adultos Mayores Femenino</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">112673</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">68892</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">4635025</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Razón de Mortalidad Materna</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-razon-de-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">26.9</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-razon-de-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">43.6</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-razon-de-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">39.2</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" data-toggle="tooltip" title="Mujeres por Hombres, 31/12/2010, INEGI. Censos de Población y Vivienda">0.994</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" data-toggle="tooltip" title="Mujeres por Hombres, 31/12/2010, INEGI. Censos de Población y Vivienda">1.023</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" data-toggle="tooltip" title="Mujeres por Hombres, 31/12/2010, INEGI. Censos de Población y Vivienda">1.014</a></td>
+  </tr>
+</tbody>
+</table>
 FINAL;
-        // Ejecutar este método en el padre
+        // Entregar
         return parent::html();
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript
+        $this->javascript = <<<FINAL
+FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase Genero
 

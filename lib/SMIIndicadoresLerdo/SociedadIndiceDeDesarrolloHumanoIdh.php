@@ -39,7 +39,7 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-indice-de-desarrollo-humano-idh';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).';
+        $this->descripcion = 'El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares.';
         $this->claves      = 'IMPLAN, Lerdo, Bienestar';
         // Para el Organizador
         $this->categorias  = array('Bienestar');
@@ -118,7 +118,9 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return NULL;
+        return <<<OBSERVACIONES_FINAL
+Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).
+OBSERVACIONES_FINAL;
     } // observaciones
 
 } // Clase SociedadIndiceDeDesarrolloHumanoIdh

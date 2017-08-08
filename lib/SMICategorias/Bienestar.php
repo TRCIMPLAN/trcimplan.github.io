@@ -31,22 +31,26 @@ class Bienestar extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título y fecha
         $this->nombre        = 'Bienestar';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo       = 'bienestar';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Bienestar';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Bienestar. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
         $this->claves        = 'IMPLAN, Indicadores, Categoría, Bienestar';
-        // Para el Organizador
-        $this->categorias    = array();
-        $this->fuentes       = array();
-        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
         $this->imagen        = '../imagenes/categorias/bienestar.jpg';
         $this->imagen_previa = '../imagenes/categorias/bienestar.jpg';
         $this->imagen_id     = 'categorias-bienestar';
+        // Para el Organizador
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
+        // Iniciar el contenido que será un SchemaArticle
+        $this->contenido = new \Base\SchemaArticle();
     } // constructor
 
     /**
@@ -55,8 +59,16 @@ class Bienestar extends \Base\Publicacion {
      * @return string Código HTML
      */
     public function html() {
-        // Definir contenido HTML en el esquema
-        $this->contenido = <<<FINAL
+        // Definir propiedades del contenido que es un SchemaArticle
+        $this->contenido->big_heading   = TRUE;
+        $this->contenido->headline      = $this->nombre;
+        $this->contenido->description   = $this->descripcion;
+        $this->contenido->author        = $this->autor;
+        $this->contenido->datePublished = $this->fecha;
+        $this->contenido->image         = $this->imagen;
+        $this->contenido->image_show    = $this->poner_imagen_en_contenido;
+        $this->contenido->articleBody   = <<<FINAL
+<h3>Zona Metropolitana de La Laguna</h3>
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>
@@ -207,11 +219,91 @@ class Bienestar extends \Base\Publicacion {
   </tr>
 </tbody>
 </table>
-<p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
+<h3>Otras regiones</h3>
+<table class="table table-hover table-bordered matriz">
+<thead>
+  <tr>
+    <th>Subíndice</th>
+    <th>Indicador</th>
+    <th>Coahuila</th>
+    <th>Durango</th>
+    <th>Nacional</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Índice de Desarrollo Humano (IDH)</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-indice-de-desarrollo-humano-idh.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, INAFED-PNUD">0.776</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-indice-de-desarrollo-humano-idh.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, INAFED-PNUD">0.732</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-indice-de-desarrollo-humano-idh.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, INAFED-PNUD">0.750</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Mortalidad por VIH-SIDA</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-mortalidad-por-vih-sida.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">3.7</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-mortalidad-por-vih-sida.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">2.5</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-mortalidad-por-vih-sida.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">4.2</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Pobreza</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">27.70 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">50.34 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">45.59 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Pobreza Extrema</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">2.94 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">10.12 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">11.20 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Pobreza Moderada</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">24.76 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">40.22 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">34.39 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Razón de Mortalidad Materna</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-razon-de-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">26.9</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-razon-de-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">43.6</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-razon-de-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SINAIS (SSA)">39.2</a></td>
+  </tr>
+</tbody>
+</table>
 FINAL;
-        // Ejecutar este método en el padre
+        // Entregar
         return parent::html();
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript
+        $this->javascript = <<<FINAL
+FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase Bienestar
 

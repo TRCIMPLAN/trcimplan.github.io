@@ -44,7 +44,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
         $this->claves      = 'IMPLAN, Torreón, Seguridad, Delincuencia, Índice de Competitividad Urbana';
         // Para el Organizador
         $this->categorias  = array('Seguridad', 'Delincuencia', 'Índice de Competitividad Urbana');
-        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI', 'IMCO');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -68,36 +68,11 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
      */
     public function datos() {
         return array(
-            array('fecha' => '1990-12-31', 'valor' => '9.7788', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1991-12-31', 'valor' => '17.0827', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1992-12-31', 'valor' => '17.2057', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1993-12-31', 'valor' => '11.5461', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1994-12-31', 'valor' => '13.9794', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1995-12-01', 'valor' => '9.6442', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1996-12-31', 'valor' => '6.6275', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1997-12-31', 'valor' => '11.7762', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1998-12-31', 'valor' => '8.0302', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '1999-12-31', 'valor' => '7.9530', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2000-12-31', 'valor' => '6.9876', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2002-12-31', 'valor' => '7.5098', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2003-12-31', 'valor' => '5.7724', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2004-12-31', 'valor' => '6.0401', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2005-12-31', 'valor' => '6.9267', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2006-12-31', 'valor' => '5.5912', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2007-12-31', 'valor' => '4.3102', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '15.9094', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2008-12-31', 'valor' => '14.7603', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2009-12-31', 'valor' => '23.8267', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '22.6945', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2010-12-31', 'valor' => '46.6435', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '45.0261', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2011-12-31', 'valor' => '75.1916', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '75.3348', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2012-12-31', 'valor' => '109.7160', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '120.7270', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '52.6807', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2014-12-31', 'valor' => '29.4274', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '19.7265', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2012-12-31', 'valor' => '109.7160', 'fuente_nombre' => 'IMCO'));
     } // datos
 
     /**
@@ -121,12 +96,11 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '19.7265', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '109.7160', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '43.7146', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '41.8962', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '36.2831', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '77.5463', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2001-12-31', 'valor' => '10.2293', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '77.5463', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

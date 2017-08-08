@@ -31,22 +31,26 @@ class ParticipacionCiudadana extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título y fecha
         $this->nombre        = 'Participación Ciudadana';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo       = 'participacion-ciudadana';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Participación Ciudadana';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Participación Ciudadana. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
         $this->claves        = 'IMPLAN, Indicadores, Categoría, Participación Ciudadana';
-        // Para el Organizador
-        $this->categorias    = array();
-        $this->fuentes       = array();
-        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
         $this->imagen        = '../imagenes/categorias/participacion-ciudadana.jpg';
         $this->imagen_previa = '../imagenes/categorias/participacion-ciudadana.jpg';
         $this->imagen_id     = 'categorias-participacion-ciudadana';
+        // Para el Organizador
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
+        // Iniciar el contenido que será un SchemaArticle
+        $this->contenido = new \Base\SchemaArticle();
     } // constructor
 
     /**
@@ -55,8 +59,16 @@ class ParticipacionCiudadana extends \Base\Publicacion {
      * @return string Código HTML
      */
     public function html() {
-        // Definir contenido HTML en el esquema
-        $this->contenido = <<<FINAL
+        // Definir propiedades del contenido que es un SchemaArticle
+        $this->contenido->big_heading   = TRUE;
+        $this->contenido->headline      = $this->nombre;
+        $this->contenido->description   = $this->descripcion;
+        $this->contenido->author        = $this->autor;
+        $this->contenido->datePublished = $this->fecha;
+        $this->contenido->image         = $this->imagen;
+        $this->contenido->image_show    = $this->poner_imagen_en_contenido;
+        $this->contenido->articleBody   = <<<FINAL
+<h3>Zona Metropolitana de La Laguna</h3>
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>
@@ -126,11 +138,56 @@ class ParticipacionCiudadana extends \Base\Publicacion {
   </tr>
 </tbody>
 </table>
-<p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
+<h3>Otras regiones</h3>
+<table class="table table-hover table-bordered matriz">
+<thead>
+  <tr>
+    <th>Subíndice</th>
+    <th>Indicador</th>
+    <th>Coahuila</th>
+    <th>Durango</th>
+    <th>Nacional</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Organizaciones de la Sociedad Civil</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 25/11/2016, RFOSC">26.43</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 25/11/2016, RFOSC">143.38</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 25/11/2016, RFOSC">28.84</a></td>
+  </tr>
+</tbody>
+</table>
 FINAL;
-        // Ejecutar este método en el padre
+        // Entregar
         return parent::html();
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript
+        $this->javascript = <<<FINAL
+FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase ParticipacionCiudadana
 

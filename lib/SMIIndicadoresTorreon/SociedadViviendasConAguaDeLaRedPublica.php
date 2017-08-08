@@ -118,8 +118,6 @@ MAPAS_FINAL;
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
 Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/). Las cifras 2015 corresponden a la Encuesta Intercensal de INEGI y son estimaciones.
-
-Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html).
 OBSERVACIONES_FINAL;
     } // observaciones
 

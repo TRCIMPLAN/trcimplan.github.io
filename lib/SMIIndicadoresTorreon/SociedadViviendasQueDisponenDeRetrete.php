@@ -117,8 +117,6 @@ MAPAS_FINAL;
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
 Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/).
-
-Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html).
 OBSERVACIONES_FINAL;
     } // observaciones
 

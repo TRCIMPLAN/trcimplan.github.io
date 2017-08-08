@@ -31,22 +31,26 @@ class Transparencia extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título y fecha
         $this->nombre        = 'Transparencia';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo       = 'transparencia';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Transparencia';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Transparencia. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
         $this->claves        = 'IMPLAN, Indicadores, Categoría, Transparencia';
-        // Para el Organizador
-        $this->categorias    = array();
-        $this->fuentes       = array();
-        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
         $this->imagen        = '../imagenes/categorias/transparencia.jpg';
         $this->imagen_previa = '../imagenes/categorias/transparencia.jpg';
         $this->imagen_id     = 'categorias-transparencia';
+        // Para el Organizador
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
+        // Iniciar el contenido que será un SchemaArticle
+        $this->contenido = new \Base\SchemaArticle();
     } // constructor
 
     /**
@@ -55,8 +59,16 @@ class Transparencia extends \Base\Publicacion {
      * @return string Código HTML
      */
     public function html() {
-        // Definir contenido HTML en el esquema
-        $this->contenido = <<<FINAL
+        // Definir propiedades del contenido que es un SchemaArticle
+        $this->contenido->big_heading   = TRUE;
+        $this->contenido->headline      = $this->nombre;
+        $this->contenido->description   = $this->descripcion;
+        $this->contenido->author        = $this->autor;
+        $this->contenido->datePublished = $this->fecha;
+        $this->contenido->image         = $this->imagen;
+        $this->contenido->image_show    = $this->poner_imagen_en_contenido;
+        $this->contenido->articleBody   = <<<FINAL
+<h3>Zona Metropolitana de La Laguna</h3>
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>
@@ -99,11 +111,63 @@ class Transparencia extends \Base\Publicacion {
   </tr>
 </tbody>
 </table>
-<p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
+<h3>Otras regiones</h3>
+<table class="table table-hover table-bordered matriz">
+<thead>
+  <tr>
+    <th>Subíndice</th>
+    <th>Indicador</th>
+    <th>Coahuila</th>
+    <th>Durango</th>
+    <th>Nacional</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Índice de Herramientas Electrónicas de Gobiernos Locales</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html" data-toggle="tooltip" title="Puntos, 22/01/2015, IMCO">42</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Índice de Información Presupuestal</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-indice-de-informacion-presupuestal.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, IMCO">100</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-indice-de-informacion-presupuestal.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, IMCO">72</a></td>
+    <td class="nd">ND</td>
+  </tr>
+</tbody>
+</table>
 FINAL;
-        // Ejecutar este método en el padre
+        // Entregar
         return parent::html();
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript
+        $this->javascript = <<<FINAL
+FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase Transparencia
 

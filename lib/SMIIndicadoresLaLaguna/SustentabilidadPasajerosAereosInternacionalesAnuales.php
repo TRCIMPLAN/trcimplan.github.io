@@ -89,7 +89,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -102,9 +102,6 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '54307', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => 'X', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => 'X', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => 'X', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '54307', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2015-12-31', 'valor' => '14551000', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
     } // otras_regiones

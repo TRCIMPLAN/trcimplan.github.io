@@ -104,7 +104,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'La Laguna', 'fecha' => '2016-11-25', 'valor' => '49.1400', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2016-11-25', 'valor' => '26.4300', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Durango', 'fecha' => '2016-11-25', 'valor' => '143.3800', 'fuente_nombre' => 'RFOSC'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2016-11-25', 'valor' => '28.8400', 'fuente_nombre' => 'RFOSC', 'notas' => 'http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/'));
+            array('region_nombre' => 'Nacional', 'fecha' => '2016-11-25', 'valor' => '28.8400', 'fuente_nombre' => 'RFOSC'));
     } // otras_regiones
 
     /**

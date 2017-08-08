@@ -31,22 +31,26 @@ class FinanzasPublicas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título y fecha
         $this->nombre        = 'Finanzas Públicas';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo       = 'finanzas-publicas';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Finanzas Públicas';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Finanzas Públicas. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
         $this->claves        = 'IMPLAN, Indicadores, Categoría, Finanzas Públicas';
-        // Para el Organizador
-        $this->categorias    = array();
-        $this->fuentes       = array();
-        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
         $this->imagen        = '../imagenes/categorias/finanzas-publicas.jpg';
         $this->imagen_previa = '../imagenes/categorias/finanzas-publicas.jpg';
         $this->imagen_id     = 'categorias-finanzas-publicas';
+        // Para el Organizador
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
+        // Iniciar el contenido que será un SchemaArticle
+        $this->contenido = new \Base\SchemaArticle();
     } // constructor
 
     /**
@@ -55,8 +59,16 @@ class FinanzasPublicas extends \Base\Publicacion {
      * @return string Código HTML
      */
     public function html() {
-        // Definir contenido HTML en el esquema
-        $this->contenido = <<<FINAL
+        // Definir propiedades del contenido que es un SchemaArticle
+        $this->contenido->big_heading   = TRUE;
+        $this->contenido->headline      = $this->nombre;
+        $this->contenido->description   = $this->descripcion;
+        $this->contenido->author        = $this->autor;
+        $this->contenido->datePublished = $this->fecha;
+        $this->contenido->image         = $this->imagen;
+        $this->contenido->image_show    = $this->poner_imagen_en_contenido;
+        $this->contenido->articleBody   = <<<FINAL
+<h3>Zona Metropolitana de La Laguna</h3>
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>
@@ -162,11 +174,91 @@ class FinanzasPublicas extends \Base\Publicacion {
   </tr>
 </tbody>
 </table>
-<p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
+<h3>Otras regiones</h3>
+<table class="table table-hover table-bordered matriz">
+<thead>
+  <tr>
+    <th>Subíndice</th>
+    <th>Indicador</th>
+    <th>Coahuila</th>
+    <th>Durango</th>
+    <th>Nacional</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Inversión Per cápita</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 475.91</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 659.04</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 534.84</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Producción Bruta Total Per Cápita</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2013, Elaboración propia con datos obtenidos del INEGI">$ 218,704.95</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2013, Elaboración propia con datos obtenidos del INEGI">$ 63,345.06</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2013, Elaboración propia con datos obtenidos del INEGI">$ 118,115.69</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Capacidad Financiera</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">52.7785 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">39.7498 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">39.1581 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Ingresos Totales</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 6,649,116,096.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 5,277,880,579.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 284,519,582,697.00</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Ingresos Totales Per Cápita</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 2,272.74</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 3,021.45</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 2,376.68</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Relación de Ingresos Propios y Totales</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">30.7383 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">20.8938 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">21.2090 %</a></td>
+  </tr>
+</tbody>
+</table>
 FINAL;
-        // Ejecutar este método en el padre
+        // Entregar
         return parent::html();
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript
+        $this->javascript = <<<FINAL
+FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase FinanzasPublicas
 

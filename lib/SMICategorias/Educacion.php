@@ -31,22 +31,26 @@ class Educacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
         // Título y fecha
         $this->nombre        = 'Educación';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo       = 'educacion';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores - Categoría Educación';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Educación. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
         $this->claves        = 'IMPLAN, Indicadores, Categoría, Educación';
-        // Para el Organizador
-        $this->categorias    = array();
-        $this->fuentes       = array();
-        $this->regiones      = array();
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
         $this->imagen        = '../imagenes/categorias/educacion.jpg';
         $this->imagen_previa = '../imagenes/categorias/educacion.jpg';
         $this->imagen_id     = 'categorias-educacion';
+        // Para el Organizador
+        $this->categorias    = array();
+        $this->fuentes       = array();
+        $this->regiones      = array();
+        // Iniciar el contenido que será un SchemaArticle
+        $this->contenido = new \Base\SchemaArticle();
     } // constructor
 
     /**
@@ -55,8 +59,16 @@ class Educacion extends \Base\Publicacion {
      * @return string Código HTML
      */
     public function html() {
-        // Definir contenido HTML en el esquema
-        $this->contenido = <<<FINAL
+        // Definir propiedades del contenido que es un SchemaArticle
+        $this->contenido->big_heading   = TRUE;
+        $this->contenido->headline      = $this->nombre;
+        $this->contenido->description   = $this->descripcion;
+        $this->contenido->author        = $this->autor;
+        $this->contenido->datePublished = $this->fecha;
+        $this->contenido->image         = $this->imagen;
+        $this->contenido->image_show    = $this->poner_imagen_en_contenido;
+        $this->contenido->articleBody   = <<<FINAL
+<h3>Zona Metropolitana de La Laguna</h3>
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>
@@ -297,11 +309,154 @@ class Educacion extends \Base\Publicacion {
   </tr>
 </tbody>
 </table>
-<p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
+<h3>Otras regiones</h3>
+<table class="table table-hover table-bordered matriz">
+<thead>
+  <tr>
+    <th>Subíndice</th>
+    <th>Indicador</th>
+    <th>Coahuila</th>
+    <th>Durango</th>
+    <th>Nacional</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Posgrados de Calidad</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 30/04/2014, CONACYT">51</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 30/04/2014, CONACYT">15</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Científicas-Matemáticas Avanzadas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">10.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">7.5 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">6.8 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Científicas-Matemáticas Básicas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">18.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">18.5 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">18.9 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Científicas-Matemáticas Iniciales</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">56.3 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">60.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">60.5 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Científicas-Matemáticas Prácticas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">15.6 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">13.9 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">13.8 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">3.5 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">2.2 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">2.6 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Gramáticas-Lingüísticas Básicas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">34.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">30.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">33.2 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">45.4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">54.8 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">49.5 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">17.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">13.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">14.6 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos de Preescolar por Docente</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-de-preescolar-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">25.6</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-de-preescolar-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">19.5</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-de-preescolar-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">21.1</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos de Primaria por Docente</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-de-primaria-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">28.9</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-de-primaria-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">21.7</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-de-primaria-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">25.4</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos de Secundaria por Docente</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-alumnos-de-secundaria-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">14.1</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-alumnos-de-secundaria-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">13.1</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-alumnos-de-secundaria-por-docente.html" data-toggle="tooltip" title="Personas, 01/07/2014, SEP">16.4</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Grado Promedio de Escolaridad</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.90</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.15</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.16</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" data-toggle="tooltip" title="Mujeres por Hombres, 31/12/2010, INEGI. Censos de Población y Vivienda">0.994</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" data-toggle="tooltip" title="Mujeres por Hombres, 31/12/2010, INEGI. Censos de Población y Vivienda">1.023</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" data-toggle="tooltip" title="Mujeres por Hombres, 31/12/2010, INEGI. Censos de Población y Vivienda">1.014</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Rezago Educativo</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">12.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">18.6 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">20.6 %</a></td>
+  </tr>
+</tbody>
+</table>
 FINAL;
-        // Ejecutar este método en el padre
+        // Entregar
         return parent::html();
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // JavaScript
+        $this->javascript = <<<FINAL
+FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Código HTML para redifusión
+        $this->redifusion = $this->descripcion;
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase Educacion
 

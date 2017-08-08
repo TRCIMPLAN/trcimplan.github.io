@@ -121,8 +121,6 @@ class SociedadViviendasConComputadora extends \SMIBase\PublicacionWeb {
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
 Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/). Los datos de 2015 son de la Encuesta Intercensal 2015 de INEGI y son estimaciones.
-
-Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html).
 OBSERVACIONES_FINAL;
     } // observaciones
 

@@ -116,7 +116,7 @@ class SociedadRazonDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Utilizado como uno de los indicadores para los Objetivos del Milenio (Mejorar la Salud Materna). Dirección General de Información en Salud (DGIS). Base de datos de muertes maternas, 2013. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 13 de enero 2015].
+Utilizado como uno de los indicadores para los Objetivos del Milenio (Mejorar la Salud Materna). Dirección General de Información en Salud (DGIS). Base de datos de muertes maternas, 2013. Sistema Nacional de Información en Salud (SINAIS). Secretaría de Salud. Consulta: 13 de enero 2015.
 OBSERVACIONES_FINAL;
     } // observaciones
 
