@@ -35,7 +35,7 @@ class Metalurgica extends \IBCBase\PublicacionWeb {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre      = 'Metalúrgica';
-        $this->fecha       = '2017-05-29T20:31:44';
+        $this->fecha       = '2017-07-03T12:33:21';
         // El nombre del archivo a crear
         $this->archivo     = 'metalurgica';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -89,7 +89,17 @@ class Metalurgica extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+### Historia
+
+En 1901, la Compañía Metalúrgica de Torreón empezó a trabajar, se encontraba en las afueras de la Villa la cual para 1907 pasaría a ser la ciudad de Torreón. La Compañía Metalúrgica contaba con una colonia, escuela y hospital, para que los trabajadores vivieran cerca de la fábrica.
+
+Para 1983, se comenzó con el proceso de demolición de la Colonia, para ser parte de la Compañía Peñoles.
+
+### Fuentes
+
+* [Hemeroteca El Siglo de Torreón](http://h.elsiglodetorreon.com.mx/)
+FINAL;
     } // resena
 
 } // Clase Metalurgica

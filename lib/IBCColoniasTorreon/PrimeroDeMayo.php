@@ -35,7 +35,7 @@ class PrimeroDeMayo extends \IBCBase\PublicacionWeb {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre      = 'Primero de Mayo';
-        $this->fecha       = '2017-05-29T20:31:44';
+        $this->fecha       = '2017-07-03T12:34:02';
         // El nombre del archivo a crear
         $this->archivo     = 'primero-de-mayo';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -124,7 +124,17 @@ class PrimeroDeMayo extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+### Historia
+
+La Colonia Primero de Mayo se fundó en 1938, por el profesor Manuel Mijares V. con los primero colonos ocupando el lugar, ayudando a su población la Sección 74 de Metalúrgicos.
+
+Para 1941, una vez desarrollada la colonia, se inauguró la Escuela Primero de Mayo, que en lo sucesivo llevó el nombre de "Emilio Carranza".
+
+### Fuentes
+
+* [Hemeroteca El Siglo de Torreón](http://h.elsiglodetorreon.com.mx/)
+FINAL;
     } // resena
 
 } // Clase PrimeroDeMayo

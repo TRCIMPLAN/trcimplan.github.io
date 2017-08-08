@@ -34,13 +34,13 @@ class ProlongacionLosNogales extends \IBCBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre      = 'Polongación Los Nogales';
+        $this->nombre      = 'Prolongación Los Nogales';
         $this->fecha       = '2017-05-29T20:31:44';
         // El nombre del archivo a crear
-        $this->archivo     = 'polongacion-los-nogales';
+        $this->archivo     = 'prolongacion-los-nogales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Colonia Polongación Los Nogales en Torreón, Coahuila de Zaragoza, México.';
-        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Polongación Los Nogales';
+        $this->descripcion = 'Colonia Prolongación Los Nogales en Torreón, Coahuila de Zaragoza, México.';
+        $this->claves      = 'IMPLAN, Torreon, Indicadores, Colonia, Prolongación Los Nogales';
     } // constructor
 
     /**
