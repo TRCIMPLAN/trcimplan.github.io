@@ -67,9 +67,9 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-12-31', 'valor' => '70', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '48', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2014-12-31', 'valor' => '55', 'fuente_nombre' => 'INEGI', 'notas' => 'Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 3, de 2013) para calcularlo a nivel ZML.'));
+            array('fecha' => '2012-12-31', 'valor' => '105', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2013-12-31', 'valor' => '78', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2014-12-31', 'valor' => '93', 'fuente_nombre' => 'INEGI', 'notas' => 'Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 6, de 2013) para calcularlo a nivel ZML.'));
     } // datos
 
     /**
@@ -93,11 +93,11 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '17', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '29', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '3', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '55', 'fuente_nombre' => 'INEGI', 'notas' => 'Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 3, de 2013) para calcularlo a nivel ZML.'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '32', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '49', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '9', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '93', 'fuente_nombre' => 'INEGI', 'notas' => 'Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 6, de 2013) para calcularlo a nivel ZML.'));
     } // otras_regiones
 
     /**
