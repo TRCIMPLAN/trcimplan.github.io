@@ -35,7 +35,7 @@ La creciente necesidad de vivienda dada en los últimos años, descuidó en vari
 
 Dicho de otro modo, serán mejores los barrios abiertos en los que los gradientes de paso del ámbito público al privado sean más graduales y variados: calles de tráfico rodado y transporte público, calles de tráfico pacificado y de carga y descarga con horarios, plazas y ejes comerciales, espacios intermedios, como pórticos y porches, entradas a patios, jardines y vestíbulos, con la máxima variedad posible de espacios comunitarios, como corredores, hasta llegar al último filtro de la puerta de acceso a la vivienda. Se trata de potenciar espacios de proximidad que faciliten la socialización.
 
-### Superficie de las principales áreas verdes de Torreón
+### Superficie en hectáreas de las principales áreas verdes de Torreón
 
 <img class="img-responsive" src="importancia-y-calidad-de-los-parques-y-plazas-en-torreon/superficie-de-las-principales-areas-verdes-de-torreon.png" alt="Superficie de las principales áreas verdes de Torreón">
 
