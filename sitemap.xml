@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-08-08</lastmod>
+    <lastmod>2017-08-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -373,6 +373,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/importancia-suelo-ciudades.html</loc>
     <lastmod>2014-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/importancia-y-calidad-de-los-parques-y-plazas-en-torreon.html</loc>
+    <lastmod>2017-08-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -4736,16 +4741,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -8021,28 +8016,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
     <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
-    <lastmod>2015-04-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
-    <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
