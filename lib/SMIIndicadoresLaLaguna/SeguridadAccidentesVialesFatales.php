@@ -67,9 +67,25 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
+            array('fecha' => '1997-12-31', 'valor' => '88', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '1998-12-31', 'valor' => '96', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '1999-12-31', 'valor' => '112', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2000-12-31', 'valor' => '127', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2001-12-31', 'valor' => '93', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2002-12-31', 'valor' => '102', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2003-12-31', 'valor' => '85', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2004-12-31', 'valor' => '82', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2005-12-31', 'valor' => '58', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2006-12-31', 'valor' => '77', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2007-12-31', 'valor' => '84', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2008-12-31', 'valor' => '85', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2009-12-31', 'valor' => '95', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2010-12-31', 'valor' => '127', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2011-12-31', 'valor' => '104', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2012-12-31', 'valor' => '105', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '78', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2014-12-31', 'valor' => '93', 'fuente_nombre' => 'INEGI', 'notas' => 'Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 6, de 2013) para calcularlo a nivel ZML.'));
+            array('fecha' => '2014-12-31', 'valor' => '93', 'fuente_nombre' => 'INEGI', 'notas' => 'Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 6, de 2013) para calcularlo a nivel ZML.'),
+            array('fecha' => '2015-12-31', 'valor' => '99', 'fuente_nombre' => 'INEGI'));
     } // datos
 
     /**
@@ -81,7 +97,7 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -93,11 +109,11 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '32', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '49', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '9', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '93', 'fuente_nombre' => 'INEGI', 'notas' => 'Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 6, de 2013) para calcularlo a nivel ZML.'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '39', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '46', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '8', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '99', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**
