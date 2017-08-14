@@ -67,9 +67,25 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \SMIBase\PublicacionW
      */
     public function datos() {
         return array(
+            array('fecha' => '1997-12-31', 'valor' => '0.5679', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '1998-12-31', 'valor' => '0.7026', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '1999-12-31', 'valor' => '0.5025', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2000-12-31', 'valor' => '0.3052', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2001-12-31', 'valor' => '0.3645', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2002-12-31', 'valor' => '0.4561', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2003-12-31', 'valor' => '0.2904', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2004-12-31', 'valor' => '0.2227', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2005-12-31', 'valor' => '0.1152', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2006-12-31', 'valor' => '0.1217', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2007-12-31', 'valor' => '0.1921', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2008-12-31', 'valor' => '0.1853', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2009-12-31', 'valor' => '0.5769', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2010-12-31', 'valor' => '0.9478', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2011-12-31', 'valor' => '0.8068', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2012-12-31', 'valor' => '1.2700', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '1.0300', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2014-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2014-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '0.4022', 'fuente_nombre' => 'INEGI'));
     } // datos
 
     /**
@@ -93,11 +109,11 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \SMIBase\PublicacionW
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '1.7200', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '1.6500', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '1.8200', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '0.8200', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '0.4022', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '1.5112', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '1.2739', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '1.4742', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '0.7187', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**
