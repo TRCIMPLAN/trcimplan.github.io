@@ -10,7 +10,7 @@ C. Eduardo Holguín Zehfuss                 | Director General Ejecutivo del IMP
 C. Félix Caldera Serrano                   | Presidente de la Comisión de Hacienda, Patrimonio y Cuenta Pública del Ayuntamiento
 C. Mario Valdéz Garza                      | Presidente de la Comisión de Urbanismo y Obras Públicas del Ayuntamiento
 C. Olivia Martínez Leyva                   | Presidente de la Comisión de Planeación y Competitividad del Ayuntamiento
-C. Salvador Chávez Robles                  | Presidente de la Comisión de Desarrollo Económico del Ayuntamiento
+C. Sergio Lara Galván                      | Presidente de la Comisión de Desarrollo Económico del Ayuntamiento
 C. Gabriel Calvillo Ceniceros              | Director General de Ordenamiento Territorial y Urbanismo del Ayuntamiento
 C. Javier Ramos Salas                      | Presidente del Consejo Municipal de Desarrollo Urbano
 **Consejeros de representación Sectorial** |
@@ -25,7 +25,7 @@ C. Miguel Ángel Cisneros Guerrero          | Instituciones de Educación Superi
 **Consejeros Propuestos por el Alcalde**   |
 C. Victor Hugo Torres Romo                 | Colegio de Arquitectos
 C. Eugenio Treviño Rodríguez               | Cámara Nacional de la Industria de la Transformación
-C. Martín López Méndez                     | Instituto Tecnológico y de Estudios Superiores de Monterrey
+C. Guillermo Prieto Salinas S.J.           | Instituto Tecnológico y de Estudios Superiores de Monterrey
 C. Rafael Rebollar González                | Peñoles
 C. Carlos Rangel Orona                     | Cámara Nacional de Comercio, Servicios y Turismo Torreón
 C. Francisco Valdés Pérez Gazga            | PRODENAZAS
