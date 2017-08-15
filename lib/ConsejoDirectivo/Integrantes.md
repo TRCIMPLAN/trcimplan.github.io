@@ -25,7 +25,7 @@ C. Miguel Ángel Cisneros Guerrero          | Instituciones de Educación Superi
 **Consejeros Propuestos por el Alcalde**   |
 C. Victor Hugo Torres Romo                 | Colegio de Arquitectos
 C. Eugenio Treviño Rodríguez               | Cámara Nacional de la Industria de la Transformación
-C. Guillermo Prieto Salinas S.J.           | Instituto Tecnológico y de Estudios Superiores de Monterrey
+C. Guillermo Prieto Salinas S.J.           | Universidad Iberoamericana Torreón
 C. Rafael Rebollar González                | Peñoles
 C. Carlos Rangel Orona                     | Cámara Nacional de Comercio, Servicios y Turismo Torreón
 C. Francisco Valdés Pérez Gazga            | PRODENAZAS
