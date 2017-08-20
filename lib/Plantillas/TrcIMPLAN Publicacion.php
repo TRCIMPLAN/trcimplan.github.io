@@ -25,12 +25,12 @@ namespace DIRECTORIO;
 /**
  * Clase CLASE
  */
-class CLASE extends \Base\Publicacion {
+class CLASE extends \Base\Publicacion {ob}
 
     /**
      * Constructor
      */
-    public function __construct() {
+    public function __construct() {ob}
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
@@ -54,47 +54,47 @@ class CLASE extends \Base\Publicacion {
         $this->categorias                = array();
         $this->fuentes                   = array();
         $this->regiones                  = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
-    } // constructor
+    {cb} // constructor
 
     /**
      * HTML
      *
      * @return string Código HTML
      */
-    public function html() {
+    public function html() {ob}
         // Contenido
         $this->contenido = <<<FINAL
 FINAL;
         // Ejecutar este método en el padre
         return parent::html();
-    } // html
+    {cb} // html
 
     /**
      * Javascript
      *
      * @return string Código Javascript
      */
-    public function javascript() {
+    public function javascript() {ob}
         // JavaScript
         $this->javascript = <<<FINAL
 FINAL;
         // Ejecutar este método en el padre
         return parent::javascript();
-    } // javascript
+    {cb} // javascript
 
     /**
      * Redifusion HTML
      *
      * @return string Código HTML
      */
-    public function redifusion_html() {
+    public function redifusion_html() {ob}
         // Código HTML para redifusión
         $this->redifusion = <<<FINAL
 FINAL;
         // Ejecutar este método en el padre
         return parent::redifusion_html();
-    } // redifusion_html
+    {cb} // redifusion_html
 
-} // Clase CLASE
+{cb} // Clase CLASE
 
 ?>

@@ -25,12 +25,12 @@ namespace DIRECTORIO;
 /**
  * Clase CLASE
  */
-class CLASE extends \Base\PublicacionSchemaArticle {
+class CLASE extends \Base\PublicacionSchemaArticle {ob}
 
     /**
      * Constructor
      */
-    public function __construct() {
+    public function __construct() {ob}
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
@@ -56,8 +56,8 @@ class CLASE extends \Base\PublicacionSchemaArticle {
         $this->categorias                 = array();
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
-    } // constructor
+    {cb} // constructor
 
-} // Clase CLASE
+{cb} // Clase CLASE
 
 ?>
