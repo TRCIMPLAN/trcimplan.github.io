@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo IP
-
-Industria Pesada.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

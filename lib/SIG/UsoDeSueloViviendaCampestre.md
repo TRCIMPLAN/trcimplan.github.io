@@ -1,8 +1,4 @@
 ﻿
-# Uso de Suelo HC
-
-Vivienda Campestre.
-
 ### Densidad
 
 Densidad de vivienda

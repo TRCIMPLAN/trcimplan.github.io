@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CU
-
-Centro Urbano.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

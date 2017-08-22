@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo EU
-
-Equipamiento Educación y Cultura.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

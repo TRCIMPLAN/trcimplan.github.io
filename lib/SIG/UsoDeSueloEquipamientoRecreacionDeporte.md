@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo RD
-
-Equipamiento Recreación y Deporte.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

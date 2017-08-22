@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo LM
-
-Industria Ligera y Mediana.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

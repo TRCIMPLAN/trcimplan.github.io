@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo PR
-
-Poblado Rural.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

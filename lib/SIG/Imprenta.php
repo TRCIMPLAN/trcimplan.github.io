@@ -41,8 +41,8 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->aparece_en_pagina_inicial = FALSE;
         $this->autor                     = 'Dirección de Planeación Urbana Sustentable';
         $this->para_compartir            = FALSE;
-        $this->imagen                    = '../imagenes/imagen.jpg';
-        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->imagen                    = 'introduccion/imagen.jpg';
+        $this->imagen_previa             = 'introduccion/imagen-previa.jpg';
         $this->poner_imagen_en_contenido = FALSE;
         $this->nombre_menu               = 'Información Geográfica';
         // Ruta a la clase para hacer la página con el índice

@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo M
-
-Equipamiento Mortuorio.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

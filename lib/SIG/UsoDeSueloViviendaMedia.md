@@ -1,8 +1,4 @@
 ﻿
-# Uso de Suelo H3
-
-Vivienda con densidad Media.
-
 ### Densidad
 
 Densidad de vivienda

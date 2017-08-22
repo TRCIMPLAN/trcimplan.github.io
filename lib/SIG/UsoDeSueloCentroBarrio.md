@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CB
-
-Centro de Barrio.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

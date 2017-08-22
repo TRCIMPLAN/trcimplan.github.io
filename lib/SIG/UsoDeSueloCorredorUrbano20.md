@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CU2
-
-Corredor Urbano / Habitación / Comercio.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

@@ -1,8 +1,4 @@
 ﻿
-# Uso de Suelo H4
-
-Vivienda con densidad Media Media.
-
 ### Densidad
 
 Densidad de vivienda

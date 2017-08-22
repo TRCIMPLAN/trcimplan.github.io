@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo AS
-
-Equipamiento de Asistencia Social.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo AR
-
-Áreas verdes y espacios abiertos.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

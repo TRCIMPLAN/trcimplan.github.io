@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CV
-
-Centro Vecinal.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo I
-
-Equipamiento de Intraestructura.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

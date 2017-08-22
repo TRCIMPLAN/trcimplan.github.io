@@ -33,19 +33,16 @@ class ZonificacionCU3 extends \Base\PublicacionSchemaArticle {
     public function __construct() {
         // Ejecutar constructor en el padre
         parent::__construct();
-        // Título, autor y fecha
+        // Título y fecha
         $this->nombre                     = 'Zonificación CU3';
         $this->fecha                      = '2014-11-18T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'zonificacion-cu3';
-        // Imágenes
-        $this->imagen                     = 'introduccion/imagen.jpg';
-        $this->imagen_previa              = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Zonificación Norma CU3';
-        $this->claves                     = 'IMPLAN, Torreon, SIG';
+        $this->claves                     = 'IMPLAN, Torreon, SIG, Zonificación Norma CU3';
         // Opción de navegación a poner como activa
-        $this->nombre_menu                = 'Información Geográfica > Zonificación';
+        $this->nombre_menu                = 'Información Geográfica > Zonificación Secundaria';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SIG/ZonificacionCU3.md';
     } // constructor

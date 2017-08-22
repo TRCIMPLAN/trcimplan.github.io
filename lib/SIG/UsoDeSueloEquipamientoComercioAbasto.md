@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CA
-
-Equipamiento de Comercio y Abasto.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

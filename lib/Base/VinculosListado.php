@@ -49,8 +49,8 @@ class VinculosListado extends Vinculos {
             // Si tiene URL se pondrán vínculos, de lo contrario no
             if ($vinculo->url() != '') {
                 // Tiene URL
-                //~ $a[] = sprintf('        <li><a href="%s">%s</a></li>', $vinculo->url(), $vinculo->nombre);
-                $a[] = sprintf('        <li><a href="%s">%s %s</a></li>', $vinculo->url(), $vinculo->directorio, $vinculo->nombre);
+                $a[] = sprintf('        <li><a href="%s">%s</a></li>', $vinculo->url(), $vinculo->nombre);
+                //~ $a[] = sprintf('        <li><a href="%s">%s %s</a></li>', $vinculo->url(), $vinculo->directorio, $vinculo->nombre);
             } else {
                 // NO tiene URL
                 $a[] = sprintf('        <li>%s</li>', $vinculo->nombre);

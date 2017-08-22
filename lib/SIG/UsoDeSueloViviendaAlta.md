@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo H6
-
-Vivienda con densidad Alta.
-
 ### Densidad
 
 Densidad de vivienda

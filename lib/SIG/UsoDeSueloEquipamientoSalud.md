@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo S
-
-Equipamiento Salud.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

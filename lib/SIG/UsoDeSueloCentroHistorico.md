@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CH
-
-Centro Histórico.
-
 El Centro Histórico está conformado por el perímetro determinado en el decreto expedido por el Ejecutivo del Estado de Coahuila, de número 96, de fecha 29 de noviembre de 1996.
 
 ### Usos y Destinos del Suelo

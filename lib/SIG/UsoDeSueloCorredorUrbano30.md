@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CU3
-
-Corredor Urbano / Industria / Servicios.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

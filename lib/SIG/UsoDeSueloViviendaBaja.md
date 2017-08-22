@@ -1,8 +1,4 @@
 ﻿
-# Uso de Suelo H1
-
-Vivienda Baja.
-
 ### Densidad
 
 Densidad de vivienda

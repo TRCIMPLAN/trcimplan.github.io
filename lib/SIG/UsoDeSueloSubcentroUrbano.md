@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo SCU
-
-Sub centro Urbano.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

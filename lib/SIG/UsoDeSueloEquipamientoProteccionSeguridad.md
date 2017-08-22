@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo PS
-
-Equipamiento Protección y Seguridad.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

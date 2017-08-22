@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CU 1.1
-
-Corredor Urbano / Habitación / Comercio y Servicios.
-
 ### Densidad
 
 **Alta**

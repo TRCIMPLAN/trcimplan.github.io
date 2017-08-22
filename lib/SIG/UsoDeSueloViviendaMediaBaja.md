@@ -1,7 +1,7 @@
 ﻿
-# Uso de Suelo H2
+#
 
-Vivienda con densidad Media Baja.
+
 
 ### Densidad
 

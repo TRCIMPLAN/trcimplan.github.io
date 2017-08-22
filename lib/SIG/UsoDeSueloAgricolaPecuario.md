@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo AP
-
-Agrícola Pecuario.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

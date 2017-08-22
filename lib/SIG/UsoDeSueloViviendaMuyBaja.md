@@ -1,8 +1,4 @@
 ﻿
-# Uso de Suelo HB
-
-Vivienda con densidad Muy Baja.
-
 ### Densidad
 
 Densidad de vivienda

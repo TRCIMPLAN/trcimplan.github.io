@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo CT
-
-Equipamiento de Comunicación y Transporte.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

@@ -1,8 +1,4 @@
 ﻿
-# Uso de suelo IE
-
-Industria Extractiva.
-
 ### Usos y Destinos del Suelo
 
 **Permitidos**

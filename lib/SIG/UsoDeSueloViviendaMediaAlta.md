@@ -1,8 +1,4 @@
 ﻿
-# Uso de Suelo H5
-
-Vivienda con densidad Media Alta.
-
 ### Densidad
 
 Densidad de vivienda
