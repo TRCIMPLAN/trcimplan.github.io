@@ -189,7 +189,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -336,13 +336,19 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td class="nd">N/D</td>
       </tr>
+      <tr>
+        <td>2017-06-30</td>
+        <td>41.9439</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td class="nd">N/D</td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Tasa de Informalidad en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Tasa de Informalidad en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
 
-    <div id="SmiGraficasTasaDeInformalidadEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasTasaDeInformalidadEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Tasa de Informalidad en La Laguna</h3>
@@ -388,30 +394,30 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td>2017-03-31</td>
-        <td>43.4600</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td>2017-06-30</td>
+        <td>41.9439</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td>2017-03-31</td>
-        <td>37.9200</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td>2017-06-30</td>
+        <td>5.0377</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td>2017-03-31</td>
-        <td>52.2300</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td>2017-06-30</td>
+        <td>54.1499</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td>2017-03-31</td>
-        <td>57.1700</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td>2017-06-30</td>
+        <td>56.5082</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td class="nd">N/D</td>
       </tr>
     </tbody>
@@ -527,11 +533,11 @@
     });
     varSmiDatosTasaDeInformalidadEnLaLaguna = 1;
   }
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasTasaDeInformalidadEnLaLaguna === 'undefined') {
-    varSmiGraficasTasaDeInformalidadEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasTasaDeInformalidadEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTasaDeInformalidadEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
+    varSmiGraficasTasaDeInformalidadEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
+      element: 'SmiGraficasTasaDeInformalidadEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
       data: [
         { fecha: '2011-12-31', dato: 46.9800 },
         { fecha: '2012-03-31', dato: 50.1600 },
@@ -569,7 +575,7 @@
   if (typeof varSmiOtrasRegionesTasaDeInformalidadEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeInformalidadEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeInformalidadEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 45.9200 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 43.4600 },{ region: 'Coahuila', dato: 37.9200 },{ region: 'Durango', dato: 52.2300 },{ region: 'Nacional', dato: 57.1700 }],
+      data: [{ region: 'Torreón', dato: 45.9200 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 41.9439 },{ region: 'Coahuila', dato: 5.0377 },{ region: 'Durango', dato: 54.1499 },{ region: 'Nacional', dato: 56.5082 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

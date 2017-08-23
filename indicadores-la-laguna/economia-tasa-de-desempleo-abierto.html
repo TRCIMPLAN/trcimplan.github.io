@@ -189,9 +189,9 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica4" aria-controls="LenguetasIndicadorGrafica4" role="tab" data-toggle="tab">Gráfica 4</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -548,20 +548,26 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td class="nd">N/D</td>
       </tr>
+      <tr>
+        <td>2017-06-30</td>
+        <td>4.8803</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td class="nd">N/D</td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
     <h3>Tasa de Desempleo Abierto en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
 
     <div id="SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
     <h3>Tasa de Desempleo Abierto en La Laguna con fuente IMCO</h3>
 
     <div id="SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaImco" class="grafica"></div>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica4">
     <h3>Tasa de Desempleo Abierto en La Laguna con fuente INEGI</h3>
 
     <div id="SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaInegi" class="grafica"></div>
@@ -610,30 +616,30 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td>2017-03-31</td>
-        <td>4.8600</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td>2017-06-30</td>
+        <td>4.8803</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td>2017-03-31</td>
-        <td>4.5500</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td>2017-06-30</td>
+        <td>5.0377</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td>2017-03-31</td>
-        <td>4.0300</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td>2017-06-30</td>
+        <td>4.0047</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td class="nd">N/D</td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td>2017-03-31</td>
-        <td>3.3900</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td>2017-06-30</td>
+        <td>3.4589</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td class="nd">N/D</td>
       </tr>
     </tbody>
@@ -765,8 +771,8 @@
     });
     varSmiDatosTasaDeDesempleoAbiertoEnLaLaguna = 1;
   }
-  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
     varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
       element: 'SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
@@ -829,8 +835,8 @@
     });
   }
   })
-  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaImco === 'undefined') {
     varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaImco = Morris.Line({
       element: 'SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaImco',
@@ -849,8 +855,8 @@
     });
   }
   })
-  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica4 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica4"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaInegi === 'undefined') {
     varSmiGraficasTasaDeDesempleoAbiertoEnLaLagunaInegi = Morris.Line({
       element: 'SmiGraficasTasaDeDesempleoAbiertoEnLaLagunaInegi',
@@ -872,7 +878,7 @@
   if (typeof varSmiOtrasRegionesTasaDeDesempleoAbiertoEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeDesempleoAbiertoEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeDesempleoAbiertoEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 4.2900 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.8600 },{ region: 'Coahuila', dato: 4.5500 },{ region: 'Durango', dato: 4.0300 },{ region: 'Nacional', dato: 3.3900 }],
+      data: [{ region: 'Torreón', dato: 4.2900 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.8803 },{ region: 'Coahuila', dato: 5.0377 },{ region: 'Durango', dato: 4.0047 },{ region: 'Nacional', dato: 3.4589 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

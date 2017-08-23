@@ -43,7 +43,7 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \SMIBase\PublicacionW
         $this->claves      = 'IMPLAN, Nacional, Empleo';
         // Para el Organizador
         $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos');
+        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
         $this->regiones    = array('Nacional');
     } // constructor
 
@@ -69,7 +69,8 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \SMIBase\PublicacionW
         return array(
             array('fecha' => '2016-03-31', 'valor' => '13.9500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('fecha' => '2016-12-31', 'valor' => '13.0600', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('fecha' => '2017-03-31', 'valor' => '14.4300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'));
+            array('fecha' => '2017-03-31', 'valor' => '14.4300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('fecha' => '2017-06-30', 'valor' => '13.2448', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // datos
 
     /**
@@ -97,10 +98,10 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-03-31', 'valor' => '14.5900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2017-03-31', 'valor' => '11.8200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2017-03-31', 'valor' => '14.2900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2017-03-31', 'valor' => '12.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2017-03-31', 'valor' => '9.1900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('region_nombre' => 'Durango', 'fecha' => '2017-03-31', 'valor' => '14.6400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2017-03-31', 'valor' => '14.4300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2017-06-30', 'valor' => '10.1654', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2017-06-30', 'valor' => '8.4573', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Durango', 'fecha' => '2017-06-30', 'valor' => '14.1352', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2017-06-30', 'valor' => '13.2448', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**

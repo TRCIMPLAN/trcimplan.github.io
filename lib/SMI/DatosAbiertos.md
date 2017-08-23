@@ -10,8 +10,8 @@
 <li>La codificación de los caracteres es <a href="https://es.wikipedia.org/wiki/UTF-8">UTF-8</a>.</li>
 <li>La primera línea tiene los nombres de las columnas.</li>
 <li>En mayúsculas y sin acentos.</li>
-<li>Cantidad de filas: <b>8,461.</b></li>
-<li>Elaboración: <b>14/08/17 16:07.</b></li>
+<li>Cantidad de filas: <b>8,474.</b></li>
+<li>Elaboración: <b>23/08/17 12:18.</b></li>
 </ul>
 </div>
 </div>
