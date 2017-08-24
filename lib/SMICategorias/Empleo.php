@@ -238,11 +238,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/03/2017, Instituto Mexicano del Seguro Social (IMSS)">186824</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/03/2017, Instituto Mexicano del Seguro Social (IMSS)">76145</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/03/2017, Instituto Mexicano del Seguro Social (IMSS)">15139</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/03/2017, Instituto Mexicano del Seguro Social (IMSS)">8415</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/03/2017, Instituto Mexicano del Seguro Social (IMSS)">286523</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/07/2017, Instituto Mexicano del Seguro Social (IMSS)">191316</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/07/2017, Instituto Mexicano del Seguro Social (IMSS)">76682</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/07/2017, Instituto Mexicano del Seguro Social (IMSS)">14650</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/07/2017, Instituto Mexicano del Seguro Social (IMSS)">8810</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/07/2017, Instituto Mexicano del Seguro Social (IMSS)">291458</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -328,8 +328,8 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/03/2017, Instituto Mexicano del Seguro Social (IMSS)">734936</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/03/2017, Instituto Mexicano del Seguro Social (IMSS)">235926</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/07/2017, Instituto Mexicano del Seguro Social (IMSS)">747620</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/07/2017, Instituto Mexicano del Seguro Social (IMSS)">236620</a></td>
     <td class="nd">ND</td>
   </tr>
 </tbody>
