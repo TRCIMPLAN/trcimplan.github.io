@@ -29,7 +29,7 @@ class TablaWeb implements SalidaWeb {
 
     protected $identificador;          // Texto único que lo identifica
     protected $estructura;             // Arreglo asociativo con datos de cada columna
-    protected $panal;                  // Arreglo de arreglos asociativos con instancias de CeldaWeb
+    protected $panal;                  // Arreglo de arreglos asociativos con los datos
     protected $usa_datatables = FALSE; // Boleano, habilita el javascript DataTables
 
     /**
@@ -122,26 +122,12 @@ class TablaWeb implements SalidaWeb {
             $a[] = "      <tr>";
             $r   = array();
             foreach ($this->estructura as $clave => $parametros) {
-                $celda = $fila[$clave];
-                if (is_object($celda) && ($celda instanceof SalidaWeb)) {
-                    if ($parametros['clase'] != '') {
-                        $r[] = sprintf("        <td class=\"{$parametros['clase']}>%s</td>", $celda->html());
-                    } else {
-                        $r[] = sprintf("        <td>%s</td>", $celda->html());
-                    }
-                } elseif (is_string($celda) && ($celda != '')) {
-                    if ($parametros['clase'] != '') {
-                        $r[] = "        <td class=\"{$parametros['clase']}\">{$celda}</td>";
-                    } else {
-                        $r[] = "        <td>{$celda}</td>";
-                    }
-                } else {
-                    $r[] = "        <td class=\"nd\">N/D</td>";
-                }
-            }
+                $celda = new CeldaWeb($fila[$clave], $parametros['formato']);
+                $r[]   = sprintf('        %s', $celda->html());
+            } // bucle por estructura
             $a[] = implode("\n", $r);
             $a[] = "      </tr>";
-        }
+        } // bucle por panal
         $a[] = "    </tbody>";
         $a[] = "  </table>";
         // Entregar
