@@ -42,7 +42,7 @@ class UltimasPublicaciones {
         // Iniciar recolector
         $recolector = new \Base\Recolector();
         $recolector->iniciar_para_estado_publicar();
-        $recolector->agregar_publicaciones_de_imprentas($this->imprentas);
+        $recolector->agregar_publicaciones_de_imprentas(\Configuracion\CreadorConfig::$imprentas_ultimas_publicaciones);
         // Ordenar publicaciones por tiempo, de la más nueva a la más antigua
         $recolector->ordenar_por_tiempo_desc();
         // Bucle por las publicaciones

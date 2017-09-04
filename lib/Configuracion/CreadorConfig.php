@@ -38,6 +38,14 @@ class CreadorConfig {
     public $imprentas_json;           // Arreglo con las rutas a Imprentas para crear archivos JSON
     public $imprentas_csv;            // Arreglo con las rutas a Imprentas para crear archivos CSV
 
+    static public $imprentas_ultimas_publicaciones = array(
+        '\\Blog\\Imprenta',
+        '\\Investigaciones\\Imprenta',
+        '\\PET\\Imprenta',
+        '\\Proyectos\\Imprenta',
+        '\\SalaPrensa\\Imprenta',
+        '\\SIGMapasTorreon\\Imprenta'); // En particular para TrcIMPLAN, se usa en \PaginaInicial\UltimasPublicaciones
+
     /**
      * Constructor
      */

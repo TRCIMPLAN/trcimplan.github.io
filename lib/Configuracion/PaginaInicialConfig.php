@@ -27,7 +27,7 @@ namespace Configuracion;
  */
 class PaginaInicialConfig extends \Base\Plantilla {
 
-    public $imprentas; // Arreglo con rutas a las clases de ImprentaPublicaciones, es usado en Catgorias y UltimasPublicaciones
+    public $imprentas; // Arreglo con rutas a las clases de ImprentaPublicaciones, es usado en Categorias y UltimasPublicaciones
     public $secciones; // Arreglo con rutas a las clases de las secciones de la página inicial
 
     /**
