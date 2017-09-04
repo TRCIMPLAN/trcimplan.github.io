@@ -39,7 +39,7 @@ class EconomiaTasaDeDesempleoAbierto extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo     = 'economia-tasa-de-desempleo-abierto';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Número total de desempleados entre la Población económicamente activa.';
+        $this->descripcion = 'Número total de desempleados entre la población económicamente activa.';
         $this->claves      = 'IMPLAN, Gómez Palacio, Empleo';
         // Para el Organizador
         $this->categorias  = array('Empleo');

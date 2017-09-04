@@ -39,9 +39,7 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-rezago-educativo';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL';
+        $this->descripcion = 'Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal; o tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado; o tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria.';
         $this->claves      = 'IMPLAN, Coahuila, Educación, Grupos Vulnerables, Objetivos del Milenio';
         // Para el Organizador
         $this->categorias  = array('Educación', 'Grupos Vulnerables', 'Objetivos del Milenio');
@@ -118,7 +116,7 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Anexo-estad%C3%ADstico-municipal-2010.aspx)
+Fuente CONEVAL. Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Anexo-estad%C3%ADstico-municipal-2010.aspx).
 OBSERVACIONES_FINAL;
     } // observaciones
 

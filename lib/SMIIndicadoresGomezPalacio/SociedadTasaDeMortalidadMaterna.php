@@ -67,7 +67,7 @@ class SociedadTasaDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-12-31', 'valor' => '5.4000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'));
+            array('fecha' => '2012-12-31', 'valor' => '5.4000', 'fuente_nombre' => 'SINAIS (SSA)'));
     } // datos
 
     /**
@@ -91,11 +91,11 @@ class SociedadTasaDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '4.6000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '5.4000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '8.3000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '6.2000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '5.3000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '4.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '5.4000', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '8.3000', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '6.2000', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '5.3000', 'fuente_nombre' => 'SINAIS (SSA)'));
     } // otras_regiones
 
     /**
@@ -114,7 +114,7 @@ class SociedadTasaDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014]
+Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [Sistema Nacional de Información en Salud SINAIS](http://www.sinais.salud.gob.mx). Secretaría de Salud. Consulta: 01 abril 2014.
 OBSERVACIONES_FINAL;
     } // observaciones
 

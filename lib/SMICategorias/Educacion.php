@@ -264,6 +264,15 @@ class Educacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Población de 15 años o más analfabeta</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">1.48 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">2.16 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">2.81 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">3.13 %</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" data-toggle="tooltip" title="Mujeres por Hombres, 31/12/2010, INEGI. Censos de Población y Vivienda">1.002</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" data-toggle="tooltip" title="Mujeres por Hombres, 31/12/2010, INEGI. Censos de Población y Vivienda">1.021</a></td>
@@ -411,6 +420,13 @@ class Educacion extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.90</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.15</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.16</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Población de 15 años o más analfabeta</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">1.97 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">3.15 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">5.49 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

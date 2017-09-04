@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresNacional SociedadRezagoEducativo
+ * TrcIMPLAN Sitio Web - SMIIndicadoresNacional SociedadPoblacionDe15AnosOMasAnalfabeta
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresNacional;
 
 /**
- * Clase SociedadRezagoEducativo
+ * Clase SociedadPoblacionDe15AnosOMasAnalfabeta
  */
-class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
+class SociedadPoblacionDe15AnosOMasAnalfabeta extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Rezago Educativo en Nacional';
-        $this->fecha       = '2014-10-21T16:19:49';
+        $this->nombre      = 'Población de 15 años o más analfabeta en Nacional';
+        $this->fecha       = '2017-09-04T10:30:12';
         // El nombre del archivo a crear
-        $this->archivo     = 'sociedad-rezago-educativo';
+        $this->archivo     = 'sociedad-poblacion-de-15-anos-o-mas-analfabeta';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal; o tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado; o tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria.';
-        $this->claves      = 'IMPLAN, Nacional, Educación, Grupos Vulnerables, Objetivos del Milenio';
+        $this->descripcion = 'Personas de 15 años o más que no saben leer ni escribir';
+        $this->claves      = 'IMPLAN, Nacional, Educación';
         // Para el Organizador
-        $this->categorias  = array('Educación', 'Grupos Vulnerables', 'Objetivos del Milenio');
-        $this->fuentes     = array('CONEVAL');
+        $this->categorias  = array('Educación');
+        $this->fuentes     = array('INEGI');
         $this->regiones    = array('Nacional');
     } // constructor
 
@@ -67,7 +67,10 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '20.6000', 'fuente_nombre' => 'CONEVAL'));
+            array('fecha' => '2000-12-31', 'valor' => '9.4600', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2005-12-31', 'valor' => '8.3500', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2010-12-31', 'valor' => '6.8800', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '5.4900', 'fuente_nombre' => 'INEGI'));
     } // datos
 
     /**
@@ -91,13 +94,13 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '10.8300', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '17.3100', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '16.7600', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '19.2000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '12.1000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '18.6000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2010-12-31', 'valor' => '20.6000', 'fuente_nombre' => 'CONEVAL'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '1.4800', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '2.1600', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '2.8100', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '3.1300', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2015-12-31', 'valor' => '1.9700', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Durango', 'fecha' => '2015-12-31', 'valor' => '3.1500', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2015-12-31', 'valor' => '5.4900', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**
@@ -116,10 +119,10 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Fuente CONEVAL. Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Anexo-estad%C3%ADstico-municipal-2010.aspx).
+Fuente: estimaciones del CONEVAL con base en el XII Censo de Población y Vivienda 2000, II Conteo de Población y Vivienda 2005, Censo de Población y Vivienda 2010 y Encuesta Intercensal 2015.
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase SociedadRezagoEducativo
+} // Clase SociedadPoblacionDe15AnosOMasAnalfabeta
 
 ?>
