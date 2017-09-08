@@ -94,11 +94,11 @@ class FinanzasPublicas extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Inversión Per cápita</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 570.42</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 339.25</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 546.12</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 585.97</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 506.52</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 1,215.79</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 166.04</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 567.45</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 329.76</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 780.89</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -112,11 +112,11 @@ class FinanzasPublicas extends \Base\Publicacion {
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Capacidad Financiera</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">65.2382 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">40.4069 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">86.7984 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">18.6306 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">58.0197 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">95.28 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">62.57 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">71.98 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">19.72 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">79.83 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
@@ -139,20 +139,20 @@ class FinanzasPublicas extends \Base\Publicacion {
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Ingresos Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 2,077,991,769.00</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 929,690,716.00</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 525,402,020.00</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 231,643,308.00</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 3,764,727,813.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 3,068,872,858.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 1,373,333,250.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 534,912,945.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 210,636,119.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 5,187,755,172.00</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Ingresos Totales Per Cápita</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 3,038.38</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 2,652.37</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 3,470.10</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 2,060.27</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 2,899.81</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 4,380.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 3,839.73</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 3,459.51</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 1,834.35</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 3,907.12</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
@@ -166,11 +166,11 @@ class FinanzasPublicas extends \Base\Publicacion {
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Relación de Ingresos Propios y Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">38.3748 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">24.3200 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">33.3260 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">9.7467 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">32.4379 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">52.75 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">41.55 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">34.67 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">13.21 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">46.32 %</a></td>
   </tr>
 </tbody>
 </table>
@@ -189,9 +189,9 @@ class FinanzasPublicas extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Inversión Per cápita</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 475.91</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 659.04</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 534.84</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 837.41</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 750.61</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 495.10</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -203,30 +203,30 @@ class FinanzasPublicas extends \Base\Publicacion {
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Capacidad Financiera</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">52.7785 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">39.7498 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">39.1581 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">61.63 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">45.55 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">41.55 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Ingresos Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 6,649,116,096.00</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 5,277,880,579.00</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 284,519,582,697.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 10,456,589,387.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 6,334,445,171.00</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 320,998,782,933.00</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Ingresos Totales Per Cápita</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 2,272.74</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 3,021.45</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">$ 2,376.68</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 3,490.91</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 3,554.27</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">$ 2,625.25</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Relación de Ingresos Propios y Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">30.7383 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">20.8938 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Elaboración propia con datos obtenidos del INEGI">21.2090 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-coahuila/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">36.00 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-durango/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">25.54 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-nacional/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">24.45 %</a></td>
   </tr>
 </tbody>
 </table>

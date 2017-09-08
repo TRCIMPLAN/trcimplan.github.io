@@ -258,6 +258,18 @@
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">34.1600 %</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">46.3200 %</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -282,57 +294,57 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">38.3748 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">52.7500 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">24.3200 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">41.5500 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">33.3260 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">34.6700 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">9.7467 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">13.2100 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">32.4379 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">46.3200 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">30.7383 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">36.0000 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">20.8938 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">25.5400 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">21.2090 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">24.4500 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
@@ -444,6 +456,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosRelacionDeIngresosPropiosYTotalesEnLaLaguna === 'undefined') {
+     $('#SmiDatosRelacionDeIngresosPropiosYTotalesEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosRelacionDeIngresosPropiosYTotalesEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasRelacionDeIngresosPropiosYTotalesEnLaLaguna === 'undefined') {
@@ -457,7 +487,9 @@
         { fecha: '2011-12-31', dato: 32.9500 },
         { fecha: '2012-12-31', dato: 39.9600 },
         { fecha: '2013-12-31', dato: 40.9580 },
-        { fecha: '2014-12-31', dato: 32.4379 }],
+        { fecha: '2014-12-31', dato: 32.4379 },
+        { fecha: '2015-12-31', dato: 34.1600 },
+        { fecha: '2016-12-31', dato: 46.3200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -472,7 +504,7 @@
   if (typeof varSmiOtrasRegionesRelacionDeIngresosPropiosYTotalesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesRelacionDeIngresosPropiosYTotalesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesRelacionDeIngresosPropiosYTotalesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 38.3748 },{ region: 'Gómez Palacio', dato: 24.3200 },{ region: 'Lerdo', dato: 33.3260 },{ region: 'Matamoros', dato: 9.7467 },{ region: 'La Laguna', dato: 32.4379 },{ region: 'Coahuila', dato: 30.7383 },{ region: 'Durango', dato: 20.8938 },{ region: 'Nacional', dato: 21.2090 }],
+      data: [{ region: 'Torreón', dato: 52.7500 },{ region: 'Gómez Palacio', dato: 41.5500 },{ region: 'Lerdo', dato: 34.6700 },{ region: 'Matamoros', dato: 13.2100 },{ region: 'La Laguna', dato: 46.3200 },{ region: 'Coahuila', dato: 36.0000 },{ region: 'Durango', dato: 25.5400 },{ region: 'Nacional', dato: 24.4500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

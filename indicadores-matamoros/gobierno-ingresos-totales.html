@@ -258,6 +258,18 @@
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">$ 239,948,084.00</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 210,636,119.00</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -282,57 +294,57 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">$ 2,077,991,769.00</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 3,068,872,858.00</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">$ 929,690,716.00</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 1,373,333,250.00</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">$ 525,402,020.00</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 534,912,945.00</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">$ 231,643,308.00</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 210,636,119.00</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">$ 3,764,727,813.00</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 5,187,755,172.00</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">$ 6,649,116,096.00</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 10,456,589,387.00</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">$ 5,277,880,579.00</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 6,334,445,171.00</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">$ 284,519,582,697.00</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 320,998,782,933.00</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
@@ -432,6 +444,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosIngresosTotalesEnMatamoros === 'undefined') {
+     $('#SmiDatosIngresosTotalesEnMatamoros').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosIngresosTotalesEnMatamoros = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasIngresosTotalesEnMatamoros === 'undefined') {
@@ -445,7 +475,9 @@
         { fecha: '2011-12-31', dato: 154367205.00 },
         { fecha: '2012-12-31', dato: 176265107.00 },
         { fecha: '2013-12-31', dato: 194016156.00 },
-        { fecha: '2014-12-31', dato: 231643308.00 }],
+        { fecha: '2014-12-31', dato: 231643308.00 },
+        { fecha: '2015-12-31', dato: 239948084.00 },
+        { fecha: '2016-12-31', dato: 210636119.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -460,7 +492,7 @@
   if (typeof varSmiOtrasRegionesIngresosTotalesEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesIngresosTotalesEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesIngresosTotalesEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 2077991769.00 },{ region: 'Gómez Palacio', dato: 929690716.00 },{ region: 'Lerdo', dato: 525402020.00 },{ region: 'Matamoros', dato: 231643308.00 },{ region: 'La Laguna', dato: 3764727813.00 },{ region: 'Coahuila', dato: 6649116096.00 },{ region: 'Durango', dato: 5277880579.00 },{ region: 'Nacional', dato: 284519582697.00 }],
+      data: [{ region: 'Torreón', dato: 3068872858.00 },{ region: 'Gómez Palacio', dato: 1373333250.00 },{ region: 'Lerdo', dato: 534912945.00 },{ region: 'Matamoros', dato: 210636119.00 },{ region: 'La Laguna', dato: 5187755172.00 },{ region: 'Coahuila', dato: 10456589387.00 },{ region: 'Durango', dato: 6334445171.00 },{ region: 'Nacional', dato: 320998782933.00 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

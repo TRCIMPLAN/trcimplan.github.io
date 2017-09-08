@@ -68,7 +68,9 @@ class GobiernoIngresosTotales extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2013-12-31', 'valor' => '8345507096.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2014-12-31', 'valor' => '6649116096.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2014-12-31', 'valor' => '6649116096.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '9403596325.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '10456589387.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // datos
 
     /**
@@ -92,14 +94,14 @@ class GobiernoIngresosTotales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '2077991769.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '929690716.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '525402020.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '231643308.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '3764727813.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2014-12-31', 'valor' => '6649116096.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Durango', 'fecha' => '2014-12-31', 'valor' => '5277880579.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2014-12-31', 'valor' => '284519582697.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '3068872858.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1373333250.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '534912945.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '210636119.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '5187755172.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2016-12-31', 'valor' => '10456589387.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Durango', 'fecha' => '2016-12-31', 'valor' => '6334445171.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2016-12-31', 'valor' => '320998782933.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // otras_regiones
 
     /**

@@ -216,6 +216,18 @@
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">44.1100 %</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">45.5500 %</td>
+        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -240,57 +252,57 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">65.2382 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">95.2800 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">40.4069 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">62.5700 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">86.7984 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">71.9800 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">18.6306 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">19.7200 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">58.0197 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">79.8300 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">52.7785 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">61.6300 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">39.7498 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">45.5500 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">39.1581 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">41.5500 %</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
@@ -356,7 +368,9 @@
       element: 'SmiGraficasCapacidadFinancieraEnDurango',
       data: [
         { fecha: '2013-12-31', dato: 50.3196 },
-        { fecha: '2014-12-31', dato: 39.7498 }],
+        { fecha: '2014-12-31', dato: 39.7498 },
+        { fecha: '2015-12-31', dato: 44.1100 },
+        { fecha: '2016-12-31', dato: 45.5500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -371,7 +385,7 @@
   if (typeof varSmiOtrasRegionesCapacidadFinancieraEnDurangoGrafica === 'undefined') {
     varSmiOtrasRegionesCapacidadFinancieraEnDurangoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCapacidadFinancieraEnDurangoGrafica',
-      data: [{ region: 'Torreón', dato: 65.2382 },{ region: 'Gómez Palacio', dato: 40.4069 },{ region: 'Lerdo', dato: 86.7984 },{ region: 'Matamoros', dato: 18.6306 },{ region: 'La Laguna', dato: 58.0197 },{ region: 'Coahuila', dato: 52.7785 },{ region: 'Durango', dato: 39.7498 },{ region: 'Nacional', dato: 39.1581 }],
+      data: [{ region: 'Torreón', dato: 95.2800 },{ region: 'Gómez Palacio', dato: 62.5700 },{ region: 'Lerdo', dato: 71.9800 },{ region: 'Matamoros', dato: 19.7200 },{ region: 'La Laguna', dato: 79.8300 },{ region: 'Coahuila', dato: 61.6300 },{ region: 'Durango', dato: 45.5500 },{ region: 'Nacional', dato: 41.5500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

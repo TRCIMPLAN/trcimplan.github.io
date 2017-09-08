@@ -264,12 +264,6 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
-      <tr>
-        <td class="centrado">2017-06-30</td>
-        <td class="derecha">5.0377 %</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
-        <td></td>
-      </tr>
     </tbody>
   </table>
   </div>
@@ -330,7 +324,7 @@
       <tr>
         <td>Coahuila</td>
         <td class="centrado">2017-06-30</td>
-        <td class="derecha">5.0377 %</td>
+        <td class="derecha">37.0200 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -388,24 +382,6 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorDatos
-  if (typeof varSmiDatosTasaDeInformalidadEnCoahuila === 'undefined') {
-     $('#SmiDatosTasaDeInformalidadEnCoahuila').DataTable({
-      "language": {
-        "lengthMenu":   "Mostrando _MENU_ filas por página",
-        "zeroRecords":  "No se encontró nada",
-        "info":         "Mostrando página _PAGE_ de _PAGES_",
-        "infoEmpty":    "No se encontraron registros",
-        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-        "search":       "Filtrar:",
-        "paginate": {
-          "previous":   "Anterior",
-          "next":       "Siguiente"
-        }
-      }
-    });
-    varSmiDatosTasaDeInformalidadEnCoahuila = 1;
-  }
   // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeInformalidadEnCoahuilaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
@@ -435,7 +411,7 @@
   if (typeof varSmiOtrasRegionesTasaDeInformalidadEnCoahuilaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeInformalidadEnCoahuilaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeInformalidadEnCoahuilaGrafica',
-      data: [{ region: 'Torreón', dato: 45.9200 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 41.9439 },{ region: 'Coahuila', dato: 5.0377 },{ region: 'Durango', dato: 54.1499 },{ region: 'Nacional', dato: 56.5082 }],
+      data: [{ region: 'Torreón', dato: 45.9200 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 41.9439 },{ region: 'Coahuila', dato: 37.0200 },{ region: 'Durango', dato: 54.1499 },{ region: 'Nacional', dato: 56.5082 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

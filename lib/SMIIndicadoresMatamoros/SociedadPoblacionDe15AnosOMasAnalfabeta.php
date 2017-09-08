@@ -39,7 +39,7 @@ class SociedadPoblacionDe15AnosOMasAnalfabeta extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo     = 'sociedad-poblacion-de-15-anos-o-mas-analfabeta';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Personas de 15 años o más que no saben leer ni escribir';
+        $this->descripcion = 'Personas de 15 años o más que no saben leer ni escribir.';
         $this->claves      = 'IMPLAN, Matamoros, Educación';
         // Para el Organizador
         $this->categorias  = array('Educación');
@@ -119,7 +119,7 @@ class SociedadPoblacionDe15AnosOMasAnalfabeta extends \SMIBase\PublicacionWeb {
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Fuente: estimaciones del CONEVAL con base en el XII Censo de Población y Vivienda 2000, II Conteo de Población y Vivienda 2005, Censo de Población y Vivienda 2010 y Encuesta Intercensal 2015.
+Fuente: XII Censo de Población y Vivienda 2000, II Conteo de Población y Vivienda 2005, Censo de Población y Vivienda 2010 y Encuesta Intercensal 2015.
 OBSERVACIONES_FINAL;
     } // observaciones
 
