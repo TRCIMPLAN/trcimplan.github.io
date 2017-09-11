@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-09-08</lastmod>
+    <lastmod>2017-09-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3628,6 +3628,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza.html</loc>
     <lastmod>2016-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-09-11-resaltan-la-importancia-del-espacio-publico.html</loc>
+    <lastmod>2017-09-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
