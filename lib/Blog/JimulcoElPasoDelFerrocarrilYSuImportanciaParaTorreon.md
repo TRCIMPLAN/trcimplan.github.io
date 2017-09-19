@@ -19,11 +19,11 @@ Al término del porfiriato había más de veinte mil kilómetros de vías férre
 
 **Don Amador Cárdenas vendió parte de sus tierras para se construyera la vía del ferrocarril.** La construcción quedó a cargo de una empresa norteamericana; quedando establecida la estación Otto y talleres de servicio en Jimulco. En **1883** las vías del **Ferrocarril Central Mexicano** atravesaron la región lagunera, en donde **se construyeron las estaciones de Jimulco, Torreón y Lerdo.**
 
-Don Amador, quien tenía una fuerte amistad con Don Porfirio, **consiguió que su amigo el Presidente programara una escala en Jimulco** en el viaje rumbo a Ciudad Juarez, a bordo del tren presidencial y en esta importante vía.
-
 ### Mapa de 1885 (fragmento)
 
 <img class="img-responsive" src="jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-1885.jpg" alt="Mapa de 1885">
+
+Don Amador, quien tenía una fuerte amistad con Don Porfirio, **consiguió que su amigo el Presidente programara una escala en Jimulco** en el viaje rumbo a Ciudad Juarez, a bordo del tren presidencial y en esta importante vía.
 
 En **1909** el **Presidente Porfirio Díaz** visitó la "Casa Grande", propiedad de **Don Amador Cárdenas** en **La Flor, Jimulco.** Se dice que la recepción fue en grande: desde el ferrocarril presidencial hasta la Casa Grande se colocó una alfombra y un arco hecho de pacas de algodón para proteger del Sol al Presidente.
 
