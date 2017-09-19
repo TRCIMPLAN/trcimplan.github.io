@@ -23,13 +23,17 @@ En **1883** las vías del **Ferrocarril Central Mexicano** atravesaron la regió
 
 <img class="img-responsive" src="jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-1885.jpg" alt="Mapa de 1885">
 
-En **1909** el **Presidente Porfirio Díaz** visitó la "Casa Grande", propiedad de **Don Amador Cárdenas** en **La Flor, Jimulco.** Se dice que la recepción fue en grande: desde el ferrocarril presidencial hasta la Casa Grande se colocó una alfombra y un arco hecho de pacas de algodón para formar un arco que protegiera del Sol al Presidente.
+En **1909** el **Presidente Porfirio Díaz** visitó la "Casa Grande", propiedad de **Don Amador Cárdenas** en **La Flor, Jimulco.** Se dice que la recepción fue en grande: desde el ferrocarril presidencial hasta la Casa Grande se colocó una alfombra y un arco hecho de pacas de algodón para proteger del Sol al Presidente.
 
-**La Comarca Lagunera tuvo su gran transformación urbana con el Ferrocarril Internacional Mexicano.** Para **1910** se consolidaron Gómez Palacio y Torreón como centros reguladores; **siendo Torreón quien tomó el papel de ciudad principal de la región.**
+**La Comarca Lagunera tuvo su gran transformación urbana con el Ferrocarril Internacional Mexicano,** comunicando Torreón con Monterrey y Tampico, Veracruz. Para **1910** se consolidaron Gómez Palacio y Torreón como centros reguladores; **siendo Torreón quien tomó el papel de ciudad principal de la región.**
 
 ### Vías Férreas en La Comarca Lagunera
 
 <img class="img-responsive" src="jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-remsycj-vias-ferreas.jpg" alt="Vías Férreas en La Comarca Lagunera">
+
+**¿Qué hubiera ocurrido si la ruta del Ferrocarril Central Mexicano hubiera pasado por Durango capital en vez de Torreón?** En aquel entonces había mucho interés porque así se hiciera; puesto que la ciudad de Durango es la capital del estado, tiene industria minera y tres veces más población (en aquellos años) que La Comarca Lagunera. Tal vez Torreón continuaría sólo con su producción agrícola y sin la diversidad industrial, crecimiento económico y poblacional que tenemos tenido en más de 110 años.
+
+Se dice que para que la visita de **Don Porfirio Díaz** a **Jimulco** se documentara como "una visita a Torreón," se ordenó que Jimulco formara parte de éste Municipio; originando que el territorio municipal quedara formado por dos polígonos separados. **Sea cierto o no, la histórica visita fue el impulso clave para el desarrollo de La Laguna.**
 
 ### Ferromex: Rutas Férreas con viajes regulares a EE.UU.
 
@@ -43,7 +47,7 @@ Hoy en día vemos pasar trenes con vagones especiales para llevar automóviles. 
 
 Sus habitantes se distinguen por el amor a su tierra y la hospitalidad que brindan a los migrantes. **Es tan grande su generosidad que ofrecen techo, alimentos y ropa a quienes arriesgan su vida abordando el tren** para viajar a la frontera y buscar la oportunidad de cruzarla.
 
-La forma de ser de la gente de Jimulco es el resultado de la combinación del bello entorno natural entre el Río Aguanaval y la sierra, el paso del ferrocarril y los extranjeros que llegaron desde la colonización
+La forma de ser de la gente de Jimulco es el resultado de la combinación del bello entorno natural entre el Río Aguanaval y la sierra, el paso del ferrocarril y los extranjeros que llegaron desde la colonización.
 
 ### Datos del Censo de Población y Vivienda 2010
 
