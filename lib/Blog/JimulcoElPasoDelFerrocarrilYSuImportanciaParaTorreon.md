@@ -7,9 +7,9 @@ En la publicación anterior tratamos específicamente temas de la Reserva. En es
 
 ### Los orígenes de Jimulco
 
-La muy antigua **Hacienda de Jimulco** fue construida por misioneros jesuítas. Se reconoce a **Fray Agustín de Espinoza** como el poseedor de las Haciendas Santa Ana de los Hornos y Jimulco.
+La muy antigua **Hacienda de Jimulco** fue construida por misioneros jesuitas. Se reconoce a **Fray Agustín de Espinoza** como el poseedor de las Haciendas Santa Ana de los Hornos y Jimulco.
 
-Desde 1760 les quitaron a los jesuítas las tierras de la Real Hacienda de Jimulco y pasaron a ser propiedad de **Don David Winfield,** quien las vendió a **Juan Gaidor;** los cultivos de entonces eran escasos y se hacían con el agua que salía de los manantiales.
+Desde 1760 les quitaron a los jesuitas las tierras de la Real Hacienda de Jimulco y pasaron a ser propiedad de **Don David Winfield,** quien las vendió a **Juan Gaidor;** los cultivos de entonces eran escasos y se hacían con el agua que salía de los manantiales.
 
 **Amador Cárdenas Ramón,** nacido en Monclova, decidió establecerse en la Hacienda de Jimulco. En 1880 nació su hijo menor y le pidió a Juan Gaidor que lo bautizara; reafirmando con ello su amistad y confianza. Al fallecer Juan Gaidor dejó en herencia sus propiedades a su ahijado. **Fue así como las tierras de Jimulco pasaron a ser propiedad de Amador Cárdenas, siendo el principal actor en el desarrollo histórico de la región.**
 
@@ -45,22 +45,22 @@ Hoy en día vemos pasar trenes con vagones especiales para llevar automóviles. 
 
 ### La Población de Jimulco
 
-En contraste, Jimulco es relativamente poco poblado. **Se estiman más cuatro mil habitantes en las principales poblaciones de Jimulco.** La mayoría de las actividades económicas son relacionadas con la agricultura, siendo la siembra y recolección de orégano una de las más importantes.
+En contraste, Jimulco es relativamente poco poblado. **Se estiman más de cuatro mil habitantes en las principales poblaciones de Jimulco.** La mayoría de las actividades económicas son relacionadas con la agricultura, siendo la siembra y recolección de orégano una de las más importantes.
 
 Sus habitantes se distinguen por el amor a su tierra y la hospitalidad que brindan a los migrantes. **Es tan grande su generosidad que ofrecen techo, alimentos y ropa a quienes arriesgan su vida abordando el tren** para viajar a la frontera y buscar la oportunidad de cruzarla.
 
 La forma de ser de la gente de Jimulco es el resultado de la combinación del bello entorno natural entre el Río Aguanaval y la sierra, el paso del ferrocarril y los extranjeros que llegaron desde la colonización.
 
-### Datos del Censo de Población y Vivienda 2010
+### Datos del INEGI Censo de Población y Vivienda 2010
 
-Localidad          | Clave INEGI Localidad | Población Total
--------------------|----------------------:|----------------:
-Juan Eugenio       |                  0165 |           1,821
-Jalisco            |                  0162 |             685
-La Trinidad        |                  0199 |             322
-Jimulco            |                  0163 |             422
-La Flor de Jimulco |                  0158 |             695
-Doce de Diciembre  |                  0155 |              47
+Localidad          | Clave Localidad | Población Total
+-------------------|----------------:|----------------:
+Juan Eugenio       |            0165 |           1,821
+Jalisco            |            0162 |             685
+La Trinidad        |            0199 |             322
+Jimulco            |            0163 |             422
+La Flor de Jimulco |            0158 |             695
+Doce de Diciembre  |            0155 |              47
 
 ### Referencias
 
