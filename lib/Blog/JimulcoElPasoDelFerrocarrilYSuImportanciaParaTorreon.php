@@ -36,7 +36,7 @@ class JimulcoElPasoDelFerrocarrilYSuImportanciaParaTorreon extends \Base\Publica
         // Título, autor y fecha
         $this->nombre                     = 'Jimulco: El paso del ferrocarril y su importancia para Torreón';
         $this->autor                      = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha                      = '2017-09-18T12:15';
+        $this->fecha                      = '2017-09-18T14:05';
         // El nombre del archivo a crear
         $this->archivo                    = 'jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales

@@ -17,15 +17,15 @@ Desde 1760 les quitaron a los jesuítas las tierras de la Real Hacienda de Jimul
 
 Al término del porfiriato había más de veinte mil kilómetros de vías férreas construidas en México. **La Comarca Lagunera fue el punto ideal para ser un nodo ferroviario, por dos buenas razones, ser un gran productor de algodón y por la topografía plana.** Si se hubiera trazado la vía por la capital de Durango, la serranía hubiera elevado mucho los costos de construcción.
 
-En **1883** las vías del **Ferrocarril Central Mexicano** atravesaron la región lagunera, en donde **se construyeron las estaciones de Jimulco, Torreón y Lerdo.**
+**Don Amador Cárdenas vendió parte de sus tierras para se construyera la vía del ferrocarril.** La construcción quedó a cargo de una empresa norteamericana; quedando establecida la estación Otto y talleres de servicio en Jimulco. En **1883** las vías del **Ferrocarril Central Mexicano** atravesaron la región lagunera, en donde **se construyeron las estaciones de Jimulco, Torreón y Lerdo.**
+
+Don Amador, quien tenía una fuerte amistad con Don Porfirio, **consiguió que su amigo el Presidente programara una escala en Jimulco** en el viaje rumbo a Ciudad Juarez, a bordo del tren presidencial y en esta importante vía.
 
 ### Mapa de 1885 (fragmento)
 
 <img class="img-responsive" src="jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-1885.jpg" alt="Mapa de 1885">
 
 En **1909** el **Presidente Porfirio Díaz** visitó la "Casa Grande", propiedad de **Don Amador Cárdenas** en **La Flor, Jimulco.** Se dice que la recepción fue en grande: desde el ferrocarril presidencial hasta la Casa Grande se colocó una alfombra y un arco hecho de pacas de algodón para proteger del Sol al Presidente.
-
-**La Comarca Lagunera tuvo su gran transformación urbana con el Ferrocarril Internacional Mexicano,** comunicando Torreón con Monterrey y Tampico, Veracruz. Para **1910** se consolidaron Gómez Palacio y Torreón como centros reguladores; **siendo Torreón quien tomó el papel de ciudad principal de la región.**
 
 ### Vías Férreas en La Comarca Lagunera
 
@@ -35,15 +35,17 @@ En **1909** el **Presidente Porfirio Díaz** visitó la "Casa Grande", propiedad
 
 Se dice que para que la visita de **Don Porfirio Díaz** a **Jimulco** se documentara como "una visita a Torreón," se ordenó que Jimulco formara parte de éste Municipio; originando que el territorio municipal quedara formado por dos polígonos separados. **Sea cierto o no, la histórica visita fue el impulso clave para el desarrollo de La Laguna.**
 
+Posteriormente, **la Comarca Lagunera tuvo su gran transformación urbana con el Ferrocarril Internacional Mexicano,** comunicando Torreón con Monterrey y Tampico, Veracruz. Para **1910** se consolidaron Gómez Palacio y Torreón como centros reguladores; **siendo Torreón quien tomó el papel de ciudad principal de la región.**
+
 ### Ferromex: Rutas Férreas con viajes regulares a EE.UU.
 
 <img class="img-responsive" src="jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/vias-ferreas-cross-border.jpg" alt="Ferromex Rutas Férreas con viajes regulares a EE.UU.">
 
-Hoy en día vemos pasar trenes con vagones especiales para llevar automóviles. La industria automotriz que se encuentra en el centro del país fabrica vehículos para exportar a Estados Unidos. Los viajes "Cross Border" son de lunes a viernes según Ferromex. **Torreón está muy activo en este medio de transporte, por lo que debe de ser considerado como una localidad competitiva para las inversiones extranjeras.**
+Hoy en día vemos pasar trenes con vagones especiales para llevar automóviles. La industria automotriz que se encuentra en el centro del país fabrica vehículos para exportación. Los viajes _Cross Border_ Silao - Cd. Juárez son de lunes a viernes según Ferromex. **Torreón está muy activo en este medio de transporte, por lo que no deja de ser considerado como una ciudad competitiva para la inversión extranjera.**
 
 ### La Población de Jimulco
 
-**Se estiman más cuatro mil habitantes en las principales poblaciones de Jimulco.** La mayoría de las actividades económicas son relacionadas con la agricultura, siendo la siembra y recolección de orégano una de las más importantes.
+En contraste, Jimulco es relativamente poco poblado. **Se estiman más cuatro mil habitantes en las principales poblaciones de Jimulco.** La mayoría de las actividades económicas son relacionadas con la agricultura, siendo la siembra y recolección de orégano una de las más importantes.
 
 Sus habitantes se distinguen por el amor a su tierra y la hospitalidad que brindan a los migrantes. **Es tan grande su generosidad que ofrecen techo, alimentos y ropa a quienes arriesgan su vida abordando el tren** para viajar a la frontera y buscar la oportunidad de cruzarla.
 
@@ -53,7 +55,7 @@ La forma de ser de la gente de Jimulco es el resultado de la combinación del be
 
 Localidad          | Clave INEGI Localidad | Población Total
 -------------------|----------------------:|----------------:
-Juan Eugenio       |                  0165 |            1821
+Juan Eugenio       |                  0165 |           1,821
 Jalisco            |                  0162 |             685
 La Trinidad        |                  0199 |             322
 Jimulco            |                  0163 |             422
