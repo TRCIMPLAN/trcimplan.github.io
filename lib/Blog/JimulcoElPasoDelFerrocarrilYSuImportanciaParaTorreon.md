@@ -27,11 +27,9 @@ Don Amador, quien tenía una fuerte amistad con Don Porfirio, **consiguió que s
 
 En **1909** el **Presidente Porfirio Díaz** visitó la "Casa Grande", propiedad de **Don Amador Cárdenas** en **La Flor, Jimulco.** Se dice que la recepción fue en grande: desde el ferrocarril presidencial hasta la Casa Grande se colocó una alfombra y un arco hecho de pacas de algodón para proteger del Sol al Presidente.
 
-### Vías Férreas en La Comarca Lagunera
+### Mapa Reserva Ecológica Municipal Sierra y Cañón de Jimulco y vías férreas
 
-<img class="img-responsive" src="jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-remsycj-vias-ferreas-usgs-baja-resolucion.jpg" alt="Vías Férreas en La Comarca Lagunera">
-
-**Descargar** este mapa en alta resolución: [mapa-remsycj-vias-ferreas-usgs.jpg 1.6 MB](jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-remsycj-vias-ferreas-usgs.jpg)
+<a href="jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-remsycj-vias-ferreas-usgs.jpg" target="_blank"><img class="img-responsive" src="jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-remsycj-vias-ferreas-usgs-baja-resolucion.jpg" alt="Vías Férreas en La Comarca Lagunera"></a>
 
 **¿Qué hubiera ocurrido si la ruta del Ferrocarril Central Mexicano hubiera pasado por Durango capital en vez de Torreón?** En aquel entonces había mucho interés porque así se hiciera; puesto que la ciudad de Durango es la capital del estado, tiene industria minera y tres veces más población (en aquellos años) que La Comarca Lagunera. _Tal vez_ Torreón continuaría sólo con su producción agrícola _y con poca diversidad_ industrial, crecimiento económico y poblacional que hemos tenido en más de 110 años.
 
@@ -63,6 +61,10 @@ La Trinidad        |            0199 |             322
 Jimulco            |            0163 |             422
 La Flor de Jimulco |            0158 |             695
 Doce de Diciembre  |            0155 |              47
+
+### Descargar
+
+* Mapa Reserva Ecológica Municipal Sierra y Cañón de Jimulco y vías férreas: [mapa-remsycj-vias-ferreas-usgs.jpg 1.6 MB](jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon/mapa-remsycj-vias-ferreas-usgs.jpg)
 
 ### Referencias
 
