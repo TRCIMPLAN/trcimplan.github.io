@@ -41,7 +41,7 @@ class JimulcoElPasoDelFerrocarrilYSuImportanciaParaTorreon extends \Base\Publica
         $this->archivo                    = 'jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Torreón como gran productor de algodón aceleró su crecimiento desde que formó parte de la ruta del Ferrocarril Central Mexicano. Por Jimulco también pasa esta vía férrea y los hechos históricos que ahí ocurrieron moldearon el futuro de la Comarca Lagunera.';
-        $this->claves                     = 'IMPLAN, Torreon, ';
+        $this->claves                     = 'IMPLAN, Torreon, Jimulco, Ferrocarril, Vias Ferreas, La Laguna, La Flor de Jimulco, Reserva, Ecologica, Municipal';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/JimulcoElPasoDelFerrocarrilYSuImportanciaParaTorreon.md';
         // Para el Organizador

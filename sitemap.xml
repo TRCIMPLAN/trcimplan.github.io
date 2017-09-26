@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-09-14</lastmod>
+    <lastmod>2017-09-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -453,6 +453,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/invertir-en-torreon.html</loc>
     <lastmod>2014-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon.html</loc>
+    <lastmod>2017-09-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -3553,6 +3558,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-03-27-firman-la-convenio-facultad-de-ingenieria-civil-de-la-uac-y-el-implan-torreon.html</loc>
     <lastmod>2017-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-08-31-implan-firma-convenio-con-el-cluster-automotriz.html</loc>
+    <lastmod>2017-08-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
