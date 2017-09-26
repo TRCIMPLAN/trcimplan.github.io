@@ -1,8 +1,8 @@
 <?php
 /**
- * Sitio Web - CidacProfesionistasTorreon06Recomendaciones
+ * TrcIMPLAN Sitio Web - CidacProfesionistasTorreon06Recomendaciones
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2016 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -37,7 +37,7 @@ class CidacProfesionistasTorreon06Recomendaciones extends \Base\PublicacionSchem
         $this->nombre                     = 'Profesionistas Torreón - Recomendaciones';
         $this->autor                      = 'CIDAC';
         $this->fecha                      = '2016-04-25T15:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
+        // El nombre del archivo a crear
         $this->archivo                    = 'cidac-profesionistas-torreon-06-recomendaciones';
         $this->imagen                     = 'cidac-profesionistas-torreon/imagen.png';
         $this->imagen_previa              = 'cidac-profesionistas-torreon/imagen-previa.png';
@@ -50,8 +50,10 @@ class CidacProfesionistasTorreon06Recomendaciones extends \Base\PublicacionSchem
         $this->categorias                 = array('Bienestar', 'Educación', 'Empleo', 'Empresas');
         $this->fuentes                    = array('Centro de Investigación para el Desarrollo, A.C. (CIDAC)');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado                     = 'revisar';
+        // Banderas
+        $this->aparece_en_pagina_inicial  = FALSE;
+        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
+        $this->estado                    = 'revisar';
     } // constructor
 
 } // Clase CidacProfesionistasTorreon06Recomendaciones

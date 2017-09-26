@@ -1,8 +1,8 @@
 <?php
 /**
- * Sitio Web - CidacProfesionistasTorreon
+ * TrcIMPLAN Sitio Web - CidacProfesionistasTorreon
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2016 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -37,15 +37,11 @@ class CidacProfesionistasTorreon extends \Base\PublicacionSchemaArticle {
         $this->nombre                     = 'Profesionistas Torreón';
         $this->autor                      = 'CIDAC';
         $this->fecha                      = '2016-04-25T14:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
+        // El nombre del archivo a crear
         $this->archivo                    = 'cidac-profesionistas-torreon';
-        $this->imagen                     = 'cidac-profesionistas-torreon/imagen.png';
-        $this->imagen_previa              = 'cidac-profesionistas-torreon/imagen-previa.png';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En Profesionistas Torreón nos adentramos al ámbito local para analizar y contestar la pregunta: ¿existe o no una brecha de talento y competencias en Torreón?.';
         $this->claves                     = 'IMPLAN, Torreon';
-        // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Investigaciones/CidacProfesionistasTorreon.md';
         // Para el Organizador

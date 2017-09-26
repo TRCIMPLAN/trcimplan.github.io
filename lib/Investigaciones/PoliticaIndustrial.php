@@ -39,8 +39,6 @@ class PoliticaIndustrial extends \Base\PublicacionSchemaArticle {
         $this->fecha         = '2017-05-26T12:00';
         // El nombre del archivo a crear
         $this->archivo       = 'politica-industrial';
-        $this->imagen        = 'politica-industrial/imagen.jpg';
-        $this->imagen_previa = 'politica-industrial/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion   = 'Estudio sobre Política Industrial para Torreón, Coahuila de Zaragoza, México.';
         $this->claves        = 'IMPLAN, Torreon, Politica, Industrial';

@@ -2,7 +2,7 @@
 /**
  * TrcIMPLAN Sitio Web - IndiceBasicoDeLasCiudadesProperasTorreon2016
  *
- * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com> <guivaloz@movimientolibre.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -48,6 +48,8 @@ class IndiceBasicoDeLasCiudadesProperasTorreon2016 extends \Base\PublicacionSche
         $this->categorias                 = array('Objetivos del Milenio');
         $this->fuentes                    = array('ONU-Habitat');
         $this->regiones                   = array('Torreón');
+        // Banderas
+        $this->aparece_en_pagina_inicial  = FALSE;
     } // constructor
 
 } // Clase IndiceBasicoDeLasCiudadesProperasTorreon2016
