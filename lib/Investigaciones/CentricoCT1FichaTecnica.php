@@ -34,7 +34,7 @@ class CentricoCT1FichaTecnica extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Céntrico - TC1 Ficha Técnica: Calle Manuel Acuña entre Consitución e Independencia';
+        $this->nombre                     = 'Céntrico - TC1 Ficha Técnica: Calle Manuel Acuña entre Constitución e Independencia';
         $this->autor                      = 'Arq. Patricio Ruiz';
         $this->fecha                      = '2017-09-27T10:50';
         // El nombre del archivo a crear
