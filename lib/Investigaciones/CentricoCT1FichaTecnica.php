@@ -36,11 +36,11 @@ class CentricoCT1FichaTecnica extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Céntrico - TC1 Ficha Técnica: Calle Manuel Acuña entre Consitución e Independencia';
         $this->autor                      = 'Arq. Patricio Ruiz';
-        $this->fecha                      = '2017-09-26T12:00';
+        $this->fecha                      = '2017-09-27T10:50';
         // El nombre del archivo a crear
         $this->archivo                    = 'centrico-ct1-ficha-tecnica';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Análisis del corredor y de los factores que promueven la accidentalidad.';
+        $this->descripcion                = 'A raíz del accidente entre el ciclista Eduardo Rentería (Ruedas del Desierto) y una camioneta en el cruce de Blvd. Constitución y Manuel Acuña, se realizó este análisis del corredor y de los factores que promueven la accidentalidad.';
         $this->claves                     = 'IMPLAN, Torreon, Ficha Tecnica, Calle Manuel Acuña, Constitucion, Indepencia';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Investigaciones/CentricoCT1FichaTecnica.md';
@@ -49,7 +49,7 @@ class CentricoCT1FichaTecnica extends \Base\PublicacionSchemaArticle {
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón');
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                    = 'revisar';
+        $this->estado                    = 'publicar';
     } // constructor
 
 } // Clase CentricoCT1FichaTecnica
