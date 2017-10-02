@@ -76,3 +76,7 @@ Doce de Diciembre  |            0155 |              47
 * [Ferromex ¿A dónde lo movemos?](http://www.ferromex.com.mx/ferromex-lo-mueve/sistema-ferromex.jsp)
 * [INEGI Censo 2010 - Microdatos Coahuila de Zaragoza](http://www.beta.inegi.org.mx/contenidos/proyectos/ccpv/2010/microdatos/iter/05_coahuila_2010_iter_zip.zip)
 * [U.S. Geological Survey - Earth Explorer - Landsat 8 / 2017-01-19](https://earthexplorer.usgs.gov/)
+
+### Este análisis fue publicado en Milenio Laguna
+
+* [Milenio - Jimulco: El paso del ferrocarril y su importancia para Torreón](http://www.milenio.com/region/reserva_ecologica_jimulco-canon_de_jimulco-implan_torreon-milenio_noticias-laguna_0_1040895937.html)

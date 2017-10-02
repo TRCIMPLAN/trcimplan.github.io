@@ -48,3 +48,7 @@ A la fecha informó que continúan realizándose estas mediciones en distintos s
 ### Fuente
 
 * [Dirección de Salud Municipal de Torreón](http://www.torreon.gob.mx/torreon2014/salud.cfm)
+
+### Este análisis fue publicado en Milenio Laguna
+
+* [Milenio - Tendencia a la obesidad y diabetes en mujeres mayores de 40 años](http://www.milenio.com/region/implan_torreon-diabetes_torreon-obesidad-mujeres_40_anos-milenio_noticias-laguna_0_1036696351.html)

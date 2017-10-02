@@ -36,7 +36,7 @@ class JimulcoElPasoDelFerrocarrilYSuImportanciaParaTorreon extends \Base\Publica
         // Título, autor y fecha
         $this->nombre                     = 'Jimulco: El paso del ferrocarril y su importancia para Torreón';
         $this->autor                      = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha                      = '2017-09-21T08:20';
+        $this->fecha                      = '2017-10-02T08:26';
         // El nombre del archivo a crear
         $this->archivo                    = 'jimulco-el-paso-del-ferrocarril-y-su-importancia-para-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -49,10 +49,7 @@ class JimulcoElPasoDelFerrocarrilYSuImportanciaParaTorreon extends \Base\Publica
         $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón', 'La Laguna');
         // Banderas
-        $this->aparece_en_pagina_inicial  = FALSE;
         $this->poner_imagen_en_contenido  = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
     } // constructor
 
 } // Clase JimulcoElPasoDelFerrocarrilYSuImportanciaParaTorreon
