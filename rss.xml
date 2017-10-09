@@ -5,11 +5,30 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 05 Oct 2017 10:44:44 -0500</pubDate>
+    <pubDate>Mon, 09 Oct 2017 11:26:29 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podas, escombro y ciudadanos</title>
+      <link>http://www.trcimplan.gob.mx/blog/podas-escombro-y-ciudadanos.html</link>
+      <guid isPermaLink="false">blog-podas-escombro-y-ciudadanos</guid>
+      <pubDate>Mon, 09 Oct 2017 11:20:00 -0500</pubDate>
+      <author>Q.F.B. Susana Estens de la Garza</author>
+      <description><![CDATA[<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/podas-escombro-y-ciudadanos/rio-nazas-con-basura-y-escombro.jpg" alt="Río Nazas - Basura y Escombro en el lecho seco del río"></p>
+
+<p>El municipio de Torreón cuenta con un servicio de limpieza (recolección de basura) que en las encuestas de percepción se considera bueno. Difiero. <strong>Por la cantidad de dinero que se paga mensualmente, podríamos y deberíamos tener una ciudad más limpia.  Sin embargo, no se trata solo de pagar.</strong> A fin de cuentas, las personas sacan a la banqueta la basura y el camión que pasa tres veces a la semana, se lo lleva. Fuera de vista, se terminó el problema.</p>
+
+<p>¿Pero qué sucede si se hicieron podas o se cortó el césped? ¿Qué sucede si se hizo una pequeña remodelación que generó menos de un metro cúbico de escombro? <strong>La ley marca que el generador es responsable de sus residuos hasta la correcta disposición final.</strong> ¿Qué opciones damos a los ciudadanos que se encuentran en esta situación? ¿Qué es lo que hace el ciudadano? Es de todos conocido que lo más sencillo es contratar a un carromatero para que retire las podas o el escombro. ¿Y el carromatero dónde depositará estos residuos? También ya lo sabemos.  En cualquier parte: cauce del río, arroyos, lotes baldíos, espacios públicos y predios sin vigilancia. <strong>De esta forma todos estamos contribuyendo al problema. Y entre todos pagamos, ya que resulta oneroso para la ciudad estar limpiando lo que otros tiran y que luego también tapona el drenaje.</strong></p>
+
+<p>Y eso sin siquiera tocar el tema del abuso que se hace de los animales de tiro. <strong>La solución que propongo en este breve escrito es que el municipio establezca un sistema a través del cual se pueda solicitar el servicio de retiro de podas o escombro cuando estos no excedan una cantidad,</strong> (2 m3 de escombro o de podas, por ejemplo). El servicio tendría un costo (que de hecho ya se encuentra en la Ley de Ingresos desde hace años), generaría empleos y abonaría a la responsabilidad ambiental que los ciudadanos debemos ejercer. El escombro tiene el potencial de ser transformado en materiales que se pueden usar nuevamente. Las podas se pueden convertir en composta. <strong>Ya se hace en otras ciudades. ¿Por qué en Torreón no?</strong></p>
+
+<h3>Es frecuente la quema de residuos en el lecho del Río Nazas</h3>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/podas-escombro-y-ciudadanos/rio-nazas-quema-residuos.jpg" alt="Quema de residuos en el lecho del Río Nazas"></p>
+]]></description>
+    </item>
     <item>
       <title>La Lluvia y la Basura</title>
       <link>http://www.trcimplan.gob.mx/blog/la-lluvia-y-la-basura.html</link>
@@ -626,14 +645,6 @@
 
 <p><a href="http://www.milenio.com/region/nuestra_metropoli_desde_el_implan-empleo_en_la_laguna-milenio_noticias_laguna_0_1024097611.html">Milenio - Análisis de las condiciones del empleo en La Laguna</a></p>
 ]]></description>
-    </item>
-    <item>
-      <title>Población de 15 años o más analfabeta en Nacional</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-nacional/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html</link>
-      <guid isPermaLink="false">indicadores-nacional-sociedad-poblacion-de-15-anos-o-mas-analfabeta</guid>
-      <pubDate>Mon, 04 Sep 2017 10:30:00 -0500</pubDate>
-      <author>Dirección de Investigación Estratégica</author>
-      <description><![CDATA[Debe haber algo aquí.]]></description>
     </item>
   </channel>
 </rss>

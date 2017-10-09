@@ -45,7 +45,7 @@ class LaLluviaYLaBasura extends \Base\PublicacionSchemaBlogPosting {
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaLluviaYLaBasura.md';
         // Para el Organizador
-        $this->categorias                 = array('Infraestructura', 'Recursos Naturales');
+        $this->categorias                 = array('Servicios Públicos', 'Recursos Naturales');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
         // Banderas
