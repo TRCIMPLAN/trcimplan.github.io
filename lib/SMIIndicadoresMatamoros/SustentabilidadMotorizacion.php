@@ -39,7 +39,7 @@ class SustentabilidadMotorizacion extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-motorizacion';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Vehículos automotores registrados en circulación.';
+        $this->descripcion = 'Vehículos automotores registrados en circulación por cada mil habitantes.';
         $this->claves      = 'IMPLAN, Matamoros, Recursos Naturales, Movilidad, Vialidad';
         // Para el Organizador
         $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad');

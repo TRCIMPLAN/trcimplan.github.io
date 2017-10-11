@@ -77,7 +77,6 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \SMIBase\PublicacionWeb 
             array('fecha' => '2013-12-31', 'valor' => '11.2429', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '9.7467', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '10.9400', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '10.9400', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2016-12-31', 'valor' => '13.2100', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // datos
 
