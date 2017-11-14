@@ -40,9 +40,9 @@ class SustentabilidadAlumbradoPublico extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-alumbrado-publico';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
-        $this->claves      = 'IMPLAN, Matamoros, Servicios Públicos';
+        $this->claves      = 'IMPLAN, Matamoros, Servicios Públicos, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Servicios Públicos');
+        $this->categorias  = array('Servicios Públicos', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Matamoros');
     } // constructor

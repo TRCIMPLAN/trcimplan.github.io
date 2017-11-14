@@ -45,6 +45,7 @@ class CategoriasConfig {
     public function __construct() {
         $this->categorias[] = new \Base\Categoria('Bienestar',                                    'bienestar');
         $this->categorias[] = new \Base\Categoria('Competitividad',                               'competitividad');
+        $this->categorias[] = new \Base\Categoria('Cluster Automotriz',                           'cluster-automotriz');
         $this->categorias[] = new \Base\Categoria('Cultura',                                      'cultura');
         $this->categorias[] = new \Base\Categoria('Delincuencia',                                 'delincuencia');
         $this->categorias[] = new \Base\Categoria('Doing Business',                               'doing-business');

@@ -40,9 +40,9 @@ class SociedadCamasCensables extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-camas-censables';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = '';
-        $this->claves      = 'IMPLAN, Torreón, Salud';
+        $this->claves      = 'IMPLAN, Torreón, Salud, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Salud');
+        $this->categorias  = array('Salud', 'Cluster Automotriz');
         $this->fuentes     = array('SINAIS (SSA)', 'Secretaria de Salud del Estado de Coahuila');
         $this->regiones    = array('Torreón');
     } // constructor

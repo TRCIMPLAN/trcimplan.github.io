@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-11-07</lastmod>
+    <lastmod>2017-11-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4247,6 +4247,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-categorias/bienestar.html</loc>
+    <lastmod>2015-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-categorias/cluster-automotriz.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

@@ -45,7 +45,7 @@ class IMPLANFirmaConvenioConElClusterAutomotriz extends \Base\PublicacionSchemaB
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/IMPLANFirmaConvenioConElClusterAutomotriz.md';
         // Para el Organizador
-        $this->categorias                 = array('Competitividad', 'Empresas');
+        $this->categorias                 = array('Competitividad', 'Empresas', 'Cluster Automotriz');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor

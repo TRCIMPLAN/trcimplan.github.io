@@ -40,9 +40,9 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \SMIBase\Pub
         $this->archivo     = 'sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.';
-        $this->claves      = 'IMPLAN, Matamoros, Movilidad';
+        $this->claves      = 'IMPLAN, Matamoros, Movilidad, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad');
+        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
         $this->fuentes     = array('CONAPO-INEGI');
         $this->regiones    = array('Matamoros');
     } // constructor

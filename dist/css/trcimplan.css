@@ -318,7 +318,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 }
 
 /*
- * Indicadores por Región
+ * Indicadores por Region
  */
 .indicadores-vinculos {
     font-family:'Roboto Condensed',sans-serif; font-weight:400;
@@ -416,7 +416,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 #ultimas-publicaciones .red-social-twitter { background-color:#494043; padding:8px; }
 
 /*
- * Página Inicial Mapa
+ * Pagina Inicial Mapa
  */
 #mapa,
 #mapa-chico                    { background-color:#D1D7DC; padding:8px; color:#444; font-size:14px; }
@@ -437,7 +437,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 #mapa-chico                    { display:none; }
 
 /*
- * Página Inicial redes sociales
+ * Pagina Inicial redes sociales
  */
 #redes                 { background-color:#ECECEC; padding:8px; }
 #redes .redes-sociales { color:#646464; font-size:2.5em; }
@@ -455,6 +455,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 #categorias-por-defecto:hover                                { background-position:-128px 0; }
 #categorias-bienestar                                        { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/bienestar.jpg") no-repeat 0 0; }
 #categorias-bienestar:hover                                  { background-position:-128px 0; }
+#categorias-cluster-automotriz                               { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/cluster-automotriz.jpg") no-repeat 0 0; }
+#categorias-cluster-automotriz:hover                         { background-position:-128px 0; }
 #categorias-competitividad                                   { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/competitividad.jpg") no-repeat 0 0; }
 #categorias-competitividad:hover                             { background-position:-128px 0; }
 #categorias-cultura                                          { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/cultura.jpg") no-repeat 0 0; }

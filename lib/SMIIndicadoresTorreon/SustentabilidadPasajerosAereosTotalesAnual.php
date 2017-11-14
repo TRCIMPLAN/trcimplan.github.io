@@ -40,9 +40,9 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \SMIBase\PublicacionWeb
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-totales-anual';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.';
-        $this->claves      = 'IMPLAN, Torreón, Movilidad';
+        $this->claves      = 'IMPLAN, Torreón, Movilidad, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad');
+        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
         $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)');
         $this->regiones    = array('Torreón');
     } // constructor

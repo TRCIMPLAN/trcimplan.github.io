@@ -40,9 +40,9 @@ class SustentabilidadRedCarreteraTroncalFederal extends \SMIBase\PublicacionWeb 
         $this->archivo     = 'sustentabilidad-red-carretera-troncal-federal';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = '';
-        $this->claves      = 'IMPLAN, Torreón, Infraestructura';
+        $this->claves      = 'IMPLAN, Torreón, Infraestructura, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Infraestructura');
+        $this->categorias  = array('Infraestructura', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

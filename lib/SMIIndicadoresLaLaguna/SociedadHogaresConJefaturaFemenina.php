@@ -40,9 +40,9 @@ class SociedadHogaresConJefaturaFemenina extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-hogares-con-jefatura-femenina';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de hogares con jefatura femenina.';
-        $this->claves      = 'IMPLAN, La Laguna, Género';
+        $this->claves      = 'IMPLAN, La Laguna, Género, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Género');
+        $this->categorias  = array('Género', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor

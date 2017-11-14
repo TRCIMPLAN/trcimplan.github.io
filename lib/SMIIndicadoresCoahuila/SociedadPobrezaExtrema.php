@@ -40,9 +40,9 @@ class SociedadPobrezaExtrema extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-pobreza-extrema';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de la población en situación de pobreza extrema.';
-        $this->claves      = 'IMPLAN, Coahuila, Bienestar, Objetivos del Milenio';
+        $this->claves      = 'IMPLAN, Coahuila, Bienestar, Objetivos del Milenio, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Bienestar', 'Objetivos del Milenio');
+        $this->categorias  = array('Bienestar', 'Objetivos del Milenio', 'Cluster Automotriz');
         $this->fuentes     = array('CONEVAL');
         $this->regiones    = array('Coahuila');
     } // constructor

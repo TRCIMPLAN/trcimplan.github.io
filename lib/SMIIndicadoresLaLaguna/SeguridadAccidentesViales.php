@@ -40,9 +40,9 @@ class SeguridadAccidentesViales extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'seguridad-accidentes-viales';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Cantidad de accidentes viales por año.';
-        $this->claves      = 'IMPLAN, La Laguna, Vialidad, Movilidad, Seguridad';
+        $this->claves      = 'IMPLAN, La Laguna, Vialidad, Movilidad, Seguridad, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Vialidad', 'Movilidad', 'Seguridad');
+        $this->categorias  = array('Vialidad', 'Movilidad', 'Seguridad', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor

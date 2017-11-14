@@ -40,9 +40,9 @@ class SustentabilidadAreaNoUrbanizada extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-area-no-urbanizada';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Área total de localidades no urbanizadas sobre la superficie municipal.';
-        $this->claves      = 'IMPLAN, Lerdo, Recursos Naturales';
+        $this->claves      = 'IMPLAN, Lerdo, Recursos Naturales, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales');
+        $this->categorias  = array('Recursos Naturales', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Lerdo');
     } // constructor

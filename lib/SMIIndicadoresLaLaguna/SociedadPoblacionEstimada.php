@@ -40,9 +40,9 @@ class SociedadPoblacionEstimada extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-poblacion-estimada';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Población estimada a mitad de año.';
-        $this->claves      = 'IMPLAN, La Laguna, Población';
+        $this->claves      = 'IMPLAN, La Laguna, Población, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Población');
+        $this->categorias  = array('Población', 'Cluster Automotriz');
         $this->fuentes     = array('CONAPO');
         $this->regiones    = array('La Laguna');
     } // constructor

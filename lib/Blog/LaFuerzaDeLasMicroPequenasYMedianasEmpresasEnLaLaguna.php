@@ -45,7 +45,7 @@ class LaFuerzaDeLasMicroPequenasYMedianasEmpresasEnLaLaguna extends \Base\Public
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaFuerzaDeLasMicroPequenasYMedianasEmpresasEnLaLaguna.md';
         // Para el Organizador
-        $this->categorias                 = array('Empresas', 'Empleo', 'Innovación', 'Gobierno', 'Gobierno Digital');
+        $this->categorias                 = array('Empresas', 'Empleo', 'Innovación', 'Gobierno', 'Gobierno Digital', 'Cluster Automotriz');
         $this->fuentes                    = array('INEGI', 'Sistema de Información Empresarial Mexicano (SIEM)', 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón');
         $this->regiones                   = array('Torreón');
     } // constructor

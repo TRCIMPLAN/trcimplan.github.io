@@ -45,7 +45,7 @@ class PanoramaEducacionSuperiorZMLParte1 extends \Base\PublicacionSchemaBlogPost
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PanoramaEducacionSuperiorZMLParte1.md';
         // Para el Organizador
-        $this->categorias                 = array('Competitividad', 'Educación');
+        $this->categorias                 = array('Competitividad', 'Educación', 'Cluster Automotriz');
         $this->fuentes                    = array();
         $this->regiones                   = array();
     } // constructor

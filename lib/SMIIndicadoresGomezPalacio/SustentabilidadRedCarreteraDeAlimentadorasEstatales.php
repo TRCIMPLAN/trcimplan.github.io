@@ -40,9 +40,9 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \SMIBase\Publi
         $this->archivo     = 'sustentabilidad-red-carretera-de-alimentadoras-estatales';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Red carretera de alimentadoras estatales.';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Infraestructura';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Infraestructura, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Infraestructura');
+        $this->categorias  = array('Infraestructura', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Gómez Palacio');
     } // constructor

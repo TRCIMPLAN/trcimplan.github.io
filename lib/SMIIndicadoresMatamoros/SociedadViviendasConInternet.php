@@ -40,9 +40,9 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-viviendas-con-internet';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de viviendas habitadas con internet.';
-        $this->claves      = 'IMPLAN, Matamoros, Vivienda';
+        $this->claves      = 'IMPLAN, Matamoros, Vivienda, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Vivienda');
+        $this->categorias  = array('Vivienda', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Matamoros');
     } // constructor

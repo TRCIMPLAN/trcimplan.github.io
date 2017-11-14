@@ -49,9 +49,9 @@ Porcentaje de viviendas con algún nivel de hacinamiento
 Porcentaje de ocupantes en viviendas con piso de tierra
 Porcentaje de población en localidades con menos de 5 000 habitantes
 Porcentaje de población ocupada con ingresos de hasta 2 salarios mínimos';
-        $this->claves      = 'IMPLAN, Lerdo, Bienestar, Grupos Vulnerables';
+        $this->claves      = 'IMPLAN, Lerdo, Bienestar, Grupos Vulnerables, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Bienestar', 'Grupos Vulnerables');
+        $this->categorias  = array('Bienestar', 'Grupos Vulnerables', 'Cluster Automotriz');
         $this->fuentes     = array('CONAPO');
         $this->regiones    = array('Lerdo');
     } // constructor

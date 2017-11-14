@@ -40,9 +40,9 @@ class SustentabilidadDisponibilidadDeBanqueta extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-disponibilidad-de-banqueta';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.';
-        $this->claves      = 'IMPLAN, Coahuila, Movilidad, Vialidad, Infraestructura';
+        $this->claves      = 'IMPLAN, Coahuila, Movilidad, Vialidad, Infraestructura, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Vialidad', 'Infraestructura');
+        $this->categorias  = array('Movilidad', 'Vialidad', 'Infraestructura', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Coahuila');
     } // constructor

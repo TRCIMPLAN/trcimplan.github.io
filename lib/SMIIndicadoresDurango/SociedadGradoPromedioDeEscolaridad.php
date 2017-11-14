@@ -40,9 +40,9 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-grado-promedio-de-escolaridad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Un grado se considera un año de acuerdo al sistema educativo nacional.';
-        $this->claves      = 'IMPLAN, Durango, Educación';
+        $this->claves      = 'IMPLAN, Durango, Educación, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Educación');
+        $this->categorias  = array('Educación', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Durango');
     } // constructor

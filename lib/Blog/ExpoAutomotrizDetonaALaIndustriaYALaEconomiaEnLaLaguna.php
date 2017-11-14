@@ -45,7 +45,7 @@ class ExpoAutomotrizDetonaALaIndustriaYALaEconomiaEnLaLaguna extends \Base\Publi
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ExpoAutomotrizDetonaALaIndustriaYALaEconomiaEnLaLaguna.md';
         // Para el Organizador
-        $this->categorias                 = array('Empleo', 'Empresas');
+        $this->categorias                 = array('Empleo', 'Empresas', 'Cluster Automotriz');
         $this->fuentes                    = array('IMPLAN');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor

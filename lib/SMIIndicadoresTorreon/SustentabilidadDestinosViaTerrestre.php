@@ -40,9 +40,9 @@ class SustentabilidadDestinosViaTerrestre extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-destinos-via-terrestre';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio';
-        $this->claves      = 'IMPLAN, Torreón, Movilidad';
+        $this->claves      = 'IMPLAN, Torreón, Movilidad, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad');
+        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
         $this->fuentes     = array('IMPLAN');
         $this->regiones    = array('Torreón');
     } // constructor

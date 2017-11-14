@@ -40,9 +40,9 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-indice-de-desarrollo-humano-idh';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares.';
-        $this->claves      = 'IMPLAN, Matamoros, Bienestar';
+        $this->claves      = 'IMPLAN, Matamoros, Bienestar, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Bienestar');
+        $this->categorias  = array('Bienestar', 'Cluster Automotriz');
         $this->fuentes     = array('INAFED-PNUD');
         $this->regiones    = array('Matamoros');
     } // constructor

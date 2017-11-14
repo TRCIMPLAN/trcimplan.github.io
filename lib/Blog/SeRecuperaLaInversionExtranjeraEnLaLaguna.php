@@ -45,7 +45,7 @@ class SeRecuperaLaInversionExtranjeraEnLaLaguna extends \Base\PublicacionSchemaB
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/SeRecuperaLaInversionExtranjeraEnLaLaguna.md';
         // Para el Organizador
-        $this->categorias                 = array('Doing Business', 'Empresas', 'Macroeconomía', 'Mercados');
+        $this->categorias                 = array('Doing Business', 'Empresas', 'Macroeconomía', 'Mercados', 'Cluster Automotriz');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor

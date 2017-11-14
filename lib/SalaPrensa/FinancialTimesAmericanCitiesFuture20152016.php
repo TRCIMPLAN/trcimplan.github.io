@@ -44,7 +44,7 @@ class FinancialTimesAmericanCitiesFuture20152016 extends \Base\PublicacionSchema
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/FinancialTimesAmericanCitiesFuture20152016.md';
         // Para el Organizador
-        $this->categorias                 = array('Empresas', 'Empleo');
+        $this->categorias                 = array('Empresas', 'Empleo', 'Cluster Automotriz');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón');
     } // constructor

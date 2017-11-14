@@ -40,9 +40,9 @@ class SociedadOcupacionPorVivienda extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-ocupacion-por-vivienda';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.';
-        $this->claves      = 'IMPLAN, Torreón, Vivienda';
+        $this->claves      = 'IMPLAN, Torreón, Vivienda, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Vivienda');
+        $this->categorias  = array('Vivienda', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('Torreón');
     } // constructor

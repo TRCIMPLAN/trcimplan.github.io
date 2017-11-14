@@ -40,9 +40,9 @@ class SustentabilidadUsuariosDeAutomoviles extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-usuarios-de-automoviles';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Se considera como usuarios a la población de 12 a 65 años de edad que realizan traslados con motivo de estudios o trabajo. No necesariamente poseen el vehículo.';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Movilidad';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Movilidad, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad');
+        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Gómez Palacio');
     } // constructor

@@ -45,7 +45,7 @@ class JimulcoElPasoDelFerrocarrilYSuImportanciaParaTorreon extends \Base\Publica
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/JimulcoElPasoDelFerrocarrilYSuImportanciaParaTorreon.md';
         // Para el Organizador
-        $this->categorias                 = array('Infraestructura', 'Población');
+        $this->categorias                 = array('Infraestructura', 'Población', 'Cluster Automotriz');
         $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón', 'La Laguna');
         // Banderas

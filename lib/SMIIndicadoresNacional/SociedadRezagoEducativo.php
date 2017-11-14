@@ -40,9 +40,9 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-rezago-educativo';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal; o tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado; o tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria.';
-        $this->claves      = 'IMPLAN, Nacional, Educación, Grupos Vulnerables, Objetivos del Milenio';
+        $this->claves      = 'IMPLAN, Nacional, Educación, Grupos Vulnerables, Objetivos del Milenio, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Educación', 'Grupos Vulnerables', 'Objetivos del Milenio');
+        $this->categorias  = array('Educación', 'Grupos Vulnerables', 'Objetivos del Milenio', 'Cluster Automotriz');
         $this->fuentes     = array('CONEVAL');
         $this->regiones    = array('Nacional');
     } // constructor

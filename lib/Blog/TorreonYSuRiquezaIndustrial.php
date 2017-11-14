@@ -45,7 +45,7 @@ class TorreonYSuRiquezaIndustrial extends \Base\PublicacionSchemaBlogPosting {
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonYSuRiquezaIndustrial.md';
         // Para el Organizador
-        $this->categorias                 = array('Empleo', 'Empresas', 'Infraestructura');
+        $this->categorias                 = array('Empleo', 'Empresas', 'Infraestructura', 'Cluster Automotriz');
         $this->fuentes                    = array('IMPLAN');
         $this->regiones                   = array('Torreón');
     } // constructor

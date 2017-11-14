@@ -40,9 +40,9 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \SMIBase\Publica
         $this->archivo     = 'sustentabilidad-poblacion-que-trabaja-en-otro-municipio';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.';
-        $this->claves      = 'IMPLAN, Torreón, Movilidad';
+        $this->claves      = 'IMPLAN, Torreón, Movilidad, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad');
+        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
         $this->fuentes     = array('CONAPO-INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

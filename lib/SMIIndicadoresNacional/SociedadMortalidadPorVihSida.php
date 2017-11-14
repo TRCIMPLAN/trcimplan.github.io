@@ -40,9 +40,9 @@ class SociedadMortalidadPorVihSida extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-mortalidad-por-vih-sida';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Defunciones a causa de VIH/SIDA por cada 100,000 habitantes';
-        $this->claves      = 'IMPLAN, Nacional, Salud, Bienestar, Grupos Vulnerables, Objetivos del Milenio';
+        $this->claves      = 'IMPLAN, Nacional, Salud, Bienestar, Grupos Vulnerables, Objetivos del Milenio, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Salud', 'Bienestar', 'Grupos Vulnerables', 'Objetivos del Milenio');
+        $this->categorias  = array('Salud', 'Bienestar', 'Grupos Vulnerables', 'Objetivos del Milenio', 'Cluster Automotriz');
         $this->fuentes     = array('SINAIS (SSA)');
         $this->regiones    = array('Nacional');
     } // constructor

@@ -40,9 +40,9 @@ class GobiernoLitrosDeCombustibleGastadosPorHabitante extends \SMIBase\Publicaci
         $this->archivo     = 'gobierno-litros-de-combustible-gastados-por-habitante';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Determina la relación de litros de combustible gastados por el gobierno municipal respecto de su población total.';
-        $this->claves      = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Recursos Naturales, Gobierno';
+        $this->claves      = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Recursos Naturales, Gobierno, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Sistema de Indicadores de Desempeño (SINDES)', 'Recursos Naturales', 'Gobierno');
+        $this->categorias  = array('Sistema de Indicadores de Desempeño (SINDES)', 'Recursos Naturales', 'Gobierno', 'Cluster Automotriz');
         $this->fuentes     = array('Ayuntamiento de Torreón');
         $this->regiones    = array('Torreón');
     } // constructor

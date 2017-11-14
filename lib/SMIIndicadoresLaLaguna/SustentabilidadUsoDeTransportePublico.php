@@ -40,9 +40,9 @@ class SustentabilidadUsoDeTransportePublico extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-uso-de-transporte-publico';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Distribución porcentual del total de viajes cotidianos realizados por modalidad. No se consideran los viajes en taxi.';
-        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Vialidad';
+        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Vialidad, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Vialidad');
+        $this->categorias  = array('Movilidad', 'Vialidad', 'Cluster Automotriz');
         $this->fuentes     = array('Logit');
         $this->regiones    = array('La Laguna');
     } // constructor

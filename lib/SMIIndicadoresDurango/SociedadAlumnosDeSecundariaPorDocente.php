@@ -40,9 +40,9 @@ class SociedadAlumnosDeSecundariaPorDocente extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-alumnos-de-secundaria-por-docente';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.';
-        $this->claves      = 'IMPLAN, Durango, Educación';
+        $this->claves      = 'IMPLAN, Durango, Educación, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Educación');
+        $this->categorias  = array('Educación', 'Cluster Automotriz');
         $this->fuentes     = array('SEP');
         $this->regiones    = array('Durango');
     } // constructor

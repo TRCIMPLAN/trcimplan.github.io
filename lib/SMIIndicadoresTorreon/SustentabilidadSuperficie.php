@@ -40,9 +40,9 @@ class SustentabilidadSuperficie extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-superficie';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Superficie territorial medida en hectáreas.';
-        $this->claves      = 'IMPLAN, Torreón, Recursos Naturales';
+        $this->claves      = 'IMPLAN, Torreón, Recursos Naturales, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales');
+        $this->categorias  = array('Recursos Naturales', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

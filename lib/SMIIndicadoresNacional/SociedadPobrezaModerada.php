@@ -40,9 +40,9 @@ class SociedadPobrezaModerada extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-pobreza-moderada';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de la población en situación de pobreza moderada.';
-        $this->claves      = 'IMPLAN, Nacional, Bienestar';
+        $this->claves      = 'IMPLAN, Nacional, Bienestar, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Bienestar');
+        $this->categorias  = array('Bienestar', 'Cluster Automotriz');
         $this->fuentes     = array('CONEVAL');
         $this->regiones    = array('Nacional');
     } // constructor

@@ -40,9 +40,9 @@ class SociedadPoblacionDe15AnosOMasAnalfabeta extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-poblacion-de-15-anos-o-mas-analfabeta';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Personas de 15 años o más que no saben leer ni escribir.';
-        $this->claves      = 'IMPLAN, Coahuila, Educación';
+        $this->claves      = 'IMPLAN, Coahuila, Educación, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Educación');
+        $this->categorias  = array('Educación', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Coahuila');
     } // constructor

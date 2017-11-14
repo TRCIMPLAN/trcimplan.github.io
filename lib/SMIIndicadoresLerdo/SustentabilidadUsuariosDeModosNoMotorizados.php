@@ -40,9 +40,9 @@ class SustentabilidadUsuariosDeModosNoMotorizados extends \SMIBase\PublicacionWe
         $this->archivo     = 'sustentabilidad-usuarios-de-modos-no-motorizados';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Se considera como usuarios a la población de 12 a 65 años de edad que realizan traslados con motivo de estudios o trabajo.';
-        $this->claves      = 'IMPLAN, Lerdo, Movilidad';
+        $this->claves      = 'IMPLAN, Lerdo, Movilidad, Cluster Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad');
+        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Lerdo');
     } // constructor
