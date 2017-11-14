@@ -40,9 +40,9 @@ class EconomiaEjecucionDeContratos extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'economia-ejecucion-de-contratos';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal.';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Empresas, Doing Business, Índice de Competitividad Urbana';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Empresas, Doing Business, Índice de Competitividad Urbana, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Empresas', 'Doing Business', 'Índice de Competitividad Urbana');
+        $this->categorias  = array('Empresas', 'Doing Business', 'Índice de Competitividad Urbana', 'Sector Automotriz');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Gómez Palacio');
     } // constructor

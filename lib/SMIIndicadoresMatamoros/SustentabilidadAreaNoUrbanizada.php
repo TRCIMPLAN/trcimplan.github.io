@@ -40,9 +40,9 @@ class SustentabilidadAreaNoUrbanizada extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-area-no-urbanizada';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Área total de localidades no urbanizadas sobre la superficie municipal.';
-        $this->claves      = 'IMPLAN, Matamoros, Recursos Naturales, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Matamoros, Recursos Naturales, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales', 'Cluster Automotriz');
+        $this->categorias  = array('Recursos Naturales', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Matamoros');
     } // constructor

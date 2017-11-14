@@ -41,9 +41,9 @@ class SociedadMortalidadPorDiabetes extends \SMIBase\PublicacionWeb {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.
 Se incluye en el subíndice "Sociedad Incluyente, Preparada y Sana" de IMCO.';
-        $this->claves      = 'IMPLAN, Coahuila, Salud, Índice de Competitividad Urbana, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Coahuila, Salud, Índice de Competitividad Urbana, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Salud', 'Índice de Competitividad Urbana', 'Cluster Automotriz');
+        $this->categorias  = array('Salud', 'Índice de Competitividad Urbana', 'Sector Automotriz');
         $this->fuentes     = array('SINAIS (SSA)');
         $this->regiones    = array('Coahuila');
     } // constructor

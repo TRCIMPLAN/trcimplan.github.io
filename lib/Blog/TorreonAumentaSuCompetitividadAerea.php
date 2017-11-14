@@ -45,7 +45,7 @@ class TorreonAumentaSuCompetitividadAerea extends \Base\PublicacionSchemaBlogPos
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonAumentaSuCompetitividadAerea.md';
         // Para el Organizador
-        $this->categorias                 = array('Competitividad', 'Índice de Competitividad Urbana', 'Movilidad', 'Cluster Automotriz');
+        $this->categorias                 = array('Competitividad', 'Índice de Competitividad Urbana', 'Movilidad', 'Sector Automotriz');
         $this->fuentes                    = array('IMCO');
         $this->regiones                   = array('Torreón');
     } // constructor

@@ -45,7 +45,7 @@ class TurismoUrbanoComoMotorEnLasCiudades extends \Base\PublicacionSchemaBlogPos
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TurismoUrbanoComoMotorEnLasCiudades.md';
         // Para el Organizador
-        $this->categorias                 = array('Cultura', 'Infraestructura', 'Cluster Automotriz');
+        $this->categorias                 = array('Cultura', 'Infraestructura', 'Sector Automotriz');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor

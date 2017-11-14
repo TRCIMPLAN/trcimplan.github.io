@@ -40,9 +40,9 @@ class SociedadRazonDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-razon-de-mortalidad-materna';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.';
-        $this->claves      = 'IMPLAN, Torreón, Salud, Género, Bienestar, Objetivos del Milenio, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Salud, Género, Bienestar, Objetivos del Milenio, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Salud', 'Género', 'Bienestar', 'Objetivos del Milenio', 'Cluster Automotriz');
+        $this->categorias  = array('Salud', 'Género', 'Bienestar', 'Objetivos del Milenio', 'Sector Automotriz');
         $this->fuentes     = array('SINAIS (SSA)');
         $this->regiones    = array('Torreón');
     } // constructor

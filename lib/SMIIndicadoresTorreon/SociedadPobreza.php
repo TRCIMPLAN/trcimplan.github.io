@@ -40,9 +40,9 @@ class SociedadPobreza extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-pobreza';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de la población en situación de pobreza.';
-        $this->claves      = 'IMPLAN, Torreón, Bienestar, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Bienestar, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Bienestar', 'Cluster Automotriz');
+        $this->categorias  = array('Bienestar', 'Sector Automotriz');
         $this->fuentes     = array('CONEVAL');
         $this->regiones    = array('Torreón');
     } // constructor

@@ -40,9 +40,9 @@ class SustentabilidadDestinosViaAerea extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-destinos-via-aerea';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
-        $this->claves      = 'IMPLAN, Torreón, Movilidad, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Movilidad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
+        $this->categorias  = array('Movilidad', 'Sector Automotriz');
         $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)');
         $this->regiones    = array('Torreón');
     } // constructor

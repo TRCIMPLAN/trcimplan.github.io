@@ -40,9 +40,9 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \SMIBase\Publi
         $this->archivo     = 'sustentabilidad-red-carretera-de-alimentadoras-estatales';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Red carretera de alimentadoras estatales.';
-        $this->claves      = 'IMPLAN, Lerdo, Infraestructura, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Lerdo, Infraestructura, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Infraestructura', 'Cluster Automotriz');
+        $this->categorias  = array('Infraestructura', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Lerdo');
     } // constructor

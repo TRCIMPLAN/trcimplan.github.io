@@ -40,9 +40,9 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \SMIB
         $this->archivo     = 'economia-indice-de-especializacion-local-en-industria-manufacturera';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Producción bruta total de la industria manufacturera entre la producción bruta total. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).';
-        $this->claves      = 'IMPLAN, Torreón, Mercados';
+        $this->claves      = 'IMPLAN, Torreón, Mercados, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Mercados');
+        $this->categorias  = array('Mercados', 'Sector Automotriz');
         $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

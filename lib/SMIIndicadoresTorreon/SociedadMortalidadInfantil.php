@@ -40,9 +40,9 @@ class SociedadMortalidadInfantil extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-mortalidad-infantil';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacidos vivos. Se incluye en el subíndice "Sociedad Preparada, Incluyente y Sana" de IMCO.';
-        $this->claves      = 'IMPLAN, Torreón, Salud, Objetivos del Milenio, Índice de Competitividad Urbana, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Salud, Objetivos del Milenio, Índice de Competitividad Urbana, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Salud', 'Objetivos del Milenio', 'Índice de Competitividad Urbana', 'Cluster Automotriz');
+        $this->categorias  = array('Salud', 'Objetivos del Milenio', 'Índice de Competitividad Urbana', 'Sector Automotriz');
         $this->fuentes     = array('SINAIS (SSA)');
         $this->regiones    = array('Torreón');
     } // constructor

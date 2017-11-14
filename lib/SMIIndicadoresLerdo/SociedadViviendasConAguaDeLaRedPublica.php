@@ -40,9 +40,9 @@ class SociedadViviendasConAguaDeLaRedPublica extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-viviendas-con-agua-de-la-red-publica';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.';
-        $this->claves      = 'IMPLAN, Lerdo, Vivienda, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Lerdo, Vivienda, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Vivienda', 'Cluster Automotriz');
+        $this->categorias  = array('Vivienda', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Lerdo');
     } // constructor

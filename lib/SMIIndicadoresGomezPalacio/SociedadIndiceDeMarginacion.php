@@ -49,9 +49,9 @@ Porcentaje de viviendas con algún nivel de hacinamiento
 Porcentaje de ocupantes en viviendas con piso de tierra
 Porcentaje de población en localidades con menos de 5 000 habitantes
 Porcentaje de población ocupada con ingresos de hasta 2 salarios mínimos';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Bienestar, Grupos Vulnerables, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Bienestar, Grupos Vulnerables, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Bienestar', 'Grupos Vulnerables', 'Cluster Automotriz');
+        $this->categorias  = array('Bienestar', 'Grupos Vulnerables', 'Sector Automotriz');
         $this->fuentes     = array('CONAPO');
         $this->regiones    = array('Gómez Palacio');
     } // constructor

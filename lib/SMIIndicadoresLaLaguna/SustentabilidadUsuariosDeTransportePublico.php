@@ -40,9 +40,9 @@ class SustentabilidadUsuariosDeTransportePublico extends \SMIBase\PublicacionWeb
         $this->archivo     = 'sustentabilidad-usuarios-de-transporte-publico';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Se considera como usuarios a la población de 12 a 65 años de edad que realizan traslados con motivo de estudios o trabajo.';
-        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
+        $this->categorias  = array('Movilidad', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor

@@ -40,9 +40,9 @@ class SociedadViviendasHabitadas extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-viviendas-habitadas';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = '';
-        $this->claves      = 'IMPLAN, La Laguna, Vivienda, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, La Laguna, Vivienda, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Vivienda', 'Cluster Automotriz');
+        $this->categorias  = array('Vivienda', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor

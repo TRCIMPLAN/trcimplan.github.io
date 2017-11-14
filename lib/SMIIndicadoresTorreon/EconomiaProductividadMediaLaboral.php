@@ -40,9 +40,9 @@ class EconomiaProductividadMediaLaboral extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'economia-productividad-media-laboral';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice de "Mercado Laboral". Mide la productividad promedio de los trabajadores, descontando el efecto de las actividades de extracción en el sector minero/petrolero y de refinación y petroquímica (contabilizadas en las actividades económicas 21, 324 y 32511 según el Sistema de Clasificación Industrial de América del Norte). Este indicador se calculó dividiendo el PIB de la ciudad descontado por uno menos el porcentaje que aporta el sector minero y las actividades de refinación y petroquímica, entre el número de trabajadores en la PEA.';
-        $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Empleo';
+        $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Empleo, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo', 'Sector Automotriz');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Torreón');
     } // constructor

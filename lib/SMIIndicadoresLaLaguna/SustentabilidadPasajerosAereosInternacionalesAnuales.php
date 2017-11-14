@@ -40,9 +40,9 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-internacionales-anuales';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
-        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
+        $this->categorias  = array('Movilidad', 'Sector Automotriz');
         $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)');
         $this->regiones    = array('La Laguna');
     } // constructor

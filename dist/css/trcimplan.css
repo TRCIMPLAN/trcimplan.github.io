@@ -455,8 +455,6 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 #categorias-por-defecto:hover                                { background-position:-128px 0; }
 #categorias-bienestar                                        { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/bienestar.jpg") no-repeat 0 0; }
 #categorias-bienestar:hover                                  { background-position:-128px 0; }
-#categorias-cluster-automotriz                               { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/cluster-automotriz.jpg") no-repeat 0 0; }
-#categorias-cluster-automotriz:hover                         { background-position:-128px 0; }
 #categorias-competitividad                                   { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/competitividad.jpg") no-repeat 0 0; }
 #categorias-competitividad:hover                             { background-position:-128px 0; }
 #categorias-cultura                                          { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/cultura.jpg") no-repeat 0 0; }
@@ -503,6 +501,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 #categorias-recursos-naturales:hover                         { background-position:-128px 0; }
 #categorias-salud                                            { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/salud.jpg") no-repeat 0 0; }
 #categorias-salud:hover                                      { background-position:-128px 0; }
+#categorias-sector-automotriz                                { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/sector-automotriz.jpg") no-repeat 0 0; }
+#categorias-sector-automotriz:hover                          { background-position:-128px 0; }
 #categorias-seguridad                                        { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/seguridad.jpg") no-repeat 0 0; }
 #categorias-seguridad:hover                                  { background-position:-128px 0; }
 #categorias-servicios-publicos                               { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/servicios-publicos.jpg") no-repeat 0 0; }

@@ -40,9 +40,9 @@ class SociedadPoblacionDerechohabiente extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-poblacion-derechohabiente';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Población derechohabiente a los servicios de salud.';
-        $this->claves      = 'IMPLAN, Torreón, Salud, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Salud, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Salud', 'Cluster Automotriz');
+        $this->categorias  = array('Salud', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

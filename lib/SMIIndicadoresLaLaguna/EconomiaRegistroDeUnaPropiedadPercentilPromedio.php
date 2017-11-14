@@ -40,9 +40,9 @@ class EconomiaRegistroDeUnaPropiedadPercentilPromedio extends \SMIBase\Publicaci
         $this->archivo     = 'economia-registro-de-una-propiedad-percentil-promedio';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para registrar una propiedad: número de trámites, tiempo (días) y costo (% valor de la propiedad). Este indicador se calcula a nivel estatal.';
-        $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Gobierno';
+        $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Gobierno, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Gobierno');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Gobierno', 'Sector Automotriz');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor

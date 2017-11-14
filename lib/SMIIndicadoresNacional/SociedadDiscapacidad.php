@@ -40,9 +40,9 @@ class SociedadDiscapacidad extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-discapacidad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
-        $this->claves      = 'IMPLAN, Nacional, Grupos Vulnerables, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Nacional, Grupos Vulnerables, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Grupos Vulnerables', 'Cluster Automotriz');
+        $this->categorias  = array('Grupos Vulnerables', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Nacional');
     } // constructor

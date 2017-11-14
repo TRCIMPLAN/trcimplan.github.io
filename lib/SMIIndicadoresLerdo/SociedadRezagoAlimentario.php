@@ -40,9 +40,9 @@ class SociedadRezagoAlimentario extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-rezago-alimentario';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Personas que presenten un grado de inseguridad alimentaria moderado o severo.';
-        $this->claves      = 'IMPLAN, Lerdo, Grupos Vulnerables, Bienestar, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Lerdo, Grupos Vulnerables, Bienestar, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Grupos Vulnerables', 'Bienestar', 'Cluster Automotriz');
+        $this->categorias  = array('Grupos Vulnerables', 'Bienestar', 'Sector Automotriz');
         $this->fuentes     = array('CONEVAL');
         $this->regiones    = array('Lerdo');
     } // constructor

@@ -40,9 +40,9 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-grado-promedio-de-escolaridad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Un grado se considera un año de acuerdo al sistema educativo nacional.';
-        $this->claves      = 'IMPLAN, Matamoros, Educación, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Matamoros, Educación, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Educación', 'Cluster Automotriz');
+        $this->categorias  = array('Educación', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Matamoros');
     } // constructor

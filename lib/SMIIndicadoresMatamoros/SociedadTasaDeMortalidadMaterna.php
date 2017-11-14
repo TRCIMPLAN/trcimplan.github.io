@@ -40,9 +40,9 @@ class SociedadTasaDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-tasa-de-mortalidad-materna';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.';
-        $this->claves      = 'IMPLAN, Matamoros, Salud, Género, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Matamoros, Salud, Género, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Salud', 'Género', 'Cluster Automotriz');
+        $this->categorias  = array('Salud', 'Género', 'Sector Automotriz');
         $this->fuentes     = array('SINAIS (SSA)');
         $this->regiones    = array('Matamoros');
     } // constructor

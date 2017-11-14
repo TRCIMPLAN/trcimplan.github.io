@@ -40,9 +40,9 @@ class EconomiaPromedioDeHorasParaLaRealizacionDelTramiteDeLicenciaParaNegocio ex
         $this->archivo     = 'economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Determina el número de horas requeridas para la realización del trámite de licencia para negocios. Número de Horas Empleadas para el Trámite de Licencias para Negocios, entre Número de Licencias para Negocios Otorgadas.';
-        $this->claves      = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Gobierno, Empresas';
+        $this->claves      = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Gobierno, Empresas, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Sistema de Indicadores de Desempeño (SINDES)', 'Gobierno', 'Empresas');
+        $this->categorias  = array('Sistema de Indicadores de Desempeño (SINDES)', 'Gobierno', 'Empresas', 'Sector Automotriz');
         $this->fuentes     = array('Ayuntamiento de Torreón');
         $this->regiones    = array('Torreón');
     } // constructor

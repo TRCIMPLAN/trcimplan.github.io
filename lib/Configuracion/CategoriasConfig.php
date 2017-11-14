@@ -45,7 +45,6 @@ class CategoriasConfig {
     public function __construct() {
         $this->categorias[] = new \Base\Categoria('Bienestar',                                    'bienestar');
         $this->categorias[] = new \Base\Categoria('Competitividad',                               'competitividad');
-        $this->categorias[] = new \Base\Categoria('Cluster Automotriz',                           'cluster-automotriz');
         $this->categorias[] = new \Base\Categoria('Cultura',                                      'cultura');
         $this->categorias[] = new \Base\Categoria('Delincuencia',                                 'delincuencia');
         $this->categorias[] = new \Base\Categoria('Doing Business',                               'doing-business');
@@ -68,6 +67,7 @@ class CategoriasConfig {
         $this->categorias[] = new \Base\Categoria('Población',                                    'poblacion');
         $this->categorias[] = new \Base\Categoria('Recursos Naturales',                           'recursos-naturales');
         $this->categorias[] = new \Base\Categoria('Salud',                                        'salud');
+        $this->categorias[] = new \Base\Categoria('Sector Automotriz',                            'sector-automotriz');
         $this->categorias[] = new \Base\Categoria('Seguridad',                                    'seguridad');
         $this->categorias[] = new \Base\Categoria('Servicios Públicos',                           'servicios-publicos');
         $this->categorias[] = new \Base\Categoria('Sistema de Indicadores de Desempeño (SINDES)', 'sistema-de-indicadores-de-desempeno-sindes');

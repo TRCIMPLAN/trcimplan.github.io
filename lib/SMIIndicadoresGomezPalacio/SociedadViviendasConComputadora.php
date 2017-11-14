@@ -40,9 +40,9 @@ class SociedadViviendasConComputadora extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-viviendas-con-computadora';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de viviendas habitadas con computadora.';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Vivienda, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Vivienda, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Vivienda', 'Cluster Automotriz');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Vivienda', 'Sector Automotriz');
         $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('Gómez Palacio');
     } // constructor

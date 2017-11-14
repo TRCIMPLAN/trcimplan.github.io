@@ -47,7 +47,7 @@ class ReflexionCrecimientoUrbanoTorreon extends \Base\PublicacionSchemaBlogPosti
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         // Para el Organizador
-        $this->categorias                 = array('Infraestructura', 'Vialidad', 'Cluster Automotriz');
+        $this->categorias                 = array('Infraestructura', 'Vialidad', 'Sector Automotriz');
         $this->fuentes                    = array();
         $this->regiones                   = array();
     } // constructor

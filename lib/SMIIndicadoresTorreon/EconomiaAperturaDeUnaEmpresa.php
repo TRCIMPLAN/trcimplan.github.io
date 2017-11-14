@@ -40,9 +40,9 @@ class EconomiaAperturaDeUnaEmpresa extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'economia-apertura-de-una-empresa';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Número de días necesarios para el trámite de apertura de una empresa.';
-        $this->claves      = 'IMPLAN, Torreón, Empresas, Doing Business';
+        $this->claves      = 'IMPLAN, Torreón, Empresas, Doing Business, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Empresas', 'Doing Business');
+        $this->categorias  = array('Empresas', 'Doing Business', 'Sector Automotriz');
         $this->fuentes     = array('Doing Business');
         $this->regiones    = array('Torreón');
     } // constructor

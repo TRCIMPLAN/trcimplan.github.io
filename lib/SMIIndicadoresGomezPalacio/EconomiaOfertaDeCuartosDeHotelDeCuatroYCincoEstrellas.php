@@ -40,9 +40,9 @@ class EconomiaOfertaDeCuartosDeHotelDeCuatroYCincoEstrellas extends \SMIBase\Pub
         $this->archivo     = 'economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice de "Aprovechamiento de las Relaciones Internacionales". Mide el total de cuartos de hotel en las categorías de 4 y 5 estrellas como porcentaje de la oferta total de cuartos. Este indicador sólo está disponible para los principales centros turísticos.';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Competitividad';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Competitividad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Competitividad');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Competitividad', 'Sector Automotriz');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Gómez Palacio');
     } // constructor

@@ -45,7 +45,7 @@ class ElCorredorEconomicoDelNorteYSuFortalezaNacional extends \Base\PublicacionS
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElCorredorEconomicoDelNorteYSuFortalezaNacional.md';
         // Para el Organizador
-        $this->categorias                 = array('Competitividad', 'Educación', 'Empleo', 'Mercados', 'Movilidad', 'Participación Ciudadana', 'Transparencia', 'Cluster Automotriz');
+        $this->categorias                 = array('Competitividad', 'Educación', 'Empleo', 'Mercados', 'Movilidad', 'Participación Ciudadana', 'Transparencia', 'Sector Automotriz');
         $this->fuentes                    = array('Ayuntamiento de Torreón', 'IMCO', 'IMPLAN', 'INEGI', 'Operadora Mexicana de Aeropuertos (OMA)', 'Secretaría de Economía', 'SEP');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor

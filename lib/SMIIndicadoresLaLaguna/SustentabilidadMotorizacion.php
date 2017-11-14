@@ -40,9 +40,9 @@ class SustentabilidadMotorizacion extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-motorizacion';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Vehículos automotores registrados en circulación por cada mil habitantes.';
-        $this->claves      = 'IMPLAN, La Laguna, Recursos Naturales, Movilidad, Vialidad, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, La Laguna, Recursos Naturales, Movilidad, Vialidad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad', 'Cluster Automotriz');
+        $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor

@@ -40,9 +40,9 @@ class SustentabilidadRedCarreteraTotal extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-red-carretera-total';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = '';
-        $this->claves      = 'IMPLAN, Torreón, Infraestructura, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Infraestructura, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Infraestructura', 'Cluster Automotriz');
+        $this->categorias  = array('Infraestructura', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

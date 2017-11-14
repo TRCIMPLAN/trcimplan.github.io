@@ -40,9 +40,9 @@ class EconomiaRegistroDeUnaPropiedad extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'economia-registro-de-una-propiedad';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Días que toma el trámite para el registro de una propiedad.';
-        $this->claves      = 'IMPLAN, Torreón, Doing Business, Gobierno';
+        $this->claves      = 'IMPLAN, Torreón, Doing Business, Gobierno, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Doing Business', 'Gobierno');
+        $this->categorias  = array('Doing Business', 'Gobierno', 'Sector Automotriz');
         $this->fuentes     = array('Doing Business');
         $this->regiones    = array('Torreón');
     } // constructor

@@ -40,9 +40,9 @@ class EconomiaOcupacionHotelera extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'economia-ocupacion-hotelera';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice de "Aprovechamiento de las Relaciones Internacionales". Mide el promedio anual de cuartos ocupados como porcentaje del total de cuartos disponibles. Este indicador sólo está disponible para los principales centros turísticos.';
-        $this->claves      = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Competitividad';
+        $this->claves      = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Competitividad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Competitividad');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Competitividad', 'Sector Automotriz');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Lerdo');
     } // constructor

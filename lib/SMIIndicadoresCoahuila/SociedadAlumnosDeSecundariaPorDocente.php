@@ -40,9 +40,9 @@ class SociedadAlumnosDeSecundariaPorDocente extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-alumnos-de-secundaria-por-docente';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.';
-        $this->claves      = 'IMPLAN, Coahuila, Educación, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Coahuila, Educación, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Educación', 'Cluster Automotriz');
+        $this->categorias  = array('Educación', 'Sector Automotriz');
         $this->fuentes     = array('SEP');
         $this->regiones    = array('Coahuila');
     } // constructor

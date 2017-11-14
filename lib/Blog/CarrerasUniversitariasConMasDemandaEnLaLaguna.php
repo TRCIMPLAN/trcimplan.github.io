@@ -45,7 +45,7 @@ class CarrerasUniversitariasConMasDemandaEnLaLaguna extends \Base\PublicacionSch
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/CarrerasUniversitariasConMasDemandaEnLaLaguna.md';
         // Para el Organizador
-        $this->categorias                 = array('Educación', 'Cluster Automotriz');
+        $this->categorias                 = array('Educación', 'Sector Automotriz');
         $this->fuentes                    = array('CIDAC', 'IMPLAN', 'ANUIES');
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor

@@ -40,9 +40,9 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \SMIBase\Pub
         $this->archivo     = 'sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.';
-        $this->claves      = 'IMPLAN, Torreón, Movilidad, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Movilidad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Cluster Automotriz');
+        $this->categorias  = array('Movilidad', 'Sector Automotriz');
         $this->fuentes     = array('CONAPO-INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

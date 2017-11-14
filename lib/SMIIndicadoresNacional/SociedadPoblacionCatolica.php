@@ -40,9 +40,9 @@ class SociedadPoblacionCatolica extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-poblacion-catolica';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.';
-        $this->claves      = 'IMPLAN, Nacional, Población, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Nacional, Población, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Población', 'Cluster Automotriz');
+        $this->categorias  = array('Población', 'Sector Automotriz');
         $this->fuentes     = array('INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('Nacional');
     } // constructor

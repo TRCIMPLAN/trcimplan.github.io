@@ -40,9 +40,9 @@ class SustentabilidadUsoDeBicicleta extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-uso-de-bicicleta';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Distribución porcentual del total de viajes cotidianos realizados por modalidad.';
-        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Vialidad, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Vialidad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Vialidad', 'Cluster Automotriz');
+        $this->categorias  = array('Movilidad', 'Vialidad', 'Sector Automotriz');
         $this->fuentes     = array('Logit');
         $this->regiones    = array('La Laguna');
     } // constructor

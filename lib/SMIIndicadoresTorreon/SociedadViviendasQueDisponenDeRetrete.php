@@ -40,9 +40,9 @@ class SociedadViviendasQueDisponenDeRetrete extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-viviendas-que-disponen-de-retrete';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de retrete.';
-        $this->claves      = 'IMPLAN, Torreón, Vivienda, Salud, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Vivienda, Salud, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Vivienda', 'Salud', 'Cluster Automotriz');
+        $this->categorias  = array('Vivienda', 'Salud', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

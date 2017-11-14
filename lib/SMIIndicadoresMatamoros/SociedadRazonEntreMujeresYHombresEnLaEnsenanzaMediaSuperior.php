@@ -40,9 +40,9 @@ class SociedadRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperior extends \SMIBa
         $this->archivo     = 'sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.';
-        $this->claves      = 'IMPLAN, Matamoros, Educación, Género, Objetivos del Milenio, Cluster Automotriz';
+        $this->claves      = 'IMPLAN, Matamoros, Educación, Género, Objetivos del Milenio, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Educación', 'Género', 'Objetivos del Milenio', 'Cluster Automotriz');
+        $this->categorias  = array('Educación', 'Género', 'Objetivos del Milenio', 'Sector Automotriz');
         $this->fuentes     = array('INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('Matamoros');
     } // constructor

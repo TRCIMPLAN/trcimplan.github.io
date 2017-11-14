@@ -45,7 +45,7 @@ class ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna extends \Base\Publicacion
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElFuerteCrecimientoDelSectorAutomotrizEnLaLaguna.md';
         // Para el Organizador
-        $this->categorias                 = array('Empleo', 'Empresas', 'Cluster Automotriz');
+        $this->categorias                 = array('Empleo', 'Empresas', 'Sector Automotriz');
         $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
