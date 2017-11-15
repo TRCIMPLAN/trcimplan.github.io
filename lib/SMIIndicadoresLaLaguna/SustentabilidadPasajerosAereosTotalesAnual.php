@@ -39,7 +39,7 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \SMIBase\PublicacionWeb
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-totales-anual';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.';
+        $this->descripcion = 'Flujo de pasajeros del Aeropuerto Internacional.';
         $this->claves      = 'IMPLAN, La Laguna, Movilidad, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Movilidad', 'Sector Automotriz');

@@ -39,7 +39,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-internacionales-anuales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
+        $this->descripcion = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional.';
         $this->claves      = 'IMPLAN, Nacional, Movilidad, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Movilidad', 'Sector Automotriz');

@@ -39,7 +39,7 @@ class SustentabilidadPasajerosAereosTotalesMensuales extends \SMIBase\Publicacio
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-totales-mensuales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Flujo de pasajeros aéreos en el Aeropuerto Internacional Francisco Sarabia.';
+        $this->descripcion = 'Flujo de pasajeros aéreos en el Aeropuerto.';
         $this->claves      = 'IMPLAN, Torreón, Movilidad';
         // Para el Organizador
         $this->categorias  = array('Movilidad');
