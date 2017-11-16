@@ -211,29 +211,29 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Condiciones Críticas de Ocupación</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">10.4000 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.5900 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">11.8200 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.2900 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">10.1654 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">10.40 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.59 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">11.82 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.29 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">10.57 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">4.2900 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.9700 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">2.6500 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.6700 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4.8803 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">4.29 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.97 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">2.65 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.67 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4.40 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Informalidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">45.9200 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.6500 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.8200 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">39.1000 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">41.9439 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">45.92 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.65 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.82 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">39.10 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">41.27 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -307,23 +307,23 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Condiciones Críticas de Ocupación</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">8.4573 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">14.1352 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">13.2448 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">8.28 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">14.99 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">13.37 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">5.0377 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4.0047 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">3.4589 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4.25 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">3.83 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">3.55 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Informalidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">37.0200 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">54.1499 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/06/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">56.5082 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">37.69 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">56.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">57.19 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
