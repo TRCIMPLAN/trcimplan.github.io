@@ -41,7 +41,7 @@ class VehiculosHibridosLaOpcionEcologicaParaLaLaguna extends \Base\PublicacionSc
         $this->archivo                    = 'vehiculos-hibridos-la-opcion-ecologica-para-la-laguna';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Coahuila ocupa el noveno lugar en la comercialización de vehículos híbridos a nivel nacional. Esta tecnología aún es incipiente en México y la Comarca Lagunera, sin embargo representa una posibilidad para disminuir los efectos de la combustión en el medio ambiente.';
-        $this->claves                     = 'IMPLAN, Torreon, ';
+        $this->claves                     = 'IMPLAN, Torreon, Vehículos, Automóviles, Industria, Automotriz, Movilidad, Transporte';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/VehiculosHibridosLaOpcionEcologicaParaLaLaguna.md';
         // Para el Organizador
