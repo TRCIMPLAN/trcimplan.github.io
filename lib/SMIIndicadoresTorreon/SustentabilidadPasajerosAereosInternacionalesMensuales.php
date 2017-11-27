@@ -122,7 +122,20 @@ class SustentabilidadPasajerosAereosInternacionalesMensuales extends \SMIBase\Pu
             array('fecha' => '2016-06-30', 'valor' => '4579', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('fecha' => '2016-07-31', 'valor' => '4885', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('fecha' => '2016-08-31', 'valor' => '4369', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
-            array('fecha' => '2016-09-30', 'valor' => '4178', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
+            array('fecha' => '2016-09-30', 'valor' => '4178', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2016-10-31', 'valor' => '4213', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2016-11-30', 'valor' => '3963', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2016-12-31', 'valor' => '5354', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-01-31', 'valor' => '4569', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-02-28', 'valor' => '3110', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-03-31', 'valor' => '3761', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-04-30', 'valor' => '4259', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-05-31', 'valor' => '4046', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-06-30', 'valor' => '4652', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-07-31', 'valor' => '6209', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-08-31', 'valor' => '5247', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-09-30', 'valor' => '4812', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2017-10-31', 'valor' => '4764', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
     } // datos
 
     /**
