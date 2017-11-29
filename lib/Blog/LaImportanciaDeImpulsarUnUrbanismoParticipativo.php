@@ -36,7 +36,7 @@ class LaImportanciaDeImpulsarUnUrbanismoParticipativo extends \Base\PublicacionS
         // Título, autor y fecha
         $this->nombre                     = 'La importancia de impulsar un urbanismo participativo';
         $this->autor                      = 'Arq. Jair Miramontes Chávez';
-        $this->fecha                      = '2017-11-27T13:45';
+        $this->fecha                      = '2017-11-29T08:35';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-importancia-de-impulsar-un-urbanismo-participativo';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -50,8 +50,6 @@ class LaImportanciaDeImpulsarUnUrbanismoParticipativo extends \Base\PublicacionS
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
     } // constructor
 
 } // Clase LaImportanciaDeImpulsarUnUrbanismoParticipativo
