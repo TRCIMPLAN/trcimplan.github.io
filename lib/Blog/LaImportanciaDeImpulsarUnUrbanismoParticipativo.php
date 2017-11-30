@@ -45,7 +45,7 @@ class LaImportanciaDeImpulsarUnUrbanismoParticipativo extends \Base\PublicacionS
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaImportanciaDeImpulsarUnUrbanismoParticipativo.md';
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Bienestar', 'Vivienda');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
         // Banderas

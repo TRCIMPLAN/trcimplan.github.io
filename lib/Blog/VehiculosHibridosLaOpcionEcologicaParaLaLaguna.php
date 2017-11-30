@@ -45,9 +45,9 @@ class VehiculosHibridosLaOpcionEcologicaParaLaLaguna extends \Base\PublicacionSc
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/VehiculosHibridosLaOpcionEcologicaParaLaLaguna.md';
         // Para el Organizador
-        $this->categorias                 = array('Empresas', 'Movilidad', 'Sustentabilidad');
-        $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón', 'La Laguna');
+        $this->categorias                 = array('Empresas', 'Movilidad', 'Sector Automotriz', 'Sustentabilidad');
+        $this->fuentes                    = array('INEGI');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase VehiculosHibridosLaOpcionEcologicaParaLaLaguna

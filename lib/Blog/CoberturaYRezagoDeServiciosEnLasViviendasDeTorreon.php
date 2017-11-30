@@ -36,7 +36,7 @@ class CoberturaYRezagoDeServiciosEnLasViviendasDeTorreon extends \Base\Publicaci
         // Título, autor y fecha
         $this->nombre                     = 'Cobertura y rezago de servicios en las viviendas de Torreón';
         $this->autor                      = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha                      = '2017-11-27T12:30';
+        $this->fecha                      = '2017-11-30T10:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'cobertura-y-rezago-de-servicios-en-las-viviendas-de-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -45,11 +45,9 @@ class CoberturaYRezagoDeServiciosEnLasViviendasDeTorreon extends \Base\Publicaci
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/CoberturaYRezagoDeServiciosEnLasViviendasDeTorreon.md';
         // Para el Organizador
-        $this->categorias                 = array();
-        $this->fuentes                    = array();
+        $this->categorias                 = array('Bienestar', 'Servicios Públicos', 'Vivienda');
+        $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón');
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
     } // constructor
 
 } // Clase CoberturaYRezagoDeServiciosEnLasViviendasDeTorreon

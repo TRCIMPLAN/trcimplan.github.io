@@ -45,7 +45,7 @@ class ResaltanLaImportanciaDelEspacioPublico extends \Base\PublicacionSchemaBlog
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/ResaltanLaImportanciaDelEspacioPublico.md';
         // Para el Organizador
-        $this->categorias                 = array('Bienestar', 'Infraesetructura', 'Vialidad');
+        $this->categorias                 = array('Bienestar', 'Infraestructura', 'Vialidad');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
