@@ -156,7 +156,9 @@ class SeguridadRobosACasaHabitacion extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return NULL;
+        return <<<OBSERVACIONES_FINAL
+Descarga la [Base de Datos](http://secretariadoejecutivo.gob.mx/incidencia-delictiva/incidencia-delictiva-fuero-comun.php)
+OBSERVACIONES_FINAL;
     } // observaciones
 
 } // Clase SeguridadRobosACasaHabitacion
