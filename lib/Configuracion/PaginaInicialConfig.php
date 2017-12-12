@@ -50,6 +50,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Definir las secciones, al dividirlas es más fácil activarlas, desactivarlas o cambiar su orden
         $this->secciones   = array();
         $this->secciones[] = '\\PaginaInicial\\Organizacion';
+    //~ $this->secciones[] = '\\PaginaInicial\\GoogleBuscador';
     //~ $this->secciones[] = '\\PaginaInicial\\Aviso';
         $this->secciones[] = '\\PaginaInicial\\Servicios';
         $this->secciones[] = '\\PaginaInicial\\IBC';

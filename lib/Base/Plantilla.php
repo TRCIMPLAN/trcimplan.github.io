@@ -272,6 +272,10 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = "<script>\n{$this->javascript}\n</script>";
             }
         }
+        // Buscador
+        if (is_object($this->navegacion) && ($this->navegacion instanceof Navegacion)) {
+            $a[] = $this->navegacion->javascript();
+        }
         $a[] = '<!-- Javascript termina -->';
         // Google Analytics
         if (is_string($this->google_analytics) && ($this->google_analytics != '')) {

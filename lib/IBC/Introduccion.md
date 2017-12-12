@@ -1,4 +1,10 @@
 
+### Hay varias formas de uso para IBC
+
+* Por medio del listado alfabético de las <a class="btn btn-default destacado-boton" role="button" href="../ibc-colonias-torreon/index.html">Colonias de Torreón</a>.
+* Con el <a class="btn btn-default destacado-boton" role="button" href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank">Mapa Completo</a>.
+* Con el buscador de Google integrado al menú.
+
 ### Antecedentes
 
 **Es la colonia la forma más común en que nos referimos a un lugar de nuestra ciudad.** Pero hay escasa y contradictoria información sobre la exactitud de sus límites.

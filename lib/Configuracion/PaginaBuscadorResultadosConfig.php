@@ -55,69 +55,23 @@ class PaginaBuscadorResultadosConfig extends \Base\Plantilla {
         $this->navegacion->en_raiz = $this->en_raiz;
         // El contenido es código HTML que proviene y es para el Buscador de Google
         $this->contenido[] = <<<FINAL
-    <div id="page-content">
-      <div class='post-body entry-content'>
-        <div id="cse" style="width: 100%;">
-          <ul id="loadbar">
-            <li><div class="bar" id="layerFill1"></div></li>
-            <li><div class="bar" id="layerFill2"></div></li>
-            <li><div class="bar" id="layerFill3"></div></li>
-            <li><div class="bar" id="layerFill4"></div></li>
-            <li><div class="bar" id="layerFill5"></div></li>
-            <li><div class="bar" id="layerFill6"></div></li>
-            <li><div class="bar" id="layerFill7"></div></li>
-            <li><div class="bar" id="layerFill8"></div></li>
-            <li><div class="bar" id="layerFill9"></div></li>
-            <li><div class="bar" id="layerFill10"></div></li>
-          </ul>
-        </div>
-        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-        <div style='clear: both;'></div>
-      </div>
-    </div>
+  <div>
+    <script>
+      (function() {
+        var cx = '012497033331443751819:4788vo1few8';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div>
 FINAL;
         // Del mismo modo, este código Javascript proviene y es para el Buscador de Google
         $this->javascript[] = <<<FINAL
-    google.load('search', '1', {language : 'es', style : google.loader.themes.V2_DEFAULT});
-    google.setOnLoadCallback(function() {
-        var customSearchOptions = {};
-        var orderByOptions      = {};
-        orderByOptions['keys']                = [{label: 'Relevance', key: ''},{label: 'Date', key: 'date'}];
-        customSearchOptions['enableOrderBy']  = true;
-        customSearchOptions['orderByOptions'] = orderByOptions;
-        //
-        var imageSearchOptions = {};
-        imageSearchOptions['layout']              = google.search.ImageSearch.LAYOUT_COLUMN;
-        customSearchOptions['enableImageSearch']  = true;
-        customSearchOptions['imageSearchOptions'] = imageSearchOptions;
-        //
-        var googleAnalyticsOptions = {};
-        googleAnalyticsOptions['queryParameter']      = 's';
-        googleAnalyticsOptions['categoryParameter']   = '';
-        customSearchOptions['googleAnalyticsOptions'] = googleAnalyticsOptions; var customSearchControl = new google.search.CustomSearchControl('015475140351266618625:04hulmghdys', customSearchOptions);
-        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-        //
-        var options = new google.search.DrawOptions();
-        options.setAutoComplete(true);
-        options.enableSearchResultsOnly();
-        customSearchControl.draw('cse', options);
-        function parseParamsFromUrl() {
-            var params = {};
-            var parts = window.location.search.substr(1).split('\x26');
-            for (var i = 0; i < parts.length; i++) {
-                var keyValuePair = parts[i].split('=');
-                var key = decodeURIComponent(keyValuePair[0]);
-                params[key] = keyValuePair[1] ? decodeURIComponent(keyValuePair[1].replace(/\+/g, ' ')) : keyValuePair[1];
-            }
-            return params;
-        }
-        //
-        var urlParams      = parseParamsFromUrl();
-        var queryParamName = "s";
-        if (urlParams[queryParamName]) {
-            customSearchControl.execute(urlParams[queryParamName]);
-        }
-    }, true);
 FINAL;
         // Entregar resultado del método en el padre
         return parent::html();
