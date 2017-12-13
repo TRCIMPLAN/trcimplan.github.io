@@ -70,7 +70,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
             array('fecha' => '1998-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '30.6100', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '35.0300', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '36.4504', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '36.4504', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

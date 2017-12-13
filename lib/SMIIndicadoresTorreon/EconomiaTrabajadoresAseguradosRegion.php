@@ -73,7 +73,7 @@ class EconomiaTrabajadoresAseguradosRegion extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '168723', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
             array('fecha' => '2011-12-31', 'valor' => '176045', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
             array('fecha' => '2012-12-31', 'valor' => '184407', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
-            array('fecha' => '2013-12-31', 'valor' => '187050', 'fuente_nombre' => 'IMSS Subdelegación Torreón'));
+            array('fecha' => '2013-12-31', 'valor' => '187050', 'fuente_nombre' => 'IMSS Subdelegación Torreón')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**

@@ -67,7 +67,7 @@ class EconomiaPosgradosDeCalidad extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-04-30', 'valor' => '11', 'fuente_nombre' => 'CONACYT'));
+            array('fecha' => '2014-04-30', 'valor' => '11', 'fuente_nombre' => 'CONACYT')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

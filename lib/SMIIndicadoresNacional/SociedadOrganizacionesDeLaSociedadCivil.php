@@ -67,7 +67,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-11-25', 'valor' => '28.8400', 'fuente_nombre' => 'RFOSC'));
+            array('fecha' => '2016-11-25', 'valor' => '28.8400', 'fuente_nombre' => 'RFOSC')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

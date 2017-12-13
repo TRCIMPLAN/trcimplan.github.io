@@ -70,7 +70,7 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \SMIB
             array('fecha' => '1998-12-31', 'valor' => '64.9200', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '58.8300', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '71.1000', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '72.8484', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '72.8484', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

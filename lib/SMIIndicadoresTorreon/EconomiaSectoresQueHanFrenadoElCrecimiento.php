@@ -67,7 +67,7 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento extends \SMIBase\PublicacionWeb
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '7.3600', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2008-12-31', 'valor' => '7.3600', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

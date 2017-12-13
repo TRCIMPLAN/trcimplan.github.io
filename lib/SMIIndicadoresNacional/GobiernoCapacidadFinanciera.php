@@ -70,7 +70,7 @@ class GobiernoCapacidadFinanciera extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '38.3464', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '39.1581', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '37.6600', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '41.5500', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2016-12-31', 'valor' => '41.5500', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

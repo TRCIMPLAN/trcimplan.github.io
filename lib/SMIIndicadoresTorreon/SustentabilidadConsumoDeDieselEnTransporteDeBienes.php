@@ -71,7 +71,7 @@ class SustentabilidadConsumoDeDieselEnTransporteDeBienes extends \SMIBase\Public
             array('fecha' => '2009-12-31', 'valor' => '2.6615', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '2.6574', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '1.8862', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '1.8470', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '1.8470', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

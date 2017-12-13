@@ -67,7 +67,7 @@ class SustentabilidadGeneracionDeBasura extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '7.6000', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2010-12-31', 'valor' => '7.6000', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

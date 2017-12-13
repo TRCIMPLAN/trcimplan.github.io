@@ -68,7 +68,7 @@ class GobiernoEmpleadosMunicipales extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2014-06-30', 'valor' => '5.8400', 'fuente_nombre' => 'Ayuntamiento de Torreón', 'notas' => 'Comparativos y mas información sobre el Sistema de Indicadores de Desempeño (SINDES) en http://www.sindes.org/'),
-            array('fecha' => '2014-12-31', 'valor' => '6.2200', 'fuente_nombre' => 'Ayuntamiento de Torreón'));
+            array('fecha' => '2014-12-31', 'valor' => '6.2200', 'fuente_nombre' => 'Ayuntamiento de Torreón')); // formateado 0, valor 4, crudo 3
     } // datos
 
     /**

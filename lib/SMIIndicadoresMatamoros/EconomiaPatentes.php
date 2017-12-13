@@ -71,7 +71,7 @@ class EconomiaPatentes extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '3.3755', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '4.8557', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '6.2669', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '7.7962', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '7.7962', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

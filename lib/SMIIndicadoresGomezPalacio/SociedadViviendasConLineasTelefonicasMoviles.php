@@ -71,7 +71,7 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
             array('fecha' => '2009-12-31', 'valor' => '54.1500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '64.7900', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '71.8700', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '79.7200', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '79.7200', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

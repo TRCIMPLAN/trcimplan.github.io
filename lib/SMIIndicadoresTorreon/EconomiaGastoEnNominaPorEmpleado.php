@@ -68,7 +68,7 @@ class EconomiaGastoEnNominaPorEmpleado extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2014-06-30', 'valor' => '51420.70', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
-            array('fecha' => '2014-12-31', 'valor' => '63791.74', 'fuente_nombre' => 'Ayuntamiento de Torreón'));
+            array('fecha' => '2014-12-31', 'valor' => '63791.74', 'fuente_nombre' => 'Ayuntamiento de Torreón')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

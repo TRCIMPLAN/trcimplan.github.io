@@ -67,7 +67,7 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \SMIBase\PublicacionW
      */
     public function datos() {
         return array(
-            array('fecha' => '2011-12-31', 'valor' => '0.4714', 'fuente_nombre' => 'CIDE'));
+            array('fecha' => '2011-12-31', 'valor' => '0.4714', 'fuente_nombre' => 'CIDE')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

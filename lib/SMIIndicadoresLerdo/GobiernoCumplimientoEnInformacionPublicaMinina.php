@@ -69,7 +69,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \SMIBase\Publicacio
         return array(
             array('fecha' => '2013-12-31', 'valor' => '79.0000', 'fuente_nombre' => 'ICAI-IDAIP'),
             array('fecha' => '2014-04-30', 'valor' => '61.0000', 'fuente_nombre' => 'ICAI-IDAIP'),
-            array('fecha' => '2014-08-31', 'valor' => '100.0000', 'fuente_nombre' => 'ICAI-IDAIP'));
+            array('fecha' => '2014-08-31', 'valor' => '100.0000', 'fuente_nombre' => 'ICAI-IDAIP')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**

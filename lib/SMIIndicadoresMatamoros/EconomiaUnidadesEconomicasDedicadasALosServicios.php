@@ -71,7 +71,7 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \SMIBase\Publicac
             array('fecha' => '2003-12-31', 'valor' => '24.9300', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '30.2200', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-10-31', 'valor' => '35.1700', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2014-12-31', 'valor' => '40.9001', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2014-12-31', 'valor' => '40.9001', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

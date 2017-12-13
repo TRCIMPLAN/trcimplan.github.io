@@ -76,7 +76,7 @@ class SociedadPoblacionEstimada extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-06-30', 'valor' => '123518270', 'fuente_nombre' => 'CONAPO'),
             array('fecha' => '2018-06-30', 'valor' => '124737789', 'fuente_nombre' => 'CONAPO'),
             array('fecha' => '2019-06-30', 'valor' => '125929439', 'fuente_nombre' => 'CONAPO'),
-            array('fecha' => '2020-06-30', 'valor' => '127091642', 'fuente_nombre' => 'CONAPO'));
+            array('fecha' => '2020-06-30', 'valor' => '127091642', 'fuente_nombre' => 'CONAPO')); // formateado 0, valor 20, crudo 10
     } // datos
 
     /**

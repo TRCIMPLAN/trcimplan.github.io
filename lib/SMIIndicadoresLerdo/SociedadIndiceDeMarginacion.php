@@ -80,7 +80,7 @@ Porcentaje de población ocupada con ingresos de hasta 2 salarios mínimos';
             array('fecha' => '1995-12-31', 'valor' => '-1.0750', 'fuente_nombre' => 'CONAPO'),
             array('fecha' => '2000-12-31', 'valor' => '-1.3080', 'fuente_nombre' => 'CONAPO'),
             array('fecha' => '2005-12-31', 'valor' => '-1.2790', 'fuente_nombre' => 'CONAPO'),
-            array('fecha' => '2015-12-31', 'valor' => '-1.2150', 'fuente_nombre' => 'CONAPO'));
+            array('fecha' => '2015-12-31', 'valor' => '-1.2150', 'fuente_nombre' => 'CONAPO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

@@ -80,7 +80,7 @@ class SociedadCamasCensables extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '633', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2012-12-31', 'valor' => '608', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2013-12-31', 'valor' => '2658', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2014-12-31', 'valor' => '2686', 'fuente_nombre' => 'SINAIS (SSA)'));
+            array('fecha' => '2014-12-31', 'valor' => '2686', 'fuente_nombre' => 'SINAIS (SSA)')); // formateado 0, valor 28, crudo 14
     } // datos
 
     /**

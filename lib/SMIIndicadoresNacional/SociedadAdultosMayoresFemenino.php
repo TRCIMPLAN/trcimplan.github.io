@@ -76,7 +76,7 @@ class SociedadAdultosMayoresFemenino extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-06-30', 'valor' => '4635025', 'fuente_nombre' => 'CONAPO'),
             array('fecha' => '2018-06-30', 'valor' => '4801687', 'fuente_nombre' => 'CONAPO'),
             array('fecha' => '2019-06-30', 'valor' => '4978202', 'fuente_nombre' => 'CONAPO'),
-            array('fecha' => '2020-06-30', 'valor' => '5164521', 'fuente_nombre' => 'CONAPO'));
+            array('fecha' => '2020-06-30', 'valor' => '5164521', 'fuente_nombre' => 'CONAPO')); // formateado 0, valor 20, crudo 10
     } // datos
 
     /**

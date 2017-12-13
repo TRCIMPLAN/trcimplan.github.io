@@ -67,7 +67,7 @@ class SustentabilidadRedDeTransportePublico extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-03-31', 'valor' => '250', 'fuente_nombre' => 'IMPLAN'));
+            array('fecha' => '2014-03-31', 'valor' => '250', 'fuente_nombre' => 'IMPLAN')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

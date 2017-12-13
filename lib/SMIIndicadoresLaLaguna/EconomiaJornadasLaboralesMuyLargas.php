@@ -71,7 +71,7 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '18.4400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '23.3500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '22.8300', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '25.5400', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '25.5400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

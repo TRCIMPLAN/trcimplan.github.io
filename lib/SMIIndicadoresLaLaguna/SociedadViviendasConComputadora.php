@@ -72,7 +72,7 @@ class SociedadViviendasConComputadora extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '33.2000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2010-12-31', 'valor' => '32.6800', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '34.6900', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '36.8400', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '36.8400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**

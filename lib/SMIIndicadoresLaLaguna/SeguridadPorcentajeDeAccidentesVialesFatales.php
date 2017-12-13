@@ -85,7 +85,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \SMIBase\PublicacionW
             array('fecha' => '2012-12-31', 'valor' => '1.7000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '1.4200', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '0.8200', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '0.7187', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '0.7187', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 38, crudo 19
     } // datos
 
     /**

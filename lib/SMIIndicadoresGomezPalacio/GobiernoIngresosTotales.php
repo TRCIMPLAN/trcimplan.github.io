@@ -77,7 +77,7 @@ class GobiernoIngresosTotales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '1065239676.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '929690716.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '1274095475.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '1373333250.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2016-12-31', 'valor' => '1373333250.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 22, crudo 11
     } // datos
 
     /**

@@ -76,7 +76,7 @@ class GobiernoIngresosTotalesPerCapita extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '1743.11', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '2060.27', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '2112.00', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '1834.35', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2016-12-31', 'valor' => '1834.35', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 20, crudo 10
     } // datos
 
     /**

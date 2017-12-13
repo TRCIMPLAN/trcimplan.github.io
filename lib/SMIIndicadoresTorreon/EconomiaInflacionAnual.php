@@ -82,7 +82,7 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '3.1100', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '4.2800', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '1.6700', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '2.9400', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2016-12-31', 'valor' => '2.9400', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 32, crudo 16
     } // datos
 
     /**

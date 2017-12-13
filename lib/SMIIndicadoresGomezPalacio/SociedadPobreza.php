@@ -67,7 +67,7 @@ class SociedadPobreza extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-12-31', 'valor' => '37.2900', 'fuente_nombre' => 'CONEVAL', 'notas' => 'Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)'));
+            array('fecha' => '2012-12-31', 'valor' => '37.2900', 'fuente_nombre' => 'CONEVAL', 'notas' => 'Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

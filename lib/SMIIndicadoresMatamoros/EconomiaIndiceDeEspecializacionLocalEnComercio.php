@@ -70,7 +70,7 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \SMIBase\Publicacio
             array('fecha' => '1998-12-31', 'valor' => '38.9400', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '32.2300', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '17.5400', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '17.5070', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '17.5070', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

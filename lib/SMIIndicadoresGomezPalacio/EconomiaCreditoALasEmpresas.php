@@ -71,7 +71,7 @@ class EconomiaCreditoALasEmpresas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '1186.30', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '1302.90', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '1105.75', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '1035.56', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '1035.56', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

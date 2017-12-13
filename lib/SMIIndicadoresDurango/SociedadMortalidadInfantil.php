@@ -71,7 +71,7 @@ class SociedadMortalidadInfantil extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '12.9000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2011-12-31', 'valor' => '15.1000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2012-12-31', 'valor' => '13.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2013-12-31', 'valor' => '14.1000', 'fuente_nombre' => 'SINAIS (SSA)'));
+            array('fecha' => '2013-12-31', 'valor' => '14.1000', 'fuente_nombre' => 'SINAIS (SSA)')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

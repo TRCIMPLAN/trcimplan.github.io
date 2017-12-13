@@ -68,7 +68,7 @@ class EconomiaGrandesEmpresas extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2013-12-31', 'valor' => '0.2700', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
-            array('fecha' => '2014-07-31', 'valor' => '0.7800', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'));
+            array('fecha' => '2014-07-31', 'valor' => '0.7800', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

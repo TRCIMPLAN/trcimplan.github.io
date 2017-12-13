@@ -71,7 +71,7 @@ class SociedadMuertesPorAccidentesRelacionadosConTransporte extends \SMIBase\Pub
             array('fecha' => '2009-12-31', 'valor' => '17.1989', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '10.4357', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '8.2509', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '18.9430', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '18.9430', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

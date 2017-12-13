@@ -67,7 +67,7 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '0.7320', 'fuente_nombre' => 'INAFED-PNUD'));
+            array('fecha' => '2010-12-31', 'valor' => '0.7320', 'fuente_nombre' => 'INAFED-PNUD')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

@@ -159,7 +159,7 @@ class EconomiaNuevasEmpresas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2016-06-30', 'valor' => '208', 'fuente_nombre' => 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón'),
             array('fecha' => '2016-07-31', 'valor' => '166', 'fuente_nombre' => 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón'),
             array('fecha' => '2016-08-31', 'valor' => '183', 'fuente_nombre' => 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón'),
-            array('fecha' => '2016-09-30', 'valor' => '165', 'fuente_nombre' => 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón'));
+            array('fecha' => '2016-09-30', 'valor' => '165', 'fuente_nombre' => 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón')); // formateado 0, valor 186, crudo 93
     } // datos
 
     /**

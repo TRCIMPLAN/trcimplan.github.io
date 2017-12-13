@@ -67,7 +67,7 @@ class SustentabilidadDensidadMediaUrbana extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '58.8000', 'fuente_nombre' => 'CONAPO-SEDESOL-INEGI', 'notas' => 'Consulta y descarga la [base de datos](http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_Urbano_Nacional_2012)'));
+            array('fecha' => '2010-12-31', 'valor' => '58.8000', 'fuente_nombre' => 'CONAPO-SEDESOL-INEGI', 'notas' => 'Consulta y descarga la [base de datos](http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_Urbano_Nacional_2012)')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

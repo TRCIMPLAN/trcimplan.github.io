@@ -67,7 +67,7 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '1.3900', 'fuente_nombre' => 'IMCO-CONAGUA'));
+            array('fecha' => '2010-12-31', 'valor' => '1.3900', 'fuente_nombre' => 'IMCO-CONAGUA')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

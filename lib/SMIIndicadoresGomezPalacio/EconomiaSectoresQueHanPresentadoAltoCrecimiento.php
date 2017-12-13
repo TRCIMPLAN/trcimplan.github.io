@@ -72,7 +72,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
             array('fecha' => '2009-12-31', 'valor' => '26.0200', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '31.6300', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '31.8100', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '32.1300', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '32.1300', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**

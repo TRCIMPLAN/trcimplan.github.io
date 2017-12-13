@@ -399,7 +399,7 @@ class SustentabilidadConcentracionDeParticulasSuspendidasTotales extends \SMIBas
             array('fecha' => '2016-12-21', 'valor' => '306', 'fuente_nombre' => 'Esc. Secundaria General No. 2'),
             array('fecha' => '2016-12-21', 'valor' => '241', 'fuente_nombre' => 'DIF Revolución'),
             array('fecha' => '2016-12-21', 'valor' => '227', 'fuente_nombre' => 'Esc. Secundaria General No. 3'),
-            array('fecha' => '2016-12-21', 'valor' => '371', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83'));
+            array('fecha' => '2016-12-21', 'valor' => '371', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83')); // formateado 0, valor 666, crudo 333
     } // datos
 
     /**

@@ -71,7 +71,7 @@ class EconomiaCarteraHipotecaria extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '59324405.00', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)'),
             array('fecha' => '2012-12-31', 'valor' => '57375581.00', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)'),
             array('fecha' => '2013-12-31', 'valor' => '56877995.00', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)'),
-            array('fecha' => '2014-03-31', 'valor' => '57702472.00', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)', 'notas' => 'Dato trimestral'));
+            array('fecha' => '2014-03-31', 'valor' => '57702472.00', 'fuente_nombre' => 'Comisión Nacional Bancaria y de Valores (CNBV)', 'notas' => 'Dato trimestral')); // formateado 0, valor 10, crudo 6
     } // datos
 
     /**

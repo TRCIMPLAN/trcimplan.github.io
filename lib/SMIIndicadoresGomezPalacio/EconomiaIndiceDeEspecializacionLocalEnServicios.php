@@ -70,7 +70,7 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \SMIBase\Publicaci
             array('fecha' => '1998-12-31', 'valor' => '6.1000', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '5.4200', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '4.9100', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '5.6635', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '5.6635', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

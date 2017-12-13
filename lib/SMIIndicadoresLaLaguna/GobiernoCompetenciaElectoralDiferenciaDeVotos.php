@@ -67,7 +67,7 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \SMIBase\Publicacion
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-07-01', 'valor' => '32140', 'fuente_nombre' => 'INE-IEPCC', 'notas' => 'En esta cifra se incluye solo a los municipios de Torreón, Matamoros, Gómez Palacio y Lerdo'));
+            array('fecha' => '2012-07-01', 'valor' => '32140', 'fuente_nombre' => 'INE-IEPCC', 'notas' => 'En esta cifra se incluye solo a los municipios de Torreón, Matamoros, Gómez Palacio y Lerdo')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

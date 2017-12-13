@@ -67,7 +67,7 @@ class SeguridadPersonasInvolucradasEnDelitosDelFueroComun extends \SMIBase\Publi
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-12-31', 'valor' => '2561', 'fuente_nombre' => 'INEGI', 'notas' => 'Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)'));
+            array('fecha' => '2012-12-31', 'valor' => '2561', 'fuente_nombre' => 'INEGI', 'notas' => 'Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

@@ -67,7 +67,7 @@ class SociedadOcupacionPorVivienda extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '3.7000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
+            array('fecha' => '2010-12-31', 'valor' => '3.7000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

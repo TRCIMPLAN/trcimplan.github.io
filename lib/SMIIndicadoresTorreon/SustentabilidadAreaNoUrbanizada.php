@@ -67,7 +67,7 @@ class SustentabilidadAreaNoUrbanizada extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '88.9000', 'fuente_nombre' => 'INEGI', 'notas' => 'La distribución geográfica de Torreón es de considerarse aparte, ya que el municipio se encuentra dividido en dos partes: Norte; en la cual está asentada la cabecera municipal y la mancha urbana, y el Sur; que abarca aproximadamente tres cuartas partes de la superficie municipal, separadas tanto por la Sierra de las Noas como por extensiones de los municipios de Matamoros y Viesca.'));
+            array('fecha' => '2010-12-31', 'valor' => '88.9000', 'fuente_nombre' => 'INEGI', 'notas' => 'La distribución geográfica de Torreón es de considerarse aparte, ya que el municipio se encuentra dividido en dos partes: Norte; en la cual está asentada la cabecera municipal y la mancha urbana, y el Sur; que abarca aproximadamente tres cuartas partes de la superficie municipal, separadas tanto por la Sierra de las Noas como por extensiones de los municipios de Matamoros y Viesca.')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

@@ -68,7 +68,7 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \SMIBase\PublicacionWeb
     public function datos() {
         return array(
             array('fecha' => '2013-12-31', 'valor' => '508133', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
-            array('fecha' => '2014-12-31', 'valor' => '523783', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
+            array('fecha' => '2014-12-31', 'valor' => '523783', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

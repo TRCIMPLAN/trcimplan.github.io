@@ -67,7 +67,7 @@ class SustentabilidadUsuariosDeModosNoMotorizados extends \SMIBase\PublicacionWe
      */
     public function datos() {
         return array(
-            array('fecha' => '2015-12-31', 'valor' => '30.5500', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '30.5500', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

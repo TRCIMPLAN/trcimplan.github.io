@@ -67,7 +67,7 @@ class EconomiaProductividadLaboral extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '530143.00', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2010-12-31', 'valor' => '530143.00', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

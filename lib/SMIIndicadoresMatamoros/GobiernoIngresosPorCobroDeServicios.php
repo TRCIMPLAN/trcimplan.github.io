@@ -72,7 +72,7 @@ class GobiernoIngresosPorCobroDeServicios extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '21122908.00', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2010-12-31', 'valor' => '11736265.00', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2011-12-31', 'valor' => '13474155.00', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2012-12-31', 'valor' => '30798906.00', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2012-12-31', 'valor' => '30798906.00', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**

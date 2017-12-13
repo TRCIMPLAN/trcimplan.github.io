@@ -67,7 +67,7 @@ class SustentabilidadTrasladosAPie extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2011-12-31', 'valor' => '19.0000', 'fuente_nombre' => 'Logit', 'notas' => 'Viajes completos realizados a pie. No incluyen los viajes para tomar el transporte público.'));
+            array('fecha' => '2011-12-31', 'valor' => '19.0000', 'fuente_nombre' => 'Logit', 'notas' => 'Viajes completos realizados a pie. No incluyen los viajes para tomar el transporte público.')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

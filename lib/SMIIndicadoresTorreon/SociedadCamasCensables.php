@@ -82,7 +82,7 @@ class SociedadCamasCensables extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '51', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2013-12-31', 'valor' => '875', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2014-12-31', 'valor' => '838', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2015-08-30', 'valor' => '893', 'fuente_nombre' => 'Secretaria de Salud del Estado de Coahuila', 'notas' => 'A la cifra 2014 se agregan las 55 camas censables nuevas disponibles con el nuevo Hospital General de la ciudad (Julio 2015)'));
+            array('fecha' => '2015-08-30', 'valor' => '893', 'fuente_nombre' => 'Secretaria de Salud del Estado de Coahuila', 'notas' => 'A la cifra 2014 se agregan las 55 camas censables nuevas disponibles con el nuevo Hospital General de la ciudad (Julio 2015)')); // formateado 0, valor 32, crudo 17
     } // datos
 
     /**

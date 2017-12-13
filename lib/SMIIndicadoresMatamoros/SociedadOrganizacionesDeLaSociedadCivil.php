@@ -73,7 +73,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '0.1578', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '1.8142', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-03-31', 'valor' => '10.7800', 'fuente_nombre' => 'RFOSC', 'notas' => 'Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)'),
-            array('fecha' => '2016-11-25', 'valor' => '11.0100', 'fuente_nombre' => 'RFOSC'));
+            array('fecha' => '2016-11-25', 'valor' => '11.0100', 'fuente_nombre' => 'RFOSC')); // formateado 0, valor 14, crudo 8
     } // datos
 
     /**

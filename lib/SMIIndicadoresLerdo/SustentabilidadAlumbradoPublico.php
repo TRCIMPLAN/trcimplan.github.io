@@ -68,7 +68,7 @@ class SustentabilidadAlumbradoPublico extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '2.0100', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2014-12-31', 'valor' => '9.0900', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2014-12-31', 'valor' => '9.0900', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

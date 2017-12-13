@@ -67,7 +67,7 @@ class SociedadFecundidad extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2015-12-31', 'valor' => '2.3400', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '2.3400', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

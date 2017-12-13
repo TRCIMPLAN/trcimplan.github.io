@@ -69,7 +69,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
         return array(
             array('fecha' => '2013-12-31', 'valor' => '1833223', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => 'Operaciones realizadas por los aeropuertos administrados por Operadora Mexicana de Aeropuertos (OMA): Acapulco, Ciudad Juárez. Culiacán, Chihuahua, Durango, Mazatlán, Monterrey, Reynosa, San Luis Potosí, Tampico, Zacatecas y Zihuatanejo.'),
             array('fecha' => '2014-12-31', 'valor' => '14694935', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)', 'notas' => 'Operaciones realizadas por los aeropuertos administrados por Operadora Mexicana de Aeropuertos (OMA): Acapulco, Ciudad Juárez. Culiacán, Chihuahua, Durango, Mazatlán, Monterrey, Reynosa, San Luis Potosí, Tampico, Zacatecas y Zihuatanejo.'),
-            array('fecha' => '2015-12-31', 'valor' => '14551000', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
+            array('fecha' => '2015-12-31', 'valor' => '14551000', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)')); // formateado 0, valor 6, crudo 5
     } // datos
 
     /**

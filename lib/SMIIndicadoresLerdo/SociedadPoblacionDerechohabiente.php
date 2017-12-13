@@ -68,7 +68,7 @@ class SociedadPoblacionDerechohabiente extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '98265', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '128895', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '128895', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

@@ -81,7 +81,7 @@ Se incluye en el subíndice "Sociedad Incluyente, Preparada y Sana" de IMCO.';
             array('fecha' => '2010-12-31', 'valor' => '6.2000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2011-12-31', 'valor' => '5.9000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2012-12-31', 'valor' => '6.1000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014].'),
-            array('fecha' => '2013-12-31', 'valor' => '6.6000', 'fuente_nombre' => 'SINAIS (SSA)'));
+            array('fecha' => '2013-12-31', 'valor' => '6.6000', 'fuente_nombre' => 'SINAIS (SSA)')); // formateado 0, valor 28, crudo 15
     } // datos
 
     /**

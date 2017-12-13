@@ -71,7 +71,7 @@ class SeguridadCompetenciaDeServiciosNotariales extends \SMIBase\PublicacionWeb 
             array('fecha' => '2009-12-31', 'valor' => '16.0865', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '15.6118', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '13.9464', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '14.4016', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '14.4016', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

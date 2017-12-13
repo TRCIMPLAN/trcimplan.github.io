@@ -72,7 +72,7 @@ class SociedadFecundidad extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '2.1400', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
             array('fecha' => '2011-12-31', 'valor' => '2.1400', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
             array('fecha' => '2012-12-31', 'valor' => '2.1300', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
-            array('fecha' => '2015-12-31', 'valor' => '2.5000', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '2.5000', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**

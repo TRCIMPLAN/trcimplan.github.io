@@ -71,7 +71,7 @@ class EconomiaOfertaDeCuartosDeHotelDeCuatroYCincoEstrellas extends \SMIBase\Pub
             array('fecha' => '2009-12-31', 'valor' => '59.2500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '61.8800', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '59.4100', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '58.8500', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '58.8500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

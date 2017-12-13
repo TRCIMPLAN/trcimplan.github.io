@@ -68,7 +68,7 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \SMIBase\Publica
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '12.0000', 'fuente_nombre' => 'CONAPO-INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '12.2000', 'fuente_nombre' => 'CONAPO-INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '12.2000', 'fuente_nombre' => 'CONAPO-INEGI')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

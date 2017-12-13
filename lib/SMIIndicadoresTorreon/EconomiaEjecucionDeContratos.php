@@ -87,7 +87,7 @@ class EconomiaEjecucionDeContratos extends \SMIBase\PublicacionWeb {
 Los Indicadores complementarios en ejecución de contratos fueron los siguientes para Torreón: 
 Procedimientos (número) = 37 ; 
 Costo (% de cantidad demandada) = 27,9'),
-            array('fecha' => '2015-12-31', 'valor' => '200', 'fuente_nombre' => 'Doing Business'));
+            array('fecha' => '2015-12-31', 'valor' => '200', 'fuente_nombre' => 'Doing Business')); // formateado 0, valor 18, crudo 12
     } // datos
 
     /**

@@ -69,7 +69,7 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \SMIBase\PublicacionWeb {
         return array(
             array('fecha' => '2000-12-31', 'valor' => '0.8193', 'fuente_nombre' => 'INAFED-PNUD', 'notas' => 'Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)'),
             array('fecha' => '2005-12-31', 'valor' => '0.8600', 'fuente_nombre' => 'INAFED-PNUD', 'notas' => 'Descargar [base de datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)'),
-            array('fecha' => '2010-12-31', 'valor' => '0.8661', 'fuente_nombre' => 'INAFED-PNUD', 'notas' => 'Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)'));
+            array('fecha' => '2010-12-31', 'valor' => '0.8661', 'fuente_nombre' => 'INAFED-PNUD', 'notas' => 'Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)')); // formateado 0, valor 6, crudo 6
     } // datos
 
     /**

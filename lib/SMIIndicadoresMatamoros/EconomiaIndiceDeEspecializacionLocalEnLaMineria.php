@@ -70,7 +70,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \SMIBase\Publicaci
             array('fecha' => '1998-12-31', 'valor' => '2.9600', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '12.7000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '1.8292', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '1.8292', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

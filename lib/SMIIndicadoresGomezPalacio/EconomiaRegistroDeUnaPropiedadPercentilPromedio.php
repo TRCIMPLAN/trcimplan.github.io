@@ -72,7 +72,7 @@ class EconomiaRegistroDeUnaPropiedadPercentilPromedio extends \SMIBase\Publicaci
             array('fecha' => '2010-12-31', 'valor' => '0.7953', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '0.7953', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0.7953', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '0.7953', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '0.7953', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**

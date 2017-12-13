@@ -68,7 +68,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \SMIBase\PublicacionW
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '93.0000', 'fuente_nombre' => 'IMPLAN'),
-            array('fecha' => '2014-12-31', 'valor' => '94.0000', 'fuente_nombre' => 'IMPLAN'));
+            array('fecha' => '2014-12-31', 'valor' => '94.0000', 'fuente_nombre' => 'IMPLAN')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

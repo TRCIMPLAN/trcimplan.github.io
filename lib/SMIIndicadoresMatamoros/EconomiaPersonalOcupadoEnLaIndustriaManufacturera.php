@@ -70,7 +70,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \SMIBase\Publica
             array('fecha' => '1998-12-31', 'valor' => '37.8100', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '28.7800', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '41.5338', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '37.4666', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '37.4666', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

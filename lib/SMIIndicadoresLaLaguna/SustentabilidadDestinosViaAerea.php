@@ -67,7 +67,7 @@ class SustentabilidadDestinosViaAerea extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-03-31', 'valor' => '7', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
+            array('fecha' => '2014-03-31', 'valor' => '7', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

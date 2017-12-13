@@ -67,7 +67,7 @@ class GobiernoIndiceDeHerramientasElectronicasDeGobiernosLocales extends \SMIBas
      */
     public function datos() {
         return array(
-            array('fecha' => '2015-01-22', 'valor' => '42.0000', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2015-01-22', 'valor' => '42.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

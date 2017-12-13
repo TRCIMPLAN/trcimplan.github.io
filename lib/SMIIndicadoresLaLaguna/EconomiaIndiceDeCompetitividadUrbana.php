@@ -67,7 +67,7 @@ class EconomiaIndiceDeCompetitividadUrbana extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-12-31', 'valor' => '45.1100', 'fuente_nombre' => 'IMCO', 'notas' => 'En el ranking Nacional La Laguna, ocupa el lugar 44 de 77 zonas metropolitanas.'));
+            array('fecha' => '2012-12-31', 'valor' => '45.1100', 'fuente_nombre' => 'IMCO', 'notas' => 'En el ranking Nacional La Laguna, ocupa el lugar 44 de 77 zonas metropolitanas.')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

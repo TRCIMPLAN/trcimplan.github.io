@@ -74,7 +74,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '29.4118', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2013-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-12-31', 'valor' => '19.0000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2015-12-08', 'valor' => '33.0000', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2015-12-08', 'valor' => '33.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**

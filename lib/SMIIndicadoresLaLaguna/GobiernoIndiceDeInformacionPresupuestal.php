@@ -74,7 +74,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '22.7941', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2013-12-31', 'valor' => '26.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-12-31', 'valor' => '60.2500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2015-12-08', 'valor' => '65.7500', 'fuente_nombre' => 'IMCO', 'notas' => 'Promedio de las calificaciones de los cuatro municipios metropolitanos.'));
+            array('fecha' => '2015-12-08', 'valor' => '65.7500', 'fuente_nombre' => 'IMCO', 'notas' => 'Promedio de las calificaciones de los cuatro municipios metropolitanos.')); // formateado 0, valor 16, crudo 9
     } // datos
 
     /**

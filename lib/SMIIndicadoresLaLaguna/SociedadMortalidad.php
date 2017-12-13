@@ -80,7 +80,7 @@ class SociedadMortalidad extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '5.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2011-12-31', 'valor' => '5.5000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2012-12-31', 'valor' => '5.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2013-12-31', 'valor' => '5.6000', 'fuente_nombre' => 'SINAIS (SSA)'));
+            array('fecha' => '2013-12-31', 'valor' => '5.6000', 'fuente_nombre' => 'SINAIS (SSA)')); // formateado 0, valor 28, crudo 14
     } // datos
 
     /**

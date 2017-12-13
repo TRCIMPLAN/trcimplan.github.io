@@ -84,7 +84,7 @@ class SeguridadAccidentesViales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '4107', 'fuente_nombre' => 'INEGI', 'notas' => 'Número de accidentes registrados durante el año 2012.'),
             array('fecha' => '2013-12-31', 'valor' => '3362', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '6509', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '7013', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '7013', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 36, crudo 19
     } // datos
 
     /**

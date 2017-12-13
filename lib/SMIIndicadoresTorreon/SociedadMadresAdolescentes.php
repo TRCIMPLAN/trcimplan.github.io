@@ -72,7 +72,7 @@ class SociedadMadresAdolescentes extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '1442', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2011-12-31', 'valor' => '1296', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2012-12-31', 'valor' => '1198', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2013-12-31', 'valor' => '1778', 'fuente_nombre' => 'SINAIS (SSA)'));
+            array('fecha' => '2013-12-31', 'valor' => '1778', 'fuente_nombre' => 'SINAIS (SSA)')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**

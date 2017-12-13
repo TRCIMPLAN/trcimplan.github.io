@@ -67,7 +67,7 @@ class GobiernoParticipacionElectoral extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-07-01', 'valor' => '64.5800', 'fuente_nombre' => 'INE-IEPCC'));
+            array('fecha' => '2012-07-01', 'valor' => '64.5800', 'fuente_nombre' => 'INE-IEPCC')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

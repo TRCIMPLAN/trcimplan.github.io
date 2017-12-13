@@ -71,7 +71,7 @@ class EconomiaEmpleadosEnElSectorFormal extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '65.7476', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '57.6312', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '36.6446', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '34.1412', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '34.1412', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

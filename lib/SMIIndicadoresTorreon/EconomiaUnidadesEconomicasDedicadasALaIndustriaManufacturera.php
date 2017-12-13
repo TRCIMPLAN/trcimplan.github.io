@@ -71,7 +71,7 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \SMIB
             array('fecha' => '2003-12-31', 'valor' => '9.3300', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '9.2400', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-10-31', 'valor' => '8.5500', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2014-12-31', 'valor' => '7.1935', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2014-12-31', 'valor' => '7.1935', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

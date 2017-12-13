@@ -72,7 +72,7 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '0.8091', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0.8167', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '2.4596', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'));
+            array('fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**

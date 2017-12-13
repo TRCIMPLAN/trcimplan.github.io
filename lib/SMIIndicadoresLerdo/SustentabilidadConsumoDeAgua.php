@@ -71,7 +71,7 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '98.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '96.6000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '95.3000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '94.1000', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '94.1000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

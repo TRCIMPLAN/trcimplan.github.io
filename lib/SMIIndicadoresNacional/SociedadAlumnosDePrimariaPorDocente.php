@@ -67,7 +67,7 @@ class SociedadAlumnosDePrimariaPorDocente extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-07-01', 'valor' => '25.4000', 'fuente_nombre' => 'SEP'));
+            array('fecha' => '2014-07-01', 'valor' => '25.4000', 'fuente_nombre' => 'SEP')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

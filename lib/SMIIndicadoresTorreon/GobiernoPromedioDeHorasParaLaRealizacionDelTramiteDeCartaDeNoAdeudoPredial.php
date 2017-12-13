@@ -67,7 +67,7 @@ class GobiernoPromedioDeHorasParaLaRealizacionDelTramiteDeCartaDeNoAdeudoPredial
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-06-30', 'valor' => '0.1100', 'fuente_nombre' => 'Ayuntamiento de Torreón'));
+            array('fecha' => '2014-06-30', 'valor' => '0.1100', 'fuente_nombre' => 'Ayuntamiento de Torreón')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

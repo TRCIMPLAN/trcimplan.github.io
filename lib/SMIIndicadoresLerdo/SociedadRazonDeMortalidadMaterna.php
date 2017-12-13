@@ -67,7 +67,7 @@ class SociedadRazonDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2011-12-31', 'valor' => '55.3000', 'fuente_nombre' => 'SINAIS (SSA)'));
+            array('fecha' => '2011-12-31', 'valor' => '55.3000', 'fuente_nombre' => 'SINAIS (SSA)')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

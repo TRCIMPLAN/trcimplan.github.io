@@ -76,7 +76,7 @@ class SociedadAdultosMayoresMasculino extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-06-30', 'valor' => '42247', 'fuente_nombre' => 'CONAPO'),
             array('fecha' => '2018-06-30', 'valor' => '43959', 'fuente_nombre' => 'CONAPO'),
             array('fecha' => '2019-06-30', 'valor' => '45732', 'fuente_nombre' => 'CONAPO'),
-            array('fecha' => '2020-06-30', 'valor' => '47559', 'fuente_nombre' => 'CONAPO'));
+            array('fecha' => '2020-06-30', 'valor' => '47559', 'fuente_nombre' => 'CONAPO')); // formateado 0, valor 20, crudo 10
     } // datos
 
     /**

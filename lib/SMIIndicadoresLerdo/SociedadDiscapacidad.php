@@ -67,7 +67,7 @@ class SociedadDiscapacidad extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '4.0000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.'));
+            array('fecha' => '2010-12-31', 'valor' => '4.0000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

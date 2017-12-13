@@ -67,7 +67,7 @@ class SustentabilidadDestinosViaTerrestre extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-03-31', 'valor' => '28', 'fuente_nombre' => 'IMPLAN'));
+            array('fecha' => '2014-03-31', 'valor' => '28', 'fuente_nombre' => 'IMPLAN')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

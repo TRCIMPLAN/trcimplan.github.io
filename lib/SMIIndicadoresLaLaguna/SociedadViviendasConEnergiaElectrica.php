@@ -67,7 +67,7 @@ class SociedadViviendasConEnergiaElectrica extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '99.4600', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2010-12-31', 'valor' => '99.4600', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

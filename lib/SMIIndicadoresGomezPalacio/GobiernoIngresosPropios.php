@@ -71,7 +71,7 @@ class GobiernoIngresosPropios extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '40.1277', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '28.0019', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '47.1743', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '46.4262', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '46.4262', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

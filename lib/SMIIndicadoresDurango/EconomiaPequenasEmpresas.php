@@ -68,7 +68,7 @@ class EconomiaPequenasEmpresas extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2013-12-31', 'valor' => '7.2200', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
-            array('fecha' => '2014-07-31', 'valor' => '6.2400', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'));
+            array('fecha' => '2014-07-31', 'valor' => '6.2400', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

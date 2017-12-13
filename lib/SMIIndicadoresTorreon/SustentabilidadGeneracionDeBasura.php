@@ -68,7 +68,7 @@ class SustentabilidadGeneracionDeBasura extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '8.6000', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '7.7000', 'fuente_nombre' => 'Dirección General de Servicios Públicos Municipales', 'notas' => 'Consulta la Base de Datos : http://datostrc.gob.mx/datasets/ver/32931'));
+            array('fecha' => '2015-12-31', 'valor' => '7.7000', 'fuente_nombre' => 'Dirección General de Servicios Públicos Municipales', 'notas' => 'Consulta la Base de Datos : http://datostrc.gob.mx/datasets/ver/32931')); // formateado 0, valor 4, crudo 3
     } // datos
 
     /**

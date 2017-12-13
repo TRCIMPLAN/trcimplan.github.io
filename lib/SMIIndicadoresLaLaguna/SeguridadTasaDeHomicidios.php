@@ -72,7 +72,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
             array('fecha' => '2009-12-31', 'valor' => '38.4695', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '54.4737', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '56.8794', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '77.5463', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '77.5463', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

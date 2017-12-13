@@ -67,7 +67,7 @@ class SociedadAlumnosConHabilidadesCientificasMatematicasPracticas extends \SMIB
      */
     public function datos() {
         return array(
-            array('fecha' => '2015-12-01', 'valor' => '15.6000', 'fuente_nombre' => 'SEP'));
+            array('fecha' => '2015-12-01', 'valor' => '15.6000', 'fuente_nombre' => 'SEP')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

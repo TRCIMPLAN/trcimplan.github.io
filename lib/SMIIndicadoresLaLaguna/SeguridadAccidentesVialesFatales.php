@@ -85,7 +85,7 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '105', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '78', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '93', 'fuente_nombre' => 'INEGI', 'notas' => 'Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 6, de 2013) para calcularlo a nivel ZML.'),
-            array('fecha' => '2015-12-31', 'valor' => '99', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '99', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 38, crudo 20
     } // datos
 
     /**

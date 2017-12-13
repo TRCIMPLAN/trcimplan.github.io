@@ -67,7 +67,7 @@ class SociedadUsuariosDeInternet extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2013-12-31', 'valor' => '44.0000', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '44.0000', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

@@ -84,7 +84,7 @@ Los Indicadores complementarios en apertura de un negocio fueron los siguientes 
 Procedimientos (número) = 7 ; 
 Costo (% de ingreso per cápita) = 21,2 ;
 Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0'),
-            array('fecha' => '2015-12-31', 'valor' => '11.5000', 'fuente_nombre' => 'Doing Business', 'notas' => 'Obtenido del reporte Doing Business en México 2016.'));
+            array('fecha' => '2015-12-31', 'valor' => '11.5000', 'fuente_nombre' => 'Doing Business', 'notas' => 'Obtenido del reporte Doing Business en México 2016.')); // formateado 0, valor 8, crudo 8
     } // datos
 
     /**

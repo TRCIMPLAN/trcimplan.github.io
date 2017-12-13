@@ -71,7 +71,7 @@ class EconomiaProductividadMediaLaboral extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '6276.01', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '5584.45', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '4723.38', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '4496.77', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '4496.77', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

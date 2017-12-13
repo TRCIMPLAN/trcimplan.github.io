@@ -67,7 +67,7 @@ class SustentabilidadUsoDeBicicleta extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2011-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'Logit'));
+            array('fecha' => '2011-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'Logit')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

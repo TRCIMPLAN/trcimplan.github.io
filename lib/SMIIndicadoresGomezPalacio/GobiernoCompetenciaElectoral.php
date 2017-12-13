@@ -77,7 +77,7 @@ class GobiernoCompetenciaElectoral extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '4.5200', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-06-30', 'valor' => '4.4800', 'fuente_nombre' => 'INE-IEPCC'),
             array('fecha' => '2012-12-31', 'valor' => '4.5200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '4.5200', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '4.5200', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 22, crudo 11
     } // datos
 
     /**

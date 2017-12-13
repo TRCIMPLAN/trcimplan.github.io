@@ -67,7 +67,7 @@ class SociedadPobrezaModerada extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '24.7600', 'fuente_nombre' => 'CONEVAL'));
+            array('fecha' => '2010-12-31', 'valor' => '24.7600', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

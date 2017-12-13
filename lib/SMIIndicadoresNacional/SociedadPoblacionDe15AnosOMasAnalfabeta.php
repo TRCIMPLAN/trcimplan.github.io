@@ -70,7 +70,7 @@ class SociedadPoblacionDe15AnosOMasAnalfabeta extends \SMIBase\PublicacionWeb {
             array('fecha' => '2000-12-31', 'valor' => '9.4600', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2005-12-31', 'valor' => '8.3500', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2010-12-31', 'valor' => '6.8800', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '5.4900', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '5.4900', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

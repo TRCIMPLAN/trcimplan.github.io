@@ -70,7 +70,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \SMIBase\Publ
             array('fecha' => '1998-12-31', 'valor' => '2.9200', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '3.7700', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '3.6000', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '2.3266', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '2.3266', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

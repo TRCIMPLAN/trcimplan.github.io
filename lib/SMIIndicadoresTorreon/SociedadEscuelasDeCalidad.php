@@ -71,7 +71,7 @@ class SociedadEscuelasDeCalidad extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '11.6100', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '13.0600', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '18.0200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '26.6300', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '26.6300', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

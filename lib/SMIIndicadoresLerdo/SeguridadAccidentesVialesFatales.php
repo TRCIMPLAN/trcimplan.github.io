@@ -85,7 +85,7 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '17', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '8', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '9', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '8', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '8', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 38, crudo 19
     } // datos
 
     /**

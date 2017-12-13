@@ -71,7 +71,7 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \SMIBase\Publica
             array('fecha' => '2009-12-31', 'valor' => '597', 'fuente_nombre' => 'IMPLAN'),
             array('fecha' => '2010-12-31', 'valor' => '753', 'fuente_nombre' => 'IMPLAN'),
             array('fecha' => '2011-12-31', 'valor' => '858', 'fuente_nombre' => 'IMPLAN'),
-            array('fecha' => '2012-12-31', 'valor' => '1253', 'fuente_nombre' => 'IMPLAN'));
+            array('fecha' => '2012-12-31', 'valor' => '1253', 'fuente_nombre' => 'IMPLAN')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

@@ -68,7 +68,7 @@ class SociedadHogaresConJefaturaFemenina extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '24.9100', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '27.9200', 'fuente_nombre' => 'INEGI', 'notas' => 'Encuesta Intercensal 2015, de INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '27.9200', 'fuente_nombre' => 'INEGI', 'notas' => 'Encuesta Intercensal 2015, de INEGI')); // formateado 0, valor 4, crudo 3
     } // datos
 
     /**

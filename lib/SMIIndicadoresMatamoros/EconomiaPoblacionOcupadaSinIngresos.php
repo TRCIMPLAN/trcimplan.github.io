@@ -71,7 +71,7 @@ class EconomiaPoblacionOcupadaSinIngresos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '2.3500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '3.0400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '7.2300', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '7.9300', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '7.9300', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

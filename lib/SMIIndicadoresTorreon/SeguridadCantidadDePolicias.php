@@ -67,15 +67,15 @@ class SeguridadCantidadDePolicias extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-01-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2014-02-28', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2014-03-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2014-04-30', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2014-05-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2014-06-30', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2014-07-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2014-08-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2014-09-30', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-01-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-02-28', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-03-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-04-30', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-05-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-06-30', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-07-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-08-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2014-09-30', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
             array('fecha' => '2014-10-31', 'valor' => '664', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
             array('fecha' => '2014-11-30', 'valor' => '668', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
             array('fecha' => '2014-12-31', 'valor' => '750', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
@@ -100,17 +100,17 @@ class SeguridadCantidadDePolicias extends \SMIBase\PublicacionWeb {
             array('fecha' => '2016-07-31', 'valor' => '700', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
             array('fecha' => '2016-08-31', 'valor' => '700', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
             array('fecha' => '2016-09-30', 'valor' => '700', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2016-10-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2016-11-30', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2016-12-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-01-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-02-28', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-03-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-04-30', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-05-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-06-30', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-07-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-08-31', 'valor' => 'Y', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'));
+            array('fecha' => '2016-10-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2016-11-30', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2016-12-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-01-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-02-28', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-03-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-04-30', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-05-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-06-30', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-07-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-08-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia')); // formateado 20, valor 68, crudo 44
     } // datos
 
     /**

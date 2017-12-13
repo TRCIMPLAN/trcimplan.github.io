@@ -82,7 +82,7 @@ class SustentabilidadMotorizacion extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '226', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '223', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '217', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '211', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '211', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 32, crudo 16
     } // datos
 
     /**

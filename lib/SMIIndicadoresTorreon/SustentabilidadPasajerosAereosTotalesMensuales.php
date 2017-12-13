@@ -135,7 +135,7 @@ class SustentabilidadPasajerosAereosTotalesMensuales extends \SMIBase\Publicacio
             array('fecha' => '2017-07-31', 'valor' => '53873', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('fecha' => '2017-08-31', 'valor' => '53585', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('fecha' => '2017-09-30', 'valor' => '44190', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
-            array('fecha' => '2017-10-31', 'valor' => '52627', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
+            array('fecha' => '2017-10-31', 'valor' => '52627', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)')); // formateado 0, valor 138, crudo 69
     } // datos
 
     /**

@@ -67,7 +67,7 @@ class SociedadAlumnosConPerfilCientificoMatematico extends \SMIBase\PublicacionW
      */
     public function datos() {
         return array(
-            array('fecha' => '2013-12-31', 'valor' => '35.0000', 'fuente_nombre' => 'SEP'));
+            array('fecha' => '2013-12-31', 'valor' => '35.0000', 'fuente_nombre' => 'SEP')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

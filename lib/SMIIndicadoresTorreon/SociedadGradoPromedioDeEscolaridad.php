@@ -68,7 +68,7 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '10.2300', 'fuente_nombre' => 'INEGI', 'notas' => 'Consulta la [Fuente](http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5)'),
-            array('fecha' => '2015-12-31', 'valor' => '10.5800', 'fuente_nombre' => 'INEGI'));
+            array('fecha' => '2015-12-31', 'valor' => '10.5800', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 4, crudo 3
     } // datos
 
     /**

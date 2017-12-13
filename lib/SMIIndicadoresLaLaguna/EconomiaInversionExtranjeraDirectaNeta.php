@@ -71,7 +71,7 @@ class EconomiaInversionExtranjeraDirectaNeta extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '238.75', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '281.92', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '155.04', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '206.25', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '206.25', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

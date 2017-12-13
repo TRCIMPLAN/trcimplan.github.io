@@ -71,7 +71,7 @@ class EconomiaEmpresasCertificadasConIso9000Y14000 extends \SMIBase\PublicacionW
             array('fecha' => '2009-12-31', 'valor' => '7.4742', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '8.8768', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '9.4532', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '10.6011', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '10.6011', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

@@ -67,7 +67,7 @@ class SustentabilidadDensidadMediaUrbana extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '81.3000', 'fuente_nombre' => 'CONAPO-SEDESOL-INEGI'));
+            array('fecha' => '2010-12-31', 'valor' => '81.3000', 'fuente_nombre' => 'CONAPO-SEDESOL-INEGI')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

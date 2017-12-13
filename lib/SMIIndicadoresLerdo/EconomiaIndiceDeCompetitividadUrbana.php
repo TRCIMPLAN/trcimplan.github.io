@@ -67,7 +67,7 @@ class EconomiaIndiceDeCompetitividadUrbana extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-12-31', 'valor' => '37.3900', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 74 de 77 ciudades, de acuerdo a la edición 2012 del ICU.'));
+            array('fecha' => '2012-12-31', 'valor' => '37.3900', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 74 de 77 ciudades, de acuerdo a la edición 2012 del ICU.')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

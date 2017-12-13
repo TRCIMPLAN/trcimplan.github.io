@@ -71,7 +71,7 @@ class SociedadPromedioDeDescendenciaPorVaron extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '1.7700', 'fuente_nombre' => 'IMPLAN'),
             array('fecha' => '2010-12-31', 'valor' => '1.7200', 'fuente_nombre' => 'IMPLAN'),
             array('fecha' => '2011-12-31', 'valor' => '1.6900', 'fuente_nombre' => 'IMPLAN'),
-            array('fecha' => '2012-12-31', 'valor' => '1.6600', 'fuente_nombre' => 'IMPLAN'));
+            array('fecha' => '2012-12-31', 'valor' => '1.6600', 'fuente_nombre' => 'IMPLAN')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**

@@ -70,7 +70,7 @@ class EconomiaPersonalOcupadoEnElComercio extends \SMIBase\PublicacionWeb {
             array('fecha' => '1998-12-31', 'valor' => '15.5100', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '16.3100', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '31.0701', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '24.1890', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '24.1890', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

@@ -73,7 +73,7 @@ Fuente: INEGI (Censo de Población y Vivienda).';
             array('fecha' => '2010-12-31', 'valor' => '19.6800', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2010-12-31', 'valor' => '22.7400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '22.7400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '22.7400', 'fuente_nombre' => 'IMCO'));
+            array('fecha' => '2012-12-31', 'valor' => '22.7400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**

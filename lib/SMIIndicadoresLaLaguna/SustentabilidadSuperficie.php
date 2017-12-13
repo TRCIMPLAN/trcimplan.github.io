@@ -67,7 +67,7 @@ class SustentabilidadSuperficie extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '502799.3800', 'fuente_nombre' => 'INEGI', 'notas' => 'El indicador hace referencia a los cuatro municipios que conforman la Zona Metropolitana de la Laguna: Torreón, Matamoros, Gómez Palacio y Lerdo.'));
+            array('fecha' => '2010-12-31', 'valor' => '502799.3800', 'fuente_nombre' => 'INEGI', 'notas' => 'El indicador hace referencia a los cuatro municipios que conforman la Zona Metropolitana de la Laguna: Torreón, Matamoros, Gómez Palacio y Lerdo.')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

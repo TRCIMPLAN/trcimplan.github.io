@@ -71,7 +71,7 @@ class SustentabilidadConsumoDeAguaFacturado extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '46.7500', 'fuente_nombre' => 'SIMAS', 'notas' => 'Consumo anual'),
             array('fecha' => '2012-12-31', 'valor' => '44.5700', 'fuente_nombre' => 'SIMAS', 'notas' => 'Consumo anual'),
             array('fecha' => '2013-12-31', 'valor' => '41.9900', 'fuente_nombre' => 'SIMAS', 'notas' => 'Consumo anual'),
-            array('fecha' => '2015-12-31', 'valor' => '41.2000', 'fuente_nombre' => 'SIMAS', 'notas' => 'Consumo anual. Consulta la Base de Datos en http://datostrc.gob.mx/datasets/ver/33190.'));
+            array('fecha' => '2015-12-31', 'valor' => '41.2000', 'fuente_nombre' => 'SIMAS', 'notas' => 'Consumo anual. Consulta la Base de Datos en http://datostrc.gob.mx/datasets/ver/33190.')); // formateado 0, valor 10, crudo 10
     } // datos
 
     /**

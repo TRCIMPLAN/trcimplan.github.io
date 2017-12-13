@@ -114,7 +114,7 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-07-31', 'valor' => '191316', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2017-08-31', 'valor' => '192619', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2017-09-30', 'valor' => '194314', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2017-10-31', 'valor' => '196475', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
+            array('fecha' => '2017-10-31', 'valor' => '196475', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 96, crudo 49
     } // datos
 
     /**

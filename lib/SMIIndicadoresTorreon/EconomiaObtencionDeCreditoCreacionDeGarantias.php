@@ -70,7 +70,7 @@ class EconomiaObtencionDeCreditoCreacionDeGarantias extends \SMIBase\Publicacion
             array('fecha' => '2007-12-31', 'valor' => '13', 'fuente_nombre' => 'Doing Business', 'notas' => 'En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2007 para Torreón son:
 
 - Costo (% del valor del préstamo): 1.29 
-- Ranking en crear una garantía: 6'));
+- Ranking en crear una garantía: 6')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**

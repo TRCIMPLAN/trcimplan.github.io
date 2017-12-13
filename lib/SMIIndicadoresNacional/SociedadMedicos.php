@@ -82,7 +82,7 @@ class SociedadMedicos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '7.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2012-12-31', 'valor' => '7.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2013-12-31', 'valor' => '7.8000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2014-12-31', 'valor' => '8.3000', 'fuente_nombre' => 'SINAIS (SSA)'));
+            array('fecha' => '2014-12-31', 'valor' => '8.3000', 'fuente_nombre' => 'SINAIS (SSA)')); // formateado 0, valor 32, crudo 16
     } // datos
 
     /**

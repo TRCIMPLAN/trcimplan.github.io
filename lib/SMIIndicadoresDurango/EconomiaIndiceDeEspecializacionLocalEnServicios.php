@@ -67,7 +67,7 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \SMIBase\Publicaci
      */
     public function datos() {
         return array(
-            array('fecha' => '2013-12-31', 'valor' => '9.4728', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
+            array('fecha' => '2013-12-31', 'valor' => '9.4728', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**

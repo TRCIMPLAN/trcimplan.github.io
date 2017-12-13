@@ -67,7 +67,7 @@ class EconomiaEmpresasExportadoras extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-11-24', 'valor' => '11', 'fuente_nombre' => 'Secretaría de Economía'));
+            array('fecha' => '2014-11-24', 'valor' => '11', 'fuente_nombre' => 'Secretaría de Economía')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
