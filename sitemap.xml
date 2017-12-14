@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-12-13</lastmod>
+    <lastmod>2017-12-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -743,6 +743,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/paisajismo-natural-en-torreon-y-la-laguna.html</loc>
     <lastmod>2017-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/panorama-del-mercado-de-la-vivienda-en-la-laguna.html</loc>
+    <lastmod>2017-12-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
