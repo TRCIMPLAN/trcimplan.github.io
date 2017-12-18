@@ -487,6 +487,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 #categorias-innovacion:hover                                 { background-position:-128px 0; }
 #categorias-macroeconomia                                    { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/macroeconomia.jpg") no-repeat 0 0; }
 #categorias-macroeconomia:hover                              { background-position:-128px 0; }
+#categorias-medio-ambiente                                   { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/medio-ambiente.jpg") no-repeat 0 0; }
+#categorias-medio-ambiente:hover                             { background-position:-128px 0; }
 #categorias-mercados                                         { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/mercados.jpg") no-repeat 0 0; }
 #categorias-mercados:hover                                   { background-position:-128px 0; }
 #categorias-movilidad                                        { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/movilidad.jpg") no-repeat 0 0; }

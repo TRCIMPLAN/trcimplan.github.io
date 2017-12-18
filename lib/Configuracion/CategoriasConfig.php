@@ -60,6 +60,7 @@ class CategoriasConfig {
         $this->categorias[] = new \Base\Categoria('Infraestructura',                              'infraestructura');
         $this->categorias[] = new \Base\Categoria('Innovación',                                   'innovacion');
         $this->categorias[] = new \Base\Categoria('Macroeconomía',                                'macroeconomia');
+        $this->categorias[] = new \Base\Categoria('Medio Ambiente',                               'medio-ambiente');
         $this->categorias[] = new \Base\Categoria('Mercados',                                     'mercados');
         $this->categorias[] = new \Base\Categoria('Movilidad',                                    'movilidad');
         $this->categorias[] = new \Base\Categoria('Objetivos del Milenio',                        'objetivos-del-milenio');
