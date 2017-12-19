@@ -40,9 +40,9 @@ class SustentabilidadGeneracionDeBasura extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-generacion-de-basura';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Recursos Naturales';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales');
+        $this->categorias  = array('Medio Ambiente', 'Recursos Naturales');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Gómez Palacio');
     } // constructor

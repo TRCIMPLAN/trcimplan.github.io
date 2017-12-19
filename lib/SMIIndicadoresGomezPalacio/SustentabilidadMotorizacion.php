@@ -40,9 +40,9 @@ class SustentabilidadMotorizacion extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-motorizacion';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Vehículos automotores registrados en circulación por cada mil habitantes.';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Recursos Naturales, Movilidad, Vialidad, Sector Automotriz';
+        $this->claves      = 'IMPLAN, Gómez Palacio, Medio Ambiente, Movilidad, Recursos Naturales, Sector Automotriz, Vialidad';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad', 'Sector Automotriz');
+        $this->categorias  = array('Medio Ambiente', 'Movilidad', 'Recursos Naturales', 'Sector Automotriz', 'Vialidad');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Gómez Palacio');
     } // constructor

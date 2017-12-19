@@ -40,9 +40,9 @@ class SustentabilidadUsuariosDeModosNoMotorizados extends \SMIBase\PublicacionWe
         $this->archivo     = 'sustentabilidad-usuarios-de-modos-no-motorizados';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Se considera como usuarios a la población de 12 a 65 años de edad que realizan traslados con motivo de estudios o trabajo.';
-        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Sector Automotriz';
+        $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente, Movilidad';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Sector Automotriz');
+        $this->categorias  = array('Medio Ambiente', 'Movilidad');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor

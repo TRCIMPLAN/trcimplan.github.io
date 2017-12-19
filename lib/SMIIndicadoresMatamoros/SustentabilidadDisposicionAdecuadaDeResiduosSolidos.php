@@ -40,9 +40,9 @@ class SustentabilidadDisposicionAdecuadaDeResiduosSolidos extends \SMIBase\Publi
         $this->archivo     = 'sustentabilidad-disposicion-adecuada-de-residuos-solidos';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.';
-        $this->claves      = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Recursos Naturales';
+        $this->claves      = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Recursos Naturales');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Medio Ambiente', 'Recursos Naturales');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Matamoros');
     } // constructor

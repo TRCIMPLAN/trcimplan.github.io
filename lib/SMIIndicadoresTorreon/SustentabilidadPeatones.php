@@ -40,9 +40,9 @@ class SustentabilidadPeatones extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-peatones';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Se considera como Peatones a la población de 12 a 65 años de edad que realizan traslados con motivo de estudios o trabajo a pie.';
-        $this->claves      = 'IMPLAN, Torreón, Movilidad, Sector Automotriz';
+        $this->claves      = 'IMPLAN, Torreón, Medio Ambiente, Movilidad, Sector Automotriz';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Sector Automotriz');
+        $this->categorias  = array('Medio Ambiente', 'Movilidad', 'Sector Automotriz');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('Torreón');
     } // constructor

@@ -40,9 +40,9 @@ class SustentabilidadSistemaDeTransporteMasivo extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-sistema-de-transporte-masivo';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice "Precursores". Qué mide: Si una ciudad cuenta con un sistema de transporte masivo en operación, en construcción, en estatus de proyecto o ninguna de las tres.';
-        $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Movilidad';
+        $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Medio Ambiente, Movilidad';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Movilidad');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Medio Ambiente', 'Movilidad');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor

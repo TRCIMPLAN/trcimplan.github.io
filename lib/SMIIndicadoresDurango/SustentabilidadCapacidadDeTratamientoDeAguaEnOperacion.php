@@ -40,9 +40,9 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
         $this->archivo     = 'sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.';
-        $this->claves      = 'IMPLAN, Durango, Recursos Naturales, Índice de Competitividad Urbana';
+        $this->claves      = 'IMPLAN, Durango, Índice de Competitividad Urbana, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales', 'Índice de Competitividad Urbana');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Medio Ambiente', 'Recursos Naturales');
         $this->fuentes     = array('IMCO-CONAGUA');
         $this->regiones    = array('Durango');
     } // constructor

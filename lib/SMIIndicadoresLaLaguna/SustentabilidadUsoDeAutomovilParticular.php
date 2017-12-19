@@ -40,9 +40,9 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-uso-de-automovil-particular';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Distribución porcentual del total de viajes cotidianos realizados por modalidad.';
-        $this->claves      = 'IMPLAN, La Laguna, Movilidad, Vialidad, Sector Automotriz';
+        $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente, Movilidad, Sector Automotriz, Vialidad';
         // Para el Organizador
-        $this->categorias  = array('Movilidad', 'Vialidad', 'Sector Automotriz');
+        $this->categorias  = array('Medio Ambiente', 'Movilidad', 'Sector Automotriz', 'Vialidad');
         $this->fuentes     = array('Logit');
         $this->regiones    = array('La Laguna');
     } // constructor

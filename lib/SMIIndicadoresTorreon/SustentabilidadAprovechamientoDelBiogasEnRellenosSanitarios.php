@@ -40,9 +40,9 @@ class SustentabilidadAprovechamientoDelBiogasEnRellenosSanitarios extends \SMIBa
         $this->archivo     = 'sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.';
-        $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Recursos Naturales';
+        $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Recursos Naturales');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Medio Ambiente', 'Recursos Naturales');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Torreón');
     } // constructor

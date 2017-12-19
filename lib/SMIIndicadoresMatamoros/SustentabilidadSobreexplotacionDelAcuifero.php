@@ -40,9 +40,9 @@ class SustentabilidadSobreexplotacionDelAcuifero extends \SMIBase\PublicacionWeb
         $this->archivo     = 'sustentabilidad-sobreexplotacion-del-acuifero';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.';
-        $this->claves      = 'IMPLAN, Matamoros, Recursos Naturales, Índice de Competitividad Urbana';
+        $this->claves      = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales', 'Índice de Competitividad Urbana');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Medio Ambiente', 'Recursos Naturales');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Matamoros');
     } // constructor

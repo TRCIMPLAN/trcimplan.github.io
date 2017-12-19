@@ -40,9 +40,9 @@ class SustentabilidadEmpresasCertificadasComoLimpias extends \SMIBase\Publicacio
         $this->archivo     = 'sustentabilidad-empresas-certificadas-como-limpias';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de empresas que cuentan con la certificación de “Empresa Limpia”emitido por la Procuraduría Federal de Protección al Ambiente (PROFEPA), que evidencia el cumplimiento de la normatividad y buenas prácticas ambientales.';
-        $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Empresas';
+        $this->claves      = 'IMPLAN, Torreón, Empresas, Índice de Competitividad Urbana, Medio Ambiente';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Empresas');
+        $this->categorias  = array('Empresas', 'Índice de Competitividad Urbana', 'Medio Ambiente');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Torreón');
     } // constructor

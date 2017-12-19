@@ -40,9 +40,9 @@ class SustentabilidadConcentracionDeParticulasSuspendidasTotales extends \SMIBas
         $this->archivo     = 'sustentabilidad-concentracion-de-particulas-suspendidas-totales';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Calidad del aire por la medición de las partículas suspendidas en microgramos por metro cúbico en promedio de 24 horas. La Norma Oficial Mexicana NOM-025-SSA1-1993 indica que el límite para efectos de protección de la salud es 210 ug por m3.';
-        $this->claves      = 'IMPLAN, Torreón, Recursos Naturales';
+        $this->claves      = 'IMPLAN, Torreón, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales');
+        $this->categorias  = array('Medio Ambiente', 'Recursos Naturales');
         $this->fuentes     = array('DIF Revolución', 'Esc. Primaria Emiliano Zapata', 'Esc. Secundaria General No. 2', 'Esc. Secundaria Técnica No. 83', 'Cap. Divina Providencia', 'Centro Cultural José R. Mijares', 'Esc. Secundaria General No. 3');
         $this->regiones    = array('Torreón');
     } // constructor

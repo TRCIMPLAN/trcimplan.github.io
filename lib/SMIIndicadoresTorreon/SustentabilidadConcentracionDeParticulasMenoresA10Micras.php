@@ -40,9 +40,9 @@ class SustentabilidadConcentracionDeParticulasMenoresA10Micras extends \SMIBase\
         $this->archivo     = 'sustentabilidad-concentracion-de-particulas-menores-a-10-micras';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Calidad del aire por la medición de las partículas menores a 10 microgramos por metro cúbico en promedio de 24 horas. La Norma Oficial Mexicana NOM-025-SSA1-2014 indica que el límite para efectos de protección de la salud es 75 ug por m3.';
-        $this->claves      = 'IMPLAN, Torreón, Recursos Naturales';
+        $this->claves      = 'IMPLAN, Torreón, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
-        $this->categorias  = array('Recursos Naturales');
+        $this->categorias  = array('Medio Ambiente', 'Recursos Naturales');
         $this->fuentes     = array('DIF Revolución', 'HECAT', 'Centro Cultural José R. Mijares');
         $this->regiones    = array('Torreón');
     } // constructor
