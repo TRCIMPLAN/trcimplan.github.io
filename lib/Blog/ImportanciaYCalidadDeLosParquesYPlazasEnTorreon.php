@@ -45,7 +45,7 @@ class ImportanciaYCalidadDeLosParquesYPlazasEnTorreon extends \Base\PublicacionS
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ImportanciaYCalidadDeLosParquesYPlazasEnTorreon.md';
         // Para el Organizador
-        $this->categorias                 = array('Bienestar', 'Infraestructura', 'Recursos Naturales');
+        $this->categorias                 = array('Bienestar', 'Infraestructura', 'Medio Ambiente', 'Recursos Naturales');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón');
     } // constructor

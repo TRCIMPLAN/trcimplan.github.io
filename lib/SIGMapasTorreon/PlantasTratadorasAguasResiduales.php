@@ -51,7 +51,7 @@ class PlantasTratadorasAguasResiduales extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Infraestructura');
+        $this->categorias         = array('Medio Ambiente', 'Infraestructura');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/e01a13e5-a73e-4401-8805-0e5b593f5ec1/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';

@@ -45,7 +45,7 @@ class PorUnaCulturaInclusivaDelReciclaje extends \Base\PublicacionSchemaBlogPost
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PorUnaCulturaInclusivaDelReciclaje.md';
         // Para el Organizador
-        $this->categorias                 = array('Bienestar', 'Recursos Naturales');
+        $this->categorias                 = array('Bienestar', 'Medio Ambiente', 'Recursos Naturales');
         $this->fuentes                    = array('Banco Interamericano del Desarrollo (BID)', 'Dirección General de Medio Ambiente del Municipio de Torreón', 'IMPLAN');
         $this->regiones                   = array('Torreón');
     } // constructor

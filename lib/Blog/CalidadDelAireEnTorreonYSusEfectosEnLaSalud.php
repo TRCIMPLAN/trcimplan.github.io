@@ -45,7 +45,7 @@ class CalidadDelAireEnTorreonYSusEfectosEnLaSalud extends \Base\PublicacionSchem
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CalidadDelAireEnTorreonYSusEfectosEnLaSalud.md';
         // Para el Organizador
-        $this->categorias                 = array('Recursos Naturales', 'Salud');
+        $this->categorias                 = array('Medio Ambiente', 'Recursos Naturales', 'Salud');
         $this->fuentes                    = array('Dirección General de Medio Ambiente del Municipio de Torreón', 'Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor

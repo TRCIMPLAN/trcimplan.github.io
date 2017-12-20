@@ -51,7 +51,7 @@ class AreasVerdes extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Recursos Naturales');
+        $this->categorias         = array('Medio Ambiente', 'Recursos Naturales');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/1b85d4ce-3260-11e6-b50c-0ef24382571b/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';

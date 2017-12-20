@@ -45,7 +45,7 @@ class EnBuscaDeUnaMovilidadSustentable extends \Base\PublicacionSchemaBlogPostin
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/EnBuscaDeUnaMovilidadSustentable.md';
         // Para el Organizador
-        $this->categorias                 = array('Movilidad', 'Vialidad');
+        $this->categorias                 = array('Medio Ambiente', 'Movilidad', 'Vialidad');
         $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón', 'Matamoros', 'La Laguna');
     } // constructor

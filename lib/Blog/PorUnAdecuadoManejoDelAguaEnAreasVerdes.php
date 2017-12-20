@@ -47,7 +47,7 @@ class PorUnAdecuadoManejoDelAguaEnAreasVerdes extends \Base\PublicacionSchemaBlo
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         // Para el Organizador
-        $this->categorias                 = array('Infraestructura', 'Recursos Naturales');
+        $this->categorias                 = array('Infraestructura', 'Medio Ambiente', 'Recursos Naturales');
         $this->fuentes                    = array('Comisión Nacional del Agua (CONAGUA)');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'La Laguna');
     } // constructor

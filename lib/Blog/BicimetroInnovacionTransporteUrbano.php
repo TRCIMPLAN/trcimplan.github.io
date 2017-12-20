@@ -45,7 +45,7 @@ class BicimetroInnovacionTransporteUrbano extends \Base\PublicacionSchemaBlogPos
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/BicimetroInnovacionTransporteUrbano.md';
         // Para el Organizador
-        $this->categorias                 = array('Transporte', 'Movilidad', 'Infraestructura');
+        $this->categorias                 = array('Infraestructura', 'Medio Ambiente', 'Movilidad');
         $this->fuentes                    = array('Instituto Tecnológico de Massachussets (MIT)');
         $this->regiones                   = array();
     } // constructor

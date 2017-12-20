@@ -45,7 +45,7 @@ class LosBeneficiosEnElUsoDeLaInfraestructuraVerdeEnTorreon extends \Base\Public
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LosBeneficiosEnElUsoDeLaInfraestructuraVerdeEnTorreon.md';
         // Para el Organizador
-        $this->categorias                 = array('Infraestructura', 'Sustentabilidad');
+        $this->categorias                 = array('Infraestructura', 'Medio Ambiente');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros');
     } // constructor

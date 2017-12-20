@@ -47,7 +47,7 @@ class CincoClavesParaEntenderLaMovilidadNoMotorizada extends \Base\PublicacionSc
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         // Para el Organizador
-        $this->categorias                 = array('Infraestructura', 'Movilidad');
+        $this->categorias                 = array('Medio Ambiente', 'Infraestructura', 'Movilidad');
         $this->fuentes                    = array('IMPLAN', 'Logit');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor

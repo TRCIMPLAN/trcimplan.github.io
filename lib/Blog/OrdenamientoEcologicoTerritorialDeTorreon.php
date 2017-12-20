@@ -45,7 +45,7 @@ class OrdenamientoEcologicoTerritorialDeTorreon extends \Base\PublicacionSchemaB
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/OrdenamientoEcologicoTerritorialDeTorreon.md';
         // Para el Organizador
-        $this->categorias                 = array('Gobierno', 'Recursos Naturales');
+        $this->categorias                 = array('Gobierno', 'Medio Ambiente', 'Recursos Naturales');
         $this->fuentes                    = array('SEMARNAT');
         $this->regiones                   = array('Torreón', 'La Laguna');
         // Banderas

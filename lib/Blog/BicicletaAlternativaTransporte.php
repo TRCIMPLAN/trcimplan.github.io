@@ -45,7 +45,7 @@ class BicicletaAlternativaTransporte extends \Base\PublicacionSchemaBlogPosting 
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/BicicletaAlternativaTransporte.md';
         // Para el Organizador
-        $this->categorias                 = array('Movilidad');
+        $this->categorias                 = array('Medio Ambiente', 'Movilidad');
         $this->fuentes                    = array('Banco Interamericano del Desarrollo');
         $this->regiones                   = array('Nacional');
     } // constructor

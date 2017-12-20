@@ -45,7 +45,7 @@ class BosqueVenustianoCarranzaDiagnosticoYProblematicasParte2 extends \Base\Publ
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/BosqueVenustianoCarranzaDiagnosticoYProblematicasParte2.md';
         // Para el Organizador
-        $this->categorias                 = array('Recursos Naturales');
+        $this->categorias                 = array('Medio Ambiente', 'Recursos Naturales');
         $this->fuentes                    = array('Dirección General de Medio Ambiente del Municipio de Torreón', 'IMPLAN');
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor

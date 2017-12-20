@@ -45,7 +45,7 @@ class MasLagunerosSeUnenALaReforestacion extends \Base\PublicacionSchemaBlogPost
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/MasLagunerosSeUnenALaReforestacion.md';
         // Para el Organizador
-        $this->categorias                 = array('Recursos Naturales');
+        $this->categorias                 = array('Medio Ambiente', 'Recursos Naturales');
         $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón', 'Matamoros', 'Coahuila');
     } // constructor

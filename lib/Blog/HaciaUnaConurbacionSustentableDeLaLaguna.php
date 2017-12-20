@@ -45,7 +45,7 @@ class HaciaUnaConurbacionSustentableDeLaLaguna extends \Base\PublicacionSchemaBl
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/HaciaUnaConurbacionSustentableDeLaLaguna.md';
         // Para el Organizador
-        $this->categorias                 = array('Intraestructura', 'Recursos Naturales', 'Vivienda');
+        $this->categorias                 = array('Intraestructura', 'Medio Ambiente', 'Recursos Naturales', 'Vivienda');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor

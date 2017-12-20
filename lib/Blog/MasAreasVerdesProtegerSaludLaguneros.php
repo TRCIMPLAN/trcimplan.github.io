@@ -45,7 +45,7 @@ class MasAreasVerdesProtegerSaludLaguneros extends \Base\PublicacionSchemaBlogPo
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/MasAreasVerdesProtegerSaludLaguneros.md';
         // Para el Organizador
-        $this->categorias                 = array('Recursos Naturales', 'Salud');
+        $this->categorias                 = array('Medio Ambiente', 'Recursos Naturales', 'Salud');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor

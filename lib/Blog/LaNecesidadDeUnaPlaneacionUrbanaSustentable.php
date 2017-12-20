@@ -45,7 +45,7 @@ class LaNecesidadDeUnaPlaneacionUrbanaSustentable extends \Base\PublicacionSchem
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaNecesidadDeUnaPlaneacionUrbanaSustentable.md';
         // Para el Organizador
-        $this->categorias                 = array('Gobierno', 'Infraestructura', 'Población', 'Vivienda');
+        $this->categorias                 = array('Gobierno', 'Infraestructura', 'Medio Ambiente', 'Población', 'Vivienda');
         $this->fuentes                    = array('IMPLAN');
         $this->regiones                   = array('Torreón');
     } // constructor

@@ -45,7 +45,7 @@ class ConMetrobusLaguna21MilToneladasMenosDeCO2 extends \Base\PublicacionSchemaB
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ConMetrobusLaguna21MilToneladasMenosDeCO2.md';
         // Para el Organizador
-        $this->categorias                 = array('Movilidad', 'Vialidad');
+        $this->categorias                 = array('Medio Ambiente', 'Movilidad', 'Vialidad');
         $this->fuentes                    = array('IMCO');
         $this->regiones                   = array('Torreón', 'Matamoros', 'La Laguna');
     } // constructor

@@ -47,7 +47,7 @@ class ReservaEcologicaMunicipalSierraYCanonDeJimulco extends \Base\PublicacionSc
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         // Para el Organizador
-        $this->categorias                 = array('Recursos Naturales');
+        $this->categorias                 = array('Medio Ambiente', 'Recursos Naturales');
         $this->fuentes                    = array('INEGI');
         $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
