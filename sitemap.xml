@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2017-12-20</lastmod>
+    <lastmod>2017-12-21</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -598,6 +598,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/la-planeacion-urbana.html</loc>
     <lastmod>2015-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/la-plataforma-del-conocimiento-del-implan-torreon.html</loc>
+    <lastmod>2017-12-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
