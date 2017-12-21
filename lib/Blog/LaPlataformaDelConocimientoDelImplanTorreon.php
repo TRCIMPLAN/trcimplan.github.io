@@ -36,11 +36,11 @@ class LaPlataformaDelConocimientoDelImplanTorreon extends \Base\PublicacionSchem
         // Título, autor y fecha
         $this->nombre                     = 'La Plataforma del Conocimiento del IMPLAN Torreón';
         $this->autor                      = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha                      = '2017-12-21T12:45';
+        $this->fecha                      = '2017-12-21T14:45';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-plataforma-del-conocimiento-del-implan-torreon';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Desde su creación en 2014 el sitio web del IMPLAN Torreón ha crecido ininterrumpidamente organizado, conservando y difundiendo el conocimiento que sirve para mejorar nuestra región.';
+        $this->descripcion                = 'Desde su creación en 2014 el sitio web del IMPLAN Torreón ha crecido ininterrumpidamente, organizando, conservando y difundiendo el conocimiento que sirve para mejorar nuestra región.';
         $this->claves                     = 'IMPLAN, Torreon, Plataforma del Conocimiento, Sitio Web';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/LaPlataformaDelConocimientoDelImplanTorreon.md';
@@ -48,10 +48,6 @@ class LaPlataformaDelConocimientoDelImplanTorreon extends \Base\PublicacionSchem
         $this->categorias                 = array('Gobierno Digital', 'Innovación');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
-        // Banderas
-        $this->aparece_en_pagina_inicial  = FALSE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'revisar';
     } // constructor
 
 } // Clase LaPlataformaDelConocimientoDelImplanTorreon

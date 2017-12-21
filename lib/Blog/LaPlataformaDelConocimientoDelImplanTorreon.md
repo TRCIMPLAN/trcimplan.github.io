@@ -1,7 +1,7 @@
 
 Como una obligación plasmada en la ley del Instituto (Art. 43. I), **el IMPLAN Torreón tuvo el reto de crear un sistema de información con indicadores** para la recopilación,  procesamiento, resguardo, intercambio y difusión de la información con todos los sectores del municipio.
 
-El equipo tećnico del IMPLAN estableció una meta más alta al ofrecer, además de indicadores, análisis, mapas e investigaciones en su sitio web. En otras palabras, **realiza la tarea de recopilar todo el conocimiento que sirva para mejorar la calidad de vida de los habitantes de nuestra región, de forma organizada y al alcance de todos los ciudadanos.** Para visualizar la magnitud de este trabajo, en este análisis describiremos la Plataforma del Conocimiento.
+El equipo técnico del IMPLAN estableció una meta más alta al ofrecer, además de indicadores, análisis, mapas e investigaciones en su sitio web. En otras palabras, **realiza la tarea de recopilar todo el conocimiento que sirva para mejorar la calidad de vida de los habitantes de nuestra región, de forma organizada y al alcance de todos los ciudadanos.** Para visualizar la magnitud de este trabajo, en este análisis describiremos la Plataforma del Conocimiento.
 
 El reflejo de la organización de la Plataforma comienza en la página inicial donde de primera mano están los enlaces a los instrumentos de planeación: **Sistema Metropolitano de Indicadores (SMI), Sistema de Información Geográfica (SIG), Plan Estratégico Torreón con Visión Metropolitana TRC2040 e Indicadores Básicos por Colonias (IBC).**
 
@@ -51,7 +51,7 @@ En pocas palabras, **se permite la copia y el uso siempre y cuando no se alteren
 * **El número de páginas entregadas es de 483,473.**
 * La duración promedio del tiempo que permanece el usuario por página es de **3 minutos con 3 segundos.**
 * Prácticamente **1 de cada 4 visitantes hace su visita desde un teléfono inteligente o _tablet._**
-* Y **3 de cada 4 ingresos proviene de los resultados de los buscadores;** ya que la Plataforma facilita el trabajo a buscadores y usuarios, prefirendo éstos últimos realizar una búsqueda en Google para encontrar lo que necesitan rápidamente.
+* Y **3 de cada 4 ingresos proviene de los resultados de los buscadores;** ya que la Plataforma facilita el trabajo a buscadores y usuarios, prefiriendo éstos últimos realizar una búsqueda en Google para encontrar lo que necesitan rápidamente.
 
 ### Google Analytics: Cantidad de sesiones mensuales desde enero 2015 a noviembre 2017
 
