@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="En general la economía de La Laguna presenta informalidad a la baja, explicada en parte por una tendencia hacia el pleno empleo con tasas cada vez menores al 5%. El tema pendiente es la mejora de la calidad de los empleos, el salario promedio aún es menor que en otras regiones del país.">
+  <meta name="author" content="Lic. Frida García Gutiérrez">
+  <meta name="keywords" content="IMPLAN, Torreon, Balance, Economia, 2017">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Balance Económico de La Laguna en el 2017 - IMPLAN Torreón">
+  <meta name="twitter:description" content="En general la economía de La Laguna presenta informalidad a la baja, explicada en parte por una tendencia hacia el pleno empleo con tasas cada vez menores al 5%. El tema pendiente es la mejora de la calidad de los empleos, el salario promedio aún es menor que en otras regiones del país.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/balance-economico-2017/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/balance-economico-2017.html">
+  <meta name="og:title" content="Balance Económico de La Laguna en el 2017 - IMPLAN Torreón">
+  <meta name="og:description" content="En general la economía de La Laguna presenta informalidad a la baja, explicada en parte por una tendencia hacia el pleno empleo con tasas cada vez menores al 5%. El tema pendiente es la mejora de la calidad de los empleos, el salario promedio aún es menor que en otras regiones del país.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/balance-economico-2017/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/balance-economico-2017.html">
+  <title>Balance Económico de La Laguna en el 2017 - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+            <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="encabezado">
+          <h1 itemprop="headline">Balance Económico de La Laguna en el 2017</h1>
+          <div class="encabezado-descripcion" itemprop="description">En general la economía de La Laguna presenta informalidad a la baja, explicada en parte por una tendencia hacia el pleno empleo con tasas cada vez menores al 5%. El tema pendiente es la mejora de la calidad de los empleos, el salario promedio aún es menor que en otras regiones del país.</div>
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Lic. Frida García Gutiérrez</span> -
+            <meta itemprop="datePublished" content="2017-12-28T12:35">28/12/2017 12:35
+          </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Balance Económico de La Laguna en el 2017" src="balance-economico-2017/imagen.jpg"></span>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<p><strong>La tasa de desempleo en La Laguna al tercer trimestre de 2017 se ubica en 4.40%,</strong> casi medio punto porcentual debajo de las cifras del segundo trimestre, de acuerdo con la <strong>Encuesta Nacional de Ocupación y Empleo (ENOE),</strong> en sus indicadores estratégicos.</p>
+
+<p><strong>Esto significa que La Laguna ha estado en pleno empleo durante el segundo y tercer trimestre del 2017.</strong> Se le denomina así, cuando mínimo el 95% de la población que quiere y puede trabajar tiene empleo, y donde además, como máximo, el otro 5% de la Población Económicamente Activa  (PEA) restante es población que está buscando trabajo, en proceso de reubicarse o simplemente decide no laborar. Para La Laguna, esta población es cada vez menor, lo cual indica que son cada vez más las personas que encuentran empleo, se reubican más rápido y que deciden trabajar. Sin embargo, la región aún está por encima del porcentaje nacional, ubicado en 3.55%.</p>
+
+<p>Respecto a la <strong>calidad de los empleos,</strong> lo cual puede medirse a través de la tasa de condiciones críticas de ocupación; <strong>La Laguna sufrió en estos seis meses una variación de 3.98%, al pasar a una tasa de 10.57% en el tercer trimestre.</strong> Si bien esto indica menoscabo en la calidad del empleo, la región aun está debajo del 13.37% nacional.</p>
+
+<p>Por otro lado, la <strong>informalidad en La Laguna</strong> se ha visto reducida gracias a la disminución en la tasa de desempleo. La tasa de informalidad <strong>pasa de 41.94% a 41.27%;</strong> ubicándose por debajo del dato nacional, el cual sí lleva una tendencia al alza con 57.19 % al tercer trimestre de este año.</p>
+
+<p><strong>El número de asegurados en el Instituto Mexicano del Seguro Social, aumentó a 5508 del segundo al tercer trimestre de 2017.</strong> Esto refuerza la idea de que pudiera mantenerse una tendencia a la baja en el tema de la informalidad.</p>
+
+<p>Otro dato que refleja la calidad del empleo en la región, es el salario promedio en La Laguna por ocupación. Al tercer trimestre del 2017, <strong>los salarios son mayores para funcionarios y directivos en primer lugar, y en segundo, para trabajadores de la educación;</strong> con una diferencia entre ellos cercana a los 2 mil pesos.</p>
+
+<p>El salario promedio más alto asciende a 12,534.03 pesos y el salario promedio más bajo es para los trabajadores agropecuarios con 3,770.17 pesos. Por otro lado, al calcular el salario promedio tomando en cuenta todas las ocupaciones, en La Laguna, una persona que labora estaría ganando en promedio 6,302.81 pesos.</p>
+
+<p>La variación que ha presentado este indicador respecto al tercer trimestre de 2016 es de 10.82% al alza, pues en este periodo el salario promedio era de 5,687.46 pesos. Sin embargo, este incremento en el salario es nominal, pues restando la tasa anual de inflación de Torreón; la variación de precios entre septiembre de 2016 y de 2017; existe un crecimiento real anual en los salarios de 3.46%. Al comparar este porcentaje con el crecimiento real anual del país, -1.99%, para los salarios y el mismo periodo; el poder adquisitivo de La Laguna creció más que el de México, en 5.46 puntos porcentuales. Sin embargo, esto no alcanza para que el salario promedio de La Laguna sea superior al nacional, que se ubica en 6,598.07 pesos.</p>
+
+<h3>Inflación en La Laguna</h3>
+
+<p>Para efectos de este indicador, se considera la inflación de Torreón para toda la zona metropolitana, ya que es el único municipio de la región incluida por INEGI en el cálculo del Índice Nacional de Precios al Consumidor (INPC).</p>
+
+<p><strong>En el tercer trimestre la variación de los precios fue de 0.99% trimestral, mientras que la inflación anual, es decir, la variación en precios con respecto al tercer trimestre de 2016, fue de 7.36%; cifra que supera la inflación nacional, de 6.3%, para el mismo periodo.</strong></p>
+
+<p>El transporte es el bien con mayor incremento en su precio desde el tercer trimestre de 2016 hasta el tercer trimestre de este año. En los lugares dos y tres, de acuerdo a la importancia de su variación,  también están otros servicios y alimentos, bebidas y tabaco. De los bienes que tuvieron un incremento mayor en sus precios, respecto al segundo trimestre del 2017, también se repiten los alimentos, bebidas y tabaco; y transporte. Otro bien con un incremento marcado en sus precios es la educación y el esparcimiento.</p>
+
+<h3>Nuevos Establecimientos en Torreón</h3>
+
+<p><strong>Hasta noviembre de 2017, de acuerdo con la información recibida de Ventanilla Universal de la Dirección General de Desarrollo Económico, en Torreón se establecieron en total 1,452 empresas, que emplearon a 8,392 personas,</strong> de acuerdo a la información obtenida de las encuestas aplicadas a los contribuyentes que tramitaron su licencia de funcionamiento. Los principales giros de las empresas son: restaurantes y fondas, prendas de vestir y accesorios, elaboración y preparación de alimentos, oficinas administrativas, salones de fiestas infantiles, tiendas miscelánea. <strong>Junio fue el mes en donde se crearon más empresas cifra que asciende a 184, y el mes en el cual más empleos se generaron corresponde a noviembre, debido al establecimiento de una empresa en el giro de producción de automóviles, camiones y tractocamiones, que empleó a 3,500 personas.</strong></p>
+
+<h3>Salarios promedio en la zona metropolitana de La Laguna</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Clasificación de acuerdo a la condición de ocupación</th>
+  <th align="right">Salario promedio mensual para jornadas de 35 a 48 horas a la semana</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Profesionales, técnicos y trabajadores del arte</td>
+  <td align="right">$  7,306.01</td>
+</tr>
+<tr>
+  <td>Trabajadores de la educación</td>
+  <td align="right">$ 10,485.93</td>
+</tr>
+<tr>
+  <td>Funcionarios y directivos</td>
+  <td align="right">$ 12,534.03</td>
+</tr>
+<tr>
+  <td>Oficinistas</td>
+  <td align="right">$  5,963.86</td>
+</tr>
+<tr>
+  <td>Trabajadores industriales artesanos y ayudantes</td>
+  <td align="right">$  5,377.39</td>
+</tr>
+<tr>
+  <td>Comerciantes</td>
+  <td align="right">$  4,335.97</td>
+</tr>
+<tr>
+  <td>Operadores de transporte</td>
+  <td align="right">$  6,013.82</td>
+</tr>
+<tr>
+  <td>Trabajadores en servicios personales</td>
+  <td align="right">$  4,185.13</td>
+</tr>
+<tr>
+  <td>Trabajadores en protección y vigilancia</td>
+  <td align="right">$  6,550.00</td>
+</tr>
+<tr>
+  <td>Trabajadores agropecuarios</td>
+  <td align="right">$  3,770.17</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: Encuesta Nacional de Ocupación y Empleo (ENOE) del tercer trimestre de 2017, INEGI.</p>
+
+<h3>Variación de la inflación en Torreón por objeto del gasto (anual y trimestral)</h3>
+
+<p><img class="img-responsive" src="balance-economico-2017/variacion-inflacion-torreon.png" alt="Variación de la inflación en Torreón por objeto del gasto (anual y trimestral)"></p>
+
+<p>Fuente: Índice Nacional de Precios al Consumidor, INEGI.</p>
+
+<h3>Apertura de empresas a noviembre de 2017</h3>
+
+<p><img class="img-responsive" src="balance-economico-2017/apertura-empresas-noviembre-2017.png" alt="Apertura de empresas a noviembre de 2017"></p>
+
+<p>Fuente: Elaborado por IMPLAN con información de Ventanilla Universal</p>
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+      <aside>
+  <!-- Extra: Inicia  -->
+  <h3>Publicaciones relacionadas</h3>
+<p><b>Análisis Publicados</b></p>
+<ul>
+  <li><a href="http://www.trcimplan.gob.mx/blog/el-corredor-economico-del-norte-y-su-fortaleza-nacional.html">El Corredor Econ&oacute;mico del Norte y su fortaleza nacional</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/se-mantiene-el-mercado-laboral-pero-sube-la-inflacion-en-la-laguna.html">Se mantiene el mercado laboral, pero sube la inflaci&oacute;n en La Laguna</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/balance-2015-repunte-de-la-competitividad-en-la-laguna.html">Balance 2015: repunte de la competitividad en La Laguna</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/torreon-tasa-de-ocupacion-critica-menor-a-la-media-nacional.html">Torre&oacute;n: tasa de ocupaci&oacute;n cr&iacute;tica menor a la media nacional</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/torreon-una-nueva-realidad-economica.html">Torre&oacute;n: Una Nueva Realidad Econ&oacute;mica</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/indicadores-por-municipio-metodologia-imco.html">Indicadores por municipio construidos por el IMPLAN con la base de datos y metodolog&iacute;a del IMCO</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/el-papel-de-la-cultura-en-la-competitividad.html">El papel de la cultura en la competitividad</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/zml-vencimos-nos-adaptamos-al-desierto.html">ZML: &lt;del&gt;Vencimos&lt;/del&gt; / Nos adaptamos al desierto</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Econ&oacute;micos del primer trimestre de 2015 para el Municipio de Torre&oacute;n</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/blog/menos-tiempo-en-transporte-mayor-calidad-de-vida.html">Menos tiempo en transporte, mayor calidad de vida</a></li>
+</ul>
+<p><b>Sistema Metropolitano de Indicadores</b></p>
+<ul>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Econ&oacute;micas Dedicadas al Comercio en La Laguna</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-la-mineria.html">&Iacute;ndice de Especializaci&oacute;n Local en la Miner&iacute;a en Matamoros</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-indice-de-especializacion-local-en-la-mineria.html">&Iacute;ndice de Especializaci&oacute;n Local en la Miner&iacute;a en Lerdo</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Lerdo</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Lerdo</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Lerdo</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en G&oacute;mez Palacio</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Econ&oacute;micas Dedicadas a la Industria Manufacturera en Lerdo</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Econ&oacute;micas Dedicadas a los Servicios en Lerdo</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Econ&oacute;micas Dedicadas al Comercio en Lerdo</a></li>
+</ul>
+<p><b>Plan Estratégico Torreón</b></p>
+<ul>
+  <li><a href="http://www.trcimplan.gob.mx/pet/vision-desarrollo-economico-innovacion.html">Visi&oacute;n de Desarrollo Econ&oacute;mico e Innovaci&oacute;n 2040</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/pet/cartera-proyectos-desarrollo-economico-innovacion.html">Cartera de Proyectos: Desarrollo Econ&oacute;mico e Innovaci&oacute;n</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/pet/diagnostico-estrategico-desarrollo-economico-innovacion.html">Diagn&oacute;stico Estrat&eacute;gico: Desarrollo Econ&oacute;mico e Innovaci&oacute;n</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/proyectos/salud-laguna.html">Salud Laguna</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/pet/cartera-proyectos-medio-ambiente-sustentabilidad.html">Cartera de Proyectos: Medio Ambiente y Sustentabilidad</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/pet/diagnostico-estrategico-buen-gobierno.html">Diagn&oacute;stico Estrat&eacute;gico: Buen Gobierno</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/pet/diagnostico-estrategico-desarrollo-social.html">Diagn&oacute;stico Estrat&eacute;gico: Desarrollo Social</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/pet/diagnostico-estrategico-entorno-urbano.html">Diagn&oacute;stico Estrat&eacute;gico: Entorno Urbano</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/pet/cartera-proyectos-movilidad-transporte.html">Cartera de Proyectos: Movilidad y Transporte</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/pet/diagnostico-estrategico-medio-ambiente-sustentabilidad.html">Diagn&oacute;stico Estrat&eacute;gico: Medio Ambiente y Sustentabilidad</a></li>
+</ul>
+<p><b>Sala de Prensa</b></p>
+<ul>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2017-06-17-comunicado-prensa.html">Comunicado de Prensa - Respuesta del IMPLAN al CLIP</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2016-09-07-indice-de-competitividad-urbana.html">&Iacute;ndice de Competitividad Urbana 2016</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2017-08-31-implan-firma-convenio-con-el-cluster-automotriz.html">IMPLAN firma convenio con el Cl&uacute;ster Automotriz</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2017-09-11-resaltan-la-importancia-del-espacio-publico.html">Resaltan la importancia del espacio p&uacute;blico</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2017-05-04-sostienen-reunion-de-trabajo-implan-y-consejo-civico-de-las-instituciones.html">Sostienen reuni&oacute;n de trabajo IMPLAN y Consejo C&iacute;vico de las Instituciones</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion.html">IMPLAN busca hacer de La Laguna &ldquo;Capital de la Rob&oacute;tica&rdquo;</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2017-10-14-tec-de-monterrey-y2040.html">El IMPLAN y el Tec de Monterrey presentaron el Encuentro LagunaY2040</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2017-07-28-onu-habitat-e-implan-presentan-el-indice-basico-de-ciudades-prosperas.html">ONU H&aacute;bitat e IMPLAN presentan el &Iacute;ndice B&aacute;sico de Ciudades Pr&oacute;speras</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2017-12-11-sesion-ordinaria.html">El IMPLAN presenta ante su consejo el Informe 2014-2017</a></li>
+  <li><a href="http://www.trcimplan.gob.mx/sala-prensa/2017-04-28-sesion-ordinaria.html">IMPLAN y Medio Ambiente presentan el an&aacute;lisis Calidad del Aire</a></li>
+</ul>
+  <!-- Extra: Termina -->
+  </aside>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fbalance-economico-2017.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
