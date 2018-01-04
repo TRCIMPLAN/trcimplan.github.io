@@ -187,7 +187,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -454,13 +454,31 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-08-31</td>
+        <td class="derecha">3</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-09-30</td>
+        <td class="derecha">5</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">1</td>
+        <td>Ayuntamiento de Torreón</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Robo a Transeuntes en Matamoros </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Robo a Transeuntes en Matamoros con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
 
-    <div id="SmiGraficasRoboATranseuntesEnMatamoros" class="grafica"></div>
+    <div id="SmiGraficasRoboATranseuntesEnMatamorosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Robo a Transeuntes en Matamoros</h3>
@@ -478,36 +496,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2017-07-31</td>
-        <td class="derecha">42</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">58</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2017-07-31</td>
-        <td class="derecha">15</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">14</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2017-07-31</td>
-        <td class="derecha">3</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">6</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2017-07-31</td>
-        <td class="derecha">7</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">1</td>
+        <td>Ayuntamiento de Torreón</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2017-07-31</td>
-        <td class="derecha">67</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">79</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
@@ -622,11 +640,11 @@
     });
     varSmiDatosRoboATranseuntesEnMatamoros = 1;
   }
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasRoboATranseuntesEnMatamoros === 'undefined') {
-    varSmiGraficasRoboATranseuntesEnMatamoros = Morris.Line({
-      element: 'SmiGraficasRoboATranseuntesEnMatamoros',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasRoboATranseuntesEnMatamorosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
+    varSmiGraficasRoboATranseuntesEnMatamorosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
+      element: 'SmiGraficasRoboATranseuntesEnMatamorosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
       data: [
         { fecha: '2014-01-31', dato: 7 },
         { fecha: '2014-02-28', dato: 5 },
@@ -669,7 +687,9 @@
         { fecha: '2017-04-30', dato: 4 },
         { fecha: '2017-05-31', dato: 3 },
         { fecha: '2017-06-30', dato: 4 },
-        { fecha: '2017-07-31', dato: 7 }],
+        { fecha: '2017-07-31', dato: 7 },
+        { fecha: '2017-08-31', dato: 3 },
+        { fecha: '2017-09-30', dato: 5 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -684,7 +704,7 @@
   if (typeof varSmiOtrasRegionesRoboATranseuntesEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesRoboATranseuntesEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesRoboATranseuntesEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 42 },{ region: 'Gómez Palacio', dato: 15 },{ region: 'Lerdo', dato: 3 },{ region: 'Matamoros', dato: 7 },{ region: 'La Laguna', dato: 67 }],
+      data: [{ region: 'Torreón', dato: 58 },{ region: 'Gómez Palacio', dato: 14 },{ region: 'Lerdo', dato: 6 },{ region: 'Matamoros', dato: 1 },{ region: 'La Laguna', dato: 79 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

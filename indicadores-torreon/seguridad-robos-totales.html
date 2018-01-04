@@ -187,7 +187,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -460,13 +460,31 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-08-31</td>
+        <td class="derecha">352</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-09-30</td>
+        <td class="derecha">287</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">264</td>
+        <td>Ayuntamiento de Torreón</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Robos Totales en Torreón </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Robos Totales en Torreón con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
 
-    <div id="SmiGraficasRobosTotalesEnTorreon" class="grafica"></div>
+    <div id="SmiGraficasRobosTotalesEnTorreonSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Robos Totales en Torreón</h3>
@@ -484,36 +502,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2017-07-31</td>
-        <td>274</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">264</td>
+        <td>Ayuntamiento de Torreón</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2017-07-31</td>
-        <td>151</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">148</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2017-07-31</td>
-        <td>47</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">56</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2017-07-31</td>
-        <td>ND</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">22</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2017-07-31</td>
-        <td>472</td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">490</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
@@ -639,11 +657,11 @@
     });
     varSmiDatosRobosTotalesEnTorreon = 1;
   }
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasRobosTotalesEnTorreon === 'undefined') {
-    varSmiGraficasRobosTotalesEnTorreon = Morris.Line({
-      element: 'SmiGraficasRobosTotalesEnTorreon',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasRobosTotalesEnTorreonSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
+    varSmiGraficasRobosTotalesEnTorreonSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
+      element: 'SmiGraficasRobosTotalesEnTorreonSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
       data: [
         { fecha: '2014-01-31', dato: 552 },
         { fecha: '2014-02-28', dato: 485 },
@@ -687,7 +705,9 @@
         { fecha: '2017-04-30', dato: 251 },
         { fecha: '2017-05-31', dato: 233 },
         { fecha: '2017-06-30', dato: 399 },
-        { fecha: '2017-07-31', dato: 274 }],
+        { fecha: '2017-07-31', dato: 274 },
+        { fecha: '2017-08-31', dato: 352 },
+        { fecha: '2017-09-30', dato: 287 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -702,7 +722,7 @@
   if (typeof varSmiOtrasRegionesRobosTotalesEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesRobosTotalesEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesRobosTotalesEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 274 },{ region: 'Gómez Palacio', dato: 151 },{ region: 'Lerdo', dato: 47 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 472 }],
+      data: [{ region: 'Torreón', dato: 264 },{ region: 'Gómez Palacio', dato: 148 },{ region: 'Lerdo', dato: 56 },{ region: 'Matamoros', dato: 22 },{ region: 'La Laguna', dato: 490 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

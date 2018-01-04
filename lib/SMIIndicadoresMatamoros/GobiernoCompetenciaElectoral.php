@@ -68,16 +68,11 @@ class GobiernoCompetenciaElectoral extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2008-12-31', 'valor' => '42.9200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2008-12-31', 'valor' => '42.9200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '42.9200', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2009-12-31', 'valor' => '42.9200', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '42.9200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '42.9200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '0.7000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0.7000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '0.7000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '0.7000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2013-07-07', 'valor' => '39.6700', 'fuente_nombre' => 'INE-IEPCC')); // formateado 0, valor 22, crudo 11
+            array('fecha' => '2013-07-07', 'valor' => '39.6700', 'fuente_nombre' => 'INE-IEPCC')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
