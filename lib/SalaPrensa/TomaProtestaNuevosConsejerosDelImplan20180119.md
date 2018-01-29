@@ -7,7 +7,7 @@ El edil recordó que desde su campaña, fue enfático en resaltar las cosas posi
 
 Afirmó que es necesario trabajar por la dignidad de todos los ciudadanos y para ello es necesario que las labores que se ejerzan desde cada trinchera, se realicen bajo un esquema que favorezca a todos los sectores de la población.
 
-*“Si hacemos las cosas con responsabilidad le va bien a Torreón y eso es lo que todos queremos”.*
+> “Si hacemos las cosas con responsabilidad le va bien a Torreón y eso es lo que todos queremos”.
 
 La libertad de opinión de los integrantes del Consejo, dijo, será totalmente aceptable y abierta. **“Somos un gobierno abierto al diálogo y a las opiniones”**.
 

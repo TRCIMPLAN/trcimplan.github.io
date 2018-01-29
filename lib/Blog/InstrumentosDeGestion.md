@@ -1,12 +1,12 @@
 
-
 Los **instrumentos de gestión** son documentos jurídico-administrativos de carácter técnico que establecen las bases para el adecuado funcionamiento del aparato gubernamental. Constituyen el *quid* de la función pública, ya que determinan la ruta de operación de cada unidad administrativa que atiende necesidades, ya sea a través de la gestión de trámites o de la prestación de servicios.
 
 En los municipios, los principales instrumentos de gestión, tienen una vocación urbana, aunque una naturaleza transversal. El **Ordenamiento Ecológico del Territorio, el Ordenamiento Urbano del Territorio, el Atlas de Riesgos y el Plan Director de Desarrollo Urbano**, constituyen pilares fundamentales para la adecuada gestión de un Gobierno Local. Lo anterior no deriva solo de la doctrina, sino de obligaciones legales establecidas en las respectivas leyes sectoriales que, apoyadas en el Pacto Federal, les otorgan un papel fundamental en la congruencia administrativa de coordinación de los tres niveles de gobierno.
 
 A nivel local, los instrumentos de gestión revisten una importancia trascendental para el funcionamiento de la administración pública, por ser los gobiernos de las ciudades el primer momento de contacto de la administración pública con la ciudadanía. De tal suerte que los principios básicos de la función pública, como lo son la eficiencia y la eficacia, dependen directamente de que el gobierno local cuenta con instrumentos sólidos, actualizados y que respondan a la realidad de la sociedad que se gobierna. Asimismo, principios fundamentales, como la certeza jurídica y la seguridad jurídica para los gobernados, se pueden fácilmente materializar si se tiene un referente para la actuación del aparato gubernamental, como lo los instrumentos de gestión.
 
-<img class="img-responsive" src="instrumentos-de-gestion/Planes.jpg" alt="Instrumentos de Gestión">
+<img class="img-responsive" src="instrumentos-de-gestion/planes.jpg" alt="Instrumentos de Gestión">
+
 [Conocer sobre los Instrumentos de Gestión](http:\\www.trcimplan.gob.mx/sig-planes/index.html)
 
 No obstante lo anterior, sería insuficiente contar con excelentes instrumentos de gestión si, por un lado, los funcionarios públicos no se encuentran familiarizados con la ejecución de aquéllos y, por otro lado, la ciudadanía desconoce tales instrumentos. Esto encuentra solución a través de los procesos de socialización de instrumentos de gestión que, lamentablemente, pocas administraciones en nuestro país consideran como necesarios y, por tanto, carecen de la correspondiente asignación de recursos para su ejecución.
@@ -19,5 +19,6 @@ Resulta de la mayor importancia tener en cuenta que estos instrumentos deben con
 
 Así las cosas, **los gobiernos locales tienen dos retos en puerta** que precisan de urgente, puntual y responsable atención: **La generación de los instrumentos de gestión básicos para la administración pública municipal y la socialización** -tanto al interior como al exterior del gobierno- de dichos instrumentos para lograr su plena efectividad. Por su parte, **la Ciudadanía tiene también dos importantes retos: Familiarizarse con los instrumentos de gestión y exigir su observancia y cumplimiento**, en la convicción de que haciendo lo propio, nuestra Ciudad -nuestra casa común- nos brindará como resultado un mejor entorno para todas y para todos.
 
-###Zonificación Primaria
-<img class="img-responsive" src="instrumentos-de-gestion/ZONIFICACION_PRIMARIA.JPG" alt="Zonificación Primaria">
+### Zonificación Primaria
+
+<img class="img-responsive" src="instrumentos-de-gestion/zonificacion-primaria.jpg" alt="Zonificación Primaria">
