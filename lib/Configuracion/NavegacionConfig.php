@@ -62,9 +62,10 @@ class NavegacionConfig {
             'Institucional > Quienes Somos'                           => 'autores/index.html',
             'Institucional > Estructura Orgánica'                     => 'institucional/estructura-organica.html',
             'Institucional > Modelo Operativo Univ.'                  => 'institucional/modelo-operativo-universal.html',
-            'Institucional > Reglamentos'                             => 'institucional/reglamentos.html',
-            'Institucional > Transparencia'                           => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),
+            'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
+            //~'Institucional > Transparencia'                           => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
+        'Transparencia'                                               => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
         'Términos de Uso' => array(
             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
@@ -108,8 +109,9 @@ class NavegacionConfig {
             'Modelo Operativo Univ.'       => 'fa fa-slideshare',
             'Reglamentos'                  => 'fa fa-gavel',
             'Información Financiera'       => 'fa fa-check',
-            'Transparencia'                => 'fa fa-external-link',
+            //,'Transparencia'                => 'fa fa-external-link'
         'Consejo Directivo'                => 'fa fa-users',
+        'Transparencia'                    => 'fa fa-external-link',
         'Sala de Prensa'                   => 'fa fa-newspaper-o',
         'Términos de Uso'                  => 'fa fa-share-alt',
             'De la información'            => 'fa fa-cubes',
