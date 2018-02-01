@@ -2,11 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-<<<<<<< HEAD
-    <lastmod>2018-01-29</lastmod>
-=======
-    <lastmod>2018-01-25</lastmod>
->>>>>>> ae7d08db54168229143f1815caa5b49550babf9a
+    <lastmod>2018-02-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1112,6 +1108,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/torreon-y-su-riqueza-industrial.html</loc>
     <lastmod>2016-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/torreon-y-sus-indicadores-ambientales.html</loc>
+    <lastmod>2018-01-30</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
