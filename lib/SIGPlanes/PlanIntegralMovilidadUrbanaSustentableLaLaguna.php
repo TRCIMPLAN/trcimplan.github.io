@@ -47,7 +47,7 @@ class PlanIntegralMovilidadUrbanaSustentableLaLaguna extends \Base\Publicacion {
         $this->imagen                    = 'estudio-plan-integral-movilidad-urbana-sustentable-laguna/imagen.png';
         $this->imagen_previa             = 'estudio-plan-integral-movilidad-urbana-sustentable-laguna/imagen-previa.png';
         // URL de destino
-        $this->url                       = 'http://www.torreon.gob.mx/pdf/PIMUS_LAGUNA.pdf';
+        $this->url                       = 'http://www.trcimplan.gob.mx/sig-planes/PIMUS_LAGUNA.pdf';
         $this->url_etiqueta              = 'Descargar PDF 33.7 MB';
     } // constructor
 
