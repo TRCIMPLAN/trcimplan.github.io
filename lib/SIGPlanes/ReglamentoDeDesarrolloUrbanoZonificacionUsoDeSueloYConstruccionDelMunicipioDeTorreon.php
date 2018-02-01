@@ -37,7 +37,7 @@ class ReglamentoDeDesarrolloUrbanoZonificacionUsoDeSueloYConstruccionDelMunicipi
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Tiene por objeto aplicar el ordenamiento urbano previsto por el Plan Director de Desarrollo Urbano, estableciendo las atribuciones, procedimientos, sanciones y normas técnicas para regular el desarrollo urbano, zonificación, usos de suelo y construcción de edificaciones.';
+        $this->descripcion               = 'Tiene por objeto aplicar el ordenamiento urbano previsto por el Plan Director de Desarrollo Urbano, estableciendo las atribuciones, procedimientos, sanciones y normas técnicas para regular el desarrollo urbano, zonificación, usos de suelo y construcción de edificaciones. - PDF 8.2 MB';
         $this->claves                    = 'IMPLAN, Torreón, Reglamento, Desarrollo, Urbano, Usos de suelo';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Infraestructura');

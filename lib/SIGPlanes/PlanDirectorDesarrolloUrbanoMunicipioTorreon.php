@@ -37,7 +37,7 @@ class PlanDirectorDesarrolloUrbanoMunicipioTorreon extends \Base\Publicacion {
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Establecer una metrópoli articulada y coherente con equipamiento e infraestructura para la regeneración urbana.';
+        $this->descripcion               = 'Establecer una metrópoli articulada y coherente con equipamiento e infraestructura para la regeneración urbana. - PDF 4.1 MB.';
         $this->claves                    = 'IMPLAN, Torreon, Plan, Director, Desarrollo, Urbano, Municipio';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Infraestructura');
