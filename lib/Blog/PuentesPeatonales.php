@@ -40,7 +40,7 @@ class PuentesPeatonales extends \Base\PublicacionSchemaBlogPosting {
         // El nombre del archivo a crear
         $this->archivo                    = 'puentes-peatonales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'El Padrón de puentes peatonales de la ciudad de Torreón registra un total de 47 puentes, de los cuales el 85% se encuentran sobre vialidades primarias, destacando el eje que une Blvd. Revolución y Blvd. Torreón-Matamoros con 15 puentes.';
+        $this->descripcion                = 'En Torreón existe un total de 47 puentes peatonales, de los cuales el 85% se encuentran sobre vialidades primarias, destacando el eje que une bulevar Revolución y bulevar Torreón-Matamoros con 15 puentes. En contraste, es uno de los cruces con más atropellamientos.';
         $this->claves                     = 'IMPLAN, Torreon';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/PuentesPeatonales.md';
