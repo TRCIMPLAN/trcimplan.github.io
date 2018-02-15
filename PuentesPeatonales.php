@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Alumnos por docente, indicador clave para la mejora de la educación (primera parte)
+ * TrcIMPLAN Sitio Web - PuentesPeatonales
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace Blog;
 
 /**
- * Clase AlumnosPorDocenteParte1
+ * Clase PuentesPeatonales
  */
-class AlumnosPorDocenteParte1 extends \Base\PublicacionSchemaBlogPosting {
+class PuentesPeatonales extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -34,22 +34,22 @@ class AlumnosPorDocenteParte1 extends \Base\PublicacionSchemaBlogPosting {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Alumnos por docente, indicador clave para la mejora de la educación (parte 1)';
+        $this->nombre                     = 'La funcionalidad de los puentes peatonales';
         $this->autor                      = 'Arq. Ihanelly Hernández Villa';
-        $this->fecha                      = '2015-06-16T15:00';
+        $this->fecha                      = '2018-02-14T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = 'alumnos-por-docente-parte-1';
+        $this->archivo                    = 'puentes-peatonales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.';
-        $this->claves                     = 'IMPLAN, Torreon, Alumnos, Docente, Educacion';
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/AlumnosPorDocenteParte1.md';
+        $this->descripcion                = 'El Padrón de puentes peatonales de la ciudad de Torreón registra un total de 47 puentes, de los cuales el 85% se encuentran sobre vialidades primarias, destacando el eje que une Blvd. Revolución y Blvd. Torreón-Matamoros con 15 puentes.';
+        $this->claves                     = 'IMPLAN, Torreon';
+        // Ruta al archivo markdown con el contenido
+        $this->contenido_archivo_markdown = 'lib/Blog/PuentesPeatonales.md';
         // Para el Organizador
-        $this->categorias                 = array('Competitividad', 'Educación');
-        $this->fuentes                    = array('Banco Mundial', 'SEP', 'IMCO', 'INEGI');
-        $this->regiones                   = array('Torreón', 'Coahuila', 'Nacional');
+        $this->categorias                 = array('Competitividad','Infraestructura', 'Vialidad');
+        $this->fuentes                    = array('IMPLAN');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
-} // Clase AlumnosPorDocenteParte1
+} // Clase PuentesPeatonales
 
 ?>

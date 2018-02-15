@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-02-13</lastmod>
+    <lastmod>2018-02-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -913,6 +913,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/prueba-planea-2017.html</loc>
     <lastmod>2018-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/puentes-peatonales.html</loc>
+    <lastmod>2018-02-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
