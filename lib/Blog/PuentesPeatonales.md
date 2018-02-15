@@ -21,6 +21,8 @@ Una segunda opción serían los cruces seguros, estos cruces cuentan con semáfo
 
 Estas estrategias se implementan en el modelo de Calles Completas propuesto por SEDATU. Con las que se busca que un mayor número de personas camine, use bicicleta y transporte público, mientras se reduce los flujos y velocidades de los vehículos particulares. Donde el diseño de los cruces peatonales seguros respeten las líneas de deseo peatonal.
 
+<img class="img-responsive" src="puentes-peatonales/puente-peatonal2.png" alt="Diagnóstico de Puentes Peatonales">
+
 <img class="img-responsive" src="puentes-peatonales/puente-peatonal.jpg" alt="Puente peatonal">
 
 
@@ -30,4 +32,4 @@ Hidalgo – Solórzano, E. y col (2010). Motivos de uso y no uso de puentes peat
 
 Reséndiz, H. (2011). Georreferenciación de puentes peatonales en ciudad de México y su relación con peatones atropellados. Febrero 5, 2018, de Universidad Nacional Autónoma de México.
 
-[Instituto de Políticas para el Transporte y el Desarrollo en México (2015). Cruces a nivel vs puentes peatonales.  Febrero 5, 2018, de ITDP sitio web:] (http://mexico.itdp.org/?s=puentes+peatonales&category_name=)
+[Instituto de Políticas para el Transporte y el Desarrollo en México (2015). Cruces a nivel vs puentes peatonales.  Febrero 5, 2018, de ITDP sitio web:](http://mexico.itdp.org/?s=puentes+peatonales&category_name=)
