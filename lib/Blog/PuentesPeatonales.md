@@ -23,7 +23,6 @@ Estas estrategias se implementan en el modelo de Calles Completas propuesto por 
 
 <img class="img-responsive" src="puentes-peatonales/puente-peatonal2.png" alt="Diagnóstico de Puentes Peatonales">
 
-<img class="img-responsive" src="puentes-peatonales/puente-peatonal.jpg" alt="Puente peatonal">
 
 
 ###Fuentes:
