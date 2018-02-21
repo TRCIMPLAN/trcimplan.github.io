@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-02-19</lastmod>
+    <lastmod>2018-02-21</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -643,6 +643,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/los-beneficios-en-el-uso-de-la-infraestructura-verde-en-torreon.html</loc>
     <lastmod>2016-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/los-centros-historicos-de-la-zona-metropolitana.html</loc>
+    <lastmod>2018-02-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
