@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-02-21</lastmod>
+    <lastmod>2018-03-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1118,6 +1118,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/torreon-y-la-laguna-necesitan-una-vision-cero.html</loc>
     <lastmod>2017-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/torreon-y-su-infraestructura-ciclista.html</loc>
+    <lastmod>2018-03-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
