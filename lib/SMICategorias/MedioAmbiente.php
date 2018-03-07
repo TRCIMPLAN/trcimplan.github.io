@@ -34,17 +34,17 @@ class MedioAmbiente extends \Base\Publicacion {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre        = 'Medio Ambiente';
+        $this->nombre        = 'Medio ambiente';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo       = 'medio-ambiente';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Medio Ambiente. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
-        $this->claves        = 'IMPLAN, Indicadores, Categoría, Medio Ambiente';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Medio ambiente. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
+        $this->claves        = 'IMPLAN, Indicadores, Categoría, Medio ambiente';
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
-        $this->imagen        = '../imagenes/categorias/medio-ambiente.jpg';
-        $this->imagen_previa = '../imagenes/categorias/medio-ambiente.jpg';
-        $this->imagen_id     = 'categorias-medio-ambiente';
+        $this->imagen        = '../imagenes/categorias/por-defecto.jpg';
+        $this->imagen_previa = '../imagenes/categorias/por-defecto.jpg';
+        $this->imagen_id     = 'categorias-por-defecto';
         // Para el Organizador
         $this->categorias    = array();
         $this->fuentes       = array();
@@ -84,26 +84,8 @@ class MedioAmbiente extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Aprovechamiento del Biogás en Rellenos Sanitarios</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2012, IMCO">0</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Capacidad de Tratamiento de Agua en Operación</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 31/12/2012, IMCO">1.2</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 31/12/2012, IMCO">0.5</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 31/12/2012, IMCO">0.1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 31/12/2012, IMCO">0.0</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 31/12/2012, IMCO">1.9</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Concentración de Partículas menores a 10 micras</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras.html" data-toggle="tooltip" title="ug por m3, 21/12/2016, HECAT">126</a></td>
+    <td class="indicador color5">Árboles plantados por año</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-arboles-plantados-por-ano.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2015, DGMA">2,453.5985</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -111,8 +93,8 @@ class MedioAmbiente extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Concentración de Partículas Suspendidas Totales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-concentracion-de-particulas-suspendidas-totales.html" data-toggle="tooltip" title="ug por m3, 21/12/2016, Esc. Secundaria Técnica No. 83">371</a></td>
+    <td class="indicador color5">Cumplimiento con depósitos de basura</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-con-depositos-de-basura.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -120,194 +102,205 @@ class MedioAmbiente extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Disposición Adecuada de Residuos Sólidos</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">94.7 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Empresas Certificadas como Limpias</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-empresas-certificadas-como-limpias.html" data-toggle="tooltip" title="Por cada mil, 31/12/2012, IMCO">1.2</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-empresas-certificadas-como-limpias.html" data-toggle="tooltip" title="Por cada mil, 31/12/2012, IMCO">3.8</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-empresas-certificadas-como-limpias.html" data-toggle="tooltip" title="Por cada mil, 31/12/2012, IMCO">1.4</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-empresas-certificadas-como-limpias.html" data-toggle="tooltip" title="Por cada mil, 31/12/2012, IMCO">0.0</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-empresas-certificadas-como-limpias.html" data-toggle="tooltip" title="Por cada mil, 31/12/2012, IMCO">1.8</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Generación de Basura</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 31/12/2015, Dirección General de Servicios Públicos Municipales">7.70</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 31/12/2010, INEGI">8.70</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 31/12/2010, INEGI">7.80</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 31/12/2010, INEGI">2.80</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 31/12/2010, INEGI">8.03</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Índice de Gestión de Calidad del Aire</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Motorización</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2015, INEGI">211</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2015, INEGI">405</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2015, INEGI">304</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2015, INEGI">170</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2015, INEGI">271</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Peatones</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-peatones.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">12.06 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-peatones.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">16.89 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-peatones.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">21.32 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-peatones.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">23.45 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-peatones.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">16.44 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Sistema de Transporte Masivo</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Sobreexplotación del Acuífero</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">28.4 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">82.1 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Traslados a Pie</td>
+    <td class="indicador color5">Cumplimiento con financiamiento de gestión de residuos</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-con-financiamiento-de-gestion-de-residuos.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-traslados-a-pie.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">19 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Uso de Automóvil Particular</td>
+    <td class="indicador color5">Cumplimiento con mecanismos de sanción en materia de residuos</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-con-mecanismos-de-sancion-en-materia-de-residuos.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">49 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Uso de Bicicleta</td>
+    <td class="indicador color5">Cumplimiento con programas de cuidado de flora y fauna</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-con-programas-de-cuidado-de-flora-y-fauna.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-bicicleta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">2 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Uso de Transporte Público</td>
+    <td class="indicador color5">Cumplimiento con programas de limpieza</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-con-programas-de-limpieza.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">30 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Usuarios de Automóviles</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-usuarios-de-automoviles.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">34.87 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-automoviles.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">26.39 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-usuarios-de-automoviles.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">25.61 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-usuarios-de-automoviles.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">19.06 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-usuarios-de-automoviles.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">29.03 %</a></td>
+    <td class="indicador color5">Cumplimiento con promoción a la reforestación</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-con-promocion-a-la-reforestacion.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Usuarios de Bicicleta</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-usuarios-de-bicicleta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">5.80 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-bicicleta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">10.57 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-usuarios-de-bicicleta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">9.23 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-usuarios-de-bicicleta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">9.84 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-usuarios-de-bicicleta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">8.03 %</a></td>
+    <td class="indicador color5">Cumplimiento de capacitación en protección de recursos naturales</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-de-capacitacion-en-proteccion-de-recursos-naturales.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Usuarios de Modos No Motorizados</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-usuarios-de-modos-no-motorizados.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">17.86 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-modos-no-motorizados.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">27.46 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-usuarios-de-modos-no-motorizados.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">30.55 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-usuarios-de-modos-no-motorizados.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">33.29 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-usuarios-de-modos-no-motorizados.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">24.47 %</a></td>
+    <td class="indicador color5">Cumplimiento de legislación en residuos</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-de-legislacion-en-residuos.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Usuarios de Transporte Colectivo Privado</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-usuarios-de-transporte-colectivo-privado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">6.21 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-transporte-colectivo-privado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">7.76 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-usuarios-de-transporte-colectivo-privado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">7.07 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-usuarios-de-transporte-colectivo-privado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">12.64 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-colectivo-privado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">7.68 %</a></td>
+    <td class="indicador color5">Cumplimiento de Normatividad en Recursos Naturales</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-de-normatividad-en-recursos-naturales.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Usuarios de Transporte Público</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">36.68 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">34.99 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">33.52 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">31.08 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">34.91 %</a></td>
+    <td class="indicador color5">Cumplimiento de Reglamentos de Recursos Naturales</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-de-reglamentos-de-recursos-naturales.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Cumplimiento de reglamentos de residuos</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-cumplimiento-de-reglamentos-de-residuos.html" data-toggle="tooltip" title="1)SI TIENE, 0)NO TIENE, 31/12/2016, DGMA">1</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Hectáreas de zonas verdes</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-hectareas-de-zonas-verdes.html" data-toggle="tooltip" title="Hectáreas por cada 100,000 habitantes, 31/12/2017, DGMA">82.3</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Número de vehículos motorizados de dos ruedas per cápita</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-numero-de-vehiculos-motorizados-de-dos-ruedas-per-capita.html" data-toggle="tooltip" title="Por habitante, 31/12/2015, DGVyMU">0.001</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Población con servicio regular de recogida de residuos.</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-poblacion-con-servicio-regular-de-recogida-de-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, Dirección General de Servicios Públicos Municipales">100 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Porcentaje de cambio en el número de especies autóctonas</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-porcentaje-de-cambio-en-el-numero-de-especies-autoctonas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, DGMA">2.7778 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Proporción de viviendas con recolección de basura</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">98.86 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI. Censos de Población y Vivienda">87.55 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI. Censos de Población y Vivienda">90.55 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI. Censos de Población y Vivienda">74.67 %</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Regalo o venta de residuos reutilizables.</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">63.00 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">67.30 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">59.13 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">66.08 %</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Residuos peligrosos generados</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-residuos-peligrosos-generados.html" data-toggle="tooltip" title="Toneladas Pér Cápita, 31/12/2015, Dirección General de Servicios Públicos Municipales">0.02</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Residuos sólidos eliminados en vertederos</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-residuos-solidos-eliminados-en-vertederos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, Dirección General de Servicios Públicos Municipales">98.6425 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Residuos sólidos reciclados</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-residuos-solidos-reciclados.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, Dirección General de Servicios Públicos Municipales">1.3575 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Residuos sólidos recogidos per capita</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-residuos-solidos-recogidos-per-capita.html" data-toggle="tooltip" title="Toneladas Pér Cápita, 31/12/2015, Dirección General de Servicios Públicos Municipales">0.3588</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Separación básica de residuos</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-separacion-basica-de-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">43 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Viviendas que queman o entierran la basura</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html" data-toggle="tooltip" title="Porcentaje, 31/01/2018, INEGI">1.13 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">11.91 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">13.21 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">24.36 %</a></td>
+    <td class="nd">ND</td>
   </tr>
 </tbody>
 </table>
-<h3>Otras regiones</h3>
-<table class="table table-hover table-bordered matriz">
-<thead>
-  <tr>
-    <th>Subíndice</th>
-    <th>Indicador</th>
-    <th>Coahuila</th>
-    <th>Durango</th>
-    <th>Nacional</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Capacidad de Tratamiento de Agua en Operación</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-coahuila/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 31/12/2010, IMCO-CONAGUA">1.39</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-durango/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 31/12/2010, IMCO-CONAGUA">1.60</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Generación de Basura</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-coahuila/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 31/12/2010, INEGI">8.8</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-durango/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 31/12/2010, INEGI">6.1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-nacional/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 31/12/2010, INEGI">7.6</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Motorización</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-coahuila/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2015, INEGI">257</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-durango/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2015, INEGI">325</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-nacional/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2015, INEGI">245</a></td>
-  </tr>
-</tbody>
-</table>
+
 FINAL;
         // Entregar
         return parent::html();

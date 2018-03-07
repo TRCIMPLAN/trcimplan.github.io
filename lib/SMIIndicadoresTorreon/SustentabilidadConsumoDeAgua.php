@@ -39,10 +39,10 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-consumo-de-agua';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.';
-        $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Recursos Naturales';
+        $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad de metros cúbicos consumida en la ciudad.';
+        $this->claves      = 'IMPLAN, Torreón, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Recursos Naturales');
+        $this->categorias  = array('Medio Ambiente', 'Recursos Naturales');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
@@ -67,11 +67,13 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '134.1000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '132.6000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '130.7000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '128.8000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '127.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2008-12-31', 'valor' => '84315553.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '84615553.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '85129303.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '85129303.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '85129303.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '85629303.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '85629303.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -95,11 +97,10 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '127.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '84.8000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '94.1000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '109.6000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '110.2000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '85629303.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '29086844.5000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '13893421.8500', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '12084256.5000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
@@ -118,7 +119,7 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Unidades: Metros cúbicos por persona. Fuente: CONAGUA, 2008-2009.
+Fuente: IMCO, basado en CONAGUA. [Consulta] ("http://imco.org.mx/indices/#!/#indicesreeleccion-municipal-y-rendicion-de-cuentas%2F")
 OBSERVACIONES_FINAL;
     } // observaciones
 

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-03-05</lastmod>
+    <lastmod>2018-03-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3341,6 +3341,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-negocios.html</loc>
+    <lastmod>2018-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/pet/indice.html</loc>
     <lastmod>2016-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -4501,6 +4506,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-categorias/transporte.html</loc>
+    <lastmod>2015-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-categorias/vialidad.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -4868,6 +4878,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-sitios-unesco.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-supervivencia-de-los-negocios.html</loc>
+    <lastmod>2018-02-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5386,6 +5401,46 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nivel-cuatro-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nivel-dos-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nivel-tres-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nivel-uno-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-ocupacion-por-vivienda.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -5396,13 +5451,58 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-catolica.html</loc>
+    <lastmod>2015-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-al-menos-una-carencia-social.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-carencia-a-la-seguridad-social.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-carencia-alimentaria.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-carencia-de-servicios-basicos.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-carencia-de-vivienda.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-carencia-educativa.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-catolica.html</loc>
-    <lastmod>2015-03-26</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5418,6 +5518,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-estimada.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-no-pobre-y-no-vulnerable.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-vulnerable-por-carencias-sociales.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-vulnerable-por-ingresos.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5438,6 +5553,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5556,6 +5676,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-acciones-de-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-actualizacion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-aerolineas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -5571,8 +5701,33 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-aprovechamiento-o-quema-de-biogas-en-rellenos-sanitarios.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-arboles-plantados-por-ano.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-area-no-urbanizada.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-calidad-del-agua-superficial-demanda-bioquimica-de-oxigeno.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-calidad-del-agua-superficial-demanda-quimica-de-oxigeno.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-calidad-del-agua-superficial-solidos-suspendidos-totales.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5581,8 +5736,33 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-dioxido-de-azufre-so2-en-el-aire.html</loc>
+    <lastmod>2018-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-dioxido-de-nitrogeno-no2-en-el-aire.html</loc>
+    <lastmod>2018-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-ozono-o3-en-el-aire.html</loc>
+    <lastmod>2018-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras.html</loc>
     <lastmod>2017-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras-promedio-anual.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-2-5-micras-promedio-anual.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5601,8 +5781,83 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-de-agua-potable.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-total-de-agua-para-uso-domestico-per-capita.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-total-de-agua-per-capita.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-con-depositos-de-basura.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-con-financiamiento-de-gestion-de-residuos.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-con-mecanismos-de-sancion-en-materia-de-residuos.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-con-programas-de-cuidado-de-flora-y-fauna.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-con-programas-de-limpieza.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-con-promocion-a-la-reforestacion.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-de-capacitacion-en-proteccion-de-recursos-naturales.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-de-la-normatividad-de-emisiones-a-la-atmosfera.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-de-legislacion-en-residuos.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-de-normatividad-en-recursos-naturales.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-de-reglamentos-de-recursos-naturales.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-cumplimiento-de-reglamentos-de-residuos.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5626,17 +5881,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-difusion-de-datos-sobre-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-disponibilidad-de-acuiferos.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-disponibilidad-de-banqueta.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-disponibilidad-de-datos-de-monitoreo-verificados-por-el-inecc.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-economia-intensiva-en-energia.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5646,8 +5916,23 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-emisiones-de-gases-de-efecto-invernadero-per-capita.html</loc>
+    <lastmod>2018-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-empresas-certificadas-como-limpias.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-estrategia-de-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5661,8 +5946,28 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-hectareas-de-zonas-verdes.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-inspeccion-y-sancion-sistematica-de-fuentes-de-contaminacion.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-intensidad-energetica-en-la-economia.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-kilometros-de-carril-bici-por-cada-100-000-habitantes.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5673,6 +5978,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-motorizacion.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-numero-anual-de-viajes-en-transporte-publico-per-capita.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-numero-de-automoviles-particulares-per-capita.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-numero-de-vehiculos-motorizados-de-dos-ruedas-per-capita.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5701,6 +6021,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-poblacion-con-servicio-regular-de-recogida-de-residuos.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -5708,6 +6033,66 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-agua-tratada.html</loc>
+    <lastmod>2018-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-aguas-residuales-de-la-ciudad-que-no-ha-recibido-tratamiento.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-aguas-residuales-de-la-ciudad-que-recibe-tratamiento-primario.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-aguas-residuales-de-la-ciudad-que-recibe-tratamiento-secundario.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-aguas-residuales-de-la-ciudad-que-recibe-tratamiento-terciario.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-cambio-en-el-numero-de-especies-autoctonas.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-la-poblacion-de-la-ciudad-con-acceso-sostenible-a-una-fuente-de-agua-potable-mejorada.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-la-poblacion-de-la-ciudad-con-servicio-de-recogida-de-aguas-residuales.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-porcentaje-de-perdida-de-agua.html</loc>
+    <lastmod>2018-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-programa-para-el-cuidado-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html</loc>
+    <lastmod>2018-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-recomendaciones-para-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5736,8 +6121,48 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-reglamentacion-local-para-emisiones-a-la-atmosfera.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-residuos-peligrosos-generados.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-residuos-solidos-eliminados-en-vertederos.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-residuos-solidos-reciclados.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-residuos-solidos-recogidos-per-capita.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-separacion-basica-de-residuos.html</loc>
+    <lastmod>2018-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-sistemas-ligeros-de-transporte-publico-de-pasajeros.html</loc>
+    <lastmod>2018-01-30</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5783,6 +6208,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6053,6 +6483,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-sitios-unesco.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-supervivencia-de-los-negocios.html</loc>
+    <lastmod>2018-02-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6516,6 +6951,46 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-nivel-cuatro-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-nivel-dos-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-nivel-tres-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-nivel-uno-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -6526,13 +7001,58 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-catolica.html</loc>
+    <lastmod>2015-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-al-menos-una-carencia-social.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-carencia-a-la-seguridad-social.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-carencia-alimentaria.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-servicios-basicos.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-vivienda.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-carencia-educativa.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-catolica.html</loc>
-    <lastmod>2015-03-26</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6551,6 +7071,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-no-pobre-y-no-vulnerable.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-vulnerable-por-carencias-sociales.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-poblacion-vulnerable-por-ingresos.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-pobreza.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -6563,6 +7098,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-pobreza-moderada.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6681,6 +7221,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-acciones-de-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-actualizacion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-aerolineas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -6696,6 +7246,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-aprovechamiento-o-quema-de-biogas-en-rellenos-sanitarios.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -6708,6 +7263,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-consumo-de-agua.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-consumo-de-agua-potable.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6731,17 +7291,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-difusion-de-datos-sobre-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-acuiferos.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-banqueta.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-datos-de-monitoreo-verificados-por-el-inecc.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-economia-intensiva-en-energia.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -6756,6 +7331,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-flujo-de-pasajeros-aereos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -6767,6 +7347,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-intensidad-energetica-en-la-economia.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -6796,6 +7381,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html</loc>
+    <lastmod>2018-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-recomendaciones-para-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-red-carretera-avanzada.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -6813,6 +7408,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6863,6 +7463,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7601,6 +8206,46 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-nivel-cuatro-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-nivel-dos-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-nivel-tres-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-nivel-uno-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-ocupacion-por-vivienda.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -7611,13 +8256,58 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-catolica.html</loc>
+    <lastmod>2015-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-al-menos-una-carencia-social.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-carencia-a-la-seguridad-social.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-carencia-alimentaria.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-carencia-de-servicios-basicos.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-carencia-de-vivienda.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-carencia-educativa.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-catolica.html</loc>
-    <lastmod>2015-03-26</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7636,6 +8326,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-no-pobre-y-no-vulnerable.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-vulnerable-por-carencias-sociales.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-poblacion-vulnerable-por-ingresos.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-pobreza.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -7648,6 +8353,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-pobreza-moderada.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7766,6 +8476,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-acciones-de-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-actualizacion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-aerolineas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -7778,6 +8498,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-aprovechamiento-o-quema-de-biogas-en-rellenos-sanitarios.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7796,6 +8521,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-consumo-de-agua-potable.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -7811,17 +8541,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-difusion-de-datos-sobre-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-disponibilidad-de-acuiferos.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-disponibilidad-de-banqueta.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-disponibilidad-de-datos-de-monitoreo-verificados-por-el-inecc.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-economia-intensiva-en-energia.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -7836,6 +8581,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-flujo-de-pasajeros-aereos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -7847,6 +8597,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-intensidad-energetica-en-la-economia.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -7876,6 +8631,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html</loc>
+    <lastmod>2018-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-recomendaciones-para-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-red-carretera-avanzada.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -7893,6 +8658,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-red-carretera-troncal-federal.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7943,6 +8713,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8213,6 +8988,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-sitios-unesco.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-supervivencia-de-los-negocios.html</loc>
+    <lastmod>2018-02-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8656,6 +9436,46 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-nivel-cuatro-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-nivel-dos-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-nivel-tres-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-nivel-uno-de-matematicas-de-planea.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-ocupacion-por-vivienda.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -8666,13 +9486,58 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-catolica.html</loc>
+    <lastmod>2015-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-al-menos-una-carencia-social.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-carencia-a-la-seguridad-social.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-carencia-alimentaria.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-carencia-de-servicios-basicos.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-carencia-de-vivienda.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-carencia-educativa.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-catolica.html</loc>
-    <lastmod>2015-03-26</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8691,6 +9556,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-no-pobre-y-no-vulnerable.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-vulnerable-por-carencias-sociales.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-vulnerable-por-ingresos.html</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-pobreza.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -8703,6 +9583,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-pobreza-moderada.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html</loc>
+    <lastmod>2018-02-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8821,6 +9706,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-acciones-de-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-actualizacion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-aerolineas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -8833,6 +9728,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-aprovechamiento-o-quema-de-biogas-en-rellenos-sanitarios.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8851,6 +9751,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-consumo-de-agua-potable.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -8866,17 +9771,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-difusion-de-datos-sobre-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-disponibilidad-de-acuiferos.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-disponibilidad-de-banqueta.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-disponibilidad-de-datos-de-monitoreo-verificados-por-el-inecc.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-economia-intensiva-en-energia.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -8891,6 +9811,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-flujo-de-pasajeros-aereos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -8902,6 +9827,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-intensidad-energetica-en-la-economia.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -8931,6 +9861,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html</loc>
+    <lastmod>2018-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-recomendaciones-para-la-calidad-del-aire.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-red-carretera-avanzada.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -8948,6 +9888,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-red-carretera-troncal-federal.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8998,6 +9943,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html</loc>
+    <lastmod>2018-01-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9696,13 +10646,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-catolica.html</loc>
+    <lastmod>2015-03-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-catolica.html</loc>
-    <lastmod>2015-03-26</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html</loc>
+    <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9846,13 +10796,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html</loc>
-    <lastmod>2014-10-21</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion-la-laguna.html</loc>
+    <lastmod>2018-02-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-agua.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-agua-la-laguna.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-agua-potable.html</loc>
+    <lastmod>2018-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9876,17 +10831,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-disponibilidad-de-acuiferos.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-disponibilidad-de-banqueta.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -10103,6 +11058,26 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-supervivencia-de-los-negocios.html</loc>
+    <lastmod>2018-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-supervivencia-de-negocios-del-sector-comercio.html</loc>
+    <lastmod>2018-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-supervivencia-de-negocios-del-sector-manufacturero.html</loc>
+    <lastmod>2018-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-supervivencia-de-negocios-del-sector-servicios.html</loc>
+    <lastmod>2018-02-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10353,11 +11328,6 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/sociedad-usuarios-de-internet.html</loc>
     <lastmod>2015-01-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html</loc>
-    <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10698,11 +11668,6 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/sociedad-usuarios-de-internet.html</loc>
     <lastmod>2015-01-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-durango/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html</loc>
-    <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -58,6 +58,7 @@ class CreadorConfig {
             '\\IBCColoniasTorreon\\Imprenta',
             '\\Institucional\\Imprenta',
             '\\Investigaciones\\Imprenta',
+            '\\Monitores\\Imprenta',
             '\\PET\\Imprenta',
             '\\PETDocumento\\Imprenta',
             '\\PlanEstrategicoMetropolitano\\Imprenta',

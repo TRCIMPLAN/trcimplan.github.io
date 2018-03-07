@@ -104,6 +104,7 @@
             <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
           </ul>
         </li>
         <li>
@@ -256,36 +257,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">41.9000 %</td>
-        <td>IMCO</td>
+        <td class="centrado">2017-12-31</td>
+        <td>7339.4086</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">48.7000 %</td>
+        <td>48.7000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">31.9000 %</td>
+        <td>31.9000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">37.3000 %</td>
+        <td>37.3000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">42.0000 %</td>
+        <td>42.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -421,7 +422,7 @@
   if (typeof varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAccesoAInstitucionesDeSaludEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 41.9000 },{ region: 'Gómez Palacio', dato: 48.7000 },{ region: 'Lerdo', dato: 31.9000 },{ region: 'Matamoros', dato: 37.3000 },{ region: 'La Laguna', dato: 42.0000 }],
+      data: [{ region: 'Torreón', dato: 7339.4086 },{ region: 'Gómez Palacio', dato: 48.7000 },{ region: 'Lerdo', dato: 31.9000 },{ region: 'Matamoros', dato: 37.3000 },{ region: 'La Laguna', dato: 42.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

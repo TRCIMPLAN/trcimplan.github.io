@@ -104,6 +104,7 @@
             <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
           </ul>
         </li>
         <li>
@@ -226,29 +227,29 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">2.8400 %</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">2.8000 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">5.3000 %</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">0.8000 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">6.8000 %</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">1.0000 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">3.9000 %</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">3.6000 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
@@ -392,7 +393,7 @@
   if (typeof varSmiOtrasRegionesPobrezaExtremaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPobrezaExtremaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPobrezaExtremaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 2.8400 },{ region: 'Gómez Palacio', dato: 5.3000 },{ region: 'Lerdo', dato: 6.8000 },{ region: 'Matamoros', dato: 3.9000 },{ region: 'La Laguna', dato: 4.0000 },{ region: 'Coahuila', dato: 2.9400 },{ region: 'Durango', dato: 10.1200 },{ region: 'Nacional', dato: 11.2000 }],
+      data: [{ region: 'Torreón', dato: 2.8000 },{ region: 'Gómez Palacio', dato: 0.8000 },{ region: 'Lerdo', dato: 1.0000 },{ region: 'Matamoros', dato: 3.6000 },{ region: 'La Laguna', dato: 4.0000 },{ region: 'Coahuila', dato: 2.9400 },{ region: 'Durango', dato: 10.1200 },{ region: 'Nacional', dato: 11.2000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

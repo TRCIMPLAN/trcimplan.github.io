@@ -104,6 +104,7 @@
             <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
           </ul>
         </li>
         <li>
@@ -187,6 +188,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -207,8 +209,19 @@
         <td>CONEVAL</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">35.2000 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Pobreza Moderada en Lerdo </h3>
+
+    <div id="SmiGraficasPobrezaModeradaEnLerdo" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Pobreza Moderada en Lerdo</h3>
@@ -226,29 +239,29 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">24.0000 %</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">23.4000 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">31.9000 %</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">29.7000 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">41.1000 %</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">35.2000 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">29.8000 %</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">32.1000 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
@@ -376,12 +389,29 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPobrezaModeradaEnLerdo === 'undefined') {
+    varSmiGraficasPobrezaModeradaEnLerdo = Morris.Line({
+      element: 'SmiGraficasPobrezaModeradaEnLerdo',
+      data: [
+        { fecha: '2012-12-31', dato: 41.1000 },
+        { fecha: '2015-12-31', dato: 35.2000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesPobrezaModeradaEnLerdoGrafica === 'undefined') {
     varSmiOtrasRegionesPobrezaModeradaEnLerdoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPobrezaModeradaEnLerdoGrafica',
-      data: [{ region: 'Torreón', dato: 24.0000 },{ region: 'Gómez Palacio', dato: 31.9000 },{ region: 'Lerdo', dato: 41.1000 },{ region: 'Matamoros', dato: 29.8000 },{ region: 'La Laguna', dato: 28.6000 },{ region: 'Coahuila', dato: 24.7600 },{ region: 'Durango', dato: 40.2200 },{ region: 'Nacional', dato: 34.3900 }],
+      data: [{ region: 'Torreón', dato: 23.4000 },{ region: 'Gómez Palacio', dato: 29.7000 },{ region: 'Lerdo', dato: 35.2000 },{ region: 'Matamoros', dato: 32.1000 },{ region: 'La Laguna', dato: 28.6000 },{ region: 'Coahuila', dato: 24.7600 },{ region: 'Durango', dato: 40.2200 },{ region: 'Nacional', dato: 34.3900 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

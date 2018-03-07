@@ -104,6 +104,7 @@
             <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
           </ul>
         </li>
         <li>
@@ -187,9 +188,9 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica4" aria-controls="LenguetasIndicadorGrafica4" role="tab" data-toggle="tab">Gráfica 4</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -552,20 +553,26 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">4.4700 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
     <h3>Tasa de Desempleo Abierto en Torreón con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
 
     <div id="SmiGraficasTasaDeDesempleoAbiertoEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
     <h3>Tasa de Desempleo Abierto en Torreón con fuente IMCO</h3>
 
     <div id="SmiGraficasTasaDeDesempleoAbiertoEnTorreonImco" class="grafica"></div>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica4">
     <h3>Tasa de Desempleo Abierto en Torreón con fuente INEGI</h3>
 
     <div id="SmiGraficasTasaDeDesempleoAbiertoEnTorreonInegi" class="grafica"></div>
@@ -586,9 +593,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2017-03-31</td>
-        <td class="derecha">4.2900 %</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">4.4700 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
@@ -771,8 +778,8 @@
     });
     varSmiDatosTasaDeDesempleoAbiertoEnTorreon = 1;
   }
-  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
     varSmiGraficasTasaDeDesempleoAbiertoEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
       element: 'SmiGraficasTasaDeDesempleoAbiertoEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
@@ -835,8 +842,8 @@
     });
   }
   })
-  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnTorreonImco === 'undefined') {
     varSmiGraficasTasaDeDesempleoAbiertoEnTorreonImco = Morris.Line({
       element: 'SmiGraficasTasaDeDesempleoAbiertoEnTorreonImco',
@@ -855,8 +862,8 @@
     });
   }
   })
-  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica4 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica4"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeDesempleoAbiertoEnTorreonInegi === 'undefined') {
     varSmiGraficasTasaDeDesempleoAbiertoEnTorreonInegi = Morris.Line({
       element: 'SmiGraficasTasaDeDesempleoAbiertoEnTorreonInegi',
@@ -879,7 +886,7 @@
   if (typeof varSmiOtrasRegionesTasaDeDesempleoAbiertoEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeDesempleoAbiertoEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeDesempleoAbiertoEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 4.2900 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.4000 },{ region: 'Coahuila', dato: 4.2500 },{ region: 'Durango', dato: 3.8300 },{ region: 'Nacional', dato: 3.5500 }],
+      data: [{ region: 'Torreón', dato: 4.4700 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.4000 },{ region: 'Coahuila', dato: 4.2500 },{ region: 'Durango', dato: 3.8300 },{ region: 'Nacional', dato: 3.5500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

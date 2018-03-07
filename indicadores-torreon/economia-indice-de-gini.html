@@ -104,6 +104,7 @@
             <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
           </ul>
         </li>
         <li>
@@ -187,6 +188,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -207,8 +209,19 @@
         <td>CONEVAL</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">0.4100</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Índice de Gini en Torreón </h3>
+
+    <div id="SmiGraficasIndiceDeGiniEnTorreon" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Índice de Gini en Torreón</h3>
@@ -226,29 +239,29 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">0.4520</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">0.4100</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">0.4208</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">0.3900</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">0.4387</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">0.4000</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">0.3831</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">0.4100</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
@@ -366,12 +379,29 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasIndiceDeGiniEnTorreon === 'undefined') {
+    varSmiGraficasIndiceDeGiniEnTorreon = Morris.Line({
+      element: 'SmiGraficasIndiceDeGiniEnTorreon',
+      data: [
+        { fecha: '2010-12-31', dato: 0.4520 },
+        { fecha: '2015-12-31', dato: 0.4100 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesIndiceDeGiniEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesIndiceDeGiniEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesIndiceDeGiniEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 0.4520 },{ region: 'Gómez Palacio', dato: 0.4208 },{ region: 'Lerdo', dato: 0.4387 },{ region: 'Matamoros', dato: 0.3831 },{ region: 'La Laguna', dato: 0.4238 }],
+      data: [{ region: 'Torreón', dato: 0.4100 },{ region: 'Gómez Palacio', dato: 0.3900 },{ region: 'Lerdo', dato: 0.4000 },{ region: 'Matamoros', dato: 0.4100 },{ region: 'La Laguna', dato: 0.4238 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

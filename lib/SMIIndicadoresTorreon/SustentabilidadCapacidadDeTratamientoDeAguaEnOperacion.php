@@ -39,11 +39,11 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.';
+        $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad.';
         $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Medio Ambiente', 'Recursos Naturales');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -55,7 +55,7 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,11 +67,13 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '2.5000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '2.3000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '2.2000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '2.4000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '1.2000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2008-12-31', 'valor' => '1548', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '1451', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '1451', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '2115', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '2115', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '2135', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '2135', 'fuente_nombre' => 'INEGI', 'notas' => 'DGMA, basada en INEGI')); // formateado 0, valor 14, crudo 8
     } // datos
 
     /**
@@ -83,7 +85,7 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -95,13 +97,10 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '1.2000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '0.5000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '0.1000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '1.9000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '1.3900', 'fuente_nombre' => 'IMCO-CONAGUA'),
-            array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '1.6000', 'fuente_nombre' => 'IMCO-CONAGUA'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '2135', 'fuente_nombre' => 'INEGI', 'notas' => 'DGMA, basada en INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '640', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '222', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
@@ -120,7 +119,7 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.
+Fuente: IMCO, basado en INEGI. [Consulta] ("http://imco.org.mx/indices/#!/#indicesreeleccion-municipal-y-rendicion-de-cuentas%2F")
 OBSERVACIONES_FINAL;
     } // observaciones
 

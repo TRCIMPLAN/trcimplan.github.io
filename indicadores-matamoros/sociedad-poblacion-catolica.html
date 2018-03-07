@@ -104,6 +104,7 @@
             <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
           </ul>
         </li>
         <li>
@@ -207,6 +208,12 @@
         <td>INEGI. Censos de Población y Vivienda</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2010-12-31</td>
+        <td class="derecha">28.3000 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -248,8 +255,8 @@
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">77.6000 %</td>
-        <td>INEGI. Censos de Población y Vivienda</td>
+        <td class="derecha">28.3000 %</td>
+        <td>CONEVAL</td>
         <td></td>
       </tr>
       <tr>
@@ -364,7 +371,7 @@
   if (typeof varSmiOtrasRegionesPoblacionCatolicaEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesPoblacionCatolicaEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPoblacionCatolicaEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 83.7000 },{ region: 'Gómez Palacio', dato: 82.8000 },{ region: 'Lerdo', dato: 82.1000 },{ region: 'Matamoros', dato: 77.6000 },{ region: 'La Laguna', dato: 82.8000 },{ region: 'Nacional', dato: 82.7000 }],
+      data: [{ region: 'Torreón', dato: 83.7000 },{ region: 'Gómez Palacio', dato: 82.8000 },{ region: 'Lerdo', dato: 82.1000 },{ region: 'Matamoros', dato: 28.3000 },{ region: 'La Laguna', dato: 82.8000 },{ region: 'Nacional', dato: 82.7000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

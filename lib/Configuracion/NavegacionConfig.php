@@ -36,7 +36,8 @@ class NavegacionConfig {
             'Indicadores > Indicadores por Categoría'                 => 'indicadores-categorias/index.html',
             'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
             'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
-            'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html'),
+            'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
+            'Indicadores > Monitores'                                 => 'monitores/index.html'),
         'Indicadores Básicos de Colonias' => array(
             'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
             'Indicadores Básicos de Colonias > Colonias de Torreón'   => 'ibc-colonias-torreon/index.html',
@@ -83,6 +84,7 @@ class NavegacionConfig {
             'Indicadores por Región'       => 'fa fa-table',
             'Georreferenciados'            => 'fa fa-map-marker',
             'Datos Abiertos'               => 'fa fa-download',
+            'Monitores'                    => 'fa fa-file-text-o',
         'Indicadores Básicos de Colonias'  => 'fa fa-puzzle-piece',
             'Introducción al IBC'          => 'fa fa-file-text-o',
             'Colonias de Torreón'          => 'fa fa-font',

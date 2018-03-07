@@ -104,6 +104,7 @@
             <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
           </ul>
         </li>
         <li>
@@ -538,9 +539,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2017-03-31</td>
-        <td class="derecha">4.2900 %</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">4.4700 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
@@ -752,7 +753,7 @@
   if (typeof varSmiOtrasRegionesTasaDeDesempleoAbiertoEnCoahuilaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeDesempleoAbiertoEnCoahuilaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeDesempleoAbiertoEnCoahuilaGrafica',
-      data: [{ region: 'Torreón', dato: 4.2900 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.4000 },{ region: 'Coahuila', dato: 4.2500 },{ region: 'Durango', dato: 3.8300 },{ region: 'Nacional', dato: 3.5500 }],
+      data: [{ region: 'Torreón', dato: 4.4700 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.4000 },{ region: 'Coahuila', dato: 4.2500 },{ region: 'Durango', dato: 3.8300 },{ region: 'Nacional', dato: 3.5500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

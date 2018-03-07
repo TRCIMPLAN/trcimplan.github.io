@@ -39,10 +39,10 @@ class SustentabilidadDesastresNaturales extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-desastres-naturales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de apoyos solicitados al Fondo de Desastres Naturales (FONDEN) o al Programa para Atender contingencias Climáticas (PACC) por eventos naturales y que superaron las capacidades financieras de respuesta de las dependencias responsables estatales y municipales.';
-        $this->claves      = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Bienestar';
+        $this->descripcion = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Número de declaratorias de desastre en los últimos 3 años.';
+        $this->claves      = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Bienestar, Medio Ambiente';
         // Para el Organizador
-        $this->categorias  = array('Índice de Competitividad Urbana', 'Bienestar');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Bienestar', 'Medio Ambiente');
         $this->fuentes     = array('IMCO');
         $this->regiones    = array('Matamoros');
     } // constructor
@@ -71,7 +71,9 @@ class SustentabilidadDesastresNaturales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '3', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -95,11 +97,11 @@ class SustentabilidadDesastresNaturales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '3', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '5', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '5', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '15', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '7', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '6', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '15', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
@@ -118,7 +120,7 @@ class SustentabilidadDesastresNaturales extends \SMIBase\PublicacionWeb {
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Unidad: Cantidad de veces que se requirió el apoyo del FONDEN en los últimos tres años. Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.
+Fuente: IMCO, basado en INECC [Consulta] ("http://imco.org.mx/indices/#!/#indicesreeleccion-municipal-y-rendicion-de-cuentas%2F")
 OBSERVACIONES_FINAL;
     } // observaciones
 

@@ -9,7 +9,7 @@ Persona                                  | Puesto
 -----------------------------------------|-------------------------------
 **Lic. Eduardo Holguín Zehfuss**         | **Director General Ejecutivo**
 Lic. Felipe de Jesús Medina Delgado      | Asistente de Direcciones
-Lic. Nayeli Alejandra García Aguirre     | Asistente Presidencia
+Lic. Nayeli Alejandra García Aguirre     | Auxiliar Administrativo
 Lic. Janeth Ramírez Facio                | Auxiliar Administrativo
 C.P. Javier de Jesús Valencia Jiménez    | Contador
 C.P. Santa Julia Camarillo Aguirre       | Contadora

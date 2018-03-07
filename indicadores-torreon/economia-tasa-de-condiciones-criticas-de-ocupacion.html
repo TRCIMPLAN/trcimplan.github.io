@@ -104,6 +104,7 @@
             <li class="active"><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
             <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
           </ul>
         </li>
         <li>
@@ -187,7 +188,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -226,13 +227,19 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">11.3000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Tasa de Condiciones Críticas de Ocupación en Torreón </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Tasa de Condiciones Críticas de Ocupación en Torreón con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
 
-    <div id="SmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreon" class="grafica"></div>
+    <div id="SmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Tasa de Condiciones Críticas de Ocupación en Torreón</h3>
@@ -250,9 +257,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2017-03-31</td>
-        <td class="derecha">10.4000 %</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">11.3000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
@@ -401,11 +408,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreon === 'undefined') {
-    varSmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreon = Morris.Line({
-      element: 'SmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreon',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
+    varSmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
+      element: 'SmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
       data: [
         { fecha: '2016-03-31', dato: 8.7700 },
         { fecha: '2016-09-30', dato: 11.5900 },
@@ -425,7 +432,7 @@
   if (typeof varSmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 10.4000 },{ region: 'Gómez Palacio', dato: 14.5900 },{ region: 'Lerdo', dato: 11.8200 },{ region: 'Matamoros', dato: 14.2900 },{ region: 'La Laguna', dato: 10.5700 },{ region: 'Coahuila', dato: 8.2800 },{ region: 'Durango', dato: 14.9900 },{ region: 'Nacional', dato: 13.3700 }],
+      data: [{ region: 'Torreón', dato: 11.3000 },{ region: 'Gómez Palacio', dato: 14.5900 },{ region: 'Lerdo', dato: 11.8200 },{ region: 'Matamoros', dato: 14.2900 },{ region: 'La Laguna', dato: 10.5700 },{ region: 'Coahuila', dato: 8.2800 },{ region: 'Durango', dato: 14.9900 },{ region: 'Nacional', dato: 13.3700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
