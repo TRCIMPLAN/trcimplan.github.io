@@ -65,20 +65,35 @@ class Servicios {
             '<i class="fa fa-download"></i> Descargar'               => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html',
             '<i class="fa fa-calendar"></i> Descripción del Proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
             '<i class="fa fa-check-square"></i> Proyectos'           => 'proyectos/index.html');
+
+            // IBC
+        $ibc              = new \PaginaInicial\Destacado();
+        $ibc->name        = 'Indicadores Básicos de Colonias';
+        $ibc->description = 'Es la colonia la forma más común en que nos referimos a un lugar de nuestra ciudad.';
+        $ibc->image       = 'servicio-ibc';
+        $ibc->url         = 'ibc/introduccion.html';
+        $ibc->botones     = array(
+            '<i class="fa fa-server"></i> Introducción'           => 'ibc/introduccion.html',
+            '<i class="fa fa fa-font"></i> Colonias de Torreón'    => 'ibc-colonias-torreon/index.html',
+            '<i class="fa fa-server"></i> Catálogo de Conceptos' => 'ibc/catalogo-conceptos.html');
+
+
         // Acumular
         $a   = array();
         $a[] = '  <section id="destacado">';
         $a[] = '    <div class="row">';
-        $a[] = '      <div class="col-sm-6 col-md-4">';
+        $a[] = '      <div class="col-sm-5 col-md-3">';
         $a[] = $smi->html();
         $a[] = '      </div>';
-        $a[] = '      <div class="col-sm-6 col-md-4">';
+        $a[] = '      <div class="col-sm-5 col-md-3">';
         $a[] = $sig->html();
         $a[] = '      </div>';
-        $a[] = '      <div class="col-sm-6 col-md-4">';
+        $a[] = '      <div class="col-sm-5 col-md-3">';
         $a[] = $pet->html();
         $a[] = '      </div>';
-        $a[] = '    </div>';
+        $a[] = '      <div class="col-sm-5 col-md-3">';
+        $a[] = $ibc->html();
+        $a[] = '      </div>';
         $a[] = '  </section>';
         return implode("\n", $a);
     } // html

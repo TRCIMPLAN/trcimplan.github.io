@@ -35,7 +35,7 @@ class InstrumentosDeGestion extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Los instrumentos de gestión en el Gobierno Municipal';
-        $this->autor                      = 'Lic. José Ruiz Fernández';
+        $this->autor                      = 'Lic. José de Jesús Ruiz Fernández';
         $this->fecha                      = '2018-01-24T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'instrumentos-de-gestion';
