@@ -84,7 +84,8 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2012-12-31', 'valor' => '3', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 36, crudo 18
+            array('fecha' => '2015-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '2', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 38, crudo 19
     } // datos
 
     /**
@@ -108,10 +109,10 @@ class SeguridadAccidentesVialesFatales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '39', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '46', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '8', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '6', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '20', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '23', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '8', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '2', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '99', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 

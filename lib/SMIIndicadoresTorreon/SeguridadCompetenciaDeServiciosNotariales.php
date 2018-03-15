@@ -43,7 +43,7 @@ class SeguridadCompetenciaDeServiciosNotariales extends \SMIBase\PublicacionWeb 
         $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Gobierno';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Gobierno');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -55,7 +55,7 @@ class SeguridadCompetenciaDeServiciosNotariales extends \SMIBase\PublicacionWeb 
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -71,7 +71,9 @@ class SeguridadCompetenciaDeServiciosNotariales extends \SMIBase\PublicacionWeb 
             array('fecha' => '2009-12-31', 'valor' => '22.1946', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '21.5186', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '19.7976', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '19.9267', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '19.9267', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '60', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2014-12-31', 'valor' => '59', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -83,7 +85,7 @@ class SeguridadCompetenciaDeServiciosNotariales extends \SMIBase\PublicacionWeb 
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -95,10 +97,10 @@ class SeguridadCompetenciaDeServiciosNotariales extends \SMIBase\PublicacionWeb 
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '19.9267', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '8.8655', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '3.7265', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '6.1389', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '59', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '11', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '14.4016', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 

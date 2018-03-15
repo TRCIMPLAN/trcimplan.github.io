@@ -186,6 +186,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -206,8 +207,19 @@
         <td>INEGI</td>
         <td>Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)</td>
       </tr>
+      <tr>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">1,873</td>
+        <td>INEGI</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Presuntos Delitos del Fuero Común en Torreón </h3>
+
+    <div id="SmiGraficasPresuntosDelitosDelFueroComunEnTorreon" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Presuntos Delitos del Fuero Común en Torreón</h3>
@@ -225,24 +237,24 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">6,647</td>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">1,873</td>
         <td>INEGI</td>
-        <td>Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)</td>
+        <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">13,584</td>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">0</td>
         <td>INEGI</td>
-        <td>Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)</td>
+        <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">1,100</td>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">289</td>
         <td>INEGI</td>
-        <td>Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -348,12 +360,29 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPresuntosDelitosDelFueroComunEnTorreon === 'undefined') {
+    varSmiGraficasPresuntosDelitosDelFueroComunEnTorreon = Morris.Line({
+      element: 'SmiGraficasPresuntosDelitosDelFueroComunEnTorreon',
+      data: [
+        { fecha: '2012-12-31', dato: 6647 },
+        { fecha: '2014-12-31', dato: 1873 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesPresuntosDelitosDelFueroComunEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesPresuntosDelitosDelFueroComunEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPresuntosDelitosDelFueroComunEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 6647 },{ region: 'Gómez Palacio', dato: 13584 },{ region: 'Matamoros', dato: 1100 }],
+      data: [{ region: 'Torreón', dato: 1873 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Matamoros', dato: 289 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

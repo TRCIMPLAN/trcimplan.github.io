@@ -174,7 +174,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-torreon/seguridad-cantidad-de-policias.html" target="_blank">Cantidad de Policías</a></li>
               <li><a href="../indicadores-torreon/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-torreon/seguridad-delitos.html" target="_blank">Delitos</a></li>
+              <li><a href="../indicadores-torreon/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
               <li><a href="../indicadores-torreon/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-torreon/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-torreon/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -184,7 +184,8 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/seguridad-presuntos-delitos-del-fuero-federal.html" target="_blank">Presuntos Delitos del Fuero Federal</a></li>
               <li><a href="../indicadores-torreon/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-torreon/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
+              <li><a href="../indicadores-torreon/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
               <li><a href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-torreon/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-torreon/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -522,7 +523,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-gomez-palacio/seguridad-delitos.html" target="_blank">Delitos</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -534,7 +535,8 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-federal.html" target="_blank">Presuntos Delitos del Fuero Federal</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -811,7 +813,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-lerdo/seguridad-delitos.html" target="_blank">Delitos</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
               <li><a href="../indicadores-lerdo/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-lerdo/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -819,7 +821,8 @@ FINAL;
               <li><a href="../indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -1095,7 +1098,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-matamoros/seguridad-delitos.html" target="_blank">Delitos</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
               <li><a href="../indicadores-matamoros/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-matamoros/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -1107,7 +1110,8 @@ FINAL;
               <li><a href="../indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-federal.html" target="_blank">Presuntos Delitos del Fuero Federal</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -1382,7 +1386,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-la-laguna/seguridad-delitos.html" target="_blank">Delitos</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -1390,7 +1394,8 @@ FINAL;
               <li><a href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-secuestros.html" target="_blank">Secuestros</a></li>

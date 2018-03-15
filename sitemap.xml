@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-03-12</lastmod>
+    <lastmod>2018-03-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5101,7 +5101,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos-del-fuero-comun.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5151,7 +5151,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-robo-de-motocicleta.html</loc>
+    <lastmod>2018-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-robo-de-vehiculos-de-4-ruedas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -6651,7 +6656,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-delitos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-delitos-del-fuero-comun.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -6711,7 +6716,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-de-motocicleta.html</loc>
+    <lastmod>2018-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-de-vehiculos-de-4-ruedas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -7906,7 +7916,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos-del-fuero-comun.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -7966,7 +7976,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-motocicleta.html</loc>
+    <lastmod>2018-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-vehiculos-de-4-ruedas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -9156,7 +9171,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-delitos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-delitos-del-fuero-comun.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -9196,7 +9211,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-de-motocicleta.html</loc>
+    <lastmod>2018-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-de-vehiculos-de-4-ruedas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -10381,7 +10401,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-delitos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-delitos-del-fuero-comun.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -10421,7 +10441,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-robo-de-motocicleta.html</loc>
+    <lastmod>2018-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-robo-de-vehiculos-de-4-ruedas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -11146,6 +11171,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-robos-a-casa-habitacion.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -11808,6 +11838,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-total-de-empresas-registradas-en-el-siem.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-trabajadores-asegurados.html</loc>
+    <lastmod>2014-11-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

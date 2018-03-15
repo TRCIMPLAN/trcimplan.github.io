@@ -110,7 +110,8 @@ class SeguridadCantidadDePolicias extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-05-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
             array('fecha' => '2017-06-30', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
             array('fecha' => '2017-07-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
-            array('fecha' => '2017-08-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia')); // formateado 20, valor 68, crudo 44
+            array('fecha' => '2017-08-31', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia'),
+            array('fecha' => '2017-09-30', 'valor' => 'No disponible', 'fuente_nombre' => 'Ayuntamiento de Torreón, Portal de Transparencia')); // formateado 21, valor 69, crudo 45
     } // datos
 
     /**

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresMatamoros SeguridadDelitos
+ * TrcIMPLAN Sitio Web - SMIIndicadoresMatamoros SeguridadDelitosDelFueroComun
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresMatamoros;
 
 /**
- * Clase SeguridadDelitos
+ * Clase SeguridadDelitosDelFueroComun
  */
-class SeguridadDelitos extends \SMIBase\PublicacionWeb {
+class SeguridadDelitosDelFueroComun extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,12 +34,12 @@ class SeguridadDelitos extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Delitos en Matamoros';
+        $this->nombre      = 'Delitos del Fuero Común en Matamoros';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo     = 'seguridad-delitos';
+        $this->archivo     = 'seguridad-delitos-del-fuero-comun';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Total de delitos cometidos.';
+        $this->descripcion = 'Total de delitos cometidos. La información corresponde a los presuntos delitos cometidos en el municipio y que obran en averiguaciones previas o carpetas de investigación iniciadas.';
         $this->claves      = 'IMPLAN, Matamoros, Delincuencia, Seguridad';
         // Para el Organizador
         $this->categorias  = array('Delincuencia', 'Seguridad');
@@ -112,7 +112,9 @@ class SeguridadDelitos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-07-31', 'valor' => '155', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2017-08-31', 'valor' => '166', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2017-09-30', 'valor' => '148', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2017-10-31', 'valor' => '135', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 92, crudo 46
+            array('fecha' => '2017-10-31', 'valor' => '135', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2017-11-30', 'valor' => '189', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2017-12-31', 'valor' => '89', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 96, crudo 48
     } // datos
 
     /**
@@ -136,11 +138,11 @@ class SeguridadDelitos extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2017-10-31', 'valor' => '1115', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-10-31', 'valor' => '667', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2017-10-31', 'valor' => '170', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2017-10-31', 'valor' => '135', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2017-10-31', 'valor' => '2087', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2017-12-31', 'valor' => '838', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-12-31', 'valor' => '470', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2017-12-31', 'valor' => '166', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2017-12-31', 'valor' => '89', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2017-12-31', 'valor' => '1563', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
     /**
@@ -163,6 +165,6 @@ Descarga la [Base de Datos](http://secretariadoejecutivo.gob.mx/incidencia-delic
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase SeguridadDelitos
+} // Clase SeguridadDelitosDelFueroComun
 
 ?>
