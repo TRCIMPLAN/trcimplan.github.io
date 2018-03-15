@@ -43,7 +43,7 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
         $this->categorias  = array('Medio Ambiente', 'Recursos Naturales');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'DGMA');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -73,7 +73,8 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '85129303.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '85129303.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2013-12-31', 'valor' => '85629303.0000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2014-12-31', 'valor' => '85629303.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
+            array('fecha' => '2014-12-31', 'valor' => '85629303.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-10-31', 'valor' => '64770983.0000', 'fuente_nombre' => 'DGMA', 'notas' => 'El dato corresponde al período Enero-Octubre de 2017')); // formateado 0, valor 16, crudo 9
     } // datos
 
     /**
@@ -97,7 +98,7 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '85629303.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2017-10-31', 'valor' => '64770983.0000', 'fuente_nombre' => 'DGMA', 'notas' => 'El dato corresponde al período Enero-Octubre de 2017'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '29086844.5000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '13893421.8500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '12084256.5000', 'fuente_nombre' => 'IMCO'));

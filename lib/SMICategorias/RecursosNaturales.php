@@ -157,7 +157,7 @@ class RecursosNaturales extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Consumo de Agua</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-consumo-de-agua.html" data-toggle="tooltip" title="Metros cúbicos (m3), 31/12/2014, IMCO">85,629,303.00</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-consumo-de-agua.html" data-toggle="tooltip" title="Metros cúbicos (m3), 31/10/2017, DGMA">64,770,983.00</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-agua.html" data-toggle="tooltip" title="Metros cúbicos (m3), 31/12/2014, IMCO">29,086,844.50</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-consumo-de-agua.html" data-toggle="tooltip" title="Metros cúbicos (m3), 31/12/2014, IMCO">13,893,421.85</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-consumo-de-agua.html" data-toggle="tooltip" title="Metros cúbicos (m3), 31/12/2014, IMCO">12,084,256.50</a></td>
@@ -206,7 +206,7 @@ class RecursosNaturales extends \Base\Publicacion {
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-acuiferos.html" data-toggle="tooltip" title="Del 1 al 4, 31/12/2014, IMCO">1</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-acuiferos.html" data-toggle="tooltip" title="Del 1 al 4, 31/12/2014, IMCO">1</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-disponibilidad-de-acuiferos.html" data-toggle="tooltip" title="Del 1 al 4, 31/12/2014, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-disponibilidad-de-acuiferos.html" data-toggle="tooltip" title="Del 1 al 4, 31/12/2014, IMCO">1.01</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-disponibilidad-de-acuiferos.html" data-toggle="tooltip" title="Del 1 al 4, 31/12/2014, IMCO">1</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

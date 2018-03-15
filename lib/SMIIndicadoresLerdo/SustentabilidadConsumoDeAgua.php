@@ -97,7 +97,7 @@ class SustentabilidadConsumoDeAgua extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '85629303.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2017-10-31', 'valor' => '64770983.0000', 'fuente_nombre' => 'DGMA', 'notas' => 'El dato corresponde al período Enero-Octubre de 2017'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-12-31', 'valor' => '29086844.5000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2014-12-31', 'valor' => '13893421.8500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2014-12-31', 'valor' => '12084256.5000', 'fuente_nombre' => 'IMCO'));

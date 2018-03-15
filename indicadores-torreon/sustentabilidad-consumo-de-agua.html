@@ -188,7 +188,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -245,13 +245,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">64,770,983.0000</td>
+        <td>DGMA</td>
+        <td>El dato corresponde al período Enero-Octubre de 2017</td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Consumo de Agua en Torreón </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Consumo de Agua en Torreón con fuente IMCO</h3>
 
-    <div id="SmiGraficasConsumoDeAguaEnTorreon" class="grafica"></div>
+    <div id="SmiGraficasConsumoDeAguaEnTorreonImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Consumo de Agua en Torreón</h3>
@@ -269,10 +275,10 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2014-12-31</td>
-        <td class="derecha">85,629,303.0000</td>
-        <td>IMCO</td>
-        <td></td>
+        <td class="centrado">2017-10-31</td>
+        <td class="derecha">64,770,983.0000</td>
+        <td>DGMA</td>
+        <td>El dato corresponde al período Enero-Octubre de 2017</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
@@ -399,11 +405,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasConsumoDeAguaEnTorreon === 'undefined') {
-    varSmiGraficasConsumoDeAguaEnTorreon = Morris.Line({
-      element: 'SmiGraficasConsumoDeAguaEnTorreon',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasConsumoDeAguaEnTorreonImco === 'undefined') {
+    varSmiGraficasConsumoDeAguaEnTorreonImco = Morris.Line({
+      element: 'SmiGraficasConsumoDeAguaEnTorreonImco',
       data: [
         { fecha: '2008-12-31', dato: 84315553.0000 },
         { fecha: '2009-12-31', dato: 84615553.0000 },
@@ -426,7 +432,7 @@
   if (typeof varSmiOtrasRegionesConsumoDeAguaEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesConsumoDeAguaEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesConsumoDeAguaEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 85629303.0000 },{ region: 'Gómez Palacio', dato: 29086844.5000 },{ region: 'Lerdo', dato: 13893421.8500 },{ region: 'Matamoros', dato: 12084256.5000 }],
+      data: [{ region: 'Torreón', dato: 64770983.0000 },{ region: 'Gómez Palacio', dato: 29086844.5000 },{ region: 'Lerdo', dato: 13893421.8500 },{ region: 'Matamoros', dato: 12084256.5000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

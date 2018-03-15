@@ -92,11 +92,11 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-01-31', 'valor' => '13689', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-01-31', 'valor' => '196149', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-01-31', 'valor' => '79506', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2017-12-31', 'valor' => '13723', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-01-31', 'valor' => '13689', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2018-01-31', 'valor' => '8624', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2017-12-31', 'valor' => '294898', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-01-31', 'valor' => '297968', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2018-01-31', 'valor' => '759071', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Durango', 'fecha' => '2018-01-31', 'valor' => '240662', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2018-01-31', 'valor' => '5062516', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
