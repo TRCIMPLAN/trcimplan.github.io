@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-21</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3351,8 +3351,38 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-centro-historico.html</loc>
+    <lastmod>2018-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-economia.html</loc>
+    <lastmod>2018-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html</loc>
+    <lastmod>2018-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-negocios.html</loc>
     <lastmod>2018-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-sector-automotriz.html</loc>
+    <lastmod>2018-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-sustentabilidad.html</loc>
+    <lastmod>2018-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-vivienda.html</loc>
+    <lastmod>2018-03-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -67,6 +67,7 @@ class PlantillaConfig {
         $this->vinculos_css[] = 'dist/css/plataforma-de-conocimiento.css';                                   // Plataforma del conocimiento
         $this->vinculos_css[] = 'http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700'; // Google Fonts: Noto Sans y Roboto Condensed
         $this->vinculos_css[] = 'http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css';        // Carto
+        $this->vinculos_css[] = 'dist/css/estilosvm.css';                                                    // CSS para Monitores
         // Vínculos Javascript a archivos locales o URLs remotas
         $this->vinculos_js    = array();
     //~ $this->vinculos_js[]  = 'vendor/jquery/jquery.min.js';                                               // jQuery

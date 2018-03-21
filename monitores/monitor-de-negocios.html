@@ -63,6 +63,7 @@
   <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
   <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
   <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
   <!-- SOPORTE PARA IE -->
   <!--[if lt IE 9]>
@@ -187,18 +188,53 @@
 <!-- Contenido: Inicia  -->
 <!-- Archivo /lib/Monitores/MonitoresPresentacion.html inicia -->
 <h3>Presentación</h3>
-<div id="presentacion-monitor-negocios" style="position: relative; top: 0px; left: 0px; width: 500px; height: 200px;">
-  <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 500px; height: 200px; overflow: hidden;">
-    <div><img u="image" src="negocios/monitores febrero-01.jpg"></div>
-    <div><img u="image" src="negocios/monitores febrero-02.jpg"></div>
-    <div><img u="image" src="negocios/monitores febrero-02.jpg"></div>
+<div id="presentacion-monitor-negocios" style="position: relative; top: 0px; left: 0px; width: 334px; height: 200px;">
+  <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 334px; height: 200px; overflow: hidden;">
+    <div><img u="image" src="negocios/negocios-febrero-01.jpg"></div>
+    <div><img u="image" src="negocios/negocios-febrero-02.jpg"></div>
   </div>
   <a style="display: none" href="http://www.jssor.com">Image Slider</a>
 </div>
-<p><b>Instrucciones:</b> Cada 12 segundos cambia la imagen. Puede arrastrar a la izquierda para avanzar y a la derecha para retroceder.</p>
 <div style="margin-top:8px; margin-bottom:16px;"><a href="negocios/negocios-feb-2018.pdf"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">De click para descargar el archivo PDF del <b>Monitor de Negocios</b></span></a></div>
 <!-- Archivo /lib/Monitores/MonitoresPresentacion.html termina -->
 <h1>Monitor de Negocios</h1>
+
+<h2>Indicadores de Negocios</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Periodo</th>
+  <th>Indicador</th>
+  <th>Dato</th>
+  <th>Nivel</th>
+  <th>Fuente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>2016</td>
+  <td><a href="http://localhost/trcimplan_sitioweb/indicadores-torreon/economia-apertura-de-una-empresa.html">Apertura de una empresa</a></td>
+  <td>11.5 días</td>
+  <td>Torreón</td>
+  <td>Doing Business</td>
+</tr>
+<tr>
+  <td>2018</td>
+  <td><a href="http://localhost/trcimplan_sitioweb/indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html">Empresas registradas en el SIEM</a></td>
+  <td>5544</td>
+  <td>Torreón</td>
+  <td>SIEM</td>
+</tr>
+<tr>
+  <td>2018</td>
+  <td><a href="http://localhost/trcimplan_sitioweb/indicadores-torreon/economia-microempresas.html">Microempresas</a></td>
+  <td>10</td>
+  <td>Torreón</td>
+  <td>SIEM</td>
+</tr>
+</tbody>
+</table>
 
 <h2>Febrero 2018</h2>
 
@@ -216,7 +252,7 @@
 
 <p>Existen 5,544 empresas registradas en el SIEM (2018) de los cuales la mayoría se dedican al comercio o servicios, con un 49.01% y 40.53% respectivamente;  sólo el 7% en manufactura.</p>
 
-<p>Del total de estos negocios, 9 de cada 10 son microempresas, que cuentan con menos de 10 trabajadores.</p>
+<p>Del total de estos negocios, <em>9 de cada 10 son microempresas</em>, que cuentan con menos de 10 trabajadores.</p>
 
 <p>Las microempresas emplean a un 38.1% de la población ocupada; un 21.17% se emplea en pequeñas empresas; 16.41% en medianas, y un 11.5% en grandes. (ENOE-INEGI)</p>
 
@@ -243,6 +279,11 @@
           <div class="contenido-imagen-previa-final"></div>
         </div>
       </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fmonitores%2Fmonitor-de-negocios.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
     </div>
     <div class="mapa-inferior">
           <div class="pull-right redes-sociales">
@@ -274,7 +315,7 @@
   // Photo Slider Presentacion Monitores inicia
   jQuery(document).ready(function ($) {
     var options = {
-        $AutoPlay: true,
+        $AutoPlay: false,
         $ChanceToShow: 5,
         $DragOrientation: 1,
         $AutoPlayInterval: 6000
@@ -296,6 +337,10 @@
   // Photo Slider Presentacion Sector Automotriz termina
 </script>
 
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
 
 <!-- Javascript termina -->
 <!-- Javascript Google Analytics -->

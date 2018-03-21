@@ -93,6 +93,28 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $b[] = '  <section id="organizacion">';
     //~ $b[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
         $b[] = '    <img class="banner" src="imagenes/banner-implan-2018-01.jpg" alt="IMPLAN Torreon">';
+      //  $b[] = ' ';
+       // $b[] = '<li></li>';
+  $b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
+    $b[] = '<div class="slider">';
+        $b[] = '<ul>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-febrero-01.jpg" alt="Imagen uno"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-negocios.html"><img src="imagenes\monitores\monitores-febrero-02.jpg" alt="Imagen dos"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-sustentabilidad.html"><img src="imagenes\monitores\monitores-febrero-03.jpg" alt="Imagen uno"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-sustentabilidad"><img src="imagenes\monitores\monitores-febrero-04.jpg" alt="Imagen dos"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-negocios.html"><img src="imagenes\monitores\monitores-febrero-05.jpg" alt="Imagen uno"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-febrero-06.jpg" alt="Imagen dos"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-economia.html"><img src="imagenes\monitores\monitores-febrero-07.jpg" alt="Imagen uno"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-economia.html"><img src="imagenes\monitores\monitores-febrero-08.jpg" alt="Imagen dos"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-vivienda.html"><img src="imagenes\monitores\monitores-febrero-09.jpg" alt="Imagen uno"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-vivienda.html"><img src="imagenes\monitores\monitores-febrero-10.jpg" alt="Imagen dos"></a>';
+
+        $b[] = '</ul>';
+
+    $b[] = '</div>';
+
+        //~ termina cambio VM
+
         $b[] = implode("\n", $a);
         $b[] = '  </section>';
         // Entregar
