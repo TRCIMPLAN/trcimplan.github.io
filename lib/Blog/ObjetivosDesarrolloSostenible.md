@@ -13,6 +13,7 @@ Para lograr este objetivo, **se fijaron 10 metas que deben ser cumplidas en los 
 **1. Asegurar el acceso de todas las personas a viviendas y servicios básicos adecuados, seguros y asequibles y mejorar los barrios marginales.**
 
 En Torreón, 6 de cada 10 personas tendrá problemas para pagar su hipoteca, con un 5.98% de probabilidad de incumplimiento.
+
 En servicios básicos, se cuenta con una cobertura casi total, con 99.8% de viviendas con energía eléctrica, 98.5% de viviendas con drenaje con conexión a la red pública y 99% de viviendas con agua potable de la red pública (INEGI).
 
 **2. Proporcionar acceso a sistemas de transporte seguros, asequibles, accesibles y sostenibles para todos y mejorar la seguridad vial, en particular mediante la ampliación del transporte público, prestando especial atención a las necesidades de las personas en situación de vulnerabilidad, las mujeres, los niños, las personas con discapacidad y las personas de edad.**

@@ -22,7 +22,7 @@ Aún cuando exista un programa de gestión del consejo de cuenca Nazas-Aguanaval
 <img class="img-responsive" src="dia-mundial-del-agua/agua-en-mexico.png" alt="Día mundial del agua">
 
 ¿Qué tal que hiciéramos en la Laguna un esfuerzo similar a lo que hicieron en CDMX  en donde recién instalaron la Contraloría ciudadana Autónoma del Agua? A través de ésta contraloría se pretende  generar políticas y ciudadanizar la toma de decisiones en torno al agua y su gestión.
-[Artículo Integran Contraloría ciudadana del Agua, en el periódico el Heraldo de México](https://heraldodemexico.com.mx/cdmx/integran-contraloria-ciudadana-autonoma-del-agua-en-la-cdmx/)
+[Artículo: Integran Contraloría ciudadana del Agua, en el periódico el Heraldo de México](https://heraldodemexico.com.mx/cdmx/integran-contraloria-ciudadana-autonoma-del-agua-en-la-cdmx/)
 
 ¿Qué tal que pugnáramos por un caudal ecológico, es decir, un volumen de agua que siempre estuviera corriendo por el cauce del Nazas y permitiera la infiltración y recarga?¡ La solución nos la da la propia naturaleza!.
 
