@@ -1,26 +1,37 @@
 # Monitor de Economía
 
-## Indicadores Económicos
-
+## Indicadores macroeconómicos
 Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
 Tipo de cambio del último mes                                   |18.83   |2018 Marzo        |Nacional   |Banxico            |
 Apreciación del peso respecto al último año|    4.235896%       |2018    |Diciembre - Marzo |Nacional   |Banxico            |
 Tasa de interés objetivo                                        |7.5%    |2018 Marzo        |Nacional   |Banxico            |
 Último incremento neto de la tasa                               |0.25%   |2018 Febrero      |Nacional   |Banxico            |
-Confianza de los consumidores                                   |85.87  |2018 Enero |Nacional   |INEGI|
-Expectativas de pedidos manufactureros                          |52.07  |2018 Enero |Nacional   |INEGI|
-Confianza del sector manufactura                                |50.4   |2018 Enero |Nacional   |INEGI|
-Confianza del sector construcción                               |44.5   |2018 Enero |Nacional   |INEGI|
-Confianza del sector comercio   |46.9   |2018 Enero |Nacional   |INEGI|
-Créditos personales otorgados   |12,732 |2017 Abril |Torreón    |CNBV|
-Aumento de créditos respecto al mismo periodo del año anterior  |-6.54% |2017 Enero - Abril |Torreón    |CNBV|
+
+## Indicadores macroeconómicos regionales
+Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+----------------------------------------------------------------|--------|------------------|-----------|-------------------|
 PIB |172, 631,858,000   |2014   |Torreón    |IMCO|
 Crecimiento respecto al año anterior    |6.19%  |2014   |Torreón    |IMCO|
 Lugar nacional por tamaño de PIB    |8° |2014   |Torreón    |IMCO|
 Lugar nacional por crecimiento del PIB  |15°    |2014   |Torreón    |IMCO|
 Inflación   |8.27%  |2017 Enero-Diciembre   |Torreón    |INEGI|
 Meta de inflación   |3% |2017   |Torreón y Nacional |Banxico|
+
+## Perspectivas de empresarios y consumidores
+Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+----------------------------------------------------------------|--------|------------------|-----------|-------------------|
+Confianza de los consumidores                                   |85.87  |2018 Enero |Nacional   |INEGI|
+Expectativas de pedidos manufactureros                          |52.07  |2018 Enero |Nacional   |INEGI|
+Confianza del sector manufactura                                |50.4   |2018 Enero |Nacional   |INEGI|
+Confianza del sector construcción                               |44.5   |2018 Enero |Nacional   |INEGI|
+Confianza del sector comercio   |46.9   |2018 Enero |Nacional   |INEGI|
+
+## Finanzas personales
+Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+----------------------------------------------------------------|--------|------------------|-----------|-------------------|
+Créditos personales otorgados   |12,732 |2017 Abril |Torreón    |CNBV|
+Aumento de créditos respecto al mismo periodo del año anterior  |-6.54% |2017 Enero - Abril |Torreón    |CNBV|
 
 
 ## Marzo 2018

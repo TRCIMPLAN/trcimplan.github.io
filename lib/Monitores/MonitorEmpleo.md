@@ -4,36 +4,36 @@
 
 Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-Población Económicamente Activa     |525, 826 personas| Diciembre 2017 | Torreón | ENOE - INEGI |
-Edad promedio de la PEA  |39.4 años|Diciembre 2017 | Torreón | ENOE - INEGI |
-Años promedio de escolaridad de la PEA  |11.0|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de la PEA Ocupada |95.52%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de la PEA Desocupada  |4.47%|Diciembre 2017 | Torreón | ENOE - INEGI |
-Tasa de trabajo asalariado  |73.4|Diciembre 2017 | Torreón | ENOE - INEGI |
-Tasa de subocupación    |10.5|Diciembre 2017 | Torreón | ENOE - INEGI |
-Tasa de condiciones críticas de empleo  |11.3|Diciembre 2017 | Torreón | ENOE - INEGI |
-Tasa de informalidad laboral    |42.0|Diciembre 2017 | Torreón | ENOE - INEGI |
-Horas promedio trabajadas a la semana   |42.1|Diciembre 2017 | Torreón | ENOE - INEGI |
-Ingreso promedio por hora trabajada |$43.1|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de Trabajadores por cuenta propia |17%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas ocupadas en la industria manufacturera    |19.7%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas ocupadas en la construcción   |8.37%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas ocupadas en el comercio   |21.35%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas ocupadas en restaurantes y servicios de alojamiento   |7.71%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas ocupadas en el gobierno   |3.52%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas ocupadas en micronegocios |38.1%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas ocupadas en pequeños establecimientos |21.17%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas que ganan hasta 1 salario mínimo  |11.70%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas que ganan de 1 hasta 2 salarios mínimos   |30.48%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas que trabajan de 35 a 48hrs    |45.13%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas que trabajan más de 48hrs |28.20%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de personas que trabajan menos de 15 hrs  |11.70%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de la población ocupada con acceso a instituciones de salud   |52.48%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de la población ocupada sin acceso a instituciones de salud   |47.24%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de la población desocupada de 15 a 25 años    |37.01%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de la población desocupada de 25 a 44 años    |40.19%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de la población desocupada que cuenta con educación media superior y superior |44.63%|Diciembre 2017 | Torreón | ENOE - INEGI |
-% de la población desocupada que tiene experiencia laboral  |92.03%|Diciembre 2017 | Torreón | ENOE - INEGI |
+Población Económicamente Activa     |525, 826 personas| Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+Edad promedio de la PEA  |39.4 años|Diciembre 2017 | Torreón - ZML| ENOE - INEGI |
+Años promedio de escolaridad de la PEA  |11.0|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de la PEA Ocupada |95.52%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de la PEA Desocupada  |4.47%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+Tasa de trabajo asalariado  |73.4|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+Tasa de subocupación    |10.5|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+Tasa de condiciones críticas de empleo  |11.3|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+Tasa de informalidad laboral    |42.0|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+Horas promedio trabajadas a la semana   |42.1|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+Ingreso promedio por hora trabajada |$43.1|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de Trabajadores por cuenta propia |17%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas ocupadas en la industria manufacturera    |19.7%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas ocupadas en la construcción   |8.37%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas ocupadas en el comercio   |21.35%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas ocupadas en restaurantes y servicios de alojamiento   |7.71%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas ocupadas en el gobierno   |3.52%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas ocupadas en micronegocios |38.1%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas ocupadas en pequeños establecimientos |21.17%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas que ganan hasta 1 salario mínimo  |11.70%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas que ganan de 1 hasta 2 salarios mínimos   |30.48%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas que trabajan de 35 a 48hrs    |45.13%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas que trabajan más de 48hrs |28.20%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de personas que trabajan menos de 15 hrs  |11.70%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de la población ocupada con acceso a instituciones de salud   |52.48%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de la población ocupada sin acceso a instituciones de salud   |47.24%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de la población desocupada de 15 a 25 años    |37.01%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de la población desocupada de 25 a 44 años    |40.19%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de la población desocupada que cuenta con educación media superior y superior |44.63%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
+% de la población desocupada que tiene experiencia laboral  |92.03%|Diciembre 2017 | Torreón - ZML | ENOE - INEGI |
 
 ##Marzo 2018
 
