@@ -69,16 +69,6 @@ En febrero 2017 hubo una caída y rebote en los indicadores de confianza, pero a
 La tendencia de los últimos 4 meses de los índices de confianza ha sido a la baja; excepto por la del sector manufacturero que se mantiene.
 
 
-|Confianza de los consumidores|Expectativas de pedidos manufactureros|Confianza del sector manufactura|Confianza del sector construcción|
-Confianza del sector comercio
-------------|------------|--------------|------------
-Septiembre 2017|88.94|50.92|49.4|48.1|48.1
-Octubre 2017|87.91|51.99|49.4|48.3|48.5|
-Noviembre 2017|88.69|51.82|49.3|46.5|47.7
-Diciembre 2017|88.60|51.35|49.7|46.6|47
-Enero 2018|85.87|52.07|50.4|44.5|46.9
-
-
 #Inflación
 
 La inflación se ha mantenido a niveles muy por encima de la meta del 3%; principalmente a la acelerada liberación de los precios de la gasolina y al tipo de cambio; pues la inflación acumulada de 2017 en Torreón fue de 8.30%.
