@@ -34,7 +34,7 @@ class Plusvalia extends \Base\PublicacionSchemaBlogPosting {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Plusvalía';
+        $this->nombre                     = 'El crecimiento de la plusvalía en Torreón';
         $this->autor                      = 'Arq. Daniela Patricia Corral Hernández';
         $this->fecha                      = '2018-04-02T00:00';
         // El nombre del archivo a crear
