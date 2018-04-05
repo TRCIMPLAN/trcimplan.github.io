@@ -5,11 +5,47 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 03 Apr 2018 11:18:14 -0500</pubDate>
+    <pubDate>Thu, 05 Apr 2018 10:51:35 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Qué es un relleno sanitario?</title>
+      <link>http://www.trcimplan.gob.mx/blog/relleno-sanitario.html</link>
+      <guid isPermaLink="false">blog-relleno-sanitario</guid>
+      <pubDate>Thu, 05 Apr 2018 10:00:00 -0500</pubDate>
+      <author>Q.F.B. Susana Estens de la Garza</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/relleno-sanitario/imagen.jpg"><br>
+
+<p>Básicamente es echar bajo la alfombra lo que no queremos ver porque nos da flojera hacer lo que nos corresponde.</p>
+
+<p>Sin embargo, en lugar de buscar una solución más lógica, nos hemos acostumbrado a que haya rellenos sanitarios. <strong>Existe una norma que especifica cómo debe ser un relleno sanitario (Norma Oficial mexicana NOM-083-semarnat-2003)</strong>, también detalla los pasos a seguir cuando ha llegado a su capacidad y debe clausurarse así como la forma de operarlo. Explicado muy brevemente, un relleno deberá ser un sitio (celda) que cuente con protección (liner) para que los líquidos que se forman (lixiviados), no lleguen al subsuelo y a los mantos freáticos. También deberá contar con tubos de ventilación para que el gas metano que se genera por la descomposición de la materia orgánica, pueda salir. Ese gas metano puede ser recuperado y utilizado para generar electricidad, o bien puede quemarse (flaring). La ventaja de quemarlo, es que convierte al metano en dióxido de carbono, veinte veces menos potente como gas de efecto invernadero.</p>
+
+<p>El relleno sanitario donde los habitantes de Torreón depositamos lo que no queremos ver, se encuentra en Matamoros, Coahuila (¿por qué en Matamoros? ¿Se imaginan que Monterrey nos enviara su basura?). Este relleno recibe diariamente más de 500 toneladas por las que pagamos una buena cantidad ($145/tonelada en el 2016). Lo que se inició como una celda profunda, es ahora una montaña visible desde la carretera y con basura también descubierta que NO debería ser visible.</p>
+
+<p>Y el relleno de Matamoros es el relleno bonito. Gómez Palacio construyó una celda que debe operar como relleno sanitario y Lerdo tiene cero infraestructura. Así que intencionalmente (al menos así parece), la queman, y “entonces habrá más espacio” según declaraciones a medios de comunicación.</p>
+
+<h2>Polígono Relleno Sanitario</h2>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/relleno-sanitario/relleno-sanitario.png" alt="Relleno Sanitario">
+<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/rellenos-sanitarios.html">Mapa de Rellenos Sanitarios. IMPLAN</a></p>
+
+<p>El detalle es que TODOS nos respiramos el producto de la quema de basura. Incluyendo dioxinas (mejor ni busquen que es eso) y partículas menores a 2.5 y 10 micras. Todo ello catalogado como cancerígeno.</p>
+
+<p>Más allá de que esto parezca una simple queja, quisiera que se entendiera que se nos debe informar, de forma diaria, acerca de la calidad del aire. La Zona Metropolitana de la Laguna tiene en conjunto más de un millón de habitantes y los recursos del fondo metro deben aplicarse al tema del monitoreo de la calidad del aire.</p>
+
+<p>Ciudades como CDMX, Guadalajara, Monterrey y León, reportan EN TIEMPO REAL, la calidad del aire. Alertan a sus habitantes de las medidas que deben tomar cuando se presenta una contingencia ambiental como el incendio del basurero de Lerdo. O las veces que ha sucedido en Torreón, por Zaragoza.</p>
+
+<p>El trasfondo de este tema, y más allá de las obligaciones de las autoridades, se encuentra la responsabilidad que todos tenemos en el tema de la basura. ¿Por qué en países como Corea o Japón no se observan acumulamientos de residuos? ¿Qué nos hace diferentes? Cuando no encuentres un basurero en la calle, llévate TU basura. Tú la generaste. Y luego dispón de ella en tu casa. La mitad de nuestros residuos pueden ser reciclados. Papel, cartón, aluminio, vidrio y plásticos tienen un enorme potencial de ser nuevamente aprovechados y así disminuir la utilización de recursos naturales y las emisiones que provienen de los incendios o, en el menos peor de los casos, de un relleno sanitario.</p>
+
+<p><strong>Entrega tus reciclables a un recolector urbano (pepenadores). No le des tu basura. Entrega reciclables limpios, secos y separados. Involúcrate. Participa. Sé un mejor ciudadano.</strong></p>
+
+<ul>
+<li>Para más información de los recolectores urbanos en la Región Lagunera, vista la página de <a href="http://www.proinder.com">PROINDER, Programa Inclusivo de Reciclaje:</a></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Día Mundial del Agua</title>
       <link>http://www.trcimplan.gob.mx/blog/dia-mundial-del-agua.html</link>
@@ -258,47 +294,6 @@ susanaestens@hotmail.com</p>
 <p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/encuentro-laguna-y2040-2018/y2040-9.jpg" alt="Encuentro Y2040 2018-9"></p>
 
 <p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/encuentro-laguna-y2040-2018/y2040-10.jpg" alt="Encuentro Y2040 2018-10"></p>
-]]></description>
-    </item>
-    <item>
-      <title>Torreón y su infraestructura ciclista</title>
-      <link>http://www.trcimplan.gob.mx/blog/torreon-y-su-infraestructura-ciclista.html</link>
-      <guid isPermaLink="false">blog-torreon-y-su-infraestructura-ciclista</guid>
-      <pubDate>Mon, 05 Mar 2018 12:30:00 -0600</pubDate>
-      <author>Arq. Julio Alexis Magaña Cisneros</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/torreon-y-su-infraestructura-ciclista/imagen.jpg"><br>
-
-<p>En la actualidad contar con estrategias para lograr una <strong>ciudad sustentable</strong> es prioridad dentro de la planificación urbana, una de las formas de conseguir esta meta es impulsando la movilidad activa.</p>
-
-<p><strong>El ciclismo</strong> es uno de los medios de desplazamiento de la movilidad activa, así como lo es el traslado a pie. Hoy en día en distintas ciudades tanto nacionales como internacionales existe un creciente desarrollo de planes y estrategias que permitan incrementar el uso de la bicicleta.</p>
-
-<p>En los municipios de Torreón y Matamoros se realizan 1´818,955 viajes diarios, dentro de los cuales el 19% corresponde a los traslados a pie y el 2% a los viajes en bicicleta. <strong>El desarrollo de un Plan Estratégico de Movilidad Activa</strong> deberá considerar estrategias que ayuden al aumento de este porcentaje en la región, teniendo como puntos importantes: la infraestructura, intermodalidad y la difusión para fomentar el uso de este transporte.</p>
-
-<p>La inversión en infraestructura ciclista durante los años 2013, 2014 y 2015 en la Zona Metropolitana de La Laguna fue del 0%, una gran diferencia contra el 87% hecho en infraestructura vehicular de acuerdo al diagnóstico de inversión en movilidad en las zonas metropolitanas de México 2011-2015, hecho por el Instituto de Políticas para el Transporte y el Desarrollo (ITDP por sus siglas en inglés).</p>
-
-<p>La existencia de la infraestructura es un factor de gran importancia para que las personas elijan usar la bicicleta como medio de transporte. En Torreón se cuenta con 8 vialidades con infraestructura para el uso de la bicicleta, de diferente tipología, con un total de  21 kilómetros de longitud.</p>
-
-<p>Sin embargo estas vialidades no cuentan con las condiciones óptimas, ya que algunas de ellas tienen deficiencias en cuanto a la señalización horizontal, en algunos casos se encuentra deteriorada, ilegible o inexistente. La delimitación de las mismas llega a ser un riesgo, con tramos abiertos para los accesos vehiculares que provocan la invasión del carril por parte de automovilistas y/o su uso como estacionamiento. La señalización vertical es escasa o inexistente y las condiciones de la superficie de rodamiento son malas y presentan dificultades para los ciclistas.</p>
-
-<p>La mayoría de estas rutas ciclistas presentan alguna deficiencia y en algunos de los casos no fueron diseñadas siguiendo los lineamientos nacionales e internacionales. Es por eso que llegan a presentar un alto riesgo de accidentes para los usuarios.</p>
-
-<p>Un buen ejemplo en infraestructura ciclista es la ciclovía recién construida y aún en proceso, que recorre la carretera Torreón-Matamoros, iniciando en el límite de Torreón y Matamoros. Recorre los ejidos que se encuentran al pie de carretera, llegando a la entrada a la ciudad de Matamoros. Cuenta con señalamiento vertical, carril delimitado físicamente y señalización horizontal.</p>
-
-<p>Es importante destacar que las rutas existentes en la ciudad son tramos dispersos, es decir no existe ninguna conexión entre ellas, inician en algún punto de la vialidad y terminan en otro extremo, dejando al ciclista sin más opciones de rutas para llegar a su destino.</p>
-
-<p>En el <strong>Ranking de Ciclociudades</strong> Torreón-La Laguna obtuvo el lugar 7 de 30 entidades en 2015. <strong>Actualmente el IMPLAN desarrolla el Plan de Movilidad Activa</strong> en el cual propone una red ciclista que conecte la infraestructura existente y también implemente la infraestructura ciclista en la ciudad con ciclovías proyectadas a corto,  mediano y largo plazo, con un aproximado de 150 kilómetros, incrementando en un futuro, 7 veces más la infraestructura existente.</p>
-
-<p>Un ejemplo de los buenos resultados que se pueden obtener de un plan de movilidad es la ciudad de Sevilla, que es punto de referencia en movilidad ciclista, y que gracias a las estrategias políticas y planes logró aumentar su infraestructura de 12 Km en 2006 a 120 Km para el 2011, es decir un incremento multiplicado por diez.</p>
-
-<p>El Plan de Movilidad Activa responde a las necesidades de esta ciudad, propone la implementación de su infraestructura ciclista, al igual que otras ciudades mexicanas como Toluca y León lo han hecho dentro de sus planes.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/torreon-y-su-infraestructura-ciclista/art1.jpg" alt="Infraestructura ciclista 1"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/torreon-y-su-infraestructura-ciclista/art2.jpg" alt="Infraestructura ciclista 2"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/torreon-y-su-infraestructura-ciclista/art3.jpg" alt="Infraestructura ciclista 3"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/torreon-y-su-infraestructura-ciclista/art4.jpg" alt="Infraestructura ciclista 4"></p>
 ]]></description>
     </item>
   </channel>
