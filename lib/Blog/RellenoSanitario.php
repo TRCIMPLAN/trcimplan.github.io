@@ -41,7 +41,7 @@ class RellenoSanitario extends \Base\PublicacionSchemaBlogPosting {
         $this->archivo                    = 'relleno-sanitario';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = '¿Por qué en países como Corea o Japón no se observan acumulamientos de residuos? ¿Qué nos hace diferentes? Cuando no encuentres un basurero en la calle, llévate TU basura. Tú la generaste.';
-        $this->claves                     = 'IMPLAN, Torreon, Relleno Sanitario, Basura';
+        $this->claves                     = 'IMPLAN, Torreon, Relleno, Sanitario, Basura, Rellenos, Sanitarios, Residuos, Solidos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/RellenoSanitario.md';
         // Para el Organizador
