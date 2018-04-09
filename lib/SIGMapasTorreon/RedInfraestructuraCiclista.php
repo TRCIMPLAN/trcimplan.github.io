@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SIGMapasTorreon ProyectoRedCiclistaPlanMovilidadActiva
+ * TrcIMPLAN Sitio Web - SIGMapasTorreon RedInfraestructuraCiclista
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,24 +23,24 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase ProyectoRedCiclistaPlanMovilidadActiva
+ * Clase RedInfraestructuraCiclista
  */
-class ProyectoRedCiclistaPlanMovilidadActiva extends \Base\Publicacion {
+class RedInfraestructuraCiclista extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Proyecto de red ciclista del Plan de Movilidad Activa';
-        $this->autor              = 'Planeación Urbana IMPLAN';
+        $this->nombre             = 'Red de Infraestructura Ciclista';
+        $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
         $this->fecha              = '2018-04-06T13:33';
         // El nombre del archivo a crear y rutas relativas a las imágenes
-        $this->archivo            = 'proyecto-red-ciclista-plan-movilidad-activa';
-        $this->imagen             = 'proyecto-red-ciclista-plan-movilidad-activa/imagen.jpg';
-        $this->imagen_previa      = 'proyecto-red-ciclista-plan-movilidad-activa/imagen-previa.jpg';
+        $this->archivo            = 'red-infraestructura-ciclista';
+        $this->imagen             = 'red-infraestructura-ciclista/imagen.jpg';
+        $this->imagen_previa      = 'red-infraestructura-ciclista/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Proyecto de red ciclista del Plan de Movilidad Activa.';
+        $this->descripcion        = 'Proyecto para la red de infraestructura ciclista propuesta en el Plan de Movilidad Activa.';
         $this->claves             = 'ciclista, movilidad, red, vialidad';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
@@ -114,6 +114,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase ProyectoRedCiclistaPlanMovilidadActiva
+} // Clase RedInfraestructuraCiclista
 
 ?>
