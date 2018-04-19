@@ -85,8 +85,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \SMIBase\PublicacionW
             array('fecha' => '2012-12-31', 'valor' => '2.0600', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '1.8600', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '1.7200', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '1.5112', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '1.3010', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 40, crudo 20
+            array('fecha' => '2015-12-31', 'valor' => '1.5112', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 38, crudo 19
     } // datos
 
     /**
@@ -111,11 +110,10 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \SMIBase\PublicacionW
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '0.4022', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1.3010', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '2.3391', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '1.5151', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '0.7187', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2016-12-31', 'valor' => '0.7010', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '1.5112', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '1.2739', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '1.4742', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '0.7187', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**

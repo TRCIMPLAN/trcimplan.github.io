@@ -94,10 +94,10 @@ class Bienestar extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Gini</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2015, CONEVAL">0.4100</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2015, CONEVAL">0.3900</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2015, CONEVAL">0.4000</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2015, CONEVAL">0.4100</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4520</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4208</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4387</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.3831</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4238</a></td>
   </tr>
   <tr>
@@ -156,156 +156,39 @@ class Bienestar extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con al menos tres carencias sociales</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">9.1 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">8.5 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">8.9 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">11.4 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con al menos una carencia social</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-al-menos-una-carencia-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">50.9 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-al-menos-una-carencia-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">56.1 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-al-menos-una-carencia-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">63.9 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-al-menos-una-carencia-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">60.1 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con carencia a la seguridad social</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-carencia-a-la-seguridad-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">33.6 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-a-la-seguridad-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">32.8 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-carencia-a-la-seguridad-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">44.4 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-carencia-a-la-seguridad-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">37.2 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con carencia alimentaria.</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-carencia-alimentaria.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">20.4 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-alimentaria.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">19.6 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-carencia-alimentaria.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">19.1 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-carencia-alimentaria.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">21.0 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con carencia de acceso a la salud</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">20.2 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">16.3 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">15.0 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">17.6 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con carencia de servicios básicos</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-carencia-de-servicios-basicos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">1.9 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-servicios-basicos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">8.0 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-carencia-de-servicios-basicos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">6.3 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-carencia-de-servicios-basicos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">9.0 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con carencia de vivienda</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-carencia-de-vivienda.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">3.7 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-vivienda.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">2.6 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-carencia-de-vivienda.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">4.2 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-carencia-de-vivienda.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">7.1 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con carencia educativa</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-carencia-educativa.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">10.1 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-educativa.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">14.3 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-carencia-educativa.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">15.6 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-carencia-educativa.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">16.2 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con ingreso inferior a la línea de bienestar.</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">40.00 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">45.10 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">50.00 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">52.80 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">3.78 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población con ingreso inferior a la línea de bienestar mínimo.</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">10.9 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">8.8 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">11.4 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">17.5 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población no pobre y no vulnerable</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-no-pobre-y-no-vulnerable.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">35.3 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-no-pobre-y-no-vulnerable.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">29.3 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-no-pobre-y-no-vulnerable.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">22.3 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-no-pobre-y-no-vulnerable.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">22.8 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población vulnerable por carencias sociales</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-vulnerable-por-carencias-sociales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">24.8 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-vulnerable-por-carencias-sociales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">25.6 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-vulnerable-por-carencias-sociales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">27.6 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-vulnerable-por-carencias-sociales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">24.4 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población vulnerable por ingresos</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-vulnerable-por-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">13.8 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-vulnerable-por-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">14.6 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-vulnerable-por-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">13.7 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-vulnerable-por-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">17.1 %</a></td>
-    <td class="nd">ND</td>
+    <td class="indicador color4">Personas por Debajo de la Línea de Bienestar</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">3.32 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">4.49 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">2.68 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">6.07 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">3.78 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Pobreza</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">26.20 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">30.50 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">36.30 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">35.70 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">26.80 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">37.29 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">47.98 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">33.84 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">32.74 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Pobreza Extrema</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">2.8 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">0.8 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">1.0 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">3.6 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">4.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">2.84 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">5.30 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">6.80 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">3.90 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">4.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Pobreza Moderada</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">23.4 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">29.7 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">35.2 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">32.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">24.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">31.9 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">41.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">29.8 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">28.6 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Razón de ingreso de población con pobreza extrema</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">13 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">18 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">16 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">13 %</a></td>
-    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -328,11 +211,11 @@ class Bienestar extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Desastres Naturales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2014, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2014, IMCO">7</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2014, IMCO">6</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2014, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2014, IMCO">15</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">3</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">5</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">5</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-desastres-naturales.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">15</a></td>
   </tr>
 </tbody>
 </table>

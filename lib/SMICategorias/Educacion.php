@@ -229,10 +229,10 @@ class Educacion extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Diferencial de Grado Promedio de Escolaridad por Género</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 31/12/2015, INEGI">-0.5280</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 31/12/2015, INEGI">-0.2116</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 31/12/2015, INEGI">-0.1177</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 31/12/2015, INEGI">0.0113</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 31/12/2010, INEGI">-0.32</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 31/12/2010, INEGI">-0.20</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 31/12/2010, INEGI">-0.06</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 31/12/2010, INEGI">0.02</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>
@@ -260,78 +260,6 @@ class Educacion extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.48</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.30</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">8.69</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Nivel cuatro de Lenguaje y Comunicación de PLANEA</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">15.34 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">7.63 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">11.65 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">3.07 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Nivel cuatro de Matemáticas de PLANEA</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nivel-cuatro-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">6.80 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nivel-cuatro-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">2.01 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nivel-cuatro-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">7.55 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nivel-cuatro-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">0.52 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Nivel dos de Lenguaje y Comunicación de PLANEA</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">26.32 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">28.37 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">20.60 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">30.68 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Nivel dos de Matemáticas de PLANEA</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nivel-dos-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">25.55 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nivel-dos-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">19.90 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nivel-dos-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">20.90 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nivel-dos-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">9.11 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Nivel tres de Lenguaje y Comunicación de PLANEA</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">32.59 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">26.18 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">28.10 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">12.22 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Nivel tres de Matemáticas de PLANEA</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nivel-tres-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">10.63 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nivel-tres-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">6.28 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nivel-tres-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">11.68 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nivel-tres-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">3.26 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Nivel uno de Lenguaje y Comunicación de PLANEA</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">25.74 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">37.83 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">39.64 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">54.03 %</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Nivel uno de Matemáticas de PLANEA</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nivel-uno-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">57.00 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nivel-uno-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">71.80 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nivel-uno-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">59.88 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nivel-uno-de-matematicas-de-planea.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, SEP">87.12 %</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>

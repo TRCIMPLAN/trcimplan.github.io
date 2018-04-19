@@ -122,7 +122,6 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento.html" target="_blank">Sectores que Han Frenado el Crecimiento</a></li>
               <li><a href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento.html" target="_blank">Sectores que Han Presentado Alto Crecimiento</a></li>
               <li><a href="../indicadores-torreon/economia-sitios-unesco.html" target="_blank">Sitios UNESCO</a></li>
-              <li><a href="../indicadores-torreon/economia-supervivencia-de-los-negocios.html" target="_blank">Supervivencia de los negocios.</a></li>
               <li><a href="../indicadores-torreon/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
               <li><a href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" target="_blank">Tasa de Condiciones Críticas de Ocupación</a></li>
               <li><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
@@ -174,7 +173,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-torreon/seguridad-cantidad-de-policias.html" target="_blank">Cantidad de Policías</a></li>
               <li><a href="../indicadores-torreon/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-torreon/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
+              <li><a href="../indicadores-torreon/seguridad-delitos.html" target="_blank">Delitos</a></li>
               <li><a href="../indicadores-torreon/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-torreon/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-torreon/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -184,8 +183,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/seguridad-presuntos-delitos-del-fuero-federal.html" target="_blank">Presuntos Delitos del Fuero Federal</a></li>
               <li><a href="../indicadores-torreon/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-torreon/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
-              <li><a href="../indicadores-torreon/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
+              <li><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
               <li><a href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-torreon/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-torreon/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -242,38 +240,17 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
               <li><a href="../indicadores-torreon/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
               <li><a href="../indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
-              <li><a href="../indicadores-torreon/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel cuatro de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-torreon/sociedad-nivel-cuatro-de-matematicas-de-planea.html" target="_blank">Nivel cuatro de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-torreon/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel dos de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-torreon/sociedad-nivel-dos-de-matematicas-de-planea.html" target="_blank">Nivel dos de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-torreon/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel tres de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-torreon/sociedad-nivel-tres-de-matematicas-de-planea.html" target="_blank">Nivel tres de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-torreon/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel uno de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-torreon/sociedad-nivel-uno-de-matematicas-de-planea.html" target="_blank">Nivel uno de Matemáticas de PLANEA</a></li>
               <li><a href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html" target="_blank">Población con al menos tres carencias sociales</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-al-menos-una-carencia-social.html" target="_blank">Población con al menos una carencia social</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-carencia-a-la-seguridad-social.html" target="_blank">Población con carencia a la seguridad social</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-carencia-alimentaria.html" target="_blank">Población con carencia alimentaria.</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html" target="_blank">Población con carencia de acceso a la salud</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-carencia-de-servicios-basicos.html" target="_blank">Población con carencia de servicios básicos</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-carencia-de-vivienda.html" target="_blank">Población con carencia de vivienda</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-carencia-educativa.html" target="_blank">Población con carencia educativa</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" target="_blank">Población con ingreso inferior a la línea de bienestar.</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html" target="_blank">Población con ingreso inferior a la línea de bienestar mínimo.</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" target="_blank">Población de 15 años o más analfabeta</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-no-pobre-y-no-vulnerable.html" target="_blank">Población no pobre y no vulnerable</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-vulnerable-por-carencias-sociales.html" target="_blank">Población vulnerable por carencias sociales</a></li>
-              <li><a href="../indicadores-torreon/sociedad-poblacion-vulnerable-por-ingresos.html" target="_blank">Población vulnerable por ingresos</a></li>
               <li><a href="../indicadores-torreon/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
               <li><a href="../indicadores-torreon/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
               <li><a href="../indicadores-torreon/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
               <li><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html" target="_blank">Promedio de Descendencia por Varón</a></li>
-              <li><a href="../indicadores-torreon/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html" target="_blank">Razón de ingreso de población con pobreza extrema</a></li>
               <li><a href="../indicadores-torreon/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
               <li><a href="../indicadores-torreon/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
               <li><a href="../indicadores-torreon/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
@@ -302,105 +279,43 @@ class PorRegiones extends \Base\Publicacion {
             <h3>Sustentabilidad</h3>
             <ul>
               <li><a href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-acciones-de-monitoreo-de-la-calidad-del-aire.html" target="_blank">Acciones de Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-actualizacion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Actualización de Resultados del Monitoreo de la Calidad del Aire</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-aprovechamiento-o-quema-de-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento o Quema de Biogás en Rellenos Sanitarios</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-arboles-plantados-por-ano.html" target="_blank">Árboles plantados por año</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-calidad-del-agua-superficial-demanda-bioquimica-de-oxigeno.html" target="_blank">Calidad del Agua Superficial (Demanda Bioquímica de Oxígeno)</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-calidad-del-agua-superficial-demanda-quimica-de-oxigeno.html" target="_blank">Calidad del Agua Superficial (Demanda Química de Oxígeno)</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-calidad-del-agua-superficial-solidos-suspendidos-totales.html" target="_blank">Calidad del Agua Superficial (Sólidos Suspendidos Totales)</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-dioxido-de-azufre-so2-en-el-aire.html" target="_blank">Concentración de Dióxido de Azufre (SO2) en el Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-dioxido-de-nitrogeno-no2-en-el-aire.html" target="_blank">Concentración de Dióxido de Nitrógeno (NO2) en el Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-ozono-o3-en-el-aire.html" target="_blank">Concentración de Ozono (O3) en el Aire</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras.html" target="_blank">Concentración de Partículas menores a 10 micras</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-10-micras-promedio-anual.html" target="_blank">Concentración de Partículas Menores a 10 micras (Promedio Anual)</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-particulas-menores-a-2-5-micras-promedio-anual.html" target="_blank">Concentración de Partículas Menores a 2.5 micras (Promedio Anual)</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-concentracion-de-particulas-suspendidas-totales.html" target="_blank">Concentración de Partículas Suspendidas Totales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html" target="_blank">Consumo de Agua Facturado</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-potable.html" target="_blank">Consumo de Agua Potable</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-consumo-total-de-agua-para-uso-domestico-per-capita.html" target="_blank">Consumo Total de Agua para Uso Doméstico Per Cápita</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-consumo-total-de-agua-per-capita.html" target="_blank">Consumo Total de Agua Per Cápita</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-con-depositos-de-basura.html" target="_blank">Cumplimiento con depósitos de basura</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-con-financiamiento-de-gestion-de-residuos.html" target="_blank">Cumplimiento con financiamiento de gestión de residuos</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-con-mecanismos-de-sancion-en-materia-de-residuos.html" target="_blank">Cumplimiento con mecanismos de sanción en materia de residuos</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-con-programas-de-cuidado-de-flora-y-fauna.html" target="_blank">Cumplimiento con programas de cuidado de flora y fauna</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-con-programas-de-limpieza.html" target="_blank">Cumplimiento con programas de limpieza</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-con-promocion-a-la-reforestacion.html" target="_blank">Cumplimiento con promoción a la reforestación</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-de-capacitacion-en-proteccion-de-recursos-naturales.html" target="_blank">Cumplimiento de capacitación en protección de recursos naturales</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-de-la-normatividad-de-emisiones-a-la-atmosfera.html" target="_blank">Cumplimiento de la Normatividad de Emisiones a la Atmósfera</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-de-legislacion-en-residuos.html" target="_blank">Cumplimiento de legislación en residuos</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-de-normatividad-en-recursos-naturales.html" target="_blank">Cumplimiento de Normatividad en Recursos Naturales</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-de-reglamentos-de-recursos-naturales.html" target="_blank">Cumplimiento de Reglamentos de Recursos Naturales</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-cumplimiento-de-reglamentos-de-residuos.html" target="_blank">Cumplimiento de reglamentos de residuos</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-densidad-media-urbana.html" target="_blank">Densidad Media Urbana</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-difusion-de-datos-sobre-la-calidad-del-aire.html" target="_blank">Difusión de Datos sobre la Calidad del Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Difusión de Resultados del Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-disponibilidad-de-acuiferos.html" target="_blank">Disponibilidad de Acuíferos</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-disponibilidad-de-datos-de-monitoreo-verificados-por-el-inecc.html" target="_blank">Disponibilidad de Datos de Monitoreo verificados por el INECC</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-emisiones-de-gases-de-efecto-invernadero-per-capita.html" target="_blank">Emisiones de Gases de Efecto Invernadero Pér Cápita</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-estrategia-de-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Estrategia de Difusión de Resultados del Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html" target="_blank">Existencia de Programa de Gestión de Calidad del Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html" target="_blank">Existencia de Programa de Gestión de Calidad del Aire</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-hectareas-de-zonas-verdes.html" target="_blank">Hectáreas de zonas verdes</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-inspeccion-y-sancion-sistematica-de-fuentes-de-contaminacion.html" target="_blank">Inspección y Sanción Sistemática de Fuentes de Contaminación</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-intensidad-energetica-en-la-economia.html" target="_blank">Intensidad Energética en la Economía</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-kilometros-de-carril-bici-por-cada-100-000-habitantes.html" target="_blank">Kilómetros de carril bici por cada 100 000 habitantes</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-numero-anual-de-viajes-en-transporte-publico-per-capita.html" target="_blank">Número Anual de Viajes en Transporte Público Per Cápita</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-numero-de-automoviles-particulares-per-capita.html" target="_blank">Número de Automóviles Particulares Per Cápita</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-numero-de-vehiculos-motorizados-de-dos-ruedas-per-capita.html" target="_blank">Número de vehículos motorizados de dos ruedas per cápita</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" target="_blank">Pasajeros Aéreos Internacionales Anuales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-mensuales.html" target="_blank">Pasajeros Aéreos Internacionales Mensuales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-anual.html" target="_blank">Pasajeros Aéreos Totales Anual</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-mensuales.html" target="_blank">Pasajeros Aéreos Totales Mensuales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-peatones.html" target="_blank">Peatones</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-poblacion-con-servicio-regular-de-recogida-de-residuos.html" target="_blank">Población con servicio regular de recogida de residuos.</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-aguas-residuales-de-la-ciudad-que-no-ha-recibido-tratamiento.html" target="_blank">Porcentaje de Aguas Residuales de la Ciudad que No ha Recibido Tratamiento</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-aguas-residuales-de-la-ciudad-que-recibe-tratamiento-primario.html" target="_blank">Porcentaje de Aguas Residuales de la Ciudad que Recibe Tratamiento Primario</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-aguas-residuales-de-la-ciudad-que-recibe-tratamiento-secundario.html" target="_blank">Porcentaje de Aguas Residuales de la Ciudad que Recibe Tratamiento Secundario</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-aguas-residuales-de-la-ciudad-que-recibe-tratamiento-terciario.html" target="_blank">Porcentaje de Aguas Residuales de la Ciudad que Recibe Tratamiento Terciario</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-agua-tratada.html" target="_blank">Porcentaje de Agua Tratada</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-cambio-en-el-numero-de-especies-autoctonas.html" target="_blank">Porcentaje de cambio en el número de especies autóctonas</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-la-poblacion-de-la-ciudad-con-acceso-sostenible-a-una-fuente-de-agua-potable-mejorada.html" target="_blank">Porcentaje de la Población de la Ciudad con Acceso Sostenible a una Fuente de Agua Potable Mejorada</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-la-poblacion-de-la-ciudad-con-servicio-de-recogida-de-aguas-residuales.html" target="_blank">Porcentaje de la Población de la Ciudad con Servicio de Recogida de Aguas Residuales</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-porcentaje-de-perdida-de-agua.html" target="_blank">Porcentaje de Pérdida de Agua</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-programa-para-el-cuidado-de-la-calidad-del-aire.html" target="_blank">Programa para el Cuidado de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html" target="_blank">Proporción de viviendas con recolección de basura</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-recomendaciones-para-la-calidad-del-aire.html" target="_blank">Recomendaciones para la Calidad del Aire</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-red-de-transporte-publico.html" target="_blank">Red de Transporte Público</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html" target="_blank">Regalo o venta de residuos reutilizables.</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-reglamentacion-local-para-emisiones-a-la-atmosfera.html" target="_blank">Reglamentación Local para Emisiones a la Atmósfera</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-residuos-peligrosos-generados.html" target="_blank">Residuos peligrosos generados</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-residuos-solidos-eliminados-en-vertederos.html" target="_blank">Residuos sólidos eliminados en vertederos</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-residuos-solidos-reciclados.html" target="_blank">Residuos sólidos reciclados</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-residuos-solidos-recogidos-per-capita.html" target="_blank">Residuos sólidos recogidos per capita</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-separacion-basica-de-residuos.html" target="_blank">Separación básica de residuos</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-sistemas-ligeros-de-transporte-publico-de-pasajeros.html" target="_blank">Sistemas Ligeros de Transporte Público de Pasajeros</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-automoviles.html" target="_blank">Usuarios de Automóviles</a></li>
@@ -410,7 +325,6 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
-              <li><a href="../indicadores-torreon/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html" target="_blank">Viviendas que queman o entierran la basura</a></li>
             </ul>
           </div>
         </div>
@@ -482,7 +396,6 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento.html" target="_blank">Sectores que Han Frenado el Crecimiento</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento.html" target="_blank">Sectores que Han Presentado Alto Crecimiento</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-sitios-unesco.html" target="_blank">Sitios UNESCO</a></li>
-              <li><a href="../indicadores-gomez-palacio/economia-supervivencia-de-los-negocios.html" target="_blank">Supervivencia de los negocios.</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" target="_blank">Tasa de Condiciones Críticas de Ocupación</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
@@ -523,7 +436,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-gomez-palacio/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-delitos.html" target="_blank">Delitos</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -535,8 +448,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-federal.html" target="_blank">Presuntos Delitos del Fuero Federal</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
-              <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -591,37 +503,16 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel cuatro de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-nivel-cuatro-de-matematicas-de-planea.html" target="_blank">Nivel cuatro de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel dos de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-nivel-dos-de-matematicas-de-planea.html" target="_blank">Nivel dos de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel tres de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-nivel-tres-de-matematicas-de-planea.html" target="_blank">Nivel tres de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel uno de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-nivel-uno-de-matematicas-de-planea.html" target="_blank">Nivel uno de Matemáticas de PLANEA</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html" target="_blank">Población con al menos tres carencias sociales</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-al-menos-una-carencia-social.html" target="_blank">Población con al menos una carencia social</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-a-la-seguridad-social.html" target="_blank">Población con carencia a la seguridad social</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-alimentaria.html" target="_blank">Población con carencia alimentaria.</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html" target="_blank">Población con carencia de acceso a la salud</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-servicios-basicos.html" target="_blank">Población con carencia de servicios básicos</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-de-vivienda.html" target="_blank">Población con carencia de vivienda</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-carencia-educativa.html" target="_blank">Población con carencia educativa</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" target="_blank">Población con ingreso inferior a la línea de bienestar.</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html" target="_blank">Población con ingreso inferior a la línea de bienestar mínimo.</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" target="_blank">Población de 15 años o más analfabeta</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-no-pobre-y-no-vulnerable.html" target="_blank">Población no pobre y no vulnerable</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-vulnerable-por-carencias-sociales.html" target="_blank">Población vulnerable por carencias sociales</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-vulnerable-por-ingresos.html" target="_blank">Población vulnerable por ingresos</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
-              <li><a href="../indicadores-gomez-palacio/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html" target="_blank">Razón de ingreso de población con pobreza extrema</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
@@ -650,46 +541,33 @@ FINAL;
             <h3>Sustentabilidad</h3>
             <ul>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-acciones-de-monitoreo-de-la-calidad-del-aire.html" target="_blank">Acciones de Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-actualizacion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Actualización de Resultados del Monitoreo de la Calidad del Aire</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-aprovechamiento-o-quema-de-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento o Quema de Biogás en Rellenos Sanitarios</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-agua-potable.html" target="_blank">Consumo de Agua Potable</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-densidad-media-urbana.html" target="_blank">Densidad Media Urbana</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-difusion-de-datos-sobre-la-calidad-del-aire.html" target="_blank">Difusión de Datos sobre la Calidad del Aire</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Difusión de Resultados del Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-acuiferos.html" target="_blank">Disponibilidad de Acuíferos</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-datos-de-monitoreo-verificados-por-el-inecc.html" target="_blank">Disponibilidad de Datos de Monitoreo verificados por el INECC</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
+              <li><a href="../indicadores-gomez-palacio/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html" target="_blank">Existencia de Programa de Gestión de Calidad del Aire</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html" target="_blank">Existencia de Programa de Gestión de Calidad del Aire</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-intensidad-energetica-en-la-economia.html" target="_blank">Intensidad Energética en la Economía</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-peatones.html" target="_blank">Peatones</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html" target="_blank">Proporción de viviendas con recolección de basura</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-recomendaciones-para-la-calidad-del-aire.html" target="_blank">Recomendaciones para la Calidad del Aire</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html" target="_blank">Regalo o venta de residuos reutilizables.</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
@@ -700,7 +578,6 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
-              <li><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html" target="_blank">Viviendas que queman o entierran la basura</a></li>
             </ul>
           </div>
         </div>
@@ -772,7 +649,6 @@ FINAL;
               <li><a href="../indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento.html" target="_blank">Sectores que Han Frenado el Crecimiento</a></li>
               <li><a href="../indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento.html" target="_blank">Sectores que Han Presentado Alto Crecimiento</a></li>
               <li><a href="../indicadores-lerdo/economia-sitios-unesco.html" target="_blank">Sitios UNESCO</a></li>
-              <li><a href="../indicadores-lerdo/economia-supervivencia-de-los-negocios.html" target="_blank">Supervivencia de los negocios.</a></li>
               <li><a href="../indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
               <li><a href="../indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html" target="_blank">Tasa de Condiciones Críticas de Ocupación</a></li>
               <li><a href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
@@ -813,7 +689,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-lerdo/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-delitos.html" target="_blank">Delitos</a></li>
               <li><a href="../indicadores-lerdo/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-lerdo/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -821,8 +697,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-lerdo/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
-              <li><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -877,37 +752,16 @@ FINAL;
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
               <li><a href="../indicadores-lerdo/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel cuatro de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-nivel-cuatro-de-matematicas-de-planea.html" target="_blank">Nivel cuatro de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel dos de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-nivel-dos-de-matematicas-de-planea.html" target="_blank">Nivel dos de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel tres de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-nivel-tres-de-matematicas-de-planea.html" target="_blank">Nivel tres de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel uno de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-nivel-uno-de-matematicas-de-planea.html" target="_blank">Nivel uno de Matemáticas de PLANEA</a></li>
               <li><a href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-lerdo/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html" target="_blank">Población con al menos tres carencias sociales</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-al-menos-una-carencia-social.html" target="_blank">Población con al menos una carencia social</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-carencia-a-la-seguridad-social.html" target="_blank">Población con carencia a la seguridad social</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-carencia-alimentaria.html" target="_blank">Población con carencia alimentaria.</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html" target="_blank">Población con carencia de acceso a la salud</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-carencia-de-servicios-basicos.html" target="_blank">Población con carencia de servicios básicos</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-carencia-de-vivienda.html" target="_blank">Población con carencia de vivienda</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-carencia-educativa.html" target="_blank">Población con carencia educativa</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" target="_blank">Población con ingreso inferior a la línea de bienestar.</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html" target="_blank">Población con ingreso inferior a la línea de bienestar mínimo.</a></li>
               <li><a href="../indicadores-lerdo/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" target="_blank">Población de 15 años o más analfabeta</a></li>
               <li><a href="../indicadores-lerdo/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
               <li><a href="../indicadores-lerdo/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-no-pobre-y-no-vulnerable.html" target="_blank">Población no pobre y no vulnerable</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-vulnerable-por-carencias-sociales.html" target="_blank">Población vulnerable por carencias sociales</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-poblacion-vulnerable-por-ingresos.html" target="_blank">Población vulnerable por ingresos</a></li>
               <li><a href="../indicadores-lerdo/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
               <li><a href="../indicadores-lerdo/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
               <li><a href="../indicadores-lerdo/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
-              <li><a href="../indicadores-lerdo/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html" target="_blank">Razón de ingreso de población con pobreza extrema</a></li>
               <li><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
               <li><a href="../indicadores-lerdo/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
               <li><a href="../indicadores-lerdo/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
@@ -936,45 +790,32 @@ FINAL;
             <h3>Sustentabilidad</h3>
             <ul>
               <li><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-acciones-de-monitoreo-de-la-calidad-del-aire.html" target="_blank">Acciones de Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-actualizacion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Actualización de Resultados del Monitoreo de la Calidad del Aire</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-aprovechamiento-o-quema-de-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento o Quema de Biogás en Rellenos Sanitarios</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-consumo-de-agua-potable.html" target="_blank">Consumo de Agua Potable</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-densidad-media-urbana.html" target="_blank">Densidad Media Urbana</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-difusion-de-datos-sobre-la-calidad-del-aire.html" target="_blank">Difusión de Datos sobre la Calidad del Aire</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Difusión de Resultados del Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-acuiferos.html" target="_blank">Disponibilidad de Acuíferos</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-datos-de-monitoreo-verificados-por-el-inecc.html" target="_blank">Disponibilidad de Datos de Monitoreo verificados por el INECC</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
+              <li><a href="../indicadores-lerdo/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html" target="_blank">Existencia de Programa de Gestión de Calidad del Aire</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html" target="_blank">Existencia de Programa de Gestión de Calidad del Aire</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-intensidad-energetica-en-la-economia.html" target="_blank">Intensidad Energética en la Economía</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-peatones.html" target="_blank">Peatones</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html" target="_blank">Proporción de viviendas con recolección de basura</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-recomendaciones-para-la-calidad-del-aire.html" target="_blank">Recomendaciones para la Calidad del Aire</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html" target="_blank">Regalo o venta de residuos reutilizables.</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
@@ -985,7 +826,6 @@ FINAL;
               <li><a href="../indicadores-lerdo/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
-              <li><a href="../indicadores-lerdo/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html" target="_blank">Viviendas que queman o entierran la basura</a></li>
             </ul>
           </div>
         </div>
@@ -1098,7 +938,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-matamoros/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-delitos.html" target="_blank">Delitos</a></li>
               <li><a href="../indicadores-matamoros/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-matamoros/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -1110,8 +950,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-federal.html" target="_blank">Presuntos Delitos del Fuero Federal</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-matamoros/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
-              <li><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -1166,37 +1005,16 @@ FINAL;
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
               <li><a href="../indicadores-matamoros/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-nivel-cuatro-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel cuatro de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-nivel-cuatro-de-matematicas-de-planea.html" target="_blank">Nivel cuatro de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-nivel-dos-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel dos de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-nivel-dos-de-matematicas-de-planea.html" target="_blank">Nivel dos de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-nivel-tres-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel tres de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-nivel-tres-de-matematicas-de-planea.html" target="_blank">Nivel tres de Matemáticas de PLANEA</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-nivel-uno-de-lenguaje-y-comunicacion-de-planea.html" target="_blank">Nivel uno de Lenguaje y Comunicación de PLANEA</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-nivel-uno-de-matematicas-de-planea.html" target="_blank">Nivel uno de Matemáticas de PLANEA</a></li>
               <li><a href="../indicadores-matamoros/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-matamoros/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-al-menos-tres-carencias-sociales.html" target="_blank">Población con al menos tres carencias sociales</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-al-menos-una-carencia-social.html" target="_blank">Población con al menos una carencia social</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-carencia-a-la-seguridad-social.html" target="_blank">Población con carencia a la seguridad social</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-carencia-alimentaria.html" target="_blank">Población con carencia alimentaria.</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-carencia-de-acceso-a-la-salud.html" target="_blank">Población con carencia de acceso a la salud</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-carencia-de-servicios-basicos.html" target="_blank">Población con carencia de servicios básicos</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-carencia-de-vivienda.html" target="_blank">Población con carencia de vivienda</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-carencia-educativa.html" target="_blank">Población con carencia educativa</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" target="_blank">Población con ingreso inferior a la línea de bienestar.</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar-minimo.html" target="_blank">Población con ingreso inferior a la línea de bienestar mínimo.</a></li>
               <li><a href="../indicadores-matamoros/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" target="_blank">Población de 15 años o más analfabeta</a></li>
               <li><a href="../indicadores-matamoros/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
               <li><a href="../indicadores-matamoros/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-no-pobre-y-no-vulnerable.html" target="_blank">Población no pobre y no vulnerable</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-vulnerable-por-carencias-sociales.html" target="_blank">Población vulnerable por carencias sociales</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-poblacion-vulnerable-por-ingresos.html" target="_blank">Población vulnerable por ingresos</a></li>
               <li><a href="../indicadores-matamoros/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
               <li><a href="../indicadores-matamoros/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
               <li><a href="../indicadores-matamoros/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
-              <li><a href="../indicadores-matamoros/sociedad-razon-de-ingreso-de-poblacion-con-pobreza-extrema.html" target="_blank">Razón de ingreso de población con pobreza extrema</a></li>
               <li><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
               <li><a href="../indicadores-matamoros/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
               <li><a href="../indicadores-matamoros/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
@@ -1225,45 +1043,32 @@ FINAL;
             <h3>Sustentabilidad</h3>
             <ul>
               <li><a href="../indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-acciones-de-monitoreo-de-la-calidad-del-aire.html" target="_blank">Acciones de Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-actualizacion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Actualización de Resultados del Monitoreo de la Calidad del Aire</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-aprovechamiento-o-quema-de-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento o Quema de Biogás en Rellenos Sanitarios</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-consumo-de-agua-potable.html" target="_blank">Consumo de Agua Potable</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-densidad-media-urbana.html" target="_blank">Densidad Media Urbana</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-difusion-de-datos-sobre-la-calidad-del-aire.html" target="_blank">Difusión de Datos sobre la Calidad del Aire</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-difusion-de-resultados-del-monitoreo-de-la-calidad-del-aire.html" target="_blank">Difusión de Resultados del Monitoreo de la Calidad del Aire</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-disponibilidad-de-acuiferos.html" target="_blank">Disponibilidad de Acuíferos</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-disponibilidad-de-datos-de-monitoreo-verificados-por-el-inecc.html" target="_blank">Disponibilidad de Datos de Monitoreo verificados por el INECC</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
+              <li><a href="../indicadores-matamoros/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html" target="_blank">Existencia de Programa de Gestión de Calidad del Aire</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-existencia-de-programa-de-gestion-de-calidad-del-aire.html" target="_blank">Existencia de Programa de Gestión de Calidad del Aire</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-intensidad-energetica-en-la-economia.html" target="_blank">Intensidad Energética en la Economía</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-peatones.html" target="_blank">Peatones</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-proporcion-de-viviendas-con-recoleccion-de-basura.html" target="_blank">Proporción de viviendas con recolección de basura</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-recomendaciones-para-la-calidad-del-aire.html" target="_blank">Recomendaciones para la Calidad del Aire</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-regalo-o-venta-de-residuos-reutilizables.html" target="_blank">Regalo o venta de residuos reutilizables.</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
@@ -1274,7 +1079,6 @@ FINAL;
               <li><a href="../indicadores-matamoros/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
-              <li><a href="../indicadores-matamoros/sustentabilidad-viviendas-que-queman-o-entierran-la-basura.html" target="_blank">Viviendas que queman o entierran la basura</a></li>
             </ul>
           </div>
         </div>
@@ -1386,7 +1190,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html" target="_blank">Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-competencia-de-servicios-notariales.html" target="_blank">Competencia de Servicios Notariales</a></li>
-              <li><a href="../indicadores-la-laguna/seguridad-delitos-del-fuero-comun.html" target="_blank">Delitos del Fuero Común</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-delitos.html" target="_blank">Delitos</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
@@ -1394,8 +1198,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
-              <li><a href="../indicadores-la-laguna/seguridad-robo-de-motocicleta.html" target="_blank">Robo de Motocicleta</a></li>
-              <li><a href="../indicadores-la-laguna/seguridad-robo-de-vehiculos-de-4-ruedas.html" target="_blank">Robo de Vehículos de 4 Ruedas</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -1447,8 +1250,8 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
-              <li><a href="../indicadores-la-laguna/sociedad-poblacion-con-ingreso-inferior-a-la-linea-de-bienestar.html" target="_blank">Población con ingreso inferior a la línea de bienestar.</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
@@ -1482,16 +1285,15 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
-              <li><a href="../indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion-la-laguna.html" target="_blank">Capacidad de Tratamiento de Agua en Operación (La Laguna)</a></li>
-              <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-agua-la-laguna.html" target="_blank">Consumo de Agua (La Laguna)</a></li>
-              <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-agua-potable.html" target="_blank">Consumo de Agua Potable</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
-              <li><a href="../indicadores-la-laguna/sustentabilidad-disponibilidad-de-acuiferos.html" target="_blank">Disponibilidad de Acuíferos</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>

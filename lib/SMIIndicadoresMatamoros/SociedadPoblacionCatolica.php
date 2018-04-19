@@ -43,7 +43,7 @@ class SociedadPoblacionCatolica extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Matamoros, Población, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Población', 'Sector Automotriz');
-        $this->fuentes     = array('INEGI. Censos de Población y Vivienda', 'CONEVAL');
+        $this->fuentes     = array('INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('Matamoros');
     } // constructor
 
@@ -67,8 +67,7 @@ class SociedadPoblacionCatolica extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '77.6000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
-            array('fecha' => '2010-12-31', 'valor' => '28.3000', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2010-12-31', 'valor' => '77.6000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -95,7 +94,7 @@ class SociedadPoblacionCatolica extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '83.7000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '82.8000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '82.1000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '28.3000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '77.6000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2010-12-31', 'valor' => '82.8000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
             array('region_nombre' => 'Nacional', 'fecha' => '2010-12-31', 'valor' => '82.7000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
