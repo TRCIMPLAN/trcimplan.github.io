@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-04-19</lastmod>
+    <lastmod>2018-04-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -18,6 +18,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-2.html</loc>
     <lastmod>2015-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/analisis-de-la-participacion-ciudadana.html</loc>
+    <lastmod>2018-04-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
