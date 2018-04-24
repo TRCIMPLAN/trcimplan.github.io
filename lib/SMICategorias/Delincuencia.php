@@ -94,11 +94,11 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1115</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">667</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">170</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">135</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2087</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">907</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">573</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">179</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">114</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1563</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

@@ -124,13 +124,7 @@ class Abastos extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return <<<FINAL
-![Mercado Abastos Torreon](abastos/abastos-mercado.jpg) Foto Mercado Abastos. Fuente: Javier Olivares. Leyendas Laguna.
-###Historia
-En Noviembre de 1887, el Sr. Eppen le encomendó el trazado de unos cuadros de tierra al Ing. Federico Wulff, junto al lugar donde iba a cruzar el Ferrocarril Internacional con el Ferrocarril Central, con la posibilidad de formar un centro de población junto a la Estación del Ferrocarril. Para 1896, se contaba con un terreno destinado a Plaza Pública, en el cual se plantaron fresnos del Valle de Allende en el estado de Chihuahua. Se inauguró en el año 1898 con el nombre **Plaza del 2 de Abril**, hoy conocida como **Plaza de Armas.**
-###Fuentes
-*[Historia de Torreón](http://www.torreonhistoria.galeon.com/aficiones1001256.html) [El Siglo](https://www.elsiglodedurango.com.mx/noticia/731894.moreleando-en-torreon.html)
-FINAL;
+        return '';
     } // resena
 
 } // Clase Abastos

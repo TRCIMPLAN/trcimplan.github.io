@@ -85,7 +85,8 @@ class SeguridadAccidentesViales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '1958', 'fuente_nombre' => 'INEGI', 'notas' => 'Número de accidentes registrados durante el año 2012.'),
             array('fecha' => '2013-12-31', 'valor' => '1831', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '4421', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '4876', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 38, crudo 20
+            array('fecha' => '2015-12-31', 'valor' => '4876', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '5110', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 40, crudo 21
     } // datos
 
     /**
@@ -109,13 +110,13 @@ class SeguridadAccidentesViales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '4876', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '1585', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '343', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '209', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '5110', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1691', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '342', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '132', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '7013', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2015-12-31', 'valor' => '14641', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Durango', 'fecha' => '2015-12-31', 'valor' => '5379', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'Coahuila', 'fecha' => '2016-12-31', 'valor' => '15330', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Durango', 'fecha' => '2016-12-31', 'valor' => '5700', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**

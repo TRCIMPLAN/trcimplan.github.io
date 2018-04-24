@@ -480,6 +480,24 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-11-30</td>
+        <td class="derecha">189</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">89</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-01-31</td>
+        <td class="derecha">114</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -504,36 +522,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2017-10-31</td>
-        <td>1115</td>
+        <td class="centrado">2018-01-31</td>
+        <td class="derecha">907</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2017-10-31</td>
-        <td>667</td>
+        <td class="centrado">2018-01-31</td>
+        <td class="derecha">573</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2017-10-31</td>
-        <td>170</td>
+        <td class="centrado">2018-01-31</td>
+        <td class="derecha">179</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2017-10-31</td>
-        <td>135</td>
+        <td class="centrado">2018-01-31</td>
+        <td class="derecha">114</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2017-10-31</td>
-        <td>2087</td>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">1,563</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
@@ -699,7 +717,10 @@
         { fecha: '2017-07-31', dato: 155 },
         { fecha: '2017-08-31', dato: 166 },
         { fecha: '2017-09-30', dato: 148 },
-        { fecha: '2017-10-31', dato: 135 }],
+        { fecha: '2017-10-31', dato: 135 },
+        { fecha: '2017-11-30', dato: 189 },
+        { fecha: '2017-12-31', dato: 89 },
+        { fecha: '2018-01-31', dato: 114 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -714,7 +735,7 @@
   if (typeof varSmiOtrasRegionesDelitosEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesDelitosEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDelitosEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 1115 },{ region: 'Gómez Palacio', dato: 667 },{ region: 'Lerdo', dato: 170 },{ region: 'Matamoros', dato: 135 },{ region: 'La Laguna', dato: 2087 }],
+      data: [{ region: 'Torreón', dato: 907 },{ region: 'Gómez Palacio', dato: 573 },{ region: 'Lerdo', dato: 179 },{ region: 'Matamoros', dato: 114 },{ region: 'La Laguna', dato: 1563 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
