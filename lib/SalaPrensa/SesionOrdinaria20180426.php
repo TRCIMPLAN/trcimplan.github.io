@@ -47,7 +47,7 @@ class SesionOrdinaria20180426 extends \Base\PublicacionSchemaBlogPosting {
         // Para el Organizador
         $this->categorias                 = array('Movilidad', 'Vialidad');
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones                   = array('Torreón');
     } // constructor
 
 } // Clase SesionOrdinaria20180426

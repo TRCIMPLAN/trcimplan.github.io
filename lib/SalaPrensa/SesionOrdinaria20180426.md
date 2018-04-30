@@ -1,4 +1,6 @@
 
+<img class="img-responsive" src="2018-04-26-sesion-ordinaria/consejo-implan-3.jpg" alt="Sesion de Consejo 3">
+
 ###Plan de Movilidad Activa busca un Torreón más humano y sustentable.
 
 Durante la Cuarta Sesión de Consejo Directivo celebrada este jueves 26 de abril, el Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón, realizó la presentación del Plan de Movilidad Activa, en conjunto con la dirección de
@@ -30,12 +32,18 @@ habitantes; un auto por cada 4.7 habitantes.
 * De seguir con la tendencia actual de crecimiento vehicular, en el 2030, uno
 de cada dos laguneros, usaría automóvil.
 
-* Principales causas de muerte en la ZML: 1. Enfermedades del corazón 2.
-Diabetes Mellitus 3. Tumores malignos 4. Enfermedades cerebrovasculares
-5. Siniestros de tránsito.
+* Principales causas de muerte en la ZML:
+    1. Enfermedades del corazón
+    2. Diabetes Mellitus
+    3. Tumores malignos
+    4. Enfermedades cerebrovasculares
+    5. **Siniestros de tránsito.**
+
+.
 
 * Los siniestros de tránsito, son la principal causa de muerte en jóvenes de
 15 a 25 años.
+
 
 Por todo lo anterior, el IMPLAN y Movilidad No Motorizada proponen un modelo de
 Movilidad Sustentable, que significa: “Sin importar el modo de transporte que
@@ -68,7 +76,7 @@ Aldo Villarreal Murra.
 
 <img class="img-responsive" src="2018-04-26-sesion-ordinaria/consejo-implan-2.jpg" alt="Sesion de Consejo 2">
 
-<img class="img-responsive" src="2018-04-26-sesion-ordinaria/consejo-implan-3.jpg" alt="Sesion de Consejo 3">
+
 
 <img class="img-responsive" src="2018-04-26-sesion-ordinaria/consejo-implan-4.jpg" alt="Sesion de Consejo 4">
 
