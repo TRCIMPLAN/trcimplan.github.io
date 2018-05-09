@@ -42,6 +42,6 @@ Vehículo Ilegal|0.00%|2.61%|0.62%|0.12%|
 
 ###Gráfica
 
-<img class="img-responsive" src="como-manejamos-los-laguneros/vialidad-grafica.png" alt="¿Cómo manejamos los laguneros?">
+<img class="img-responsive" src="vialidad-mayo-2018/vialidad-grafica.png" alt="¿Cómo manejamos los laguneros?">
 
-<img class="img-responsive" src="como-manejamos-los-laguneros/proporcion-accidentes-vehiculos.png" alt="Proporción accidentes vehículos">
+<img class="img-responsive" src="vialidad-mayo-2018/proporcion-accidentes-vehiculos.png" alt="Proporción accidentes vehículos">
