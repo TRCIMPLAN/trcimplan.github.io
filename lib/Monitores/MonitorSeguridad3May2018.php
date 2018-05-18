@@ -25,7 +25,7 @@ namespace Monitores;
 /**
  * Clase Monitor de negocios
  */
-class MonitorEmpleo extends \Base\PublicacionSchemaArticle {
+class MonitorSeguridad3May2018 extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
@@ -34,14 +34,14 @@ class MonitorEmpleo extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Monitor del Empleo';
-        $this->autor                      = array('Lic. Alicia Valdez Ibarra','Lic. Ana Luisa Pacheco Meraz'); // Puede ser un arreglo de textos
-        $this->fecha                      = '2018-05-18T09:00';
+        $this->nombre                     = 'Monitor del Seguridad';
+        $this->autor                      = array('Lic. Daniel Alejandro López Murga','Lic. Ana Luisa Pacheco Meraz'); // Puede ser un arreglo de textos
+        $this->fecha                      = '2018-05-03T15:30';
         // El nombre del archivo a crear
-        $this->archivo                    = 'monitor-de-empleo'; // En minúsculas, sin espacios, use guiones, letras y números
+        $this->archivo                    = 'monitor-de-seguridad-3May2018'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Monitor de empleo para la Zona Metropolitana de La Laguna.';
-        $this->claves                     = 'IMPLAN, Torreon, Empleo, La Laguna';
+        $this->descripcion                = 'Monitor de Seguridad para la Zona Metropolitana de La Laguna.';
+        $this->claves                     = 'IMPLAN, Torreon, Seguridad, La Laguna';
         // Ruta al archivo markdown con el contenido
     //~$this->contenido_archivo_markdown = 'lib/Monitores/monitor-de-negocios.md';
         // Ruta al archivo HTML con el contenido
@@ -53,7 +53,7 @@ class MonitorEmpleo extends \Base\PublicacionSchemaArticle {
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
         $this->estado                     = 'publicar';
         // Para el Organizador
-        $this->categorias                 = array('Competitividad','Empleo','Empresas','Población');
+        $this->categorias                 = array('Seguridad');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón','La Laguna');
     } // constructor
@@ -66,8 +66,8 @@ class MonitorEmpleo extends \Base\PublicacionSchemaArticle {
     public function html() {
         // Cargar en el Schema el archivo HTML seguido del archivo Markdown
         $this->contenido->articleBody =
-            $this->cargar_archivo('lib/Monitores/MonitorEmpleo.html').
-            $this->cargar_archivo_markdown_extra('lib/Monitores/MonitorEmpleo.md');
+            $this->cargar_archivo('lib/Monitores/MonitorSeguridad3May2018.html').
+            $this->cargar_archivo_markdown_extra('lib/Monitores/MonitorSeguridad3May2018.md');
         // Ejecutar este método en el padre
         return parent::html();
     } // html
@@ -79,7 +79,7 @@ class MonitorEmpleo extends \Base\PublicacionSchemaArticle {
      */
     public function javascript() {
         // Cargar archivo externo
-        $this->javascript = $this->cargar_archivo('lib/Monitores/MonitorEmpleo.js');
+        $this->javascript = $this->cargar_archivo('lib/Monitores/MonitorSeguridad3May2018.js');
         // Entregar resultado del padre
         return parent::javascript();
     } // javascript

@@ -1,10 +1,10 @@
 ## Indicadores Empleo
 
-Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+Indicador                                                       |Dato    |Periodo           |Nivel	   	|Fuente             | 
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
 PEA|524,957 personas|2018 Marzo|ENOE - INEGI|La Laguna|
-Edad promedio de la PEA|39.6 anos|2018 Marzo|ENOE - INEGI|La Laguna|
-Anos promedio de escolaridad de la PEA|11.1|2018 Marzo|ENOE - INEGI|La Laguna|
+Edad promedio de la PEA|39.6 años|2018 Marzo|ENOE - INEGI|La Laguna|
+Años promedio de escolaridad de la PEA|11.1|2018 Marzo|ENOE - INEGI|La Laguna|
 % de la PEA Ocupada|94.76%|2018 Marzo|ENOE - INEGI|La Laguna|
 % de la PEA Desocupada|5.23%|2018 Marzo|ENOE - INEGI|La Laguna|
 Tasa de trabajo asalariado|73.3|2018 Marzo|ENOE - INEGI|La Laguna|

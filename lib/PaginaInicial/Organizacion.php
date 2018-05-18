@@ -98,6 +98,10 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
         $b[] = '<div class="slider">';
             $b[] = '<ul>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-mayo-00.jpg" alt="Imagen Empleo"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-seguridad-3May2018.html"><img src="imagenes\monitores\monitores-seguridad-mayo-2018-1.jpg" alt="Imagen Seguridad 1"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-seguridad-3May2018.html"><img src="imagenes\monitores\monitores-seguridad-mayo-2018-2.jpg" alt="Imagen Seguridad 2"></a>';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-seguridad-3May2018.html"><img src="imagenes\monitores\monitores-seguridad-mayo-2018-3.jpg" alt="Imagen Seguridad 3"></a>';
             $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-febrero-01.jpg" alt="Imagen Monitor Empleo"></a>';
             $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-negocios.html"><img src="imagenes\monitores\monitores-febrero-02.jpg" alt="Imagen Negocios"></a>';
             $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-sustentabilidad.html"><img src="imagenes\monitores\monitores-febrero-03.jpg" alt="Imagen Sustentabilidad 1"></a>';
