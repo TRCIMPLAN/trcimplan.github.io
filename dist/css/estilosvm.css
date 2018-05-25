@@ -8,27 +8,27 @@
 .slider ul{
     display:flex;
     padding:0;
-    width:480%;
+    width:600%;
 
     animation: cambio 120s infinite alternate linear;
     animation-timing-function:ease;
 }
 
 .slider li{
-    width:800%;
+    width:700%;
     list-style:none;
 }
 
 .slider a{
     width:500%;
     list-style:none;
-    padding:0;
+    padding:4;
 }
 
 .slider img{
-    width:90%;
+    width:95%;
     border-radius:15px;
-
+    padding:5;
 }
 
 
