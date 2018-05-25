@@ -202,7 +202,7 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Salario Promedio Mensual para Trabajadores de Tiempo Completo</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,983.93</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">7,324.55</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,254.41</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,603.44</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 4,705.54</a></td>
@@ -211,7 +211,7 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Condiciones Críticas de Ocupación</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">10.40 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">12.60 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.59 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">11.82 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.29 %</a></td>
@@ -220,7 +220,7 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">4.29 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">5.20 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.97 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">2.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.67 %</a></td>
@@ -229,7 +229,7 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Informalidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">45.92 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">40.30 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.82 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">39.10 %</a></td>
