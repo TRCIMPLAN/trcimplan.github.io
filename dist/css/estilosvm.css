@@ -8,84 +8,54 @@
 .slider ul{
     display:flex;
     padding:0;
-    width:900%;
+    width:480%;
 
-    animation: cambio 240s infinite alternate-reverse linear;
+    animation: cambio 120s infinite alternate linear;
     animation-timing-function:ease;
 }
 
 .slider li{
-    width:700%;
+    width:800%;
     list-style:none;
 }
 
 .slider a{
     width:500%;
     list-style:none;
+    padding:0;
 }
 
 .slider img{
     width:90%;
     border-radius:15px;
+
 }
 
 
 
 @keyframes cambio {
     0% {margin-left: 0;}
-    2% {margin-left: 0;}
+    10% {margin-left: 0;}
 
-    4% {margin-left: -50%;}
-    6% {margin-left: -50%;}
+    15% {margin-left: -50%;}
+    25% {margin-left: -50%;}
 
-    8% {margin-left: -100%;}
-    10% {margin-left: -100%;}
+    30% {margin-left: -100%;}
+    40% {margin-left: -100%;}
 
-    12% {margin-left: -150%;}
-    14% {margin-left: -150%;}
+    45% {margin-left: -200%;}
+    55% {margin-left: -200%;}
 
-    16% {margin-left: -200%;}
-    18% {margin-left: -200%;}
+    60% {margin-left: -300%;}
+    70% {margin-left: -300%;}
 
-    20% {margin-left: -250%;}
-    22% {margin-left: -250%;}
 
-    24% {margin-left: -300%;}
-    26% {margin-left: -300%;}
+    75% {margin-left: -400%;}
+    85% {margin-left: -400%;}
 
-    28% {margin-left: -350%;}
-    30% {margin-left: -350%;}
+    90% {margin-left: -500%;}
+    100% {margin-left: -500%;}
 
-    32% {margin-left: -400%;}
-    34% {margin-left: -400%;}
 
-    36% {margin-left: -450%;}
-    38% {margin-left: -450%;}
 
-    40% {margin-left: -500%;}
-    42% {margin-left: -500%;}
-
-    44% {margin-left: -550%;}
-    46% {margin-left: -550%;}
-
-    48% {margin-left: -600%;}
-    50% {margin-left: -600%;}
-
-    52% {margin-left: -650%;}
-    54% {margin-left: -650%;}
-
-    56% {margin-left: -700%;}
-    58% {margin-left: -700%;}
-
-    60% {margin-left: -750%;}
-    62% {margin-left: -750%;}
-
-    64% {margin-left: -800%;}
-    66% {margin-left: -800%;}
-
-    68% {margin-left: -850%;}
-    70% {margin-left: -850%;}
-
-    72% {margin-left: -900%;}
-    74% {margin-left: -900%;}
 }
