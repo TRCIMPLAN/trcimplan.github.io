@@ -8,7 +8,7 @@
 .slider ul{
     display:flex;
     padding:0;
-    width:600%;
+    width:900%;
 
     animation: cambio 120s infinite alternate linear;
     animation-timing-function:ease;
