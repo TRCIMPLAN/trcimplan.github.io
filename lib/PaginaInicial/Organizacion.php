@@ -95,7 +95,8 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '    <img class="banner" src="imagenes/banner-implan-2018-01.jpg" alt="IMPLAN Torreon">';
             //  $b[] = ' ';
             // $b[] = '<li></li>';
-            $b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
+            // $b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
+            $b[] = ' . ';
             $b[] = '<div class="slider">';
                 $b[] = '<ul>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-mayo-00.jpg" alt="Imagen Empleo 0"></a>';
