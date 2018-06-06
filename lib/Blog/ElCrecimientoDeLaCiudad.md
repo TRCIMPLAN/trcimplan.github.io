@@ -27,6 +27,7 @@ Si nos trasladamos a Europa podemos encontrar que el desarrollo de ciudades en S
 
 En este contexto, es necesario que exista una relación estrecha entra la planeación urbana y la planeación del transporte, que permita una oferta multimodal en la que se privilegien a los medios de transporte más sustentables y la accesibilidad de los habitantes a los diversos puntos de la ciudad.
 
+
 ##Cobertura del Transporte Público en Torreón
 
 <img class="img-responsive" src="el-crecimiento-de-la-ciudad/cobertura-del-transporte-publico-en-torreon.png" alt="Cobertura Transporte Público">
