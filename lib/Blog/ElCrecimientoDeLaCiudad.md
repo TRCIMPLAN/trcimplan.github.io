@@ -30,3 +30,8 @@ En este contexto, es necesario que exista una relación estrecha entra la planea
 ##Cobertura del Transporte Público en Torreón
 
 <img class="img-responsive" src="el-crecimiento-de-la-ciudad/cobertura-del-transporte-publico-en-torreon.png" alt="Cobertura Transporte Público">
+
+[VER COBERTURA DEL TRANSPORTE EN SIG IMPLAN](http://www.trcimplan.gob.mx/sig-mapas-torreon/cobertura-transporte.html)
+
+
+.
