@@ -33,3 +33,4 @@ Arq. Ángeles Melisa Rodríguez Salas      | Analista de Costos
 Lic. Israel Sinai Charur Méndez          | Difusión y Diseño Gráfico
 Lic. Adriana Vargas Flores               | Integración de Proyectos
 Ing. Natalia Zavala López                | Integración de Proyectos
+Lic. Alejandra Martínez Avilés           | Analista de Costos

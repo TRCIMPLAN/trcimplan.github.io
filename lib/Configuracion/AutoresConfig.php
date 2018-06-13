@@ -45,6 +45,7 @@ class AutoresConfig {
     public function __construct() {
         // Autor constructor parámetros: apodo, titulo, nombre_completo, icono, empresa, cargo, semblanza, email, twitter, perfil_archivo, estatus
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Adriana Vargas Flores',             'lic-adriana-vargas-flores',             'IMPLAN Torreón', 'Integración de Proyectos',              '', 'vargasadriana09@gmail.com', '');
+        $this->autores[] = new \Base\Autor('', 'Lic.', 'Alejandra Martínez Avilés',         'lic-alejandra-martinez-aviles',         'IMPLAN Torreón', 'Analista de Costos',                    '', '@hotmail.com', '');
     //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'Alejandra Villarreal Meza',         'lic-alejandra-villarreal-meza',         'IMPLAN Torreón', 'Secretario Técnico',                    '', 'alexavm10@hotmail.com', '');
     //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'José Alejandro Reyes Carrillo',     'lic-jose-alejandro-reyes-carrillo',     'IMPLAN Torreón', 'Coordinación Jurídica',                 '', 'transparencia@trcimplan.gob.mx', '');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Alicia Valdez Ibarra',              'lic-alicia-valdez-ibarra',              'IMPLAN Torreón', 'Director de Proyectos Estratégicos',    '', 'alicia.valdez.ibarra@gmail.com', '');
