@@ -35,7 +35,7 @@ class BeneficioDeLosParquimetros extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Beneficio de los parquímetros como política de estacionamiento';
-        $this->autor                      = 'Lic. Alejandra Martínez Avilés';
+        $this->autor                      = 'Arq. Alejandra Martínez Avilés';
         $this->fecha                      = '2018-06-13T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'beneficio-de-los-parquimetros';

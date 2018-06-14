@@ -45,12 +45,13 @@ class AutoresConfig {
     public function __construct() {
         // Autor constructor parámetros: apodo, titulo, nombre_completo, icono, empresa, cargo, semblanza, email, twitter, perfil_archivo, estatus
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Adriana Vargas Flores',             'lic-adriana-vargas-flores',             'IMPLAN Torreón', 'Integración de Proyectos',              '', 'vargasadriana09@gmail.com', '');
-        $this->autores[] = new \Base\Autor('', 'Lic.', 'Alejandra Martínez Avilés',         'lic-alejandra-martinez-aviles',         'IMPLAN Torreón', 'Analista de Costos',                    '', '@hotmail.com', '');
+        $this->autores[] = new \Base\Autor('', 'Arq.', 'Alejandra Martínez Avilés',         'arq-alejandra-martinez-aviles',         'IMPLAN Torreón', 'Analista de Costos',                    '', 'alemtzza@gmail.com', '');
     //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'Alejandra Villarreal Meza',         'lic-alejandra-villarreal-meza',         'IMPLAN Torreón', 'Secretario Técnico',                    '', 'alexavm10@hotmail.com', '');
     //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'José Alejandro Reyes Carrillo',     'lic-jose-alejandro-reyes-carrillo',     'IMPLAN Torreón', 'Coordinación Jurídica',                 '', 'transparencia@trcimplan.gob.mx', '');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Alicia Valdez Ibarra',              'lic-alicia-valdez-ibarra',              'IMPLAN Torreón', 'Director de Proyectos Estratégicos',    '', 'alicia.valdez.ibarra@gmail.com', '');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Ana Luisa Pacheco Meraz',           'lic-ana-luisa-pacheco-meraz',           'IMPLAN Torreón', 'Indicadores Sociodemográficos',         '', 'ana_luisa56@hotmail.com', '');
         //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'Alfredo Viesca Domínguez',          'lic-alfredo-viesca-dominguez',          'IMPLAN Torreón', 'Investigación Cualitativa',             '', 'alvidom27@hotmail.com', '');
+        $this->autores[] = new \Base\Autor('', 'Arq.', 'Carla Estefanía Tovar Triana',      'arq-carla-estefania-tovar-triana',      'IMPLAN Torreón', 'Integración de Proyectos',              '', '@gmail.com', '');
         $this->autores[] = new \Base\Autor('', 'Arq.', 'Cecilio Pedro Secunza Schott',      'arq-cecilio-pedro-secunza-schott',      'IMPLAN Torreón', 'Director de Planeación Urbana',         '', 'cecilio_88@hotmail.com', '');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Daniel Alejandro López Murga',      'lic-daniel-alejandro-lopez-murga',      'IMPLAN Torreón', 'Indicadores Sociodemográficos',         '', 'daniel_lmd@hotmail.com', '');
         $this->autores[] = new \Base\Autor('', 'Arq.', 'Daniela Patricia Corral Hernández', 'arq-daniela-patricia-corral-hernandez', 'IMPLAN Torreón', 'Analista SIG',                          '', 'daniela.corral07@gmail.com', '');
