@@ -82,7 +82,8 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '3.1100', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '4.2800', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '1.6700', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '2.9400', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 32, crudo 16
+            array('fecha' => '2016-12-31', 'valor' => '2.9400', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2017-12-31', 'valor' => '8.5787', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 34, crudo 17
     } // datos
 
     /**
@@ -106,8 +107,8 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '2.9400', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2016-12-31', 'valor' => '3.3600', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2017-12-31', 'valor' => '8.5787', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2017-12-31', 'valor' => '6.7700', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**
