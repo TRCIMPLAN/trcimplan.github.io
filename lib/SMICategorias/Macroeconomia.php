@@ -136,6 +136,15 @@ class Macroeconomia extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 31/12/2010, IMCO">$ 45,744.00</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 31/12/2010, IMCO">$ 421,204.00</a></td>
   </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Estimación de PIB</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-estimacion-de-pib.html" data-toggle="tooltip" title="Miles de millones de pesos, 31/12/2016, Citibanamex">279.3</a></td>
+  </tr>
 </tbody>
 </table>
 <h3>Otras regiones</h3>

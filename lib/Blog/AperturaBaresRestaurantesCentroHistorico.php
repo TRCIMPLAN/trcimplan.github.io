@@ -45,7 +45,7 @@ class AperturaBaresRestaurantesCentroHistorico extends \Base\PublicacionSchemaBl
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/AperturaBaresRestaurantesCentroHistorico.md';
         // Para el Organizador
-        $this->categorias                 = array('Empresas');
+        $this->categorias                 = array('Empresas','Doing Business');
         $this->fuentes                    = array('Departamento de Apertura de empresas y Ventanilla Universal de Municipio de Torreón');
         $this->regiones                   = array('Torreón');
     } // constructor
