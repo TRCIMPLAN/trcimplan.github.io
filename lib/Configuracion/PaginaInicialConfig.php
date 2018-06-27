@@ -48,8 +48,12 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido_en_renglon     = FALSE;
         $this->google_site_verification = '<meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
         // Definir las secciones, al dividirlas es más fácil activarlas, desactivarlas o cambiar su orden
+
+
         $this->secciones   = array();
         $this->secciones[] = '\\PaginaInicial\\Organizacion';
+
+        /**     POR ELECCIONES BLOQUEADO
     //~ $this->secciones[] = '\\PaginaInicial\\GoogleBuscador';
     //~ $this->secciones[] = '\\PaginaInicial\\Aviso';
         $this->secciones[] = '\\PaginaInicial\\Servicios';
@@ -59,6 +63,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->secciones[] = '\\PaginaInicial\\Categorias';
         $this->secciones[] = '\\PaginaInicial\\Mapas';
         $this->secciones[] = '\\PaginaInicial\\Redes';
+
+        */
     } // constructor
 
     /**

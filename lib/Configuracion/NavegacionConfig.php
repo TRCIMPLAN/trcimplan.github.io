@@ -30,34 +30,49 @@ class NavegacionConfig {
     protected $sitio_titulo = 'IMPLAN Torreón';
     protected $logotipo     = 'imagenes/implan-barra-logo-chico-gris.png';
     protected $opciones     = array(
-        'Análisis Publicados'                                         => 'blog/index.html',
+        'Análisis Publicados' => 'trcimplan_sitioweb/index.html',    // ELIMINAR
+        //'Análisis Publicados'                                         => 'blog/index.html',     BLOQUEADO POR ELECCIONES 2018
         'Indicadores' => array(
+        /**    BLOQUEO POR ELECCIONES 2018
             'Indicadores > Introducción al SMI'                       => 'smi/introduccion.html',
             'Indicadores > Indicadores por Categoría'                 => 'indicadores-categorias/index.html',
             'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
             'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
             'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
             'Indicadores > Monitores'                                 => 'monitores/index.html'),
+        */
+        ),   //ELIMINAR
         'Indicadores Básicos de Colonias' => array(
+        /**    BLOQUEO POR ELECCIONES 2018
             'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
             'Indicadores Básicos de Colonias > Colonias de Torreón'   => 'ibc-colonias-torreon/index.html',
             'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map',
             'Indicadores Básicos de Colonias > Torreón Urbano'        => 'ibc/torreon-urbano.html',
             'Indicadores Básicos de Colonias > Catálogo de Conceptos' => 'ibc/catalogo-conceptos.html',
             'Indicadores Básicos de Colonias > Datos Abiertos'        => 'ibc/datos-abiertos.html'),
+        */
+        ),   //ELIMINAR
         'Información Geográfica' => array(
+        /**    BLOQUEO POR ELECCIONES 2018
             'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
             'Información Geográfica > Planes'                         => 'sig-planes/index.html',
             'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
             'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html'),
+        */
+        ),   //ELIMINAR
         'Plan Estratégico Torreón 2040' => array(
+        /**    BLOQUEO POR ELECCIONES 2018
             'Plan Estratégico Torreón 2040 > Índice General'          => 'pet/indice.html',
             'Plan Estratégico Torreón 2040 > Índice Alfabético'       => 'pet/index.html',
             'Plan Estratégico Torreón 2040 > Descargar'               => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html',
             'Plan Estratégico Torreón 2040 > Descripción del proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
             'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html'),
-        'Investigaciones' => 'investigaciones/index.html',
+        */
+        ),   //ELIMINAR
+        'Investigaciones' => 'www.trcimplan.gob.mx/index.html',    // ELIMINAR
+        //'Investigaciones' => 'investigaciones/index.html',      bloque por Elecciones 2018
         'Institucional' => array(
+        /**    BLOQUEO POR ELECCIONES 2018
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
             'Institucional > Mensaje del Director'                    => 'institucional/mensaje-director.html',
             'Institucional > Quienes Somos'                           => 'autores/index.html',
@@ -65,9 +80,12 @@ class NavegacionConfig {
             'Institucional > Modelo Operativo Univ.'                  => 'institucional/modelo-operativo-universal.html',
             'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
             //~'Institucional > Transparencia'                           => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),
+        */
+        ),   // ELIMINAR
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
         'Transparencia'                                               => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
-        'Sala de Prensa'                                              => 'sala-prensa/index.html',
+        'Sala de Prensa' => 'www.trcimplan.gob.mx/index.html',    // ELIMINAR
+        //'Sala de Prensa'                                              => 'sala-prensa/index.html',   // BLOQUEADO por Elecciones 2018
         'Términos de Uso' => array(
             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
             'Términos de Uso > Del sitio web'                         => 'terminos/terminos-sitio.html',
