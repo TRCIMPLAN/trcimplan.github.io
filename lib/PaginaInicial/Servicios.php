@@ -38,8 +38,7 @@ class Servicios {
         $smi->name        = 'Sistema Metropolitano de Indicadores';
         $smi->description = 'Mantenemos al día indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad para los municipios de la Laguna.';
         $smi->image       = 'servicio-smi';
-        /**$smi->url         = 'indicadores-categorias/index.html';   Por Elecciones 2018*/
-        $smi->url         = 'www.trcimplan.gob.mx/index.html';
+        $smi->url         = 'indicadores-categorias/index.html';
         $smi->botones     = array(
             '<i class="fa fa-th-list"></i> Por Categoría'        => 'indicadores-categorias/index.html',
             '<i class="fa fa-table"></i> Por Región'             => 'smi/por-region.html',
@@ -49,8 +48,7 @@ class Servicios {
         $sig->name        = 'Sistema de Información Geográfica';
         $sig->description = 'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.';
         $sig->image       = 'servicio-sig';
-        $smi->url         = 'www.trcimplan.gob.mx/index.html';
-        /**$sig->url         = 'sig-mapas-torreon/index.html';  Por Elecciones 2018*/
+        $sig->url         = 'sig-mapas-torreon/index.html';
         $sig->botones     = array(
             '<i class="fa fa-server"></i> Planes'                      => 'sig-planes/index.html',
             '<i class="fa fa-map-marker"></i> S.I.G. de Torreón'       => 'sig-mapas-torreon/index.html',
@@ -60,8 +58,7 @@ class Servicios {
         $pet->name        = 'Plan Estratégico Torreón 2040';
         $pet->description = 'Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.';
         $pet->image       = 'servicio-pet';
-        $smi->url         = 'www.trcimplan.gob.mx/index.html';
-        /** $pet->url         = 'pet/introduccion.html';    Por Elecciones 2018*/
+        $pet->url         = 'pet/introduccion.html';
         $pet->botones     = array(
             '<i class="fa fa-list-ul"></i> Índice General'           => 'pet/indice.html',
             '<i class="fa fa fa-font"></i> Índice Alfabético'        => 'pet/index.html',
@@ -74,9 +71,7 @@ class Servicios {
         $ibc->name        = 'Indicadores Básicos de Colonias';
         $ibc->description = 'Es la colonia la forma más común en que nos referimos a un lugar de nuestra ciudad.';
         $ibc->image       = 'servicio-ibc';
-        $smi->url         = 'www.trcimplan.gob.mx/index.html';
-
-        /** $ibc->url         = 'ibc/introduccion.html';Por Elecciones 2018*/
+        $ibc->url         = 'ibc/introduccion.html';
         $ibc->botones     = array(
             '<i class="fa fa-server"></i> Introducción'           => 'ibc/introduccion.html',
             '<i class="fa fa fa-font"></i> Colonias de Torreón'    => 'ibc-colonias-torreon/index.html',

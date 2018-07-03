@@ -97,7 +97,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<li></li>';
 
             //$b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
-            /**   BLOQUEO POR ELECCIONES 2018
+
             $b[] = ' . ';
             $b[] = '<div class="slider">';
                 $b[] = '<ul>';
@@ -122,7 +122,6 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-vivienda.html"><img src="imagenes\monitores\monitores-febrero-10.jpg" alt="Imagen Vivienda 17"></a>';
                 $b[] = '</ul>';
             $b[] = '</div>';
-*/
             //~ termina cambio VM
 
             $b[] = implode("\n", $a);
