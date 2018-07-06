@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-07-03</lastmod>
+    <lastmod>2018-07-06</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4371,6 +4371,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/red-ciclista2.html</loc>
+    <lastmod>2018-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/red-infraestructura-ciclista.html</loc>
     <lastmod>2018-04-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -4398,6 +4403,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/seguridad-publica.html</loc>
     <lastmod>2015-12-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/torreon-jardin.html</loc>
+    <lastmod>2018-07-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
