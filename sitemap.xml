@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-07-20</lastmod>
+    <lastmod>2018-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -233,6 +233,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/crecimiento-historico-de-la-vivienda-en-torreon.html</loc>
     <lastmod>2016-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/crecimiento-poblacional-en-torreon.html</loc>
+    <lastmod>2018-07-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
