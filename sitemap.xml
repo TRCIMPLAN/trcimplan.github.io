@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-07-23</lastmod>
+    <lastmod>2018-07-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -158,6 +158,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/ciudades-reto-transformacion.html</loc>
     <lastmod>2014-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/clima-urbano-la-ciudad-y-el-verde.html</loc>
+    <lastmod>2018-07-30</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
