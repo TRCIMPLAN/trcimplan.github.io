@@ -76,7 +76,7 @@ class AutoresConfig {
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Nayeli Alejandra García Rodríguez', 'lic-nayeli-alejandra-garcia-aguirre',   'IMPLAN Torreón', 'Auxiliar Administrativo',               '', 'nayeli_ale08@hotmail.com', '');
         $this->autores[] = new \Base\Autor('', 'Sra.', 'Olga Lidia Delgado Ramírez',        'sra-olga-lidia-delgado-ramirez',        'IMPLAN Torreón', 'Servicios de Limpieza',                 '', '', '');
         $this->autores[] = new \Base\Autor('', 'C.P.', 'Santa Julia Camarillo Aguirre',     'cp-santa-julia-camarillo-aguirre',      'IMPLAN Torreón', 'Contador',                              '', 'sanjuly_06@hotmail.com', '');
-        $this->autores[] = new \Base\Autor('', 'Ing.', 'Víctor Manuel Gómez Reynoso',       'lsci-victor-manuel-gomez-reynoso',      'IMPLAN Torreón', 'Programación y Software',               '', 'vmparadigma@hotmail.com', '');
+        $this->autores[] = new \Base\Autor('', 'Ing.', 'Víctor Manuel Gómez Reynoso',       'lsci-victor-manuel-gomez-reynoso',      'INSTITUTO MUNICIPAL DE PLANEACIÓN Y COMPETITIVIDAD DE TORREÓN. (IMPLAN)', 'Programación y Software',               '', 'vmparadigma@hotmail.com', '');
     //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'Javier de Jesús Valencia Jiménez',  'lic-javier-de-jesus-valencia-jimenez',  'IMPLAN Torreón', 'Auxiliar Administrativo',               '', 'javier_111192@hotmail.com', '');
     //~ $this->autores[] = new \Base\Autor('', 'Ing.', 'Luis Campos Hinojosa',              'unknown',                               'IMPLAN Torreón', 'Director de Investigación Estratégica', '', 'lcampos@trcimplan.gob.mx', '');
     } // constructor
