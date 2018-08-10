@@ -1,7 +1,9 @@
 
 <p align="center">
-  <img src="2018-08-10-comunicado-prensa/sesion20180810.jpg" width="800px" height="533px"/>
+  <img class="img-responsive" src="2018-08-10-comunicado-prensa/sesion20180810.jpg"/>
 </p>
+
+
 
 <p style="background-color:#4F81BD;color:white;"><strong>Séptima Sesión del Consejo del IMPLAN Torreón</strong></p>
 

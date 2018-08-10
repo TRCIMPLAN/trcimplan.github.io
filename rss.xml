@@ -5,7 +5,7 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Fri, 10 Aug 2018 12:13:43 -0500</pubDate>
+    <pubDate>Fri, 10 Aug 2018 12:25:44 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -17,7 +17,7 @@
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
       <author>Lic. Maira Ivonne Flores Reyes</author>
       <description><![CDATA[<p align="center">
-  <img src="http://www.trcimplan.gob.mx/sala-prensa/2018-08-10-comunicado-prensa/sesion20180810.jpg" width="800px" height="533px"/>
+  <img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2018-08-10-comunicado-prensa/sesion20180810.jpg"/>
 </p>
 
 <p style="background-color:#4F81BD;color:white;"><strong>Séptima Sesión del Consejo del IMPLAN Torreón</strong></p>
