@@ -1,7 +1,7 @@
 
-### Ciudadano, ciudadana:
+# Ciudadano, ciudadana:
 
-El Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN) es un espacio de gobernanza donde ciudadanos y gobierno diseñarán, planearán, programarán el futuro de La Laguna. Donde ciudadanos y gobierno promoverán los proyectos necesarios y suficientes para integrar a La Región de los Grandes Esfuerzos a la Sociedad del Conocimiento y a las metrópolis globalmente competitivas.
+El **Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN)** es un espacio de gobernanza donde ciudadanos y gobierno diseñarán, planearán, programarán el futuro de La Laguna. Donde ciudadanos y gobierno promoverán los proyectos necesarios y suficientes para integrar a La Región de los Grandes Esfuerzos a la Sociedad del Conocimiento y a las metrópolis globalmente competitivas.
 
 La Laguna debe integrarse, lo antes posible, a la Sociedad del Conocimiento y a las aldeas globales que rivalizan con éxito en el esfuerzo que emprenden las economías mundiales por la atracción de talentos e inversiones.
 
