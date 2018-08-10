@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-08-09</lastmod>
+    <lastmod>2018-08-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3788,6 +3788,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-06-17-comunicado-prensa.html</loc>
     <lastmod>2017-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2018-08-10-comunicado-prensa.html</loc>
+    <lastmod>2018-08-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
