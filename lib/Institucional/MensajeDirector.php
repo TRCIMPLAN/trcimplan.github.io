@@ -39,7 +39,7 @@ class MensajeDirector extends \Base\PublicacionSchemaArticle {
         $this->fecha                      = '2014-05-01T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'mensaje-director';
-        $this->imagen                     = 'mensaje-director/eduardo-olguin.jpg';
+        $this->imagen                     = 'mensaje-director/eduardo-holguin.jpg';
         $this->imagen_previa              = 'mensaje-director/eduardo-olguin-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Mensaje del Director General Ejecutivo del IMPLAN Torreón.';
