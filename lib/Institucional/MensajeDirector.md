@@ -18,5 +18,3 @@
 >>>Los profesionistas, la mayoría jóvenes, que conforman el cuerpo ejecutivo del IMPLAN auxiliarán a los consejeros a sustentar técnicamente sus análisis y la toma de decisiones, alejando a la planeación urbana de la improvisación y la ocurrencia.
 
 >>>Que mejor corolario para éste mensaje que el mencionar la visión del IMPLAN: Que La Laguna transite a una región vanguardista, globalmente competitiva y que sus habitantes logren una vida sana, segura, productiva, en armonía con sus tradiciones, valores culturales y espirituales; es decir, un equilibrio entre el desarrollo humano, la prosperidad económica, individual, colectiva y el respeto de los ecosistemas.
-
-[![eduardo-holguin-previa.jpg](http://www.trcimplan.gob.mx/institucional/mensaje-director/580×300)](http://www.trcimplan.gob.mx)

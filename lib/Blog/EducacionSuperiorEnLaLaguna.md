@@ -47,3 +47,13 @@ En conclusión, la amplia oferta de instituciones de educación superior en La L
 *Fuente: Anuario Estadístico de la Asociación Nacional de Universidades e Instituciones de Educación Superior, ciclo escolar 2016-2017.*
 
 ---
+
+*[WEF]: World Economic Forum
+
+*[FMI]: Fondo Monetario Internacional
+
+*[ZML]: Zona Metropolitana de la Laguna
+
+*[ANUIES]: Asociación Nacional de Universidades e Instituciones de Educación Superior
+
+*[CIDAC]: Centro de Investigación para el Desarrollo, A.C.
