@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-08-10</lastmod>
+    <lastmod>2018-08-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -298,6 +298,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/economia-sector-salud-laguna.html</loc>
     <lastmod>2014-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/educacion-superior-en-la-laguna.html</loc>
+    <lastmod>2018-08-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
