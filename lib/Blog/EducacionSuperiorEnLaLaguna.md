@@ -21,6 +21,12 @@ En cuanto a la Educación Media Superior, las carreras técnicas con mayor deman
 
 Actualmente, la oferta de carreras en La Laguna y la distribución de sus alumnos responden a las necesidades inmediatas del sector productivo local y nacional: en La Laguna 72% de la producción bruta total de la Zona Metropolitana es generada por la industria manufacturera, así como una tercera parte de los empleos de la economía; en el Estado de Coahuila, los Sectores Estratégicos definidos por el Plan de Desarrollo Estatal se dedican a la Ingeniería y Tecnología y; en México las políticas implementadas por el gobierno federal favorecen a sectores industriales como el Automotriz y Aeroespacial.
 
+---
+
+<img class="img-responsive" src="educacion-superior-en-la-laguna/automatizar.jpg" alt="automatizar">
+
+---
+
 Sin embargo, lo anterior no nos prepara para los retos que estamos por enfrentar. El WEF (World Economic Forum) y otros organismos multilaterales como el Fondo Monetario Internacional (FMI) y la Organización para la Cooperación y el Desarrollo Económico (OCDE) prevén que los impactos generados por los cambios tecnológicos y sociales se vean reflejados en los próximos cinco años. Algunos de los problemas son la polarización entre personas capacitadas y no capacitadas, desigualdad en el ingreso y mayor concentración del poder de mercado, entre otras.
 
 Algunos de los síntomas han comenzado a manifestarse incluso en La Laguna, el alto porcentaje de subocupados con educación superior y las altas tasas de desempleo en jóvenes, detectadas en las últimas encuestas de ocupación y empleo de INEGI, así como la brecha de competencias laborales de 42%, la deficiencia en las competencias blandas en los egresados universitarios y la mala calidad de la vinculación entre la academia y el sector productivo, detectadas por el Centro de Investigación para el Desarrollo, A.C. (CIDAC) hace un par de años, son algunas señales.
@@ -37,9 +43,7 @@ En conclusión, la amplia oferta de instituciones de educación superior en La L
 ---
 
 <img class="img-responsive" src="educacion-superior-en-la-laguna/grafica-carreras.png" alt="grafica-carreras">
-.
+
 *Fuente: Anuario Estadístico de la Asociación Nacional de Universidades e Instituciones de Educación Superior, ciclo escolar 2016-2017.*
 
 ---
-
-<img class="img-responsive" src="educacion-superior-en-la-laguna/automatizar.jpg" alt="automatizar">
