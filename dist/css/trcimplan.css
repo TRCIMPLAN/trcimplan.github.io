@@ -388,19 +388,19 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
  * Pagina Inicial Servicios
  */
 #destacado             { background-color:#D1D7DC; padding:8px; }
-.destacado-titulo      { line-height:1.2em; margin-bottom:4px; border-bottom:none; }
+.destacado-titulo      { line-height:1.2em; text-align: center; margin-bottom:4px; border-bottom:none; }
 .destacado-descripcion { font-size:12px; margin-bottom:4px; }
 .destacado-boton       { background-color:#F0F0F0; font-size:12px; }
 /* Imagenes que cambian al pasar el ratón */
-#servicio-ibc          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-ibc.png") no-repeat 0 0; }
+#servicio-ibc          { display:block; margin:auto; width:200px; height:200px; background:url("../../imagenes/servicio-ibc.png") no-repeat 0 0; }
 #servicio-ibc:hover    { background-position:-200px 0; }
-#servicio-smi          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-smi.png") no-repeat 0 0; }
+#servicio-smi          { display:block; margin:auto; width:200px; height:200px; background:url("../../imagenes/servicio-smi.png") no-repeat 0 0; }
 #servicio-smi:hover    { background-position:-200px 0; }
-#servicio-sig          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-sig.png") no-repeat 0 0; }
+#servicio-sig          { display:block; margin:auto; width:200px; height:200px; background:url("../../imagenes/servicio-sig.png") no-repeat 0 0; }
 #servicio-sig:hover    { background-position:-200px 0; }
-#servicio-pem          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-pem.png") no-repeat 0 0; }
+#servicio-pem          { display:block; margin:auto; width:200px; height:200px; background:url("../../imagenes/servicio-pem.png") no-repeat 0 0; }
 #servicio-pem:hover    { background-position:-200px 0; }
-#servicio-pet          { display:block; width:200px; height:200px; background:url("../../imagenes/servicio-pet.png") no-repeat 0 0; }
+#servicio-pet          { display:block; margin:auto; width:200px; height:200px; background:url("../../imagenes/servicio-pet.png") no-repeat 0 0; }
 #servicio-pet:hover    { background-position:-200px 0; }
 
 /*

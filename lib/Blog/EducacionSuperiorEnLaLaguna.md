@@ -39,7 +39,6 @@ Por otro lado, el WEF recomienda a la academia preparar a los estudiantes en hab
 
 En conclusión, la amplia oferta de instituciones de educación superior en La Laguna, representará una ventaja competitiva en la medida en la que éstas adapten sus áreas de estudio y programas a las nuevas demandas del entorno y establezcan una vinculación efectiva con las instituciones públicas y privadas de la región.
 
-
 ---
 
 <img class="img-responsive" src="educacion-superior-en-la-laguna/grafica-carreras.png" alt="grafica-carreras">
