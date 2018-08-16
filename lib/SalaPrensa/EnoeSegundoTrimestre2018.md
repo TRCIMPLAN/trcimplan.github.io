@@ -21,6 +21,8 @@ La Informalidad, porcentaje de empleos informales o el sector informal, ha perma
 
 La tasa de subocupación se ubica en 10%, cifra que representa a la población ocupada que tiene la necesidad y disponibilidad de ofertar más tiempo de trabajo de lo que su ocupación actual les permite. La tercera parte de esta población (32.7%) cuenta con educación superior; es decir, su condición de subocupación no se debe particularmente a la falta de preparación.
 
+<div style="clear:left;"></div><img class="img-responsive" src="2018-enoe/desempleo.jpg" alt="ENOE segundo trimestre 2018">
+
 La subocupación presentó un alza a partir del primer trimestre del presente año, período en el que el porcentaje de subocupados fue de 8.58%.
 
 
