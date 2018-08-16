@@ -40,7 +40,7 @@ class EnoeSegundoTrimestre2018 extends \Base\PublicacionSchemaBlogPosting {
         // El nombre del archivo a crear
         $this->archivo                    = '2018-enoe';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Resultados de la Encuesta Nacional de Ocupación y Empleo (ENOE) para el Área Metropolitana de la Laguna.';
+        $this->descripcion                = 'Resultados del Segundo Trimestre 2018 de la Encuesta Nacional de Ocupación y Empleo (ENOE) para el Área Metropolitana de la Laguna.';
         $this->claves                     = 'IMPLAN, Torreon, enoe 2018';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/EnoeSegundoTrimestre2018.md';
