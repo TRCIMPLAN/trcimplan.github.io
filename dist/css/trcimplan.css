@@ -387,6 +387,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 /*
  * Pagina Inicial Servicios
  */
+
 #destacado             { background-color:#D1D7DC; padding:8px; }
 .destacado-titulo      { line-height:1.2em; text-align: center; margin-bottom:4px; border-bottom:none; }
 .destacado-descripcion { font-size:12px; margin-bottom:4px; }

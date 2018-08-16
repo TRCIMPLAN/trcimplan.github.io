@@ -5,11 +5,87 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 15 Aug 2018 10:09:10 -0500</pubDate>
+    <pubDate>Thu, 16 Aug 2018 13:01:20 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Principales Resultados de la Encuesta Nacional de Ocupación y Empleo (ENOE) para el Área Metropolitana de la Laguna.</title>
+      <link>http://www.trcimplan.gob.mx/sala-prensa/2018-enoe.html</link>
+      <guid isPermaLink="false">sala-prensa-2018-enoe</guid>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 -0500</pubDate>
+      <author>IMPLAN</author>
+      <description><![CDATA[<h2>CIFRAS DEL SEGUNDO TRIMESTRE DE 2018.</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Región</th>
+  <th>Tasa de Desempleo</th>
+  <th>Tasa de Subocupación</th>
+  <th>Tasa de Informalidad</th>
+  <th>Tasa de Condiciones Críticas de Ocupación</th>
+  <th>Ingreso Promedio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Área Metropolitana de La Laguna</td>
+  <td>4.37%</td>
+  <td>9.98%</td>
+  <td>40.57%</td>
+  <td>11.80%</td>
+  <td>$   7,284.61</td>
+</tr>
+<tr>
+  <td>Coahuila</td>
+  <td>4.07%</td>
+  <td>6.05%</td>
+  <td>36.66%</td>
+  <td>11.00%</td>
+  <td>$   7,448.64</td>
+</tr>
+<tr>
+  <td>Durango</td>
+  <td>3.71%</td>
+  <td>16.26%</td>
+  <td>51.85%</td>
+  <td>16.00%</td>
+  <td>$   5,819.72</td>
+</tr>
+<tr>
+  <td>México</td>
+  <td>3.34%</td>
+  <td>7.12%</td>
+  <td>56.65%</td>
+  <td>15.00%</td>
+  <td>$   6,462.73</td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Fuente: Encuesta Nacional de Ocupación y Empleo de <abbr title="Instituto Nacional de Estadística y Geografía">INEGI</abbr>. Segundo trimestre de 2018</em></p>
+
+<hr />
+
+<p>Durante el segundo trimestre de 2018, <strong>la tasa de desempleo en el área metropolitana de La Laguna disminuyó</strong> casi un punto porcentual con respecto al trimestre inmediato anterior, cuando la tasa se ubicó en 5.2%.</p>
+
+<p>La Informalidad, porcentaje de empleos informales o el sector informal, ha permanecido sin cambios significativos en los últimos años, alrededor del 40%.</p>
+
+<p>La tasa de subocupación se ubica en 10%, cifra que representa a la población ocupada que tiene la necesidad y disponibilidad de ofertar más tiempo de trabajo de lo que su ocupación actual les permite. La tercera parte de esta población (32.7%) cuenta con educación superior; es decir, su condición de subocupación no se debe particularmente a la falta de preparación.</p>
+
+<p>La subocupación presentó un alza a partir del primer trimestre del presente año, período en el que el porcentaje de subocupados fue de 8.58%.</p>
+
+<p>Dicho fenómeno también se reflejó en las horas trabajadas promedio por semana, pues éstas se redujeron de 41.6 a 40.99, lo que a su vez afectó el ingreso promedio de la población ocupada, pues a pesar de que en promedio, el precio de la hora de mano de obra aumentó de $43.84 a $44.43 durante el segundo trimestre, el ingreso promedio mensual para trabajadores de tiempo completo fue de $7,284.61, monto técnicamente igual al del trimestre pasado que fue de $7,297.62.</p>
+
+<p>El sector terciario es el que más empleos provee, pues el 69.6% de la población ocupada trabaja en áreas relacionadas, representando el comercio el 22.18%. Por su parte, el sector secundario emplea al 28.63% de los trabajadores del área metropolitana de la laguna, siendo la industria manufacturera la que abarca el 20.23%.</p>
+
+<p>La Tasa de Condiciones Críticas de Ocupación (<abbr title="Tasa de Condiciones Críticas de Ocupación">TCCO</abbr>), la cual mide el porcentaje de la Población Económicamente Activa (<abbr title="Población Económicamente Activa">PEA</abbr>) con jornadas muy cortas de trabajo o con ingresos injustos en relación a sus jornadas laborales, es de 11.80%, menor a la registrada en el primer trimestre de 2018, cuando la <abbr title="Tasa de Condiciones Críticas de Ocupación">TCCO</abbr> fue de 12.64%. En los últimos años, dicha tasa se ha mantenido en un rango de 9% y 13%.</p>
+
+<p>En cuanto a la distribución del ingreso, los trabajadores que ganan hasta dos salarios mínimos representan al 45.50% del total de personas ocupadas. De estos porcentajes, el 14.14% recibió hasta un salario mínimo, contra el 12.33% del trimestre pasado.</p>
+]]></description>
+    </item>
     <item>
       <title>Educación Superior en La Laguna y la cuarta revolución industrial</title>
       <link>http://www.trcimplan.gob.mx/blog/educacion-superior-en-la-laguna.html</link>
@@ -205,14 +281,6 @@ OECD (2013), "Tax levels and tax structures, 1965-2012", in Revenue Statistics 2
       <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-desocupados-con-experiencia.html</link>
       <guid isPermaLink="false">indicadores-torreon-economia-desocupados-con-experiencia</guid>
       <pubDate>Fri, 27 Jul 2018 12:22:00 -0500</pubDate>
-      <author>Dirección de Investigación Estratégica</author>
-      <description><![CDATA[Debe haber algo aquí.]]></description>
-    </item>
-    <item>
-      <title>Desocupados con educación superior o media superior en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-desocupados-con-educacion-superior-o-media-superior.html</link>
-      <guid isPermaLink="false">indicadores-torreon-economia-desocupados-con-educacion-superior-o-media-superior</guid>
-      <pubDate>Fri, 27 Jul 2018 12:20:00 -0500</pubDate>
       <author>Dirección de Investigación Estratégica</author>
       <description><![CDATA[Debe haber algo aquí.]]></description>
     </item>
