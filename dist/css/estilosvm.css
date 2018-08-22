@@ -59,3 +59,50 @@
 
 
 }
+
+.slider2{
+    width:40%;
+    margin:auto;
+    overflow:hidden;
+    //*border-radius:5px;*//
+}
+
+.slider2 ul{
+    display:flex;
+    padding:0;
+    width:200%;
+
+    animation: cambio2 120s infinite alternate linear;
+    animation-timing-function:ease;
+}
+
+.slider2 li{
+    width:700%;
+    list-style:none;
+}
+
+.slider2 a{
+    width:500%;
+    list-style:none;
+    padding:4;
+}
+
+.slider2 img{
+    width:95%;
+    border-radius:15px;
+    padding:5;
+}
+
+
+
+@keyframes cambio2 {
+    0% {margin-left: 0;}
+    10% {margin-left: 0;}
+
+    15% {margin-left: -50%;}
+    25% {margin-left: -50%;}
+
+    30% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+
+}

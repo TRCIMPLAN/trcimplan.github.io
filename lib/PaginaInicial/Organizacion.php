@@ -92,12 +92,20 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $b   = array();
         $b[] = '  <section id="organizacion">';
             //~ $b[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
-            $b[] = '    <img class="banner" src="imagenes/banner-implan-2018-01.jpg" alt="IMPLAN Torreon">';
+            $b[] = '    <img class="banner" src="imagenes/banner-implan-2018-01.jpg" width="100" height="400" alt="IMPLAN Torreon">';
             //  $b[] = ' ';
             $b[] = '<li></li>';
+            //INICIO  CONVOCATORIA
+            //$b[] = '<div class="slider2">';
+            //    $b[] = '<ul>';
+            //    $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-comercio-exterior.html"><img src="imagenes\monitores\monitores-comercio-julio-2018-1.jpg" alt="Imagen de Comercio Exterior 1"></a>';
+            //    $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-mayo-00.jpg" alt="Imagen Empleo 0"></a>';
+            //    $b[] = '</ul>';
+            //$b[] = '</div>';
 
+            //FIN CONVOCATORIA
             //$b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
-
+            //INICIO MONITORES
             $b[] = ' . ';
             $b[] = '<div class="slider">';
                 $b[] = '<ul>';
@@ -125,7 +133,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-vivienda.html"><img src="imagenes\monitores\monitores-febrero-10.jpg" alt="Imagen Vivienda 17"></a>'; */
                 $b[] = '</ul>';
             $b[] = '</div>';
-
+            //FIN MONITORES
             $b[] = implode("\n", $a);
         $b[] = '  </section>';
         // Entregar
