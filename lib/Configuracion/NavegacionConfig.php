@@ -83,8 +83,8 @@ class NavegacionConfig {
         'Contacto' => array(
             'Contacto > Medios de contacto'                           => 'contacto/contacto.html',
             'Contacto > Preguntas Frecuentes'                         => 'preguntas-frecuentes/preguntas-frecuentes.html',
-            'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'),
-        'Convocatoria Visión Metrópoli 2018'                          => 'https://drive.google.com/file/d/17x9_UkY-i-f4W-TI6ImYKmyZs8QUWOq3/view?usp=sharing');
+            'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'));
+      //  'Convocatoria Visión Metrópoli 2018'                          => 'https://drive.google.com/file/d/17x9_UkY-i-f4W-TI6ImYKmyZs8QUWOq3/view?usp=sharing');
     static public $iconos = array(
         'Análisis Publicados'              => 'fa fa-lightbulb-o',
         'Indicadores'                      => 'fa fa-area-chart',
