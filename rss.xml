@@ -5,11 +5,34 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 29 Aug 2018 12:46:52 -0500</pubDate>
+    <pubDate>Fri, 31 Aug 2018 12:09:55 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IMPLAN creará el Consejo Visión Metrópoli.</title>
+      <link>http://www.trcimplan.gob.mx/sala-prensa/2018-08-31-comunicado-prensa.html</link>
+      <guid isPermaLink="false">sala-prensa-2018-08-31-comunicado-prensa</guid>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 -0500</pubDate>
+      <author>Lic. Maira Ivonne Flores Reyes</author>
+      <description><![CDATA[<p align="center">
+  <img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2018-08-31-comunicado-prensa/octavo-consejo-implan.jpg"/>
+</p>
+
+<p>En la <strong>Octava Sesión del Consejo Directivo del IMPLAN Torreón</strong>, se presentó la <strong>convocatoria para la conformación del Consejo Visión Metrópoli</strong>, el cual estará conformado por universitarios, líderes de asociaciones civiles nacionales y locales, activistas independientes y funcionarios de la administración pública municipal.</p>
+
+<p>La misión de los consejeros juveniles será trabajar en el desarrollo de la Comisión en la que participa, colaborar con el IMPLAN Torreón en la promoción y difusión de sus planes, diseñar, proponer y trabajar en proyectos con el Consejo del IMPLAN Torreón, Consejo “Visión Metrópoli”, gobierno municipal y la ciudadanía en general, entre otros.</p>
+
+<p>El Consejo de participación estará integrado por 21 miembros, los cuales se definirán de la siguiente manera: Presidente del Consejo, Secretario Técnico, Coordinador de Consolidación de Proyectos, hasta 3 funcionarios de la administración pública municipal que cumplan con los requisitos de la convocatoria, de 15 a 18 ciudadanos, los cuales pueden ser universitarios, líderes de asociaciones civiles nacionales y locales o activistas independientes.</p>
+
+<p>Los jóvenes que quieran participar deberán contar con los siguientes requisitos: tener entre 18 y 30 años de edad a la fecha de cierre de la convocatoria, ser residente de la Zona Metropolitana de La Laguna: Torreón, Matamoros, Gómez Palacio o Lerdo, contar con currículo social y registrarse en la siguiente liga: bit.ly/visionmetro a más tardar el viernes 14 de septiembre de 2018 a las 11:59 P.M.</p>
+
+<p>Además de entregar currículo social, currículo profesional, una carta de recomendación por parte de la Universidad, Asociación o Departamento donde el participante colabore actualmente.</p>
+
+<p>Finalmente, durante la Octava Sesión también se informó a los integrantes del Consejo, respecto al <strong>cambio de 4 Consejeros Sectoriales</strong>, los cuales pertenecen a la Iniciativa Privada, Organizaciones de la Sociedad Civil, Asociaciones y Colegios de Profesionistas y Emprendedores e Instituciones de Educación Superior.</p>
+]]></description>
+    </item>
     <item>
       <title>El comercio a pie de calle, un acercamiento al antes y el después del Paseo Morelos</title>
       <link>http://www.trcimplan.gob.mx/blog/el-comercio-a-pie-de-calle.html</link>
@@ -352,14 +375,6 @@ OECD (2013), "Tax levels and tax structures, 1965-2012", in Revenue Statistics 2
 
 <p style="background-color:#4F81BD;color:white;"><strong>Fuente: Instituto Municipal de Planeación y Competitividad de Torreón.</strong></p>
 ]]></description>
-    </item>
-    <item>
-      <title>Tasa de subocupación en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-tasa-de-subocupacion.html</link>
-      <guid isPermaLink="false">indicadores-torreon-economia-tasa-de-subocupacion</guid>
-      <pubDate>Fri, 27 Jul 2018 12:41:00 -0500</pubDate>
-      <author>Dirección de Investigación Estratégica</author>
-      <description><![CDATA[Debe haber algo aquí.]]></description>
     </item>
   </channel>
 </rss>
