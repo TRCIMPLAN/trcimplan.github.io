@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-08-31</lastmod>
+    <lastmod>2018-09-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -213,6 +213,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/con-metrobus-laguna-21-mil-toneladas-menos-de-co2.html</loc>
     <lastmod>2016-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/condiciones-de-ocupacion-de-la-mujer-en-AML.html</loc>
+    <lastmod>2018-09-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
