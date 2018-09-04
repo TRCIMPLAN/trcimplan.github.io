@@ -38,12 +38,12 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion               = 'Las convocatorias del IMPLAN Torreón.';
         $this->claves                    = 'IMPLAN, Torreon, Convocatoria';
         // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
-        $this->aparece_en_pagina_inicial = FALSE;
+        $this->aparece_en_pagina_inicial = TRUE;
         $this->autor                     = 'IMPLAN Staff';
         $this->para_compartir            = FALSE;
         $this->imagen                    = '../imagenes/imagen.jpg';
         $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
-        $this->poner_imagen_en_contenido = FALSE;
+        $this->poner_imagen_en_contenido = TRUE;
         $this->nombre_menu               = 'Convocatoria Visión Metrópoli 2018';
         // Ruta a la clase para hacer la página con el índice
         $this->indices_paginas           = '\\Base\\PaginasDetallados';

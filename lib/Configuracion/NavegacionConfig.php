@@ -38,7 +38,8 @@ class NavegacionConfig {
             'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
             'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
             'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
-            'Indicadores > Monitores'                                 => 'monitores/index.html'),
+            'Indicadores > Monitores'                                 => 'monitores/index.html',
+            'Indicadores > Convocatorias'                             => 'convocatorias/index.html'),
         'Indicadores Básicos de Colonias' => array(
 
             'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
@@ -83,7 +84,8 @@ class NavegacionConfig {
         'Contacto' => array(
             'Contacto > Medios de contacto'                           => 'contacto/contacto.html',
             'Contacto > Preguntas Frecuentes'                         => 'preguntas-frecuentes/preguntas-frecuentes.html',
-            'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'));
+            'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'),
+        'Convocatorias'                                               => 'convocatorias/index.html');
       //  'Convocatoria Visión Metrópoli 2018'                          => 'https://drive.google.com/file/d/17x9_UkY-i-f4W-TI6ImYKmyZs8QUWOq3/view?usp=sharing');
     static public $iconos = array(
         'Análisis Publicados'              => 'fa fa-lightbulb-o',
@@ -94,6 +96,7 @@ class NavegacionConfig {
             'Georreferenciados'            => 'fa fa-map-marker',
             'Datos Abiertos'               => 'fa fa-download',
             'Monitores'                    => 'fa fa-file-text-o',
+            'Convocatorias'                => 'fa fa-file-text-o',
         'Indicadores Básicos de Colonias'  => 'fa fa-puzzle-piece',
             'Introducción al IBC'          => 'fa fa-file-text-o',
             'Colonias de Torreón'          => 'fa fa-font',
@@ -131,7 +134,8 @@ class NavegacionConfig {
         'Contacto'                         => 'fa fa-phone',
             'Medios de contacto'           => 'fa fa-phone',
             'Preguntas Frecuentes'         => 'fa fa-question',
-            'Comentarios y Sugerencias'    => 'fa fa-external-link');
+            'Comentarios y Sugerencias'    => 'fa fa-external-link',
+        'Convocatorias'                    => 'fa fa-file-text-o');
     protected $buscador_html = <<<FINAL
           <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
             <div class="input-group custom-search-form">
