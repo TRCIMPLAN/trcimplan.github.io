@@ -96,12 +96,13 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //  $b[] = ' ';
             $b[] = '<li></li>';
             //INICIO  CONVOCATORIA
-            //$b[] = '<div class="slider2">';
-            //    $b[] = '<ul>';
-            //    $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-comercio-exterior.html"><img src="imagenes\monitores\monitores-comercio-julio-2018-1.jpg" alt="Imagen de Comercio Exterior 1"></a>';
-            //    $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-mayo-00.jpg" alt="Imagen Empleo 0"></a>';
-            //    $b[] = '</ul>';
-            //$b[] = '</div>';
+            $b[] = '<div class="slider2">';
+                $b[] = '<ul>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Convocatoria Visión Metrópoli"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatorias-2018-cs-banner-09.jpg" alt="Consejeros ciudadanos"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Convocatoria Visión Metrópoli"></a>';
+                $b[] = '</ul>';
+            $b[] = '</div>';
 
             //FIN CONVOCATORIA
             //$b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';

@@ -61,7 +61,7 @@
 }
 
 .slider2{
-    width:40%;
+    width:90%;
     margin:auto;
     overflow:hidden;
     //*border-radius:5px;*//
@@ -70,9 +70,9 @@
 .slider2 ul{
     display:flex;
     padding:0;
-    width:200%;
+    width:300%;
 
-    animation: cambio2 120s infinite alternate linear;
+    animation: cambio2 10s infinite alternate linear;
     animation-timing-function:ease;
 }
 
@@ -97,12 +97,10 @@
 
 @keyframes cambio2 {
     0% {margin-left: 0;}
-    10% {margin-left: 0;}
+    45% {margin-left: 0;}
 
-    15% {margin-left: -50%;}
-    25% {margin-left: -50%;}
+    50% {margin-left: -100%;}
+    100% {margin-left: -100%;}
 
-    30% {margin-left: -100%;}
-    40% {margin-left: -100%;}
 
 }
