@@ -31,6 +31,7 @@ class NavegacionConfig {
     protected $logotipo     = 'imagenes/implan-barra-logo-chico-gris.png';
     protected $opciones     = array(
         //'Análisis Publicados' => 'trcimplan_sitioweb/index.html',    // ELIMINAR
+        // 'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map',
         'Análisis Publicados'                                         => 'blog/index.html',
         'Indicadores' => array(
             'Indicadores > Introducción al SMI'                       => 'smi/introduccion.html',
@@ -44,7 +45,7 @@ class NavegacionConfig {
 
             'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
             'Indicadores Básicos de Colonias > Colonias de Torreón'   => 'ibc-colonias-torreon/index.html',
-            'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map',
+            'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed',
             'Indicadores Básicos de Colonias > Torreón Urbano'        => 'ibc/torreon-urbano.html',
             'Indicadores Básicos de Colonias > Catálogo de Conceptos' => 'ibc/catalogo-conceptos.html',
             'Indicadores Básicos de Colonias > Datos Abiertos'        => 'ibc/datos-abiertos.html'),
