@@ -67,7 +67,8 @@ class EconomiaPersonasQueGanan1O2SalariosMinimos extends \SMIBase\PublicacionWeb
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-03-31', 'valor' => '32.8400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2018-03-31', 'valor' => '32.8400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2018-06-30', 'valor' => '29.1000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

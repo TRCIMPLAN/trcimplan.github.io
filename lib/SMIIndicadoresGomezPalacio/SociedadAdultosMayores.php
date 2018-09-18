@@ -100,14 +100,14 @@ class SociedadAdultosMayores extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2017-06-30', 'valor' => '51100', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-06-30', 'valor' => '22864', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2017-06-30', 'valor' => '10516', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2017-06-30', 'valor' => '8288', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2017-06-30', 'valor' => '92768', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2017-06-30', 'valor' => '210708', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Durango', 'fecha' => '2017-06-30', 'valor' => '130762', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2017-06-30', 'valor' => '8665713', 'fuente_nombre' => 'CONAPO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '53268', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-06-30', 'valor' => '23838', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-06-30', 'valor' => '10899', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2018-06-30', 'valor' => '8586', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-06-30', 'valor' => '96590', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2018-06-30', 'valor' => '219131', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Durango', 'fecha' => '2018-06-30', 'valor' => '134726', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2018-06-30', 'valor' => '8969503', 'fuente_nombre' => 'CONAPO'));
     } // otras_regiones
 
     /**

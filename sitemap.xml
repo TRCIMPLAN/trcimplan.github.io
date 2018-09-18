@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-09-10</lastmod>
+    <lastmod>2018-09-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -53,6 +53,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/apertura-empresas-2014.html</loc>
     <lastmod>2014-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/areas-de-cesion-municipal-en-la-construccion-de-espacio-publico.html</loc>
+    <lastmod>2018-09-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6168,6 +6173,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-zonas-verdes.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

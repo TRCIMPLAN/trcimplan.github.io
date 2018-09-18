@@ -27,6 +27,8 @@ body {
     font-size:14px;
     line-height:1.4;
     background-color:#F0F0F0;
+
+
 }
 h1, .h1,
 h2, .h2,
@@ -73,6 +75,7 @@ a:active  { color:#FF3300; text-decoration:none; }
 .navegacion-icono {
     display:inline-block; width:24px;
     font-size:1.2em;
+    color:#FF6C00;
 }
 
 /*

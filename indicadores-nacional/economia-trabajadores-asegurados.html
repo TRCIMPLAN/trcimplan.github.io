@@ -191,7 +191,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -242,13 +242,25 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-06-30</td>
+        <td class="derecha">4,449,914</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">4,426,965</td>
+        <td>Ayuntamiento de Torreón</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Trabajadores Asegurados en Nacional </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Trabajadores Asegurados en Nacional con fuente Instituto Mexicano del Seguro Social (IMSS)</h3>
 
-    <div id="SmiGraficasTrabajadoresAseguradosEnNacional" class="grafica"></div>
+    <div id="SmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Trabajadores Asegurados en Nacional</h3>
@@ -266,58 +278,58 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">199,780</td>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">200,369</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">81,555</td>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">81,135</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">13,185</td>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">12,958</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">8,787</td>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">8,978</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">303,307</td>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">303,440</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">776,174</td>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">778,287</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">248,119</td>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">245,982</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">4,449,785</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td class="centrado">2018-07-31</td>
+        <td class="derecha">4,426,965</td>
+        <td>Ayuntamiento de Torreón</td>
         <td></td>
       </tr>
     </tbody>
@@ -363,18 +375,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasTrabajadoresAseguradosEnNacional === 'undefined') {
-    varSmiGraficasTrabajadoresAseguradosEnNacional = Morris.Line({
-      element: 'SmiGraficasTrabajadoresAseguradosEnNacional',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss === 'undefined') {
+    varSmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss = Morris.Line({
+      element: 'SmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss',
       data: [
         { fecha: '2017-12-31', dato: 4445226 },
         { fecha: '2018-01-31', dato: 999733 },
         { fecha: '2018-02-28', dato: 4465528 },
         { fecha: '2018-03-31', dato: 4475165 },
         { fecha: '2018-04-30', dato: 4483891 },
-        { fecha: '2018-05-31', dato: 4449785 }],
+        { fecha: '2018-05-31', dato: 4449785 },
+        { fecha: '2018-06-30', dato: 4449914 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -389,7 +402,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresAseguradosEnNacionalGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresAseguradosEnNacionalGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresAseguradosEnNacionalGrafica',
-      data: [{ region: 'Torreón', dato: 199780 },{ region: 'Gómez Palacio', dato: 81555 },{ region: 'Lerdo', dato: 13185 },{ region: 'Matamoros', dato: 8787 },{ region: 'La Laguna', dato: 303307 },{ region: 'Coahuila', dato: 776174 },{ region: 'Durango', dato: 248119 },{ region: 'Nacional', dato: 4449785 }],
+      data: [{ region: 'Torreón', dato: 200369 },{ region: 'Gómez Palacio', dato: 81135 },{ region: 'Lerdo', dato: 12958 },{ region: 'Matamoros', dato: 8978 },{ region: 'La Laguna', dato: 303440 },{ region: 'Coahuila', dato: 778287 },{ region: 'Durango', dato: 245982 },{ region: 'Nacional', dato: 4426965 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

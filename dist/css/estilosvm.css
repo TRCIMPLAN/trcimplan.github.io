@@ -72,9 +72,11 @@
     padding:0;
     width:300%;
 
-    animation: cambio2 10s infinite alternate linear;
+    animation: cambio2 7s infinite alternate linear;
     animation-timing-function:ease;
 }
+
+
 
 .slider2 li{
     width:700%;
@@ -92,7 +94,6 @@
     border-radius:15px;
     padding:5;
 }
-
 
 
 @keyframes cambio2 {

@@ -43,7 +43,7 @@ class SociedadIndiceDeHacinamiento extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Bienestar, Vivienda';
         // Para el Organizador
         $this->categorias  = array('Bienestar', 'Vivienda');
-        $this->fuentes     = array('INEGI. Censos de Población y Vivienda');
+        $this->fuentes     = array('INEGI. Censos de Población y Vivienda', 'INEGI');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -67,7 +67,8 @@ class SociedadIndiceDeHacinamiento extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-06-25', 'valor' => '0.8800', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2010-06-25', 'valor' => '0.8800', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('fecha' => '2015-12-31', 'valor' => '0.8000', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -91,7 +92,7 @@ class SociedadIndiceDeHacinamiento extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2010-06-25', 'valor' => '0.8800', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '0.8000', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-06-25', 'valor' => '0.9700', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2010-06-25', 'valor' => '1.0500', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2010-06-25', 'valor' => '1.0900', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),

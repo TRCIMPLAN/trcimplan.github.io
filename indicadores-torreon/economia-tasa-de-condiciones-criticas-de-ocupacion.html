@@ -191,6 +191,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -236,8 +237,19 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-06-30</td>
+        <td class="derecha">10.2000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Tasa de Condiciones Críticas de Ocupación en Torreón con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</h3>
+
+    <div id="SmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
     <h3>Tasa de Condiciones Críticas de Ocupación en Torreón con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
@@ -260,8 +272,8 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2018-03-31</td>
-        <td class="derecha">12.6000 %</td>
+        <td class="centrado">2018-06-30</td>
+        <td class="derecha">10.2000 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -411,6 +423,23 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos === 'undefined') {
+    varSmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos = Morris.Line({
+      element: 'SmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos',
+      data: [
+        { fecha: '2018-03-31', dato: 12.6000 },
+        { fecha: '2018-06-30', dato: 10.2000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
@@ -435,7 +464,7 @@
   if (typeof varSmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 12.6000 },{ region: 'Gómez Palacio', dato: 14.5900 },{ region: 'Lerdo', dato: 11.8200 },{ region: 'Matamoros', dato: 14.2900 },{ region: 'La Laguna', dato: 10.5700 },{ region: 'Coahuila', dato: 8.2800 },{ region: 'Durango', dato: 14.9900 },{ region: 'Nacional', dato: 13.3700 }],
+      data: [{ region: 'Torreón', dato: 10.2000 },{ region: 'Gómez Palacio', dato: 14.5900 },{ region: 'Lerdo', dato: 11.8200 },{ region: 'Matamoros', dato: 14.2900 },{ region: 'La Laguna', dato: 10.5700 },{ region: 'Coahuila', dato: 8.2800 },{ region: 'Durango', dato: 14.9900 },{ region: 'Nacional', dato: 13.3700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
