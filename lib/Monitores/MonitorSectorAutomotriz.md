@@ -20,7 +20,7 @@ Establecimientos Dedicados a Metálicas Básicas  |34 |2017   |La Laguna  |DENUE
 
 Las empresas del clúster automotriz en el Municipio de Torreón no se ubican únicamente en el subsector de Fabricación de equipos de transporte, también pertenecen a los subsectores de industrias metálicas básicas, Fabricación de productos metálicos y Fabricación de maquinaria y equipo.
 
-Las ramas económicas en las que se desempeñan las empresas relacionadas al sector automotriz son:
+Las ramas económicas en las que se desempeñan las empresas relacionadas con el sector automotriz son:
 
 - Moldeo por fundición de piezas metálicas
 - Fabricación de productos metálicos forjados y troquelados

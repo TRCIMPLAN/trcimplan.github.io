@@ -14,7 +14,7 @@ Viviendas que disponen adecuadamente de sus residuos.   |98.86% |2015   |Torreó
 
 **PARQUE HABITACIONAL**
 
-  |                    |        |
+.  |                    |        |
 -----|--------------------|--------|
 2010   |  Población en hogares (Personas) |623,235|
 2010               |  Población en Hogares (Personas)                                             |623,235|
@@ -33,7 +33,7 @@ Tabla 1
 
 **MATERIALES**
 
-.          |                                                                     |     |
+.            |                                                                     |     |
 ------------|----------------------------------------------------------------------|-------|
 2015         |Porcentaje de Viviendas con Piso de Tierra                             |0.7%|
 2015         |Porcentaje de Viviendas con Agua Entubada                              |96.3%|
@@ -74,7 +74,7 @@ Tabla 3
   2015        |Porcentaje de Viviendas Particulares Habitadas que disponen de Teléfono Celular                       |87%|
   2015        |Porcentaje de Viviendas Particulares Habitadas que disponen de Televisión de Paga                     |46.6%|
 
-![](media/image2.jpeg){width="8.510416666666666in" height="11.04761920384952in"}
+
 Tabla 4
 
 **OTROS**
@@ -89,10 +89,10 @@ Tabla 5
 Actualización del SHF primer trimestre de 2018.
 
 ------------------------
-  Precios de la Vivienda
+###  Precios de la Vivienda
   ------------------------
 
-A Nivel Nacional:
+**A Nivel Nacional:**
 
 -   **El precio de las viviendas** con crédito hipotecario garantizado **en México aumentó 8.68%** en el primer trimestre del año respecto al mismo periodo de 2017.
 
@@ -100,21 +100,21 @@ A Nivel Nacional:
 
 -   **Los precios de la vivienda nueva en el ámbito nacional tuvieron un aumento de 8.71% y los de la usada de 8.61%** respecto al año anterior.
 
--   ![](media/image3.jpeg){width="8.479159011373579in" height="10.963888888888889in"}![](media/image4.png){width="4.382638888888889in" height="4.0368055555555555in"}**El primer trimestre de 2018** tuvo un inicio lento **registrando (-) 2.7% menos transacciones que en 2017.**
+-   **El primer trimestre de 2018** tuvo un inicio lento **registrando (-) 2.7% menos transacciones que en 2017.**
 
 -   **La proporción de transacciones de viviendas usadas** (con mejores atributos) aumentó de manera considerable, **representando ahora el 49.8% del total de las transacciones hipotecarias**, esto es, 7.4 puntos porcentuales (pp) más que en el primer trimestre de 2017.
 
 -   El **Índice SHF para la vivienda económico-social observó una apreciación acumulada a tasa anual de 7.45%,** y el **Índice SHF para la vivienda media y residencial** (presentado en modo agregado) se **incrementó en 9.56%** en el acumulado de 2018 con respecto a 2017. Se observó una menor cantidad de transacciones para vivienda media y residencial.
 
-A Nivel Entidad:
+**A Nivel Entidad:**
 
 -   **La variación anual acumulada de 2018 respecto a 2017**, estuvo por debajo del promedio nacional en **Coahuila 7.37%** y en **Durango 7.93%.**
 
--   **En el primer trimestre de 2018 el precio medio de una vivienda con crédito hipotecario en Coahuila** **fue de \$ 672,639 pesos**, correspondiente a viviendas de tipo medio. **El precio mediano se ubicó en los \$ 450,800 pesos**, y **al menos 75% de los precios de las viviendas fueron menores o iguales a \$758,000 pesos.**
+-   **En el primer trimestre de 2018 el precio medio de una vivienda con crédito hipotecario en Coahuila** **fue de $ 672,639 pesos**, correspondiente a viviendas de tipo medio. **El precio mediano se ubicó en los $ 450,800 pesos**, y **al menos 75% de los precios de las viviendas fueron menores o iguales a $758,000 pesos.**
 
--   **En el primer trimestre de 2018 el precio medio de una vivienda con crédito hipotecario en Durango** **fue de \$ 606,282 pesos**, correspondiente a viviendas de tipo medio. **El precio mediano se ubicó en los \$ 429,300 pesos**, y **al menos 75% de los precios de las viviendas fueron menores o iguales a \$620,000 pesos.**
+-   **En el primer trimestre de 2018 el precio medio de una vivienda con crédito hipotecario en Durango** **fue de $ 606,282 pesos**, correspondiente a viviendas de tipo medio. **El precio mediano se ubicó en los $ 429,300 pesos**, y **al menos 75% de los precios de las viviendas fueron menores o iguales a $620,000 pesos.**
 
-![](media/image5.jpeg){width="8.493055555555555in" height="11.0625in"}Índice SHF de Precios de la Vivienda en México:
+##Índice SHF de Precios de la Vivienda en México:
 
 
 **Distribución de precios de la vivienda 2018 - I Trimestre**
@@ -162,14 +162,13 @@ La demanda de financiamiento para soluciones de vivienda se conforma de la forma
 
 -   Las curas de originación, que son familias que mejoraron su historial crediticio y ahora ya pueden solicitar un crédito para vivienda.
 
-![](media/image6.jpeg){width="8.475596019247593in" height="10.950804899387576in"}
 
 **Para 2018 se estima que se demanden 1,007,238 financiamientos** para soluciones de vivienda a nivel nacional, lo que tendrá un **impacto en casi 4 millones de personas.**
 
 ##Demanda de vivienda **esperada** para 2018
 
  Entidad Federativa  |Adquisición   |Mejoramiento   |Autoproducción   |Demanda por entidad   |Composición|
---------------------|-------------|--------------|----------------|---------------------|-------------|
+.-------------------|-------------|--------------|----------------|---------------------|-------------|
   Nacional             |608,260       |361,293        |37,685           |1,007,238             |100%|
   Coahuila             |28,081        |19,061         |1,386            |48,528                |4.8%|
   Durango              |9,123         |8,553          |680              |18,356                |1.8%|
@@ -179,15 +178,15 @@ Tabla 8. Fuente: Elaborado por la DASDN, SHF. 2017
 Para **2018 se estima una demanda menor** a la proyectada en 2017 considerando las variables económicas como **la inflación, el ingreso de los hogares y las tasas de interés y la situación general de la economía mexicana.** La demanda se verá afectada por las políticas públicas que se implementaron en 2017 como **la liberación del precio tope para adquisición de vivienda del Infonavit y la disminución del presupuesto del subsidio.**
 
 ----------------------
-  Créditos de Vivienda
-  ----------------------
+##Créditos de Vivienda
 
-[\[CHART\]]{.chart}El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Coahuila** es:
 
-               Acumulado a marzo de 2018   Variación vs 2017 (%)
+El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Coahuila** es:
 
- .            |Número de acciones         |Inversión (mdp)        |Número de acciones  |Inversión|
---------------|---------------------------|-----------------------|--------------------|-----------|
+Acumulado a marzo de 2018   Variación vs 2017 (%)
+
+            |Número de acciones         |Inversión (mdp)        |Número de acciones  |Inversión|
+.-------------|---------------------------|-----------------------|--------------------|-----------|
   Infonavit   |6,036                       |1,389.3                 |1.7               |3.2|
   Fovissste   |159                         |109.5                   |-59.2             |-30.2|
   Fondeo SHF  |223                         |0.0                     |237.9             |na|
@@ -197,15 +196,15 @@ Para **2018 se estima una demanda menor** a la proyectada en 2017 considerando l
 
 Tabla 9
 
-**\
-**
 
-![](media/image6.jpeg){width="8.475in" height="11.145833333333334in"}[\[CHART\]]{.chart}El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Durango** es:
 
-                 Acumulado a marzo de 2018   Variación vs 2017 (%)
+##El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Durango** es:
 
- .            |Número de acciones         |Inversión (mdp)        |Número de acciones  |Inversión|
---------------|---------------------------|-----------------------|--------------------|-----------|
+Acumulado a marzo de 2018   Variación vs 2017 (%)
+
+
+.                |Número de acciones          |Inversión (mdp)         |Número de acciones   |Inversión|
+.----------------|----------------------------|------------------------|---------------------|---------|
   Infonavit      |2,147                       |390.8                   |0.1                  |3.9|
   Fovissste      |124                         |68.7                    |-63.2                |-34.4|
   Fondeo SHF     |70                          |0.0                     |52.2                 |na|
@@ -221,7 +220,7 @@ Nota 2: No incluye subsidios CONAVI
 
 ##El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Torreón** es:
 
-                 Modalidad
+Modalidad
 
 
 .                |Total       |Viviendas Nuevas  |Viviendas Usadas  |Mejoramiento  |Otros Programas|
@@ -239,13 +238,13 @@ Nota 2: No incluye subsidios CONAVI
 
 Tabla 11
 
-[\[CHART\]]{.chart}
 
-![](media/image6.jpeg){width="8.475in" height="11.145833333333334in"}[\[CHART\]]{.chart}El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Matamoros** es:
+
+##El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Matamoros** es:
 
                  Modalidad
 
-              |   Total   | Viviendas Nuevas |Viviendas Usadas   |Mejora-miento|
+.             |   Total   | Viviendas Nuevas |Viviendas Usadas   |Mejora-miento|
 --------------|-----------|------------------|------------------|---------------|
   Banca (CNBV)|   **63**  |                  |     1            |      62|
   CFE         |   **2**   |    2             |                  |        |
@@ -263,7 +262,7 @@ El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Gómez P
 
                  Modalidad
 
-              |   Total   |Viviendas Nuevas  | Viviendas Usadas | Mejoramiento |  Otros Programas|
+.              |   Total   |Viviendas Nuevas  | Viviendas Usadas | Mejoramiento |  Otros Programas|
 --------------|-----------|------------------|------------------|--------------|-----------------|
   Banca (CNBV)|   **233** |    15            |     30           |      186     |       2    |
   CFE         |   **13**  |                  |     6            |      3       |       4    |
@@ -275,12 +274,12 @@ El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Gómez P
 
 Tabla 13
 
-[\[CHART\]]{.chart}
 
-![](media/image6.jpeg){width="8.475in" height="11.145833333333334in"}El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Lerdo** es:
 
-                 Modalidad
---------------|-----------|------------------|------------------|--------------|-----------------|
+##El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Lerdo** es:
+
+                Modalidad
+.-------------|-----------|------------------|------------------|--------------|-----------------|
               |   Total   | Viviendas Nuevas | Viviendas Usadas | Mejoramiento | Otros Programas |
   Banca (CNBV)|   **80**  |    4             |     6            |      69      |       1         |
   CFE         |   **4**   |    2             |                  |      1       |       1         |
@@ -292,13 +291,13 @@ Tabla 13
 
 Tabla 14
 
-[\[CHART\]]{.chart}**Nota: Las Tablas 11 a 14 tienen como Fuente: Sistema Nacional de Información e Indicadores de Vivienda**
+**Nota: Las Tablas 11 a 14 tienen como Fuente: Sistema Nacional de Información e Indicadores de Vivienda**
 
 ----------------------------------------------------------
-  Registros de Vivienda en Perímetros de Contención Urbana
+##Registros de Vivienda en Perímetros de Contención Urbana
   ----------------------------------------------------------
 
-[\[CHART\]]{.chart}**Torreón:**
+**Torreón:**
 
             Perímetro de Contención Urbana (PCU)
    Mes   |   Total                              |   FC   |  U1   |   U2    |   U3    |
@@ -312,7 +311,7 @@ Tabla 14
 
 Tabla 15
 
-![](media/image6.jpeg){width="8.475in" height="11.145833333333334in"}[\[CHART\]]{.chart}**Matamoros:**
+**Matamoros:**
 
             Perímetro de Contención Urbana (PCU)
 
@@ -324,7 +323,7 @@ Tabla 15
 
 Tabla 16
 
-[\[CHART\]]{.chart}**Gómez Palacio:**
+**Gómez Palacio:**
 
             Perímetro de Contención Urbana (PCU)
 
@@ -338,7 +337,7 @@ Tabla 16
 
 Tabla 17
 
-[\[CHART\]]{.chart}**Lerdo:**
+**Lerdo:**
 
             Perímetro de Contención Urbana (PCU)
 

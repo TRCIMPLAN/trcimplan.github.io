@@ -34,7 +34,7 @@ class MonitorSeguridad3May2018 extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Monitor del Seguridad';
+        $this->nombre                     = 'Monitor de Seguridad';
         $this->autor                      = array('Lic. Daniel Alejandro López Murga','Lic. Ana Luisa Pacheco Meraz'); // Puede ser un arreglo de textos
         $this->fecha                      = '2018-05-03T15:30';
         // El nombre del archivo a crear

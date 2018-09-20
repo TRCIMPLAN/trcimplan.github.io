@@ -4,7 +4,7 @@
 Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
 Tipo de cambio del último mes                                   |18.83   |2018 Marzo        |Nacional   |Banxico            |
-Apreciación del peso respecto al último año|    4.235896%       |2018    |Diciembre - Marzo |Nacional   |Banxico            |
+Apreciación del peso respecto al último año                     |4.23589%|2018 Diciembre-Marzo |Nacional   |Banxico            |
 Tasa de interés objetivo                                        |7.5%    |2018 Marzo        |Nacional   |Banxico            |
 Último incremento neto de la tasa                               |0.25%   |2018 Febrero      |Nacional   |Banxico            |
 

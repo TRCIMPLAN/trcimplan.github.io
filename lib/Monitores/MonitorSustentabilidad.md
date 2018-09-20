@@ -126,7 +126,7 @@ Respecto a las zonas verdes disponibles, se tuvieron en 2017 un total de 82.3 he
 
 Existen más de 700 espacios catalogados como plazas, ubicados en el sector urbano. Las áreas verdes con mayor extensión son:
 
-Nombre | Superficio (Ha) | No. árboles (2017)
+Nombre | Superficie (Ha) | No. árboles (2017)
 ------|---------------|------------
 Bosque V. Carranza | 20.68|4715
 Bosque Urbano | 15.56 | 2960

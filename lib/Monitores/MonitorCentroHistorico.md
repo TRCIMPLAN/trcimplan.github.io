@@ -78,7 +78,7 @@ Indicador|Dato|Fecha|Nivel|Fuente
 ----|----|---|---|----|
 Proporción de suelos dedicados a Centro Histórico   |61.11% |2014   |Plan Director de Desarrollo Urbano del Municipio de Torreón |Torreón, Centro Histórico|
 Proporción de suelos dedicados a Corredor Urbano    |30.83% |2014   |Plan Director de Desarrollo Urbano del Municipio de Torreón |Torreón, Centro Histórico|
-Proporción de suelos dedicados a equipamento e infraestructura  |3.33%  |2014   |Plan Director de Desarrollo Urbano del Municipio de Torreón    |Torreón, Centro Histórico|
+Proporción de suelos dedicados a equipamiento e infraestructura  |3.33%  |2014   |Plan Director de Desarrollo Urbano del Municipio de Torreón    |Torreón, Centro Histórico|
 Proporción de suelos dedicados a vivienda alta  |1.94%  |2014   |Plan Director de Desarrollo Urbano del Municipio de Torreón    |Torreón, Centro Histórico|
 Proporción de suelos dedicados a comercio abasto    |1.39%  |2014   |Plan Director de Desarrollo Urbano del Municipio de Torreón    |Torreón, Centro |Histórico|
 Proporción de suelos dedicados a recreación y deporte   |0.83%  |2014   |Plan Director de Desarrollo Urbano del Municipio de Torreón    |Torreón, Centro Histórico|

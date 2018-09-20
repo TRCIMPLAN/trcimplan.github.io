@@ -30,7 +30,7 @@ El Índice de apertura, mide la apertura comercial que tiene la economía de una
 en cierto periodo de tiempo; es decir, en qué medida comercia con el extranjero. Se
 calcula dividiendo el total exportaciones e importaciones en pesos entre el Producto
 Interno Bruto (PIB).
-El INEGI en sus Censo Económicos cuenta con la Producción Bruta Total que sirve
+El INEGI en sus Censos Económicos cuenta con la Producción Bruta Total que sirve
 como variable proxy del PIB, por lo que se usó de manera provisional para comparar la
 apertura comercial entre las ciudades hermanas de Torreón. De las ciudades
 analizadas, en 2014 La Laguna tiene la economía más doméstica de todas; lo que
@@ -49,11 +49,11 @@ aprovechando su ventaja geográfica para desarrollar su mercado en el extranjero
 -----------------------------------------|-----------------|-----------------|------------------|------------|
 Oro en bruto.   |37.92% |$2,325,102,848 |Torreón    |2014|
 Plata en bruto. |17.57% |$1,077,309,056 |Torreón    |2014|
-Motores de embolo, de diésel o semi-diésel. |8.59%  |$526,660,832   |Torreón    |2014|
+Motores de émbolo, de diésel o semi-diésel. |8.59%  |$526,660,832   |Torreón    |2014|
 Partes de tractores y vehículos especiales. |5.13%  |$314,719,328   |Torreón    |2014|
 Cinc.   |4.61%  |$282,950,368   |Torreón    |2014|
 Plomo.  |3.29%  |$202,088,000   |Torreón    |2014|
-Partes destinadas a polipastos, tornos y cabrestantes, así como a máquinas para manipular tierra o minerales, arrancar pilotes o quitar nieve.  |2.77%  |$169,989,840   |Torreón    |2014|
+Partes destinadas a polipastos, tornos y cabrestantes, así como a máquinas para manipular tierra o mezclar minerales, arrancar pilotes o quitar nieve.  |2.77%  |$169,989,840   |Torreón    |2014|
 Acumuladores eléctricos,incluidos sus separadores.  |2.41%  |$148,124,160   |Torreón    |2014|
 Trajes, pantalones y shorts,para hombres o niños.   |2.16%  |$132,836,712   |Torreón    |2014|
 Conductores aislados para electricidad y cables de fibras ópticas.  |1.84%  |$113,222,000   |Torreón    |2014|
