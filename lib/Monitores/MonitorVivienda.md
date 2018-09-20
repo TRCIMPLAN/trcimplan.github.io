@@ -96,7 +96,7 @@ Actualización del SHF primer trimestre de 2018.
 
 -   **El precio de las viviendas** con crédito hipotecario garantizado **en México aumentó 8.68%** en el primer trimestre del año respecto al mismo periodo de 2017.
 
--   **En 2017 el precio medio de una vivienda con crédito hipotecario en México** **fue de $810,202 pesos**, correspondiente a viviendas de tipo medio. **El precio mediano se ubicó en los $ 535,468 pesos**, lo cual significa que el 50% de las operaciones en el mercado de la vivienda se realizaron por debajo de dicho precio y la otra mitad por arriba. Finalmente, **al menos 75% de los precios de las viviendas fueron menores o iguales a  \$944,597 pesos.**
+-   **En 2017 el precio medio de una vivienda con crédito hipotecario en México** **fue de $810,202 pesos**, correspondiente a viviendas de tipo medio. **El precio mediano se ubicó en los $ 535,468 pesos**, lo cual significa que el 50% de las operaciones en el mercado de la vivienda se realizaron por debajo de dicho precio y la otra mitad por arriba. Finalmente, **al menos 75% de los precios de las viviendas fueron menores o iguales a  $944,597 pesos.**
 
 -   **Los precios de la vivienda nueva en el ámbito nacional tuvieron un aumento de 8.71% y los de la usada de 8.61%** respecto al año anterior.
 
@@ -167,11 +167,13 @@ La demanda de financiamiento para soluciones de vivienda se conforma de la forma
 
 ##Demanda de vivienda **esperada** para 2018
 
- Entidad Federativa  |Adquisición   |Mejoramiento   |Autoproducción   |Demanda por entidad   |Composición|
-.-------------------|-------------|--------------|----------------|---------------------|-------------|
-  Nacional             |608,260       |361,293        |37,685           |1,007,238             |100%|
-  Coahuila             |28,081        |19,061         |1,386            |48,528                |4.8%|
-  Durango              |9,123         |8,553          |680              |18,356                |1.8%|
+
+Entidad Federativa  |Adquisición  |Mejoramiento  |Autoproducción  |Demanda por entidad  |Composición|
+--------------------|-------------|--------------|----------------|---------------------|-----------|
+Nacional            |608,260      |361,293       |37,685          |1,007,238            |100%|
+Coahuila            |28,081       |19,061        |1,386           |48,528               |4.8%|
+Durango             |9,123        |8,553         |680             |18,356               |1.8%|
+
 
 Tabla 8. Fuente: Elaborado por la DASDN, SHF. 2017
 
@@ -185,14 +187,16 @@ El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Coahuila
 
 Acumulado a marzo de 2018   Variación vs 2017 (%)
 
-            |Número de acciones         |Inversión (mdp)        |Número de acciones  |Inversión|
-.-------------|---------------------------|-----------------------|--------------------|-----------|
-  Infonavit   |6,036                       |1,389.3                 |1.7               |3.2|
-  Fovissste   |159                         |109.5                   |-59.2             |-30.2|
-  Fondeo SHF  |223                         |0.0                     |237.9             |na|
-  Banca (CNBV)|2,762                       |917.0                   |159.6             |1.3|
-  Otros       |910                         |60.7                    |458.3             |95.7|
-  Total       |**10,090**                  |**2,476.5**             |**32.5**          |**1.5**|
+
+.           |Número de acciones         |Inversión (mdp)        |Número de acciones  |Inversión|
+------------|---------------------------|-----------------------|--------------------|---------|
+Infonavit   |6,036                      |1,389.3                |1.7                 |3.2      |
+Fovissste   |159                        |109.5                  |-59.2               |-30.2    |
+Fondeo SHF  |223                        |0.0                    |237.9               |na       |
+Banca (CNBV)|2,762                      |917.0                  |159.6               |1.3      |
+Otros       |910                        |60.7                   |458.3               |95.7     |
+Total       |**10,090**                 |**2,476.5**            |**32.5**            |**1.5**  |
+
 
 Tabla 9
 
@@ -203,14 +207,14 @@ Tabla 9
 Acumulado a marzo de 2018   Variación vs 2017 (%)
 
 
-.                |Número de acciones          |Inversión (mdp)         |Número de acciones   |Inversión|
-.----------------|----------------------------|------------------------|---------------------|---------|
-  Infonavit      |2,147                       |390.8                   |0.1                  |3.9|
-  Fovissste      |124                         |68.7                    |-63.2                |-34.4|
-  Fondeo SHF     |70                          |0.0                     |52.2                 |na|
-  Banca (CNBV)   |1,028                       |237.7                   |267.1                |9.4|
-  Otros          |471                         |31.8                    |49.5                 |78.4|
-  Total          |**3,840**                   |**728.9**               |**23.0**             |**1.8**|
+.              |Número de acciones          |Inversión (mdp)         |Número de acciones   |Inversión|
+---------------|----------------------------|------------------------|---------------------|---------|
+Infonavit      |2,147                       |390.8                   |0.1                  |3.9      |
+Fovissste      |124                         |68.7                    |-63.2                |-34.4    |
+Fondeo SHF     |70                          |0.0                     |52.2                 |na       |
+Banca (CNBV)   |1,028                       |237.7                   |267.1                |9.4      |
+Otros          |471                         |31.8                    |49.5                 |78.4     |
+Total          |**3,840**                   |**728.9**               |**23.0**             |**1.8**  |
 
 Tabla 10
 
@@ -223,18 +227,18 @@ Nota 2: No incluye subsidios CONAVI
 Modalidad
 
 
-.                |Total       |Viviendas Nuevas  |Viviendas Usadas  |Mejoramiento  |Otros Programas|
------------------|------------|-------------|------------------|--------------|-----------------|
-  Banca(CNBV)    |**549**     |132          |133       |258     |26    |
-  CFE            |**9**       |3            |6         |        |      |
-  CONAVI         |**250**     |168          |82        |        |      |
-  FONHAPO        |**12**      |             |          |12      |      |
-  FOVISSSTE      |**58**      |36           |22        |        |      |
-  INFONAVIT      |**1262**    |457          |486       |319     |      |
-  ISSFAM         |**5**       |5            |          |        |      |
-  SHF (FONDEO)   |**11**      |             |          |11      |      |
------------------|------------|-------------|----------|--------|------|
-  Total          |**2156**    |**801**      |**729**   |**600** |**26**|
+.              |Total     |Viviendas Nuevas|Viviendas Usadas|Mejoramiento|Otros Programas|
+---------------|----------|----------------|----------------|------------|---------------|
+Banca(CNBV)    |**549**   |132             |133             |258         |26             |
+CFE            |**9**     |3               |6               |            |               |
+CONAVI         |**250**   |168             |82              |            |               |
+FONHAPO        |**12**    |                |                |12          |               |
+FOVISSSTE      |**58**    |36              |22              |            |               |
+INFONAVIT      |**1262**  |457             |486             |319         |               |
+ISSFAM         |**5**     |5               |                |            |               |
+SHF (FONDEO)   |**11**    |                |                |11          |               |
+               |          |                |                |            |               |
+Total          |**2156**  |**801**         |**729**         |**600**     |**26**         |
 
 Tabla 11
 
@@ -244,17 +248,17 @@ Tabla 11
 
                  Modalidad
 
-.             |   Total   | Viviendas Nuevas |Viviendas Usadas   |Mejora-miento|
---------------|-----------|------------------|------------------|---------------|
-  Banca (CNBV)|   **63**  |                  |     1            |      62|
-  CFE         |   **2**   |    2             |                  |        |
-  CONAVI      |   **74**  |    69            |     5            |        |
-  FONHAPO     |   **75**  |                  |                  |      75|
-  FOVISSSTE   |   **2**   |                  |     2            |        |
-  INFONAVIT   |   **181** |    71            |     34           |      76|
-  SHF (FONDEO)|   **1**   |                  |                  |       1|
-              |           |                  |                  |        |
-  Total       |   **398** |    **142**       |     **42**       | **214**|
+.           |   Total   | Viviendas Nuevas|Viviendas Usadas|Mejoramiento|
+------------|-----------|-----------------|----------------|------------|
+Banca (CNBV)|   **63**  |                 |     1          |          62|
+CFE         |   **2**   |    2            |                |            |
+CONAVI      |   **74**  |    69           |     5          |            |
+FONHAPO     |   **75**  |                 |                |          75|
+FOVISSSTE   |   **2**   |                 |     2          |            |
+INFONAVIT   |   **181** |    71           |     34         |          76|
+SHF (FONDEO)|   **1**   |                 |                |           1|
+            |           |                 |                |            |
+Total       |   **398** |    **142**      |     **42**     | **214**    |
 
 Tabla 12
 
@@ -262,15 +266,15 @@ El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Gómez P
 
                  Modalidad
 
-.              |   Total   |Viviendas Nuevas  | Viviendas Usadas | Mejoramiento |  Otros Programas|
---------------|-----------|------------------|------------------|--------------|-----------------|
-  Banca (CNBV)|   **233** |    15            |     30           |      186     |       2    |
-  CFE         |   **13**  |                  |     6            |      3       |       4    |
-  CONAVI      |   **181** |    116           |     65           |              |            |
-  FOVISSSTE   |   **16**  |    3             |     13           |              |            |
-  INFONAVIT   |   **756** |    143           |     361          |      252     |            |
-  SHF (FONDEO)|   **7**   |                  |                  |      7       |            |
-  Total       |   **1206**|    **277**       |     **475**      |      **448** |       **6**|
+.           |   Total   |Viviendas Nuevas  | Viviendas Usadas | Mejoramiento |Otros Programas|
+------------|-----------|------------------|------------------|--------------|---------------|
+Banca (CNBV)|   **233** |    15            |     30           |      186     |          2    |
+CFE         |   **13**  |                  |     6            |      3       |          4    |
+CONAVI      |   **181** |    116           |     65           |              |               |
+FOVISSSTE   |   **16**  |    3             |     13           |              |               |
+INFONAVIT   |   **756** |    143           |     361          |      252     |               |
+SHF (FONDEO)|   **7**   |                  |                  |      7       |               |
+Total       |   **1206**|    **277**       |     **475**      |      **448** |          **6**|
 
 Tabla 13
 
@@ -278,16 +282,19 @@ Tabla 13
 
 ##El resumen mensual de créditos otorgados a **marzo de 2018** a Nivel **Lerdo** es:
 
-                Modalidad
-.-------------|-----------|------------------|------------------|--------------|-----------------|
-              |   Total   | Viviendas Nuevas | Viviendas Usadas | Mejoramiento | Otros Programas |
-  Banca (CNBV)|   **80**  |    4             |     6            |      69      |       1         |
-  CFE         |   **4**   |    2             |                  |      1       |       1         |
-  CONAVI      |   **88**  |    80            |     8            |              |                 |
-  FOVISSSTE   |   **15**  |    3             |     12           |              |                 |
-  INFONAVIT   |   **274** |    113           |     74           |      87      |                 |
-  SHF (FONDEO)|   **3**   |                  |                  |      3       |                 |
-  Total       |   **464** |    **202**       |     **100**      |      **160** |       **2**     |
+              Modalidad
+
+
+.           |   Total   | Viviendas Nuevas | Viviendas Usadas | Mejoramiento | Otros Programas |
+------------|-----------|------------------|------------------|--------------|-----------------|
+Banca (CNBV)|   **80**  |    4             |     6            |      69      |       1         |
+CFE         |   **4**   |    2             |                  |      1       |       1         |
+CONAVI      |   **88**  |    80            |     8            |              |                 |
+FOVISSSTE   |   **15**  |    3             |     12           |              |                 |
+INFONAVIT   |   **274** |    113           |     74           |      87      |                 |
+SHF (FONDEO)|   **3**   |                  |                  |      3       |                 |
+Total       |   **464** |    **202**       |     **100**      |      **160** |       **2**     |
+
 
 Tabla 14
 
@@ -300,14 +307,14 @@ Tabla 14
 **Torreón:**
 
             Perímetro de Contención Urbana (PCU)
-   Mes   |   Total                              |   FC   |  U1   |   U2    |   U3    |
----------|--------------------------------------|--------|-------|---------|---------|
-  Enero  |   **75**                             |   5    |       |    6         64
-  Febrero|   **101**                            |        |       |   101   |         |
-  Marzo  |   **131**                            |   9    |       |   37    |    85   |
-  Abril  |   **209**                            |        |   4   |    29   |   176   |
-         |                                      |        |       |         |         |
-  Total  |   **516**                            | **14** | **4** | **173** | **325** |
+ Mes   |   Total                              |   FC   |  U1   |   U2    |   U3    |
+-------|--------------------------------------|--------|-------|---------|---------|
+Enero  |   **75**                             |   5    |       |    6         64
+Febrero|   **101**                            |        |       |   101   |         |
+Marzo  |   **131**                            |   9    |       |   37    |    85   |
+Abril  |   **209**                            |        |   4   |    29   |   176   |
+       |                                      |        |       |         |         |
+Total  |   **516**                            | **14** | **4** | **173** | **325** |
 
 Tabla 15
 
