@@ -91,7 +91,7 @@ Comunidades.
 * Respecto a los niveles de preparación de la población desocupada en la zona metropolitana, un **44.60% cuenta con educación media superior y superior; y un
 88.11% tiene experiencia laboral previa**.
 
-<p style="background-color:#4F81BD;color:white;"><strong>Tazas de Empleo</strong></p>
+<p style="background-color:#4F81BD;color:white;"><strong>Tasas de Empleo</strong></p>
 
 * La **Tasa de Trabajo Asalariado es de 73.4**; esta tasa corresponde al porcentaje de la población ocupada que percibe un sueldo, salario o jornal por actividades
 realizadas.
