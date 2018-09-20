@@ -1,5 +1,5 @@
 
-Del total de las mujeres encuestadas en la ENOE en Torreón, durante el segundo trimestre del año y que forman parte de la Población No Económicamente Activa (PNEA), el 100% registró tener al menos una hija o un hijo, lo que pone sobre la mesa el papel que juega la maternidad dentro del no buscar incorporarse al mercado laboral.
+Del total de las mujeres encuestadas en la ENOE en Torreón, durante el segundo trimestre del año y que forman parte de la Población No Económicamente Activa (PNEA), el 93% registró tener al menos una hija o un hijo, lo que pone sobre la mesa el papel que juega la maternidad dentro del no buscar incorporarse al mercado laboral.
 
 Es incuestionable que la participación de las mujeres en el mercado laboral es superior por mucho, a la existente algunas décadas atrás. Las tasas de desempleo femenino han bajado y cada vez se ven más mujeres en ámbitos que antes se creían de exclusividad masculina o en puestos directivos y de toma de decisiones.
 

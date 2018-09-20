@@ -40,7 +40,7 @@ class ImpedimentosLaboralesDeLaMujerEnElAML extends \Base\PublicacionSchemaBlogP
         // El nombre del archivo a crear
         $this->archivo                    = 'impedimentos-laborales-de-la-mujer-en-el-AML';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Del total de las mujeres encuestadas en la ENOE en Torreón, durante el segundo trimestre del año y que forman parte de la Población Económicamente No Activa (PNEA), el 100% registró tener al menos una hija o un hijo, lo que pone sobre la mesa el papel que juega la maternidad dentro del no buscar incorporarse al mercado laboral.';
+        $this->descripcion                = 'Del total de las mujeres encuestadas en la ENOE en Torreón, durante el segundo trimestre del año y que forman parte de la Población Económicamente No Activa (PNEA), el 93% registró tener al menos una hija o un hijo, lo que pone sobre la mesa el papel que juega la maternidad dentro del no buscar incorporarse al mercado laboral.';
         $this->claves                     = 'IMPLAN, Torreon';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ImpedimentosLaboralesDeLaMujerEnElAML.md';
