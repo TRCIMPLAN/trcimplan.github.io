@@ -42,3 +42,11 @@ Finalmente, el índice de asequibilidad de la vivienda no toma en cuenta la exis
 </br></br>
 <p style="background-color:gray;color:yellow;"><strong>Financiamientos Hipotecarios</strong></p>
 <div style="clear:left;"></div><img class="img-responsive" src="la-asequibilidad-de-la-vivienda-en-torreon/financiamientos-hipotecarios.png" alt="financiamientos hipotecarios">
+
+*[INFONAVIT]: Instituto del Fondo Nacional de la Vivienda para los Trabajadores
+*[SHF]: Sociedad Hipotecaria Federal
+*[NAR]: Asociación Nacional de Agentes de Bienes Raíces de Estados Unidos
+*[ENOE]: Encuesta Nacional de Ocupación y Empleo
+*[FOVISSSTE]:  Fondo de la Vivienda del ISSSTE
+*[FONHAPO]:  Fondo Nacional de Habitaciones Populares
+*[CONAVI]: Comisión Nacional de Vivienda
