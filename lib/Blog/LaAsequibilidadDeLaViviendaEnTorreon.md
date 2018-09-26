@@ -19,7 +19,7 @@ julio 2018| 41,160| 6,742| 13,425|
 *Fuente: Sistema Nacional de Información e Indicadores de Vivienda.*
 Consultado el 20 de septiembre del 2018.
 
-</br></br></br>
+</br></br>
 
 La mayoría de estos financiamientos se consideran por valor de la vivienda en Popular, que representan un 38.52% del total de los créditos, y Económico, que ascienden a 20.35% del total para julio del presente año, lo cual significa que conforme a los datos que presenta la Sociedad Hipotecaria Federal (SHF), el valor medio de mercado de la vivienda nueva de interés social a nivel estado asciende a poco menos de los $550 mil pesos, con 262 muestras, mientras que el valor medio de las casas clasificadas como media es de $839 mil pesos, conforme a una muestra de 61 avalúos reportados por las Unidades de Valuación.
 
@@ -41,7 +41,7 @@ Finalmente, el índice de asequibilidad de la vivienda no toma en cuenta la exis
 
 </br></br>
 <p style="background-color:gray;color:yellow;"><strong>Financiamientos Hipotecarios</strong></p>
-<div style="clear:left;"></div><img class="img-responsive" src="la-asequibilidad-de-la-vivienda-en-torreon/financiamientos-hipotecarios.png" alt="financiamientos hipotecarios">
+<center><div style="clear:left;"></div><img class="img-responsive" src="la-asequibilidad-de-la-vivienda-en-torreon/financiamientos-hipotecarios.png" alt="financiamientos hipotecarios"></center>
 
 *[INFONAVIT]: Instituto del Fondo Nacional de la Vivienda para los Trabajadores
 *[SHF]: Sociedad Hipotecaria Federal
