@@ -53,7 +53,7 @@ class PatrimonioHistorico extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Cultura');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/3004fe8c-c29c-11e4-ac24-0e4fddd5de28/embed_map';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/3004fe8c-c29c-11e4-ac24-0e4fddd5de28/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,7 +66,7 @@ class PatrimonioHistorico extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/3004fe8c-c29c-11e4-ac24-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/3004fe8c-c29c-11e4-ac24-0e4fddd5de28/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
