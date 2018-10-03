@@ -75,8 +75,8 @@ class NavegacionConfig {
             //~'Institucional > Transparencia'                           => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),
 
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
-        'Transparencia'                                               => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
-
+        //'Transparencia'                                               => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
+        'Transparencia'                                               => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
         'Términos de Uso' => array(
             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
