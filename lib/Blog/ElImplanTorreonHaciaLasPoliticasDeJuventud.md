@@ -13,6 +13,11 @@ La justificación de estas acciones planeadas e impulsadas desde la Dirección d
 
 Los resultados de estos ejercicios han enriquecido la visión con la que se construyen los proyectos del IMPLAN, y en paralelo, nos han dado elementos para decidir acciones que consoliden la formación ciudadana de la juventud Lagunera en liderazgos sociales.
 
+<div class="pull-right"><center><img class="img-responsive" src="el-implan-torreon-hacia-las-politicas-de-juventud/grafica2.png" /></center></div>
+
+Fuente: Elaboración propia con datos obtenidos de la Dirección de Proyectos Estratégicos, IMPLAN Torreón.
+</br>
+
 Por ello **próximamente, el Consejo Visión Metrópoli buscará reunir a 21 líderes de la ZML, en un consejo permanente de participación ciudadana que genere sus propios proyectos y que además dé impulso entre la ciudadanía a los proyectos del IMPLAN Torreón**.
 
 En su diseño, la convocatoria presenta una serie de fortalezas que pretenden innovar en el insumo - producto de esta plataforma de participación, pues la agrupación aparte de ser joven; tiene un carácter metropolitano, la capacidad para vincularse con la iniciativa privada, gobierno, ciudadanía y universidad; y perfiles avalados por un currículo social.
@@ -25,6 +30,7 @@ Dentro de las sesiones de Visión Metrópoli, el IMPLAN buscará dotar al Consej
 
 Para finalizar, en la determinación de cada política de juventud intervienen dos factores de manera importante: la esencia del Estado que la diseña y el rol sociopolítico que se le da a los jóvenes; en este sentido, el IMPLAN busca realizar políticas no sólo con la juventud, sino crear políticas desde la juventud; políticas diseñadas y gestionadas por los mismos jóvenes con asesoría del Instituto2.
 
-<center><div style="clear:left;"></div><img class="img-responsive" src="el-implan-torreon-hacia-las-politicas-de-juventud/grafica.png" alt="políticas de juventud"></center>
-
-Fuente: Elaboración propia con datos obtenidos de la Dirección de Proyectos Estratégicos, IMPLAN Torreón.
+<center><div style="clear:left;"></div><img class="img-responsive" src="el-implan-torreon-hacia-las-politicas-de-juventud/foto1.jpg" alt="políticas de juventud 1"></center>
+<center><div style="clear:left;"></div><img class="img-responsive" src="el-implan-torreon-hacia-las-politicas-de-juventud/foto2.jpg" alt="políticas de juventud 2"></center>
+<center><div style="clear:left;"></div><img class="img-responsive" src="el-implan-torreon-hacia-las-politicas-de-juventud/foto3.jpg" alt="políticas de juventud 3"></center>
+<center><div style="clear:left;"></div><img class="img-responsive" src="el-implan-torreon-hacia-las-politicas-de-juventud/foto6.jpg" alt="políticas de juventud 6"></center>
