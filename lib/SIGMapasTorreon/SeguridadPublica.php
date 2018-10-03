@@ -53,7 +53,7 @@ class SeguridadPublica extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Seguridad');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/c8d95b00-92f6-11e5-857a-0e5db1731f59/embed_map';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/c8d95b00-92f6-11e5-857a-0e5db1731f59/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,7 +66,7 @@ class SeguridadPublica extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.cartodb.com/u/sigimplan/viz/c8d95b00-92f6-11e5-857a-0e5db1731f59/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/c8d95b00-92f6-11e5-857a-0e5db1731f59/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa

@@ -53,7 +53,7 @@ class CrecimientoDecrecimientoPoblacion extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Población', 'Vivienda');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/5c08e056-0a19-11e5-9fc2-0e0c41326911/embed_map';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/5c08e056-0a19-11e5-9fc2-0e0c41326911/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,7 +66,7 @@ class CrecimientoDecrecimientoPoblacion extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5c08e056-0a19-11e5-9fc2-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/5c08e056-0a19-11e5-9fc2-0e0c41326911/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
