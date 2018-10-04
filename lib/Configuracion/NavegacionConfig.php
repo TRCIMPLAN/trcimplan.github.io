@@ -39,8 +39,8 @@ class NavegacionConfig {
             'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
             'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
             'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
-            'Indicadores > Monitores'                                 => 'monitores/index.html',
-            'Indicadores > Convocatorias'                             => 'convocatorias/index.html'),
+            'Indicadores > Monitores'                                 => 'monitores/index.html'),
+            //'Indicadores > Convocatorias'                             => 'convocatorias/index.html'),
         'Indicadores Básicos de Colonias' => array(
 
             'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
