@@ -40,9 +40,9 @@ class SustentabilidadCamionesDeBomberos extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sustentabilidad-camiones-de-bomberos';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Cantidad total de vehículos que poseen las estaciones de bomberos de Torreón, tanto en servicio como en reparación.';
-        $this->claves      = 'IMPLAN, Torreón, Servicios públicos';
+        $this->claves      = 'IMPLAN, Torreón, Servicios Públicos';
         // Para el Organizador
-        $this->categorias  = array('Servicios públicos');
+        $this->categorias  = array('Servicios Públicos');
         $this->fuentes     = array('Bomberos de Torreón');
         $this->regiones    = array('Torreón');
     } // constructor

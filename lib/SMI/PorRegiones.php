@@ -60,6 +60,7 @@ class PorRegiones extends \Base\Publicacion {
             <ul>
               <li><a href="../indicadores-torreon/economia-apertura-de-una-empresa.html" target="_blank">Apertura de una empresa</a></li>
               <li><a href="../indicadores-torreon/economia-apertura-de-un-negocio-percentil-promedio.html" target="_blank">Apertura de un Negocio (percentil promedio)</a></li>
+              <li><a href="../indicadores-torreon/economia-balanza-comercial.html" target="_blank">Balanza comercial.</a></li>
               <li><a href="../indicadores-torreon/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
               <li><a href="../indicadores-torreon/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
               <li><a href="../indicadores-torreon/economia-cartera-hipotecaria-vencida.html" target="_blank">Cartera Hipotecaria Vencida</a></li>
@@ -72,8 +73,12 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-crecimiento-en-jornadas-laborales-muy-largas.html" target="_blank">Crecimiento en Jornadas Laborales Muy Largas</a></li>
               <li><a href="../indicadores-torreon/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
               <li><a href="../indicadores-torreon/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
+              <li><a href="../indicadores-torreon/economia-creditos-personales-otorgados.html" target="_blank">Créditos personales otorgados</a></li>
               <li><a href="../indicadores-torreon/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
               <li><a href="../indicadores-torreon/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
+              <li><a href="../indicadores-torreon/economia-desocupados-con-educacion-superior-o-media-superior.html" target="_blank">Desocupados con educación superior o media superior</a></li>
+              <li><a href="../indicadores-torreon/economia-desocupados-con-experiencia.html" target="_blank">Desocupados con experiencia</a></li>
+              <li><a href="../indicadores-torreon/economia-desocupados-de-15-a-25-anos.html" target="_blank">Desocupados de 15 a 25 años</a></li>
               <li><a href="../indicadores-torreon/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
               <li><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
               <li><a href="../indicadores-torreon/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
@@ -84,6 +89,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-gasto-en-nomina-por-empleado.html" target="_blank">Gasto en Nómina por Empleado</a></li>
               <li><a href="../indicadores-torreon/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
               <li><a href="../indicadores-torreon/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes Empresas (según CNN Expansión)</a></li>
+              <li><a href="../indicadores-torreon/economia-horas-laboradas.html" target="_blank">Horas laboradas</a></li>
               <li><a href="../indicadores-torreon/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
               <li><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
               <li><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -92,22 +98,29 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
               <li><a href="../indicadores-torreon/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
               <li><a href="../indicadores-torreon/economia-inflacion-anual.html" target="_blank">Inflación Anual</a></li>
+              <li><a href="../indicadores-torreon/economia-inflacion-mensual.html" target="_blank">Inflación mensual</a></li>
               <li><a href="../indicadores-torreon/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
               <li><a href="../indicadores-torreon/economia-inversion-extranjera-directa-neta.html" target="_blank">Inversión Extranjera Directa (Neta)</a></li>
               <li><a href="../indicadores-torreon/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
               <li><a href="../indicadores-torreon/economia-jornadas-laborales-muy-largas.html" target="_blank">Jornadas Laborales Muy Largas</a></li>
               <li><a href="../indicadores-torreon/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
               <li><a href="../indicadores-torreon/economia-microempresas.html" target="_blank">Microempresas</a></li>
+              <li><a href="../indicadores-torreon/economia-monto-de-prestamos.html" target="_blank">Monto de préstamos</a></li>
               <li><a href="../indicadores-torreon/economia-nuevas-empresas.html" target="_blank">Nuevas Empresas</a></li>
               <li><a href="../indicadores-torreon/economia-obtencion-de-credito-creacion-de-garantias.html" target="_blank">Obtención de Crédito - Creación de Garantías</a></li>
               <li><a href="../indicadores-torreon/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-torreon/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
               <li><a href="../indicadores-torreon/economia-patentes.html" target="_blank">Patentes</a></li>
+              <li><a href="../indicadores-torreon/economia-pea-desocupada.html" target="_blank">PEA desocupada</a></li>
+              <li><a href="../indicadores-torreon/economia-pea-ocupada.html" target="_blank">PEA Ocupada</a></li>
               <li><a href="../indicadores-torreon/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
               <li><a href="../indicadores-torreon/economia-permiso-de-construccion.html" target="_blank">Permiso de Construcción</a></li>
               <li><a href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
               <li><a href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
               <li><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+              <li><a href="../indicadores-torreon/economia-personas-que-ganan-1-o-2-salarios-minimos.html" target="_blank">Personas que ganan 1 o 2 salarios mínimos</a></li>
+              <li><a href="../indicadores-torreon/economia-poblacion-con-discapacidad-del-centro-historico.html" target="_blank">Población con discapacidad del Centro Histórico</a></li>
+              <li><a href="../indicadores-torreon/economia-poblacion-economicamente-activa-pea.html" target="_blank">Población Económicamente Activa (PEA)</a></li>
               <li><a href="../indicadores-torreon/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada Sin Ingresos</a></li>
               <li><a href="../indicadores-torreon/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
               <li><a href="../indicadores-torreon/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" target="_blank">Posgrados de Calidad (por cada 100mil de PEA)</a></li>
@@ -126,8 +139,13 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" target="_blank">Tasa de Condiciones Críticas de Ocupación</a></li>
               <li><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
               <li><a href="../indicadores-torreon/economia-tasa-de-informalidad.html" target="_blank">Tasa de Informalidad</a></li>
+              <li><a href="../indicadores-torreon/economia-tasa-de-subocupacion.html" target="_blank">Tasa de subocupación</a></li>
+              <li><a href="../indicadores-torreon/economia-tasa-de-trabajo-asalariado.html" target="_blank">Tasa de trabajo asalariado</a></li>
+              <li><a href="../indicadores-torreon/economia-tasa-promedio-de-apreciacion-de-la-vivienda.html" target="_blank">Tasa promedio de apreciación de la vivienda</a></li>
               <li><a href="../indicadores-torreon/economia-tierra-ejidal.html" target="_blank">Tierra Ejidal</a></li>
               <li><a href="../indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas Registradas en el SIEM</a></li>
+              <li><a href="../indicadores-torreon/economia-total-de-exportaciones.html" target="_blank">Total de exportaciones</a></li>
+              <li><a href="../indicadores-torreon/economia-total-de-importaciones.html" target="_blank">Total de importaciones.</a></li>
               <li><a href="../indicadores-torreon/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
               <li><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html" target="_blank">Trabajadores Asegurados (Región)</a></li>
               <li><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
@@ -189,6 +207,12 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
               <li><a href="../indicadores-torreon/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
               <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
+              <li><a href="../indicadores-torreon/seguridad-trafico-de-menores.html" target="_blank">Tráfico de menores</a></li>
+              <li><a href="../indicadores-torreon/seguridad-trata-de-personas.html" target="_blank">Trata de personas</a></li>
+              <li><a href="../indicadores-torreon/seguridad-violacion-equiparada.html" target="_blank">Violación equiparada</a></li>
+              <li><a href="../indicadores-torreon/seguridad-violacion-simple.html" target="_blank">Violación simple</a></li>
+              <li><a href="../indicadores-torreon/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" target="_blank">Violencia de género en todas sus modalidades distinta a la violencia familiar</a></li>
+              <li><a href="../indicadores-torreon/seguridad-violencia-familiar.html" target="_blank">Violencia familiar</a></li>
             </ul>
           </div>
           <div class="col-md-2 indicadores-vinculos">
@@ -199,6 +223,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
               <li><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
               <li><a href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
+              <li><a href="../indicadores-torreon/sociedad-alojamiento-y-preparacion-de-alimentos-en-centro-historico.html" target="_blank">Alojamiento y preparación de alimentos en Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Avanzadas</a></li>
               <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Básicas</a></li>
               <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Iniciales</a></li>
@@ -214,12 +239,14 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
               <li><a href="../indicadores-torreon/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
               <li><a href="../indicadores-torreon/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
+              <li><a href="../indicadores-torreon/sociedad-comercio-al-por-menor-en-el-centro-historico.html" target="_blank">Comercio al por menor en el Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
               <li><a href="../indicadores-torreon/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
               <li><a href="../indicadores-torreon/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
               <li><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
               <li><a href="../indicadores-torreon/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
               <li><a href="../indicadores-torreon/sociedad-empresas-socialmente-responsables.html" target="_blank">Empresas Socialmente Responsables</a></li>
+              <li><a href="../indicadores-torreon/sociedad-escolaridad-del-centro-historico.html" target="_blank">Escolaridad del Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
               <li><a href="../indicadores-torreon/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
               <li><a href="../indicadores-torreon/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
@@ -241,10 +268,16 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
               <li><a href="../indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
               <li><a href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
+              <li><a href="../indicadores-torreon/sociedad-ocupantes-por-cuarto-en-el-centro-historico.html" target="_blank">Ocupantes por cuarto en el Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
               <li><a href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
+              <li><a href="../indicadores-torreon/sociedad-poblacion-de-0-a-14-anos-del-centro-historico.html" target="_blank">Población de 0 a 14 años del Centro Histórico</a></li>
+              <li><a href="../indicadores-torreon/sociedad-poblacion-de-15-a-29-anos-del-centro-historico.html" target="_blank">Población de 15 a 29 años del Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" target="_blank">Población de 15 años o más analfabeta</a></li>
+              <li><a href="../indicadores-torreon/sociedad-poblacion-de-30-a-59-anos-del-centro-historico.html" target="_blank">Población de 30 a 59 años del Centro Histórico</a></li>
+              <li><a href="../indicadores-torreon/sociedad-poblacion-de-60-y-mas-anos-del-centro-historico.html" target="_blank">Población de 60 y más años del Centro Histórico</a></li>
+              <li><a href="../indicadores-torreon/sociedad-poblacion-del-centro-historico.html" target="_blank">Población del Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
               <li><a href="../indicadores-torreon/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
@@ -257,12 +290,14 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
               <li><a href="../indicadores-torreon/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
               <li><a href="../indicadores-torreon/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
+              <li><a href="../indicadores-torreon/sociedad-total-de-establecimientos-en-el-centro-historico.html" target="_blank">Total de establecimientos en el Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-universidades.html" target="_blank">Universidades</a></li>
               <li><a href="../indicadores-torreon/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
               <li><a href="../indicadores-torreon/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
               <li><a href="../indicadores-torreon/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html" target="_blank">Uso de Twitter como Proxy de Uso de Tecnologías de Información</a></li>
               <li><a href="../indicadores-torreon/sociedad-visitas-a-museos-inah.html" target="_blank">Visitas a Museos INAH</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html" target="_blank">Viviendas con Agua de la Red Pública</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-con-agua-entubada.html" target="_blank">Viviendas con Agua Entubada</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-con-drenaje.html" target="_blank">Viviendas con Drenaje</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html" target="_blank">Viviendas con Drenaje (sólo conexión a red pública)</a></li>
@@ -270,7 +305,33 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-1.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 1</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-2.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 2</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-3.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 3</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" target="_blank">Viviendas donde separan en Orgánico e Inorgánico los Residuos</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-donde-todos-sus-focos-son-ahorradores.html" target="_blank">Viviendas donde todos sus Focos son ahorradores</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-en-el-centro-historico.html" target="_blank">Viviendas en el Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-habitadas-en-el-centro-historico.html" target="_blank">Viviendas habitadas en el Centro Histórico</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-deshabitadas-en-el-centro-historico.html" target="_blank">Viviendas particulares deshabitadas en el Centro Histórico</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-alquiladas.html" target="_blank">Viviendas Particulares Habitadas Alquiladas</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-con-techos-precarios.html" target="_blank">Viviendas Particulares Habitadas con Techos Precarios</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-de-un-familiar-o-prestada.html" target="_blank">Viviendas Particulares Habitadas de un Familiar o Prestada</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-en-el-centro-historico.html" target="_blank">Viviendas particulares habitadas en el Centro Histórico</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-en-otra-situacion-de-tenencia.html" target="_blank">Viviendas Particulares Habitadas en Otra Situación de Tenencia</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-propias.html" target="_blank">Viviendas Particulares Habitadas Propias</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-computadora.html" target="_blank">Viviendas Particulares Habitadas que Disponen de Computadora</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-drenaje.html" target="_blank">Viviendas Particulares Habitadas que Disponen de Drenaje</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-energia-electrica.html" target="_blank">Viviendas Particulares Habitadas que Disponen de Energía Eléctrica</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-excusado-o-sanitario.html" target="_blank">Viviendas Particulares Habitadas que Disponen de Excusado o Sanitario</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-lavadora.html" target="_blank">Viviendas Particulares Habitadas que Disponen de Lavadora</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-pantalla-plana.html" target="_blank">Viviendas Particulares Habitadas que disponen de Pantalla Plana</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html" target="_blank">Viviendas Particulares Habitadas que disponen de Teléfono Celular</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-fijo.html" target="_blank">Viviendas Particulares Habitadas que disponen de Teléfono Fijo</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-television-de-paga.html" target="_blank">Viviendas Particulares Habitadas que disponen de Televisión de Paga</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-particulares-temporales-en-el-centro-historico.html" target="_blank">Viviendas particulares temporales en el Centro Histórico</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-calentador-solar-de-agua.html" target="_blank">Viviendas que Disponen de Calentador Solar de Agua</a></li>
+              <li><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-panel-solar-para-tener-electricidad.html" target="_blank">Viviendas que disponen de Panel Solar para tener Electricidad</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
               <li><a href="../indicadores-torreon/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
             </ul>
@@ -319,6 +380,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-tratamiento-de-aguas-residuales.html" target="_blank">Tratamiento de Aguas Residuales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-automoviles.html" target="_blank">Usuarios de Automóviles</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-bicicleta.html" target="_blank">Usuarios de Bicicleta</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-modos-no-motorizados.html" target="_blank">Usuarios de Modos No Motorizados</a></li>
@@ -326,6 +388,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-zonas-verdes.html" target="_blank">Zonas verdes</a></li>
             </ul>
           </div>
         </div>
@@ -401,6 +464,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" target="_blank">Tasa de Condiciones Críticas de Ocupación</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" target="_blank">Tasa de Informalidad</a></li>
+              <li><a href="../indicadores-gomez-palacio/economia-tasa-promedio-de-apreciacion-de-la-vivienda.html" target="_blank">Tasa promedio de apreciación de la vivienda</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-tierra-ejidal.html" target="_blank">Tierra Ejidal</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas Registradas en el SIEM</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
@@ -455,6 +519,12 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-trafico-de-menores.html" target="_blank">Tráfico de menores</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-trata-de-personas.html" target="_blank">Trata de personas</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-violacion-equiparada.html" target="_blank">Violación equiparada</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-violacion-simple.html" target="_blank">Violación simple</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" target="_blank">Violencia de género en todas sus modalidades distinta a la violencia familiar</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-violencia-familiar.html" target="_blank">Violencia familiar</a></li>
             </ul>
           </div>
           <div class="col-md-2 indicadores-vinculos">
@@ -533,6 +603,9 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-1.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 1</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-2.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 2</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-3.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 3</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -704,6 +777,12 @@ FINAL;
               <li><a href="../indicadores-lerdo/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
               <li><a href="../indicadores-lerdo/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
               <li><a href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-trafico-de-menores.html" target="_blank">Tráfico de menores</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-trata-de-personas.html" target="_blank">Trata de personas</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-violacion-equiparada.html" target="_blank">Violación equiparada</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-violacion-simple.html" target="_blank">Violación simple</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" target="_blank">Violencia de género en todas sus modalidades distinta a la violencia familiar</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-violencia-familiar.html" target="_blank">Violencia familiar</a></li>
             </ul>
           </div>
           <div class="col-md-2 indicadores-vinculos">
@@ -782,6 +861,8 @@ FINAL;
               <li><a href="../indicadores-lerdo/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
               <li><a href="../indicadores-lerdo/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
               <li><a href="../indicadores-lerdo/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-1.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 1</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-2.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 2</a></li>
               <li><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
               <li><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
               <li><a href="../indicadores-lerdo/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -957,6 +1038,12 @@ FINAL;
               <li><a href="../indicadores-matamoros/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
               <li><a href="../indicadores-matamoros/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
               <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-trafico-de-menores.html" target="_blank">Tráfico de menores</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-trata-de-personas.html" target="_blank">Trata de personas</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-violacion-equiparada.html" target="_blank">Violación equiparada</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-violacion-simple.html" target="_blank">Violación simple</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" target="_blank">Violencia de género en todas sus modalidades distinta a la violencia familiar</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-violencia-familiar.html" target="_blank">Violencia familiar</a></li>
             </ul>
           </div>
           <div class="col-md-2 indicadores-vinculos">
@@ -1035,6 +1122,8 @@ FINAL;
               <li><a href="../indicadores-matamoros/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
               <li><a href="../indicadores-matamoros/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
               <li><a href="../indicadores-matamoros/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-2.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 2</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-3.html" target="_blank">Viviendas desarrolladas en el perímetro de contención urbana 3</a></li>
               <li><a href="../indicadores-matamoros/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
               <li><a href="../indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
               <li><a href="../indicadores-matamoros/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -1233,6 +1322,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-defunciones.html" target="_blank">Defunciones</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-empresas-socialmente-responsables.html" target="_blank">Empresas Socialmente Responsables</a></li>
@@ -1250,6 +1340,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-nacimientos.html" target="_blank">Nacimientos</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
@@ -1259,6 +1350,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-proporcion-de-mujeres.html" target="_blank">Proporción de mujeres</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-universidades.html" target="_blank">Universidades</a></li>

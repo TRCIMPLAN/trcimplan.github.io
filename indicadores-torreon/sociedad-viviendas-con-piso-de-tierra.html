@@ -191,7 +191,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -236,13 +236,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">0.7000 %</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td>Fuente: INEGI, Intercensal 2015</td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Viviendas con Piso de Tierra en Torreón </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Viviendas con Piso de Tierra en Torreón con fuente IMCO</h3>
 
-    <div id="SmiGraficasViviendasConPisoDeTierraEnTorreon" class="grafica"></div>
+    <div id="SmiGraficasViviendasConPisoDeTierraEnTorreonImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Viviendas con Piso de Tierra en Torreón</h3>
@@ -260,10 +266,10 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">1.2100 %</td>
-        <td>IMCO</td>
-        <td></td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">0.7000 %</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td>Fuente: INEGI, Intercensal 2015</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
@@ -404,11 +410,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasViviendasConPisoDeTierraEnTorreon === 'undefined') {
-    varSmiGraficasViviendasConPisoDeTierraEnTorreon = Morris.Line({
-      element: 'SmiGraficasViviendasConPisoDeTierraEnTorreon',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasConPisoDeTierraEnTorreonImco === 'undefined') {
+    varSmiGraficasViviendasConPisoDeTierraEnTorreonImco = Morris.Line({
+      element: 'SmiGraficasViviendasConPisoDeTierraEnTorreonImco',
       data: [
         { fecha: '2008-12-31', dato: 1.4200 },
         { fecha: '2009-12-31', dato: 1.1700 },
@@ -429,7 +435,7 @@
   if (typeof varSmiOtrasRegionesViviendasConPisoDeTierraEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesViviendasConPisoDeTierraEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesViviendasConPisoDeTierraEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 1.2100 },{ region: 'Gómez Palacio', dato: 2.2400 },{ region: 'Lerdo', dato: 1.7200 },{ region: 'Matamoros', dato: 1.7100 },{ region: 'La Laguna', dato: 1.5800 }],
+      data: [{ region: 'Torreón', dato: 0.7000 },{ region: 'Gómez Palacio', dato: 2.2400 },{ region: 'Lerdo', dato: 1.7200 },{ region: 'Matamoros', dato: 1.7100 },{ region: 'La Laguna', dato: 1.5800 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

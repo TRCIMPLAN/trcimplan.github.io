@@ -34,17 +34,17 @@ class ServiciosPublicos extends \Base\Publicacion {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre        = 'Servicios públicos';
+        $this->nombre        = 'Servicios Públicos';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
         $this->archivo       = 'servicios-publicos';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Servicios públicos. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
-        $this->claves        = 'IMPLAN, Indicadores, Categoría, Servicios públicos';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Servicios Públicos. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
+        $this->claves        = 'IMPLAN, Indicadores, Categoría, Servicios Públicos';
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
-        $this->imagen        = '../imagenes/categorias/por-defecto.jpg';
-        $this->imagen_previa = '../imagenes/categorias/por-defecto.jpg';
-        $this->imagen_id     = 'categorias-por-defecto';
+        $this->imagen        = '../imagenes/categorias/servicios-publicos.jpg';
+        $this->imagen_previa = '../imagenes/categorias/servicios-publicos.jpg';
+        $this->imagen_id     = 'categorias-servicios-publicos';
         // Para el Organizador
         $this->categorias    = array();
         $this->fuentes       = array();
@@ -83,9 +83,63 @@ class ServiciosPublicos extends \Base\Publicacion {
 </thead>
 <tbody>
   <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Viviendas con Agua Entubada</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-agua-entubada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">96.3 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Viviendas Particulares Habitadas que Disponen de Drenaje</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-drenaje.html" data-toggle="tooltip" title="Cantidad, 31/12/2010, INEGI. Censos de Población y Vivienda">164799</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Viviendas Particulares Habitadas que Disponen de Energía Eléctrica</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-energia-electrica.html" data-toggle="tooltip" title="Cantidad, 31/12/2010, INEGI. Censos de Población y Vivienda">167111</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Alumbrado Público</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, INEGI">3.53 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, INEGI">5.58 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, INEGI">9.09 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, INEGI">15.42 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, INEGI">5.61 %</a></td>
+  </tr>
+  <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Camiones de bomberos</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-camiones-de-bomberos.html" data-toggle="tooltip" title="Cantidad, 31/01/2018, Bomberos de Torreón">34</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Red de Transporte Público</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-de-transporte-publico.html" data-toggle="tooltip" title="Kilómetros, 31/03/2014, IMPLAN">250</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Zonas verdes</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-zonas-verdes.html" data-toggle="tooltip" title="Hectáreas, 31/12/2017, Ayuntamiento de Torreón">82.3</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

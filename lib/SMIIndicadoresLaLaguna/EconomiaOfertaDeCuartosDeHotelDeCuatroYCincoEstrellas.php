@@ -71,7 +71,8 @@ class EconomiaOfertaDeCuartosDeHotelDeCuatroYCincoEstrellas extends \SMIBase\Pub
             array('fecha' => '2009-12-31', 'valor' => '59.2500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '61.8800', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '59.4100', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '58.8500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '68.3000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '71.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -99,7 +100,7 @@ class EconomiaOfertaDeCuartosDeHotelDeCuatroYCincoEstrellas extends \SMIBase\Pub
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '34.5400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '34.5400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '68.3700', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '58.8500', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '71.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

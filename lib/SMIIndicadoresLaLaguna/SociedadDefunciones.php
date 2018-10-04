@@ -40,9 +40,9 @@ class SociedadDefunciones extends \SMIBase\PublicacionWeb {
         $this->archivo     = 'sociedad-defunciones';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Cantidad de defunciones por cada mil habitantes.';
-        $this->claves      = 'IMPLAN, La Laguna, Población.';
+        $this->claves      = 'IMPLAN, La Laguna, Población';
         // Para el Organizador
-        $this->categorias  = array('Población.');
+        $this->categorias  = array('Población');
         $this->fuentes     = array('INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor

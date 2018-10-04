@@ -85,29 +85,29 @@ class GruposVulnerables extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">51100</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">22864</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">10516</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">8288</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">92768</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">53268</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">23838</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">10899</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">8586</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">96590</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Femenino</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">28563</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">12292</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">5527</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">4140</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">50521</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">29751</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">12829</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">5739</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">4312</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">52631</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Masculino</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">22537</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">10573</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">4989</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">4148</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">42247</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">23517</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">11009</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">5160</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">4274</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">43959</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -189,23 +189,23 @@ class GruposVulnerables extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">210708</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">130762</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">8665713</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">219131</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">134726</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">8969503</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Femenino</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">112673</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">68892</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">4635025</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">117267</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">71212</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">4801687</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Masculino</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">98035</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">61870</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2017, CONAPO">4030687</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-coahuila/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">101864</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-durango/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">63514</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-nacional/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, CONAPO">4167816</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

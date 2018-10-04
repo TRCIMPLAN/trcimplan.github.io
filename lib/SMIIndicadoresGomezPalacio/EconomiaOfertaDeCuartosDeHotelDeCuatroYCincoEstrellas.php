@@ -99,7 +99,7 @@ class EconomiaOfertaDeCuartosDeHotelDeCuatroYCincoEstrellas extends \SMIBase\Pub
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '34.5400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '34.5400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '68.3700', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '58.8500', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '71.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

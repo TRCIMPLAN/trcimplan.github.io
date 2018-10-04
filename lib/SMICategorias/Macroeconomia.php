@@ -102,6 +102,15 @@ class Macroeconomia extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Inflación mensual</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inflacion-mensual.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, INEGI">4.71 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Inversión Extranjera Directa</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inversion-extranjera-directa.html" data-toggle="tooltip" title="Millones de dólares, 31/12/2012, Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía">$ 46.50</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-inversion-extranjera-directa.html" data-toggle="tooltip" title="Millones de dólares, 31/12/2012, Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía">$ 214.49</a></td>

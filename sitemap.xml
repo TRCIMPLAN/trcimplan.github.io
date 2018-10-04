@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-10-03</lastmod>
+    <lastmod>2018-10-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4596,6 +4596,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-categorias/comercio.html</loc>
+    <lastmod>2015-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-categorias/competitividad.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -5206,6 +5211,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-tasa-promedio-de-apreciacion-de-la-vivienda.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-tierra-ejidal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -5478,6 +5488,36 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-trafico-de-menores.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-trata-de-personas.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-violacion-equiparada.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-violacion-simple.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5876,6 +5916,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-agua-entubada.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-computadora.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -5911,6 +5956,31 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-1.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-2.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-3.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-donde-todos-sus-focos-son-ahorradores.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-en-el-centro-historico.html</loc>
     <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -5931,13 +6001,93 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-alquiladas.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-con-techos-precarios.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-de-un-familiar-o-prestada.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-en-el-centro-historico.html</loc>
     <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-en-otra-situacion-de-tenencia.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-propias.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-computadora.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-drenaje.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-energia-electrica.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-excusado-o-sanitario.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-lavadora.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-pantalla-plana.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-fijo.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-television-de-paga.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-particulares-temporales-en-el-centro-historico.html</loc>
     <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-que-disponen-de-calentador-solar-de-agua.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-que-disponen-de-panel-solar-para-tener-electricidad.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6153,6 +6303,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-superficie.html</loc>
     <lastmod>2016-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-tratamiento-de-aguas-residuales.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6486,6 +6641,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-tasa-promedio-de-apreciacion-de-la-vivienda.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-tierra-ejidal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -6703,6 +6863,36 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-trafico-de-menores.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-trata-de-personas.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-violacion-equiparada.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-violacion-simple.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7068,6 +7258,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-con-piso-de-tierra.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-1.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-2.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-3.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7791,6 +7996,36 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-trafico-de-menores.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-trata-de-personas.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-violacion-equiparada.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-violacion-simple.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-acceso-a-instituciones-de-salud.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -8153,6 +8388,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-viviendas-con-piso-de-tierra.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-2.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-3.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8846,6 +9091,36 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-trafico-de-menores.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-trata-de-personas.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-violacion-equiparada.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-violacion-simple.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-acceso-a-instituciones-de-salud.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -9208,6 +9483,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-viviendas-con-piso-de-tierra.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-1.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-viviendas-desarrolladas-en-el-perimetro-de-contencion-urbana-2.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10551,6 +10836,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-tasa-promedio-de-apreciacion-de-la-vivienda.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-total-de-empresas-registradas-en-el-siem.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -10898,6 +11188,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-tasa-de-informalidad.html</loc>
     <lastmod>2014-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-tasa-promedio-de-apreciacion-de-la-vivienda.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

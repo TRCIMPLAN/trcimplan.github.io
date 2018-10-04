@@ -95,7 +95,7 @@ class EconomiaIndiceDeCompetitividadUrbana extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '42.5700', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 59 de 77 ciudades, de acuerdo a la edición 2012 del ICU.'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '37.3900', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 74 de 77 ciudades, de acuerdo a la edición 2012 del ICU.'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '41.5400', 'fuente_nombre' => 'IMCO', 'notas' => 'Ese valor equivale al lugar 64 de 77 ciudades, de acuerdo a la edición 2012 del ICU.'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '45.1100', 'fuente_nombre' => 'IMCO', 'notas' => 'En el ranking Nacional La Laguna, ocupa el lugar 44 de 77 zonas metropolitanas.'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '47.8200', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

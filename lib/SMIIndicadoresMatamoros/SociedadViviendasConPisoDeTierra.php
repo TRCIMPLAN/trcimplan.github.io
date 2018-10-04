@@ -95,7 +95,7 @@ class SociedadViviendasConPisoDeTierra extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '1.2100', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '0.7000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Fuente: INEGI, Intercensal 2015'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '2.2400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '1.7200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '1.7100', 'fuente_nombre' => 'IMCO'),

@@ -244,6 +244,15 @@ class RecursosNaturales extends \Base\Publicacion {
     <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-superficie.html" data-toggle="tooltip" title="Hectáreas, 31/12/2010, INEGI">82,163.73</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-superficie.html" data-toggle="tooltip" title="Hectáreas, 31/12/2010, INEGI">502,799.38</a></td>
   </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Zonas verdes</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-zonas-verdes.html" data-toggle="tooltip" title="Hectáreas, 31/12/2017, Ayuntamiento de Torreón">82.3</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
 </tbody>
 </table>
 <h3>Otras regiones</h3>

@@ -247,19 +247,19 @@ class Seguridad extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">29</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">42</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">18</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">98</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">68</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">48</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">24</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">146</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Ayuntamiento de Torreón">264</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">148</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">56</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">22</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">328</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">166</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">50</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/07/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">15</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">490</a></td>
   </tr>
   <tr>
@@ -288,6 +288,60 @@ class Seguridad extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">40.1776</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">8.3992</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">19.0018</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Tráfico de menores</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Trata de personas</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Violación equiparada</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">28</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Violación simple</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">54</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">35</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">16</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Violencia de género en todas sus modalidades distinta a la violencia familiar</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Violencia familiar</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2406</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1122</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">453</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">291</a></td>
+    <td class="nd">ND</td>
   </tr>
 </tbody>
 </table>

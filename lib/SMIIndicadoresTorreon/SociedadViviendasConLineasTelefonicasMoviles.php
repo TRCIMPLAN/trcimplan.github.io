@@ -43,7 +43,7 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
         $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Vivienda';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Vivienda');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -71,7 +71,8 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
             array('fecha' => '2009-12-31', 'valor' => '66.4300', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '72.7000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '77.7600', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '83.1600', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '83.1600', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '87.0000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Fuente: INEGI, Intercensal 2015')); // formateado 0, valor 12, crudo 7
     } // datos
 
     /**
@@ -95,7 +96,7 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '83.1600', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '87.0000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Fuente: INEGI, Intercensal 2015'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '79.7200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '73.9500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '71.2000', 'fuente_nombre' => 'IMCO'),

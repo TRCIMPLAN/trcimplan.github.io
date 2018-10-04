@@ -43,7 +43,7 @@ class SeguridadRobosTotales extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Seguridad, Delincuencia';
         // Para el Organizador
         $this->categorias  = array('Seguridad', 'Delincuencia');
-        $this->fuentes     = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'Ayuntamiento de Torreón');
+        $this->fuentes     = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -112,7 +112,16 @@ class SeguridadRobosTotales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-07-31', 'valor' => '274', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2017-08-31', 'valor' => '352', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2017-09-30', 'valor' => '287', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2017-10-31', 'valor' => '264', 'fuente_nombre' => 'Ayuntamiento de Torreón')); // formateado 0, valor 92, crudo 46
+            array('fecha' => '2017-10-31', 'valor' => '264', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2017-11-30', 'valor' => '338', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2017-12-31', 'valor' => '266', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2018-01-31', 'valor' => '235', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2018-02-28', 'valor' => '237', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2018-03-31', 'valor' => '400', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2018-04-30', 'valor' => '263', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2018-05-31', 'valor' => '455', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2018-06-30', 'valor' => '327', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2018-07-31', 'valor' => '328', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 110, crudo 55
     } // datos
 
     /**
@@ -136,10 +145,10 @@ class SeguridadRobosTotales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2017-10-31', 'valor' => '264', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-10-31', 'valor' => '148', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2017-10-31', 'valor' => '56', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2017-10-31', 'valor' => '22', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-07-31', 'valor' => '328', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-07-31', 'valor' => '166', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-07-31', 'valor' => '50', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2018-07-31', 'valor' => '15', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2017-10-31', 'valor' => '490', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
