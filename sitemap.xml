@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-10-04</lastmod>
+    <lastmod>2018-10-08</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1233,6 +1233,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/torreon-hacia-la-resiliencia-urbana.html</loc>
     <lastmod>2017-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/torreon-hacia-un-destino-turistico.html</loc>
+    <lastmod>2018-10-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -4058,6 +4063,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2017-03-07-taller-anticipacion-estrategica-para-la-planeacion-urbana.html</loc>
     <lastmod>2017-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2018-10-05-programa-parcial-desarrollo-urbano-centro-historico.html</loc>
+    <lastmod>2018-10-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
