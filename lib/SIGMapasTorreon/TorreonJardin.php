@@ -34,7 +34,7 @@ class TorreonJardin extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre             = 'torreon-jardin';
         $this->autor              = 'Arq. Cecilio Pedro Secunza Schott';
-        $this->fecha              = '2018-07-03T10:15';
+        $this->fecha              = '2018-10-10T11:06';
         // El nombre del archivo a crear y rutas relativas a las imágenes
         $this->archivo            = 'torreon-jardin';
         $this->imagen             = 'torreon-jardin/imagen.jpg';
@@ -47,13 +47,13 @@ class TorreonJardin extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu        = 'Información Geográfica';
         // El estado puede ser publicar, revisar o ignorar
-        $this->estado             = 'Revisar';
+        $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir     = TRUE;
+        $this->para_compartir     = FALSE;
         // Para el Organizador
         $this->categorias         = array('Infraestructura');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://goo.gl/maps/4zdoQEoFe942';
+        $this->url                = 'https://maphub.net/victorgomez/zonificacion';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,7 +66,7 @@ class TorreonJardin extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7200.6382711135775!2d-103.42896732333027!3d25.527744416443838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdb92f84e07f7%3A0xe02df20db4c24cee!2zVG9ycmXDs24gSmFyZMOtbiwgVG9ycmXDs24sIENvYWgu!5e0!3m2!1ses-419!2smx!4v1530716515827" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="100%" height="576" src="https://maphub.net/embed/38869?panel=1" frameborder="0"></iframe>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
