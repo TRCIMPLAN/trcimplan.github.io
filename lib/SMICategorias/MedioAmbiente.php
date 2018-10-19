@@ -246,6 +246,15 @@ class MedioAmbiente extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Unidad administrativa de gestión de calidad del aire estatal</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-unidad-administrativa-de-gestion-de-calidad-del-aire-estatal.html" data-toggle="tooltip" title="De 0 a 4, 31/12/2015, Centro Mario Molina (CMM)">2</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Uso de Automóvil Particular</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
