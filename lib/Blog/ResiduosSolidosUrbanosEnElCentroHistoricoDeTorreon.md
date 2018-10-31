@@ -33,6 +33,8 @@ Una primera unidad que abarca de Calzada Colón, Blvrd. Revolución a Blvrd. Ind
 
 Una segunda unidad que abarca de la Calle Treviño de Blvrd. Revolución a Blvrd. Independencia, hasta la Calle Torreón Viejo, ambos en servicio a partir de las 21:00 hrs. de lunes a sábado, y los domingos el recorrido lo cubrirá una unidad a partir de las 14:00 horas empezando de Calzada Colón de Blvrd. Revolución a Blvrd. Independencia y terminando en la Calle Torreón Viejo.
 
+Este es otro párrafo normal.
+
 Se espera que con este nuevo horario y una participación activa y responsable de los ciudadanos que cohabitamos el Centro Histórico, se pueda reducir en gran medida la generación de residuos y sea un parteaguas en la implementación de estrategias que mejoren la gestión de los desechos urbanos municipales.
 
 
