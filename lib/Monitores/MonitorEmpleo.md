@@ -1,113 +1,79 @@
 
 ###Monitor de Empleo
 
-Mayo 2018
+2do Trimestre 2018
 
 
 <p style="background-color:#4F81BD;color:white;"><strong>Indicadores Empleo</strong></p>
 
-Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+## Población Económicamente Activa (PEA)
+Indicador  |Dato    |Periodo  |Fuente       |Nivel    |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-PEA|524,957 personas|2018 Marzo|ENOE - INEGI|La Laguna|
-Edad promedio de la PEA|39.6 años|2018 Marzo|ENOE - INEGI|La Laguna|
-Años promedio de escolaridad de la PEA|11.1|2018 Marzo|ENOE - INEGI|La Laguna|
-% de la PEA Ocupada|94.76%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de la PEA Desocupada|5.23%|2018 Marzo|ENOE - INEGI|La Laguna|
-Tasa de trabajo asalariado|73.3|2018 Marzo|ENOE - INEGI|La Laguna|
-Tasa de subocupación|8.6|2018 Marzo|ENOE - INEGI|La Laguna|
-[Tasa de Condiciones Críticas de Ocupación](http://www.trcimplan.gob.mx/indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html)|12.6|2018 Marzo|ENOE - INEGI|La Laguna|
-[Tasa de informalidad laboral](http://www.trcimplan.gob.mx/indicadores-torreon/economia-tasa-de-informalidad.html)|40.1|2018 Marzo|ENOE - INEGI|La Laguna|
-Horas promedio trabajadas a la semana|41.6|2018 Marzo|ENOE - INEGI|La Laguna|
-Ingreso promedio por hora trabajada|$43.80|2018 Marzo|ENOE - INEGI|La Laguna|
-% de Trabajadores por cuenta propia|18.36%|2018 Marzo|ENOE - INEGI|La Laguna|
-[% de personas ocupadas en la industria manufacturera](http://www.trcimplan.gob.mx/indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html)|19.60%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas ocupadas en la construcción|8.36%|2018 Marzo|ENOE - INEGI|La Laguna|
-[% de personas ocupadas en el comercio](http://www.trcimplan.gob.mx/indicadores-torreon/economia-personal-ocupado-en-el-comercio.html)|21.77%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas ocupadas en restaurantes y servicios de alojamiento|8.00%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas ocupadas en el gobierno|3.31%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas ocupadas en micronegocios|37.69%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas ocupadas en pequeños establecimientos|21.75%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas que ganan hasta 1 salario mínimo|12.33%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas que ganan de 1 hasta 2 salarios mínimos|32.84%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas que trabajan de 35 a 48hrs|45.62%|2018 Marzo|ENOE - INEGI|La Laguna|
-[% de personas que trabajan más de 48hrs](http://www.trcimplan.gob.mx/indicadores-torreon/economia-jornadas-laborales-muy-largas.html)|26.03%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de personas que trabajan menos de 15 hrs|7.11%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de la población ocupada con acceso a instituciones de salud|54.02%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de la población ocupada sin acceso a instituciones de salud|45.69%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de la población desocupada de 15 a 25 años|37.24%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de la población desocupada de 25 a 44 años|39.72%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de la población desocupada que cuenta con educación media superior y superior|44.60%|2018 Marzo|ENOE - INEGI|La Laguna|
-% de la población desocupada que tiene experiencia laboral|88.11%|2018 Marzo|ENOE - INEGI|La Laguna|
+| PEA    | 531,026| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Porcentaje de la PEA Ocupada | 95.63%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Porcentaje de la PEA Desocupada  | 4.37%| Junio 2018| ENOE - INEGI   | La Laguna  |
 
-##Actualización del ENOE primer trimestre de 2018.
+## Población ocupada
+Indicador  |Dato    |Periodo  |Fuente       |Nivel    |
+----------------------------------------------------------------|--------|------------------|-----------|-------------------|
+| Años promedio de escolaridad de la PEA   | 11.11| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Horas promedio trabajadas a la semana     | 40.99| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Ingreso promedio por hora trabajada       | 44.43| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Población ocupada con sueldo menor o igual a 1 salario mínimo   | 16.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Población ocupada con acceso a instituciones de salud  | 53.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Población ocupada en la industria manufacturera    | 17.8%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Personal ocupado en el comercio  | 14.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Personal ocupado en micronegocios| 38.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
 
-El INEGI publica trimestralmente la Encuesta Nacional de Ocupación y Empleo (ENOE),que tiene por objetivo “Obtener información estadística sobre las características
-ocupacionales de la población a nivel nacional, así como otras variables demográficas y económicas que permitan profundizar en el análisis de los aspectos laborales.”.
+## Población desocupada
+Indicador  |Dato    |Periodo  |Fuente       |Nivel    |
+----------------------------------------------------------------|--------|------------------|-----------|-------------------|
+| Población desocupada que tiene de 15 a 25 años     | 34.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Población desocupada que cuenta con educación media superior y superior  | 46.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Población desocupada que tiene experiencia laboral | 91.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
 
-En el primer trimestre de 2018, el mercado laboral de la Zona Metropolitana de la Laguna se comportó de la siguiente manera:
+## Tasas
+Indicador  |Dato    |Periodo  |Fuente       |Nivel    |
+----------------------------------------------------------------|--------|------------------|-----------|-------------------|
+| Tasa de trabajo asalariado   | 73.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Tasa de subocupación|10.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Tasa de condiciones críticas de ocupación | 11.8%| Junio 2018| ENOE - INEGI   | La Laguna  |
+| Tasa de informalidad laboral | 40.6%| Junio 2018| ENOE - INEGI   | La Laguna  |
 
-<p style="background-color:#4F81BD;color:white;"><strong>Población Económicamente Activa</strong></p>
 
-* La cantidad de personas que conforma la **Población Económicamente Activa (PEA)** es de **524,957**; cantidad que **corresponde a un 46.87% de la población
-total de la ciudad**. La PEA es definida por el INEGI como “Personas de 15 y más años de edad que tuvieron vínculo con la actividad económica o que lo buscaron
-en la semana de referencia, por lo que se encontraban ocupadas o desocupadas.”
 
-* La **Edad Promedio** de la PEA es de **39.6 años**, con **11 años promedio de escolaridad**; mientras que en el estado de Coahuila es de 39, y 10.4
-respectivamente.
+##Actualización del ENOE Segundo trimestre de 2018.
 
-* El porcentaje de la **PEA ocupado** durante este trimestre fue de **94.76%** lo que significa una reducción puesto que en el último trimestre de 2017 fue de **95.53%**;
-en caso contrario, el porcentaje de la **PEA que estuvo desocupado** sufrió un aumento pues durante ese trimestre fue de **5.23%** en contraste con el **4.47%** que
-hubo durante octubre-diciembre de 2017.
+Monitor de empleo
 
-<p style="background-color:#4F81BD;color:white;"><strong>Población Ocupada</strong></p>
 
-* El salario promedio mensual para trabajadores de tiempo completo fue de **$7,288.32**; esto representa una **diferencia porcentual del 0.48%** respecto al
-último trimestre de 2017.
+La población ocupada de la ciudad está compuesta en un 74.81% por trabajadores subordinados y remunerados, 17.43% por trabajadores por cuenta propia, 8.82% por empleadores y en un 2.19% por trabajadores no remunerados.
 
-* El salario promedio semanal fue de **$1,822.08**, con un promedio de **41.6 horas trabajadas a la semana**, y un **ingreso promedio de $43.8 por hora**.
+De acuerdo a la Encuesta Nacional de Ocupación y Empleo (ENOE) del Instituto Nacional de Estadística y Geografía (INEGI), la Población Económicamente Activa (PEA) de la Zona Metropolitana de La Laguna (ZML), es decir, la que se encuentra trabajando o en búsqueda de empleo, aumentó 1.16% respecto al trimestre anterior para ubicarse actualmente en 531 mil personas. De dicha población, el 4.37% está desocupada.
 
-* El **18.36%** de la población ocupada, es **trabajador por cuenta propia**; valor mayor al del cuarto trimestre de 2017, que fue igual a **17.49%**.
+En términos técnicos, La Laguna se encuentra en situación de pleno empleo, ya que así se le considera a la desocupación menor al 5%. El término se debe a que siempre habrá personas que dejan su trabajo porque ya no están de acuerdo con sus condiciones laborales, se trasladan a otras ciudades, están en transición o están por graduarse.
+Por ejemplo, en el caso de La Laguna el 52% de las personas desocupadas en la zona metropolitana renunció o dejó su empleo. Además, la población subocupada, es decir, la que involuntariamente trabaja menos de 35 horas semanales,  se ha reducido 34.61% de junio de 2017 a junio de 2018.
 
-* Del total de personas ocupadas, un **21.77%** está **ocupado en el Comercio**; un **19.6%** trabaja en la **Industria Manufacturera**; el **8.36% se ocupa en la
-Construcción**; un **8.0% en Restaurantes y Servicios de Alojamiento; y un 3.31% en el Gobierno**.
+En cuanto a la Población No Económicamente Activa (PNEA), de las 315,685 personas que la conforman: 57,987 tienen interés para trabajar pero no buscan empleo por considerar que no tienen oportunidad de encontrarlo y 257,698 no busca porque no tiene necesidad o interés de trabajar. Aproximadamente el 6.57% de las personas en edad para trabajar han desistido de buscar empleo porque ha decidido dedicar más tiempo a estudiar y postergar su entrada al mundo laboral o por considerar que no tiene posibilidades, la cifra es menor al porcentaje a nivel nacional, que es de 9.8%.
 
-* El **12.33%** de las personas ocupadas ganan **hasta 1 salario mínimo**, cifra que aumentó puesto que a finales de 2017 era de **11.70%**.
+Por otro lado, el 25% de las personas en edad para trabajar no tiene interés por hacerlo, ya sea porque tiene a cargo niños pequeños, enfermos o ancianos, o porque algún familiar les prohíbe trabajar o también por algún impedimento físico de carácter temporal.
 
-* Por su parte, el **32.84% ganan de 1 y hasta 2 salarios mínimos, mientras que en octubre-diciembre de 2017 fue del 30.48%**.
+Casi el 60% de las personas desocupadas tardan únicamente un mes en encontrar trabajo, el 25% de 1 a 3 meses, el 13% de 3 meses a medio año, el 2.4% de 6 meses a un año y el 0.59% más de un año, que corresponde aproximadamente a 137 personas.
 
-* El **porcentaje** de personas que trabajan **de 35 a 48 horas a la semana es de 45.62%**, y las personas que trabajan **más de 48 horas conforma el 26.03%**. La
-Ley Federal del Trabajo en sus artículos 61o y 66o, establece que “La duración máxima de la jornada será: ocho horas la diurna, siete la nocturna y siete horas y
-media la mixta.”, la cual podrá prolongarse “...por circunstancias extraordinarias,sin exceder nunca de tres horas diarias ni de tres veces en una semana.”
+El ingreso por hora trabajada de la población ocupada se redujo un 2.97% respecto al año anterior, al pasar de 45.79 a 44.43 pesos para este año, pero es ligeramente mayor respecto al trimestre pasado de este mismo año que era de 43.84 pesos por hora.
 
-* Del total de población ocupada en la zona metropolitana, un **54.02% tiene acceso a instituciones de salud**, mientras que **el 45.69% no cuenta con ese servicio**.
-Estas cifras indican una mejoría respecto al último trimestre de 2017, pues el acceso fue de 52.48%.
+Dicho ingreso incluye todas las condiciones de ocupación, aunque la población ocupada de la ciudad se compone principalmente por trabajadores subordinados y remunerados, los cuales representan 74.81% del total. Por su parte, los trabajadores por cuenta propia, son el 17.43% de la población ocupada, los empleadores el 8.82% y los trabajadores no remunerados representan al 2.19%. Cabe destacar que si hacemos una distinción por género, hay 2 veces más empleadores hombres que mujeres, y 3 veces más trabajadoras no remuneradas que trabajadores no remunerados.
 
-<p style="background-color:#4F81BD;color:white;"><strong>Población Desocupada</strong></p>
+Los resultados mostraron que sólo el 1.44% de  la ciudad se dedica a la industria primaria, 28.73% a la secundaria y el 69.83% a la terciaria. Los dos sectores con más empleabilidad son el comercio con el 22.25% y la industria manufacturera con el 20.30%. El 40% de la población ocupada trabaja en el sector informal, menor al 66% nacional, y tuvo una disminución de 3.10% de junio de 2017 a junio del año actual en La Laguna.
 
-* El **37.24% de la población desocupada** en zona metropolitana está **entre los 15 y 25 años**; a esto se le reconoce en el ISO 37120 como **Desempleo Juvenil**, y es
-tomado como un indicador clave para cuantificar y analizar las tendencias y retos del mercado laboral para los jóvenes, y poder lograr el Desarrollo Sustentable de
-Comunidades.
-
-* Respecto a los niveles de preparación de la población desocupada en la zona metropolitana, un **44.60% cuenta con educación media superior y superior; y un
-88.11% tiene experiencia laboral previa**.
-
-<p style="background-color:#4F81BD;color:white;"><strong>Tasas de Empleo</strong></p>
-
-* La **Tasa de Trabajo Asalariado es de 73.4**; esta tasa corresponde al porcentaje de la población ocupada que percibe un sueldo, salario o jornal por actividades
-realizadas.
-
-* Por su parte, la **Tasa de Subocupación, es de 8.6**, que corresponde a la población “...que tiene la necesidad y disponibilidad de ofertar más horas de
-trabajo de lo que su ocupación actual les permite” (INEGI) Esta tasa disminuyó porque a finales de 2017 era de 10.5
-
-* La **Tasa de Condiciones Críticas de Ocupación (TCCO) es de 12.6%** cifra aumentó respecto a octubre-diciembre de 2017 que fue de 11.3%. En esta cifra
-se considera al personal ocupado que 1) trabaja menos de 35 horas a la semana por razones de mercado, 2) trabaja más de 35 horas con ingresos inferiores al
-salario mínimo o 3) labora más de 48 horas con una percepción de hasta dos salarios mínimos.
-
-* En lo que respecta a la **Tasa de Informalidad**, fue de **40.1%**, mientras que a finales de 2017 fue de **42%.**
+Según datos de junio de este año, el 53.89% de las personas ocupadas recibe 2 salarios mínimos o menos. De junio de 2017 al mismo mes de 2018 disminuyeron  en 13.66% las personas ocupadas que no reciben ingresos, aumentaron en 15.14% las que reciben un salario igual o menor a 2 salarios mínimos y disminuyeron un 22.51% quienes reciben más de 2 salarios mínimos.
 
 
 
 .
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS ENOE</strong></p>
 
+
+[De click para descargar el archivo PDF del:   <strong>Histórico Primer Trimestre 2018</strong>](http://www.trcimplan.gob.mx/monitores/empleo/monitor-empleo-1-2018.pdf)
+</br>
 [De click para descargar el archivo PDF del:   <strong>Histórico Cuarto Trimestre 2017</strong>](http://www.trcimplan.gob.mx/monitores/empleo/empleo-marzo-2018.pdf)
