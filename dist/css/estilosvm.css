@@ -1,5 +1,5 @@
 .slider{
-    width:100%;
+    width:90%;
     margin:auto;
     overflow:hidden;
     //*border-radius:5px;*//
@@ -8,27 +8,27 @@
 .slider ul{
     display:flex;
     padding:0;
-    width:900%;
+    width:800%;
 
     animation: cambio 120s infinite alternate linear;
     animation-timing-function:ease;
 }
 
 .slider li{
-    width:700%;
+    width:100%;
     list-style:none;
 }
 
 .slider a{
-    width:500%;
+    width:120%;
     list-style:none;
-    padding:4;
+    padding:2;
 }
 
 .slider img{
-    width:95%;
-    border-radius:15px;
-    padding:5;
+    width:85%;
+    border-radius: 7px;
+    padding:0;
 }
 
 
@@ -38,7 +38,7 @@
     10% {margin-left: 0;}
 
     15% {margin-left: -50%;}
-    25% {margin-left: -50%;}
+    29% {margin-left: -50%;}
 
     30% {margin-left: -100%;}
     40% {margin-left: -100%;}

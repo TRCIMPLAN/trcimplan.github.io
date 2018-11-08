@@ -9,36 +9,36 @@
 ## Población Económicamente Activa (PEA)
 Indicador  |Dato    |Periodo  |Fuente       |Nivel    |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-| PEA    | 531,026| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Porcentaje de la PEA Ocupada | 95.63%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Porcentaje de la PEA Desocupada  | 4.37%| Junio 2018| ENOE - INEGI   | La Laguna  |
+PEA    | 531,026| Junio 2018| ENOE - INEGI   | La Laguna  |
+Porcentaje de la PEA Ocupada | 95.63%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Porcentaje de la PEA Desocupada  | 4.37%| Junio 2018| ENOE - INEGI   | La Laguna  |
 
 ## Población ocupada
 Indicador  |Dato    |Periodo  |Fuente       |Nivel    |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-| Años promedio de escolaridad de la PEA   | 11.11| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Horas promedio trabajadas a la semana     | 40.99| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Ingreso promedio por hora trabajada       | 44.43| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Población ocupada con sueldo menor o igual a 1 salario mínimo   | 16.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Población ocupada con acceso a instituciones de salud  | 53.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Población ocupada en la industria manufacturera    | 17.8%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Personal ocupado en el comercio  | 14.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Personal ocupado en micronegocios| 38.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Años promedio de escolaridad de la PEA   | 11.11| Junio 2018| ENOE - INEGI   | La Laguna  |
+Horas promedio trabajadas a la semana     | 40.99| Junio 2018| ENOE - INEGI   | La Laguna  |
+Ingreso promedio por hora trabajada       | 44.43| Junio 2018| ENOE - INEGI   | La Laguna  |
+Población ocupada con sueldo menor o igual a 1 salario mínimo   | 16.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Población ocupada con acceso a instituciones de salud  | 53.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Población ocupada en la industria manufacturera    | 17.8%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Personal ocupado en el comercio  | 14.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Personal ocupado en micronegocios| 38.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
 
 ## Población desocupada
 Indicador  |Dato    |Periodo  |Fuente       |Nivel    |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-| Población desocupada que tiene de 15 a 25 años     | 34.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Población desocupada que cuenta con educación media superior y superior  | 46.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Población desocupada que tiene experiencia laboral | 91.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Población desocupada que tiene de 15 a 25 años     | 34.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Población desocupada que cuenta con educación media superior y superior  | 46.2%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Población desocupada que tiene experiencia laboral | 91.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
 
 ## Tasas
 Indicador  |Dato    |Periodo  |Fuente       |Nivel    |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-| Tasa de trabajo asalariado   | 73.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Tasa de subocupación|10.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Tasa de condiciones críticas de ocupación | 11.8%| Junio 2018| ENOE - INEGI   | La Laguna  |
-| Tasa de informalidad laboral | 40.6%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Tasa de trabajo asalariado   | 73.3%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Tasa de subocupación|10.0%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Tasa de condiciones críticas de ocupación | 11.8%| Junio 2018| ENOE - INEGI   | La Laguna  |
+Tasa de informalidad laboral | 40.6%| Junio 2018| ENOE - INEGI   | La Laguna  |
 
 
 
