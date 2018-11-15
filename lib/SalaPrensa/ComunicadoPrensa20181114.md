@@ -1,9 +1,9 @@
 
 ##PRINCIPALES RESULTADOS DE LA ENCUESTA NACIONAL DE OCUPACIÓN Y EMPLEO (ENOE) PARA EL ÁREA METROPOLITANA DE LA LAGUNA.
 
-De las 33 ciudades que monitorea la ENOE en el tercer trimestre de 2018, Torreón ocupa el lugar número 19 en ingresos promedios mensuales con $7,881.06. En promedio las y los torreonenses reciben $3,161 mensuales menos que el primer lugar. El primer lugar lo ocupa La Paz con $11,042 mensuales y el último es Cuernavaca, con $6,146.
+De las 33 ciudades que monitorea la **ENOE en el tercer trimestre de 2018, Torreón ocupa el lugar número 19 en ingresos promedios mensuales con $7,881.06**. En promedio las y los torreonenses reciben $3,161 mensuales menos que el primer lugar. El primer lugar lo ocupa La Paz con $11,042 mensuales y el último es Cuernavaca, con $6,146.
 
-La Población Económicamente Activa es de 530,457 para septiembre, lo que representa un crecimiento de 2.51% respecto al año anterior.
+La **Población Económicamente Activa es de 530,457 para septiembre**, lo que representa un **crecimiento de 2.51% respecto al año anterior**.
 
 En La Laguna, para el penúltimo trimestre del año, el 47.19% de las población ocupada gana 2 salarios mínimos o menos. A pesar de un aumento de 3.65% en el ingreso promedio por hora en septiembre, respecto al mismo mes del año anterior, el 6.12% de las personas ocupadas pasaron a concentrarse en el grupo con ingresos iguales o inferiores a dos salarios mínimos; lo que podría indicar una distribución de los ingresos más desigual.
 

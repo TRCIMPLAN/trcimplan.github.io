@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - ComunicadoPrensa20181114
+ * TrcIMPLAN Sitio Web - ComunicadoPrensa20181115
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SalaPrensa;
 
 /**
- * Clase ComunicadoPrensa20181114
+ * Clase ComunicadoPrensa20181115
  */
-class ComunicadoPrensa20181114 extends \Base\PublicacionSchemaBlogPosting {
+class ComunicadoPrensa20181115 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -34,22 +34,22 @@ class ComunicadoPrensa20181114 extends \Base\PublicacionSchemaBlogPosting {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Principales resultados de la Encuesta Nacional de Ocupación y Empleo (ENOE) para el Área Metropolitana de La Laguna.';
-        $this->autor                      = 'Lic. Daniel Alejandro López Murga';
-        $this->fecha                      = '2018-11-14T00:00';
+        $this->nombre                     = 'IMPLAN presentó conferencia “La cultura del árbol: cómo reconstruir la ciudad y sus espacios públicos"';
+        $this->autor                      = 'Lic. Maira Ivonne Flores Reyes';
+        $this->fecha                      = '2018-11-15T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '2018-11-14-enoe-3er-trim-2018';
+        $this->archivo                    = '2018-11-15-la-cultura-del-arbol';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Resultados de la Encuesta Nacional de Ocupación y Empleo (ENOE) del tercer trimestre de 2018, para el Área Metropolitana de La Laguna.';
-        $this->claves                     = 'IMPLAN, Torreon, ENOE';
+        $this->descripcion                = 'El Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón en conjunto con el arborista Cosijoopii Montero, quien es director de Reforestación Extrema A.C., presentaron en el Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM) Campus Laguna, la conferencia “La cultura del árbol: cómo reconstruir la ciudad y sus espacios públicos”.';
+        $this->claves                     = 'IMPLAN, Torreon, ';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/ComunicadoPrensa20181114.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/ComunicadoPrensa20181115.md';
         // Para el Organizador
-        $this->categorias                 = array('Empleo');
-        $this->fuentes                    = array('INEGI');
+        $this->categorias                 = array('Medio Ambiente');
+        $this->fuentes                    = array('IMPLAN');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
-} // Clase ComunicadoPrensa20181114
+} // Clase ComunicadoPrensa20181115
 
 ?>
