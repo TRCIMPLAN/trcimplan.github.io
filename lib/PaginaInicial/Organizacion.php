@@ -95,7 +95,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '    <img class="banner" src="imagenes/banner-implan-2018-01.jpg" width="100" height="400" alt="IMPLAN Torreon">';
             //  $b[] = ' ';
             $b[] = '<li></li>';
-            //INICIO  CONVOCATORIA
+            //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Convocatoria Visión Metrópoli"></a>';
