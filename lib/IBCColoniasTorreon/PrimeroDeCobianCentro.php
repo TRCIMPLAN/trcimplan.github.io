@@ -125,11 +125,11 @@ class PrimeroDeCobianCentro extends \IBCBase\PublicacionWeb {
      */
     public function resena() {
         return <<<FINAL
-![Plaza Mayor](primero-de-cobian-centro/plaza-mayor-800x450.jpg)
+<center>![Plaza Mayor](primero-de-cobian-centro/plaza-mayor-800x450.jpg)</center>
 
 ### Historia
 
-El Coronel Don Carlos González, al vender la Hacienda del Torreón y anexas (1898), mandó fraccionar cuatro líneas de manzanas a partir de la última línea de manzanas trazadas en el Plano Primitivo (que reservó para él).
+El Coronel Don Carlos González, al vender la **Hacienda del Torreón** y anexas (1898), mandó fraccionar cuatro líneas de manzanas a partir de la última línea de manzanas trazadas en el Plano Primitivo (que reservó para él).
 
 Las cuales abarcaban desde las calles Ramón Corona, Galeana, Jiménez, y Javier Mina, así como la conocida Calzada Colón.
 

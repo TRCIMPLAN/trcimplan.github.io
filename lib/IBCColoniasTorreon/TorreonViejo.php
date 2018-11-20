@@ -122,7 +122,37 @@ class TorreonViejo extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+###TORREÓN VIEJO
+<table>
+ <tr>
+<td><center><img src="torreon-viejo/imagen1.jpg"/></center></td>
+<td><center><img src="torreon-viejo/imagen2.jpg"/></center></td>
+<td><center><img src="torreon-viejo/imagen3.jpg"/></center></td>
+ </tr>
+ <tr>
+ <td>Está ubicada en una casa-habitación construida en 1904 por el arquitecto </br>
+ e ingeniero Federico Wulff, quien junto con su familia la habitó por muchos años.</br>
+ Por su estratégica ubicación, que ofrece una panorámica de toda la ciudad, fue </br>
+utilizada como trinchera por el general Francisco Villa durante la toma de Torreón. </br>
+En los años cincuenta el inmueble fue utilizado como cuartel militar y posteriormente </br>
+albergó a una pequeña vecindad. Fue inaugurado como museo el 11 de febrero</br>
+ de 1994, con el objetivo de difundir la historia de la ciudad.</br>
+En 1999 el inmueble fue remodelado y equipado con fondos del gobierno municipal </br>
+y del Consejo Nacional para la Cultura y las Artes (Conaculta), a través del Programa</br>
+ de Apoyo a la Infraestructura Cultural de los Estados (Paice). En sus 10 salas</br>
+ permanentes exhibe objetos que pertenecieron a la familia Wulff, pinturas de </br>
+diversas técnicas, esculturas, fotografías en blanco y negro, muebles de madera, </br>
+ropa y accesorios de la época; muñecas, juguetes y armas, entre otros objetos.</td>
+ <td>Torreón Viejo 2</td>
+ <td>Torreón Viejo 3</td>
+ </tr>
+</table>
+<table> 
+<td> Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... </td>
+</table>
+</br>
+FINAL;
     } // resena
 
 } // Clase TorreonViejo

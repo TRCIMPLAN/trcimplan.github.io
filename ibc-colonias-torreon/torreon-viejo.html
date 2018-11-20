@@ -196,12 +196,48 @@
       <!-- Contenido: Inicia  -->
   <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasConglomerado">
-    <li role="presentation" class="active"><a href="#LenguetasConglomeradoMapas" aria-controls="LenguetasConglomeradoMapas" role="tab" data-toggle="tab">Mapas</a></li>
+    <li role="presentation" class="active"><a href="#LenguetasConglomeradoResena" aria-controls="LenguetasConglomeradoResena" role="tab" data-toggle="tab">Reseña</a></li>
+    <li role="presentation"><a href="#LenguetasConglomeradoMapas" aria-controls="LenguetasConglomeradoMapas" role="tab" data-toggle="tab">Mapas</a></li>
     <li role="presentation"><a href="#LenguetasConglomeradoDatos" aria-controls="LenguetasConglomeradoDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasConglomeradoGraficas" aria-controls="LenguetasConglomeradoGraficas" role="tab" data-toggle="tab">Gráficas</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
-  <div role="tabpanel" class="tab-pane active" id="LenguetasConglomeradoMapas">
+  <div role="tabpanel" class="tab-pane active" id="LenguetasConglomeradoResena">
+<h3>TORREÓN VIEJO</h3>
+
+<table class="table table-hover table-bordered">
+ <tr>
+<td><center><img class="img-responsive" src="torreon-viejo/imagen1.jpg"/></center></td>
+<td><center><img class="img-responsive" src="torreon-viejo/imagen2.jpg"/></center></td>
+<td><center><img class="img-responsive" src="torreon-viejo/imagen3.jpg"/></center></td>
+ </tr>
+ <tr>
+ <td>Está ubicada en una casa-habitación construida en 1904 por el arquitecto </br>
+ e ingeniero Federico Wulff, quien junto con su familia la habitó por muchos años.</br>
+ Por su estratégica ubicación, que ofrece una panorámica de toda la ciudad, fue </br>
+utilizada como trinchera por el general Francisco Villa durante la toma de Torreón. </br>
+En los años cincuenta el inmueble fue utilizado como cuartel militar y posteriormente </br>
+albergó a una pequeña vecindad. Fue inaugurado como museo el 11 de febrero</br>
+ de 1994, con el objetivo de difundir la historia de la ciudad.</br>
+En 1999 el inmueble fue remodelado y equipado con fondos del gobierno municipal </br>
+y del Consejo Nacional para la Cultura y las Artes (Conaculta), a través del Programa</br>
+ de Apoyo a la Infraestructura Cultural de los Estados (Paice). En sus 10 salas</br>
+ permanentes exhibe objetos que pertenecieron a la familia Wulff, pinturas de </br>
+diversas técnicas, esculturas, fotografías en blanco y negro, muebles de madera, </br>
+ropa y accesorios de la época; muñecas, juguetes y armas, entre otros objetos.</td>
+ <td>Torreón Viejo 2</td>
+ <td>Torreón Viejo 3</td>
+ </tr>
+</table>
+
+<table class="table table-hover table-bordered"> 
+<td> Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... </td>
+</table>
+
+<p></br></p>
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasConglomeradoMapas">
     <div id="MapaLimites" class="mapa"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasConglomeradoDatos">
@@ -525,7 +561,8 @@
   google.charts.load('current', {'packages':['corechart']});
   // Carto mapas
   var mapa_limites_cargado = false;
-  // LenguetaWeb LenguetasConglomeradoMapas
+  // LenguetaWeb LenguetasConglomeradoMapas ejecuta lo siguiente al mostrar
+  $('#LenguetasConglomerado a[href="#LenguetasConglomeradoMapas"]').on('shown.bs.tab', function(e){
     if (mapa_limites_cargado == false) {
       var carto_json = 'https://guivaloz.carto.com/api/v2/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/viz.json'
       cartodb.createVis('MapaLimites', carto_json, {
@@ -545,6 +582,7 @@
       });
       mapa_limites_cargado = true;
     }
+  })
   // LenguetaWeb LenguetasConglomeradoGraficas ejecuta lo siguiente al mostrar
   $('#LenguetasConglomerado a[href="#LenguetasConglomeradoGraficas"]').on('shown.bs.tab', function(e){
   // AcordeonWeb GraficasDemografia 
@@ -728,9 +766,9 @@
       }
   })
   })
-  // LenguetasWeb LenguetasConglomerado ordenar que Mapas es la que se mostrará
+  // LenguetasWeb LenguetasConglomerado ordenar que Reseña es la que se mostrará
   $(document).ready(function(){
-    $('#LenguetasConglomerado a[href="#LenguetasConglomeradoMapas"]').tab('show')
+    $('#LenguetasConglomerado a[href="#LenguetasConglomeradoResena"]').tab('show')
   });
 </script>
 
