@@ -72,7 +72,8 @@ class SociedadVisitasAMuseosInah extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '84.2941', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '83.1957', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '92', 'fuente_nombre' => 'IMCO', 'notas' => 'El dato corresponde al total de visitas por cada mil habitantes'),
-            array('fecha' => '2014-12-31', 'valor' => '46', 'fuente_nombre' => 'IMCO', 'notas' => 'El dato corresponde al total de visitas por cada mil habitantes')); // formateado 0, valor 12, crudo 8
+            array('fecha' => '2014-12-31', 'valor' => '46', 'fuente_nombre' => 'IMCO', 'notas' => 'El dato corresponde al total de visitas por cada mil habitantes'),
+            array('fecha' => '2016-12-31', 'valor' => '42.9800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 9
     } // datos
 
     /**
@@ -96,11 +97,11 @@ class SociedadVisitasAMuseosInah extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '84.9600', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '46', 'fuente_nombre' => 'IMCO', 'notas' => 'El dato corresponde al total de visitas por cada mil habitantes'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '57074.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '42.9800', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

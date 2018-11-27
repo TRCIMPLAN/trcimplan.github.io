@@ -265,6 +265,12 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">4,470,074</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -289,57 +295,57 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">201,958</td>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">203,718</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">82,560</td>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">82,315</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">13,143</td>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">13,270</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">9,121</td>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">9,270</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">306,782</td>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">309,573</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">789,212</td>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">797,689</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">246,868</td>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">248,177</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">4,457,826</td>
+        <td class="centrado">2018-10-31</td>
+        <td class="derecha">4,470,074</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
@@ -386,6 +392,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTrabajadoresAseguradosEnNacional === 'undefined') {
+     $('#SmiDatosTrabajadoresAseguradosEnNacional').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosTrabajadoresAseguradosEnNacional = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss === 'undefined') {
@@ -400,7 +424,8 @@
         { fecha: '2018-05-31', dato: 4449785 },
         { fecha: '2018-06-30', dato: 4449914 },
         { fecha: '2018-08-31', dato: 20063433 },
-        { fecha: '2018-09-30', dato: 4457826 }],
+        { fecha: '2018-09-30', dato: 4457826 },
+        { fecha: '2018-10-31', dato: 4470074 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -415,7 +440,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresAseguradosEnNacionalGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresAseguradosEnNacionalGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresAseguradosEnNacionalGrafica',
-      data: [{ region: 'Torreón', dato: 201958 },{ region: 'Gómez Palacio', dato: 82560 },{ region: 'Lerdo', dato: 13143 },{ region: 'Matamoros', dato: 9121 },{ region: 'La Laguna', dato: 306782 },{ region: 'Coahuila', dato: 789212 },{ region: 'Durango', dato: 246868 },{ region: 'Nacional', dato: 4457826 }],
+      data: [{ region: 'Torreón', dato: 203718 },{ region: 'Gómez Palacio', dato: 82315 },{ region: 'Lerdo', dato: 13270 },{ region: 'Matamoros', dato: 9270 },{ region: 'La Laguna', dato: 309573 },{ region: 'Coahuila', dato: 797689 },{ region: 'Durango', dato: 248177 },{ region: 'Nacional', dato: 4470074 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

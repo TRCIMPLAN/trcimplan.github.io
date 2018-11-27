@@ -87,7 +87,8 @@ class EconomiaEjecucionDeContratos extends \SMIBase\PublicacionWeb {
 Los Indicadores complementarios en ejecución de contratos fueron los siguientes para Torreón: 
 Procedimientos (número) = 37 ; 
 Costo (% de cantidad demandada) = 27,9'),
-            array('fecha' => '2015-12-31', 'valor' => '200', 'fuente_nombre' => 'Doing Business')); // formateado 0, valor 18, crudo 12
+            array('fecha' => '2015-12-31', 'valor' => '200', 'fuente_nombre' => 'Doing Business'),
+            array('fecha' => '2016-12-31', 'valor' => '200', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 20, crudo 13
     } // datos
 
     /**
@@ -111,11 +112,11 @@ Costo (% de cantidad demandada) = 27,9'),
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '200', 'fuente_nombre' => 'Doing Business'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '243', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '243', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '270', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '256.5000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '200', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '228', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '228', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '200', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '211', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

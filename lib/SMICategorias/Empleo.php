@@ -130,11 +130,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Desocupados con educación superior o media superior</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-con-educacion-superior-o-media-superior.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">44.6 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-con-educacion-superior-o-media-superior.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">44.60 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desocupados-con-educacion-superior-o-media-superior.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">45.16 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -143,7 +143,7 @@ class Empleo extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desocupados-con-experiencia.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">88.69 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -152,7 +152,7 @@ class Empleo extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desocupados-de-15-a-25-anos.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">39.08 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -170,7 +170,7 @@ class Empleo extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-horas-laboradas.html" data-toggle="tooltip" title="Horas, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">42.1</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -188,7 +188,7 @@ class Empleo extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-pea-desocupada.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">5.01 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -197,7 +197,7 @@ class Empleo extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-pea-ocupada.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">94.99 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -229,11 +229,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Personas que ganan 1 o 2 salarios mínimos</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-personas-que-ganan-1-o-2-salarios-minimos.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">29.1 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-personas-que-ganan-1-o-2-salarios-minimos.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">29.10 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-personas-que-ganan-1-o-2-salarios-minimos.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">33.52 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -265,11 +265,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Salario Promedio Mensual para Trabajadores de Tiempo Completo</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 7,650.95</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 7,340.49</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,254.41</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,603.44</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 4,705.54</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,495.63</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,926.25</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -278,7 +278,7 @@ class Empleo extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.59 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">11.82 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.29 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">10.57 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">11.10</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -287,7 +287,7 @@ class Empleo extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.97 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">2.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.67 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4.40 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">5.01 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -296,7 +296,7 @@ class Empleo extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.82 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">39.10 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">41.27 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">40.80</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -305,7 +305,7 @@ class Empleo extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-subocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">10.4</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -314,16 +314,16 @@ class Empleo extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-trabajo-asalariado.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">74.3</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2018, Instituto Mexicano del Seguro Social (IMSS)">201958</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2018, Instituto Mexicano del Seguro Social (IMSS)">82560</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2018, Instituto Mexicano del Seguro Social (IMSS)">13143</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2018, Instituto Mexicano del Seguro Social (IMSS)">9121</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2018, Instituto Mexicano del Seguro Social (IMSS)">306782</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">203718</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">82315</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">13270</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">9270</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">309573</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -409,9 +409,9 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2018, Instituto Mexicano del Seguro Social (IMSS)">789212</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2018, Instituto Mexicano del Seguro Social (IMSS)">246868</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2018, Instituto Mexicano del Seguro Social (IMSS)">4457826</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">797689</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">248177</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">4470074</a></td>
   </tr>
 </tbody>
 </table>

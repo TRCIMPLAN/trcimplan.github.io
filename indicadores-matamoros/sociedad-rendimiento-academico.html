@@ -207,33 +207,39 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">30.9000 %</td>
+        <td>30.9000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">30.9000 %</td>
+        <td>30.9000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">24.9000 %</td>
+        <td>24.9000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">26.5000 %</td>
+        <td>26.5000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">28.5000 %</td>
+        <td>28.5000</td>
         <td>IMCO</td>
         <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td>176</td>
+        <td>IMCO</td>
+        <td>En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas</td>
       </tr>
     </tbody>
   </table>
@@ -259,36 +265,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">43.0000 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>2238</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">38.9000 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>899</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas</td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">36.9000 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>536</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas</td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">28.5000 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>176</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">39.8000 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>5.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -397,7 +403,8 @@
         { fecha: '2009-12-31', dato: 30.9000 },
         { fecha: '2010-12-31', dato: 24.9000 },
         { fecha: '2011-12-31', dato: 26.5000 },
-        { fecha: '2012-12-31', dato: 28.5000 }],
+        { fecha: '2012-12-31', dato: 28.5000 },
+        { fecha: '2016-12-31', dato: 176 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -412,7 +419,7 @@
   if (typeof varSmiOtrasRegionesRendimientoAcademicoEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesRendimientoAcademicoEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesRendimientoAcademicoEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 43.0000 },{ region: 'Gómez Palacio', dato: 38.9000 },{ region: 'Lerdo', dato: 36.9000 },{ region: 'Matamoros', dato: 28.5000 },{ region: 'La Laguna', dato: 39.8000 }],
+      data: [{ region: 'Torreón', dato: 2238 },{ region: 'Gómez Palacio', dato: 899 },{ region: 'Lerdo', dato: 536 },{ region: 'Matamoros', dato: 176 },{ region: 'La Laguna', dato: 5.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

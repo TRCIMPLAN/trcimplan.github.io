@@ -43,7 +43,7 @@ class SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos extends \SMI
         $this->claves      = 'IMPLAN, Torreón, Vivienda, Medio Ambiente';
         // Para el Organizador
         $this->categorias  = array('Vivienda', 'Medio Ambiente');
-        $this->fuentes     = array('Dirección General de Medio Ambiente');
+        $this->fuentes     = array('Dirección General de Medio Ambiente', 'IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -55,7 +55,7 @@ class SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos extends \SMI
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,8 @@ class SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos extends \SMI
      */
     public function datos() {
         return array(
-            array('fecha' => '2015-12-31', 'valor' => '43.0000', 'fuente_nombre' => 'Dirección General de Medio Ambiente', 'notas' => 'Fuente: INEGI')); // formateado 0, valor 2, crudo 2
+            array('fecha' => '2015-12-31', 'valor' => '43.0000', 'fuente_nombre' => 'Dirección General de Medio Ambiente', 'notas' => 'Fuente: INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '80479', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"')); // formateado 0, valor 4, crudo 4
     } // datos
 
     /**
@@ -76,7 +77,12 @@ class SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos extends \SMI
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +91,11 @@ class SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos extends \SMI
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '80479', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '35132', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '14424', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9584', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'));
     } // otras_regiones
 
     /**

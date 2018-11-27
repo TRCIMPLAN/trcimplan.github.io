@@ -247,6 +247,12 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">57,074.0000</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -271,38 +277,38 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2014-12-31</td>
-        <td>84.9600</td>
+        <td class="centrado">2016-12-31</td>
+        <td>57074.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
+        <td class="centrado">2016-12-31</td>
         <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
+        <td class="centrado">2016-12-31</td>
         <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
+        <td class="centrado">2016-12-31</td>
         <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2014-12-31</td>
-        <td>46</td>
+        <td class="centrado">2016-12-31</td>
+        <td>42.9800</td>
         <td>IMCO</td>
-        <td>El dato corresponde al total de visitas por cada mil habitantes</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -421,7 +427,8 @@
         { fecha: '2011-12-31', dato: 158.5143 },
         { fecha: '2012-12-31', dato: 172.0800 },
         { fecha: '2013-12-31', dato: 490.9000 },
-        { fecha: '2014-12-31', dato: 84.9600 }],
+        { fecha: '2014-12-31', dato: 84.9600 },
+        { fecha: '2016-12-31', dato: 57074.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -436,7 +443,7 @@
   if (typeof varSmiOtrasRegionesVisitasAMuseosInahEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesVisitasAMuseosInahEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesVisitasAMuseosInahEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 84.9600 },{ region: 'Gómez Palacio', dato: 0.0000 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 46 }],
+      data: [{ region: 'Torreón', dato: 57074.0000 },{ region: 'Gómez Palacio', dato: 0.0000 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 42.9800 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

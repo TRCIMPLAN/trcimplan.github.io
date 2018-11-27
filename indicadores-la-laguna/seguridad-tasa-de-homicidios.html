@@ -239,6 +239,12 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">9.3400</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -263,36 +269,36 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">109.7160</td>
+        <td class="centrado">2016-12-31</td>
+        <td>76</td>
         <td>IMCO</td>
-        <td></td>
+        <td>A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">43.7146</td>
+        <td class="centrado">2016-12-31</td>
+        <td>30</td>
         <td>IMCO</td>
-        <td></td>
+        <td>A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"</td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">41.8962</td>
+        <td class="centrado">2016-12-31</td>
+        <td>9</td>
         <td>IMCO</td>
-        <td></td>
+        <td>A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"</td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">36.2831</td>
+        <td class="centrado">2016-12-31</td>
+        <td>9</td>
         <td>IMCO</td>
-        <td></td>
+        <td>A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">77.5463</td>
+        <td class="centrado">2016-12-31</td>
+        <td>9.3400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -410,7 +416,8 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
         { fecha: '2009-12-31', dato: 38.4695 },
         { fecha: '2010-12-31', dato: 54.4737 },
         { fecha: '2011-12-31', dato: 56.8794 },
-        { fecha: '2012-12-31', dato: 77.5463 }],
+        { fecha: '2012-12-31', dato: 77.5463 },
+        { fecha: '2016-12-31', dato: 9.3400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -425,7 +432,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
   if (typeof varSmiOtrasRegionesTasaDeHomicidiosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeHomicidiosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeHomicidiosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 109.7160 },{ region: 'Gómez Palacio', dato: 43.7146 },{ region: 'Lerdo', dato: 41.8962 },{ region: 'Matamoros', dato: 36.2831 },{ region: 'La Laguna', dato: 77.5463 }],
+      data: [{ region: 'Torreón', dato: 76 },{ region: 'Gómez Palacio', dato: 30 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 9 },{ region: 'La Laguna', dato: 9.3400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

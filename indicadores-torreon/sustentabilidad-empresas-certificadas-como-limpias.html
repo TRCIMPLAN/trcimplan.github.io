@@ -235,6 +235,12 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">3.0000</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -259,36 +265,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">1.2000</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">3.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">3.8000</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">11.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">1.4000</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">1.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
+        <td class="centrado">2016-12-31</td>
         <td class="derecha">0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">1.8000</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">1.1300</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -402,7 +408,8 @@
         { fecha: '2009-12-31', dato: 0.8000 },
         { fecha: '2010-12-31', dato: 1.2000 },
         { fecha: '2011-12-31', dato: 0.8000 },
-        { fecha: '2012-12-31', dato: 1.2000 }],
+        { fecha: '2012-12-31', dato: 1.2000 },
+        { fecha: '2016-12-31', dato: 3.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -417,7 +424,7 @@
   if (typeof varSmiOtrasRegionesEmpresasCertificadasComoLimpiasEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesEmpresasCertificadasComoLimpiasEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesEmpresasCertificadasComoLimpiasEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 1.2000 },{ region: 'Gómez Palacio', dato: 3.8000 },{ region: 'Lerdo', dato: 1.4000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 1.8000 }],
+      data: [{ region: 'Torreón', dato: 3.0000 },{ region: 'Gómez Palacio', dato: 11.0000 },{ region: 'Lerdo', dato: 1.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 1.1300 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

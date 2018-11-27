@@ -67,7 +67,8 @@ class EconomiaPosgradosDeCalidad extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-04-30', 'valor' => '15', 'fuente_nombre' => 'CONACYT')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2014-04-30', 'valor' => '15', 'fuente_nombre' => 'CONACYT'),
+            array('fecha' => '2016-12-31', 'valor' => '19', 'fuente_nombre' => 'CONACYT')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -93,8 +94,8 @@ class EconomiaPosgradosDeCalidad extends \SMIBase\PublicacionWeb {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2014-04-30', 'valor' => '11', 'fuente_nombre' => 'CONACYT'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2014-03-31', 'valor' => '0', 'fuente_nombre' => 'CONACYT'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2014-04-30', 'valor' => '51', 'fuente_nombre' => 'CONACYT', 'notas' => 'Fuente: [CONACYT](http://www.conacyt.gob.mx)'),
-            array('region_nombre' => 'Durango', 'fecha' => '2014-04-30', 'valor' => '15', 'fuente_nombre' => 'CONACYT'));
+            array('region_nombre' => 'Coahuila', 'fecha' => '2016-12-31', 'valor' => '54', 'fuente_nombre' => 'CONACYT'),
+            array('region_nombre' => 'Durango', 'fecha' => '2016-12-31', 'valor' => '19', 'fuente_nombre' => 'CONACYT'));
     } // otras_regiones
 
     /**

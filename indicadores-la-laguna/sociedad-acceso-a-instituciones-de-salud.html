@@ -190,7 +190,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -235,13 +235,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-09-30</td>
+        <td class="derecha">53.2500 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Acceso a Instituciones de Salud en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Acceso a Instituciones de Salud en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasAccesoAInstitucionesDeSaludEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasAccesoAInstitucionesDeSaludEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Acceso a Instituciones de Salud en La Laguna</h3>
@@ -287,9 +293,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">42.0000 %</td>
-        <td>IMCO</td>
+        <td class="centrado">2018-09-30</td>
+        <td class="derecha">53.2500 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
     </tbody>
@@ -399,11 +405,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasAccesoAInstitucionesDeSaludEnLaLaguna === 'undefined') {
-    varSmiGraficasAccesoAInstitucionesDeSaludEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasAccesoAInstitucionesDeSaludEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasAccesoAInstitucionesDeSaludEnLaLagunaImco === 'undefined') {
+    varSmiGraficasAccesoAInstitucionesDeSaludEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasAccesoAInstitucionesDeSaludEnLaLagunaImco',
       data: [
         { fecha: '2008-12-31', dato: 49.9000 },
         { fecha: '2009-12-31', dato: 49.5000 },
@@ -424,7 +430,7 @@
   if (typeof varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAccesoAInstitucionesDeSaludEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 51.9500 },{ region: 'Gómez Palacio', dato: 48.7000 },{ region: 'Lerdo', dato: 31.9000 },{ region: 'Matamoros', dato: 37.3000 },{ region: 'La Laguna', dato: 42.0000 }],
+      data: [{ region: 'Torreón', dato: 51.9500 },{ region: 'Gómez Palacio', dato: 48.7000 },{ region: 'Lerdo', dato: 31.9000 },{ region: 'Matamoros', dato: 37.3000 },{ region: 'La Laguna', dato: 53.2500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
