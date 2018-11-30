@@ -1,0 +1,55 @@
+<?php
+/**
+ * TrcIMPLAN Sitio Web - ComunicadoPrensa20181130
+ *
+ * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @package TrcIMPLANSitioWeb
+ */
+
+namespace SalaPrensa;
+
+/**
+ * Clase ComunicadoPrensa20181130
+ */
+class ComunicadoPrensa20181130 extends \Base\PublicacionSchemaBlogPosting {
+
+    /**
+     * Constructor
+     */
+    public function __construct() {
+        // Ejecutar constructor en el padre
+        parent::__construct();
+        // Título, autor y fecha
+        $this->nombre                     = 'IMPLAN presenta resultados anuales y programas de trabajo para el 2019.';
+        $this->autor                      = 'Lic. Maira Ivonne Flores Reyes';
+        $this->fecha                      = '2018-11-30T00:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = '2018-11-30-onceava-y-doceava-sesion';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion                = 'Durante la Onceava Sesión del Consejo Directivo, el Instituto de Planeación y Competitividad de Torreón presentó los resultados obtenidos durante este año y los proyectos que se tienen planeados para el 2019.';
+        $this->claves                     = 'IMPLAN, Torreon';
+        // Ruta al archivo markdown con el contenido
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/ComunicadoPrensa20181130.md';
+        // Para el Organizador
+        $this->categorias                 = array();
+        $this->fuentes                    = array('IMPLAN');
+        $this->regiones                   = array('Torreón');
+    } // constructor
+
+} // Clase ComunicadoPrensa20181130
+
+?>

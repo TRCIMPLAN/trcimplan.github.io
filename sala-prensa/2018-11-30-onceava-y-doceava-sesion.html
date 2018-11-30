@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Durante la Onceava Sesión del Consejo Directivo, el Instituto de Planeación y Competitividad de Torreón presentó los resultados obtenidos durante este año y los proyectos que se tienen planeados para el 2019.">
+  <meta name="author" content="Lic. Maira Ivonne Flores Reyes">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="IMPLAN presenta resultados anuales y programas de trabajo para el 2019. - IMPLAN Torreón">
+  <meta name="twitter:description" content="Durante la Onceava Sesión del Consejo Directivo, el Instituto de Planeación y Competitividad de Torreón presentó los resultados obtenidos durante este año y los proyectos que se tienen planeados para el 2019.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/sala-prensa/2018-11-30-onceava-y-doceava-sesion/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/sala-prensa/2018-11-30-onceava-y-doceava-sesion.html">
+  <meta name="og:title" content="IMPLAN presenta resultados anuales y programas de trabajo para el 2019. - IMPLAN Torreón">
+  <meta name="og:description" content="Durante la Onceava Sesión del Consejo Directivo, el Instituto de Planeación y Competitividad de Torreón presentó los resultados obtenidos durante este año y los proyectos que se tienen planeados para el 2019.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/sala-prensa/2018-11-30-onceava-y-doceava-sesion/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/sala-prensa/2018-11-30-onceava-y-doceava-sesion.html">
+  <title>IMPLAN presenta resultados anuales y programas de trabajo para el 2019. - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+            <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+        <li class="active"><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+        <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="encabezado">
+          <h1 itemprop="headline">IMPLAN presenta resultados anuales y programas de trabajo para el 2019.</h1>
+          <div class="encabezado-descripcion" itemprop="description">Durante la Onceava Sesión del Consejo Directivo, el Instituto de Planeación y Competitividad de Torreón presentó los resultados obtenidos durante este año y los proyectos que se tienen planeados para el 2019.</div>
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Lic. Maira Ivonne Flores Reyes</span> -
+            <meta itemprop="datePublished" content="2018-11-30T00:00">30/11/2018
+          </div>
+        </div>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<p></br></br></p>
+
+<p style="background-color:#f95666;color:white;"><strong>DIRECCIÓN DE PROYECTOS ESTRATÉGICOS.</strong></p>
+
+<h2>En este año se trabajó en lo siguiente:</h2>
+
+<p><strong>- LAGUNA Y2040.</strong></p>
+
+<p>Ejercicio de participación ciudadana para universitarios, en el que más de 800 alumnos de 12 universidades de La Laguna se reunieron para discutir sobre problemas actuales de la ciudad y a proponer soluciones. Participaron más de 40 docentes locales y 13 expertos locales y nacionales en los ejes de Desarrollo Social, Desarrollo Económico, Buen Gobierno, Medio Ambiente, Desarrollo Urbano y Movilidad, quienes orientaron a los jóvenes durante el ejercicio. El ejercicio consistió en tres etapas:</p>
+
+<p>1-  Paneles con Expertos en los ejes de Desarrollo Social, Desarrollo Económico, Buen Gobierno, Medio Ambiente, Desarrollo Urbano y Movilidad y Transporte.</p>
+
+<p>2-  Mesas de trabajo en los ejes mencionados, en los que los jóvenes identificaron las principales problemáticas que impiden el desarrollo de La Laguna, construyeron una visión ideal de La Laguna hacia el 2040 y propusieron estrategias para llegar a esa visión.</p>
+
+<p>3-  Los alumnos diseñaron proyectos personales para contribuir a la solución de problemáticas en La Laguna.</p>
+
+<p><strong>- MI ACCIÓN DE LIDERAZGO.</strong></p>
+
+<p>Ejercicio en el que se apoyó la gestión de proyectos sociales en la Zona Metropolitana de La Laguna. Al final de la actividad 326 estudiantes de 9 universidades ejecutaron 50 acciones de liderazgo con un total de más de 6,200 beneficiados.</p>
+
+<p><strong>- TALLER PARTICIPATIVO DE POLÍTICA INDUSTRIAL.</strong></p>
+
+<p>Ejercicio de participación ciudadana con empresarios de la Zona Metropolitana de La Laguna para el Plan de Política Industrial en el que 51 ciudadanos, miembros de la iniciativa privada y funcionarios públicos dedicados al desarrollo económico de la región identificaron las fortalezas, oportunidades, debilidades y amenazas de la Industria Manufacturera de La Laguna y propusieron acciones de corto y largo plazo para trabajar en los principales problemas detectados, con el objetivo de construir un diagnóstico robusto del sector industrial y culminar en el diseño de políticas públicas coherentes y efectivas.</p>
+
+<p><strong>- SEMANA i.</strong></p>
+
+<p>Gestión de proyectos sociales.- Proyecto con alumnos del Tecnológico de Monterrey sobre instrumentos de gestión para proyectos sociales. Durante una semana se aplicaron instrumentos de gestión en 4 distintos proyectos en los que el IMPLAN trabaja: Residuos Sólidos Urbanos, Redensificación del Centro Histórico, Implementación de Calle Completa en el Paso del Tecnológico y Adaptación de la Guía para el Desarrollo de Proveedores de la ONUDI. Los alumnos capturaron fotos de predios con basura en el primer cuadro del centro de Torreón y recopilaron información para conformar la línea base de medición de desempeño del cambio de horario en la recolección de residuos sólidos por parte de la dirección de servicios de limpieza.</p>
+
+<p><strong>- DOCUMENTO PRELIMINAR DEL PLAN DE POLÍTICA INDUSTRIAL.</strong></p>
+
+<p>Tras el proceso de participación del sector privado, se integró un documento preliminar con diagnóstico técnico y ciudadano, visión y propuestas de política pública para contribuir a la toma de decisiones al sector público y privado en beneficio de la industria manufacturera de La Laguna.</p>
+
+<p><strong>- CENTRO DE CAPACITACIÓN PARA EL SECTOR INDUSTRIAL DE LA ZML.</strong></p>
+
+<p>En el marco del convenio de colaboración entre el Implan Torreón y el Clúster Automotriz Laguna (CAL) y en el proceso de realización del Plan de Política Industrial, el equipo técnico del Implan colaboró con el CAL en la realización de un estudio de factibilidad para la constitución de un Instituto de Capacitación para el Trabajo del Estado de Coahuila (ICATEC).</p>
+
+<h2>Actividades para el 2019:</h2>
+
+<p><strong>- CONSEJO VISIÓN METRÓPOLI.</strong></p>
+
+<p>Consejo de Participación Joven convocado por el IMPLAN Torreón.- Diseño, selección e integración del Consejo Visión Metrópoli por 21 jóvenes de 18 a 30 años, residentes de La Laguna y con experiencia comprobable en labor social.  Los seleccionados comenzarán funciones el año 2019 y participarán con el IMPLAN en la difusión de sus planes y en el desarrollo de propuestas propias. Sesionarán una vez al mes con miembros del cuerpo técnico del IMPLAN.</p>
+
+<p><strong>- EJERCICIO DE INTERVENCIÓN VISIÓN METRÓPOLI.</strong></p>
+
+<p>Ejercicio de concientización, vinculación e intervención ciudadana con universitarios de la ZML.</p>
+
+<p><strong>- SISTEMA MUNICIPAL DE EVALUACIÓN Y GESTIÓN DE PROYECTOS.</strong></p>
+
+<p>Diseño del sistema de evaluación y gestión de proyectos de inversión en el que se defina el proceso y rol de cada parte involucrada dentro del municipio para la consolidación de un Banco Municipal de Proyectos de Inversión.</p>
+
+<p><strong>- PLAN DE POLÍTICA INDUSTRIAL.</strong></p>
+
+<p>Continuación de talleres de participación con distintos sectores de la ZML para alimentar el Plan de Política Industrial. Publicación y difusión de un documento y seguimiento de las acciones y políticas propuestas para el desarrollo Industrial en la ZML.</p>
+
+<p><strong>- DIÁLOGO PARTICIPATIVO PARA LA VINCULACIÓN ACADEMIA.</strong></p>
+
+<p>Iniciativa Privada.- Mesa de diálogo con 25 representantes de la academia y el sector productivo, el objetivo de este trabajo fue identificar las áreas de oportunidad en los esquemas de vinculación entre universidad y empresas del sector manufacturero. Los resultados fueron insumos para el diseño de políticas públicas coherentes y efectivas.</p>
+
+<hr />
+
+<p style="background-color:#f95666;color:white;"><strong>DIRECCIÓN DE PLANEACIÓN URBANA SUSTENTABLE.</strong></p>
+
+<h2>En este año se trabajó en lo siguiente:</h2>
+
+<p><strong>- Actualización Plan Director de Desarrollo Urbano de Torreón.</strong></p>
+
+<p>Actualización del DIAGNÓSTICO del Plan Director de Desarrollo Urbano, el cual es el principal instrumento jurídico y normativo que contiene las disposiciones técnicas para el ordenamiento territorial urbano del municipio. Se actualizó el diagnóstico utilizando la nueva metodología publicada por SEDATU-SEMARNAT-GIZ para elaboración de programas municipales de desarrollo urbano.</p>
+
+<p><strong>- Actualización Programa Parcial de Desarrollo Urbano del Centro Histórico.</strong></p>
+
+<p>Actualización del PPDUCH, el cual pretende ser el eje rector del mejoramiento y conservación del Centro Histórico de Torreón, el cual busca preservar el patrimonio con valor arquitectónico, artístico y cultural, además de incentivar el desarrollo económico, social y la re densificación de la zona. Se llevó cabo 1 taller de participación ciudadana, donde participaron +70 ciudadanos en diferentes líneas estratégicas como Regeneración Urbana, Desarrollo Económico, Vivienda, Sustentabilidad Ambiental, Patrimonio, Movilidad y Gobernanza.</p>
+
+<p><strong>- Plan de Movilidad Activa.</strong></p>
+
+<p>Presentación del Plan de Movilidad Activa (no motorizada) como instrumento de planeación para los proyectos, y acciones para los modos no motorizados. Este año, se presentó la Red de Infraestructura ciclista, donde actualmente se trabaja en los primeros proyectos para el corto plazo.</p>
+
+<p><strong>- Sistema de Información Geográfica.</strong></p>
+
+<p>Adición de nuevas capas al SIG, así como actualización y revisión de las existentes. Incidentes Viales 2018, Encharcamientos e Infraestructura de Agua Potable y Red de Infraestructura Ciclista.</p>
+
+<h2>Actividades para el 2019:</h2>
+
+<p><strong>- Aprobación, Publicación y Registro del Plan Director de Desarrollo Urbano de Torreón, Elaboración del Programa Parcial de Desarrollo Urbano NORTE, Dictaminación Técnica, entre otros.</strong></p>
+
+<p style="background-color:#f95666;color:white;"><strong>DIRECCIÓN DE INVESTIGACIÓN ESTRATÉGICA.</strong></p>
+
+<h2>En este año se trabajó en lo siguiente:</h2>
+
+<p><strong>- Indicadores.</strong></p>
+
+<p>Mantenimiento y actualización de la información del Sistema Metropolitano de Indicadores, que se catalogan en 32 categorías, a nivel ciudad, estatal y nacional. En total acumulan 1,412 indicadores, de los cuales 402 son de Torreón.</p>
+
+<p><strong>- Monitores.</strong></p>
+
+<p>Creación de los monitores metropolitanos, instrumentos de información que detallan los datos más relevantes respecto a temas selectos en la ciudad y la Zona Metropolitana de La Laguna.  Adaptación de la página para presentarlos, así como generar un archivo descargable con la información de los monitores. A la fecha se tienen publicados 9 monitores y se contempla para final del año sean 12 y la actualización anual del resto.</p>
+
+<p><strong>- Diagnóstico de violencia de género contra la mujer.</strong></p>
+
+<p>Estudio que contempla la aplicación de instrumentos estadísticos, grupos focales y análisis de fuentes secundarias para conocer la realidad del municipio respecto a la violencia de género contra la mujer.</p>
+
+<p>Este diagnóstico busca generar políticas públicas a través de un conocimiento más granular de la violencia en el municipio, así como atender problemas específicos que resulten del análisis de la información recabada.</p>
+
+<p><strong>- Estudio sobre las finanzas públicas del municipio (Ramo 28).</strong></p>
+
+<p>Análisis de las finanzas públicas municipales y su relación con las aportaciones y participaciones del estado y la federación. Este estudio busca conocer las fuentes de ingreso más importantes, que vienen siendo las aportaciones y participaciones, así como la manera en cómo se integran</p>
+
+<h2>Actividades para el 2019:</h2>
+
+<p><strong>- Sistema Metropolitano de Indicadores.- Actualización y ampliación de los indicadores para integrar micro datos de las encuestas y censos del INEGI:</strong>
+1.  Encuesta sobre la Dinámica de las Relaciones en los Hogares (Torreón).
+2.  Encuesta Nacional sobre Ocupación y Empleo (Torreón).
+3.  Encuesta Nacional sobre la Discriminación (Coahuila).</p>
+
+<p><strong>- Indicadores Básicos por Colonia.- Integración de fichas informativas sobre la historia de las colonias, mobiliario urbano, calles y sitios de interés.</strong>
+    Primera etapa:
+1.  Centro Histórico / Primitivo Centro
+2.  Primera de Cobián
+3.  Moderna
+4.  Torreón Viejo
+5.  Torreón Jardín</p>
+
+<p><strong>- Diagnóstico sobre la Violencia contra las Mujeres en Torreón.</strong></p>
+
+<p>Integración y publicación de los resultados sobre el diagnóstico sobre la violencia, adicionalmente se llevarán a cabo mesas de trabajo con grupos y personas interesadas para incluir políticas públicas y estados deseados de la población al diagnóstico.</p>
+
+<p><strong>- Estudio sobre las finanzas públicas del municipio.</strong></p>
+
+<p>Publicación en el sitio web del monitor de finanzas públicas del municipio, con información histórica del INEGI, integrando:</p>
+
+<ol>
+<li>Análisis histórico de los ingresos del Municipio.</li>
+<li>Análisis histórico sobre los egresos del Municipio.</li>
+<li>Análisis de sensibilidad de los ingresos del Municipio.</li>
+<li>Dependencia del Municipio de Participaciones y Aportaciones Federales y Estatales.</li>
+</ol>
+
+<p><strong>- Monitores metropolitanos.</strong></p>
+
+<p>Actualización de los monitores metropolitanos y la inclusión de los siguientes:</p>
+
+<ol>
+<li>Monitor de finanzas públicas.</li>
+<li>Monitor de violencia de género.</li>
+<li>Monitor Energético.</li>
+</ol>
+
+<p style="background-color:#f95666;color:white;"><strong>DIRECCIÓN DE COMPETITIVIDAD SECTORIAL.</strong></p>
+
+<h2>En este año se trabajó en lo siguiente:</h2>
+
+<p><strong>- Proyecto de Reforma al Reglamento de Desarrollo Urbano y Construcción de Torreón.</strong></p>
+
+<p>Se elaboró una propuesta de modificación al actual Reglamento de Desarrollo Urbano, Uso de Suelo, Zonificación y Construcción del Municipio de Torreón para armonizarlo con la Nueva Agenda Urbana ONU-HABITAT III, la Ley de Asentamientos Humanos, Ordenamiento Territorial y Desarrollo Urbano, tanto General como Estatal.</p>
+
+<p><strong>- Se reestructuró el orden del Reglamento, se reformaron más de 50 artículos, se adicionaron 5 nuevos capítulos y se trabajó con todas las Direcciones Generales en materia, de las cuales se recibieron más de 50 observaciones, atendidas y justificadas.</strong></p>
+
+<p><strong>- Propuesta de reforma a la Ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN).</strong></p>
+
+<p>Se elaboró una propuesta para modificación de la Ley que crea en el IMPLAN con el objetivo de hacer correcciones de estética y técnica jurídica en base a una revisión integral del texto del ordenamiento.**</p>
+
+<p><strong>- Propuesta del Reglamento Interior IMPLAN Torreón.</strong></p>
+
+<p>La propuesta tiene por objeto regular la organización y el funcionamiento del Instituto Municipal de Planeación y Competitividad de Torreón y de su Consejo Directivo.</p>
+
+<p> </p>
+
+<h2>Actividades para el 2019:</h2>
+
+<p><strong>- Red de Espacios Públicos.</strong></p>
+
+<p>Elaborar un Programa de Red de Espacio Público que cimiente los lineamientos para aumentar no solo el área por habitante de espacio público, sino la distribución equitativa,  la calidad y la accesibilidad,  mediante esquemas de espacio tradicional como parques barriales, e innovadores como los parques de bolsillo, conectados mediante corredores con un alto grado de habitabilidad facilitando la movilidad blanda.</p>
+
+<p><strong>- Red de Infraestructura Verde.</strong></p>
+
+<p>Generar un Plan de Red de Infraestructura Verde estratégicamente planificado de espacios naturales y seminaturales y otros elementos ambientales para su diseño y gestión, integrando al ecosistema urbano de Torreón a su entorno natural con el objetivo de conservar, restaurar y aumentar los servicios ecosistémicos en beneficio de un incremento en la calidad de vida de los habitantes.</p>
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fsala-prensa%2F2018-11-30-onceava-y-doceava-sesion.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
