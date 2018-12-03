@@ -34,7 +34,7 @@ class ElTransportePublicoEnLaMovilidadUrbanaDeTorreon extends \Base\PublicacionS
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'EL TRANSPORTE PÚBLICO EN LA MOVILIDAD URBANA DE TORREÓN';
+        $this->nombre                     = 'El Transporte Público en la Movilidad Urbana de Torreón';
         $this->autor                      = 'Arq. Julio Alexis Magaña Cisneros';
         $this->fecha                      = '2018-12-03T00:00';
         // El nombre del archivo a crear
