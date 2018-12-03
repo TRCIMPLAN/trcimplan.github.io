@@ -3,7 +3,7 @@
 
 ##En este año se trabajó en lo siguiente:
 
-**- LAGUNA Y2040.**
+**- Laguna Y2040.**
 
 Ejercicio de participación ciudadana para universitarios, en el que más de 800 alumnos de 12 universidades de La Laguna se reunieron para discutir sobre problemas actuales de la ciudad y a proponer soluciones. Participaron más de 40 docentes locales y 13 expertos locales y nacionales en los ejes de Desarrollo Social, Desarrollo Económico, Buen Gobierno, Medio Ambiente, Desarrollo Urbano y Movilidad, quienes orientaron a los jóvenes durante el ejercicio. El ejercicio consistió en tres etapas:
 
@@ -14,46 +14,46 @@ Ejercicio de participación ciudadana para universitarios, en el que más de 800
 
 3-  Los alumnos diseñaron proyectos personales para contribuir a la solución de problemáticas en La Laguna.
 
-**- MI ACCIÓN DE LIDERAZGO.**
+**- Mi Acción de Liderazgo.**
 
 Ejercicio en el que se apoyó la gestión de proyectos sociales en la Zona Metropolitana de La Laguna. Al final de la actividad 326 estudiantes de 9 universidades ejecutaron 50 acciones de liderazgo con un total de más de 6,200 beneficiados.
 
-**- TALLER PARTICIPATIVO DE POLÍTICA INDUSTRIAL.**
+**- Taller Participativo de Política Industrial.**
 
 Ejercicio de participación ciudadana con empresarios de la Zona Metropolitana de La Laguna para el Plan de Política Industrial en el que 51 ciudadanos, miembros de la iniciativa privada y funcionarios públicos dedicados al desarrollo económico de la región identificaron las fortalezas, oportunidades, debilidades y amenazas de la Industria Manufacturera de La Laguna y propusieron acciones de corto y largo plazo para trabajar en los principales problemas detectados, con el objetivo de construir un diagnóstico robusto del sector industrial y culminar en el diseño de políticas públicas coherentes y efectivas.
 
 
-**- SEMANA i.**
+**- Semana i.**
 
 Gestión de proyectos sociales.- Proyecto con alumnos del Tecnológico de Monterrey sobre instrumentos de gestión para proyectos sociales. Durante una semana se aplicaron instrumentos de gestión en 4 distintos proyectos en los que el IMPLAN trabaja: Residuos Sólidos Urbanos, Redensificación del Centro Histórico, Implementación de Calle Completa en el Paso del Tecnológico y Adaptación de la Guía para el Desarrollo de Proveedores de la ONUDI. Los alumnos capturaron fotos de predios con basura en el primer cuadro del centro de Torreón y recopilaron información para conformar la línea base de medición de desempeño del cambio de horario en la recolección de residuos sólidos por parte de la dirección de servicios de limpieza.
 
-**- DOCUMENTO PRELIMINAR DEL PLAN DE POLÍTICA INDUSTRIAL.**
+**- Documento Preliminar del Plan de Política Industrial.**
 
 Tras el proceso de participación del sector privado, se integró un documento preliminar con diagnóstico técnico y ciudadano, visión y propuestas de política pública para contribuir a la toma de decisiones al sector público y privado en beneficio de la industria manufacturera de La Laguna.
 
-**- CENTRO DE CAPACITACIÓN PARA EL SECTOR INDUSTRIAL DE LA ZML.**
+**- Centro de Capacitación para el Sector Industrial de la ZML.**
 
 En el marco del convenio de colaboración entre el Implan Torreón y el Clúster Automotriz Laguna (CAL) y en el proceso de realización del Plan de Política Industrial, el equipo técnico del Implan colaboró con el CAL en la realización de un estudio de factibilidad para la constitución de un Instituto de Capacitación para el Trabajo del Estado de Coahuila (ICATEC).
 
 ##Actividades para el 2019:
 
-**- CONSEJO VISIÓN METRÓPOLI.**
+**- Consejo Visión Metrópoli.**
 
 Consejo de Participación Joven convocado por el IMPLAN Torreón.- Diseño, selección e integración del Consejo Visión Metrópoli por 21 jóvenes de 18 a 30 años, residentes de La Laguna y con experiencia comprobable en labor social.  Los seleccionados comenzarán funciones el año 2019 y participarán con el IMPLAN en la difusión de sus planes y en el desarrollo de propuestas propias. Sesionarán una vez al mes con miembros del cuerpo técnico del IMPLAN.
 
-**- EJERCICIO DE INTERVENCIÓN VISIÓN METRÓPOLI.**
+**- Ejercicio de Intervención Visión Metrópoli.**
 
 Ejercicio de concientización, vinculación e intervención ciudadana con universitarios de la ZML.
 
-**- SISTEMA MUNICIPAL DE EVALUACIÓN Y GESTIÓN DE PROYECTOS.**
+**- Sistema Municipal de Evaluación y Gestión de Proyectos.**
 
 Diseño del sistema de evaluación y gestión de proyectos de inversión en el que se defina el proceso y rol de cada parte involucrada dentro del municipio para la consolidación de un Banco Municipal de Proyectos de Inversión.
 
-**- PLAN DE POLÍTICA INDUSTRIAL.**
+**- Plan de Política Industrial.**
 
 Continuación de talleres de participación con distintos sectores de la ZML para alimentar el Plan de Política Industrial. Publicación y difusión de un documento y seguimiento de las acciones y políticas propuestas para el desarrollo Industrial en la ZML.
 
-**- DIÁLOGO PARTICIPATIVO PARA LA VINCULACIÓN ACADEMIA.**
+**- Diálogo Participativo para la Vinculación Academia.**
 
 Iniciativa Privada.- Mesa de diálogo con 25 representantes de la academia y el sector productivo, el objetivo de este trabajo fue identificar las áreas de oportunidad en los esquemas de vinculación entre universidad y empresas del sector manufacturero. Los resultados fueron insumos para el diseño de políticas públicas coherentes y efectivas.
 
