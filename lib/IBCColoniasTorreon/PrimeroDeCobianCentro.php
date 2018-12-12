@@ -127,15 +127,46 @@ class PrimeroDeCobianCentro extends \IBCBase\PublicacionWeb {
         return <<<FINAL
 <center>![Plaza Mayor](primero-de-cobian-centro/plaza-mayor-800x450.jpg)</center>
 
-### Historia
+###PRIMERO DE COBIÁN (CENTRO)
 
+##Breve Historia
 El Coronel Don Carlos González, al vender la **Hacienda del Torreón** y anexas (1898), mandó fraccionar cuatro líneas de manzanas a partir de la última línea de manzanas trazadas en el Plano Primitivo (que reservó para él).
-
-Las cuales abarcaban desde las calles Ramón Corona, Galeana, Jiménez, y Javier Mina, así como la conocida Calzada Colón.
-
-### Fuente
-
+Las cuales abarcaban desde las calles Ramón Corona, Galeana, Jiménez, y Javier Mina, así como la conocida Calzada Colón.</br>
+Fuente
 * [Historia de Torreón](http://www.torreonhistoria.galeon.com/aficiones1001256.html)
+
+<table>
+ <tr>
+<td><left><img src="torreon-viejo/imagen1.jpg"/></left></td>
+<td><center><img src="torreon-viejo/imagen2.jpg"/></center></td>
+<td><center><img src="torreon-viejo/imagen3.jpg"/></center></td>
+ </tr>
+ <tr>
+ <td>Primero de Cobián 1 </br>
+Fuente: http://sic.gob.mx/ficha.php?table=museo&table_id=959</td>
+ <td>Primero de Cobián 2</td>
+ <td>Primero de Cobián 3</td>
+ </tr>
+</table>
+##Estadística Costo de Predial
+<table>
+<tr>
+ <th><center><b>AÑO 2016</b></center></th>
+ <th><center><b>AÑO 2017</b></center></th>
+ <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+<tr>
+ <td><center>$x,xxx.xx</center></br>
+ <td><center>$x,xxx.xx</center></td>
+ <td><center>$x,xxx.xx</center></td>
+ </tr> 
+
+</table>
+##Otros Datos
+<table>
+<td> Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... </td>
+</table>
+</br>
 FINAL;
     } // resena
 

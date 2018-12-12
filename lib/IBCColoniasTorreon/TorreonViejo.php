@@ -124,9 +124,11 @@ class TorreonViejo extends \IBCBase\PublicacionWeb {
     public function resena() {
         return <<<FINAL
 ###TORREÓN VIEJO
+
+##Breve Historia
 <table>
  <tr>
-<td><center><img src="torreon-viejo/imagen1.jpg"/></center></td>
+<td><left><img src="torreon-viejo/imagen1.jpg"/></left></td>
 <td><center><img src="torreon-viejo/imagen2.jpg"/></center></td>
 <td><center><img src="torreon-viejo/imagen3.jpg"/></center></td>
  </tr>
@@ -143,12 +145,13 @@ y del Consejo Nacional para la Cultura y las Artes (Conaculta), a través del Pr
  de Apoyo a la Infraestructura Cultural de los Estados (Paice). En sus 10 salas</br>
  permanentes exhibe objetos que pertenecieron a la familia Wulff, pinturas de </br>
 diversas técnicas, esculturas, fotografías en blanco y negro, muebles de madera, </br>
-ropa y accesorios de la época; muñecas, juguetes y armas, entre otros objetos.
+ropa y accesorios de la época; muñecas, juguetes y armas, entre otros objetos.</br>
 Fuente: http://sic.gob.mx/ficha.php?table=museo&table_id=959</td>
  <td>Torreón Viejo 2</td>
  <td>Torreón Viejo 3</td>
  </tr>
 </table>
+##Estadística de Predial
 <table> 
 <td> Aquí colocamos un texto completo, referente a la Historia de la presente colonia, destacando todo aquello que ... </td>
 </table>

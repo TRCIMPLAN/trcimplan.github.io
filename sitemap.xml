@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-12-03</lastmod>
+    <lastmod>2018-12-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1158,6 +1158,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/resultados-de-los-censos-economicos-2014.html</loc>
     <lastmod>2015-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/resultados-de-planea-sexto-primaria-2018-dic2018.html</loc>
+    <lastmod>2018-12-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -3537,7 +3542,7 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-economia.html</loc>
-    <lastmod>2018-03-14</lastmod>
+    <lastmod>2018-12-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -3567,7 +3572,7 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-vivienda.html</loc>
-    <lastmod>2018-03-14</lastmod>
+    <lastmod>2018-12-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
