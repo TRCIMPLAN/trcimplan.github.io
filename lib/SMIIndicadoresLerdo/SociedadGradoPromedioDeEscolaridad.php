@@ -43,7 +43,7 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Lerdo, Educación, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Educación', 'Sector Automotriz');
-        $this->fuentes     = array('INEGI');
+        $this->fuentes     = array('INEGI', 'IMCO');
         $this->regiones    = array('Lerdo');
     } // constructor
 
@@ -68,7 +68,8 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '8.9300', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '9.3000', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2015-12-31', 'valor' => '9.3000', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -92,10 +93,11 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '10.5800', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '9.4800', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '9.3000', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '8.6900', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2015-12-31', 'valor' => '9.9000', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2015-12-31', 'valor' => '9.1500', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2015-12-31', 'valor' => '9.1600', 'fuente_nombre' => 'INEGI'));

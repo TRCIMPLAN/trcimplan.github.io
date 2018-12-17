@@ -148,11 +148,11 @@ class Vialidad extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Uso de Automóvil Particular</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">49 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">157163</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">52139</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">22867</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">10728</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">32 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

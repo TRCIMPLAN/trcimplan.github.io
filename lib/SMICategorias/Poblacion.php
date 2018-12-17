@@ -89,7 +89,7 @@ class Poblacion extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2012, IMCO">6,401.3953</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2012, IMCO">6,401.3953</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2012, IMCO">6,401.3953</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2012, IMCO">6,401.3953</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2016, IMCO">54.4100</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -104,9 +104,9 @@ class Poblacion extends \Base\Publicacion {
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Población Económicamente Activa (PEA)</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">531026</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">165171</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">54779</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">81243</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">530457</a></td>
   </tr>
   <tr>

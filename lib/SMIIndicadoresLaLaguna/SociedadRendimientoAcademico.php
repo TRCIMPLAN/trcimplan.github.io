@@ -84,7 +84,7 @@ class SociedadRendimientoAcademico extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -96,10 +96,10 @@ class SociedadRendimientoAcademico extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '2238', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '899', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '536', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '176', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió el dato a "cantidad" de alumnos con buen o excelente desempeño en matemáticas'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '5.9800', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '4.3800', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '6.6900', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '2.3700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '5.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 

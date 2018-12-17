@@ -113,7 +113,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
             <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
-            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
             <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
@@ -207,33 +207,39 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">43.6800 %</td>
+        <td>43.6800</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">8.2100 %</td>
+        <td>8.2100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">44.5000 %</td>
+        <td>44.5000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">25.4400 %</td>
+        <td>25.4400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">29.8400 %</td>
+        <td>29.8400</td>
         <td>IMCO</td>
         <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td>10766</td>
+        <td>IMCO</td>
+        <td>En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs</td>
       </tr>
     </tbody>
   </table>
@@ -259,36 +265,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">23.3300 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>78193</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">27.4500 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>50093</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs</td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">29.8400 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>10766</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs</td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">29.6300 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>27668</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">25.5400 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td>29.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -389,7 +395,8 @@
         { fecha: '2009-12-31', dato: 8.2100 },
         { fecha: '2010-12-31', dato: 44.5000 },
         { fecha: '2011-12-31', dato: 25.4400 },
-        { fecha: '2012-12-31', dato: 29.8400 }],
+        { fecha: '2012-12-31', dato: 29.8400 },
+        { fecha: '2016-12-31', dato: 10766 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -404,7 +411,7 @@
   if (typeof varSmiOtrasRegionesJornadasLaboralesMuyLargasEnLerdoGrafica === 'undefined') {
     varSmiOtrasRegionesJornadasLaboralesMuyLargasEnLerdoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesJornadasLaboralesMuyLargasEnLerdoGrafica',
-      data: [{ region: 'Torreón', dato: 23.3300 },{ region: 'Gómez Palacio', dato: 27.4500 },{ region: 'Lerdo', dato: 29.8400 },{ region: 'Matamoros', dato: 29.6300 },{ region: 'La Laguna', dato: 25.5400 }],
+      data: [{ region: 'Torreón', dato: 78193 },{ region: 'Gómez Palacio', dato: 50093 },{ region: 'Lerdo', dato: 10766 },{ region: 'Matamoros', dato: 27668 },{ region: 'La Laguna', dato: 29.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

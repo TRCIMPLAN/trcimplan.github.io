@@ -71,7 +71,8 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \SMIBase\PublicacionW
             array('fecha' => '2009-12-31', 'valor' => '0.2255', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '0.2255', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0.3788', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '0.3788', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '0.3788', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -83,7 +84,7 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \SMIBase\PublicacionW
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -95,11 +96,11 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \SMIBase\PublicacionW
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '0.3788', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '0.6770', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '0.6770', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '0.3788', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '0.5279', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

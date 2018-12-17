@@ -101,7 +101,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '54307', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '18893', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '54307', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2015-12-31', 'valor' => '14551000', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
     } // otras_regiones

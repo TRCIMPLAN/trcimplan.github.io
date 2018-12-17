@@ -105,11 +105,11 @@ Se incluye en el subíndice "Sociedad Incluyente, Preparada y Sana" de IMCO.';
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2013-12-31', 'valor' => '7.4000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '8.0000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '7.3000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '6.8000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2013-12-31', 'valor' => '7.5000', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '816.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '360.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '49.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '71.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '9.7600', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '8.1000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '6.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '7.4000', 'fuente_nombre' => 'SINAIS (SSA)'));

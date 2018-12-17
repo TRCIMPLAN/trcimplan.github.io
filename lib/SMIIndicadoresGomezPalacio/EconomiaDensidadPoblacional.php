@@ -99,7 +99,7 @@ class EconomiaDensidadPoblacional extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '6401.3953', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '6401.3953', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '6401.3953', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '6401.3953', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '54.4100', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 la unidad es "Personas por hectárea"'));
     } // otras_regiones
 
     /**

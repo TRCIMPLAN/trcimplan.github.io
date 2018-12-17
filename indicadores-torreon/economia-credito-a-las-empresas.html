@@ -113,7 +113,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
             <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
-            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
             <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
@@ -235,6 +235,12 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 37,857,566.00</td>
+        <td>IMCO</td>
+        <td>En 2016 cambió a "Miles de pesos"</td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -259,36 +265,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">$ 580.95</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 37,857,566.00</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "Miles de pesos"</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">$ 1,035.56</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 12,699,918.00</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "Miles de pesos"</td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">$ 1,680.72</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 12,699,918.00</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "Miles de pesos"</td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">$ 495.72</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 37,857,566.00</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "Miles de pesos"</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">$ 725.64</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 57.00</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -399,7 +405,8 @@
         { fecha: '2009-12-31', dato: 666.13 },
         { fecha: '2010-12-31', dato: 727.58 },
         { fecha: '2011-12-31', dato: 618.41 },
-        { fecha: '2012-12-31', dato: 580.95 }],
+        { fecha: '2012-12-31', dato: 580.95 },
+        { fecha: '2016-12-31', dato: 37857566.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -414,7 +421,7 @@
   if (typeof varSmiOtrasRegionesCreditoALasEmpresasEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesCreditoALasEmpresasEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCreditoALasEmpresasEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 580.95 },{ region: 'Gómez Palacio', dato: 1035.56 },{ region: 'Lerdo', dato: 1680.72 },{ region: 'Matamoros', dato: 495.72 },{ region: 'La Laguna', dato: 725.64 }],
+      data: [{ region: 'Torreón', dato: 37857566.00 },{ region: 'Gómez Palacio', dato: 12699918.00 },{ region: 'Lerdo', dato: 12699918.00 },{ region: 'Matamoros', dato: 37857566.00 },{ region: 'La Laguna', dato: 57.00 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -89,7 +89,7 @@ class Movilidad extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.00 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.00 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.00 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">14.44 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -121,11 +121,11 @@ class Movilidad extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Muertes por Accidentes Relacionados con Transporte</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">11.5569</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">18.9430</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">18.2451</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">5.4425</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">13.8053</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2016, IMCO">2047</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2016, IMCO">957</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2016, IMCO">103</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2016, IMCO">96</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2016, IMCO">241.23</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -193,20 +193,20 @@ class Movilidad extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Flujo de Pasajeros Aéreos</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">301.7549</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.0000</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.0000</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.0000</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">158.6023</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2016, IMCO">317472</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2016, IMCO">0.0</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2016, IMCO">0.0</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2016, IMCO">0.0</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-flujo-de-pasajeros-aereos.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2016, IMCO">239.1</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Líneas de Autobús</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">11</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">2</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">13</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">12</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">7</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">1</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-lineas-de-autobus.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">20</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -220,7 +220,7 @@ class Movilidad extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Pasajeros Aéreos Internacionales Anuales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" data-toggle="tooltip" title="Personas, 31/12/2015, Operadora Mexicana de Aeropuertos (OMA)">54307</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">18893</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -238,7 +238,7 @@ class Movilidad extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Pasajeros Aéreos Totales Anual</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-anual.html" data-toggle="tooltip" title="Personas, 31/12/2015, Operadora Mexicana de Aeropuertos (OMA)">556449</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-anual.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">317472</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -292,11 +292,11 @@ class Movilidad extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Sistema de Transporte Masivo</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -310,11 +310,11 @@ class Movilidad extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Uso de Automóvil Particular</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">49 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">157163</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">52139</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">22867</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">10728</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">32 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

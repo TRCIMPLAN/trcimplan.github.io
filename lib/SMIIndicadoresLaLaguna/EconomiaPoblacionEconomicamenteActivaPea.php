@@ -43,7 +43,7 @@ class EconomiaPoblacionEconomicamenteActivaPea extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Población';
         // Para el Organizador
         $this->categorias  = array('Población');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->fuentes     = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,8 @@ class EconomiaPoblacionEconomicamenteActivaPea extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '530457', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2016-12-31', 'valor' => '613008', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-09-30', 'valor' => '530457', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -92,6 +93,9 @@ class EconomiaPoblacionEconomicamenteActivaPea extends \SMIBase\PublicacionWeb {
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '531026', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '165171', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '54779', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '81243', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '530457', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 

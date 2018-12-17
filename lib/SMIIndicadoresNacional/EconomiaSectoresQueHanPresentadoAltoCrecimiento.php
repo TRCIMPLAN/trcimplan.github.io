@@ -79,7 +79,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -91,11 +91,11 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '11.6800', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '32.1300', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '34.5900', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '29.7700', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '27.0400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '139894042.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '21527736.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '2395472.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '3034970.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '64.3000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Nacional', 'fecha' => '2009-01-01', 'valor' => '26.4400', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // otras_regiones
 

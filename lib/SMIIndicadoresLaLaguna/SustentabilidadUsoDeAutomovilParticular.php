@@ -43,7 +43,7 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente, Movilidad, Sector Automotriz, Vialidad';
         // Para el Organizador
         $this->categorias  = array('Medio Ambiente', 'Movilidad', 'Sector Automotriz', 'Vialidad');
-        $this->fuentes     = array('Logit');
+        $this->fuentes     = array('Logit', 'IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,8 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2011-12-31', 'valor' => '49.0000', 'fuente_nombre' => 'Logit')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2011-12-31', 'valor' => '49.0000', 'fuente_nombre' => 'Logit'),
+            array('fecha' => '2016-12-31', 'valor' => '32.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -76,7 +77,12 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +91,12 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '157163', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que viajan en automóvil particular para ir al trabajo/escuela'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '52139', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que viajan en automóvil particular para ir al trabajo/escuela'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '22867', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que viajan en automóvil particular para ir al trabajo/escuela'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '10728', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que viajan en automóvil particular para ir al trabajo/escuela'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '32.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

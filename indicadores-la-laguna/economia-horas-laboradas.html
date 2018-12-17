@@ -113,7 +113,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
             <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
-            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
             <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
@@ -235,6 +235,27 @@
         <td></td>
       </tr>
       <tr>
+        <td>Gómez Palacio</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">287,225,879.6000</td>
+        <td>IMCO</td>
+        <td>En 2016 el decimal es por "Horas trabajadas al año"</td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">15,607,673.5400</td>
+        <td>IMCO</td>
+        <td>En 2016 el decimal es por "Horas trabajadas al año"</td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">53,462,897.5100</td>
+        <td>IMCO</td>
+        <td>En 2016 el decimal es por "Horas trabajadas al año"</td>
+      </tr>
+      <tr>
         <td>La Laguna</td>
         <td class="centrado">2018-09-30</td>
         <td class="derecha">42.1000</td>
@@ -289,7 +310,7 @@
   if (typeof varSmiOtrasRegionesHorasLaboradasEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesHorasLaboradasEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesHorasLaboradasEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 41.2000 },{ region: 'La Laguna', dato: 42.1000 }],
+      data: [{ region: 'Torreón', dato: 41.2000 },{ region: 'Gómez Palacio', dato: 287225879.6000 },{ region: 'Lerdo', dato: 15607673.5400 },{ region: 'Matamoros', dato: 53462897.5100 },{ region: 'La Laguna', dato: 42.1000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

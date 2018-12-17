@@ -44,7 +44,7 @@ Se incluye en el subíndice "Sociedad Incluyente, Preparada y Sana" de IMCO.';
         $this->claves      = 'IMPLAN, Matamoros, Salud, Índice de Competitividad Urbana, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Salud', 'Índice de Competitividad Urbana', 'Sector Automotriz');
-        $this->fuentes     = array('SINAIS (SSA)');
+        $this->fuentes     = array('SINAIS (SSA)', 'IMCO');
         $this->regiones    = array('Matamoros');
     } // constructor
 
@@ -81,7 +81,8 @@ Se incluye en el subíndice "Sociedad Incluyente, Preparada y Sana" de IMCO.';
             array('fecha' => '2010-12-31', 'valor' => '7.5000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2011-12-31', 'valor' => '8.2000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2012-12-31', 'valor' => '8.8000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'),
-            array('fecha' => '2013-12-31', 'valor' => '6.8000', 'fuente_nombre' => 'SINAIS (SSA)')); // formateado 0, valor 28, crudo 15
+            array('fecha' => '2013-12-31', 'valor' => '6.8000', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2016-12-31', 'valor' => '71.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 30, crudo 16
     } // datos
 
     /**
@@ -105,11 +106,11 @@ Se incluye en el subíndice "Sociedad Incluyente, Preparada y Sana" de IMCO.';
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2013-12-31', 'valor' => '7.4000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '8.0000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '7.3000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '6.8000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2013-12-31', 'valor' => '7.5000', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '816.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '360.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '49.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '71.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '9.7600', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '8.1000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '6.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '7.4000', 'fuente_nombre' => 'SINAIS (SSA)'));

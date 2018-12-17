@@ -43,7 +43,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
         $this->claves      = 'IMPLAN, Torreón, Movilidad, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Movilidad', 'Sector Automotriz');
-        $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)');
+        $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)', 'IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -77,7 +77,8 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
             array('fecha' => '2012-12-31', 'valor' => '61443', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('fecha' => '2013-12-31', 'valor' => '55446', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('fecha' => '2014-12-31', 'valor' => '54154', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
-            array('fecha' => '2015-12-31', 'valor' => '54307', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)')); // formateado 0, valor 22, crudo 11
+            array('fecha' => '2015-12-31', 'valor' => '54307', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2016-12-31', 'valor' => '18893', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 24, crudo 12
     } // datos
 
     /**
@@ -101,7 +102,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \SMIBase\Publ
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '54307', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '18893', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '54307', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2015-12-31', 'valor' => '14551000', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
     } // otras_regiones

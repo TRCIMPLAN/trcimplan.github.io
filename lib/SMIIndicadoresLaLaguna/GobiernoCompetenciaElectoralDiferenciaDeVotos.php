@@ -91,10 +91,10 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \SMIBase\Publicacion
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-07-01', 'valor' => '4367', 'fuente_nombre' => 'INE-IEPCC'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-07-01', 'valor' => '5784', 'fuente_nombre' => 'INE-IEPCC'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-07-01', 'valor' => '2910', 'fuente_nombre' => 'INE-IEPCC'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-07-01', 'valor' => '19079', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '49273', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '28139', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '13019', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '11371', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2012-07-01', 'valor' => '32140', 'fuente_nombre' => 'INE-IEPCC', 'notas' => 'En esta cifra se incluye solo a los municipios de Torreón, Matamoros, Gómez Palacio y Lerdo'));
     } // otras_regiones
 

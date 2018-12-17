@@ -71,7 +71,8 @@ class EconomiaInversionExtranjeraDirectaNeta extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '52.66', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '68.80', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '45.77', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '64.53', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '64.53', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '186.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"')); // formateado 0, valor 12, crudo 7
     } // datos
 
     /**
@@ -95,11 +96,11 @@ class EconomiaInversionExtranjeraDirectaNeta extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '63.20', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '609.79', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '64.53', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '4.99', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '206.25', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '1420.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '186.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '186.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '1420.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '363.00', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

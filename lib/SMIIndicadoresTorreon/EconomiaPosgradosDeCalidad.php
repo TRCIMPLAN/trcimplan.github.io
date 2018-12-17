@@ -43,7 +43,7 @@ class EconomiaPosgradosDeCalidad extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Educación, Innovación';
         // Para el Organizador
         $this->categorias  = array('Educación', 'Innovación');
-        $this->fuentes     = array('CONACYT');
+        $this->fuentes     = array('CONACYT', 'IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -67,7 +67,8 @@ class EconomiaPosgradosDeCalidad extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-04-30', 'valor' => '11', 'fuente_nombre' => 'CONACYT')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2014-04-30', 'valor' => '11', 'fuente_nombre' => 'CONACYT'),
+            array('fecha' => '2016-12-31', 'valor' => '54', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -91,8 +92,11 @@ class EconomiaPosgradosDeCalidad extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2014-04-30', 'valor' => '11', 'fuente_nombre' => 'CONACYT'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2014-03-31', 'valor' => '0', 'fuente_nombre' => 'CONACYT'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '54', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '19', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '19', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '54', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '20', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2016-12-31', 'valor' => '54', 'fuente_nombre' => 'CONACYT'),
             array('region_nombre' => 'Durango', 'fecha' => '2016-12-31', 'valor' => '19', 'fuente_nombre' => 'CONACYT'));
     } // otras_regiones

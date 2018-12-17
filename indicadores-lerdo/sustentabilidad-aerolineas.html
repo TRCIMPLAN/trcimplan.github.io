@@ -113,7 +113,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
             <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
-            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
             <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
@@ -190,7 +190,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -235,13 +235,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">0</td>
+        <td>IMCO-CONAGUA</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Aerolíneas en Lerdo </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Aerolíneas en Lerdo con fuente IMCO</h3>
 
-    <div id="SmiGraficasAerolineasEnLerdo" class="grafica"></div>
+    <div id="SmiGraficasAerolineasEnLerdoImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Aerolíneas en Lerdo</h3>
@@ -259,36 +265,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">10</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">7</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
+        <td class="centrado">2016-12-31</td>
         <td class="derecha">0</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
+        <td class="centrado">2016-12-31</td>
         <td class="derecha">0</td>
-        <td>IMCO</td>
+        <td>IMCO-CONAGUA</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
+        <td class="centrado">2016-12-31</td>
         <td class="derecha">0</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">10</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">7</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -377,11 +383,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasAerolineasEnLerdo === 'undefined') {
-    varSmiGraficasAerolineasEnLerdo = Morris.Line({
-      element: 'SmiGraficasAerolineasEnLerdo',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasAerolineasEnLerdoImco === 'undefined') {
+    varSmiGraficasAerolineasEnLerdoImco = Morris.Line({
+      element: 'SmiGraficasAerolineasEnLerdoImco',
       data: [
         { fecha: '2008-12-31', dato: 0 },
         { fecha: '2009-12-31', dato: 0 },
@@ -402,7 +408,7 @@
   if (typeof varSmiOtrasRegionesAerolineasEnLerdoGrafica === 'undefined') {
     varSmiOtrasRegionesAerolineasEnLerdoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAerolineasEnLerdoGrafica',
-      data: [{ region: 'Torreón', dato: 10 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 10 }],
+      data: [{ region: 'Torreón', dato: 7 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 7 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

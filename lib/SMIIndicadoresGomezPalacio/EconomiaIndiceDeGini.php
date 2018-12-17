@@ -43,7 +43,7 @@ class EconomiaIndiceDeGini extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Gómez Palacio, Bienestar';
         // Para el Organizador
         $this->categorias  = array('Bienestar');
-        $this->fuentes     = array('CONEVAL');
+        $this->fuentes     = array('CONEVAL', 'IMCO');
         $this->regiones    = array('Gómez Palacio');
     } // constructor
 
@@ -67,7 +67,8 @@ class EconomiaIndiceDeGini extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '0.4208', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2010-12-31', 'valor' => '0.4208', 'fuente_nombre' => 'CONEVAL'),
+            array('fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -91,11 +92,11 @@ class EconomiaIndiceDeGini extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '0.4520', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '0.4208', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '0.4387', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '0.3831', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2010-12-31', 'valor' => '0.4238', 'fuente_nombre' => 'CONEVAL'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

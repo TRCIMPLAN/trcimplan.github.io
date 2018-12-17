@@ -113,7 +113,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
             <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
-            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
             <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
@@ -207,33 +207,39 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">2.7773</td>
+        <td>2.7773</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">3.5720</td>
+        <td>3.5720</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">5.1570</td>
+        <td>5.1570</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">6.7204</td>
+        <td>6.7204</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">8.4125</td>
+        <td>8.4125</td>
         <td>IMCO</td>
         <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td>9</td>
+        <td>IMCO</td>
+        <td>En 2016 cambió a "cantidad" de Patentes solicitadas</td>
       </tr>
     </tbody>
   </table>
@@ -259,38 +265,38 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">5.6569</td>
+        <td class="centrado">2016-12-31</td>
+        <td>49</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Patentes solicitadas</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">8.4125</td>
+        <td class="centrado">2016-12-31</td>
+        <td>9</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Patentes solicitadas</td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">8.4125</td>
+        <td class="centrado">2016-12-31</td>
+        <td>9</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Patentes solicitadas</td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">7.7962</td>
+        <td class="centrado">2016-12-31</td>
+        <td>49</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Patentes solicitadas</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">5.3714</td>
+        <td class="centrado">2016-12-31</td>
+        <td>16</td>
         <td>IMCO</td>
-        <td></td>
+        <td>En 2016 cambió a "cantidad" de Patentes solicitadas</td>
       </tr>
     </tbody>
   </table>
@@ -395,7 +401,8 @@
         { fecha: '2009-12-31', dato: 3.5720 },
         { fecha: '2010-12-31', dato: 5.1570 },
         { fecha: '2011-12-31', dato: 6.7204 },
-        { fecha: '2012-12-31', dato: 8.4125 }],
+        { fecha: '2012-12-31', dato: 8.4125 },
+        { fecha: '2016-12-31', dato: 9 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -410,7 +417,7 @@
   if (typeof varSmiOtrasRegionesPatentesEnGomezPalacioGrafica === 'undefined') {
     varSmiOtrasRegionesPatentesEnGomezPalacioGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPatentesEnGomezPalacioGrafica',
-      data: [{ region: 'Torreón', dato: 5.6569 },{ region: 'Gómez Palacio', dato: 8.4125 },{ region: 'Lerdo', dato: 8.4125 },{ region: 'Matamoros', dato: 7.7962 },{ region: 'La Laguna', dato: 5.3714 }],
+      data: [{ region: 'Torreón', dato: 49 },{ region: 'Gómez Palacio', dato: 9 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 49 },{ region: 'La Laguna', dato: 16 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

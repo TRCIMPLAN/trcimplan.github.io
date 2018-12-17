@@ -166,11 +166,11 @@ class MedioAmbiente extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Disposición Adecuada de Residuos Sólidos</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.0 %</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">92.8 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">98.87 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">88.04 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">86.75 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">75.59 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">92.80 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -229,29 +229,38 @@ class MedioAmbiente extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Regalo o venta de residuos reciclables</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">64.3 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">63.26 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">67.87 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">59.36 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">66.88 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">64.30 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Resiliencia a desastres naturales</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-resiliencia-a-desastres-naturales.html" data-toggle="tooltip" title="Índice (0-100), 31/12/2016, IMCO">100</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-resiliencia-a-desastres-naturales.html" data-toggle="tooltip" title="Índice (0-100), 31/12/2016, IMCO">100</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-resiliencia-a-desastres-naturales.html" data-toggle="tooltip" title="Índice (0-100), 31/12/2016, IMCO">100</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-resiliencia-a-desastres-naturales.html" data-toggle="tooltip" title="Índice (0-100), 31/12/2016, IMCO">100</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-resiliencia-a-desastres-naturales.html" data-toggle="tooltip" title="Índice (0-100), 31/12/2016, IMCO">100</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Separación básica de residuos</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-separacion-basica-de-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">44 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-separacion-basica-de-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">43.01 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-separacion-basica-de-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">44.61 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-separacion-basica-de-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">42.93 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-separacion-basica-de-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">53.36 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-separacion-basica-de-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">44.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Sistema de Transporte Masivo</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2016, IMCO">2</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -292,11 +301,11 @@ class MedioAmbiente extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Uso de Automóvil Particular</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">49 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">157163</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">52139</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">22867</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">10728</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">32 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -360,6 +369,15 @@ class MedioAmbiente extends \Base\Publicacion {
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">33.52 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">31.08 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">34.91 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Viviendas que aprovechan energía solar</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.75 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.40 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.90 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.69 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

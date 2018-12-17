@@ -55,7 +55,7 @@ class SociedadViviendasConPisoDeTierra extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -71,7 +71,8 @@ class SociedadViviendasConPisoDeTierra extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '2.6800', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '1.9300', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '2.0800', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '2.2400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '2.2400', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '1899', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de viviendas con piso de tierra')); // formateado 0, valor 12, crudo 7
     } // datos
 
     /**
@@ -83,7 +84,7 @@ class SociedadViviendasConPisoDeTierra extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -95,11 +96,11 @@ class SociedadViviendasConPisoDeTierra extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '0.7000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Fuente: INEGI, Intercensal 2015'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '2.2400', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '1.7200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '1.7100', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '1.5800', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '3141', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de viviendas con piso de tierra'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1899', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de viviendas con piso de tierra'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '560', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de viviendas con piso de tierra'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '305', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de viviendas con piso de tierra'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

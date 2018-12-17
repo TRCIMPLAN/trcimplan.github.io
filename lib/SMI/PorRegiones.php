@@ -106,6 +106,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
               <li><a href="../indicadores-torreon/economia-microempresas.html" target="_blank">Microempresas</a></li>
               <li><a href="../indicadores-torreon/economia-monto-de-prestamos.html" target="_blank">Monto de préstamos</a></li>
+              <li><a href="../indicadores-torreon/economia-mujeres-que-estudian.html" target="_blank">Mujeres que estudian</a></li>
               <li><a href="../indicadores-torreon/economia-nuevas-empresas.html" target="_blank">Nuevas Empresas</a></li>
               <li><a href="../indicadores-torreon/economia-obtencion-de-credito-creacion-de-garantias.html" target="_blank">Obtención de Crédito - Creación de Garantías</a></li>
               <li><a href="../indicadores-torreon/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
@@ -203,6 +204,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
               <li><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-torreon/seguridad-robo-de-vehiculos-registrados.html" target="_blank">Robo de vehículos (registrados)</a></li>
               <li><a href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-torreon/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-torreon/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -271,6 +273,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-torreon/sociedad-ocupantes-por-cuarto-en-el-centro-historico.html" target="_blank">Ocupantes por cuarto en el Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-torreon/sociedad-personas-de-18-a-25-anos-que-estudian.html" target="_blank">Personas de 18 a 25 años que estudian</a></li>
               <li><a href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
               <li><a href="../indicadores-torreon/sociedad-poblacion-de-0-a-14-anos-del-centro-historico.html" target="_blank">Población de 0 a 14 años del Centro Histórico</a></li>
@@ -380,11 +383,15 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-red-de-transporte-publico.html" target="_blank">Red de Transporte Público</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" target="_blank">Regalo o venta de residuos reciclables</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-resiliencia-a-desastres-naturales.html" target="_blank">Resiliencia a desastres naturales</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-separacion-basica-de-residuos.html" target="_blank">Separación básica de residuos</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-tratamiento-de-aguas-residuales.html" target="_blank">Tratamiento de Aguas Residuales</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-unidad-administrativa-de-gestion-de-calidad-del-aire-estatal.html" target="_blank">Unidad administrativa de gestión de calidad del aire estatal</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-uso-de-automovil-particular.html" target="_blank">Uso de Automóvil Particular</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-automoviles.html" target="_blank">Usuarios de Automóviles</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-bicicleta.html" target="_blank">Usuarios de Bicicleta</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-modos-no-motorizados.html" target="_blank">Usuarios de Modos No Motorizados</a></li>
@@ -392,6 +399,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
+              <li><a href="../indicadores-torreon/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" target="_blank">Viviendas que aprovechan energía solar</a></li>
               <li><a href="../indicadores-torreon/sustentabilidad-zonas-verdes.html" target="_blank">Zonas verdes</a></li>
             </ul>
           </div>
@@ -434,6 +442,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes Empresas (según CNN Expansión)</a></li>
+              <li><a href="../indicadores-gomez-palacio/economia-horas-laboradas.html" target="_blank">Horas laboradas</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -447,6 +456,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/economia-jornadas-laborales-muy-largas.html" target="_blank">Jornadas Laborales Muy Largas</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-microempresas.html" target="_blank">Microempresas</a></li>
+              <li><a href="../indicadores-gomez-palacio/economia-mujeres-que-estudian.html" target="_blank">Mujeres que estudian</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-patentes.html" target="_blank">Patentes</a></li>
@@ -454,7 +464,9 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+              <li><a href="../indicadores-gomez-palacio/economia-poblacion-economicamente-activa-pea.html" target="_blank">Población Económicamente Activa (PEA)</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada Sin Ingresos</a></li>
+              <li><a href="../indicadores-gomez-palacio/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" target="_blank">Posgrados de Calidad (por cada 100mil de PEA)</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
@@ -519,6 +531,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos-registrados.html" target="_blank">Robo de vehículos (registrados)</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-gomez-palacio/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -581,6 +594,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-personas-de-18-a-25-anos-que-estudian.html" target="_blank">Personas de 18 a 25 años que estudian</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" target="_blank">Población de 15 años o más analfabeta</a></li>
@@ -650,9 +664,13 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
+              <li><a href="../indicadores-gomez-palacio/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" target="_blank">Regalo o venta de residuos reciclables</a></li>
+              <li><a href="../indicadores-gomez-palacio/sustentabilidad-resiliencia-a-desastres-naturales.html" target="_blank">Resiliencia a desastres naturales</a></li>
+              <li><a href="../indicadores-gomez-palacio/sustentabilidad-separacion-basica-de-residuos.html" target="_blank">Separación básica de residuos</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
+              <li><a href="../indicadores-gomez-palacio/sustentabilidad-uso-de-automovil-particular.html" target="_blank">Uso de Automóvil Particular</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-automoviles.html" target="_blank">Usuarios de Automóviles</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-bicicleta.html" target="_blank">Usuarios de Bicicleta</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-modos-no-motorizados.html" target="_blank">Usuarios de Modos No Motorizados</a></li>
@@ -660,6 +678,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
+              <li><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" target="_blank">Viviendas que aprovechan energía solar</a></li>
             </ul>
           </div>
         </div>
@@ -701,6 +720,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
               <li><a href="../indicadores-lerdo/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
               <li><a href="../indicadores-lerdo/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes Empresas (según CNN Expansión)</a></li>
+              <li><a href="../indicadores-lerdo/economia-horas-laboradas.html" target="_blank">Horas laboradas</a></li>
               <li><a href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
               <li><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
               <li><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -714,6 +734,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/economia-jornadas-laborales-muy-largas.html" target="_blank">Jornadas Laborales Muy Largas</a></li>
               <li><a href="../indicadores-lerdo/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
               <li><a href="../indicadores-lerdo/economia-microempresas.html" target="_blank">Microempresas</a></li>
+              <li><a href="../indicadores-lerdo/economia-mujeres-que-estudian.html" target="_blank">Mujeres que estudian</a></li>
               <li><a href="../indicadores-lerdo/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-lerdo/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
               <li><a href="../indicadores-lerdo/economia-patentes.html" target="_blank">Patentes</a></li>
@@ -721,7 +742,9 @@ FINAL;
               <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
               <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
               <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+              <li><a href="../indicadores-lerdo/economia-poblacion-economicamente-activa-pea.html" target="_blank">Población Económicamente Activa (PEA)</a></li>
               <li><a href="../indicadores-lerdo/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada Sin Ingresos</a></li>
+              <li><a href="../indicadores-lerdo/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
               <li><a href="../indicadores-lerdo/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" target="_blank">Posgrados de Calidad (por cada 100mil de PEA)</a></li>
               <li><a href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
               <li><a href="../indicadores-lerdo/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
@@ -781,6 +804,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos-registrados.html" target="_blank">Robo de vehículos (registrados)</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-lerdo/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-lerdo/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -843,6 +867,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
               <li><a href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-personas-de-18-a-25-anos-que-estudian.html" target="_blank">Personas de 18 a 25 años que estudian</a></li>
               <li><a href="../indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-lerdo/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
               <li><a href="../indicadores-lerdo/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" target="_blank">Población de 15 años o más analfabeta</a></li>
@@ -910,9 +935,13 @@ FINAL;
               <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
+              <li><a href="../indicadores-lerdo/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" target="_blank">Regalo o venta de residuos reciclables</a></li>
+              <li><a href="../indicadores-lerdo/sustentabilidad-resiliencia-a-desastres-naturales.html" target="_blank">Resiliencia a desastres naturales</a></li>
+              <li><a href="../indicadores-lerdo/sustentabilidad-separacion-basica-de-residuos.html" target="_blank">Separación básica de residuos</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
+              <li><a href="../indicadores-lerdo/sustentabilidad-uso-de-automovil-particular.html" target="_blank">Uso de Automóvil Particular</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-usuarios-de-automoviles.html" target="_blank">Usuarios de Automóviles</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-usuarios-de-bicicleta.html" target="_blank">Usuarios de Bicicleta</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-usuarios-de-modos-no-motorizados.html" target="_blank">Usuarios de Modos No Motorizados</a></li>
@@ -920,6 +949,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
+              <li><a href="../indicadores-lerdo/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" target="_blank">Viviendas que aprovechan energía solar</a></li>
             </ul>
           </div>
         </div>
@@ -961,6 +991,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
               <li><a href="../indicadores-matamoros/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
               <li><a href="../indicadores-matamoros/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes Empresas (según CNN Expansión)</a></li>
+              <li><a href="../indicadores-matamoros/economia-horas-laboradas.html" target="_blank">Horas laboradas</a></li>
               <li><a href="../indicadores-matamoros/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
               <li><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
               <li><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -974,6 +1005,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/economia-jornadas-laborales-muy-largas.html" target="_blank">Jornadas Laborales Muy Largas</a></li>
               <li><a href="../indicadores-matamoros/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
               <li><a href="../indicadores-matamoros/economia-microempresas.html" target="_blank">Microempresas</a></li>
+              <li><a href="../indicadores-matamoros/economia-mujeres-que-estudian.html" target="_blank">Mujeres que estudian</a></li>
               <li><a href="../indicadores-matamoros/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-matamoros/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
               <li><a href="../indicadores-matamoros/economia-patentes.html" target="_blank">Patentes</a></li>
@@ -981,6 +1013,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
               <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
               <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+              <li><a href="../indicadores-matamoros/economia-poblacion-economicamente-activa-pea.html" target="_blank">Población Económicamente Activa (PEA)</a></li>
               <li><a href="../indicadores-matamoros/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada Sin Ingresos</a></li>
               <li><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
               <li><a href="../indicadores-matamoros/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" target="_blank">Posgrados de Calidad (por cada 100mil de PEA)</a></li>
@@ -1046,6 +1079,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
+              <li><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos-registrados.html" target="_blank">Robo de vehículos (registrados)</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
               <li><a href="../indicadores-matamoros/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
               <li><a href="../indicadores-matamoros/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
@@ -1108,6 +1142,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
               <li><a href="../indicadores-matamoros/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-personas-de-18-a-25-anos-que-estudian.html" target="_blank">Personas de 18 a 25 años que estudian</a></li>
               <li><a href="../indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-matamoros/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
               <li><a href="../indicadores-matamoros/sociedad-poblacion-de-15-anos-o-mas-analfabeta.html" target="_blank">Población de 15 años o más analfabeta</a></li>
@@ -1175,9 +1210,13 @@ FINAL;
               <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
+              <li><a href="../indicadores-matamoros/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" target="_blank">Regalo o venta de residuos reciclables</a></li>
+              <li><a href="../indicadores-matamoros/sustentabilidad-resiliencia-a-desastres-naturales.html" target="_blank">Resiliencia a desastres naturales</a></li>
+              <li><a href="../indicadores-matamoros/sustentabilidad-separacion-basica-de-residuos.html" target="_blank">Separación básica de residuos</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
+              <li><a href="../indicadores-matamoros/sustentabilidad-uso-de-automovil-particular.html" target="_blank">Uso de Automóvil Particular</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-usuarios-de-automoviles.html" target="_blank">Usuarios de Automóviles</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-usuarios-de-bicicleta.html" target="_blank">Usuarios de Bicicleta</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-usuarios-de-modos-no-motorizados.html" target="_blank">Usuarios de Modos No Motorizados</a></li>
@@ -1185,6 +1224,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
+              <li><a href="../indicadores-matamoros/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" target="_blank">Viviendas que aprovechan energía solar</a></li>
             </ul>
           </div>
         </div>
@@ -1243,6 +1283,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/economia-jornadas-laborales-muy-largas.html" target="_blank">Jornadas Laborales Muy Largas</a></li>
               <li><a href="../indicadores-la-laguna/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
               <li><a href="../indicadores-la-laguna/economia-microempresas.html" target="_blank">Microempresas</a></li>
+              <li><a href="../indicadores-la-laguna/economia-mujeres-que-estudian.html" target="_blank">Mujeres que estudian</a></li>
               <li><a href="../indicadores-la-laguna/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-la-laguna/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
               <li><a href="../indicadores-la-laguna/economia-patentes.html" target="_blank">Patentes</a></li>
@@ -1255,6 +1296,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/economia-personas-que-ganan-1-o-2-salarios-minimos.html" target="_blank">Personas que ganan 1 o 2 salarios mínimos</a></li>
               <li><a href="../indicadores-la-laguna/economia-poblacion-economicamente-activa-pea.html" target="_blank">Población Económicamente Activa (PEA)</a></li>
               <li><a href="../indicadores-la-laguna/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada Sin Ingresos</a></li>
+              <li><a href="../indicadores-la-laguna/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
               <li><a href="../indicadores-la-laguna/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" target="_blank">Posgrados de Calidad (por cada 100mil de PEA)</a></li>
               <li><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
               <li><a href="../indicadores-la-laguna/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
@@ -1312,6 +1354,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/seguridad-estimacion-de-pib.html" target="_blank">Estimación de PIB</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-otros-delitos-del-fuero-comun.html" target="_blank">Otros delitos del Fuero Común</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-percepcion-de-inseguridad.html" target="_blank">Percepción de Inseguridad</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
@@ -1327,6 +1370,7 @@ FINAL;
           <div class="col-md-2 indicadores-vinculos">
             <h3>Sociedad</h3>
             <ul>
+              <li><a href="../indicadores-la-laguna/sociedad-absorcion-de-la-demanda-estudiantil.html" target="_blank">Absorción de la demanda estudiantil</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-acceso-a-instituciones-de-salud.html" target="_blank">Acceso a Instituciones de Salud</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-acceso-a-servicios-financieros.html" target="_blank">Acceso a Servicios Financieros</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
@@ -1356,6 +1400,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-grado-promedio-de-escolaridad.html" target="_blank">Grado Promedio de Escolaridad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de Hacinamiento</a></li>
@@ -1431,6 +1476,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" target="_blank">Regalo o venta de residuos reciclables</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-resiliencia-a-desastres-naturales.html" target="_blank">Resiliencia a desastres naturales</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-separacion-basica-de-residuos.html" target="_blank">Separación básica de residuos</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
@@ -1446,6 +1492,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" target="_blank">Viviendas que aprovechan energía solar</a></li>
             </ul>
           </div>
         </div>

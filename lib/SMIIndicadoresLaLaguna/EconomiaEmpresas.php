@@ -71,7 +71,8 @@ class EconomiaEmpresas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2009-12-31', 'valor' => '26.2824', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '25.3898', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '22.4684', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '23.1127', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '23.1127', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '21.6800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -95,11 +96,11 @@ class EconomiaEmpresas extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '27.5685', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '23.2116', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '13.0615', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '6.4458', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '23.1127', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '9130.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '3044.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '756.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '357.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '21.6800', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

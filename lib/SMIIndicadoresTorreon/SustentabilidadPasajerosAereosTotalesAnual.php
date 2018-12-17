@@ -43,7 +43,7 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \SMIBase\PublicacionWeb
         $this->claves      = 'IMPLAN, Torreón, Movilidad, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Movilidad', 'Sector Automotriz');
-        $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)');
+        $this->fuentes     = array('Operadora Mexicana de Aeropuertos (OMA)', 'IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -76,7 +76,8 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \SMIBase\PublicacionWeb
             array('fecha' => '2012-12-31', 'valor' => '415244', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('fecha' => '2013-12-31', 'valor' => '508133', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('fecha' => '2014-12-31', 'valor' => '523783', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
-            array('fecha' => '2015-12-31', 'valor' => '556449', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)')); // formateado 0, valor 20, crudo 10
+            array('fecha' => '2015-12-31', 'valor' => '556449', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('fecha' => '2016-12-31', 'valor' => '317472', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 22, crudo 11
     } // datos
 
     /**
@@ -100,7 +101,7 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \SMIBase\PublicacionWeb
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '556449', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '317472', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '523783', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
     } // otras_regiones
 

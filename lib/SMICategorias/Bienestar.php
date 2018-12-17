@@ -98,16 +98,16 @@ class Bienestar extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2012, IMCO">6,401.3953</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2012, IMCO">6,401.3953</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2012, IMCO">6,401.3953</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2012, IMCO">6,401.3953</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-densidad-poblacional.html" data-toggle="tooltip" title="Habitantes por kilómetro cuadrado, 31/12/2016, IMCO">54.4100</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Gini</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4520</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4208</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4387</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.3831</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4238</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0.39</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0.39</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0.39</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0.39</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0.40</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -184,11 +184,11 @@ class Bienestar extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Personas por Debajo de la Línea de Bienestar</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">3.32 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">4.49 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">2.68 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">6.07 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2012, IMCO">3.78 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">36118</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">19327</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">5276</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">8791</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">11 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

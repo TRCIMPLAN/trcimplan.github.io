@@ -342,6 +342,7 @@
     { "Nombre":"Territorio Santos Modelo", "URL":"http://www.trcimplan.gob.mx/beta/ibc-colonias-torreon/territorio-santos-modelo.json" },
     { "Nombre":"Tierra y Libertad", "URL":"http://www.trcimplan.gob.mx/beta/ibc-colonias-torreon/tierra-y-libertad.json" },
     { "Nombre":"Torreón 2000", "URL":"http://www.trcimplan.gob.mx/beta/ibc-colonias-torreon/torreon-2000.json" },
+    { "Nombre":"Torreón Jardín", "URL":"http://www.trcimplan.gob.mx/beta/ibc-colonias-torreon/torreon-jardin.json" },
     { "Nombre":"Torreón Residencial", "URL":"http://www.trcimplan.gob.mx/beta/ibc-colonias-torreon/torreon-residencial.json" },
     { "Nombre":"Torreón Viejo", "URL":"http://www.trcimplan.gob.mx/beta/ibc-colonias-torreon/torreon-viejo.json" },
     { "Nombre":"Torreón y Anexas", "URL":"http://www.trcimplan.gob.mx/beta/ibc-colonias-torreon/torreon-y-anexas.json" },

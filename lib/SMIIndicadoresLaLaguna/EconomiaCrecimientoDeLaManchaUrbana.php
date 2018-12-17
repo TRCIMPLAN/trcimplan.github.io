@@ -55,7 +55,7 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -76,7 +76,8 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 20, crudo 10
+            array('fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "porcentaje" de crecimiento anual de superficie urbana')); // formateado 0, valor 22, crudo 12
     } // datos
 
     /**
@@ -88,7 +89,7 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -104,7 +105,7 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "porcentaje" de crecimiento anual de superficie urbana'));
     } // otras_regiones
 
     /**

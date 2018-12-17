@@ -71,7 +71,8 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
             array('fecha' => '2009-12-31', 'valor' => '60.6000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '68.3700', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '74.0700', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '80.2700', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '80.2700', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '85.0900', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -83,7 +84,7 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -95,11 +96,11 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '87.0000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Fuente: INEGI, Intercensal 2015'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '79.7200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '73.9500', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '71.2000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '80.2700', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '165314', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '90746', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '35794', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '28362', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '85.0900', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

@@ -113,7 +113,7 @@
           <ul class="nav nav-second-level">
             <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
             <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
-            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
             <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
             <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
@@ -190,7 +190,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -271,13 +271,19 @@
         <td>Operadora Mexicana de Aeropuertos (OMA)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">18,893</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Pasajeros Aéreos Internacionales Anuales en Torreón </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Pasajeros Aéreos Internacionales Anuales en Torreón con fuente Operadora Mexicana de Aeropuertos (OMA)</h3>
 
-    <div id="SmiGraficasPasajerosAereosInternacionalesAnualesEnTorreon" class="grafica"></div>
+    <div id="SmiGraficasPasajerosAereosInternacionalesAnualesEnTorreonOperadoraMexicanaDeAeropuertosOma" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Pasajeros Aéreos Internacionales Anuales en Torreón</h3>
@@ -295,9 +301,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2015-12-31</td>
-        <td class="derecha">54,307</td>
-        <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">18,893</td>
+        <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
@@ -452,11 +458,11 @@
     });
     varSmiDatosPasajerosAereosInternacionalesAnualesEnTorreon = 1;
   }
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasPasajerosAereosInternacionalesAnualesEnTorreon === 'undefined') {
-    varSmiGraficasPasajerosAereosInternacionalesAnualesEnTorreon = Morris.Line({
-      element: 'SmiGraficasPasajerosAereosInternacionalesAnualesEnTorreon',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPasajerosAereosInternacionalesAnualesEnTorreonOperadoraMexicanaDeAeropuertosOma === 'undefined') {
+    varSmiGraficasPasajerosAereosInternacionalesAnualesEnTorreonOperadoraMexicanaDeAeropuertosOma = Morris.Line({
+      element: 'SmiGraficasPasajerosAereosInternacionalesAnualesEnTorreonOperadoraMexicanaDeAeropuertosOma',
       data: [
         { fecha: '2005-12-31', dato: 64316 },
         { fecha: '2006-12-31', dato: 73900 },
@@ -483,7 +489,7 @@
   if (typeof varSmiOtrasRegionesPasajerosAereosInternacionalesAnualesEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesPasajerosAereosInternacionalesAnualesEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPasajerosAereosInternacionalesAnualesEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 54307 },{ region: 'La Laguna', dato: 54307 },{ region: 'Nacional', dato: 14551000 }],
+      data: [{ region: 'Torreón', dato: 18893 },{ region: 'La Laguna', dato: 54307 },{ region: 'Nacional', dato: 14551000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

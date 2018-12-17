@@ -85,11 +85,11 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Periodistas Muertos o Desaparecidos</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">5</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">1</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">6</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">8</a></td>
+    <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">8</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -117,6 +117,15 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">21</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Otros delitos del Fuero Común</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-otros-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">17.68</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -180,6 +189,15 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">54</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robo de vehículos (registrados)</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos-registrados.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">149850</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos-registrados.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">159574</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos-registrados.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">47557</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos-registrados.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">20694</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

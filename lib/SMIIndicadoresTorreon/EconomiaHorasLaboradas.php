@@ -43,7 +43,7 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Empleo';
         // Para el Organizador
         $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->fuentes     = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -67,8 +67,9 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
+            array('fecha' => '2016-12-31', 'valor' => '637593369.8000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
             array('fecha' => '2018-03-31', 'valor' => '41.6000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2018-06-30', 'valor' => '41.2000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2018-06-30', 'valor' => '41.2000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 6, crudo 4
     } // datos
 
     /**
@@ -93,6 +94,9 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '41.2000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '287225879.6000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '15607673.5400', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '53462897.5100', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '42.1000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 

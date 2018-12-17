@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2018-12-12</lastmod>
+    <lastmod>2018-12-17</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3166,6 +3166,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/ibc-colonias-torreon/torreon-jardin.html</loc>
+    <lastmod>2017-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/ibc-colonias-torreon/torreon-residencial.html</loc>
     <lastmod>2017-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -5096,6 +5101,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-mujeres-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-nuevas-empresas.html</loc>
     <lastmod>2015-02-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -5526,6 +5536,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-robo-de-vehiculos-registrados.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-robos-a-casa-habitacion.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -5838,6 +5853,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-personas-de-18-a-25-anos-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6361,6 +6381,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-resiliencia-a-desastres-naturales.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-separacion-basica-de-residuos.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -6383,6 +6418,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-unidad-administrativa-de-gestion-de-calidad-del-aire-estatal.html</loc>
     <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-uso-de-automovil-particular.html</loc>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6418,6 +6458,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-viviendas-que-aprovechan-energia-solar.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6546,6 +6591,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-horas-laboradas.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -6611,6 +6661,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-mujeres-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-ocupacion-hotelera.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -6646,8 +6701,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-poblacion-economicamente-activa-pea.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-poblacion-ocupada-sin-ingresos.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-posgrados-de-calidad.html</loc>
+    <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6913,6 +6978,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-de-vehiculos-registrados.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7198,6 +7268,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-personas-de-18-a-25-anos-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7521,6 +7596,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-resiliencia-a-desastres-naturales.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-separacion-basica-de-residuos.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -7533,6 +7623,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-superficie.html</loc>
     <lastmod>2016-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-uso-de-automovil-particular.html</loc>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7568,6 +7663,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-viviendas-que-aprovechan-energia-solar.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7691,6 +7791,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-horas-laboradas.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-competitividad-urbana.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -7756,6 +7861,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-mujeres-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-ocupacion-hotelera.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -7788,6 +7898,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-poblacion-economicamente-activa-pea.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8058,6 +8173,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-vehiculos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-vehiculos-registrados.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8343,6 +8463,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-personas-de-18-a-25-anos-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8656,6 +8781,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-resiliencia-a-desastres-naturales.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-separacion-basica-de-residuos.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -8668,6 +8808,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-superficie.html</loc>
     <lastmod>2016-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-uso-de-automovil-particular.html</loc>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8703,6 +8848,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-viviendas-que-aprovechan-energia-solar.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8826,6 +8976,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-horas-laboradas.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-indice-de-competitividad-urbana.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -8891,6 +9046,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-mujeres-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-ocupacion-hotelera.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -8926,8 +9086,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-poblacion-economicamente-activa-pea.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-poblacion-ocupada-sin-ingresos.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-posgrados-de-calidad.html</loc>
+    <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9168,6 +9338,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-de-vehiculos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-de-vehiculos-registrados.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9453,6 +9628,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-personas-de-18-a-25-anos-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9766,6 +9946,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-resiliencia-a-desastres-naturales.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-separacion-basica-de-residuos.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -9778,6 +9973,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-superficie.html</loc>
     <lastmod>2016-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-uso-de-automovil-particular.html</loc>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9813,6 +10013,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-viviendas-que-aprovechan-energia-solar.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10021,6 +10226,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-mujeres-que-estudian.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-ocupacion-hotelera.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -10078,6 +10288,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-poblacion-ocupada-sin-ingresos.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-posgrados-de-calidad.html</loc>
+    <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10311,6 +10526,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-otros-delitos-del-fuero-comun.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-percepcion-de-inseguridad.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -10358,6 +10578,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-absorcion-de-la-demanda-estudiantil.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10503,6 +10728,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-grado-promedio-de-escolaridad.html</loc>
+    <lastmod>2015-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10856,6 +11086,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-resiliencia-a-desastres-naturales.html</loc>
+    <lastmod>2018-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-separacion-basica-de-residuos.html</loc>
     <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -10928,6 +11163,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-que-aprovechan-energia-solar.html</loc>
+    <lastmod>2018-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

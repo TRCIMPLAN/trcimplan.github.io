@@ -43,7 +43,7 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Vivienda, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Vivienda', 'Sector Automotriz');
-        $this->fuentes     = array('INEGI');
+        $this->fuentes     = array('INEGI', 'IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -55,7 +55,7 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -68,7 +68,8 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '42.3100', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2015-12-31', 'valor' => '42.3100', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '60706', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con internet')); // formateado 0, valor 6, crudo 4
     } // datos
 
     /**
@@ -80,7 +81,7 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -92,11 +93,11 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '42.3100', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '29.8500', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '27.1100', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '17.8600', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2010-12-31', 'valor' => '23.0000', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '60706', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con internet'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30573', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con internet'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '12784', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con internet'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '6384', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con internet'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '29.3500', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

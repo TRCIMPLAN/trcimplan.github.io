@@ -84,12 +84,21 @@ class Educacion extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Mujeres que estudian</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">91.27 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">90.82 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">100.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">85.63 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">91.00 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Posgrados de Calidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 30/04/2014, CONACYT">11</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 31/03/2014, CONACYT">0</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 31/12/2016, IMCO">54</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 31/12/2016, IMCO">19</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 31/12/2016, IMCO">19</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 31/12/2016, IMCO">54</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 31/12/2016, IMCO">20</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -99,6 +108,15 @@ class Educacion extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Absorción de la demanda estudiantil</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-absorcion-de-la-demanda-estudiantil.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">32 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -224,7 +242,7 @@ class Educacion extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-crecimiento-en-poblacion-altamente-calificada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">4.82 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-crecimiento-en-poblacion-altamente-calificada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-10.67 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-crecimiento-en-poblacion-altamente-calificada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-1.22 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-1.55 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -247,11 +265,11 @@ class Educacion extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Escuelas de Calidad</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">26.63 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">19.11 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">16.67 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">3.23 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">20.18 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">29.71 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">13.92 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">20.00 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">5.56 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-escuelas-de-calidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">22.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -265,10 +283,19 @@ class Educacion extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Grado Promedio de Escolaridad</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">10.58</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.48</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">9.30</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2015, INEGI">8.69</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2016, IMCO">9.74</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2016, IMCO">9.74</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2016, IMCO">9.74</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2016, IMCO">9.74</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-grado-promedio-de-escolaridad.html" data-toggle="tooltip" title="Grados aprobados, 31/12/2016, IMCO">9.74</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Personas de 18 a 25 años que estudian</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-personas-de-18-a-25-anos-que-estudian.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">23507</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-personas-de-18-a-25-anos-que-estudian.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">16434</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-personas-de-18-a-25-anos-que-estudian.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">5829</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-personas-de-18-a-25-anos-que-estudian.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">4371</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>
@@ -292,11 +319,11 @@ class Educacion extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Rendimiento Académico</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">2238</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">899</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">536</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">176</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">5 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">5.98 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">4.38 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6.69 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">2.37 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">5.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -319,11 +346,11 @@ class Educacion extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Universidades de Calidad</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
   </tr>
 </tbody>
 </table>
