@@ -50,13 +50,27 @@ class NavegacionConfig {
             'Indicadores Básicos de Colonias > Torreón Urbano'        => 'ibc/torreon-urbano.html',
             'Indicadores Básicos de Colonias > Catálogo de Conceptos' => 'ibc/catalogo-conceptos.html',
             'Indicadores Básicos de Colonias > Datos Abiertos'        => 'ibc/datos-abiertos.html'),
+        //CAMBIOS VM
+       // 'Información Geográfica' => array(
+
+       //     'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
+       //     'Información Geográfica > Planes'                         => 'sig-planes/index.html',
+       //     'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
+       //     'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html'),
+
         'Información Geográfica' => array(
 
             'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
             'Información Geográfica > Planes'                         => 'sig-planes/index.html',
             'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
-            'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html'),
-
+            'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html',
+            'Información Geográfica > Mapas por Tema'                 => array(
+                                                                            'Información Geográfica > Mapas por Tema > Planes y Programas'      => 'sig/introduccion.html',
+                                                                            'Información Geográfica > Mapas por Tema > Indicadores Georeferenciados'      => 'sig/introduccion.html',
+                                                                            'Información Geográfica > Mapas por Tema > Inventario Urbano '      => 'sig/introduccion.html',
+                                                                            'Información Geográfica > Mapas por Tema > Movilidad'               => 'sig/introduccion.html',
+                                                                            'Información Geográfica > Mapas por Tema > Medio Ambiente'          => 'sig/introduccion.html'),
+            'Información Geográfica > Datos Abiertos'                 => 'sig-mapas-torreon/zonificacion-secundaria.html'),
         'Plan Estratégico Torreón 2040' => array(
 
             'Plan Estratégico Torreón 2040 > Índice General'          => 'pet/indice.html',
@@ -111,6 +125,12 @@ class NavegacionConfig {
             'Planes'                       => 'fa fa-file-pdf-o',
             'Mapas de Torreón'             => 'fa fa-map-marker',
             'Zonificación Secundaria'      => 'fa fa-map-marker',
+            'Mapas por Tema'               => 'fa fa-external-link',
+            'Planes y Programas'           => 'fa fa-map-marker',
+            'Indicadores Georeferenciados' => 'fa fa-map-marker',
+            'Inventario Urbano'            => 'fa fa-map-marker',
+            'Movilidad'                    => 'fa fa-map-marker',
+            'Medio Ambiente'               => 'fa fa-map-marker',
         'Plan Estratégico Torreón 2040'    => 'fa fa-book',
             'Índice General'               => 'fa fa-list-ul',
             'Índice Alfabético'            => 'fa fa-font',

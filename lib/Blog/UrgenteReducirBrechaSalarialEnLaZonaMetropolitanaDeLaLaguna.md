@@ -1,4 +1,13 @@
 
+<p>
+   <img class="img-responsive contenido-imagen" src="../imagenes/128/lic-alicia-valdez-ibarra-top2.png" align="right" alt="Foto Alicia" width="500" height="200">
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
 Una de las problemáticas más importantes a resolver en el contexto global es la desigualdad. A pesar de los esfuerzos de los gobiernos y los organismos multilaterales por combatir la pobreza, la brecha entre los grupos de la sociedad más y menos privilegiados ha aumentado. Es por esto que, tomando conciencia del papel que juega la igualdad en la estabilidad social y económica, las agendas de organismos como el Banco Mundial incluyen en sus objetivos, además de disminuir la pobreza o promover el crecimiento económico, el compartir la prosperidad.
 
 En México, el Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL) es el encargado de la medición de la pobreza y la desigualdad en el país, así como del diseño de políticas públicas para combatirlas. En el caso particular de la desigualdad, el CONEVAL utiliza tres indicadores:

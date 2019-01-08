@@ -1,12 +1,45 @@
 
-Un Sistema de Información Geográfica (SIG) más que una importante herramienta tecnológica es una estructura de personas y equipos computacionales dedicados a la recopilación, procesamiento, almacenamiento y análisis de datos con información valiosa para una adecuada toma de decisiones.
+##¿Qué es el Sistema de Información Geográfica (SIG)?
 
-La base de datos integrada al SIG, permitirá representar visualmente variables muy diversas (estadísticas, infraestructura, equipamiento, programas, proyectos) de distintas fuentes (imágenes de satélite, INEGI, CONEVAL, IMCO, IMPLAN y dependencias municipales) generando mapas de análisis, temáticos o informativos con datos de utilidad que permitan impulsar la competitividad de la ciudad y la zona metropolitana mediante la planeación a corto, mediano y largo plazo.
+Es un conjunto de herramientas que recopilan, analizan y representan visualmente información que pueda ser referenciada de manera geográfica mediante planos y mapas virtuales e interactivos en distintas variables (estadísticas, de infraestructura, equipamiento, programas, proyectos etc.) de fuentes variadas (satelitales, INEGI, CONEVAL, IMCO, IMPLAN, ONU-Hábitat etc.)
 
-La principal característica de este sistema es que está diseñado para ser una herramienta que permita el acceso a la ciudadanía como medio de consulta de información de la situación del municipio y de la zona metropolitana.
+##¿Para qué sirve el SIG?
 
-<img class="img-responsive contenido-imagen" src="introduccion/gis-01-relieve.jpg" alt="GIS Relieve">
+El sistema integra en una misma plataforma, la información georreferenciada de interés para la ciudad y la zona metropolitana con el fin de servir como base para la toma de decisiones, diseño de políticas públicas y la planeación de la ciudad a corto, mediano y largo plazo.
 
-<img class="img-responsive contenido-imagen" src="introduccion/gis-02-poligonos-pobreza.jpg" alt="GIS Poligonos Pobreza">
+La principal característica de este sistema, es que está diseñado para ser una herramienta accesible a toda la ciudadanía, gobierno y academia de una manera sencilla y gráfica para su mejor aprovechamiento.
 
-<img class="img-responsive contenido-imagen" src="introduccion/gis-03-poligonos-cruzados.jpg" alt="GIS Polígonos Cruzados">
+##¿Cómo se organiza la Información?
+
+El sistema se organiza en 5 grandes temas:
+
+-**Planes y programas**
+
+Corresponden a los instrumentos de gestión territorial en materia de desarrollo urbano, ecológico y de movilidad.
+
+-**Indicadores georreferenciados**
+
+Son indicadores demográficos, sociales, económicos y urbanos que pueden ser referenciados geográficamente.
+
+-**Inventario Urbano**
+
+Corresponde al catálogo de infraestructura y equipamiento con el que cuenta el centro de población.
+
+-**Movilidad**
+
+Análisis de los indicadores e infraestructura (existente y propuesta) de movilidad urbana.
+
+-**Medio Ambiente**
+
+Tema que corresponde a datos e indicadores medioambientales y de sustentabilidad en temas como calidad del aire, áreas verdes y agua.
+</br></br></br></br>
+
+---
+
+Los temas contienen mapas con distintas capas interactivas que pueden ser superpuestas para cruzar información entre una variable y otra. A su vez, los mapas se encuentran clasificados en las mismas Categorías de la plataforma trcimplan.
+
+*¿Por ejemplo?*
+
+El Plan Director de Desarrollo Urbano para el municipio de Torreón, se encuentra georreferenciado dentro del SIG, donde se puede consultar (por ejemplo) la zonificación secundaria (usos de suelo) para cada predio del centro de población.
+
+<img class="img-responsive contenido-imagen" src="introduccion/cuadros-sig.jpg" alt="Cuadro SIG">

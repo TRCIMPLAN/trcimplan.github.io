@@ -35,7 +35,7 @@ class Introduccion extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Introducción al Sistema de Información Geográfica';
-        $this->fecha                      = '2014-08-01T08:00';
+        $this->fecha                      = '2019-01-01T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'introduccion';
         // La descripción y claves dan información a los buscadores y redes sociales
