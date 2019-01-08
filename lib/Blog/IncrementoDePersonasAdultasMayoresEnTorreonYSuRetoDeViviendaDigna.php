@@ -36,7 +36,7 @@ class IncrementoDePersonasAdultasMayoresEnTorreonYSuRetoDeViviendaDigna extends 
         // Título, autor y fecha
         $this->nombre                     = 'Incremento de las Personas Adultas Mayores en Torreón y su reto de vivienda digna.';
         $this->autor                      = 'Arq. Cecilio Pedro Secunza Schott';
-        $this->fecha                      = '2019-01-07T00:00';
+        $this->fecha                      = '2019-01-07T12:10';
         // El nombre del archivo a crear
         $this->archivo                    = 'incremento-de-personas-adultas-mayores-en-torreon-y-su-reto-de-vivienda-digna-ene2019';
         // La descripción y claves dan información a los buscadores y redes sociales
