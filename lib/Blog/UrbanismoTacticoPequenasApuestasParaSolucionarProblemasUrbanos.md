@@ -30,8 +30,9 @@ Actualmente se están analizando los resultados de una intervención urbana que 
 
 Fuente: Dirección de tránsito y vialidad.
 
+##ACCIDENTES PEATONES Y CICLISTAS EN 2018 (ENERO-OCTUBRE)
 
-ACCIDENTES| ATROPELLADO PEATÓN| ATROPELLADO CICLISTA|
+.          | ATROPELLADO PEATÓN| ATROPELLADO CICLISTA|
 ----------|-------------------|---------------------|
 ENERO      |                 12| 14                  |
 FEBRERO    |                 17| 12                  |

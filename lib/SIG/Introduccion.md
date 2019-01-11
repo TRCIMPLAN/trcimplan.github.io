@@ -42,4 +42,4 @@ Los temas contienen mapas con distintas capas interactivas que pueden ser superp
 
 El Plan Director de Desarrollo Urbano para el municipio de Torreón, se encuentra georreferenciado dentro del SIG, donde se puede consultar (por ejemplo) la zonificación secundaria (usos de suelo) para cada predio del centro de población.
 
-<img class="img-responsive contenido-imagen" src="introduccion/cuadros-sig.jpg" alt="Cuadro SIG">
+<img class="img-responsive contenido-imagen" src="introduccion/cuadros-sig3.jpg"  align="center" alt="Cuadro SIG">
