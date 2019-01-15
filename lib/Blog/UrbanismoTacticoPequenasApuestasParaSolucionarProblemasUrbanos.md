@@ -1,5 +1,5 @@
 <p>
-   <img class="img-responsive contenido-imagen" src="../imagenes/128/arq-jair-miramontes-chavez-top2.png" align="right" alt="Foto Jair" width="500" height="200">
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jair-miramontes-chavez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-jair-miramontes-chavez-top2.png" align="right" alt="Foto Jair" width="500" height="200"></a>
 
 </p>
 

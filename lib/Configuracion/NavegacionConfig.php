@@ -67,9 +67,9 @@ class NavegacionConfig {
             'Información Geográfica > Mapas por Tema'                 => array(
                                                                             'Información Geográfica > Mapas por Tema > Planes y Programas'      => 'sig/introduccion.html',
                                                                             'Información Geográfica > Mapas por Tema > Indicadores Georeferenciados'      => 'sig/introduccion.html',
-                                                                            'Información Geográfica > Mapas por Tema > Inventario Urbano '      => 'sig/introduccion.html',
-                                                                            'Información Geográfica > Mapas por Tema > Movilidad'               => 'sig/introduccion.html',
-                                                                            'Información Geográfica > Mapas por Tema > Medio Ambiente'          => 'sig/introduccion.html'),
+                                                                            'Información Geográfica > Mapas por Tema > Inventario Urbano '      => 'sig-mapas-torreon/categoria-infraestructura.html',
+                                                                            'Información Geográfica > Mapas por Tema > Movilidad'               => 'sig-mapas-torreon/categoria-movilidad.html',
+                                                                            'Información Geográfica > Mapas por Tema > Medio Ambiente'          => 'sig-mapas-torreon/categoria-medio-ambiente.html'),
             'Información Geográfica > Datos Abiertos'                 => 'sig-mapas-torreon/zonificacion-secundaria.html'),
         'Plan Estratégico Torreón 2040' => array(
 

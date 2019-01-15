@@ -1,6 +1,6 @@
 
 <p>
-   <img class="img-responsive contenido-imagen" src="../imagenes/128/lic-alicia-valdez-ibarra-top2.png" align="right" alt="Foto Alicia" width="500" height="200">
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/alicia-valdez-ibarra.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-alicia-valdez-ibarra-top2.png" align="right" alt="Foto Alicia" width="500" height="200"></a>
 
 </p>
 

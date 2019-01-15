@@ -1,5 +1,5 @@
 <p>
-   <img class="img-responsive contenido-imagen" src="../imagenes/128/arq-cecilio-pedro-secunza-schott-top2.png" align="right" alt="Foto Cecilio" width="500" height="200">
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/cecilio-pedro-secunza-schott.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-cecilio-pedro-secunza-schott-top2.png" align="right" alt="Foto Cecilio" width="500" height="200"></a>
 
 </p>
 

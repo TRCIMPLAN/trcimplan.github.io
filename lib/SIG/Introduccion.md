@@ -32,13 +32,14 @@ Análisis de los indicadores e infraestructura (existente y propuesta) de movili
 -**Medio Ambiente**
 
 Tema que corresponde a datos e indicadores medioambientales y de sustentabilidad en temas como calidad del aire, áreas verdes y agua.
+
+
+Los temas contienen mapas con distintas capas interactivas que pueden ser superpuestas para cruzar información entre una variable y otra. A su vez, los mapas se encuentran clasificados en las mismas Categorías de la plataforma trcimplan.
 </br></br></br></br>
 
 ---
 
-Los temas contienen mapas con distintas capas interactivas que pueden ser superpuestas para cruzar información entre una variable y otra. A su vez, los mapas se encuentran clasificados en las mismas Categorías de la plataforma trcimplan.
-
-*¿Por ejemplo?*
+##¿Por ejemplo?
 
 El Plan Director de Desarrollo Urbano para el municipio de Torreón, se encuentra georreferenciado dentro del SIG, donde se puede consultar (por ejemplo) la zonificación secundaria (usos de suelo) para cada predio del centro de población.
 
