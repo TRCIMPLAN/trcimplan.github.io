@@ -1,4 +1,6 @@
 
+<img class="img-responsive contenido-imagen" src="introduccion/encabezado2019b.jpg"  width="100%" height="100%" align="center" alt="Encabezado SIG">
+
 ##¿Qué es el Sistema de Información Geográfica (SIG)?
 
 Es un conjunto de herramientas que recopilan, analizan y representan visualmente información que pueda ser referenciada de manera geográfica mediante planos y mapas virtuales e interactivos en distintas variables (estadísticas, de infraestructura, equipamiento, programas, proyectos etc.) de fuentes variadas (satelitales, INEGI, CONEVAL, IMCO, IMPLAN, ONU-Hábitat etc.)
