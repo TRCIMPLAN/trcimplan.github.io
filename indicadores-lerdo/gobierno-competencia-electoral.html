@@ -252,6 +252,12 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">33.0400 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -276,30 +282,30 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2013-07-07</td>
-        <td class="derecha">1.7700 %</td>
-        <td>INE-IEPCC</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">22.4800 %</td>
+        <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">4.5200 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">31.8800 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">5.1500 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">33.0400 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2013-07-07</td>
-        <td class="derecha">39.6700 %</td>
-        <td>INE-IEPCC</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">29.0500 %</td>
+        <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
@@ -422,7 +428,8 @@
         { fecha: '2009-12-31', dato: 30.8000 },
         { fecha: '2010-12-31', dato: 30.8000 },
         { fecha: '2011-12-31', dato: 5.1500 },
-        { fecha: '2012-12-31', dato: 5.1500 }],
+        { fecha: '2012-12-31', dato: 5.1500 },
+        { fecha: '2016-12-31', dato: 33.0400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -437,7 +444,7 @@
   if (typeof varSmiOtrasRegionesCompetenciaElectoralEnLerdoGrafica === 'undefined') {
     varSmiOtrasRegionesCompetenciaElectoralEnLerdoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCompetenciaElectoralEnLerdoGrafica',
-      data: [{ region: 'Torreón', dato: 1.7700 },{ region: 'Gómez Palacio', dato: 4.5200 },{ region: 'Lerdo', dato: 5.1500 },{ region: 'Matamoros', dato: 39.6700 },{ region: 'La Laguna', dato: 26.0000 }],
+      data: [{ region: 'Torreón', dato: 22.4800 },{ region: 'Gómez Palacio', dato: 31.8800 },{ region: 'Lerdo', dato: 33.0400 },{ region: 'Matamoros', dato: 29.0500 },{ region: 'La Laguna', dato: 26.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

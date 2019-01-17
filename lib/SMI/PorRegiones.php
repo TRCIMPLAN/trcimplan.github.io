@@ -157,15 +157,19 @@ class PorRegiones extends \Base\Publicacion {
           <div class="col-md-2 indicadores-vinculos">
             <h3>Gobierno</h3>
             <ul>
+              <li><a href="../indicadores-torreon/gobierno-barreras-para-candidatos-independientes.html" target="_blank">Barreras para candidatos independientes</a></li>
               <li><a href="../indicadores-torreon/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
               <li><a href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-base.html" target="_blank">Capacitación a Empleados de Base</a></li>
               <li><a href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-confianza.html" target="_blank">Capacitación a Empleados de Confianza</a></li>
+              <li><a href="../indicadores-torreon/gobierno-casillas-anuladas.html" target="_blank">Casillas anuladas</a></li>
               <li><a href="../indicadores-torreon/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
               <li><a href="../indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
               <li><a href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
               <li><a href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
               <li><a href="../indicadores-torreon/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de Período para Ediles y Delegados</a></li>
+              <li><a href="../indicadores-torreon/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" target="_blank">Duración máxima de periodos de alcaldes</a></li>
               <li><a href="../indicadores-torreon/gobierno-empleados-municipales.html" target="_blank">Empleados Municipales</a></li>
+              <li><a href="../indicadores-torreon/gobierno-formulas-cabildo.html" target="_blank">Formulas cabildo</a></li>
               <li><a href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
               <li><a href="../indicadores-torreon/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html" target="_blank">Índice de Herramientas Electrónicas de Gobiernos Locales</a></li>
               <li><a href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de información presupuestal</a></li>
@@ -264,6 +268,8 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-madres-adolescentes.html" target="_blank">Madres Adolescentes</a></li>
               <li><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
               <li><a href="../indicadores-torreon/sociedad-medicos.html" target="_blank">Médicos</a></li>
+              <li><a href="../indicadores-torreon/sociedad-medicos-especializados.html" target="_blank">Médicos especializados</a></li>
+              <li><a href="../indicadores-torreon/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-torreon/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
               <li><a href="../indicadores-torreon/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-torreon/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -294,6 +300,7 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
               <li><a href="../indicadores-torreon/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
               <li><a href="../indicadores-torreon/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
+              <li><a href="../indicadores-torreon/sociedad-tasa-de-suicidios.html" target="_blank">Tasa de suicidios</a></li>
               <li><a href="../indicadores-torreon/sociedad-total-de-establecimientos-en-el-centro-historico.html" target="_blank">Total de establecimientos en el Centro Histórico</a></li>
               <li><a href="../indicadores-torreon/sociedad-universidades.html" target="_blank">Universidades</a></li>
               <li><a href="../indicadores-torreon/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
@@ -492,12 +499,16 @@ FINAL;
           <div class="col-md-2 indicadores-vinculos">
             <h3>Gobierno</h3>
             <ul>
+              <li><a href="../indicadores-gomez-palacio/gobierno-barreras-para-candidatos-independientes.html" target="_blank">Barreras para candidatos independientes</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
+              <li><a href="../indicadores-gomez-palacio/gobierno-casillas-anuladas.html" target="_blank">Casillas anuladas</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de Período para Ediles y Delegados</a></li>
+              <li><a href="../indicadores-gomez-palacio/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" target="_blank">Duración máxima de periodos de alcaldes</a></li>
+              <li><a href="../indicadores-gomez-palacio/gobierno-formulas-cabildo.html" target="_blank">Formulas cabildo</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de información presupuestal</a></li>
               <li><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
@@ -586,6 +597,8 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-medicos.html" target="_blank">Médicos</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-medicos-especializados.html" target="_blank">Médicos especializados</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -609,6 +622,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-tasa-de-suicidios.html" target="_blank">Tasa de suicidios</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-universidades.html" target="_blank">Universidades</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
@@ -769,12 +783,16 @@ FINAL;
           <div class="col-md-2 indicadores-vinculos">
             <h3>Gobierno</h3>
             <ul>
+              <li><a href="../indicadores-lerdo/gobierno-barreras-para-candidatos-independientes.html" target="_blank">Barreras para candidatos independientes</a></li>
               <li><a href="../indicadores-lerdo/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
+              <li><a href="../indicadores-lerdo/gobierno-casillas-anuladas.html" target="_blank">Casillas anuladas</a></li>
               <li><a href="../indicadores-lerdo/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
               <li><a href="../indicadores-lerdo/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
               <li><a href="../indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
               <li><a href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
               <li><a href="../indicadores-lerdo/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de Período para Ediles y Delegados</a></li>
+              <li><a href="../indicadores-lerdo/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" target="_blank">Duración máxima de periodos de alcaldes</a></li>
+              <li><a href="../indicadores-lerdo/gobierno-formulas-cabildo.html" target="_blank">Formulas cabildo</a></li>
               <li><a href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
               <li><a href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de información presupuestal</a></li>
               <li><a href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
@@ -859,6 +877,8 @@ FINAL;
               <li><a href="../indicadores-lerdo/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
               <li><a href="../indicadores-lerdo/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
               <li><a href="../indicadores-lerdo/sociedad-medicos.html" target="_blank">Médicos</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-medicos-especializados.html" target="_blank">Médicos especializados</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -882,6 +902,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
               <li><a href="../indicadores-lerdo/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
               <li><a href="../indicadores-lerdo/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-tasa-de-suicidios.html" target="_blank">Tasa de suicidios</a></li>
               <li><a href="../indicadores-lerdo/sociedad-universidades.html" target="_blank">Universidades</a></li>
               <li><a href="../indicadores-lerdo/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
               <li><a href="../indicadores-lerdo/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
@@ -1040,12 +1061,16 @@ FINAL;
           <div class="col-md-2 indicadores-vinculos">
             <h3>Gobierno</h3>
             <ul>
+              <li><a href="../indicadores-matamoros/gobierno-barreras-para-candidatos-independientes.html" target="_blank">Barreras para candidatos independientes</a></li>
               <li><a href="../indicadores-matamoros/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
+              <li><a href="../indicadores-matamoros/gobierno-casillas-anuladas.html" target="_blank">Casillas anuladas</a></li>
               <li><a href="../indicadores-matamoros/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
               <li><a href="../indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
               <li><a href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
               <li><a href="../indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
               <li><a href="../indicadores-matamoros/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de Período para Ediles y Delegados</a></li>
+              <li><a href="../indicadores-matamoros/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" target="_blank">Duración máxima de periodos de alcaldes</a></li>
+              <li><a href="../indicadores-matamoros/gobierno-formulas-cabildo.html" target="_blank">Formulas cabildo</a></li>
               <li><a href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
               <li><a href="../indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de información presupuestal</a></li>
               <li><a href="../indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
@@ -1134,6 +1159,8 @@ FINAL;
               <li><a href="../indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
               <li><a href="../indicadores-matamoros/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
               <li><a href="../indicadores-matamoros/sociedad-medicos.html" target="_blank">Médicos</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-medicos-especializados.html" target="_blank">Médicos especializados</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -1157,6 +1184,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
               <li><a href="../indicadores-matamoros/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
               <li><a href="../indicadores-matamoros/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-tasa-de-suicidios.html" target="_blank">Tasa de suicidios</a></li>
               <li><a href="../indicadores-matamoros/sociedad-universidades.html" target="_blank">Universidades</a></li>
               <li><a href="../indicadores-matamoros/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
               <li><a href="../indicadores-matamoros/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
@@ -1323,12 +1351,16 @@ FINAL;
           <div class="col-md-2 indicadores-vinculos">
             <h3>Gobierno</h3>
             <ul>
+              <li><a href="../indicadores-la-laguna/gobierno-barreras-para-candidatos-independientes.html" target="_blank">Barreras para candidatos independientes</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
+              <li><a href="../indicadores-la-laguna/gobierno-casillas-anuladas.html" target="_blank">Casillas anuladas</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de Período para Ediles y Delegados</a></li>
+              <li><a href="../indicadores-la-laguna/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" target="_blank">Duración máxima de periodos de alcaldes</a></li>
+              <li><a href="../indicadores-la-laguna/gobierno-formulas-cabildo.html" target="_blank">Formulas cabildo</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de información presupuestal</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
@@ -1406,6 +1438,8 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de Hacinamiento</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-medicos.html" target="_blank">Médicos</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-medicos-especializados.html" target="_blank">Médicos especializados</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -1425,6 +1459,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-proporcion-de-mujeres.html" target="_blank">Proporción de mujeres</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-tasa-de-suicidios.html" target="_blank">Tasa de suicidios</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-universidades.html" target="_blank">Universidades</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>

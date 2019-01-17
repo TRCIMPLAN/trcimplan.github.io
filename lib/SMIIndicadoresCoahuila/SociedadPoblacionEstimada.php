@@ -100,14 +100,14 @@ class SociedadPoblacionEstimada extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '716672', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-06-30', 'valor' => '364540', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2018-06-30', 'valor' => '157655', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2018-06-30', 'valor' => '117349', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-06-30', 'valor' => '1356216', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '700655', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-12-31', 'valor' => '357663', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-12-31', 'valor' => '154620', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2018-12-31', 'valor' => '114828', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '1356216', 'fuente_nombre' => 'CONAPO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2018-06-30', 'valor' => '3063662', 'fuente_nombre' => 'CONAPO'),
             array('region_nombre' => 'Durango', 'fecha' => '2018-06-30', 'valor' => '1815966', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2018-06-30', 'valor' => '124737789', 'fuente_nombre' => 'CONAPO'));
+            array('region_nombre' => 'Nacional', 'fecha' => '2018-12-31', 'valor' => '124737789', 'fuente_nombre' => 'CONAPO'));
     } // otras_regiones
 
     /**

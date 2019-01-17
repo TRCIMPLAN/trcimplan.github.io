@@ -120,6 +120,15 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Barreras para candidatos independientes</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-barreras-para-candidatos-independientes.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">8.5 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-barreras-para-candidatos-independientes.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">3.0 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-barreras-para-candidatos-independientes.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">3.0 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-barreras-para-candidatos-independientes.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">8.5 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-barreras-para-candidatos-independientes.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6.0 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Capacitación a Empleados de Base</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-base.html" data-toggle="tooltip" title="Horas, 31/12/2014, Ayuntamiento de Torreón">0.4</a></td>
     <td class="nd">ND</td>
@@ -139,10 +148,10 @@ class Gobierno extends \Base\Publicacion {
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Competencia Electoral</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 07/07/2013, INE-IEPCC">1.77 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">4.52 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">5.15 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 07/07/2013, INE-IEPCC">39.67 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">22.48 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">31.88 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">33.04 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">29.05 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">26.00 %</a></td>
   </tr>
   <tr>
@@ -156,12 +165,30 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Duración máxima de periodos de alcaldes</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" data-toggle="tooltip" title="Años, 31/12/2016, IMCO">6</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" data-toggle="tooltip" title="Años, 31/12/2016, IMCO">6</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" data-toggle="tooltip" title="Años, 31/12/2016, IMCO">6</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" data-toggle="tooltip" title="Años, 31/12/2016, IMCO">6</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" data-toggle="tooltip" title="Años, 31/12/2016, IMCO">6</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Empleados Municipales</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-empleados-municipales.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2014, Ayuntamiento de Torreón">6.22</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Formulas cabildo</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-formulas-cabildo.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-formulas-cabildo.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">1</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-formulas-cabildo.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">1</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-formulas-cabildo.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-formulas-cabildo.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>

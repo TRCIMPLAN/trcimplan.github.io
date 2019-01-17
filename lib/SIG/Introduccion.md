@@ -37,9 +37,6 @@ Tema que corresponde a datos e indicadores medioambientales y de sustentabilidad
 
 
 Los temas contienen mapas con distintas capas interactivas que pueden ser superpuestas para cruzar información entre una variable y otra. A su vez, los mapas se encuentran clasificados en las mismas Categorías de la plataforma trcimplan.
-</br></br></br></br>
-
----
 
 ##¿Por ejemplo?
 

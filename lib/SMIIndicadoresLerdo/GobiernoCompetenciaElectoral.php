@@ -72,7 +72,8 @@ class GobiernoCompetenciaElectoral extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '30.8000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '5.1500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-07-02', 'valor' => '5.1500', 'fuente_nombre' => 'INE-IEPCC'),
-            array('fecha' => '2012-12-31', 'valor' => '5.1500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2012-12-31', 'valor' => '5.1500', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '33.0400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -96,10 +97,10 @@ class GobiernoCompetenciaElectoral extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2013-07-07', 'valor' => '1.7700', 'fuente_nombre' => 'INE-IEPCC'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '4.5200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '5.1500', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2013-07-07', 'valor' => '39.6700', 'fuente_nombre' => 'INE-IEPCC'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '22.4800', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '31.8800', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '33.0400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '29.0500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '26.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 

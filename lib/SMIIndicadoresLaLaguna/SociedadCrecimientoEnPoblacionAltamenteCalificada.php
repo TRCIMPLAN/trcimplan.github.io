@@ -71,8 +71,7 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \SMIBase\Publica
             array('fecha' => '2009-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '1.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2012-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**
@@ -100,7 +99,7 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \SMIBase\Publica
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '4.8200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '-10.6700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '-1.2200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '1.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
