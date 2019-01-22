@@ -76,6 +76,7 @@ class AutoresConfig {
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Miriam Janeth González Quintana',   'lic-miriam-janeth-gonzalez-quintana',   'IMPLAN Torreón', 'Planeación Estratégica Integral',       '', 'miriam.jglz@gmail.com', '');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Nayeli Alejandra García Rodríguez', 'lic-nayeli-alejandra-garcia-aguirre',   'IMPLAN Torreón', 'Auxiliar Administrativo',               '', 'nayeli_ale08@hotmail.com', '');
         $this->autores[] = new \Base\Autor('', 'Ing.', 'Víctor Manuel Gómez Reynoso',       'lsci-victor-manuel-gomez-reynoso',      'IMPLAN Torreón', 'Programación y Software',               '', 'vmparadigma@hotmail.com', '');
+        $this->autores[] = new \Base\Autor('', 'Lic.', 'Natalia Morga Torres',              'lic-natalia-morga-torres',              'IMPLAN Torreón', 'Analista de Costos',                    '', '@hotmail.com', '');
         $this->autores[] = new \Base\Autor('', 'Sra.', 'Olga Lidia Delgado Ramírez',        'sra-olga-lidia-delgado-ramirez',        'IMPLAN Torreón', 'Servicios de Limpieza',                 '', '', '');
         $this->autores[] = new \Base\Autor('', 'C.P.', 'Santa Julia Camarillo Aguirre',     'cp-santa-julia-camarillo-aguirre',      'IMPLAN Torreón', 'Contador',                              '', 'sanjuly_06@hotmail.com', '');
 

@@ -124,7 +124,66 @@ class Estrella extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+<center>![TORREÓN JARDÍN](torreon-jardin/foto1.jpg)</center>
+
+##Breve Historia
+
+
+
+##Galería de Fotos
+<table>
+ <tr>
+ <td><center><img src=""/></center></td>
+ <td><center><img src=""/></center></td>
+ <td><center><img src=""/></center></td>
+ </tr>
+ <tr>
+ <td>Jardines</td>
+ <td>Avenida Central</td>
+ <td>Calles</td>
+ </tr>
+</table>
+##Valor Catastral
+<table>
+ <tr>
+ <th><center><b>UBICACIÓN</b></center></th>
+ <th><center><b>AÑO 2016</b></center></th>
+ <th><center><b>AÑO 2017</b></center></th>
+ <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+ 
+ <tr>
+ <td><center>ESTRELLA</center>
+ <td><center>$995.00</center></br>
+ <td><center>$1029.83</center></td>
+ <td><center>$1091.61</center></td>
+ </tr> 
+ 
+</table>
+
+##Mobiliario Urbano
+
+<table>
+ <tr>
+ <td><center><img src=""/></center></td>
+ <td><center><img src=""/></center></td>
+ <td><center><img src=""/></center></td>
+ </tr>
+ <tr>
+ <td>Jardines</br>
+ <td>Avenida Central</td>
+ <td>cALLES</td>
+ </tr>
+</table>
+
+
+##Anécdotas de la Colonia
+<table>
+ <td> Aquí colocamos un texto completo, referente a las Anécdotas de la presente colonia, destacando todo aquello que nos cuenta la gente... </td>
+</table>
+</br>
+FINAL;
     } // resena
 
 } // Clase Estrella
