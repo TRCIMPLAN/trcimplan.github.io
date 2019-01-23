@@ -52,7 +52,7 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
         // Pasar a la página índice estos parámetros
         $this->ultimas_encabezado        = 'Últimos análisis publicados';
         $this->ultimas_vinculos          = '\\Base\\VinculosDetallados';
-        $this->ultimas_cantidad          = 12;
+        $this->ultimas_cantidad          = 20;
         $this->categorias_encabezado     = 'Todos los análisis clasificados por categorías';
         $this->categorias_vinculos       = '\\Base\\VinculosCompactos';
         // Nivel es el orden de la rama para los índices por autores y categorías, debe ser grande
