@@ -84,6 +84,15 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Actividad económica</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-actividad-economica.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 287,561,845.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-actividad-economica.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 287,561,845.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-actividad-economica.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 287,561,845.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-actividad-economica.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 287,561,845.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-actividad-economica.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 287,561,845.00</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Apertura de un Negocio (percentil promedio)</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.38</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.39</a></td>
@@ -120,11 +129,20 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Contribución laboral</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.96</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.88</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.66</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.87</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.93</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Crecimiento de la Mancha Urbana</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2012, IMCO">1.2467</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2012, IMCO">1.2467</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2012, IMCO">1.2467</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2012, IMCO">1.2467</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2016, IMCO">3.6894</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2016, IMCO">1.9679</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2016, IMCO">0.7700</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2016, IMCO">2.3576</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-crecimiento-de-la-mancha-urbana.html" data-toggle="tooltip" title="Número de veces, 31/12/2016, IMCO">0.4000 %</a></td>
   </tr>
   <tr>
@@ -247,10 +265,10 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Flujo de Pasajeros del o Hacia el Extranjero</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">14.44 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.00 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.00 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">5.95 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6.00 %</a></td>
   </tr>
   <tr>
@@ -283,20 +301,29 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Ocupación Hotelera</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1858862</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">49 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">48.87 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-ocupacion-hotelera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">49.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6168</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.16 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Participación del municipio en el PIB de la ZM</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-participacion-del-municipio-en-el-pib-de-la-zm.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">73 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-participacion-del-municipio-en-el-pib-de-la-zm.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">25 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-participacion-del-municipio-en-el-pib-de-la-zm.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">2 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-participacion-del-municipio-en-el-pib-de-la-zm.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -306,6 +333,15 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-patentes.html" data-toggle="tooltip" title="Por cada 100 mil de PEA, 31/12/2016, IMCO">9</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-patentes.html" data-toggle="tooltip" title="Por cada 100 mil de PEA, 31/12/2016, IMCO">49</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-patentes.html" data-toggle="tooltip" title="Por cada 100 mil de PEA, 31/12/2016, IMCO">16</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Población ocupada</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">294071</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">153477</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">50569</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">79877</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">577994</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -333,6 +369,24 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2012, IMCO">$ 4,094.59</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2012, IMCO">$ 4,496.77</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 289.33</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Productividad total de los factores</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-productividad-total-de-los-factores.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-13.23</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-productividad-total-de-los-factores.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-11.88</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-productividad-total-de-los-factores.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-8.99</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-productividad-total-de-los-factores.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-11.97</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-productividad-total-de-los-factores.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-12.30</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Proporción de la PEA de la ciudad por municipio</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">51 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">27 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">13 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -405,6 +459,15 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">3.0</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">4.0</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">3.5</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Esfuerzos de mejora regulatoria</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-esfuerzos-de-mejora-regulatoria.html" data-toggle="tooltip" title="De 0 a 2, 31/12/2016, IMCO">1.2</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-esfuerzos-de-mejora-regulatoria.html" data-toggle="tooltip" title="De 0 a 2, 31/12/2016, IMCO">1.6</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-esfuerzos-de-mejora-regulatoria.html" data-toggle="tooltip" title="De 0 a 2, 31/12/2016, IMCO">1.6</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-esfuerzos-de-mejora-regulatoria.html" data-toggle="tooltip" title="De 0 a 2, 31/12/2016, IMCO">1.2</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-esfuerzos-de-mejora-regulatoria.html" data-toggle="tooltip" title="De 0 a 2, 31/12/2016, IMCO">1</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
@@ -530,7 +593,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-4.55 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-7.29 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">4.00 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-2.84 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -624,6 +687,15 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Mujeres en la administración municipal</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mujeres-en-la-administracion-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">12.00 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mujeres-en-la-administracion-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">12.90 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-mujeres-en-la-administracion-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">23.40 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-mujeres-en-la-administracion-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">17.65 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mujeres-en-la-administracion-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">18.00 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mujeres en la Fuerza Laboral</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html" data-toggle="tooltip" title="Mujeres en la PEA como porcentaje del total de mujeres en edad laboral, 31/12/2016, IMCO">126979</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mujeres-en-la-fuerza-laboral.html" data-toggle="tooltip" title="Mujeres en la PEA como porcentaje del total de mujeres en edad laboral, 31/12/2016, IMCO">60291</a></td>
@@ -651,6 +723,15 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Población con educación superior</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">34.73 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">23.50 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">26.98 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">11.11 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-poblacion-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">28.00 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Rendimiento Académico</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">5.98 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rendimiento-academico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">4.38 %</a></td>
@@ -670,11 +751,11 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Uso de Servicios Financieros</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">1069511</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">392208</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">39251</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">50141</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">1.6</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">2.07</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">1.52</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0.35</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0.60</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-uso-de-servicios-financieros.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">1.60</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

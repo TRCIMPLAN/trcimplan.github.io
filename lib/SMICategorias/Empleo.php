@@ -84,6 +84,15 @@ class Empleo extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Contribución laboral</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.96</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.88</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.66</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.87</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-contribucion-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">-0.93</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Crecimiento de la Población Ocupada sin Ingresos</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html" data-toggle="tooltip" title="Tasa promedio anual, 31/12/2012, IMCO">-1.05 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html" data-toggle="tooltip" title="Tasa promedio anual, 31/12/2012, IMCO">-9.69 %</a></td>
@@ -237,6 +246,15 @@ class Empleo extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Población ocupada</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">294071</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">153477</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">50569</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">79877</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">577994</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Población Ocupada Sin Ingresos</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-ocupada-sin-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">48403</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-poblacion-ocupada-sin-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">23376</a></td>
@@ -261,6 +279,15 @@ class Empleo extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2012, IMCO">$ 4,094.59</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2012, IMCO">$ 4,496.77</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 289.33</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Proporción de la PEA de la ciudad por municipio</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">51 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">27 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">13 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -319,11 +346,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">203718</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">82315</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">13270</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">9270</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">309573</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">197890</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">80516</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">13208</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">8998</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/11/2018, Instituto Mexicano del Seguro Social (IMSS)">306923</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -409,9 +436,9 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">797689</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">248177</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/10/2018, Instituto Mexicano del Seguro Social (IMSS)">4470074</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">779544</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">243651</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">4401571</a></td>
   </tr>
 </tbody>
 </table>

@@ -276,6 +276,12 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">2.3576</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -300,29 +306,29 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2012-12-31</td>
-        <td>1.2467</td>
+        <td class="centrado">2016-12-31</td>
+        <td>3.6894</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2012-12-31</td>
-        <td>1.2467</td>
+        <td class="centrado">2016-12-31</td>
+        <td>1.9679</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2012-12-31</td>
-        <td>1.2467</td>
+        <td class="centrado">2016-12-31</td>
+        <td>0.7700</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2012-12-31</td>
-        <td>1.2467</td>
+        <td class="centrado">2016-12-31</td>
+        <td>2.3576</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -441,6 +447,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosCrecimientoDeLaManchaUrbanaEnMatamoros === 'undefined') {
+     $('#SmiDatosCrecimientoDeLaManchaUrbanaEnMatamoros').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosCrecimientoDeLaManchaUrbanaEnMatamoros = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasCrecimientoDeLaManchaUrbanaEnMatamoros === 'undefined') {
@@ -451,7 +475,8 @@
         { fecha: '2009-12-31', dato: 1.2467 },
         { fecha: '2010-12-31', dato: 1.2467 },
         { fecha: '2011-12-31', dato: 1.2467 },
-        { fecha: '2012-12-31', dato: 1.2467 }],
+        { fecha: '2012-12-31', dato: 1.2467 },
+        { fecha: '2016-12-31', dato: 2.3576 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -466,7 +491,7 @@
   if (typeof varSmiOtrasRegionesCrecimientoDeLaManchaUrbanaEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesCrecimientoDeLaManchaUrbanaEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCrecimientoDeLaManchaUrbanaEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 1.2467 },{ region: 'Gómez Palacio', dato: 1.2467 },{ region: 'Lerdo', dato: 1.2467 },{ region: 'Matamoros', dato: 1.2467 },{ region: 'La Laguna', dato: 0.4000 }],
+      data: [{ region: 'Torreón', dato: 3.6894 },{ region: 'Gómez Palacio', dato: 1.9679 },{ region: 'Lerdo', dato: 0.7700 },{ region: 'Matamoros', dato: 2.3576 },{ region: 'La Laguna', dato: 0.4000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

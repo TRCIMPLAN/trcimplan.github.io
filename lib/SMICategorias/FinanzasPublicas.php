@@ -102,6 +102,15 @@ class FinanzasPublicas extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Inversión sin actividad petrolera (extracción y refinación)</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inversion-sin-actividad-petrolera-extraccion-y-refinacion.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 51,861,094.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-inversion-sin-actividad-petrolera-extraccion-y-refinacion.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 16,707,350.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-inversion-sin-actividad-petrolera-extraccion-y-refinacion.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 1,667,420.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-inversion-sin-actividad-petrolera-extraccion-y-refinacion.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">$ 914,365.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-inversion-sin-actividad-petrolera-extraccion-y-refinacion.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2016, IMCO">116.07</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Producción Bruta Total Per Cápita</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2013, Elaboración propia con datos obtenidos del INEGI">$ 225,170.46</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2013, Elaboración propia con datos obtenidos del INEGI">$ 154,519.29</a></td>
@@ -117,6 +126,15 @@ class FinanzasPublicas extends \Base\Publicacion {
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">71.98 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">19.72 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, Elaboración propia con datos obtenidos del INEGI">79.83 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Deuda municipal</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.02 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">3.55 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.31 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.60 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">2.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>

@@ -111,6 +111,15 @@ class Empresas extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Empresas del estado al que pertenece el municipio</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-empresas-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">31995</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-empresas-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">13274</a></td>
+    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-empresas-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">31995</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Empresas Exportadoras</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-empresas-exportadoras.html" data-toggle="tooltip" title="Cantidad de Empresas, 24/11/2014, Secretaría de Economía">113</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-empresas-exportadoras.html" data-toggle="tooltip" title="Cantidad de Empresas, 24/11/2014, Secretaría de Economía">55</a></td>

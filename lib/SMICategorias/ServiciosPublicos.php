@@ -83,6 +83,33 @@ class ServiciosPublicos extends \Base\Publicacion {
 </thead>
 <tbody>
   <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Costo de electricidad</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-costo-de-electricidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">26.3116</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-costo-de-electricidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">26.3116</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-costo-de-electricidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">26.3116</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-costo-de-electricidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">26.3116</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-costo-de-electricidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">26.3000</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Intensidad energética en la economía</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-intensidad-energetica-en-la-economia.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">3,745.37</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-intensidad-energetica-en-la-economia.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">2,242.93</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-intensidad-energetica-en-la-economia.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">298.83</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-intensidad-energetica-en-la-economia.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">255.25</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-intensidad-energetica-en-la-economia.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">6,542.39</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Inversión en transporte público</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-inversion-en-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9.72 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-inversion-en-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9.72 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-inversion-en-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9.72 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-inversion-en-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9.72 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-inversion-en-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9.72 %</a></td>
+  </tr>
+  <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Agua Entubada</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-agua-entubada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">96.3 %</a></td>

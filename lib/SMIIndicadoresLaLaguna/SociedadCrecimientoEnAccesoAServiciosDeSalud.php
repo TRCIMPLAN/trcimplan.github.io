@@ -71,7 +71,8 @@ class SociedadCrecimientoEnAccesoAServiciosDeSalud extends \SMIBase\PublicacionW
             array('fecha' => '2009-12-31', 'valor' => '-2.8400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '-2.8400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '-2.8400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '-2.8400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '-2.8400', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '1.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -99,7 +100,7 @@ class SociedadCrecimientoEnAccesoAServiciosDeSalud extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '-4.5500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '-7.2900', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '4.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '-2.8400', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '1.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

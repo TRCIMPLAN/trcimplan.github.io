@@ -83,6 +83,15 @@ class Vialidad extends \Base\Publicacion {
 </thead>
 <tbody>
   <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Presupuesto destinado a transporte público (no motorizado)</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-presupuesto-destinado-a-transporte-publico-no-motorizado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.7 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-presupuesto-destinado-a-transporte-publico-no-motorizado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.7 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-presupuesto-destinado-a-transporte-publico-no-motorizado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.7 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-presupuesto-destinado-a-transporte-publico-no-motorizado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.7 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-presupuesto-destinado-a-transporte-publico-no-motorizado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.7 %</a></td>
+  </tr>
+  <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Accidentes Viales</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, INEGI">5110</a></td>
@@ -138,6 +147,15 @@ class Vialidad extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Tiempos de traslado</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-tiempos-de-traslado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">82.51 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-tiempos-de-traslado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">85.39 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-tiempos-de-traslado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">82.26 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-tiempos-de-traslado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">77.25 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-tiempos-de-traslado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">83.00 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Traslados a Pie</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -148,11 +166,11 @@ class Vialidad extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Uso de Automóvil Particular</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">157163</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">52139</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">22867</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">10728</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">32 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">38.43 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">26.82 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">25.72 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">16.90 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">32.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

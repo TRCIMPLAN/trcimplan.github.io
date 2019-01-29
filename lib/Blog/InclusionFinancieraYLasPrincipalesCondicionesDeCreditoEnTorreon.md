@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/frida-valeria-garcia-gutierrez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-frida-valeria-garcia-gutierrez-top2.png" align="right" alt="Foto Maira" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 **La Encuesta Nacional de Inclusión Financiera 2018 (ENIF 2018)**, la cual tiene como objetivo conocer el grado de acceso al sistema financiero, sus barreras, el uso y la calidad de los servicios; arroja en sus resultados que **en los últimos 6 años, la población incluida financieramente creció un 37%** en contraste con el crecimiento de la población que fue de 12%; por lo que actualmente, el número de adultos con al menos un producto financiero contratado es de 54 millones, cifra que representa el 68% del total de la población entre 18 y 70 años.
 

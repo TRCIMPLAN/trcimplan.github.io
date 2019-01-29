@@ -366,6 +366,18 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-11-30</td>
+        <td class="derecha">796,486</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">779,544</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -390,57 +402,57 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">203,718</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">197,890</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">82,315</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">80,516</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">13,270</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">13,208</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">9,270</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">8,998</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">309,573</td>
+        <td class="centrado">2018-11-30</td>
+        <td class="derecha">306,923</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">797,689</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">779,544</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">248,177</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">243,651</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">4,470,074</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">4,401,571</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
@@ -535,7 +547,9 @@
         { fecha: '2018-07-31', dato: 778287 },
         { fecha: '2018-08-31', dato: 784615 },
         { fecha: '2018-09-30', dato: 789212 },
-        { fecha: '2018-10-31', dato: 797689 }],
+        { fecha: '2018-10-31', dato: 797689 },
+        { fecha: '2018-11-30', dato: 796486 },
+        { fecha: '2018-12-31', dato: 779544 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -550,7 +564,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresAseguradosEnCoahuilaGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresAseguradosEnCoahuilaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresAseguradosEnCoahuilaGrafica',
-      data: [{ region: 'Torreón', dato: 203718 },{ region: 'Gómez Palacio', dato: 82315 },{ region: 'Lerdo', dato: 13270 },{ region: 'Matamoros', dato: 9270 },{ region: 'La Laguna', dato: 309573 },{ region: 'Coahuila', dato: 797689 },{ region: 'Durango', dato: 248177 },{ region: 'Nacional', dato: 4470074 }],
+      data: [{ region: 'Torreón', dato: 197890 },{ region: 'Gómez Palacio', dato: 80516 },{ region: 'Lerdo', dato: 13208 },{ region: 'Matamoros', dato: 8998 },{ region: 'La Laguna', dato: 306923 },{ region: 'Coahuila', dato: 779544 },{ region: 'Durango', dato: 243651 },{ region: 'Nacional', dato: 4401571 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

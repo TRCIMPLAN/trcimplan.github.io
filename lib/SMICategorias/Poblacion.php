@@ -93,6 +93,15 @@ class Poblacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Personas con ingresos mayores al promedio de la Ciudad</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-personas-con-ingresos-mayores-al-promedio-de-la-ciudad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">84969</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-personas-con-ingresos-mayores-al-promedio-de-la-ciudad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">31841</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-personas-con-ingresos-mayores-al-promedio-de-la-ciudad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">13078</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-personas-con-ingresos-mayores-al-promedio-de-la-ciudad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">14899</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-personas-con-ingresos-mayores-al-promedio-de-la-ciudad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">25 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Población con discapacidad del Centro Histórico</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-con-discapacidad-del-centro-historico.html" data-toggle="tooltip" title="Personas, 31/12/2010, INEGI">430</a></td>
     <td class="nd">ND</td>
@@ -108,6 +117,24 @@ class Poblacion extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">54779</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">81243</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">530457</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Población ocupada</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">294071</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">153477</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">50569</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">79877</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-poblacion-ocupada.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">577994</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Proporción de la PEA de la ciudad por municipio</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">51 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">27 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-proporcion-de-la-pea-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">13 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -147,6 +174,15 @@ class Poblacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Migrantes (Nal y Ext) con educación superior</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6.88 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6.62 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">3.15 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6.00 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Nacimientos</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -161,6 +197,15 @@ class Poblacion extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Participación del municipio en la población del estado</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">23 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">20 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">4 %</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>
@@ -192,6 +237,15 @@ class Poblacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Población de 18 a 25 años</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-de-18-a-25-anos.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">74323</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-de-18-a-25-anos.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">51089</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-de-18-a-25-anos.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">14441</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-de-18-a-25-anos.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">17073</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-poblacion-de-18-a-25-anos.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">156926</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Población de 30 a 59 años del Centro Histórico</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-de-30-a-59-anos-del-centro-historico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI">35.57 %</a></td>
     <td class="nd">ND</td>
@@ -219,6 +273,15 @@ class Poblacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Población del estado al que pertenece el municipio</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">3043062</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">1801963</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">1801963</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">3043062</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Población Estimada</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, CONAPO">700655</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, CONAPO">357663</a></td>
@@ -233,6 +296,15 @@ class Poblacion extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Proporción de la población de la ciudad por municipio</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-proporcion-de-la-poblacion-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">53 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-proporcion-de-la-poblacion-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">27 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-proporcion-de-la-poblacion-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">12 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-proporcion-de-la-poblacion-de-la-ciudad-por-municipio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9 %</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>
