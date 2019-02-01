@@ -35,7 +35,7 @@ class ComunicadoPrensa20190128 extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'La Laguna obtiene buena calificación en el Índice de Ciudades Sostenibles 2018.';
-        $this->autor                      = 'Lic. Maira Ivonne Flores Reyes';
+        $this->autor                      = 'Lic. Iván de Luna Aldape';
         $this->fecha                      = '2019-01-28T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2019-01-28-indice-ciudades-sostenibles-2018';
