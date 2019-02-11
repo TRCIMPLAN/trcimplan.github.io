@@ -1,0 +1,64 @@
+<center>![AEROPUERTO](primero-de-cobian-centro\plaza-mayor.jpg)</center>
+
+###AEROPUERTO
+
+##Breve Historia
+-
+-
+-
+-
+-
+-
+
+##Galería de Fotos
+<table>
+ <tr>
+    <td><center><img src=""/></center></td>
+    <td><center><img src=""/></center></td>
+    <td><center><img src=""/></center></td>
+ </tr>
+ <tr>
+    <td>Jardines</td>
+    <td>Avenida Central</td>
+    <td>Calles</td>
+ </tr>
+</table>
+##Valor Catastral
+<table>
+ <tr>
+    <th><center><b>UBICACIÓN</b></center></th>
+    <th><center><b>AÑO 2016</b></center></th>
+    <th><center><b>AÑO 2017</b></center></th>
+    <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+ 
+ <tr>
+    <td><center>AEROPUERTO</center>
+    <td><center>$273.00</center></br>
+    <td><center>$282.56</center></td>
+    <td><center>$299.51</center></td>
+ </tr> 
+ 
+</table>
+
+##Mobiliario Urbano
+
+<table>
+ <tr>
+    <td><center><img src=""/></center></td>
+    <td><center><img src=""/></center></td>
+    <td><center><img src=""/></center></td>
+ </tr>
+ <tr>
+    <td>Jardines</td>
+    <td>Avenida Central</td>
+    <td>Calles</td>
+ </tr>
+</table>
+
+
+##Anécdotas de la Colonia
+<table>
+    <td> Aquí colocamos un texto completo, referente a las Anécdotas de la presente colonia, destacando todo aquello que nos cuenta la gente... </td>
+</table>
+</br>

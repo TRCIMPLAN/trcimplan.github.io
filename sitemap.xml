@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-02-05</lastmod>
+    <lastmod>2019-02-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1333,6 +1333,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/torreon-y-su-infraestructura-ciclista.html</loc>
     <lastmod>2018-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/torreon-y-su-integracion-a-la-nueva-agenda-urbana-onu-habitatIII-feb2019.html</loc>
+    <lastmod>2019-02-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -1,0 +1,79 @@
+<center>![TORREÓN JARDÍN](torreon-jardin/foto1.jpg)</center>
+
+###TORREÓN JARDÍN
+
+##Breve Historia
+La Sociedad Cooperativa se creó el 15 de Septiembre de 1977 con la finalidad de manejar su propio sistema de agua potable y alcantarillado, lo que hoy en día es un modelo a seguir debido al reconocimiento por parte de otros sistemas operadores de agua. Este sería el primer paso para hacerse cargo también de la total rehabilitación de este centro habitacional llamado colonia Torreón Jardín.</br>
+Fuente
+* [Historia de Colonia Torreón Jardín](http://torreonjardin.com/main.php)
+
+##Galería de Fotos
+<table>
+ <tr>
+    <td><center><img src="torreon-jardin/foto1.jpg"/></center></td>
+    <td><center><img src="torreon-jardin/foto2.jpg"/></center></td>
+    <td><center><img src="torreon-jardin/foto3.jpg"/></center></td>
+ </tr>
+ <tr>
+    <td>Jardines</td>
+    <td>Avenida Central</td>
+    <td>Fuente Principal</td>
+ </tr>
+</table>
+##Valor Catastral
+<table>
+ <tr>
+    <th><center><b>UBICACIÓN</b></center></th>
+    <th><center><b>AÑO 2016</b></center></th>
+    <th><center><b>AÑO 2017</b></center></th>
+    <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+ 
+ <tr>
+    <td><center>TORREON JARDIN ZONA COLECTOR - C. DEL ANGEL A CARCAMO</center>
+    <td><center>$434.66</center></br>
+    <td><center>$450.23</center></td>
+    <td><center>$477.24</center></td>
+ </tr> 
+ <tr>
+    <td><center>TORREON JARDIN ZONA 1 -BLVD. REV.-LAGUNA SUR A SICOMOROS.-LUCIO BCO.</center>
+    <td><center>$1,940.08</center></br>
+    <td><center>$2,007.90</center></td>
+    <td><center>$2,128.37</center></td>
+ </tr> 
+ <tr>
+    <td><center>TORREON JARDIN ZONA 2-BLVD. REV.-CENTRAL A SICOMOROS.-CAMP. LA RTA.</center>
+    <td><center>$1,585.75</center></br>
+    <td><center>$1,641.51</center></td>
+    <td><center>$1,740.00</center></td>
+ </tr> 
+ <tr>
+    <td><center>TORREON JARDIN ZONA 3-LAGUNA SUR - CIPRESES A LUCIO BCO.-CAMP. LA RTA.</center>
+    <td><center>$1,268.50</center></br>
+    <td><center>$1,313.42</center></td>
+    <td><center>$1,392.22</center></td>
+ </tr> 
+</table>
+
+##Mobiliario Urbano
+
+<table>
+ <tr>
+    <td><center><img src="torreon-jardin/foto1.jpg"/></center></td>
+    <td><center><img src="torreon-jardin/foto2.jpg"/></center></td>
+    <td><center><img src="torreon-jardin/foto3.jpg"/></center></td>
+ </tr>
+ <tr>
+    <td>Jardines</br>
+    Fuente: http://torreonjardin.com/main.php</td>
+    <td>Avenida Central</td>
+    <td>Fuente Principal</td>
+ </tr>
+</table>
+
+
+##Anécdotas de la Colonia
+<table>
+    <td> Aquí colocamos un texto completo, referente a las Anécdotas de la presente colonia, destacando todo aquello que nos cuenta la gente... </td>
+</table>
+</br>
