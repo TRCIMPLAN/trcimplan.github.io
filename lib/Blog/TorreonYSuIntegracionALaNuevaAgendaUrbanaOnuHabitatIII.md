@@ -29,6 +29,8 @@ El CPI marca para Torreón impulsar políticas urbanas para la ampliación, recu
 
 El reto para la legislación local es revertir las tendencias de desarrollo urbano actuales, que han demostrado ser poco eficaces para dar calidad de vida a sus habitantes. Al final de cuentas como dice el arquitecto/urbanista Jaime Lerner: “La ciudad no es el problema, es la solución”.
 
+<center><img class="img-responsive" src="torreon-y-su-integracion-a-la-nueva-agenda-urbana-onu-habitatIII-feb2019/onu-habitat.png" alt="Torreón y su integración a la Nueva Agenda Urbana ONU-HabitatIII"></center>
+
 ---
 
 ##PUNTOS CLAVE:

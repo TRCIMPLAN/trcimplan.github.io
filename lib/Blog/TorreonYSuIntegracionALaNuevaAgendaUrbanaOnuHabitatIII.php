@@ -45,7 +45,7 @@ class TorreonYSuIntegracionALaNuevaAgendaUrbanaOnuHabitatIII extends \Base\Publi
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/TorreonYSuIntegracionALaNuevaAgendaUrbanaOnuHabitatIII.md';
         // Para el Organizador
-        $this->categorias                 = array('Población');
+        $this->categorias                 = array('Población', 'Bienestar', 'Empresas', 'Gobierno', 'Infraestructura', 'Recursos Naturales');
         $this->fuentes                    = array('ONU-Habitat');
         $this->regiones                   = array('Torreón');
     } // constructor
