@@ -124,7 +124,25 @@ class Bocanegra extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+##Valor Catastral
+<table>
+ <tr>
+ <th><center><b>UBICACIÓN</b></center></th>
+ <th><center><b>AÑO 2016</b></center></th>
+ <th><center><b>AÑO 2017</b></center></th>
+ <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+ 
+ <tr>
+ <td><center>BOCANEGRA</center>
+ <td><center>$295.00</center></br>
+ <td><center>$305.33</center></td>
+ <td><center>$323.64</center></td>
+ </tr> 
+ 
+</table>
+FINAL;
     } // resena
 
 } // Clase Bocanegra

@@ -124,7 +124,25 @@ class Navarro extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+##Valor Catastral
+<table>
+ <tr>
+ <th><center><b>UBICACIÓN</b></center></th>
+ <th><center><b>AÑO 2016</b></center></th>
+ <th><center><b>AÑO 2017</b></center></th>
+ <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+ 
+ <tr>
+ <td><center>NAVARRO</center>
+ <td><center>$1,001.00</center></br>
+ <td><center>$1,036.04</center></td>
+ <td><center>$1,098.20</center></td>
+ </tr> 
+ 
+</table>
+FINAL;
     } // resena
 
 } // Clase Navarro

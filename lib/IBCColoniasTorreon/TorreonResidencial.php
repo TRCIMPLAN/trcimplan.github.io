@@ -124,7 +124,25 @@ class TorreonResidencial extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+##Valor Catastral
+<table>
+ <tr>
+ <th><center><b>UBICACIÓN</b></center></th>
+ <th><center><b>AÑO 2016</b></center></th>
+ <th><center><b>AÑO 2017</b></center></th>
+ <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+ 
+ <tr>
+ <td><center>TORREÓN RESIDENCIAL</center>
+ <td><center>$780.00</center></br>
+ <td><center>$807.30</center></td>
+ <td><center>$855.74</center></td>
+ </tr> 
+ 
+</table>
+FINAL;
     } // resena
 
 } // Clase TorreonResidencial

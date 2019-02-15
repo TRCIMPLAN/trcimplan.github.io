@@ -125,8 +125,6 @@ class Estrella extends \IBCBase\PublicacionWeb {
      */
     public function resena() {
         return <<<FINAL
-<center>![TORREÓN JARDÍN](torreon-jardin/foto1.jpg)</center>
-
 ##Breve Historia
 
 

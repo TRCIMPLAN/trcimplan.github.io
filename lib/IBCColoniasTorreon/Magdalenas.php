@@ -124,7 +124,25 @@ class Magdalenas extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+##Valor Catastral
+<table>
+ <tr>
+ <th><center><b>UBICACIÓN</b></center></th>
+ <th><center><b>AÑO 2016</b></center></th>
+ <th><center><b>AÑO 2017</b></center></th>
+ <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+ 
+ <tr>
+ <td><center>MAGDALENAS</center>
+ <td><center>$383.00</center></br>
+ <td><center>$396.41</center></td>
+ <td><center>$420.19</center></td>
+ </tr> 
+ 
+</table>
+FINAL;
     } // resena
 
 } // Clase Magdalenas

@@ -124,7 +124,25 @@ class AmpliacionLasMargaritas extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return '';
+        return <<<FINAL
+##Valor Catastral
+<table>
+ <tr>
+ <th><center><b>UBICACIÓN</b></center></th>
+ <th><center><b>AÑO 2016</b></center></th>
+ <th><center><b>AÑO 2017</b></center></th>
+ <th><center><b>AÑO 2018</b></center></th>
+ </tr> 
+ 
+ <tr>
+ <td><center>ESTRELLA</center>
+ <td><center>$584.00</center></br>
+ <td><center>$604.44</center></td>
+ <td><center>$640.71</center></td>
+ </tr> 
+ 
+</table>
+FINAL;
     } // resena
 
 } // Clase AmpliacionLasMargaritas

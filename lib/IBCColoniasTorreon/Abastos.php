@@ -124,11 +124,7 @@ class Abastos extends \IBCBase\PublicacionWeb {
      * @return string
      */
     public function resena() {
-        return <<<FINAL
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPhEiozvWK3OQcCNQ1F_4p3HQJ_rvIgJDbBKljHS7K5jhvW7WIumtkxxIpmDg3vx4NBkGAmzeLsoV4/pubchart?oid=996648867&format=interactive"></iframe>
-
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPhEiozvWK3OQcCNQ1F_4p3HQJ_rvIgJDbBKljHS7K5jhvW7WIumtkxxIpmDg3vx4NBkGAmzeLsoV4/pubchart?oid=682780687&format=image"></iframe>
-FINAL;
+        return '';
     } // resena
 
 } // Clase Abastos
