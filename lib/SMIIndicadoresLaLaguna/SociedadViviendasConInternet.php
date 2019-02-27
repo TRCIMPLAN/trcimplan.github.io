@@ -67,8 +67,9 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '23.0000', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '29.3500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2010-12-31', 'valor' => '22.8100', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '35.4200', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '29.3500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**

@@ -43,7 +43,7 @@ class SociedadMujeresEnLaAdministracionMunicipal extends \SMIBase\PublicacionWeb
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana , Género';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Género');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('Ayuntamiento de Torreón', 'IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,9 @@ class SociedadMujeresEnLaAdministracionMunicipal extends \SMIBase\PublicacionWeb
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '18.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2012-12-31', 'valor' => '13.8600', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2014-12-31', 'valor' => '12.7100', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '18.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**

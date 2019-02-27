@@ -118,7 +118,9 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-obtencion-de-credito-creacion-de-garantias.html" target="_blank">Obtención de Crédito - Creación de Garantías</a></li>
               <li><a href="../indicadores-torreon/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-torreon/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
+              <li><a href="../indicadores-torreon/economia-participacion-de-las-empresas-en-el-estado.html" target="_blank">Participación de las empresas en el estado</a></li>
               <li><a href="../indicadores-torreon/economia-participacion-del-municipio-en-el-pib-de-la-zm.html" target="_blank">Participación del municipio en el PIB de la ZM</a></li>
+              <li><a href="../indicadores-torreon/economia-participacion-del-pib-en-el-estado.html" target="_blank">Participación del PIB en el estado</a></li>
               <li><a href="../indicadores-torreon/economia-patentes.html" target="_blank">Patentes</a></li>
               <li><a href="../indicadores-torreon/economia-pea-desocupada.html" target="_blank">PEA desocupada</a></li>
               <li><a href="../indicadores-torreon/economia-pea-ocupada.html" target="_blank">PEA Ocupada</a></li>
@@ -509,7 +511,9 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/economia-mujeres-que-estudian.html" target="_blank">Mujeres que estudian</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
+              <li><a href="../indicadores-gomez-palacio/economia-participacion-de-las-empresas-en-el-estado.html" target="_blank">Participación de las empresas en el estado</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-participacion-del-municipio-en-el-pib-de-la-zm.html" target="_blank">Participación del municipio en el PIB de la ZM</a></li>
+              <li><a href="../indicadores-gomez-palacio/economia-participacion-del-pib-en-el-estado.html" target="_blank">Participación del PIB en el estado</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-patentes.html" target="_blank">Patentes</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
               <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
@@ -805,6 +809,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
               <li><a href="../indicadores-lerdo/economia-empresas.html" target="_blank">Empresas</a></li>
               <li><a href="../indicadores-lerdo/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
+              <li><a href="../indicadores-lerdo/economia-empresas-del-estado-al-que-pertenece-el-municipio.html" target="_blank">Empresas del estado al que pertenece el municipio</a></li>
               <li><a href="../indicadores-lerdo/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
               <li><a href="../indicadores-lerdo/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
               <li><a href="../indicadores-lerdo/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
@@ -829,7 +834,9 @@ FINAL;
               <li><a href="../indicadores-lerdo/economia-mujeres-que-estudian.html" target="_blank">Mujeres que estudian</a></li>
               <li><a href="../indicadores-lerdo/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-lerdo/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
+              <li><a href="../indicadores-lerdo/economia-participacion-de-las-empresas-en-el-estado.html" target="_blank">Participación de las empresas en el estado</a></li>
               <li><a href="../indicadores-lerdo/economia-participacion-del-municipio-en-el-pib-de-la-zm.html" target="_blank">Participación del municipio en el PIB de la ZM</a></li>
+              <li><a href="../indicadores-lerdo/economia-participacion-del-pib-en-el-estado.html" target="_blank">Participación del PIB en el estado</a></li>
               <li><a href="../indicadores-lerdo/economia-patentes.html" target="_blank">Patentes</a></li>
               <li><a href="../indicadores-lerdo/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
               <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
@@ -1143,7 +1150,9 @@ FINAL;
               <li><a href="../indicadores-matamoros/economia-mujeres-que-estudian.html" target="_blank">Mujeres que estudian</a></li>
               <li><a href="../indicadores-matamoros/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-matamoros/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
+              <li><a href="../indicadores-matamoros/economia-participacion-de-las-empresas-en-el-estado.html" target="_blank">Participación de las empresas en el estado</a></li>
               <li><a href="../indicadores-matamoros/economia-participacion-del-municipio-en-el-pib-de-la-zm.html" target="_blank">Participación del municipio en el PIB de la ZM</a></li>
+              <li><a href="../indicadores-matamoros/economia-participacion-del-pib-en-el-estado.html" target="_blank">Participación del PIB en el estado</a></li>
               <li><a href="../indicadores-matamoros/economia-patentes.html" target="_blank">Patentes</a></li>
               <li><a href="../indicadores-matamoros/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
               <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
@@ -1431,26 +1440,26 @@ FINAL;
               <li><a href="../indicadores-la-laguna/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
               <li><a href="../indicadores-la-laguna/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
               <li><a href="../indicadores-la-laguna/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
-              <li><a href="../indicadores-la-laguna/economia-desocupados-con-educacion-superior-o-media-superior.html" target="_blank">Desocupados con educación superior o media superior</a></li>
-              <li><a href="../indicadores-la-laguna/economia-desocupados-con-experiencia.html" target="_blank">Desocupados con experiencia</a></li>
-              <li><a href="../indicadores-la-laguna/economia-desocupados-de-15-a-25-anos.html" target="_blank">Desocupados de 15 a 25 años</a></li>
+              <li><a href="../indicadores-la-laguna/economia-desigualdad-salarial.html" target="_blank">Desigualdad salarial</a></li>
               <li><a href="../indicadores-la-laguna/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
               <li><a href="../indicadores-la-laguna/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
               <li><a href="../indicadores-la-laguna/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
               <li><a href="../indicadores-la-laguna/economia-empresas.html" target="_blank">Empresas</a></li>
               <li><a href="../indicadores-la-laguna/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
               <li><a href="../indicadores-la-laguna/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
+              <li><a href="../indicadores-la-laguna/economia-equidad-salarial.html" target="_blank">Equidad salarial</a></li>
               <li><a href="../indicadores-la-laguna/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
               <li><a href="../indicadores-la-laguna/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
               <li><a href="../indicadores-la-laguna/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes Empresas (según CNN Expansión)</a></li>
-              <li><a href="../indicadores-la-laguna/economia-horas-laboradas.html" target="_blank">Horas laboradas</a></li>
               <li><a href="../indicadores-la-laguna/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
+              <li><a href="../indicadores-la-laguna/economia-indice-de-complejidad-economica.html" target="_blank">Índice de complejidad económica</a></li>
               <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
               <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
               <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-la-construccion.html" target="_blank">Índice de Especialización Local en la Construcción</a></li>
               <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-la-mineria.html" target="_blank">Índice de Especialización Local en la Minería</a></li>
               <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
               <li><a href="../indicadores-la-laguna/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
+              <li><a href="../indicadores-la-laguna/economia-intensidad-electrica.html" target="_blank">Intensidad eléctrica</a></li>
               <li><a href="../indicadores-la-laguna/economia-intensidad-energetica-en-la-economia.html" target="_blank">Intensidad energética en la economía</a></li>
               <li><a href="../indicadores-la-laguna/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
               <li><a href="../indicadores-la-laguna/economia-inversion-extranjera-directa-neta.html" target="_blank">Inversión Extranjera Directa (Neta)</a></li>
@@ -1464,14 +1473,12 @@ FINAL;
               <li><a href="../indicadores-la-laguna/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
               <li><a href="../indicadores-la-laguna/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
               <li><a href="../indicadores-la-laguna/economia-patentes.html" target="_blank">Patentes</a></li>
-              <li><a href="../indicadores-la-laguna/economia-pea-desocupada.html" target="_blank">PEA desocupada</a></li>
               <li><a href="../indicadores-la-laguna/economia-pea-ocupada.html" target="_blank">PEA Ocupada</a></li>
               <li><a href="../indicadores-la-laguna/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
               <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
               <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
               <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
               <li><a href="../indicadores-la-laguna/economia-personas-con-ingresos-mayores-al-promedio-de-la-ciudad.html" target="_blank">Personas con ingresos mayores al promedio de la Ciudad</a></li>
-              <li><a href="../indicadores-la-laguna/economia-personas-que-ganan-1-o-2-salarios-minimos.html" target="_blank">Personas que ganan 1 o 2 salarios mínimos</a></li>
               <li><a href="../indicadores-la-laguna/economia-pib.html" target="_blank">PIB</a></li>
               <li><a href="../indicadores-la-laguna/economia-poblacion-economicamente-activa-pea.html" target="_blank">Población Económicamente Activa (PEA)</a></li>
               <li><a href="../indicadores-la-laguna/economia-poblacion-ocupada.html" target="_blank">Población ocupada</a></li>
@@ -1482,6 +1489,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
               <li><a href="../indicadores-la-laguna/economia-productividad-media-laboral.html" target="_blank">Productividad Media Laboral</a></li>
               <li><a href="../indicadores-la-laguna/economia-productividad-total-de-los-factores.html" target="_blank">Productividad total de los factores</a></li>
+              <li><a href="../indicadores-la-laguna/economia-producto-interno-bruto-per-capita.html" target="_blank">Producto Interno Bruto per cápita</a></li>
               <li><a href="../indicadores-la-laguna/economia-registro-de-una-propiedad-percentil-promedio.html" target="_blank">Registro de una Propiedad (percentil promedio)</a></li>
               <li><a href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" target="_blank">Salario Promedio Mensual para Trabajadores de Tiempo Completo</a></li>
               <li><a href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento.html" target="_blank">Sectores que Han Frenado el Crecimiento</a></li>
@@ -1491,8 +1499,6 @@ FINAL;
               <li><a href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" target="_blank">Tasa de Condiciones Críticas de Ocupación</a></li>
               <li><a href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
               <li><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" target="_blank">Tasa de Informalidad</a></li>
-              <li><a href="../indicadores-la-laguna/economia-tasa-de-subocupacion.html" target="_blank">Tasa de subocupación</a></li>
-              <li><a href="../indicadores-la-laguna/economia-tasa-de-trabajo-asalariado.html" target="_blank">Tasa de trabajo asalariado</a></li>
               <li><a href="../indicadores-la-laguna/economia-tierra-ejidal.html" target="_blank">Tierra Ejidal</a></li>
               <li><a href="../indicadores-la-laguna/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas Registradas en el SIEM</a></li>
               <li><a href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
@@ -1512,6 +1518,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-deuda-municipal.html" target="_blank">Deuda municipal</a></li>
+              <li><a href="../indicadores-la-laguna/gobierno-disponibilidad-de-informacion.html" target="_blank">Disponibilidad de información</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de Período para Ediles y Delegados</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-duracion-maxima-de-periodos-de-alcaldes.html" target="_blank">Duración máxima de periodos de alcaldes</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-esfuerzos-de-mejora-regulatoria.html" target="_blank">Esfuerzos de mejora regulatoria</a></li>
@@ -1523,7 +1530,10 @@ FINAL;
               <li><a href="../indicadores-la-laguna/gobierno-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-ingresos-totales.html" target="_blank">Ingresos Totales</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-ingresos-totales-per-capita.html" target="_blank">Ingresos Totales Per Cápita</a></li>
+              <li><a href="../indicadores-la-laguna/gobierno-institutos-de-planeacion-urbana.html" target="_blank">Institutos de Planeación Urbana</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-inversion-en-transporte-publico.html" target="_blank">Inversión en transporte público</a></li>
+              <li><a href="../indicadores-la-laguna/gobierno-litros-de-combustible-gastados-por-habitante.html" target="_blank">Litros de Combustible Gastados por Habitante</a></li>
+              <li><a href="../indicadores-la-laguna/gobierno-marco-regulatorio-para-la-gestion-integral-de-residuos-solidos-urbanos.html" target="_blank">Marco regulatorio para la gestión integral de residuos sólidos urbanos</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-matrimonio-igualitario.html" target="_blank">Matrimonio igualitario</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-muertes-por-infecciones-instestinales.html" target="_blank">Muertes por Infecciones Instestinales</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-participacion-ciudadana.html" target="_blank">Participación Ciudadana</a></li>
@@ -1531,6 +1541,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/gobierno-percepcion-de-corrupcion-estatal-en-las-zonas-urbanas.html" target="_blank">Percepción de corrupción estatal en las zonas urbanas</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-periodistas-muertos-o-desaparecidos.html" target="_blank">Periodistas Muertos o Desaparecidos</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-presupuesto-destinado-a-transporte-publico-no-motorizado.html" target="_blank">Presupuesto destinado a transporte público (no motorizado)</a></li>
+              <li><a href="../indicadores-la-laguna/gobierno-programas-de-accion-climatica.html" target="_blank">Programas de Acción Climática</a></li>
               <li><a href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
             </ul>
           </div>
@@ -1543,10 +1554,13 @@ FINAL;
               <li><a href="../indicadores-la-laguna/seguridad-delitos.html" target="_blank">Delitos</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-estimacion-de-pib.html" target="_blank">Estimación de PIB</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-feminicidio.html" target="_blank">Feminicidio</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-heridos-en-accidentes-relacionados-con-transporte.html" target="_blank">Heridos en accidentes relacionados con transporte</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto Reportado en Robo de Mercancías</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-otros-delitos-del-fuero-comun.html" target="_blank">Otros delitos del Fuero Común</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-percepcion-de-inseguridad.html" target="_blank">Percepción de Inseguridad</a></li>
+              <li><a href="../indicadores-la-laguna/seguridad-poblacion-afectada-por-eventos-hidrometeorologicos-y-geologicos.html" target="_blank">Población afectada por eventos hidrometeorológicos y geológicos</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
               <li><a href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
@@ -1583,6 +1597,11 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-carencia-por-acceso-a-la-alimentacion.html" target="_blank">Carencia por acceso a la alimentación</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-carencia-por-acceso-a-la-seguridad-social.html" target="_blank">Carencia por acceso a la seguridad social</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-carencia-por-acceso-a-los-servicios-basicos-de-la-vivienda.html" target="_blank">Carencia por acceso a los servicios básicos de la vivienda</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-carencia-por-acceso-a-los-servicios-de-salud.html" target="_blank">Carencia por acceso a los servicios de salud</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-centros-de-trabajo-para-la-educacion-basica.html" target="_blank">Centros de trabajo para la educación básica</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-defunciones.html" target="_blank">Defunciones</a></li>
@@ -1590,14 +1609,18 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-empresas-con-mas-de-10-empleados.html" target="_blank">Empresas con más de 10 empleados</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-empresas-socialmente-responsables.html" target="_blank">Empresas Socialmente Responsables</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-equidad-laboral.html" target="_blank">Equidad laboral</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-esperanza-de-vida-al-nacer.html" target="_blank">Esperanza de vida al nacer</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-grado-promedio-de-escolaridad.html" target="_blank">Grado Promedio de Escolaridad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de Hacinamiento</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-madres-adolescentes.html" target="_blank">Madres Adolescentes</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-matrimonio-infantil-precoz-o-forzado.html" target="_blank">Matrimonio infantil, precoz o forzado</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-medicos.html" target="_blank">Médicos</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-medicos-especializados.html" target="_blank">Médicos especializados</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
@@ -1615,6 +1638,8 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-nuevas-viviendas-verticales.html" target="_blank">Nuevas viviendas verticales</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" target="_blank">Participación del municipio en la población del estado</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-personas-de-18-a-25-anos-que-estudian.html" target="_blank">Personas de 18 a 25 años que estudian</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-poblacion-con-educacion-superior.html" target="_blank">Población con educación superior</a></li>
@@ -1625,16 +1650,21 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-proporcion-de-mujeres.html" target="_blank">Proporción de mujeres</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-tasa-de-alfabetizacion.html" target="_blank">Tasa de alfabetización</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-tasa-de-suicidios.html" target="_blank">Tasa de suicidios</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-total-de-hogares.html" target="_blank">Total de hogares</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-trabajo-no-remunerado-de-hombres-y-mujeres.html" target="_blank">Trabajo no remunerado de hombres y mujeres</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-universidades.html" target="_blank">Universidades</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html" target="_blank">Uso de Twitter como Proxy de Uso de Tecnologías de Información</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-visitas-a-museos-inah.html" target="_blank">Visitas a Museos INAH</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html" target="_blank">Viviendas con Agua de la Red Pública</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-agua-entubada.html" target="_blank">Viviendas con Agua Entubada</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-drenaje.html" target="_blank">Viviendas con Drenaje</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html" target="_blank">Viviendas con Drenaje (sólo conexión a red pública)</a></li>
@@ -1642,7 +1672,9 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" target="_blank">Viviendas donde separan en Orgánico e Inorgánico los Residuos</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html" target="_blank">Viviendas Particulares Habitadas que disponen de Teléfono Celular</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
             </ul>
@@ -1660,6 +1692,8 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-electrico-en-servicios-municipales.html" target="_blank">Consumo eléctrico en servicios municipales</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-electrico-residencial.html" target="_blank">Consumo eléctrico residencial</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -1668,6 +1702,8 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-estrategias-estatales-de-biodiversidad.html" target="_blank">Estrategias Estatales de Biodiversidad</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-exposicion-a-altas-concentraciones-de-pm2-5-en-interiores.html" target="_blank">Exposición a altas concentraciones de PM2.5 en interiores</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-indice-de-disponibilidad-de-acuiferos.html" target="_blank">Índice de Disponibilidad de Acuíferos</a></li>
@@ -1677,18 +1713,27 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" target="_blank">Pasajeros Aéreos Internacionales Anuales</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales-anual.html" target="_blank">Pasajeros Aéreos Totales Anual</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-peatones.html" target="_blank">Peatones</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-perdida-de-agua.html" target="_blank">Pérdida de Agua</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-poblacion-con-accesibilidad-peatonal-a-areas-verdes.html" target="_blank">Población con accesibilidad peatonal a áreas verdes</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-programa-de-gestion-de-calidad-del-aire-vigente.html" target="_blank">Programa de gestión de calidad del aire vigente</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-proteccion-de-ecosistemas-importantes-para-la-biodiversidad.html" target="_blank">Protección de ecosistemas importantes para la biodiversidad</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-recoleccion-de-residuos-solidos.html" target="_blank">Recolección de residuos sólidos</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" target="_blank">Regalo o venta de residuos reciclables</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-residuos-solidos-producidos.html" target="_blank">Residuos sólidos producidos</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-resiliencia-a-desastres-naturales.html" target="_blank">Resiliencia a desastres naturales</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-separacion-basica-de-residuos.html" target="_blank">Separación básica de residuos</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-suelo-de-valor-ambiental-urbanizado.html" target="_blank">Suelo de valor ambiental urbanizado</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-superficie.html" target="_blank">Superficie</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-superficie-urbana.html" target="_blank">Superficie Urbana</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-tiempos-de-traslado.html" target="_blank">Tiempos de traslado</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-tomas-con-micromedicion.html" target="_blank">Tomas con micromedición</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-traslados-a-pie.html" target="_blank">Traslados a Pie</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-tratamiento-de-aguas-residuales.html" target="_blank">Tratamiento de Aguas Residuales</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" target="_blank">Uso de Automóvil Particular</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-uso-de-bicicleta.html" target="_blank">Uso de Bicicleta</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-uso-de-transporte-publico.html" target="_blank">Uso de Transporte Público</a></li>
@@ -1697,6 +1742,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sustentabilidad-usuarios-de-modos-no-motorizados.html" target="_blank">Usuarios de Modos No Motorizados</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-colectivo-privado.html" target="_blank">Usuarios de Transporte Colectivo Privado</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-publico.html" target="_blank">Usuarios de Transporte Público</a></li>
+              <li><a href="../indicadores-la-laguna/sustentabilidad-viajes-en-transporte-publico-por-persona.html" target="_blank">Viajes en transporte público por persona</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
               <li><a href="../indicadores-la-laguna/sustentabilidad-viviendas-que-aprovechan-energia-solar.html" target="_blank">Viviendas que aprovechan energía solar</a></li>

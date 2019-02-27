@@ -43,7 +43,7 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Empleo';
         // Para el Organizador
         $this->categorias  = array('Empleo');
-        $this->fuentes     = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,8 +67,7 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '44.0000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-09-30', 'valor' => '94.9900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2016-12-31', 'valor' => '44.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -92,8 +91,8 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '95.6300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '94.9900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '96.2000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '44.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

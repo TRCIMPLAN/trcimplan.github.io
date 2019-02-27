@@ -67,7 +67,10 @@ class SociedadMedicosYEnfermeras extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '66.4800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2012-12-31', 'valor' => '33.7695', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '35.1951', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '30.2227', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '66.4800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

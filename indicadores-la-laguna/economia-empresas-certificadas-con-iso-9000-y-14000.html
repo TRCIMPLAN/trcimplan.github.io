@@ -218,31 +218,37 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">11.6224</td>
+        <td class="derecha">2.8371</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">13.3688</td>
+        <td class="derecha">3.3421</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">16.1812</td>
+        <td class="derecha">4.4498</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">18.1313</td>
+        <td class="derecha">4.9412</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">21.4807</td>
+        <td class="derecha">5.9440</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2013-12-31</td>
+        <td class="derecha">6.5751</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -298,8 +304,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">21.4807</td>
+        <td class="centrado">2013-12-31</td>
+        <td class="derecha">6.5751</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -406,11 +412,12 @@
     varSmiGraficasEmpresasCertificadasConIso9000Y14000EnLaLaguna = Morris.Line({
       element: 'SmiGraficasEmpresasCertificadasConIso9000Y14000EnLaLaguna',
       data: [
-        { fecha: '2008-12-31', dato: 11.6224 },
-        { fecha: '2009-12-31', dato: 13.3688 },
-        { fecha: '2010-12-31', dato: 16.1812 },
-        { fecha: '2011-12-31', dato: 18.1313 },
-        { fecha: '2012-12-31', dato: 21.4807 }],
+        { fecha: '2008-12-31', dato: 2.8371 },
+        { fecha: '2009-12-31', dato: 3.3421 },
+        { fecha: '2010-12-31', dato: 4.4498 },
+        { fecha: '2011-12-31', dato: 4.9412 },
+        { fecha: '2012-12-31', dato: 5.9440 },
+        { fecha: '2013-12-31', dato: 6.5751 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -425,7 +432,7 @@
   if (typeof varSmiOtrasRegionesEmpresasCertificadasConIso9000Y14000EnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesEmpresasCertificadasConIso9000Y14000EnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesEmpresasCertificadasConIso9000Y14000EnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 10.6011 },{ region: 'Gómez Palacio', dato: 14.9306 },{ region: 'Lerdo', dato: 61.3409 },{ region: 'Matamoros', dato: 279.3651 },{ region: 'La Laguna', dato: 21.4807 }],
+      data: [{ region: 'Torreón', dato: 10.6011 },{ region: 'Gómez Palacio', dato: 14.9306 },{ region: 'Lerdo', dato: 61.3409 },{ region: 'Matamoros', dato: 279.3651 },{ region: 'La Laguna', dato: 6.5751 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

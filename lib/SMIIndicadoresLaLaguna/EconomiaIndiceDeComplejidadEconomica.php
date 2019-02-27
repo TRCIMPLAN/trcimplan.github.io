@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaTasaDeSubocupacion
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaIndiceDeComplejidadEconomica
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaTasaDeSubocupacion
+ * Clase EconomiaIndiceDeComplejidadEconomica
  */
-class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
+class EconomiaIndiceDeComplejidadEconomica extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Tasa de subocupación en La Laguna';
-        $this->fecha       = '2018-07-27T12:41:53';
+        $this->nombre      = 'Índice de complejidad económica en La Laguna';
+        $this->fecha       = '2019-02-08T12:32:33';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-tasa-de-subocupacion';
+        $this->archivo     = 'economia-indice-de-complejidad-economica';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Porcentaje de la población ocupada que tiene la necesidad y disponibilidad de ofertar más tiempo de trabajo de lo que su ocupación actual les permite.';
-        $this->claves      = 'IMPLAN, La Laguna, Empleo';
+        $this->descripcion = 'Se muestra en índice de más es mejor, la medida del desarrollo económico de un lugar basada en cuán diversificada y compleja es su canasta de exportación';
+        $this->claves      = 'IMPLAN, La Laguna, Macroeconomía';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->categorias  = array('Macroeconomía');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,7 @@ class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '10.4000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2014-12-31', 'valor' => '0.4800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -76,12 +76,7 @@ class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -90,9 +85,7 @@ class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '15.4000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '10.4000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+        return NULL;
     } // otras_regiones
 
     /**
@@ -110,11 +103,9 @@ class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase EconomiaTasaDeSubocupacion
+} // Clase EconomiaIndiceDeComplejidadEconomica
 
 ?>

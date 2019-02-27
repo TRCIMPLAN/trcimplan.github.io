@@ -67,7 +67,8 @@ class SociedadNuevasViviendasVerticales extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2014-12-31', 'valor' => '1.6000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '3.2550', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -95,7 +96,7 @@ class SociedadNuevasViviendasVerticales extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '4.4100', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '3.2550', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

@@ -67,12 +67,15 @@ class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\Publicacion
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '1.6600', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '2.3400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '4.2200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '2.9600', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '3.7800', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '11.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2008-12-31', 'valor' => '9.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '10.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '13.4500', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '10.1700', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '12.1800', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '13.8300', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '9.0900', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '11.8400', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '11.3300', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
     } // datos
 
     /**
@@ -100,7 +103,7 @@ class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\Publicacion
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '19327', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que ganan menos de lo establecido por CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '5276', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que ganan menos de lo establecido por CONEVAL'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '8791', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que ganan menos de lo establecido por CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '11.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '11.3300', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

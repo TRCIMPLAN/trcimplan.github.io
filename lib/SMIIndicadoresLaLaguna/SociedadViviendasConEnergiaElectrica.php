@@ -67,7 +67,8 @@ class SociedadViviendasConEnergiaElectrica extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '99.4600', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2010-12-31', 'valor' => '95.0100', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '99.7400', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -95,7 +96,7 @@ class SociedadViviendasConEnergiaElectrica extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '99.7200', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '99.4900', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '99.5000', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2010-12-31', 'valor' => '99.4600', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '99.7400', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**

@@ -67,11 +67,12 @@ class EconomiaEmpresasCertificadasConIso9000Y14000 extends \SMIBase\PublicacionW
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '11.6224', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '13.3688', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '16.1812', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '18.1313', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '21.4807', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2008-12-31', 'valor' => '2.8371', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '3.3421', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '4.4498', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '4.9412', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '5.9440', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '6.5751', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -99,7 +100,7 @@ class EconomiaEmpresasCertificadasConIso9000Y14000 extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '14.9306', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '61.3409', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '279.3651', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '21.4807', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2013-12-31', 'valor' => '6.5751', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

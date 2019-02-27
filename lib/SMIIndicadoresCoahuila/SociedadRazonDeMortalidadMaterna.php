@@ -95,6 +95,7 @@ class SociedadRazonDeMortalidadMaterna extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '33.3000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2011-12-31', 'valor' => '55.3000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '62.7000', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '42.3968', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '26.9000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '43.6000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '39.2000', 'fuente_nombre' => 'SINAIS (SSA)'));

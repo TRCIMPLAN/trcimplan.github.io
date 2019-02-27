@@ -69,10 +69,11 @@ class SociedadAccesoAServiciosFinancieros extends \SMIBase\PublicacionWeb {
         return array(
             array('fecha' => '2008-12-31', 'valor' => '3.3618', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2009-12-31', 'valor' => '3.2949', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '3.2293', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '5.0194', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '5.3925', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '7.9500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2010-12-31', 'valor' => '2.9821', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '4.7339', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '5.1117', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '6.0313', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '7.9500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**

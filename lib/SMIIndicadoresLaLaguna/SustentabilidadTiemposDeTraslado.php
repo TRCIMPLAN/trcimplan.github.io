@@ -67,7 +67,8 @@ class SustentabilidadTiemposDeTraslado extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '83.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2015-12-31', 'valor' => '82.7800', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '83.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

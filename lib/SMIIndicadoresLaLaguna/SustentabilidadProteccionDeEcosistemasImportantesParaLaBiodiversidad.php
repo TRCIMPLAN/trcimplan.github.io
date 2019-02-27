@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaTasaDeTrabajoAsalariado
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna SustentabilidadProteccionDeEcosistemasImportantesParaLaBiodiversidad
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaTasaDeTrabajoAsalariado
+ * Clase SustentabilidadProteccionDeEcosistemasImportantesParaLaBiodiversidad
  */
-class EconomiaTasaDeTrabajoAsalariado extends \SMIBase\PublicacionWeb {
+class SustentabilidadProteccionDeEcosistemasImportantesParaLaBiodiversidad extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class EconomiaTasaDeTrabajoAsalariado extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Tasa de trabajo asalariado en La Laguna';
-        $this->fecha       = '2018-07-27T12:41:10';
+        $this->nombre      = 'Protección de ecosistemas importantes para la biodiversidad en La Laguna';
+        $this->fecha       = '2019-02-08T13:41:34';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-tasa-de-trabajo-asalariado';
+        $this->archivo     = 'sustentabilidad-proteccion-de-ecosistemas-importantes-para-la-biodiversidad';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Representa a la parte de la población ocupada que percibe de la unidad económica para la que trabaja un sueldo, salario o jornal, por las actividades realizadas.';
-        $this->claves      = 'IMPLAN, La Laguna, Empleo';
+        $this->descripcion = 'Se muestra el porcentaje de la proporción de ecosistemas incluidos en el sistema nacional de áreas naturales protegidas';
+        $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->categorias  = array('Medio Ambiente');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaTasaDeTrabajoAsalariado extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,7 @@ class EconomiaTasaDeTrabajoAsalariado extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '74.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2016-12-31', 'valor' => '18.3500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -76,12 +76,7 @@ class EconomiaTasaDeTrabajoAsalariado extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -90,9 +85,7 @@ class EconomiaTasaDeTrabajoAsalariado extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-03-31', 'valor' => '73.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '74.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+        return NULL;
     } // otras_regiones
 
     /**
@@ -110,11 +103,9 @@ class EconomiaTasaDeTrabajoAsalariado extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase EconomiaTasaDeTrabajoAsalariado
+} // Clase SustentabilidadProteccionDeEcosistemasImportantesParaLaBiodiversidad
 
 ?>

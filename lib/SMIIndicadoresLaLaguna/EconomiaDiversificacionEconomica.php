@@ -55,7 +55,7 @@ class EconomiaDiversificacionEconomica extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -72,7 +72,9 @@ class EconomiaDiversificacionEconomica extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '734', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '734', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '734', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '721', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2013-12-31', 'valor' => '717.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '717', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '721', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**
@@ -84,7 +86,7 @@ class EconomiaDiversificacionEconomica extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura

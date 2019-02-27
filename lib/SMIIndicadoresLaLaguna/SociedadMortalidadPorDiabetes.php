@@ -76,13 +76,16 @@ Se incluye en el subíndice "Sociedad Incluyente, Preparada y Sana" de IMCO.';
             array('fecha' => '2005-12-31', 'valor' => '8.7000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2006-12-31', 'valor' => '8.3000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2007-12-31', 'valor' => '8.1000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2008-12-31', 'valor' => '8.3000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2009-12-31', 'valor' => '8.2000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2010-12-31', 'valor' => '7.8000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2011-12-31', 'valor' => '7.7000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2012-12-31', 'valor' => '7.1000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'),
-            array('fecha' => '2013-12-31', 'valor' => '7.5000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2016-12-31', 'valor' => '9.7600', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 30, crudo 16
+            array('fecha' => '2008-12-31', 'valor' => '6.8390', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'En 2008 se marcó en La Laguna como cantidad de muertes por cada 100 mil habitantes'),
+            array('fecha' => '2009-12-31', 'valor' => '7.3782', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'En 2009 se marcó en La Laguna como cantidad de muertes por cada 100 mil habitantes'),
+            array('fecha' => '2010-12-31', 'valor' => '6.5717', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'En 2010 se marcó en La Laguna como cantidad de muertes por cada 100 mil habitantes'),
+            array('fecha' => '2011-12-31', 'valor' => '7.0702', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'En 2011 se marcó en La Laguna como cantidad de muertes por cada 100 mil habitantes'),
+            array('fecha' => '2012-12-31', 'valor' => '6.4384', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].
+
+En 2012 se marcó en La Laguna como cantidad de muertes por cada 100 mil habitantes'),
+            array('fecha' => '2013-12-31', 'valor' => '6.4562', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'En 2013 se marcó en La Laguna como cantidad de muertes por cada 100 mil habitantes'),
+            array('fecha' => '2014-12-31', 'valor' => '6.6304', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'En 2014 se marcó en La Laguna como cantidad de muertes por cada 100 mil habitantes'),
+            array('fecha' => '2016-12-31', 'valor' => '9.7600', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 32, crudo 23
     } // datos
 
     /**

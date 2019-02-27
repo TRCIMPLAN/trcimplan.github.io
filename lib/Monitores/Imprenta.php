@@ -41,10 +41,10 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         // Parámetros que el Recolector definirá en las Publicaciones si éstas no los tienen
         $this->autor                     = 'Dirección de Investigación Estratégica';
         $this->aparece_en_pagina_inicial = TRUE;
-        $this->para_compartir            = FALSE;
+        $this->para_compartir            = TRUE;
         $this->imagen                    = '../imagenes/imagen.jpg';
-        $this->imagen_previa             = '../imagenes/imagen-previa-monitor.png';
-        $this->poner_imagen_en_contenido = TRUE;
+        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->poner_imagen_en_contenido = FALSE;
         $this->nombre_menu               = 'Monitores';
         // Ruta a la clase para hacer la página con el índice
         $this->indices_paginas           = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas

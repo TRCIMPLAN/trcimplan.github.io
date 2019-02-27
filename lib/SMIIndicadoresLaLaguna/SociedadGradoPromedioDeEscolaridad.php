@@ -43,7 +43,7 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Educación, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Educación', 'Sector Automotriz');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('INEGI', 'IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,9 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2010-12-31', 'valor' => '9.6000', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '9.9700', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**

@@ -67,12 +67,31 @@ class SociedadMortalidadInfantil extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2009-12-31', 'valor' => '5.9000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2010-12-31', 'valor' => '9.1000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2011-12-31', 'valor' => '8.5000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2012-12-31', 'valor' => '11.9000', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'),
-            array('fecha' => '2013-12-31', 'valor' => '12.2000', 'fuente_nombre' => 'SINAIS (SSA)'),
-            array('fecha' => '2016-12-31', 'valor' => '14.7700', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 7
+            array('fecha' => '1992-12-31', 'valor' => '13.5639', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '1993-12-31', 'valor' => '12.4979', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '1994-12-31', 'valor' => '9.9413', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '1995-12-31', 'valor' => '9.5760', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '1996-12-31', 'valor' => '10.3376', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '1997-12-31', 'valor' => '10.6498', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '1998-12-31', 'valor' => '8.5010', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '1999-12-31', 'valor' => '7.1653', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2000-12-31', 'valor' => '6.4629', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2001-12-31', 'valor' => '8.7877', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2002-12-31', 'valor' => '10.2519', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2003-12-31', 'valor' => '9.5625', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2004-12-31', 'valor' => '10.1686', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2005-12-31', 'valor' => '9.4432', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2006-12-31', 'valor' => '6.3842', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2007-12-31', 'valor' => '9.3932', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2008-12-31', 'valor' => '6.2355', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2009-12-31', 'valor' => '6.0470', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2010-12-31', 'valor' => '10.1686', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2011-12-31', 'valor' => '9.6597', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2012-12-31', 'valor' => '13.2290', 'fuente_nombre' => 'SINAIS (SSA)', 'notas' => 'Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].'),
+            array('fecha' => '2013-12-31', 'valor' => '12.7927', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2014-12-31', 'valor' => '14.2606', 'fuente_nombre' => 'SINAIS (SSA)'),
+            array('fecha' => '2015-12-31', 'valor' => '12.4383', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '11.9417', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 50, crudo 26
     } // datos
 
     /**
@@ -100,7 +119,7 @@ class SociedadMortalidadInfantil extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '13.1700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '6.7500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '2.4700', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '14.7700', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '11.9417', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '11.9000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '14.1000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '12.6000', 'fuente_nombre' => 'SINAIS (SSA)'));

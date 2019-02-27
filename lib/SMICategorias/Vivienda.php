@@ -121,11 +121,11 @@ class Vivienda extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Nuevas viviendas verticales</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">2.62 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.00 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">4.41 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">2.00 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">2.620 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.000 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.000 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">4.410 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-nuevas-viviendas-verticales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">3.255 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -157,11 +157,11 @@ class Vivienda extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Agua Entubada</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-agua-entubada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">96.3 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-agua-entubada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">96.30 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-agua-entubada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">99.05 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -197,7 +197,7 @@ class Vivienda extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">99.72 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">99.49 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">99.50 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI">99.46 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">99.74 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -260,7 +260,7 @@ class Vivienda extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">35132</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">14424</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9584</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">43.9 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -382,11 +382,11 @@ class Vivienda extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas Particulares Habitadas que disponen de Teléfono Celular</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">87 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">87.0000 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">85.1022 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

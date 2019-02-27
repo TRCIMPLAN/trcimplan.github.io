@@ -95,6 +95,7 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '17.3100', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '16.7600', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '19.2000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '87.2500', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '12.1000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '18.6000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Nacional', 'fecha' => '2010-12-31', 'valor' => '20.6000', 'fuente_nombre' => 'CONEVAL'));

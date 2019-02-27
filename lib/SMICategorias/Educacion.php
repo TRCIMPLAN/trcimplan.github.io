@@ -89,7 +89,7 @@ class Educacion extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">90.82 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">100.00 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">85.63 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">91.00 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-mujeres-que-estudian.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">91.17 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -237,6 +237,15 @@ class Educacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Centros de trabajo para la educación básica</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-centros-de-trabajo-para-la-educacion-basica.html" data-toggle="tooltip" title="Cantidad, 31/12/2013, IMCO">5.99</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Crecimiento en Población Altamente Calificada</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-crecimiento-en-poblacion-altamente-calificada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-2.98 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-crecimiento-en-poblacion-altamente-calificada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">4.82 %</a></td>
@@ -296,7 +305,7 @@ class Educacion extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-personas-de-18-a-25-anos-que-estudian.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">16434</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-personas-de-18-a-25-anos-que-estudian.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">5829</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-personas-de-18-a-25-anos-que-estudian.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">4371</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-personas-de-18-a-25-anos-que-estudian.html" data-toggle="tooltip" title="Personas, 31/12/2016, IMCO">31.952 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -332,7 +341,16 @@ class Educacion extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">17.31 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">16.76 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">19.20 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">87.25 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Tasa de alfabetización</td>
     <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-tasa-de-alfabetizacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">97.27 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -350,7 +368,7 @@ class Educacion extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-universidades-de-calidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">6</a></td>
   </tr>
 </tbody>
 </table>

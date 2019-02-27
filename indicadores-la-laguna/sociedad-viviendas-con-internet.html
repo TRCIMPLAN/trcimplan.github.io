@@ -201,6 +201,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -217,7 +218,13 @@
     <tbody>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">23.0000 %</td>
+        <td class="derecha">22.8100 %</td>
+        <td>INEGI</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">35.4200 %</td>
         <td>INEGI</td>
         <td></td>
       </tr>
@@ -229,6 +236,11 @@
       </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Viviendas con Internet en La Laguna con fuente INEGI</h3>
+
+    <div id="SmiGraficasViviendasConInternetEnLaLagunaInegi" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Viviendas con Internet en La Laguna</h3>
@@ -390,6 +402,23 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasConInternetEnLaLagunaInegi === 'undefined') {
+    varSmiGraficasViviendasConInternetEnLaLagunaInegi = Morris.Line({
+      element: 'SmiGraficasViviendasConInternetEnLaLagunaInegi',
+      data: [
+        { fecha: '2010-12-31', dato: 22.8100 },
+        { fecha: '2015-12-31', dato: 35.4200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesViviendasConInternetEnLaLagunaGrafica === 'undefined') {

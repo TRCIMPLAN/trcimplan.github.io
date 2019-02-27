@@ -95,7 +95,8 @@ class SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos extends \SMI
             array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '80479', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '35132', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '14424', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9584', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'));
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9584', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '43.9000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

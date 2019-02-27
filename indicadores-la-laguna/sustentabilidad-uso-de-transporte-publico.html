@@ -201,6 +201,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -215,6 +216,12 @@
     </thead>
     <tbody>
       <tr>
+        <td class="centrado">2010-12-31</td>
+        <td class="derecha">33.2800 %</td>
+        <td>Logit</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2011-12-31</td>
         <td class="derecha">30.0000 %</td>
         <td>Logit</td>
@@ -222,6 +229,11 @@
       </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Uso de Transporte Público en La Laguna </h3>
+
+    <div id="SmiGraficasUsoDeTransportePublicoEnLaLaguna" class="grafica"></div>
   </div>
   </div>
 </div>
@@ -327,6 +339,23 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasUsoDeTransportePublicoEnLaLaguna === 'undefined') {
+    varSmiGraficasUsoDeTransportePublicoEnLaLaguna = Morris.Line({
+      element: 'SmiGraficasUsoDeTransportePublicoEnLaLaguna',
+      data: [
+        { fecha: '2010-12-31', dato: 33.2800 },
+        { fecha: '2011-12-31', dato: 30.0000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

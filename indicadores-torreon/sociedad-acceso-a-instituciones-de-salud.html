@@ -265,6 +265,18 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-09-30</td>
+        <td>53.2500</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>54.4800</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -294,8 +306,8 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2018-06-30</td>
-        <td>51.9500</td>
+        <td class="centrado">2018-12-31</td>
+        <td>54.4800</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -322,9 +334,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-09-30</td>
-        <td>53.2500</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td class="centrado">2016-12-31</td>
+        <td>51.0000</td>
+        <td>IMCO</td>
         <td></td>
       </tr>
     </tbody>
@@ -441,7 +453,9 @@
       element: 'SmiGraficasAccesoAInstitucionesDeSaludEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos',
       data: [
         { fecha: '2018-03-31', dato: 54.0200 },
-        { fecha: '2018-06-30', dato: 51.9500 }],
+        { fecha: '2018-06-30', dato: 51.9500 },
+        { fecha: '2018-09-30', dato: 53.2500 },
+        { fecha: '2018-12-31', dato: 54.4800 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -477,7 +491,7 @@
   if (typeof varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAccesoAInstitucionesDeSaludEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 51.9500 },{ region: 'Gómez Palacio', dato: 78599 },{ region: 'Lerdo', dato: 25036 },{ region: 'Matamoros', dato: 37406 },{ region: 'La Laguna', dato: 53.2500 }],
+      data: [{ region: 'Torreón', dato: 54.4800 },{ region: 'Gómez Palacio', dato: 78599 },{ region: 'Lerdo', dato: 25036 },{ region: 'Matamoros', dato: 37406 },{ region: 'La Laguna', dato: 51.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -67,7 +67,10 @@ class SociedadMedicosEspecializados extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '24.6300', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2012-12-31', 'valor' => '12.2732', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '13.3982', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '10.4890', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '24.6300', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

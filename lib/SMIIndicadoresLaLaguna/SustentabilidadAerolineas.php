@@ -72,7 +72,8 @@ class SustentabilidadAerolineas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '10', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '10', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '10', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '7', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2014-12-31', 'valor' => '5', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '7', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**

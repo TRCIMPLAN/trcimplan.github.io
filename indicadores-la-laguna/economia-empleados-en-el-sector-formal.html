@@ -218,31 +218,49 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">70.0486 %</td>
+        <td class="derecha">60.0000 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">70.1246 %</td>
+        <td class="derecha">58.0000 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">57.2976 %</td>
+        <td class="derecha">54.9740 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">55.2093 %</td>
+        <td class="derecha">55.6000 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">48.7339 %</td>
+        <td class="derecha">48.0000 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2013-12-31</td>
+        <td class="derecha">55.8200 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">58.3300 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">55.6600 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -298,8 +316,15 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">48.7339 %</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">55.6600 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">57.5700 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -406,11 +431,14 @@
     varSmiGraficasEmpleadosEnElSectorFormalEnLaLaguna = Morris.Line({
       element: 'SmiGraficasEmpleadosEnElSectorFormalEnLaLaguna',
       data: [
-        { fecha: '2008-12-31', dato: 70.0486 },
-        { fecha: '2009-12-31', dato: 70.1246 },
-        { fecha: '2010-12-31', dato: 57.2976 },
-        { fecha: '2011-12-31', dato: 55.2093 },
-        { fecha: '2012-12-31', dato: 48.7339 }],
+        { fecha: '2008-12-31', dato: 60.0000 },
+        { fecha: '2009-12-31', dato: 58.0000 },
+        { fecha: '2010-12-31', dato: 54.9740 },
+        { fecha: '2011-12-31', dato: 55.6000 },
+        { fecha: '2012-12-31', dato: 48.0000 },
+        { fecha: '2013-12-31', dato: 55.8200 },
+        { fecha: '2015-12-31', dato: 58.3300 },
+        { fecha: '2016-12-31', dato: 55.6600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -425,7 +453,7 @@
   if (typeof varSmiOtrasRegionesEmpleadosEnElSectorFormalEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesEmpleadosEnElSectorFormalEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesEmpleadosEnElSectorFormalEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 48.8560 },{ region: 'Gómez Palacio', dato: 56.3498 },{ region: 'Lerdo', dato: 34.1412 },{ region: 'Matamoros', dato: 46.0290 },{ region: 'La Laguna', dato: 48.7339 }],
+      data: [{ region: 'Torreón', dato: 48.8560 },{ region: 'Gómez Palacio', dato: 56.3498 },{ region: 'Lerdo', dato: 34.1412 },{ region: 'Matamoros', dato: 46.0290 },{ region: 'La Laguna', dato: 55.6600 },{ region: 'Coahuila', dato: 57.5700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

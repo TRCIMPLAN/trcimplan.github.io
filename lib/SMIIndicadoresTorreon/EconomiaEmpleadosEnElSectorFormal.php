@@ -99,7 +99,8 @@ class EconomiaEmpleadosEnElSectorFormal extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '56.3498', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '34.1412', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '46.0290', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '48.7339', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '55.6600', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2014-12-31', 'valor' => '57.5700', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

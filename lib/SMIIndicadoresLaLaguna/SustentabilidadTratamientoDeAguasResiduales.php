@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaPersonasQueGanan1O2SalariosMinimos
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna SustentabilidadTratamientoDeAguasResiduales
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaPersonasQueGanan1O2SalariosMinimos
+ * Clase SustentabilidadTratamientoDeAguasResiduales
  */
-class EconomiaPersonasQueGanan1O2SalariosMinimos extends \SMIBase\PublicacionWeb {
+class SustentabilidadTratamientoDeAguasResiduales extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class EconomiaPersonasQueGanan1O2SalariosMinimos extends \SMIBase\PublicacionWeb
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Personas que ganan 1 o 2 salarios mínimos en La Laguna';
-        $this->fecha       = '2018-07-27T12:04:55';
+        $this->nombre      = 'Tratamiento de Aguas Residuales en La Laguna';
+        $this->fecha       = '2018-07-26T12:04:12';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-personas-que-ganan-1-o-2-salarios-minimos';
+        $this->archivo     = 'sustentabilidad-tratamiento-de-aguas-residuales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Porcentaje de personas que ganan de 1 hasta 2 salarios mínimos';
-        $this->claves      = 'IMPLAN, La Laguna, Empleo';
+        $this->descripcion = 'Porcentaje de aguas residuales tratadas en relación con las aguas producidas en el municipio';
+        $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->categorias  = array('Medio Ambiente');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,7 @@ class EconomiaPersonasQueGanan1O2SalariosMinimos extends \SMIBase\PublicacionWeb
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '33.5200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2015-12-31', 'valor' => '86.9000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -91,8 +91,8 @@ class EconomiaPersonasQueGanan1O2SalariosMinimos extends \SMIBase\PublicacionWeb
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '29.1000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '33.5200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '79.2900', 'fuente_nombre' => 'CONAGUA', 'notas' => 'Fuente: DGMA'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '86.9000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
@@ -111,10 +111,10 @@ class EconomiaPersonasQueGanan1O2SalariosMinimos extends \SMIBase\PublicacionWeb
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
+Fuente:SEMARNAT-CONAGUA
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase EconomiaPersonasQueGanan1O2SalariosMinimos
+} // Clase SustentabilidadTratamientoDeAguasResiduales
 
 ?>

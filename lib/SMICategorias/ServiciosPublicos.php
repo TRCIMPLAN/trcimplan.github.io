@@ -112,11 +112,11 @@ class ServiciosPublicos extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Agua Entubada</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-agua-entubada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">96.3 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-agua-entubada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">96.30 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-agua-entubada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">99.05 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -156,12 +156,66 @@ class ServiciosPublicos extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Consumo eléctrico en servicios municipales</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-consumo-electrico-en-servicios-municipales.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">67.2849</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Consumo eléctrico residencial</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-consumo-electrico-residencial.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">1,708.475</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Recolección de residuos sólidos</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-recoleccion-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">92.34 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red de Transporte Público</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-de-transporte-publico.html" data-toggle="tooltip" title="Kilómetros, 31/03/2014, IMPLAN">250</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Residuos sólidos producidos</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-residuos-solidos-producidos.html" data-toggle="tooltip" title="Por habitante, 31/12/2014, IMCO">268.6108</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Tomas con micromedición</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-tomas-con-micromedicion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">39.97 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Viajes en transporte público por persona</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-viajes-en-transporte-publico-por-persona.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, IMCO">5</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

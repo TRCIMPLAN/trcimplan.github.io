@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaPeaDesocupada
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna SociedadParticipacionDelMunicipioEnLaPoblacionDelEstado
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaPeaDesocupada
+ * Clase SociedadParticipacionDelMunicipioEnLaPoblacionDelEstado
  */
-class EconomiaPeaDesocupada extends \SMIBase\PublicacionWeb {
+class SociedadParticipacionDelMunicipioEnLaPoblacionDelEstado extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class EconomiaPeaDesocupada extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'PEA desocupada en La Laguna';
-        $this->fecha       = '2018-07-27T12:01:33';
+        $this->nombre      = 'Participación del municipio en la población del estado en La Laguna';
+        $this->fecha       = '2019-01-29T11:15:48';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-pea-desocupada';
+        $this->archivo     = 'sociedad-participacion-del-municipio-en-la-poblacion-del-estado';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Porcentaje de la PEA desocupada';
-        $this->claves      = 'IMPLAN, La Laguna, Empleo';
+        $this->descripcion = 'Se muestra el porcentaje de la participación municipal dentro de la población del estado';
+        $this->claves      = 'IMPLAN, La Laguna, Población';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->categorias  = array('Población');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,7 @@ class EconomiaPeaDesocupada extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '5.0100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2015-12-31', 'valor' => '32.7300', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -91,8 +91,11 @@ class EconomiaPeaDesocupada extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '4.5700', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '5.0100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '23.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '20.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '4.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '32.7300', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
@@ -110,11 +113,9 @@ class EconomiaPeaDesocupada extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase EconomiaPeaDesocupada
+} // Clase SociedadParticipacionDelMunicipioEnLaPoblacionDelEstado
 
 ?>

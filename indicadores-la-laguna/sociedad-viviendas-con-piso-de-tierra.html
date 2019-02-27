@@ -201,7 +201,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -230,7 +230,7 @@
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">1.3000 %</td>
+        <td class="derecha">5.6100 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -247,6 +247,12 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">3.7200 %</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2016-12-31</td>
         <td class="derecha">2.0000 %</td>
         <td>IMCO</td>
@@ -255,10 +261,10 @@
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Viviendas con Piso de Tierra en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Viviendas con Piso de Tierra en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasViviendasConPisoDeTierraEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasViviendasConPisoDeTierraEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Viviendas con Piso de Tierra en La Laguna</h3>
@@ -419,15 +425,15 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasViviendasConPisoDeTierraEnLaLaguna === 'undefined') {
-    varSmiGraficasViviendasConPisoDeTierraEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasViviendasConPisoDeTierraEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasConPisoDeTierraEnLaLagunaImco === 'undefined') {
+    varSmiGraficasViviendasConPisoDeTierraEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasViviendasConPisoDeTierraEnLaLagunaImco',
       data: [
         { fecha: '2008-12-31', dato: 2.2400 },
         { fecha: '2009-12-31', dato: 1.7100 },
-        { fecha: '2010-12-31', dato: 1.3000 },
+        { fecha: '2010-12-31', dato: 5.6100 },
         { fecha: '2011-12-31', dato: 1.4300 },
         { fecha: '2012-12-31', dato: 1.5800 },
         { fecha: '2016-12-31', dato: 2.0000 }],

@@ -201,6 +201,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -219,6 +220,37 @@
         <td class="derecha">79.2900 %</td>
         <td>CONAGUA</td>
         <td>Fuente: DGMA</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Tratamiento de Aguas Residuales en Torreón</h3>
+    <div id="SmiOtrasRegionesTratamientoDeAguasResidualesEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesTratamientoDeAguasResidualesEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">79.2900 %</td>
+        <td>CONAGUA</td>
+        <td>Fuente: DGMA</td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">86.9000 %</td>
+        <td>IMCO</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -263,6 +295,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesTratamientoDeAguasResidualesEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesTratamientoDeAguasResidualesEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesTratamientoDeAguasResidualesEnTorreonGrafica',
+      data: [{ region: 'Torreón', dato: 79.2900 },{ region: 'La Laguna', dato: 86.9000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

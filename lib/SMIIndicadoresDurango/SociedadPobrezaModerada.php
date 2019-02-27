@@ -91,11 +91,11 @@ class SociedadPobrezaModerada extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '24.0000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '31.9000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '41.1000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '29.8000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '28.6000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '23.4000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '29.7000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '35.2000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '37.7000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '26.9700', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '24.7600', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '40.2200', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Nacional', 'fecha' => '2010-12-31', 'valor' => '34.3900', 'fuente_nombre' => 'CONEVAL'));

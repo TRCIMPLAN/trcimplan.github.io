@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaDesocupadosConExperiencia
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna SeguridadHeridosEnAccidentesRelacionadosConTransporte
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaDesocupadosConExperiencia
+ * Clase SeguridadHeridosEnAccidentesRelacionadosConTransporte
  */
-class EconomiaDesocupadosConExperiencia extends \SMIBase\PublicacionWeb {
+class SeguridadHeridosEnAccidentesRelacionadosConTransporte extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class EconomiaDesocupadosConExperiencia extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Desocupados con experiencia en La Laguna';
-        $this->fecha       = '2018-07-27T12:22:15';
+        $this->nombre      = 'Heridos en accidentes relacionados con transporte en La Laguna';
+        $this->fecha       = '2019-02-08T10:32:35';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-desocupados-con-experiencia';
+        $this->archivo     = 'seguridad-heridos-en-accidentes-relacionados-con-transporte';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Porcentaje de la población desocupada que tiene experiencia laboral';
-        $this->claves      = 'IMPLAN, La Laguna, Empleo';
+        $this->descripcion = 'Se muestran los heridos en accidentes por cada 100 mil habitantes';
+        $this->claves      = 'IMPLAN, La Laguna, Vialidad , Movilidad , Seguridad';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->categorias  = array('Vialidad', 'Movilidad', 'Seguridad');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaDesocupadosConExperiencia extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,13 @@ class EconomiaDesocupadosConExperiencia extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '88.6900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2008-12-31', 'valor' => '314.6630', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '324.6090', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '278.6600', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '248.0680', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '225.7470', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '171.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '278.4500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -76,12 +82,7 @@ class EconomiaDesocupadosConExperiencia extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -90,9 +91,7 @@ class EconomiaDesocupadosConExperiencia extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-03-31', 'valor' => '88.1100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '88.6900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+        return NULL;
     } // otras_regiones
 
     /**
@@ -110,11 +109,9 @@ class EconomiaDesocupadosConExperiencia extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase EconomiaDesocupadosConExperiencia
+} // Clase SeguridadHeridosEnAccidentesRelacionadosConTransporte
 
 ?>

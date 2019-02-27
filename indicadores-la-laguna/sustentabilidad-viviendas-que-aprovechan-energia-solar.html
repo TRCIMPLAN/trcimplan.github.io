@@ -201,6 +201,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -216,6 +217,12 @@
     </thead>
     <tbody>
       <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">1.4800 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2016-12-31</td>
         <td class="derecha">1.0000 %</td>
         <td>IMCO</td>
@@ -223,6 +230,11 @@
       </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Viviendas que aprovechan energía solar en La Laguna </h3>
+
+    <div id="SmiGraficasViviendasQueAprovechanEnergiaSolarEnLaLaguna" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Viviendas que aprovechan energía solar en La Laguna</h3>
@@ -316,6 +328,23 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasQueAprovechanEnergiaSolarEnLaLaguna === 'undefined') {
+    varSmiGraficasViviendasQueAprovechanEnergiaSolarEnLaLaguna = Morris.Line({
+      element: 'SmiGraficasViviendasQueAprovechanEnergiaSolarEnLaLaguna',
+      data: [
+        { fecha: '2015-12-31', dato: 1.4800 },
+        { fecha: '2016-12-31', dato: 1.0000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesViviendasQueAprovechanEnergiaSolarEnLaLagunaGrafica === 'undefined') {

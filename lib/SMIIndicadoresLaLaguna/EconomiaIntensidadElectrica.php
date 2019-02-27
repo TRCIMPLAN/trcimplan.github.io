@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaDesocupadosConEducacionSuperiorOMediaSuperior
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaIntensidadElectrica
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaDesocupadosConEducacionSuperiorOMediaSuperior
+ * Clase EconomiaIntensidadElectrica
  */
-class EconomiaDesocupadosConEducacionSuperiorOMediaSuperior extends \SMIBase\PublicacionWeb {
+class EconomiaIntensidadElectrica extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class EconomiaDesocupadosConEducacionSuperiorOMediaSuperior extends \SMIBase\Pub
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Desocupados con educación superior o media superior en La Laguna';
-        $this->fecha       = '2018-07-27T12:20:44';
+        $this->nombre      = 'Intensidad eléctrica en La Laguna';
+        $this->fecha       = '2019-02-08T11:30:33';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-desocupados-con-educacion-superior-o-media-superior';
+        $this->archivo     = 'economia-intensidad-electrica';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Porcentaje de la población desocupada que cuenta con educación media superior y superior';
-        $this->claves      = 'IMPLAN, La Laguna, Empleo';
+        $this->descripcion = 'Se muestra en Watts-hora por unidad del PIB la cantidad necesaria de electricidad del sector productivo para generar una unidad del PIB local base 2013';
+        $this->claves      = 'IMPLAN, La Laguna, Macroeconomía';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->categorias  = array('Macroeconomía');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaDesocupadosConEducacionSuperiorOMediaSuperior extends \SMIBase\Pub
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,7 @@ class EconomiaDesocupadosConEducacionSuperiorOMediaSuperior extends \SMIBase\Pub
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '45.1600', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2016-12-31', 'valor' => '8.3500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -76,12 +76,7 @@ class EconomiaDesocupadosConEducacionSuperiorOMediaSuperior extends \SMIBase\Pub
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -90,9 +85,7 @@ class EconomiaDesocupadosConEducacionSuperiorOMediaSuperior extends \SMIBase\Pub
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-03-31', 'valor' => '44.6000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '45.1600', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+        return NULL;
     } // otras_regiones
 
     /**
@@ -110,11 +103,9 @@ class EconomiaDesocupadosConEducacionSuperiorOMediaSuperior extends \SMIBase\Pub
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase EconomiaDesocupadosConEducacionSuperiorOMediaSuperior
+} // Clase EconomiaIntensidadElectrica
 
 ?>

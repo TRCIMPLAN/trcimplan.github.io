@@ -55,7 +55,7 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \SMIBase\PublicacionW
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -68,11 +68,12 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \SMIBase\PublicacionW
     public function datos() {
         return array(
             array('fecha' => '2008-12-31', 'valor' => '0.3876', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '0.3666', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '0.2165', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '0.3666', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0.5279', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '0.5279', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2012-12-31', 'valor' => '0.4250', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '0.4672', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '0.3785', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -84,7 +85,7 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \SMIBase\PublicacionW
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -100,7 +101,7 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.3900', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '0.3785', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

@@ -112,11 +112,11 @@ class Poblacion extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Población Económicamente Activa (PEA)</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">531026</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">528456</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">165171</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">54779</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">81243</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">530457</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-poblacion-economicamente-activa-pea.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">613008</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -147,6 +147,42 @@ class Poblacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Carencia por acceso a la alimentación</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-carencia-por-acceso-a-la-alimentacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">19.88 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Carencia por acceso a la seguridad social</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-carencia-por-acceso-a-la-seguridad-social.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">34.59 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Carencia por acceso a los servicios básicos de la vivienda</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-carencia-por-acceso-a-los-servicios-basicos-de-la-vivienda.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">4.65 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Carencia por acceso a los servicios de salud</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-carencia-por-acceso-a-los-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">18.08 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Comercio al por menor en el Centro Histórico</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-comercio-al-por-menor-en-el-centro-historico.html" data-toggle="tooltip" title="Cantidad, 31/12/2010, INEGI">1839</a></td>
     <td class="nd">ND</td>
@@ -165,12 +201,39 @@ class Poblacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Equidad laboral</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-equidad-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, IMCO">0.5531</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Esperanza de vida al nacer</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-esperanza-de-vida-al-nacer.html" data-toggle="tooltip" title="Años, 31/12/2010, IMCO">74.31</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Fecundidad</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-fecundidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">2.50</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-fecundidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">2.34</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-fecundidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">2.23</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-fecundidad.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">2.60</a></td>
     <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Matrimonio infantil, precoz o forzado</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-matrimonio-infantil-precoz-o-forzado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">5.89 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -202,11 +265,11 @@ class Poblacion extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Participación del municipio en la población del estado</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">23 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">20 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">4 %</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">23.00 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">20.00 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9.00 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">4.00 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-participacion-del-municipio-en-la-poblacion-del-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">32.73 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -336,6 +399,15 @@ class Poblacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Trabajo no remunerado de hombres y mujeres</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-trabajo-no-remunerado-de-hombres-y-mujeres.html" data-toggle="tooltip" title="Horas, 31/12/2015, IMCO">35.9873</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas en el Centro Histórico</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-en-el-centro-historico.html" data-toggle="tooltip" title="Cantidad, 31/12/2010, INEGI">3774</a></td>
     <td class="nd">ND</td>
@@ -418,11 +490,11 @@ class Poblacion extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas Particulares Habitadas que disponen de Teléfono Celular</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">87 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">87.0000 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-particulares-habitadas-que-disponen-de-telefono-celular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI. Censos de Población y Vivienda">85.1022 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

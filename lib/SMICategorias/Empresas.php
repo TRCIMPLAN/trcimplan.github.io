@@ -94,11 +94,11 @@ class Empresas extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Apertura de un Negocio (percentil promedio)</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.38</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.39</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.39</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.38</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.3800</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.3900</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.3900</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.3800</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2016, IMCO">0.3785</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -114,7 +114,7 @@ class Empresas extends \Base\Publicacion {
     <td class="indicador color1">Empresas del estado al que pertenece el municipio</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-empresas-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">31995</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-empresas-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">13274</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-empresas-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">13274</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-empresas-del-estado-al-que-pertenece-el-municipio.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">31995</a></td>
     <td class="nd">ND</td>
   </tr>
@@ -166,7 +166,7 @@ class Empresas extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Nuevas Empresas</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-nuevas-empresas.html" data-toggle="tooltip" title="Cantidad, 30/09/2016, Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón">165</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-nuevas-empresas.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón">44</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -179,6 +179,15 @@ class Empresas extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Participación de las empresas en el estado</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-participacion-de-las-empresas-en-el-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">29 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-participacion-de-las-empresas-en-el-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">23 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-participacion-de-las-empresas-en-el-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">6 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-participacion-de-las-empresas-en-el-estado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1 %</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>

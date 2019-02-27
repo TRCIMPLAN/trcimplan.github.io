@@ -77,7 +77,8 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "porcentaje" de crecimiento anual de superficie urbana')); // formateado 0, valor 22, crudo 12
+            array('fecha' => '2015-12-31', 'valor' => '0.3083', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "porcentaje" de crecimiento anual de superficie urbana')); // formateado 0, valor 24, crudo 13
     } // datos
 
     /**

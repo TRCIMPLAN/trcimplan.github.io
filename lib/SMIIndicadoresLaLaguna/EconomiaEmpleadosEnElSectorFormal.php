@@ -67,11 +67,14 @@ class EconomiaEmpleadosEnElSectorFormal extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '70.0486', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '70.1246', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '57.2976', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '55.2093', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '48.7339', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2008-12-31', 'valor' => '60.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '58.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '54.9740', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '55.6000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '48.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '55.8200', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '58.3300', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '55.6600', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**
@@ -99,7 +102,8 @@ class EconomiaEmpleadosEnElSectorFormal extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '56.3498', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '34.1412', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '46.0290', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '48.7339', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '55.6600', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2014-12-31', 'valor' => '57.5700', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

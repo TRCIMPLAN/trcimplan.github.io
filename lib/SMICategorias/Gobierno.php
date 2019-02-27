@@ -156,6 +156,15 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Disponibilidad de información</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-disponibilidad-de-informacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">99.05 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Duración de Período para Ediles y Delegados</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">4.0</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">3.0</a></td>
@@ -192,12 +201,30 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Institutos de Planeación Urbana</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-institutos-de-planeacion-urbana.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, IMCO">25 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Litros de Combustible Gastados por Habitante</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-habitante.html" data-toggle="tooltip" title="Litros por Persona, 31/12/2014, Ayuntamiento de Torreón">2.4</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-habitante.html" data-toggle="tooltip" title="Litros por Persona, 31/12/2014, Ayuntamiento de Torreón">2.400</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-litros-de-combustible-gastados-por-habitante.html" data-toggle="tooltip" title="Litros por Persona, 31/12/2016, Ayuntamiento de Torreón">496.633</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Marco regulatorio para la gestión integral de residuos sólidos urbanos</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-marco-regulatorio-para-la-gestion-integral-de-residuos-solidos-urbanos.html" data-toggle="tooltip" title="Puntos, 31/12/2015, IMCO">2.5</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
@@ -234,6 +261,15 @@ class Gobierno extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Programas de Acción Climática</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-programas-de-accion-climatica.html" data-toggle="tooltip" title="Porcentaje, 31/12/2017, IMCO">25 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>

@@ -100,7 +100,7 @@ class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\Publicacion
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '19327', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que ganan menos de lo establecido por CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '5276', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que ganan menos de lo establecido por CONEVAL'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '8791', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que ganan menos de lo establecido por CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '11.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '11.3300', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

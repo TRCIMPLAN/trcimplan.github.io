@@ -67,7 +67,8 @@ class SustentabilidadUsoDeTransportePublico extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2011-12-31', 'valor' => '30.0000', 'fuente_nombre' => 'Logit')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2010-12-31', 'valor' => '33.2800', 'fuente_nombre' => 'Logit'),
+            array('fecha' => '2011-12-31', 'valor' => '30.0000', 'fuente_nombre' => 'Logit')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

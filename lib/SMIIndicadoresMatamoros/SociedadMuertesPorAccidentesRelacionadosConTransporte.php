@@ -100,7 +100,7 @@ class SociedadMuertesPorAccidentesRelacionadosConTransporte extends \SMIBase\Pub
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '957', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Victimas en accidentes relacionados con transporte'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '103', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Victimas en accidentes relacionados con transporte'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '96', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Victimas en accidentes relacionados con transporte'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '241.2300', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '3.9916', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

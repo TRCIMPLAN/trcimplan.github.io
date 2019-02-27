@@ -74,7 +74,9 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '41.9000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '152319', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
             array('fecha' => '2018-03-31', 'valor' => '54.0200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2018-06-30', 'valor' => '51.9500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 16, crudo 9
+            array('fecha' => '2018-06-30', 'valor' => '51.9500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2018-09-30', 'valor' => '53.2500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2018-12-31', 'valor' => '54.4800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 20, crudo 11
     } // datos
 
     /**
@@ -98,11 +100,11 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '51.9500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '54.4800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '78599', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '25036', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '37406', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '53.2500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '51.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

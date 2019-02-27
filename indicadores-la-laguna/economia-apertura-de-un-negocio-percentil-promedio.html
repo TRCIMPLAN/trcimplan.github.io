@@ -218,37 +218,43 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td>0.3876</td>
+        <td class="derecha">0.3876</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td>0.3666</td>
+        <td class="derecha">0.2165</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td>0.3666</td>
+        <td class="derecha">0.3666</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td>0.5279</td>
+        <td class="derecha">0.5279</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td>0.5279</td>
+        <td class="derecha">0.4250</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">0.4672</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td>0</td>
+        <td class="derecha">0.3785</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -277,35 +283,35 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2016-12-31</td>
-        <td>0.3800</td>
+        <td class="derecha">0.3800</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2016-12-31</td>
-        <td>0.3900</td>
+        <td class="derecha">0.3900</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
-        <td>0.3900</td>
+        <td class="derecha">0.3900</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2016-12-31</td>
-        <td>0.3800</td>
+        <td class="derecha">0.3800</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
         <td class="centrado">2016-12-31</td>
-        <td>0</td>
+        <td class="derecha">0.3785</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -413,11 +419,12 @@
       element: 'SmiGraficasAperturaDeUnNegocioPercentilPromedioEnLaLaguna',
       data: [
         { fecha: '2008-12-31', dato: 0.3876 },
-        { fecha: '2009-12-31', dato: 0.3666 },
+        { fecha: '2009-12-31', dato: 0.2165 },
         { fecha: '2010-12-31', dato: 0.3666 },
         { fecha: '2011-12-31', dato: 0.5279 },
-        { fecha: '2012-12-31', dato: 0.5279 },
-        { fecha: '2016-12-31', dato: 0 }],
+        { fecha: '2012-12-31', dato: 0.4250 },
+        { fecha: '2014-12-31', dato: 0.4672 },
+        { fecha: '2016-12-31', dato: 0.3785 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -432,7 +439,7 @@
   if (typeof varSmiOtrasRegionesAperturaDeUnNegocioPercentilPromedioEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesAperturaDeUnNegocioPercentilPromedioEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAperturaDeUnNegocioPercentilPromedioEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 0.3800 },{ region: 'Gómez Palacio', dato: 0.3900 },{ region: 'Lerdo', dato: 0.3900 },{ region: 'Matamoros', dato: 0.3800 },{ region: 'La Laguna', dato: 0 }],
+      data: [{ region: 'Torreón', dato: 0.3800 },{ region: 'Gómez Palacio', dato: 0.3900 },{ region: 'Lerdo', dato: 0.3900 },{ region: 'Matamoros', dato: 0.3800 },{ region: 'La Laguna', dato: 0.3785 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

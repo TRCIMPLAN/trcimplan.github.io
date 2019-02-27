@@ -202,6 +202,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -218,7 +219,7 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">27.1800 %</td>
+        <td class="derecha">24.0000 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -248,8 +249,14 @@
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">36.8400 %</td>
+        <td class="derecha">26.0000 %</td>
         <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">34.6300 %</td>
+        <td>INEGI</td>
         <td></td>
       </tr>
       <tr>
@@ -265,6 +272,11 @@
     <h3>Viviendas con Computadora en La Laguna con fuente IMCO</h3>
 
     <div id="SmiGraficasViviendasConComputadoraEnLaLagunaImco" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Viviendas con Computadora en La Laguna con fuente INEGI</h3>
+
+    <div id="SmiGraficasViviendasConComputadoraEnLaLagunaInegi" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Viviendas con Computadora en La Laguna</h3>
@@ -432,12 +444,29 @@
     varSmiGraficasViviendasConComputadoraEnLaLagunaImco = Morris.Line({
       element: 'SmiGraficasViviendasConComputadoraEnLaLagunaImco',
       data: [
-        { fecha: '2008-12-31', dato: 27.1800 },
+        { fecha: '2008-12-31', dato: 24.0000 },
         { fecha: '2009-12-31', dato: 29.8000 },
         { fecha: '2010-12-31', dato: 32.6800 },
         { fecha: '2011-12-31', dato: 34.6900 },
-        { fecha: '2012-12-31', dato: 36.8400 },
+        { fecha: '2012-12-31', dato: 26.0000 },
         { fecha: '2016-12-31', dato: 29.3500 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasConComputadoraEnLaLagunaInegi === 'undefined') {
+    varSmiGraficasViviendasConComputadoraEnLaLagunaInegi = Morris.Line({
+      element: 'SmiGraficasViviendasConComputadoraEnLaLagunaInegi',
+      data: [
+        { fecha: '2010-12-31', dato: 33.2000 },
+        { fecha: '2015-12-31', dato: 34.6300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

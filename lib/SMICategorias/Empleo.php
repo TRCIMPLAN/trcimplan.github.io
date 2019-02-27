@@ -138,30 +138,39 @@ class Empleo extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Desigualdad salarial</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desigualdad-salarial.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2016, IMCO">0.375</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Desocupados con educación superior o media superior</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-con-educacion-superior-o-media-superior.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">44.60 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-con-educacion-superior-o-media-superior.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">41.85 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desocupados-con-educacion-superior-o-media-superior.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">45.16 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Desocupados con experiencia</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-con-experiencia.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">88.11 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-con-experiencia.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">90.15 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desocupados-con-experiencia.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">88.69 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Desocupados de 15 a 25 años</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-de-15-a-25-anos.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">37.24 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-de-15-a-25-anos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">30.69 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desocupados-de-15-a-25-anos.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">39.08 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -170,16 +179,16 @@ class Empleo extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">56.3498 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">34.1412 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">46.0290 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">48.7339 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">55.6600 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Horas laboradas</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-horas-laboradas.html" data-toggle="tooltip" title="Horas, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">41.20</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-horas-laboradas.html" data-toggle="tooltip" title="Horas, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">42.36</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-horas-laboradas.html" data-toggle="tooltip" title="Horas, 31/12/2016, IMCO">287,225,879.60</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-horas-laboradas.html" data-toggle="tooltip" title="Horas, 31/12/2016, IMCO">15,607,673.54</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-horas-laboradas.html" data-toggle="tooltip" title="Horas, 31/12/2016, IMCO">53,462,897.51</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-horas-laboradas.html" data-toggle="tooltip" title="Horas, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">42.10</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -193,20 +202,20 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">PEA desocupada</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-pea-desocupada.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4.57 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-pea-desocupada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">3.8 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-pea-desocupada.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">5.01 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">PEA Ocupada</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-pea-ocupada.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">95.63 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-pea-ocupada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">96.2 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-pea-ocupada.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">94.99 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-pea-ocupada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">44.0 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -238,11 +247,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Personas que ganan 1 o 2 salarios mínimos</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-personas-que-ganan-1-o-2-salarios-minimos.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">29.10 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-personas-que-ganan-1-o-2-salarios-minimos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">36.05 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-personas-que-ganan-1-o-2-salarios-minimos.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">33.52 %</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -296,52 +305,52 @@ class Empleo extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,254.41</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,603.44</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 4,705.54</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,926.25</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,495.63</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Condiciones Críticas de Ocupación</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">10.20 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">11.21 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.59 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">11.82 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">14.29 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">11.10</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">10.57 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">5.20 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">3.80 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.97 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">2.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.67 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">5.01 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4.40 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Informalidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">41.90 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">39.94 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.82 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/03/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">39.10 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">40.80</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2017, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">41.27 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de subocupación</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-subocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/06/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">15.4 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-subocupacion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">10.11 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-subocupacion.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">10.4</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de trabajo asalariado</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-trabajo-asalariado.html" data-toggle="tooltip" title="Porcentaje, 31/03/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">73.3 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-trabajo-asalariado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">75.35 %</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-trabajo-asalariado.html" data-toggle="tooltip" title="Porcentaje, 30/09/2018, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">74.3</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -363,12 +372,30 @@ class Empleo extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Equidad laboral</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-equidad-laboral.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, IMCO">0.5531</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Ingreso Promedio de la Mujer</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2012, IMCO">0.8</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2012, IMCO">0.6</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-ingreso-promedio-de-la-mujer.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2012, IMCO">0.6</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2012, IMCO">1.0</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2012, IMCO">0.8</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Trabajo no remunerado de hombres y mujeres</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-trabajo-no-remunerado-de-hombres-y-mujeres.html" data-toggle="tooltip" title="Horas, 31/12/2015, IMCO">35.9873</a></td>
   </tr>
 </tbody>
 </table>
@@ -384,6 +411,13 @@ class Empleo extends \Base\Publicacion {
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Empleados en el Sector Formal</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, IMCO">57.57 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Personal Ocupado en el Comercio</td>

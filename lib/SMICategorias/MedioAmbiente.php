@@ -83,13 +83,22 @@ class MedioAmbiente extends \Base\Publicacion {
 </thead>
 <tbody>
   <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Población afectada por eventos hidrometeorológicos y geológicos</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-poblacion-afectada-por-eventos-hidrometeorologicos-y-geologicos.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, IMCO">23.8735</a></td>
+  </tr>
+  <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas donde separan en Orgánico e Inorgánico los Residuos</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">80479</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">35132</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">14424</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">9584</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">43.9 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -130,11 +139,11 @@ class MedioAmbiente extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Calidad del agua superficial (Intervalo DBO)</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2.0000</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2.0000</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2.0000</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">2.0000</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-calidad-del-agua-superficial-intervalo-dbo.html" data-toggle="tooltip" title="De 0 a 5, 31/12/2016, IMCO">4.3333</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -228,12 +237,66 @@ class MedioAmbiente extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Pérdida de Agua</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-perdida-de-agua.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, SIMAS">48.15 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Población con accesibilidad peatonal a áreas verdes</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-poblacion-con-accesibilidad-peatonal-a-areas-verdes.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">81.72 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Programa de gestión de calidad del aire vigente</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-programa-de-gestion-de-calidad-del-aire-vigente.html" data-toggle="tooltip" title="Puntos, 31/12/2017, IMCO">150</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Protección de ecosistemas importantes para la biodiversidad</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-proteccion-de-ecosistemas-importantes-para-la-biodiversidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">18.35 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Recolección de residuos sólidos</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-recoleccion-de-residuos-solidos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">92.34 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Regalo o venta de residuos reciclables</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">63.26 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">67.87 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">59.36 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">66.88 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-regalo-o-venta-de-residuos-reciclables.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">64.30 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Residuos sólidos producidos</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-residuos-solidos-producidos.html" data-toggle="tooltip" title="Por habitante, 31/12/2014, IMCO">268.6108</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -287,7 +350,7 @@ class MedioAmbiente extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-tratamiento-de-aguas-residuales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, IMCO">86.90 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -369,6 +432,15 @@ class MedioAmbiente extends \Base\Publicacion {
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">33.52 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">31.08 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">34.91 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Viajes en transporte público por persona</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-viajes-en-transporte-publico-por-persona.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, IMCO">5</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

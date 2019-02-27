@@ -55,7 +55,7 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -72,7 +72,9 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '0.8091', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0.8167', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '2.4596', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2013-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '11', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**
@@ -84,7 +86,7 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura

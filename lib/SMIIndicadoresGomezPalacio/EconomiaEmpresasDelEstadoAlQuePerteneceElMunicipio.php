@@ -93,6 +93,7 @@ class EconomiaEmpresasDelEstadoAlQuePerteneceElMunicipio extends \SMIBase\Public
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '31995', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '13274', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '13274', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '31995', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 

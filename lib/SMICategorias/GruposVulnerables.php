@@ -143,7 +143,7 @@ class GruposVulnerables extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-madres-adolescentes.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, SINAIS (SSA)">114.58</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -170,7 +170,7 @@ class GruposVulnerables extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">17.31 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">16.76 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">19.20 %</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">87.25 %</a></td>
   </tr>
 </tbody>
 </table>

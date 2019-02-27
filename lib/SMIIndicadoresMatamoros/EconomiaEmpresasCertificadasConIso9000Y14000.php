@@ -99,7 +99,7 @@ class EconomiaEmpresasCertificadasConIso9000Y14000 extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '14.9306', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '61.3409', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '279.3651', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '21.4807', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2013-12-31', 'valor' => '6.5751', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

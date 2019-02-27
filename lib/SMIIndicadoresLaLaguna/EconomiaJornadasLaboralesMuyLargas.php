@@ -67,12 +67,15 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '26.8700', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '18.4400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '23.3500', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2008-12-31', 'valor' => '24.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '25.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '24.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '22.8300', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '25.5400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '29.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2012-12-31', 'valor' => '22.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '22.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '29.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
     } // datos
 
     /**

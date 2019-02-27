@@ -43,7 +43,7 @@ class SociedadViviendasConPisoDeTierra extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Vivienda';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Vivienda');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -69,10 +69,11 @@ class SociedadViviendasConPisoDeTierra extends \SMIBase\PublicacionWeb {
         return array(
             array('fecha' => '2008-12-31', 'valor' => '2.2400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2009-12-31', 'valor' => '1.7100', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '1.3000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '5.6100', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '1.4300', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '1.5800', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2015-12-31', 'valor' => '3.7200', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('fecha' => '2016-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**

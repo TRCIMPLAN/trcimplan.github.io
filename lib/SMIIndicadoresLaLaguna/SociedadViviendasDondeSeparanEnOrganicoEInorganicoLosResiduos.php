@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaDesocupadosDe15A25Anos
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaDesocupadosDe15A25Anos
+ * Clase SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos
  */
-class EconomiaDesocupadosDe15A25Anos extends \SMIBase\PublicacionWeb {
+class SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class EconomiaDesocupadosDe15A25Anos extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Desocupados de 15 a 25 años en La Laguna';
-        $this->fecha       = '2018-07-27T12:15:07';
+        $this->nombre      = 'Viviendas donde separan en Orgánico e Inorgánico los Residuos en La Laguna';
+        $this->fecha       = '2018-07-26T14:18:46';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-desocupados-de-15-a-25-anos';
+        $this->archivo     = 'sociedad-viviendas-donde-separan-en-organico-e-inorganico-los-residuos';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Porcentaje de la población de 15 a 25 años desocupada sobre el total de población desocupada.';
-        $this->claves      = 'IMPLAN, La Laguna, Empleo';
+        $this->descripcion = 'Porcentaje de viviendas en donde se separan residuos orgánicos e inorgánicos';
+        $this->claves      = 'IMPLAN, La Laguna, Vivienda, Medio Ambiente';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->categorias  = array('Vivienda', 'Medio Ambiente');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,7 @@ class EconomiaDesocupadosDe15A25Anos extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '39.0800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2015-12-31', 'valor' => '43.9000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -79,7 +79,7 @@ class EconomiaDesocupadosDe15A25Anos extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -91,8 +91,11 @@ class EconomiaDesocupadosDe15A25Anos extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-03-31', 'valor' => '37.2400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '39.0800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '80479', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '35132', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '14424', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9584', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad"'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '43.9000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
@@ -111,10 +114,10 @@ class EconomiaDesocupadosDe15A25Anos extends \SMIBase\PublicacionWeb {
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
+Fuente: INEGI
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase EconomiaDesocupadosDe15A25Anos
+} // Clase SociedadViviendasDondeSeparanEnOrganicoEInorganicoLosResiduos
 
 ?>

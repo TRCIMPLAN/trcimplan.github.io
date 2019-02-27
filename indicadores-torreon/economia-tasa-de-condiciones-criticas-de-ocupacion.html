@@ -219,37 +219,49 @@
     <tbody>
       <tr>
         <td class="centrado">2016-03-31</td>
-        <td class="derecha">8.7700 %</td>
+        <td>8.7700</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-09-30</td>
-        <td class="derecha">11.5900 %</td>
+        <td>11.5900</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">30.3900 %</td>
+        <td>30.3900</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2017-03-31</td>
-        <td class="derecha">10.4000 %</td>
+        <td>10.4000</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2018-03-31</td>
-        <td class="derecha">12.6000 %</td>
+        <td>12.6000</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2018-06-30</td>
-        <td class="derecha">10.2000 %</td>
+        <td>10.2000</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-09-30</td>
+        <td>11.1000</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>11.2100</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -282,8 +294,8 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2018-06-30</td>
-        <td>10.2000</td>
+        <td class="centrado">2018-12-31</td>
+        <td>11.2100</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -310,8 +322,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-09-30</td>
-        <td>11.1000</td>
+        <td class="centrado">2017-09-30</td>
+        <td>10.5700</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -440,7 +452,9 @@
       element: 'SmiGraficasTasaDeCondicionesCriticasDeOcupacionEnTorreonEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos',
       data: [
         { fecha: '2018-03-31', dato: 12.6000 },
-        { fecha: '2018-06-30', dato: 10.2000 }],
+        { fecha: '2018-06-30', dato: 10.2000 },
+        { fecha: '2018-09-30', dato: 11.1000 },
+        { fecha: '2018-12-31', dato: 11.2100 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -474,7 +488,7 @@
   if (typeof varSmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 10.2000 },{ region: 'Gómez Palacio', dato: 14.5900 },{ region: 'Lerdo', dato: 11.8200 },{ region: 'Matamoros', dato: 14.2900 },{ region: 'La Laguna', dato: 11.1000 },{ region: 'Coahuila', dato: 8.2800 },{ region: 'Durango', dato: 14.9900 },{ region: 'Nacional', dato: 13.3700 }],
+      data: [{ region: 'Torreón', dato: 11.2100 },{ region: 'Gómez Palacio', dato: 14.5900 },{ region: 'Lerdo', dato: 11.8200 },{ region: 'Matamoros', dato: 14.2900 },{ region: 'La Laguna', dato: 10.5700 },{ region: 'Coahuila', dato: 8.2800 },{ region: 'Durango', dato: 14.9900 },{ region: 'Nacional', dato: 13.3700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

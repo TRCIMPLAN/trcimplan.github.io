@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaHorasLaboradas
+ * TrcIMPLAN Sitio Web - SMIIndicadoresCoahuila EconomiaEmpleadosEnElSectorFormal
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,12 +20,12 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresCoahuila;
 
 /**
- * Clase EconomiaHorasLaboradas
+ * Clase EconomiaEmpleadosEnElSectorFormal
  */
-class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
+class EconomiaEmpleadosEnElSectorFormal extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,17 +34,17 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Horas laboradas en La Laguna';
-        $this->fecha       = '2018-07-27T12:02:44';
+        $this->nombre      = 'Empleados en el Sector Formal en Coahuila';
+        $this->fecha       = '2015-07-14T13:10:57';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-horas-laboradas';
+        $this->archivo     = 'economia-empleados-en-el-sector-formal';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Horas promedio trabajadas a la semana';
-        $this->claves      = 'IMPLAN, La Laguna, Empleo';
+        $this->descripcion = 'Incluido en el subíndice de "Gobiernos Eficaces y Eficientes". Mide el número de empleados en el sector formal como porcentaje de la población ocupada total. El INEGI define como sector formal a todas aquellas actividades económicas que se desarrollan en empresas constituidas en sociedad, corporaciones, instituciones públicas o privadas, y negocios no constituidos en sociedad pero que reportan ingresos ante la autoridad hacendaria.';
+        $this->claves      = 'IMPLAN, Coahuila, Índice de Competitividad Urbana, Empleo';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
-        $this->regiones    = array('La Laguna');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo');
+        $this->fuentes     = array('IMCO');
+        $this->regiones    = array('Coahuila');
     } // constructor
 
     /**
@@ -55,7 +55,7 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,7 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-09-30', 'valor' => '42.1000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2014-12-31', 'valor' => '57.5700', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -79,7 +79,7 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -91,11 +91,12 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-06-30', 'valor' => '41.2000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '287225879.6000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '15607673.5400', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '53462897.5100', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-09-30', 'valor' => '42.1000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '48.8560', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '56.3498', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '34.1412', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '46.0290', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '55.6600', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2014-12-31', 'valor' => '57.5700', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
@@ -113,11 +114,9 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase EconomiaHorasLaboradas
+} // Clase EconomiaEmpleadosEnElSectorFormal
 
 ?>

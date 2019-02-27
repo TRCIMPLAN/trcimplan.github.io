@@ -134,7 +134,7 @@ class FinanzasPublicas extends \Base\Publicacion {
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">3.55 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.31 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">0.60 %</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">2.00 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-deuda-municipal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">1.70 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>

@@ -70,10 +70,13 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
         return array(
             array('fecha' => '2008-12-31', 'valor' => '14.8788', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2009-12-31', 'valor' => '38.4695', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '54.4737', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '56.8794', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '77.5463', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '9.3400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2010-12-31', 'valor' => '55.2021', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '58.5570', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '83.8572', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '47.0745', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '24.6481', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '15.5350', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '11.0711', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
     } // datos
 
     /**
@@ -101,7 +104,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '9.3400', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '11.0711', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

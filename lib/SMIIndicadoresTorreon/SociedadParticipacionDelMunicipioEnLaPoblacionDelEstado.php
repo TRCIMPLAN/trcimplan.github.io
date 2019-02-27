@@ -94,7 +94,8 @@ class SociedadParticipacionDelMunicipioEnLaPoblacionDelEstado extends \SMIBase\P
             array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '23.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '20.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '4.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '4.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '32.7300', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

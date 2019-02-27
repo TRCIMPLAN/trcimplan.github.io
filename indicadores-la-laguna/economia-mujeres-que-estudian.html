@@ -201,6 +201,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -216,13 +217,66 @@
     </thead>
     <tbody>
       <tr>
+        <td class="centrado">2008-12-31</td>
+        <td class="derecha">83.9000 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2009-12-31</td>
+        <td class="derecha">92.6900 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2010-12-31</td>
+        <td class="derecha">86.5000 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2011-12-31</td>
+        <td class="derecha">87.3800 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2012-12-31</td>
+        <td class="derecha">87.9900 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2013-12-31</td>
+        <td class="derecha">92.3700 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">87.6900 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">91.3200 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">91.0000 %</td>
+        <td class="derecha">91.1700 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Mujeres que estudian en La Laguna </h3>
+
+    <div id="SmiGraficasMujeresQueEstudianEnLaLaguna" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Mujeres que estudian en La Laguna</h3>
@@ -269,7 +323,7 @@
       <tr>
         <td>La Laguna</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">91.0000 %</td>
+        <td class="derecha">91.1700 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -316,12 +370,36 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasMujeresQueEstudianEnLaLaguna === 'undefined') {
+    varSmiGraficasMujeresQueEstudianEnLaLaguna = Morris.Line({
+      element: 'SmiGraficasMujeresQueEstudianEnLaLaguna',
+      data: [
+        { fecha: '2008-12-31', dato: 83.9000 },
+        { fecha: '2009-12-31', dato: 92.6900 },
+        { fecha: '2010-12-31', dato: 86.5000 },
+        { fecha: '2011-12-31', dato: 87.3800 },
+        { fecha: '2012-12-31', dato: 87.9900 },
+        { fecha: '2013-12-31', dato: 92.3700 },
+        { fecha: '2014-12-31', dato: 87.6900 },
+        { fecha: '2015-12-31', dato: 91.3200 },
+        { fecha: '2016-12-31', dato: 91.1700 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesMujeresQueEstudianEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesMujeresQueEstudianEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesMujeresQueEstudianEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 91.2700 },{ region: 'Gómez Palacio', dato: 90.8200 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 85.6300 },{ region: 'La Laguna', dato: 91.0000 }],
+      data: [{ region: 'Torreón', dato: 91.2700 },{ region: 'Gómez Palacio', dato: 90.8200 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 85.6300 },{ region: 'La Laguna', dato: 91.1700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
