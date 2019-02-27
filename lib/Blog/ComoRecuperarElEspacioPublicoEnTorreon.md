@@ -1,4 +1,14 @@
 
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/miriam-janeth-gonzalez-quintana.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-miriam-janeth-gonzalez-quintana-top2.png" align="right" alt="Foto Miriam" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
+
 **La Ley de asentamientos considera al espacio público como elemento fundamental en el desarrollo de una vida sana, promotor de convivencia, de recreación y de seguridad ciudadana siempre y cuando considere las necesidades diferenciada por personas y grupos.**
 
 **Las características principales del espacio púbico son el libre acceso y la multifuncionalidad**, es decir, es un lugar de dominio público, de uso colectivo por cuyas características pueden llevarse a cabo actividades deportivas, recreativas, artístico-culturales, de esparcimiento, y en general para el uso y disfrute de la comunidad las 24 horas del día.
