@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-02-27</lastmod>
+    <lastmod>2019-03-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3973,6 +3973,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2019-02-22-conferencia-urbanizaciones-cerradas.html</loc>
     <lastmod>2019-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2019-03-01-segunda-sesion-consejo.html</loc>
+    <lastmod>2019-03-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
