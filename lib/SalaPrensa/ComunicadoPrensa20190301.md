@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/maira-ivonne-flores-reyes.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-maira-ivonne-flores-reyes-top5.png" align="right" alt="Foto Maira" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 Se dio a conocer la **visita que realizaron especialistas de la empresa “Nippon Koei Latin América Caribbean”**, quienes vinieron a la Ciudad de Torreón, como parte de un estudio que están elaborando para identificar potenciales proyectos de transporte público en México.
 
@@ -19,3 +27,6 @@ Finalmente, se informó sobre el **proceso de reemplazo de los consejeros que in
       <th><center> </center></th>
    </tr>
 </table>
+
+</br>
+*La Segunda Sesión de Consejo del Implan, fué realizada el día 28 de Febrero, en las instalaciones del Centro Comunitario de Peñoles* </br>
