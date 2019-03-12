@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-03-04</lastmod>
+    <lastmod>2019-03-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3527,7 +3527,7 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/institucional/vision-mision.html</loc>
-    <lastmod>2014-05-01</lastmod>
+    <lastmod>2019-02-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -3983,6 +3983,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2019-03-01-segunda-sesion-consejo.html</loc>
     <lastmod>2019-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2019-03-07-conferencia-smart-manufacturing.html</loc>
+    <lastmod>2019-03-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
