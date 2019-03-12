@@ -17,11 +17,12 @@ El **Dr. Alberto Ochoa** señaló: “Los entornos asociados con Ciudades Inteli
 
 <table>
    <tr>
-      <th><center> </center></th>
-      <th><center><img class="img-responsive" src="2019-03-07-conferencia-smart-manufacturing/ima01.jpg" alt="smart manufacturing 2019-1"></center></th>
+      <th><center><img class="img-responsive" src="2019-03-07-conferencia-smart-manufacturing/ima00.jpg" alt="smart manufacturing 2019-0"></center></th>
       <th><center><img class="img-responsive" src="2019-03-07-conferencia-smart-manufacturing/ima03.jpg" alt="smart manufacturing 2019-3"></center></th>
-      <th><center><img class="img-responsive" src="2019-03-07-conferencia-smart-manufacturing/ima02.jpg" alt="smart manufacturing 2019-2"></center></th>
-      <th><center> </center></th>
+   </tr>
+   <tr>
+      <td><center><img class="img-responsive" src="2019-03-07-conferencia-smart-manufacturing/ima01.jpg" alt="smart manufacturing 2019-1"></center></td>
+      <td><center><img class="img-responsive" src="2019-03-07-conferencia-smart-manufacturing/ima02.jpg" alt="smart manufacturing 2019-2"></center></td>
    </tr>
 </table>
 *Imagen de "Componentes de una Smart Manufacturing" es propiedad del Dr. Alberto Ochoa Ortiz-Zezzatti*
