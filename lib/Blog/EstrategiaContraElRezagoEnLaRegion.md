@@ -1,3 +1,10 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/julio-alexis-magana-cisneros.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-julio-alexis-magana-cisneros-top2.png" align="right" alt="Foto Iván" width="500" height="200"></a>
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 El pasado 3 de Marzo de este año fue presentado el Programa de Mejoramiento Urbano (PMU) por parte de la Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU) como una estrategia prioritaria de la administración federal, la cual intervendrá en 15 municipios con altos índices de rezago urbano. Uno de los objetivos principales de dicho programa es cubrir las necesidades de aquellas zonas con alta marginación e inseguridad, a través de éste se realizarán acciones en 2 vertientes: Vivienda y Mejoramiento Integral de Barrios.
 
