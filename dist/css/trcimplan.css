@@ -526,7 +526,9 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 #categorias-vialidad:hover                                   { background-position:-128px 0; }
 #categorias-vivienda                                         { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/vivienda.jpg") no-repeat 0 0; }
 #categorias-vivienda:hover                                   { background-position:-128px 0; }
-
+/* VM */
+#categorias-enoe                                           { display:block; width:128px; height:128px; background:url("../../imagenes/categorias/empleo.jpg") no-repeat 0 0; }
+#categorias-enoe:hover                                     { background-position:-128px 0; }
 /*
  * Pie
  */
