@@ -315,11 +315,13 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
  * Vinculos Tarjetas
  */
 .tarjetas-thumbnail {
+/*background-color:#E8E8E8;  VM*/
     background-color:#E8E8E8;
     min-height:450px;
+    border-color:#A2A2A2;
 }
 .tarjetas-nombre {
-    font-size:18px;
+    font-size:24px;
     text-align:center;
 }
 
