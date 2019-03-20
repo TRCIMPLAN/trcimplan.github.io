@@ -35,7 +35,7 @@ class InclusionFinancieraYLasPrincipalesCondicionesDeCreditoEnTorreon extends \B
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Inclusión Financiera y las Principales Condiciones de Crédito en Torreón';
-        $this->autor                      = 'Lic. Frida Valeria García Gutiérrez';
+        $this->autor                      = 'Lic. Frida García Gutiérrez';
         $this->fecha                      = '2019-01-28T00:30';
         // El nombre del archivo a crear
         $this->archivo                    = 'inclusion-financiera-y-las-principales-condiciones-de-credito-en-torreon-ene2019';
