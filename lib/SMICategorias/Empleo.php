@@ -355,11 +355,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">197890</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">80516</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">13208</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">8998</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/11/2018, Instituto Mexicano del Seguro Social (IMSS)">306923</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">20096</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">81701</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">13349</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">8991</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">304137</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -470,9 +470,9 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">779544</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">243651</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2018, Instituto Mexicano del Seguro Social (IMSS)">4401571</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-coahuila/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">786559</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-durango/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">246062</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-nacional/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">4618122</a></td>
   </tr>
 </tbody>
 </table>

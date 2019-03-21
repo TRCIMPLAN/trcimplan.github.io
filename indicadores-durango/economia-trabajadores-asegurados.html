@@ -181,6 +181,7 @@
           </ul>
         </li>
         <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+        <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión Metrópoli</a></li>
       </ul>
     </div>
   </div>
@@ -378,6 +379,18 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-01-31</td>
+        <td class="derecha">244,919</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">246,062</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -402,57 +415,57 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">197,890</td>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">20,096</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">80,516</td>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">81,701</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">13,208</td>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">13,349</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">8,998</td>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">8,991</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-11-30</td>
-        <td class="derecha">306,923</td>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">304,137</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">779,544</td>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">786,559</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">243,651</td>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">246,062</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">4,401,571</td>
+        <td class="centrado">2019-02-28</td>
+        <td class="derecha">4,618,122</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
@@ -549,7 +562,9 @@
         { fecha: '2018-09-30', dato: 246868 },
         { fecha: '2018-10-31', dato: 248177 },
         { fecha: '2018-11-30', dato: 248154 },
-        { fecha: '2018-12-31', dato: 243651 }],
+        { fecha: '2018-12-31', dato: 243651 },
+        { fecha: '2019-01-31', dato: 244919 },
+        { fecha: '2019-02-28', dato: 246062 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -564,7 +579,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresAseguradosEnDurangoGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresAseguradosEnDurangoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresAseguradosEnDurangoGrafica',
-      data: [{ region: 'Torreón', dato: 197890 },{ region: 'Gómez Palacio', dato: 80516 },{ region: 'Lerdo', dato: 13208 },{ region: 'Matamoros', dato: 8998 },{ region: 'La Laguna', dato: 306923 },{ region: 'Coahuila', dato: 779544 },{ region: 'Durango', dato: 243651 },{ region: 'Nacional', dato: 4401571 }],
+      data: [{ region: 'Torreón', dato: 20096 },{ region: 'Gómez Palacio', dato: 81701 },{ region: 'Lerdo', dato: 13349 },{ region: 'Matamoros', dato: 8991 },{ region: 'La Laguna', dato: 304137 },{ region: 'Coahuila', dato: 786559 },{ region: 'Durango', dato: 246062 },{ region: 'Nacional', dato: 4618122 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

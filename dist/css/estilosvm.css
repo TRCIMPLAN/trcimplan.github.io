@@ -61,7 +61,7 @@
 }
 
 .slider2{
-    width:90%;
+    width:80%;
     margin:auto;
     overflow:hidden;
     //*border-radius:5px;*//
@@ -70,7 +70,7 @@
 .slider2 ul{
     display:flex;
     padding:0;
-    width:300%;
+    width:200%;
 
     animation: cambio2 7s infinite alternate linear;
     animation-timing-function:ease;
