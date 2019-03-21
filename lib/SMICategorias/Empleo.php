@@ -355,7 +355,7 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">20096</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">200096</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">81701</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">13349</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2019, Instituto Mexicano del Seguro Social (IMSS)">8991</a></td>

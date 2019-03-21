@@ -130,7 +130,7 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2018-11-30', 'valor' => '202639', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2018-12-31', 'valor' => '197890', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2019-01-31', 'valor' => '198707', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2019-02-28', 'valor' => '20096', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 128, crudo 65
+            array('fecha' => '2019-02-28', 'valor' => '200096', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 128, crudo 65
     } // datos
 
     /**
@@ -154,7 +154,7 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-02-28', 'valor' => '20096', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2019-02-28', 'valor' => '200096', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-02-28', 'valor' => '81701', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2019-02-28', 'valor' => '13349', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2019-02-28', 'valor' => '8991', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),

@@ -153,7 +153,7 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-02-28', 'valor' => '20096', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2019-02-28', 'valor' => '200096', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-02-28', 'valor' => '81701', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2019-02-28', 'valor' => '13349', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2019-02-28', 'valor' => '8991', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
