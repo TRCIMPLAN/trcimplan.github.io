@@ -79,6 +79,8 @@ class NavegacionConfig {
             'Plan Estratégico Torreón 2040 > Descripción del proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
             'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html'),
         'Investigaciones' => 'investigaciones/index.html',
+        'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
+        'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
         'Institucional' => array(
 
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
@@ -89,7 +91,7 @@ class NavegacionConfig {
             'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
             //~'Institucional > Transparencia'                           => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),
 
-        'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
+        //'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
         //'Transparencia'                                               => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
         'Transparencia'                                               => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
@@ -101,8 +103,8 @@ class NavegacionConfig {
             'Contacto > Medios de contacto'                           => 'contacto/contacto.html',
             'Contacto > Preguntas Frecuentes'                         => 'preguntas-frecuentes/preguntas-frecuentes.html',
             'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'),
-        'Convocatorias'                                               => 'convocatorias/index.html',
-        'Visión Metrópoli'                                            => 'vision-metropoli/index.html');
+        'Convocatorias'                                               => 'convocatorias/index.html');
+      //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html');
      //   'Valores Catastrales'                                         => 'valores-catastrales/index.html');
       //  'Convocatoria Visión Metrópoli 2018'                          => 'https://drive.google.com/file/d/17x9_UkY-i-f4W-TI6ImYKmyZs8QUWOq3/view?usp=sharing');
     static public $iconos = array(
@@ -139,6 +141,8 @@ class NavegacionConfig {
             'Descripción del proceso'      => 'fa fa-calendar',
             'Proyectos'                    => 'fa fa-check-square',
         'Investigaciones'                  => 'fa fa-briefcase',
+        'Consejo Directivo'                => 'fa fa-users',
+        'Visión Metrópoli'                 => 'fa fa-university',
         'Institucional'                    => 'fa fa-building-o',
             'Visión / Misión'              => 'fa fa-trophy',
             'Mensaje del Director'         => 'fa fa-comment',
@@ -148,7 +152,7 @@ class NavegacionConfig {
             'Reglamentos'                  => 'fa fa-gavel',
             'Información Financiera'       => 'fa fa-check',
             //,'Transparencia'                => 'fa fa-external-link'
-        'Consejo Directivo'                => 'fa fa-users',
+            //'Consejo Directivo'                => 'fa fa-users',
         'Transparencia'                    => 'fa fa-external-link',
         'Sala de Prensa'                   => 'fa fa-newspaper-o',
         'Términos de Uso'                  => 'fa fa-share-alt',
@@ -159,8 +163,8 @@ class NavegacionConfig {
             'Medios de contacto'           => 'fa fa-phone',
             'Preguntas Frecuentes'         => 'fa fa-question',
             'Comentarios y Sugerencias'    => 'fa fa-external-link',
-        'Convocatorias'                    => 'fa fa-file-text-o',
-        'Visión Metrópoli'                 => 'fa fa-file-text-o');
+        'Convocatorias'                    => 'fa fa-file-text-o');
+
 
     protected $buscador_html = <<<FINAL
           <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
