@@ -4551,6 +4551,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/caracteristicas-viviendas.html</loc>
+    <lastmod>2019-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/cementerios.html</loc>
     <lastmod>2017-02-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -4591,6 +4596,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/inventario-viviendas.html</loc>
+    <lastmod>2019-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/maternidad-adolescente.html</loc>
     <lastmod>2015-04-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -4603,6 +4613,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/parques-industriales.html</loc>
     <lastmod>2016-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/patrimonio-arquitectonico.html</loc>
+    <lastmod>2019-03-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
