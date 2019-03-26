@@ -80,7 +80,12 @@ class NavegacionConfig {
             'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html'),
         'Investigaciones' => 'investigaciones/index.html',
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
-        'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
+
+        'Visión Metrópoli' => array(
+            'Visión Metrópoli > Visión Metrópoli'                     => 'vision-metropoli/index.html',
+            'Visión Metrópoli > Reglamento'                           => 'vision-metropoli/reglamento-vision-metropoli-2018.pdf'),
+
+      //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
         'Institucional' => array(
 
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
@@ -143,6 +148,7 @@ class NavegacionConfig {
         'Investigaciones'                  => 'fa fa-briefcase',
         'Consejo Directivo'                => 'fa fa-users',
         'Visión Metrópoli'                 => 'fa fa-university',
+            'Reglamento'                   => 'fa fa-file-text-o',
         'Institucional'                    => 'fa fa-building-o',
             'Visión / Misión'              => 'fa fa-trophy',
             'Mensaje del Director'         => 'fa fa-comment',
