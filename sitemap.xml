@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-03-25</lastmod>
+    <lastmod>2019-03-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4606,11 +4606,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/patrimonio-historico.html</loc>
-    <lastmod>2015-06-22</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/peligros-quimicos-tecnologicos.html</loc>
     <lastmod>2017-05-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -4676,22 +4671,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-agua-red-publica.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-computadora.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-drenaje.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-energia-electrica.html</loc>
     <lastmod>2015-04-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -4706,18 +4686,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-que-disponen-retrete.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento.html</loc>
     <lastmod>2017-05-08</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/zonificacion-primaria.html</loc>
-    <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
