@@ -117,4 +117,19 @@ Porcentaje de agresiones ocurridas por parte de compañeros y compañeras       
 Porcentaje de agresiones de índole sexual a lo largo de la vida estudiantil                                                                                               |38.4%  |Torreón   |ENDIREH    |2016        |
 Porcentaje de mujeres que han sufrido violencia en la escuela                                                                                                             |58.8%  |Torreón   |ENDIREH    |2015-2016   |
 
+##VIOLENCIA EN EL ÁMBITO COMUNITARIO
+
+INDICADOR                                                                                                                                                                 |DATO   |NIVEL     |FUENTE     |AÑO         |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|----------|-----------|------------|
+Porcentaje de mujeres a las que han pellizcado, jalado del cabello, empujado, jaloneado, abofeteado o aventado algún objeto                                               |5.55%  |Torreón   |ENDIREH    |2016        |
+Porcentaje de mujeres a las que han atacado o agredido con cuchillo, navaja o arma de fuego                                                                               |3.69%  |Torreón   |ENDIREH    |2016        |
+Porcentaje de mujeres a las que han vigilado o seguido                                                                                                                    |13.44% |Torreón   |ENDIREH    |2016        |
+Porcentaje de mujeres que ha vivido violencia en las calles                                                                                                               |88%    |Torreón   |DVSEP1     |2016        |
+Porcentaje de mujeres que ha vivido violencia en camiones de ruta                                                                                                         |65%    |Torreón   |DVSEP      |2016        |
+Porcentaje de mujeres que ha vivido violencia en plazas públicas                                                                                                          |36%    |Torreón   |DVSEP      |2016        |
+Porcentaje de mujeres que ha recibido piropos groseros de carácter sexual                                                                                                 |65%    |Torreón   |DVSEP      |2016        |
+Porcentaje de mujeres que han sido forzadas a tener relaciones sexuales                                                                                                   |2.4%   |Torreón   |DVSEP      |2016        |
+Porcentaje de mujeres a las que alguna persona les ha mostrado sus partes íntimas o se ha manoseado frente a ellas                                                        |16.55% |Torreón   |ENDIREH    |2016        |
+Porcentaje de mujeres a las que han manoseado, tocado, besado o se le han arrimado, recargado o encimado sin su consentimiento                                            |12.27% |Torreón   |ENDIREH    |2016        |
+
 </br>
