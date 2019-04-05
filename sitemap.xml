@@ -4606,6 +4606,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/incidentes-viales.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-sector-salud.html</loc>
     <lastmod>2015-11-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -4623,6 +4628,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/maternidad-adolescente.html</loc>
     <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/monitoreo-atmosferico-pm10.html</loc>
+    <lastmod>2019-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
