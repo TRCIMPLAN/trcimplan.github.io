@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Monitor de Género para Torreon.">
+  <meta name="author" content="Lic. Miriam Janeth González Quintana, Lic. Ana Luisa Pacheco Meraz, Lic. Iván de Luna Aldape">
+  <meta name="keywords" content="IMPLAN, Torreon, indicadores de Genero, mujeres, La Laguna">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Monitor de Género - IMPLAN Torreón">
+  <meta name="twitter:description" content="Monitor de Género para Torreon.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/monitores/../imagenes/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/monitores/monitor-de-genero.html">
+  <meta name="og:title" content="Monitor de Género - IMPLAN Torreón">
+  <meta name="og:description" content="Monitor de Género para Torreon.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/monitores/../imagenes/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/monitores/monitor-de-genero.html">
+  <title>Monitor de Género - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+            <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+            <li>
+              <a href="#"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapas por Tema<span class="fa arrow"></span></a>
+              <ul class="nav nav-third-level">
+                <li><a href="../sig-mapas-torreon/categoria-cultura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Planes y Programas</a></li>
+                <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Indicadores Georeferenciados</a></li>
+                <li><a href="../sig-mapas-torreon/categoria-infraestructura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Inventario Urbano</a></li>
+                <li><a href="../sig-mapas-torreon/categoria-movilidad.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Movilidad</a></li>
+                <li><a href="../sig-mapas-torreon/categoria-medio-ambiente.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Medio Ambiente</a></li>
+              </ul>
+            </li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli</a></li>
+            <li><a href="../vision-metropoli/reglamento-vision-metropoli-2018.pdf"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamento</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+          </ul>
+        </li>
+        <li><a href="http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+        <div class="encabezado">
+          <h1 itemprop="headline">Monitor de Género</h1>
+          <div class="encabezado-descripcion" itemprop="description">Monitor de Género para Torreon.</div>
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Lic. Miriam Janeth González Quintana, Lic. Ana Luisa Pacheco Meraz, Lic. Iván de Luna Aldape</span> -
+            <meta itemprop="datePublished" content="2019-04-03T09:00">03/04/2019 09:00
+          </div>
+        </div>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<!-- Archivo /lib/Monitores/MonitoresPresentacion.html inicia -->
+<h3>Presentación</h3>
+<div id="presentacion-monitor-genero" style="position: relative; top: 0px; left: 0px; width: 280px; height: 150px;">
+  <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 280px; height: 150px; overflow: hidden;">
+    <div><img u="image" src="genero/ima01.jpg"></div>
+    <div><img u="image" src="genero/ima01.jpg"></div>
+  </div>
+  <a style="display: none" href="http://www.jssor.com">Image Slider</a>
+</div>
+<div style="margin-top:8px; margin-bottom:16px;"><a href="genero/monitor-de-genero.pdf"><span style="font-size:32pt" color="red"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:16pt">De click para descargar el archivo PDF del <b>Monitor de Género</b></span></a></div>
+
+<!--<div style="margin-top:8px; margin-bottom:16px;"><a href="empleo/empleo-marzo-2018.pdf"><span style="font-size:10pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:12pt">De click para descargar el archivo PDF del <b>Histórico. Cuarto Trimestre 2017</b></span></a></div> -->
+
+
+<!-- Archivo /lib/Monitores/MonitoresPresentacion.html termina -->
+<h1>Monitor de Género</h1>
+
+<h2>EDUCACIÓN</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>INDICADOR</th>
+  <th>DATO</th>
+  <th>NIVEL</th>
+  <th>FUENTE</th>
+  <th>AÑO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Grado promedio de escolaridad</td>
+  <td>10.33</td>
+  <td>Torreón</td>
+  <td>INEGI1</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres sin escolaridad</td>
+  <td>2.27%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres con nivel de educación básica</td>
+  <td>49.32%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres con nivel de educación media superior</td>
+  <td>21.96%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres con nivel de educación superior</td>
+  <td>26.19%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres de 3-14 años que asiste a la escuela</td>
+  <td>90.03%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres de 15-17 años que asiste a la escuela</td>
+  <td>73.42%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres de 18-29 años que asiste a la escuela</td>
+  <td>21.59%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres de 15 años y más en condición de analfabetismo</td>
+  <td>1.33%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Cantidad de mujeres registradas dentro del padrón de beneficiarios del SNI2 del CONACYT</td>
+  <td>35</td>
+  <td>Torreón</td>
+  <td>CONACYT3</td>
+  <td>Enero 2019</td>
+</tr>
+<tr>
+  <td>Cantidad de mujeres registradas dentro del padrón de beneficiarios del SNI del CONACYT</td>
+  <td>170</td>
+  <td>Coahuila</td>
+  <td>CONACYT</td>
+  <td>Enero 2019</td>
+</tr>
+</tbody>
+</table>
+
+<h2>SALUD REPRODUCTIVA</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>INDICADOR</th>
+  <th>DATO</th>
+  <th>NIVEL</th>
+  <th>FUENTE</th>
+  <th>AÑO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Porcentaje de nacimientos registrados cuyas madres son menores de 17 años</td>
+  <td>13.90%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2010</td>
+</tr>
+<tr>
+  <td>Promedio de hijos nacidos vivos de las mujeres de 12 años y más</td>
+  <td>2.1</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2010</td>
+</tr>
+<tr>
+  <td>Cantidad de nacimientos registrados en mujeres menores de 15 años</td>
+  <td>68</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Cantidad de nacimientos registrados en mujeres de 15 a 19 años</td>
+  <td>2450</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Cantidad de nacimientos registrados en mujeres de 20 a 24 años</td>
+  <td>3770</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Cantidad de nacimientos registrados en mujeres de 25 a 29 años</td>
+  <td>3218</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Cantidad de nacimientos registrados en mujeres de 30 a 34 años</td>
+  <td>2059</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Cantidad de nacimientos registrados en mujeres de 35 a 39 años</td>
+  <td>921</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Cantidad de nacimientos registrados en mujeres de 40 a 44 años</td>
+  <td>230</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Cantidad de nacimientos registrados en mujeres de 45 a 49 años</td>
+  <td>11</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Porcentaje de población femenina con afiliación a servicios de salud</td>
+  <td>79.31</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de la población femenina afiliada que tiene IMSS</td>
+  <td>70.91%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de la población femenina afiliada que tiene ISSSTE</td>
+  <td>11.77%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de la población femenina afiliada que tiene Seguro Popular</td>
+  <td>13.40%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de la población femenina afiliada que tiene servicio de una institución privada</td>
+  <td>4.27%</td>
+  <td>Torreón</td>
+  <td>INEGI</td>
+  <td>2015</td>
+</tr>
+<tr>
+  <td>Porcentaje de las mujeres ocupadas que tiene servicio de salud por parte de su trabajo</td>
+  <td>52.38%</td>
+  <td>Torreón</td>
+  <td>INEGI- ENOE</td>
+  <td>T4-2018</td>
+</tr>
+</tbody>
+</table>
+
+<h2>EMPLEO</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>INDICADOR</th>
+  <th>DATO</th>
+  <th>NIVEL</th>
+  <th>FUENTE</th>
+  <th>AÑO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Porcentaje de mujeres en la fuerza laboral</td>
+  <td>48.62%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE4</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Tasa de ocupación femenina</td>
+  <td>96.06%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Tasa de desocupación femenina</td>
+  <td>3.93</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Tasa de informalidad femenina</td>
+  <td>43.58</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Promedio de horas trabajadas por semana</td>
+  <td>38.18</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres ocupadas que es trabajadora subordinada y remunerada</td>
+  <td>76.6%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres ocupadas que es empleadora</td>
+  <td>2.6%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Ingresos promedio por hora trabajada</td>
+  <td>$38.24</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres ocupadas que ganan hasta un salario mínimo</td>
+  <td>17.76%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres ocupadas que ganan de 1 a 2 salarios mínimos</td>
+  <td>35.02%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres ocupadas que ganan más de 3 salarios mínimos</td>
+  <td>12.49%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres ocupadas que trabaja en el sector terciario</td>
+  <td>80.56%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres ocupadas que trabaja en el sector secundario</td>
+  <td>18.50%</td>
+  <td>Torreón</td>
+  <td>INEGI-ENOE</td>
+  <td>T4-2018</td>
+</tr>
+</tbody>
+</table>
+
+<h2>DELITOS</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>INDICADOR</th>
+  <th>DATO</th>
+  <th>NIVEL</th>
+  <th>FUENTE</th>
+  <th>AÑO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Cantidad total de delitos registrados de Violencia Familiar</td>
+  <td>2631</td>
+  <td>Torreón</td>
+  <td>SESNSP1</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Cantidad total de delitos registrados por Violencia de Género en todas sus modalidades, distinta a la violencia familiar</td>
+  <td>7</td>
+  <td>Torreón</td>
+  <td>SESNSP</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Feminicidios (anual)</td>
+  <td>3</td>
+  <td>Torreón</td>
+  <td>SESNSP</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Feminicidios (anual)</td>
+  <td>10</td>
+  <td>Torreón</td>
+  <td>DMVGMT5</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Feminicidio (periodo)</td>
+  <td>33</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Casos en los que no se ha identificado a la persona agresora</td>
+  <td>13</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2016-2018</td>
+</tr>
+<tr>
+  <td>Casos en los que la persona agresora está prófuga</td>
+  <td>15</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2016-2018</td>
+</tr>
+<tr>
+  <td>Agresores a los que se les ha dictado sentencia</td>
+  <td>3</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2016-2018</td>
+</tr>
+<tr>
+  <td>Casos en los que la persona agresora ha sido recluida hasta terminar con las investigaciones</td>
+  <td>6</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2016-2018</td>
+</tr>
+<tr>
+  <td>Homicidio</td>
+  <td>79</td>
+  <td>Torreón</td>
+  <td>Informe1 AVGM</td>
+  <td>2013-2017</td>
+</tr>
+<tr>
+  <td>Porcentaje del total de homicidios clasificados como dolosos</td>
+  <td>69%</td>
+  <td>Torreón</td>
+  <td>Informe AVGM</td>
+  <td>2013-2017</td>
+</tr>
+<tr>
+  <td>Porcentaje del total de homicidios clasificados como calificados</td>
+  <td>13%</td>
+  <td>Torreón</td>
+  <td>Informe AVGM</td>
+  <td>2013-2017</td>
+</tr>
+<tr>
+  <td>Porcentaje del total de homicidios clasificados como feminicidios</td>
+  <td>9%</td>
+  <td>Torreón</td>
+  <td>Informe AVGM</td>
+  <td>2013-2017</td>
+</tr>
+</tbody>
+</table>
+
+<h2>LESIONES</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>INDICADOR</th>
+  <th>DATO</th>
+  <th>NIVEL</th>
+  <th>FUENTE</th>
+  <th>AÑO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Lesiones totales a pacientes mujeres (anual)</td>
+  <td>291</td>
+  <td>Torreón</td>
+  <td>DGIS8</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Lesiones a pacientes mujeres que fueron por violencia familiar</td>
+  <td>190</td>
+  <td>Torreón</td>
+  <td>DGIS</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Lesiones a pacientes mujeres que fueron accidentales</td>
+  <td>69</td>
+  <td>Torreón</td>
+  <td>DGIS</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Lesiones totales a pacientes mujeres (periodo)</td>
+  <td>4063</td>
+  <td>Torreón</td>
+  <td>DGIS</td>
+  <td>2010-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje del total de lesiones a pacientes mujeres cuyo agresor era hombre</td>
+  <td>77%</td>
+  <td>Torreón</td>
+  <td>DGIS</td>
+  <td>2010-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje del total de lesiones a pacientes mujeres que fueron accidentales</td>
+  <td>15%</td>
+  <td>Torreón</td>
+  <td>DGIS</td>
+  <td>2010-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje del total de lesiones a pacientes mujeres que fueron por violencia familiar</td>
+  <td>80%</td>
+  <td>Torreón</td>
+  <td>DGIS</td>
+  <td>2010-2018</td>
+</tr>
+<tr>
+  <td>Porcentaje del total de lesiones a pacientes mujeres por violencia no familiar</td>
+  <td>4.1%</td>
+  <td>Torreón</td>
+  <td>DGIS</td>
+  <td>2010-2018</td>
+</tr>
+</tbody>
+</table>
+
+<h2>VIOLENCIA EN EL ÁMBITO FAMILIAR</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>INDICADOR</th>
+  <th>DATO</th>
+  <th>NIVEL</th>
+  <th>FUENTE</th>
+  <th>AÑO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Manifestación de violencia física más común – Empujones o jalones de cabello (porcentaje de mujeres que identificaron este concepto)</td>
+  <td>10.57%</td>
+  <td>Torreón</td>
+  <td>ENDIREH</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Manifestación de violencia psicológica más común – La pareja les ha dejado de hablar (porcentaje de mujeres que identificaron este concepto)</td>
+  <td>32.0%</td>
+  <td>Torreón</td>
+  <td>ENDIREH</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Lesiones totales a pacientes mujeres por violencia familiar</td>
+  <td>3242</td>
+  <td>Torreón</td>
+  <td>DGIS</td>
+  <td>2010-2018</td>
+</tr>
+<tr>
+  <td>Restricción o prohibición para llevar a cabo trabajo remunerado (porcentaje de mujeres que identificaron este concepto)</td>
+  <td>10.71%</td>
+  <td>Torreón</td>
+  <td>ENDIREH</td>
+  <td>2016</td>
+</tr>
+</tbody>
+</table>
+
+<h2>VIOLENCIA EN EL ÁMBITO LABORAL</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>INDICADOR</th>
+  <th>DATO</th>
+  <th>NIVEL</th>
+  <th>FUENTE</th>
+  <th>AÑO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Manifestación de violencia psicológica más común – Gritos y groserías con la intención de dañar o humillar (porcentaje de mujeres que identificaron este concepto)</td>
+  <td>23.8%</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Manifestación de violencia física más común - Lanzar objetos con la intención de dañar a la persona o intimidarla (porcentaje de mujeres que identificaron este concepto)</td>
+  <td>4.3%</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Manifestación de violencia sexual más común – Piropos groseros u ofensivos de tipo sexual o sobre su cuerpo (porcentaje de mujeres que identificaron este concepto)</td>
+  <td>21.5%</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Mujeres trabajadoras que ganan menos de 2 salarios mínimos (porcentaje)</td>
+  <td>52%</td>
+  <td>ZML</td>
+  <td>ENOE</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Mujeres que realizan una actividad adicional a su trabajo para complementar su ingreso (porcentaje)</td>
+  <td>27.3%</td>
+  <td>ZML</td>
+  <td>ENOE</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Diferencia estructural del ingreso entre hombres y mujeres (pesos por hora)</td>
+  <td>9.85</td>
+  <td>ZML</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+</tbody>
+</table>
+
+<h2>VIOLENCIA EN EL ÁMBITO ESCOLAR</h2>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>INDICADOR</th>
+  <th>DATO</th>
+  <th>NIVEL</th>
+  <th>FUENTE</th>
+  <th>AÑO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Violencia psicológica en algún momento de la vida estudiantil de la mujer</td>
+  <td>3.7%</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Violencia física en algún momento de la vida estudiantil de la mujer.</td>
+  <td>6.6%</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres estudiantes que ha recibido piropos groseros de tipo sexual en la escuela</td>
+  <td>12%</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de agresiones ocurridas por parte de compañeros y compañeras</td>
+  <td>31.5%</td>
+  <td>Torreón</td>
+  <td>DMVGMT</td>
+  <td>2018</td>
+</tr>
+<tr>
+  <td>Porcentaje de agresiones de índole sexual a lo largo de la vida estudiantil</td>
+  <td>38.4%</td>
+  <td>Torreón</td>
+  <td>ENDIREH</td>
+  <td>2016</td>
+</tr>
+<tr>
+  <td>Porcentaje de mujeres que han sufrido violencia en la escuela</td>
+  <td>58.8%</td>
+  <td>Torreón</td>
+  <td>ENDIREH</td>
+  <td>2015-2016</td>
+</tr>
+</tbody>
+</table>
+
+<p></br></p>
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script type="text/javascript" src="../vendor/jssor/jssor.slider.min.js"></script>
+<script>
+  // Photo Slider Presentacion Monitores inicia
+  jQuery(document).ready(function ($) {
+    var options = {
+        $AutoPlay: true,
+        $ChanceToShow: 5,
+        $DragOrientation: 1,
+        $AutoPlayInterval: 12000
+    };
+    var jssor_slider1 = new $JssorSlider$("presentacion-monitor-genero", options);
+    function ScaleSlider() {
+        var parentWidth = $('#presentacion-monitor-genero').parent().width();
+        if (parentWidth) {
+            jssor_slider1.$ScaleWidth(parentWidth);
+        }
+        else
+            window.setTimeout(ScaleSlider, 30);
+    }
+    ScaleSlider();
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+  });
+  // Photo Slider Presentacion monitor de género termina
+</script>
+
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
