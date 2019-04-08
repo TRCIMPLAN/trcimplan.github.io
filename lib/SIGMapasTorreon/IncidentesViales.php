@@ -67,6 +67,7 @@ class IncidentesViales extends \Base\Publicacion {
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/viz/663b2526-ee93-11e4-8e61-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>Fuente: Dirección de Tránsito y Vialidad, 2019.</b></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();

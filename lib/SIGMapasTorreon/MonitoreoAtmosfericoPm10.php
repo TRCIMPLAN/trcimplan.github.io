@@ -40,7 +40,8 @@ class MonitoreoAtmosfericoPm10 extends \Base\Publicacion {
         $this->imagen             = 'monitoreo-atmosferico-pm10/imagen.jpg';
         $this->imagen_previa      = 'monitoreo-atmosferico-pm10/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Estaciones de monitoreo atmosférico, que miden uno de los contaminantes criterio: partículas suspendidas menores a diez micras (PM10), expresadas en microgramo por metro cúbico.';
+        $this->descripcion        = 'Estaciones de monitoreo atmosférico, que miden uno de los contaminantes criterio: partículas suspendidas menores a diez micras (PM10), expresadas en microgramo por metro cúbico.
+</br>';
         $this->claves             = 'Medio Ambiente, monitoreo atmosferico';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
@@ -67,6 +68,7 @@ class MonitoreoAtmosfericoPm10 extends \Base\Publicacion {
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/eafe8c72-690f-4d02-950d-4b4aee3ef346/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>Fuente: Dirección General de Medio Ambiente, 2019.</b> </br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
