@@ -40,8 +40,7 @@ class CaracteristicasViviendas extends \Base\Publicacion {
         $this->imagen             = 'caracteristicas-viviendas/imagen.jpg';
         $this->imagen_previa      = 'caracteristicas-viviendas/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Indicadores por manzana, relacionados con las características de las viviendas: Recubrimiento de piso, energía eléctrica, agua entubada, drenaje y servicio sanitario.</br></br>
-Fuente: Inventario Nacional de Viviendas, INEGI, 2016';
+        $this->descripcion        = 'Indicadores por manzana, relacionados con las características de las viviendas: Recubrimiento de piso, energía eléctrica, agua entubada, drenaje y servicio sanitario.</br></br>';
         $this->claves             = 'Implan, torreon, vivienda, caracteristicas de la vivienda';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
@@ -68,6 +67,8 @@ Fuente: Inventario Nacional de Viviendas, INEGI, 2016';
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/4130add0-6e58-4187-a8e7-8d7766aeea37/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>Fuente: Inventario Nacional de Viviendas, INEGI, 2016</b>
+</br></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();

@@ -5,7 +5,7 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 09 Apr 2019 12:25:23 -0500</pubDate>
+    <pubDate>Tue, 09 Apr 2019 13:08:46 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -145,8 +145,7 @@ Incidentes viales ocurridos en el municipio de Torreón clasificados por tipo. E
       <author>Dirección de Planeación Urbana Sustentable IMPLAN</author>
       <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/inventario-viviendas.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/inventario-viviendas/imagen.jpg"><br>
 
-Indicadores por manzana, relacionados con las viviendas totales, habitadas, particulares, particulares habitadas, particulares no habitadas, particulares de uso temporal y particulares deshabitadas. </br></br>
-Fuente: Inventario Nacional de Viviendas, INEGI, 2016.</a>]]></description>
+Indicadores por manzana, relacionados con las viviendas totales, habitadas, particulares, particulares habitadas, particulares no habitadas, particulares de uso temporal y particulares deshabitadas. </br></br></a>]]></description>
     </item>
     <item>
       <title>Características de las Viviendas</title>
@@ -156,8 +155,7 @@ Fuente: Inventario Nacional de Viviendas, INEGI, 2016.</a>]]></description>
       <author>Dirección de Planeación Urbana Sustentable IMPLAN</author>
       <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/caracteristicas-viviendas.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/caracteristicas-viviendas/imagen.jpg"><br>
 
-Indicadores por manzana, relacionados con las características de las viviendas: Recubrimiento de piso, energía eléctrica, agua entubada, drenaje y servicio sanitario.</br></br>
-Fuente: Inventario Nacional de Viviendas, INEGI, 2016</a>]]></description>
+Indicadores por manzana, relacionados con las características de las viviendas: Recubrimiento de piso, energía eléctrica, agua entubada, drenaje y servicio sanitario.</br></br></a>]]></description>
     </item>
   </channel>
 </rss>

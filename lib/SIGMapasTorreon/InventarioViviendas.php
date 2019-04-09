@@ -40,8 +40,7 @@ class InventarioViviendas extends \Base\Publicacion {
         $this->imagen             = 'inventario-viviendas/imagen.jpg';
         $this->imagen_previa      = 'inventario-viviendas/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Indicadores por manzana, relacionados con las viviendas totales, habitadas, particulares, particulares habitadas, particulares no habitadas, particulares de uso temporal y particulares deshabitadas. </br></br>
-Fuente: Inventario Nacional de Viviendas, INEGI, 2016.';
+        $this->descripcion        = 'Indicadores por manzana, relacionados con las viviendas totales, habitadas, particulares, particulares habitadas, particulares no habitadas, particulares de uso temporal y particulares deshabitadas. </br></br>';
         $this->claves             = 'Implan, torreon, indicadores vivienda, vivienda habitada, vivienda deshabitada';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
@@ -68,6 +67,8 @@ Fuente: Inventario Nacional de Viviendas, INEGI, 2016.';
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/ba020a18-9486-4435-ab21-36dbd8fd675a/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br> <b>Fuente: Inventario Nacional de Viviendas, INEGI, 2016.</b>
+</br></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();

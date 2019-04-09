@@ -40,8 +40,7 @@ class PatrimonioArquitectonico extends \Base\Publicacion {
         $this->imagen             = 'patrimonio-arquitectonico/imagen.jpg';
         $this->imagen_previa      = 'patrimonio-arquitectonico/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Conjunto de edificaciones catalogadas por el Instituto Nacional de Antropología e Historia (INAH) y/o el Instituto Nacional de Bellas Artes (INBA) por su valor patrimonial arquitectónico. </br></br>
-Fuente: INAH, INBA, Dirección de Centro Histórico, 2019';
+        $this->descripcion        = 'Conjunto de edificaciones catalogadas por el Instituto Nacional de Antropología e Historia (INAH) y/o el Instituto Nacional de Bellas Artes (INBA) por su valor patrimonial arquitectónico. </br></br>';
         $this->claves             = 'implan, torreon, patrimonio arquitectonico, cultura';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
@@ -68,6 +67,8 @@ Fuente: INAH, INBA, Dirección de Centro Histórico, 2019';
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/4578a2fe-c2c5-41ab-8aa1-1a8086566ead/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>Fuente: INAH, INBA, Dirección de Centro Histórico, 2019</b>
+</br></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
