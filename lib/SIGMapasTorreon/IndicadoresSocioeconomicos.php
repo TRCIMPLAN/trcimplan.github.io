@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SIGMapasTorreon CoberturaTransporte
+ * TrcIMPLAN Sitio Web - SIGMapasTorreon IndicadoresSocioeconomicos
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,25 +23,25 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase CoberturaTransporte
+ * Clase IndicadoresSocioeconomicos
  */
-class CoberturaTransporte extends \Base\Publicacion {
+class IndicadoresSocioeconomicos extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Cobertura de Transporte';
-        $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha              = '2015-05-14T12:00';
+        $this->nombre             = 'Indicadores Socioeconómicos';
+        $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
+        $this->fecha              = '2019-04-09T11:47';
         // El nombre del archivo a crear y rutas relativas a las imágenes
-        $this->archivo            = 'cobertura-transporte';
-        $this->imagen             = 'cobertura-transporte/imagen.jpg';
-        $this->imagen_previa      = 'cobertura-transporte/imagen-previa.jpg';
+        $this->archivo            = 'indicadores-socioeconomicos';
+        $this->imagen             = 'indicadores-socioeconomicos/imagen.jpg';
+        $this->imagen_previa      = 'indicadores-socioeconomicos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Mapa con las rutas autorizadas para las líneas de transporte público en Torreón.';
-        $this->claves             = 'IMPLAN, Torreon, Trasnporte, Urbano, Rutas, Camiones';
+        $this->descripcion        = 'Principales indicadores georreferenciados referentes a la dimensión social y económica de la población municipal.';
+        $this->claves             = 'poblacion, indicadores sociales, indicadores economicos';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -51,9 +51,9 @@ class CoberturaTransporte extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Movilidad', 'Vialidad');
+        $this->categorias         = array('Bienestar', 'Población');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/viz/663b2526-ee93-11e4-8e61-0e018d66dc29/embed_map';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/3ec3334d-58cf-455b-b55f-54440be67a87/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,8 +66,9 @@ class CoberturaTransporte extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/viz/663b2526-ee93-11e4-8e61-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-<p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/3ec3334d-58cf-455b-b55f-54440be67a87/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>Fuente: IMPLAN con datos de INEGI, 2010.</b> 
+</br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
@@ -115,6 +116,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase CoberturaTransporte
+} // Clase IndicadoresSocioeconomicos
 
 ?>

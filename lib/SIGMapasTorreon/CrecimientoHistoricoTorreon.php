@@ -51,7 +51,7 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Movilidad', 'Vialidad');
+        $this->categorias         = array('Bienestar', 'Infraestructura', 'Vivienda', 'Población');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/180ab8da-643c-11e4-971a-0e018d66dc29/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';

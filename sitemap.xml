@@ -4591,11 +4591,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/cobertura-transporte.html</loc>
-    <lastmod>2015-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html</loc>
     <lastmod>2015-06-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -4608,6 +4603,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/incidentes-viales.html</loc>
     <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/indicadores-socioeconomicos.html</loc>
+    <lastmod>2019-04-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -4693,6 +4693,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/riesgos-socio-organizativos.html</loc>
     <lastmod>2017-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/rutas-transporte-publico-urbano.html</loc>
+    <lastmod>2019-04-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -51,7 +51,7 @@ class IncidentesViales extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Vialidad');
+        $this->categorias         = array('Vialidad', 'Movilidad');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/b10ba8dd-e734-4c04-96c5-2df15cba8372/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
