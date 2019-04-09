@@ -53,7 +53,7 @@ class IncidentesViales extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Vialidad');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/viz/663b2526-ee93-11e4-8e61-0e018d66dc29/public_map';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/b10ba8dd-e734-4c04-96c5-2df15cba8372/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,7 +66,7 @@ class IncidentesViales extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/viz/663b2526-ee93-11e4-8e61-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/b10ba8dd-e734-4c04-96c5-2df15cba8372/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </br><b>Fuente: Dirección de Tránsito y Vialidad, 2019.</b></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
