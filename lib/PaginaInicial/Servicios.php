@@ -51,7 +51,7 @@ class Servicios {
         $sig->url         = 'sig-mapas-torreon/index.html';
         $sig->botones     = array(
             '<i class="fa fa-server"></i> Planes'                      => 'sig-planes/index.html',
-            '<i class="fa fa-map-marker"></i> S.I.G. de Torreón'       => 'sig-mapas-torreon/index.html',
+            '<i class="fa fa-map-o"></i> S.I.G. de Torreón'            => 'sig-mapas-torreon/index.html',
             '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig-mapas-torreon/zonificacion-secundaria.html');
         // PET
         $pet              = new \PaginaInicial\Destacado();

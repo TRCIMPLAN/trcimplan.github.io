@@ -62,7 +62,7 @@ class NavegacionConfig {
 
             'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
             'Información Geográfica > Planes'                         => 'sig-planes/index.html',
-            'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
+         //   'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
             'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html',
             'Información Geográfica > Mapas por Tema'                 => array(
                                                                             'Información Geográfica > Mapas por Tema > Planes y Programas'      => 'sig-mapas-torreon/categoria-cultura.html',
@@ -97,8 +97,13 @@ class NavegacionConfig {
             //~'Institucional > Transparencia'                           => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),
 
         //'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
-        //'Transparencia'                                               => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
-        'Transparencia'                                               => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
+
+        // 'Transparencia'                                               => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
+        'Transparencia'  => array(
+             'Transparencia > Transparencia Estatal (ICAI)'                  => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
+             'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio'),
+
+
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
         'Términos de Uso' => array(
             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
@@ -133,7 +138,7 @@ class NavegacionConfig {
             'Planes'                       => 'fa fa-file-pdf-o',
             'Mapas de Torreón'             => 'fa fa-map-marker',
             'Zonificación Secundaria'      => 'fa fa-map-marker',
-            'Mapas por Tema'               => 'fa fa-external-link',
+            'Mapas por Tema'               => 'fa fa-map-o',
             'Planes y Programas'           => 'fa fa-map-marker',
             'Indicadores Georeferenciados' => 'fa fa-map-marker',
             'Inventario Urbano'            => 'fa fa-map-marker',
