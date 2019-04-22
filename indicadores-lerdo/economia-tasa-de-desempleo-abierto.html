@@ -124,17 +124,17 @@
           <ul class="nav nav-second-level">
             <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
             <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
-            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
             <li>
               <a href="#"><span class="navegacion-icono"><i class="fa fa-map-o"></i></span> Mapas por Tema<span class="fa arrow"></span></a>
               <ul class="nav nav-third-level">
                 <li><a href="../sig-mapas-torreon/categoria-cultura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Planes y Programas</a></li>
-                <li><a href="../sig-mapas-torreon/categoria-vivienda.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Indicadores Georeferenciados</a></li>
+                <li><a href="../sig-mapas-torreon/categoria-vivienda.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Indicadores Georreferenciados</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-infraestructura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Inventario Urbano</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-movilidad.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Movilidad</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-medio-ambiente.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Medio Ambiente</a></li>
               </ul>
             </li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
             <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
         </li>
@@ -611,9 +611,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">3.8000 %</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td class="centrado">2017-03-31</td>
+        <td class="derecha">4.2900 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
       <tr>
@@ -639,8 +639,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2017-09-30</td>
-        <td class="derecha">4.4000 %</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">3.8000 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -894,7 +894,7 @@
   if (typeof varSmiOtrasRegionesTasaDeDesempleoAbiertoEnLerdoGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeDesempleoAbiertoEnLerdoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeDesempleoAbiertoEnLerdoGrafica',
-      data: [{ region: 'Torreón', dato: 3.8000 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 4.4000 },{ region: 'Coahuila', dato: 4.2500 },{ region: 'Durango', dato: 3.8300 },{ region: 'Nacional', dato: 3.5500 }],
+      data: [{ region: 'Torreón', dato: 4.2900 },{ region: 'Gómez Palacio', dato: 5.9700 },{ region: 'Lerdo', dato: 2.6500 },{ region: 'Matamoros', dato: 5.6700 },{ region: 'La Laguna', dato: 3.8000 },{ region: 'Coahuila', dato: 4.2500 },{ region: 'Durango', dato: 3.8300 },{ region: 'Nacional', dato: 3.5500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

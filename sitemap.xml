@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-04-11</lastmod>
+    <lastmod>2019-04-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5951,6 +5951,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-delitos-por-violencia-de-genero-no-familiar.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-delitos-por-violencia-familiar.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-desigualdad-en-las-ciudades.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -6006,8 +6016,23 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-feminicidios.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-grado-promedio-de-escolaridad.html</loc>
     <lastmod>2015-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-grado-promedio-de-escolaridad-femenina.html</loc>
+    <lastmod>2019-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-hijos-nacidos-vivos-en-mujeres-de-12-anos-y-mas.html</loc>
+    <lastmod>2019-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6033,6 +6058,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-lesiones-a-pacientes-mujeres.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-lesiones-a-pacientes-mujeres-por-accidente.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-lesiones-a-pacientes-mujeres-por-violencia-familiar.html</loc>
+    <lastmod>2019-04-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6096,13 +6136,153 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-a-las-que-les-han-dicho-piropos-ofensivos-de-tipo-sexual-en-su-trabajo.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-a-las-que-les-han-lanzado-objetos-en-su-trabajo.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-a-las-que-su-pareja-les-ha-dejado-de-hablar.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-a-las-que-su-pareja-les-ha-prohibido-desempenar-un-trabajo-remunerado.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-con-nivel-de-educacion-basica.html</loc>
+    <lastmod>2019-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-con-nivel-de-educacion-media-superior.html</loc>
+    <lastmod>2019-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-con-nivel-de-educacion-superior.html</loc>
+    <lastmod>2019-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-de-15-17-anos-que-asisten-a-la-escuela.html</loc>
+    <lastmod>2019-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-de-18-29-anos-que-asiste-a-la-escuela.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-de-3-14-anos-que-asisten-a-la-escuela.html</loc>
+    <lastmod>2019-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-en-condicion-de-analfabetismo.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-en-la-administracion-municipal.html</loc>
     <lastmod>2019-01-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-en-la-ciencia.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-ocupadas-con-servicio-de-salud-por-su-trabajo.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-que-han-recibido-empujones-o-jalones-del-cabello-por-parte-de-su-pareja.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-que-han-recibido-gritos-o-groserias-en-su-trabajo.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-que-han-recibido-piropos-groseros-de-tipo-sexual-en-la-escuela.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-que-han-recibido-violencia-fisica-en-su-vida-estudiantil.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-que-han-recibido-violencia-psicologica-en-su-vida-estudiantil.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-que-han-sido-agredidas-por-sus-companeras-y-companeros-en-la-escuela.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-sin-escolaridad.html</loc>
+    <lastmod>2019-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nacimientos-registrados-en-mujeres-de-15-19-anos.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nacimientos-registrados-en-mujeres-de-20-24-anos.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nacimientos-registrados-en-mujeres-de-25-29-anos.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nacimientos-registrados-en-mujeres-de-30-34-anos.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nacimientos-registrados-en-mujeres-de-35-39-anos.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nacimientos-registrados-en-mujeres-de-40-44-anos.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nacimientos-registrados-en-mujeres-de-45-49-anos.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-nacimientos-registrados-en-mujeres-menores-de-15-anos.html</loc>
+    <lastmod>2019-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6203,6 +6383,31 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-estimada.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-femenina-afiliada-que-tiene-imss.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-femenina-afiliada-que-tiene-issste.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-femenina-afiliada-que-tiene-seguro-popular.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-femenina-afiliada-que-tiene-servicio-de-salud-privado.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-femenina-con-afiliacion-a-servicios-de-salud.html</loc>
+    <lastmod>2019-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11861,6 +12066,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-diferencial-estructural-del-ingreso-entre-hombres-y-mujeres.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-discapacidad.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -11911,6 +12121,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-horas-trabajadas-por-semana-de-la-poblacion-femenina.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -11923,6 +12138,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-ingresos-promedio-por-hora-trabajada-en-mujeres.html</loc>
+    <lastmod>2019-04-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11986,6 +12206,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-empleadoras.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-en-la-administracion-municipal.html</loc>
     <lastmod>2019-01-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -11993,6 +12218,46 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-que-ganan-de-1-a-2-salarios-minimos.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-que-ganan-hasta-un-salario-minimo.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-que-ganan-mas-de-3-salarios-minimos.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-que-han-recibido-agresiones-sexuales-en-su-vida-estudiantil.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-que-realizan-una-actividad-productiva-adicional-a-su-trabajo.html</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-que-trabajan-en-el-sector-secundario.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-que-trabajan-en-el-sector-terciario.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-subordinadas-y-remuneradas.html</loc>
+    <lastmod>2019-04-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12101,8 +12366,23 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-tasa-de-desocupacion-femenina.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-tasa-de-informalidad-laboral-femenina.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-tasa-de-ocupacion-femenina.html</loc>
+    <lastmod>2019-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12826,6 +13106,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/sociedad-mujeres-en-la-ciencia.html</loc>
+    <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/sociedad-organizaciones-de-la-sociedad-civil.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -13143,6 +13428,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/sociedad-grado-promedio-de-escolaridad.html</loc>
     <lastmod>2015-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/sociedad-homicidio-a-mujeres-informe-avgm.html</loc>
+    <lastmod>2019-04-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

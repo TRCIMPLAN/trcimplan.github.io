@@ -43,7 +43,7 @@ class SustentabilidadAerolineas extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Lerdo, Índice de Competitividad Urbana';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana');
-        $this->fuentes     = array('IMCO', 'IMCO-CONAGUA');
+        $this->fuentes     = array('IMCO');
         $this->regiones    = array('Lerdo');
     } // constructor
 
@@ -72,7 +72,7 @@ class SustentabilidadAerolineas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO-CONAGUA')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -96,11 +96,11 @@ class SustentabilidadAerolineas extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '7', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2019-01-31', 'valor' => '6', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO-CONAGUA'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '7', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-01-31', 'valor' => '6', 'fuente_nombre' => 'Operadora Mexicana de Aeropuertos (OMA)'));
     } // otras_regiones
 
     /**

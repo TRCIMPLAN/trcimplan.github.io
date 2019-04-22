@@ -100,7 +100,7 @@ class SociedadMujeresEnLaFuerzaLaboral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '60291', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de mujeres de 15 años o más económicamente activas'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '24582', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '32042', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de mujeres de 15 años o más económicamente activas'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '10.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '48.6200', 'fuente_nombre' => 'INEGI', 'notas' => 'Aparece en: Encuesta Nacional de Ocupación y Empleo (ENOE)'));
     } // otras_regiones
 
     /**

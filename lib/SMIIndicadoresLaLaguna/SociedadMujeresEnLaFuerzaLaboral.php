@@ -43,7 +43,7 @@ class SociedadMujeresEnLaFuerzaLaboral extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Género';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Género');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -72,7 +72,8 @@ class SociedadMujeresEnLaFuerzaLaboral extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '37.7800', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '43.9100', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '42.2900', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '10.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2016-12-31', 'valor' => '10.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '48.6200', 'fuente_nombre' => 'INEGI', 'notas' => 'Aparece en: Encuesta Nacional de Ocupación y Empleo (ENOE)')); // formateado 0, valor 14, crudo 8
     } // datos
 
     /**
@@ -100,7 +101,7 @@ class SociedadMujeresEnLaFuerzaLaboral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '60291', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de mujeres de 15 años o más económicamente activas'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '24582', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '32042', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de mujeres de 15 años o más económicamente activas'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '10.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '48.6200', 'fuente_nombre' => 'INEGI', 'notas' => 'Aparece en: Encuesta Nacional de Ocupación y Empleo (ENOE)'));
     } // otras_regiones
 
     /**

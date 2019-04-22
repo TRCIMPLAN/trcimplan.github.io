@@ -124,17 +124,17 @@
           <ul class="nav nav-second-level">
             <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
             <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
-            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
             <li>
               <a href="#"><span class="navegacion-icono"><i class="fa fa-map-o"></i></span> Mapas por Tema<span class="fa arrow"></span></a>
               <ul class="nav nav-third-level">
                 <li><a href="../sig-mapas-torreon/categoria-cultura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Planes y Programas</a></li>
-                <li><a href="../sig-mapas-torreon/categoria-vivienda.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Indicadores Georeferenciados</a></li>
+                <li><a href="../sig-mapas-torreon/categoria-vivienda.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Indicadores Georreferenciados</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-infraestructura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Inventario Urbano</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-movilidad.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Movilidad</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-medio-ambiente.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Medio Ambiente</a></li>
               </ul>
             </li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
             <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
           </ul>
         </li>
@@ -287,9 +287,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">7</td>
-        <td>IMCO</td>
+        <td class="centrado">2019-01-31</td>
+        <td class="derecha">6</td>
+        <td>Operadora Mexicana de Aeropuertos (OMA)</td>
         <td></td>
       </tr>
       <tr>
@@ -303,7 +303,7 @@
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
         <td class="derecha">0</td>
-        <td>IMCO-CONAGUA</td>
+        <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
@@ -315,9 +315,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">7</td>
-        <td>IMCO</td>
+        <td class="centrado">2019-01-31</td>
+        <td class="derecha">6</td>
+        <td>Operadora Mexicana de Aeropuertos (OMA)</td>
         <td></td>
       </tr>
     </tbody>
@@ -431,7 +431,7 @@
   if (typeof varSmiOtrasRegionesAerolineasEnGomezPalacioGrafica === 'undefined') {
     varSmiOtrasRegionesAerolineasEnGomezPalacioGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAerolineasEnGomezPalacioGrafica',
-      data: [{ region: 'Torreón', dato: 7 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 7 }],
+      data: [{ region: 'Torreón', dato: 6 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 6 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
