@@ -51,7 +51,7 @@ class PlanDirectorDesarrolloUrbano extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Vivienda', 'Infraestructura', 'Vialidad');
+        $this->categorias         = array('Cultura');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/fc3b6d3f-b9ba-4f3d-acdf-4729709c4fdd/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
