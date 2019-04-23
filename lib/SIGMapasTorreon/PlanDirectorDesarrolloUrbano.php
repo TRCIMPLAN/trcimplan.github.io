@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SIGMapasTorreon ViviendasConComputadora
+ * TrcIMPLAN Sitio Web - SIGMapasTorreon PlanDirectorDesarrolloUrbano
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,25 +23,25 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase ViviendasConComputadora
+ * Clase PlanDirectorDesarrolloUrbano
  */
-class ViviendasConComputadora extends \Base\Publicacion {
+class PlanDirectorDesarrolloUrbano extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Viviendas con Computadora';
-        $this->autor              = 'Arq. Jair Miramontes Chávez';
-        $this->fecha              = '2015-04-13T08:00';
+        $this->nombre             = 'Plan Director de Desarrollo Urbano';
+        $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
+        $this->fecha              = '2019-04-23T13:09';
         // El nombre del archivo a crear y rutas relativas a las imágenes
-        $this->archivo            = 'viviendas-con-computadora';
-        $this->imagen             = 'viviendas-con-computadora/imagen.jpg';
-        $this->imagen_previa      = 'viviendas-con-computadora/imagen-previa.jpg';
+        $this->archivo            = 'plan-director-desarrollo-urbano';
+        $this->imagen             = 'plan-director-desarrollo-urbano/imagen.jpg';
+        $this->imagen_previa      = 'plan-director-desarrollo-urbano/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Accesibilidad de las viviendas a contar con computadora.';
-        $this->claves             = 'IMPLAN, Torreon, Computadora';
+        $this->descripcion        = 'Es el principal instrumento normativo para el ordenamiento territorial urbano del municipio de Torreón. El mapa muestra la estrategia de zonificación secundaria (usos de suelo) y la estrategia de vialidad.';
+        $this->claves             = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -51,9 +51,9 @@ class ViviendasConComputadora extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Bienestar', 'Vivienda');
+        $this->categorias         = array('Vivienda', 'Infraestructura', 'Vialidad');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/0b2a1d1e-de25-11e4-91b0-0e4fddd5de28/embed';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/fc3b6d3f-b9ba-4f3d-acdf-4729709c4fdd/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,8 +66,9 @@ class ViviendasConComputadora extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/0b2a1d1e-de25-11e4-91b0-0e4fddd5de28/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-<p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/fc3b6d3f-b9ba-4f3d-acdf-4729709c4fdd/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br> <b>Fuente: Plan Director de Desarrollo Urbano del Municipio Torreón. Periódico Oficial del Estado de Coahuila, 14 de febrero de 2014.</b>
+</br></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
@@ -115,6 +116,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase ViviendasConComputadora
+} // Clase PlanDirectorDesarrolloUrbano
 
 ?>

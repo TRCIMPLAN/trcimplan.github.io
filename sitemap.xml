@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-04-22</lastmod>
+    <lastmod>2019-04-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4651,6 +4651,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/plan-director-desarrollo-urbano.html</loc>
+    <lastmod>2019-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/poligonos-pobreza.html</loc>
     <lastmod>2016-02-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -4698,21 +4703,6 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/vida-en-ciudad.html</loc>
     <lastmod>2015-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-computadora.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-internet.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas-deshabitadas.html</loc>
-    <lastmod>2015-04-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
