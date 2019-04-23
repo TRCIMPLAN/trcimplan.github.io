@@ -71,7 +71,7 @@ class NavegacionConfig {
                                                                             'Información Geográfica > Mapas por Tema > Movilidad'               => 'sig-mapas-torreon/categoria-movilidad.html',
                                                                             'Información Geográfica > Mapas por Tema > Medio Ambiente'          => 'sig-mapas-torreon/categoria-medio-ambiente.html'),
             //'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html',
-            'Información Geográfica > Plan Director de Desarrollo Urbano' => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html',
+            'Información Geográfica > Uso de Suelo'                   => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html',
             'Información Geográfica > Datos Abiertos'                 => 'sig-mapas-torreon/zonificacion-secundaria.html'),
         'Plan Estratégico Torreón 2040' => array(
 
@@ -140,7 +140,7 @@ class NavegacionConfig {
             'Planes'                       => 'fa fa-file-pdf-o',
             'Mapas de Torreón'             => 'fa fa-map-marker',
             //'Zonificación Secundaria'      => 'fa fa-map-marker',
-            'Plan Director de Desarrollo Urbano'=> 'fa fa-map-marker',
+            'Uso de Suelo'                 => 'fa fa-map-marker',
             'Mapas por Tema'               => 'fa fa-map-o',
             'Planes y Programas'           => 'fa fa-map-marker',
             'Indicadores Georreferenciados'=> 'fa fa-map-marker',
