@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-04-23</lastmod>
+    <lastmod>2019-04-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4601,6 +4601,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/conjuntos-parques-industriales.html</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html</loc>
     <lastmod>2015-06-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -4618,11 +4623,6 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-sector-salud.html</loc>
     <lastmod>2015-11-04</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-vial.html</loc>
-    <lastmod>2015-10-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -4658,11 +4658,6 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/poligonos-pobreza.html</loc>
     <lastmod>2016-02-11</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/predios-que-cuentan-con-uso-suelo-industrial.html</loc>
-    <lastmod>2017-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

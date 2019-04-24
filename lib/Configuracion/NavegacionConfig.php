@@ -66,7 +66,8 @@ class NavegacionConfig {
          //   'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html',
             'Información Geográfica > Mapas por Tema'                 => array(
                                                                             'Información Geográfica > Mapas por Tema > Planes y Programas'      => 'sig-mapas-torreon/categoria-cultura.html',
-                                                                            'Información Geográfica > Mapas por Tema > Indicadores Georreferenciados'      => 'sig-mapas-torreon/categoria-vivienda.html',
+                                                                            //'Información Geográfica > Mapas por Tema > Indicadores Georreferenciados'      => 'sig-mapas-torreon/categoria-vivienda.html',
+                                                                            'Información Geográfica > Mapas por Tema > Indicadores Georreferenciados'      => '',
                                                                             'Información Geográfica > Mapas por Tema > Inventario Urbano'       => 'sig-mapas-torreon/categoria-infraestructura.html',
                                                                             'Información Geográfica > Mapas por Tema > Movilidad'               => 'sig-mapas-torreon/categoria-movilidad.html',
                                                                             'Información Geográfica > Mapas por Tema > Medio Ambiente'          => 'sig-mapas-torreon/categoria-medio-ambiente.html'),

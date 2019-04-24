@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SIGMapasTorreon PrediosQueCuentanConUsoSueloIndustrial
+ * TrcIMPLAN Sitio Web - SIGMapasTorreon ConjuntosParquesIndustriales
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,22 +23,22 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase PrediosQueCuentanConUsoSueloIndustrial
+ * Clase ConjuntosParquesIndustriales
  */
-class PrediosQueCuentanConUsoSueloIndustrial extends \Base\Publicacion {
+class ConjuntosParquesIndustriales extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Predios que cuentan con Uso de Suelo Industrial';
-        $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
+        $this->nombre             = 'Conjuntos y Parques Industriales';
+        $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
         $this->fecha              = '2017-04-05T15:24';
         // El nombre del archivo a crear y rutas relativas a las imágenes
-        $this->archivo            = 'predios-que-cuentan-con-uso-suelo-industrial';
-        $this->imagen             = 'predios-que-cuentan-con-uso-suelo-industrial/imagen.jpg';
-        $this->imagen_previa      = 'predios-que-cuentan-con-uso-suelo-industrial/imagen-previa.jpg';
+        $this->archivo            = 'conjuntos-parques-industriales';
+        $this->imagen             = 'conjuntos-parques-industriales/imagen.jpg';
+        $this->imagen_previa      = 'conjuntos-parques-industriales/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion        = 'Localización de los predios que cuentan con Uso de Suelo Industrial en la Zona Metropolitana de la Laguna según sus Planes de Desarrollo Urbano vigentes.';
         $this->claves             = 'Parques Industriales, Fabricas, Empresas';
@@ -66,7 +66,10 @@ class PrediosQueCuentanConUsoSueloIndustrial extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/7389dd88-0fef-11e7-a59b-0e3ff518bd15/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/7389dd88-0fef-11e7-a59b-0e3ff518bd15/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><br>
+</br><b>Fuente: IMPLAN 2017</b>
+</br></br></br>
+<b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
@@ -114,6 +117,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase PrediosQueCuentanConUsoSueloIndustrial
+} // Clase ConjuntosParquesIndustriales
 
 ?>
