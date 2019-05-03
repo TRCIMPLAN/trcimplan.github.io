@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/alejandra-martinez-aviles.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-alejandra-martinez-aviles-top2.png" align="right" alt="Foto Alejandra" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 **La periodista, teórica y activista, Jane Jacobs (1916 – 2006), con su libro “Muerte y Vida de las Grandes Ciudades” (1961)**, transformó las ideas de la planificación urbana moderna tras observar las dinámicas y el funcionamiento de las ciudades; en lugar de estipular cómo es que deberían funcionar, se enfocó en describir los factores que las afectan, enfatizando que el ciudadano es quien detecta sus necesidades y posibles mejoras, tras vivir el espacio cotidianamente.
 
