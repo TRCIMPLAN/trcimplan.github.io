@@ -47,11 +47,11 @@ class CentrosAtencionAdultosMayores extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu        = 'Información Geográfica';
         // El estado puede ser publicar, revisar o ignorar
-        $this->estado             = 'Publicar';
+        $this->estado             = 'Revisar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir     = TRUE;
+        $this->para_compartir     = FALSE;
         // Para el Organizador
-        $this->categorias         = array('Grupos Vulnerables', 'Población');
+        $this->categorias         = array('Grupos Vulnerables', 'Bienestar', 'Infraestructura', 'Servicios Públicos', 'Vivienda');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/e7bcd4c2-f93c-11e6-9e15-0ecd1babdde5/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';

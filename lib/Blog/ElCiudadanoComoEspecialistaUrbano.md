@@ -17,6 +17,8 @@ En el 2018, el IMPLAN encuestó a visitantes del PM y concluyó que el 30.8% de 
 
 a) Uso Mixto; actividad diversa a lo largo del día, asegurando dinámicas 24/7.
 
+<img class="img-responsive" src="el-ciudadano-como-especialista-urbano-abril2019/ima02.png" alt="Distribución Uso de Suelo Morelos">
+
 b) Edificaciones Antiguas; reutilización de obras existentes, otorgando ahorro en materia de infraestructura y superestructura. El patrimonio arquitectónico catalogado por INAH e INBA del CHT para 2019, es de 139 inmuebles existentes; 25 ubicados en PM.
 
 c) Cuadras Pequeñas; abundancia y diversidad de servicios concentrados en una distancia corta, caminable, promoviendo la interacción humana, aumentando las oportunidades de negocio y convivencia.

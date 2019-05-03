@@ -51,7 +51,7 @@ class InventarioViviendas extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = TRUE;
         // Para el Organizador
-        $this->categorias         = array('Bienestar', 'Infraestructura', 'Vivienda', 'Población');
+        $this->categorias         = array('Bienestar', 'Infraestructura', 'Servicios Públicos', 'Vivienda');
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/ba020a18-9486-4435-ab21-36dbd8fd675a/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';

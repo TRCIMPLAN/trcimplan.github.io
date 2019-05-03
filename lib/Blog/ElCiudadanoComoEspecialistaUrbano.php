@@ -40,7 +40,7 @@ class ElCiudadanoComoEspecialistaUrbano extends \Base\PublicacionSchemaBlogPosti
         // El nombre del archivo a crear
         $this->archivo                    = 'el-ciudadano-como-especialista-urbano-abril2019';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = '“La ciudad tiene la capacidad de proveer algo para todos, sólo cuando éstas son creadas para todos.” Jane Jacobs.';
+        $this->descripcion                = '“La ciudad tiene la capacidad de proveer algo para todos, sólo cuando ésta es creada para todos.” Jane Jacobs.';
         $this->claves                     = 'IMPLAN, Torreon, urbanismo';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/ElCiudadanoComoEspecialistaUrbano.md';
