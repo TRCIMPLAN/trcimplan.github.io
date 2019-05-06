@@ -39,6 +39,7 @@ class NavegacionConfig {
             'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
             'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
             'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
+            'Indicadores > Niveles Socioeconómicos'                   => 'smi/niveles-socioeconomicos.html',
             'Indicadores > Monitores'                                 => 'monitores/index.html'),
             //'Indicadores > Convocatorias'                             => 'convocatorias/index.html'),
         'Indicadores Básicos de Colonias' => array(
@@ -128,6 +129,7 @@ class NavegacionConfig {
             'Indicadores por Región'       => 'fa fa-table',
             'Georreferenciados'            => 'fa fa-map-marker',
             'Datos Abiertos'               => 'fa fa-download',
+            'Niveles Socioeconómicos'      => 'fa fa-bar-chart',
             'Monitores'                    => 'fa fa-file-text-o',
             'Convocatorias'                => 'fa fa-file-text-o',
         'Indicadores Básicos de Colonias'  => 'fa fa-puzzle-piece',
