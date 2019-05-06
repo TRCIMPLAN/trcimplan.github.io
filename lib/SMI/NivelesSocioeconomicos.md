@@ -32,6 +32,9 @@ Fuente: [Cálculos propios de la AMAI a partir de los datos de la Encuesta Nacio
 Entidad           |A/B  |C+  |C   |C-  |D+  |D   |E   |TOTAL   |
 ------------------|-----|----|----|----|----|----|----|--------|
 Coahuila          |7%   |12% |16% |18% |18% |25% |5%  |100%    |
+Chihuahua         |8%   |12% |16% |17% |19% |23% |6%  |100%    |
+Durango           |6%   |10% |15% |16% |20% |26% |6%  |100%    |
+Nuevo León        |10%  |16% |19% |18% |15% |19% |4%  |100%    |
 
 Fuente: [Cálculos propios de la AMAI a partir de los datos de la Encuesta Nacional de Ingresos y Gastos de los Hogares 2016](http://nse.amai.org/data/).
 
