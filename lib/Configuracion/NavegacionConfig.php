@@ -74,7 +74,7 @@ class NavegacionConfig {
                                                                             'Información Geográfica > Mapas por Tema > Medio Ambiente'          => 'sig-mapas-torreon/categoria-medio-ambiente.html'),
             //'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html',
             'Información Geográfica > Usos de Suelo'                  => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html',
-            'Información Geográfica > Datos Abiertos'                 => 'sig-mapas-torreon/zonificacion-secundaria.html'),
+            'Información Geográfica > Datos Abiertos'                 => 'sig/datos-abiertos.html'),
         'Plan Estratégico Torreón 2040' => array(
 
             'Plan Estratégico Torreón 2040 > Índice General'          => 'pet/indice.html',

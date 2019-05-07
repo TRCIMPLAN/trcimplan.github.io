@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-05-06</lastmod>
+    <lastmod>2019-05-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4293,6 +4293,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/datos-abiertos.html</loc>
+    <lastmod>2019-04-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
