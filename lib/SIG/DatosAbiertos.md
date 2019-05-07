@@ -7,11 +7,11 @@
 
 
 
-<a href="../sig/inv-viv-torreon-2016.csv"><img src="datos-abiertos/icono-csv.png" alt="Descargar CSV del SIG"> Datos abiertos de SIG Torreón en CSV.</a>
+<a href="../sig/datos-abiertos/inv-viv-torreon-2016.csv"><img src="datos-abiertos/icono-csv.png" alt="Descargar CSV del SIG"> Datos abiertos de SIG Torreón en CSV.</a>
 
-<a href="../sig/inv-viv-torreon-2016.dwg"><img src="datos-abiertos/icono-dwg.png" alt="Descargar DWG del SIG"> Datos abiertos de SIG Torreón en DWG.</a>
+<a href="../sig/datos-abiertos/inv-viv-torreon-2016.dwg"><img src="datos-abiertos/icono-dwg.png" alt="Descargar DWG del SIG"> Datos abiertos de SIG Torreón en DWG.</a>
 
-<a href="../sig/inv-viv-torreon-2016.zip"><img src="datos-abiertos/icono-zip.png" alt="Descargar ZIP del SIG"> Datos abiertos de SIG Torreón en ZIP.</a>
+<a href="../sig/datos-abiertos/inv-viv-torreon-2016.zip"><img src="datos-abiertos/icono-zip.png" alt="Descargar ZIP del SIG"> Datos abiertos de SIG Torreón en ZIP.</a>
 
 <table>
  <tr>
@@ -21,9 +21,9 @@
  </tr>
 
  <tr>
-    <td><center><a href="../sig/inv-viv-torreon-2016.csv"><img src="datos-abiertos/icono-csv.png" alt="Descargar CSV del SIG"> Datos abiertos de SIG Torreón en CSV.</a></center></td>
-    <td><center><a href="../sig/inv-viv-torreon-2016.dwg"><img src="datos-abiertos/icono-dwg.png" alt="Descargar DWG del SIG"> Datos abiertos de SIG Torreón en DWG.</a></center></td>
-    <td><center><a href="../sig/inv-viv-torreon-2016.zip"><img src="datos-abiertos/icono-zip.png" alt="Descargar ZIP del SIG"> Datos abiertos de SIG Torreón en ZIP.</a></center></td>
+    <td><center><a href="../sig/datos-abiertos/inv-viv-torreon-2016.csv"><img src="datos-abiertos/icono-csv.png" alt="Descargar CSV del SIG"> Datos abiertos de SIG Torreón en CSV.</a></center></td>
+    <td><center><a href="../sig/datos-abiertos/inv-viv-torreon-2016.dwg"><img src="datos-abiertos/icono-dwg.png" alt="Descargar DWG del SIG"> Datos abiertos de SIG Torreón en DWG.</a></center></td>
+    <td><center><a href="../sig/datos-abiertos/inv-viv-torreon-2016.zip"><img src="datos-abiertos/icono-zip.png" alt="Descargar ZIP del SIG"> Datos abiertos de SIG Torreón en ZIP.</a></center></td>
  </tr>
 
 </table>
