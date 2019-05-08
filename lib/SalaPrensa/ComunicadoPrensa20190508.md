@@ -18,6 +18,12 @@ Debido a éste y más resultados, se logró el acercamiento de las universidades
 
 El Taller de Vinculación será llevado a cabo el próximo 16 de mayo del presente año en las instalaciones de la Casa Club de Altozano, ubicado en la ciudad de Gómez Palacio, Dgo.
 
-<center><img src="2019-05-08-taller-de-vinculacion/ima01.jpg" alt="Taller de Vinculación"></center>
 
+<center><img src="2019-05-08-taller-de-vinculacion/ima02.jpg" alt="Taller de Vinculación 2"></center>
+
+<center><img src="2019-05-08-taller-de-vinculacion/ima03.jpg" alt="Taller de Vinculación 3"></center>
+
+<center><img src="2019-05-08-taller-de-vinculacion/ima04.jpg" alt="Taller de Vinculación 4"></center>
+
+<center><img src="2019-05-08-taller-de-vinculacion/ima01.jpg" alt="Taller de Vinculación"></center>
 </br>
