@@ -3,27 +3,23 @@
 
 ##Manzanas Urbanas
 
-<img class="img-responsive" src="datos-abiertos/ima01.jpg" alt="Datos Abiertos SIG">
-
-
-
-<a href="../sig/datos-abiertos/inv-viv-torreon-2016.csv"><img src="datos-abiertos/icono-csv.png" alt="Descargar CSV del SIG"> Datos abiertos de SIG Torreón en CSV.</a>
-
-<a href="../sig/datos-abiertos/inv-viv-torreon-2016.dwg"><img src="datos-abiertos/icono-dwg.png" alt="Descargar DWG del SIG"> Datos abiertos de SIG Torreón en DWG.</a>
-
-<a href="../sig/datos-abiertos/inv-viv-torreon-2016.zip"><img src="datos-abiertos/icono-zip.png" alt="Descargar ZIP del SIG"> Datos abiertos de SIG Torreón en ZIP.</a>
-
 <table>
  <tr>
-    <th><center><b>DESCARGAR CSV</b></center></th>
-    <th><center><b>DESCARGAR DWG</b></center></th>
-    <th><center><b>DESCARGAR ZIP</b></center></th>
+    <td><center><img class="img-responsive" src="datos-abiertos/ima01.jpg" alt="Datos Abiertos SIG"></center></td>
+    <td><b>Fuente:</b> INEGI, Inventario Nacional de Viviendas 2016.</br>
+    <b>Geometría:</b> Polígonos (manzanas) </br>
+    <b>Contenido:</b> Manzanas urbanas del municipio de Torreón. </br>
+    Contienen indicadores del Inventario Nacional de Viviendas 2016 (INEGI) </br>
+    tales como el inventario de viviendas,</br> sus características, características de las vialidades </br> y su identificación geográfica. </td>
+
  </tr>
 
- <tr>
-    <td><center><a href="../sig/datos-abiertos/inv-viv-torreon-2016.csv"><img src="datos-abiertos/icono-csv.png" alt="Descargar CSV del SIG"> Datos abiertos de SIG Torreón en CSV.</a></center></td>
-    <td><center><a href="../sig/datos-abiertos/inv-viv-torreon-2016.dwg"><img src="datos-abiertos/icono-dwg.png" alt="Descargar DWG del SIG"> Datos abiertos de SIG Torreón en DWG.</a></center></td>
-    <td><center><a href="../sig/datos-abiertos/inv-viv-torreon-2016.zip"><img src="datos-abiertos/icono-zip.png" alt="Descargar ZIP del SIG"> Datos abiertos de SIG Torreón en ZIP.</a></center></td>
- </tr>
+
 
 </table>
+
+##Archivos para Descarga
+
+<a href="../sig/datos-abiertos/inv-viv-torreon-2016.csv"><img src="datos-abiertos/icono-csv.png" alt="Descargar CSV del SIG"> </a>
+<a href="../sig/datos-abiertos/inv-viv-torreon-2016.dwg"><img src="datos-abiertos/icono-dwg.png" alt="Descargar DWG del SIG"> </a>
+<a href="../sig/datos-abiertos/inv-viv-torreon-2016.zip"><img src="datos-abiertos/icono-zip.png" alt="Descargar ZIP del SIG"> </a>
