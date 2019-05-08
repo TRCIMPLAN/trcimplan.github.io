@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/frida-valeria-garcia-gutierrez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-frida-valeria-garcia-gutierrez-top2.png" align="right" alt="Foto Maira" width="500" height="200"></a>
+
+</p>
+</br></br></br></br></br></br></br></br>
+
+
+---
 
 La diferencia entre un esquema de contratación ordinario y una APP, es la transferencia de riesgos asociados al proyecto que la administración hace al privado con la intención de que los gestione quien mejor los resuelva; a fin de que los servicios, la infraestructura o el equipamiento sea eficiente y de calidad para la ciudadanía. Desde otra arista, las APP también son un medio para financiar proyectos que necesitan cuantiosos montos de inversión; pues podrían presentarse proyectos que requieran recursos desde el diseño, la construcción, la operación y el mantenimiento.
 
