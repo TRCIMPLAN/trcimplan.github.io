@@ -67,7 +67,8 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '16.7600', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2010-12-31', 'valor' => '16.7600', 'fuente_nombre' => 'CONEVAL'),
+            array('fecha' => '2015-12-31', 'valor' => '15.6000', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -91,10 +92,10 @@ class SociedadRezagoEducativo extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '10.8300', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '17.3100', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '16.7600', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '19.2000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '10.1000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '14.3000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '15.6000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '16.2000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '87.2500', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '12.1000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '18.6000', 'fuente_nombre' => 'CONEVAL'),

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SociedadPersonasPorDebajoDeLaLineaDeBienestar
+ * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SociedadPersonasPorDebajoDeLaLineaDeBienestarImco
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresTorreon;
 
 /**
- * Clase SociedadPersonasPorDebajoDeLaLineaDeBienestar
+ * Clase SociedadPersonasPorDebajoDeLaLineaDeBienestarImco
  */
-class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\PublicacionWeb {
+class SociedadPersonasPorDebajoDeLaLineaDeBienestarImco extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,10 +34,10 @@ class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\Publicacion
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Personas por Debajo de la Línea de Bienestar en Torreón';
+        $this->nombre      = 'Personas por Debajo de la Línea de Bienestar (IMCO) en Torreón';
         $this->fecha       = '2015-07-14T15:41:06';
         // El nombre del archivo a crear
-        $this->archivo     = 'sociedad-personas-por-debajo-de-la-linea-de-bienestar';
+        $this->archivo     = 'sociedad-personas-por-debajo-de-la-linea-de-bienestar-imco';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la proporción de la PEA ocupada con ingresos menores a la línea de bienestar mínimo que marca CONEVAL. En diciembre 2012, esta línea se ubicó en $2,388 pesos. Incluye tanto la canasta básica alimentaria como la no alimentaria.';
         $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Bienestar';
@@ -123,6 +123,6 @@ Fuente: INEGI (ENOE), CONEVAL.
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase SociedadPersonasPorDebajoDeLaLineaDeBienestar
+} // Clase SociedadPersonasPorDebajoDeLaLineaDeBienestarImco
 
 ?>

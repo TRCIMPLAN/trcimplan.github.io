@@ -68,7 +68,7 @@ class SociedadPobreza extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2012-12-31', 'valor' => '33.8400', 'fuente_nombre' => 'CONEVAL'),
-            array('fecha' => '2015-12-31', 'valor' => '42.6000', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2015-12-31', 'valor' => '35.7000', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -95,7 +95,7 @@ class SociedadPobreza extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '26.2000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '30.5000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '36.3000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '42.6000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '35.7000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '32.7400', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '27.7000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '50.3400', 'fuente_nombre' => 'CONEVAL'),

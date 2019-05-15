@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresGomezPalacio SociedadPersonasPorDebajoDeLaLineaDeBienestar
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLerdo SociedadPersonasPorDebajoDeLaLineaDeBienestarImco
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,12 +20,12 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresLerdo;
 
 /**
- * Clase SociedadPersonasPorDebajoDeLaLineaDeBienestar
+ * Clase SociedadPersonasPorDebajoDeLaLineaDeBienestarImco
  */
-class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\PublicacionWeb {
+class SociedadPersonasPorDebajoDeLaLineaDeBienestarImco extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,17 +34,17 @@ class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\Publicacion
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Personas por Debajo de la Línea de Bienestar en Gómez Palacio';
+        $this->nombre      = 'Personas por Debajo de la Línea de Bienestar (IMCO) en Lerdo';
         $this->fecha       = '2015-07-14T15:41:06';
         // El nombre del archivo a crear
-        $this->archivo     = 'sociedad-personas-por-debajo-de-la-linea-de-bienestar';
+        $this->archivo     = 'sociedad-personas-por-debajo-de-la-linea-de-bienestar-imco';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la proporción de la PEA ocupada con ingresos menores a la línea de bienestar mínimo que marca CONEVAL. En diciembre 2012, esta línea se ubicó en $2,388 pesos. Incluye tanto la canasta básica alimentaria como la no alimentaria.';
-        $this->claves      = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Bienestar';
+        $this->claves      = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Bienestar';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Bienestar');
         $this->fuentes     = array('IMCO');
-        $this->regiones    = array('Gómez Palacio');
+        $this->regiones    = array('Lerdo');
     } // constructor
 
     /**
@@ -67,12 +67,12 @@ class SociedadPersonasPorDebajoDeLaLineaDeBienestar extends \SMIBase\Publicacion
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '1.7500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '1.1600', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '2.8900', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '3.0900', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '4.4900', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '19327', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que ganan menos de lo establecido por CONEVAL')); // formateado 0, valor 12, crudo 7
+            array('fecha' => '2008-12-31', 'valor' => '1.3600', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2009-12-31', 'valor' => '7.7800', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2010-12-31', 'valor' => '4.5800', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2011-12-31', 'valor' => '5.0400', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2012-12-31', 'valor' => '2.6800', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '5276', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas que ganan menos de lo establecido por CONEVAL')); // formateado 0, valor 12, crudo 7
     } // datos
 
     /**
@@ -123,6 +123,6 @@ Fuente: INEGI (ENOE), CONEVAL.
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase SociedadPersonasPorDebajoDeLaLineaDeBienestar
+} // Clase SociedadPersonasPorDebajoDeLaLineaDeBienestarImco
 
 ?>

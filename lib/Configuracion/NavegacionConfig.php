@@ -76,12 +76,25 @@ class NavegacionConfig {
             'Información Geográfica > Usos de Suelo'                  => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html',
             'Información Geográfica > Datos Abiertos'                 => 'sig/datos-abiertos.html'),
         'Plan Estratégico Torreón 2040' => array(
-
             'Plan Estratégico Torreón 2040 > Índice General'          => 'pet/indice.html',
             'Plan Estratégico Torreón 2040 > Índice Alfabético'       => 'pet/index.html',
             'Plan Estratégico Torreón 2040 > Descargar'               => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html',
             'Plan Estratégico Torreón 2040 > Descripción del proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
             'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html'),
+
+//ÚLTIMOS CAMBIOS VM
+
+//        'Documentos'  => array(
+//            'Documentos > Planes y Programas'       => array(
+//                  'Documentos > Planes y Programas > Plan Estratégico Torreón 2040'                  =>  'pet/indice.html',
+//                  'Documentos > Planes y Programas > Plan Director de Desarrollo Urbano'             =>  'sig-planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf',
+//                  'Documentos > Planes y Programas > Plan Integral de Movilidad Urbana Sustentable'  =>  'sig-planes/PIMUS_LAGUNA.pdf',
+//            ),
+//            'Documentos > Estudios e Investigaciones'   => 'investigaciones/index.html',
+//            'Documentos > Leyes y Reglamentos'          => ' '
+//        ),
+// ÚLTIMOS CAMBIOS VM FIN
+
         'Investigaciones' => 'investigaciones/index.html',
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
 
@@ -156,7 +169,13 @@ class NavegacionConfig {
             'Descargar'                    => 'fa fa-download',
             'Descripción del proceso'      => 'fa fa-calendar',
             'Proyectos'                    => 'fa fa-check-square',
-        'Investigaciones'                  => 'fa fa-briefcase',
+        //'Investigaciones'                  => 'fa fa-briefcase',
+
+        'Documentos'                       => 'fa fa-briefcase',
+            'Planes y Programas'           => 'fa fa-book',
+            'Estudios e Investigaciones'   => 'fa fa-book',
+            'Leyes y Reglamentos'          => 'fa fa-book',
+
         'Consejo Directivo'                => 'fa fa-users',
         'Visión Metrópoli'                 => 'fa fa-university',
             'Reglamento'                   => 'fa fa-file-text-o',

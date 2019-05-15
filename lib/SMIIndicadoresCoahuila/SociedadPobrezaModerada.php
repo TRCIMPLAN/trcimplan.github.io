@@ -94,7 +94,7 @@ class SociedadPobrezaModerada extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '23.4000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '29.7000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '35.2000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '37.7000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '32.1000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '26.9700', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '24.7600', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '40.2200', 'fuente_nombre' => 'CONEVAL'),

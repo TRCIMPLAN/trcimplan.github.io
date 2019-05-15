@@ -128,7 +128,7 @@
             <li>
               <a href="#"><span class="navegacion-icono"><i class="fa fa-map-o"></i></span> Mapas por Tema<span class="fa arrow"></span></a>
               <ul class="nav nav-third-level">
-                <li><a href="../sig-mapas-torreon/categoria-cultura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Planes y Programas</a></li>
+                <li><a href="../sig-mapas-torreon/categoria-cultura.html"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Planes y Programas</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-poblacion.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Indicadores Georreferenciados</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-infraestructura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Inventario Urbano</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-movilidad.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Movilidad</a></li>
@@ -149,7 +149,7 @@
             <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
           </ul>
         </li>
-        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Investigaciones</a></li>
         <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
         <li>
           <a href="#"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli<span class="fa arrow"></span></a>
@@ -402,6 +402,12 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">788,111</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -426,57 +432,57 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">200,096</td>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">199,779</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">81,701</td>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">82,246</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">13,349</td>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">13,162</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">8,991</td>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">8,921</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">304,137</td>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">304,108</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">786,559</td>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">788,111</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">246,062</td>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">246,184</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">4,618,122</td>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">20,348,508</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
@@ -575,7 +581,8 @@
         { fecha: '2018-11-30', dato: 796486 },
         { fecha: '2018-12-31', dato: 779544 },
         { fecha: '2019-01-31', dato: 782396 },
-        { fecha: '2019-02-28', dato: 786559 }],
+        { fecha: '2019-02-28', dato: 786559 },
+        { fecha: '2019-03-31', dato: 788111 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -590,7 +597,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresAseguradosEnCoahuilaGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresAseguradosEnCoahuilaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresAseguradosEnCoahuilaGrafica',
-      data: [{ region: 'Torreón', dato: 200096 },{ region: 'Gómez Palacio', dato: 81701 },{ region: 'Lerdo', dato: 13349 },{ region: 'Matamoros', dato: 8991 },{ region: 'La Laguna', dato: 304137 },{ region: 'Coahuila', dato: 786559 },{ region: 'Durango', dato: 246062 },{ region: 'Nacional', dato: 4618122 }],
+      data: [{ region: 'Torreón', dato: 199779 },{ region: 'Gómez Palacio', dato: 82246 },{ region: 'Lerdo', dato: 13162 },{ region: 'Matamoros', dato: 8921 },{ region: 'La Laguna', dato: 304108 },{ region: 'Coahuila', dato: 788111 },{ region: 'Durango', dato: 246184 },{ region: 'Nacional', dato: 20348508 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

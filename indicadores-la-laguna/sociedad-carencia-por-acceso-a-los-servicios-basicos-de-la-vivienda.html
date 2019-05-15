@@ -128,7 +128,7 @@
             <li>
               <a href="#"><span class="navegacion-icono"><i class="fa fa-map-o"></i></span> Mapas por Tema<span class="fa arrow"></span></a>
               <ul class="nav nav-third-level">
-                <li><a href="../sig-mapas-torreon/categoria-cultura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Planes y Programas</a></li>
+                <li><a href="../sig-mapas-torreon/categoria-cultura.html"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Planes y Programas</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-poblacion.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Indicadores Georreferenciados</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-infraestructura.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Inventario Urbano</a></li>
                 <li><a href="../sig-mapas-torreon/categoria-movilidad.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Movilidad</a></li>
@@ -149,7 +149,7 @@
             <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
           </ul>
         </li>
-        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Investigaciones</a></li>
         <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
         <li>
           <a href="#"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli<span class="fa arrow"></span></a>
@@ -214,6 +214,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -246,6 +247,58 @@
     <h3>Carencia por acceso a los servicios básicos de la vivienda en La Laguna </h3>
 
     <div id="SmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLaguna" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Carencia por acceso a los servicios básicos de la vivienda en La Laguna</h3>
+    <div id="SmiOtrasRegionesCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td class="centrado">2010-12-31</td>
+        <td class="derecha">1.9000 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">8.0000 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">6.3000 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">9.0000 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td class="centrado">2015-12-31</td>
+        <td class="derecha">4.6500 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -298,6 +351,19 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaGrafica === 'undefined') {
+    varSmiOtrasRegionesCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaGrafica',
+      data: [{ region: 'Torreón', dato: 1.9000 },{ region: 'Gómez Palacio', dato: 8.0000 },{ region: 'Lerdo', dato: 6.3000 },{ region: 'Matamoros', dato: 9.0000 },{ region: 'La Laguna', dato: 4.6500 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

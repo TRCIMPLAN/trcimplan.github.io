@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SociedadDelitosPorViolenciaDeGeneroNoFamiliar
+ * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SociedadMujeresQueHanVividoViolenciaEnPlazasPublicas
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresTorreon;
 
 /**
- * Clase SociedadDelitosPorViolenciaDeGeneroNoFamiliar
+ * Clase SociedadMujeresQueHanVividoViolenciaEnPlazasPublicas
  */
-class SociedadDelitosPorViolenciaDeGeneroNoFamiliar extends \SMIBase\PublicacionWeb {
+class SociedadMujeresQueHanVividoViolenciaEnPlazasPublicas extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,16 +34,16 @@ class SociedadDelitosPorViolenciaDeGeneroNoFamiliar extends \SMIBase\Publicacion
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Delitos por violencia de género no familiar en Torreón';
-        $this->fecha       = '2019-04-08T13:51:44';
+        $this->nombre      = 'Mujeres que han vivido violencia en plazas públicas en Torreón';
+        $this->fecha       = '2019-04-24T11:35:33';
         // El nombre del archivo a crear
-        $this->archivo     = 'sociedad-delitos-por-violencia-de-genero-no-familiar';
+        $this->archivo     = 'sociedad-mujeres-que-han-vivido-violencia-en-plazas-publicas';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Cantidad total de delitos registrados anualmente por violencia de género en todas sus modalidades, distinta a la violencia familiar';
+        $this->descripcion = 'Porcentaje de mujeres que han vivido alguna situación de violencia dentro de una plaza pública';
         $this->claves      = 'IMPLAN, Torreón, Seguridad, Género';
         // Para el Organizador
         $this->categorias  = array('Seguridad', 'Género');
-        $this->fuentes     = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
+        $this->fuentes     = array('Diagnóstico sobre la Violencia Sexual contra las Mujeres y las Niñas en los Espacios Públicos de Torreón, Coahuila (DVSEP)');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -55,7 +55,7 @@ class SociedadDelitosPorViolenciaDeGeneroNoFamiliar extends \SMIBase\Publicacion
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,7 @@ class SociedadDelitosPorViolenciaDeGeneroNoFamiliar extends \SMIBase\Publicacion
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-12-31', 'valor' => '7', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => 'Aparece en delitos del fuero común')); // formateado 0, valor 2, crudo 2
+            array('fecha' => '2016-12-31', 'valor' => '36.0000', 'fuente_nombre' => 'Diagnóstico sobre la Violencia Sexual contra las Mujeres y las Niñas en los Espacios Públicos de Torreón, Coahuila (DVSEP)')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -104,10 +104,10 @@ class SociedadDelitosPorViolenciaDeGeneroNoFamiliar extends \SMIBase\Publicacion
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)
+Fuente: DVSEP
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase SociedadDelitosPorViolenciaDeGeneroNoFamiliar
+} // Clase SociedadMujeresQueHanVividoViolenciaEnPlazasPublicas
 
 ?>

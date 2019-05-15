@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SociedadDelitosPorViolenciaFamiliar
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLerdo SociedadCarenciaPorAccesoALosServiciosBasicosDeLaVivienda
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,12 +20,12 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresTorreon;
+namespace SMIIndicadoresLerdo;
 
 /**
- * Clase SociedadDelitosPorViolenciaFamiliar
+ * Clase SociedadCarenciaPorAccesoALosServiciosBasicosDeLaVivienda
  */
-class SociedadDelitosPorViolenciaFamiliar extends \SMIBase\PublicacionWeb {
+class SociedadCarenciaPorAccesoALosServiciosBasicosDeLaVivienda extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,17 +34,17 @@ class SociedadDelitosPorViolenciaFamiliar extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Delitos por Violencia Familiar en Torreón';
-        $this->fecha       = '2019-04-08T13:40:19';
+        $this->nombre      = 'Carencia por acceso a los servicios básicos de la vivienda en Lerdo';
+        $this->fecha       = '2019-02-07T13:43:39';
         // El nombre del archivo a crear
-        $this->archivo     = 'sociedad-delitos-por-violencia-familiar';
+        $this->archivo     = 'sociedad-carencia-por-acceso-a-los-servicios-basicos-de-la-vivienda';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Cantidad total de delitos por violencia familiar registrados anualmente';
-        $this->claves      = 'IMPLAN, Torreón, Seguridad, Género';
+        $this->descripcion = 'Se muestra el porcentaje de la población que no cuenta con los servicios básicos';
+        $this->claves      = 'IMPLAN, Lerdo, Población';
         // Para el Organizador
-        $this->categorias  = array('Seguridad', 'Género');
-        $this->fuentes     = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
-        $this->regiones    = array('Torreón');
+        $this->categorias  = array('Población');
+        $this->fuentes     = array('CONEVAL');
+        $this->regiones    = array('Lerdo');
     } // constructor
 
     /**
@@ -55,7 +55,7 @@ class SociedadDelitosPorViolenciaFamiliar extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,9 +67,7 @@ class SociedadDelitosPorViolenciaFamiliar extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '1940', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => 'Aparece en delitos del fuero común'),
-            array('fecha' => '2017-12-31', 'valor' => '2406', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2018-12-31', 'valor' => '2631', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública', 'notas' => 'Aparece en Delitos del Fuero Común')); // formateado 0, valor 6, crudo 5
+            array('fecha' => '2015-12-31', 'valor' => '6.3000', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -78,7 +76,12 @@ class SociedadDelitosPorViolenciaFamiliar extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -87,7 +90,12 @@ class SociedadDelitosPorViolenciaFamiliar extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '1.9000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '8.0000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '6.3000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '9.0000', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '4.6500', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
@@ -105,11 +113,9 @@ class SociedadDelitosPorViolenciaFamiliar extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase SociedadDelitosPorViolenciaFamiliar
+} // Clase SociedadCarenciaPorAccesoALosServiciosBasicosDeLaVivienda
 
 ?>
