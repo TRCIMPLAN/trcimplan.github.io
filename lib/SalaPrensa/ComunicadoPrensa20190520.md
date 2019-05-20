@@ -7,9 +7,9 @@
 
 ---
 
-El Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón en conjunto con Rectores de las universidades pertenecientes a la Comunidad de Instituciones de Educación Superior de La Laguna (CIESLAG), así como empresarios laguneros, llevaron a cabo un taller de vinculación para desarrollar y retener el talento regional.
+**El Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón en conjunto con Rectores de las universidades pertenecientes a la Comunidad de Instituciones de Educación Superior de La Laguna (CIESLAG), así como empresarios laguneros**, llevaron a cabo un taller de vinculación para desarrollar y retener el talento regional.
 
-Los principales objetivos del evento fueron: Conocer el perfil de los egresados de las universidades de la Zona Metropolitana de La Laguna, aprovechar el talento regional como fuerza de trabajo, dar a conocer sus esquemas de vinculación como: prácticas profesionales, bolsa de trabajo y estadías profesionales, situar a la ZML como el principal destino para estudiantes de Educación Superior de la región, así como conocer las necesidades del sector laboral.
+Los **principales objetivos** del evento fueron: **Conocer el perfil de los egresados de las universidades de la Zona Metropolitana de La Laguna, aprovechar el talento regional como fuerza de trabajo, dar a conocer sus esquemas de vinculación como: prácticas profesionales, bolsa de trabajo y estadías profesionales, situar a la ZML como el principal destino para estudiantes de Educación Superior de la región, así como conocer las necesidades del sector laboral**.
 
 De acuerdo con el estudio realizado por el Centro de Investigación para el Desarrollo, A.C. (CIDAC) en 2015, el 42% de los empresarios en Torreón tuvieron vacantes que no pudieron llenar a pesar de tener candidatos para el puesto.
 
