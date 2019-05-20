@@ -38,7 +38,7 @@ class ComunicadoPrensa20190520 extends \Base\PublicacionSchemaBlogPosting {
         $this->autor                      = 'Lic. Maira Ivonne Flores Reyes';
         $this->fecha                      = '2019-05-20T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '2019-05-20-taller-vinculacion-academia-gobierno-empresa';
+        $this->archivo                    = '2019-05-20-taller-vinculacion';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'El Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón en conjunto con Rectores de las universidades pertenecientes a la Comunidad de Instituciones de Educación Superior de La Laguna (CIESLAG), así como empresarios laguneros, llevaron a cabo un taller de vinculación para desarrollar y retener el talento regional.';
         $this->claves                     = 'IMPLAN, Torreon, talento regional, vinculacion, universidades';

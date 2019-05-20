@@ -20,4 +20,4 @@ Durante el evento, se presentó el diagnóstico del tema y se desarrolló una me
 Cabe señalar, que los resultados de este taller son insumos que ayudarán a complementar el diagnóstico del estudio “Política Industrial” y culminar en el diseño de políticas públicas coherentes y efectivas.
 
 
-<center><img src="2019-05-20-taller-vinculacion-academia-gobierno-empresa/ima01.jpg" alt="Taller de Vinculación"></center>
+<center><img src="2019-05-20-taller-vinculacion/ima01.jpg" alt="Taller de Vinculación"></center>
