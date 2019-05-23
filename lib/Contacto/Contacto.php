@@ -90,11 +90,10 @@ FINAL;
 <div style="clear:left;"></div>
 <h3>Correos electrónicos</h3>
 <ul>
-    <li><b>Eduardo Holguín,</b>     Director General:                      <a href="mailto:eholguin@trcimplan.gob.mx">eholguin@trcimplan.gob.mx</a></li>
-    <li><b>J. Antonio García,</b>   Coordinador Administrativo:            <a href="mailto:jgarcia@trcimplan.gob.mx">jgarcia@trcimplan.gob.mx</a></li>
-    <li><b>Alejandro Reyes,</b>     Transparencia:                         <a href="mailto:transparencia@trcimplan.gob.mx">transparencia@trcimplan.gob.mx</a></li>
-    <li><b>José de Jesús Ruiz,</b>  Jurídico:                              <a href="mailto:juridico@trcimplan.gob.mx">juridico@trcimplan.gob.mx</a></li>
-    <li><b>Víctor M. Gómez,</b>     Administrador del Sitio Web:           <a href="mailto:vgomez@trcimplan.gob.mx">vgomez@trcimplan.gob.mx</a></li>
+    <li><b>Eduardo Holguín,</b>            Director General:                      <a href="mailto:eholguin@trcimplan.gob.mx">eholguin@trcimplan.gob.mx</a></li>
+    <li><b>J. Antonio García,</b>          Coordinador Administrativo:            <a href="mailto:jgarcia@trcimplan.gob.mx">jgarcia@trcimplan.gob.mx</a></li>
+    <li><b>Gerardo Villa Glz,</b>          Transparencia:                         <a href="mailto:transparencia@trcimplan.gob.mx">transparencia@trcimplan.gob.mx</a></li>
+    <li><b>Víctor M. Gómez,</b>            Administrador del Sitio Web:           <a href="mailto:vgomez@trcimplan.gob.mx">vgomez@trcimplan.gob.mx</a></li>
 </ul>
 
 FINAL;

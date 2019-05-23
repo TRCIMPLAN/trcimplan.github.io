@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-05-21</lastmod>
+    <lastmod>2019-05-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1423,6 +1423,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/una-laguna-competitiva-en-joyeria-de-plata.html</loc>
     <lastmod>2015-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/urbanismo-con-enfoque-de-genero-en-la-laguna.html</loc>
+    <lastmod>2019-05-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
