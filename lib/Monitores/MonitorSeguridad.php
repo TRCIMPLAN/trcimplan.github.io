@@ -25,7 +25,7 @@ namespace Monitores;
 /**
  * Clase Monitor de negocios
  */
-class MonitorSeguridadEneDic2018 extends \Base\PublicacionSchemaArticle {
+class MonitorSeguridad extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
@@ -36,9 +36,9 @@ class MonitorSeguridadEneDic2018 extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Seguridad';
         $this->autor                      = array('Lic. Daniel Alejandro López Murga','Lic. Ana Luisa Pacheco Meraz'); // Puede ser un arreglo de textos
-        $this->fecha                      = '2019-02-15T15:30';
+        $this->fecha                      = '2019-05-03T15:30';
         // El nombre del archivo a crear
-        $this->archivo                    = 'monitor-de-seguridad-ene-dic2018'; // En minúsculas, sin espacios, use guiones, letras y números
+        $this->archivo                    = 'monitor-de-seguridad'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Monitor de Seguridad para la Zona Metropolitana de La Laguna.';
         $this->claves                     = 'IMPLAN, Torreon, Seguridad, La Laguna';
@@ -66,8 +66,8 @@ class MonitorSeguridadEneDic2018 extends \Base\PublicacionSchemaArticle {
     public function html() {
         // Cargar en el Schema el archivo HTML seguido del archivo Markdown
         $this->contenido->articleBody =
-            $this->cargar_archivo('lib/Monitores/MonitorSeguridadEneDic2018.html').
-            $this->cargar_archivo_markdown_extra('lib/Monitores/MonitorSeguridadEneDic2018.md');
+            $this->cargar_archivo('lib/Monitores/MonitorSeguridad.html').
+            $this->cargar_archivo_markdown_extra('lib/Monitores/MonitorSeguridad.md');
         // Ejecutar este método en el padre
         return parent::html();
     } // html
@@ -79,7 +79,7 @@ class MonitorSeguridadEneDic2018 extends \Base\PublicacionSchemaArticle {
      */
     public function javascript() {
         // Cargar archivo externo
-        $this->javascript = $this->cargar_archivo('lib/Monitores/MonitorSeguridadEneDic2018.js');
+        $this->javascript = $this->cargar_archivo('lib/Monitores/MonitorSeguridad.js');
         // Entregar resultado del padre
         return parent::javascript();
     } // javascript
