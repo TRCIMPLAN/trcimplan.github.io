@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/ihanelly-hernandez-villa.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-ihanelly-hernandez-villa-top2.png" align="right" alt="Foto Cecilio" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 La forma en cómo nos movemos mujeres y hombres no es la misma. Los roles de género impuestos históricamente a las personas a partir de su sexo y que hasta la fecha siguen predominando, generan que los hombres se muevan de manera pendular en traslados directos de ida y vuelta, que por lo general son del hogar al trabajo y viceversa. Mientras que las mujeres en la mayoría de los casos, realizan viajes encadenados debido a todas las actividades asociadas al trabajo reproductivo (actividades relacionadas al cuidado del hogar y sus integrantes), “las necesidades son mayores para las mujeres con personas dependientes, para las mujeres cabeza de familia, para las ancianas, y para las inmigrantes, y se refuerzan en caso de coincidir en una misma persona más de una de estas características” (Sánchez, I. 2004).
 
