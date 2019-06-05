@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-05-30</lastmod>
+    <lastmod>2019-06-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1368,6 +1368,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/torreon-municipio-competitivo-segun-datos-del-imco.html</loc>
     <lastmod>2016-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/torreon-sin-contaminacion-del-aire-mayo2019.html</loc>
+    <lastmod>2019-05-30</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

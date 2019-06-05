@@ -104,23 +104,15 @@ class NavegacionConfig {
 
       //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
         'Institucional' => array(
-
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
             'Institucional > Mensaje del Director'                    => 'institucional/mensaje-director.html',
             'Institucional > Quienes Somos'                           => 'autores/index.html',
             'Institucional > Estructura Orgánica'                     => 'institucional/estructura-organica.html',
             'Institucional > Modelo Operativo Univ.'                  => 'institucional/modelo-operativo-universal.html',
             'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
-            //~'Institucional > Transparencia'                           => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),
-
-        //'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
-
-        // 'Transparencia'                                               => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
         'Transparencia'  => array(
              'Transparencia > Transparencia Estatal (ICAI)'                  => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
              'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio'),
-
-
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
         'Términos de Uso' => array(
             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
@@ -154,15 +146,16 @@ class NavegacionConfig {
         'Información Geográfica'           => 'fa fa-map-marker',
             'Introducción al SIG'          => 'fa fa-file-text-o',
             'Planes'                       => 'fa fa-file-pdf-o',
-            'Mapas de Torreón'             => 'fa fa-map-marker',
+            //'Mapas de Torreón'             => 'fa fa-map-marker',
             //'Zonificación Secundaria'      => 'fa fa-map-marker',
-            'Usos de Suelo'                => 'fa fa-map-marker',
             'Mapas por Tema'               => 'fa fa-map-o',
-            'Planes y Programas'           => 'fa fa-map-marker',
+
             'Indicadores Georreferenciados'=> 'fa fa-map-marker',
+            'Planes y Programas'           => 'fa fa-map-marker',
             'Inventario Urbano'            => 'fa fa-map-marker',
             'Movilidad'                    => 'fa fa-map-marker',
             'Medio Ambiente'               => 'fa fa-map-marker',
+            'Usos de Suelo'                => 'fa fa-map-marker',
         'Plan Estratégico Torreón 2040'    => 'fa fa-book',
             'Índice General'               => 'fa fa-list-ul',
             'Índice Alfabético'            => 'fa fa-font',
