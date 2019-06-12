@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-06-05</lastmod>
+    <lastmod>2019-06-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -803,6 +803,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/la-movilidad-peatonal-en-el-centro-historico-de-torreon.html</loc>
     <lastmod>2016-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/la-movilidad-social-en-la-laguna-junio2019.html</loc>
+    <lastmod>2019-06-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

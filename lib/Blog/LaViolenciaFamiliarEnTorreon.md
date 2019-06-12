@@ -1,3 +1,10 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/ivan-de-luna-aldape.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-ivan-de-luna-aldape-top2.png" align="right" alt="Foto Iván" width="500" height="200"></a>
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 En el marco de la conmemoración del día internacional de la mujer, y como parte de las actividades que se llevan a cabo dentro del Municipio de Torreón a través del Instituto
 Municipal de la Mujer y el IMPLAN, se realizó el Diagnóstico sobre violencia de género contra las mujeres en Torreón, Coah. con la finalidad de atender las recomendaciones del Informe
