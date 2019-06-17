@@ -66,7 +66,7 @@ class RedInfraestructuraCiclista extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/26c09dc1-d5fb-47c6-acc4-0eaf2ccf9953/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/012b68a9-cc6a-4211-9088-cad44facbc49/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
