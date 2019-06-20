@@ -320,6 +320,15 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     min-height:450px;
     border-color:#A2A2A2;
 }
+/*  Cambio VM */
+.tarjetas-thumbnail2 {
+    background-color:#E8E8E8;
+/*    min-height:450px;   VM*/
+    min-height:150px;
+    width:150;
+    border-color:#A2A2A2;
+}
+
 .tarjetas-nombre {
     font-size:24px;
     text-align:center;
