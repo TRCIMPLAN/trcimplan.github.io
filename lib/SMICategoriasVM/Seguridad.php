@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMICategorias Delincuencia
+ * TrcIMPLAN Sitio Web - SMICategorias Seguridad
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMICategorias;
 
 /**
- * Clase Delincuencia
+ * Clase Seguridad
  */
-class Delincuencia extends \Base\Publicacion {
+class Seguridad extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -34,17 +34,17 @@ class Delincuencia extends \Base\Publicacion {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre        = 'Delincuencia';
+        $this->nombre        = 'Seguridad';
         $this->fecha         = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear
-        $this->archivo       = 'delincuencia';
+        $this->archivo       = 'seguridad';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Delincuencia. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
-        $this->claves        = 'IMPLAN, Indicadores, Categoría, Delincuencia';
+        $this->descripcion   = 'Sistema Metropolitano de Indicadores: Categoría Seguridad. En PC, mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con la información detallada del indicador.';
+        $this->claves        = 'IMPLAN, Indicadores, Categoría, Seguridad';
         // Rutas relativas a las imágenes, apuntan a íconos interactivos para cada categoría
-        $this->imagen        = '../imagenes/categorias/delincuencia.jpg';
-        $this->imagen_previa = '../imagenes/categorias/delincuencia.jpg';
-        $this->imagen_id     = 'categorias-delincuencia';
+        $this->imagen        = '../imagenes/categorias/seguridad.jpg';
+        $this->imagen_previa = '../imagenes/categorias/seguridad.jpg';
+        $this->imagen_id     = 'categorias-seguridad';
         // Para el Organizador
         $this->categorias    = array();
         $this->fuentes       = array();
@@ -92,6 +92,42 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">8</a></td>
   </tr>
   <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Policías Operativos de Seguridad Pública</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-policias-operativos-de-seguridad-publica.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2014, Ayuntamiento de Torreón">0.97</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Accidentes Viales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, INEGI">5110</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, INEGI">1691</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, INEGI">342</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, INEGI">132</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">7013</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Accidentes Viales Fatales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">39</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">46</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">6</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 31/12/2015, INEGI">99</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Cantidad de Policías</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-cantidad-de-policias.html" data-toggle="tooltip" title="Cantidad, 31/08/2017, Ayuntamiento de Torreón, Portal de Transparencia">No disponible</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">907</a></td>
@@ -120,6 +156,15 @@ class Delincuencia extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Heridos en accidentes relacionados con transporte</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-heridos-en-accidentes-relacionados-con-transporte.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2014, IMCO">278.45</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">10</a></td>
@@ -129,12 +174,30 @@ class Delincuencia extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Monto Reportado en Robo de Mercancías</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-monto-reportado-en-robo-de-mercancias.html" data-toggle="tooltip" title="Pesos, 31/12/2012, IMCO">$ 0.07</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-monto-reportado-en-robo-de-mercancias.html" data-toggle="tooltip" title="Pesos, 31/12/2012, IMCO">$ 0.16</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-monto-reportado-en-robo-de-mercancias.html" data-toggle="tooltip" title="Pesos, 31/12/2012, IMCO">$ 0.03</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-monto-reportado-en-robo-de-mercancias.html" data-toggle="tooltip" title="Pesos, 31/12/2012, IMCO">$ 0.01</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-monto-reportado-en-robo-de-mercancias.html" data-toggle="tooltip" title="Pesos, 31/12/2012, IMCO">$ 0.09</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Otros delitos del Fuero Común</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-otros-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">17.68</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Percepción de Inseguridad</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-percepcion-de-inseguridad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">50.44 %</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-percepcion-de-inseguridad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">51.81 %</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-percepcion-de-inseguridad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">51.81 %</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-percepcion-de-inseguridad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">50.44 %</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-percepcion-de-inseguridad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2016, IMCO">51.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -153,6 +216,24 @@ class Delincuencia extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, INEGI">78</a></td>
     <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Población afectada por eventos hidrometeorológicos y geológicos</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-poblacion-afectada-por-eventos-hidrometeorologicos-y-geologicos.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, IMCO">23.8735</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Porcentaje de Accidentes Viales Fatales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">0.4022 %</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">1.5112 %</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">1.2739 %</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">1.4742 %</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">0.7187 %</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -198,15 +279,6 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">54</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Robo de vehículos (registrados)</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos-registrados.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">149850</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos-registrados.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">159574</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos-registrados.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">47557</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos-registrados.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">20694</a></td>
-    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -292,7 +364,7 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Violencia de género en todas sus modalidades distinta a la violencia familiar</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
@@ -301,19 +373,10 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Violencia familiar</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2631</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2406</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1122</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">453</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2017, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">291</a></td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Estimación de Menores Huérfanos por Agresiones</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMPLAN">1253</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
     <td class="nd">ND</td>
   </tr>
 </tbody>
@@ -330,6 +393,13 @@ class Delincuencia extends \Base\Publicacion {
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Accidentes Viales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, INEGI">15330</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, INEGI">5700</a></td>
+    <td class="nd">ND</td>
+  </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
@@ -404,6 +474,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase Delincuencia
+} // Clase Seguridad
 
 ?>

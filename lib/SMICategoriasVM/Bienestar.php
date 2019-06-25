@@ -183,92 +183,29 @@ class Bienestar extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Mujeres ocupadas con servicio de salud por su trabajo</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mujeres-ocupadas-con-servicio-de-salud-por-su-trabajo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, INEGI">52.38 %</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="indicador color4">Personas por Debajo de la Línea de Bienestar (IMCO)</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar-imco.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">36118</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar-imco.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">19327</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar-imco.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">5276</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar-imco.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">8791</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar-imco.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">11.33 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Población con ingresos inferiores a la línea de bienestar</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-ingresos-inferiores-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">40.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-ingresos-inferiores-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">45.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-ingresos-inferiores-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">50.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-ingresos-inferiores-a-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">52.8 %</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Mujeres que ganan de 1 a 2 salarios mínimos</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mujeres-que-ganan-de-1-a-2-salarios-minimos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, INEGI">35.02 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Mujeres que ganan hasta un salario mínimo</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mujeres-que-ganan-hasta-un-salario-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, INEGI">17.76 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Mujeres que ganan más de 3 salarios mínimos</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mujeres-que-ganan-mas-de-3-salarios-minimos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2018, INEGI">12.49 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Personas por Debajo de la Línea de Bienestar</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">36118</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">19327</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">5276</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">8791</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" data-toggle="tooltip" title="Porcentaje de la PEA, 31/12/2016, IMCO">11.33 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población femenina afiliada que tiene IMSS</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-femenina-afiliada-que-tiene-imss.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">70.91 %</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población femenina afiliada que tiene ISSSTE</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-femenina-afiliada-que-tiene-issste.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">11.77 %</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población femenina afiliada que tiene Seguro Popular</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-femenina-afiliada-que-tiene-seguro-popular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">13.4 %</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población femenina afiliada que tiene servicio de salud privado</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-femenina-afiliada-que-tiene-servicio-de-salud-privado.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">4.27 %</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Población femenina con afiliación a servicios de salud</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-femenina-con-afiliacion-a-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, INEGI">79.31 %</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="indicador color4">Población con ingresos inferiores a la línea de bienestar mínimo</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-con-ingresos-inferiores-a-la-linea-de-bienestar-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">10.9 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-con-ingresos-inferiores-a-la-linea-de-bienestar-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">8.8 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-con-ingresos-inferiores-a-la-linea-de-bienestar-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">11.4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-con-ingresos-inferiores-a-la-linea-de-bienestar-minimo.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">17.5 %</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>
@@ -277,7 +214,7 @@ class Bienestar extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">26.20 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">30.50 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">36.30 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">42.60 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">35.70 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, CONEVAL">32.74 %</a></td>
   </tr>
   <tr>
@@ -286,7 +223,7 @@ class Bienestar extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">2.80 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">0.80 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">1.00 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">4.80 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">3.60 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">2.06 %</a></td>
   </tr>
   <tr>
@@ -295,7 +232,7 @@ class Bienestar extends \Base\Publicacion {
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">23.40 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">29.70 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">35.20 %</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">37.70 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">32.10 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2015, CONEVAL">26.97 %</a></td>
   </tr>
   <tr>

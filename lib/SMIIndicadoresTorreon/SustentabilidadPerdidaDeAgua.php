@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna SustentabilidadPerdidaDeAgua
+ * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SustentabilidadPerdidaDeAgua
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,7 +20,7 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadPerdidaDeAgua
@@ -34,17 +34,17 @@ class SustentabilidadPerdidaDeAgua extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Pérdida de Agua en La Laguna';
+        $this->nombre      = 'Pérdida de Agua en Torreón';
         $this->fecha       = '2018-07-26T12:22:19';
         // El nombre del archivo a crear
         $this->archivo     = 'sustentabilidad-perdida-de-agua';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'El porcentaje de pérdida de agua se calcula restando el volúmen de agua abastecida menos el volúmen de agua utilizada, y se divide entre el total de agua abastecida.';
-        $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente';
+        $this->claves      = 'IMPLAN, Torreón, Medio Ambiente';
         // Para el Organizador
         $this->categorias  = array('Medio Ambiente');
         $this->fuentes     = array('SIMAS');
-        $this->regiones    = array('La Laguna');
+        $this->regiones    = array('Torreón');
     } // constructor
 
     /**
@@ -67,7 +67,7 @@ class SustentabilidadPerdidaDeAgua extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2015-12-31', 'valor' => '48.1500', 'fuente_nombre' => 'SIMAS')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2015-12-31', 'valor' => '54.8700', 'fuente_nombre' => 'SIMAS', 'notas' => 'Fuente: DGMA, SIMAS')); // formateado 0, valor 2, crudo 2
     } // datos
 
     /**
