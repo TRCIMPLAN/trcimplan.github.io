@@ -5,11 +5,49 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 25 Jun 2019 14:12:04 -0500</pubDate>
+    <pubDate>Thu, 27 Jun 2019 10:37:39 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un Acercamiento a la Caminabilidad en el Centro Histórico de Torreón</title>
+      <link>http://www.trcimplan.gob.mx/blog/caminabilidad-en-el-centro-historico-de-torreon.html</link>
+      <guid isPermaLink="false">blog-caminabilidad-en-el-centro-historico-de-torreon</guid>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 -0500</pubDate>
+      <author>Arq. José Antonio Ramírez Reyes</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/caminabilidad-en-el-centro-historico-de-torreon/imagen.jpg"><br>
+
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jose-antonio-ramirez-reyes.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/blog/../imagenes/128/arq-jose-antonio-ramirez-reyes-top2.png" align="right" alt="Foto José Antonio Ramírez" width="500" height="200"></a>
+
+</p>
+
+<p></br></br></br></br></br></br></br></br></p>
+
+<hr />
+
+<p><strong>La Nueva Agenda Urbana</strong> en el punto 114 y 115 plasma la importancia de la movilidad no motorizada priorizando este modo por sobre el transporte motorizado privado, esto viene junto con un concepto que se ha vuelto tema de tendencia global, la caminabilidad de nuestros barrios.</p>
+
+<p>Según Todd Litman, investigador del Victoria Transport Policy Institute en Canadá, <strong>la caminabilidad es el grado en que las características del entorno construido y uso del suelo propician realizar recorridos peatonales para acceder a los servicios, ir al trabajo, pasear, o realizar ejercicio</strong>. Por otro lado el investigador Chris Bradshaw, le interesó la posibilidad de medir la calidad del entorno, ya que desde su perspectiva los vecinos pueden mejorar su caminabilidad transformando aspectos físicos y promoviendo la socialización en sus barrios.</p>
+
+<p>Uno de los barrios o conjunto de barrios más emblemáticos es el Centro Histórico de Torreón (CH), entender el estado actual de la caminabilidad nos ayuda a establecer estrategias para favorecer al peatón. <strong>Las cuatro características principales de una buena caminabilidad en el CH serían</strong>:</p>
+
+<ol>
+<li><p><strong>Calidad del ambiente</strong>, refiriéndose a banquetas niveladas, intersecciones pequeñas, iluminación, ausencia de obstáculos. Las banquetas son las estructuras viales para circulación de peatones y el Inventario Nacional de Vivienda (INVI) presenta datos sobre la existencia de ellas, con un total de 1,147 frentes de manzana, de los cuales 5.57% no cuenta con banqueta y 2.17% no se especifica. Las áreas donde se concentra esta falta de banquetas son varias cerradas entre Independencia-Abasolo y Mina-Idelfonso, así como en Revolución-Galeana y Treviño-Galeana.</p>
+
+<p>En cuanto a calidad de la banqueta es importante mencionar que el Reglamento de Construcción de Torreón contempla como mínimo un ancho de 2m, pendiente transversal de 1% a 3%, pendientes de rampas de no más de 12%, acabado antiderrapante, un 33% de sección para plantar árboles, además de otras especificaciones constructivas.</p></li>
+<li><p><strong>Itinerario peatonal lleno de destinos útiles y activos</strong>. El CH es una centralidad importante con 4,087 Unidades Económicas (UE) según el Directorio Estadístico Nacional de Unidades Económicas, 14.80% de total de Torreón. Los puntos con mayor concentración además de los mercados son los corredores de la Juárez e Hidalgo entre Corona y Cepeda.</p></li>
+<li><p><strong>Confort ambiental</strong>: un ambiente que modere las condiciones del tiempo. Entorno limpio, libre de contaminación y del ruido del tráfico motorizado. Los árboles en las calles ayudan al confort y según el INVI de los 1,147 frentes de manzana que existen, el 28.24% no tiene árbol. El área de menor arbolado se encuentra a partir de la Rodríguez hacía el poniente.</p></li>
+<li><p><strong>Cultura local social y diversa, permanente contacto entre las personas</strong>. El CH registra una población de 6,669 habitantes con una densidad de 28.63 Hab/Ha que es significativamente menor a la promedio de la ciudad que se ubica en 40.89 Hab/Ha.</p></li>
+</ol>
+
+<p>Mientras que hay una cantidad de UE importante, existe poca población residente lo que ocasiona actividad diurna y poca actividad nocturna generando situaciones de inseguridad por la falta de vigilancia vecinal. Al haber pocos habitantes, existe poco comercio barrial y recursos para financiar el mantenimiento y arborización de las calles, un ejemplo son las áreas con mucho comercio pero con escasa o nula existencia de arbolado en Ramos Arizpe, J. A. de la Fuente y Zaragoza, entre Revolución y Juárez.</p>
+
+<p><strong>El reto es generar esquemas de financiamiento que ayuden por una parte a incentivar la densidad poblacional, generando comercio barrial y mayor captación de recursos para el mantenimiento integral de la infraestructura peatonal, y por otro lado el diseño urbano en favor del calmado de tráfico y espacios de recreación.</strong>
+</br></p>
+]]></description>
+    </item>
     <item>
       <title>La planificación urbana, fundamental en la salud pública de los laguneros.</title>
       <link>http://www.trcimplan.gob.mx/blog/planificacion-urbana-en-la-salud-publica-de-la-laguna.html</link>
@@ -360,41 +398,6 @@ Instituto Municipal de Cultura y Educación (IMCE)
 DENUE, INEGI.
 ANUIES.
 Sistema de Información Cultural
-</br></p>
-]]></description>
-    </item>
-    <item>
-      <title>Presentan detalles del Taller de Vinculación entre Academia, Empresas y Gobierno</title>
-      <link>http://www.trcimplan.gob.mx/sala-prensa/2019-05-08-taller-de-vinculacion.html</link>
-      <guid isPermaLink="false">sala-prensa-2019-05-08-taller-de-vinculacion</guid>
-      <pubDate>Wed, 08 May 2019 00:00:00 -0500</pubDate>
-      <author>Lic. Maira Ivonne Flores Reyes</author>
-      <description><![CDATA[<p>
-   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/maira-ivonne-flores-reyes.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/sala-prensa/../imagenes/128/lic-maira-ivonne-flores-reyes-top5.png" align="right" alt="Foto Maira" width="500" height="200"></a>
-
-</p>
-
-<p></br></br></br></br></br></br></br></br></p>
-
-<hr />
-
-<p>El Director del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón, Eduardo Holguín y el Presidente de la Comunidad de Instituciones de Educación Superior de La Laguna (CIESLAG), Luis Arturo Dávila de León, presentaron en conferencia de prensa los detalles del próximo Taller de Vinculación que tiene como fin descubrir cómo desarrollar y retener el talento regional.</p>
-
-<p>El Taller tiene como objetivos conocer el perfil de los egresados de las universidades de la Zona Metropolitana de La Laguna (ZML), aprovechar el talento regional – potencial fuerza de trabajo, dar a conocer sus esquemas de vinculación como: prácticas profesionales, bolsa de trabajo y estadías profesionales, situar a la ZML como el principal destino para estudiantes de Educación Superior de la región, así como conocer las necesidades del sector laboral.</p>
-
-<p>Durante la conferencia se dio a conocer que, los empresarios identificaron la falta de vinculación de calidad como uno de los principales problemas en la Industria Manufacturera de la Zona Metropolitana de La Laguna, a pesar de que existen más de 50 Instituciones de Educación Superior en la región.</p>
-
-<p>Debido a éste y más resultados, se logró el acercamiento de las universidades con los empresarios para analizar si en los planes de estudios se pueden incluir algunas de las necesidades que se detectaron y que se pretenden atender.</p>
-
-<p>El Taller de Vinculación será llevado a cabo el próximo 16 de mayo del presente año en las instalaciones de la Casa Club de Altozano, ubicado en la ciudad de Gómez Palacio, Dgo.</p>
-
-<p><center><img src="http://www.trcimplan.gob.mx/sala-prensa/2019-05-08-taller-de-vinculacion/ima02.jpg" alt="Taller de Vinculación 2"></center></p>
-
-<p><center><img src="http://www.trcimplan.gob.mx/sala-prensa/2019-05-08-taller-de-vinculacion/ima03.jpg" alt="Taller de Vinculación 3"></center></p>
-
-<p><center><img src="http://www.trcimplan.gob.mx/sala-prensa/2019-05-08-taller-de-vinculacion/ima04.jpg" alt="Taller de Vinculación 4"></center></p>
-
-<p><center><img src="http://www.trcimplan.gob.mx/sala-prensa/2019-05-08-taller-de-vinculacion/ima01.jpg" alt="Taller de Vinculación"></center>
 </br></p>
 ]]></description>
     </item>
