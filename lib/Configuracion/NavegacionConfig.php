@@ -116,6 +116,7 @@ class NavegacionConfig {
              'Transparencia > Transparencia Estatal (ICAI)'                  => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
              'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio'),
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
+        'Programas de Radio'                                          => 'programas-radio/index.html',
         'Términos de Uso' => array(
             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
             'Términos de Uso > Del sitio web'                         => 'terminos/terminos-sitio.html',
@@ -186,6 +187,7 @@ class NavegacionConfig {
             //'Consejo Directivo'                => 'fa fa-users',
         'Transparencia'                    => 'fa fa-external-link',
         'Sala de Prensa'                   => 'fa fa-newspaper-o',
+        'Programas de Radio'               => 'fa fa-microphone',
         'Términos de Uso'                  => 'fa fa-share-alt',
             'De la información'            => 'fa fa-cubes',
             'Del sitio web'                => 'fa fa-globe',
