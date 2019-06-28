@@ -100,7 +100,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 $b[] = '<ul>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/index.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Visión Metrópoli"></a>';
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatorias-2018-cs-banner-09.jpg" alt="Consejeros ciudadanos"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/index.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Visión Metrópoli"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/programas-radio/index.html"><img src="imagenes\radio\publicidad-radio3.jpg" alt="Programa de Radio Implan"></a>';
                 $b[] = '</ul>';
             $b[] = '</div>';
 
