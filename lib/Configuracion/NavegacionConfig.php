@@ -87,17 +87,13 @@ class NavegacionConfig {
 //ÚLTIMOS CAMBIOS VM
 
 //        'Documentos'  => array(
-//            'Documentos > Planes y Programas'       => array(
-//                  'Documentos > Planes y Programas > Plan Estratégico Torreón 2040'                  =>  'pet/indice.html',
-//                  'Documentos > Planes y Programas > Plan Director de Desarrollo Urbano'             =>  'sig-planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf',
-//                  'Documentos > Planes y Programas > Plan Integral de Movilidad Urbana Sustentable'  =>  'sig-planes/PIMUS_LAGUNA.pdf',
-//            ),
-//            'Documentos > Estudios e Investigaciones'   => 'investigaciones/index.html',
-//            'Documentos > Leyes y Reglamentos'          => ' '
-//        ),
+//            'Documentos > Planes y Programas'                         => 'sig-planes/index.html',
+//            'Documentos > Investigaciones'                            => 'investigaciones/index.html',
+//            'Documentos > Estudios'                                   => 'sig-planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf',
+//            'Documentos > Leyes y Reglamentos'                        => 'institucional/reglamentos.html'),
 // ÚLTIMOS CAMBIOS VM FIN
 
-        'Investigaciones' => 'investigaciones/index.html',
+        'Investigaciones'                                             => 'investigaciones/index.html',
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
 
         'Visión Metrópoli' => array(
@@ -113,7 +109,7 @@ class NavegacionConfig {
             'Institucional > Modelo Operativo Univ.'                  => 'institucional/modelo-operativo-universal.html',
             'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
         'Transparencia'  => array(
-             'Transparencia > Transparencia Estatal (ICAI)'                  => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
+             'Transparencia > Transparencia Estatal (ICAI)'           => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
              'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio'),
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
         'Programas de Radio'                                          => 'programas-radio/index.html',
