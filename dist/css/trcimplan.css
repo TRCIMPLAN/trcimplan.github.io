@@ -324,7 +324,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 .tarjetas-thumbnail2 {
     background-color:#E8E8E8;
 /*    min-height:450px;   VM*/
-    min-height:150px;
+    min-height:350px;
     width:150;
     border-color:#A2A2A2;
 }
