@@ -39,7 +39,7 @@ class SeguridadViolenciaFamiliar extends \SMIBase\PublicacionWeb {
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-violencia-familiar';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Cantidad de delitos por violencia familiar por mes';
+        $this->descripcion = 'Cantidad de delitos por violencia familiar por año';
         $this->claves      = 'IMPLAN, Torreón, Seguridad, Delincuencia';
         // Para el Organizador
         $this->categorias  = array('Seguridad', 'Delincuencia');

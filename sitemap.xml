@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-07-02</lastmod>
+    <lastmod>2019-07-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5821,7 +5821,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-robo-de-automoviles.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5842,6 +5842,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-secuestros.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-secuestros-mensual.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -7776,7 +7781,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-de-automoviles.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -7797,6 +7802,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-secuestros.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-secuestros-mensual.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -9226,7 +9236,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-automoviles.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -9247,6 +9257,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-secuestros.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-secuestros-mensual.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -10651,7 +10666,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-de-automoviles.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -10672,6 +10687,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-secuestros.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-secuestros-mensual.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -12121,7 +12141,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-robo-de-vehiculos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-robo-de-automoviles.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -12137,6 +12157,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-secuestros.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-secuestros-mensual.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -12148,6 +12173,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-trata-de-personas.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-violacion-equiparada.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-violacion-simple.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -43,7 +43,7 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Nacional, Empleo';
         // Para el Organizador
         $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Instituto Mexicano del Seguro Social (IMSS)', 'Ayuntamiento de Torreón');
+        $this->fuentes     = array('Instituto Mexicano del Seguro Social (IMSS)');
         $this->regiones    = array('Nacional');
     } // constructor
 
@@ -67,24 +67,10 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2017-12-31', 'valor' => '4445226', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-01-31', 'valor' => '999733', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-02-28', 'valor' => '4465528', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-03-31', 'valor' => '4475165', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-04-30', 'valor' => '4483891', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-05-31', 'valor' => '4449785', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-06-30', 'valor' => '4449914', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-07-31', 'valor' => '4426965', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
             array('fecha' => '2018-08-31', 'valor' => '20063433', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-09-30', 'valor' => '4457826', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-10-31', 'valor' => '4470074', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-11-30', 'valor' => '1044640', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2018-12-31', 'valor' => '4401571', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2019-01-31', 'valor' => '4588445', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2019-02-28', 'valor' => '4618122', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2019-03-31', 'valor' => '20348508', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2019-04-30', 'valor' => '20378927', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2019-05-31', 'valor' => '20382910', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 36, crudo 18
+            array('fecha' => '2019-05-31', 'valor' => '20382910', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

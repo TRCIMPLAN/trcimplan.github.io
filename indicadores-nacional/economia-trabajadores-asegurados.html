@@ -205,7 +205,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -221,92 +221,8 @@
     </thead>
     <tbody>
       <tr>
-        <td class="centrado">2017-12-31</td>
-        <td class="derecha">4,445,226</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-01-31</td>
-        <td class="derecha">999,733</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-02-28</td>
-        <td class="derecha">4,465,528</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-03-31</td>
-        <td class="derecha">4,475,165</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-04-30</td>
-        <td class="derecha">4,483,891</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-05-31</td>
-        <td class="derecha">4,449,785</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-06-30</td>
-        <td class="derecha">4,449,914</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-07-31</td>
-        <td class="derecha">4,426,965</td>
-        <td>Ayuntamiento de Torreón</td>
-        <td></td>
-      </tr>
-      <tr>
         <td class="centrado">2018-08-31</td>
         <td class="derecha">20,063,433</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-09-30</td>
-        <td class="derecha">4,457,826</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-10-31</td>
-        <td class="derecha">4,470,074</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-11-30</td>
-        <td class="derecha">1,044,640</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">4,401,571</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2019-01-31</td>
-        <td class="derecha">4,588,445</td>
-        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2019-02-28</td>
-        <td class="derecha">4,618,122</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
@@ -331,10 +247,10 @@
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
-    <h3>Trabajadores Asegurados en Nacional con fuente Instituto Mexicano del Seguro Social (IMSS)</h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Trabajadores Asegurados en Nacional </h3>
 
-    <div id="SmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss" class="grafica"></div>
+    <div id="SmiGraficasTrabajadoresAseguradosEnNacional" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Trabajadores Asegurados en Nacional</h3>
@@ -449,44 +365,13 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorDatos
-  if (typeof varSmiDatosTrabajadoresAseguradosEnNacional === 'undefined') {
-     $('#SmiDatosTrabajadoresAseguradosEnNacional').DataTable({
-      "language": {
-        "lengthMenu":   "Mostrando _MENU_ filas por página",
-        "zeroRecords":  "No se encontró nada",
-        "info":         "Mostrando página _PAGE_ de _PAGES_",
-        "infoEmpty":    "No se encontraron registros",
-        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
-        "search":       "Filtrar:",
-        "paginate": {
-          "previous":   "Anterior",
-          "next":       "Siguiente"
-        }
-      }
-    });
-    varSmiDatosTrabajadoresAseguradosEnNacional = 1;
-  }
-  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss === 'undefined') {
-    varSmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss = Morris.Line({
-      element: 'SmiGraficasTrabajadoresAseguradosEnNacionalInstitutoMexicanoDelSeguroSocialImss',
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTrabajadoresAseguradosEnNacional === 'undefined') {
+    varSmiGraficasTrabajadoresAseguradosEnNacional = Morris.Line({
+      element: 'SmiGraficasTrabajadoresAseguradosEnNacional',
       data: [
-        { fecha: '2017-12-31', dato: 4445226 },
-        { fecha: '2018-01-31', dato: 999733 },
-        { fecha: '2018-02-28', dato: 4465528 },
-        { fecha: '2018-03-31', dato: 4475165 },
-        { fecha: '2018-04-30', dato: 4483891 },
-        { fecha: '2018-05-31', dato: 4449785 },
-        { fecha: '2018-06-30', dato: 4449914 },
         { fecha: '2018-08-31', dato: 20063433 },
-        { fecha: '2018-09-30', dato: 4457826 },
-        { fecha: '2018-10-31', dato: 4470074 },
-        { fecha: '2018-11-30', dato: 1044640 },
-        { fecha: '2018-12-31', dato: 4401571 },
-        { fecha: '2019-01-31', dato: 4588445 },
-        { fecha: '2019-02-28', dato: 4618122 },
         { fecha: '2019-03-31', dato: 20348508 },
         { fecha: '2019-04-30', dato: 20378927 },
         { fecha: '2019-05-31', dato: 20382910 }],

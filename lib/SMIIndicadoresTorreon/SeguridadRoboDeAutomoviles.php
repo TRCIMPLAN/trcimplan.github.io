@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SeguridadRoboDeVehiculos
+ * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon SeguridadRoboDeAutomoviles
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresTorreon;
 
 /**
- * Clase SeguridadRoboDeVehiculos
+ * Clase SeguridadRoboDeAutomoviles
  */
-class SeguridadRoboDeVehiculos extends \SMIBase\PublicacionWeb {
+class SeguridadRoboDeAutomoviles extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,12 +34,12 @@ class SeguridadRoboDeVehiculos extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Robo de Vehículos en Torreón';
+        $this->nombre      = 'Robo de automóviles en Torreón';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo     = 'seguridad-robo-de-vehiculos';
+        $this->archivo     = 'seguridad-robo-de-automoviles';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Robo de vehículos con violencia y sin violencia cometidos en el mes';
+        $this->descripcion = 'Robo de coche de 4 ruedas con violencia y sin violencia cometidos en el mes';
         $this->claves      = 'IMPLAN, Torreón, Seguridad, Delincuencia';
         // Para el Organizador
         $this->categorias  = array('Seguridad', 'Delincuencia');
@@ -112,7 +112,9 @@ class SeguridadRoboDeVehiculos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-07-31', 'valor' => '23', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2017-08-31', 'valor' => '37', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2017-09-30', 'valor' => '26', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2017-10-31', 'valor' => '25', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 92, crudo 46
+            array('fecha' => '2017-10-31', 'valor' => '25', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2017-11-30', 'valor' => '33', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2017-12-31', 'valor' => '31', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 96, crudo 48
     } // datos
 
     /**
@@ -136,10 +138,10 @@ class SeguridadRoboDeVehiculos extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2017-10-31', 'valor' => '25', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2017-12-31', 'valor' => '31', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-10-31', 'valor' => '24', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2017-10-31', 'valor' => '5', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2017-10-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2017-12-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2017-10-31', 'valor' => '54', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
@@ -163,6 +165,6 @@ Descarga la [Base de Datos](http://secretariadoejecutivo.gob.mx/incidencia-delic
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase SeguridadRoboDeVehiculos
+} // Clase SeguridadRoboDeAutomoviles
 
 ?>

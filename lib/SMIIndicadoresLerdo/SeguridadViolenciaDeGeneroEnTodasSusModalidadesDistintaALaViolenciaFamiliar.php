@@ -39,7 +39,7 @@ class SeguridadViolenciaDeGeneroEnTodasSusModalidadesDistintaALaViolenciaFamilia
         // El nombre del archivo a crear
         $this->archivo     = 'seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Cantidad de delitos al mes por violencia de género en todas sus modalidades, exceptuando a la familiar';
+        $this->descripcion = 'Cantidad de delitos al año por violencia de género en todas sus modalidades, exceptuando a la familiar';
         $this->claves      = 'IMPLAN, Lerdo, Seguridad, Delincuencia';
         // Para el Organizador
         $this->categorias  = array('Seguridad', 'Delincuencia');
