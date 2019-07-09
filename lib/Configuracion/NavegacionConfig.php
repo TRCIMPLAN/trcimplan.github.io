@@ -95,11 +95,11 @@ class NavegacionConfig {
 
         'Investigaciones'                                             => 'investigaciones/index.html',
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
-
+        'Sala de Prensa'                                              => 'sala-prensa/index.html',
+        'Programas de Radio'                                          => 'programas-radio/index.html',
         'Visión Metrópoli' => array(
             'Visión Metrópoli > Visión Metrópoli'                     => 'vision-metropoli/index.html',
             'Visión Metrópoli > Reglamento'                           => 'vision-metropoli/reglamento-vision-metropoli-2018.pdf'),
-
       //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
         'Institucional' => array(
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
@@ -111,8 +111,6 @@ class NavegacionConfig {
         'Transparencia'  => array(
              'Transparencia > Transparencia Estatal (ICAI)'           => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
              'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio'),
-        'Sala de Prensa'                                              => 'sala-prensa/index.html',
-        'Programas de Radio'                                          => 'programas-radio/index.html',
         'Términos de Uso' => array(
             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
             'Términos de Uso > Del sitio web'                         => 'terminos/terminos-sitio.html',
@@ -169,6 +167,8 @@ class NavegacionConfig {
             'Leyes y Reglamentos'          => 'fa fa-book',
 
         'Consejo Directivo'                => 'fa fa-users',
+        'Sala de Prensa'                   => 'fa fa-newspaper-o',
+        'Programas de Radio'               => 'fa fa-microphone',
         'Visión Metrópoli'                 => 'fa fa-university',
             'Reglamento'                   => 'fa fa-file-text-o',
         'Institucional'                    => 'fa fa-building-o',
@@ -182,8 +182,6 @@ class NavegacionConfig {
             //,'Transparencia'                => 'fa fa-external-link'
             //'Consejo Directivo'                => 'fa fa-users',
         'Transparencia'                    => 'fa fa-external-link',
-        'Sala de Prensa'                   => 'fa fa-newspaper-o',
-        'Programas de Radio'               => 'fa fa-microphone',
         'Términos de Uso'                  => 'fa fa-share-alt',
             'De la información'            => 'fa fa-cubes',
             'Del sitio web'                => 'fa fa-globe',
