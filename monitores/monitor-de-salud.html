@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Monitor de salud para la Zona Metropolitana de La Laguna.">
+  <meta name="author" content="Lic. Ana Luisa Pacheco Meraz">
+  <meta name="keywords" content="IMPLAN, Torreon, Salud, La Laguna">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Monitor de Salud - IMPLAN Torreón">
+  <meta name="twitter:description" content="Monitor de salud para la Zona Metropolitana de La Laguna.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/monitores/../imagenes/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/monitores/monitor-de-salud.html">
+  <meta name="og:title" content="Monitor de Salud - IMPLAN Torreón">
+  <meta name="og:description" content="Monitor de salud para la Zona Metropolitana de La Laguna.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/monitores/../imagenes/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/monitores/monitor-de-salud.html">
+  <title>Monitor de Salud - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../smi/niveles-socioeconomicos.html"><span class="navegacion-icono"><i class="fa fa-bar-chart"></i></span> Niveles Socioeconómicos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+            <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/temas-sig.html"><span class="navegacion-icono"><i class="fa fa-map-o"></i></span> Mapas por Tema</a></li>
+            <li><a href="../sig-mapas-torreon/plan-director-desarrollo-urbano.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Usos de Suelo</a></li>
+            <li><a href="../sig/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Investigaciones</a></li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li><a href="../programas-radio/index.html"><span class="navegacion-icono"><i class="fa fa-microphone"></i></span> Programas de Radio</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli</a></li>
+            <li><a href="../vision-metropoli/reglamento-vision-metropoli-2018.pdf"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamento</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload" target="_blank"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Transparencia Estatal (ICAI)</a></li>
+            <li><a href="https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio" target="_blank"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Plataforma Nacional de Transparencia</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+        <div class="encabezado">
+          <h1 itemprop="headline">Monitor de Salud</h1>
+          <div class="encabezado-descripcion" itemprop="description">Monitor de salud para la Zona Metropolitana de La Laguna.</div>
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Lic. Ana Luisa Pacheco Meraz</span> -
+            <meta itemprop="datePublished" content="2019-07-09T09:00">09/07/2019 09:00
+          </div>
+        </div>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<!-- Archivo /lib/Monitores/MonitoresPresentacion.html inicia -->
+<h3>Presentación</h3>
+<div id="presentacion-monitor-salud" style="position: relative; top: 0px; left: 0px; width: 280px; height: 150px;">
+  <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 280px; height: 150px; overflow: hidden;">
+    <div><img u="image" src="salud/ima01.jpg"></div>
+
+  </div>
+  <a style="display: none" href="http://www.jssor.com">Image Slider</a>
+</div>
+<div style="margin-top:8px; margin-bottom:16px;"><a href="salud/monitor-salud-2019.pdf"><span style="font-size:32pt" color="red"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:16pt">De click para descargar el archivo PDF del <b>Monitor de Salud 2019</b></span></a></div>
+
+<!--<div style="margin-top:8px; margin-bottom:16px;"><a href="empleo/empleo-marzo-2018.pdf"><span style="font-size:10pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:12pt">De click para descargar el archivo PDF del <b>Histórico. Cuarto Trimestre 2017</b></span></a></div> -->
+
+
+<!-- Archivo /lib/Monitores/MonitoresPresentacion.html termina -->
+<h3>Monitor de Salud</h3>
+
+<p style="background-color:#4F81BD;color:white;"><strong>Indicadores de Salud de La Laguna</strong></p>
+
+<p>FECHA: 10/07/19</p>
+
+<h2>DERECHOHABIENCIA</h2>
+
+<p>Estimación de población con derechohabiencia a servicios de salud en la Zona Metropolitana de La Laguna, tomando como referencia el Censo de Población y Vivienda 2010 y las Proyecciones de Población de los municipios de México 2010-2030 CONAPO.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Población</th>
+  <th>2015</th>
+  <th>2016</th>
+  <th>2017</th>
+  <th>2018</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Con Derechohabiencia</td>
+  <td>903,882</td>
+  <td>915,171</td>
+  <td>926,343</td>
+  <td>937,340</td>
+</tr>
+<tr>
+  <td>Sin derechohabiencia</td>
+  <td>409,287</td>
+  <td>412,594</td>
+  <td>415,798</td>
+  <td>418,874</td>
+</tr>
+<tr>
+  <td><strong>Total</strong></td>
+  <td>1,313,169</td>
+  <td>1,327,765</td>
+  <td>1,342,141</td>
+  <td>1,356,214</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: INEGI. CONAPO</p>
+
+<h2>CONSULTAS</h2>
+
+<p>Atención brindada por la Secretaría de Salud en la Jurisdicción Sanitaria #6 de Torreón1 y #2 de Gómez Palacio2.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Jurisdicción</th>
+  <th>2019 (31 mayo)</th>
+  <th>2018*</th>
+  <th>2017</th>
+  <th>2016</th>
+  <th>2015</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Núm. 6 Torreón</td>
+  <td>18,403</td>
+  <td>63,153</td>
+  <td>143,770</td>
+  <td>228,485</td>
+  <td>246,396</td>
+</tr>
+<tr>
+  <td>Núm. 2 Gómez Palacio</td>
+  <td>49,033</td>
+  <td>175,424</td>
+  <td>428,351</td>
+  <td>401,212</td>
+  <td>429,553</td>
+</tr>
+</tbody>
+</table>
+
+<p>*Información Preliminar por estar en proceso de validación.</p>
+
+<h2>HOSPITALIZACIÓN</h2>
+
+<p>Comprende casos atendidos en hospitalización. Permite conocer la demanda de atención de los servicios de hospitalización.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Personas atendidas por primera vez</th>
+  <th>2016</th>
+  <th>2017</th>
+  <th>2018</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Si</td>
+  <td>17,102</td>
+  <td>12,789</td>
+  <td>9,073</td>
+</tr>
+<tr>
+  <td>No</td>
+  <td>11,652</td>
+  <td>6,827</td>
+  <td>4,996</td>
+</tr>
+<tr>
+  <td><strong>Total</strong></td>
+  <td>28,754</td>
+  <td>19,616</td>
+  <td>14,069</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Fuente: DGIS</strong></p>
+
+<p><strong>Principales Causas de Hospitalización en 2017</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Causa CIE</th>
+  <th>Hombres</th>
+  <th>Causa CIE</th>
+  <th>Mujeres</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>N18 Enfermedad renal crónica</td>
+  <td>206</td>
+  <td>080 Parto único espontáneo</td>
+  <td>3,112</td>
+</tr>
+<tr>
+  <td>E11 Diabetes mellitus tipo 2</td>
+  <td>150</td>
+  <td>O34 Atención materna por anormalidades conocidas o presuntas de los órganos pelvianos de la madre</td>
+  <td>423</td>
+</tr>
+<tr>
+  <td>E14 Diabetes mellitus, no especificado</td>
+  <td>120</td>
+  <td>O33 Atención materna por desproporción conocida o presunta 380</td>
+  <td></td>
+</tr>
+<tr>
+  <td>K40 Hernia inguinal</td>
+  <td>86</td>
+  <td>K80 Colelitiasis</td>
+  <td>344</td>
+</tr>
+<tr>
+  <td>A09 Otras gastroenteritis y colitis de origen infeccioso y no especificado</td>
+  <td>78</td>
+  <td>O47 Falso trabajo de parto</td>
+  <td>261</td>
+</tr>
+<tr>
+  <td>S82 Fractura de pierna, inclusive el tobillo</td>
+  <td>77</td>
+  <td>N18 Enfermedad renal crónica</td>
+  <td>251</td>
+</tr>
+<tr>
+  <td>P07 Trastornos relacionados con duración corta de la gestación y con bajo peso al nacer, no clasificados en otra parte.</td>
+  <td>70</td>
+  <td>E11 Diabetes mellitus tipo 2</td>
+  <td>233</td>
+</tr>
+<tr>
+  <td>K80 Colelitiasis</td>
+  <td>69</td>
+  <td>O06 Aborto no especificado</td>
+  <td>227</td>
+</tr>
+<tr>
+  <td>K35 Apendicitis aguda</td>
+  <td>67</td>
+  <td>O03 Aborto espontáneo</td>
+  <td>186</td>
+</tr>
+<tr>
+  <td>H26 Otras cataratas</td>
+  <td>64</td>
+  <td>O82 Parto único por cesárea</td>
+  <td>172</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Fuente: DGIS</strong></p>
+
+<h2>URGENCIAS</h2>
+
+<p>Se refiere a la atención brindada durante la estancia del paciente en las salas de urgencias y de admisión continua.</p>
+
+<p><strong>Principales Urgencias atendidas en 2017</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Causa CIE 3</th>
+  <th>Cantidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>J02 Faringitis aguda</td>
+  <td>484</td>
+</tr>
+<tr>
+  <td>J06 Infecciones agudas de las vías respiratorias superiores, de sitios múltiples o no especificados</td>
+  <td>388</td>
+</tr>
+<tr>
+  <td>J00X Rinofaringitis aguda (resfriado común)</td>
+  <td>381</td>
+</tr>
+<tr>
+  <td>A09 Otras gastroenteritis y colitis de origen infeccioso y no especificado</td>
+  <td>361</td>
+</tr>
+<tr>
+  <td>K29 Gastritis y duodenitis</td>
+  <td>217</td>
+</tr>
+<tr>
+  <td>Z03 Observación y evaluación médica por enfermedades y afecciones</td>
+  <td>196</td>
+</tr>
+<tr>
+  <td>I10X Hipertensión esencial (primaria)</td>
+  <td>175</td>
+</tr>
+<tr>
+  <td>R69X Causas de morbilidad desconocidas y no especificadas</td>
+  <td>137</td>
+</tr>
+<tr>
+  <td>N39 Otros trastornos del sistema urinario</td>
+  <td>132</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Fuente: DGIS</strong></p>
+
+<h2>DEFUNCIONES</h2>
+
+<p>Principales causas de defunción. Permite identificar los padecimientos que provocan más decesos en la Zona Metropolitana de La Laguna.</p>
+
+<p><strong>Principales Causas de Defunción 2017. ZML</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Causa</th>
+  <th>Hombres</th>
+  <th>Causa</th>
+  <th>Mujeres</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Enfermedades endócrinas y metabólicas</td>
+  <td>598</td>
+  <td>Enfermedades endócrinas y metabólicas</td>
+  <td>643</td>
+</tr>
+<tr>
+  <td>Enfermedades isquémicas del corazón</td>
+  <td>596</td>
+  <td>Enfermedades isquémicas del corazón</td>
+  <td>405</td>
+</tr>
+<tr>
+  <td>Enfermedades de otras partes del aparato digestivo</td>
+  <td>381</td>
+  <td>Otras enfermedades del aparato respiratorio</td>
+  <td>261</td>
+</tr>
+<tr>
+  <td>Otras enfermedades del aparato respiratorio</td>
+  <td>301</td>
+  <td>Enfermedades de otras partes del aparato digestivo</td>
+  <td>244</td>
+</tr>
+<tr>
+  <td>Enfermedades cerebrovasculares</td>
+  <td>187</td>
+  <td>Enfermedades cerebrovasculares</td>
+  <td>173</td>
+</tr>
+<tr>
+  <td>Tumores malignos de los órganos genitourinarios</td>
+  <td>139</td>
+  <td>Enfermedades hipertensivas</td>
+  <td>153</td>
+</tr>
+<tr>
+  <td>Tumores malignos de los órganos digestivos</td>
+  <td>136</td>
+  <td>Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte</td>
+  <td>125</td>
+</tr>
+<tr>
+  <td>Enfermedades hipertensivas</td>
+  <td>131</td>
+  <td>Enfermedades del aparato urinario</td>
+  <td>118</td>
+</tr>
+<tr>
+  <td>Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte</td>
+  <td>118</td>
+  <td>Enfermedades de la circulación pulmonar y otras enfermedades del corazón</td>
+  <td>117</td>
+</tr>
+<tr>
+  <td>Enfermedades del aparato urinario</td>
+  <td>102</td>
+  <td>Tumores malignos de los órganos genitourinarios</td>
+  <td>116</td>
+</tr>
+<tr>
+  <td>Tumor maligno de órganos respiratorios e intratorácicos</td>
+  <td>89</td>
+  <td>Tumores malignos de los órganos digestivos</td>
+  <td>116</td>
+</tr>
+<tr>
+  <td>Enfermedades de la circulación pulmonar y otras enfermedades del corazón</td>
+  <td>87</td>
+  <td>Tumores malignos de los huesos, de los cartílagos articulares, del tejido conjuntivo, de la piel y de la mama</td>
+  <td>113</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: INEGI. Mortalidad general.</p>
+
+<h2>HOSPITALES Y ESTABLECIMIENTOS DE SALUD</h2>
+
+<p>Se presentan los hospitales tanto del sector privado como público y de especialidad. Además, se incluyen las principales unidades económicas registradas en el Directorio Estadístico Nacional (DENUE) bajo la clasificación de Servicios de Salud y asistencia social.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Tipo</th>
+  <th>Sector</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>Hospital General</strong></td>
+  <td>66</td>
+</tr>
+<tr>
+  <td>.     Público</td>
+  <td>43</td>
+</tr>
+<tr>
+  <td>.     Privado</td>
+  <td>23</td>
+</tr>
+<tr>
+  <td><strong>Hospital de otras especialidades médicas</strong></td>
+  <td>6</td>
+</tr>
+<tr>
+  <td>.     Público</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>.     Privado</td>
+  <td>4</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: DGIS.</p>
+
+<p><strong>Unidades Económicas de Servicios de Salud y Asistencia Social</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Actividad</th>
+  <th>Cantidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Consultorio dental privado</td>
+  <td>491</td>
+</tr>
+<tr>
+  <td>Consultorio medicina especializada privado</td>
+  <td>485</td>
+</tr>
+<tr>
+  <td>Consultorio medicina general privado</td>
+  <td>302</td>
+</tr>
+<tr>
+  <td>Agrupaciones de autoayuda para alcohólicos u otras adicciones</td>
+  <td>209</td>
+</tr>
+<tr>
+  <td>Laboratorios médicos y del diagnóstico privados</td>
+  <td>138</td>
+</tr>
+<tr>
+  <td>Guarderías privadas</td>
+  <td>128</td>
+</tr>
+<tr>
+  <td>Consultorios diversos privados</td>
+  <td>64</td>
+</tr>
+<tr>
+  <td>Consultorios de psicología privados</td>
+  <td>59</td>
+</tr>
+<tr>
+  <td>Hospitales generales del sector público</td>
+  <td>43</td>
+</tr>
+<tr>
+  <td>Servicios de orientación y trabajo social para la niñez y juventud prestados por el sector público</td>
+  <td>31</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: DENUE</p>
+
+<h2>RECURSOS</h2>
+
+<p>Permite identificar la disponibilidad y suficiencia de la capacidad instalada de recursos físicos, humanos y materiales con la que se cuenta en el Sistema Nacional de Salud.</p>
+
+<p><strong>Consultorios por Municipio y Origen 2017</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Municipio</th>
+  <th>Estatal</th>
+  <th>IMSS</th>
+  <th>IMSS-Oportunidades</th>
+  <th>ISSSTE</th>
+  <th>SALUD</th>
+  <th>SEDENA</th>
+  <th>UNIVERSITARIO</th>
+  <th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Matamoros</td>
+  <td>3</td>
+  <td></td>
+  <td>20</td>
+  <td>4</td>
+  <td>21</td>
+  <td></td>
+  <td></td>
+  <td>48</td>
+</tr>
+<tr>
+  <td>Torreón</td>
+  <td>34</td>
+  <td>198</td>
+  <td>9</td>
+  <td>46</td>
+  <td>93</td>
+  <td>19</td>
+  <td>61</td>
+  <td>460</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td></td>
+  <td>114</td>
+  <td>2</td>
+  <td>18</td>
+  <td>59</td>
+  <td></td>
+  <td></td>
+  <td>193</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td></td>
+  <td>13</td>
+  <td>1</td>
+  <td>23</td>
+  <td>40</td>
+  <td></td>
+  <td></td>
+  <td>270</td>
+</tr>
+<tr>
+  <td><strong>Total</strong></td>
+  <td>37</td>
+  <td>325</td>
+  <td>3</td>
+  <td>91</td>
+  <td>213</td>
+  <td>19</td>
+  <td>61</td>
+  <td>778</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: DGIS.</p>
+
+<p><strong>Ambulancias por Municipio y Origen 2017</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Municipio</th>
+  <th>Estatal</th>
+  <th>IMSS</th>
+  <th>IMSS-Oportunidades</th>
+  <th>ISSSTE</th>
+  <th>SALUD</th>
+  <th>SEDENA</th>
+  <th>UNIVERSITARIO</th>
+  <th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Matamoros</td>
+  <td></td>
+  <td></td>
+  <td>2</td>
+  <td></td>
+  <td>1</td>
+  <td></td>
+  <td></td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>Torreón</td>
+  <td></td>
+  <td>9</td>
+  <td></td>
+  <td></td>
+  <td>3</td>
+  <td>4</td>
+  <td></td>
+  <td>16</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td></td>
+  <td>15</td>
+  <td></td>
+  <td></td>
+  <td>2</td>
+  <td></td>
+  <td></td>
+  <td>17</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>1</td>
+  <td>4</td>
+  <td></td>
+  <td></td>
+  <td>5</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td></td>
+  <td>24</td>
+  <td>2</td>
+  <td>1</td>
+  <td>10</td>
+  <td>4</td>
+  <td></td>
+  <td>41</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: DGIS.</p>
+
+<p>**Camas de Hospitalización por Municipio y Origen 2017*</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Municipio</th>
+  <th>Estatal</th>
+  <th>IMSS</th>
+  <th>IMSS-Oportunidades</th>
+  <th>ISSSTE</th>
+  <th>SALUD</th>
+  <th>SEDENA</th>
+  <th>UNIVERSITARIO</th>
+  <th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Matamoros</td>
+  <td></td>
+  <td></td>
+  <td>31</td>
+  <td></td>
+  <td>19</td>
+  <td></td>
+  <td></td>
+  <td>50</td>
+</tr>
+<tr>
+  <td>Torreón</td>
+  <td>27</td>
+  <td>569</td>
+  <td></td>
+  <td>91</td>
+  <td>121</td>
+  <td>39</td>
+  <td>112</td>
+  <td>959</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td></td>
+  <td>212</td>
+  <td></td>
+  <td>67</td>
+  <td>72</td>
+  <td></td>
+  <td></td>
+  <td>351</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>35</td>
+  <td></td>
+  <td></td>
+  <td>35</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td>27</td>
+  <td>781</td>
+  <td>31</td>
+  <td>158</td>
+  <td>247</td>
+  <td>39</td>
+  <td>112</td>
+  <td>1395</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: DGIS.</p>
+
+<p><strong>Quirófanos por Municipio y Origen 2017</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Municipio</th>
+  <th>Estatal</th>
+  <th>IMSS</th>
+  <th>IMSS-Oportunidades</th>
+  <th>ISSSTE</th>
+  <th>SALUD</th>
+  <th>SEDENA</th>
+  <th>UNIVERSITARIO</th>
+  <th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Matamoros</td>
+  <td></td>
+  <td></td>
+  <td>1</td>
+  <td></td>
+  <td>2</td>
+  <td></td>
+  <td></td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>Torreón</td>
+  <td>2</td>
+  <td>26</td>
+  <td></td>
+  <td>4</td>
+  <td>6</td>
+  <td>2</td>
+  <td>7</td>
+  <td>47</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td></td>
+  <td>10</td>
+  <td></td>
+  <td>2</td>
+  <td>2</td>
+  <td></td>
+  <td></td>
+  <td>14</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>2</td>
+  <td></td>
+  <td></td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td>2</td>
+  <td>36</td>
+  <td>1</td>
+  <td>6</td>
+  <td>12</td>
+  <td>2</td>
+  <td>7</td>
+  <td>66</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: DGIS.</p>
+
+<p><strong>Personal de Medicina General y Especialistas por Municipio y Origen 2017</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Municipio</th>
+  <th>Estatal</th>
+  <th>IMSS</th>
+  <th>IMSS-Oportunidades</th>
+  <th>ISSSTE</th>
+  <th>SALUD</th>
+  <th>SEDENA</th>
+  <th>UNIVERSITARIO</th>
+  <th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Matamoros</td>
+  <td>2</td>
+  <td></td>
+  <td>19</td>
+  <td>5</td>
+  <td>36</td>
+  <td></td>
+  <td></td>
+  <td>62</td>
+</tr>
+<tr>
+  <td>Torreón</td>
+  <td>120</td>
+  <td>702</td>
+  <td>4</td>
+  <td>185</td>
+  <td>161</td>
+  <td>12</td>
+  <td>185</td>
+  <td>1369</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td></td>
+  <td>410</td>
+  <td>2</td>
+  <td>95</td>
+  <td>133</td>
+  <td></td>
+  <td></td>
+  <td>640</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td></td>
+  <td>28</td>
+  <td></td>
+  <td>28</td>
+  <td>71</td>
+  <td></td>
+  <td></td>
+  <td>127</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td>122</td>
+  <td>1140</td>
+  <td>25</td>
+  <td>313</td>
+  <td>401</td>
+  <td>12</td>
+  <td>185</td>
+  <td>2198</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: DGIS.</p>
+
+<p><strong>Personal de Enfermería en Contacto con él y la Paciente por Municipio y Origen 2017</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Municipio</th>
+  <th>Estatal</th>
+  <th>IMSS</th>
+  <th>IMSS-Oportunidades</th>
+  <th>ISSSTE</th>
+  <th>SALUD</th>
+  <th>SEDENA</th>
+  <th>UNIVERSITARIO</th>
+  <th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Matamoros</td>
+  <td>6</td>
+  <td></td>
+  <td>91</td>
+  <td>3</td>
+  <td>109</td>
+  <td></td>
+  <td></td>
+  <td>209</td>
+</tr>
+<tr>
+  <td>Torreón</td>
+  <td>101</td>
+  <td>1422</td>
+  <td>15</td>
+  <td>247</td>
+  <td>376</td>
+  <td>12</td>
+  <td>359</td>
+  <td>2532</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td></td>
+  <td>735</td>
+  <td>3</td>
+  <td>129</td>
+  <td>323</td>
+  <td></td>
+  <td></td>
+  <td>1190</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td></td>
+  <td>18</td>
+  <td>1</td>
+  <td>21</td>
+  <td>162</td>
+  <td></td>
+  <td></td>
+  <td>202</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td>107</td>
+  <td>2175</td>
+  <td>110</td>
+  <td>400</td>
+  <td>970</td>
+  <td>12</td>
+  <td>359</td>
+  <td>4133</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: DGIS.</p>
+
+<p><strong>Personal Profesional* por Municipio y Origen 2017</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Municipio</th>
+  <th>Estatal</th>
+  <th>IMSS</th>
+  <th>IMSS-Oportunidades</th>
+  <th>ISSSTE</th>
+  <th>SALUD</th>
+  <th>SEDENA</th>
+  <th>UNIVERSITARIO</th>
+  <th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Matamoros</td>
+  <td></td>
+  <td></td>
+  <td>3</td>
+  <td></td>
+  <td>7</td>
+  <td></td>
+  <td></td>
+  <td>10</td>
+</tr>
+<tr>
+  <td>Torreón</td>
+  <td>12</td>
+  <td>168</td>
+  <td></td>
+  <td>23</td>
+  <td>33</td>
+  <td>3</td>
+  <td>22</td>
+  <td>261</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td></td>
+  <td>63</td>
+  <td></td>
+  <td>8</td>
+  <td>74</td>
+  <td></td>
+  <td></td>
+  <td>145</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td></td>
+  <td>4</td>
+  <td></td>
+  <td>5</td>
+  <td>21</td>
+  <td></td>
+  <td></td>
+  <td>30</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td>12</td>
+  <td>235</td>
+  <td>3</td>
+  <td>36</td>
+  <td>135</td>
+  <td>3</td>
+  <td>22</td>
+  <td>446</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>Se incluye a personas especializadas en Ing. Química, Farmacobiología, Nutrición, Psicología, Ing. Biomédica, etc.</li>
+</ul>
+
+<p>Fuente: DGIS.
+.</p>
+
+<p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS SALUD</strong></p>
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script type="text/javascript" src="../vendor/jssor/jssor.slider.min.js"></script>
+<script>
+  // Photo Slider Presentacion Monitores inicia
+  jQuery(document).ready(function ($) {
+    var options = {
+        $AutoPlay: true,
+        $ChanceToShow: 5,
+        $DragOrientation: 1,
+        $AutoPlayInterval: 12000
+    };
+    var jssor_slider1 = new $JssorSlider$("presentacion-monitor-salud", options);
+    function ScaleSlider() {
+        var parentWidth = $('#presentacion-monitor-salud').parent().width();
+        if (parentWidth) {
+            jssor_slider1.$ScaleWidth(parentWidth);
+        }
+        else
+            window.setTimeout(ScaleSlider, 30);
+    }
+    ScaleSlider();
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+  });
+  //
+</script>
+
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
