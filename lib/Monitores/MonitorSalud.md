@@ -229,3 +229,4 @@ Total           |12      |235   |3                  |36     |135   |3      |22  
 Fuente: DGIS.
 .
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS SALUD</strong></p>
+</br></br></br>
