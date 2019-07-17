@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-07-16</lastmod>
+    <lastmod>2019-07-17</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -613,6 +613,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/inclusion-financiera-y-las-principales-condiciones-de-credito-en-torreon-ene2019.html</loc>
     <lastmod>2019-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/incremento-de-las-enfermedades-cronicas-en-la-Laguna-julio2019.html</loc>
+    <lastmod>2019-07-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
