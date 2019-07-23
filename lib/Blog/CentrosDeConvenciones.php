@@ -35,7 +35,7 @@ class CentrosDeConvenciones extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Los Centros de Convenciones como Equipamiento para el Desarrollo del Turismo de Reuniones';
-        $this->autor                      = 'Autor';
+        $this->autor                      = 'Lic. Frida García Gutiérrez';
         $this->fecha                      = '2019-07-23T12:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'centros-de-convenciones-julio2019';

@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/frida-valeria-garcia-gutierrez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-frida-valeria-garcia-gutierrez-top2.png" align="right" alt="Foto Maira" width="500" height="200"></a>
+
+</p>
+</br></br></br></br></br></br></br></br>
+
+
+---
 
 La industria de reuniones en México representa más de 266 mil eventos anuales, 30 millones de cuarto de noche, una derrama económica de 25 mil millones de dólares y la generación del 1.5% del PIB. En Torreón, de acuerdo a datos de la Oficina de Convenciones y visitantes (OCV) los ingresos estimados para la industria de reuniones ascienden a 110.833 mdp con la expectativa de que para 2019 esta cifra se incremente en 47%; pasando de 55 eventos atendidos en 2017 a 85 para 2019.
 
