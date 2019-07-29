@@ -35,7 +35,7 @@ Los Centros de Convenciones como inversión pública multiplican los beneficios 
 1a. ETAPA - 2016-2019                                                          |        2a. Etapa 2019- 2020    |
 -------------------------------------------------------------------------------|--------------------------------|
 15 micro salones (180 personas C/U)                                            | Velaria 7000 m2                |
-3 salones medianos (1200 personas C/U)                                         |Cocinas  400 m2                 |
+3 salones medianos (1200 personas C/U)                                         | Cocinas  400 m2                |
 Expo - explanada (8 mil personas)                                              | Baño de salones medianos 150 m2|
 3 locales comerciales                                                          | Módulos de Coffee Break 250 m2 |
 Estacionamiento para el público, empleados y proveedores (463, 20 y 3 cajones) |                                |
