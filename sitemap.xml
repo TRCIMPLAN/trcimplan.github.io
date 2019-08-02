@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-07-31</lastmod>
+    <lastmod>2019-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5631,6 +5631,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-competencia-de-servicios-notariales.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-competencia-electoral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -5786,13 +5791,48 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-viales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-abuso-de-confianza.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-abuso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-de-transito.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-viales-fatales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-de-transito-donde-la-persona-responsable-se-fugo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-accidentes-de-transito-fatales.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-acoso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-allanamiento-de-morada.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-amenazas.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-atropellamientos.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5801,8 +5841,23 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-competencia-de-servicios-notariales.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-choques-contra-ciclistas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-choques-contra-motocicletas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-choques-contra-vehiculos-automotores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-dano-a-la-propiedad.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5816,13 +5871,83 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-despojo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-extorsion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-falsificacion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-feminicidio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-fraude.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-homicidios-en-accidentes-de-transito.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-hostigamiento-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-incumplimiento-de-obligaciones-de-asistencia-familiar.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-lesiones.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-lesiones-por-accidente-de-transito.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-monto-reportado-en-robo-de-mercancias.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-narcomenudeo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-otros-delitos-contra-el-patrimonio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-otros-delitos-contra-la-familia.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7621,6 +7746,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/gobierno-competencia-de-servicios-notariales.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/gobierno-competencia-electoral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -7741,18 +7871,68 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-accidentes-viales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-abuso-de-confianza.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-abuso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-accidentes-de-transito.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-accidentes-de-transito-donde-la-persona-responsable-se-fugo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-accidentes-de-transito-fatales.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-competencia-de-servicios-notariales.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-acoso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-allanamiento-de-morada.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-amenazas.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-atropellamientos.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-choques-contra-ciclistas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-choques-contra-motocicletas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-choques-contra-vehiculos-automotores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-dano-a-la-propiedad.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7766,13 +7946,83 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-despojo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-extorsion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-falsificacion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-feminicidio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-fraude.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-homicidios-en-accidentes-de-transito.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-hostigamiento-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-incumplimiento-de-obligaciones-de-asistencia-familiar.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-lesiones.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-lesiones-por-accidente-de-transito.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-monto-reportado-en-robo-de-mercancias.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-narcomenudeo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-otros-delitos-contra-el-patrimonio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-otros-delitos-contra-la-familia.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9076,6 +9326,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-competencia-de-servicios-notariales.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-competencia-electoral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -9196,18 +9451,68 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-viales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-abuso-de-confianza.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-abuso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-de-transito.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-viales-fatales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-de-transito-donde-la-persona-responsable-se-fugo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-de-transito-fatales.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-competencia-de-servicios-notariales.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-acoso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-allanamiento-de-morada.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-amenazas.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-atropellamientos.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-choques-contra-ciclistas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-choques-contra-motocicletas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-choques-contra-vehiculos-automotores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-dano-a-la-propiedad.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9221,13 +9526,83 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-despojo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-extorsion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-falsificacion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-feminicidio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-fraude.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-homicidios-en-accidentes-de-transito.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-hostigamiento-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-incumplimiento-de-obligaciones-de-asistencia-familiar.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-lesiones.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-lesiones-por-accidente-de-transito.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-monto-reportado-en-robo-de-mercancias.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-narcomenudeo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-otros-delitos-contra-el-patrimonio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-otros-delitos-contra-la-familia.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10526,6 +10901,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/gobierno-competencia-de-servicios-notariales.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/gobierno-competencia-electoral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -10646,18 +11026,68 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-accidentes-viales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-abuso-de-confianza.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-abuso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-accidentes-de-transito.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-accidentes-viales-fatales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-accidentes-de-transito-donde-la-persona-responsable-se-fugo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-accidentes-de-transito-fatales.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-competencia-de-servicios-notariales.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-acoso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-allanamiento-de-morada.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-amenazas.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-atropellamientos.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-choques-contra-ciclistas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-choques-contra-motocicletas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-choques-contra-vehiculos-automotores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-dano-a-la-propiedad.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10671,13 +11101,83 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-despojo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-extorsion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-falsificacion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-feminicidio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-fraude.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-homicidios-en-accidentes-de-transito.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-hostigamiento-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-incumplimiento-de-obligaciones-de-asistencia-familiar.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-lesiones.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-lesiones-por-accidente-de-transito.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-monto-reportado-en-robo-de-mercancias.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-narcomenudeo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-otros-delitos-contra-el-patrimonio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-otros-delitos-contra-la-familia.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11646,6 +12146,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-estimacion-de-pib.html</loc>
+    <lastmod>2018-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -11951,6 +12456,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-competencia-de-servicios-notariales.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-competencia-electoral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -12096,18 +12606,68 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-accidentes-viales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-abuso-de-confianza.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-abuso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-accidentes-de-transito.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-accidentes-viales-fatales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-accidentes-de-transito-donde-la-persona-responsable-se-fugo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-accidentes-de-transito-fatales.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-competencia-de-servicios-notariales.html</loc>
-    <lastmod>2015-07-14</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-acoso-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-allanamiento-de-morada.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-amenazas.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-atropellamientos.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-choques-contra-ciclistas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-choques-contra-motocicletas.html</loc>
+    <lastmod>2019-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-choques-contra-vehiculos-automotores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-dano-a-la-propiedad.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12121,12 +12681,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-estimacion-de-pib.html</loc>
-    <lastmod>2018-06-26</lastmod>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-despojo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-extorsion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-falsificacion.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-feminicidio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-fraude.html</loc>
     <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -12136,8 +12711,48 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-hogares-con-integrante-victima-de-extorsion.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-hogares-con-integrante-victima-de-robo-parcial-de-vehiculo.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-hogares-victima-de-al-menos-un-delito.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-homicidios.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-homicidios-en-accidentes-de-transito.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-hostigamiento-sexual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-incumplimiento-de-obligaciones-de-asistencia-familiar.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-lesiones.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-lesiones-por-accidente-de-transito.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12146,7 +12761,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-narcomenudeo.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-otros-delitos-contra-el-patrimonio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-otros-delitos-contra-la-familia.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-otros-delitos-del-fuero-comun.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
     <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -12158,6 +12793,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-poblacion-afectada-por-eventos-hidrometeorologicos-y-geologicos.html</loc>
     <lastmod>2019-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-poblacion-que-se-siente-insegura-en-el-transporte-publico.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-poblacion-que-se-siente-insegura-en-la-ciudad.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12222,6 +12867,16 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-violacion-simple.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-violencia-familiar.html</loc>
     <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -13261,8 +13916,23 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-accidentes-viales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-accidentes-de-transito.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-feminicidio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-femeniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-varoniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13373,6 +14043,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/sociedad-discapacidad.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/sociedad-esperanza-de-vida-de-las-mujeres.html</loc>
+    <lastmod>2019-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/sociedad-esperanza-de-vida-de-los-hombres.html</loc>
+    <lastmod>2019-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13621,8 +14301,23 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-durango/seguridad-accidentes-viales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/seguridad-accidentes-de-transito.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/seguridad-feminicidio.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-femeniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-varoniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13728,6 +14423,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/sociedad-discapacidad.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/sociedad-esperanza-de-vida-de-las-mujeres.html</loc>
+    <lastmod>2019-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/sociedad-esperanza-de-vida-de-los-hombres.html</loc>
+    <lastmod>2019-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14001,6 +14706,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-femeniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-varoniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/sociedad-adultos-mayores.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -14078,6 +14793,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/sociedad-discapacidad.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/sociedad-esperanza-de-vida-de-las-mujeres.html</loc>
+    <lastmod>2019-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/sociedad-esperanza-de-vida-de-los-hombres.html</loc>
+    <lastmod>2019-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

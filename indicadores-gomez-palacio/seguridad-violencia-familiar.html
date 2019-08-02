@@ -238,6 +238,12 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">1,170</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -269,22 +275,29 @@
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2017-12-31</td>
-        <td class="derecha">1,122</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">1,170</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2017-12-31</td>
-        <td class="derecha">453</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">432</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2017-12-31</td>
-        <td class="derecha">291</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">391</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">4,624</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
@@ -339,7 +352,8 @@
       data: [
         { fecha: '2015-12-31', dato: 772 },
         { fecha: '2016-12-31', dato: 1531 },
-        { fecha: '2017-12-31', dato: 1122 }],
+        { fecha: '2017-12-31', dato: 1122 },
+        { fecha: '2018-12-31', dato: 1170 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -354,7 +368,7 @@
   if (typeof varSmiOtrasRegionesViolenciaFamiliarEnGomezPalacioGrafica === 'undefined') {
     varSmiOtrasRegionesViolenciaFamiliarEnGomezPalacioGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesViolenciaFamiliarEnGomezPalacioGrafica',
-      data: [{ region: 'Torreón', dato: 2631 },{ region: 'Gómez Palacio', dato: 1122 },{ region: 'Lerdo', dato: 453 },{ region: 'Matamoros', dato: 291 }],
+      data: [{ region: 'Torreón', dato: 2631 },{ region: 'Gómez Palacio', dato: 1170 },{ region: 'Lerdo', dato: 432 },{ region: 'Matamoros', dato: 391 },{ region: 'La Laguna', dato: 4624 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
