@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-08-12</lastmod>
+    <lastmod>2019-08-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -243,6 +243,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/comportamiento-tendencia-incidencia-delictiva.html</loc>
     <lastmod>2014-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/composicion-del-ingreso-y-del-gasto-en-los-hogares-de-la-laguna-agosto2019.html</loc>
+    <lastmod>2019-08-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

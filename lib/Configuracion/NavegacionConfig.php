@@ -92,7 +92,7 @@ class NavegacionConfig {
 //            'Documentos > Estudios'                                   => 'sig-planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf',
 //            'Documentos > Leyes y Reglamentos'                        => 'institucional/reglamentos.html'),
 // ÚLTIMOS CAMBIOS VM FIN
-
+        'Estudios'                                                    => 'estudios/index.html',
         'Investigaciones'                                             => 'investigaciones/index.html',
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
