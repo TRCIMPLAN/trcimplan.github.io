@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Espacio dedicado a los datos más relevantes sobre el Centro Histórico de Torreón.">
+  <meta name="author" content="Arq. Ihanelly Hernández Villa">
+  <meta name="keywords" content="IMPLAN, Torreon, Centro Histórico">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Monitor del Centro Histórico - IMPLAN Torreón">
+  <meta name="twitter:description" content="Espacio dedicado a los datos más relevantes sobre el Centro Histórico de Torreón.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/monitores/../imagenes/imagen-previa-monitor.png">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/monitores/monitor-de-centro-historico.html">
+  <meta name="og:title" content="Monitor del Centro Histórico - IMPLAN Torreón">
+  <meta name="og:description" content="Espacio dedicado a los datos más relevantes sobre el Centro Histórico de Torreón.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/monitores/../imagenes/imagen-previa-monitor.png">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/monitores/monitor-de-centro-historico.html">
+  <title>Monitor del Centro Histórico - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
+            <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+            <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+        <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+        <div class="encabezado">
+          <h1 itemprop="headline">Convocatoria</h1>
+          <div class="encabezado-descripcion" itemprop="description">Convocatorias Implan Torreón.</div>
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Implan Torreón</span> -
+            <meta itemprop="datePublished" content="2018-03-14T14:03">14/03/2018 14:03
+          </div>
+        </div>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<!-- <h3>Presentación</h3> -->
+<!--
+<div id="presentacion-monitor-centro-historico" style="position: relative; top: 0px; left: 0px; width: 500px; height: 300px;">
+  <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 500px; height: 300px; overflow: hidden;">
+    <div><img u="image" src="centro-historico/centrohistorico-marzo-01.jpg"></div>
+    <div><img u="image" src="centro-historico/centrohistorico-marzo-02.jpg"></div>
+  </div>
+  <a style="display: none" href="http://www.jssor.com">Image Slider</a>
+</div>
+
+-->
+ <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Convocatoria Manos a la Cebra" src="../imagenes/convocatorias/convocatoria-manos-a-la-cebra-banner.jpg"></span>
+<!-- <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Convocatoria Manos a la Cebra" src="../imagenes/convocatorias/ima01-manos-a-la-cebra.jpg"></span>   -->
+</br></br></br></br></br></br></br>
+</br></br></br></br></br></br>
+</br></br></br>
+<p>
+</br></br>
+<h1><center>Concurso de Pasos Peatonales para las calles de Torreón, Coahuila.</center></h1>
+<h1><center>“Manos a la Cebra”</center></h1>
+
+<b>Los pasos peatonales deben formar parte  del  espacios públicos asignados para que de forma segura los caminantes  podamos cruzar las calles.  Es un derecho de los peatones y como tal se deben respetar.</b>
+</br>
+En el marco del Día Internacional del Peatón, 17 de agosto, El R. Ayuntamiento de Torreón a través de La Dirección General de Vialidad y Movilidad Urbana, en coordinación con la Dirección de Movilidad no Motorizada, el Instituto Municipal de Planeación y Competitividad, el Sistema Integral de Mantenimiento Vial, Instituto Municipal de Cultura y la Dirección de la Juventud de Torreón. 
+
+<h2><center>C O N V O C A N</center></h2>
+
+A todos los alumnos de Arquitectura, Diseño e  Ingeniería Civil, Artistas interesados de la Región Laguna y ciudadanos en general  a participar en el  1er.  Concurso Regional  “Manos a la Cebra”  de diseño y ejecución de pasos peatonales para las calles de Torreón, Coahuila.
+
+<h2>Antecedentes:</h2>
+
+Las calles y banquetas son espacios públicos indispensables para la movilidad en la ciudad. Las calles de Torreón se caracterizan, por lo general, en ser anchas. Situación que facilita el tráfico vehicular; no así el tránsito para los peatones quienes deben caminar más distancia para cruzar de una esquina a otra. La Organización Mundial de la Salud instauró el 17 de agosto como Día Mundial del Peatón, fecha que conmemora la muerte de Bridget Driscoll, quien fue la primera persona atropellada por un automóvil en 1896 en Londres, Inglaterra. En ese marco de conmemoración del Día Mundial del Peatón la convocatoria resalta la importancia de la Pirámide de la Movilidad en donde “La jerarquía de la movilidad urbana prioriza los modos de transporte que promueven la equidad, el beneficio social y dañan menos el ambiente. El Derecho a moverse por la ciudad es universal y no debe reservarse sólo a los propietarios de automotores privados” (ITDP, México).
+
+<h2>Objeto del Concurso:</h2>
+
+Manos a la Cebra, tiene como objetivo  promover de forma activa y creativa la cultura vial y la participación ciudadana Para ello,  se convoca a  mujeres y hombres estudiantes, artistas laguneros y ciudadanía en general, a participar de esta convocatoria, resaltando la importancia de  los derechos del peatón y su seguridad al caminar por las calles de Torreón. 
+
+
+<h3>PREMIOS</h3>
+Premio único 
+$10,000.00
+Reconocimiento para todos los participantes</p>
+
+<!--Bases para la Convocatoria  -->
+<div style="margin-top:8px; margin-bottom:16px;"><a href="manos-a-la-cebra/convocatoria-manos-a-la-cebra.jpg"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para ver el archivo: <b> <big>BASES para la Convocatoria "Manos A La Cebra".</big> </b>(versión JPG)</span></a></div>
+
+<!--Reglamento para la Convocatoria  
+<div style="margin-top:8px; margin-bottom:16px;"><a href="reglamento-vision-metropoli-2018.pdf"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para ver el archivo: <b>  <big> REGLAMENTO Consejo Visión Metrópoli. </big> </b>(versión PDF)</span></a></div>
+-->
+
+<!--Registro para la Convocatoria  -->
+<div style="margin-top:8px; margin-bottom:16px;"><a href="http://bit.ly/ManosALaCebraInscripcion"><span style="font-size:32pt"><i class="fa fa-file-text-o" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para acceder a la <b> <big>  FICHA DE REGISTRO.</big> </b></span></a></div>
+
+</br>
+
+<!--
+Consejeros : convocatorias-2018-cs-banner-09.jpg  borrar esta línea
+<div style="margin-top:8px; margin-bottom:16px;"><a href="Convocatoria Visión Metrópoli 2018 prueba.pdf"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para acceder a la <b>Ficha de Registro a la Convocatoria Visión Metrópoli</b></span></a></div>
+<h2>Servicios</h2>
+
+
+
+<p>Como uno de los principales centros económicos de La Laguna, el Centro Histórico de Torreón alberga el 17.88% de las unidades económicas del municipio, con la presencia de 4784 de las 26746 unidades económicas registradas en el Directorio Estadístico de Unidades Económicas (DENUE) publicado por INEGI en 2016.</p>
+
+
+-->
+
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script type="text/javascript" src="../vendor/jssor/jssor.slider.min.js"></script>
+<script>
+  // Photo Slider Presentacion Monitores inicia
+  jQuery(document).ready(function ($) {
+    var options = {
+        $AutoPlay: true,
+        $ChanceToShow: 5,
+        $DragOrientation: 1,
+        $AutoPlayInterval: 6000
+    };
+    var jssor_slider1 = new $JssorSlider$("presentacion-monitor-centro-historico", options);
+    function ScaleSlider() {
+        var parentWidth = $('#presentacion-monitor-centro-historico').parent().width();
+        if (parentWidth) {
+            jssor_slider1.$ScaleWidth(parentWidth);
+        }
+        else
+            window.setTimeout(ScaleSlider, 30);
+    }
+    ScaleSlider();
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+  });
+  // Photo Slider Presentacion Sector Automotriz termina
+</script>
+
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>

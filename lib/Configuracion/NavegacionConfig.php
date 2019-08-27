@@ -118,8 +118,8 @@ class NavegacionConfig {
         'Contacto' => array(
             'Contacto > Medios de contacto'                           => 'contacto/contacto.html',
             'Contacto > Preguntas Frecuentes'                         => 'preguntas-frecuentes/preguntas-frecuentes.html',
-            'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'));
-      //  'Convocatorias'                                               => 'convocatorias/index.html');
+            'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'),
+        'Convocatorias'                                               => 'convocatorias/index.html');
       //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html');
      //   'Valores Catastrales'                                         => 'valores-catastrales/index.html');
       //  'Convocatoria Visión Metrópoli 2018'                          => 'https://drive.google.com/file/d/17x9_UkY-i-f4W-TI6ImYKmyZs8QUWOq3/view?usp=sharing');
