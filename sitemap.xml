@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-09-02</lastmod>
+    <lastmod>2019-09-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1333,6 +1333,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/seguridad-humana.html</loc>
     <lastmod>2015-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/seguridad-vial-sep2019.html</loc>
+    <lastmod>2019-09-02</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

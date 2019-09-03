@@ -1,7 +1,15 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/ihanelly-hernandez-villa.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-ihanelly-hernandez-villa-top2.png" align="right" alt="Foto Cecilio" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 El pasado 17 de agosto tuvo lugar la celebración del día del peatón, fecha instaurada por la Organización Mundial de la Salud (OMS) en conmemoración del primer incidente de tráfico que dejara una víctima mortal registrado en 1897 en Londres, Inglaterra; para recordar la importancia de la seguridad vial y promover el respeto entre los distintos usuarios de las vías.
 
-Cada año, los accidentes de tránsito causan la muerte de aproximadamente 1.3 millones de personas en todo el mundo. Los peatones, los ciclistas […] se conocen colectivamente como “usuarios vulnerables de la vía pública” y representan la mitad de todas las muertes por accidente de tránsito en todo el mundo. (OMS, 2017).
+**Cada año, los accidentes de tránsito causan la muerte de aproximadamente 1.3 millones de personas en todo el mundo. Los peatones, los ciclistas […] se conocen colectivamente como “usuarios vulnerables de la vía pública” y representan la mitad de todas las muertes por accidente de tránsito en todo el mundo. (OMS, 2017).**
 
 En México, las condiciones en las que se desarrolla la seguridad vial representan un grave problema para la movilidad urbana; por tal motivo, dicho tema está siendo analizado en la agenda pública nacional con la Iniciativa “Ley General de Seguridad Vial”. Este documento, tiene como objetivo dotar al país de un nuevo marco jurídico en materia de movilidad, otorgando beneficios para todos los usuarios de las vías públicas, pero sobre todo, promoviendo la visión de que ninguna vida debe perderse por el simple hecho de trasladarnos.
 
