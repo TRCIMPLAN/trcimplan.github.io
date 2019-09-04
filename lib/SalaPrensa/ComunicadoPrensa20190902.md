@@ -9,7 +9,7 @@
 
 Torreón, Coahuila a 30 de agosto de 2019.
 
-###Presentan Plan de Política Industrial.
+#Presentan Plan de Política Industrial.
 
 Durante la Octava Sesión del Consejo Directivo del Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN), se expusieron los avances respecto al proyecto de “Política Industrial”, mismo que coordina la Dirección de Proyectos Estratégicos, perteneciente a esta Institución.
 
