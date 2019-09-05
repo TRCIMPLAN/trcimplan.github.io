@@ -43,7 +43,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->aparece_en_pagina_inicial = TRUE;
         $this->para_compartir            = TRUE;
         $this->imagen                    = '../imagenes/imagen.jpg';
-        $this->imagen_previa             = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa             = '../imagenes/imagen-previa-monitor.png';
         $this->poner_imagen_en_contenido = FALSE;
         $this->nombre_menu               = 'Monitores';
         // Ruta a la clase para hacer la página con el índice
