@@ -62,7 +62,7 @@ class NavegacionConfig {
         'Información Geográfica' => array(
 
             'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
-            'Información Geográfica > Planes'                         => 'sig-planes/index.html',
+         //   'Información Geográfica > Planes'                         => 'sig-planes/index.html',    VM
          //   'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
          //   'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html',
             'Información Geográfica > Mapas por Tema'                 => 'sig-mapas-torreon/temas-sig.html',
@@ -86,14 +86,14 @@ class NavegacionConfig {
 
 //ÚLTIMOS CAMBIOS VM
 
-//        'Documentos'  => array(
-//            'Documentos > Planes y Programas'                         => 'sig-planes/index.html',
-//            'Documentos > Investigaciones'                            => 'investigaciones/index.html',
-//            'Documentos > Estudios'                                   => 'sig-planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf',
-//            'Documentos > Leyes y Reglamentos'                        => 'institucional/reglamentos.html'),
+        'Documentos'  => array(
+            'Documentos > Planes y Programas'                         => 'sig-planes/index.html',
+            'Documentos > Investigaciones'                            => 'investigaciones/index.html',
+            'Documentos > Estudios'                                   => 'estudios/index.html',
+            'Documentos > Leyes y Reglamentos'                        => 'institucional/reglamentos.html'),
 // ÚLTIMOS CAMBIOS VM FIN
-        'Estudios'                                                    => 'estudios/index.html',
-        'Investigaciones'                                             => 'investigaciones/index.html',
+//        'Estudios'                                                    => 'estudios/index.html',
+//        'Investigaciones'                                             => 'investigaciones/index.html',
         'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
         'Programas de Radio'                                          => 'programas-radio/index.html',
