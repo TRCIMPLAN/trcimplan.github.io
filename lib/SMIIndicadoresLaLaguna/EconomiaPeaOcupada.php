@@ -91,7 +91,7 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '96.2000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '95.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '44.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 

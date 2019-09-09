@@ -69,7 +69,9 @@ class EconomiaTasaDeTrabajoAsalariado extends \SMIBase\PublicacionWeb {
         return array(
             array('fecha' => '2018-03-31', 'valor' => '73.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2018-09-30', 'valor' => '74.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2018-12-31', 'valor' => '75.3500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 6, crudo 3
+            array('fecha' => '2018-12-31', 'valor' => '75.3500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-03-31', 'valor' => '73.4000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-06-30', 'valor' => '74.4000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**
