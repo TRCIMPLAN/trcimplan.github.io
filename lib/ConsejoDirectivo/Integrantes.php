@@ -35,7 +35,7 @@ class Integrantes extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Integrantes del Consejo Directivo';
-        $this->fecha                      = '2017-05-08T14:00';
+        $this->fecha                      = '2019-09-11T14:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'integrantes';
         // La descripción y claves dan información a los buscadores y redes sociales
