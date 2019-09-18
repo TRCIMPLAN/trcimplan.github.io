@@ -100,7 +100,8 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2019-04-30', 'valor' => '788765', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2019-05-31', 'valor' => '788960', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2019-06-30', 'valor' => '788167', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2019-07-31', 'valor' => '790213', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 68, crudo 34
+            array('fecha' => '2019-07-31', 'valor' => '790213', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2019-08-31', 'valor' => '791233', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 70, crudo 35
     } // datos
 
     /**
@@ -124,14 +125,14 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-07-31', 'valor' => '200657', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-07-31', 'valor' => '82454', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2019-07-31', 'valor' => '13205', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2019-07-31', 'valor' => '8818', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-07-31', 'valor' => '305134', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2019-07-31', 'valor' => '790213', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Durango', 'fecha' => '2019-07-31', 'valor' => '245420', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2019-07-31', 'valor' => '20385379', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2019-08-31', 'valor' => '201261', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-08-31', 'valor' => '81726', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2019-08-31', 'valor' => '13249', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2019-08-31', 'valor' => '8772', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-08-31', 'valor' => '305008', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2019-08-31', 'valor' => '791233', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Durango', 'fecha' => '2019-08-31', 'valor' => '244245', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2019-08-31', 'valor' => '20422010', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
     } // otras_regiones
 
     /**

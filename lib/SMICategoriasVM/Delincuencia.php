@@ -287,7 +287,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">29</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">189</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/08/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">43</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
