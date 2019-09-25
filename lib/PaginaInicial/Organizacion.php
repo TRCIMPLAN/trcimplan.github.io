@@ -98,11 +98,12 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/identidad-lagunera.html"><img src="imagenes\convocatorias\identidad-lagunera-2019.jpg" alt="Identidad Lagunera"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner.jpg" alt="Concurso Manos a La Cebra"></a>';
                // $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/index.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Visión Metrópoli"></a>';
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatorias-2018-cs-banner-09.jpg" alt="Consejeros ciudadanos"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatoria-consejeros-sectoriales-2019.jpg" alt="Consejeros ciudadanos 2019"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/programas-radio/index.html"><img src="imagenes\radio\publicidad-radio3.jpg" alt="Programa de Radio Implan"></a>';
+               // $b[] = '<a href="http://www.trcimplan.gob.mx/programas-radio/index.html"><img src="imagenes\radio\publicidad-radio3.jpg" alt="Programa de Radio Implan"></a>';
 
                 $b[] = '</ul>';
             $b[] = '</div>';
