@@ -28,7 +28,7 @@ namespace Configuracion;
 class MapaInferiorConfig {
 
     public $sitio_titulo = 'IMPLAN Torreón';
-    public $logotipo     = 'imagenes/implan-transparente-gris.png';
+    public $logotipo     = 'implan-transparente-gris.png';
     public $en_raiz      = FALSE; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
 
     /**
