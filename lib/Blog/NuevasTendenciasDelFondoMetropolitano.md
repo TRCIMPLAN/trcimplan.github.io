@@ -4,7 +4,6 @@
 </p>
 
 </br></br></br></br></br></br></br></br>
-
 ---
 
 El 26 de febrero de 2019 se publicaron en el Diario Oficial de la Federación los lineamientos para el Fondo Metropolitano, que de acuerdo a declaraciones del gobernador de Coahuila, Miguel Riquelme, en septiembre del presente año, se solicitaron fondos para las cuatro zonas metropolitanas del  Estado conformadas por Saltillo, Piedras Negras, La Laguna y Monclova por un monto total de 400 millones de pesos.
