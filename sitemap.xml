@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-10-09</lastmod>
+    <lastmod>2019-10-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1043,6 +1043,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/nuevas-tecnologias-estandares-web.html</loc>
     <lastmod>2015-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/nuevas-tendencias-del-fondo-metropolitano-oct2019.html</loc>
+    <lastmod>2019-10-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
