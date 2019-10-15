@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/miriam-janeth-gonzalez-quintana.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-miriam-janeth-gonzalez-quintana-top2.png" align="right" alt="Foto Miriam" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 El 26 de febrero de 2019 se publicaron en el Diario Oficial de la Federación los lineamientos para el Fondo Metropolitano, que de acuerdo a declaraciones del gobernador de Coahuila, Miguel Riquelme, en septiembre del presente año, se solicitaron fondos para las cuatro zonas metropolitanas del  Estado conformadas por Saltillo, Piedras Negras, La Laguna y Monclova por un monto total de 400 millones de pesos.
 

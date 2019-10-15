@@ -28,7 +28,7 @@ namespace PaginaInicial;
 class UltimasPublicaciones {
 
     public $imprentas;                        // Arreglo con rutas a las clases de ImprentaPublicaciones
-    const   ULTIMAS_PUBLICACIONES_LIMITE = 4; // Cantidad límite de últimas publicaciones
+    const   ULTIMAS_PUBLICACIONES_LIMITE = 8; // Cantidad límite de últimas publicaciones
 
     /**
      * HTML
