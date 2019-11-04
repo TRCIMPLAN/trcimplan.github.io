@@ -99,7 +99,7 @@ class NavegacionConfig {
         'Programas de Radio'                                          => 'programas-radio/index.html',
         'Visión Metrópoli' => array(
             'Visión Metrópoli > Visión Metrópoli'                     => 'vision-metropoli/index.html',
-            'Visión Metrópoli > Reglamento'                           => 'vision-metropoli/reglamento-vision-metropoli-2018.pdf'),
+            'Visión Metrópoli > Reglamento'                           => 'vision-metropoli/reglamento-vision-metropoli.pdf'),
       //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
         'Institucional' => array(
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
