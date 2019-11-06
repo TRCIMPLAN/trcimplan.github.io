@@ -34,7 +34,7 @@ class IncidentesViales extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre             = 'Incidentes Viales';
         $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
-        $this->fecha              = '2019-04-05T13:08';
+        $this->fecha              = '2019-11-01T13:08';
         // El nombre del archivo a crear y rutas relativas a las imágenes
         $this->archivo            = 'incidentes-viales';
         $this->imagen             = 'incidentes-viales/imagen.jpg';
@@ -66,7 +66,7 @@ class IncidentesViales extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/b10ba8dd-e734-4c04-96c5-2df15cba8372/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/8d50ca49-0f41-437a-8d0e-401e06bf6008/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </br><b>Fuente: Dirección de Tránsito y Vialidad, 2019.</b></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
