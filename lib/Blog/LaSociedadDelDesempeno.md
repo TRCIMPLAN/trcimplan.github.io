@@ -1,3 +1,10 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/ivan-de-luna-aldape.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-ivan-de-luna-aldape-top2.png" align="right" alt="Foto Iván" width="500" height="200"></a>
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 El sujeto-de-rendimiento, más que una generación definida por letras y rangos de edad, es la persona predominante en estos tiempos. Caracterizado principalmente por el deseo insaciable de desempeño y la búsqueda de un éxito que no está claramente definido. Un individuo que nunca se detiene.
 
