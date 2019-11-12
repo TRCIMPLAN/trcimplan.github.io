@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-11-07</lastmod>
+    <lastmod>2019-11-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -908,6 +908,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/la-situacion-de-la-pobreza-en-torreon-julio2019.html</loc>
     <lastmod>2019-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/la-sociedad-del-desempeno-nov2019.html</loc>
+    <lastmod>2019-11-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
