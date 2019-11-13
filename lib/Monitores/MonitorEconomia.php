@@ -35,8 +35,8 @@ class MonitorEconomia extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Economía';
-        $this->autor                      = array('Lic. Daniel Alejandro López Murga'); // Puede ser un arreglo de textos
-        $this->fecha                      = '2019-09-03T14:03';
+        $this->autor                      = 'Lic. Pedro Eleazar González Valdez'; // Puede ser un arreglo de textos array('x','y')
+        $this->fecha                      = '2019-11-11T14:03';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-economia'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
