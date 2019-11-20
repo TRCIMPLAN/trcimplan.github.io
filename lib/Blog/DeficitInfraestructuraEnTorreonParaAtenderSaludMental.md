@@ -16,3 +16,19 @@ Los hospitales mencionados, son los únicos en Coahuila que pueden internar paci
 A pesar de que son institutos de salud pública, el costo promedio por día de hospitalización es de $1,009.50 MXN, costo que no incluye alimentos ni medicamentos. Para que un paciente pueda ser internado en alguno de estos centros, primero deberá ser valorado por un psiquiatra del instituto, donde la consulta tiene precio de $247 MXN en Saltillo y $243 MXN en Parras.
 
 En Torreón, no existe infraestructura alguna para tratar pacientes en condiciones graves mentales, en caso de quererlas tratar, se deberán trasladar a alguna de estas ciudades, sin embargo, hay una lista de espera promedio 1 a 3 meses para obtener una consulta de psiquiátrica, valoración en la cual se decidirá si hay que hospitalizar al paciente o no.
+
+##Referencias
+
+* Academia Nacional de Medicina. (2015). LA DEPRESIÓN Y OTROS TRASTORNOS PSIQUIÁTRICOS. (M. Medina Mora, E. Sarti Gutiérrez, & T. Real Quintanar, Edits.) CDMX, México: Intersistemas.
+
+* [Dirección General de Información en Salud. (2017). Egresos Hospitalarios. Obtenido de Dirección General de Información en Salud:](http://sinba08.salud.gob.mx/cubos/csaeh2017.html)
+
+* [Dirección General de Información en Salud. (2017). SECTORIAL (SINAIS) 2012-2017 . Obtenido de Dirección General de Información en Salud:](http://www.dgis.salud.gob.mx/contenidos/basesdedatos/recursossector.html)
+
+* [Entre Hombres México. (s.f.). 378. Salud Mental. Dra. María Elena Medina Mora (Primera parte). Obtenido de Entre Hombres México:](https://www.entrehombres.net/378-salud-mental-dra-maria-elena-medina-mora-primera-parte/)
+
+* [Instituto Nacional de Estadística y Geografía. (2017). Anuario estadístico y geográfico de Coahuila de Zaragoza 2017. Obtenido de Instituto Nacional de Estadística y Geografía:](https://www.datatur.sectur.gob.mx/ITxEF_Docs/COAH_ANUARIO_PDF.pdf)
+
+* [Organización Mundial de la Salud. (3 de octubre de 2019). Salud Mental. Obtenido de Organización Mundial de la Salud:](https://www.who.int/es/news-room/facts-in-pictures/detail/mental-health)
+
+* [Secretaría de Salud. (mayo - agosto de 2017). Descifr3mo5. Género y salud en cifras, 15(2), 38. Obtenido de]( https://www.gob.mx/cms/uploads/attachment/file/280103/Revista15-2VF.pdf)
