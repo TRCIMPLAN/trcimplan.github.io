@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/alejandra-martinez-aviles.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-alejandra-martinez-aviles-top2.png" align="right" alt="Foto Alejandra" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 **La discapacidad es un complejo fenómeno que imposibilita o dificulta la interacción de un individuo con su entorno social**. Cuando las barreras con las que se enfrenta una persona con discapacidad (PCD) son eliminadas de la sociedad, dejando que ésta desarrolle su vida de la misma manera y facilidad que el resto de la población, se dice que se logra una inclusión plena y efectiva. Los lugares, servicios, utensilios e información deben ser igual de accesibles que para cualquier otro individuo, es por esto que la implementación de políticas públicas integrales es necesaria para asegurar una participación plena, justa y equitativa.
 
