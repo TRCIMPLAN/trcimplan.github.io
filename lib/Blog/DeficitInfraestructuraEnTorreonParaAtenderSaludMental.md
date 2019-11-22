@@ -2,11 +2,15 @@
 <p>
    <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/alejandra-martinez-aviles.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-alejandra-martinez-aviles-top2.png" align="right" alt="Foto Alejandra" width="500" height="200"></a>
 
+</br>
+
+<a  title="Envía este Artículo por WhatsApp"     href="https://api.whatsapp.com/send?text=Déficit de infraestructura en Torreón para atender la salud mental http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fdeficit-infraestructura-en-torreon-para-atender-salud-mental-nov2019.html" title="WhatsApp"> <img class="img-responsive contenido-imagen" src="../imagenes/logo-whatsapp.jpg" align="right" width="100" height="100"></a>
 </p>
 
-</br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br>
 
 ---
+
 
 **La depresión destaca en las enfermedades mentales**, cifras de la OMS, establecen que es padecida por el 4% de la población. En México, ocupa el primer lugar de discapacidad en mujeres, y el noveno en hombres. Siendo una de las principales causas de incapacidad laboral, y, se estima que el 33% de los ingresos de aquellos que la padecen, es destinado a su tratamiento.
 
