@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-11-22</lastmod>
+    <lastmod>2019-11-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1568,6 +1568,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/urgente-reducir-brecha-salarial-en-la-zona-metropolitana-de-la-laguna-dic2018.html</loc>
     <lastmod>2018-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/suelo-mixto-como-politica-de-desarrollo-sostenible-nov2019.html</loc>
+    <lastmod>2019-11-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
