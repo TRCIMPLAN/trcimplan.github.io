@@ -1,4 +1,4 @@
 
 ### Descargas
 
-[Presentación Política Industrial](politica-industrial/presentacion-politica-industrial-2017-05-25.pdf) archivo PDF 7.3 MB.
+[Presentación Política Industrial 2019](politica-industrial/presentacion-politica-industrial-2019-12-04.pdf) archivo PDF 3.1 MB.

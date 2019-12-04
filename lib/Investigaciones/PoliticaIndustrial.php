@@ -35,8 +35,8 @@ class PoliticaIndustrial extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre        = 'Política Industrial';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha         = '2017-05-26T12:00';
+        $this->autor         = 'Lic. Frida García Gutiérrez';
+        $this->fecha         = '2019-12-04T12:00';
         // El nombre del archivo a crear
         $this->archivo       = 'politica-industrial';
         // La descripción y claves dan información a los buscadores y redes sociales
