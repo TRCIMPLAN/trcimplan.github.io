@@ -40,7 +40,7 @@ class PoliticaIndustrial extends \Base\PublicacionSchemaArticle {
         // El nombre del archivo a crear
         $this->archivo       = 'politica-industrial';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion   = 'Estudio sobre Política Industrial para Torreón, Coahuila de Zaragoza, México.';
+        $this->descripcion   = 'Estudio sobre Política Industrial para Torreón 2019, Coahuila de Zaragoza, México.';
         $this->claves        = 'IMPLAN, Torreon, Politica, Industrial';
         // Para el Organizador
         $this->categorias    = array('Empresas', 'Empleo', 'Macroeconomía');
