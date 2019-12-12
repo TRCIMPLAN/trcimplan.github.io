@@ -3791,6 +3791,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-ingresos.html</loc>
+    <lastmod>2019-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-negocios.html</loc>
     <lastmod>2019-12-11</lastmod>
     <changefreq>monthly</changefreq>
