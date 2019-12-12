@@ -35,8 +35,8 @@ class MonitorNegocios extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Negocios';
-        $this->autor                      = 'Lic. Iván de Luna Aldape'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2018-02-15T14:03';
+        $this->autor                      = 'Lic. Pedro Eleazar González Valdez'; // Puede ser un arreglo de textos
+        $this->fecha                      = '2019-12-11T14:03';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-negocios'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales

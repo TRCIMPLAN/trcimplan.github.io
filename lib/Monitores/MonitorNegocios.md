@@ -2,42 +2,58 @@
 
 ## Indicadores de Negocios
 
-Periodo | Indicador                          | Dato      | Nivel   | Fuente
---------|------------------------------------|-----------|---------|----------------
-2016    | [Apertura de una empresa](http://localhost/trcimplan_sitioweb/indicadores-torreon/economia-apertura-de-una-empresa.html)            | 11.5 días | Torreón | Doing Business
-2018    | [Empresas registradas en el SIEM](http://localhost/trcimplan_sitioweb/indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html)    | 5544      | Torreón | SIEM
-2018    | [Microempresas](http://localhost/trcimplan_sitioweb/indicadores-torreon/economia-microempresas.html)                      | 10        | Torreón | SIEM
+## NEGOCIOS
 
-## Febrero 2018
+| APERTURA DE EMPRESAS                  | DATO      | NIVEL     | FUENTE             |
+|-------------------------|--------|---------|---------------------------|
+| Apertura de una empresa S.A.      | 11.5 días     | Torreón       | Doing Business 2016|
+| Procedimientos para registrar una S.A.| 8 días    | Torreón       | Doing Business 2016|
 
-Se mantiene la información de Doing Business del 2016, que mide diversas variables que ayudan a quien quiera abrir una empresa darse una idea del número de trámites, tiempo y requisitos que se necesitan en la ciudad de Torreón.
 
-El Sistema de Información Empresarial Mexicano (SIEM) integra un registro completo de las empresas existentes desde una perspectiva pragmática y de promoción, accesible a confederaciones, autoridades, empresas y público en general, vía internet.
+## EMPRESAS
 
-El INEGI a través de un análisis de censos económicos desde 1984, llevó a cabo el diseño de tablas de supervivencia de negocios, determinando la esperanza de vida de los negocios por sector, tamaño y localización geográfica.
+| INDICADOR                     | DATO  | NIVEL     | FUENTE           |
+|-------------------------|--------|---------|---------------------------|
+| Negocios abiertos         |350    | Torreón       | DGDEIG Jul - Sep |
+| Comercio              |47%    | Torreón       | DGDEIG Jul - Sep |
+| Servicios             |49%    | Torreón       | DGDEIG Jul - Sep |
+| Manufactura               |4% | Torreón       | DGDEIG Jul - Sep |
+| Microempresas             |94%    | Torreón   | DGDEIG Jul - Sep |
 
-### Apertura de un negocio, Doing Business
 
-En Torreón, abrir una empresa (Sociedad Anónima) lleva en promedio 11.5 días y 8 procedimientos administrativos (Doing Business, 2016).
+## COSTO TRÁMITES MUNICIPALES
 
-### Entorno empresarial
+| INDICADOR                                         | DATO          | NIVEL     | FUENTE                        |
+|-------------------------|--------|---------|---------------------------|
+| Licencia de Funcionamiento Mercantil                  |$352.59 - $1447.24 | Torreón   | Portal Torreón 2019       |
+| Total de giros específicos                            |  1087         | Torreón   | Reglamento municipal, 2019    |
+| Giros SARE                                    |  433          | Torreón   | Reglamento municipal, 2019    |
+| Giros Regulado                                    |  626          | Torreón   | Reglamento municipal, 2019    |
+| Giros Especial                                |  29           | Torreón   | Reglamento municipal, 2019    |
+| Licencia municipal para negocio con ventas de bebidas alcohólicas |  $362,448   | Torreón | Ley Ingresos, 2019|
+| Giros SARE                    |  433   | Torreón | Ley Ingresos, 2019|
 
-Existen 5,544 empresas registradas en el SIEM (2018) de los cuales la mayoría se dedican al comercio o servicios, con un 49.01% y 40.53% respectivamente;  sólo el 7% en manufactura.
 
-Del total de estos negocios, *9 de cada 10 son microempresas*, que cuentan con menos de 10 trabajadores.
+## ESPERANZA DE VIDA NEGOCIOS
 
-Las microempresas emplean a un 38.1% de la población ocupada; un 21.17% se emplea en pequeñas empresas; 16.41% en medianas, y un 11.5% en grandes. (ENOE-INEGI)
+| INDICADOR                                         | DATO  | NIVEL     | FUENTE    |
+|-------------------------|--------|---------|---------------------------|
+| Años de vida de un negocio a partir de su apertura en Torreón     |7.0    | Torreón   | INEGI 2019    |
+| A nivel nacional                              |7.8    | Nacional  | INEGI 2019    |
 
-Del total de personas ocupadas, un 21.35% está ocupado en el Comercio; un 19.7% trabaja en la Industria Manufacturera; el 8. 37% se ocupa en la Construcción; y un 7.71% en Restaurantes y Servicios de Alojamiento. (ENOE-INEGI)
 
-Sólo el 48.86% es empleado de manera formal, ya sea cuyo patrón o empresa esté debidamente registrada como tal. En el 2013, el IMSS Subdelegación Torreón contaba con 187,050 registrados en su base de datos.
+## METAS Y FINANCIAMIENTO
 
-Para abrir una empresa, el Municipio de Torreón requiere del trámite de una licencia mercantil, permiso cuyo costo está entre $321.00 y $1,287.48, dependiendo de las inspecciones que se necesiten (Ayuntamiento de Torreón – Portal de Trámites, 2018).
+| INDICADOR                                         | DATO  | NIVEL   | FUENTE                   |
+|-------------------------|--------|---------|---------------------------|
+| Logro de metas con un esfuerzo mayor al normal (PyMES)                |29.88% | Nacional| SESNSP enero-febrero 2019|
+| Empresas que solicitaron apoyo gubernamental y lo recibieron (Micro)  |61.85% | Nacional| SESNSP enero-febrero 2019|
 
-El Municipio contempla en su catálogo de licencias mercantiles 649 giros específicos, de los cuales 400 necesitan una inspección de protección civil, 7 de tránsito municipal, 179 de salud municipal y 348 de ecología. Sólo 29 giros dentro del catálogo necesitan una licencia de alcoholes (Portal de Datos Abiertos Torreón, 2016).
+</br>
 
-### Esperanza de vida de un negocio
 
-Una nueva empresa en Torreón tendrá una esperanza de vida de 7.0 años (INEGI, 2016) y a los 5 años sólo quedarán un tercio de los negocios, mientras que a nivel nacional la esperanza es de 7.8 años y en 5 años habrán cerrado el 65% de estas nuevas empresas.
+<p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS NEGOCIOS</strong></p>
 
-El sector manufacturero es el de mayor esperanza con 9.8 años, seguido de servicios, 8.2 años, y comercio con 7.1 años, así como las empresas de mayor tamaño, de 11 a 15 empleados, cuentan con una vida promedio de 15 años en Coahuila, más del doble que las de 0 a 2 personas con 6 años en promedio de operación a partir de su apertura (INEGI).
+
+[De click para descargar el archivo PDF del:   <strong>Histórico Febrero 2018    </strong>](http://www.trcimplan.gob.mx/monitores/negocios/negocios-feb-2018.pdf)
+</br>
