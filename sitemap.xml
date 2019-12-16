@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2019-12-13</lastmod>
+    <lastmod>2019-12-16</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -288,6 +288,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/crecimiento-poblacional-en-torreon.html</loc>
     <lastmod>2018-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/credito-de-vivienda-en-colonias-tradicionales-dic2019.html</loc>
+    <lastmod>2019-12-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
