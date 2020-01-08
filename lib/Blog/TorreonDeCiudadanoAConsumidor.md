@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/carla-estefania-tovar-triana.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-carla-estefania-tovar-triana-top5.png" align="right" alt="Foto Carla Tovar" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 “El comercio en la ciudad ha pasado de estar situado a nivel de calle, como se encontraba comúnmente en el centro, para aglomerarse en grandes edificaciones, espacios “públicos” de propiedad privada”.
 
