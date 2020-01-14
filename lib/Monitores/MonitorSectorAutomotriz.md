@@ -17,6 +17,8 @@ Establecimientos Dedicados a Metálicas Básicas                                
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS</strong></p>
 
 
+[De click para descargar el archivo del:   <strong>Mapa Sector Automotriz</strong>](https://drive.google.com/open?id=1-R6J2EMeHHigupisewSn3Fy9t8jABjUY&usp=sharing)
+
 [De click para descargar el archivo PDF del:   <strong>Informe Sector Automotriz - marzo</strong>](http://www.trcimplan.gob.mx/monitores/sector-automotriz/automotriz-marzo-2018.pdf)
 
 </br>
