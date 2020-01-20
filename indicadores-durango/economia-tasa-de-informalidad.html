@@ -289,6 +289,12 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">51.0450 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -346,29 +352,29 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2017-09-30</td>
-        <td>41.2700</td>
+        <td class="centrado">2019-09-30</td>
+        <td>40.4600</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2017-09-30</td>
-        <td>37.6900</td>
+        <td class="centrado">2019-09-30</td>
+        <td>35.0580</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2017-09-30</td>
-        <td>56.0000</td>
+        <td class="centrado">2019-09-30</td>
+        <td>51.0450</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2017-09-30</td>
-        <td>57.1900</td>
+        <td class="centrado">2019-09-30</td>
+        <td>56.5000</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -412,6 +418,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTasaDeInformalidadEnDurango === 'undefined') {
+     $('#SmiDatosTasaDeInformalidadEnDurango').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosTasaDeInformalidadEnDurango = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeInformalidadEnDurangoEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos === 'undefined') {
@@ -419,7 +443,8 @@
       element: 'SmiGraficasTasaDeInformalidadEnDurangoEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos',
       data: [
         { fecha: '2017-06-30', dato: 54.1499 },
-        { fecha: '2017-09-30', dato: 56.0000 }],
+        { fecha: '2017-09-30', dato: 56.0000 },
+        { fecha: '2019-09-30', dato: 51.0450 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -457,7 +482,7 @@
   if (typeof varSmiOtrasRegionesTasaDeInformalidadEnDurangoGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeInformalidadEnDurangoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeInformalidadEnDurangoGrafica',
-      data: [{ region: 'Torreón', dato: 40.8000 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 41.2700 },{ region: 'Coahuila', dato: 37.6900 },{ region: 'Durango', dato: 56.0000 },{ region: 'Nacional', dato: 57.1900 }],
+      data: [{ region: 'Torreón', dato: 40.8000 },{ region: 'Gómez Palacio', dato: 41.6500 },{ region: 'Lerdo', dato: 41.8200 },{ region: 'Matamoros', dato: 39.1000 },{ region: 'La Laguna', dato: 40.4600 },{ region: 'Coahuila', dato: 35.0580 },{ region: 'Durango', dato: 51.0450 },{ region: 'Nacional', dato: 56.5000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

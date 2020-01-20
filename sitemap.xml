@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-01-17</lastmod>
+    <lastmod>2020-01-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -12566,6 +12566,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tasa-de-subocupacion.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tasa-de-trabajo-asalariado.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tierra-ejidal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -13008,6 +13018,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-trafico-de-menores.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14118,6 +14133,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-tasa-mensual-estatal-de-secuestro.html</loc>
     <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-violacion-simple.html</loc>
+    <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -53,7 +53,7 @@ class IncidentesViales extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Vialidad', 'Movilidad');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/b10ba8dd-e734-4c04-96c5-2df15cba8372/embed';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/8d50ca49-0f41-437a-8d0e-401e06bf6008/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
