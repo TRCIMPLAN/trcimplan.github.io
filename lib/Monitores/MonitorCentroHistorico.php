@@ -36,7 +36,7 @@ class MonitorCentroHistorico extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Monitor del Centro Histórico';
         $this->autor                      = 'Arq. Ihanelly Hernández Villa'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2018-03-14T14:03';
+        $this->fecha                      = '2020-01-14T14:03';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-centro-historico'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales

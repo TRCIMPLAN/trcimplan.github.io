@@ -36,7 +36,7 @@ class MonitorSalud extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Salud';
         $this->autor                      = 'Lic. Ana Luisa Pacheco Meraz'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2019-07-09T09:00';
+        $this->fecha                      = '2020-01-09T09:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-salud'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales

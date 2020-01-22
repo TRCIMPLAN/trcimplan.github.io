@@ -43,7 +43,7 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Salud';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Salud');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
         $this->regiones    = array('Matamoros');
     } // constructor
 
@@ -72,7 +72,11 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '41.9000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '40.1000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '37.3000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '37406', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso')); // formateado 0, valor 12, crudo 7
+            array('fecha' => '2016-12-31', 'valor' => '37406', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
+            array('fecha' => '2019-06-30', 'valor' => '139', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2019-07-31', 'valor' => '123', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2019-07-31', 'valor' => '178', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2019-08-31', 'valor' => '178', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 20, crudo 11
     } // datos
 
     /**
@@ -96,11 +100,11 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '53.7000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2019-12-31', 'valor' => '808', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '78599', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '25036', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '37406', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '51.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Matamoros', 'fecha' => '2019-08-31', 'valor' => '178', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '284547', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**

@@ -213,7 +213,8 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -264,13 +265,42 @@
         <td>IMCO</td>
         <td>En 2016 cambió a "cantidad" de población ocupada con acceso</td>
       </tr>
+      <tr>
+        <td class="centrado">2019-06-30</td>
+        <td>139</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-07-31</td>
+        <td>123</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-07-31</td>
+        <td>178</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-08-31</td>
+        <td>178</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Acceso a Instituciones de Salud en Matamoros </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Acceso a Instituciones de Salud en Matamoros con fuente IMCO</h3>
 
-    <div id="SmiGraficasAccesoAInstitucionesDeSaludEnMatamoros" class="grafica"></div>
+    <div id="SmiGraficasAccesoAInstitucionesDeSaludEnMatamorosImco" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Acceso a Instituciones de Salud en Matamoros con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
+
+    <div id="SmiGraficasAccesoAInstitucionesDeSaludEnMatamorosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Acceso a Instituciones de Salud en Matamoros</h3>
@@ -288,9 +318,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2019-06-30</td>
-        <td>53.7000</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td class="centrado">2019-12-31</td>
+        <td>808</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
@@ -309,16 +339,16 @@
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2016-12-31</td>
-        <td>37406</td>
-        <td>IMCO</td>
-        <td>En 2016 cambió a "cantidad" de población ocupada con acceso</td>
+        <td class="centrado">2019-08-31</td>
+        <td>178</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>51.0000</td>
-        <td>IMCO</td>
+        <td class="centrado">2019-09-30</td>
+        <td>284547</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
     </tbody>
@@ -420,11 +450,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasAccesoAInstitucionesDeSaludEnMatamoros === 'undefined') {
-    varSmiGraficasAccesoAInstitucionesDeSaludEnMatamoros = Morris.Line({
-      element: 'SmiGraficasAccesoAInstitucionesDeSaludEnMatamoros',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasAccesoAInstitucionesDeSaludEnMatamorosImco === 'undefined') {
+    varSmiGraficasAccesoAInstitucionesDeSaludEnMatamorosImco = Morris.Line({
+      element: 'SmiGraficasAccesoAInstitucionesDeSaludEnMatamorosImco',
       data: [
         { fecha: '2008-12-31', dato: 43.1000 },
         { fecha: '2009-12-31', dato: 35.6000 },
@@ -441,12 +471,30 @@
     });
   }
   })
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasAccesoAInstitucionesDeSaludEnMatamorosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
+    varSmiGraficasAccesoAInstitucionesDeSaludEnMatamorosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
+      element: 'SmiGraficasAccesoAInstitucionesDeSaludEnMatamorosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
+      data: [
+        { fecha: '2019-06-30', dato: 139 },
+        { fecha: '2019-07-31', dato: 178 },
+        { fecha: '2019-08-31', dato: 178 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAccesoAInstitucionesDeSaludEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 53.7000 },{ region: 'Gómez Palacio', dato: 78599 },{ region: 'Lerdo', dato: 25036 },{ region: 'Matamoros', dato: 37406 },{ region: 'La Laguna', dato: 51.0000 }],
+      data: [{ region: 'Torreón', dato: 808 },{ region: 'Gómez Palacio', dato: 78599 },{ region: 'Lerdo', dato: 25036 },{ region: 'Matamoros', dato: 178 },{ region: 'La Laguna', dato: 284547 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

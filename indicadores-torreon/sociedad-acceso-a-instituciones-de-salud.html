@@ -215,6 +215,7 @@
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -301,6 +302,48 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-06-30</td>
+        <td>1115</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-07-31</td>
+        <td>1069</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-08-31</td>
+        <td>1242</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-09-30</td>
+        <td>1007</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-10-31</td>
+        <td>1208</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-11-30</td>
+        <td>906</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>808</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -313,6 +356,11 @@
     <h3>Acceso a Instituciones de Salud en Torreón con fuente IMCO</h3>
 
     <div id="SmiGraficasAccesoAInstitucionesDeSaludEnTorreonImco" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
+    <h3>Acceso a Instituciones de Salud en Torreón con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
+
+    <div id="SmiGraficasAccesoAInstitucionesDeSaludEnTorreonSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Acceso a Instituciones de Salud en Torreón</h3>
@@ -330,9 +378,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2019-06-30</td>
-        <td>53.7000</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td class="centrado">2019-12-31</td>
+        <td>808</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
@@ -351,16 +399,16 @@
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2016-12-31</td>
-        <td>37406</td>
-        <td>IMCO</td>
-        <td>En 2016 cambió a "cantidad" de población ocupada con acceso</td>
+        <td class="centrado">2019-08-31</td>
+        <td>178</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>51.0000</td>
-        <td>IMCO</td>
+        <td class="centrado">2019-09-30</td>
+        <td>284547</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
     </tbody>
@@ -530,12 +578,34 @@
     });
   }
   })
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasAccesoAInstitucionesDeSaludEnTorreonSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
+    varSmiGraficasAccesoAInstitucionesDeSaludEnTorreonSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
+      element: 'SmiGraficasAccesoAInstitucionesDeSaludEnTorreonSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
+      data: [
+        { fecha: '2019-06-30', dato: 1115 },
+        { fecha: '2019-07-31', dato: 1069 },
+        { fecha: '2019-08-31', dato: 1242 },
+        { fecha: '2019-09-30', dato: 1007 },
+        { fecha: '2019-10-31', dato: 1208 },
+        { fecha: '2019-11-30', dato: 906 },
+        { fecha: '2019-12-31', dato: 808 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesAccesoAInstitucionesDeSaludEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAccesoAInstitucionesDeSaludEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 53.7000 },{ region: 'Gómez Palacio', dato: 78599 },{ region: 'Lerdo', dato: 25036 },{ region: 'Matamoros', dato: 37406 },{ region: 'La Laguna', dato: 51.0000 }],
+      data: [{ region: 'Torreón', dato: 808 },{ region: 'Gómez Palacio', dato: 78599 },{ region: 'Lerdo', dato: 25036 },{ region: 'Matamoros', dato: 178 },{ region: 'La Laguna', dato: 284547 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
