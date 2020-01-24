@@ -35,8 +35,8 @@ class MonitorVivienda extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Vivienda';
-        $this->autor                      = 'Arq. Ihanelly Hernández Villa'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2018-12-07T09:58';
+        $this->autor                      = 'Lic. Pedro Eleazar González Valdez'; // Puede ser un arreglo de textos
+        $this->fecha                      = '2020-01-24T09:58';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-vivienda'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
