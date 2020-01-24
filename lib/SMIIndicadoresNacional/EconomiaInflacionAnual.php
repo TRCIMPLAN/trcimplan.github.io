@@ -83,7 +83,9 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
             array('fecha' => '2014-12-31', 'valor' => '4.0800', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '2.1300', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2016-12-31', 'valor' => '3.3600', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2017-12-31', 'valor' => '6.7700', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 34, crudo 17
+            array('fecha' => '2017-12-31', 'valor' => '6.7700', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2018-12-31', 'valor' => '3.9400', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2019-12-31', 'valor' => '2.8300', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 38, crudo 19
     } // datos
 
     /**
@@ -108,7 +110,8 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2017-12-31', 'valor' => '8.5787', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2017-12-31', 'valor' => '6.7700', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '3.9400', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2019-12-31', 'valor' => '2.8300', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**

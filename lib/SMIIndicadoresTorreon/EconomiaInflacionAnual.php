@@ -108,7 +108,8 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2017-12-31', 'valor' => '8.5787', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2017-12-31', 'valor' => '6.7700', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '3.9400', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2019-12-31', 'valor' => '2.8300', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**

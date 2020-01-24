@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresCoahuila SeguridadViolacionSimple
+ * TrcIMPLAN Sitio Web - SMIIndicadoresCoahuila SeguridadRobosTotales
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SMIIndicadoresCoahuila;
 
 /**
- * Clase SeguridadViolacionSimple
+ * Clase SeguridadRobosTotales
  */
-class SeguridadViolacionSimple extends \SMIBase\PublicacionWeb {
+class SeguridadRobosTotales extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,12 +34,12 @@ class SeguridadViolacionSimple extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Violación simple en Coahuila';
-        $this->fecha       = '2018-07-26T08:59:18';
+        $this->nombre      = 'Robos Totales en Coahuila';
+        $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
-        $this->archivo     = 'seguridad-violacion-simple';
+        $this->archivo     = 'seguridad-robos-totales';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Cantidad de violaciones simples por año';
+        $this->descripcion = 'Cantidad total de robos en el mes.';
         $this->claves      = 'IMPLAN, Coahuila, Seguridad, Delincuencia';
         // Para el Organizador
         $this->categorias  = array('Seguridad', 'Delincuencia');
@@ -67,7 +67,7 @@ class SeguridadViolacionSimple extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2019-10-31', 'valor' => '15', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2019-08-31', 'valor' => '195', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -91,12 +91,12 @@ class SeguridadViolacionSimple extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-10-31', 'valor' => '4', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-10-31', 'valor' => '7', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2019-10-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2019-10-31', 'valor' => '4', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '129', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2019-10-31', 'valor' => '15', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2019-12-31', 'valor' => '111', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-12-31', 'valor' => '208', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2019-12-31', 'valor' => '50', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2019-12-31', 'valor' => '28', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '397', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2019-08-31', 'valor' => '195', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
     /**
@@ -115,10 +115,11 @@ class SeguridadViolacionSimple extends \SMIBase\PublicacionWeb {
      */
     public function observaciones() {
         return <<<OBSERVACIONES_FINAL
-Descarga la [Base de Datos] (http://secretariadoejecutivo.gob.mx/incidencia-delictiva/incidencia-delictiva-fuero-comun.php)
+Descarga la [Base de Datos](http://secretariadoejecutivo.gob.mx/incidencia-delictiva/incidencia-delictiva-fuero-comun.php)
+Incluye todos los tipos y modalidades de robo especificadas en el SESNSP
 OBSERVACIONES_FINAL;
     } // observaciones
 
-} // Clase SeguridadViolacionSimple
+} // Clase SeguridadRobosTotales
 
 ?>

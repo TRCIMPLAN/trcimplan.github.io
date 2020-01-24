@@ -43,7 +43,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Empleo';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo');
-        $this->fuentes     = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos');
+        $this->fuentes     = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -82,7 +82,8 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
             array('fecha' => '2016-06-30', 'valor' => '6470.65', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('fecha' => '2016-09-30', 'valor' => '5896.38', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('fecha' => '2016-12-31', 'valor' => '6210.88', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('fecha' => '2017-03-31', 'valor' => '6495.63', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos')); // formateado 0, valor 32, crudo 16
+            array('fecha' => '2017-03-31', 'valor' => '6495.63', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('fecha' => '2019-09-30', 'valor' => '8823.8800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 34, crudo 17
     } // datos
 
     /**
@@ -94,7 +95,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -110,7 +111,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-03-31', 'valor' => '6254.41', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2017-03-31', 'valor' => '6603.44', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2017-03-31', 'valor' => '4705.54', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2017-03-31', 'valor' => '6495.63', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '8823.8800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2017-03-31', 'valor' => '7225.63', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Durango', 'fecha' => '2017-03-31', 'valor' => '6217.26', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Nacional', 'fecha' => '2017-03-31', 'valor' => '6543.52', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'));

@@ -43,7 +43,7 @@ class EconomiaPoblacionOcupada extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana , Empleo , Población';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo', 'Población');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,8 @@ class EconomiaPoblacionOcupada extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '577994', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2016-12-31', 'valor' => '577994', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-09-30', 'valor' => '528133', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -95,7 +96,7 @@ class EconomiaPoblacionOcupada extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '153477', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '50569', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '79877', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '577994', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '528133', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**

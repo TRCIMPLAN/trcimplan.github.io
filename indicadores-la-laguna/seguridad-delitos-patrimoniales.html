@@ -546,6 +546,48 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-06-30</td>
+        <td class="derecha">300</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-07-31</td>
+        <td class="derecha">298</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-08-31</td>
+        <td class="derecha">291</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">245</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-10-31</td>
+        <td class="derecha">283</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-11-30</td>
+        <td class="derecha">251</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">242</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -570,36 +612,43 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2019-05-31</td>
-        <td>243</td>
+        <td class="centrado">2019-12-31</td>
+        <td>152</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2019-05-31</td>
-        <td>41</td>
+        <td class="centrado">2019-12-31</td>
+        <td>62</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2019-05-31</td>
-        <td>21</td>
+        <td class="centrado">2019-12-31</td>
+        <td>16</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2019-05-31</td>
-        <td>15</td>
+        <td class="centrado">2019-12-31</td>
+        <td>12</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2019-05-31</td>
-        <td>320</td>
+        <td class="centrado">2019-12-31</td>
+        <td>242</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td class="centrado">2019-11-30</td>
+        <td>20</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
@@ -783,7 +832,14 @@
         { fecha: '2019-02-28', dato: 291 },
         { fecha: '2019-03-31', dato: 283 },
         { fecha: '2019-04-30', dato: 271 },
-        { fecha: '2019-05-31', dato: 320 }],
+        { fecha: '2019-05-31', dato: 320 },
+        { fecha: '2019-06-30', dato: 300 },
+        { fecha: '2019-07-31', dato: 298 },
+        { fecha: '2019-08-31', dato: 291 },
+        { fecha: '2019-09-30', dato: 245 },
+        { fecha: '2019-10-31', dato: 283 },
+        { fecha: '2019-11-30', dato: 251 },
+        { fecha: '2019-12-31', dato: 242 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -798,7 +854,7 @@
   if (typeof varSmiOtrasRegionesDelitosPatrimonialesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDelitosPatrimonialesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDelitosPatrimonialesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 243 },{ region: 'Gómez Palacio', dato: 41 },{ region: 'Lerdo', dato: 21 },{ region: 'Matamoros', dato: 15 },{ region: 'La Laguna', dato: 320 }],
+      data: [{ region: 'Torreón', dato: 152 },{ region: 'Gómez Palacio', dato: 62 },{ region: 'Lerdo', dato: 16 },{ region: 'Matamoros', dato: 12 },{ region: 'La Laguna', dato: 242 },{ region: 'Coahuila', dato: 20 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

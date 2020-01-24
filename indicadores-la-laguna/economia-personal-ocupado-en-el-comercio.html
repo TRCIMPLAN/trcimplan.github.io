@@ -213,7 +213,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -252,10 +252,16 @@
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">22.4100 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
     <h3>Personal Ocupado en el Comercio en La Laguna con fuente INEGI</h3>
 
     <div id="SmiGraficasPersonalOcupadoEnElComercioEnLaLagunaInegi" class="grafica"></div>
@@ -304,9 +310,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2013-12-31</td>
-        <td class="derecha">27.6995 %</td>
-        <td>Elaboración propia con datos obtenidos del INEGI</td>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">22.4100 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
@@ -430,8 +436,8 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasPersonalOcupadoEnElComercioEnLaLagunaInegi === 'undefined') {
     varSmiGraficasPersonalOcupadoEnElComercioEnLaLagunaInegi = Morris.Line({
       element: 'SmiGraficasPersonalOcupadoEnElComercioEnLaLagunaInegi',
@@ -453,7 +459,7 @@
   if (typeof varSmiOtrasRegionesPersonalOcupadoEnElComercioEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPersonalOcupadoEnElComercioEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPersonalOcupadoEnElComercioEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 26.9458 },{ region: 'Gómez Palacio', dato: 29.4578 },{ region: 'Lerdo', dato: 24.1890 },{ region: 'Matamoros', dato: 35.3180 },{ region: 'La Laguna', dato: 27.6995 },{ region: 'Coahuila', dato: 22.8278 },{ region: 'Durango', dato: 30.6424 },{ region: 'Nacional', dato: 29.6141 }],
+      data: [{ region: 'Torreón', dato: 26.9458 },{ region: 'Gómez Palacio', dato: 29.4578 },{ region: 'Lerdo', dato: 24.1890 },{ region: 'Matamoros', dato: 35.3180 },{ region: 'La Laguna', dato: 22.4100 },{ region: 'Coahuila', dato: 22.8278 },{ region: 'Durango', dato: 30.6424 },{ region: 'Nacional', dato: 29.6141 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

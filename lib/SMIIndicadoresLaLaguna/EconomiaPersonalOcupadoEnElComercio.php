@@ -43,7 +43,7 @@ class EconomiaPersonalOcupadoEnElComercio extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Empleo, Mercados';
         // Para el Organizador
         $this->categorias  = array('Empleo', 'Mercados');
-        $this->fuentes     = array('INEGI', 'Elaboración propia con datos obtenidos del INEGI');
+        $this->fuentes     = array('INEGI', 'Elaboración propia con datos obtenidos del INEGI', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -70,7 +70,8 @@ class EconomiaPersonalOcupadoEnElComercio extends \SMIBase\PublicacionWeb {
             array('fecha' => '1998-12-31', 'valor' => '22.5000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2003-12-31', 'valor' => '25.4000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '28.0342', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2013-12-31', 'valor' => '27.6995', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 4
+            array('fecha' => '2013-12-31', 'valor' => '27.6995', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2019-09-30', 'valor' => '22.4100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 10, crudo 5
     } // datos
 
     /**
@@ -98,7 +99,7 @@ class EconomiaPersonalOcupadoEnElComercio extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '29.4578', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '24.1890', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '35.3180', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2013-12-31', 'valor' => '27.6995', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '22.4100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '22.8278', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '30.6424', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '29.6141', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));

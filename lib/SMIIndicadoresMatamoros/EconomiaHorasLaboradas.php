@@ -94,7 +94,8 @@ class EconomiaHorasLaboradas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '41.3700', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '287225879.6000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '15607673.5400', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '53462897.5100', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'));
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '53462897.5100', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el decimal es por "Horas trabajadas al año"'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '42.6000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**

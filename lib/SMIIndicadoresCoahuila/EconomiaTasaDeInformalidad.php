@@ -78,7 +78,8 @@ class EconomiaTasaDeInformalidad extends \SMIBase\PublicacionWeb {
             array('fecha' => '2017-03-31', 'valor' => '37.9200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('fecha' => '2017-06-30', 'valor' => '37.0200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2017-09-30', 'valor' => '37.6900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2019-09-30', 'valor' => '35.0580', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 24, crudo 12
+            array('fecha' => '2019-09-23', 'valor' => '40.5680', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-09-30', 'valor' => '35.0580', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 26, crudo 13
     } // datos
 
     /**

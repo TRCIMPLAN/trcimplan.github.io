@@ -214,6 +214,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -270,6 +271,37 @@
     <h3>PEA desocupada en Torreón </h3>
 
     <div id="SmiGraficasPeaDesocupadaEnTorreon" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de PEA desocupada en Torreón</h3>
+    <div id="SmiOtrasRegionesPeaDesocupadaEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesPeaDesocupadaEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td class="centrado">2019-06-30</td>
+        <td class="derecha">4.7000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">95.1900 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -386,6 +418,19 @@
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesPeaDesocupadaEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesPeaDesocupadaEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesPeaDesocupadaEnTorreonGrafica',
+      data: [{ region: 'Torreón', dato: 4.7000 },{ region: 'La Laguna', dato: 95.1900 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

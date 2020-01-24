@@ -12271,6 +12271,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-desocupados-con-educacion-superior-o-media-superior.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-desocupados-con-experiencia.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-desocupados-de-15-a-25-anos.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-diversificacion-economica.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -12326,6 +12341,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-horas-laboradas.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-indice-de-competitividad-urbana.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -12363,6 +12383,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-indice-de-gini.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-inflacion-anual.html</loc>
+    <lastmod>2015-02-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12441,6 +12466,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-pea-desocupada.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-pea-ocupada.html</loc>
     <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -12468,6 +12498,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-personas-con-ingresos-mayores-al-promedio-de-la-ciudad.html</loc>
     <lastmod>2019-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-personas-que-ganan-1-o-2-salarios-minimos.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14096,6 +14131,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-delitos-patrimoniales.html</loc>
+    <lastmod>2015-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-feminicidio.html</loc>
     <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -14111,7 +14151,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-robo-a-transeuntes.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-robo-de-automoviles.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-robos-a-casa-habitacion.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-robos-totales.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -14141,7 +14196,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-violacion-simple.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/seguridad-trafico-de-menores.html</loc>
     <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>

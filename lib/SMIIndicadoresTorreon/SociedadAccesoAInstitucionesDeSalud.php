@@ -43,7 +43,7 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Salud';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Salud');
-        $this->fuentes     = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos', 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
+        $this->fuentes     = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -78,14 +78,7 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
             array('fecha' => '2018-09-30', 'valor' => '53.2500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2018-12-31', 'valor' => '54.4800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2019-03-31', 'valor' => '53.9000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2019-06-30', 'valor' => '53.7000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2019-06-30', 'valor' => '1115', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2019-07-31', 'valor' => '1069', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2019-08-31', 'valor' => '1242', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2019-09-30', 'valor' => '1007', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2019-10-31', 'valor' => '1208', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2019-11-30', 'valor' => '906', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2019-12-31', 'valor' => '808', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 38, crudo 20
+            array('fecha' => '2019-06-30', 'valor' => '53.7000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 24, crudo 13
     } // datos
 
     /**
@@ -109,11 +102,11 @@ class SociedadAccesoAInstitucionesDeSalud extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-12-31', 'valor' => '808', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '53.7000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '78599', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '25036', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2019-08-31', 'valor' => '178', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '284547', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '37406', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de población ocupada con acceso'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '53.9000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**
