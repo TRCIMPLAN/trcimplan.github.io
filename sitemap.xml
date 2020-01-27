@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-01-24</lastmod>
+    <lastmod>2020-01-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4283,6 +4283,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2019-10-31-decima-sesion-consejo.html</loc>
     <lastmod>2019-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2019-11-25-comunicado-prensa-sensibilizatec.html</loc>
+    <lastmod>2019-11-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
