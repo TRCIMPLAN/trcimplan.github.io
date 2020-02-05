@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-01-29</lastmod>
+    <lastmod>2020-02-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4383,6 +4383,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2018-02-12-laguna-y2040-youth-challenge-2018.html</loc>
     <lastmod>2018-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2019-09-24-manos-a-la-cebra-reporte.html</loc>
+    <lastmod>2019-09-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
