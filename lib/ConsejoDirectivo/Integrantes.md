@@ -19,13 +19,13 @@ C. Tomás Galván Camacho                    | Representante del Consejo Municip
 
 Nombre                                     | Cargo
 -------------------------------------------|------------------------------------------------------------------------------------
-C. Hugo Homero Pérez Agüero                | Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción
+C. Ernesto Llamas Sotomayor                | Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción
 C. Rogelio Barrios                         | Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción
-C. Alberto Francisco Allegre del Cueto     | Iniciativa Privada
+C. Fernando Menéndez Cuellar               | Iniciativa Privada
 C. Roberto A. Muñoz del Río                | Iniciativa Privada
-C. Cecilia del Carmen Cardiel Escamilla    | Organizaciones de la Sociedad Civil
+C. Ana Catalina Arguelles del Bosque       | Organizaciones de la Sociedad Civil
 C. Susana Estens de la Garza               | Organizaciones de la Sociedad Civil
-C. Carlos Gerardo Landeros Araujo          | Instituciones de Educación Superior
+C. José Luis Zapata Dávila                 | Instituciones de Educación Superior
 C. Raul Martínez Hernández                 | Instituciones de Educación Superior
 
 ##Consejeros Propuestos por el Alcalde
