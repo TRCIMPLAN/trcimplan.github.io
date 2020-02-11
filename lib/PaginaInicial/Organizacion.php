@@ -141,6 +141,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 $b[] = '</ul>';
             $b[] = '</div>';
             //FIN MONITORES
+
             $b[] = implode("\n", $a);
         $b[] = '  </section>';
         // Entregar
