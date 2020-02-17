@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-02-12</lastmod>
+    <lastmod>2020-02-17</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4318,6 +4318,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-01-30-primer-sesion-consejo-2020.html</loc>
     <lastmod>2020-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-02-17-comunicado-enoe.html</loc>
+    <lastmod>2020-02-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
