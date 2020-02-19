@@ -67,7 +67,7 @@ class PlanDirectorDesarrolloUrbano extends \Base\Publicacion {
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/fc3b6d3f-b9ba-4f3d-acdf-4729709c4fdd/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</br> <b>Fuente: Plan Director de Desarrollo Urbano del Municipio Torreón. Periódico Oficial del Estado de Coahuila, 14 de febrero de 2014.</b>
+</br> <b>Fuente: Plan Director de Desarrollo Urbano del Municipio Torreón. Periódico Oficial del Estado de Coahuila, 14 de febrero de 2014. VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
 </br></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
