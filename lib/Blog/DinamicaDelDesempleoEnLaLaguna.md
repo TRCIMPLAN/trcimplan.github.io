@@ -1,4 +1,12 @@
 
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/pedro-eleazar-gonzalez-valdez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-pedro-eleazar-gonzalez-valdez-top2.png" align="right" alt="Foto Eleazar" width="500" height="200"></a>
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
 Durante los últimos años la tasa de desempleo se ha mantenido constante en la Zona Metropolitana de La Laguna (ZML). Aunque en algunos periodos este indicador se ha visto mejorado, se mantiene por arriba de los porcentajes nacionales. Para el caso del municipio de Torreón, su mayor registro ha sido para el primer trimestre de 2010, presentando el 7.58% de personas desempleadas, respecto a la población económicamente activa (PEA); contra el 5.29% a nivel nacional. La Encuesta Nacional de Ocupación y Empleo (ENOE), publica de manera trimestral información relacionada a la empleabilidad a nivel nacional y a su vez de las áreas metropolitanas del país incluyendo la ZML, dicha información se usa en el presente artículo.
 
 En el tercer trimestre de 2019 se mantiene la tendencia de desempleo por encima del promedio del país. Cifra correspondiente a un 4.8%, 1.11 puntos porcentuales más que la cifra nacional. Respecto a la subocupación, esta aumentó considerablemente, pasando de 9.70% a 12.14% en el lapso de dos trimestres.

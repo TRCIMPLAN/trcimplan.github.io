@@ -1,4 +1,13 @@
 
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jesus-abraham-salazar-valadez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-jesus-abraham-salazar-valadez-top2.png" align="right" alt="Foto Abraham" width="500" height="200"></a>
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
+
 El H. Cabildo de Torreón está a unos días de aprobar la **propuesta de la reforma al Reglamento de Desarrollo Urbano y Construcción del municipio de Torreón**, esta es la primera vez que un instrumento normativo se elabora con un profundo análisis técnico y un amplio consenso ciudadano a través de un esquema de participación democrática el cual tuvo 4 etapas de elaboración.
 
 **La propuesta principal se trabajó desde el equipo técnico del Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN) junto con la asesoría de Gabriel Todd, exdirector del IMPLAN Monterrey**. Este primer documento se formó desde la perspectiva de la Nueva Agenda Urbana impulsada por ONU-Habitat III y la Ley General de Asentamientos Humanos, Ordenamiento Territorial y Desarrollo Urbano.

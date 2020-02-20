@@ -1,4 +1,12 @@
 
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jesus-abraham-salazar-valadez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-jesus-abraham-salazar-valadez-top2.png" align="right" alt="Foto Abraham" width="500" height="200"></a>
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
 La forma habitual de adquirir una vivienda mediante un financiamiento público ya sea por medio del Instituto del Fondo Nacional de la Vivienda para los Trabajadores (INFONAVIT) o por el Fondo de la Vivienda del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (FOVISSSTE) es a través de un crédito inmobiliario que generalmente se solicita en nuevos fraccionamientos, sin embargo, se ha prestado poca atención a los créditos de vivienda usada en colonias tradicionales.
 Una colonia hace referencia a una división administrativa mientras que el barrio tradicional se entiende un espacio urbano a escala peatonal que tiene identidad propia y que genera sentido de pertenencia en sus habitantes. Para Aldo Rossi, arquitecto italiano, el barrio es una unidad morfológica y estructural que se caracteriza por cierto paisaje urbano, cierto contenido social y una función propia.
 
