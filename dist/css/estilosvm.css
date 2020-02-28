@@ -119,3 +119,47 @@
     90% {margin-left: -500%;}
     100% {margin-left: -500%;}  */
 }
+
+
+.slider3{
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+    //*border-radius:5px;  pantalla gral*//
+}
+
+.slider3 ul{
+    display:flex;
+    padding:0;
+    width:300%;
+
+    animation: cambio3 20s infinite alternate linear;
+    animation-timing-function:ease;
+}
+
+.slider3 li{
+    width:700%;
+    list-style:none;
+}
+
+.slider3 a{
+    width:500%;
+    list-style:none;
+    padding:4;
+}
+
+.slider3 img{
+    width:65%;
+    border-radius:15px;
+    padding:5;
+}
+
+
+@keyframes cambio3 {
+    0% {margin-left: 0;}
+    50% {margin-left: -100;}
+    100% {margin-left: -150%;}
+
+
+
+}
