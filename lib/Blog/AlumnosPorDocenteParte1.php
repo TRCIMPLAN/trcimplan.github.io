@@ -35,7 +35,7 @@ class AlumnosPorDocenteParte1 extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Alumnos por docente, indicador clave para la mejora de la educación (parte 1)';
-        $this->autor                      = 'Arq. Ihanelly Hernández Villa';
+        $this->autor                      = 'Lic. Luis A. Gutiérrez Arizpe';
         $this->fecha                      = '2015-06-16T15:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'alumnos-por-docente-parte-1';
