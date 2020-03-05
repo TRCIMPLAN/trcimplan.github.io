@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-03-04</lastmod>
+    <lastmod>2020-03-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -643,6 +643,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/hacia-una-conurbacion-sustentable-de-la-laguna.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/hacinamiento-en-torreon-marzo2020.html</loc>
+    <lastmod>2020-03-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
