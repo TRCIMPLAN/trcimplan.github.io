@@ -87,6 +87,9 @@ class AutoresConfig {
         $this->autores[] = new \Base\Autor('', 'C.P.', 'Janeth Ramírez Facio',              'cp-janeth-ramirez-facio',               'IMPLAN Torreón', 'Auxiliar Administrativo',               'Tel. de Contacto: (871) 5007078', 'info@trcimplan.gob.mx', 'JanethFacio');
     //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'Javier de Jesús Valencia Jiménez',  'lic-javier-de-jesus-valencia-jimenez',  'IMPLAN Torreón', 'Auxiliar Administrativo',               '', 'javier_111192@hotmail.com', '');
     //~ $this->autores[] = new \Base\Autor('', 'Ing.', 'Luis Campos Hinojosa',              'unknown',                               'IMPLAN Torreón', 'Director de Investigación Estratégica', '', 'lcampos@trcimplan.gob.mx', '');
+    //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'Luis A. Gutiérrez Arizpe',           'lic-luis-a-gutierrez-arizpe',           'IMPLAN Torreón', 'Indicadores Sociodemográficos',         'Tel. de Contacto: (871) 5007078, ext.2311', 'info@trcimplan.gob.mx', 'anapm56');
+
+
     } // constructor
 
     /**
