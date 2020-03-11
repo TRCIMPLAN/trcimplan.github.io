@@ -53,7 +53,7 @@ class RedInfraestructuraCiclista extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Vialidad', 'Movilidad');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/26c09dc1-d5fb-47c6-acc4-0eaf2ccf9953/embed';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/012b68a9-cc6a-4211-9088-cad44facbc49/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
