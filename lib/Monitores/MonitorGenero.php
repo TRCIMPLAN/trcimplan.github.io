@@ -35,8 +35,8 @@ class MonitorGenero extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Género';
-        $this->autor                      = array('Lic. Miriam Janeth González Quintana','Lic. Ana Luisa Pacheco Meraz','Lic. Iván de Luna Aldape'); // Puede ser un arreglo de textos
-        $this->fecha                      = '2019-06-22T09:00';
+        $this->autor                      = array('Lic. Pedro Eleazar González Valdez','Lic. Ana Luisa Pacheco Meraz'); // Puede ser un arreglo de textos
+        $this->fecha                      = '2020-03-18T09:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-genero'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
