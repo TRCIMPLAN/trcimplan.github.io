@@ -157,20 +157,20 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1381</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">590</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">176</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2337</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">808</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">536</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">144</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">103</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1591</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos Patrimoniales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">243</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">41</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">21</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">15</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">320</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">152</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">62</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">16</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">242</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -247,11 +247,11 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">215</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">23</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">22</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -382,29 +382,29 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Negocios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">30</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">32</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">22</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">23</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">90</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Transeuntes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">15</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">19</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">38</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">25</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">39</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de automóviles</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">32</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">15</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">54</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">16</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">32</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">53</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -418,29 +418,29 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">56</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">54</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">19</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">138</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">46</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">79</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">26</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">11</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">162</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">149</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">185</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">55</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">22</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">411</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">111</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">208</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">50</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">28</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">397</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -472,56 +472,56 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Tráfico de menores</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Trata de personas</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-trata-de-personas.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Violación equiparada</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">38</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">46</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Violación simple</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">129</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">46</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">54</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">10</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">17</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">127</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Violencia de género en todas sus modalidades distinta a la violencia familiar</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violencia-de-genero-en-todas-sus-modalidades-distinta-a-la-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Violencia familiar</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">215</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">141</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">48</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">31</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">435</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2752</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1475</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">548</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">358</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5133</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -548,6 +548,13 @@ class Delincuencia extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Delitos Patrimoniales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 30/11/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">20</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Feminicidio</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
@@ -569,8 +576,29 @@ class Delincuencia extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robo a Transeuntes</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robo de automóviles</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">29</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/07/2016, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">86</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robos Totales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/08/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">195</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
   </tr>
@@ -611,8 +639,8 @@ class Delincuencia extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Violación simple</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">15</a></td>
+    <td class="indicador color3">Tráfico de menores</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
   </tr>
