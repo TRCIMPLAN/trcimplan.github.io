@@ -70,7 +70,7 @@
 .slider2 ul{
     display:flex;
     padding:0;
-    width:400%;
+    width:500%;
 
     animation: cambio2 35s infinite alternate linear;
     animation-timing-function:ease;
