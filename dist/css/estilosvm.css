@@ -70,7 +70,7 @@
 .slider2 ul{
     display:flex;
     padding:0;
-    width:305%;
+    width:400%;
 
     animation: cambio2 35s infinite alternate linear;
     animation-timing-function:ease;
@@ -79,7 +79,7 @@
 
 
 .slider2 li{
-    width:700%;
+    width:400%;
     list-style:none;
 }
 
@@ -103,21 +103,21 @@
     30% {margin-left: -100%;}
     35% {margin-left: -100%;}
 
-    40% {margin-left: -100%;}
-    70% {margin-left: -100%;}
+    40% {margin-left: -200%;}
+    70% {margin-left: -200%;}
 
-    75% {margin-left: -200%;}
+/*    75% {margin-left: -200%;}
     100% {margin-left: -200%;}
+*/
+    75% {margin-left: -300%;}
+    90% {margin-left: -300%;}
 
-/*    70% {margin-left: -300%;}
-    70% {margin-left: -300%;}
 
+    95% {margin-left: -400%;}
+    100% {margin-left: -400%;}
 
-    75% {margin-left: -400%;}
-    85% {margin-left: -400%;}
-
-    90% {margin-left: -500%;}
-    100% {margin-left: -500%;}  */
+/*    90% {margin-left: -500%;}
+    100% {margin-left: -500%;}*/
 }
 
 
