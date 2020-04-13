@@ -173,7 +173,10 @@ class SustentabilidadConcentracionDeParticulasMenoresA10Micras extends \SMIBase\
             array('fecha' => '2016-12-14', 'valor' => '180', 'fuente_nombre' => 'HECAT'),
             array('fecha' => '2016-12-20', 'valor' => '76', 'fuente_nombre' => 'DIF Revolución'),
             array('fecha' => '2016-12-20', 'valor' => '192', 'fuente_nombre' => 'Centro Cultural José R. Mijares'),
-            array('fecha' => '2016-12-21', 'valor' => '126', 'fuente_nombre' => 'HECAT')); // formateado 0, valor 214, crudo 107
+            array('fecha' => '2016-12-21', 'valor' => '126', 'fuente_nombre' => 'HECAT'),
+            array('fecha' => '2019-12-19', 'valor' => '77', 'fuente_nombre' => 'Centro Cultural José R. Mijares'),
+            array('fecha' => '2019-12-20', 'valor' => '51', 'fuente_nombre' => 'DIF Revolución'),
+            array('fecha' => '2019-12-20', 'valor' => '70', 'fuente_nombre' => 'HECAT')); // formateado 0, valor 220, crudo 110
     } // datos
 
     /**

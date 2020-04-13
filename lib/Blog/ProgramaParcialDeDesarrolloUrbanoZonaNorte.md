@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jose-antonio-ramirez-reyes.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-jose-antonio-ramirez-reyes-top2.png" align="right" alt="Foto José Antonio Ramírez" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+ <a title="ir a Video" href="https://drive.google.com/file/d/1a24M5wDitoMWSxnrC4_l9gXn6OXGm7gR/view?usp=sharing"><img class="img-responsive contenido-imagen" src="programa-parcial-desarrollo-urbano-torreon-zona-norte-marzo2020/video.jpg" align="right" alt="Acceso a Video" width="300" height="100"></a>
+---
 
 El norte de Torreón tiene un crecimiento importante, explicada por un 41.6% de suelo urbanizado actualmente, pasando de 59.54 hectáreas en el año 2000 a 882.26 hectáreas urbanas al año 2018. De acuerdo a Urbis Internacional, la zona transitó de una función agrícola como cultivo de alfalfa, viñas y nogales, hacia una zona habitacional de nivel residencial, pasando de 6,130 habitantes en el año 2000 a 29,161 habitantes en 2015, con una proyección de 64,786 habitantes para el 2040 con la tendencia actual.
 
