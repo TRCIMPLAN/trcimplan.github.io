@@ -171,9 +171,9 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Lerdo', 'fecha' => '2020-02-29', 'valor' => '12308', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2020-02-29', 'valor' => '8637', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2020-02-29', 'valor' => '307639', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2020-02-29', 'valor' => '780716', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Durango', 'fecha' => '2020-02-29', 'valor' => '245574', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2020-02-29', 'valor' => '20613536', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
+            array('region_nombre' => 'Coahuila', 'fecha' => '2020-03-31', 'valor' => '775133', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Durango', 'fecha' => '2020-03-31', 'valor' => '244826', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2020-03-31', 'valor' => '20482943', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
     } // otras_regiones
 
     /**

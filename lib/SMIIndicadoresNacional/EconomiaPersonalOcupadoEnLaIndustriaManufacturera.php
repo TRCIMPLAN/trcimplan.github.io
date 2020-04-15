@@ -99,7 +99,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \SMIBase\Publica
             array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '46.1564', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '37.4666', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '20.3500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '40.7077', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2019-12-31', 'valor' => '20.6300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '27.4596', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '23.5138', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // otras_regiones

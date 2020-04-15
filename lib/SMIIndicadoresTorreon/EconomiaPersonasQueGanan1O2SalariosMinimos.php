@@ -97,7 +97,7 @@ class EconomiaPersonasQueGanan1O2SalariosMinimos extends \SMIBase\PublicacionWeb
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '39.5000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '37.0700', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '39.0500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**

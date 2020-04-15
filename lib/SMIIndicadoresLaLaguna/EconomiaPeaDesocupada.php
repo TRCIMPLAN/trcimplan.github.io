@@ -67,7 +67,14 @@ class EconomiaPeaDesocupada extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2019-09-30', 'valor' => '95.1900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2018-03-31', 'valor' => '5.2300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2018-06-30', 'valor' => '4.5700', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2018-09-30', 'valor' => '5.0100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2018-12-31', 'valor' => '3.8000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-03-31', 'valor' => '4.7000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-06-30', 'valor' => '4.7000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-09-30', 'valor' => '4.7200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-12-31', 'valor' => '3.9200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**
@@ -76,12 +83,7 @@ class EconomiaPeaDesocupada extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return array(
-            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
-            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
-            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
-            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
+        return NULL;
     } // otras_regiones_estructura
 
     /**
@@ -90,9 +92,7 @@ class EconomiaPeaDesocupada extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '4.7000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '95.1900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+        return NULL;
     } // otras_regiones
 
     /**

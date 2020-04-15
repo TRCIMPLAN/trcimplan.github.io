@@ -68,7 +68,9 @@ class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2019-09-30', 'valor' => '12.1420', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2019-09-30', 'valor' => '12.1420', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2019-09-30', 'valor' => '12.1420', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-09-30', 'valor' => '12.1400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-12-31', 'valor' => '10.1100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**
@@ -93,7 +95,7 @@ class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '9.7000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '12.1420', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '10.1100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**

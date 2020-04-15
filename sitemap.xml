@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-04-13</lastmod>
+    <lastmod>2020-04-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4366,6 +4366,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-04-15-comunicado-conferencias-virtuales.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2016-10-12-congreso-internacional-ciudades-transporte.html</loc>
     <lastmod>2016-10-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -5621,16 +5626,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-pea-desocupada.html</loc>
-    <lastmod>2018-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-pea-ocupada.html</loc>
-    <lastmod>2018-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-pequenas-empresas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -6423,6 +6418,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-carencia-por-acceso-a-los-servicios-de-salud.html</loc>
     <lastmod>2019-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-casos-acumulados-de-covid-19-negativos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-casos-acumulados-de-covid-19-positivos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-casos-acumulados-de-covid-19-sospechosos.html</loc>
+    <lastmod>2020-04-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8506,6 +8516,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-negativos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-positivos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-sospechosos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -10086,6 +10111,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-negativos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-positivos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-sospechosos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -11638,6 +11678,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-carencia-por-acceso-a-los-servicios-de-salud.html</loc>
     <lastmod>2019-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-negativos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-positivos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-sospechosos.html</loc>
+    <lastmod>2020-04-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13303,6 +13358,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-carencia-por-acceso-a-los-servicios-de-salud.html</loc>
     <lastmod>2019-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-negativos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-positivos.html</loc>
+    <lastmod>2020-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-sospechosos.html</loc>
+    <lastmod>2020-04-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -91,11 +91,11 @@ class EconomiaPoblacionEconomicamenteActivaPea extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '551645', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '311815', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '165171', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '54779', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '81243', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '613008', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '554795', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon EconomiaPeaOcupada
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLerdo SociedadCasosAcumuladosDeCovid19Negativos
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,12 +20,12 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresTorreon;
+namespace SMIIndicadoresLerdo;
 
 /**
- * Clase EconomiaPeaOcupada
+ * Clase SociedadCasosAcumuladosDeCovid19Negativos
  */
-class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
+class SociedadCasosAcumuladosDeCovid19Negativos extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,17 +34,17 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'PEA Ocupada en Torreón';
-        $this->fecha       = '2018-07-27T11:59:54';
+        $this->nombre      = 'Casos acumulados de COVID-19 negativos en Lerdo';
+        $this->fecha       = '2020-04-15T13:14:16';
         // El nombre del archivo a crear
-        $this->archivo     = 'economia-pea-ocupada';
+        $this->archivo     = 'sociedad-casos-acumulados-de-covid-19-negativos';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Porcentaje de la PEA Ocupada';
-        $this->claves      = 'IMPLAN, Torreón, Empleo';
+        $this->descripcion = 'Acumulado de casos negativos de la enfermedad COVID-19, según el Sistema de Vigilancia Epidemiológica de Enfermedades Respiratoria Viral.';
+        $this->claves      = 'IMPLAN, Lerdo, Salud';
         // Para el Organizador
-        $this->categorias  = array('Empleo');
-        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
-        $this->regiones    = array('Torreón');
+        $this->categorias  = array('Salud');
+        $this->fuentes     = array('Secretaría de Salud');
+        $this->regiones    = array('Lerdo');
     } // constructor
 
     /**
@@ -55,7 +55,7 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,12 +67,8 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-03-31', 'valor' => '94.7600', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2018-06-30', 'valor' => '95.6300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2018-09-30', 'valor' => '94.9900', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2018-12-31', 'valor' => '96.2000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2019-03-31', 'valor' => '95.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2019-06-30', 'valor' => '95.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2020-04-13', 'valor' => '21', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-14', 'valor' => '21', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -84,7 +80,7 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -96,8 +92,11 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2019-06-30', 'valor' => '95.3000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '4.8100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-04-14', 'valor' => '188', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-04-14', 'valor' => '133', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2020-04-14', 'valor' => '21', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2020-04-14', 'valor' => '31', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-04-14', 'valor' => '371', 'fuente_nombre' => 'Secretaría de Salud'));
     } // otras_regiones
 
     /**
@@ -115,11 +114,9 @@ class EconomiaPeaOcupada extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-Datos tomados de INEGI (ENOE)
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase EconomiaPeaOcupada
+} // Clase SociedadCasosAcumuladosDeCovid19Negativos
 
 ?>

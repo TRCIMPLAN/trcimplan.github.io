@@ -213,6 +213,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -233,8 +234,55 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-03-31</td>
+        <td class="derecha">524,957</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-06-30</td>
+        <td class="derecha">531,026</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-09-30</td>
+        <td class="derecha">530,457</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">528,456</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">535,236</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-06-30</td>
+        <td class="derecha">551,645</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">554,795</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Población Económicamente Activa (PEA) en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</h3>
+
+    <div id="SmiGraficasPoblacionEconomicamenteActivaPeaEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Población Económicamente Activa (PEA) en La Laguna</h3>
@@ -252,9 +300,9 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2019-06-30</td>
-        <td class="derecha">551,645</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">311,815</td>
+        <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
@@ -280,9 +328,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">613,008</td>
-        <td>IMCO</td>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">554,795</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
     </tbody>
@@ -328,12 +376,34 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPoblacionEconomicamenteActivaPeaEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos === 'undefined') {
+    varSmiGraficasPoblacionEconomicamenteActivaPeaEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos = Morris.Line({
+      element: 'SmiGraficasPoblacionEconomicamenteActivaPeaEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos',
+      data: [
+        { fecha: '2018-03-31', dato: 524957 },
+        { fecha: '2018-06-30', dato: 531026 },
+        { fecha: '2018-09-30', dato: 530457 },
+        { fecha: '2018-12-31', dato: 528456 },
+        { fecha: '2019-03-31', dato: 535236 },
+        { fecha: '2019-06-30', dato: 551645 },
+        { fecha: '2019-09-30', dato: 554795 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesPoblacionEconomicamenteActivaPeaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPoblacionEconomicamenteActivaPeaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPoblacionEconomicamenteActivaPeaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 551645 },{ region: 'Gómez Palacio', dato: 165171 },{ region: 'Lerdo', dato: 54779 },{ region: 'Matamoros', dato: 81243 },{ region: 'La Laguna', dato: 613008 }],
+      data: [{ region: 'Torreón', dato: 311815 },{ region: 'Gómez Palacio', dato: 165171 },{ region: 'Lerdo', dato: 54779 },{ region: 'Matamoros', dato: 81243 },{ region: 'La Laguna', dato: 554795 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

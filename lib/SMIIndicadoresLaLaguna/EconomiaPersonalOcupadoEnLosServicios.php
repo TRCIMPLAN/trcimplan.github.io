@@ -43,7 +43,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Empleo, Mercados';
         // Para el Organizador
         $this->categorias  = array('Empleo', 'Mercados');
-        $this->fuentes     = array('INEGI', 'Elaboración propia con datos obtenidos del INEGI', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->fuentes     = array('INEGI', 'Elaboración propia con datos obtenidos del INEGI', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos', 'Instituto Mexicano del Seguro Social (IMSS)');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -71,7 +71,9 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
             array('fecha' => '2003-12-31', 'valor' => '26.0600', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '32.9908', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '34.9078', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2019-10-31', 'valor' => '29.0100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2019-09-30', 'valor' => '46.9200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-10-31', 'valor' => '29.0100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-12-31', 'valor' => '47.1100', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -99,7 +101,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '28.5100', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '20.3095', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '24.1582', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-10-31', 'valor' => '29.0100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '47.1100', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '28.6520', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '28.1982', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '36.4504', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
