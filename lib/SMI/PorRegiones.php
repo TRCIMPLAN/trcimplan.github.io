@@ -296,6 +296,9 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-torreon/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" target="_blank">Migrantes (Nal y Ext) con educación superior</a></li>
               <li><a href="../indicadores-torreon/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
+              <li><a href="../indicadores-torreon/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
+              <li><a href="../indicadores-torreon/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
+              <li><a href="../indicadores-torreon/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
               <li><a href="../indicadores-torreon/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-torreon/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-torreon/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -663,6 +666,10 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" target="_blank">Migrantes (Nal y Ext) con educación superior</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
+              <li><a href="../indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
+              
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -981,6 +988,10 @@ FINAL;
               <li><a href="../indicadores-lerdo/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-lerdo/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" target="_blank">Migrantes (Nal y Ext) con educación superior</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
+              <li><a href="../indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
+              
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -1301,6 +1312,10 @@ FINAL;
               <li><a href="../indicadores-matamoros/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-matamoros/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" target="_blank">Migrantes (Nal y Ext) con educación superior</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
+              <li><a href="../indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
+              
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -1626,6 +1641,10 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-medicos-y-enfermeras.html" target="_blank">Médicos y enfermeras</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-migrantes-nal-y-ext-con-educacion-superior.html" target="_blank">Migrantes (Nal y Ext) con educación superior</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
+              <li><a href="../indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
+              
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
