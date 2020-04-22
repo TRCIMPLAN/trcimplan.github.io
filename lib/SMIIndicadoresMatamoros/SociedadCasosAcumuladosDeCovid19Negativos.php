@@ -68,7 +68,13 @@ class SociedadCasosAcumuladosDeCovid19Negativos extends \SMIBase\PublicacionWeb 
     public function datos() {
         return array(
             array('fecha' => '2020-04-13', 'valor' => '31', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-14', 'valor' => '31', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2020-04-14', 'valor' => '31', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-15', 'valor' => '31', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-16', 'valor' => '33', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-17', 'valor' => '33', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-18', 'valor' => '33', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-19', 'valor' => '53', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-20', 'valor' => '63', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**
@@ -92,11 +98,11 @@ class SociedadCasosAcumuladosDeCovid19Negativos extends \SMIBase\PublicacionWeb 
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2020-04-14', 'valor' => '188', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-04-14', 'valor' => '133', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2020-04-14', 'valor' => '21', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2020-04-14', 'valor' => '31', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2020-04-14', 'valor' => '371', 'fuente_nombre' => 'Secretaría de Salud'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-04-20', 'valor' => '310', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-04-20', 'valor' => '167', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2020-04-20', 'valor' => '32', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2020-04-20', 'valor' => '63', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-04-20', 'valor' => '572', 'fuente_nombre' => 'Secretaría de Salud'));
     } // otras_regiones
 
     /**

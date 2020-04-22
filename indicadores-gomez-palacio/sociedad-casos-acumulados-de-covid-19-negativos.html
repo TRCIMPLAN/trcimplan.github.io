@@ -240,6 +240,42 @@
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-04-15</td>
+        <td class="derecha">132</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-16</td>
+        <td class="derecha">140</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-17</td>
+        <td class="derecha">138</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-18</td>
+        <td class="derecha">142</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-19</td>
+        <td class="derecha">143</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-20</td>
+        <td class="derecha">167</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -264,36 +300,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2020-04-14</td>
-        <td class="derecha">188</td>
+        <td class="centrado">2020-04-20</td>
+        <td class="derecha">310</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2020-04-14</td>
-        <td class="derecha">133</td>
+        <td class="centrado">2020-04-20</td>
+        <td class="derecha">167</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2020-04-14</td>
-        <td class="derecha">21</td>
+        <td class="centrado">2020-04-20</td>
+        <td class="derecha">32</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2020-04-14</td>
-        <td class="derecha">31</td>
+        <td class="centrado">2020-04-20</td>
+        <td class="derecha">63</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-04-14</td>
-        <td class="derecha">371</td>
+        <td class="centrado">2020-04-20</td>
+        <td class="derecha">572</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
@@ -403,7 +439,13 @@
       element: 'SmiGraficasCasosAcumuladosDeCovid19NegativosEnGomezPalacio',
       data: [
         { fecha: '2020-04-13', dato: 131 },
-        { fecha: '2020-04-14', dato: 133 }],
+        { fecha: '2020-04-14', dato: 133 },
+        { fecha: '2020-04-15', dato: 132 },
+        { fecha: '2020-04-16', dato: 140 },
+        { fecha: '2020-04-17', dato: 138 },
+        { fecha: '2020-04-18', dato: 142 },
+        { fecha: '2020-04-19', dato: 143 },
+        { fecha: '2020-04-20', dato: 167 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -418,7 +460,7 @@
   if (typeof varSmiOtrasRegionesCasosAcumuladosDeCovid19NegativosEnGomezPalacioGrafica === 'undefined') {
     varSmiOtrasRegionesCasosAcumuladosDeCovid19NegativosEnGomezPalacioGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCasosAcumuladosDeCovid19NegativosEnGomezPalacioGrafica',
-      data: [{ region: 'Torreón', dato: 188 },{ region: 'Gómez Palacio', dato: 133 },{ region: 'Lerdo', dato: 21 },{ region: 'Matamoros', dato: 31 },{ region: 'La Laguna', dato: 371 }],
+      data: [{ region: 'Torreón', dato: 310 },{ region: 'Gómez Palacio', dato: 167 },{ region: 'Lerdo', dato: 32 },{ region: 'Matamoros', dato: 63 },{ region: 'La Laguna', dato: 572 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
