@@ -69,8 +69,8 @@ class SociedadCasosAcumuladosDeCovid19Sospechosos extends \SMIBase\PublicacionWe
         return array(
             array('fecha' => '2020-04-13', 'valor' => '174', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-14', 'valor' => '141', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-15', 'valor' => '175', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-16', 'valor' => '396', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-15', 'valor' => '142', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-16', 'valor' => '150', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-17', 'valor' => '173', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-18', 'valor' => '173', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-19', 'valor' => '137', 'fuente_nombre' => 'Secretaría de Salud'),
