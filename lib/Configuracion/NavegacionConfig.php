@@ -98,8 +98,10 @@ class NavegacionConfig {
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
         'Programas de Radio'                                          => 'programas-radio/index.html',
         'Visión Metrópoli' => array(
-            'Visión Metrópoli > Visión Metrópoli'                     => 'vision-metropoli/index.html',
-            'Visión Metrópoli > Reglamento'                           => 'vision-metropoli/reglamento-vision-metropoli.pdf'),
+            'Visión Metrópoli > Consejo Juvenil'                      => 'convocatorias/vision-metropoli.html',
+            'Visión Metrópoli > Integrantes del Consejo'              => 'vision-metropoli/integrantes.html',
+            'Visión Metrópoli > Sala de Prensa'                       => 'vision-metropoli/index.html',
+            'Visión Metrópoli > Reglamento'                           => 'vision-metropoli/reglamento-vision-metropoli-2020.pdf'),
       //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
         'Institucional' => array(
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
