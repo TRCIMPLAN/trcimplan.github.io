@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresMatamoros SociedadCasosAcumuladosDeCovid19Sospechosos
+ * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna SociedadCasosDeCovid19Sospechosos
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,12 +20,12 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresMatamoros;
+namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase SociedadCasosAcumuladosDeCovid19Sospechosos
+ * Clase SociedadCasosDeCovid19Sospechosos
  */
-class SociedadCasosAcumuladosDeCovid19Sospechosos extends \SMIBase\PublicacionWeb {
+class SociedadCasosDeCovid19Sospechosos extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,17 +34,17 @@ class SociedadCasosAcumuladosDeCovid19Sospechosos extends \SMIBase\PublicacionWe
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Casos acumulados de COVID-19 sospechosos en Matamoros';
+        $this->nombre      = 'Casos de COVID-19 sospechosos en La Laguna';
         $this->fecha       = '2020-04-15T13:15:37';
         // El nombre del archivo a crear
-        $this->archivo     = 'sociedad-casos-acumulados-de-covid-19-sospechosos';
+        $this->archivo     = 'sociedad-casos-de-covid-19-sospechosos';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Acumulado de casos sospechosos de la enfermedad COVID-19 según el Sistema de Vigilancia Epidemiológica de Enfermedades Respiratoria Viral.';
-        $this->claves      = 'IMPLAN, Matamoros, Salud';
+        $this->claves      = 'IMPLAN, La Laguna, Salud';
         // Para el Organizador
         $this->categorias  = array('Salud');
         $this->fuentes     = array('Secretaría de Salud');
-        $this->regiones    = array('Matamoros');
+        $this->regiones    = array('La Laguna');
     } // constructor
 
     /**
@@ -67,27 +67,27 @@ class SociedadCasosAcumuladosDeCovid19Sospechosos extends \SMIBase\PublicacionWe
      */
     public function datos() {
         return array(
-            array('fecha' => '2020-04-13', 'valor' => '21', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-14', 'valor' => '33', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-15', 'valor' => '33', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-16', 'valor' => '34', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-17', 'valor' => '41', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-18', 'valor' => '43', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-19', 'valor' => '23', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-20', 'valor' => '13', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-21', 'valor' => '8', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-22', 'valor' => '6', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-23', 'valor' => '8', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-24', 'valor' => '4', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-25', 'valor' => '3', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-26', 'valor' => '2', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-27', 'valor' => '3', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-28', 'valor' => '1', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-29', 'valor' => '3', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-30', 'valor' => '3', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-05-01', 'valor' => '3', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-05-02', 'valor' => '3', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-05-03', 'valor' => '5', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 42, crudo 21
+            array('fecha' => '2020-04-13', 'valor' => '174', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-14', 'valor' => '230', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-15', 'valor' => '237', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-16', 'valor' => '248', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-17', 'valor' => '290', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-18', 'valor' => '290', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-19', 'valor' => '233', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-20', 'valor' => '139', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-21', 'valor' => '99', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-22', 'valor' => '86', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-23', 'valor' => '87', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-24', 'valor' => '82', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-25', 'valor' => '87', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-26', 'valor' => '85', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-27', 'valor' => '75', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-28', 'valor' => '98', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-29', 'valor' => '136', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-04-30', 'valor' => '148', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-01', 'valor' => '126', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-02', 'valor' => '131', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-03', 'valor' => '132', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 42, crudo 21
     } // datos
 
     /**
@@ -136,6 +136,6 @@ class SociedadCasosAcumuladosDeCovid19Sospechosos extends \SMIBase\PublicacionWe
         return NULL;
     } // observaciones
 
-} // Clase SociedadCasosAcumuladosDeCovid19Sospechosos
+} // Clase SociedadCasosDeCovid19Sospechosos
 
 ?>
