@@ -278,6 +278,84 @@
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-04-21</td>
+        <td class="derecha">77</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-22</td>
+        <td class="derecha">62</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-23</td>
+        <td class="derecha">66</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-24</td>
+        <td class="derecha">57</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-25</td>
+        <td class="derecha">70</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-26</td>
+        <td class="derecha">72</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-27</td>
+        <td class="derecha">56</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-28</td>
+        <td class="derecha">64</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-29</td>
+        <td class="derecha">79</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-04-30</td>
+        <td class="derecha">98</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-05-01</td>
+        <td class="derecha">97</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-05-02</td>
+        <td class="derecha">84</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-05-03</td>
+        <td class="derecha">83</td>
+        <td>Secretaría de Salud</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -302,36 +380,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2020-04-20</td>
-        <td class="derecha">89</td>
+        <td class="centrado">2020-05-03</td>
+        <td class="derecha">83</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2020-04-20</td>
-        <td class="derecha">31</td>
+        <td class="centrado">2020-05-03</td>
+        <td class="derecha">30</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2020-04-20</td>
-        <td class="derecha">6</td>
+        <td class="centrado">2020-05-03</td>
+        <td class="derecha">14</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2020-04-20</td>
-        <td class="derecha">13</td>
+        <td class="centrado">2020-05-03</td>
+        <td class="derecha">5</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-04-20</td>
-        <td class="derecha">139</td>
+        <td class="centrado">2020-05-03</td>
+        <td class="derecha">132</td>
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
@@ -437,6 +515,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosCasosAcumuladosDeCovid19SospechososEnTorreon === 'undefined') {
+     $('#SmiDatosCasosAcumuladosDeCovid19SospechososEnTorreon').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosCasosAcumuladosDeCovid19SospechososEnTorreon = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasCasosAcumuladosDeCovid19SospechososEnTorreon === 'undefined') {
@@ -450,7 +546,20 @@
         { fecha: '2020-04-17', dato: 173 },
         { fecha: '2020-04-18', dato: 173 },
         { fecha: '2020-04-19', dato: 137 },
-        { fecha: '2020-04-20', dato: 89 }],
+        { fecha: '2020-04-20', dato: 89 },
+        { fecha: '2020-04-21', dato: 77 },
+        { fecha: '2020-04-22', dato: 62 },
+        { fecha: '2020-04-23', dato: 66 },
+        { fecha: '2020-04-24', dato: 57 },
+        { fecha: '2020-04-25', dato: 70 },
+        { fecha: '2020-04-26', dato: 72 },
+        { fecha: '2020-04-27', dato: 56 },
+        { fecha: '2020-04-28', dato: 64 },
+        { fecha: '2020-04-29', dato: 79 },
+        { fecha: '2020-04-30', dato: 98 },
+        { fecha: '2020-05-01', dato: 97 },
+        { fecha: '2020-05-02', dato: 84 },
+        { fecha: '2020-05-03', dato: 83 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -465,7 +574,7 @@
   if (typeof varSmiOtrasRegionesCasosAcumuladosDeCovid19SospechososEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesCasosAcumuladosDeCovid19SospechososEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCasosAcumuladosDeCovid19SospechososEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 89 },{ region: 'Gómez Palacio', dato: 31 },{ region: 'Lerdo', dato: 6 },{ region: 'Matamoros', dato: 13 },{ region: 'La Laguna', dato: 139 }],
+      data: [{ region: 'Torreón', dato: 83 },{ region: 'Gómez Palacio', dato: 30 },{ region: 'Lerdo', dato: 14 },{ region: 'Matamoros', dato: 5 },{ region: 'La Laguna', dato: 132 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
