@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-05-04</lastmod>
+    <lastmod>2020-05-06</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1028,6 +1028,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/los-determinantes-sociales-de-la-salud.html</loc>
     <lastmod>2017-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/los-municipios-frente-a-las-adversidades-mayo-2020.html</loc>
+    <lastmod>2020-05-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

@@ -36,10 +36,21 @@ class Redes {
         $a   = array();
         $a[] = '  <section id="redes">';
         $a[] = '    <div class="row">';
-        $a[] = '      <div class="col-md-8">';
+        $a[] = '      <div class="col-md-4">';
         $a[] = '        <img class="img-responsive logotipo" src="imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón">';
         $a[] = '      </div>';
+
         $a[] = '      <div class="col-md-4">';
+        $a[] = '        <a href="http://177.244.42.17/ovie-torreon/#!" target="_blank"><img class="img-responsive logotipo"   src="imagenes/ovie-logo.jpg" alt="OVIE IMPLAN Torreón"></a>';
+
+        $a[] = '      </div>';
+
+        $a[] = '      <div class="col-md-2">';
+        $a[] = '        <a href="http://www.editorialox.com" target="_blank"><img class="img-responsive logotipo" src="imagenes/PremioOx2.png" alt="Premio Ox 2019 IMPLAN Torreón"></a></br><b>Premio Internacional OX 2019</b>';
+
+        $a[] = '      </div>';
+
+        $a[] = '      <div class="col-md-2">';
         $a[] = '        <div class="pull-right redes-sociales">';
         $a[] = '          <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>';
         $a[] = '          <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>';
