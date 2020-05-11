@@ -4991,7 +4991,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/incidentes-viales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/incidentes-viales2019.html</loc>
+    <lastmod>2020-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/incidentes-viales2020.html</loc>
     <lastmod>2020-05-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
