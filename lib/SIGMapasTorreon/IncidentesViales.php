@@ -34,7 +34,7 @@ class IncidentesViales extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre             = 'Incidentes Viales';
         $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
-        $this->fecha              = '2019-11-01T13:08';
+        $this->fecha              = '2020-05-08T13:08';
         // El nombre del archivo a crear y rutas relativas a las imágenes
         $this->archivo            = 'incidentes-viales';
         $this->imagen             = 'incidentes-viales/imagen.jpg';
@@ -53,7 +53,7 @@ class IncidentesViales extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Vialidad', 'Movilidad');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/8d50ca49-0f41-437a-8d0e-401e06bf6008/embed';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/35e91af4-6588-461e-9189-022e48227afd/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,8 +66,8 @@ class IncidentesViales extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/8d50ca49-0f41-437a-8d0e-401e06bf6008/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</br><b>Fuente: Dirección de Tránsito y Vialidad, 2019.</b></br></br>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/35e91af4-6588-461e-9189-022e48227afd/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>Fuente: Dirección de Tránsito y Vialidad, 2020.</b></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
