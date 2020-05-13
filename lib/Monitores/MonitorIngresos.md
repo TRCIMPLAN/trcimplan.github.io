@@ -1,12 +1,12 @@
-# Monitor de Ingresos
+# Monitor de Ingresos (ajuste Mayo 2020)
 
 ## Datos generales de gastos de la vivienda
 Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-Total de viviendas          |87,826     |2018   |Nacional   |ENIGH 2018        |
-Habitantes representados    |125 millones   |2018   |Nacional   |ENIGH 2018 |
-Coeficiente de Gini             |.469       |2018   |Nacional   |ENIGH 2018        |
-Coeficiente de Gini     |.375       |2018   |ZML        |ENIGH 2018          |
+Total de viviendas          |34,7 millones  |2018   |Nacional   |ENIGH 2018         |
+Habitantes representados    |125.1 millones |2018   |Nacional   |ENIGH 2018     |
+Coeficiente de Gini             |.469       |2018   |Nacional   |ENIGH 2018         |
+Coeficiente de Gini     |.375       |2018   |ZML        |ENIGH 2018             |
 
 ## Ingresos del hogar por déciles
 Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
@@ -56,6 +56,8 @@ Personales          |$2,650.69  |2018   |ZML    |ENIGH 2018|
 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS INGRESOS</strong></p>
 
+[De click para descargar el archivo PDF del:   <strong>Histórico Dic 2019</strong>](http://www.trcimplan.gob.mx/monitores/ingresos/ingresos-dic-2019.pdf)
+</br>
 
 
 </br>
