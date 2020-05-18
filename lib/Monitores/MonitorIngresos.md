@@ -1,4 +1,4 @@
-# Monitor de Ingresos (ajuste Mayo 2020)
+# Monitor de Ingresos
 
 ## Datos generales de gastos de la vivienda
 Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
