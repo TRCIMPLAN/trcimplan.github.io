@@ -47,7 +47,7 @@ class ComunicadoPrensa20200519RespuestaAColArquitectos extends \Base\Publicacion
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones                   = array('Torreón', 'La Laguna');
     } // constructor
 
 } // Clase ComunicadoPrensa20200519RespuestaAColArquitectos
