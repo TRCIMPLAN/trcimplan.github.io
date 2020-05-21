@@ -87,7 +87,23 @@ class SociedadCasosDeCovid19Sospechosos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2020-04-30', 'valor' => '148', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-01', 'valor' => '126', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-02', 'valor' => '131', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-05-03', 'valor' => '132', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 42, crudo 21
+            array('fecha' => '2020-05-03', 'valor' => '132', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-04', 'valor' => '125', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-05', 'valor' => '202', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-07', 'valor' => '253', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-08', 'valor' => '278', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-09', 'valor' => '308', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-10', 'valor' => '295', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-11', 'valor' => '287', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-12', 'valor' => '397', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-13', 'valor' => '436', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-14', 'valor' => '499', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-15', 'valor' => '617', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-16', 'valor' => '629', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-17', 'valor' => '626', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-18', 'valor' => '608', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-19', 'valor' => '720', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-20', 'valor' => '777', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 74, crudo 37
     } // datos
 
     /**
@@ -111,11 +127,12 @@ class SociedadCasosDeCovid19Sospechosos extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2020-05-03', 'valor' => '83', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-05-03', 'valor' => '30', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2020-05-03', 'valor' => '14', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2020-05-03', 'valor' => '5', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2020-05-03', 'valor' => '132', 'fuente_nombre' => 'Secretaría de Salud'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-05-20', 'valor' => '653', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-05-20', 'valor' => '64', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2020-05-20', 'valor' => '21', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2020-05-20', 'valor' => '39', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-05-20', 'valor' => '777', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2020-05-12', 'valor' => '15', 'fuente_nombre' => 'Secretaría de Salud'));
     } // otras_regiones
 
     /**

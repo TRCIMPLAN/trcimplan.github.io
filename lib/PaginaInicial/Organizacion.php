@@ -116,10 +116,10 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //$b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
             //INICIO MONITORES
             $b[] = ' . ';
-            $b[] = '<div class="slider3">';
-                $b[] = '<ul>';
-                  $b[] = '<a href=""><img src="imagenes\inegi\inegi1.jpg" alt="Imagen de Inegi 1"></a>';
-                  $b[] = '<a href=""><img src="imagenes\inegi\inegi2.jpg" alt="Imagen de Inegi 2"></a>';
+//            $b[] = '<div class="slider3">';
+//                $b[] = '<ul>';
+//                  $b[] = '<a href=""><img src="imagenes\inegi\inegi1.jpg" alt="Imagen de Inegi 1"></a>';
+//                  $b[] = '<a href=""><img src="imagenes\inegi\inegi2.jpg" alt="Imagen de Inegi 2"></a>';
 
 //                  $b[] = '<a href=""><img src="imagenes\inegi\inegi3.jpg" alt="Imagen de Inegi 3"></a>';
 //                  $b[] = '<a href=""><img src="imagenes\inegi\inegi4.jpg" alt="Imagen de Inegi 4"></a>';
@@ -140,8 +140,8 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
 
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-sustentabilidad"><img src="imagenes\monitores\monitores-febrero-04.jpg" alt="Imagen Sustentabilidad 12">
-                $b[] = '</ul>';
-            $b[] = '</div>';
+//                $b[] = '</ul>';
+//            $b[] = '</div>';
             //FIN MONITORES
 
             $b[] = implode("\n", $a);
