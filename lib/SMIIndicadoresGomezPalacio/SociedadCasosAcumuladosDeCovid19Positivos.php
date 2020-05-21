@@ -103,7 +103,7 @@ class SociedadCasosAcumuladosDeCovid19Positivos extends \SMIBase\PublicacionWeb 
             array('fecha' => '2020-05-16', 'valor' => '46', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-17', 'valor' => '46', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-18', 'valor' => '53', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-05-19', 'valor' => '31', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-19', 'valor' => '54', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-20', 'valor' => '61', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 76, crudo 38
     } // datos
 
