@@ -105,9 +105,7 @@ class SociedadViviendasConAguaDeLaRedPublica extends \SMIBase\PublicacionWeb {
      * @return string Código HTML con el iframe de Carto
      */
     public function mapas() {
-        return <<<MAPAS_FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/28b06c78-de19-11e4-8197-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-MAPAS_FINAL;
+        return NULL;
     } // mapas
 
     /**
