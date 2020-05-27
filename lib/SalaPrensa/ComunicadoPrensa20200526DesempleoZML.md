@@ -23,3 +23,6 @@ Torreón, Coahuila a 26 de mayo de 2020.
 9. Adicionalmente hace la comparación en niveles de salario mínimo con los datos de trabajadores del seguro social, que, si bien indica el nivel salarial en general, estas proporciones se han mantenido durante los últimos años por el tipo de trabajos que existen.
 
 10. Durante el primer trimestre de 2019 el salario promedio para la ZML fue de $8,472.98 mientras que para el primer trimestre de 2020 este aumentó a $8,977.38, una variación de 5.95%. En comparación, el promedio nacional es de $7,740 para el mismo periodo.
+
+
+<center><img src="2020-05-26-comunicado-desempleo-zml/ima01.jpg" alt="desempleo zml"></center>
