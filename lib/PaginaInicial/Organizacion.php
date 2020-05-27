@@ -98,6 +98,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/diseno-mi-espacio-2020.html"><img src="imagenes\convocatorias\convocatoria-may2020-diseno-mi-espacio.jpg" alt="Convocatoria Diseño mi Espacio 2020"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html"><img src="imagenes\politica-industrial\banner-politica-industrial2019.jpg" alt="Política Industrial 2019"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-mar2020-vm-banner.jpg" alt="Convocatorias VM 2020"></a>';
@@ -106,7 +107,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatorias-2018-cs-banner-09.jpg" alt="Consejeros ciudadanos"></a>';
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatoria-consejeros-sectoriales-2019.jpg" alt="Consejeros ciudadanos 2019"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/programas-radio/index.html"><img src="imagenes\radio\publicidad-radio3.jpg" alt="Programa de Radio Implan"></a>';
+               // $b[] = '<a href="http://www.trcimplan.gob.mx/programas-radio/index.html"><img src="imagenes\radio\publicidad-radio3.jpg" alt="Programa de Radio Implan"></a>';
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/identidad-lagunera.html"><img src="imagenes\convocatorias\identidad-lagunera-2019.jpg" alt="Identidad Lagunera"></a>';
 
                 $b[] = '</ul>';

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Espacio dedicado a Convocatorias de Implan.">
+  <meta name="author" content="Arq. Ihanelly Hernández Villa">
+  <meta name="keywords" content="IMPLAN, Torreon, Centro Histórico">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Convocatorias - IMPLAN Torreón">
+  <meta name="twitter:description" content="Espacio dedicado a Convocatorias.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/imagenes/icono-vision-metropoli.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/imagenes/icono-vision-metropoli.jpg">
+  <meta name="og:title" content="Convocatorias - IMPLAN Torreón">
+  <meta name="og:description" content="Espacio dedicado a Convocatorias.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/imagenes/icono-vision-metropoli.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/imagenes/icono-vision-metropoli.jpg">
+  <title>Convocatorias - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
+            <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+            <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../convocatorias/vision-metropoli.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Consejo Juvenil</a></li>
+            <li><a href="../vision-metropoli/integrantes.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Integrantes del Consejo</a></li>
+            <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+            <li><a href="../vision-metropoli/reglamento-vision-metropoli-2020.pdf"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamento</a></li>
+          </ul>
+        </li>
+        
+        
+        
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+        <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+        <div class="encabezado">
+          <h1 itemprop="headline">Diseño Mi Espacio - Edición 2020</h1>
+          <div class="encabezado-descripcion" itemprop="description">Concurso de mobiliario modular para estudiar y/o trabajar en casa.</div>
+          
+          <div class="pull-right redes-sociales">
+                    <a class="fa fa-facebook-square" title="Facebook Vision Metrópoli"  href="https://facebook.com/consejovisionmetropoli" target="_blank"></a>
+                    <a class="fa fa-instagram"       title="Instagram Vision Metrópoli" href="https://www.instagram.com/visionmetropoli" target="_blank"></a>
+                    <a class="fa fa-twitter-square"  title="Twitter Visión Metrópoli"   href="http://www.twitter.com/CVmetropoli" target="_blank"></a>
+                    <a class="fa fa-youtube-square"  title="Youtube Visión Metrópoli"   href="https://www.youtube.com/channel/UC7IhDAzZFaaIo7sA4kHPI7g" target="_blank"></a>
+                   <!-- <a class="fa fa-twitter-square"  title="Contáctanos por correo"     href="https://api.whatsapp.com/send?text=Verdades y rumores https%3A%2F%2Fwww.elsiglodetorreon.com.mx%2Fnoticia%2F1643823.verdades-y-rumores.html" title="WhatsApp"></a>  -->
+          </div>
+          
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Implan Torreón</span> -
+            <meta itemprop="datePublished" content="2020-05-27T14:03">27/05/2020 14:03
+          </div>
+        </div>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<!-- <h3>Presentación</h3> -->
+<!--
+<div id="presentacion-monitor-centro-historico" style="position: relative; top: 0px; left: 0px; width: 500px; height: 300px;">
+  <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 500px; height: 300px; overflow: hidden;">
+    <div><img u="image" src="centro-historico/centrohistorico-marzo-01.jpg"></div>
+    <div><img u="image" src="centro-historico/centrohistorico-marzo-02.jpg"></div>
+  </div>
+  <a style="display: none" href="http://www.jssor.com">Image Slider</a>
+</div>
+-->
+
+<span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Convocatoria Diseño Mi Espacio - Edición 2020" src="../imagenes/convocatorias/convocatoria-may2020-diseno-mi-espacio.jpg"></span>
+</br></br></br></br></br></br></br>
+</br></br></br></br></br></br>
+</br></br></br>
+<p><h1>DISEÑO MI ESPACIO - Edición 2020</h1></br>
+</br>
+
+Como una de las medidas reactivas para disminuir los contagios por el COVID-19, la iniciativa privada y pública han establecido la modalidad de estudio y trabajo en casa hasta donde sea posible. Enfrentando así a la sociedad a un cambio de paradigma en el que actividades laborales y académicas antes eran realizadas en espacios específicamente diseñados para ello, y ahora deben hacerse en casa, rodeados de miembros familiares en condiciones similares.
+Es por esto que, el Instituto Municipal de Planeación y Competitividad de Torreón(IMPLAN), y su Consejo Juvenil, Visión Metrópoli.
+</br></br></br>
+<h2>C O N V O C A N</h2></br>
+</br>
+A todos los alumnos de Arquitectura, Diseño de Interiores, Diseño Industrial y similares, artistas y, ciudadanos en general de la Zona Metropolitana de La Laguna, a participar en el 1er.  Concurso Metropolitano de diseño de mobiliario modular para usuarios en confinamiento; “Diseño Mi Espacio” en su edición 2020.
+</br></br>
+<b>Antecedentes:</b></br>
+</br>
+En diciembre del 2019 se detectó un nuevo virus denominado COVID-19, el cual se extendió por todo el mundo y la Organización Mundial de la Salud (OMS) declaró una pandemia global en rueda de prensa el 11 de marzo del 2020.
+</br>
+El 30 de marzo del 2020, se declaró emergencia sanitaria a nivel nacional en México, suspendiendo las actividades no esenciales de los sectores públicos y privados. 
+</br>
+A consecuencia de ello, y como una forma de mantenerse en funcionamiento a la par del cumplimiento de las medidas de seguridad, instituciones educativas, así como empresas con actividades consideradas no esenciales, adoptaron el resguardo domiciliario. </br>
+</br>
+Bajo los términos Home-Office, Home-School y #QuédateEnCasa estudiantes y trabajadores han debido adaptarse a un modelo de actividades primordialmente en línea, para no suspender por completo sus procesos. 
+</br>
+En el caso del sector educativo, se presentó de manera tentativa el 1 de junio como la fecha de regreso a las escuelas en todo el país. Después de dos meses en confinamiento, los gobiernos de Coahuila y Durango anunciaron, el 12 y el 14 de mayo respectivamente, que el ciclo escolar se terminará a distancia, sin regreso a las aulas.
+</br></br>
+<b>Objeto del Concurso</b>
+</br></br>
+El concurso “Diseño Mi Espacio” ha sido creado con la finalidad de hacer más ameno el periodo de contingencia sanitaria y facilitar las condiciones de trabajo y/o estudio en casa, reconociendo el nuevo esquema que nos obliga a repensar el uso de los espacios y de los mobiliarios que hay en casa, no necesariamente adaptados a actividades con fines laborales y/o académicos. 
+</br>
+</br>
+<b>Premiación</b>
+</br>
+1 paquete de colores Prismacolor con 150 tonos diferentes con valor de $2,500.00 mxn al proyecto ganador del concurso.
+</br>
+1 paquete de colores Prismacolor con 150 tonos diferentes con valor de $2,500.00 mxn al proyecto denominado como el favorito del público.
+</br>
+Todos los concursantes recibirán reconocimiento de participación.
+</br>
+Adicionalmente, todos los proyectos serán promovidos en las redes sociales del Consejo Visión Metrópoli, IMPLAN Torreón, así como otros medios de comunicación.
+</br></br>
+
+<b>BASES</b>
+</br></br>
+<b>¿Quiénes participan?</b></br>
+</br>
+A todos los alumnos de Arquitectura, Diseño de Interiores, Diseño Industrial y similares, artistas y, ciudadanos en general de la Zona Metropolitana de La Laguna.
+Estar debidamente inscrito en tiempo y forma en el concurso, según fechas publicadas en esta convocatoria.
+</br>
+<b>Proceso de Inscripción</b></br>
+</br>
+Habrá que inscribirse en la siguiente liga: bit.ly/RegistroDisenoMiEspacio (respetar mayúsculas y minúsculas para poder acceder a la liga). Los proyectos tendrán la posibilidad de ser postulados de forma individual, en parejas, o triadas. 
+</br>
+<b>Dentro del registro habrá que especificar:</b></br>
+</br>
+Participante(s) y la Institución/Empresa que se representa (si aplica)
+En caso de ser equipos de 2 o 3 integrantes, habrá que nombrar a un representante con el cual se tendrá contacto directo durante todo el concurso.
+</br>
+<b>Los datos a registrar son:</b></br>
+</br>
+Nombre Completo
+</br>
+Correo electrónico (indispensable)
+</br>
+Número de celular
+</br>
+Al momento de inscribirse, habrá que nombrar el proyecto
+</br>
+Una vez hecho este registro en forma y tiempo, se notificará vía correo electrónico que la inscripción fue exitosa y se asignará un folio con el cual serán identificados el resto del concurso. Igualmente, en este correo, se anexará una liga donde podrán subir los entregables especificados.
+</br></br>
+<b>Lineamientos del Diseño</b></br>
+</br>
+El diseño del mobiliario estará dado por una justificación compuesta de los siguientes elementos.
+</br>
+Mobiliario modular estandarizable -cualquier tipo de mobiliario de oficina o escuela-,
+Debe estar pensado con materiales disponibles en la región,
+Su reproducción deberá ser posible con herramientas accesibles para la ciudadanía en general,
+Concepto basado en aspectos de la Zona Metropolitana de La Laguna (gastronomía, fauna, flora, arte, arquitectura, etc.),
+Estimado de costos de reproducción.
+</br></br>
+<b>Entregables</b></br>
+</br>
+Lámina (PDF) de 90 x 60 cm que incluya:
+</br>
+Justificación del concepto.
+</br>
+Plano (s) en planta y alzado con acotaciones.
+</br>
+Render (representación ilustrativa tridimensional y/o isométrica).
+</br>
+Instrucciones de corte y armado.
+</br>
+Estimado de costos de reproducción
+</br>
+Versión en A4 (tamaño carta) del mismo contenido, editable.
+</br>
+Fotografía(s) de Maqueta -material y escala libre (máximo 3)
+</br>
+Video que la maqueta
+</br></br>
+<b>Programación de fechas para el concurso</b></br>
+</br>
+Lunes, 25 de mayo: Se lanza la convocatoria y se abre el periodo de registro;</br>
+Viernes, 5 de junio: A las 12:00 del mediodía se cierra el periodo de registro de concursantes;</br>
+Viernes, 12 de junio: A las 12:00 del mediodía se cierra la recepción de proyectos;</br>
+Lunes, 15 de junio: Inicia la dinámica en redes sociales para que el público vote por su propuesta favorita a las 12:00 del mediodía;</br>
+Viernes, 19 de junio: A las 12:00 del mediodía se cierran las votaciones en redes sociales del segundo proyecto ganador, el favorito del público;</br>
+Martes, 23 de junio: Se dan a conocer los proyectos ganadores; el determinado por los jueces, y el favorito del público.</br>
+</br></br>
+<b>Evaluación</b></br>
+</br>
+Criterios
+</br>
+Concepto:</br>
+Relación con aspectos identitarios de la Zona Metropolitana de La Laguna.
+</br>
+Funcionalidad:</br>
+Adecuabilidad para trabajar/estudiar en casa,
+Modular, adaptable a espacios de diferentes dimensiones,
+Ergonomía,
+Modelo a escala (maqueta).
+</br>
+<b>Presentación:</b></br>
+Diseño de las láminas,
+Fotografía(s) de modelo a escala,
+Video.
+</br></br>
+<b>Costo:</b></br>
+Reproducción económica (materiales y herramientas accesibles),
+Uso (opcional) de material reciclable.
+</br>
+* No entregar en tiempo y forma es causa automática de descalificación.
+</br></br>
+<b>Jurado</b></br>
+</br>
+El jurado estará conformado por profesionistas especializados en las áreas de arquitectura, interiorismo, diseño industrial y arte en la Zona Metropolitana de La Laguna.
+
+Será el propio jurado y miembros del Consejo Visión Metrópoli quienes establezcan el método de evaluación, misma rúbrica que se entregará a los participantes al momento de su registro.
+
+En caso de empate, el jurado deliberará cuál es el equipo ganador. El fallo del jurado para designar al ganador, será inapelable. 
+</br></br>
+<b>Favorito del Público</b></br>
+</br>
+El Favorito del público será determinado a través de una dinámica de likes en redes sociales. Todos los proyectos serán publicados en redes sociales del Consejo Visión Metrópoli antes del fallo del jurado. Los concursantes que lo deseen podrán invitar a amigos y conocidos a votar por su proyecto. El proyecto con mayor número de likes a la fecha determinada para el conteo de votos, será el ganador. 
+</br></br>
+<b>Derechos y Propiedad Intelectual</b></br>
+</br>
+La información resultante del concurso será propiedad del IMPLAN y éste podrá reproducirla, distribuirla y comunicarla libremente.
+</br>
+Cualquier observación no prevista en la convocatoria, el Comité Organizador es el encargado de su resolución..</b></p>
+</br></br>
+
+
+<!--Bases para la Convocatoria  -->
+<div style="margin-top:8px; margin-bottom:16px;"><a href="diseno-mi-espacio/Concurso-Diseno-MiEspacio-2020.pdf"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para ver el archivo: <b> <big>BASES para la Convocatoria Diseño Mi Espacio.</big> </b>(versión PDF 311.7 kb)</span></a></div>
+
+<!--Registro para la Convocatoria  -->
+<div style="margin-top:8px; margin-bottom:16px;"><a href="http://bit.ly/RegistroDiseñoMiEspacio"><span style="font-size:32pt"><i class="fa fa-file-text-o" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para  <b> <big>  Inscribirte .</big> </b></span></a></div>
+
+</br>
+
+<!--
+Consejeros : convocatorias-2018-cs-banner-09.jpg  borrar esta línea
+<div style="margin-top:8px; margin-bottom:16px;"><a href="Convocatoria Visión Metrópoli 2018 prueba.pdf"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para acceder a la <b>Ficha de Registro a la Convocatoria Visión Metrópoli</b></span></a></div>
+<h2>Servicios</h2>
+
+
+
+<p>Como uno de los principales centros económicos de La Laguna, el Centro Histórico de Torreón alberga el 17.88% de las unidades económicas del municipio, con la presencia de 4784 de las 26746 unidades económicas registradas en el Directorio Estadístico de Unidades Económicas (DENUE) publicado por INEGI en 2016.</p>
+
+
+-->
+
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script type="text/javascript" src="../vendor/jssor/jssor.slider.min.js"></script>
+<script>
+  // Photo Slider Presentacion Monitores inicia
+  jQuery(document).ready(function ($) {
+    var options = {
+        $AutoPlay: true,
+        $ChanceToShow: 5,
+        $DragOrientation: 1,
+        $AutoPlayInterval: 6000
+    };
+    var jssor_slider1 = new $JssorSlider$("presentacion-monitor-centro-historico", options);
+    function ScaleSlider() {
+        var parentWidth = $('#presentacion-monitor-centro-historico').parent().width();
+        if (parentWidth) {
+            jssor_slider1.$ScaleWidth(parentWidth);
+        }
+        else
+            window.setTimeout(ScaleSlider, 30);
+    }
+    ScaleSlider();
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+  });
+  // Photo Slider Presentacion Sector Automotriz termina
+</script>
+
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
