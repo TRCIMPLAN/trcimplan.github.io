@@ -1,4 +1,8 @@
 
+
+
+<center><img src="2020-05-29-comunicado-conv-diseno-mi-espacio/flyer-convocatoria-diseño.jpg" alt="desempleo zml"></center>
+
 Torreón, Coahuila a 28 de mayo de 2020.
 
 ##IMPLAN y su Consejo Juvenil invitan al Concurso de Mobiliario Modular para Estudiar y/o Trabajar en Casa "Diseño Mi Espacio, Edición 2020".
@@ -27,4 +31,5 @@ En diciembre de 2019, se detectó un nuevo virus denominado COVID – 19, el cua
 
 • **Martes 23 de junio:** Presentación de los 2 proyectos ganadores
 
-###Pueden visitar la convocatoria completa en: bit.ly/BasesDiseñoMiEspacio
+###Pueden visitar la convocatoria completa en: [http://bit.ly/BasesDiseñoMiEspacio](http://bit.ly/BasesDiseñoMiEspacio)
+</br>
