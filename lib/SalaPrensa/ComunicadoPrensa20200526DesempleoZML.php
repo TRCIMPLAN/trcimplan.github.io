@@ -41,7 +41,7 @@ class ComunicadoPrensa20200526DesempleoZML extends \Base\PublicacionSchemaBlogPo
         $this->archivo                    = '2020-05-26-comunicado-desempleo-zml';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Ante las declaraciones del Consejo Cívico de las Instituciones (CCI) Laguna respecto al aumento del desempleo en la Zona Metropolitana de La Laguna, el Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN) refiere lo siguiente.';
-        $this->claves                     = 'IMPLAN, Torreon, desempleo';
+        $this->claves                     = 'IMPLAN, torreon, desempleo';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/SalaPrensa/ComunicadoPrensa20200526DesempleoZML.md';
         // Para el Organizador
