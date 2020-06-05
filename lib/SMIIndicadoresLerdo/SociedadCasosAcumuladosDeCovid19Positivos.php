@@ -80,7 +80,6 @@ class SociedadCasosAcumuladosDeCovid19Positivos extends \SMIBase\PublicacionWeb 
             array('fecha' => '2020-04-23', 'valor' => '2', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-24', 'valor' => '2', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-25', 'valor' => '2', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-04-25', 'valor' => '9', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-26', 'valor' => '2', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-27', 'valor' => '2', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-04-28', 'valor' => '2', 'fuente_nombre' => 'Secretaría de Salud'),
@@ -119,7 +118,7 @@ class SociedadCasosAcumuladosDeCovid19Positivos extends \SMIBase\PublicacionWeb 
             array('fecha' => '2020-05-31', 'valor' => '21', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-06-01', 'valor' => '22', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-06-02', 'valor' => '23', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-06-03', 'valor' => '27', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 106, crudo 53
+            array('fecha' => '2020-06-03', 'valor' => '27', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 104, crudo 52
     } // datos
 
     /**

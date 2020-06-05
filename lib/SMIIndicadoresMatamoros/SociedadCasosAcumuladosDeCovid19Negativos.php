@@ -142,7 +142,7 @@ class SociedadCasosAcumuladosDeCovid19Negativos extends \SMIBase\PublicacionWeb 
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2020-06-03', 'valor' => '357', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-06-03', 'valor' => '1771', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-06-03', 'valor' => '657', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2020-06-03', 'valor' => '191', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2020-06-03', 'valor' => '160', 'fuente_nombre' => 'Secretaría de Salud'),

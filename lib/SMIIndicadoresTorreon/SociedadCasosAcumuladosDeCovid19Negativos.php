@@ -115,10 +115,10 @@ class SociedadCasosAcumuladosDeCovid19Negativos extends \SMIBase\PublicacionWeb 
             array('fecha' => '2020-05-28', 'valor' => '1561', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-29', 'valor' => '1584', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-30', 'valor' => '1658', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-05-31', 'valor' => '297', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-06-01', 'valor' => '299', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-06-02', 'valor' => '327', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-06-03', 'valor' => '357', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 104, crudo 52
+            array('fecha' => '2020-05-31', 'valor' => '1664', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-01', 'valor' => '1682', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-02', 'valor' => '1727', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-03', 'valor' => '1771', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 104, crudo 52
     } // datos
 
     /**
@@ -142,7 +142,7 @@ class SociedadCasosAcumuladosDeCovid19Negativos extends \SMIBase\PublicacionWeb 
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2020-06-03', 'valor' => '357', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-06-03', 'valor' => '1771', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-06-03', 'valor' => '657', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2020-06-03', 'valor' => '191', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2020-06-03', 'valor' => '160', 'fuente_nombre' => 'Secretaría de Salud'),

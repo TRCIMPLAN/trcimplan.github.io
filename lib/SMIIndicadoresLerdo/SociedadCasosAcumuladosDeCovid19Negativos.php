@@ -104,7 +104,7 @@ class SociedadCasosAcumuladosDeCovid19Negativos extends \SMIBase\PublicacionWeb 
             array('fecha' => '2020-05-18', 'valor' => '127', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-19', 'valor' => '135', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-20', 'valor' => '135', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-05-21', 'valor' => '178', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-05-21', 'valor' => '136', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-22', 'valor' => '147', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-23', 'valor' => '147', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-05-24', 'valor' => '150', 'fuente_nombre' => 'Secretaría de Salud'),
@@ -141,7 +141,7 @@ class SociedadCasosAcumuladosDeCovid19Negativos extends \SMIBase\PublicacionWeb 
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2020-06-03', 'valor' => '357', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-06-03', 'valor' => '1771', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-06-03', 'valor' => '657', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2020-06-03', 'valor' => '191', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2020-06-03', 'valor' => '160', 'fuente_nombre' => 'Secretaría de Salud'),
