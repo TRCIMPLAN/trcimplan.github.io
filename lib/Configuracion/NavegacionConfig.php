@@ -37,7 +37,7 @@ class NavegacionConfig {
             'Indicadores > Introducción al SMI'                       => 'smi/introduccion.html',
             'Indicadores > Indicadores por Categoría'                 => 'indicadores-categorias/index.html',
             'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
-            'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
+            //'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
             'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
             'Indicadores > Niveles Socioeconómicos'                   => 'smi/niveles-socioeconomicos.html',
             'Indicadores > Monitores'                                 => 'monitores/index.html'),

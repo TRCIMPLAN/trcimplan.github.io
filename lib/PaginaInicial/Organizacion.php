@@ -65,6 +65,9 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $this->is_article     = FALSE;
         $this->big_heading    = TRUE;
         $this->headline_style = 'organizacion';
+
+
+
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular inicia
