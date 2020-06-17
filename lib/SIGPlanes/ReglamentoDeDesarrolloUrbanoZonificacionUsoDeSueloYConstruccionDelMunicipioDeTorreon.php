@@ -33,7 +33,7 @@ class ReglamentoDeDesarrolloUrbanoZonificacionUsoDeSueloYConstruccionDelMunicipi
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                    = 'Reglamento de Desarrollo Urbano Zonificacion Uso de Suelo y Construcción del Municipio de Torreon';
-        $this->fecha                     = '2016-03-30T20:10';
+        $this->fecha                     = '2020-06-17T20:10';
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -48,7 +48,7 @@ class ReglamentoDeDesarrolloUrbanoZonificacionUsoDeSueloYConstruccionDelMunicipi
         $this->imagen_previa             = 'reglamento-de-desarrollo-urbano-zonificacion-uso-de-suelo-y-construccion-del-municipio-de-torreon/imagen-previa.png';
         // URL de destino
         $this->url                       = 'http://www.trcimplan.gob.mx/sig-planes/reglamento-de-desarrollo-urbano-zonificacion-uso-de-suelo-y-construccion-del-municipio-de-torreon.pdf';
-        $this->url_etiqueta              = 'Descargar PDF 8.2 MB';
+        $this->url_etiqueta              = 'Descargar PDF 10.6 MB';
     } // constructor
 
 } // Clase ReglamentoDeDesarrolloUrbanoZonificacionUsoDeSueloYConstruccionDelMunicipioDeTorreon
