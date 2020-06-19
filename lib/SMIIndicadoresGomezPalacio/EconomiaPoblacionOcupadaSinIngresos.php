@@ -100,7 +100,7 @@ class EconomiaPoblacionOcupadaSinIngresos extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '23376', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas ocupadas sin ingresos'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '8989', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas ocupadas sin ingresos'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '11944', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas ocupadas sin ingresos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '13859', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-03-31', 'valor' => '13534', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**

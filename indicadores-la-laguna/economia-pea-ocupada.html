@@ -282,6 +282,18 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">96.0800 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-03-31</td>
+        <td class="derecha">95.1500 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -387,6 +399,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosPeaOcupadaEnLaLaguna === 'undefined') {
+     $('#SmiDatosPeaOcupadaEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosPeaOcupadaEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasPeaOcupadaEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos === 'undefined') {
@@ -400,7 +430,8 @@
         { fecha: '2019-03-31', dato: 95.3000 },
         { fecha: '2019-06-30', dato: 95.3000 },
         { fecha: '2019-09-30', dato: 95.2800 },
-        { fecha: '2019-12-31', dato: 96.0800 }],
+        { fecha: '2019-12-31', dato: 96.0800 },
+        { fecha: '2020-03-31', dato: 95.1500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

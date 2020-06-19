@@ -1,3 +1,4 @@
+
 <p>
    <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/alejandra-martinez-aviles.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-alejandra-martinez-aviles-top2.png" align="right" alt="Foto Alejandra" width="500" height="200"></a>
 

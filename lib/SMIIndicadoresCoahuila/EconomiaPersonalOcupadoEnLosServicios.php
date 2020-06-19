@@ -95,7 +95,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '28.5100', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '20.3095', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '24.1582', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '47.1100', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-03-31', 'valor' => '48.2200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '28.6520', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '28.1982', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '36.4504', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));

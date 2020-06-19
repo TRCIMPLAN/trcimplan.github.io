@@ -71,7 +71,8 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \SMIBase\Publica
             array('fecha' => '2003-12-31', 'valor' => '38.1000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2008-12-31', 'valor' => '28.5940', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '28.7366', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2019-09-30', 'valor' => '20.3500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2019-09-30', 'valor' => '20.3500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2020-03-31', 'valor' => '20.4400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -99,7 +100,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \SMIBase\Publica
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '32.3272', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '46.1564', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '37.4666', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '20.3500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-03-31', 'valor' => '20.4400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2019-12-31', 'valor' => '20.6300', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '27.4596', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '23.5138', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));

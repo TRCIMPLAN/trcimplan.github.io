@@ -278,6 +278,18 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">13.1700 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-03-31</td>
+        <td class="derecha">15.4300 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -335,8 +347,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2019-09-30</td>
-        <td>12.9180</td>
+        <td class="centrado">2020-03-31</td>
+        <td>15.4300</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -466,7 +478,9 @@
       data: [
         { fecha: '2017-06-30', dato: 10.1654 },
         { fecha: '2017-09-30', dato: 10.5700 },
-        { fecha: '2019-09-30', dato: 12.9180 }],
+        { fecha: '2019-09-30', dato: 12.9180 },
+        { fecha: '2019-12-31', dato: 13.1700 },
+        { fecha: '2020-03-31', dato: 15.4300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -500,7 +514,7 @@
   if (typeof varSmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeCondicionesCriticasDeOcupacionEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 13.0000 },{ region: 'Gómez Palacio', dato: 14.5900 },{ region: 'Lerdo', dato: 11.8200 },{ region: 'Matamoros', dato: 14.2900 },{ region: 'La Laguna', dato: 12.9180 },{ region: 'Coahuila', dato: 8.2800 },{ region: 'Durango', dato: 14.9900 },{ region: 'Nacional', dato: 13.3700 }],
+      data: [{ region: 'Torreón', dato: 13.0000 },{ region: 'Gómez Palacio', dato: 14.5900 },{ region: 'Lerdo', dato: 11.8200 },{ region: 'Matamoros', dato: 14.2900 },{ region: 'La Laguna', dato: 15.4300 },{ region: 'Coahuila', dato: 8.2800 },{ region: 'Durango', dato: 14.9900 },{ region: 'Nacional', dato: 13.3700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

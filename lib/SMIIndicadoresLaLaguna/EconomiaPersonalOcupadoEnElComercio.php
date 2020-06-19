@@ -72,7 +72,8 @@ class EconomiaPersonalOcupadoEnElComercio extends \SMIBase\PublicacionWeb {
             array('fecha' => '2008-12-31', 'valor' => '28.0342', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2013-12-31', 'valor' => '27.6995', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2019-09-30', 'valor' => '22.3100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2019-12-31', 'valor' => '24.4200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2019-12-31', 'valor' => '24.4200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2020-03-31', 'valor' => '21.8700', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -100,7 +101,7 @@ class EconomiaPersonalOcupadoEnElComercio extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '29.4578', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '24.1890', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '35.3180', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '24.4200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-03-31', 'valor' => '21.8700', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '22.8278', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '30.6424', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '29.6141', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
