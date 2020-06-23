@@ -144,7 +144,7 @@ class SociedadCasosDeCovid19Sospechosos extends \SMIBase\PublicacionWeb {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2020-06-03', 'valor' => '1409', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-06-03', 'valor' => '214', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2020-06-03', 'valor' => '55', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2020-06-06', 'valor' => '57', 'fuente_nombre' => 'Secretaría de Salud', 'notas' => 'Prueba vm'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2020-06-03', 'valor' => '107', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2020-06-03', 'valor' => '1785', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2020-05-12', 'valor' => '15', 'fuente_nombre' => 'Secretaría de Salud'));

@@ -523,6 +523,18 @@
         <td>Secretaría de Salud</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-06-04</td>
+        <td class="derecha">56</td>
+        <td>Secretaría de Salud</td>
+        <td>prueba</td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-06-06</td>
+        <td class="derecha">57</td>
+        <td>Secretaría de Salud</td>
+        <td>Prueba vm</td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -561,10 +573,10 @@
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2020-06-03</td>
-        <td class="derecha">55</td>
+        <td class="centrado">2020-06-06</td>
+        <td class="derecha">57</td>
         <td>Secretaría de Salud</td>
-        <td></td>
+        <td>Prueba vm</td>
       </tr>
       <tr>
         <td>Matamoros</td>
@@ -699,7 +711,9 @@
         { fecha: '2020-05-31', dato: 30 },
         { fecha: '2020-06-01', dato: 37 },
         { fecha: '2020-06-02', dato: 53 },
-        { fecha: '2020-06-03', dato: 55 }],
+        { fecha: '2020-06-03', dato: 55 },
+        { fecha: '2020-06-04', dato: 56 },
+        { fecha: '2020-06-06', dato: 57 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -714,7 +728,7 @@
   if (typeof varSmiOtrasRegionesCasosDeCovid19SospechososEnLerdoGrafica === 'undefined') {
     varSmiOtrasRegionesCasosDeCovid19SospechososEnLerdoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCasosDeCovid19SospechososEnLerdoGrafica',
-      data: [{ region: 'Torreón', dato: 1409 },{ region: 'Gómez Palacio', dato: 214 },{ region: 'Lerdo', dato: 55 },{ region: 'Matamoros', dato: 107 },{ region: 'La Laguna', dato: 1785 },{ region: 'Coahuila', dato: 15 }],
+      data: [{ region: 'Torreón', dato: 1409 },{ region: 'Gómez Palacio', dato: 214 },{ region: 'Lerdo', dato: 57 },{ region: 'Matamoros', dato: 107 },{ region: 'La Laguna', dato: 1785 },{ region: 'Coahuila', dato: 15 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
