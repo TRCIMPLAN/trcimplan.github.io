@@ -101,7 +101,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/diseno-mi-espacio-2020.html"><img src="imagenes\convocatorias\convocatoria-may2020-diseno-mi-espacio.jpg" alt="Convocatoria Diseño mi Espacio 2020"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\convocatorias\convocatoria-pzn.jpg" alt="Participación Ciudadana Zona Norte- 2020"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html"><img src="imagenes\politica-industrial\banner-politica-industrial2019.jpg" alt="Política Industrial 2019"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-mar2020-vm-banner.jpg" alt="Convocatorias VM 2020"></a>';
