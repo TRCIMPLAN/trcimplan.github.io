@@ -117,6 +117,9 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '</div>';
 
             //FIN CONVOCATORIA
+
+
+
             //$b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
             //INICIO MONITORES
             $b[] = ' . ';
