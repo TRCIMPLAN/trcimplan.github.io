@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-06-26</lastmod>
+    <lastmod>2020-06-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -963,6 +963,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/la-planeacion-urbana.html</loc>
     <lastmod>2015-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/la-planificacion-de-la-ciudad-para-prevenir-desastres-junio-2020.html</loc>
+    <lastmod>2020-06-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
