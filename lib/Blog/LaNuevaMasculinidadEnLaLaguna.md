@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/maira-ivonne-flores-reyes.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-maira-ivonne-flores-reyes-top5.png" align="right" alt="Foto Maira" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 Respecto al concepto de Masculinidad se puede hablar de varios tipos, existe la masculinidad hegemónica (Connell, 1995) que se constituye en aquel modelo que se impone y reproduce, y por tanto naturaliza, como práctica e identidad de género obligatoria para todos los hombres.
 

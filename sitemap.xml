@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-06-29</lastmod>
+    <lastmod>2020-07-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4513,6 +4513,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-06-29-comunicado-bootcamp.html</loc>
     <lastmod>2020-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-06-30-3ra-sesion-consejo.html</loc>
+    <lastmod>2020-06-30</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
