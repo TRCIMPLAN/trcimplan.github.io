@@ -1,5 +1,5 @@
 
-Torreón, Coahuila a 01 de julio de 2020.
+<div style="text-align: right"> Torreón, Coahuila a 01 de julio de 2020. </div>
 
 <center><img class="img-responsive" src="2020-07-03-resultado-diseno-mi-espacio/ima01.jpg" alt="Imagen encabezado"></center>
 
@@ -31,7 +31,7 @@ Los proyectos ganadores de **#DiseñoMiEspacio** que fueron acreedores a un paqu
 
 </br></br>
 * **Elizabeth Valdez Sandoval, María Imelda Vázquez Moreno y José Alfredo Mata Martínez**, con el proyecto **"DML"**, ganaron en la categoría *"Favorito del Público"*, con 1,008 reacciones en Facebook.
-</br></br></br></br>
+</br></br>
 Los resultados de este proyecto se espera que trasciendan a los hogares de la ciudadanía, utilizando los diseños que los concursantes proponen ante este periodo de contingencia.
 
 Te invitamos a conocer los proyectos a detalle en nuestras redes sociales.

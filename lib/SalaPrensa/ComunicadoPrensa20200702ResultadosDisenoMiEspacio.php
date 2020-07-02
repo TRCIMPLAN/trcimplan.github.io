@@ -36,7 +36,7 @@ class ComunicadoPrensa20200702ResultadosDisenoMiEspacio extends \Base\Publicacio
         // Título, autor y fecha
         $this->nombre                     = 'Finaliza con éxito el concurso “Diseño Mi Espacio”';
         $this->autor                      = 'Lic. Maira Ivonne Flores Reyes';
-        $this->fecha                      = '2020-07-03T12:00';
+        $this->fecha                      = '2020-07-02T12:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2020-07-03-resultado-diseno-mi-espacio';
         // La descripción y claves dan información a los buscadores y redes sociales
