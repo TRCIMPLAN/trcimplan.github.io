@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-07-03</lastmod>
+    <lastmod>2020-07-06</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1493,6 +1493,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/segunda-generacion-sitio-web.html</loc>
     <lastmod>2015-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/la-seguridad-en-tiempos-de-pandemia-julio-2020.html</loc>
+    <lastmod>2020-07-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
