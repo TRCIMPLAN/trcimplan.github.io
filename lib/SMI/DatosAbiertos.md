@@ -12,7 +12,7 @@
 <li>En mayúsculas y sin acentos.</li>
 <li>Cantidad de filas: <b>10,167.</b></li>
 <li>Adicionalmente, <a href="trcimplan-smi-descripciones.csv">descargue las descripciones y notas de los indicadores.</a></li>
-<li>Elaboración: <b>21/03/19 14:15.</b></li>
+<li>Elaboración: <b>09/07/2020 14:15.</b></li>
 </ul>
 </div>
 </div>
@@ -42,4 +42,3 @@ El **formato de archivo CSV es simple y universal,** estructura los datos en fil
 <div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/ql0Kvx2Paa8?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 [Vea este mismo video en YouTube](https://www.youtube.com/watch?v=ql0Kvx2Paa8).
-
