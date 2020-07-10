@@ -10,11 +10,11 @@ El Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN) a tr
 
 El Bootcamp Metropolitano, cuyos objetivos son contribuir a la cultura de la formulación de proyectos sociales, incentivar la formulación de proyectos escalables a la ZML, construir procesos de planeación participativa, entre otros; finalizó con la vinculación con Dependencias, lo cual permitió a las y los participantes presentar propuestas de proyectos sobre temas de Gobernanza, Medio Ambiente, Movilidad y Salud Mental; a fin de poder ser tomadas en cuenta en los programas operativos de las administraciones públicas.
 
-A continuación, en **palabras de los representantes de equipos, se presentan los proyectos; mismos que estuvieron trabajando durante la realización del Bootcamp:**
+A continuación, **en palabras de los representantes de equipos, se presentan los proyectos; mismos que estuvieron trabajando durante la realización del Bootcamp:**
 
 ###Equipo Gobernanza.
 
-**“El proyecto del equipo de gobernanza consiste en aplicar estrategias de comunicación social para incluir al ayuntamiento, el sector privado y la ciudadanía en la toma de decisiones sobre la gestión de obras públicas en Gómez Palacio.”**
+“El proyecto del equipo de gobernanza consiste en aplicar estrategias de comunicación social para incluir al ayuntamiento, el sector privado y la ciudadanía en la toma de decisiones sobre la gestión de obras públicas en Gómez Palacio.”
 
 ###Equipo Medio Ambiente 1.
 
