@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SIGMapasTorreon Obras2019
+ * TrcIMPLAN Sitio Web - SIGMapasTorreon Obras2020
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,24 +23,24 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase Obras2019
+ * Clase Obras2020
  */
-class Obras2019 extends \Base\Publicacion {
+class Obras2020 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Obras 2019';
+        $this->nombre             = 'Obras 2020';
         $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
-        $this->fecha              = '2020-07-17T15:17';
+        $this->fecha              = '2020-07-20T11:14';
         // El nombre del archivo a crear y rutas relativas a las imágenes
-        $this->archivo            = 'obras-2019';
-        $this->imagen             = 'obras-2019/imagen.jpg';
-        $this->imagen_previa      = 'obras-2019/imagen-previa.jpg';
+        $this->archivo            = 'obras-2020';
+        $this->imagen             = 'obras-2020/imagen.jpg';
+        $this->imagen_previa      = 'obras-2020/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Resumen general de obras 2019';
+        $this->descripcion        = 'Resumen de Obras 2020';
         $this->claves             = 'obras, infraestructura';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
@@ -53,7 +53,7 @@ class Obras2019 extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Infraestructura');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/cd530dfa-3eac-47b3-bb33-97a7c71a5ed9/embed';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/a957c6fa-c4cc-47de-92f1-0b022d523fc8/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,7 +66,7 @@ class Obras2019 extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/cd530dfa-3eac-47b3-bb33-97a7c71a5ed9/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/a957c6fa-c4cc-47de-92f1-0b022d523fc8/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
@@ -114,6 +114,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase Obras2019
+} // Clase Obras2020
 
 ?>
