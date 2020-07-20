@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-07-16</lastmod>
+    <lastmod>2020-07-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5158,6 +5158,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/monitoreo-atmosferico-pm10.html</loc>
     <lastmod>2019-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/obras-2019.html</loc>
+    <lastmod>2020-07-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
