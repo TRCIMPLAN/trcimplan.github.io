@@ -33,14 +33,14 @@ class Obras2020 extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre             = 'Obras 2020';
-        $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
+        $this->autor              = 'Dirección de Proyectos Estratégicos, Implan';
         $this->fecha              = '2020-07-20T11:14';
         // El nombre del archivo a crear y rutas relativas a las imágenes
         $this->archivo            = 'obras-2020';
         $this->imagen             = 'obras-2020/imagen.jpg';
         $this->imagen_previa      = 'obras-2020/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Resumen de Obras 2020';
+        $this->descripcion        = 'Georreferenciación de proyectos de Obra pública realizados en 2020 en el municipio de Torreón, Coahuila.';
         $this->claves             = 'obras, infraestructura';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
@@ -67,6 +67,9 @@ class Obras2020 extends \Base\Publicacion {
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/a957c6fa-c4cc-47de-92f1-0b022d523fc8/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br> <b>Fuente: Dirección de Proyectos Estratégicos Implan, con información de Transparencia Torreón. http://www.torreon.gob.mx/transparencia/info_o.cfm </b>
+</br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
+</br></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
