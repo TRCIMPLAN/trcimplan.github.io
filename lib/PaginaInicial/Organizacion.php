@@ -111,8 +111,6 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatorias-2018-cs-banner-09.jpg" alt="Consejeros ciudadanos"></a>';
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatoria-consejeros-sectoriales-2019.jpg" alt="Consejeros ciudadanos 2019"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
-               // $b[] = '<a href="http://www.trcimplan.gob.mx/programas-radio/index.html"><img src="imagenes\radio\publicidad-radio3.jpg" alt="Programa de Radio Implan"></a>';
-               // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/identidad-lagunera.html"><img src="imagenes\convocatorias\identidad-lagunera-2019.jpg" alt="Identidad Lagunera"></a>';
 
                 $b[] = '</ul>';
             $b[] = '</div>';
