@@ -102,8 +102,8 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\convocatorias\convocatoria-pzn.jpg" alt="Participación Ciudadana Zona Norte- 2020"></a>';
-                $b[] = '<a href="https://bit.ly/ConsultaCentroHistorico"><img src="imagenes\programa-zona-norte\pch-baner-19.jpg" alt="Centro Histórico"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
+                $b[] = '<a href="https://bit.ly/ConsultaCentroHistorico"><img src="imagenes\centro-historico\pch-baner-19.jpg" alt="Centro Histórico"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\programa-zona-norte\pzn-banner-general.jpg" alt="Programa Zona Norte"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html"><img src="imagenes\politica-industrial\banner-politica-industrial2019.jpg" alt="Política Industrial 2019"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-mar2020-vm-banner.jpg" alt="Convocatorias VM 2020"></a>';
                //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner.jpg" alt="Concurso Manos a La Cebra"></a>';
