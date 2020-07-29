@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1238,6 +1238,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/participacion-ciudadana-como-eje-planeacion-urbana-julio-2020.html</loc>
     <lastmod>2020-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/participacion-ciudadana-juvenil-en-la-planeacion-municipal-julio-2020.html</loc>
+    <lastmod>2020-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
