@@ -34,9 +34,9 @@ class ComunicadoPrensa20200730MiEspacio extends \Base\PublicacionSchemaBlogPosti
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Mi Espacio: Recopilación de proyectos y recomendaciones para enfrentar al COVID-19';
+        $this->nombre                     = 'Mi Espacio:  Recopilación de proyectos y recomendaciones para enfrentar al COVID-19';
         $this->autor                      = 'Arq. Alejandra Martínez Avilés';
-        $this->fecha                      = '2020-07-30T00:00';
+        $this->fecha                      = '2020-07-30T09:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2020-07-20-mi-espacio';
         // La descripción y claves dan información a los buscadores y redes sociales
