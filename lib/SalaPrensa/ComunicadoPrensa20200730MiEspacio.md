@@ -22,6 +22,6 @@ Se espera que quien lea el documento, pueda obtener diversas estrategias, tanto 
 </br></br>
 Deseando que el documento sea de tu utilidad y agrado, ¡compártelo y disfrútalo!.
 </br></br></br>
-<a href="http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio/mi-espacio.pdf"><b>HAZ CLICK PARA DESCARGAR EL BOOKLET “MI ESPACIO” EN PDF (14.5 Mb)</b></a>
+<a href="https://drive.google.com/drive/folders/1kXa0m0AOKu2ihTSrWC1EV75EZ-b7lEd0?usp=sharing"><b>HAZ CLICK PARA DESCARGAR EL BOOKLET “MI ESPACIO” EN PDF (14.5 Mb)</b></a>
 
 </br></br></br>
