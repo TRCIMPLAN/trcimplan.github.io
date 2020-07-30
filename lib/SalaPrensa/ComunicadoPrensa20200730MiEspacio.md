@@ -1,6 +1,6 @@
 
 
-<img src="2020-07-20-mi-espacio/ima01.jpg" alt="imagen mi espacio">
+<img src="2020-07-30-mi-espacio/ima01.jpg" alt="imagen mi espacio">
 
 ##Recopilación de proyectos y recomendaciones para enfrentar al COVID-19</h1>
 

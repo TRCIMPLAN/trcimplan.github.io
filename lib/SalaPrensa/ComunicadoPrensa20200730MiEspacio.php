@@ -38,7 +38,7 @@ class ComunicadoPrensa20200730MiEspacio extends \Base\PublicacionSchemaBlogPosti
         $this->autor                      = 'Arq. Alejandra Martínez Avilés';
         $this->fecha                      = '2020-07-30T09:00';
         // El nombre del archivo a crear
-        $this->archivo                    = '2020-07-20-mi-espacio';
+        $this->archivo                    = '2020-07-30-mi-espacio';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'En diciembre del 2019 se detectó un nuevo virus denominado COVID-19, el cual se extendió por todo el mundo y la Organización Mundial de la Salud (OMS) declaró una pandemia global en rueda de prensa el 11 de marzo del 2020.
 El 30 de marzo del 2020, se declaró emergencia sanitaria a nivel nacional en México, suspendiendo las actividades no esenciales de los sectores públicos y privados.';
