@@ -111,7 +111,8 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2020-03-31', 'valor' => '775133', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2020-03-31', 'valor' => '775171', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2020-04-30', 'valor' => '757928', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2020-05-31', 'valor' => '747455', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 90, crudo 45
+            array('fecha' => '2020-05-31', 'valor' => '747455', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2020-06-30', 'valor' => '737772', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 92, crudo 46
     } // datos
 
     /**
@@ -140,7 +141,7 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Lerdo', 'fecha' => '2020-05-31', 'valor' => '11909', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2020-05-31', 'valor' => '8539', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2020-05-31', 'valor' => '299202', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2020-05-31', 'valor' => '747455', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2020-06-30', 'valor' => '737772', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Durango', 'fecha' => '2020-05-31', 'valor' => '238087', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2020-05-31', 'valor' => '19583170', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
     } // otras_regiones
