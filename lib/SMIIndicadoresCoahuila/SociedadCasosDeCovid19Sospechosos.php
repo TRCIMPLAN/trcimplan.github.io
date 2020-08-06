@@ -93,11 +93,11 @@ class SociedadCasosDeCovid19Sospechosos extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2020-06-24', 'valor' => '1643', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-06-24', 'valor' => '389', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2020-06-24', 'valor' => '92', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2020-06-24', 'valor' => '110', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2020-06-03', 'valor' => '1785', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-08-02', 'valor' => '1219', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-08-02', 'valor' => '262', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2020-08-02', 'valor' => '100', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2020-08-02', 'valor' => '77', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-08-02', 'valor' => '1658', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2020-05-12', 'valor' => '15', 'fuente_nombre' => 'Secretaría de Salud'));
     } // otras_regiones
 

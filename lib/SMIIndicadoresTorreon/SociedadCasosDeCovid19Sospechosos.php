@@ -139,7 +139,46 @@ class SociedadCasosDeCovid19Sospechosos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2020-06-21', 'valor' => '1381', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-06-22', 'valor' => '1463', 'fuente_nombre' => 'Secretaría de Salud'),
             array('fecha' => '2020-06-23', 'valor' => '1532', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('fecha' => '2020-06-24', 'valor' => '1643', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 146, crudo 73
+            array('fecha' => '2020-06-24', 'valor' => '1643', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-25', 'valor' => '1607', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-26', 'valor' => '1631', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-27', 'valor' => '1638', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-28', 'valor' => '1368', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-29', 'valor' => '1346', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-06-30', 'valor' => '1284', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-01', 'valor' => '1140', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-02', 'valor' => '1093', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-03', 'valor' => '1162', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-04', 'valor' => '1185', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-05', 'valor' => '1185', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-06', 'valor' => '1190', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-07', 'valor' => '1167', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-08', 'valor' => '1191', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-09', 'valor' => '1241', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-10', 'valor' => '1283', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-11', 'valor' => '1188', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-12', 'valor' => '1094', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-13', 'valor' => '1083', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-14', 'valor' => '1073', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-15', 'valor' => '1101', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-16', 'valor' => '1047', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-17', 'valor' => '1118', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-18', 'valor' => '1059', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-19', 'valor' => '1026', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-20', 'valor' => '1026', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-21', 'valor' => '1026', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-22', 'valor' => '1096', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-23', 'valor' => '1129', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-24', 'valor' => '1155', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-25', 'valor' => '1216', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-26', 'valor' => '1220', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-27', 'valor' => '1196', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-28', 'valor' => '1169', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-29', 'valor' => '1192', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-30', 'valor' => '1232', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-07-31', 'valor' => '1280', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-08-01', 'valor' => '1208', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('fecha' => '2020-08-02', 'valor' => '1219', 'fuente_nombre' => 'Secretaría de Salud')); // formateado 0, valor 224, crudo 112
     } // datos
 
     /**
@@ -163,11 +202,11 @@ class SociedadCasosDeCovid19Sospechosos extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2020-06-24', 'valor' => '1643', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-06-24', 'valor' => '389', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2020-06-24', 'valor' => '92', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2020-06-24', 'valor' => '110', 'fuente_nombre' => 'Secretaría de Salud'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2020-06-03', 'valor' => '1785', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-08-02', 'valor' => '1219', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-08-02', 'valor' => '262', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2020-08-02', 'valor' => '100', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2020-08-02', 'valor' => '77', 'fuente_nombre' => 'Secretaría de Salud'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-08-02', 'valor' => '1658', 'fuente_nombre' => 'Secretaría de Salud'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2020-05-12', 'valor' => '15', 'fuente_nombre' => 'Secretaría de Salud'));
     } // otras_regiones
 
