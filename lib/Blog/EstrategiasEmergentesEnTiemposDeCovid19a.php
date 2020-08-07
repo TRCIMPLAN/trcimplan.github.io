@@ -23,9 +23,9 @@
 namespace Blog;
 
 /**
- * Clase EstrategiasEmergentesEnTiemposDeCovid19
+ * Clase EstrategiasEmergentesEnTiemposDeCovid19a
  */
-class EstrategiasEmergentesEnTiemposDeCovid19 extends \Base\PublicacionSchemaBlogPosting {
+class EstrategiasEmergentesEnTiemposDeCovid19a extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -34,22 +34,22 @@ class EstrategiasEmergentesEnTiemposDeCovid19 extends \Base\PublicacionSchemaBlo
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'ESTRATEGIAS EMERGENTES EN TIEMPOS DE COVID-19';
+        $this->nombre                     = 'Estrategias Emergentes En Tiempos de COVID-19';
         $this->autor                      = 'Arq. José Antonio Ramírez Reyes';
-        $this->fecha                      = '2020-01-20T15:00';
+        $this->fecha                      = '2020-07-20T15:30';
         // El nombre del archivo a crear
         $this->archivo                    = 'estrategias-emergentes-en-tiempos-de-covid19-julio-2020';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'El 29 de febrero del 2020, se confirmaba el primer caso de la nueva enfermedad COVID-19 en Torreón, el 4º en México; de esta fecha al 19 de julio del mismo año, la pandemia ocasionada por el virus SARS-COV-2 ha dejado 2,733 infectados, de los cuales el 22.75% sigue con el virus activo, 7.61% están hospitalizados y 3.95% fallecieron (Secretaría de Salud de Coahuila, 2020).';
+        $this->descripcion                = '“… implica que a uno de cada dos torreonenses hay que proporcionarles medios de movilidad segura, disminuyendo el potencial contagio o incrementando la seguridad vial para ciclistas y peatones.”';
         $this->claves                     = 'IMPLAN, Torreon, covid, estrategias, vialidad';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/Blog/EstrategiasEmergentesEnTiemposDeCovid19.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/EstrategiasEmergentesEnTiemposDeCovid19a.md';
         // Para el Organizador
         $this->categorias                 = array('Movilidad', 'Salud');
         $this->fuentes                    = array();
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
-} // Clase EstrategiasEmergentesEnTiemposDeCovid19
+} // Clase EstrategiasEmergentesEnTiemposDeCovid19a
 
 ?>
