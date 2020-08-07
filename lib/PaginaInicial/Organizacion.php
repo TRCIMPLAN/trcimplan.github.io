@@ -102,6 +102,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\convocatorias\convocatoria-pzn.jpg" alt="Participación Ciudadana Zona Norte- 2020"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio.html"><img src="imagenes\mi-espacio\banner-mi-espacio.jpg" alt="Programa Mi Espacio"></a>';
                 $b[] = '<a href="https://bit.ly/ConsultaCentroHistorico"><img src="imagenes\centro-historico\pch-baner-19.jpg" alt="Centro Histórico"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\programa-zona-norte\pzn-banner-general.jpg" alt="Programa Zona Norte"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html"><img src="imagenes\politica-industrial\banner-politica-industrial2019.jpg" alt="Política Industrial 2019"></a>';
@@ -110,7 +111,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                // $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/index.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Visión Metrópoli"></a>';
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatorias-2018-cs-banner-09.jpg" alt="Consejeros ciudadanos"></a>';
                // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatoria-consejeros-sectoriales-2019.jpg" alt="Consejeros ciudadanos 2019"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
+               // $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
 
                 $b[] = '</ul>';
             $b[] = '</div>';

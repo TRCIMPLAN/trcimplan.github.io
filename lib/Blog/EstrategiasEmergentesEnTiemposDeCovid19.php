@@ -36,7 +36,7 @@ class EstrategiasEmergentesEnTiemposDeCovid19 extends \Base\PublicacionSchemaBlo
         // Título, autor y fecha
         $this->nombre                     = 'ESTRATEGIAS EMERGENTES EN TIEMPOS DE COVID-19';
         $this->autor                      = 'Arq. José Antonio Ramírez Reyes';
-        $this->fecha                      = '2020-07-20T15:00';
+        $this->fecha                      = '2020-01-20T15:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'estrategias-emergentes-en-tiempos-de-covid19-julio-2020';
         // La descripción y claves dan información a los buscadores y redes sociales
