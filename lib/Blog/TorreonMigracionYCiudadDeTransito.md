@@ -1,4 +1,13 @@
 
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/miriam-janeth-gonzalez-quintana.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-miriam-janeth-gonzalez-quintana-top2.png" align="right" alt="Foto Miriam" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
 **La migración** es un fenómeno que distingue al flujo de personas que cambian su residencia fuera de los límites políticos administrativos de un territorio; iniciando de un punto de origen y finalizando con un punto de destino. Un territorio puede ser un lugar de atracción (destino) por diversas características socioeconómicas que faciliten el desarrollo del individuo, y un lugar de expulsión (origen) el cual carece de ellas.
 
 **Estados Unidos es la principal región de atracción o destino para México, y los principales estados de origen son Aguascalientes, Colima, Durango, Guanajuato, Jalisco, Michoacán, Nayarit, San Luis Potosí y Zacatecas.** Entre 1995 y 2000 estos estados representaron el 47% de migrantes mexicanos en Estados Unidos; por su parte, el estado de Coahuila se encuentra entre los estados de la región norte que mantienen corrientes migratorias constantes, aunque de menor intensidad migratoria que los antes mencionados.
