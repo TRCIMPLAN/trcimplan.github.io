@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-08-07</lastmod>
+    <lastmod>2020-08-17</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1618,6 +1618,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/torreon-hacia-una-sociedad-de-la-informacion.html</loc>
     <lastmod>2018-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/torreon-migracion-y-ciudad-de-transito-agosto-2020.html</loc>
+    <lastmod>2020-08-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
