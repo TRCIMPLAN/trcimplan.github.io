@@ -96,6 +96,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $b[] = '  <section id="organizacion">';
             //~ $b[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
             $b[] = '    <img class="banner" src="imagenes/banner-implan-2018-01.jpg" width="100" height="500" alt="IMPLAN Torreon">';
+
             //  $b[] = ' ';
             $b[] = '<li></li>';
             //INICIO  CONVOCATORIAS
@@ -115,7 +116,8 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
                 $b[] = '</ul>';
             $b[] = '</div>';
-
+            $b[] = '<center><a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda3.jpg" alt="liga ovie"></a></center>';
+            $b[] = '</br>';
             //FIN CONVOCATORIA
 
 
