@@ -116,7 +116,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
                 $b[] = '</ul>';
             $b[] = '</div>';
-            $b[] = '<center><a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda3.jpg" alt="liga ovie"></a></center>';
+            $b[] = '<a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda3.jpg" alt="liga ovie"></a>';
             $b[] = '</br>';
             //FIN CONVOCATORIA
 
