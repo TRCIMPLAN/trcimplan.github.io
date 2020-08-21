@@ -43,7 +43,6 @@ class NavegacionConfig {
             'Indicadores > Monitores'                                 => 'monitores/index.html'),
             //'Indicadores > Convocatorias'                             => 'convocatorias/index.html'),
         'Indicadores Básicos de Colonias' => array(
-
             'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
             'Indicadores Básicos de Colonias > Colonias de Torreón'   => 'ibc-colonias-torreon/index.html',
             'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed',
@@ -58,9 +57,7 @@ class NavegacionConfig {
        //     'Información Geográfica > Planes'                         => 'sig-planes/index.html',
        //     'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
        //     'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html'),
-
         'Información Geográfica' => array(
-
             'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
          //   'Información Geográfica > Planes'                         => 'sig-planes/index.html',    VM
          //   'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
@@ -85,7 +82,6 @@ class NavegacionConfig {
             'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html'),
 
 //ÚLTIMOS CAMBIOS VM
-
         'Documentos'  => array(
             'Documentos > Planes y Programas'                         => 'sig-planes/index.html',
             'Documentos > Investigaciones'                            => 'investigaciones/index.html',
@@ -98,10 +94,10 @@ class NavegacionConfig {
         'Sala de Prensa'                                              => 'sala-prensa/index.html',
         'Programas de Radio'                                          => 'programas-radio/index.html',
         'Consejo Visión Metrópoli' => array(
-            'Consejo Visión Metrópoli > Consejo Juvenil'                      => 'convocatorias/vision-metropoli.html',
-            'Consejo Visión Metrópoli > Integrantes del Consejo'              => 'vision-metropoli/integrantes.html',
-            'Consejo Visión Metrópoli > Sala de Prensa'                       => 'vision-metropoli/index.html',
-            'Consejo Visión Metrópoli > Reglamento'                           => 'vision-metropoli/reglamento-vision-metropoli-2020.pdf'),
+            'Consejo Visión Metrópoli > Consejo Juvenil'              => 'convocatorias/vision-metropoli.html',
+            'Consejo Visión Metrópoli > Integrantes del Consejo'      => 'vision-metropoli/integrantes.html',
+            'Consejo Visión Metrópoli > Sala de Prensa'               => 'vision-metropoli/index.html',
+            'Consejo Visión Metrópoli > Reglamento'                   => 'vision-metropoli/reglamento-vision-metropoli-2020.pdf'),
       //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
         'Institucional' => array(
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
