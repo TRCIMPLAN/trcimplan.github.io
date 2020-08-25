@@ -73,6 +73,8 @@ class AutoresConfig {
         $this->autores[] = new \Base\Autor('', 'Sra.', 'Olga Lidia Delgado Ramírez',        'sra-olga-lidia-delgado-ramirez',        'IMPLAN Torreón', 'Servicios de Limpieza',                 'Tel. de Contacto: (871) 5007078', '', '');
         $this->autores[] = new \Base\Autor('', 'C.P.', 'Santa Julia Camarillo Aguirre',     'cp-santa-julia-camarillo-aguirre',      'IMPLAN Torreón', 'Contador',                              'Tel. de Contacto: (871) 5007078, ext.2315', 'info@trcimplan.gob.mx', '');
         $this->autores[] = new \Base\Autor('', 'C.P.', 'Janeth Ramírez Facio',              'cp-janeth-ramirez-facio',               'IMPLAN Torreón', 'Auxiliar Administrativo',               'Tel. de Contacto: (871) 5007078', 'info@trcimplan.gob.mx', 'JanethFacio');
+        $this->autores[] = new \Base\Autor('', 'Lic.', 'Edgardo de la Cruz Torres',         'lic-edgardo-de-la-cruz-torres',         'IMPLAN Torreón', 'Instrumentación política y jurídica',   'Tel. de Contacto: (871) 5007078', 'info@trcimplan.gob.mx', '');
+
 
     //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'Javier de Jesús Valencia Jiménez',  'lic-javier-de-jesus-valencia-jimenez',  'IMPLAN Torreón', 'Auxiliar Administrativo',               '', 'javier_111192@hotmail.com', '');
     //~ $this->autores[] = new \Base\Autor('', 'Ing.', 'Luis Campos Hinojosa',              'unknown',                               'IMPLAN Torreón', 'Director de Investigación Estratégica', '', 'lcampos@trcimplan.gob.mx', '');
