@@ -4,7 +4,8 @@
 </p>
 
 </br></br></br></br></br></br></br></br>
- <a title="ir a Programa de Radio" href="https://www.facebook.com/trcimplan/videos/468449927238404"><img class="img-responsive contenido-imagen" src="caminabilidad-en-el-centro-historico-de-torreon/programa-de-radio1.jpg" align="right" alt="Foto Radio" width="300" height="100"></a>
+
+<a title="ir a Programa de Radio" href="https://www.facebook.com/trcimplan/videos/468449927238404"><img class="img-responsive contenido-imagen" src="caminabilidad-en-el-centro-historico-de-torreon/programa-de-radio1.jpg" align="right" alt="Foto Radio" width="300" height="100"></a>
 ---
 
 **La Nueva Agenda Urbana** en el punto 114 y 115 plasma la importancia de la movilidad no motorizada priorizando este modo por sobre el transporte motorizado privado, esto viene junto con un concepto que se ha vuelto tema de tendencia global, la caminabilidad de nuestros barrios.
