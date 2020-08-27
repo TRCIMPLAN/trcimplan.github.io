@@ -6,8 +6,8 @@
 </br></br></br></br></br></br></br>
 ---
 <b>Escuchar el Programa de radio de este Tema</b></br>
-<a title="ir a Programa de Radio" href="https://t.co/elp0G7BJfX"><img class="img-responsive contenido-imagen" src=" " align="right" alt=" " width="300" height="100"> 1ra. parte 🔊   .</a>
-<a title="ir a Programa de Radio" href="https://t.co/vamlVFgG66"><img class="img-responsive contenido-imagen" src=" " align="right" alt=" " width="300" height="100"> 2da. parte 🔊</a>
+<a title="ir a Programa de Radio" href="https://t.co/elp0G7BJfX"> 1ra. parte 🔊   .</a>
+<a title="ir a Programa de Radio" href="https://t.co/vamlVFgG66"> 2da. parte 🔊</a>
 
 ---
 
