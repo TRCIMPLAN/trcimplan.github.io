@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones de este Autor" href="http://www.trcimplan.gob.mx/autores/edgardo-de-la-cruz-torres.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-edgardo-de-la-cruz-torres-top2.png" align="right" alt="Foto Edgardo" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 El escenario actual de una pandemia ha obligado a modificar las rutinas de las y los estudiantes y sus familias. El alumnado que había concluido su año escolar anterior en un formato a distancia, con clases a través de la televisión, enviando y recibiendo tareas en redes sociales y estableciendo videollamadas en diversas plataformas, inician este ciclo escolar bajo las mismas condiciones.
 
