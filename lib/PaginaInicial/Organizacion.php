@@ -103,10 +103,10 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider6">';
                 $b[] = '<ul>';
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\convocatorias\convocatoria-pzn.jpg" alt="Participación Ciudadana Zona Norte- 2020"></a>';
-                $b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-11.jpg" alt="Convocatoria PDDU"></a>';
+                $b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra2.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner2020.jpg" alt="Concurso Manos a La Cebra 2020"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio.html"><img src="imagenes\mi-espacio\banner-mi-espacio.jpg" alt="Programa Mi Espacio"></a>';
-                $b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-11.jpg" alt="Convocatoria PDDU"></a>';
+                $b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
                 // PONER OTRA VEZ $b[] = '<a href="https://bit.ly/ConsultaCentroHistorico"><img src="imagenes\centro-historico\pch-baner-19.jpg" alt="Centro Histórico"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\programa-zona-norte\pzn-banner-general.jpg" alt="Programa Zona Norte"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html"><img src="imagenes\politica-industrial\banner-politica-industrial2019.jpg" alt="Política Industrial 2019"></a>';
@@ -119,7 +119,14 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                // $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
 
                 $b[] = '</ul>';
+
+
+
+
             $b[] = '</div>';
+            //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes/icono-pddu-2020.jpg"  alt="liga PPDU"></a>';
+            //$b[] = '</br>';
+
             $b[] = '<a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda3.jpg"  width="1200" height="50" alt="liga ovie"></a>';
             $b[] = '</br>';
             //FIN CONVOCATORIA
