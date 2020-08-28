@@ -127,7 +127,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes/icono-pddu-2020.jpg"  alt="liga PPDU"></a>';
             //$b[] = '</br>';
 
-            $b[] = '<a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda3.jpg"  width="1200" height="50" alt="liga ovie"></a>';
+            $b[] = '<center><a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda4.png"  width=95% height="70px" alt="liga ovie"></a></center>';
             $b[] = '</br>';
             //FIN CONVOCATORIA
 
