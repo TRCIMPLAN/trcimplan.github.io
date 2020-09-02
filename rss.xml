@@ -5,11 +5,73 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 02 Sep 2020 11:05:40 -0500</pubDate>
+    <pubDate>Wed, 02 Sep 2020 11:46:15 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nuevas herramientas de gestión catastral</title>
+      <link>http://www.trcimplan.gob.mx/blog/nuevas-herramientas-de-gestion-catastral-sep-2020.html</link>
+      <guid isPermaLink="false">blog-nuevas-herramientas-de-gestion-catastral-sep-2020</guid>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 -0500</pubDate>
+      <author>Lic. Jesús Abraham Salazar Valadez</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/nuevas-herramientas-de-gestion-catastral-sep-2020/imagen.jpg"><br>
+
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jesus-abraham-salazar-valadez.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/blog/../imagenes/128/lic-jesus-abraham-salazar-valadez-top2.png" align="right" alt="Foto Abraham" width="500" height="200"></a>
+</p>
+
+<p></br></br></br></br></br></br></br></br></p>
+
+<hr />
+
+<p>En pleno Siglo XXI no podemos visualizar a los catastros municipales como las oficinas que solo recaudan el impuesto predial. Si bien es cierto que el impuesto más importante que tienen los municipios en nuestro país es el predial, en México, según a datos de la Organización para la Cooperación y el Desarrollo Económicos​ (OCDE), solo se recauda el 0.2 % del PIB, por lo que somos uno de los países con más bajo cobro en América Latina y el problema recaudatorio no es por cuestiones legales sino por problemas administrativos y tecnológicos.</p>
+
+<p>En este sentido, Mónica Unda investigadora del Centro de Estudios Demográficos, Urbanos y Ambientales en el 2018 realizó un estudio de caso en seis municipios urbanos de nuestro país donde analizó los factores que influyen en el nivel de recaudación predial y una de las conclusiones principales fue que, a mejores niveles de recursos humanos, materiales y tecnológicos, es decir, mayor capacidad institucional es mayor la recaudación.</p>
+
+<p>Por esta razón, es necesario modernizar nuestros sistemas de gestión catastral para que sean herramientas de generación de información que definan las políticas de suelo como la inversión de la obra pública o el mismo financiamiento urbano.</p>
+
+<p>Para fortalecer la hacienda pública municipal necesitamos migrar de herramientas manuales a sistemas de gestión catastral que sean interoperables con las dependencias incluso con el INFONAVIT y no solo con el Registro Público de la Propiedad.</p>
+
+<p>Precisamente, el Instituto Mexicano para la Competitividad (IMCO) en su estudio sobre el Índice de Competitividad Estatal propone sistemas digitales para la tramitología, dice “YA NO MÁS TRÁMITES EN PAPEL”. Para darnos una idea, el archivo muerto de la SEP en 2016 generó 16 toneladas de papel para reciclaje.</p>
+
+<p>Por otro lado, el panorama de los catastros en todo el país tiene muchas dificultades. El Censo Nacional de Gobiernos Municipales y Demarcaciones Territoriales de la Ciudad de México 2019 nos proporciona los siguientes datos:</p>
+
+<p>El 65.85 % de los municipios no cuentan con un programa de capacitación del personal de catastro.</p>
+
+<p>El 62.67 % de los municipios no tiene manuales de procedimientos catastrales.</p>
+
+<p>El 55.13 % de los municipios no tiene una cartografía catastral.</p>
+
+<p>El 55.41% de los municipios no hace inspecciones en campo por parte de la oficina catastral y el 24.09 % lo hace sólo al momento de realizar un trámite o servicio catastral.</p>
+
+<p>Con respecto a esto último, el Banco Mundial en el Estudio Doing Bussines 2019: Preparando la Reforma propone el uso de Modelos de Información Inteligentes por medio de software que use cartografía digital e imágenes de drones que faciliten el mapeo con fotos de 360 grados para producir modelos 3D georreferenciados en tiempo real. Así ya no dependeríamos de inspecciones físicas que implican costos en tiempo y dinero.</p>
+
+<p>Al respecto, John Wihbey profesor de la Universidad Northeastern afirma que “los drones se están convirtiendo en una herramienta esencial para garantizar los derechos territoriales, actualizar los mapas en línea en tiempo real y comprender los patrones de los asentamientos no planificados” (Wihbey, 2017).</p>
+
+<p>Por último, el gran debate de la modernización catastral es el tema de la Valuación pues es necesario migrar de métodos de cálculo “clásicos” donde el valor del inmueble únicamente se cotiza por la localización, las dimensiones y la calidad de los materiales de construcción para incorporar nuevas categorías como la disponibilidad de agua, la cercanía a medios alternativos de movilidad, la seguridad o la calidad ambiental. Al respecto Fitch, Soto y Garza (2013) proponen “conceder mayor importancia a la localización de actividades, a los sistemas de transporte público y a los espacios abiertos” para definir los valores inmobiliarios.</p>
+
+<h3>Puntos:</h3>
+
+<ul>
+<li><p>El 65.85 % de los municipios no cuentan con un programa de capacitación del personal de catastro.</p></li>
+<li><p>El 62.67 % de los municipios no tiene manuales de procedimientos catastrales.</p></li>
+<li><p>El 55.13 % de los municipios no tiene una cartografía catastral.</p></li>
+<li><p>El 55.41% de los municipios no hace inspecciones en campo por parte de la oficina catastral y el 24.09 % lo hace sólo al momento de realizar un trámite o servicio catastral.</p></li>
+</ul>
+
+<h3>Referencias:</h3>
+
+<ul>
+<li><p>Development, I. B. (2019). Doing Business 2019. Training for Reform. Washington D.C.</p></li>
+<li><p>Fitch, J., Soto, K., &amp; Garza, R. (2013). Valuación de la calidad urbano-ambiental. Una modelación hedónica: San Nicolás de los Garza, México. Estudios Demográficos y Urbanos, 383-428.</p></li>
+<li><p>Instituto Mexicano para la Competitividad, A.C. (2020). Que no vuelva a pasar. Estados prevenidos valen por dos.</p></li>
+<li><p>Unda Gutiérrez, M. (2018). Los límites de la recaudación predial en los municipios urbanos de México: un estudio de casos. Estudios Demográficos y Urbanos, 601-637.</p></li>
+<li><p>Wihbey, J. (2017). La revolución de los drone. Revista Land Lines , 16-21.</p></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Torreón: Regreso a Clases a Distancia.</title>
       <link>http://www.trcimplan.gob.mx/blog/torreon-regreso-a-clases-a-distancia-agosto-2020.html</link>
@@ -352,39 +414,6 @@ El documento en formato digital se encuentra disponible en el sitio:</p>
 <p><a href="http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio.html">http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio.html</a></p>
 
 <p><img src="http://www.trcimplan.gob.mx/sala-prensa/2020-07-30-mi-espacio2/ima01.jpg" alt="imagen mi espacio 1"></p>
-]]></description>
-    </item>
-    <item>
-      <title>Mi Espacio:  Recopilación de proyectos y recomendaciones para enfrentar al COVID-19</title>
-      <link>http://www.trcimplan.gob.mx/sala-prensa/2020-07-30-mi-espacio.html</link>
-      <guid isPermaLink="false">sala-prensa-2020-07-30-mi-espacio</guid>
-      <pubDate>Thu, 30 Jul 2020 09:00:00 -0500</pubDate>
-      <author>Arq. Alejandra Martínez Avilés</author>
-      <description><![CDATA[<p><img src="http://www.trcimplan.gob.mx/sala-prensa/2020-07-30-mi-espacio/ima01.jpg" alt="imagen mi espacio"></p>
-
-<h2>Recopilación de proyectos y recomendaciones para enfrentar al COVID-19</h1></h2>
-
-<p></br></br>
-En diciembre del 2019 se detectó un nuevo virus denominado COVID-19, el cual se extendió por todo el mundo y la Organización Mundial de la Salud (OMS) declaró una pandemia global en rueda de prensa el 11 de marzo del 2020.
-El 30 de marzo del 2020, se declaró emergencia sanitaria a nivel nacional en México, suspendiendo las actividades no esenciales de los sectores públicos y privados.
-</br></br>
-Bajo los términos Home-Office, Home-School y #QuédateEnCasa estudiantes y trabajadores han debido adaptarse a un modelo de actividades primordialmente en línea, para no suspender por completo sus procesos. Las medidas preventivas en las actividades cotidianas continuarán vigentes por el resto del 2020.
-</br></br>
-Este documento ha sido creado con la finalidad de hacer más ameno el periodo de contingencia sanitaria y facilitar las condiciones de trabajo y/o estudio en casa, reconociendo el nuevo esquema que nos obliga a repensar la cotidianidad, así como del uso de los espacios y de los mobiliarios que hay en el hogar, no necesariamente adaptados a actividades con fines laborales y/o académicos.</p>
-
-<p>Los proyectos y acciones que se presentan, son resultantes de diversos esfuerzos del Consejo Visión Metrópoli en conjunto con el IMPLAN Torreón, impulsados hacia la ciudadanía.
-</br></br>
-Aquí, se otorgan opciones a los ciudadanos de adaptar espacios del hogar con muebles autoconstruibles de fácil armado y bajo costo.
-</br></br>
-También, se brindan alternativas de actividades que se pueden realizar en casa, clasificándolas en cuatro categorías; culturales, educativas, de entretenimiento y estilo de vida (lifestyle).
-</br></br>
-Se espera que quien lea el documento, pueda obtener diversas estrategias, tanto físicas, como digitales, para hacer el periodo de contingencia mucho más amable y llevadero.
-</br></br>
-Deseando que el documento sea de tu utilidad y agrado, ¡compártelo y disfrútalo!.
-</br></br></br>
-<a href="https://drive.google.com/drive/folders/1kXa0m0AOKu2ihTSrWC1EV75EZ-b7lEd0?usp=sharing"><b>HAZ CLICK PARA DESCARGAR EL BOOKLET “MI ESPACIO” EN PDF (14.5 Mb)</b></a></p>
-
-<p></br></br></br></p>
 ]]></description>
     </item>
   </channel>
