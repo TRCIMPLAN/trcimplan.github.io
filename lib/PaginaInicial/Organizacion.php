@@ -104,7 +104,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 $b[] = '<ul>';
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\convocatorias\convocatoria-pzn.jpg" alt="Participación Ciudadana Zona Norte- 2020"></a>';
                 $b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra2.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner2020.jpg" alt="Concurso Manos a La Cebra 2020"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra2.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner2020-veda.jpg" alt="Concurso Manos a La Cebra 2020"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio.html"><img src="imagenes\mi-espacio\banner-mi-espacio.jpg" alt="Programa Mi Espacio"></a>';
                 $b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
                 // PONER OTRA VEZ $b[] = '<a href="https://bit.ly/ConsultaCentroHistorico"><img src="imagenes\centro-historico\pch-baner-19.jpg" alt="Centro Histórico"></a>';
