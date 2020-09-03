@@ -95,7 +95,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $b   = array();
         $b[] = '  <section id="organizacion">';
             //~ $b[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
-            $b[] = '    <img class="banner" src="imagenes/banner-implan-2018-01b.jpg" width="100" height="500" alt="IMPLAN Torreon">';
+            $b[] = '    <img class="banner" src="imagenes/banner-implan-2018-01c.jpg" width="100" height="500" alt="IMPLAN Torreon">';
 
             //  $b[] = ' ';
             $b[] = '<li></li>';
