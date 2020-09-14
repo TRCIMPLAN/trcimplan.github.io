@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-09-08</lastmod>
+    <lastmod>2020-09-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -283,6 +283,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/consumo-local-alternativa-ciudad-competitiva.html</loc>
     <lastmod>2015-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/consumo-local-en-tiempos-de-pandemia-sep-2020.html</loc>
+    <lastmod>2020-09-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

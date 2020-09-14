@@ -59,7 +59,7 @@
 
 
 }
-
+//* comienza slider 2    *//
 .slider2{
     width:80%;
     margin:auto;
@@ -120,7 +120,7 @@
     100% {margin-left: -500%;}*/
 }
 
-
+//* comienza slider 3    *//
 .slider3{
     width:60%;
     margin:auto;
@@ -164,7 +164,7 @@
 
 }
 
-
+//* comienza slider 6    *//
 .slider6{
     width:90%;
     margin:auto;
@@ -223,4 +223,71 @@
 
     95% {margin-left: -500%;}
     100% {margin-left: -500%;}
+}
+
+
+//* comienza slider 8    *//
+.slider8{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+    //*border-radius:5px;*//
+}
+
+.slider8 ul{
+    display:flex;
+    padding:0;
+    width:600%;
+
+    animation: cambio8 35s infinite alternate linear;
+    animation-timing-function:ease;
+}
+/*
+.slider8 li{
+    width:600%;
+    list-style:none;
+}
+*/
+.slider8 a{
+    width:600%;
+    list-style:none;
+    padding:4;
+}
+
+.slider8 img{
+    width:85%;
+    border-radius:15px;
+    padding:5;
+}
+
+
+@keyframes cambio8 {
+    0% {margin-left: 0;}
+    15% {margin-left: 0;}
+
+    30% {margin-left: -50%;}
+    35% {margin-left: -50%;}
+
+    40% {margin-left: -150%;}
+    45% {margin-left: -150%;}
+
+/*    75% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+*/
+    50% {margin-left: -250%;}
+    55% {margin-left: -250%;}
+
+
+    60% {margin-left: -400%;}
+    65% {margin-left: -400%;}
+
+    70% {margin-left: -500%;}
+    75% {margin-left: -500%;}
+
+    80% {margin-left: -600%;}
+    85% {margin-left: -600%;}
+
+
+    90% {margin-left: -700%;}
+    100% {margin-left: -700%;}
 }
