@@ -49,3 +49,4 @@ U3         | 284       | junio 2020        | CONAVI    | Torreón   |
 [De click para descargar el archivo PDF del:   <strong>Histórico Marzo 2018</strong>](http://www.trcimplan.gob.mx/monitores/vivienda/vivienda-marzo-2018.pdf)
 
 </br>
+</br>
