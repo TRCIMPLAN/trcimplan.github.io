@@ -1,32 +1,30 @@
-# Monitor de Economía
+# Monitor de Economía Agosto 2020
 
-## Indicadores macroeconómicos Mayo 2020
-Indicador                                           |Dato       |Periodo                |Nivel          |Fuente         |
-----------------------------------------------------|-----------|-----------------------|---------------|---------------|
-Tipo de cambio del último mes                       |  $23.93   |abril 2020             |Nacional       |Banxico        |
-Depreciación del peso respecto al último año        |  18.51%   |mayo 2019 - mayo 2020  |Nacional       |Banxico        |
-Tasa de interés objetivo                            |  5.50%    |mayo 2020              |Nacional       |Banxico        |
-Último movimiento de la tasa                        |  -0.50%   |mayo 2020              |Nacional       |Banxico        |
+## Indicadores macroeconómicos
+Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
+----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
+Tipo de cambio del último mes                       |  $22.20   |julio 2020         |Nacional       |Banxico        |
+Depreciación acumulada anual                    |  15.41%   |nero - julio 2020  |Nacional   |Banxico        |
+Tasa de interés objetivo                            |  4.50%    |agosto 2020        |Nacional   |Banxico        |
+?ltimo movimiento de la tasa                    |  -0.50%   |14 de agosto 2020  |Nacional   |Banxico        |
 
 ## Indicadores regionales
-Indicador                                       |Dato       |Periodo                     |Nivel           |Fuente                 |
-------------------------------------------------|-----------|----------------------------|----------------|-----------------------|
-PIB estimado  2019                              |240.70 mmp |2019                        |ZML             |Standard & Poors       |
-PIB 2017                                        |305.70 mmp |2019                        |ZML             |Citibanamex            |
-Lugar nacional por tamaño de PIB                |9°         |2019                        |Torreón         |IRAE, Citibanamex 2019 |
-Lugar nacional en crecimiento de PIB            |17°        |2019                        |Torreón         |IRAE, Citibanamex 2019 |
-Inflación anual acumulada                       |-0.23%     |2019                        |Torreón         |INEGI                  |
-Inflación mensual interanual                    |3.05%      |marzo 2018 a febrero 2019   |Torreón         |Banxico                |
-Inflación mensual interanual del año anterior   |4.89%      |febrero 2017 a febrero 2018 |Torreón         |Banxico                |
+Indicador                                                       |Dato       |Periodo        |Nivel      |Fuente                 |
+----------------------------------------------------------------|---------------|---------------|---------------|-----------------------|
+PIB estimado 2018                       |351.80 mmp |2019       |ZML        |Censos Económicos 2019, INEGI |
+Lugar nacional en Valor Agregado 2018               |7?         |2019       |Torreón        |Censos Económicos 2019, INEGI |
+Inflación anual acumulada 2020                  |1.52%      |2020       |Torreón    |INEGI          |
+Inflación mensual interanual                    |4.30%      |junio 2019 a junio 2020|Torreón|INEGI          |
+Inflación mensual interanual del año anterior           |4.31%      |junio 2018 a junio 2019|Torreón|INEGI          |
 
 ## Perspectivas de empresarios y consumidores
-Indicador                                               |Dato       |Periodo        |Nivel      |Fuente     |
---------------------------------------------------------|-----------|---------------|-----------|-----------|
-Cambio en la confianza de los consumidores              |-10.21%    |abril 2020     |Nacional   |INEGI      |
-Cambio en las expectativas de pedidos manufactureros    |-7.77%     |abril 2020     |Nacional   |INEGI      |
-Cambio en la confianza del sector manufactura           |-11.82%    |abril 2020     |Nacional   |INEGI      |
-Cambio en la confianza del sector construcción          |-5.71%     |abril 2020     |Nacional   |INEGI      |
-Cambio en la confianza del sector comercio              |-12.39%    |abril 2020     |Nacional   |INEGI      |
+Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
+----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
+Cambio en la confianza de los consumidores              |-20.59%    |julio 2020     |Nacional   |INEGI      |
+Cambio en las expectativas de pedidos manufactureros        |-1.68%     |julio 2020     |Nacional   |INEGI      |
+Cambio en la confianza del sector manufactura           |-21.80%    |julio 2020     |Nacional   |INEGI      |
+Cambio en la confianza del sector construcción          |-15.80%    |julio 2020     |Nacional   |INEGI      |
+Cambio en la confianza del sector comercio              |-18.75%    |julio 2020     |Nacional   |INEGI      |
 
 </br>
 
@@ -34,6 +32,8 @@ Cambio en la confianza del sector comercio              |-12.39%    |abril 2020 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS ECONÓMICOS</strong></p>
 
 
+[De click para descargar el archivo PDF del:   <strong>Histórico Mayo      2020</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-mayo-2020.pdf)
+</br>
 [De click para descargar el archivo PDF del:   <strong>Histórico Marzo     2020</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2020.pdf)
 </br>
 [De click para descargar el archivo PDF del:   <strong>Histórico Octubre   2019</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-octubre-2019.pdf)
