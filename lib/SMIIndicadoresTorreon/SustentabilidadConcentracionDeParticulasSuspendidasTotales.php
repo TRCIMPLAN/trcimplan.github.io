@@ -43,7 +43,7 @@ class SustentabilidadConcentracionDeParticulasSuspendidasTotales extends \SMIBas
         $this->claves      = 'IMPLAN, Torreón, Medio Ambiente, Recursos Naturales';
         // Para el Organizador
         $this->categorias  = array('Medio Ambiente', 'Recursos Naturales');
-        $this->fuentes     = array('DIF Revolución', 'Esc. Primaria Emiliano Zapata', 'Esc. Secundaria General No. 2', 'Esc. Secundaria General No. 3', 'Cap. Divina Providencia', 'Esc. Secundaria Técnica No. 83', 'Centro Cultural José R. Mijares');
+        $this->fuentes     = array('DIF Revolución', 'Esc. Secundaria General No. 2', 'Esc. Primaria Emiliano Zapata', 'Esc. Secundaria General No. 3', 'Centro Cultural José R. Mijares', 'Cap. Divina Providencia', 'Esc. Secundaria Técnica No. 83');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -74,6 +74,7 @@ class SustentabilidadConcentracionDeParticulasSuspendidasTotales extends \SMIBas
             array('fecha' => '2015-01-07', 'valor' => '108', 'fuente_nombre' => 'Cap. Divina Providencia'),
             array('fecha' => '2015-01-07', 'valor' => '135', 'fuente_nombre' => 'Esc. Secundaria General No. 3'),
             array('fecha' => '2015-01-07', 'valor' => '113', 'fuente_nombre' => 'Esc. Secundaria Técnica No. 83'),
+            array('fecha' => '2015-01-07', 'valor' => '118', 'fuente_nombre' => 'Centro Cultural José R. Mijares'),
             array('fecha' => '2015-01-13', 'valor' => '127', 'fuente_nombre' => 'DIF Revolución'),
             array('fecha' => '2015-01-13', 'valor' => '106', 'fuente_nombre' => 'Esc. Secundaria General No. 2'),
             array('fecha' => '2015-01-13', 'valor' => '136', 'fuente_nombre' => 'Esc. Primaria Emiliano Zapata'),
@@ -1136,7 +1137,7 @@ class SustentabilidadConcentracionDeParticulasSuspendidasTotales extends \SMIBas
             array('fecha' => '2020-03-11', 'valor' => '221', 'fuente_nombre' => 'Centro Cultural José R. Mijares'),
             array('fecha' => '2020-03-11', 'valor' => '166', 'fuente_nombre' => 'DIF Revolución'),
             array('fecha' => '2020-03-18', 'valor' => '190', 'fuente_nombre' => 'Centro Cultural José R. Mijares'),
-            array('fecha' => '2020-03-18', 'valor' => '136', 'fuente_nombre' => 'DIF Revolución')); // formateado 0, valor 2140, crudo 1070
+            array('fecha' => '2020-03-18', 'valor' => '136', 'fuente_nombre' => 'DIF Revolución')); // formateado 0, valor 2142, crudo 1071
     } // datos
 
     /**

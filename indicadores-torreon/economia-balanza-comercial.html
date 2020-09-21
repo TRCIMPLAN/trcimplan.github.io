@@ -215,6 +215,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -231,7 +232,38 @@
       <tr>
         <td class="centrado">2014-12-31</td>
         <td class="derecha">$ 4,472.00</td>
-        <td>Secretaría de Administración Tributaria.</td>
+        <td>Servicio de Administración Tributaria.</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Balanza comercial. en Torreón</h3>
+    <div id="SmiOtrasRegionesBalanzaComercialEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesBalanzaComercialEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td class="centrado">2014-12-31</td>
+        <td class="derecha">$ 4,472.00</td>
+        <td>Servicio de Administración Tributaria.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td class="centrado">2020-06-30</td>
+        <td class="derecha">$ 320,779,851.00</td>
+        <td>Servicio de Administración Tributaria.</td>
         <td></td>
       </tr>
     </tbody>
@@ -334,6 +366,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesBalanzaComercialEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesBalanzaComercialEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesBalanzaComercialEnTorreonGrafica',
+      data: [{ region: 'Torreón', dato: 4472.00 },{ region: 'Gómez Palacio', dato: 320779851.00 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')

@@ -43,7 +43,7 @@ class EconomiaBalanzaComercial extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Comercio.';
         // Para el Organizador
         $this->categorias  = array('Comercio.');
-        $this->fuentes     = array('Secretaría de Administración Tributaria.');
+        $this->fuentes     = array('Servicio de Administración Tributaria.');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -67,7 +67,7 @@ class EconomiaBalanzaComercial extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2014-12-31', 'valor' => '4472.00', 'fuente_nombre' => 'Secretaría de Administración Tributaria.')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2014-12-31', 'valor' => '4472.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -76,7 +76,12 @@ class EconomiaBalanzaComercial extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +90,9 @@ class EconomiaBalanzaComercial extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2014-12-31', 'valor' => '4472.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-06-30', 'valor' => '320779851.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'));
     } // otras_regiones
 
     /**

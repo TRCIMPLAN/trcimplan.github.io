@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLaLaguna EconomiaCrecimientoDelPibEstatal
+ * TrcIMPLAN Sitio Web - SMIIndicadoresCoahuila EconomiaCrecimientoDelPibEstatal
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,7 +20,7 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresCoahuila;
 
 /**
  * Clase EconomiaCrecimientoDelPibEstatal
@@ -34,17 +34,17 @@ class EconomiaCrecimientoDelPibEstatal extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Crecimiento del PIB Estatal en La Laguna';
+        $this->nombre      = 'Crecimiento del PIB Estatal en Coahuila';
         $this->fecha       = '2015-07-14T15:00:27';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-crecimiento-del-pib-estatal';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Incluido en el subíndice de "Economía Estable". Mide el cambio porcentual en el PIB estatal entre el año 2006 y el 2012.';
-        $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Mercados, Macroeconomía';
+        $this->claves      = 'IMPLAN, Coahuila, Índice de Competitividad Urbana, Mercados, Macroeconomía';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Mercados', 'Macroeconomía');
-        $this->fuentes     = array('IMCO');
-        $this->regiones    = array('La Laguna');
+        $this->fuentes     = array('INEGI');
+        $this->regiones    = array('Coahuila');
     } // constructor
 
     /**
@@ -67,12 +67,21 @@ class EconomiaCrecimientoDelPibEstatal extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2008-12-31', 'valor' => '2.7500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2009-12-31', 'valor' => '2.7500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2010-12-31', 'valor' => '2.7500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2011-12-31', 'valor' => '2.7500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '2.7500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '2.1000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2004-12-31', 'valor' => '2.8800', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2005-12-31', 'valor' => '2.1700', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2006-12-31', 'valor' => '4.7100', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2007-12-31', 'valor' => '4.1600', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2008-12-31', 'valor' => '-0.4300', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2009-12-31', 'valor' => '-15.4500', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2010-12-31', 'valor' => '16.2900', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2011-12-31', 'valor' => '6.7900', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2012-12-31', 'valor' => '5.0400', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2013-12-31', 'valor' => '-2.0600', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2014-12-31', 'valor' => '3.9000', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2015-12-31', 'valor' => '0.8400', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2016-12-31', 'valor' => '1.4700', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2017-12-31', 'valor' => '5.1500', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2018-12-31', 'valor' => '1.2200', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 30, crudo 15
     } // datos
 
     /**
