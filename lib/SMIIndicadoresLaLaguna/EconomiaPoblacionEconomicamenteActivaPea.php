@@ -75,8 +75,10 @@ class EconomiaPoblacionEconomicamenteActivaPea extends \SMIBase\PublicacionWeb {
             array('fecha' => '2019-03-31', 'valor' => '535236', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2019-06-30', 'valor' => '551645', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2019-09-30', 'valor' => '554795', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2019-09-30', 'valor' => '554795', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2019-12-31', 'valor' => '542858', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2020-03-31', 'valor' => '536736', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 20, crudo 10
+            array('fecha' => '2019-12-31', 'valor' => '542858', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2020-03-31', 'valor' => '536736', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 24, crudo 12
     } // datos
 
     /**

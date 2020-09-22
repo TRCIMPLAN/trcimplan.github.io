@@ -85,8 +85,8 @@ class Comercio extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Balanza comercial.</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-balanza-comercial.html" data-toggle="tooltip" title="Millones de dólares, 31/12/2014, Secretaría de Administración Tributaria.">$ 4,472.00</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-balanza-comercial.html" data-toggle="tooltip" title="Millones de dólares, 31/12/2014, Servicio de Administración Tributaria.">$ 4,472.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-balanza-comercial.html" data-toggle="tooltip" title="Millones de dólares, 30/06/2020, Servicio de Administración Tributaria.">$ 320,779,851.00</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -94,7 +94,7 @@ class Comercio extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Total de exportaciones</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-exportaciones.html" data-toggle="tooltip" title="Millones de dólares, 31/12/2014, Secretaría de Administración Tributaria.">$ 6,131.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-exportaciones.html" data-toggle="tooltip" title="Millones de dólares, 30/06/2020, Servicio de Administración Tributaria.">$ 1,699,811,630.00</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -103,7 +103,7 @@ class Comercio extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Total de importaciones.</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-importaciones.html" data-toggle="tooltip" title="Millones de dólares, 31/12/2014, Secretaría de Administración Tributaria.">$ 1,659.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-importaciones.html" data-toggle="tooltip" title="Millones de dólares, 30/06/2020, Servicio de Administración Tributaria.">$ 1,379,031,779.00</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

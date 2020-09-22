@@ -215,6 +215,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -235,8 +236,31 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">41.8800 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">34.5200 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-03-31</td>
+        <td class="derecha">35.0800 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Desocupados de 15 a 25 años en La Laguna </h3>
+
+    <div id="SmiGraficasDesocupadosDe15A25AnosEnLaLaguna" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Desocupados de 15 a 25 años en La Laguna</h3>
@@ -261,8 +285,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2019-09-30</td>
-        <td class="derecha">44.7400 %</td>
+        <td class="centrado">2020-03-31</td>
+        <td class="derecha">35.0800 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -366,12 +390,30 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasDesocupadosDe15A25AnosEnLaLaguna === 'undefined') {
+    varSmiGraficasDesocupadosDe15A25AnosEnLaLaguna = Morris.Line({
+      element: 'SmiGraficasDesocupadosDe15A25AnosEnLaLaguna',
+      data: [
+        { fecha: '2019-09-30', dato: 41.8800 },
+        { fecha: '2019-12-31', dato: 34.5200 },
+        { fecha: '2020-03-31', dato: 35.0800 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesDesocupadosDe15A25AnosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDesocupadosDe15A25AnosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDesocupadosDe15A25AnosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 45.7000 },{ region: 'La Laguna', dato: 44.7400 }],
+      data: [{ region: 'Torreón', dato: 45.7000 },{ region: 'La Laguna', dato: 35.0800 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

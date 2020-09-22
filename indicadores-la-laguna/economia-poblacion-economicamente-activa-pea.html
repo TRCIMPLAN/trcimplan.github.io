@@ -279,6 +279,18 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2019-09-30</td>
+        <td class="derecha">554,795</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">542,858</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2019-12-31</td>
         <td class="derecha">542,858</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
@@ -454,6 +466,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosPoblacionEconomicamenteActivaPeaEnLaLaguna === 'undefined') {
+     $('#SmiDatosPoblacionEconomicamenteActivaPeaEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosPoblacionEconomicamenteActivaPeaEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasPoblacionEconomicamenteActivaPeaEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos === 'undefined') {
