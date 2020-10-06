@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/maira-ivonne-flores-reyes.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-maira-ivonne-flores-reyes-top5.png" align="right" alt="Foto Maira" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 El 17 de marzo de 2020, la Junta General Ejecutiva (JGE) del Instituto Nacional Electoral aprobó mediante Acuerdo INE/JGE34/2020, las medidas preventivas y de actuación, con motivo de la pandemia derivada del COVID-19.
 
@@ -35,6 +43,14 @@ En consecuencia, surge una pregunta obvia: ¿cómo es que la pandemia influirá 
  **2)** La pandemia como factor de desaliento. Partiendo de este punto de vista, el factor pandemia aparece como variable que podría jugar en contra de la participación. Ello, considerando la existencia de un entorno de seguridad adverso, donde la percepción predominante acentuaría la noción de condiciones de riesgo para la salud al momento de acudir a las urnas.
 
 En México, a la problemática sanitaria de coronavirus en curso hay agregar la concurrencia del dengue y el periodo de influenza estacional. Para el caso de Coahuila y su jornada electoral del próximo 18 de octubre habrá que tomar en cuenta esta condición inédita de entorno. De tal manera que a ese punto futuro de llegada resulta necesario incorporar la variable del semáforo de riesgo, toda vez que al menos hasta agosto la entidad se mantuvo por encima de la tasa nacional de incidencia de COVID-19. Por lo pronto, tal como puede observarse, este escenario nos presenta una realidad sumamente compleja e impredecible.
+
+<img class="img-responsive" src="elecciones-coahuila-2020-votos-y-contingencia-oct-2020/ima01.jpg" alt="Imagen 1">
+
+<img class="img-responsive" src="elecciones-coahuila-2020-votos-y-contingencia-oct-2020/ima02.jpg" alt="Imagen 2">
+
+<img class="img-responsive" src="elecciones-coahuila-2020-votos-y-contingencia-oct-2020/ima03.jpg" alt="Imagen 3">
+
+<img class="img-responsive" src="elecciones-coahuila-2020-votos-y-contingencia-oct-2020/ima04.jpg" alt="Imagen 4">
 
 ##Datos:
 
