@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Espacio dedicado a Convocatorias de Implan.">
+  <meta name="author" content="Arq. Ihanelly Hernández Villa">
+  <meta name="keywords" content="IMPLAN, Torreon, Centro Histórico">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Convocatorias - IMPLAN Torreón">
+  <meta name="twitter:description" content="Espacio dedicado a Convocatorias.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/imagenes/icono-vision-metropoli.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/imagenes/icono-vision-metropoli.jpg">
+  <meta name="og:title" content="Convocatorias - IMPLAN Torreón">
+  <meta name="og:description" content="Espacio dedicado a Convocatorias.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/imagenes/icono-vision-metropoli.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/imagenes/icono-vision-metropoli.jpg">
+  <title>Convocatorias - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
+            <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+            <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Consejo Visión Metrópoli<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../convocatorias/vision-metropoli.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Consejo Juvenil</a></li>
+            <li><a href="../vision-metropoli/integrantes.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Integrantes del Consejo</a></li>
+            <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+            <li><a href="../vision-metropoli/reglamento-vision-metropoli-2020.pdf"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamento</a></li>
+          </ul>
+        </li>
+        
+        
+        
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+        <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+        <li><a href="http://177.244.42.17/ovie-torreon/#!" target="_blank"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Oficina Virtual de Información Económica (OVIE)</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+        <div class="encabezado">
+          <h1 itemprop="headline">MultiCity Challenge 2020</h1>
+          <div class="encabezado-descripcion" itemprop="description">iniciativa impulsada y asesorada  por el Laboratorio de Gobernanza (The GovLab) de la Universidad de Nueva York</div>
+          
+          <div class="pull-right redes-sociales">
+                    <a class="fa fa-facebook-square" title="Facebook Implan"  href="https://facebook.com/trcimplan" target="_blank"></a>
+                    <a class="fa fa-instagram"       title="Instagram Implan" href="https://www.instagram.com/trcimplan" target="_blank"></a>
+                    <a class="fa fa-twitter-square"  title="Twitter Implan"   href="http://www.twitter.com/trcimplan" target="_blank"></a>
+                   <!-- <a class="fa fa-youtube-square"  title="Youtube Visión Metrópoli"   href="https://www.youtube.com/channel/UC7IhDAzZFaaIo7sA4kHPI7g" target="_blank"></a>  -->
+                   <!-- <a class="fa fa-twitter-square"  title="Contáctanos por correo"     href="https://api.whatsapp.com/send?text=Verdades y rumores https%3A%2F%2Fwww.elsiglodetorreon.com.mx%2Fnoticia%2F1643823.verdades-y-rumores.html" title="WhatsApp"></a>  -->
+          </div>
+          
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Implan Torreón</span> -
+            <meta itemprop="datePublished" content="2020-10-09T10:03">09/10/2020 10:03
+          </div>
+        </div>
+        <div itemprop="articleBody">
+
+
+<span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="MultiCity Challenge 2020" src="../convocatorias/multi-city-2020/convocatoria-multi-city-2020.jpg"></span>
+</br></br></br></br></br></br>
+</br></br></br>
+</br></br></br>
+
+
+</br></br></br></br>
+El <b>MultiCity Challenge 2020</b>, una iniciativa impulsada y asesorada  por el <b>Laboratorio de Gobernanza (The GovLab)</b> de la <b>Universidad de Nueva York</b>. </br>
+</br>
+En este ejercicio de participación ciudadana, por primera vez colaboran cinco ciudades del norte del país de manera simultánea: Hermosillo, San Pedro, San Nicolás, Reynosa y Torreón. En ejercicios anteriores, tan sólo había surgido el City Challenge, siendo San Pedro Garza García, el municipio piloto en México. Ver Antecedentes.</br>
+</br>
+Se convoca a la ciudadanía para que den a conocer sus ideas, sobre cómo solucionar problemas complejos de ciudad. También, se invita a votar por aquellas propuestas que sean de su agrado. 
+</br></br>
+<h3>¿Cómo funciona?</h3>
+</br>
+<b>1. Conocer los retos y elegir el reto en el que se quiera participar</b></br>
+</br>
+Cada ciudad, plantea dos retos urbanos a resolver. 
+</br>
+<b>Regresemos al Corazón de Nuestra Ciudad:</b></br>
+Ideas para regresar a la colonia donde creciste
+</br></br>
+<b>Torreón</b> explora el tema de la expansión urbana, convocando a la ciudadanía por soluciones innovadoras que hagan más atractivas aquellas colonias que poco a poco han sido reemplazadas por otras, de la periferia.
+</br>
+
+<a href="https://consul.multicitychallenge.org/legislation/processes/12/proposals"><b>&nbsp &nbsp Visitar: </b> https://consul.multicitychallenge.org/legislation/processes/12/proposals</a>
+</br></br>
+
+<b>Estamos Así 👌 de Reducir el COVID</b>: No seamos parte del problema, seamos la solución, ¡necesitamos tus ideas!
+</br>
+En este reto se solicitan ideas creativas para mantenernos a salvo del COVID-19, mientras que las interacciones sociales aumentan, ya sea por el regreso a clases y trabajos, así como la reactivación de espacios públicos de recreación y esparcimiento que se irá dando paulatinamente en los siguientes meses.</br>
+</br>
+<a href="https://consul.multicitychallenge.org/legislation/processes/10/proposals"><b>&nbsp &nbsp Visitar: </b> https://consul.multicitychallenge.org/legislation/processes/10/proposals</a>
+</br></br>
+<b>2. Registrarse y subir ideas</b></br>
+</br>
+Para subir una propuesta, habrá que registrarse en: <a href="https://consul.multicitychallenge.org/"> https://consul.multicitychallenge.org/</a> ahí deberá especificar si la propuesta es hecha por un individuo, un grupo de personas, o una organización. Después, habrá que seguir las instrucciones de la página para participar en el reto de su preferencia. 
+</br>
+Las propuestas serán visibles para todos una vez que sean enviadas, y a partir de ese momento, será posible votar por ella.
+</br></br>
+<b>3. Votar por las propuestas que se consideren relevantes</b></br>
+</br>
+
+Para votar por las propuestas, también habrá que registrarse en la plataforma <a href="https://consul.multicitychallenge.org/"> https://consul.multicitychallenge.org/</a>, visualizar las propuestas de la página, y posteriormente, votar por aquellas que se consideren pertinentes, realizables y escalables según el reto.
+</br></br>
+<b>4. Colaborar con el gobierno local y The GovLab para desarrollar las ideas ganadoras</b>
+</br>
+Registrarse en la plataforma, subir una propuesta y votar no tiene costo alguno. El único compromiso es que, quien haga una propuesta esté dispuesto a trabajar durante el mes de noviembre bajo la asesoría de la Universidad de Nueva York  y el acompañamiento del IMPLAN Torreón. El objetivo es desarrollar y afinar la propuesta, pudiendo llegar a un modelo escalable y replicable, como piloto.
+</br>
+<h3>Fechas Importantes:</h3>
+</br>
+- <b>1 de octubre:</b> &nbsp &nbsp Lanzamiento de Retos Urbanos</br>
+- <b>21 de octubre:</b> &nbsp &nbsp Fecha límite para subir propuestas</br>
+- <b>25 de octubre:</b> &nbsp &nbsp Cierre de votación de propuestas</br>
+- <b>1 de noviembre:</b> &nbsp &nbsp Anuncio de propuestas ganadoras</br>
+- <b>9 de noviembre al 4 de diciembre:</b> &nbsp Desarrollo de ideas ganadoras con la ciudadanía</br>
+</br>
+</br></br>
+<img class="img-responsive" src="../convocatorias/multi-city-2020/calendarizacion.png" alt="imagen calendarización">
+
+</br>
+
+<a href="https://consul.multicitychallenge.org/"><b>&nbsp &nbsp Para más información visitar: </b> https://consul.multicitychallenge.org/</a>
+</br></br>
+En el IMPLAN Torreón estamos seguros de que este ejercicio será todo un éxito, es por ello, que dejamos las puertas abiertas para cualquier duda que pueda surgir al respecto.
+</br>
+<h3>¡Pasa la voz! IMAGINA, VOTA, COLABORA.</h3>
+</br></br>
+<h3>Bases de la Convocatoria</h3>
+</br>
+<a href="https://multicitychallenge.org/wp-content/uploads/2020/09/Bases-del-Programa-MCC2020.pdf"><b>&nbsp &nbsp Bases de la Convocatoria: </b> https://multicitychallenge.org/wp-content/uploads/2020/09/Bases-del-Programa-MCC2020.pdf</a>
+</br></br>
+<h3>Video</h3>
+</br>
+<a href="https://www.youtube.com/watch?v=Qknx0_6v3uk&t=1s"><b>&nbsp &nbsp Te invitamos a ver el siguiente video: </b> https://www.youtube.com/watch?v=Qknx0_6v3uk&t=1s</a>
+</br>
+</br></br>
+<img class="img-responsive" src="../convocatorias/multi-city-2020/final-info-implan.png" alt="imagen final">
+
+
+
+
+
+
+
+</br></br>
+<h2>Para más información: </h2>
+
+
+<a href="https://facebook.com/trcimplan">&nbsp &nbsp Facebook: <b>https://facebook.com/trcimplan</b></a>
+</br>
+&nbsp &nbsp Correo electrónico: <b>webmaster@trcimplan.gob.mx</b>
+</br></br>
+<!--Bases para la Convocatoria  
+<div style="margin-top:8px; margin-bottom:16px;"><a href="diseno-mi-espacio/Concurso-Diseno-MiEspacio-2020.pdf"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para ver el archivo: <b> <big>BASES para la Convocatoria Diseño Mi Espacio.</big> </b>(versión PDF 311.7 kb)</span></a></div>
+-->
+
+</br>
+
+<!--
+Consejeros : convocatorias-2018-cs-banner-09.jpg  borrar esta línea
+<div style="margin-top:8px; margin-bottom:16px;"><a href="Convocatoria Visión Metrópoli 2018 prueba.pdf"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para acceder a la <b>Ficha de Registro a la Convocatoria Visión Metrópoli</b></span></a></div>
+<h2>Servicios</h2>
+
+
+
+<p>Como uno de los principales centros económicos de La Laguna, el Centro Histórico de Torreón alberga el 17.88% de las unidades económicas del municipio, con la presencia de 4784 de las 26746 unidades económicas registradas en el Directorio Estadístico de Unidades Económicas (DENUE) publicado por INEGI en 2016.</p>
+
+
+-->
+
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script type="text/javascript" src="../vendor/jssor/jssor.slider.min.js"></script>
+<script>
+  // Photo Slider Presentacion Monitores inicia
+  jQuery(document).ready(function ($) {
+    var options = {
+        $AutoPlay: true,
+        $ChanceToShow: 5,
+        $DragOrientation: 1,
+        $AutoPlayInterval: 6000
+    };
+    var jssor_slider1 = new $JssorSlider$("presentacion-monitor-centro-historico", options);
+    function ScaleSlider() {
+        var parentWidth = $('#presentacion-monitor-centro-historico').parent().width();
+        if (parentWidth) {
+            jssor_slider1.$ScaleWidth(parentWidth);
+        }
+        else
+            window.setTimeout(ScaleSlider, 30);
+    }
+    ScaleSlider();
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+  });
+  // Photo Slider Presentacion Sector Automotriz termina
+</script>
+
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
