@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon EconomiaTrabajadoresAseguradosRegion
+ * TrcIMPLAN Sitio Web - SMIIndicadoresDurango EconomiaTrabajadoresAseguradosRegion
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,7 +20,7 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresTorreon;
+namespace SMIIndicadoresDurango;
 
 /**
  * Clase EconomiaTrabajadoresAseguradosRegion
@@ -34,17 +34,17 @@ class EconomiaTrabajadoresAseguradosRegion extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Trabajadores Asegurados (Región) en Torreón';
+        $this->nombre      = 'Trabajadores Asegurados (Región) en Durango';
         $this->fecha       = '2014-10-21T16:19:49';
         // El nombre del archivo a crear
         $this->archivo     = 'economia-trabajadores-asegurados-region';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion = 'Evolución del empleo medida en trabajadores asegurados por el IMSS.';
-        $this->claves      = 'IMPLAN, Torreón, Empleo';
+        $this->claves      = 'IMPLAN, Durango, Empleo';
         // Para el Organizador
         $this->categorias  = array('Empleo');
-        $this->fuentes     = array('IMSS Subdelegación Torreón', 'Instituto Mexicano del Seguro Social (IMSS)');
-        $this->regiones    = array('Torreón');
+        $this->fuentes     = array('Instituto Mexicano del Seguro Social (IMSS)');
+        $this->regiones    = array('Durango');
     } // constructor
 
     /**
@@ -67,15 +67,8 @@ class EconomiaTrabajadoresAseguradosRegion extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2007-12-31', 'valor' => '171936', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
-            array('fecha' => '2008-12-31', 'valor' => '164258', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
-            array('fecha' => '2009-12-31', 'valor' => '157898', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
-            array('fecha' => '2010-12-31', 'valor' => '168723', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
-            array('fecha' => '2011-12-31', 'valor' => '176045', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
-            array('fecha' => '2012-12-31', 'valor' => '184407', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
-            array('fecha' => '2013-12-31', 'valor' => '187050', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
-            array('fecha' => '2020-08-31', 'valor' => '198397', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2020-09-30', 'valor' => '199385', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 18, crudo 9
+            array('fecha' => '2020-08-31', 'valor' => '236944', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2020-09-30', 'valor' => '238074', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

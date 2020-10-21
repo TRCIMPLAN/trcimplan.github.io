@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2020-10-21</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -8261,6 +8261,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-trabajadores-asegurados-region.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -9856,6 +9861,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-trabajadores-asegurados-region.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -11443,6 +11453,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-trabajadores-asegurados.html</loc>
     <lastmod>2014-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-trabajadores-asegurados-region.html</loc>
+    <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13061,6 +13076,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-trabajadores-asegurados-region.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -14551,6 +14571,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-trabajadores-asegurados-region.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/gobierno-capacidad-financiera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -14976,6 +15001,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-trabajadores-asegurados-region.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/gobierno-capacidad-financiera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -15363,6 +15393,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-trabajadores-asegurados.html</loc>
     <lastmod>2014-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-trabajadores-asegurados-region.html</loc>
+    <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
