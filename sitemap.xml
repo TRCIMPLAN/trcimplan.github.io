@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -263,6 +263,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/composicion-del-ingreso-y-del-gasto-en-los-hogares-de-la-laguna-agosto2019.html</loc>
     <lastmod>2019-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/composicion-economica-de-la-laguna-oct-2020.html</loc>
+    <lastmod>2020-10-22</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
