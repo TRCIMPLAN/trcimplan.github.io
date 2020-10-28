@@ -37,18 +37,3 @@ Análisis elaborado en IMPLAN Torreón a partir de información de Catastro, 201
 Índice de Ciudades Prósperas (ONU Hábitat, 2018).
 
 Crecimiento Histórico de Torreón a 2010 (ONU Hábitat, 2018).
-
-
-##INFOGRAFÍAS
-
-Fue a partir de la década de 1980-1990 en qué la expansión de la mancha urbana presentó un crecimiento acelerado. Mientras que la población en los últimos 30 años aumentó 57%, la mancha urbana logró duplicarse en el mismo periodo
-
-<img class="img-responsive" src="la-estructura-urbana-de-torreon-oct-2020/ima02.jpg">
-
-El suelo que se desarrolló a partir de 1990 y comparándolo con los usos actuales del área desarrollada anterior a esta fecha, podemos observar que es un suelo fragmentado con grandes áreas de espacios vacíos, es aquí en donde encontramos el 78.9% de los baldíos urbanos.
-
-Lo que nos indica que el 70% del suelo comercial y de servicios se encuentra en el área desarrollada antes de 1990.
-
-Al realizar los análisis de áreas de servicio del equipamiento público, son, de igual manera, las zonas periféricas las que carecen de este tipo de equipamiento.
-
-Uno de los ejes sobre los que trabajará el plan es Ciudad Incluyente, Segura, Resiliente y Sostenible, que tiene como objetivo garantizar el desarrollo de una ciudad inclusiva en la que exista un acceso equitativo al territorio para toda la población.

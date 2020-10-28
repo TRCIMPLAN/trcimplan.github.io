@@ -329,6 +329,14 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     width:150;
     border-color:#A2A2A2;
 }
+/*  Cambio VM */
+.tarjetas-thumbnail3 {
+    background-color:#E8E8E8;
+    min-height:150px;
+    width:150;
+    border-color:#A2A2A2;
+}
+
 
 .tarjetas-nombre {
     font-size:24px;
