@@ -35,7 +35,7 @@ class NavegacionConfig {
         //'Análisis Publicados'                                         => 'blog/index.html',
         'Análisis Publicados' => array(
             'Análisis Publicados > Últimos Análisis'                  => 'blog/index.html',
-            'Análisis Publicados > Análisis por Autor'                => 'excolaboradores/index.html '),
+            'Análisis Publicados > Análisis por Autor'                => 'excolaboradores/index.html'),
         'Indicadores' => array(
             'Indicadores > Introducción al SMI'                       => 'smi/introduccion.html',
             'Indicadores > Indicadores por Categoría'                 => 'indicadores-categorias/index.html',
