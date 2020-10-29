@@ -8,6 +8,7 @@
 ---
 </br></br>
 
+
 ##ANTECEDENTES
 
 El área urbana de Torreón actualmente tiene una superficie de 15,288.8 hectáreas, es decir que el 49% del polígono municipal en el que se encuentra la ciudad de Torreón está urbanizado. Fue a partir de la década de 1980-1990 en que la expansión de la mancha urbana presentó un crecimiento acelerado. Mientras que la población en los últimos 30 años aumentó 57%, la mancha urbana logró duplicarse en el mismo periodo. De acuerdo con el Índice de Ciudades Prósperas de ONU Habitat, esto es un indicador de crecimiento disperso y conlleva a una estructura urbana fragmentada, de baja densidad, con grandes porcentajes de vacíos urbanos y altos costos sociales relacionados con la movilidad urbana.
