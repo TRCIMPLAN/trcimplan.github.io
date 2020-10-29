@@ -32,7 +32,10 @@ class NavegacionConfig {
     protected $opciones     = array(
         //'Análisis Publicados' => 'trcimplan_sitioweb/index.html',    // ELIMINAR
         // 'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map',
-        'Análisis Publicados'                                         => 'blog/index.html',
+        //'Análisis Publicados'                                         => 'blog/index.html',
+        'Análisis Publicados' => array(
+            'Análisis Publicados > Últimos Análisis'                  => 'blog/index.html',
+            'Análisis Publicados > Análisis por Autor'                => 'excolaboradores/index.html '),
         'Indicadores' => array(
             'Indicadores > Introducción al SMI'                       => 'smi/introduccion.html',
             'Indicadores > Indicadores por Categoría'                 => 'indicadores-categorias/index.html',
