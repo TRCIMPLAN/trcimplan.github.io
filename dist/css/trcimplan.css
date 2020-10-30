@@ -333,13 +333,13 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 .tarjetas-thumbnail3 {
     background-color:#E8E8E8;
     min-height:150px;
-    width:150;
+    width:340px;
     border-color:#A2A2A2;
 }
 
 
 .tarjetas-nombre {
-    font-size:24px;
+    font-size:20px;
     text-align:center;
 }
 
