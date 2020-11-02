@@ -40,7 +40,7 @@ class MonitorEconomia extends \Base\PublicacionSchemaArticle {
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-economia'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Compendio de datos relevantes a la dinámica económica de La Laguna.';
+        $this->descripcion                = 'Compendio de datos relevantes a la dinámica económica de La Laguna .';
         $this->claves                     = 'IMPLAN, Torreon, Gómez Palacio, Lerdo, Matamoros, La Laguna, Economía';
         // Ruta al archivo markdown con el contenido
     //~$this->contenido_archivo_markdown = 'lib/Monitores/monitor-de-negocios.md';
