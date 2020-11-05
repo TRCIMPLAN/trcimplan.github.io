@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4653,6 +4653,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-10-21-plan-red-de-espacios-publicos.html</loc>
     <lastmod>2020-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-11-03-septima-sesion-consejo.html</loc>
+    <lastmod>2020-11-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
