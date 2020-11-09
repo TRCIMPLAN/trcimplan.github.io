@@ -320,6 +320,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     min-height:430px;
 /*    border-color:#A2A2A2;   VM*/
     border-color:#FF5800;
+
 }
 /*  Cambio VM */
 .tarjetas-thumbnail2 {
@@ -336,6 +337,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     min-height:200px;
 /*    width:300px;   */
     border-color:#A2A2A2;
+/*    background-image: url("https://www.trcimplan.gob.mx/imagenes/borrame.png"); */
 }
 
 

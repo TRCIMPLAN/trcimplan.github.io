@@ -159,9 +159,6 @@
     0% {margin-left: 0;}
     50% {margin-left: -100;}
     100% {margin-left: -150%;}
-
-
-
 }
 
 //* comienza slider 6    *//
@@ -181,27 +178,26 @@
     animation-timing-function:ease;
 }
 
-
-
 .slider6 li{
-    width:400%;
+    width:100%;
     list-style:none;
 }
 
 .slider6 a{
-    width:500%;
+    width:120%;
     list-style:none;
-    padding:4;
+    padding:2;
 }
 
 .slider6 img{
     width:95%;
     border-radius:15px;
-    padding:5;
+    padding:0;
 }
 
 
 @keyframes cambio6 {
+
     0% {margin-left: 0;}
     15% {margin-left: 0;}
 

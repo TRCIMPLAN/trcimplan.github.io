@@ -65,7 +65,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $this->is_article     = FALSE;
         $this->big_heading    = TRUE;
         $this->headline_style = 'organizacion';
-
+        // PRUEBA VM  $this->extra           = 'Instituto Municipal de Planeación Torreón';
 
 
         // Acumularemos la entrega en este arreglo
@@ -91,6 +91,23 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $a[] = "    <div class=\"organizacion-descripcion\" itemprop=\"description\">{$this->description}</div>";
         }
         $a[] = '  </div>';
+
+        // <!--   PRUEBA IDIOMA VM  -->
+        $a[] = 'Traducir Página a tu Idioma';
+        $a[] = '<div id="google_translate_element" class="google"></div> ';
+
+        $a[] = '<script type="text/javascript">
+                    function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: "es", includedLanguages: "ca,eu,gl,en,fr,it,pt,de", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, "google_translate_element");
+                }';
+        $a[] = '</script>';
+        $a[] = '<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>';
+
+        // <!--   FIN PRUEBA IDIOMA VM  -->
+
+
+
+
         // Acumular
         $b   = array();
         $b[] = '  <section id="organizacion">';
@@ -100,11 +117,11 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //  $b[] = ' ';
             $b[] = '<li></li>';
             //INICIO  CONVOCATORIAS
-            $b[] = '<div class="slider6">';
+            $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\convocatorias\convocatoria-pzn.jpg" alt="Participación Ciudadana Zona Norte- 2020"></a>';
                 //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/multi-city-challenge-2020.html"><img src="imagenes\convocatorias\convocatoria-multi-city-2020.jpg" alt="Convocatoria Multi City 2020"></a>';
+                //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/multi-city-challenge-2020.html"><img src="imagenes\convocatorias\convocatoria-multi-city-2020.jpg" alt="Convocatoria Multi City 2020"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio.html"><img src="imagenes\mi-espacio\banner-mi-espacio.jpg" alt="Programa Mi Espacio"></a>';
                 //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
                 // PONER OTRA VEZ
