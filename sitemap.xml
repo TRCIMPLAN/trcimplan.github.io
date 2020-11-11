@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-11-10</lastmod>
+    <lastmod>2020-11-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1158,6 +1158,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/movilidad-nuestra-ciudad.html</loc>
     <lastmod>2014-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/movilidad-segura-nuestro-derecho-constitucional-nov-2020.html</loc>
+    <lastmod>2020-11-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
