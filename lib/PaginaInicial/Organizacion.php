@@ -98,7 +98,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
         $a[] = '<script type="text/javascript">
                     function googleTranslateElementInit() {
-                    new google.translate.TranslateElement({pageLanguage: "es", includedLanguages: "ca,eu,gl,en,fr,it,pt,de", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, "google_translate_element");
+                    new google.translate.TranslateElement({pageLanguage: "es", includedLanguages: "ca,eu,gl,en,fr,it,pt,de,ch", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, "google_translate_element");
                 }';
         $a[] = '</script>';
         $a[] = '<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>';
