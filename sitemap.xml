@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-11-23</lastmod>
+    <lastmod>2020-11-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4673,6 +4673,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-11-09-premiacion-multicity-challenge-2020.html</loc>
     <lastmod>2020-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2020-11-24-cortometrajes-vm.html</loc>
+    <lastmod>2020-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
