@@ -146,10 +146,18 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '</div>';
             //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes/icono-pddu-2020.jpg"  alt="liga PPDU"></a>';
             //$b[] = '</br>';
-
+            //FIN CONVOCATORIA
+            //Inicio OVIE
+            $b[] = '</br></br>';
             $b[] = '<center><a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda4.png"  width=95% height="70px" alt="liga ovie"></a></center>';
             $b[] = '</br>';
-            //FIN CONVOCATORIA
+            $b[] = '</br>';
+            //Fin OVIE
+            //Inicio ATLAS DE RIESGO
+            $b[] = '<center><a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg"  width=95% height="270px" alt="liga Atlas de Riesgo Torreón"></a></center>';
+            $b[] = '</br>';
+            $b[] = '</br>';
+            //Fin ATLAS DE RIESGO
 
 
             //$b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
