@@ -317,7 +317,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 .tarjetas-thumbnail {
 /*background-color:#E8E8E8;  VM*/
     background-color:#E8E8E8;
-    min-height:430px;
+/*  min-height:430px;   VM */
+    min-height:470px;
 /*    border-color:#A2A2A2;   VM*/
     border-color:#FF5800;
 
