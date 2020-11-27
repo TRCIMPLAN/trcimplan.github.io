@@ -111,7 +111,8 @@ class NavegacionConfig {
             'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
         'Transparencia'  => array(
              'Transparencia > Transparencia Estatal (ICAI)'           => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
-             'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio'),
+             'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio',
+             'Transparencia > Documentos'                             => 'transparencia/index.html'),
         'Términos de Uso' => array(
             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
             'Términos de Uso > Del sitio web'                         => 'terminos/terminos-sitio.html',
