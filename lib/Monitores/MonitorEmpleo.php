@@ -36,7 +36,7 @@ class MonitorEmpleo extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Monitor del Empleo';
         $this->autor                      = 'Lic. Pedro Eleazar González Valdez'; // Puede ser un arreglo de textos  array(' ',' ')
-        $this->fecha                      = '2020-06-02T09:00';
+        $this->fecha                      = '2020-12-02T09:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-empleo'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
