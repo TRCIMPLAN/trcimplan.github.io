@@ -97,3 +97,9 @@ Estos cambios normativos reducen de 94 a 63 días el tiempo global para la exped
 Con estas acciones tratamos de asegurar el futuro de las generaciones o al menos multiplicar los términos del presente en la incógnita, es decir, el futuro de la ecuación urbana.
 
 Concluyo con esta reflexión que hizo el Arquitecto Leon Krier “La arquitectura y el urbanismo tradicionales no definen una ideología, una religión, o un sistema transcendental. Son parte de la tecnología más que del estilo; son un cuerpo de conocimientos técnicos que nos permiten construir ciudades y estructuras agradables y satisfactorias desde el punto de vista práctico, estético, social, y económico. Tales estructuras no aseguran felicidad, sino que facilitan ciertamente la búsqueda de la felicidad para una gran mayoría de gente.”
+
+<center><img src="los-grandes-retos-del-futuro-de-la-ciudad-de-torreon-dic-2020/ima01.jpg" alt="imagen 1"></center>
+
+<center><img src="los-grandes-retos-del-futuro-de-la-ciudad-de-torreon-dic-2020/ima02.jpg" alt="imagen 2"></center>
+
+<center><img src="los-grandes-retos-del-futuro-de-la-ciudad-de-torreon-dic-2020/ima03.jpg" alt="imagen 3"></center>
