@@ -35,7 +35,7 @@ class LaViolenciaFamiliarEnTorreon extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'La Violencia Familiar en Torreón';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2019-03-19T16:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'violencia-familiar-en-torreon-marzo2019';

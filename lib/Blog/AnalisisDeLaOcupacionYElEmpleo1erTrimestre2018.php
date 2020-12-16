@@ -35,7 +35,7 @@ class AnalisisDeLaOcupacionYElEmpleo1erTrimestre2018 extends \Base\PublicacionSc
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Análisis de la ocupación y el empleo en el 1er. trimestre de 2018.';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2018-05-28T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'analisis-de-la-ocupacion-y-el-empleo-1er-trimestre-2018';

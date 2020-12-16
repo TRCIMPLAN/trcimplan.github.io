@@ -35,7 +35,7 @@ class PruebaPlanea2017 extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Resultados para La Laguna en la prueba Planea 2017';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2018-02-08T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'prueba-planea-2017';

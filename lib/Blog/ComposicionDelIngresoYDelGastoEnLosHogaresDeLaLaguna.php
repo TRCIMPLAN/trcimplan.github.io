@@ -35,7 +35,7 @@ class ComposicionDelIngresoYDelGastoEnLosHogaresDeLaLaguna extends \Base\Publica
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Composición del Ingreso y del Gasto en los Hogares de La Laguna';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2019-08-14T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'composicion-del-ingreso-y-del-gasto-en-los-hogares-de-la-laguna-agosto2019';

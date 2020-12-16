@@ -35,7 +35,7 @@ class LaAsequibilidadDeLaViviendaEnTorreon extends \Base\PublicacionSchemaBlogPo
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'La Asequibilidad de la Vivienda en Torreón';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2018-09-24T14:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-asequibilidad-de-la-vivienda-en-torreon';

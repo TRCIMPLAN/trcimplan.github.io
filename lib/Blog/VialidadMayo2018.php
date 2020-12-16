@@ -35,7 +35,7 @@ class VialidadMayo2018 extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = '¿Cómo manejamos los laguneros?';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2018-05-09T12:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'vialidad-mayo-2018';

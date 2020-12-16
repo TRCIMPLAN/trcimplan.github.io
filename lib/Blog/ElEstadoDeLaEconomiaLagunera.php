@@ -35,7 +35,7 @@ class ElEstadoDeLaEconomiaLagunera extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'El Estado de la Economía Lagunera';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2020-08-18T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'el-estado-de-la-economia-lagunera-agosto-2020';

@@ -35,7 +35,7 @@ class DinamicaDelImpuestoPredialEnTorreon extends \Base\PublicacionSchemaBlogPos
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Dinámica del impuesto predial en Torreón';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2018-08-09T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'dinamica-del-impuesto-predial-en-torreon';

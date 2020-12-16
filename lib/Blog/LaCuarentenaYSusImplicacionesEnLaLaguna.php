@@ -35,7 +35,7 @@ class LaCuarentenaYSusImplicacionesEnLaLaguna extends \Base\PublicacionSchemaBlo
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'La cuarentena y sus implicaciones en La Laguna.';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2020-05-18T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-cuarentena-y-sus-implicaciones-en-la-laguna-mayo-2020';

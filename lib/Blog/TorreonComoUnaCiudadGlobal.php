@@ -35,7 +35,7 @@ class TorreonComoUnaCiudadGlobal extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Torreón como una ciudad global';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2020-12-14T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'torreon-como-una-ciudad-global-dic-2020';

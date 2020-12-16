@@ -35,7 +35,7 @@ class ResultadosDePlaneaSextoPrimaria2018 extends \Base\PublicacionSchemaBlogPos
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'La ZML obtiene bajos resultados en la prueba Planea Educación Básica 2018.';
-        $this->autor                      = 'Lic. Iván de Luna Aldape';
+        $this->autor                      = 'Dr. Iván de Luna Aldape';
         $this->fecha                      = '2018-12-12T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'resultados-de-planea-sexto-primaria-2018-dic2018';
