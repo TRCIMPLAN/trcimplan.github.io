@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2020-12-16</lastmod>
+    <lastmod>2021-01-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -43,6 +43,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/analisis-de-resultados-coneval-2014-para-coahuila.html</loc>
     <lastmod>2015-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/analisis-oferta-educativa-de-nivel-superior-zml-enero-2021.html</loc>
+    <lastmod>2021-01-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
