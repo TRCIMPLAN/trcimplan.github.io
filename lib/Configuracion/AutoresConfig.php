@@ -74,7 +74,7 @@ class AutoresConfig {
         $this->autores[] = new \Base\Autor('', 'C.P.', 'Janeth Ramírez Facio',              'cp-janeth-ramirez-facio',               'IMPLAN Torreón', 'Auxiliar Administrativo',               'Tel. de Contacto: (871) 5007078', 'info@trcimplan.gob.mx', 'JanethFacio');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Edgardo de la Cruz Torres',         'lic-edgardo-de-la-cruz-torres',         'IMPLAN Torreón', 'Instrumentación política y jurídica',   'Tel. de Contacto: (871) 5007078', 'info@trcimplan.gob.mx', ' ');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Olga Alejandra Noriega Aranda',     'lic-olga-alejandra-noriega-aranda',     'IMPLAN Torreón', 'Estudios Sectoriales',                  'Tel. de Contacto: (871) 5007078, ext.2305', 'proyectosestrategicos@trcimplan.gob.mx', ' ');
-
+        $this->autores[] = new \Base\Autor('', 'Lic.', 'Jorge Fernando del Moral Fraire',   'lic-jorge-fernando-del-moral-fraire',   'IMPLAN Torreón', 'Indicadores Económicos',                'Tel. de Contacto: (871) 5007078, ext.2311', 'info@trcimplan.gob.mx', ' ');
 
     //~ $this->autores[] = new \Base\Autor('', 'Lic.', 'Ana Luisa Pacheco Meraz',           '',          'Anterior colaborador de IMPLAN Torreón', 'Aquí puede leer los Artículos que aportó',         'Tel. de Contacto: (871) 5007078, ext.2311', 'info@trcimplan.gob.mx', ' ');
     //~ $this->autores[] = new \Base\Autor('', 'Arq.', 'Ihanelly Hernández Villa',          '',          'Anterior colaborador de IMPLAN Torreón', 'Aquí puede leer los Artículos que aportó',         'Tel. de Contacto: (871) 5007078, ext.2316', 'info@trcimplan.gob.mx', ' ');
