@@ -43,7 +43,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Mercados';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Mercados');
-        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI', 'IMCO');
+        $this->fuentes     = array('IMCO', 'Elaboración propia con datos obtenidos del INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -73,7 +73,9 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
             array('fecha' => '2010-12-31', 'valor' => '26.7700', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '26.7500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '27.0400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '64.3000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
+            array('fecha' => '2016-12-31', 'valor' => '64.3000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '6.3800', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '5.5800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
     } // datos
 
     /**
@@ -101,7 +103,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '21527736.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '2395472.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '3034970.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '64.3000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '5.5800', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Nacional', 'fecha' => '2009-01-01', 'valor' => '26.4400', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // otras_regiones
 

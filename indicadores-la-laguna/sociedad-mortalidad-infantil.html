@@ -389,6 +389,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">13.4300</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">13.4000</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -446,8 +458,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">11.9417</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">13.4000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -602,7 +614,9 @@
       element: 'SmiGraficasMortalidadInfantilEnLaLagunaImco',
       data: [
         { fecha: '2015-12-31', dato: 12.4383 },
-        { fecha: '2016-12-31', dato: 11.9417 }],
+        { fecha: '2016-12-31', dato: 11.9417 },
+        { fecha: '2017-12-31', dato: 13.4300 },
+        { fecha: '2018-12-31', dato: 13.4000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -655,7 +669,7 @@
   if (typeof varSmiOtrasRegionesMortalidadInfantilEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesMortalidadInfantilEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesMortalidadInfantilEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 18.0800 },{ region: 'Gómez Palacio', dato: 13.1700 },{ region: 'Lerdo', dato: 6.7500 },{ region: 'Matamoros', dato: 2.4700 },{ region: 'La Laguna', dato: 11.9417 },{ region: 'Coahuila', dato: 11.9000 },{ region: 'Durango', dato: 14.1000 },{ region: 'Nacional', dato: 12.6000 }],
+      data: [{ region: 'Torreón', dato: 18.0800 },{ region: 'Gómez Palacio', dato: 13.1700 },{ region: 'Lerdo', dato: 6.7500 },{ region: 'Matamoros', dato: 2.4700 },{ region: 'La Laguna', dato: 13.4000 },{ region: 'Coahuila', dato: 11.9000 },{ region: 'Durango', dato: 14.1000 },{ region: 'Nacional', dato: 12.6000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

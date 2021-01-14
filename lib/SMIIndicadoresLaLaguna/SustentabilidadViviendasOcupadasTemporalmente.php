@@ -43,7 +43,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \SMIBase\Publicacion
         $this->claves      = 'IMPLAN, La Laguna, Vivienda, Movilidad';
         // Para el Organizador
         $this->categorias  = array('Vivienda', 'Movilidad');
-        $this->fuentes     = array('INEGI');
+        $this->fuentes     = array('INEGI', 'IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \SMIBase\Publicacion
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,9 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \SMIBase\Publicacion
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2010-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2017-12-31', 'valor' => '0.3200', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '0.2800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -79,7 +81,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \SMIBase\Publicacion
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -95,7 +97,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \SMIBase\Publicacion
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '3.3000', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '3.6000', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '2.8000', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2010-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '0.2800', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

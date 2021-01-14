@@ -292,6 +292,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">14.4900 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">17.8900 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -344,8 +356,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>11.3300</td>
+        <td class="centrado">2018-12-31</td>
+        <td>17.8900</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -449,6 +461,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosPersonasPorDebajoDeLaLineaDeBienestarImcoEnLaLaguna === 'undefined') {
+     $('#SmiDatosPersonasPorDebajoDeLaLineaDeBienestarImcoEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosPersonasPorDebajoDeLaLineaDeBienestarImcoEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasPersonasPorDebajoDeLaLineaDeBienestarImcoEnLaLaguna === 'undefined') {
@@ -463,7 +493,9 @@
         { fecha: '2013-12-31', dato: 13.8300 },
         { fecha: '2014-12-31', dato: 9.0900 },
         { fecha: '2015-12-31', dato: 11.8400 },
-        { fecha: '2016-12-31', dato: 11.3300 }],
+        { fecha: '2016-12-31', dato: 11.3300 },
+        { fecha: '2017-12-31', dato: 14.4900 },
+        { fecha: '2018-12-31', dato: 17.8900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -478,7 +510,7 @@
   if (typeof varSmiOtrasRegionesPersonasPorDebajoDeLaLineaDeBienestarImcoEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPersonasPorDebajoDeLaLineaDeBienestarImcoEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPersonasPorDebajoDeLaLineaDeBienestarImcoEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 36118 },{ region: 'Gómez Palacio', dato: 19327 },{ region: 'Lerdo', dato: 5276 },{ region: 'Matamoros', dato: 8791 },{ region: 'La Laguna', dato: 11.3300 }],
+      data: [{ region: 'Torreón', dato: 36118 },{ region: 'Gómez Palacio', dato: 19327 },{ region: 'Lerdo', dato: 5276 },{ region: 'Matamoros', dato: 8791 },{ region: 'La Laguna', dato: 17.8900 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

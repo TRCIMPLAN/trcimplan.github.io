@@ -74,7 +74,9 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '2.4596', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2013-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '11', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)')); // formateado 0, valor 16, crudo 8
+            array('fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
+            array('fecha' => '2017-12-31', 'valor' => '2.8400', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '2.8400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 20, crudo 10
     } // datos
 
     /**
@@ -102,7 +104,7 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-05-24', 'valor' => '0.0214', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-05-24', 'valor' => '0.0000', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-05-24', 'valor' => '0.0000', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '2.8400', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

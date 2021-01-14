@@ -280,6 +280,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">6.3800 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">5.5800 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -332,8 +344,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>64.3000</td>
+        <td class="centrado">2018-12-31</td>
+        <td>5.5800</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -455,7 +467,9 @@
         { fecha: '2010-12-31', dato: 26.7700 },
         { fecha: '2011-12-31', dato: 26.7500 },
         { fecha: '2012-12-31', dato: 27.0400 },
-        { fecha: '2016-12-31', dato: 64.3000 }],
+        { fecha: '2016-12-31', dato: 64.3000 },
+        { fecha: '2017-12-31', dato: 6.3800 },
+        { fecha: '2018-12-31', dato: 5.5800 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -470,7 +484,7 @@
   if (typeof varSmiOtrasRegionesSectoresQueHanPresentadoAltoCrecimientoEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesSectoresQueHanPresentadoAltoCrecimientoEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesSectoresQueHanPresentadoAltoCrecimientoEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 139894042.00 },{ region: 'Gómez Palacio', dato: 21527736.00 },{ region: 'Lerdo', dato: 2395472.00 },{ region: 'Matamoros', dato: 3034970.00 },{ region: 'La Laguna', dato: 64.3000 },{ region: 'Nacional', dato: 26.4400 }],
+      data: [{ region: 'Torreón', dato: 139894042.00 },{ region: 'Gómez Palacio', dato: 21527736.00 },{ region: 'Lerdo', dato: 2395472.00 },{ region: 'Matamoros', dato: 3034970.00 },{ region: 'La Laguna', dato: 5.5800 },{ region: 'Nacional', dato: 26.4400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

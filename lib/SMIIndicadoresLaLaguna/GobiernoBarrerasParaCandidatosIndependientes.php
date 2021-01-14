@@ -67,7 +67,9 @@ class GobiernoBarrerasParaCandidatosIndependientes extends \SMIBase\PublicacionW
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '6.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2016-12-31', 'valor' => '6.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '1.3200', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '1.3200', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -95,7 +97,7 @@ class GobiernoBarrerasParaCandidatosIndependientes extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '8.5000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '6.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '1.3200', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

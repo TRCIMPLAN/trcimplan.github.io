@@ -276,6 +276,18 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>19.7300</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>24.5500</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2019-09-30</td>
         <td>13859</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
@@ -455,6 +467,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosPoblacionOcupadaSinIngresosEnLaLaguna === 'undefined') {
+     $('#SmiDatosPoblacionOcupadaSinIngresosEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosPoblacionOcupadaSinIngresosEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasPoblacionOcupadaSinIngresosEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos === 'undefined') {
@@ -484,7 +514,9 @@
         { fecha: '2010-12-31', dato: 8.5900 },
         { fecha: '2011-12-31', dato: 9.8000 },
         { fecha: '2012-12-31', dato: 9.1700 },
-        { fecha: '2016-12-31', dato: 16.0000 }],
+        { fecha: '2016-12-31', dato: 16.0000 },
+        { fecha: '2017-12-31', dato: 19.7300 },
+        { fecha: '2018-12-31', dato: 24.5500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

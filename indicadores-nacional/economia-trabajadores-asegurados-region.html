@@ -245,8 +245,32 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2020-08-31</td>
+        <td class="derecha">19,588,342</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2020-09-30</td>
         <td class="derecha">19,702,192</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-09-30</td>
+        <td class="derecha">19,702,192</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-10-30</td>
+        <td class="derecha">19,902,833</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">20,051,552</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
@@ -274,57 +298,57 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">199,385</td>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">203,922</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">79,925</td>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">81,461</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">10,948</td>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">11,426</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">8,373</td>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">8,535</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">298,631</td>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">305,344</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">754,877</td>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">766,974</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">238,074</td>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">243,874</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">19,702,192</td>
+        <td class="centrado">2020-11-30</td>
+        <td class="derecha">20,051,552</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
@@ -380,7 +404,9 @@
       element: 'SmiGraficasTrabajadoresAseguradosRegionEnNacional',
       data: [
         { fecha: '2020-08-31', dato: 19588342 },
-        { fecha: '2020-09-30', dato: 19702192 }],
+        { fecha: '2020-09-30', dato: 19702192 },
+        { fecha: '2020-10-30', dato: 19902833 },
+        { fecha: '2020-11-30', dato: 20051552 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -395,7 +421,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresAseguradosRegionEnNacionalGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresAseguradosRegionEnNacionalGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresAseguradosRegionEnNacionalGrafica',
-      data: [{ region: 'Torreón', dato: 199385 },{ region: 'Gómez Palacio', dato: 79925 },{ region: 'Lerdo', dato: 10948 },{ region: 'Matamoros', dato: 8373 },{ region: 'La Laguna', dato: 298631 },{ region: 'Coahuila', dato: 754877 },{ region: 'Durango', dato: 238074 },{ region: 'Nacional', dato: 19702192 }],
+      data: [{ region: 'Torreón', dato: 203922 },{ region: 'Gómez Palacio', dato: 81461 },{ region: 'Lerdo', dato: 11426 },{ region: 'Matamoros', dato: 8535 },{ region: 'La Laguna', dato: 305344 },{ region: 'Coahuila', dato: 766974 },{ region: 'Durango', dato: 243874 },{ region: 'Nacional', dato: 20051552 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

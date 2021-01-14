@@ -100,7 +100,7 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '50093', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '10766', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '27668', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '29.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

@@ -274,6 +274,18 @@
         <td>IMCO</td>
         <td>En 2016 se mostró como "porcentaje" Por cada mil PEA</td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>7.6500</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>6.9200</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -326,10 +338,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>0.7000</td>
+        <td class="centrado">2018-12-31</td>
+        <td>6.9200</td>
         <td>IMCO</td>
-        <td>En 2016 se mostró como "porcentaje" Por cada mil PEA</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -439,7 +451,9 @@
         { fecha: '2010-12-31', dato: 9.2911 },
         { fecha: '2011-12-31', dato: 8.3972 },
         { fecha: '2012-12-31', dato: 9.0768 },
-        { fecha: '2016-12-31', dato: 0.7000 }],
+        { fecha: '2016-12-31', dato: 0.7000 },
+        { fecha: '2017-12-31', dato: 7.6500 },
+        { fecha: '2018-12-31', dato: 6.9200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -454,7 +468,7 @@
   if (typeof varSmiOtrasRegionesDemandantesDeConflictoLaboralEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDemandantesDeConflictoLaboralEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDemandantesDeConflictoLaboralEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 3351 },{ region: 'Gómez Palacio', dato: 1058 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 0.7000 }],
+      data: [{ region: 'Torreón', dato: 3351 },{ region: 'Gómez Palacio', dato: 1058 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 6.9200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

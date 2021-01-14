@@ -292,6 +292,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">80.3300 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">80.2200 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -344,8 +356,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">91.1700 %</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">80.2200 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -453,6 +465,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosMujeresQueEstudianEnLaLaguna === 'undefined') {
+     $('#SmiDatosMujeresQueEstudianEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosMujeresQueEstudianEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasMujeresQueEstudianEnLaLaguna === 'undefined') {
@@ -467,7 +497,9 @@
         { fecha: '2013-12-31', dato: 92.3700 },
         { fecha: '2014-12-31', dato: 87.6900 },
         { fecha: '2015-12-31', dato: 91.3200 },
-        { fecha: '2016-12-31', dato: 91.1700 }],
+        { fecha: '2016-12-31', dato: 91.1700 },
+        { fecha: '2017-12-31', dato: 80.3300 },
+        { fecha: '2018-12-31', dato: 80.2200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -482,7 +514,7 @@
   if (typeof varSmiOtrasRegionesMujeresQueEstudianEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesMujeresQueEstudianEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesMujeresQueEstudianEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 91.2700 },{ region: 'Gómez Palacio', dato: 90.8200 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 85.6300 },{ region: 'La Laguna', dato: 91.1700 }],
+      data: [{ region: 'Torreón', dato: 91.2700 },{ region: 'Gómez Palacio', dato: 90.8200 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 85.6300 },{ region: 'La Laguna', dato: 80.2200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

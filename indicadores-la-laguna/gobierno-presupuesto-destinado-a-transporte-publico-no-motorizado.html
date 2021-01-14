@@ -250,6 +250,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">2.9800 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">2.9800 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -302,8 +314,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">1.7000 %</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">2.9800 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -418,7 +430,9 @@
       element: 'SmiGraficasPresupuestoDestinadoATransportePublicoNoMotorizadoEnLaLaguna',
       data: [
         { fecha: '2014-12-31', dato: 0.8100 },
-        { fecha: '2016-12-31', dato: 1.7000 }],
+        { fecha: '2016-12-31', dato: 1.7000 },
+        { fecha: '2017-12-31', dato: 2.9800 },
+        { fecha: '2018-12-31', dato: 2.9800 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -433,7 +447,7 @@
   if (typeof varSmiOtrasRegionesPresupuestoDestinadoATransportePublicoNoMotorizadoEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPresupuestoDestinadoATransportePublicoNoMotorizadoEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPresupuestoDestinadoATransportePublicoNoMotorizadoEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 1.7000 },{ region: 'Gómez Palacio', dato: 1.7000 },{ region: 'Lerdo', dato: 1.7000 },{ region: 'Matamoros', dato: 1.7000 },{ region: 'La Laguna', dato: 1.7000 }],
+      data: [{ region: 'Torreón', dato: 1.7000 },{ region: 'Gómez Palacio', dato: 1.7000 },{ region: 'Lerdo', dato: 1.7000 },{ region: 'Matamoros', dato: 1.7000 },{ region: 'La Laguna', dato: 2.9800 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

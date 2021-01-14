@@ -275,8 +275,26 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">10.1100 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2020-03-31</td>
         <td class="derecha">8.9200 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-03-31</td>
+        <td class="derecha">8.9200 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-09-30</td>
+        <td class="derecha">15.7900 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -311,8 +329,29 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-03-31</td>
-        <td>8.9200</td>
+        <td class="centrado">2020-09-30</td>
+        <td>15.7900</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td class="centrado">2020-09-30</td>
+        <td>13.2700</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td class="centrado">2020-09-30</td>
+        <td>11.4100</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td class="centrado">2020-09-30</td>
+        <td>17.0400</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -424,7 +463,8 @@
       data: [
         { fecha: '2019-09-30', dato: 12.1400 },
         { fecha: '2019-12-31', dato: 10.1100 },
-        { fecha: '2020-03-31', dato: 8.9200 }],
+        { fecha: '2020-03-31', dato: 8.9200 },
+        { fecha: '2020-09-30', dato: 15.7900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -439,7 +479,7 @@
   if (typeof varSmiOtrasRegionesTasaDeSubocupacionEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeSubocupacionEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeSubocupacionEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 9.7000 },{ region: 'La Laguna', dato: 8.9200 }],
+      data: [{ region: 'Torreón', dato: 9.7000 },{ region: 'La Laguna', dato: 15.7900 },{ region: 'Coahuila', dato: 13.2700 },{ region: 'Durango', dato: 11.4100 },{ region: 'Nacional', dato: 17.0400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

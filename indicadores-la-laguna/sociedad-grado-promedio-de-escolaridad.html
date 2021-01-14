@@ -223,6 +223,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -256,8 +257,25 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">8.1600</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">8.0000</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Grado Promedio de Escolaridad en La Laguna con fuente IMCO</h3>
+
+    <div id="SmiGraficasGradoPromedioDeEscolaridadEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
     <h3>Grado Promedio de Escolaridad en La Laguna con fuente INEGI</h3>
@@ -308,8 +326,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">9.7400</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">8.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -435,6 +453,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasGradoPromedioDeEscolaridadEnLaLagunaImco === 'undefined') {
+    varSmiGraficasGradoPromedioDeEscolaridadEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasGradoPromedioDeEscolaridadEnLaLagunaImco',
+      data: [
+        { fecha: '2016-12-31', dato: 9.7400 },
+        { fecha: '2017-12-31', dato: 8.1600 },
+        { fecha: '2018-12-31', dato: 8.0000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasGradoPromedioDeEscolaridadEnLaLagunaInegi === 'undefined') {
@@ -457,7 +493,7 @@
   if (typeof varSmiOtrasRegionesGradoPromedioDeEscolaridadEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesGradoPromedioDeEscolaridadEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesGradoPromedioDeEscolaridadEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 9.7400 },{ region: 'Gómez Palacio', dato: 9.7400 },{ region: 'Lerdo', dato: 9.7400 },{ region: 'Matamoros', dato: 9.7400 },{ region: 'La Laguna', dato: 9.7400 },{ region: 'Coahuila', dato: 9.9000 },{ region: 'Durango', dato: 9.1500 },{ region: 'Nacional', dato: 9.1600 }],
+      data: [{ region: 'Torreón', dato: 9.7400 },{ region: 'Gómez Palacio', dato: 9.7400 },{ region: 'Lerdo', dato: 9.7400 },{ region: 'Matamoros', dato: 9.7400 },{ region: 'La Laguna', dato: 8.0000 },{ region: 'Coahuila', dato: 9.9000 },{ region: 'Durango', dato: 9.1500 },{ region: 'Nacional', dato: 9.1600 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

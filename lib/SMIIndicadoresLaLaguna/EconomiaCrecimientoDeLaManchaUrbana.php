@@ -78,7 +78,9 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '1.2467', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '0.3083', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "porcentaje" de crecimiento anual de superficie urbana')); // formateado 0, valor 24, crudo 13
+            array('fecha' => '2016-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "porcentaje" de crecimiento anual de superficie urbana'),
+            array('fecha' => '2017-12-31', 'valor' => '1.3900', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '0.9800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 28, crudo 15
     } // datos
 
     /**
@@ -106,7 +108,7 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1.9679', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.7700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '2.3576', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "porcentaje" de crecimiento anual de superficie urbana'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '0.9800', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

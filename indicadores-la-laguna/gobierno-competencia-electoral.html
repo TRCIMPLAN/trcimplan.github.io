@@ -280,6 +280,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">17.0100 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">18.5700 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -332,8 +344,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">26.0000 %</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">18.5700 %</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -452,7 +464,9 @@
         { fecha: '2010-12-31', dato: 35.0300 },
         { fecha: '2011-12-31', dato: 5.2900 },
         { fecha: '2012-12-31', dato: 5.2900 },
-        { fecha: '2016-12-31', dato: 26.0000 }],
+        { fecha: '2016-12-31', dato: 26.0000 },
+        { fecha: '2017-12-31', dato: 17.0100 },
+        { fecha: '2018-12-31', dato: 18.5700 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -467,7 +481,7 @@
   if (typeof varSmiOtrasRegionesCompetenciaElectoralEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesCompetenciaElectoralEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCompetenciaElectoralEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 22.4800 },{ region: 'Gómez Palacio', dato: 31.8800 },{ region: 'Lerdo', dato: 33.0400 },{ region: 'Matamoros', dato: 29.0500 },{ region: 'La Laguna', dato: 26.0000 }],
+      data: [{ region: 'Torreón', dato: 22.4800 },{ region: 'Gómez Palacio', dato: 31.8800 },{ region: 'Lerdo', dato: 33.0400 },{ region: 'Matamoros', dato: 29.0500 },{ region: 'La Laguna', dato: 18.5700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

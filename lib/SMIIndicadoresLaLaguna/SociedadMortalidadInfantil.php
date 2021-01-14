@@ -91,7 +91,9 @@ class SociedadMortalidadInfantil extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '12.7927', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2014-12-31', 'valor' => '14.2606', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('fecha' => '2015-12-31', 'valor' => '12.4383', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '11.9417', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 50, crudo 26
+            array('fecha' => '2016-12-31', 'valor' => '11.9417', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '13.4300', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '13.4000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 54, crudo 28
     } // datos
 
     /**
@@ -119,7 +121,7 @@ class SociedadMortalidadInfantil extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '13.1700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '6.7500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '2.4700', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '11.9417', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '13.4000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '11.9000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '14.1000', 'fuente_nombre' => 'SINAIS (SSA)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '12.6000', 'fuente_nombre' => 'SINAIS (SSA)'));

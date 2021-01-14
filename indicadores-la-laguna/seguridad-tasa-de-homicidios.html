@@ -296,6 +296,18 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">12.9000</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">9.3100</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -348,8 +360,8 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>11.0711</td>
+        <td class="centrado">2018-12-31</td>
+        <td>9.3100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -457,6 +469,24 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTasaDeHomicidiosEnLaLaguna === 'undefined') {
+     $('#SmiDatosTasaDeHomicidiosEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosTasaDeHomicidiosEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeHomicidiosEnLaLaguna === 'undefined') {
@@ -471,7 +501,9 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
         { fecha: '2013-12-31', dato: 47.0745 },
         { fecha: '2014-12-31', dato: 24.6481 },
         { fecha: '2015-12-31', dato: 15.5350 },
-        { fecha: '2016-12-31', dato: 11.0711 }],
+        { fecha: '2016-12-31', dato: 11.0711 },
+        { fecha: '2017-12-31', dato: 12.9000 },
+        { fecha: '2018-12-31', dato: 9.3100 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -486,7 +518,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
   if (typeof varSmiOtrasRegionesTasaDeHomicidiosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeHomicidiosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeHomicidiosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 76 },{ region: 'Gómez Palacio', dato: 30 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 9 },{ region: 'La Laguna', dato: 11.0711 }],
+      data: [{ region: 'Torreón', dato: 76 },{ region: 'Gómez Palacio', dato: 30 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 9 },{ region: 'La Laguna', dato: 9.3100 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

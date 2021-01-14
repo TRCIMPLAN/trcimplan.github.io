@@ -76,7 +76,9 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
             array('fecha' => '2013-12-31', 'valor' => '47.0745', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-12-31', 'valor' => '24.6481', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '15.5350', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '11.0711', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
+            array('fecha' => '2016-12-31', 'valor' => '11.0711', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '12.9000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '9.3100', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 22, crudo 11
     } // datos
 
     /**
@@ -104,7 +106,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '11.0711', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '9.3100', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

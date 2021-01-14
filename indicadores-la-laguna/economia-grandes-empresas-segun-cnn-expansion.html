@@ -274,6 +274,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">1.0200</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">1.0200</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -326,8 +338,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">6.0200</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">1.0200</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -439,7 +451,9 @@
         { fecha: '2010-12-31', dato: 0.1618 },
         { fecha: '2011-12-31', dato: 0.1633 },
         { fecha: '2012-12-31', dato: 0.1640 },
-        { fecha: '2016-12-31', dato: 6.0200 }],
+        { fecha: '2016-12-31', dato: 6.0200 },
+        { fecha: '2017-12-31', dato: 1.0200 },
+        { fecha: '2018-12-31', dato: 1.0200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -454,7 +468,7 @@
   if (typeof varSmiOtrasRegionesGrandesEmpresasSegunCnnExpansionEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesGrandesEmpresasSegunCnnExpansionEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesGrandesEmpresasSegunCnnExpansionEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 2.0000 },{ region: 'Gómez Palacio', dato: 2.0000 },{ region: 'Lerdo', dato: 2.0000 },{ region: 'Matamoros', dato: 2.0000 },{ region: 'La Laguna', dato: 6.0200 }],
+      data: [{ region: 'Torreón', dato: 2.0000 },{ region: 'Gómez Palacio', dato: 2.0000 },{ region: 'Lerdo', dato: 2.0000 },{ region: 'Matamoros', dato: 2.0000 },{ region: 'La Laguna', dato: 1.0200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

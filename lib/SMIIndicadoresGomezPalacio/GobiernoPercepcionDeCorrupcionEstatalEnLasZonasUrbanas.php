@@ -95,7 +95,7 @@ class GobiernoPercepcionDeCorrupcionEstatalEnLasZonasUrbanas extends \SMIBase\Pu
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '43.4000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '43.4000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '36.1000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '39.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '44.0600', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

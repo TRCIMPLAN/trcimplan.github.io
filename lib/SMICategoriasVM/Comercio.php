@@ -94,7 +94,7 @@ class Comercio extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Total de exportaciones</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-exportaciones.html" data-toggle="tooltip" title="Millones de dólares, 30/06/2020, Servicio de Administración Tributaria.">$ 1,699,811,630.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-exportaciones.html" data-toggle="tooltip" title="Millones de dólares, 31/10/2020, Servicio de Administración Tributaria.">$ 2,160,687,393.00</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -103,7 +103,7 @@ class Comercio extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Total de importaciones.</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-importaciones.html" data-toggle="tooltip" title="Millones de dólares, 30/06/2020, Servicio de Administración Tributaria.">$ 1,379,031,779.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-importaciones.html" data-toggle="tooltip" title="Millones de dólares, 31/10/2020, Servicio de Administración Tributaria.">$ 1,970,108,216.00</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

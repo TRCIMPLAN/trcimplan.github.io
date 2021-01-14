@@ -72,7 +72,9 @@ class EconomiaCreditoALasEmpresas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '907.31', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '773.14', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '725.64', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '57.00', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2016-12-31', 'valor' => '57.00', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '219.79', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '211.04', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**
@@ -100,7 +102,7 @@ class EconomiaCreditoALasEmpresas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '12699918.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "Miles de pesos"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '12699918.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "Miles de pesos"'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '37857566.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "Miles de pesos"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '57.00', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '211.04', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

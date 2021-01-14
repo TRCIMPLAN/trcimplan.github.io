@@ -225,6 +225,7 @@
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -384,6 +385,18 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">43.8100 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">42.4500 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2019-09-30</td>
         <td class="derecha">40.4600 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
@@ -413,6 +426,11 @@
     <h3>Tasa de Informalidad en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
 
     <div id="SmiGraficasTasaDeInformalidadEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
+    <h3>Tasa de Informalidad en La Laguna con fuente IMCO</h3>
+
+    <div id="SmiGraficasTasaDeInformalidadEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Tasa de Informalidad en La Laguna</h3>
@@ -647,6 +665,23 @@
         { fecha: '2016-09-30', dato: 45.3900 },
         { fecha: '2016-12-31', dato: 43.1100 },
         { fecha: '2017-03-31', dato: 43.4600 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasTasaDeInformalidadEnLaLagunaImco === 'undefined') {
+    varSmiGraficasTasaDeInformalidadEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasTasaDeInformalidadEnLaLagunaImco',
+      data: [
+        { fecha: '2017-12-31', dato: 43.8100 },
+        { fecha: '2018-12-31', dato: 42.4500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

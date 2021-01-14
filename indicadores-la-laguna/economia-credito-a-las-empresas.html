@@ -274,6 +274,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">$ 219.79</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 211.04</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -326,8 +338,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 57.00</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 211.04</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -439,7 +451,9 @@
         { fecha: '2010-12-31', dato: 907.31 },
         { fecha: '2011-12-31', dato: 773.14 },
         { fecha: '2012-12-31', dato: 725.64 },
-        { fecha: '2016-12-31', dato: 57.00 }],
+        { fecha: '2016-12-31', dato: 57.00 },
+        { fecha: '2017-12-31', dato: 219.79 },
+        { fecha: '2018-12-31', dato: 211.04 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -454,7 +468,7 @@
   if (typeof varSmiOtrasRegionesCreditoALasEmpresasEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesCreditoALasEmpresasEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCreditoALasEmpresasEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 37857566.00 },{ region: 'Gómez Palacio', dato: 12699918.00 },{ region: 'Lerdo', dato: 12699918.00 },{ region: 'Matamoros', dato: 37857566.00 },{ region: 'La Laguna', dato: 57.00 }],
+      data: [{ region: 'Torreón', dato: 37857566.00 },{ region: 'Gómez Palacio', dato: 12699918.00 },{ region: 'Lerdo', dato: 12699918.00 },{ region: 'Matamoros', dato: 37857566.00 },{ region: 'La Laguna', dato: 211.04 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

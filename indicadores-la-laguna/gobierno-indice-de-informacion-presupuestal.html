@@ -286,6 +286,18 @@
         <td>IMCO</td>
         <td>Promedio de las calificaciones de los cuatro municipios metropolitanos.</td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">83.6200</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">68.7400</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -338,10 +350,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2015-12-08</td>
-        <td class="derecha">65.7500</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">68.7400</td>
         <td>IMCO</td>
-        <td>Promedio de las calificaciones de los cuatro municipios metropolitanos.</td>
+        <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
@@ -467,7 +479,9 @@
         { fecha: '2012-12-31', dato: 22.7941 },
         { fecha: '2013-12-31', dato: 26.0000 },
         { fecha: '2014-12-31', dato: 60.2500 },
-        { fecha: '2015-12-08', dato: 65.7500 }],
+        { fecha: '2015-12-08', dato: 65.7500 },
+        { fecha: '2017-12-31', dato: 83.6200 },
+        { fecha: '2018-12-31', dato: 68.7400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -482,7 +496,7 @@
   if (typeof varSmiOtrasRegionesIndiceDeInformacionPresupuestalEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesIndiceDeInformacionPresupuestalEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesIndiceDeInformacionPresupuestalEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 100.0000 },{ region: 'Gómez Palacio', dato: 30.0000 },{ region: 'Lerdo', dato: 33.0000 },{ region: 'Matamoros', dato: 100.0000 },{ region: 'La Laguna', dato: 65.7500 },{ region: 'Coahuila', dato: 100.0000 },{ region: 'Durango', dato: 72.0000 }],
+      data: [{ region: 'Torreón', dato: 100.0000 },{ region: 'Gómez Palacio', dato: 30.0000 },{ region: 'Lerdo', dato: 33.0000 },{ region: 'Matamoros', dato: 100.0000 },{ region: 'La Laguna', dato: 68.7400 },{ region: 'Coahuila', dato: 100.0000 },{ region: 'Durango', dato: 72.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

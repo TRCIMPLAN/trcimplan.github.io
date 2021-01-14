@@ -14276,6 +14276,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-agua-total.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -14551,6 +14556,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-desocupados-con-educacion-superior-o-media-superior.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-desocupados-con-experiencia.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-desocupados-de-15-a-25-anos.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-empleados-en-el-sector-formal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -14558,6 +14578,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-grandes-empresas.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-horas-laboradas.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14601,6 +14626,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-pea-desocupada.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-pea-ocupada.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-pequenas-empresas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -14618,6 +14653,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-personal-ocupado-en-los-servicios.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-personas-que-ganan-1-o-2-salarios-minimos.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-poblacion-economicamente-activa-pea.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14648,6 +14693,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-tasa-de-informalidad.html</loc>
     <lastmod>2014-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-tasa-de-subocupacion.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-tasa-de-trabajo-asalariado.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14986,8 +15041,28 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-desocupados-con-educacion-superior-o-media-superior.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-desocupados-con-experiencia.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-desocupados-de-15-a-25-anos.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-grandes-empresas.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-horas-laboradas.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -15031,6 +15106,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-pea-desocupada.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-pea-ocupada.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-pequenas-empresas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -15048,6 +15133,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-personal-ocupado-en-los-servicios.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-personas-que-ganan-1-o-2-salarios-minimos.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-poblacion-economicamente-activa-pea.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -15078,6 +15173,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-tasa-de-informalidad.html</loc>
     <lastmod>2014-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-tasa-de-subocupacion.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-tasa-de-trabajo-asalariado.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -15371,8 +15476,28 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-desocupados-con-educacion-superior-o-media-superior.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-desocupados-con-experiencia.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-desocupados-de-15-a-25-anos.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-grandes-empresas.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-horas-laboradas.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -15426,6 +15551,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-pea-desocupada.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-pea-ocupada.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-pequenas-empresas.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -15443,6 +15578,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-personal-ocupado-en-los-servicios.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-personas-que-ganan-1-o-2-salarios-minimos.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-poblacion-economicamente-activa-pea.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -15478,6 +15623,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-tasa-de-informalidad.html</loc>
     <lastmod>2014-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-tasa-de-subocupacion.html</loc>
+    <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-tasa-de-trabajo-asalariado.html</loc>
+    <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

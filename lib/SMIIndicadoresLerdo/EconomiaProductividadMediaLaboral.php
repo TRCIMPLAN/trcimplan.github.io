@@ -99,7 +99,7 @@ class EconomiaProductividadMediaLaboral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '1771.11', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '4094.59', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '4496.77', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '289.33', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el dinero es por "Pesos por hora trabajada"'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '227.87', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

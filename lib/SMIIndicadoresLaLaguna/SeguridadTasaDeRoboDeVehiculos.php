@@ -73,7 +73,9 @@ class SeguridadTasaDeRoboDeVehiculos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '23.5055', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '19.0018', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2013-12-31', 'valor' => '8.4836', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2013 se manejó como número de vehículos reportados como robados por cada 1,000 vehículos registrados'),
-            array('fecha' => '2014-12-31', 'valor' => '3.4958', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2014 se manejó como número de vehículos reportados como robados por cada 1,000 vehículos registrados')); // formateado 0, valor 14, crudo 9
+            array('fecha' => '2014-12-31', 'valor' => '3.4958', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2014 se manejó como número de vehículos reportados como robados por cada 1,000 vehículos registrados'),
+            array('fecha' => '2017-12-31', 'valor' => '0.7400', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '0.8700', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 11
     } // datos
 
     /**
@@ -101,7 +103,7 @@ class SeguridadTasaDeRoboDeVehiculos extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '7.5040', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '40.1776', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '8.3992', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-12-31', 'valor' => '3.4958', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2014 se manejó como número de vehículos reportados como robados por cada 1,000 vehículos registrados'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '0.8700', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

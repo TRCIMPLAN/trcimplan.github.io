@@ -68,7 +68,9 @@ class SociedadNuevasViviendasIntraurbanas extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2014-12-31', 'valor' => '64.1400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '73.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2016-12-31', 'valor' => '73.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '73.2600', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '72.1200', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**
@@ -96,7 +98,7 @@ class SociedadNuevasViviendasIntraurbanas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '91.6500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '71.9600', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '16.0800', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '73.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '72.1200', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

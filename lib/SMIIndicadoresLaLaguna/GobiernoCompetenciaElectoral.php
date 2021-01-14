@@ -73,7 +73,9 @@ class GobiernoCompetenciaElectoral extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '5.2900', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '5.2900', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2013-07-07', 'valor' => '6.7000', 'fuente_nombre' => 'INE-IEPCC'),
-            array('fecha' => '2016-12-31', 'valor' => '26.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
+            array('fecha' => '2016-12-31', 'valor' => '26.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '17.0100', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '18.5700', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
     } // datos
 
     /**
@@ -101,7 +103,7 @@ class GobiernoCompetenciaElectoral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '31.8800', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '33.0400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '29.0500', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '26.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '18.5700', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

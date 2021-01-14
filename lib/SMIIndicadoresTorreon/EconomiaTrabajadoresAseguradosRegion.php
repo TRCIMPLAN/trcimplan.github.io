@@ -75,7 +75,11 @@ class EconomiaTrabajadoresAseguradosRegion extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '184407', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
             array('fecha' => '2013-12-31', 'valor' => '187050', 'fuente_nombre' => 'IMSS Subdelegación Torreón'),
             array('fecha' => '2020-08-31', 'valor' => '198397', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2020-09-30', 'valor' => '199385', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 18, crudo 9
+            array('fecha' => '2020-08-31', 'valor' => '198397', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2020-09-30', 'valor' => '199385', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2020-09-30', 'valor' => '199385', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2020-10-30', 'valor' => '202446', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2020-11-30', 'valor' => '203922', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 26, crudo 13
     } // datos
 
     /**
@@ -99,14 +103,14 @@ class EconomiaTrabajadoresAseguradosRegion extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2020-09-30', 'valor' => '199385', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-09-30', 'valor' => '79925', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2020-09-30', 'valor' => '10948', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2020-09-30', 'valor' => '8373', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2020-09-30', 'valor' => '298631', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2020-09-30', 'valor' => '754877', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Durango', 'fecha' => '2020-09-30', 'valor' => '238074', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2020-09-30', 'valor' => '19702192', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2020-11-30', 'valor' => '203922', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-11-30', 'valor' => '81461', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2020-11-30', 'valor' => '11426', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2020-11-30', 'valor' => '8535', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-11-30', 'valor' => '305344', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2020-11-30', 'valor' => '766974', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Durango', 'fecha' => '2020-11-30', 'valor' => '243874', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2020-11-30', 'valor' => '20051552', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
     } // otras_regiones
 
     /**

@@ -240,13 +240,25 @@
     <tbody>
       <tr>
         <td class="centrado">2015-12-31</td>
-        <td class="derecha">45.4369</td>
+        <td>45.4369</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">26.3000</td>
+        <td>26.3000</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>1385.27</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>1586.75</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -275,35 +287,35 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">26.3116</td>
+        <td>26.3116</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">26.3116</td>
+        <td>26.3116</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">26.3116</td>
+        <td>26.3116</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">26.3116</td>
+        <td>26.3116</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">26.3000</td>
+        <td class="centrado">2018-12-31</td>
+        <td>1586.75</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -418,7 +430,9 @@
       element: 'SmiGraficasCostoDeElectricidadEnLaLaguna',
       data: [
         { fecha: '2015-12-31', dato: 45.4369 },
-        { fecha: '2016-12-31', dato: 26.3000 }],
+        { fecha: '2016-12-31', dato: 26.3000 },
+        { fecha: '2017-12-31', dato: 1385.27 },
+        { fecha: '2018-12-31', dato: 1586.75 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -433,7 +447,7 @@
   if (typeof varSmiOtrasRegionesCostoDeElectricidadEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesCostoDeElectricidadEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCostoDeElectricidadEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 26.3116 },{ region: 'Gómez Palacio', dato: 26.3116 },{ region: 'Lerdo', dato: 26.3116 },{ region: 'Matamoros', dato: 26.3116 },{ region: 'La Laguna', dato: 26.3000 }],
+      data: [{ region: 'Torreón', dato: 26.3116 },{ region: 'Gómez Palacio', dato: 26.3116 },{ region: 'Lerdo', dato: 26.3116 },{ region: 'Matamoros', dato: 26.3116 },{ region: 'La Laguna', dato: 1586.75 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -72,7 +72,9 @@ class GobiernoIngresosPropios extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '28.8759', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '33.4999', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '32.6557', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '34.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2016-12-31', 'valor' => '34.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '11.9700', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '13.9000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**
@@ -100,7 +102,7 @@ class GobiernoIngresosPropios extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30.1700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '19.6300', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '13.1500', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '34.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '13.9000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

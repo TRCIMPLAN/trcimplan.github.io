@@ -250,6 +250,24 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">39.0500 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-03-31</td>
+        <td class="derecha">43.5400 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-09-30</td>
+        <td class="derecha">43.0400 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -281,8 +299,29 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">39.0500 %</td>
+        <td class="centrado">2020-09-30</td>
+        <td class="derecha">43.0400 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td class="centrado">2020-09-30</td>
+        <td class="derecha">42.8800 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td class="centrado">2020-09-30</td>
+        <td class="derecha">41.8400 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td class="centrado">2020-09-30</td>
+        <td class="derecha">33.3800 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -393,7 +432,9 @@
       element: 'SmiGraficasPersonasQueGanan1O2SalariosMinimosEnLaLaguna',
       data: [
         { fecha: '2019-09-30', dato: 35.5600 },
-        { fecha: '2019-12-31', dato: 39.0500 }],
+        { fecha: '2019-12-31', dato: 39.0500 },
+        { fecha: '2020-03-31', dato: 43.5400 },
+        { fecha: '2020-09-30', dato: 43.0400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -408,7 +449,7 @@
   if (typeof varSmiOtrasRegionesPersonasQueGanan1O2SalariosMinimosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPersonasQueGanan1O2SalariosMinimosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPersonasQueGanan1O2SalariosMinimosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 39.5000 },{ region: 'La Laguna', dato: 39.0500 }],
+      data: [{ region: 'Torreón', dato: 39.5000 },{ region: 'La Laguna', dato: 43.0400 },{ region: 'Coahuila', dato: 42.8800 },{ region: 'Durango', dato: 41.8400 },{ region: 'Nacional', dato: 33.3800 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

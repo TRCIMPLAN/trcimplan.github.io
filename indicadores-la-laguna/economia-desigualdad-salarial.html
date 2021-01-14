@@ -291,6 +291,18 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">0.3800</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">0.3600</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -393,6 +405,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosDesigualdadSalarialEnLaLaguna === 'undefined') {
+     $('#SmiDatosDesigualdadSalarialEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosDesigualdadSalarialEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasDesigualdadSalarialEnLaLaguna === 'undefined') {
@@ -407,7 +437,9 @@
         { fecha: '2013-12-31', dato: 0.4640 },
         { fecha: '2014-12-31', dato: 0.4000 },
         { fecha: '2015-12-31', dato: 0.4110 },
-        { fecha: '2016-12-31', dato: 0.3750 }],
+        { fecha: '2016-12-31', dato: 0.3750 },
+        { fecha: '2017-12-31', dato: 0.3800 },
+        { fecha: '2018-12-31', dato: 0.3600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

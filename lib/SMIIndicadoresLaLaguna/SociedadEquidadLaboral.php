@@ -68,7 +68,9 @@ class SociedadEquidadLaboral extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '0.5302', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2015-12-31', 'valor' => '0.5531', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2015-12-31', 'valor' => '0.5531', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '0.2300', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '0.2900', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**

@@ -100,7 +100,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '5943', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Contratos de crédito hipotecarios'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '3102', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Contratos de crédito hipotecarios'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '1099', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Contratos de crédito hipotecarios'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '19.4200', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '22.5300', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
