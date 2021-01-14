@@ -95,7 +95,7 @@ class GobiernoPercepcionDeCorrupcionEstatalEnLasZonasUrbanas extends \SMIBase\Pu
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '43.4000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '43.4000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '36.1000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '44.0600', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '44.0600', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la población urbana mayor de 18 años que considera que las prácticas corruptas en el gobierno del estado son frecuentes y muy frecuentes (INEGI (ENCIG))'));
     } // otras_regiones
 
     /**

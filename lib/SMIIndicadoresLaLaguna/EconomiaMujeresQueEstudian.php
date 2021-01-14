@@ -76,8 +76,8 @@ class EconomiaMujeresQueEstudian extends \SMIBase\PublicacionWeb {
             array('fecha' => '2014-12-31', 'valor' => '87.6900', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '91.3200', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '91.1700', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '80.3300', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '80.2200', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 22, crudo 11
+            array('fecha' => '2017-12-31', 'valor' => '80.3300', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de mujeres en edad escolar (de 6 a 18 años) que asisten a la escuela (ENOE)'),
+            array('fecha' => '2018-12-31', 'valor' => '80.2200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de mujeres en edad escolar (de 6 a 18 años) que asisten a la escuela (ENOE)')); // formateado 0, valor 22, crudo 13
     } // datos
 
     /**
@@ -105,7 +105,7 @@ class EconomiaMujeresQueEstudian extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '90.8200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '100.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '85.6300', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '80.2200', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '80.2200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de mujeres en edad escolar (de 6 a 18 años) que asisten a la escuela (ENOE)'));
     } // otras_regiones
 
     /**

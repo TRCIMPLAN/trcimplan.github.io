@@ -75,8 +75,8 @@ class SociedadCamasDeHospital extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '0.1265', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-12-31', 'valor' => '0.1252', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '45.5900', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '10.1600', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '10.1300', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 20, crudo 10
+            array('fecha' => '2017-12-31', 'valor' => '10.1600', 'fuente_nombre' => 'IMCO', 'notas' => 'Camas censables por cada 10 mil habitantes (SSA (SINAIS))'),
+            array('fecha' => '2018-12-31', 'valor' => '10.1300', 'fuente_nombre' => 'IMCO', 'notas' => 'Camas censables por cada 10 mil habitantes (SSA (SINAIS))')); // formateado 0, valor 20, crudo 12
     } // datos
 
     /**
@@ -104,7 +104,7 @@ class SociedadCamasDeHospital extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '818', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de camas censables'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '114', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de camas censables'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '71', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de camas censables'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '10.1300', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '10.1300', 'fuente_nombre' => 'IMCO', 'notas' => 'Camas censables por cada 10 mil habitantes (SSA (SINAIS))'));
     } // otras_regiones
 
     /**

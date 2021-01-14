@@ -68,8 +68,8 @@ class GobiernoPercepcionDeCorrupcionEstatalEnLasZonasUrbanas extends \SMIBase\Pu
     public function datos() {
         return array(
             array('fecha' => '2016-12-31', 'valor' => '39.0000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '37.2800', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '44.0600', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
+            array('fecha' => '2017-12-31', 'valor' => '37.2800', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la población urbana mayor de 18 años que considera que las prácticas corruptas en el gobierno del estado son frecuentes y muy frecuentes (INEGI (ENCIG))'),
+            array('fecha' => '2018-12-31', 'valor' => '44.0600', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la población urbana mayor de 18 años que considera que las prácticas corruptas en el gobierno del estado son frecuentes y muy frecuentes (INEGI (ENCIG))')); // formateado 0, valor 6, crudo 5
     } // datos
 
     /**
@@ -97,7 +97,7 @@ class GobiernoPercepcionDeCorrupcionEstatalEnLasZonasUrbanas extends \SMIBase\Pu
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '43.4000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '43.4000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '36.1000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '44.0600', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '44.0600', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la población urbana mayor de 18 años que considera que las prácticas corruptas en el gobierno del estado son frecuentes y muy frecuentes (INEGI (ENCIG))'));
     } // otras_regiones
 
     /**

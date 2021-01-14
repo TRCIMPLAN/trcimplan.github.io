@@ -73,11 +73,11 @@ class EconomiaPoblacionOcupadaSinIngresos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '9.8000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '9.1700', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '16.0000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '19.7300', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '24.5500', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '19.7300', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la población ocupada (ENOE, CONEVAL)'),
+            array('fecha' => '2018-12-31', 'valor' => '24.5500', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la población ocupada (ENOE, CONEVAL)'),
             array('fecha' => '2019-09-30', 'valor' => '13859', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2019-12-31', 'valor' => '11473', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2020-03-31', 'valor' => '13534', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 22, crudo 11
+            array('fecha' => '2020-03-31', 'valor' => '13534', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 22, crudo 13
     } // datos
 
     /**

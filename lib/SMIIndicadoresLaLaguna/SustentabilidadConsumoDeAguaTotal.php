@@ -67,8 +67,8 @@ class SustentabilidadConsumoDeAguaTotal extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2017-12-31', 'valor' => '103.7700', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '102.0500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2017-12-31', 'valor' => '103.7700', 'fuente_nombre' => 'IMCO', 'notas' => 'Metros cúbicos per cápita (CONAGUA)'),
+            array('fecha' => '2018-12-31', 'valor' => '102.0500', 'fuente_nombre' => 'IMCO', 'notas' => 'Metros cúbicos per cápita (CONAGUA)')); // formateado 0, valor 4, crudo 4
     } // datos
 
     /**

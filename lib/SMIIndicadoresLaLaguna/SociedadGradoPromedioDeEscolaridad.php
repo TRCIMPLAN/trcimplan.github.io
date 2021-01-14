@@ -70,8 +70,8 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '9.6000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '9.9700', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '8.1600', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '8.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2017-12-31', 'valor' => '8.1600', 'fuente_nombre' => 'IMCO', 'notas' => 'Años promedio de escolaridad en población de 25 años o más (ENOE)'),
+            array('fecha' => '2018-12-31', 'valor' => '8.0000', 'fuente_nombre' => 'IMCO', 'notas' => 'Años promedio de escolaridad en población de 25 años o más (ENOE)')); // formateado 0, valor 10, crudo 7
     } // datos
 
     /**
@@ -99,7 +99,7 @@ class SociedadGradoPromedioDeEscolaridad extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9.7400', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '8.0000', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '8.0000', 'fuente_nombre' => 'IMCO', 'notas' => 'Años promedio de escolaridad en población de 25 años o más (ENOE)'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2015-12-31', 'valor' => '9.9000', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2015-12-31', 'valor' => '9.1500', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2015-12-31', 'valor' => '9.1600', 'fuente_nombre' => 'INEGI'));

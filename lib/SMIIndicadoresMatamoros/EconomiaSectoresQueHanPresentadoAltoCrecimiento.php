@@ -101,7 +101,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '21527736.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '2395472.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '3034970.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "dinero" en Producción de dichos sectores (miles de pesos corrientes)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '5.5800', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '5.5800', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje del PIB en sectores que crecen a una tasa de crecimiento superior al promedio nacional (INEGI (Censo Económico))'),
             array('region_nombre' => 'Nacional', 'fecha' => '2009-01-01', 'valor' => '26.4400', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));
     } // otras_regiones
 

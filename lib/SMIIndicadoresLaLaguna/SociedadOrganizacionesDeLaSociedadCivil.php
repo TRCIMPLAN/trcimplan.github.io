@@ -74,8 +74,8 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '6.3110', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-03-31', 'valor' => '41.2200', 'fuente_nombre' => 'RFOSC', 'notas' => 'Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)'),
             array('fecha' => '2016-11-25', 'valor' => '49.1400', 'fuente_nombre' => 'RFOSC'),
-            array('fecha' => '2017-12-31', 'valor' => '11.9800', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '7.9100', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 10
+            array('fecha' => '2017-12-31', 'valor' => '11.9800', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil habitantes (Segob)'),
+            array('fecha' => '2018-12-31', 'valor' => '7.9100', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil habitantes (Segob)')); // formateado 0, valor 18, crudo 12
     } // datos
 
     /**
@@ -103,7 +103,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-11-25', 'valor' => '57.5500', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-11-25', 'valor' => '31.3000', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-11-25', 'valor' => '11.0100', 'fuente_nombre' => 'RFOSC'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '7.9100', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '7.9100', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil habitantes (Segob)'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2016-11-25', 'valor' => '26.4300', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Durango', 'fecha' => '2016-11-25', 'valor' => '143.3800', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Nacional', 'fecha' => '2016-11-25', 'valor' => '28.8400', 'fuente_nombre' => 'RFOSC'));

@@ -75,8 +75,8 @@ class GobiernoIndiceDeInformacionPresupuestal extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '26.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-12-31', 'valor' => '60.2500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-08', 'valor' => '65.7500', 'fuente_nombre' => 'IMCO', 'notas' => 'Promedio de las calificaciones de los cuatro municipios metropolitanos.'),
-            array('fecha' => '2017-12-31', 'valor' => '83.6200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '68.7400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 20, crudo 11
+            array('fecha' => '2017-12-31', 'valor' => '83.6200', 'fuente_nombre' => 'IMCO', 'notas' => 'Índice (0-100) (IMCO)'),
+            array('fecha' => '2018-12-31', 'valor' => '68.7400', 'fuente_nombre' => 'IMCO', 'notas' => 'Índice (0-100) (IMCO)')); // formateado 0, valor 20, crudo 13
     } // datos
 
     /**
@@ -104,7 +104,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-08', 'valor' => '30.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-08', 'valor' => '33.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-08', 'valor' => '100.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '68.7400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '68.7400', 'fuente_nombre' => 'IMCO', 'notas' => 'Índice (0-100) (IMCO)'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2015-12-01', 'valor' => '100.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Durango', 'fecha' => '2015-12-01', 'valor' => '72.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones

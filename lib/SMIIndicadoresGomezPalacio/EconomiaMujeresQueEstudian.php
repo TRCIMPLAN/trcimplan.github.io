@@ -95,7 +95,7 @@ class EconomiaMujeresQueEstudian extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '90.8200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '100.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '85.6300', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '80.2200', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '80.2200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de mujeres en edad escolar (de 6 a 18 años) que asisten a la escuela (ENOE)'));
     } // otras_regiones
 
     /**

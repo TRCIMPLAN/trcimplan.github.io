@@ -73,8 +73,8 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
             array('fecha' => '2011-12-31', 'valor' => '1.9000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '1.9000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '2.3000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '2.1700', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '2.1400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 16, crudo 8
+            array('fecha' => '2017-12-31', 'valor' => '2.1700', 'fuente_nombre' => 'IMCO', 'notas' => 'l/s por cada mil hab (CONAGUA)'),
+            array('fecha' => '2018-12-31', 'valor' => '2.1400', 'fuente_nombre' => 'IMCO', 'notas' => 'l/s por cada mil hab (CONAGUA)')); // formateado 0, valor 16, crudo 10
     } // datos
 
     /**
@@ -102,7 +102,7 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \SMIBase\Pu
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '698.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '221.8000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '1.5000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '2.1400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '2.1400', 'fuente_nombre' => 'IMCO', 'notas' => 'l/s por cada mil hab (CONAGUA)'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '1.3900', 'fuente_nombre' => 'IMCO-CONAGUA'),
             array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '1.6000', 'fuente_nombre' => 'IMCO-CONAGUA'));
     } // otras_regiones

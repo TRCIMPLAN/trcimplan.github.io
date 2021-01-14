@@ -76,8 +76,8 @@ class EconomiaDesigualdadSalarial extends \SMIBase\PublicacionWeb {
             array('fecha' => '2014-12-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '0.4110', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '0.3750', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '0.3600', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 22, crudo 11
+            array('fecha' => '2017-12-31', 'valor' => '0.3800', 'fuente_nombre' => 'IMCO', 'notas' => 'Coeficiente de Gini (IMCO, ENOE)'),
+            array('fecha' => '2018-12-31', 'valor' => '0.3600', 'fuente_nombre' => 'IMCO', 'notas' => 'Coeficiente de Gini (IMCO, ENOE)')); // formateado 0, valor 22, crudo 13
     } // datos
 
     /**

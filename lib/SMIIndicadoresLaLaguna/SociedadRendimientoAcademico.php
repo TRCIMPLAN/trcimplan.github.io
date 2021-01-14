@@ -74,8 +74,8 @@ class SociedadRendimientoAcademico extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '39.8000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '29.0800', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '5.0000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '20.2500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '23.0100', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
+            array('fecha' => '2017-12-31', 'valor' => '20.2500', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de alumnos buenos y exc en mate (prim, sec y prepa) en prueba PLANEA (Mejora tu Escuela)'),
+            array('fecha' => '2018-12-31', 'valor' => '23.0100', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de alumnos buenos y exc en mate (prim, sec y prepa) en prueba PLANEA (Mejora tu Escuela)')); // formateado 0, valor 18, crudo 11
     } // datos
 
     /**
@@ -103,7 +103,7 @@ class SociedadRendimientoAcademico extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '4.3800', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '6.6900', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '2.3700', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '23.0100', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '23.0100', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de alumnos buenos y exc en mate (prim, sec y prepa) en prueba PLANEA (Mejora tu Escuela)'));
     } // otras_regiones
 
     /**

@@ -99,7 +99,7 @@ class EconomiaCrecimientoDeLaPoblacionOcupadaSinIngresos extends \SMIBase\Public
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '-9.6900', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '-55.4900', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '-2.3900', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '4.8100', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '4.8100', 'fuente_nombre' => 'IMCO', 'notas' => 'Puntos porcentuales (ENOE, CONEVAL)'));
     } // otras_regiones
 
     /**

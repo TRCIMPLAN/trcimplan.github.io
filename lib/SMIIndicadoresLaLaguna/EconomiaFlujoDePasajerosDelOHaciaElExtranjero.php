@@ -73,8 +73,8 @@ class EconomiaFlujoDePasajerosDelOHaciaElExtranjero extends \SMIBase\Publicacion
             array('fecha' => '2011-12-31', 'valor' => '13.4100', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '14.4400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '6.0000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '5.5800', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '4.5600', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 16, crudo 8
+            array('fecha' => '2017-12-31', 'valor' => '5.5800', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de pasajeros que vuelan o vienen del extranjero (SCT)'),
+            array('fecha' => '2018-12-31', 'valor' => '4.5600', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de pasajeros que vuelan o vienen del extranjero (SCT)')); // formateado 0, valor 16, crudo 10
     } // datos
 
     /**
@@ -102,7 +102,7 @@ class EconomiaFlujoDePasajerosDelOHaciaElExtranjero extends \SMIBase\Publicacion
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '4.5600', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '4.5600', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de pasajeros que vuelan o vienen del extranjero (SCT)'));
     } // otras_regiones
 
     /**

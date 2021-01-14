@@ -83,9 +83,9 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
             array('fecha' => '2016-09-30', 'valor' => '5896.38', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('fecha' => '2016-12-31', 'valor' => '6210.88', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('fecha' => '2017-03-31', 'valor' => '6495.63', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('fecha' => '2017-12-31', 'valor' => '7078.27', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '7126.42', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2019-09-30', 'valor' => '8823.8800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 38, crudo 19
+            array('fecha' => '2017-12-31', 'valor' => '7078.27', 'fuente_nombre' => 'IMCO', 'notas' => 'Pesos corrientes (ENOE)'),
+            array('fecha' => '2018-12-31', 'valor' => '7126.42', 'fuente_nombre' => 'IMCO', 'notas' => 'Pesos corrientes (ENOE)'),
+            array('fecha' => '2019-09-30', 'valor' => '8823.8800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 38, crudo 21
     } // datos
 
     /**

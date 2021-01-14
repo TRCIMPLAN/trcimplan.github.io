@@ -76,8 +76,8 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2014-12-31', 'valor' => '22.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '29.0000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '29.6700', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 22, crudo 11
+            array('fecha' => '2017-12-31', 'valor' => '29.6700', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de población ocupada que trabaja más de 48 horas (INEGI (ENOE))'),
+            array('fecha' => '2018-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de población ocupada que trabaja más de 48 horas (INEGI (ENOE))')); // formateado 0, valor 22, crudo 13
     } // datos
 
     /**
@@ -105,7 +105,7 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '50093', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '10766', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '27668', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de población ocupada que trabaja más de 48 horas (INEGI (ENOE))'));
     } // otras_regiones
 
     /**

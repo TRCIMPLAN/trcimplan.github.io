@@ -100,7 +100,7 @@ class EconomiaDemandantesDeConflictoLaboral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1058', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Trabajadores involucrados en demandas laborales'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '6.9200', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '6.9200', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada mil PEA (INEGI)'));
     } // otras_regiones
 
     /**

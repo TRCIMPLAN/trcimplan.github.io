@@ -68,8 +68,8 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \SMIBase\Publicacion
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2017-12-31', 'valor' => '0.3200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '0.2800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
+            array('fecha' => '2017-12-31', 'valor' => '0.3200', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil PEA (DENUE)'),
+            array('fecha' => '2018-12-31', 'valor' => '0.2800', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil PEA (DENUE)')); // formateado 0, valor 6, crudo 5
     } // datos
 
     /**
@@ -97,7 +97,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \SMIBase\Publicacion
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '3.3000', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '3.6000', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '2.8000', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '0.2800', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '0.2800', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil PEA (DENUE)'));
     } // otras_regiones
 
     /**

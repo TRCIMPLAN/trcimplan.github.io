@@ -74,8 +74,8 @@ class SeguridadHeridosEnAccidentesRelacionadosConTransporte extends \SMIBase\Pub
             array('fecha' => '2012-12-31', 'valor' => '225.7470', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2013-12-31', 'valor' => '171.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-12-31', 'valor' => '278.4500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '247.9900', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '231.1500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
+            array('fecha' => '2017-12-31', 'valor' => '247.9900', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil habitantes (INEGI (Registros administrativos))'),
+            array('fecha' => '2018-12-31', 'valor' => '231.1500', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil habitantes (INEGI (Registros administrativos))')); // formateado 0, valor 18, crudo 11
     } // datos
 
     /**

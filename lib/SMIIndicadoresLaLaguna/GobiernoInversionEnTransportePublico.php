@@ -68,8 +68,8 @@ class GobiernoInversionEnTransportePublico extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2016-12-31', 'valor' => '9.7200', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2017-12-31', 'valor' => '25.4500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2018-12-31', 'valor' => '25.4500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
+            array('fecha' => '2017-12-31', 'valor' => '25.4500', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de fondos federales para movilidad (ITDP)'),
+            array('fecha' => '2018-12-31', 'valor' => '25.4500', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de fondos federales para movilidad (ITDP)')); // formateado 0, valor 6, crudo 5
     } // datos
 
     /**
@@ -97,7 +97,7 @@ class GobiernoInversionEnTransportePublico extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '9.7200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9.7200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9.7200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '25.4500', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '25.4500', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de fondos federales para movilidad (ITDP)'));
     } // otras_regiones
 
     /**

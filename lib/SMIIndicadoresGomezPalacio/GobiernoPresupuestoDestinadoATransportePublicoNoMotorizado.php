@@ -95,7 +95,7 @@ class GobiernoPresupuestoDestinadoATransportePublicoNoMotorizado extends \SMIBas
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1.7000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '1.7000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '1.7000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '2.9800', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '2.9800', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de fondos federales para movilidad (ITDP)'));
     } // otras_regiones
 
     /**

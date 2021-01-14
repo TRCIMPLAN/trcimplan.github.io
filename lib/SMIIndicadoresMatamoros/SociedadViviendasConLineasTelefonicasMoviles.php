@@ -100,7 +100,7 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '90746', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '35794', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '28362', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '88.6100', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '88.6100', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los hogares (INEGI (MCS))'));
     } // otras_regiones
 
     /**

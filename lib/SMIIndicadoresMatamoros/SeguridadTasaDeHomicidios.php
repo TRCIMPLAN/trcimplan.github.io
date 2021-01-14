@@ -101,7 +101,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '9.3100', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '9.3100', 'fuente_nombre' => 'IMCO', 'notas' => 'Homicidios por cada 100 mil habitantes (INEGI)'));
     } // otras_regiones
 
     /**
