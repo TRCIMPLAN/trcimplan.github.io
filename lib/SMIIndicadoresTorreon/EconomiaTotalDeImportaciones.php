@@ -169,7 +169,11 @@ class EconomiaTotalDeImportaciones extends \SMIBase\PublicacionWeb {
             array('fecha' => '2020-03-31', 'valor' => '243183.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
             array('fecha' => '2020-04-30', 'valor' => '1371947797.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
             array('fecha' => '2020-05-31', 'valor' => '821000940.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
-            array('fecha' => '2020-06-30', 'valor' => '1379031779.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.')); // formateado 0, valor 206, crudo 103
+            array('fecha' => '2020-06-30', 'valor' => '1379031779.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('fecha' => '2020-07-31', 'valor' => '1072675362.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('fecha' => '2020-08-31', 'valor' => '1564605288.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('fecha' => '2020-09-30', 'valor' => '1526296183.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('fecha' => '2020-10-31', 'valor' => '1970108216.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.')); // formateado 0, valor 214, crudo 107
     } // datos
 
     /**

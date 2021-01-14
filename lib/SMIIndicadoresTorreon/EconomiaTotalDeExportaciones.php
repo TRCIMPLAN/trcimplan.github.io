@@ -169,7 +169,11 @@ class EconomiaTotalDeExportaciones extends \SMIBase\PublicacionWeb {
             array('fecha' => '2020-03-31', 'valor' => '96110122.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
             array('fecha' => '2020-04-30', 'valor' => '1465942549.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
             array('fecha' => '2020-05-31', 'valor' => '967116417.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
-            array('fecha' => '2020-06-30', 'valor' => '1699811630.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.')); // formateado 0, valor 206, crudo 103
+            array('fecha' => '2020-06-30', 'valor' => '1699811630.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('fecha' => '2020-07-31', 'valor' => '1072392534.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('fecha' => '2020-08-31', 'valor' => '1830656378.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('fecha' => '2020-09-30', 'valor' => '1849680695.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.'),
+            array('fecha' => '2020-10-31', 'valor' => '2160687393.00', 'fuente_nombre' => 'Servicio de Administración Tributaria.')); // formateado 0, valor 214, crudo 107
     } // datos
 
     /**
