@@ -122,6 +122,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\convocatorias\convocatoria-pzn.jpg" alt="Participación Ciudadana Zona Norte- 2020"></a>';
                 //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/multi-city-challenge-2020.html"><img src="imagenes\convocatorias\convocatoria-multi-city-2020.jpg" alt="Convocatoria Multi City 2020"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-ene2021-vm-banner.jpg" alt="Convocatorias VM 2021"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio.html"><img src="imagenes\mi-espacio\banner-mi-espacio.jpg" alt="Programa Mi Espacio"></a>';
                 //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
                 // PONER OTRA VEZ
@@ -130,7 +131,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\programa-zona-norte\pzn-banner-general.jpg" alt="Programa Zona Norte"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html"><img src="imagenes\politica-industrial\banner-politica-industrial2019.jpg" alt="Política Industrial 2019"></a>';
                 // PONER OTRA VEZ
-                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-mar2020-vm-banner.jpg" alt="Convocatorias VM 2020"></a>';
+
 
 
                // $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/index.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Visión Metrópoli"></a>';
