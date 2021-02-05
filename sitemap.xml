@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-02-02</lastmod>
+    <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -593,6 +593,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/estructura-y-traza-urbana-de-torreon.html</loc>
     <lastmod>2016-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/evaluacion-psicologica-de-las-intervenciones-urbanas-feb-2021.html</loc>
+    <lastmod>2021-02-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
