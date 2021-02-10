@@ -1,4 +1,12 @@
 
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jesus-abraham-salazar-valadez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-jesus-abraham-salazar-valadez-top2.png" align="right" alt="Foto Abraham" width="500" height="200"></a>
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
 El Plan Estratégico para Torreón con enfoque metropolitano fue el primer instrumento de planeación que se elaboró en nuestro Instituto, la gestión de este plan fue con un gran impulso social, donde se involucró a los diferentes actores de la sociedad, en este sentido uno de los objetivos principales fue “Incorporar en su proceso de elaboración, instrumentación, evaluación y retroalimentación, al conjunto de agentes sociales, que a partir de metas y valores comunes, puedan asegurar el cambio en el rumbo del desarrollo de La Laguna”.
 
 El resultado de estas mesas de consulta ciudadana en el eje de Entorno Urbano fueron las siguientes problemáticas estructurales:
