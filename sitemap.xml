@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-02-10</lastmod>
+    <lastmod>2021-02-17</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1488,6 +1488,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/que-vuelva-la-region-de-los-grandes-esfuerzos.html</loc>
     <lastmod>2014-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/realidad-casas-hogares-y-adopciones-en-torreon-feb-2021.html</loc>
+    <lastmod>2021-02-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
