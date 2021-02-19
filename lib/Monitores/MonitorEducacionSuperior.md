@@ -42,7 +42,7 @@ Estudios ofertados                      |    146         |                    | 
 Estudios técnicos                       |    23          |                    |   ZML   | ANUIES |
 Ingenierías                             |    44          |                    |   ZML   | ANUIES |
 Licenciaturas                           |    77          |                    |   ZML   | ANUIES |
-Carrera con mayor matrícula             |Ing.Industrial  |                    |   ZML   | ANUIES |
+Carrera con mayor matrícula             |Ing. Industrial |                    |   ZML   | ANUIES |
 Carrera con mayor matrícula             |Lic. en Derecho |                    |   Torreón| ANUIES |
 Licenciatura con mayor matrícula        |Lic. en Derecho |                    |   ZML   | ANUIES |
 Ingeniería con mayor matrícula          |Ing. Industrial |                    |   ZML   | ANUIES |
