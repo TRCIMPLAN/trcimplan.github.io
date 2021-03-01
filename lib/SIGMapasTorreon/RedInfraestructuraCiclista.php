@@ -34,7 +34,7 @@ class RedInfraestructuraCiclista extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre             = 'Red Infraestructura Ciclista';
         $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
-        $this->fecha              = '2018-04-06T14:27';
+        $this->fecha              = '2021-01-29T13:28';
         // El nombre del archivo a crear y rutas relativas a las imágenes
         $this->archivo            = 'red-infraestructura-ciclista';
         $this->imagen             = 'red-infraestructura-ciclista/imagen.jpg';
