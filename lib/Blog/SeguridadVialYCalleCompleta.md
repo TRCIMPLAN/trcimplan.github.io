@@ -38,6 +38,7 @@ Actualmente el IMPLAN dentro de los programas parciales de desarrollo urbano y e
 
 - En 2020 hubo un total de 100 ciclistas y 146 peatones lesionados, así como un total de 16 muertes por accidentes en vehículos y 3 muertes de ciclistas y 4 de peatones en los incidentes viales registrados.
 
+
 ###Fuentes:
 
 - IMPLAN

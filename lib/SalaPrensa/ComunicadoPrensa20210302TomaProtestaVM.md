@@ -24,3 +24,6 @@ Olvera Morales señaló: “Estamos buscando crear las condiciones necesarias pa
 El Consejo Visión Metrópoli es una estrategia de participación ciudadana joven convocada por el IMPLAN Torreón. Conformada por 21 jóvenes entre 18 y 35 años, residentes del Área Metropolitana de La Laguna.
 
 <center><div style="clear:left;"></div><img class="img-responsive" src="2021-03-02-toma-protesta-vm/ima02.jpg" alt="Toma protesta VM 2"></center>
+
+
+<div style="margin-top:8px; margin-bottom:16px;"><a href="https://drive.google.com/file/d/1MCanhtN67NtL6xKbrOZ7uGoqegwMRD8O/view?usp=sharing"><span style="font-size:32pt"><i class="fa fa-download" aria-hidden="true"></i></span> <span style="font-size:14pt">Da click para ver el archivo: <b> <big>Informe 2019-2021</big> </b>(versión PDF 32Mb)</span></a></div>
