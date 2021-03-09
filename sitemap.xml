@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-03-08</lastmod>
+    <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -323,6 +323,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/crecimiento-poblacional-en-torreon.html</loc>
     <lastmod>2018-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/Crecimiento-de-la-poblacion-en-torreon-med-y-res-mar2021.html</loc>
+    <lastmod>2021-03-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
