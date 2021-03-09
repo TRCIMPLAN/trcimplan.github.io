@@ -25,9 +25,9 @@ El primer censo en incluir información de la población de Torreón dentro de l
 
 Si se observan los cambios porcentuales entre cada periodo, llama la atención que cada 30-40 años aproximadamente sucede un repunte en el crecimiento de la población. Así sucede en los años 1910, 1950, 1980 y 2010, cuando pareciera que el crecimiento poblacional va en descenso, sucede un incremento que supera los niveles anteriores.
 
-A la fecha, gracias al Censo de Población y Vivienda 2020, se pueden estimar las 720,848 personas ubicadas dentro del límite territorial del municipio, un aumento de 12.70% respecto al censo de 2015, dato que es parecido al incremento general del país, el cual se ubica en 12.28%.
+A la fecha, gracias al Censo de Población y Vivienda 2020, se pueden estimar las 720,848 personas ubicadas dentro del límite territorial del municipio, un aumento de 12.70% respecto al censo de 2010, dato que es parecido al incremento general del país, el cual se ubica en 12.28%.
 
-Por último, a pesar del incremento de la población en Torreón respecto a los censos pasados, este, ha sido el más bajo de los registros históricos, desde 1900, representando un incremento de 1.23% por año para la última década.
+Por último, a pesar del incremento de la población en Torreón respecto a los censos pasados, este, ha sido el más bajo de los registros históricos, desde 1900, representando un incremento de 1.27% por año para la última década.
 
 
 ###Bibliografía
