@@ -5,11 +5,57 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 16 Mar 2021 12:21:56 -0600</pubDate>
+    <pubDate>Tue, 16 Mar 2021 12:41:36 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Planeación Urbana con Perspectiva de Género, el Concepto de Ciudad Cuidadora</title>
+      <link>http://www.trcimplan.gob.mx/blog/planeacion-urbana-con-perspectiva-de-genero-mar-2021.html</link>
+      <guid isPermaLink="false">blog-planeacion-urbana-con-perspectiva-de-genero-mar-2021</guid>
+      <pubDate>Tue, 16 Mar 2021 01:00:00 -0600</pubDate>
+      <author>Arq. Carla Estefanía Tovar Triana</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/planeacion-urbana-con-perspectiva-de-genero-mar-2021/imagen.jpg"><br>
+
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/carla-estefania-tovar-triana.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/blog/../imagenes/128/arq-carla-estefania-tovar-triana-top5.png" align="right" alt="Foto Carla Tovar" width="500" height="200"></a>
+
+</p>
+
+<p></br></br></br></br></br></br></br></br></p>
+
+<hr />
+
+<p>“El objetivo del urbanismo debería ser poder vivir en barrios inclusivos que tengan en cuenta la diversidad real que caracteriza a los espacios urbanos, y así hacer posible que el derecho a la ciudad sea un derecho humano para todas las personas.” Z. MUXI et al.</p>
+
+<p>La planeación urbana con perspectiva de género busca posicionar a las personas en el centro de la toma de decisiones. Para esto es preciso tomar en cuenta que vivimos en una sociedad diversa, que todos somos diferentes y entonces la forma en que habitamos la ciudad genera para cada uno de nosotros diferentes necesidades. Por este motivo es fundamental entender que la vida cotidiana se define por el conjunto de actividades que las personas realizamos para satisfacer nuestras necesidades, que incluyen las tareas productivas, reproductivas o de cuidado, las tareas propias y las comunitarias.</p>
+
+<p>En Torreón, según datos del Censo de Población y Vivienda del 2020, el 42.5% de la Población Económicamente Activa es femenina. Esto nos habla sobre el importante papel que juegan las mujeres en las actividades económicas de la ciudad, sin embargo, en la ciudad actual se han privilegiado los espacios y las actividades relacionadas con la producción sin tomar en cuenta las actividades reproductivas relacionadas con el cuidado o domésticas. Éstas últimas históricamente asignadas y realizadas por las mujeres y abordan gran parte de su tiempo, de su vida cotidiana, por eso es importante visibilizar estas tareas y comenzar a abordar el tema de la ciudad tomando en cuenta que los movimientos diarios que generan estas actividades, obligan a la mujer a hacer mayor uso del espacio urbano.</p>
+
+<h3>Ciudad Cuidadora</h3>
+
+<p>Uno de los pilares de la ciudad cuidadora es la seguridad. Con base en datos del Programa Ciudades y Espacios Públicos Seguros para mujeres y niñas en el Municipio
+de Torreón, Coahuila elaborado en 2017 seis de cada 10 mujeres señalaron sentirse inseguras transitando las calles y otros espacios públicos en la ciudad. Esto puede ser atribuible principalmente a las condiciones en que se encuentra el espacio público.</p>
+
+<p>En los años 90 las mujeres de Montreal se organizaron para trabajar la seguridad en la ciudad y en el suburbio, a partir de sus experiencias, estableciendo seis principios para un entorno urbano seguro, estos principios han sido retomados por colectivos feministas para definir las características necesarias para que un espacio público sea seguro.</p>
+
+<p>Los principios son: La señalización, Visibilidad, Concurrencia de personas, Vigilancia formal y acceso a la ayuda, Planificación y el mantenimiento de los lugares y la participación de la comunidad.</p>
+
+<p>Una ciudad que cuida busca generar políticas y programas de vivienda que aseguren contratos de alquiler asequibles, que permitan a las mujeres acceder a una vivienda digna en condiciones económicas justas. Vivienda con acceso a servicios, medios de transporte, equipamiento.</p>
+
+<p>Por este motivo, la estrategia debe acompañarse de un planteamiento de uso de suelo mixto, que fomente la distribución equitativa de servicios, equipamientos y comercios de proximidad, lo que da lugar a recorridos funcionales y minimiza el uso del vehículo particular. Otro aspecto importante es buscar la participación de las mujeres en la política pública. Es fundamental captar la información de las personas que viven y que además serán usuarios y usuarias del espacio resultante.</p>
+
+<p>La Planeación Urbana con perspectiva de género busca construir una sociedad más justa basada en los ejes de una ciudad cuidadora que promueva y garantice el derecho a la ciudad a todas y todos.</p>
+
+<h3>Datos:</h3>
+
+<ul>
+<li><p>En Torreón, según datos del Censo de Población y Vivienda del 2020, habitan un total de 720,848 personas de las cuales el 51.2% son mujeres.</p></li>
+<li><p>En Torreón el 33.02% de los hogares tiene jefatura femenina. (Censo, 2020)</p></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>El Factor Cuarentena en la Seguridad</title>
       <link>http://www.trcimplan.gob.mx/blog/el-factor-cuarentena-en-la-seguridad-mar-2021.html</link>
@@ -362,62 +408,6 @@
 <li><p>En el 2020 en Torreón reside un total de 720,848 personas, el 51.20 % corresponden a mujeres y 48.80% a hombres.</p></li>
 <li><p>En Torreón en el 2020 hay un total de 215,134 viviendas habitadas.</p></li>
 </ul>
-]]></description>
-    </item>
-    <item>
-      <title>Disminuye tasa de desempleo en Torreón y su área metropolitana.</title>
-      <link>http://www.trcimplan.gob.mx/sala-prensa/2021-02-17-ficha-enoe.html</link>
-      <guid isPermaLink="false">sala-prensa-2021-02-17-ficha-enoe</guid>
-      <pubDate>Wed, 17 Feb 2021 00:00:00 -0600</pubDate>
-      <author>Lic. Maira Ivonne Flores Reyes</author>
-      <description><![CDATA[<p>Torreón, Coahuila a 17 de febrero de 2021.</p>
-
-<h3>Disminuye tasa de desempleo en Torreón y su área metropolitana.</h3>
-
-<p>La Encuesta Nacional de Ocupación y Empleo (Nueva Edición) (ENOE-N) del INEGI, publicó su reporte respecto al cuarto trimestre del año 2020. Por ello, se realiza una comparación con el periodo inmediato anterior, tercer trimestre de 2020, y el mismo periodo del año pasado (2019T4).</p>
-
-<p>A continuación, se muestran los siguientes cambios para el área metropolitana de Torreón:</p>
-
-<ul>
-<li><p>El ingreso promedio mensual se ubicó en $8,844.82; un aumento de 2.44% respecto al segundo trimestre del año, cuando era de $8,633.88 y un aumento de 8.28% con respecto al cuarto trimestre de 2019 cuando el ingreso promedio mensual se ubicó en $8,168.26.</p></li>
-<li><p>La tasa de desempleo se posicionó en 5.0%, disminuyendo respecto al 6.7% del tercer trimestre del 2020.</p></li>
-<li><p>La tasa de subocupación en La Laguna pasó de 15.79% en el tercer trimestre del 2020 a 15.32% del cuarto trimestre del mismo año, manteniéndose para esta ocasión por arriba del 15.26% a nivel nacional y del 10.48% a nivel estatal en Coahuila.</p></li>
-<li><p>Según la posición en la ocupación; 74.74% de la población ocupada <sup>1</sup> corresponde a trabajadores subordinados y remunerados <sup>2</sup>; 5.58% a empleadores y 17.43% son trabajadores por cuenta propia.</p></li>
-<li><p>Excluyendo Gobierno y organismos internacionales, los cambios en población ocupada en los sectores con respecto al mismo trimestre del año 2019: la Industria extractiva y de la electricidad tuvo un aumento de 14.27%; Restaurantes y servicios de alojamiento una disminución de 20.44%; Servicios sociales tuvo un aumento de 7.06%; y Actividades de Agricultura, ganadería, silvicultura, caza y pesca un aumento de 20.59%.</p></li>
-<li><p>Los sectores que más aumentaron en población ocupada respecto al 2020T3 fueron el de; Agricultura, ganadería, silvicultura, caza y pesca con 48.60%; Construcción, con 26.92%; y la Industria manufacturera con 16.56%.</p></li>
-</ul>
-
-<hr />
-
-<p><sup>1</sup> Se refiere a todas aquellas personas que desempeñan actividades laborales tales como el trabajar por cuenta propia, empleador o subordinado.</p>
-
-<p><sup>2</sup> Se refiere a todas aquellas personas que en el desempeño de su actividad reconocen depender de un jefe o superior recibiendo un salario como forma de pago.</p>
-
-<hr />
-
-<p><center></p>
-
-<div style="clear:left;"></div>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2021-02-17-ficha-enoe/ima01.jpg" alt="ficha enoe 1"></center></p>
-
-<p><center></p>
-
-<div style="clear:left;"></div>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2021-02-17-ficha-enoe/ima02.jpg" alt="ficha enoe 2"></center></p>
-
-<p><center></p>
-
-<div style="clear:left;"></div>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2021-02-17-ficha-enoe/ima03.jpg" alt="ficha enoe 3"></center></p>
-
-<p><center></p>
-
-<div style="clear:left;"></div>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2021-02-17-ficha-enoe/ima04.jpg" alt="ficha enoe 4"></center></p>
 ]]></description>
     </item>
   </channel>
