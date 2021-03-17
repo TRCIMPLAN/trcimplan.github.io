@@ -36,7 +36,7 @@ class ComunicadoPrensa20210302TomaProtestaVM extends \Base\PublicacionSchemaBlog
         // Título, autor y fecha
         $this->nombre                     = 'Toma protesta el nuevo presidente del Consejo Visión Metrópoli.';
         $this->autor                      = 'Lic. Maira Ivonne Flores Reyes';
-        $this->fecha                      = '2021-03-02T00:00';
+        $this->fecha                      = '2021-03-17T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2021-03-02-toma-protesta-vm';
         // La descripción y claves dan información a los buscadores y redes sociales
