@@ -1,5 +1,5 @@
 
-<img class="img-responsive" src="desigualdad-de-genero/imagen-cdg.jpg" alt="desigualdad de género">
+<center><img class="img-responsive" src="desigualdad-de-genero/imagen-cdg1.jpg" alt="desigualdad de género"></center>
 </br></br>
 ##Resumen
 
