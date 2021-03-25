@@ -44,42 +44,27 @@
 </br></br>
 <b> AÑO 2021 </b>
 </br>
-
-[<strong>- Informe Monitor Seguridad Febrero 2021</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-feb-2021.pdf)
-</br>
-
-[<strong>- Informe Monitor Seguridad Enero 2021</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-ene-2021.pdf)
+Informe:
+[- Enero 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-ene-2021.pdf)
+[,Febrero 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-feb-2021.pdf)
 </br>
 
 <b> AÑO 2020 </b>
 </br>
-
-[<strong>- Informe Monitor Seguridad Diciembre 2020</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-dic-2020.pdf)
-</br>
-
-[<strong>- Informe Monitor Seguridad Octubre 2020</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-oct-2020.pdf)
-</br>
-
-[<strong>- Informe Monitor Seguridad Septiembre 2020</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-sep-2020.pdf)
-</br>
-
-[<strong>- Informe Monitor Seguridad Agosto 2020</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-agosto-2020.pdf)
-</br>
-
-[<strong>- Informe Monitor Seguridad Abril 2020</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-abril-2020.pdf)
+Informe:
+[- Abril 2020](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-abril-2020.pdf)
+[, Agosto 2020](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-agosto-2020.pdf)
+[, Septiembre 2020](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-sep-2020.pdf)
+[, Octubre 2020](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-oct-2020.pdf)
+[, Diciembre 2020](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-dic-2020.pdf)
 </br>
 
 <b> AÑO 2019 </b>
 </br>
+Informe:
+[- Marzo 2019](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-seguridad-2018.pdf)
+[, Abril 2019](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-abril-2019.pdf)
+[, Agosto 2019](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-Agosto-2019.pdf)
+[, Octubre 2019](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-Octubre-2019.pdf)
 
-[<strong>- Informe Monitor Seguridad Octubre 2019</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-Octubre-2019.pdf)
-</br>
-
-[<strong>- Informe Monitor Seguridad Agosto 2019</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-Agosto-2019.pdf)
-</br>
-
-[<strong>- Informe Monitor Seguridad Abril 2019</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-Seguridad-abril-2019.pdf)
-</br>
-
-[<strong>- Informe Monitor Seguridad marzo</strong>](http://www.trcimplan.gob.mx/monitores/seguridad/Monitor-seguridad-2018.pdf)
 </br>
