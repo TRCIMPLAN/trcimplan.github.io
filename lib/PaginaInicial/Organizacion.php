@@ -119,11 +119,11 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad.jpg" alt="visión de ciudad"></a>';
+                //$b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad.jpg" alt="visión de ciudad"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\banner-convocatoria-vm-mar2021.jpg" alt="Convocatorias VM marzo 2021"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\programa-zona-norte\pzn-banner-general.jpg" alt="Programa Zona Norte"></a>';
-
+                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html"><img src="imagenes\politica-industrial\banner-politica-industrial2019.jpg" alt="Política Industrial 2019"></a>';
                //$b[] = '<a href="https://bit.ly/ConsultaCentroHistorico"><img src="imagenes\centro-historico\pch-baner-19.jpg" alt="Centro Histórico"></a>';
 
@@ -147,8 +147,15 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes/icono-pddu-2020.jpg"  alt="liga PPDU"></a>';
             //$b[] = '</br>';
             //FIN CONVOCATORIA
+
+            //Fin Visión de ciudad
+            $b[] = '</br>';
+            $b[] = '<center><a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a></center>';
+            $b[] = '</br>';
+            $b[] = '</br>';
+            //Fin Visión de ciudad
             //Inicio OVIE
-            $b[] = '</br></br>';
+
             $b[] = '<center><a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda4.png"  width=95% height="70px" alt="liga ovie"></a></center>';
             $b[] = '</br>';
             $b[] = '</br>';
