@@ -82,7 +82,8 @@ class NavegacionConfig {
             'Plan Estratégico Torreón 2040 > Índice Alfabético'       => 'pet/index.html',
             'Plan Estratégico Torreón 2040 > Descargar'               => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html',
             'Plan Estratégico Torreón 2040 > Descripción del proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
-            'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html'),
+            'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html',
+            'Plan Estratégico Torreón 2040 > Visión de Ciudad desde IMPLAN' => 'vision-de-ciudad/vision-de-ciudad.html'),
 
 //ÚLTIMOS CAMBIOS VM
         'Documentos'  => array(
