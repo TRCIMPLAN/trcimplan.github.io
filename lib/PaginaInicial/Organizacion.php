@@ -150,7 +150,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
             //Fin Visión de ciudad
             $b[] = '</br>';
-            $b[] = '<center><a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" width=95% height="270px" alt="visión de ciudad"></a></center>';
+            $b[] = '<center><a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" width=95% height="20%" alt="visión de ciudad"></a></center>';
             $b[] = '</br>';
             $b[] = '</br>';
             //Fin Visión de ciudad
@@ -161,7 +161,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '</br>';
             //Fin OVIE
             //Inicio ATLAS DE RIESGO
-            $b[] = '<center><a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg"  width=95% height="270px" alt="liga Atlas de Riesgo Torreón"></a></center>';
+            $b[] = '<center><a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg"  width=95% height="20%" alt="liga Atlas de Riesgo Torreón"></a></center>';
             $b[] = '</br>';
             $b[] = '</br>';
             //Fin ATLAS DE RIESGO
