@@ -1,57 +1,57 @@
-# Monitor de Economía Enero 2021
+# Monitor de Economía Marzo 2021
 
 ## Indicadores macroeconómicos
 Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
 ----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
-Tipo de cambio del último mes                       |  $19.91   |diciembre 2020        |Nacional    |Banxico        |
-Depreciación acumulada anual del tipo de cambio         |  7.40%    |enero 2020 - enero 2021|Nacional   |Banxico        |
-Tasa de interés objetivo                            |  4.25%    |enero 2021     |Nacional   |Banxico        |
-Último movimiento de la tasa                    |  -0.25%   |25 de septiembre 2020  |Nacional   |Banxico        |
+Tipo de cambio fix del último mes                   |  $20.94   |Febrero 2021           |Nacional       |Banxico        |
+Depreciación interanual del tipo de cambio          |  5.88%    |Febrero 2020 - febrero 2021|Nacional   |Banxico        |
+Tasa de interés objetivo                            |  4.00%    |Febrero 2021       |Nacional   |Banxico        |
+Último movimiento de la tasa                    |  -0.25%   |25 de enero 2021   |Nacional   |Banxico        |
+Inflación interanual                        |  3.76%    |Febrero 2020  febrero 2021|Nacional   |Banxico        |
 
 ## Indicadores regionales
 Indicador                                                       |Dato       |Periodo        |Nivel      |Fuente                 |
 ----------------------------------------------------------------|---------------|---------------|---------------|-----------------------|
-PIB estimado 2018                       |351.80 mmp |2019       |ZML        |Censos Económicos 2019, INEGI |
-Lugar nacional en Valor Agregado 2018               |7°         |2019       |Torreón        |Censos Económicos 2019, INEGI |
-Inflación anual acumulada 2020                  |4.09%      |2020       |Torreón    |INEGI          |
-Inflación mensual interanual                    |4.14%      |diciembre 2019 a diciembre 2020|Torreón|INEGI      |
-Inflación mensual interanual del año anterior           |3.94%      |diciembre 2018 a diciembre 2019|Torreón|INEGI      |
+PIB estimado 2018                       |351.80 mmp |2019       |ZML        |Censos Económicos 2019, INEGI  |
+Lugar nacional en Valor Agregado 2018               |7°         |2019       |Torreón        |Censos Económicos 2019, INEGI  |
+Inflación anual acumulada 2021                  |1.90%      |Enero 2020 a febrero 2021  |Torreón        |INEGI  |
+Inflación mensual interanual                    |4.90%      |Febrero 2020 a febrero 2021|Torreón|INEGI          |
+Inflación mensual interanual del año anterior           |3.88%      |Febrero 2019 a febrero 2020|Torreón|INEGI          |
 
 ## Perspectivas de empresarios y consumidores
 Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
 ----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
-Cambio en la confianza de los consumidores              |-14.17%    |diciembre 2020 |Nacional   |INEGI      |
-Cambio en las expectativas de pedidos manufactureros        |+3.78%     |diciembre 2020 |Nacional   |INEGI      |
-Cambio en la confianza del sector manufactura           |-11.57%    |diciembre 2020 |Nacional   |INEGI      |
-Cambio en la confianza del sector construcción          |-11.12%    |diciembre 2020 |Nacional   |INEGI      |
-Cambio en la confianza del sector comercio              |-11.31%    |diciembre 2020 |Nacional   |INEGI      |
+Cambio en la confianza de los consumidores              |-11.24%    |Febrero 2021       |Nacional   |INEGI      |
+Cambio en las expectativas de pedidos manufactureros        |+0.04%     |Febrero 2021       |Nacional   |INEGI      |
+Cambio en la confianza del sector manufactura           |-5.86%     |Febrero 2021       |Nacional   |INEGI      |
+Cambio en la confianza del sector construcción          |-3.92%     |Febrero 2021       |Nacional   |INEGI      |
+Cambio en la confianza del sector comercio              |-8.68%     |Febrero 2021       |Nacional   |INEGI      |
 
 </br>
 
 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS ECONÓMICOS</strong></p>
 
-[De click para descargar el archivo PDF del:   <strong>Histórico Noviembre   2020</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-nov-2020.pdf)
+###De click en el mes que desee descargar (PDF):
+
+###Año 2021
+[Enero 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ene-2021.pdf)
+[Febrero 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-feb-2021.pdf)
+###Año 2020
+[Marzo     2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2020.pdf)
+[Mayo      2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-mayo-2020.pdf)
+[Agosto    2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-agosto-2020.pdf)
+[Septiembre   2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-sep-2020.pdf)
+[Octubre   2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-oct-2020.pdf)
+[Noviembre   2020](http://www.trcimplan.gob.mx/monitores/economia/economia-nov-2020.pdf)
+###Año 2019
+[Febrero   2019 -](http://www.trcimplan.gob.mx/monitores/economia/economia-febrero-2019.pdf)
+[Abril     2019 -](http://www.trcimplan.gob.mx/monitores/economia/economia-abril-2019.pdf)
+[Agosto    2019 -](http://www.trcimplan.gob.mx/monitores/economia/economia-agosto-2019.pdf)
+[Octubre   2019 ](http://www.trcimplan.gob.mx/monitores/economia/economia-octubre-2019.pdf)
+###Año 2018
+[Marzo     2018 -](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2018.pdf)
+[Noviembre 2018](http://www.trcimplan.gob.mx/monitores/economia/economia-nov-2018.pdf)
 </br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Octubre   2020</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-oct-2020.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Septiembre   2020</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-sep-2020.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Agosto    2020</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-agosto-2020.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Mayo      2020</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-mayo-2020.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Marzo     2020</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2020.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Octubre   2019</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-octubre-2019.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Agosto    2019</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-agosto-2019.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Abril     2019</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-abril-2019.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Febrero   2019</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-febrero-2019.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Noviembre 2018</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-nov-2018.pdf)
-</br>
-[De click para descargar el archivo PDF del:   <strong>Histórico Marzo     2018</strong>](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2018.pdf)
+
 </br>
