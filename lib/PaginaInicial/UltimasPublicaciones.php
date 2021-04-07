@@ -70,7 +70,7 @@ class UltimasPublicaciones {
         $a[] = '      </div>';
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <div class="red-social-twitter">';
-        $a[] = '          <a class="twitter-timeline" height="720px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
+        $a[] = '          <a class="twitter-timeline" height="820px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
         $a[] = '        </div>';
         $a[] = '      </div>';
         $a[] = '    </div>';
