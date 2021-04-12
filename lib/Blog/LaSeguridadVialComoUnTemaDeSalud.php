@@ -36,7 +36,7 @@ class LaSeguridadVialComoUnTemaDeSalud extends \Base\PublicacionSchemaBlogPostin
         // Título, autor y fecha
         $this->nombre                     = 'Seguridad Vial: Un Tema de Salud que nos compete a Todos y Todas.';
         $this->autor                      = 'Arq. Olga Daniela Sánchez Valles';
-        $this->fecha                      = '2021-04-12T08:00';
+        $this->fecha                      = '2021-04-12T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'la-seguridad-vial-como-un-tema-de-salud-abril-2021';
         // La descripción y claves dan información a los buscadores y redes sociales
