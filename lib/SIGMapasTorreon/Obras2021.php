@@ -53,7 +53,7 @@ class Obras2021 extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Infraestructura');
         // Para el botón de ver a pantalla completa
-        // Sin URL
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/a93f93b1-809b-4a74-8bac-0cf4b7628217/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,6 +66,7 @@ class Obras2021 extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/a93f93b1-809b-4a74-8bac-0cf4b7628217/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </br> <b>Fuente: Dirección de Proyectos Estratégicos Implan, con información de Transparencia Torreón. http://www.torreon.gob.mx/transparencia/info_o.cfm </b>
 </br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
 </br></br></br>

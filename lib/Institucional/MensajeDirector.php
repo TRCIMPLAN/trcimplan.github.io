@@ -35,8 +35,8 @@ class MensajeDirector extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Mensaje del Director';
-        $this->autor                      = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha                      = '2014-05-01T08:00';
+        $this->autor                      = 'Arq. José Antonio Ramírez Reyes';
+        $this->fecha                      = '2021-04-14T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'mensaje-director';
         $this->imagen                     = 'mensaje-director/eduardo-holguin.jpg';
