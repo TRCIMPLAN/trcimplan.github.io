@@ -31,6 +31,15 @@ El IMSS es la institución con mayor porcentaje en cobertura de salud respecto a
 
 De manera individual, es decir, por municipio, la cobertura más alta por porcentaje lo tiene Torreón con 81.85%, cifra muy similar a la de Coahuila. En cuanto a la cobertura del INSABI, éste presenta mayor porcentaje en Durango y en la República Mexicana, con 29.60% y 34.36% sobre su población afiliada a servicios de salud.
 
+###Notas:
+
+1. Se consideran asegurados a las personas que están afiliadas al IMSS como titulares (ya sea en el régimen obligatorio o voluntario), sin considerar pensionados, beneficiarios de asegurados y pensionados. Este dato agrupa a los trabajadores asegurados (que tienen un empleo) y asegurados no trabajadores (que no tienen empleo).
+
+
+
+2. La categoría IMSS incluye el dato del IMSS Bienestar, y a su vez la categoría ISSSTE incluye el concepto ISSSTE Estatal.
+
+
 ###Referencias:
 
 - IMSS. (2019). Datos abiertos IMSS. Obtenido de [http://datos.imss.gob.mx/dataset/asg-2019](http://datos.imss.gob.mx/dataset/asg-2019)
