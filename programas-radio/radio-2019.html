@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Programas de Radio IMPLAN Torreón.">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="IMPLAN, Torreon, radio">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Radio - IMPLAN Torreón">
+  <meta name="twitter:description" content="Programas de Radio IMPLAN Torreón.">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/programas-radio/index.html">
+  <meta name="og:title" content="Radio Implan Torreón - IMPLAN Torreón">
+  <meta name="og:description" content="Programas de Radio IMPLAN Torreón.">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/programas-radio/index.html">
+  <title>RADIO IMPLAN TORREÓN. </title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"         ><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+            <li><a href="../smi/niveles-socioeconomicos.html"><span class="navegacion-icono"><i class="fa fa-bar-chart"></i></span> Niveles Socioeconómicos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
+            <!-- <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li> -->
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+            <li><a href="../ibc/catalogo-conceptos.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Catálogo de Conceptos</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/temas-sig.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas por Tema</a></li>
+            <li><a href="../sig-mapas-torreon/plan-director-desarrollo-urbano.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Usos de Suelo</a></li>
+            <li><a href="../sig/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+
+
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+
+          </ul>
+        </li>
+
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li><a href="../programas-radio/index.html"><span class="navegacion-icono"><i class="fa fa-microphone"></i></span> Programas de Radio</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli</a></li>
+            <li><a href="../vision-metropoli/reglamento-vision-metropoli-2018.pdf"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamento </a></li>
+          </ul>
+        </li>
+
+
+
+        <!--  <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli</a></li>   -->
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+          </ul>
+        </li>
+
+        <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+
+    <!--    <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>       -->
+    <!--    <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-university"></i></span> Visión Metrópoli</a></li>  -->
+        <li>
+
+
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+  <div id="page-wrapper">
+    <div class="cuerpo">
+
+      <div class="encabezado">
+        <span><h1>PROGRAMAS DE RADIO IMPLAN</h1></span>
+        <div class="encabezado-descripcion">Programa de Radio (Compendio 2019, 27 Programas transmitidos), martes 9:00 a.m.</div>
+      </div>
+      
+       
+
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/FKh2RwVEIu"><img class="media-object" src="../programas-radio/p10122019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "Dinámica del Desempleo en La Laguna"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/FKh2RwVEIu">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/r6CayPE8Ba">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“Dinámica del Desempleo en La Laguna”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Miriam González. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Lic. Raúl Garza del Valle, Lic. Carlos Landeros, Lic. Eleazar González<b>.  Por Implan Torreón, 10/12/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/zK4RV5kjUb"><img class="media-object" src="../programas-radio/p03122019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "Créditos de Vivienda en Colonias Tradicionales como Estrategia para la Consolidación Urbana"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/zK4RV5kjUb">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/skuXiIwJ2h">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“Créditos de Vivienda en Colonias Tradicionales como Estrategia para la Consolidación Urbana”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Miriam González. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Lic. Areli Magdiel López, Arq. Ihanelly Hernández, Lic. Marco Gerardo Ríos, Lic. Abraham Salazar<b>.  Por Implan Torreón, 03/12/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/ZHr5JOM9du"><img class="media-object" src="../programas-radio/p26112019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "El suelo mixto como política de desarrollo sostenible"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/ZHr5JOM9du">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/puL0K46Q74">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“ONU-HABITAT impulsa, a través de la Nueva Agenda Urbana en su numeral 51, diseños urbanos que apoyan el ordenamiento a través de policentrismos y usos mixtos”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Miriam González. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Arq. René Mata, Arq. José Antonio Ramírez Reyes, Lic. Ivan de Luna<b>.  Por Implan Torreón, 26/11/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/4Wh47Xfw4i"><img class="media-object" src="../programas-radio/p19112019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "Déficit de infraestructura en Torreón para atender la salud mental"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/4Wh47Xfw4i">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/4Brv2zBXJr">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“Sin salud mental, no hay salud. Las enfermedades mentales impactan la calidad de vida de la población, tanto de quien lo padece, como de aquellos en su entorno inmediato. La Organización Mundial de la Salud (OMS) dice que aquellos con trastornos mentales graves acortan su esperanza de vida de 10 a 20 años. Las enfermedades mentales pueden incidir en el desarrollo de enfermedades crónicas, es por ello que se incita a integrar los servicios de atención a la salud mental a los servicios generales de salud.”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Miriam González. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Dr. Manuel Acuña, Dr. Fernando Sánchez, Lic. Marimar Centeno, Lic. Jaqueline Reynosa, Arq. Alejandra Martínez<b>.  Por Implan Torreón, 19/11/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/ev89qHb0Wp"><img class="media-object" src="../programas-radio/p12112019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "La sociedad del desempeño"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/ev89qHb0Wp">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/MdgRkLSIkh">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“El 58% de los mexicanos mayores de 12 años quisiera tener más tiempo para hacer lo que realmente les gusta.”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Maira Flores. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Ing. Ricardo Rivera, Lic. Francisco Hernández, Lic. Diego Armando Hernández, Lic. Iván de Luna<b>.  Por Implan Torreón, 12/11/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/GzuNjsNao9"><img class="media-object" src="../programas-radio/p05112019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "La importancia del comercio local para el desarrollo barrial"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/GzuNjsNao9">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/cbOnvHRNqc">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“Según el Directorio Estadístico Nacional de Unidades Económicas (DENUE), con datos a noviembre del 2018, se dice que hay 2,929 comercios al por menor en Torreón (tiendas de abarrotes, misceláneas), en contraste con 554 comercios catalogados como minisúper (tiendas de conveniencia).”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Maira Flores. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Lic. Miriam González, Arq. Alejandra Martínez, Lic. José Antonio Gutiérrez Fernández, Arq. Jair Miramontes, Lic. Iván de Luna<b>.  Por Implan Torreón, 05/11/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/ecLwpKMiLg"><img class="media-object" src="../programas-radio/p29102019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "Incremento de la oferta educativa en La Laguna"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/ecLwpKMiLg">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/F2yBwf46CA">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“Respecto a la oferta de los estudios superiores en La Laguna, existen 62 instituciones que la ofrecen, 5 más con respecto al año antepasado (ciclo escolar 2016-2017). La distribución del total de Instituciones por municipio es la siguiente: En Torreón se ubican 41, en Matamoros 2, en Gómez Palacio 12 y en Lerdo 7.”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Maira Flores. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Lic. Miriam González, Lic. Diana Valeria Hernández Morón, Lic. Frida García Gutiérrez, Lic. Fernando Royo Díaz Rivera, Ing. Jaime Allegre Dávalos<b>.  Por Implan Torreón, 29/10/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/MaDsi91d4u"><img class="media-object" src="../programas-radio/p22102019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "Disminución de la pobreza en Torreón, hacia la agenda 2030"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/MaDsi91d4u">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/hVknqQzsdd">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“A nivel mundial la pobreza es una problemática apremiante que debe erradicarse para poder lograr el desarrollo sostenible, si bien los porcentajes de pobreza han ido a la baja en México, su ritmo ha sido lento. En Torreón de 2010 a 2015 la pobreza disminuyó 3.9%, equivalente a 0.78 puntos porcentuales por año.”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Maira Flores. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Lic. Miriam González, Lic. Ana Luisa Pacheco, Ing. Guillermo Galván, Arq. José Antonio Ramírez<b>.  Por Implan Torreón, 22/10/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/JTqYwC3eO6"><img class="media-object" src="../programas-radio/p15102019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "Nuevas Tendencias del Fondo Metropolitano"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/JTqYwC3eO6">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/1VwWAmmRtn">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“Nuevas Tendencias del Fondo Metropolitano”.</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Maira Flores. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Lic. Miriam González, Arq. Jair Miramontes, Lic. Roberto Muñoz<b>.  Por Implan Torreón, 15/10/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/ALpc27gglL"><img class="media-object" src="../programas-radio/p08102019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "Gestión y Cambios de Usos de Suelo en Torreón"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/ALpc27gglL">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/NGhuMa5GDY">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“Por uso de suelo se entiende a la gestión y modificación de las actividades que se realizan en un predio o terreno que es parte del territorio de una administración política, ligado a este se encuentra la planeación urbana que permite regular los usos de suelo de los predios a partir de restricciones y reglamentos que ayudan a controlar, ordenar y dirigir el desarrollo urbano de una ciudad.”</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Maira Flores. <b>Transmisión:</b> Macarena García  <b>Invitadas e Invitado:</b> Arq. Ángela Mourey, Arq. Carla Tovar, Arq. Aldo Villarreal, Arq. Alexis Magaña<b>.  Por Implan Torreón, 08/10/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/SpzxdSxMWo"><img class="media-object" src="../programas-radio/p01102019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b> "Patrimonio e Identidad: El caso del Centro Histórico de Torreón"</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/SpzxdSxMWo">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/nvPrkPbTGr">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">“Los centros históricos son expresiones con características únicas que los hacen ejemplos culturales fundamentales en la configuración de la identidad de su pueblo”.</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Maira Flores. <b>Transmisión:</b> Macarena García <b>Invitadas e Invitado:</b> Arq. Víctor Hugo Torres, Lic. José Alberto Bitar, Arq. Juan Antonio Rodríguez, Arq. José Antonio Ramírez<b>.  Por Implan Torreón, 01/10/2019 11:25</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+       
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/0g4BhBz5QR"><img class="media-object" src="../programas-radio/p24092019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Convocatoria Manos a la Cebra y 1er. Seminario de Identidad Lagunera del Consejo Visión Metrópoli.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/0g4BhBz5QR">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/Rmr7eAQaAJ">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">Convocatoria Manos a la Cebra y 1er. Seminario de Identidad Lagunera del Consejo Visión Metrópoli.</p>
+          <p class="detallados-autor-fecha"><b>Conducción:</b> Maira Flores.  <b>Invitadas e Invitado:</b> Elizabeth Pérez (2da. Regidora), María del Refugio Loya, Alejandra Martínez, Ihanelly Hernandez, Aldo Valdés.<b>.  Por Implan Torreón, 24/09/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/bNmhCwtqg4"><img class="media-object" src="../programas-radio/p17092019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Torreón, de ciudadano a consumidor.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/bNmhCwtqg4">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/gbeqioIwUT">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">El comercio en la ciudad ha pasado de estar situado a nivel de calle, como se encontraba comúnmente en el centro, para aglomerarse en grandes edificaciones, espacios “públicos” de propiedad privada.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 17/09/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+       
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/T8TwgVc6li"><img class="media-object" src="../programas-radio/p10092019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>La Discapacidad como una realidad inevitable en La Laguna.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/T8TwgVc6li">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/zUcjCWpEXx">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">La discapacidad es un complejo fenómeno que imposibilita o dificulta la interacción de un individuo con su entorno social. Cuando las barreras con las que se enfrenta una persona con discapacidad (PCD) son eliminadas de la sociedad, dejando que ésta desarrolle su vida de la misma manera y facilidad que el resto de la población, se dice que se logra una inclusión plena y efectiva.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 10/09/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/QyqkJ0GUrs"><img class="media-object" src="../programas-radio/p03092019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Seguridad Vial: Reto para los peatones en la región.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/QyqkJ0GUrs">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/b7sx8fRHVl">Segunda parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/saIChlvtw0">Tercera parte 🔊</a></h3>
+          <p class="detallados-descripcion">El pasado 17 de agosto tuvo lugar la celebración del día del peatón, fecha instaurada por la Organización Mundial de la Salud (OMS) en conmemoración del primer incidente de tráfico que dejara una víctima mortal registrado en 1897 en Londres, Inglaterra; para recordar la importancia de la seguridad vial y promover el respeto entre los distintos usuarios de las vías.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 03/09/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/NYVaQeTP4S"><img class="media-object" src="../programas-radio/p27082019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Género, violencia y discriminación, principales preocupaciones de la niñez y la juventud de Torreón.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/NYVaQeTP4S">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/MwMKZrtptN">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">Respecto a los lugares donde identifican la violencia, niños y jóvenes señalan que la casa y la escuela son los espacios donde manifiestan enfrentar más violencia. A pesar de ello, la casa es el lugar donde dicen sentirse más seguros todos los rangos de edad.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 27/08/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/O4tbGYHavd"><img class="media-object" src="../programas-radio/p20082019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Política Industrial de Segunda Generación.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/O4tbGYHavd">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/lKpnNprZ7y">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">En la Zona Metropolitana de La Laguna, la Industria manufacturera aporta más del 70% de la producción bruta total, más de 50% del valor agregado y alrededor de 30% del empleo.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 20/08/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/eDoTExNbl3"><img class="media-object" src="../programas-radio/p13082019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Composición del Ingreso y del Gasto en los Hogares de La Laguna.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/eDoTExNbl3">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/hrJ58echoP">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">Composición del Ingreso y del Gasto en los Hogares de La Laguna.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 13/08/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://www.facebook.com/trcimplan/videos/405226130343448/"><img class="media-object" src="../programas-radio/p06082019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Ventajas Comerciales de La Laguna.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://www.facebook.com/trcimplan/videos/405226130343448/">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://www.facebook.com/trcimplan/videos/2389384471381356/">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">De los ingresos por exportación de la Zona Metropolitana de La Laguna, el oro y la plata son los más importantes al representar el 34% y 16.07% del total respectivamente.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 06/08/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/uIAP25hGQR"><img class="media-object" src="../programas-radio/p30072019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Calles Mejor Conectadas, Mejor Calidad de Vida Urbana.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/uIAP25hGQR">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/4TT0B5V1xg">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">El concepto de conectividad vial refiere a la capacidad que tiene una red de calles en las ciudades para interconectar, en mayor o menor medida, las necesidades de movilidad entre puntos de origen-destino, garantizar seguridad y accesibilidad a todos los modos de transporte e integrar las actividades sociales y económicas con su entorno construido.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 30/07/2019 11:25</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+      
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/eTdtiAHFVW"><img class="media-object" src="../programas-radio/p23072019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Los Centros de Convenciones como Equipamiento para el Desarrollo del Turismo de Reuniones.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/eTdtiAHFVW">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/clV6X34JJ2">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">La industria de reuniones en México representa más de 266 mil eventos anuales, 30 millones de cuarto de noche, una derrama económica de 25 mil millones de dólares y la generación del 1.5% del PIB. En Torreón, de acuerdo a datos de la Oficina de Convenciones y visitantes (OCV) los ingresos estimados para la industria de reuniones ascienden a 110.833 mdp con la expectativa de que para 2019 esta cifra se incremente en 47%; pasando de 55 eventos atendidos en 2017 a 85 para 2019.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 23/07/2019 13:18</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/pX26JJpE8N"><img class="media-object" src="../programas-radio/p16072019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Incremento de enfermedades crónicas en La Laguna.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/pX26JJpE8N">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/1llrPj8tin">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">La evolución de las principales enfermedades indica que cada vez hay más afectaciones de tipo crónico no transmisibles, en La Laguna, esto se ve reflejado en que las principales causas de hospitalización para ambos sexos son la enfermedad renal, diabetes mellitus y colelitiasis. Y las afecciones que más decesos provocan tienen que ver con enfermedades endócrinas y metabólicas, así como con enfermedades isquémicas del corazón.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 16/07/2019 12:30</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+
+       <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/1pN2GLGLQU"><img class="media-object" src="../programas-radio/p09072019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>La Estructura Familiar y el Mercado Inmobiliario en Torreón.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/1pN2GLGLQU">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/7Iw03kNtZR">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">Durante el 2018, en Torreón fueron otorgados 11,895 créditos para vivienda; la mayoría de estos créditos (36.8%) fueron destinados a la adquisición de una vivienda nueva, mientras que el segundo mayor uso de estos créditos fue para la adquisición de una vivienda usada (31.7%).</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 09/07/2019 12:30</b></p>
+        </div>
+      </div>
+       <!-- Fin Programa  -->
+
+       <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/2ztAGT7RZc"><img class="media-object" src="../programas-radio/p02072019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>La situación de la pobreza en Torreón.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/2ztAGT7RZc">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/08UluDFB3g">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">En cuanto al municipio de Torreón, el porcentaje de población en pobreza extrema disminuyó en 2015 respecto al 2010 pasando de 3.7 a 2.8%, sin embargo, de los cuatro municipios de la zona conurbada de la Laguna, Gómez Palacio disminuyó el 5% de su población en pobreza extrema al pasar de 5.9% en 2010 a 0.8% en 2015.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 02/07/2019 09:00</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://www.facebook.com/trcimplan/videos/468449927238404"><img class="media-object" src="../programas-radio/p25062019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>Un Acercamiento a la Caminabilidad en el Centro Histórico de Torreón.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://www.facebook.com/trcimplan/videos/468449927238404">Primera  parte  🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://www.facebook.com/trcimplan/videos/1359680224196317">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">La caminabilidad es el grado en que las características del entorno construido y uso del suelo propician realizar recorridos peatonales para acceder a los servicios, ir al trabajo, pasear, o realizar ejercicio.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 25/06/2019 09:00</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/kF4k5xr7n1"><img class="media-object" src="../programas-radio/p18062019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>La Planificación Urbana, fundamental en la Salud Pública de los Laguneros.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/kF4k5xr7n1">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/D1X7jUWWa3">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">El entorno construido, el acceso a los servicios sociales, la conexión de la vida urbana, el diseño que muchas veces opta por la estética o se genera teniendo como modelo el automóvil, entre otros factores, generan condiciones que afectan directamente a la Salud Pública: enfermedades, contaminación, la violencia y los asentamientos irregulares son solo algunos de los problemas que se viven en las poblaciones y tanto urbanas como rurales padecen de estos.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 18/06/2019 09:00</b></p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+
+      <!-- Inicio Programa  -->
+      <div class="media breve">
+        <a class="pull-left" href="https://t.co/xKTQQdQWet"><img class="media-object" src="../programas-radio/p11062019.jpg"></a>
+        <div class="media-body">
+          <h2 class="media-heading detallados-encabezado"><b>La Movilidad Social en La Laguna.</b> </br></h2>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/xKTQQdQWet">Primera  parte 🔊</a></h3>
+          <h3 class="media-heading detallados-encabezado"><a href="https://t.co/AdSjdxtAZ8">Segunda parte 🔊</a></h3>
+          <p class="detallados-descripcion">El INEGI estima que existan en Torreón 496 mil personas mayores de 15 años, de las cuales el 2.16% no cuenta con escolaridad alguna, el 46.71% con educación básica (de los cuales 58.64% llegó hasta secundaria), el 22.43% con media superior y el 28.46% con educación superior. Teniendo a nivel municipal un grado promedio de escolaridad es de 10.58 años.</p>
+          <p class="detallados-autor-fecha"><b>Por Implan Torreón, 11/06/2019 09:00</p>
+        </div>
+      </div>
+      <!-- Fin Programa  -->
+
+    </div>
+
+
+  </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
