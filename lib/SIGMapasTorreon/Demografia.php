@@ -40,7 +40,7 @@ class Demografia extends \Base\Publicacion {
         $this->imagen             = 'demografia/imagen.jpg';
         $this->imagen_previa      = 'demografia/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Indicadores de la población como lugar de nacimiento, educación, cobertura de servicios de salud, entre otros.';
+        $this->descripcion        = 'Indicadores de la población como población total masculina y femenina, fecundidad promedio, población con discapacidad, entre otros.';
         $this->claves             = 'censo, poblacion, vivienda, torreon, implan';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';

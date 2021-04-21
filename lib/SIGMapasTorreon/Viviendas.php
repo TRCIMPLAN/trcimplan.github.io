@@ -40,7 +40,7 @@ class Viviendas extends \Base\Publicacion {
         $this->imagen             = 'viviendas/imagen.jpg';
         $this->imagen_previa      = 'viviendas/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Indicadores sobre las características de la vivienda, drenaje, equipamiento, tipo de pisos, abastecimiento de agua, electricidad, cuartos, jefe de vivienda, entre otros.';
+        $this->descripcion        = 'Indicadores sobre las características de la vivienda como disponibilidad de electricidad, agua, drenaje, hogares con automóvil, entre otros.';
         $this->claves             = 'censo, poblacion, vivienda, torreon, implan';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';

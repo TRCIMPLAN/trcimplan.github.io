@@ -40,7 +40,7 @@ class CaracteristicasEconomicas extends \Base\Publicacion {
         $this->imagen             = 'caracteristicas-economicas/imagen.jpg';
         $this->imagen_previa      = 'caracteristicas-economicas/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion        = 'Indicadores económicos de la población como ingreso mensual, horas laboradas, población ocupada, subocupada y desocupada, entre otros.';
+        $this->descripcion        = 'Indicadores económicos de la población como derechohabiencia, población ocupada, población desocupada, entre otros.';
         $this->claves             = 'censo, poblacion, vivienda, torreon, implan';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
