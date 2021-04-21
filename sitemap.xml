@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-04-19</lastmod>
+    <lastmod>2021-04-21</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5416,6 +5416,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/caracteristicas-economicas.html</loc>
+    <lastmod>2021-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/caracteristicas-viviendas.html</loc>
     <lastmod>2019-03-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -5438,6 +5443,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html</loc>
     <lastmod>2015-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/demografia.html</loc>
+    <lastmod>2021-04-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5553,6 +5563,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/vida-en-ciudad.html</loc>
     <lastmod>2015-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/viviendas.html</loc>
+    <lastmod>2021-04-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
