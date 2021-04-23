@@ -67,6 +67,7 @@ class Viviendas extends \Base\Publicacion {
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/30e7bff8-109f-47d7-a935-15898ed727be/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>INDICADORES POR COLONIA; DATOS DEL CENSO DE POBLACIÓN Y VIVIENDA INEGI 2020</b>
 </br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
 </br></br></br>
 FINAL;

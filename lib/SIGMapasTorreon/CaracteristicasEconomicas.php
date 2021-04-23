@@ -67,6 +67,7 @@ class CaracteristicasEconomicas extends \Base\Publicacion {
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/7c9d403a-7cbb-4f7d-a8d7-1dc3eb5f4ba0/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>INDICADORES POR COLONIA; DATOS DEL CENSO DE POBLACIÓN Y VIVIENDA INEGI 2020</b>
 </br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
 </br></br></br>
 FINAL;
