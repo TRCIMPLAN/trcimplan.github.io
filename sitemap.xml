@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-04-23</lastmod>
+    <lastmod>2021-04-26</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/abuso-y-maltrato-contra-ninos-y-ninas-abr-2021.html</loc>
+    <lastmod>2021-04-26</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/acceso-a-la-seguridad-social-en-la-laguna-abril-2021.html</loc>
