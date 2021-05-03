@@ -107,7 +107,6 @@ class NavegacionConfig {
         'Institucional' => array(
             'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
             'Institucional > Mensaje del Director'                    => 'institucional/mensaje-director.html',
-            //'Institucional > Mensaje del Director'                    => '',
             'Institucional > Quienes Somos'                           => 'autores/index.html',
             'Institucional > Estructura Orgánica'                     => 'institucional/estructura-organica.html',
             'Institucional > Modelo Operativo Univ.'                  => 'institucional/modelo-operativo-universal.html',

@@ -43,7 +43,7 @@ class MensajeDirector extends \Base\PublicacionSchemaArticle {
         $this->imagen_previa              = 'mensaje-director/jose-antonio-ramirez-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Mensaje del Director General Ejecutivo del IMPLAN Torreón.';
-        $this->claves                     = 'IMPLAN, Torreon, Director';
+        $this->claves                     = 'IMPLAN, Torreon, Director, mensaje';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Institucional > Mensaje del Director';
         // Ruta al archivo markdown con el contenido
