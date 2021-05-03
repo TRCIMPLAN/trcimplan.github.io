@@ -35,7 +35,8 @@ Le agradecemos que nos ayude a difundir los contenidos del sitio, ya sea por red
 * Sitio Web: [http://trcimplan.gob.mx](http://trcimplan.gob.mx)
 * Twitter: [@trcimplan](https://twitter.com/trcimplan)
 * Facebook: [/trcimplan](https://facebook.com/trcimplan)
-* GitHub: [/trcimplan](https://github.com/trcimplan)
+* Instagram: [implantorreon](https://instagram.com/implantorreon)
+
 
 ### ¿Cómo puedo recibir noticias e información?
 
