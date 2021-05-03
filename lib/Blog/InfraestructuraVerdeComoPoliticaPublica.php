@@ -34,7 +34,7 @@ class InfraestructuraVerdeComoPoliticaPublica extends \Base\PublicacionSchemaBlo
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'infraestructura verde como política pública municipal';
+        $this->nombre                     = 'Infraestructura verde como política pública municipal';
         $this->autor                      = 'Lic. Jesús Abraham Salazar Valadez';
         $this->fecha                      = '2021-05-03T00:00';
         // El nombre del archivo a crear
