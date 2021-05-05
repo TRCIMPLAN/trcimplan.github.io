@@ -7,7 +7,7 @@ Tipo de cambio del último mes                       |  $20.44   |marzo 2021    
 Apreciación interanual del tipo de cambio           |  12.96%   |28 de abril 2020 - 28 de abril 2021|Nacional|Banxico   |
 Tasa de interés objetivo                            |  4.00%    |marzo 2021     |Nacional   |Banxico        |
 Último movimiento de la tasa                    |  -0.25%   |25 de enero 2021   |Nacional   |Banxico        |
-Inflación interanual                        |  4.68%    |marzo 2020  marzo 2021|Nacional   |Banxico        |
+Inflación interanual                        |  4.68%    |marzo 2020 a marzo 2021|Nacional   |Banxico        |
 
 ## Indicadores regionales
 Indicador                                                       |Dato       |Periodo        |Nivel      |Fuente                 |
