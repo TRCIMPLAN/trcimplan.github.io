@@ -23,18 +23,18 @@ C. Ernesto Llamas Sotomayor                | Colegio de Profesionistas y Empresa
 C. Rogelio Barrios                         | Asociaciones y Colegios de Profesionistas y Emprendedores
 C. Fernando Menéndez Cuellar               | Iniciativa Privada
 C. Roberto A. Muñoz del Río                | Iniciativa Privada
-C. Ana Catalina Arguelles del Bosque       | Organizaciones no Gubernamentales
+C.Ana Catalina Argüelles del Bosque        | Organizaciones de la Sociedad Civil
 C. Susana Estens de la Garza               | Organizaciones de la Sociedad Civil
-C. José Luis Zapata Dávila                 | Rector ITL Instituciones de Educación Superior
+C. José Luis Zapata Dávila                 | Instituciones de Educación Superior
 C. Raul Martínez Hernández                 | Instituciones de Educación Superior
 
 ##Consejeros Propuestos por el Alcalde
 
 Nombre                                     | Cargo
 -------------------------------------------|------------------------------------------------------------------------------------
-C. Guillermo Prieto Salinas S.J.           | Rector de Universidad Iberoamericana de Torreón
-C. Rafael Rebollar González                | Director Met-Mex Peñoles
-C. Eduardo Arrambide Leal                  | Director de Tecnológico de Monterrey Campus Laguna
-C. Luis Arturo Dávila de León              | Rector de Universidad LaSalle
-C. Edgar Salinas Uribe                     | Consejo de Inversión
-C. Fernando Royo Díaz Rivera               | Director regional de CIBanco
+C. Guillermo Prieto Salinas S.J.           | Instituciones Académicas
+C. Rafael Rebollar González                | Organismos Empresariales
+C. Eduardo Arrambide Leal                  | Instituciones Académicas
+C. Luis Arturo Dávila de León              | Instituciones Académicas
+C. Edgar Salinas Uribe                     | Organismos Empresariales
+C. Fernando Royo Díaz Rivera               | Organismos empresariales
