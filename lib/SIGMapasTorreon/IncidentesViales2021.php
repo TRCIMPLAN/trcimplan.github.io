@@ -53,7 +53,7 @@ class IncidentesViales2021 extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Vialidad', 'Movilidad');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/d08b1e70-1bd6-4ad7-a5f9-78f2f22462c3/embed';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/56a84f3a-87de-439a-869d-5def492ceead/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,7 +66,7 @@ class IncidentesViales2021 extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/d08b1e70-1bd6-4ad7-a5f9-78f2f22462c3/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/56a84f3a-87de-439a-869d-5def492ceead/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </br><b>Fuente: Dirección de Tránsito y Vialidad, 2021.</b></br></br>
 </br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS</b></br></br>
 FINAL;
