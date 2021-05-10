@@ -37,4 +37,4 @@ C. Rafael Rebollar González                | Organismos Empresariales
 C. Eduardo Arrambide Leal                  | Instituciones Académicas
 C. Luis Arturo Dávila de León              | Instituciones Académicas
 C. Edgar Salinas Uribe                     | Organismos Empresariales
-C. Fernando Royo Díaz Rivera               | Organismos empresariales
+C. Fernando Royo Díaz Rivera               | Organismos Empresariales

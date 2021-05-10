@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-05-07</lastmod>
+    <lastmod>2021-05-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1133,6 +1133,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/laguna-y2040-una-oportunidad-de-liderazgo-para-los-jovenes.html</loc>
     <lastmod>2018-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/las-limitaciones-de-la-nom035-may-2021.html</loc>
+    <lastmod>2021-05-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
