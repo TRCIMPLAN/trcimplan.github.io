@@ -79,7 +79,7 @@ class NavegacionConfig {
             'Información Geográfica > Datos Abiertos'                 => 'sig/datos-abiertos.html'),
         'Plan Estratégico Torreón 2040' => array(
             'Plan Estratégico Torreón 2040 > Índice General'          => 'pet/indice.html',
-            'Plan Estratégico Torreón 2040 > Índice Alfabético'       => 'pet/index.html',
+            //'Plan Estratégico Torreón 2040 > Índice Alfabético'       => 'pet/index.html',
             'Plan Estratégico Torreón 2040 > Descargar'               => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html',
             'Plan Estratégico Torreón 2040 > Descripción del proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
             'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html',
@@ -161,7 +161,7 @@ class NavegacionConfig {
             'Usos de Suelo'                => 'fa fa-map-marker',
         'Plan Estratégico Torreón 2040'    => 'fa fa-book',
             'Índice General'               => 'fa fa-list-ul',
-            'Índice Alfabético'            => 'fa fa-font',
+             //'Índice Alfabético'            => 'fa fa-font',
             'Descargar'                    => 'fa fa-download',
             'Descripción del proceso'      => 'fa fa-calendar',
             'Proyectos'                    => 'fa fa-check-square',
