@@ -67,15 +67,20 @@ class Contacto extends \Base\Publicacion {
         $ubicacion->geo->longitude    = -103.4622;
         $ubicacion->content           = <<<FINAL
 <div style="clear:left;"></div>
-<h3>Ubicación</h3>
-<iframe width="100%" height="400" frameborder="0" src="http://guivaloz.cartodb.com/viz/1cdb40aa-b3bf-11e4-91ec-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-<h3>Horario</h3>
+
+
 <ul>
     <li>Lunes a viernes de 8:00 A.M. a 4:00 P.M.</li>
 </ul>
+<h3>Ubicación</h3>
+<a href=""><img class="img-responsive contenido-imagen" src="../contacto/mapa-ubicacion-implan.jpg" align="center" alt="ubicación Implan Torreón" width="100%" height="400"></a>
+
+
 
 FINAL;
+// <h3>Horario</h3>
+// <iframe width="100%" height="400" frameborder="0" src="http://guivaloz.cartodb.com/viz/1cdb40aa-b3bf-11e4-91ec-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
         // Definir los datos de la Organización Gubernamental, en el constructor se inició
         $this->contenido->big_heading = TRUE;
         $this->contenido->name        = 'Instituto Municipal de Planeación y Competitividad de Torreón';
