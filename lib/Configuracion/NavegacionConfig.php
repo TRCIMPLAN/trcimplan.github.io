@@ -89,8 +89,8 @@ class NavegacionConfig {
         'Documentos'  => array(
             'Documentos > Planes y Programas'                         => 'sig-planes/index.html',
             'Documentos > Investigaciones'                            => 'investigaciones/index.html',
-            'Documentos > Estudios'                                   => 'estudios/index.html',
-            'Documentos > Leyes y Reglamentos'                        => 'institucional/reglamentos.html'),
+            'Documentos > Estudios'                                   => 'estudios/index.html'),
+            //'Documentos > Leyes y Reglamentos'                        => 'institucional/reglamentos.html'),
 // ÚLTIMOS CAMBIOS VM FIN
 //        'Estudios'                                                    => 'estudios/index.html',
 //        'Investigaciones'                                             => 'investigaciones/index.html',
@@ -170,7 +170,7 @@ class NavegacionConfig {
         'Documentos'                       => 'fa fa-briefcase',
             'Planes y Programas'           => 'fa fa-book',
             'Estudios e Investigaciones'   => 'fa fa-book',
-            'Leyes y Reglamentos'          => 'fa fa-book',
+            //'Leyes y Reglamentos'          => 'fa fa-book',
 
         'Consejo Directivo'                => 'fa fa-users',
         'Sala de Prensa'                   => 'fa fa-newspaper-o',
