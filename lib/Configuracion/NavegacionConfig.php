@@ -51,7 +51,7 @@ class NavegacionConfig {
             'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed',
             //'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed',
             'Indicadores Básicos de Colonias > Torreón Urbano'        => 'ibc/torreon-urbano.html',
-            'Indicadores Básicos de Colonias > Catálogo de Conceptos' => 'ibc/catalogo-conceptos.html',
+            //'Indicadores Básicos de Colonias > Catálogo de Conceptos' => 'ibc/catalogo-conceptos.html',
             'Indicadores Básicos de Colonias > Datos Abiertos'        => 'ibc/datos-abiertos.html'),
         //CAMBIOS VM
        // 'Información Geográfica' => array(
@@ -145,7 +145,7 @@ class NavegacionConfig {
             'Colonias de Torreón'          => 'fa fa-font',
             'Mapa Completo'                => 'fa fa-external-link',
             'Torreón Urbano'               => 'fa fa-table',
-            'Catálogo de Conceptos'        => 'fa fa-list-ul',
+            //'Catálogo de Conceptos'        => 'fa fa-list-ul',
         'Información Geográfica'           => 'fa fa-map-marker',
             'Introducción al SIG'          => 'fa fa-file-text-o',
             'Planes'                       => 'fa fa-file-pdf-o',
