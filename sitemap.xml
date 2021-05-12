@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-05-11</lastmod>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4056,13 +4056,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/institucional/NuestrosProyectos.html</loc>
+    <lastmod>2021-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/institucional/reglamentos.html</loc>
     <lastmod>2015-03-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/institucional/vision-mision.html</loc>
-    <lastmod>2021-05-11</lastmod>
+    <lastmod>2021-05-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

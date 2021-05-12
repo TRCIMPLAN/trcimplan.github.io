@@ -34,8 +34,8 @@ class VisionMision extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Visión / Misión';
-        $this->fecha                      = '2021-05-11T08:00';
+        $this->nombre                     = 'Misión / Visión';
+        $this->fecha                      = '2021-05-12T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'vision-mision';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.

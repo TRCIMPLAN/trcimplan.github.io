@@ -103,9 +103,10 @@ class NavegacionConfig {
             'Consejo Visión Metrópoli > Sala de Prensa'               => 'vision-metropoli/index.html',
             'Consejo Visión Metrópoli > Reglamento'                   => 'vision-metropoli/reglamento-vision-metropoli-2020.pdf',
             'Consejo Visión Metrópoli > Informe 2019 - 2021'          => 'https://issuu.com/consejovisionmetropoli/docs/informe_visi_n_metr_poli_2019_-_2021'),
-      //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html',
+
         'Institucional' => array(
-            'Institucional > Visión / Misión'                         => 'institucional/vision-mision.html',
+            'Institucional > Misión / Visión'                         => 'institucional/vision-mision.html',
+            'Institucional > Nuestros Proyectos'                      => 'institucional/NuestrosProyectos.html',
             'Institucional > Mensaje del Director'                    => 'institucional/mensaje-director.html',
             'Institucional > Quienes Somos'                           => 'autores/index.html',
             'Institucional > Estructura Orgánica'                     => 'institucional/estructura-organica.html',
@@ -178,7 +179,8 @@ class NavegacionConfig {
         'Visión Metrópoli'                 => 'fa fa-university',
             'Reglamento'                   => 'fa fa-file-text-o',
         'Institucional'                    => 'fa fa-building-o',
-            'Visión / Misión'              => 'fa fa-trophy',
+            'Misión / Visión'              => 'fa fa-trophy',
+            'Nuestros Proyectos'           => 'fa fa-pencil-square-o',
             'Mensaje del Director'         => 'fa fa-comment',
             'Quienes Somos'                => 'fa fa-user',
             'Estructura Orgánica'          => 'fa fa-sitemap',
