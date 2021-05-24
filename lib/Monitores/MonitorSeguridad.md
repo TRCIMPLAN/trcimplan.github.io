@@ -1,41 +1,41 @@
 
-##ABRIL 2021
+##MAYO 2021
 
 ## DELITOS
 | INDICADOR                         | DATO      | NIVEL     | FECHA                         |
 |---------------------------------------|---------------|---------------|-------------------------------|
-| Delitos del fuero común       |7,012      | ZML       | SESNSP marzo 2021     |
-| Delitos del fuero común       |2,879      | Torreón   | SESNSP marzo 2021     |
+| Delitos del fuero común       |9,813      | ZML       | SESNSP abril 2021     |
+| Delitos del fuero común       |4,084      | Torreón   | SESNSP abril 2021     |
 
 ## ROBOS
 | INDICADOR                         | DATO      | NIVEL     | FECHA                         |
 |---------------------------------------|---------------|---------------|-------------------------------|
-| Robo a casa habitación            |425        | ZML       | SESNSP marzo 2021     |
-| Robo a negocio            |193        | ZML       | SESNSP marzo 2021     |
-| Robo de vehículo automotor        |184        | ZML       | SESNSP marzo 2021     |
-| Robo a transeúnte en vía publica  |102        | ZML       | SESNSP marzo 2021     |
-| Robo de autopartes            |25     | ZML       | SESNSP marzo 2021     |
+| Robo a casa habitación            |610        | ZML       | SESNSP abril 2021     |
+| Robo a negocio            |307        | ZML       | SESNSP abril 2021     |
+| Robo de vehículo automotor        |250        | ZML       | SESNSP abril 2021     |
+| Robo a transeúnte en vía publica  |127        | ZML       | SESNSP abril 2021     |
+| Robo de autopartes            |32     | ZML       | SESNSP abril 2021     |
 
 ## DELITOS SEXUALES
 | INDICADOR                         | DATO      | NIVEL     | FECHA                         |
 |---------------------------------------|---------------|---------------|-------------------------------|
-| Abuso sexual                  |124        | ZML       |  SESNSP marzo 2021        |
-| Abuso sexual                  |38     | Torreón   |  SESNSP marzo 2021        |
-| Acoso sexual                  |22         | Torreón   |  SESNSP marzo 2021        |
+| Abuso sexual                  |156        | ZML       |  SESNSP abril 2021        |
+| Abuso sexual                  |50     | Torreón   |  SESNSP abril 2021        |
+| Acoso sexual                  |27         | Torreón   |  SESNSP abril 2021        |
 
 ## OTROS DELITOS
 | INDICADOR                         | DATO      | NIVEL     | FECHA                         |
 |---------------------------------------|---------------|---------------|-------------------------------|
-| Violencia familiar            |1,385      | ZML       |  SESNSP marzo 2021        |
-| Violencia familiar            |627        | Torreón   |  SESNSP marzo 2021        |
-| Lesiones                      |731        | ZML       |  SESNSP marzo 2021        |
-| Lesiones                      |231        | Torreón   |  SESNSP marzo 2021        |
-| Daños a la propiedad          |632        | ZML       |  SESNSP marzo 2021        |
-| Daños a la propiedad          |353        | Torreón   |  SESNSP marzo 2021        |
-| Narcomenudeo                  |761        | ZML       |  SESNSP marzo 2021        |
-| Narcomenudeo                  |430        | Torreón   |  SESNSP marzo 2021        |
-| Fraude                        |211        | ZML       |  SESNSP marzo 2021        |
-| Fraude                        |102        | Torreón   |  SESNSP marzo 2021        |
+| Violencia familiar            |2,038      | ZML       |  SESNSP abril 2021        |
+| Violencia familiar            |909        | Torreón   |  SESNSP abril 2021        |
+| Lesiones                      |1,062      | ZML       |  SESNSP abril 2021        |
+| Lesiones                      |363        | Torreón   |  SESNSP abril 2021        |
+| Daños a la propiedad          |894        | ZML       |  SESNSP abril 2021        |
+| Daños a la propiedad          |506        | Torreón   |  SESNSP abril 2021        |
+| Narcomenudeo                  |949        | ZML       |  SESNSP abril 2021        |
+| Narcomenudeo                  |558        | Torreón   |  SESNSP abril 2021        |
+| Fraude                        |289        | ZML       |  SESNSP abril 2021        |
+| Fraude                        |152        | Torreón   |  SESNSP abril 2021        |
 
 
 
@@ -48,6 +48,7 @@ Informe:
 [- Enero 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-ene-2021.pdf)
 [,Febrero 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-feb-2021.pdf)
 [,Marzo 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-mar-2021.pdf)
+[,Abril 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-abr-2021.pdf)
 </br>
 
 <b> AÑO 2020 </b>
