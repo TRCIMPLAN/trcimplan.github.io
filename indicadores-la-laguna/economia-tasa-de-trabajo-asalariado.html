@@ -239,8 +239,32 @@
     </thead>
     <tbody>
       <tr>
-        <td class="centrado">2019-09-30</td>
-        <td class="derecha">74.1400 %</td>
+        <td class="centrado">2018-03-31</td>
+        <td class="derecha">73.3000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-09-30</td>
+        <td class="derecha">74.3000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">75.3500 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">73.4000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-06-30</td>
+        <td class="derecha">74.4000 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -268,6 +292,18 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">78.6100 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">74.7800 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -291,37 +327,30 @@
     </thead>
     <tbody>
       <tr>
-        <td>Torreón</td>
-        <td class="centrado">2019-06-30</td>
-        <td>74.4000</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
-        <td></td>
-      </tr>
-      <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-09-30</td>
-        <td>74.0800</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">74.7800 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2020-09-30</td>
-        <td>75.2300</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">76.4300 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2020-09-30</td>
-        <td>68.0200</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">68.5300 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2020-09-30</td>
-        <td>65.6300</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">65.7500 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -424,16 +453,41 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTasaDeTrabajoAsalariadoEnLaLaguna === 'undefined') {
+     $('#SmiDatosTasaDeTrabajoAsalariadoEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosTasaDeTrabajoAsalariadoEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeTrabajoAsalariadoEnLaLaguna === 'undefined') {
     varSmiGraficasTasaDeTrabajoAsalariadoEnLaLaguna = Morris.Line({
       element: 'SmiGraficasTasaDeTrabajoAsalariadoEnLaLaguna',
       data: [
+        { fecha: '2018-03-31', dato: 73.3000 },
+        { fecha: '2018-09-30', dato: 74.3000 },
+        { fecha: '2018-12-31', dato: 75.3500 },
+        { fecha: '2019-03-31', dato: 73.4000 },
+        { fecha: '2019-06-30', dato: 74.4000 },
         { fecha: '2019-09-30', dato: 74.1400 },
         { fecha: '2019-12-31', dato: 74.1700 },
         { fecha: '2020-03-31', dato: 75.0400 },
-        { fecha: '2020-09-30', dato: 74.0800 }],
+        { fecha: '2020-09-30', dato: 74.0800 },
+        { fecha: '2020-12-31', dato: 78.6100 },
+        { fecha: '2021-03-31', dato: 74.7800 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -448,7 +502,7 @@
   if (typeof varSmiOtrasRegionesTasaDeTrabajoAsalariadoEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeTrabajoAsalariadoEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeTrabajoAsalariadoEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 74.4000 },{ region: 'La Laguna', dato: 74.0800 },{ region: 'Coahuila', dato: 75.2300 },{ region: 'Durango', dato: 68.0200 },{ region: 'Nacional', dato: 65.6300 }],
+      data: [{ region: 'La Laguna', dato: 74.7800 },{ region: 'Coahuila', dato: 76.4300 },{ region: 'Durango', dato: 68.5300 },{ region: 'Nacional', dato: 65.7500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

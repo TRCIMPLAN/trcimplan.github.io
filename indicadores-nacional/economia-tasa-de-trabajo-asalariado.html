@@ -256,6 +256,18 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">75.0400 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">65.7500 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -279,37 +291,30 @@
     </thead>
     <tbody>
       <tr>
-        <td>Torreón</td>
-        <td class="centrado">2019-06-30</td>
-        <td>74.4000</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
-        <td></td>
-      </tr>
-      <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-09-30</td>
-        <td>74.0800</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">74.7800 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2020-09-30</td>
-        <td>75.2300</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">76.4300 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2020-09-30</td>
-        <td>68.0200</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">68.5300 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2020-09-30</td>
-        <td>65.6300</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">65.7500 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -363,7 +368,9 @@
       data: [
         { fecha: '2019-12-31', dato: 64.4200 },
         { fecha: '2020-03-31', dato: 65.0700 },
-        { fecha: '2020-09-30', dato: 65.6300 }],
+        { fecha: '2020-09-30', dato: 65.6300 },
+        { fecha: '2020-12-31', dato: 75.0400 },
+        { fecha: '2021-03-31', dato: 65.7500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -378,7 +385,7 @@
   if (typeof varSmiOtrasRegionesTasaDeTrabajoAsalariadoEnNacionalGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeTrabajoAsalariadoEnNacionalGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeTrabajoAsalariadoEnNacionalGrafica',
-      data: [{ region: 'Torreón', dato: 74.4000 },{ region: 'La Laguna', dato: 74.0800 },{ region: 'Coahuila', dato: 75.2300 },{ region: 'Durango', dato: 68.0200 },{ region: 'Nacional', dato: 65.6300 }],
+      data: [{ region: 'La Laguna', dato: 74.7800 },{ region: 'Coahuila', dato: 76.4300 },{ region: 'Durango', dato: 68.5300 },{ region: 'Nacional', dato: 65.7500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

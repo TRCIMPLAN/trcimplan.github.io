@@ -239,6 +239,42 @@
     </thead>
     <tbody>
       <tr>
+        <td class="centrado">2018-03-31</td>
+        <td class="derecha">8.6000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-06-30</td>
+        <td class="derecha">15.4000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-09-30</td>
+        <td class="derecha">10.4000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">10.1100 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-03-31</td>
+        <td class="derecha">7.9000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-06-30</td>
+        <td class="derecha">9.7000 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2019-09-30</td>
         <td class="derecha">12.1420 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
@@ -277,12 +313,6 @@
       <tr>
         <td class="centrado">2019-12-31</td>
         <td class="derecha">10.1100 %</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="centrado">2020-03-31</td>
-        <td class="derecha">8.9200 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -295,6 +325,18 @@
       <tr>
         <td class="centrado">2020-09-30</td>
         <td class="derecha">15.7900 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">5.6800 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">12.9100 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -321,37 +363,30 @@
     </thead>
     <tbody>
       <tr>
-        <td>Torreón</td>
-        <td class="centrado">2019-06-30</td>
-        <td>9.7000</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
-        <td></td>
-      </tr>
-      <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-09-30</td>
-        <td>15.7900</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">12.9100 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2020-09-30</td>
-        <td>13.2700</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">8.4700 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2020-09-30</td>
-        <td>11.4100</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">9.0900 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2020-09-30</td>
-        <td>17.0400</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">13.8200 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -454,16 +489,42 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTasaDeSubocupacionEnLaLaguna === 'undefined') {
+     $('#SmiDatosTasaDeSubocupacionEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosTasaDeSubocupacionEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeSubocupacionEnLaLaguna === 'undefined') {
     varSmiGraficasTasaDeSubocupacionEnLaLaguna = Morris.Line({
       element: 'SmiGraficasTasaDeSubocupacionEnLaLaguna',
       data: [
+        { fecha: '2018-03-31', dato: 8.6000 },
+        { fecha: '2018-06-30', dato: 15.4000 },
+        { fecha: '2018-09-30', dato: 10.4000 },
+        { fecha: '2018-12-31', dato: 10.1100 },
+        { fecha: '2019-03-31', dato: 7.9000 },
+        { fecha: '2019-06-30', dato: 9.7000 },
         { fecha: '2019-09-30', dato: 12.1400 },
         { fecha: '2019-12-31', dato: 10.1100 },
         { fecha: '2020-03-31', dato: 8.9200 },
-        { fecha: '2020-09-30', dato: 15.7900 }],
+        { fecha: '2020-09-30', dato: 15.7900 },
+        { fecha: '2020-12-31', dato: 5.6800 },
+        { fecha: '2021-03-31', dato: 12.9100 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -478,7 +539,7 @@
   if (typeof varSmiOtrasRegionesTasaDeSubocupacionEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeSubocupacionEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeSubocupacionEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 9.7000 },{ region: 'La Laguna', dato: 15.7900 },{ region: 'Coahuila', dato: 13.2700 },{ region: 'Durango', dato: 11.4100 },{ region: 'Nacional', dato: 17.0400 }],
+      data: [{ region: 'La Laguna', dato: 12.9100 },{ region: 'Coahuila', dato: 8.4700 },{ region: 'Durango', dato: 9.0900 },{ region: 'Nacional', dato: 13.8200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

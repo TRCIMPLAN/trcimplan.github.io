@@ -256,6 +256,18 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">36.9200 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">42.2700 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -287,29 +299,29 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">51.0700 %</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">54.3900 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">40.2000 %</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">42.2700 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">41.6200 %</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">48.6700 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">49.3900 %</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">52.2700 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -363,7 +375,9 @@
       data: [
         { fecha: '2019-12-31', dato: 35.7300 },
         { fecha: '2020-03-31', dato: 35.8400 },
-        { fecha: '2020-09-30', dato: 40.2000 }],
+        { fecha: '2020-09-30', dato: 40.2000 },
+        { fecha: '2020-12-31', dato: 36.9200 },
+        { fecha: '2021-03-31', dato: 42.2700 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -378,7 +392,7 @@
   if (typeof varSmiOtrasRegionesDesocupadosConEducacionSuperiorOMediaSuperiorEnCoahuilaGrafica === 'undefined') {
     varSmiOtrasRegionesDesocupadosConEducacionSuperiorOMediaSuperiorEnCoahuilaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDesocupadosConEducacionSuperiorOMediaSuperiorEnCoahuilaGrafica',
-      data: [{ region: 'Torreón', dato: 43.3000 },{ region: 'La Laguna', dato: 51.0700 },{ region: 'Coahuila', dato: 40.2000 },{ region: 'Durango', dato: 41.6200 },{ region: 'Nacional', dato: 49.3900 }],
+      data: [{ region: 'Torreón', dato: 43.3000 },{ region: 'La Laguna', dato: 54.3900 },{ region: 'Coahuila', dato: 42.2700 },{ region: 'Durango', dato: 48.6700 },{ region: 'Nacional', dato: 52.2700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

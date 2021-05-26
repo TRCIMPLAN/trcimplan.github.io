@@ -239,12 +239,6 @@
     </thead>
     <tbody>
       <tr>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">810,077</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
-        <td></td>
-      </tr>
-      <tr>
         <td class="centrado">2020-03-31</td>
         <td class="derecha">796,022</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
@@ -308,8 +302,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-09-30</td>
-        <td class="derecha">523,459</td>
+        <td class="centrado">2021-03-31</td>
+        <td class="derecha">548,902</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -382,7 +376,6 @@
     varSmiGraficasPoblacionEconomicamenteActivaPeaEnDurango = Morris.Line({
       element: 'SmiGraficasPoblacionEconomicamenteActivaPeaEnDurango',
       data: [
-        { fecha: '2019-12-31', dato: 810077 },
         { fecha: '2020-03-31', dato: 796022 },
         { fecha: '2020-09-30', dato: 806911 }],
       xkey: 'fecha',
@@ -399,7 +392,7 @@
   if (typeof varSmiOtrasRegionesPoblacionEconomicamenteActivaPeaEnDurangoGrafica === 'undefined') {
     varSmiOtrasRegionesPoblacionEconomicamenteActivaPeaEnDurangoGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPoblacionEconomicamenteActivaPeaEnDurangoGrafica',
-      data: [{ region: 'Torreón', dato: 311815 },{ region: 'Gómez Palacio', dato: 165171 },{ region: 'Lerdo', dato: 54779 },{ region: 'Matamoros', dato: 81243 },{ region: 'La Laguna', dato: 523459 },{ region: 'Coahuila', dato: 1370489 },{ region: 'Durango', dato: 806911 },{ region: 'Nacional', dato: 53780524 }],
+      data: [{ region: 'Torreón', dato: 311815 },{ region: 'Gómez Palacio', dato: 165171 },{ region: 'Lerdo', dato: 54779 },{ region: 'Matamoros', dato: 81243 },{ region: 'La Laguna', dato: 548902 },{ region: 'Coahuila', dato: 1370489 },{ region: 'Durango', dato: 806911 },{ region: 'Nacional', dato: 53780524 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
