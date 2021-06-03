@@ -40,7 +40,9 @@ class Aviso {
         $a[] = '            <center><h1 style="border-bottom:none">Suspensión de difusión y propaganda por periodo electoral</h1></center>';
         $a[] = '        </div>';
         $a[] = '        <div class="panel-body">';
-        $a[] = '            <p><br/><br/><br/><b><h2>“El contenido de este sitio será modificado temporalmente <br/> conforme a la ley electoral y será reactivado con normalidad al término de la jornada electoral, el próximo 7 de junio”</h2></b><br/><br/><br/></p>';
+        $a[] = '<img class="img-responsive" src="imagenes/aviso-logo-coah.jpg" alt="gráfica seguridad social">';
+        $a[] = '            <p><br/><br/><b><h2>“El contenido de este sitio será modificado temporalmente <br/> conforme a la ley electoral y será reactivado con normalidad al término de la jornada electoral, el próximo 7 de junio”</h2></b><br/><br/><br/></p>';
+
         /**$a[] = '            <p>El IMPLAN Torreón acatará las disposiciones de este órgano federal electoral en cuanto a sus normas reglamentarias sobre la propaganda gubernamental para los procesos electorales 2021 respecto al artículo 41, base III, apartado C de la Constitución Política de los Estados Unidos Mexicanos.</p>';
         $a[] = '            <p>Ante estas disposiciones, se dejarán de emitir boletines de prensa y el Sistema Metropolitano de Indicadores (SMI) así como el Sistema de Información Geográfica (SIG) recibirán información que no sea considerada como propaganda gubernamental.</p>'; **/
         $a[] = '        </div>';
