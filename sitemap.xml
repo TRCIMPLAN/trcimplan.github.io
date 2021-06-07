@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -388,6 +388,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/dia-mundial-del-agua.html</loc>
     <lastmod>2018-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/dia-mundial-del-medio-ambiente-jun-2021.html</loc>
+    <lastmod>2021-06-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
