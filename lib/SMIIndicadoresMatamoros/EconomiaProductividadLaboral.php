@@ -67,7 +67,8 @@ class EconomiaProductividadLaboral extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2010-12-31', 'valor' => '45744.00', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2010-12-31', 'valor' => '45744.00', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '1994.34', 'fuente_nombre' => 'IMCO', 'notas' => 'Valor agregado')); // formateado 0, valor 4, crudo 3
     } // datos
 
     /**
@@ -91,11 +92,11 @@ class EconomiaProductividadLaboral extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2010-12-31', 'valor' => '530143.00', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2010-12-31', 'valor' => '462597.00', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2010-12-31', 'valor' => '51284.00', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2010-12-31', 'valor' => '45744.00', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2010-12-31', 'valor' => '421204.00', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '111780.50', 'fuente_nombre' => 'IMCO', 'notas' => 'Valor agregado'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-12-31', 'valor' => '33051.82', 'fuente_nombre' => 'IMCO', 'notas' => 'Valor agregado'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-12-31', 'valor' => '2882.34', 'fuente_nombre' => 'IMCO', 'notas' => 'Valor agregado'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2018-12-31', 'valor' => '1994.34', 'fuente_nombre' => 'IMCO', 'notas' => 'Valor agregado'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '149709.00', 'fuente_nombre' => 'IMCO', 'notas' => 'Valor agregado'));
     } // otras_regiones
 
     /**

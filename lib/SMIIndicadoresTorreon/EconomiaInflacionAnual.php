@@ -43,7 +43,7 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Macroeconomía';
         // Para el Organizador
         $this->categorias  = array('Macroeconomía');
-        $this->fuentes     = array('INEGI');
+        $this->fuentes     = array('INEGI', 'IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -83,7 +83,8 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
             array('fecha' => '2014-12-31', 'valor' => '4.2800', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '1.6700', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2016-12-31', 'valor' => '2.9400', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2017-12-31', 'valor' => '8.5787', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 34, crudo 17
+            array('fecha' => '2017-12-31', 'valor' => '8.5787', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2018-12-31', 'valor' => '4.1400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 36, crudo 18
     } // datos
 
     /**
@@ -95,7 +96,7 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -107,7 +108,10 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2017-12-31', 'valor' => '8.5787', 'fuente_nombre' => 'INEGI'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '4.1400', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '3.9400', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2019-12-31', 'valor' => '2.8300', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones

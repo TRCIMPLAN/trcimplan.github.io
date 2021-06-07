@@ -8311,6 +8311,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-inflacion-anual.html</loc>
+    <lastmod>2015-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-inflacion-mensual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-intensidad-energetica-en-la-economia.html</loc>
     <lastmod>2019-01-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -9916,6 +9926,21 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-inflacion-anual.html</loc>
+    <lastmod>2015-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-inflacion-mensual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-intensidad-electrica.html</loc>
+    <lastmod>2019-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-intensidad-energetica-en-la-economia.html</loc>
     <lastmod>2019-01-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -11508,6 +11533,21 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-indice-de-gini.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-inflacion-anual.html</loc>
+    <lastmod>2015-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-inflacion-mensual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-intensidad-electrica.html</loc>
+    <lastmod>2019-02-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13116,6 +13156,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-inflacion-mensual.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-ingresos-promedio-por-hora-trabajada-en-mujeres.html</loc>
     <lastmod>2019-05-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -13183,6 +13228,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-participacion-del-municipio-en-el-pib-de-la-zm.html</loc>
+    <lastmod>2019-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-participacion-del-pib-en-el-estado.html</loc>
+    <lastmod>2019-01-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

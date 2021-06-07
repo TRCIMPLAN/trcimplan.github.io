@@ -76,7 +76,12 @@ class EconomiaIntensidadElectrica extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +90,10 @@ class EconomiaIntensidadElectrica extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-12-31', 'valor' => '179173229', 'fuente_nombre' => 'IMCO', 'notas' => 'Kilowatts-hora'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2018-12-31', 'valor' => '185145008', 'fuente_nombre' => 'IMCO', 'notas' => 'Kilowatts-hora'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '8.3500', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

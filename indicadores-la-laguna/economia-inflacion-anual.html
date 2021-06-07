@@ -221,7 +221,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -238,23 +238,29 @@
     <tbody>
       <tr>
         <td class="centrado">2018-12-31</td>
-        <td class="derecha">4.6000 %</td>
+        <td>4.6000</td>
         <td>INEGI</td>
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>ND</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2019-12-31</td>
-        <td class="derecha">3.9400 %</td>
+        <td>3.9400</td>
         <td>INEGI</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Inflación Anual en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Inflación Anual en La Laguna con fuente INEGI</h3>
 
-    <div id="SmiGraficasInflacionAnualEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasInflacionAnualEnLaLagunaInegi" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Inflación Anual en La Laguna</h3>
@@ -272,22 +278,43 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2017-12-31</td>
-        <td class="derecha">8.5787 %</td>
-        <td>INEGI</td>
+        <td class="centrado">2018-12-31</td>
+        <td>4.1400</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td class="centrado">2018-12-31</td>
+        <td>ND</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td class="centrado">2018-12-31</td>
+        <td>ND</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td class="centrado">2018-12-31</td>
+        <td>ND</td>
+        <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
         <td class="centrado">2019-12-31</td>
-        <td class="derecha">3.9400 %</td>
+        <td>3.9400</td>
         <td>INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
         <td class="centrado">2019-12-31</td>
-        <td class="derecha">2.8300 %</td>
+        <td>2.8300</td>
         <td>INEGI</td>
         <td></td>
       </tr>
@@ -387,11 +414,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasInflacionAnualEnLaLaguna === 'undefined') {
-    varSmiGraficasInflacionAnualEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasInflacionAnualEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasInflacionAnualEnLaLagunaInegi === 'undefined') {
+    varSmiGraficasInflacionAnualEnLaLagunaInegi = Morris.Line({
+      element: 'SmiGraficasInflacionAnualEnLaLagunaInegi',
       data: [
         { fecha: '2018-12-31', dato: 4.6000 },
         { fecha: '2019-12-31', dato: 3.9400 }],
@@ -409,7 +436,7 @@
   if (typeof varSmiOtrasRegionesInflacionAnualEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesInflacionAnualEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesInflacionAnualEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 8.5787 },{ region: 'La Laguna', dato: 3.9400 },{ region: 'Nacional', dato: 2.8300 }],
+      data: [{ region: 'Torreón', dato: 4.1400 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 3.9400 },{ region: 'Nacional', dato: 2.8300 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

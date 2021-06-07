@@ -223,6 +223,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -243,8 +244,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 1,994.34</td>
+        <td>IMCO</td>
+        <td>Valor agregado</td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Productividad Laboral en Matamoros </h3>
+
+    <div id="SmiGraficasProductividadLaboralEnMatamoros" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Productividad Laboral en Matamoros</h3>
@@ -262,38 +274,38 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">$ 530,143.00</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 111,780.50</td>
         <td>IMCO</td>
-        <td></td>
+        <td>Valor agregado</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">$ 462,597.00</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 33,051.82</td>
         <td>IMCO</td>
-        <td></td>
+        <td>Valor agregado</td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">$ 51,284.00</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 2,882.34</td>
         <td>IMCO</td>
-        <td></td>
+        <td>Valor agregado</td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">$ 45,744.00</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 1,994.34</td>
         <td>IMCO</td>
-        <td></td>
+        <td>Valor agregado</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2010-12-31</td>
-        <td class="derecha">$ 421,204.00</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 149,709.00</td>
         <td>IMCO</td>
-        <td></td>
+        <td>Valor agregado</td>
       </tr>
     </tbody>
   </table>
@@ -388,12 +400,29 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasProductividadLaboralEnMatamoros === 'undefined') {
+    varSmiGraficasProductividadLaboralEnMatamoros = Morris.Line({
+      element: 'SmiGraficasProductividadLaboralEnMatamoros',
+      data: [
+        { fecha: '2010-12-31', dato: 45744.00 },
+        { fecha: '2018-12-31', dato: 1994.34 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesProductividadLaboralEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesProductividadLaboralEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesProductividadLaboralEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 530143.00 },{ region: 'Gómez Palacio', dato: 462597.00 },{ region: 'Lerdo', dato: 51284.00 },{ region: 'Matamoros', dato: 45744.00 },{ region: 'La Laguna', dato: 421204.00 }],
+      data: [{ region: 'Torreón', dato: 111780.50 },{ region: 'Gómez Palacio', dato: 33051.82 },{ region: 'Lerdo', dato: 2882.34 },{ region: 'Matamoros', dato: 1994.34 },{ region: 'La Laguna', dato: 149709.00 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

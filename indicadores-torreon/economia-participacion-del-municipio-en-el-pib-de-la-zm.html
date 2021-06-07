@@ -223,6 +223,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -243,8 +244,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">72.1300 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Participación del municipio en el PIB de la ZM en Torreón </h3>
+
+    <div id="SmiGraficasParticipacionDelMunicipioEnElPibDeLaZmEnTorreon" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Participación del municipio en el PIB de la ZM en Torreón</h3>
@@ -262,29 +274,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">73.0000 %</td>
+        <td class="centrado">2018-12-31</td>
+        <td>72.1300</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">25.0000 %</td>
+        <td class="centrado">2018-12-31</td>
+        <td>24.4600</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">2.0000 %</td>
+        <td class="centrado">2018-12-31</td>
+        <td>1.4400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">1.0000 %</td>
+        <td class="centrado">2018-12-31</td>
+        <td>1.3200</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td class="centrado">2018-12-31</td>
+        <td>ND</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -384,12 +403,29 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasParticipacionDelMunicipioEnElPibDeLaZmEnTorreon === 'undefined') {
+    varSmiGraficasParticipacionDelMunicipioEnElPibDeLaZmEnTorreon = Morris.Line({
+      element: 'SmiGraficasParticipacionDelMunicipioEnElPibDeLaZmEnTorreon',
+      data: [
+        { fecha: '2016-12-31', dato: 73.0000 },
+        { fecha: '2018-12-31', dato: 72.1300 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesParticipacionDelMunicipioEnElPibDeLaZmEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesParticipacionDelMunicipioEnElPibDeLaZmEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesParticipacionDelMunicipioEnElPibDeLaZmEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 73.0000 },{ region: 'Gómez Palacio', dato: 25.0000 },{ region: 'Lerdo', dato: 2.0000 },{ region: 'Matamoros', dato: 1.0000 }],
+      data: [{ region: 'Torreón', dato: 72.1300 },{ region: 'Gómez Palacio', dato: 24.4600 },{ region: 'Lerdo', dato: 1.4400 },{ region: 'Matamoros', dato: 1.3200 },{ region: 'La Laguna', dato: 0 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

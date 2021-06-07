@@ -43,7 +43,7 @@ class EconomiaInflacionMensual extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Macroeconomía';
         // Para el Organizador
         $this->categorias  = array('Macroeconomía');
-        $this->fuentes     = array('INEGI');
+        $this->fuentes     = array('INEGI', 'IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -67,7 +67,8 @@ class EconomiaInflacionMensual extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2018-06-30', 'valor' => '4.7100', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2018-06-30', 'valor' => '4.7100', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2018-12-31', 'valor' => '7.1500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -76,7 +77,12 @@ class EconomiaInflacionMensual extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones_estructura() {
-        return NULL;
+        return array(
+            'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
+            'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
+            'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
+            'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
 
     /**
@@ -85,7 +91,12 @@ class EconomiaInflacionMensual extends \SMIBase\PublicacionWeb {
      * @return array Arreglo con arreglos asociativos
      */
     public function otras_regiones() {
-        return NULL;
+        return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '7.1500', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

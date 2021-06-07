@@ -43,7 +43,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, Torreón, Macroeconomía, Finanzas Públicas';
         // Para el Organizador
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
-        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI');
+        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI', 'IMCO');
         $this->regiones    = array('Torreón');
     } // constructor
 
@@ -70,7 +70,8 @@ class EconomiaProduccionBrutaTotalPerCapita extends \SMIBase\PublicacionWeb {
             array('fecha' => '1998-12-31', 'valor' => '57746.33', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $5,835.14. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630'),
             array('fecha' => '2003-12-31', 'valor' => '101715.94', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $9,051.63. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720'),
             array('fecha' => '2008-12-31', 'valor' => '197853.91', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI', 'notas' => 'La producción bruta total per cápita en dólares es de $14,303.55. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250'),
-            array('fecha' => '2013-12-31', 'valor' => '225170.46', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 8, crudo 7
+            array('fecha' => '2013-12-31', 'valor' => '225170.46', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2018-12-31', 'valor' => '364.49', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 8
     } // datos
 
     /**
@@ -94,11 +95,11 @@ class EconomiaProduccionBrutaTotalPerCapita extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2013-12-31', 'valor' => '225170.46', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '154519.29', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '26085.15', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '18450.05', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2013-12-31', 'valor' => '164908.36', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '364.49', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-12-31', 'valor' => '242.15', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2018-12-31', 'valor' => '33.07', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2018-12-31', 'valor' => '40.68', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '264.94', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '218704.95', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '63345.06', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '118115.69', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));

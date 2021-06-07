@@ -223,6 +223,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -243,8 +244,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 4,671,817.00</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>PIB en Matamoros </h3>
+
+    <div id="SmiGraficasPibEnMatamoros" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de PIB en Matamoros</h3>
@@ -262,36 +274,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 188,607,528.50</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 255,386,166.00</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 63,790,874.23</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 86,610,209.00</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 4,654,327.54</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 5,114,394.00</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 2,519,550.14</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 4,671,817.00</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 259,572,280.00</td>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 351,782,586.00</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -382,12 +394,29 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPibEnMatamoros === 'undefined') {
+    varSmiGraficasPibEnMatamoros = Morris.Line({
+      element: 'SmiGraficasPibEnMatamoros',
+      data: [
+        { fecha: '2016-12-31', dato: 2519550.14 },
+        { fecha: '2018-12-31', dato: 4671817.00 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesPibEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesPibEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPibEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 188607528.50 },{ region: 'Gómez Palacio', dato: 63790874.23 },{ region: 'Lerdo', dato: 4654327.54 },{ region: 'Matamoros', dato: 2519550.14 },{ region: 'La Laguna', dato: 259572280.00 }],
+      data: [{ region: 'Torreón', dato: 255386166.00 },{ region: 'Gómez Palacio', dato: 86610209.00 },{ region: 'Lerdo', dato: 5114394.00 },{ region: 'Matamoros', dato: 4671817.00 },{ region: 'La Laguna', dato: 351782586.00 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
