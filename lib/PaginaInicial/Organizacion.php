@@ -118,7 +118,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<li></li>';
 
 
-/**  ELECCIONES INICIO
+
             //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
@@ -171,7 +171,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '</br>';
             $b[] = '</br>';
             //Fin ATLAS DE RIESGO
-    ELECCIONES FIN **/
+
 
             //$b[] = '<li>M O N I T O R E S  -   I M P L A N  -   T O R R E Ó N</li>';
             //INICIO MONITORES
