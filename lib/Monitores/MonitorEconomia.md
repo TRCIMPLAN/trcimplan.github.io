@@ -1,31 +1,31 @@
-# Monitor de Economía Abril 2021
+# Monitor de Economía Mayo 2021
 
 ## Indicadores macroeconómicos
 Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
 ----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
-Tipo de cambio del último mes                       |  $20.44   |marzo 2021         |Nacional       |Banxico        |
-Apreciación interanual del tipo de cambio           |  12.96%   |28 de abril 2020 - 28 de abril 2021|Nacional|Banxico   |
-Tasa de interés objetivo                            |  4.00%    |marzo 2021     |Nacional   |Banxico        |
+Tipo de cambio fix del último mes                   |  $20.18   |Abril 2021         |Nacional       |Banxico        |
+Apreciación interanual del tipo de cambio           |  12.96%   |28 de mayo 2020 - 28 de mayo 2021|Nacional |Banxico|
+Tasa de interés objetivo                            |  4.00%    |Abril 2021     |Nacional   |Banxico        |
 Último movimiento de la tasa                    |  -0.25%   |25 de enero 2021   |Nacional   |Banxico        |
-Inflación interanual                        |  4.68%    |marzo 2020 a marzo 2021|Nacional   |Banxico        |
+Inflación interanual                        |  6.08%    |Abril 2020 a abril 2021|Nacional   |Banxico        |
 
 ## Indicadores regionales
 Indicador                                                       |Dato       |Periodo        |Nivel      |Fuente                 |
 ----------------------------------------------------------------|---------------|---------------|---------------|-----------------------|
-PIB estimado 2018                       |351.80 mmp |2019       |ZML        |Censos Económicos 2019, INEGI|
-Lugar nacional en Valor Agregado 2018               |7°         |2019       |Torreón        |Censos Económicos 2019, INEGI|
-Inflación anual acumulada 2020                  |4.14%      |diciembre 2020 a diciembre 2021|Torreón|INEGI  |
-Inflación mensual interanual                    |6.21%      |enero 2020 a enero 2021|Torreón|INEGI      |
-Inflación mensual interanual del año anterior           |3.54%      |enero 2019 a enero 2020|Torreón|INEGI      |
+PIB estimado 2018                       |351.80 mmp |2019       |ZML        |Censos Económicos 2019, INEGI  |
+Lugar nacional en Valor Agregado 2018               |7°         |2019       |Torreón        |Censos Económicos 2019, INEGI  |
+Inflación anual 2020                        |4.40%      |Diciembre 2019 a diciembre 2020|Torreón        |INEGI  |
+Inflación mensual interanual                    |7.15%      |Abril 2020 a abril 2021|Torreón|INEGI          |
+Inflación mensual interanual del año anterior           |3.05%      |Abril 2019 a abril 2020|Torreón|INEGI          |
 
 ## Perspectivas de empresarios y consumidores
 Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
 ----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
-Cambio en la confianza de los consumidores              |-3.90%     |marzo 2021     |Nacional   |INEGI      |
-Cambio en las expectativas de pedidos manufactureros        |+9.31%     |marzo 2021     |Nacional   |INEGI      |
-Cambio en la confianza del sector manufactura           |+3.47%     |marzo 2021     |Nacional   |INEGI      |
-Cambio en la confianza del sector construcción          |+0.97%     |marzo 2021     |Nacional   |INEGI      |
-Cambio en la confianza del sector comercio              |+3.30%     |marzo 2021     |Nacional   |INEGI      |
+Cambio en la confianza de los consumidores              |-3.74%     |Abril 2021     |Nacional   |INEGI      |
+Cambio en las expectativas de pedidos manufactureros        |+9.29%     |Abril 2021     |Nacional   |INEGI      |
+Cambio en la confianza del sector manufactura           |+3.48%     |Abril 2021     |Nacional   |INEGI      |
+Cambio en la confianza del sector construcción          |+0.97%     |Abril 2021     |Nacional   |INEGI      |
+Cambio en la confianza del sector comercio              |+3.30%     |Abril 2021     |Nacional   |INEGI      |
 
 </br>
 
@@ -37,7 +37,8 @@ Cambio en la confianza del sector comercio              |+3.30%     |marzo 2021 
 ###Año 2021
 [Enero 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ene-2021.pdf)
 [Febrero 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-feb-2021.pdf)
-[Marzo 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-mar-2021.pdf)
+[Marzo 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-mar-2021.pdf)
+[Abril 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-abr-2021.pdf)
 ###Año 2020
 [Marzo     2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2020.pdf)
 [Mayo      2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-mayo-2020.pdf)
