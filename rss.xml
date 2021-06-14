@@ -5,7 +5,7 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 14 Jun 2021 11:19:53 -0500</pubDate>
+    <pubDate>Mon, 14 Jun 2021 14:04:52 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -17,6 +17,18 @@
       <pubDate>Mon, 14 Jun 2021 00:30:00 -0500</pubDate>
       <author>Arq. Ihanelly Hernández Villa</author>
       <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/beneficio-sistema-prepago-transporte-publico-jun-2021/imagen.jpg"><br>
+
+<p>Traducir Página a tu Idioma</p>
+
+<div id="google_translate_element" class="google"></div>
+
+<script type="text/javascript">
+                    function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: "es", includedLanguages: "ca,eu,gl,en,fr,it,pt,de,ch", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, "google_translate_element");
+                }
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <p>
    <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/ihanelly-hernandez-villa.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/blog/../imagenes/128/arq-ihanelly-hernandez-villa-top2.png" align="right" alt="Foto Cecilio" width="500" height="200"></a>

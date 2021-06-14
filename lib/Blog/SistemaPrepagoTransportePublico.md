@@ -1,3 +1,15 @@
+Traducir Página a tu Idioma
+<div id="google_translate_element" class="google"></div>
+<script type="text/javascript">
+                    function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: "es", includedLanguages: "ca,eu,gl,en,fr,it,pt,de,ch", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, "google_translate_element");
+                }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
 
 <p>
    <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/ihanelly-hernandez-villa.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-ihanelly-hernandez-villa-top2.png" align="right" alt="Foto Cecilio" width="500" height="200"></a>
