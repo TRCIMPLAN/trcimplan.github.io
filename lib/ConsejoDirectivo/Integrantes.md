@@ -32,7 +32,7 @@ C. Raul Martínez Hernández                 | Instituciones de Educación Super
 
 Nombre                                     | Cargo
 -------------------------------------------|------------------------------------------------------------------------------------
-C. Guillermo Prieto Salinas S.J.           | Instituciones Académicas
+C. Juan Luis Hernández Avendaño            | Instituciones Académicas
 C. Rafael Rebollar González                | Organismos Empresariales
 C. Eduardo Arrambide Leal                  | Instituciones Académicas
 C. Luis Arturo Dávila de León              | Instituciones Académicas
