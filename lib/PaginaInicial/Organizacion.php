@@ -92,7 +92,14 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         }
         $a[] = '  </div>';
 
+        // PRUEBA CLIMA
+        //        $a[] = '<div id="cont_48bbd494eaf01080ac4dc6a238b4497f"><script type="text/javascript" async src="https://www.meteored.mx/wid_loader/48bbd494eaf01080ac4dc6a238b4497f"></script></div>';
+
+
+        //FIN PRUEBA CLIMA
+
         // <!--   PRUEBA IDIOMA VM  -->
+
         $a[] = 'Traducir Página a tu Idioma';
         $a[] = '<div id="google_translate_element" class="google"></div> ';
 
@@ -163,13 +170,13 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //$b[] = '</br>';
             //$b[] = '</br>';
             //Fin Visión de ciudad
+
             //Inicio OVIE
-
-
             $b[] = '<center><a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda4.png"  width=95% height="70px" alt="liga ovie"></a></center>';
             $b[] = '</br>';
             $b[] = '</br>';
             //Fin OVIE
+
             //Inicio ATLAS DE RIESGO
             //$b[] = '<center><a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg"  width=95% height="20%" alt="liga Atlas de Riesgo Torreón"></a></center>';
             //$b[] = '</br>';

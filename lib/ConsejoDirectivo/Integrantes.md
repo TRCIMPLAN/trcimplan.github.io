@@ -7,7 +7,7 @@
 
 Nombre                                     | Cargo
 -------------------------------------------|------------------------------------------------------------------------------------
-C. Sergio Lara Galván                      | Presidente Municipal de Torreón
+C. Jorge Zermeño Infante                   | Presidente Municipal de Torreón
 C. José Antonio Ramírez Reyes              | Director General Ejecutivo del IMPLAN
 C. Sandra Guadalupe Mijares Acuña          | Presidenta de la Comisión de Hacienda, Patrimonio y Cuenta Pública del Ayuntamiento
 C. Alberto Rosales Arcaute                 | Presidente de la Comisión de Planeación, Urbanismo y Obras Públicas del Ayuntamiento
