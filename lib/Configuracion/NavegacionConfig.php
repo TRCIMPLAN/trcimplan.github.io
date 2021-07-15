@@ -34,42 +34,23 @@ class NavegacionConfig {
         // 'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map',
         //'Análisis Publicados'                                         => 'blog/index.html',
         'Análisis Publicados' => array(
-            'Análisis Publicados > Últimos Análisis'                  => '',
-            'Análisis Publicados > Análisis por Autor'                => ''),
-              // AMLO 'Análisis Publicados > Últimos Análisis'                  => 'blog/index.html',
-              // AMLO 'Análisis Publicados > Análisis por Autor'                => 'excolaboradores/index.html'),
+            'Análisis Publicados > Últimos Análisis'                  => 'blog/index.html',
+            'Análisis Publicados > Análisis por Autor'                => 'excolaboradores/index.html'),
         'Indicadores' => array(
-            'Indicadores > Introducción al SMI'                       => '',
-            'Indicadores > Indicadores por Categoría'                 => '',
-            'Indicadores > Indicadores por Región'                    => '',
-
-            'Indicadores > Datos Abiertos'                            => '',
-            'Indicadores > Niveles Socioeconómicos'                   => '',
-            'Indicadores > Monitores'                                 => ''),
-
-            // AMLO 'Indicadores > Introducción al SMI'                       => 'smi/introduccion.html',
-            // AMLO 'Indicadores > Indicadores por Categoría'                 => 'indicadores-categorias/index.html',
-            // AMLO 'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
-
-            // AMLO 'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
-            // AMLO 'Indicadores > Niveles Socioeconómicos'                   => 'smi/niveles-socioeconomicos.html',
-            // AMLO 'Indicadores > Monitores'                                 => 'monitores/index.html'),
+            'Indicadores > Introducción al SMI'                       => 'smi/introduccion.html',
+            'Indicadores > Indicadores por Categoría'                 => 'indicadores-categorias/index.html',
+            'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
+            'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
+            'Indicadores > Niveles Socioeconómicos'                   => 'smi/niveles-socioeconomicos.html',
+            'Indicadores > Monitores'                                 => 'monitores/index.html'),
             //'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
             //'Indicadores > Convocatorias'                             => 'convocatorias/index.html'),
         'Indicadores Básicos de Colonias' => array(
             'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
-            'Indicadores Básicos de Colonias > Colonias de Torreón'   => '',
-            'Indicadores Básicos de Colonias > Mapa Completo'         => '',
-
-            'Indicadores Básicos de Colonias > Torreón Urbano'        => '',
-
-            'Indicadores Básicos de Colonias > Datos Abiertos'        => ''),
-
-            // AMLO 'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
-            // AMLO 'Indicadores Básicos de Colonias > Colonias de Torreón'   => 'ibc-colonias-torreon/index.html',
-            // AMLO 'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed',
-            // AMLO 'Indicadores Básicos de Colonias > Torreón Urbano'        => 'ibc/torreon-urbano.html',
-            // AMLO 'Indicadores Básicos de Colonias > Datos Abiertos'        => 'ibc/datos-abiertos.html'),
+            'Indicadores Básicos de Colonias > Colonias de Torreón'   => 'ibc-colonias-torreon/index.html',
+            'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed',
+            'Indicadores Básicos de Colonias > Torreón Urbano'        => 'ibc/torreon-urbano.html',
+            'Indicadores Básicos de Colonias > Datos Abiertos'        => 'ibc/datos-abiertos.html'),
 
             //'Indicadores Básicos de Colonias > Catálogo de Conceptos' => 'ibc/catalogo-conceptos.html',
             //'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed',
@@ -86,11 +67,6 @@ class NavegacionConfig {
             'Información Geográfica > Usos de Suelo'                  => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html',
             'Información Geográfica > Datos Abiertos'                 => 'sig/datos-abiertos.html'),
 
-            // AMLO 'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
-            // AMLO 'Información Geográfica > Mapas por Tema'                 => 'sig-mapas-torreon/temas-sig.html',
-            // AMLO 'Información Geográfica > Usos de Suelo'                  => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html',
-            // AMLO 'Información Geográfica > Datos Abiertos'                 => 'sig/datos-abiertos.html'),
-
             //   'Información Geográfica > Planes'                         => 'sig-planes/index.html',    VM
          //   'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
          //   'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html',
@@ -104,99 +80,56 @@ class NavegacionConfig {
          //                                                                   'Información Geográfica > Mapas por Tema > Medio Ambiente'          => 'sig-mapas-torreon/categoria-medio-ambiente.html'),
             //'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html',
         'Plan Estratégico Torreón 2040' => array(
-            'Plan Estratégico Torreón 2040 > Índice General'          => '',
-            'Plan Estratégico Torreón 2040 > Descargar'               => '',
-            'Plan Estratégico Torreón 2040 > Descripción del proceso' => '',
-            'Plan Estratégico Torreón 2040 > Proyectos'               => '',
-            'Plan Estratégico Torreón 2040 > Visión de Ciudad desde IMPLAN' => ''),
-
-            // AMLO 'Plan Estratégico Torreón 2040 > Índice General'          => 'pet/indice.html',
-            // AMLO 'Plan Estratégico Torreón 2040 > Descargar'               => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html',
-            // AMLO 'Plan Estratégico Torreón 2040 > Descripción del proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
-            // AMLO 'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html',
-            // AMLO 'Plan Estratégico Torreón 2040 > Visión de Ciudad desde IMPLAN' => 'vision-de-ciudad/vision-de-ciudad.html'),
+            'Plan Estratégico Torreón 2040 > Índice General'          => 'pet/indice.html',
+            'Plan Estratégico Torreón 2040 > Descargar'               => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html',
+            'Plan Estratégico Torreón 2040 > Descripción del proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
+            'Plan Estratégico Torreón 2040 > Proyectos'               => 'proyectos/index.html',
+            'Plan Estratégico Torreón 2040 > Visión de Ciudad desde IMPLAN' => 'vision-de-ciudad/vision-de-ciudad.html'),
             //'Plan Estratégico Torreón 2040 > Índice Alfabético'       => 'pet/index.html',
 //ÚLTIMOS CAMBIOS VM
         'Documentos'  => array(
-            'Documentos > Planes y Programas'                         => '',
-            'Documentos > Investigaciones'                            => '',
-            'Documentos > Estudios'                                   => ''),
-
-            // AMLO 'Documentos > Planes y Programas'                         => 'sig-planes/index.html',
-            // AMLO 'Documentos > Investigaciones'                            => 'investigaciones/index.html',
-            // AMLO 'Documentos > Estudios'                                   => 'estudios/index.html'),
+            'Documentos > Planes y Programas'                         => 'sig-planes/index.html',
+            'Documentos > Investigaciones'                            => 'investigaciones/index.html',
+            'Documentos > Estudios'                                   => 'estudios/index.html'),
 
             //'Documentos > Leyes y Reglamentos'                        => 'institucional/reglamentos.html'),
 // ÚLTIMOS CAMBIOS VM FIN
 //        'Estudios'                                                    => 'estudios/index.html',
 //        'Investigaciones'                                             => 'investigaciones/index.html',
-        'Consejo Directivo'                                           => '',
-        'Sala de Prensa'                                              => '',
-        // AMLO 'Sala de Prensa'                                              => 'sala-prensa/index.html',
-        'Programas de Radio'                                          => '',
-        // AMLO 'Programas de Radio'                                          => 'programas-radio/index.html',
+        'Consejo Directivo'                                           => 'consejo-directivo/integrantes.html',
+        'Sala de Prensa'                                              => 'sala-prensa/index.html',
+        'Programas de Radio'                                          => 'programas-radio/index.html',
+
         'Consejo Visión Metrópoli' => array(
-            'Consejo Visión Metrópoli > Consejo Juvenil'              => '',
-            'Consejo Visión Metrópoli > Integrantes del Consejo'      => '',
-            'Consejo Visión Metrópoli > Sala de Prensa'               => '',
-            'Consejo Visión Metrópoli > Reglamento'                   => '',
-            'Consejo Visión Metrópoli > Informe 2019 - 2021'          => ''),
+            'Consejo Visión Metrópoli > Consejo Juvenil'              => 'convocatorias/vision-metropoli.html',
+            'Consejo Visión Metrópoli > Integrantes del Consejo'      => 'vision-metropoli/integrantes.html',
+            'Consejo Visión Metrópoli > Sala de Prensa'               => 'vision-metropoli/index.html',
+            'Consejo Visión Metrópoli > Reglamento'                   => 'vision-metropoli/reglamento-vision-metropoli-2020.pdf',
+            'Consejo Visión Metrópoli > Informe 2019 - 2021'          => 'https://issuu.com/consejovisionmetropoli/docs/informe_visi_n_metr_poli_2019_-_2021'),
 
         'Institucional' => array(
-            'Institucional > Misión / Visión'                         => '',
-            'Institucional > Nuestros Proyectos'                      => '',
-            'Institucional > Mensaje del Director'                    => '',
-            'Institucional > Quienes Somos'                           => '',
-            'Institucional > Estructura Orgánica'                     => '',
-            'Institucional > Modelo Operativo Univ.'                  => '',
-            'Institucional > Reglamentos'                             => ''),
+             'Institucional > Misión / Visión'                         => 'institucional/vision-mision.html',
+             'Institucional > Nuestros Proyectos'                      => 'institucional/NuestrosProyectos.html',
+             'Institucional > Mensaje del Director'                    => 'institucional/mensaje-director.html',
+             'Institucional > Quienes Somos'                           => 'autores/index.html',
+             'Institucional > Estructura Orgánica'                     => 'institucional/estructura-organica.html',
+             'Institucional > Modelo Operativo Univ.'                  => 'institucional/modelo-operativo-universal.html',
+             'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
         'Transparencia'  => array(
-             'Transparencia > Transparencia Estatal (ICAI)'           => '',
-             'Transparencia > Plataforma Nacional de Transparencia'   => '',
-             'Transparencia > Documentos'                             => ''),
+              'Transparencia > Transparencia Estatal (ICAI)'           => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
+              'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio',
+              'Transparencia > Documentos'                             => 'transparencia/index.html'),
         'Términos de Uso' => array(
-            'Términos de Uso > De la información'                     => '',
-            'Términos de Uso > Del sitio web'                         => '',
-            'Términos de Uso > Aviso de Privacidad'                   => ''),
+             'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
+             'Términos de Uso > Del sitio web'                         => 'terminos/terminos-sitio.html',
+             'Términos de Uso > Aviso de Privacidad'                   => 'terminos/privacidad.html'),
         'Contacto' => array(
-            'Contacto > Medios de contacto'                           => '',
-            'Contacto > Preguntas Frecuentes'                         => '',
-            'Contacto > Comentarios y Sugerencias'                    => ''),
-        'Convocatorias'                                               => '',
-        'Oficina Virtual de Información Económica (OVIE)'             => '',
-        'Atlas Municipal de Riesgos de Torreón'                       => '');
-
-
-        // AMLO 'Consejo Visión Metrópoli' => array(
-            // AMLO 'Consejo Visión Metrópoli > Consejo Juvenil'              => 'convocatorias/vision-metropoli.html',
-            // AMLO 'Consejo Visión Metrópoli > Integrantes del Consejo'      => 'vision-metropoli/integrantes.html',
-            // AMLO 'Consejo Visión Metrópoli > Sala de Prensa'               => 'vision-metropoli/index.html',
-            // AMLO 'Consejo Visión Metrópoli > Reglamento'                   => 'vision-metropoli/reglamento-vision-metropoli-2020.pdf',
-            // AMLO 'Consejo Visión Metrópoli > Informe 2019 - 2021'          => 'https://issuu.com/consejovisionmetropoli/docs/informe_visi_n_metr_poli_2019_-_2021'),
-
-        // AMLO 'Institucional' => array(
-        // AMLO     'Institucional > Misión / Visión'                         => 'institucional/vision-mision.html',
-        // AMLO     'Institucional > Nuestros Proyectos'                      => 'institucional/NuestrosProyectos.html',
-        // AMLO     'Institucional > Mensaje del Director'                    => 'institucional/mensaje-director.html',
-        // AMLO     'Institucional > Quienes Somos'                           => 'autores/index.html',
-        // AMLO     'Institucional > Estructura Orgánica'                     => 'institucional/estructura-organica.html',
-        // AMLO     'Institucional > Modelo Operativo Univ.'                  => 'institucional/modelo-operativo-universal.html',
-        // AMLO     'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
-        // AMLO 'Transparencia'  => array(
-        // AMLO      'Transparencia > Transparencia Estatal (ICAI)'           => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
-        // AMLO      'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio',
-        // AMLO      'Transparencia > Documentos'                             => 'transparencia/index.html'),
-        // AMLO 'Términos de Uso' => array(
-        // AMLO     'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
-        // AMLO     'Términos de Uso > Del sitio web'                         => 'terminos/terminos-sitio.html',
-        // AMLO     'Términos de Uso > Aviso de Privacidad'                   => 'terminos/privacidad.html'),
-        // AMLO 'Contacto' => array(
-        // AMLO     'Contacto > Medios de contacto'                           => 'contacto/contacto.html',
-        // AMLO     'Contacto > Preguntas Frecuentes'                         => 'preguntas-frecuentes/preguntas-frecuentes.html',
-        // AMLO     'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'),
-        // AMLO 'Convocatorias'                                               => 'convocatorias/index.html',
-        // AMLO 'Oficina Virtual de Información Económica (OVIE)'             => 'http://177.244.42.17/ovie-torreon/#!',
-        // AMLO 'Atlas Municipal de Riesgos de Torreón'                       => 'https://arcg.is/0vySSr');
+             'Contacto > Medios de contacto'                           => 'contacto/contacto.html',
+             'Contacto > Preguntas Frecuentes'                         => 'preguntas-frecuentes/preguntas-frecuentes.html',
+             'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'),
+        'Convocatorias'                                               => 'convocatorias/index.html',
+        'Oficina Virtual de Información Económica (OVIE)'             => 'http://177.244.42.17/ovie-torreon/#!',
+        'Atlas Municipal de Riesgos de Torreón'                       => 'https://arcg.is/0vySSr');
 
       //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html');
      //   'Valores Catastrales'                                         => 'valores-catastrales/index.html');
