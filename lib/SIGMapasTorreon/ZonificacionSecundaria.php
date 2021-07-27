@@ -47,9 +47,9 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu        = 'Información Geográfica';
         // El estado puede ser publicar, revisar o ignorar
-        $this->estado             = 'Publicar';
+        $this->estado             = 'Revisar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir     = TRUE;
+        $this->para_compartir     = FALSE;
         // Para el Organizador
         $this->categorias         = array('Gobierno');
         // Para el botón de ver a pantalla completa

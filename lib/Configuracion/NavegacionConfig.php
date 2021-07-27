@@ -131,7 +131,7 @@ class NavegacionConfig {
         'Oficina Virtual de Información Económica (OVIE)'             => 'http://177.244.42.17/ovie-torreon/#!',
         'Atlas Municipal de Riesgos de Torreón'                       => 'https://arcg.is/0vySSr');
 
-      //  'Visión Metrópoli'                                            => 'vision-metropoli/index.html');
+
      //   'Valores Catastrales'                                         => 'valores-catastrales/index.html');
       //  'Convocatoria Visión Metrópoli 2018'                          => 'https://drive.google.com/file/d/17x9_UkY-i-f4W-TI6ImYKmyZs8QUWOq3/view?usp=sharing');
     static public $iconos = array(
