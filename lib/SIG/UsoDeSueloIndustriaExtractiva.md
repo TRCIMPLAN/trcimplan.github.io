@@ -20,4 +20,4 @@
 * Plantas de tratamiento de aguas
 * Planta de procesamiento de desechos
 
-FUENTE: Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción del Municipio de Torreón, Coahuila.
+FUENTE: REGLAMENTO DE DESARROLLO URBANO Y CONSTRUCCIÓN DE TORREÓN.

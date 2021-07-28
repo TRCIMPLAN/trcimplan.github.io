@@ -79,4 +79,4 @@ Para revisar restricciones de giros condicionados, referirse a la Matriz de Comp
 * Señalamiento vial tipo rustico
 * Caseta de vigilancia
 
-FUENTE: Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción del Municipio de Torreón, Coahuila.
+FUENTE: REGLAMENTO DE DESARROLLO URBANO Y CONSTRUCCIÓN DE TORREÓN.

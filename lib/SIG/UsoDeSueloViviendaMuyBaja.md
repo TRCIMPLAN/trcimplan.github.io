@@ -72,4 +72,4 @@ Para revisar restricciones de giros condicionados, referirse a la Matriz de Comp
 * Contenedores de basura.
 * Plan de Manejo Integral de Aguas Pluviales.
 
-FUENTE: Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción del Municipio de Torreón, Coahuila.
+FUENTE: REGLAMENTO DE DESARROLLO URBANO Y CONSTRUCCIÓN DE TORREÓN.

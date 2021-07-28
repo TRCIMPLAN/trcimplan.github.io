@@ -127,4 +127,4 @@ El Centro Histórico está conformado por el perímetro determinado en el decret
 * Plantas de tratamiento de aguas
 * Subestación eléctrica
 
-FUENTE: Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción del Municipio de Torreón, Coahuila.
+FUENTE: REGLAMENTO DE DESARROLLO URBANO Y CONSTRUCCIÓN DE TORREÓN.

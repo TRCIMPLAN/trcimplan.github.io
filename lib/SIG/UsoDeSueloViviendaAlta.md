@@ -150,4 +150,4 @@ Para revisar restricciones de giros condicionados, referirse a la Matriz de Comp
 * Plan de Manejo Integral de Aguas Pluviales.
 * Caseta de Vigilancia, en aquellos fraccionamientos que tengan una superficie vendible de 60,000 m2 o más.
 
-FUENTE: Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción del Municipio de Torreón, Coahuila.
+FUENTE: REGLAMENTO DE DESARROLLO URBANO Y CONSTRUCCIÓN DE TORREÓN.
