@@ -49,15 +49,15 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->google_site_verification = '<meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
         // Definir las secciones, al dividirlas es más fácil activarlas, desactivarlas o cambiar su orden
         $this->secciones   = array();
-        //~$this->secciones[] = '\\PaginaInicial\\Organizacion';
+        $this->secciones[] = '\\PaginaInicial\\Organizacion';
     //~ $this->secciones[] = '\\PaginaInicial\\GoogleBuscador';
-     $this->secciones[] = '\\PaginaInicial\\Aviso';
-        //~ $this->secciones[] = '\\PaginaInicial\\Servicios';
+    //~ $this->secciones[] = '\\PaginaInicial\\Aviso';
+        $this->secciones[] = '\\PaginaInicial\\Servicios';
     //~ $this->secciones[] = '\\PaginaInicial\\IBC';
     //~ $this->secciones[] = '\\PaginaInicial\\InvestigacionSectorAutomotriz';
-        //~ $this->secciones[] = '\\PaginaInicial\\UltimasPublicaciones';
-        //~ $this->secciones[] = '\\PaginaInicial\\Categorias';
-        //~ $this->secciones[] = '\\PaginaInicial\\Mapas';
+        $this->secciones[] = '\\PaginaInicial\\UltimasPublicaciones';
+        $this->secciones[] = '\\PaginaInicial\\Categorias';
+        $this->secciones[] = '\\PaginaInicial\\Mapas';
         $this->secciones[] = '\\PaginaInicial\\Redes';
     } // constructor
 

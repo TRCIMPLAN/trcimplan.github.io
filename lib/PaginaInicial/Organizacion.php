@@ -130,29 +130,29 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
 
-                $b[] = '<a href=""><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
+                //$b[] = '<a href=""><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
-                $b[] = '<a href=""><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
+                //$b[] = '<a href=""><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
 
-                $b[] = '<a href="" alt="liga Atlas de Riesgo Torreón"></a>';
-                $b[] = '<a href=""><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
+                //$b[] = '<a href="" alt="liga Atlas de Riesgo Torreón"></a>';
+                //$b[] = '<a href=""><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
-                $b[] = '<a href=""><img src="imagenes\ovie\ovie-logo-banda5.png" alt="liga ovie"></a>';
+                $//b[] = '<a href=""><img src="imagenes\ovie\ovie-logo-banda5.png" alt="liga ovie"></a>';
 
                 // Inicio: Anterior a veda AMLO
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
 
-                //$b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
+                $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
-                //$b[] = '<a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda5.png" alt="liga ovie"></a>';
+                $b[] = '<a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda5.png" alt="liga ovie"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
                 // Fin: Anterior a veda AMLO
 
                 //----------------
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
+
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\banner-convocatoria-vm-mar2021.jpg" alt="Convocatorias VM marzo 2021"></a>';
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\programa-zona-norte\pzn-banner-general.jpg" alt="Programa Zona Norte"></a>';
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad.jpg" alt="visión de ciudad"></a>';
@@ -189,10 +189,10 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //Fin Visión de ciudad
 
             //Inicio OVIE
-            $b[] = '<center><a href=""><img src="imagenes\ovie\ovie-logo-banda4.png"  width=95% height="70px" alt="liga ovie"></a></center>';
+            //$b[] = '<center><a href=""><img src="imagenes\ovie\ovie-logo-banda4.png"  width=95% height="70px" alt="liga ovie"></a></center>';
 
             // Veda AMLO
-            //$b[] = '<center><a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda4.png"  width=95% height="70px" alt="liga ovie"></a></center>';
+            $b[] = '<center><a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda4.png"  width=95% height="70px" alt="liga ovie"></a></center>';
             //Fin: Veda AMLO
 
             $b[] = '</br>';
