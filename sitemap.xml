@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-08-02</lastmod>
+    <lastmod>2021-08-03</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/66-anos-de-la-revolucion-femenina-ago-2021.html</loc>
+    <lastmod>2021-08-03</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/abuso-y-maltrato-contra-ninos-y-ninas-abr-2021.html</loc>
