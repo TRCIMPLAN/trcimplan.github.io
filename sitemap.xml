@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-08-03</lastmod>
+    <lastmod>2021-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2043,6 +2043,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/viviendas-deshabitadas-en-la-comarca-lagunera-jul-2021.html</loc>
     <lastmod>2021-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/volver-al-inicio-ago-2021.html</loc>
+    <lastmod>2021-08-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
