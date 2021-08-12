@@ -127,10 +127,10 @@ class NavegacionConfig {
              'Contacto > Medios de contacto'                           => 'contacto/contacto.html',
              'Contacto > Preguntas Frecuentes'                         => 'preguntas-frecuentes/preguntas-frecuentes.html',
              'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'),
-        'Convocatorias'                                               => 'convocatorias/index.html',
-        'Oficina Virtual de Información Económica (OVIE)'             => 'http://177.244.42.17/ovie-torreon/#!',
-        'Atlas Municipal de Riesgos de Torreón'                       => 'https://arcg.is/0vySSr');
-
+        'Convocatorias'                                                => 'convocatorias/index.html',
+        'Oficina Virtual de Información Económica (OVIE)'              => 'http://177.244.42.17/ovie-torreon/#!',
+        'Atlas Municipal de Riesgos de Torreón'                        => 'https://arcg.is/0vySSr',
+        'Multi-City Challenge México 2020'                             => '');
 
      //   'Valores Catastrales'                                         => 'valores-catastrales/index.html');
       //  'Convocatoria Visión Metrópoli 2018'                          => 'https://drive.google.com/file/d/17x9_UkY-i-f4W-TI6ImYKmyZs8QUWOq3/view?usp=sharing');
