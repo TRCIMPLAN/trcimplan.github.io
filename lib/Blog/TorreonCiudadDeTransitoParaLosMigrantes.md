@@ -1,4 +1,13 @@
 
+<p>
+   <a title="ir a Otras Publicaciones de este Autor" href="http://www.trcimplan.gob.mx/autores/olga-alejandra-noriega-aranda.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-olga-alejandra-noriega-aranda-top5.png" align="right" alt="Foto Alejandra Noriega" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br>
+---
+
+
 De acuerdo a la Organización Internacional para las Migraciones, **“migrante es el término genérico no definido para toda persona que se traslada fuera de su lugar de residencia habitual, ya sea dentro de un país o a través de una frontera internacional”**. (OIM, 2021)
 
 Un **observatorio estadístico** fundamental para este tema son los resultados de la **EMIF** (Encuesta sobre Migración en las Fronteras de México), dicho instrumento surgió en 1993 como intento por parte de El Colegio de La Frontera Norte (COLEF) y la Secretaría del Trabajo y Previsión Social (STPS), para medir la magnitud y características de los flujos migratorios laborales entre México y Estados Unidos.
