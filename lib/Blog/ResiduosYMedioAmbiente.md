@@ -18,4 +18,4 @@ Ampliemos la discusión en torno a los residuos. Si bien es cierto que no podemo
 
 - Muestreo y composición de residuos sólidos urbanos domésticos de la Ciudad de Torreón 2019-2020. Resumen ejecutivo y reporte técnico.
 
-</br>
+</br></br>
