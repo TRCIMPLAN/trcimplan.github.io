@@ -130,25 +130,19 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
 
-                //$b[] = '<a href=""><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
-                //$b[] = '<a href=""><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra3.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner2021.jpg" alt="Convocatorias Manos a la Cebra 2021"></a>';
 
-                //$b[] = '<a href="" alt="liga Atlas de Riesgo Torreón"></a>';
-                //$b[] = '<a href=""><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
-
-                $//b[] = '<a href=""><img src="imagenes\ovie\ovie-logo-banda5.png" alt="liga ovie"></a>';
-
-                // Inicio: Anterior a veda AMLO
                 $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
 
                 $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
+                //$b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
                 $b[] = '<a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda5.png" alt="liga ovie"></a>';
-                $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
+
+
                 // Fin: Anterior a veda AMLO
 
                 //----------------
