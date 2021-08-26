@@ -1,41 +1,41 @@
 
-##JULIO 2021
+##AGOSTO 2021
 
 ## DELITOS
-| INDICADOR                     | DATO      | NIVEL     | FECHA                 |
-|-------------------------------|-----------|-----------|-----------------------|
-| Delitos del fuero común       |15,064     | ZML       | SESNSP junio 2021     |
-| Delitos del fuero común       |6,128      | Torreón   | SESNSP junio 2021     |
+| INDICADOR                | DATO       | NIVEL     | FECHA            |
+|--------------------------|------------|-----------|------------------|
+| Delitos del fuero común  |17,734      | ZML       | SESNSP julio 2021|
+| Delitos del fuero común  |7,323       | Torreón   | SESNSP julio 2021|
 
 ## ROBOS
-| INDICADOR                         | DATO  | NIVEL   | FECHA               |
-|-----------------------------------|-------|---------|---------------------|
-| Robo a casa habitación            |937    | ZML     | SESNSP junio 2021   |
-| Robo a negocio                    |492    | ZML     | SESNSP junio 2021   |
-| Robo de vehículo automotor        |378    | ZML     | SESNSP junio 2021   |
-| Robo a transeúnte en vía publica  |178    | ZML     | SESNSP junio 2021   |
-| Robo de autopartes                |44     | ZML     | SESNSP junio 2021   |
+| INDICADOR                         | DATO   | NIVEL    | FECHA            |
+|-----------------------------------|--------|----------|------------------|
+| Robo a casa habitación            |1,129   | ZML      | SESNSP julio 2021|
+| Robo a negocio                    |560     | ZML      | SESNSP julio 2021|
+| Robo de vehículo automotor        |420     | ZML      | SESNSP julio 2021|
+| Robo a transeúnte en vía publica  |215     | ZML      | SESNSP julio 2021|
+| Robo de autopartes                |55      | ZML      | SESNSP julio 2021|
 
 ## DELITOS SEXUALES
-| INDICADOR           | DATO | NIVEL    | FECHA                 |
-|---------------------|------|----------|-----------------------|
-| Abuso sexual        |239   | ZML      |  SESNSP junio 2021    |
-| Abuso sexual        |66    | Torreón  |  SESNSP junio 2021    |
-| Acoso sexual        |59    | Torreón  |  SESNSP junio 2021    |
+| INDICADOR       | DATO    | NIVEL     | FECHA             |
+|-----------------|---------|-----------|-------------------|
+| Abuso sexual    |272      | ZML       |  SESNSP julio 2021|
+| Abuso sexual    |73       | Torreón   |  SESNSP julio 2021|
+| Acoso sexual    |66       | Torreón   |  SESNSP julio 2021|
 
 ## OTROS DELITOS
-| INDICADOR               | DATO    | NIVEL     | FECHA                 |
-|-------------------------|---------|-----------|-----------------------|
-| Violencia familiar      |4,624    | ZML       |  SESNSP junio 2021    |
-| Violencia familiar      |1,451    | Torreón   |  SESNSP junio 2021    |
-| Lesiones                |2,842    | ZML       |  SESNSP junio 2021    |
-| Lesiones                |548      | Torreón   |  SESNSP junio 2021    |
-| Daños a la propiedad    |2,245    | ZML       |  SESNSP junio 2021    |
-| Daños a la propiedad    |726      | Torreón   |  SESNSP junio 2021    |
-| Narcomenudeo            |2,099    | ZML       |  SESNSP junio 2021    |
-| Narcomenudeo            |750      | Torreón   |  SESNSP junio 2021    |
-| Fraude                  |507      | ZML       |  SESNSP junio 2021    |
-| Fraude                  |261      | Torreón   |  SESNSP junio 2021    |
+| INDICADOR                         | DATO      | NIVEL     | FECHA                         |
+|---------------------------------------|---------------|---------------|-------------------------------|
+| Violencia familiar            |3,969      | ZML       |  SESNSP julio 2021        |
+| Violencia familiar            |1,736      | Torreón   |  SESNSP julio 2021        |
+| Lesiones                      |1,923      | ZML       |  SESNSP julio 2021        |
+| Lesiones                      |664        | Torreón   |  SESNSP julio 2021        |
+| Daños a la propiedad          |1,506      | ZML       |  SESNSP julio 2021        |
+| Daños a la propiedad          |847        | Torreón   |  SESNSP julio 2021        |
+| Narcomenudeo                  |1,568      | ZML       |  SESNSP julio 2021        |
+| Narcomenudeo                  |899        | Torreón   |  SESNSP julio 2021        |
+| Fraude                        |613        | ZML       |  SESNSP julio 2021        |
+| Fraude                        |326        | Torreón   |  SESNSP julio 2021        |
 
 
 
@@ -51,6 +51,7 @@ Informe:
 [, Abril 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-abr-2021.pdf)
 [, Mayo 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-may-2021.pdf)
 [, Junio 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-jun-2021.pdf)
+[, Julio 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-jul-2021.pdf)
 </br>
 
 <b> AÑO 2020 </b>
