@@ -5,11 +5,42 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 26 Aug 2021 14:11:58 -0500</pubDate>
+    <pubDate>Thu, 26 Aug 2021 14:50:00 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Se incrementan los gastos de la ciudadanía de Torreón.</title>
+      <link>http://www.trcimplan.gob.mx/blog/se-incrementan-los-gastos-de-la-ciudadania-de-torreon-ago-2021.html</link>
+      <guid isPermaLink="false">blog-se-incrementan-los-gastos-de-la-ciudadania-de-torreon-ago-2021</guid>
+      <pubDate>Thu, 26 Aug 2021 14:50:00 -0500</pubDate>
+      <author>Pedro Antonio Ávila Bautista</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/se-incrementan-los-gastos-de-la-ciudadania-de-torreon-ago-2021/imagen.jpg"><br>
+
+<p>El pasado mes de julio, el INEGI publicó los resultados de la Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH). Dicha encuesta se llevó a cabo del 21 de agosto al 28 de noviembre de 2020 a lo largo y ancho del país. Debido a las fechas de levantamiento, esta edición captura algo del efecto del confinamiento derivado de la pandemia.</p>
+
+<p>En esta ocasión nos enfocaremos en el apartado de gastos, particularmente el de los hogares del municipio de Torreón. Los datos de la ENIGH nos permiten clasificar a los habitantes de Torreón en diez grupos según sus ingresos (deciles). Así, el decil I es el 10 % de población con menores ingresos; mientras que el decil X es el 10 % con mayores ingresos.1 Esta clasificación nos permite saber a detalle cómo cambiaron los gastos de los laguneros en Torreón según su nivel de ingreso.</p>
+
+<p>En promedio el gasto monetario2 trimestral per cápita en Torreón tuvo una disminución. La caída entre 2018 y 2020 del gasto monetario trimestral, descontando la inflación,3 fue de (-) 9.41 %. Algunas categorías de gasto promedio trimestral per cápita que tuvieron incrementos entre 2018 y 2020 fueron: alimentos y bebidas, salud, y cuidados personales.</p>
+
+<p>A nivel municipal, los rubros de gasto con mayor cambio entre 2018 y 2020 fueron: transporte público ( -26 %); vestimenta y calzado ( -23.51 %); y cuidados personales (13.54 %).
+A nivel decil, es decir, cuando observamos el gasto de los habitantes de Torreón según su nivel de ingreso; observamos que en promedio los ciudadanos con menor ingreso corriente de Torreón fueron los únicos que aumentaron su gasto monetario. El decil I aumentó su gasto en 4.73 %, comparado con la disminución total en el municipio de (-) 9.41 % es una diferencia de 4.68 puntos porcentuales.</p>
+
+<p>Esta clasificación por deciles de ingreso nos permite encontrar cambios importantes en la composición del gasto de los habitantes de Torreón. Los de mayor ingreso duplicaron su gasto en educación (120.21 %); los de menor ingreso multiplicaron su gasto de bolsillo en salud por más de 3.5 lo que fue en 2018; y los integrantes del cuarto decil aumentaron su gasto en adquisición de vehículos en 422.21 % una vez descontado el efecto inflacionario.</p>
+
+<p>Si miramos los datos según clasificación de gasto, los deciles con mayor cambio en cada uno de ellos son: alimentos y bebidas, decil I (41.28 %); vestimenta y calzado, decil X (-49.23 %); salud, decil I (254.21 %); transporte, decil VII (40.98 %); educación, decil X (120. 21 %); cuidados personales, decil III (63.34 %).</p>
+
+<p>En general, los datos de gasto de la ENIGH 2020 nos indican que los habitantes con mayor ingreso de Torreón fueron los que tuvieron una mayor disminución en sus gastos corrientes. Mientras que los de menor ingreso fueron quienes tuvieron menores caídas o incluso aumentos en su gasto. Estos resultados son escalables a nivel nacional y se unen a la evidencia de que el efecto de la pandemia tuvo una repercusión más agresiva sobre los más desfavorecidos en México.</p>
+
+<h3>Referencias:</h3>
+
+<ul>
+<li><p>INEGI. 2021. Encuesta Nacional de Ingresos y Gastos de los Hogares 2020.</p></li>
+<li><p>INEGI. 2021. Características de la ENIGH 2020. Obtenido de: Encuesta Nacional de Ingresos y Gastos de los Hogares 2020 ENIGH <a href="http://www.trcimplan.gob.mx/blog/inegi.org.mx">inegi.org.mx</a></p></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Inteligencia colectiva como solución al problema del agua en la Comarca Lagunera</title>
       <link>http://www.trcimplan.gob.mx/blog/inteligencia-colectiva-como-solucion-al-problema-del-agua-ago-2021.html</link>
@@ -433,53 +464,6 @@ Torreón es una ciudad vía o de paso para los migrantes, cuya meta es llegar a 
 <li><p><strong>R. Ayuntamiento de Torreón</strong>. (2020). Dirección General de Ordenamiento Territorial y Urbanismo. Obtenido de Torreón: <a href="http://docs.torreon.gob.mx/share/s/VbbMV3VySWuzkFp8aniMOw">http://docs.torreon.gob.mx/share/s/VbbMV3VySWuzkFp8aniMOw</a>
 </b>
 </br></br></p></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Volver al inicio</title>
-      <link>http://www.trcimplan.gob.mx/blog/volver-al-inicio-ago-2021.html</link>
-      <guid isPermaLink="false">blog-volver-al-inicio-ago-2021</guid>
-      <pubDate>Wed, 04 Aug 2021 00:00:00 -0500</pubDate>
-      <author>Lic. Aldo Valdés</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/volver-al-inicio-ago-2021/imagen.jpg"><br>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/volver-al-inicio-ago-2021/Aldo.jpg"  align="right" alt="foto Aldo"></p>
-
-<p></br></br></br></br></br></br></br></br>
-Por: <b>Lic. Aldo Valdés</b> </br>
-Consejero de Visión Metrópoli
-</br></br></p>
-
-<p>El centro histórico de Torreón es el lugar más icónico de la ciudad. En él se pueden apreciar marcas de los principales acontecimientos que ha vivido la región desde finales del siglo XIX hasta la nuestra época. Se trata de un área rica en expresiones artísticas, sociales, gastronómicas y con una dinámica comercial muy relevante. El centro representa, con sus bondades y problemáticas, un territorio en el que se despliegan la biografía y la idiosincrasia local. Sin embargo, a pesar de su importancia, este conjunto de 241 manzanas se encuentra deshabitado. Y es que, según datos del Censo 2020 del INEGI, la tasa de decrecimiento poblacional en el Centro Histórico es del 0.22%.</p>
-
-<p>De acuerdo a los datos recabados en el reciente Censo de Población y Vivienda (INEGI, 2020) el Centro Histórico de Torreón cuenta con un poco más de 6 mil habitantes. Dato que contrasta con los más de 1.4 millones de personas que habitan la Zona Metropolitana de La Laguna. Si bien, el despoblamiento del centro no representa un fenómeno endémico de la región, es necesario analizar esta situación, cuestionar las causas de la misma y visualizar los posibles escenarios en un futuro próximo.</p>
-
-<p>En las últimas décadas, la mancha urbana de Torreón ha crecido de forma desproporcional al aumento en la población; desde la década de 1980-1990 en adelante la población creció un 57% mientras que la mancha urbana logró duplicarse. ONU Habitat y el Instituto Mexicano para la Competitividad han alertado sobre los riesgos de continuar con esta tendencia. De acuerdo a la Arq. Carla Tovar, Dir. de Planeación Urbana en el IMPLAN Torreón, este fenómeno “conlleva a una estructura urbana fragmentada, de baja densidad, con grandes porcentajes de vacíos urbanos y altos costos sociales relacionados con la movilidad urbana” (IMPLAN, 2020).</p>
-
-<p>El crecimiento desmedido hacia la periferia ha sido observable durante los últimos años en el norte y el oriente de la ciudad con resultados similares a los previstos por los organismos previamente mencionados. La mancha urbana se extiende, pero con una baja densidad poblacional. Y es que, la densidad poblacional actual es de 47 hab/ha (habitantes por hectárea), mientras que ONU Habitat recomienda una densidad poblacional de 150 hab/ha; y por lo tanto, se vuelve costoso llevar servicios públicos a lugares lejanos y poco habitados. Esto, a su vez, rezaga aún más otras áreas de la ciudad y aumenta los retos en cuestión de movilidad, medio ambiente, seguridad y calidad de vida.</p>
-
-<p>Conviene entonces replantear si la forma en la que estamos diseñando nuestras ciudades es la que mejor responde a las necesidades de sus habitantes. Justamente en el análisis de la problemática se pueden reconocer posibles soluciones. Quizá una de las alternativas más convenientes sea enfocar ciertos esfuerzos al lugar donde todo inició: el Centro Histórico. Y es que las circunstancias actuales de esta zona también conllevan oportunidades en cuestiones habitacionales, comerciales y de movilidad. Precisamente mediante los usos mixtos del suelo, políticas de vivienda adecuadas y la inversión privada, se pueden detonar cambios necesarios para el núcleo de la ciudad (ONU Habitat, 2017).</p>
-
-<p>En este proceso, la coordinación entre distintos actores sociales es fundamental. La participación ciudadana debe de combinarse con voluntad política. El concepto de gobernanza adquiere entonces un sentido práctico (y urgente) en la resolución de los retos compartidos. El centro histórico de Torreón, como punto de encuentro para la zona metropolitana, puede reconvertirse en un área en la cual se pongan en práctica los principios para desarrollar un modelo compacto y accesible de ciudad. Ya se cuenta con gran parte de la infraestructura y los servicios necesarios para imaginar ese futuro, en el cual se proponga una alternativa a los patrones fragmentados, a la segregación residencial y al crecimiento disperso.</p>
-
-<p>Una ciudad a escala humana, con una densidad poblacional adecuada, usos mixtos y movilidad activa detonaría gran parte del potencial de la región y beneficiaría a sus habitantes de muchas formas. No se trata de una utopía, sino de acciones que están a nuestro alcance y que ya se han reproducido en lugares cercanos o en nuestra misma ciudad.</p>
-
-<p>Cabe mencionar que a nivel local existen documentos y propuestas como el Programa Parcial de Desarrollo Urbano del Centro Histórico y el Plan Director de Desarrollo Urbano de Torreón, ambos del IMPLAN; además de iniciativas como Vive Tu Acera, donde converge la participación de distintos actores de la sociedad civil y otros sectores para la recuperación del Centro Histórico (Multi City Challenge, 2020). Es así, mediante intervenciones tácticas y colectivas, que el corazón de la ciudad puede volver a latir.</p>
-
-<h3>Referencias:</h3>
-
-<ul>
-<li><p><a href="https://www.elsiglodetorreon.com.mx/noticia/1822333.zona-metropolitana-de-la-laguna-la-decima-mas-poblada-de-mexico.html">https://www.elsiglodetorreon.com.mx/noticia/1822333.zona-metropolitana-de-la-laguna-la-decima-mas-poblada-de-mexico.html</a></p></li>
-<li><p><a href="https://www.noticiasdelsoldelalaguna.com.mx/local/torreon/abandona-poblacion-el-centro-historico-5572816.html">https://www.noticiasdelsoldelalaguna.com.mx/local/torreon/abandona-poblacion-el-centro-historico-5572816.html</a></p></li>
-<li><p><a href="http://www.noticierosgrem.com.mx/reprueba-onu-habitat-torreon-crecimiento-urbano-desmedido/">http://www.noticierosgrem.com.mx/reprueba-onu-habitat-torreon-crecimiento-urbano-desmedido/</a></p></li>
-<li><p><a href="https://onuhabitat.org.mx/index.php/los-usos-mixtos-del-suelo-y-sus-beneficios">https://onuhabitat.org.mx/index.php/los-usos-mixtos-del-suelo-y-sus-beneficios</a></p></li>
-<li><p><a href="http://www.trcimplan.gob.mx/blog/los-centros-historicos-de-la-zona-metropolitana.html">http://www.trcimplan.gob.mx/blog/los-centros-historicos-de-la-zona-metropolitana.html</a></p></li>
-<li><p><a href="http://www.trcimplan.gob.mx/blog/suelo-mixto-como-politica-de-desarrollo-sostenible-nov2019.html">http://www.trcimplan.gob.mx/blog/suelo-mixto-como-politica-de-desarrollo-sostenible-nov2019.html</a></p></li>
-<li><p><a href="http://www.trcimplan.gob.mx/blog/la-transformacion-de-la-periferia-urbana-de-torreon-dic2019.html">http://www.trcimplan.gob.mx/blog/la-transformacion-de-la-periferia-urbana-de-torreon-dic2019.html</a></p></li>
-<li><p><a href="http://www.trcimplan.gob.mx/blog/programa-parcial-desarrollo-urbano-torreon-zona-norte-marzo2020.html">http://www.trcimplan.gob.mx/blog/programa-parcial-desarrollo-urbano-torreon-zona-norte-marzo2020.html</a></p></li>
-<li><p><a href="http://www.trcimplan.gob.mx/blog/torreon-y-las-determinantes-de-su-crecimiento-urbano-abril2020.html">http://www.trcimplan.gob.mx/blog/torreon-y-las-determinantes-de-su-crecimiento-urbano-abril2020.html</a></p></li>
-<li><p><a href="http://www.trcimplan.gob.mx/blog/la-estructura-urbana-de-torreon-oct-2020.html">http://www.trcimplan.gob.mx/blog/la-estructura-urbana-de-torreon-oct-2020.html</a></p></li>
 </ul>
 ]]></description>
     </item>
