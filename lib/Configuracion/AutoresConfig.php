@@ -68,7 +68,7 @@ class AutoresConfig {
         $this->autores[] = new \Base\Autor('', 'Arq.', 'Jair Miramontes Chávez',            'arq-jair-miramontes-chavez',            'IMPLAN Torreón', 'Sistemas de Información Geográfica',    'Tel. de Contacto: (871) 5007078, ext.2316', 'info@trcimplan.gob.mx', 'Jairmi');
         $this->autores[] = new \Base\Autor('', 'Arq.', 'Julio Alexis Magaña Cisneros',      'arq-julio-alexis-magana-cisneros',      'IMPLAN Torreón', 'Estudios Sectoriales',                  'Tel. de Contacto: (871) 5007078, ext.2316', 'info@trcimplan.gob.mx', 'jokeralex53');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Edgardo de la Cruz Torres',         'lic-edgardo-de-la-cruz-torres',         'IMPLAN Torreón', 'Instrumentación política y jurídica',   'Tel. de Contacto: (871) 5007078', 'info@trcimplan.gob.mx', ' ');
-
+        $this->autores[] = new \Base\Autor('', 'Arq.', 'Estefanía Rodríguez Schott',        'arq-estefania-rodriguez-schott',        'IMPLAN Torreón', 'Vinculación Universidad Empresa',       'Tel. de Contacto: (871) 5007078, ext.2338', 'info@trcimplan.gob.mx', ' ');
 
 
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Israel Sinai Charur Méndez',        'lic-israel-sinai-charur-mendez',        'IMPLAN Torreón', 'Difusión y Diseño Gráfico',             'Tel. de Contacto: (871) 5007078, ext.2461', 'info@trcimplan.gob.mx', 'sunnocharur');
