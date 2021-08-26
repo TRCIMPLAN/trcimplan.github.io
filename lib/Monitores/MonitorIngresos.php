@@ -35,8 +35,8 @@ class MonitorIngresos extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Ingresos';
-        $this->autor                      = 'Lic. Iván de Luna Aldape'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2020-05-11T14:03';
+        $this->autor                      = 'Lic. Pedro Eleazar González Valdez'; // Puede ser un arreglo de textos
+        $this->fecha                      = '2021-08-26T13:28';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-ingresos'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales

@@ -1,54 +1,53 @@
-# Monitor de Ingresos
+# Monitor de Ingresos Agosto 2021
 
 ## Datos generales de gastos de la vivienda
-Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+Indicador                                                       |Dato    |Periodo           |Nivel  |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-Total de viviendas          |34,7 millones  |2018   |Nacional   |ENIGH 2018         |
-Habitantes representados    |125.1 millones |2018   |Nacional   |ENIGH 2018     |
-Coeficiente de Gini             |.469       |2018   |Nacional   |ENIGH 2018         |
-Coeficiente de Gini     |.375       |2018   |ZML        |ENIGH 2018             |
+Total de viviendas          |35.75 millones |2020   |Nacional   |ENIGH 2020 |
+Habitantes representados    |126.8 millones |2020   |Nacional   |ENIGH 2020 |
+Coeficiente de Gini             |.415       |2020   |Nacional   |ENIGH 2020 |
+Coeficiente de Gini     |.391       |2020   |ZML        |ENIGH 2020 |
 
-## Ingresos del hogar por déciles
-Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+## Ingresos trimestral del hogar por déciles
+Indicador                                                       |Dato    |Periodo           |Nivel  |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-Décil I     |14.98%     | 2018  |ZML        |ENIGH 2018     |
-Décil V     |10.73%     | 2018  |ZML        |ENIGH 2018         |
-Décil X     |3.58%      | 2018  |ZML        |ENIGH 2018     |
+Décil I     |$10,909    | 2020  |ZML        |ENIGH 2020     |
+Décil V     |$32,905    | 2020  |ZML        |ENIGH 2020         |
+Décil X     |$134,917   | 2020  |ZML        |ENIGH 2020     |
 
 ## Ingresos por hogar
-Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+Indicador                                                       |Dato    |Periodo           |Nivel  |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-Habitantes promedio por hogar       |3.6            |2018   |Nacional   |ENIGH 2018|
-Ingreso promedio trimestral         |53,012         |2018   |Nacional   |ENIGH 2018|
-Total de los ingresos de los hogares    |$1.72 billones     |2018   |Nacional   |ENIGH 2018|
-Total de los ingresos de los hogares    |$18.084 mil millones   |2018   |ZML        |ENIGH 2018|
+Habitantes promedio por hogar       |3.55           |2020   |Nacional   |ENIGH 2020|
+Ingreso promedio trimestral         |50,309         |2020   |Nacional   |ENIGH 2020|
+Total de los ingresos de los hogares    |$1.80 billones     |2020   |Nacional   |ENIGH 2020|
+Total de los ingresos de los hogares    |$20.051 mil millones   |2020   |ZML        |ENIGH 2020|
 
 
 ## Ingresos trimestrales nacionales
-Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+Indicador                                                       |Dato    |Periodo           |Nivel  |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-Trabajo         |67.3%|2018 |Nacional   |ENIGH 2018|
-Transferencias      |15.4%|2018 |Nacional   |ENIGH 2018|
-Alquiler de la vivienda |11.4%|2018 |Nacional   |ENIGH 2018|
+Trabajo         |63.82|2020 |Nacional   |ENIGH 2020|
+Transferencias      |17.63%|2020    |Nacional   |ENIGH 2020|
+Alquiler de la vivienda |13.06%|2020    |Nacional   |ENIGH 2020|
 
 
 ## Ingresos para la ZML
-Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+Indicador                                                       |Dato    |Periodo           |Nivel  |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-Ingreso promedio trimestral |$46,254.20 |2018       |ZML    |ENIGH 2018|
-Ingreso por trabajo     |69.55%     |2018       |ZML    |ENIGH 2018|
-transferencias          |18.94%     |2018       |ZML    |ENIGH 2018|
+Ingreso promedio trimestral |$51,944    |2020       |ZML    |ENIGH 2020|
+Ingreso por trabajo     |67.07%     |2020       |ZML    |ENIGH 2020|
+transferencias          |18.71%     |2020       |ZML    |ENIGH 2020|
 
 
 ## Gastos trimestrales
-Indicador                                                       |Dato    |Periodo           |Nivel      |Fuente             |
+Indicador                                                       |Dato    |Periodo           |Nivel  |Fuente             |
 ----------------------------------------------------------------|--------|------------------|-----------|-------------------|
-Gasto trimestral estimado   |$30,285.23 |2018   |ZML    |ENIGH 2018|
-Alimentos           |$10,101.25 |2018   |ZML    |ENIGH 2018|
-Transporte          |$6,114.06  |2018   |ZML    |ENIGH 2018|
-Vivienda            |$3,912.91  |2018   |ZML    |ENIGH 2018|
-Personales          |$2,650.69  |2018   |ZML    |ENIGH 2018|
-
+Gasto trimestral estimado   |$30,377.73 |2020   |ZML    |ENIGH 2020|
+Alimentos           |$10,125.91 |2020   |ZML    |ENIGH 2020|
+Transporte          |$6,209.04  |2020   |ZML    |ENIGH 2020|
+Vivienda            |$2,713.50  |2020   |ZML    |ENIGH 2020|
+Personales          |$2,725.89  |2020   |ZML    |ENIGH 2020|
 
 
 </br>
