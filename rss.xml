@@ -5,11 +5,68 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 02 Sep 2021 14:43:02 -0500</pubDate>
+    <pubDate>Thu, 02 Sep 2021 15:18:31 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visibilizando la Movilidad de Cuidado en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/blog/movilidad-de-cuidado-sep-2021.html</link>
+      <guid isPermaLink="false">blog-movilidad-de-cuidado-sep-2021</guid>
+      <pubDate>Thu, 02 Sep 2021 15:00:00 -0500</pubDate>
+      <author>Arq. Ihanelly Hernández Villa</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/movilidad-de-cuidado-sep-2021/imagen.jpg"><br>
+
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/ihanelly-hernandez-villa.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/blog/../imagenes/128/arq-ihanelly-hernandez-villa-top2.png" align="right" alt="Foto Cecilio" width="500" height="200"></a>
+
+</p>
+
+<p></br></br></br></br></br></br></br></br></p>
+
+<hr />
+
+<p>Considerando una distancia caminando 500 metros, equivalente a aproximadamente 5 cuadras, se obtuvo que, en Torreón, solo el 60.1% de la población tiene acceso a un parque o plaza.</p>
+
+<p>Cuando hablamos de cuidado hacemos referencia al trabajo pagado o sin paga, la mayoría de los casos sin paga, que realizan los adultos en beneficio de la niñez, adultos mayores, personas enfermas y, en general, para el funcionamiento del hogar.</p>
+
+<p>Por los roles de género impuestos históricamente a las personas a partir de su sexo, son las mujeres las que mayoritariamente realizan estas tareas, lo que condiciona sus viajes y, en consecuencia, su movilidad.</p>
+
+<p>La española Inés Sánchez de Madariaga acuñó el término <strong>Movilidad de Cuidado</strong> con el objetivo de cuantificar y hacer visibles todos los viajes que se realizan con el propósito de cuidar a otros; considerando una hipótesis: entre 1/3 y 2/3 de los viajes que normalmente se cuentan como compras, visitas, paseo, otros, deberían ser considerados como viajes de cuidado, además, de que el 100% de los viajes de acompañamiento deberían de entrar en esta misma categoría.</p>
+
+<p>En el caso de Torreón, si nos referimos al aspecto de movilidad, contamos con datos insuficientes y desactualizados pues el Plan Integral de Movilidad Urbana Sustentable de La Laguna (PIMUS) elaborado en 2011 y publicado en 2013, captura como motivos de viaje: Trabajo (41%), Recreación (3%), Estudios (23%), Compras (16%), Salud (5%) y Otros (12%); sin contabilizar los viajes de acompañamiento y sin desagregar la información por género, invisibilizando los viajes de cuidado y quienes los realizan, lo que acentúa aún más las brechas de género, en este caso, en todo lo que engloba a la movilidad pues estos datos son la base de su análisis y planeación.</p>
+
+<p>Y es que, cuando observamos la experiencia personal de las mujeres y de aquellos a los que cuidan, su uso diario de la ciudad es muy diferente a la idea de que solo se va de la casa al trabajo y viceversa, sus viajes generalmente son multipropósito, de menores distancias y con mayores probabilidades de cambios.</p>
+
+<p>El documento <em>Handbook for Gender-Inclusive Urban Plannig Design</em> menciona, entre otros aspectos, que una ciudad que funciona bien para mujeres, niñas y minorías sexuales y de género de todas las edades y capacidades, y que por lo tanto apoya su inclusión económica y social, es accesible; es decir, que todo el mundo puede acceder a los espacios públicos de forma libre, fácil y cómoda; y está conectada, por lo que cualquier persona puede moverse de forma segura, fácil y asequible para llegar a oportunidades y servicios claves.</p>
+
+<p>Entonces, actualmente no contamos con muchos datos para Torreón en cuanto a los propósitos de viaje, pero si podemos medir, gracias a los Sistemas de Información Geográfica (SIG), la accesibilidad y conectividad que tienen las personas a los destinos de cuidado.</p>
+
+<p>Al hacer este análisis, considerando una distancia caminando de 500 metros, equivalente a aproximadamente 5 cuadras, se obtuvo que:</p>
+
+<ul>
+<li><p>En Torreón, solo el 60.1% de la población tiene acceso a un parque o plaza</p></li>
+<li><p>El 31.3% de la población tiene acceso caminando a una guardería</p></li>
+<li><p>Los equipamientos de salud solo son accesibles para 10.68% de la población</p></li>
+<li><p>Las escuelas, a diferencia, son accesibles para 70.09% de la población</p></li>
+<li><p>Y el 88.11% de la población tiene acceso a alguna tienda de abarrotes, tortillería o panadería.</p></li>
+</ul>
+
+<p>Es importante señalar que este análisis se hizo contemplando a los fraccionamiento y urbanizaciones cerradas como una barrera para la movilidad de todas las personas.</p>
+
+<p>Para reducir esta brecha de género que actualmente padecen las mujeres que se mueven por motivos de cuidado y que tienen implicaciones en su disponibilidad de tiempo y de recursos económicos, Inés Sánchez de Madariaga recomienda implementar políticas, planes y programas que produzcan la evidencia empírica necesaria para integrar las necesidades de cuidado entre las prioridades de la política de transporte; diseñar sistemas de transporte más equitativos pues estarán más adaptados a las necesidades de las personas en cuanto a sus roles de género; y contribuir al desarrollo de la economía facilitando la integración de las mujeres en el mercado laboral a través de la reducción de las brechas de género existentes en el acceso al transporte.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/movilidad-de-cuidado-sep-2021/ima01.jpg" alt="Movilidad de cuidado"></p>
+
+<h2>Fuentes: </h2>
+
+<ul>
+<li><p>Sánches de Madariaga, I. (2018). Mobility of care. Recuperado: agosto 31, 2021, de ONU-Hábitat Sitio web: <a href="https://unhabitat.org/mobility-of-care-ines-sanchez-de-madariaga">https://unhabitat.org/mobility-of-care-ines-sanchez-de-madariaga</a></p></li>
+<li><p>Terraza, Horacio; Orlando, Maria Beatriz; Lakovits, Carina; Lopes Janik, Vanessa; Kalashyan, Anna. 2020. Handbook for Gender-Inclusive Urban Planning and Design. World Bank, Washington, DC. © World Bank. <a href="https://openknowledge.worldbank.org/handle/10986/33197">https://openknowledge.worldbank.org/handle/10986/33197</a> License: CC BY 3.0 IGO.</p></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Intervenciones Urbanas y Educación Vial para Transitar Seguros.</title>
       <link>http://www.trcimplan.gob.mx/blog/intervenciones-urbanas-y-educacion-vial-sep-2021.html</link>
@@ -450,45 +507,6 @@ g) Usuarios prestadores del servicio de transporte de carga.</p>
 <li><p><a href="http://niunamuertevial.mx/wp-content/uploads/2020/11/informe-NUMV-2019.pdf">http://niunamuertevial.mx/wp-content/uploads/2020/11/informe-NUMV-2019.pdf</a></p></li>
 <li><p>Dirección General de Tránsito y Vialidad de Torreón.</p></li>
 <li><p>Diainternacionalde.com <a href="https://www.diainternacionalde.com/ficha/dia-mundial-peaton">https://www.diainternacionalde.com/ficha/dia-mundial-peaton</a></p></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Construcción de los ingresos de los hogares en La Laguna.</title>
-      <link>http://www.trcimplan.gob.mx/blog/construccion-de-los-ingresos-en-los-hogares-ago-2021.html</link>
-      <guid isPermaLink="false">blog-construccion-de-los-ingresos-en-los-hogares-ago-2021</guid>
-      <pubDate>Thu, 12 Aug 2021 15:20:00 -0500</pubDate>
-      <author>Lic. Pedro Eleazar González Valdez</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/construccion-de-los-ingresos-en-los-hogares-ago-2021/imagen.jpg"><br>
-
-<p>
-   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/pedro-eleazar-gonzalez-valdez.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/blog/../imagenes/128/lic-pedro-eleazar-gonzalez-valdez-top2.png" align="right" alt="Foto Eleazar" width="500" height="200"></a>
-</p>
-
-<p></br></br></br></br></br></br></br></br></p>
-
-<hr />
-
-<p>Conocer la calidad de vida de la sociedad es una importante medición para cualquier centro de población. Usualmente se comete el error de medir la economía solo con el empleo, sin embargo, por sí solo no refleja económicamente la manera más acertada la situación en que las personas. El principal inconveniente con solo observar los ingresos laborales es que dentro del hogar suelen cohabitar diversas personas que aportan al ingreso corriente común, además de que existen otros ingresos como rentas y jubilaciones, entre otras.</p>
-
-<p>Para analizar estas características se cuenta con la Encuesta Nacional de Ingresos y Gastos del Hogar (ENIGH), realizada por el INEGI. Como su nombre lo indica, esta encuesta busca registrar tanto los ingresos como los gastos de los hogares en México, así como dar una perspectiva acerca las características que tienen los hogares mexicanos en sus diferentes particularidades. Dicha encuesta recientemente se actualizó con datos del año 2020, y permite comparar su información con respecto a versiones previas.</p>
-
-<p>Dentro del hogar, que el INEGI define como “La unidad formada por una o más personas, vinculadas o no por lazos de parentesco, que residen habitualmente en la misma vivienda particular”, se atribuye un rol de jefatura a quien encabeza la unidad doméstica. Dicha distinción contribuye a establecer las condiciones de los hogares, facilitando también, distinciones entre los demás miembros. Es importante señalar que la información que se presenta es obtenida a través de la ENIGH.</p>
-
-<p>De manera general, la jefatura del hogar tiene en promedio 51.2 años de edad, muy similar al dato de la Zona Metropolitana de La Laguna (ZML), el cual se sitúa en 51.1 años. En promedio en los hogares habitan 3.55 personas por hogar, una cifra que se parece mucho a la de la ZML con 3.53 personas por hogar.</p>
-
-<p>Como se menciona al comienzo, el ingreso corriente es conformado por todas las fuentes de ingresos, siendo los ingresos por empleo la principal fuente, ya que conforman en promedio el 63.82% a nivel nacional y 67.07% en la ZML. El resto se distribuye en diferentes tipos de ingreso del cual destaco los ingresos por jubilaciones que representaron el 8.52% a nivel nacional y el 11.34% en la región y también rentas con 5.41% y 5.03% respectivamente. Además de los mencionados, los ingresos por becas y remesas juegan un papel en la recaudación, sin embargo, estos representan menos del 1% en promedio a nacional y local.</p>
-
-<p>Con respecto a los montos de los ingresos corrientes, de manera trimestral promedian $50,309 a nivel nacional, mientras que en la ZML la cifra fue mayor, situándose en $51,944. En cuanto a las personas que conforman el hogar, en promedio a nivel nacional 2.25 de las personas del hogar reciben algún tipo de ingreso, mientras que en la ZML esta cifra es de 2.22, manteniéndose con poco cambio, 2.38 en 2018 y 2.45 en 2016.</p>
-
-<p>Finalmente, del promedio de personas empleadas en el hogar fue de 1.65 a nivel nacional en 2020, y en la ZML 1.52, lo que nos dice que por hogar suele haber más de una persona trabajando.</p>
-
-<p>Se hace notar a través de los datos anteriores, que los ingresos en los hogares no son solamente aquellos que vienen del empleo, sino que existen diferentes fuentes de ingresos que de igual manera aportan a la economía familiar. Por ello es que analizar en conjunto esta información resulta en una mejor estimación de la economía de la población.</p>
-
-<h3>Fuente:</h3>
-
-<ul>
-<li>Encuesta Nacional de Ingresos y Gastos del Hogar (ENIGH), 2016, 2018, 2020. INEGI.</li>
 </ul>
 ]]></description>
     </item>
