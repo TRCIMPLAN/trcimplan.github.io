@@ -7,53 +7,61 @@
 
 <p style="background-color:#4F81BD;color:white;"><strong>Indicadores de Salud de La Laguna</strong></p>
 
-FECHA: Agosto 2020
+FECHA: Agosto 2021
 
 
 
-## CONSULTAS
-INDICADOR                       |DATO       |NIVEL      |FUENTE         |
---------------------------------------------------------|---------------|---------------|-----------------------|
-Consultas en Torreón                    |15,283     |ZML        |DGIS, 2020     |
-Consultas en Gómez Palacio              |16,906     |ZML        |DGIS, 2020         |
+##CONSULTAS
 
-## PRINCIPALES CAUSAS DE HOSPITALIZACIÓN EN HOMBRES
-INDICADOR                       |DATO       |NIVEL      |FUENTE         |
---------------------------------------------------------|---------------|---------------|-----------------------|
-Enfermedad renal crónica                |90     |ZML        |DGIS, 2020     |
-Diabetes mellitus tipo 2                |79     |ZML        |DGIS, 2020     |
-Causes de morbilidad desconocidas y no especificadas    |62     |ZML        |DGIS, 2020         |
-Neumonía, organismo no especificado         |43     |ZML        |DGIS, 2020     |
+INDICADOR                   |DATO  |NIVEL |FUENTE     |
+----------------------------|------|------|-----------|
+Consultas en Torreón        |2,251 |ZML   |DGIS, 2021 |
+Consultas en Gómez Palacio  |1,611 |ZML   |DGIS, 2021 |
 
-## PRINCIPALES CAUSAS DE HOSPITALIZACIÓN EN MUJERES
-INDICADOR                       |DATO       |NIVEL      |FUENTE         |
---------------------------------------------------------|---------------|---------------|-----------------------|
-Parto único espontáneo                  |1,502      |ZML        |DGIS, 2020     |
-Atención materna por anormalidades conocidas o presuntas de los órganos pelvianos de la madre|336|ZML|DGIS, 2020|
-Causas de morbilidad desconocidas y no especificadas    |280        |ZML        |DGIS, 2020     |
-Atención materna por desproporción conocida o presunta  |180        |ZML        |DGIS, 2020     |
+##PRINCIPALES CAUSAS DE HOSPITALIZACIÓN EN HOMBRES
 
-## PRINCIPALES CAUSAS DE DEFUNCIÓN EN HOMBRES
-INDICADOR                       |DATO       |NIVEL      |FUENTE         |
---------------------------------------------------------|---------------|---------------|-----------------------|
-Enfermedades del sistema circulatorio           |1,127      |ZML        |INEGI, 2018        |
-Tumores (neoplasias)                    |586        |ZML        |INEGI, 2018        |
-Enfermedades endócrinas, nutricionales y metabólicas    |576        |ZML        |INEGI, 2018        |
-Enfermedades del sistema digestivo          |499        |ZML        |INEGI, 2018        |
+INDICADOR                             |DATO   |NIVEL  |FUENTE     |
+--------------------------------------|-------|-------|-----------|
+Uso emergente de U07                  |96     |ZML    |DGIS, 2021 |
+Fractura de pierna, inclusive tobillo |80     |ZML    |DGIS, 2021 |
+Diabetes mellitus tipo 2              |60     |ZML    |DGIS, 2021 |
+Diabetes Mellitus, no especificada    |54     |ZML    |DGIS, 2021 |
 
-## PRINCIPALES CAUSAS DE DEFUNCIÓN EN MUJERES
-INDICADOR                                              |DATO       |NIVEL      |FUENTE      |
--------------------------------------------------------|-----------|-----------|------------|
-Enfermedades del sistema circulatorio                  |1,049      |ZML        |INEGI, 2018 |
-Enfermedades endócrinas, nutricionales y metabólicas   |668        |ZML        |INEGI, 2018 |
-Tumores (neoplasias)                                   |537        |ZML        |INEGI, 2018 |
-Enfermedades del sistema respiratorio                  |365        |ZML        |INEGI, 2018 |
+##PRINCIPALES CAUSAS DE HOSPITALIZACIÓN EN MUJERES
+
+INDICADOR                               |DATO       |NIVEL      |FUENTE         |
+----------------------------------------|-----------|-----------|---------------|
+Parto único espontáneo                  |1,917      |ZML        |DGIS, 2021     |
+Atención materna por anormalidades conocidas o presuntas de los órganos pelvianos de la madre|408|ZML|DGIS, 2021|
+Parto único por cesárea                 |382        |ZML        |DGIS, 2021     |
+Aborto no especificado                  |179        |ZML        |DGIS, 2021     |
+
+##PRINCIPALES CAUSAS DE DEFUNCIÓN EN HOMBRES
+
+INDICADOR                                               |DATO       |NIVEL      |FUENTE      |
+--------------------------------------------------------|-----------|-----------|------------|
+Asignación provisoria de nuevas afecciones de etiologia incierta o de uso emergente|2,177|ZML|INEGI, 2020   |
+Enfermedades del sistema circulatorio                   |1,685      |ZML        |INEGI, 2020 |
+Enfermedades endócrinas, nutricionales y metabólicas    |991        |ZML        |INEGI, 2020 |
+Enfermedades del sistema respiratorio                   |705        |ZML        |INEGI, 2020 |
+
+##PRINCIPALES CAUSAS DE DEFUNCIÓN EN MUJERES
+
+INDICADOR                                             |DATO       |NIVEL      |FUENTE     |
+------------------------------------------------------|-----------|-----------|-----------|
+Asignación provisoria de nuevas afecciones de etiologia incierta o de uso emergente|1,446|ZML|INEGI, 2020   |
+Enfermedades del sistema circulatorio                 |1,287      |ZML        |INEGI, 2020|
+Enfermedades endócrinas, nutricionales y metabólicas  |957        |ZML        |INEGI, 2020|
+Tumores (neoplasias)                                  |573        |ZML        |INEGI, 2020|
 
 </br>
 
 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS SALUD</strong></p>
 
+
+[De click para descargar el archivo PDF del:   <strong>Histórico Salud Agosto 2020</strong>](http://www.trcimplan.gob.mx/monitores/salud/monitor-salud-agosto-2020.pdf)
+</br>
 [De click para descargar el archivo PDF del:   <strong>Histórico Salud Enero 2020</strong>](http://www.trcimplan.gob.mx/monitores/salud/monitor-salud-enero-2020.pdf)
 </br>
 [De click para descargar el archivo PDF del:   <strong>Histórico Salud 2019</strong>](http://www.trcimplan.gob.mx/monitores/salud/monitor-salud-2019.pdf)
