@@ -1,9 +1,5 @@
 
-<p>
-   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jesus-abraham-salazar-valadez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-jesus-abraham-salazar-valadez-top2.png" align="right" alt="Foto Abraham" width="500" height="200"></a>
-</p>
-
-</br></br></br></br></br></br></br></br>
+</br></br></br>
 
 ---
 

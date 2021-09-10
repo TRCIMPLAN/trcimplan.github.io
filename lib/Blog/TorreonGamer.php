@@ -35,7 +35,7 @@ class TorreonGamer extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Torreón Gamer';
-        $this->autor                      = 'Lic. Jesús Abraham Salazar Valadez';
+        $this->autor                      = 'Lic. Abraham Cuéllar';
         $this->fecha                      = '2021-09-09T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'torreon-gamer-sep-2021';
