@@ -7,7 +7,7 @@ La Encuesta Nacional de Ocupación y Empleo (Nueva Edición) (ENOE-N) del INEGI 
 
 En esta publicación se muestran los siguientes cambios para el área metropolitana de Torreón:
 
-- Para el primer trimestre de 2021 el ingreso promedio mensual se ubicó en $9,216.13; un incremento de 4.88% respecto al primer trimestre del año 2021, cuando se ubicó $8,786.96 y un aumento de 2.18% con respecto al primer trimestre de 2020 cuando el ingreso promedio mensual se ubicó en $9,019.92.
+- Para el segundo trimestre de 2021 el ingreso promedio mensual se ubicó en $9,216.13; un incremento de 4.88% respecto al primer trimestre del año 2021, cuando se ubicó $8,786.96 y un aumento de 2.18% con respecto al primer trimestre de 2020 cuando el ingreso promedio mensual se ubicó en $9,019.92.
 
 - La tasa de desempleo se posicionó en 4.23%, disminuyendo respecto al 5.16% del primer trimestre del 2021.
 

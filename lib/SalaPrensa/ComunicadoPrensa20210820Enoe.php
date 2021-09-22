@@ -35,7 +35,7 @@ class ComunicadoPrensa20210820Enoe extends \Base\PublicacionSchemaBlogPosting {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Ingreso promedio aumenta y desempleo disminuye en Torreón y el Área Metropolitana de La Laguna.';
-        $this->autor                      = 'Lic. Maira Ivonne Flores Reyes';
+        $this->autor                      = array('Lic. Maira Ivonne Flores Reyes', 'Lic. Pedro Eleazar González Valdez');
         $this->fecha                      = '2021-08-20T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = '2021-08-20-comunicado-enoe';
