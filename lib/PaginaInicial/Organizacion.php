@@ -130,10 +130,11 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
 
+                $b[] = '<a href="https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021"><img src="http://www.trcimplan.gob.mx/imagenes/libros/banner-arte-urbano-01.jpg" alt="Arte Urbano"></a>';
 
                 $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra3.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner2021.jpg" alt="Convocatorias Manos a la Cebra 2021"></a>';
 
-                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
+//                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
 
@@ -147,23 +148,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
                 //----------------
 
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\banner-convocatoria-vm-mar2021.jpg" alt="Convocatorias VM marzo 2021"></a>';
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\programa-zona-norte\pzn-banner-general.jpg" alt="Programa Zona Norte"></a>';
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad.jpg" alt="visión de ciudad"></a>';
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
-                //$b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html"><img src="imagenes\politica-industrial\banner-politica-industrial2019.jpg" alt="Política Industrial 2019"></a>';
-               //$b[] = '<a href="https://bit.ly/ConsultaCentroHistorico"><img src="imagenes\centro-historico\pch-baner-19.jpg" alt="Centro Histórico"></a>';
 
-               //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/pzn-2020.html"><img src="imagenes\convocatorias\convocatoria-pzn.jpg" alt="Participación Ciudadana Zona Norte- 2020"></a>';
-               //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
-               //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/multi-city-challenge-2020.html"><img src="imagenes\convocatorias\convocatoria-multi-city-2020.jpg" alt="Convocatoria Multi City 2020"></a>';
-               // vm $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/vision-metropoli.html"><img src="imagenes\convocatorias\convocatorias-ene2021-vm-banner.jpg" alt="Convocatorias VM 2021"></a>';
-               // vm $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/mi-espacio.html"><img src="imagenes\mi-espacio\banner-mi-espacio.jpg" alt="Programa Mi Espacio"></a>';
-               //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes\convocatorias\convocatoria-pddu-14.jpg" alt="Convocatoria PDDU"></a>';
-               // $b[] = '<a href="http://www.trcimplan.gob.mx/vision-metropoli/index.html"><img src="imagenes\convocatorias\convocatorias-2018-vm-banner-formulario-04.jpg" alt="Visión Metrópoli"></a>';
-               // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatorias-2018-cs-banner-09.jpg" alt="Consejeros ciudadanos"></a>';
-               // $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros.html"><img src="imagenes\convocatorias\convocatoria-consejeros-sectoriales-2019.jpg" alt="Consejeros ciudadanos 2019"></a>';
-               // $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/programa-zona-norte/resultados-consulta-zona-norte-mayo2020.pdf"><img src="imagenes\programa-zona-norte\banner-pzn-consulta.jpg" alt="Programa Zona Norte"></a>';
 
                 $b[] = '</ul>';
 
