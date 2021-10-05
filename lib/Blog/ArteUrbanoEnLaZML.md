@@ -25,5 +25,8 @@ Reconocer que el arte también se puede encontrar en la calle y no sólo en una 
 
 “El graffiti no es pintura sobre un muro, es una expresión de un sector social que se siente marginado, entonces el hacer graffiti es un acto político totalmente. Es sorprendente que las autoridades no se den cuenta cómo evoluciona el mundo, hay que construir ciudadanía a través de estas manifestaciones culturales. Es un tema totalmente social”. (Luis Sergio “Máscara”, 2020).
 
+###<b>Libro de Graffiti & Arte Urbano en La Laguna:</b></br>
 
+ [https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021](https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021)
+</br></br></br>
 <img class="img-responsive" src="arte-urbano-en-la-zml-oct-2021/ima01.jpg" alt="Arte Urbano">
