@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SMIIndicadoresLerdo SustentabilidadPeatones
+ * TrcIMPLAN Sitio Web - SMIIndicadoresDurango EconomiaPoblacionOcupada
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -20,12 +20,12 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SMIIndicadoresLerdo;
+namespace SMIIndicadoresDurango;
 
 /**
- * Clase SustentabilidadPeatones
+ * Clase EconomiaPoblacionOcupada
  */
-class SustentabilidadPeatones extends \SMIBase\PublicacionWeb {
+class EconomiaPoblacionOcupada extends \SMIBase\PublicacionWeb {
 
     /**
      * Constructor
@@ -34,17 +34,17 @@ class SustentabilidadPeatones extends \SMIBase\PublicacionWeb {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre      = 'Peatones en Lerdo';
-        $this->fecha       = '2016-05-11T15:20:50';
+        $this->nombre      = 'Población ocupada en Durango';
+        $this->fecha       = '2019-01-28T10:06:19';
         // El nombre del archivo a crear
-        $this->archivo     = 'sustentabilidad-peatones';
+        $this->archivo     = 'economia-poblacion-ocupada';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Se considera como Peatones a la población de 12 a 65 años de edad que realizan traslados con motivo de estudios o trabajo a pie';
-        $this->claves      = 'IMPLAN, Lerdo, Medio Ambiente, Movilidad, Sector Automotriz';
+        $this->descripcion = 'Se muestra el número de personas de la población ocupada';
+        $this->claves      = 'IMPLAN, Durango, Índice de Competitividad Urbana , Empleo , Población';
         // Para el Organizador
-        $this->categorias  = array('Medio Ambiente', 'Movilidad', 'Sector Automotriz');
-        $this->fuentes     = array('INEGI');
-        $this->regiones    = array('Lerdo');
+        $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo', 'Población');
+        $this->fuentes     = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos');
+        $this->regiones    = array('Durango');
     } // constructor
 
     /**
@@ -55,7 +55,7 @@ class SustentabilidadPeatones extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,7 @@ class SustentabilidadPeatones extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2015-12-31', 'valor' => '21.3200', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2021-06-30', 'valor' => '804426', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 2, crudo 1
     } // datos
 
     /**
@@ -79,7 +79,7 @@ class SustentabilidadPeatones extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'cantidad'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -91,11 +91,14 @@ class SustentabilidadPeatones extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '12.0600', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '16.8900', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '21.3200', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '23.4500', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '16.4400', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2016-12-31', 'valor' => '294071', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '153477', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '50569', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '79877', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-06-30', 'valor' => '550471', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2021-06-30', 'valor' => '1396237', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Durango', 'fecha' => '2021-06-30', 'valor' => '804426', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2021-06-30', 'valor' => '55242748', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
     } // otras_regiones
 
     /**
@@ -113,11 +116,9 @@ class SustentabilidadPeatones extends \SMIBase\PublicacionWeb {
      * @return string Markdown
      */
     public function observaciones() {
-        return <<<OBSERVACIONES_FINAL
-La suma de los porcentajes por municipio no suman 100% de la distribución modal debido a que el resto de los modos se agrupan en "Otros" de origen.
-OBSERVACIONES_FINAL;
+        return NULL;
     } // observaciones
 
-} // Clase SustentabilidadPeatones
+} // Clase EconomiaPoblacionOcupada
 
 ?>

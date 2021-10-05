@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-10-04</lastmod>
+    <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -15101,6 +15101,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-poblacion-ocupada.html</loc>
+    <lastmod>2019-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-posgrados-de-calidad.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -15581,6 +15586,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-poblacion-ocupada.html</loc>
+    <lastmod>2019-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-posgrados-de-calidad.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -16023,6 +16033,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-poblacion-economicamente-activa-pea.html</loc>
     <lastmod>2018-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-poblacion-ocupada.html</loc>
+    <lastmod>2019-01-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
