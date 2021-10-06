@@ -35,7 +35,7 @@ class Privacidad extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Aviso de Privacidad';
-        $this->fecha                      = '2015-03-12T09:30';
+        $this->fecha                      = '2021-10-06T09:30';
         // El nombre del archivo a crear
         $this->archivo                    = 'privacidad';
         // La descripción y claves dan información a los buscadores y redes sociales
