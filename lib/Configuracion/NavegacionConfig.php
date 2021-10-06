@@ -104,8 +104,9 @@ class NavegacionConfig {
             'Consejo Visión Metrópoli > Consejo Juvenil'              => 'convocatorias/vision-metropoli.html',
             'Consejo Visión Metrópoli > Integrantes del Consejo'      => 'vision-metropoli/integrantes.html',
             'Consejo Visión Metrópoli > Sala de Prensa'               => 'vision-metropoli/index.html',
-            'Consejo Visión Metrópoli > Reglamento'                   => 'vision-metropoli/reglamento-vision-metropoli-2020.pdf',
-            'Consejo Visión Metrópoli > Informe 2019 - 2021'          => 'https://issuu.com/consejovisionmetropoli/docs/informe_visi_n_metr_poli_2019_-_2021'),
+            'Consejo Visión Metrópoli > Publicaciones'                => 'vision-metropoli/publicaciones.html',
+            'Consejo Visión Metrópoli > Reglamento'                   => 'vision-metropoli/reglamento-vision-metropoli-2020.pdf'),
+//            'Consejo Visión Metrópoli > Informe 2019 - 2021'          => 'https://issuu.com/consejovisionmetropoli/docs/informe_visi_n_metr_poli_2019_-_2021'),
 
         'Institucional' => array(
              'Institucional > Misión / Visión'                         => 'institucional/vision-mision.html',
@@ -182,6 +183,7 @@ class NavegacionConfig {
         'Programas de Radio'               => 'fa fa-microphone',
         'Visión Metrópoli'                 => 'fa fa-university',
             'Reglamento'                   => 'fa fa-file-text-o',
+            'Publicaciones'                => 'fa fa-book',
         'Institucional'                    => 'fa fa-building-o',
             'Misión / Visión'              => 'fa fa-trophy',
             'Nuestros Proyectos'           => 'fa fa-pencil-square-o',
