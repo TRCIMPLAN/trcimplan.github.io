@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-10-06</lastmod>
+    <lastmod>2021-10-08</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -923,6 +923,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/infraestructura-verde-en-el-centro-historico-de-torreon-agosto-2020.html</loc>
     <lastmod>2020-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/infraestructura-verde-torreon-oct-2021.html</loc>
+    <lastmod>2021-10-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

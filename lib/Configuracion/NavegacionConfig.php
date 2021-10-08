@@ -196,6 +196,7 @@ class NavegacionConfig {
             //,'Transparencia'                => 'fa fa-external-link'
             //'Consejo Directivo'                => 'fa fa-users',
         'Transparencia'                    => 'fa fa-external-link',
+            'Documentos'                   => 'fa fa-file-pdf-o',
         'Términos de Uso'                  => 'fa fa-share-alt',
             'De la información'            => 'fa fa-cubes',
             'Del sitio web'                => 'fa fa-globe',
