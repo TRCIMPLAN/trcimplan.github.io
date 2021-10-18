@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-10-12</lastmod>
+    <lastmod>2021-10-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1418,6 +1418,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/nuevas-tendencias-del-fondo-metropolitano-oct2019.html</loc>
     <lastmod>2019-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/nuevo-plan-director-de-desarrollo-urbano-torreon-oct-2021.html</loc>
+    <lastmod>2021-10-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
