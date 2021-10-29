@@ -6,6 +6,10 @@
 </br></br></br></br></br></br></br>
 ---
 
+<center><img class="img-responsive" src="implan-planear-investigar-difundir-oct-2021/ima01.jpg" alt="planear"></center>
+
+</br></br>
+
  La información que se publica a través de la página “trcimplan.gob.mx” es para consulta pública y es gratuita. Ésta se distribuye en 5 principales ejes: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad, a partir de estos se desglosan 34 categorías, de las cuáles se muestra la información de más de 600 indicadores.
 
  El Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN), como su nombre lo dice, es el órgano técnico responsable de la planeación para el desarrollo del municipio de Torreón. Las responsabilidades del Instituto son gestionar proyectos, crear acuerdos, vínculos y consensos entre la ciudadanía, grupos sociales, empresariales, académicos y gobierno. 
