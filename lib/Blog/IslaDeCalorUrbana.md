@@ -39,3 +39,9 @@ En Torreón se cuenta con importantes áreas verdes, pero resultan insuficientes
 - [https://onuhabitat.org.mx/index.php/las-ciudades-causa-y-solucion-del-cambio-climatico](https://onuhabitat.org.mx/index.php/las-ciudades-causa-y-solucion-del-cambio-climatico)
 
 - Plan de Infraestructura Verde para la Ciudad de Torreón.
+
+*[ONU-HABITAT]: Es el programa de las Naciones Unidas para los asentamientos humanos, que tiene como misión promover pueblos y ciudades social y ambientalmente sostenibles con el objetivo de proporcionar vivienda para todos y todas.
+
+*[CENAPRED]: Centro Nacional de Prevención de Desastres | Gobierno | gob.mx.
+
+*[GEI]: Gases de Efecto Invernadero
