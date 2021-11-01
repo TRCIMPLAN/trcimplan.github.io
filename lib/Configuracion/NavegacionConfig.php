@@ -40,7 +40,7 @@ class NavegacionConfig {
             'Indicadores > Introducción al SMI'                       => 'smi/introduccion.html',
             'Indicadores > Indicadores por Categoría'                 => 'indicadores-categorias/index.html',
             'Indicadores > Indicadores por Región'                    => 'smi/por-region.html',
-            'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
+            //'Indicadores > Datos Abiertos'                            => 'smi/datos-abiertos.html',
             'Indicadores > Niveles Socioeconómicos'                   => 'smi/niveles-socioeconomicos.html',
             'Indicadores > Monitores'                                 => 'monitores/index.html'),
             //'Indicadores > Georreferenciados'                         => 'smi-georreferenciados/index.html',
@@ -49,8 +49,8 @@ class NavegacionConfig {
             'Indicadores Básicos de Colonias > Introducción al IBC'   => 'ibc/introduccion.html',
             'Indicadores Básicos de Colonias > Colonias de Torreón'   => 'ibc-colonias-torreon/index.html',
             'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed',
-            'Indicadores Básicos de Colonias > Torreón Urbano'        => 'ibc/torreon-urbano.html',
-            'Indicadores Básicos de Colonias > Datos Abiertos'        => 'ibc/datos-abiertos.html'),
+            'Indicadores Básicos de Colonias > Torreón Urbano'        => 'ibc/torreon-urbano.html'),
+            //'Indicadores Básicos de Colonias > Datos Abiertos'        => 'ibc/datos-abiertos.html'),
 
             //'Indicadores Básicos de Colonias > Catálogo de Conceptos' => 'ibc/catalogo-conceptos.html',
             //'Indicadores Básicos de Colonias > Mapa Completo'         => 'https://implantorreon.carto.com/u/sigimplan/builder/08e34126-9748-4d5f-8c1f-1d9ac194ee79/embed',
@@ -64,8 +64,8 @@ class NavegacionConfig {
         'Información Geográfica' => array(
             'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
             'Información Geográfica > Mapas por Tema'                 => 'sig-mapas-torreon/temas-sig.html',
-            'Información Geográfica > Usos de Suelo'                  => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html',
-            'Información Geográfica > Datos Abiertos'                 => 'sig/datos-abiertos.html'),
+            'Información Geográfica > Usos de Suelo'                  => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html'),
+            //'Información Geográfica > Datos Abiertos'                 => 'sig/datos-abiertos.html'),
 
             //   'Información Geográfica > Planes'                         => 'sig-planes/index.html',    VM
          //   'Información Geográfica > Mapas de Torreón'               => 'sig-mapas-torreon/index.html',
