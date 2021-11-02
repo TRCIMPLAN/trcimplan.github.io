@@ -1,31 +1,31 @@
-# Monitor de Economía Septiembre 2021
+# Monitor de Economía Octubre 2021
 
 ## Indicadores macroeconómicos
-Indicador                                       |Dato       |Periodo                                      |Nivel    |Fuente  |
-------------------------------------------------|-----------|---------------------------------------------|---------|--------|
-Tipo de cambio fix del último mes               |  $19.85   |Agosto 2021                                  |Nacional |Banxico |
-Apreciación interanual del tipo de cambio       |  7.21%    |29 de septiembre 2020 a 29 de septiembre 2021|Nacional |Banxico |
-Tasa de interés objetivo                        |  4.50%    |Septiembre 2021                              |Nacional |Banxico |
-Último movimiento de la tasa                    |  +0.25%   |13 de agosto 2021                            |Nacional |Banxico |
-Inflación interanual                            |  5.59%    |Agosto 2020 a agosto 2021                    |Nacional |Banxico |
+Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
+----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
+Tipo de cambio fix del último mes                   |  $20.56   |Septiembre 2021        |Nacional       |Banxico        |
+Apreciación interanual del tipo de cambio           |  7.14%    |Septiembre 2020 a septiembre 2021|Nacional |Banxico|
+Tasa de interés objetivo                            |  4.75%    |Octubre 2021       |Nacional   |Banxico        |
+Último movimiento de la tasa                    |  +0.25%   |1 de octubre 2021  |Nacional   |Banxico        |
+Inflación interanual                        |  6.00%    |Septiembre 2020 a septiembre 2021  |Nacional   |Banxico|
 
 ## Indicadores regionales
-Indicador                                       |Dato       |Periodo                        |Nivel   |Fuente                        |
-------------------------------------------------|-----------|-------------------------------|--------|------------------------------|
-PIB estimado 2018                               |351.80 mmp |2019                           |ZML     |Censos Económicos 2019, INEGI |
-Lugar nacional en Valor Agregado 2018           |7°         |2019                           |Torreón |Censos Económicos 2019, INEGI |
-Inflación anual 2020                            |4.14%      |Diciembre 2019 a diciembre 2020|Torreón |INEGI                         |
-Inflación mensual interanual                    |6.93%      |Agosto 2020 a Agosto 2021      |Torreón |INEGI                         |
-Inflación mensual interanual del año anterior   |4.62%      |Agosto 2019 a Agosto 2020      |Torreón |INEGI                         |
+Indicador                                                       |Dato       |Periodo        |Nivel      |Fuente                 |
+----------------------------------------------------------------|---------------|---------------|---------------|-----------------------|
+PIB estimado 2018                       |351.80 mmp |2019       |ZML        |Censos Económicos 2019, INEGI  |
+Lugar nacional en Valor Agregado 2018               |7°         |2019       |Torreón        |Censos Económicos 2019, INEGI  |
+Inflación anual 2020                        |4.14%      |Diciembre 2019 a diciembre 2020|Torreón        |INEGI  |
+Inflación mensual interanual                    |6.91%      |Septiembre 2020 a Septiembre 2021|Torreón|INEGI    |
+Inflación mensual interanual del año anterior           |4.85%      |Septiembre 2019 a Septiembre 2020|Torreón|INEGI    |
 
 ## Perspectivas de empresarios y consumidores
-Indicador                                               |Dato       |Periodo            |Nivel      |Fuente|
---------------------------------------------------------|-----------|-------------------|-----------|------|
-Cambio en la confianza de los consumidores              |+21.31%    |Agosto 2021        |Nacional   |INEGI |
-Cambio en las expectativas de pedidos manufactureros    |+3.68%     |Agosto 2021        |Nacional   |INEGI |
-Cambio en la confianza del sector manufactura           |+31.42%    |Agosto 2021        |Nacional   |INEGI |
-Cambio en la confianza del sector construcción          |+20.07%    |Agosto 2021        |Nacional   |INEGI |
-Cambio en la confianza del sector comercio              |+30.22%    |Agosto 2021        |Nacional   |INEGI |
+Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
+----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
+Cambio en la confianza de los consumidores              |+19.41%    |Septiembre 2021    |Nacional   |INEGI      |
+Cambio en las expectativas de pedidos manufactureros        |+5.30%     |Septiembre 2021    |Nacional   |INEGI      |
+Cambio en la confianza del sector manufactura           |+25.48%    |Septiembre 2021    |Nacional   |INEGI      |
+Cambio en la confianza del sector construcción          |+19.54%    |Septiembre 2021    |Nacional   |INEGI      |
+Cambio en la confianza del sector comercio              |+30.41%    |Septiembre 2021    |Nacional   |INEGI      |
 
 </br>
 
@@ -42,7 +42,8 @@ Cambio en la confianza del sector comercio              |+30.22%    |Agosto 2021
 [Mayo 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-may-2021.pdf)
 [Junio 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-jun-2021.pdf)
 [Julio 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-jul-2021.pdf)
-[Agosto 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-ago-2021.pdf)
+[Agosto 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ago-2021.pdf)
+[Septiembre 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-sep-2021.pdf)
 ###Año 2020
 [Marzo     2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2020.pdf)
 [Mayo      2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-mayo-2020.pdf)
