@@ -128,6 +128,11 @@ class NavegacionConfig {
              'Contacto > Medios de contacto'                           => 'contacto/contacto.html',
              'Contacto > Preguntas Frecuentes'                         => 'preguntas-frecuentes/preguntas-frecuentes.html',
              'Contacto > Comentarios y Sugerencias'                    => 'http://goo.gl/forms/1rdX4X128PpMOif73'),
+        'Datos Abiertos'  => array(
+             'Datos Abiertos > Sist. Metropolitano de Indicadores'     => 'smi/datos-abiertos.html',
+             'Datos Abiertos > Indicador Básico de Colonias'           => 'ibc/datos-abiertos.html',
+             'Datos Abiertos > Sist. Información Geográfica'           => 'sig/datos-abiertos.html',
+             'Datos Abiertos > Atlas de Riesgos'                       => ''),
         'Convocatorias'                                                => 'convocatorias/index.html',
         'Oficina Virtual de Información Económica (OVIE)'              => 'http://177.244.42.17/ovie-torreon/#!',
         'Atlas Municipal de Riesgos de Torreón'                        => 'https://arcg.is/0vySSr',
@@ -205,6 +210,11 @@ class NavegacionConfig {
             'Medios de contacto'           => 'fa fa-phone',
             'Preguntas Frecuentes'         => 'fa fa-question',
             'Comentarios y Sugerencias'    => 'fa fa-external-link',
+        'Datos Abiertos'                   => 'fa fa-download',
+            'Sist. Metropolitano de Indicadores' => 'fa fa-area-chart',
+            'Indicador Básico de Colonias' => 'fa fa-puzzle-piece',
+            'Sist. Información Geográfica' => 'fa fa-map-marker',
+            'Atlas de Riesgos'             => 'fa fa-globe',
         'Convocatorias'                    => 'fa fa-file-text-o',
         'Oficina Virtual de Información Económica (OVIE)' => 'fa fa-map-marker',
         'Atlas Municipal de Riesgos de Torreón'  => 'fa fa-globe');
