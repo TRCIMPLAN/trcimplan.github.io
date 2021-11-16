@@ -6,6 +6,8 @@
 
 ---
 
+<img class="img-responsive" src="infraestructura-ciclista-en-torreon-nov-2021/mapa-ciclovias.jpg" alt="Mapa de ciclovías">
+
 La movilidad activa se ha convertido en un elemento fundamental en la movilidad urbana de la ciudad, la expansión de la mancha urbana ha generado que los desplazamientos sean más largos y por tanto el uso de los modos de transporte motorizados ha generado diversos problemas y conflictos en las vialidades, por lo que llevar a cabo estrategias como la implementación de infraestructura ciclista permite abordar estos problemas y ofrecer una solución de movilidad sustentable favoreciendo el desarrollo de la ciudad.
 
 La implementación de infraestructura ciclista no es la única acción que se puede ejecutar para abordar la movilidad activa, teniendo entre otras acciones el rediseño de vialidades, cruces peatonales, calles completas, etc. En Torreón la infraestructura ciclista se ha ido incrementado en los últimos años, pasando de contar con 21 km en 2018, a contar actualmente con 88.38 km.
