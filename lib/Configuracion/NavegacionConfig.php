@@ -132,7 +132,7 @@ class NavegacionConfig {
              'Datos Abiertos > Sist. Metropolitano de Indicadores'     => 'smi/datos-abiertos.html',
              'Datos Abiertos > Indicador Básico de Colonias'           => 'ibc/datos-abiertos.html',
              'Datos Abiertos > Sist. Información Geográfica'           => 'sig/datos-abiertos.html',
-             'Datos Abiertos > Atlas de Riesgos'                       => ''),
+             'Datos Abiertos > Atlas de Riesgos'                       => ' '),
         'Convocatorias'                                                => 'convocatorias/index.html',
         'Oficina Virtual de Información Económica (OVIE)'              => 'http://177.244.42.17/ovie-torreon/#!',
         'Atlas Municipal de Riesgos de Torreón'                        => 'https://arcg.is/0vySSr',
