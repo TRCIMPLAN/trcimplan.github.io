@@ -36,7 +36,7 @@ class MonitorVivienda extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Vivienda';
         $this->autor                      = 'Lic. Pedro Eleazar González Valdez'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2020-09-13T09:58';
+        $this->fecha                      = '2021-11-19T13:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-vivienda'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
