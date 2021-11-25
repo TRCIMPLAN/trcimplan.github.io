@@ -33,7 +33,7 @@ class VidaEnCiudad extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre             = 'Vida en la Ciudad';
-        $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
+        $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
         $this->fecha              = '2015-05-14T11:00';
         // El nombre del archivo a crear y rutas relativas a las imágenes
         $this->archivo            = 'vida-en-ciudad';
