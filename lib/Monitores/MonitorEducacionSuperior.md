@@ -53,6 +53,8 @@ Estudio técnico con mayor matrícula  |Técnico Superior Universitario en Mante
 </br></br></br>
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS EDUCACIÓN</strong></p>
 
-</br>
 
-[- Ciclo escolar 2019-2020](http://www.trcimplan.gob.mx/monitores/educacion/educacion-ciclo-2019-2020.pdf)
+[- Ciclo escolar <strong>2019-2020</strong>](http://www.trcimplan.gob.mx/monitores/educacion/educacion-ciclo-2019-2020.pdf) </br>
+[- Ciclo escolar <strong>2018-2019</strong>](http://www.trcimplan.gob.mx/monitores/educacion/educacion-ciclo-2018-2019.pdf) </br>
+[- Ciclo escolar <strong>2017-2018</strong>](http://www.trcimplan.gob.mx/monitores/educacion/educacion-ciclo-2017-2018.pdf) </br>
+[- Ciclo escolar <strong>2016-2017</strong>](http://www.trcimplan.gob.mx/monitores/educacion/educacion-ciclo-2016-2017.pdf) </br>

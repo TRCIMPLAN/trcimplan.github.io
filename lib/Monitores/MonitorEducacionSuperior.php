@@ -36,7 +36,7 @@ class MonitorEducacionSuperior extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Educación Superior';
         $this->autor                      = 'Lic. Olga Alejandra Noriega Aranda'; // Puede ser un arreglo de textos  array(' ',' ')
-        $this->fecha                      = '2021-11-24T09:40';
+        $this->fecha                      = '2021-11-25T13:40';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-educacion'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
