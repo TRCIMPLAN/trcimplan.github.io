@@ -130,7 +130,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
 
-                $b[] = '<a href="https://storymaps.arcgis.com/stories/4db284ef5edd47d991f0bf5bc02e4557"><img src="imagenes\pddu\pddu-banner-qr-23.jpg" alt="liga pddu"></a>';
+                $b[] = '<a href="https://solucionessig.com.mx/PDU_TORREON/Index.html"><img src="imagenes\pddu\pddu-banner2-qr-23.jpg" alt="liga pddu"></a>';
 
                 $b[] = '<a href="https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021"><img src="http://www.trcimplan.gob.mx/imagenes/libros/banner-arte-urbano-01.jpg" alt="Arte Urbano"></a>';
 
@@ -142,7 +142,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
                 $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
 
-
+//                $b[] = '<a href="https://storymaps.arcgis.com/stories/4db284ef5edd47d991f0bf5bc02e4557"><img src="imagenes\pddu\pddu-banner-qr-23.jpg" alt="liga pddu"></a>';
 //                $b[] = '<a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda5.png" alt="liga ovie"></a>';
 
 
