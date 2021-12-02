@@ -47,8 +47,8 @@ class InfraestructuraVerdeTorreon extends \Base\Publicacion {
         $this->imagen                    = 'infraestructura-verde-de-torreon-2021/imagen.png';
         $this->imagen_previa             = 'infraestructura-verde-de-torreon-2021/imagen-previa.png';
         // URL de destino
-        $this->url                       = 'https://drive.google.com/file/d/1wr4vZL_EwysnFJ7fKp_9_vJ2x6zPB0CX/view?usp=sharing';
-        $this->url_etiqueta              = 'Descargar PDF 184 MB';
+        $this->url                       = 'https://drive.google.com/file/d/1q6zs_Qo8pEHrFpfAEEHSYSuMoFJysdqA/view?usp=sharing';
+        $this->url_etiqueta              = 'Descargar PDF ';
     } // constructor
 
 } // Clase InfraestructuraVerdeTorreon
