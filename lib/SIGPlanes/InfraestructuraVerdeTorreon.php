@@ -32,12 +32,12 @@ class InfraestructuraVerdeTorreon extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                    = 'Plan de Infraestructura Verde de la ciudad de Torreón';
+        $this->nombre                    = 'Plan de Infraestructura Verde de Torreón';
         $this->fecha                     = '2020-12-02T09:00';
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Plan de Infraestructura Verde de la ciudad de Torreón.';
+        $this->descripcion               = 'El Plan de Infraestructura Verde contiene un diagnóstico sobre las principales problemáticas hidrometeorológicas que afectan a nuestro sistema urbano municipal, es decir, las inundaciones pluviales y las altas temperaturas, mismas que se buscan mitigar a través de estrategias puntuales como la ampliación de la infraestructura pluvial o la instalación de zonas de captación sobre camellones en las principales vialidades de la ciudad.';
         $this->claves                    = 'IMPLAN, Torreon, infraestructura, verde, municipio';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Infraestructura', 'Población');
