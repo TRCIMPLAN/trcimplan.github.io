@@ -1,41 +1,42 @@
 
-##OCTUBRE 2021
+##NOVIEMBRE 2021
 
 ## DELITOS
 | INDICADOR                         | DATO      | NIVEL     | FECHA                         |
 |---------------------------------------|---------------|---------------|-------------------------------|
-| Delitos del fuero común       |19,314     | ZML       | SESNSP septiembre 2021    |
-| Delitos del fuero común       |9,555      | Torreón   | SESNSP septiembre 2021    |
+| Delitos del fuero común       |21,400     | ZML       | SESNSP octubre 2021   |
+| Delitos del fuero común       |10,549     | Torreón   | SESNSP octubre 2021   |
 
 ## ROBOS
 | INDICADOR                         | DATO      | NIVEL     | FECHA                         |
 |---------------------------------------|---------------|---------------|-------------------------------|
-| Robo a casa habitación            |1,401      | ZML       | SESNSP septiembre 2021    |
-| Robo a negocio            |656        | ZML       | SESNSP septiembre 2021    |
-| Robo de vehículo automotor        |326        | ZML       | SESNSP septiembre 2021    |
-| Robo a transeúnte en vía publica  |261        | ZML       | SESNSP septiembre 2021    |
-| Robo de autopartes            |73     | ZML       | SESNSP septiembre 2021    |
+| Robo a casa habitación            |1,553      | ZML       | SESNSP octubre 2021   |
+| Robo a negocio            |738        | ZML       | SESNSP octubre 2021   |
+| Robo de vehículo automotor        |355        | ZML       | SESNSP octubre 2021   |
+| Robo a transeúnte en vía publica  |293        | ZML       | SESNSP octubre 2021   |
+| Robo de autopartes            |81     | ZML       | SESNSP octubre 2021   |
 
 ## DELITOS SEXUALES
 | INDICADOR                         | DATO      | NIVEL     | FECHA                         |
 |---------------------------------------|---------------|---------------|-------------------------------|
-| Abuso sexual                  |282        | ZML       |  SESNSP septiembre 2021   |
-| Abuso sexual                  |112        | Torreón   |  SESNSP septiembre 2021   |
-| Acoso sexual                  |85         | Torreón   |  SESNSP septiembre 2021   |
+| Abuso sexual                  |319        | ZML       |  SESNSP octubre 2021  |
+| Abuso sexual                  |130        | Torreón   |  SESNSP octubre 2021  |
+| Acoso sexual                  |85     | Torreón   |  SESNSP octubre 2021  |
 
 ## OTROS DELITOS
 | INDICADOR                         | DATO      | NIVEL     | FECHA                         |
 |---------------------------------------|---------------|---------------|-------------------------------|
-| Violencia familiar            |4,128      | ZML       |  SESNSP septiembre 2021   |
-| Violencia familiar            |2,167      | Torreón   |  SESNSP septiembre 2021   |
-| Lesiones                      |2,107      | ZML       |  SESNSP septiembre 2021   |
-| Lesiones                      |860        | Torreón   |  SESNSP septiembre 2021   |
-| Daños a la propiedad          |1,690      | ZML       |  SESNSP septiembre 2021   |
-| Daños a la propiedad          |1,114      | Torreón   |  SESNSP septiembre 2021   |
-| Narcomenudeo                  |2,031      | ZML       |  SESNSP septiembre 2021   |
-| Narcomenudeo                  |1,154      | Torreón   |  SESNSP septiembre 2021   |
-| Fraude                        |699        | ZML       |  SESNSP septiembre 2021   |
-| Fraude                        |466        | Torreón   |  SESNSP septiembre 2021   |
+| Violencia familiar            |4,525      | ZML       |  SESNSP octubre 2021  |
+| Violencia familiar            |2,354      | Torreón   |  SESNSP octubre 2021  |
+| Lesiones                      |2,330      | ZML       |  SESNSP octubre 2021  |
+| Lesiones                      |936        | Torreón   |  SESNSP octubre 2021  |
+| Daños a la propiedad          |1,855      | ZML       |  SESNSP octubre 2021  |
+| Daños a la propiedad          |1,220      | Torreón   |  SESNSP octubre 2021  |
+| Narcomenudeo                  |2,269      | ZML       |  SESNSP octubre 2021  |
+| Narcomenudeo                  |1,280      | Torreón   |  SESNSP octubre 2021  |
+| Amenazas                          |1,957      | ZML       |  SESNSP octubre 2021  |
+| Amenazas                          |1,315      | Torreón   |  SESNSP octubre 2021  |
+
 
 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS DEL MONITOR DE SEGURIDAD</strong></p>
@@ -53,6 +54,7 @@ Informe:
 [, Julio 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-jul-2021.pdf)
 [, Agosto 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-ago-2021.pdf)
 [, Septiembre 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-sep-2021.pdf)
+[, Octubre 2021](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-oct-2021.pdf)
 </br>
 
 <b> AÑO 2020 </b>
