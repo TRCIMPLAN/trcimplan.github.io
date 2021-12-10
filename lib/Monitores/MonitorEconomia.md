@@ -1,13 +1,13 @@
-# Monitor de Economía Octubre 2021
+# Monitor de Economía Noviembre 2021
 
 ## Indicadores macroeconómicos
 Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
 ----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
-Tipo de cambio fix del último mes                   |  $20.56   |Septiembre 2021        |Nacional       |Banxico        |
-Apreciación interanual del tipo de cambio           |  7.14%    |Septiembre 2020 a septiembre 2021|Nacional |Banxico|
-Tasa de interés objetivo                            |  4.75%    |Octubre 2021       |Nacional   |Banxico        |
-Último movimiento de la tasa                    |  +0.25%   |1 de octubre 2021  |Nacional   |Banxico        |
-Inflación interanual                        |  6.00%    |Septiembre 2020 a septiembre 2021  |Nacional   |Banxico|
+Tipo de cambio fix del último mes                   |  $20.53   |Octubre 2021        |Nacional      |Banxico        |
+Depreciación acumulada en 2021 del tipo de cambio       |  9.94%    |4 de enero 2020 a 26 de noviembre 2021|Nacional    |Banxico|
+Tasa de interés objetivo                            |  5.00%    |Noviembre 2021     |Nacional   |Banxico        |
+Último movimiento de la tasa                    |  +0.25%   |12 de noviembre 2021   |Nacional   |Banxico        |
+Inflación interanual                        |  6.24%    |Octubre 2020 a octubre 2021|Nacional   |Banxico|
 
 ## Indicadores regionales
 Indicador                                                       |Dato       |Periodo        |Nivel      |Fuente                 |
@@ -15,17 +15,17 @@ Indicador                                                       |Dato       |Per
 PIB estimado 2018                       |351.80 mmp |2019       |ZML        |Censos Económicos 2019, INEGI  |
 Lugar nacional en Valor Agregado 2018               |7°         |2019       |Torreón        |Censos Económicos 2019, INEGI  |
 Inflación anual 2020                        |4.14%      |Diciembre 2019 a diciembre 2020|Torreón        |INEGI  |
-Inflación mensual interanual                    |6.91%      |Septiembre 2020 a Septiembre 2021|Torreón|INEGI    |
-Inflación mensual interanual del año anterior           |4.85%      |Septiembre 2019 a Septiembre 2020|Torreón|INEGI    |
+Inflación mensual interanual                    |7.82%      |Octubre 2020  Octubre 2021|Torreón|INEGI  |
+Inflación mensual interanual del año anterior           |4.85%      |Octubre 2019  Octubre 2020|Torreón|INEGI  |
 
 ## Perspectivas de empresarios y consumidores
 Indicador                                                       |Dato       |Periodo            |Nivel      |Fuente         |
 ----------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
-Cambio en la confianza de los consumidores              |+19.41%    |Septiembre 2021    |Nacional   |INEGI      |
-Cambio en las expectativas de pedidos manufactureros        |+5.30%     |Septiembre 2021    |Nacional   |INEGI      |
-Cambio en la confianza del sector manufactura           |+25.48%    |Septiembre 2021    |Nacional   |INEGI      |
-Cambio en la confianza del sector construcción          |+19.54%    |Septiembre 2021    |Nacional   |INEGI      |
-Cambio en la confianza del sector comercio              |+30.41%    |Septiembre 2021    |Nacional   |INEGI      |
+Cambio en la confianza de los consumidores              |+15.52%    |Octubre 2021   |Nacional   |INEGI      |
+Cambio en las expectativas de pedidos manufactureros        |+3.32%     |Octubre 2021   |Nacional   |INEGI      |
+Cambio en la confianza del sector manufactura           |+25.11%    |Octubre 2021   |Nacional   |INEGI      |
+Cambio en la confianza del sector construcción          |+19.15%    |Octubre 2021   |Nacional   |INEGI      |
+Cambio en la confianza del sector comercio              |+29.48%    |Octubre 2021   |Nacional   |INEGI      |
 
 </br>
 
@@ -43,7 +43,8 @@ Cambio en la confianza del sector comercio              |+30.41%    |Septiembre 
 [Junio 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-jun-2021.pdf)
 [Julio 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-jul-2021.pdf)
 [Agosto 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ago-2021.pdf)
-[Septiembre 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-sep-2021.pdf)
+[Septiembre 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-sep-2021.pdf)
+[Octubre 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-oct-2021.pdf)
 ###Año 2020
 [Marzo     2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2020.pdf)
 [Mayo      2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-mayo-2020.pdf)
