@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2021-12-14</lastmod>
+    <lastmod>2021-12-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -843,6 +843,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/importancia-agricola-y-ganadera-de-la-laguna-jun-2021.html</loc>
     <lastmod>2021-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/importancia-de-la-participacion-ciudadana-dic-2021.html</loc>
+    <lastmod>2021-12-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -4352,7 +4357,7 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html</loc>
-    <lastmod>2020-04-30</lastmod>
+    <lastmod>2021-12-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

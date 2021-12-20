@@ -1,4 +1,4 @@
 
 ### Descargas
 
-[Presentación de Política Industrial 2020](politica-industrial/politica-industrial-2020-2.pdf) archivo en formato PDF. Tamaño de archivo 4.1 MB.
+[Presentación de Política Industrial 2021](politica-industrial/politica-industrial-dic-2021.pdf) archivo en formato PDF. Tamaño de archivo 1.9 MB.
