@@ -129,19 +129,21 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
-
-                $b[] = '<a href="https://solucionessig.com.mx/PDU_TORREON/Index.html"><img src="imagenes\pddu\pddu-banner2-qr-23.jpg" alt="liga pddu"></a>';
+                $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
+//                $b[] = '<a href="https://solucionessig.com.mx/PDU_TORREON/Index.html"><img src="imagenes\pddu\pddu-banner2-qr-23.jpg" alt="liga pddu"></a>';
 
                 $b[] = '<a href="https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021"><img src="http://www.trcimplan.gob.mx/imagenes/libros/banner-arte-urbano-01.jpg" alt="Arte Urbano"></a>';
-
-//                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra3.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner2021.jpg" alt="Convocatorias Manos a la Cebra 2021"></a>';
-                $b[] = '<a href="https://solucionessig.com.mx/PDU_TORREON/Index.html"><img src="imagenes\pddu\pddu-banner2-qr-23.jpg" alt="liga pddu"></a>';
-//                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
 
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
 
                 $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
 
+                $b[] = '<a href="https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021"><img src="http://www.trcimplan.gob.mx/imagenes/libros/banner-arte-urbano-01.jpg" alt="Arte Urbano"></a>';
+
+            //    $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
+
+//                $b[] = '<a href="http://www.trcimplan.gob.mx/investigaciones/desigualdad-de-genero.html"><img src="imagenes\cdg\banner-cdg.jpg" alt="Desigualdad de Género"></a>';
+//                $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/manos-a-la-cebra3.html"><img src="imagenes\convocatorias\convocatoria-manos-a-la-cebra-banner2021.jpg" alt="Convocatorias Manos a la Cebra 2021"></a>';
 //                $b[] = '<a href="https://storymaps.arcgis.com/stories/4db284ef5edd47d991f0bf5bc02e4557"><img src="imagenes\pddu\pddu-banner-qr-23.jpg" alt="liga pddu"></a>';
 //                $b[] = '<a href="http://177.244.42.17/ovie-torreon/#!"><img src="imagenes\ovie\ovie-logo-banda5.png" alt="liga ovie"></a>';
 
