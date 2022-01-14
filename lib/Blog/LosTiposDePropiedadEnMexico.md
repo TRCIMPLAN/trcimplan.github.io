@@ -1,5 +1,15 @@
 
-El Registro Agrario Nacional (RAN) nos dice que la propiedad social representa el 40.3% de la superficie total del área urbana contenida en 29 ejidos, con su dotación parcelaria suman una superficie de 12,429. 07 hectáreas.
+
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jair-miramontes-chavez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-jair-miramontes-chavez-top2.png" align="right" alt="Foto Jair" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
+El **Registro Agrario Nacional (RAN)** nos dice que la propiedad social representa el 40.3% de la superficie total del área urbana contenida en 29 ejidos, con su dotación parcelaria suman una superficie de 12,429. 07 hectáreas.
 
 Actualmente el IMPLAN Torreón elabora el Plan de Desarrollo Urbano que es el instrumento que gestiona el territorio del municipio, donde la propiedad del suelo es un factor determinante.
 
