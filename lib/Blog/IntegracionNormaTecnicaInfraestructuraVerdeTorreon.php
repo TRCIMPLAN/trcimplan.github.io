@@ -34,7 +34,7 @@ class IntegracionNormaTecnicaInfraestructuraVerdeTorreon extends \Base\Publicaci
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Afe Integración de la Norma Técnica de Infraestructura Verde para Torreón.';
+        $this->nombre                     = 'Integración de la Norma Técnica de Infraestructura Verde para Torreón.';
         $this->autor                      = 'Arq. Estefanía Rodríguez Schott';
         $this->fecha                      = '2021-12-14T10:00';
         // El nombre del archivo a crear
