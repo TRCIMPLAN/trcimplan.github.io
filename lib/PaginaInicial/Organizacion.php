@@ -202,11 +202,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 //                $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-comercio-exterior.html"><img src="imagenes\monitores\monitores-comercio-julio-2018-1.jpg" alt="Imagen de Comercio Exterior 1"></a>';
 //                $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-empleo-julio-2018-1.jpg" alt="Imagen Empleo 1"></a>';
 //                $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-seguridad-3May2018.html"><img src="imagenes\monitores\monitores-seguridad-mayo-2018-1.jpg" alt="Imagen Seguridad 7"></a>';
-//                $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-negocios.html"><img src="imagenes\monitores\monitores-febrero-02.jpg" alt="Imagen Negocios 10"></a>';
-//                $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-economia.html"><img src="imagenes\monitores\monitores-febrero-07.jpg" alt="Imagen Economía 14"></a>';
-//                $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-vivienda.html"><img src="imagenes\monitores\monitores-febrero-09.jpg" alt="Imagen Vivienda 16"></a>';
-//                $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-sustentabilidad.html"><img src="imagenes\monitores\monitores-febrero-03.jpg" alt="Imagen Sustentabilidad 11"></a>';
-//                $b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-empleo.html"><img src="imagenes\monitores\monitores-empleo-julio-2018-2.jpg" alt="Imagen Empleo 2"></a>';
+
 
 
                 //$b[] = '<a href="http://www.trcimplan.gob.mx/monitores/monitor-de-sustentabilidad"><img src="imagenes\monitores\monitores-febrero-04.jpg" alt="Imagen Sustentabilidad 12">
