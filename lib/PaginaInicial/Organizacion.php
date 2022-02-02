@@ -129,6 +129,9 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
+
+                $b[] = '<a href="http://www.trcimplan.gob.mx/multi-city-challenge-vive-tu-acera-2022/multi-city-challenge.html"><img src="imagenes\multi-city-challenge-vive-tu-acera-2022\banners-vive-tu-acera-2022.jpg" alt="banners-vive-tu-acera-2022"></a>';
+
                 $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
 //                $b[] = '<a href="https://solucionessig.com.mx/PDU_TORREON/Index.html"><img src="imagenes\pddu\pddu-banner2-qr-23.jpg" alt="liga pddu"></a>';
 
@@ -138,7 +141,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
                 $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
 
-                $b[] = '<a href="https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021"><img src="http://www.trcimplan.gob.mx/imagenes/libros/banner-arte-urbano-01.jpg" alt="Arte Urbano"></a>';
+
 
             //    $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
 
