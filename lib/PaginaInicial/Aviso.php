@@ -41,7 +41,7 @@ class Aviso {
         $a[] = '        </div>';
         $a[] = '        <div class="panel-body">';
         $a[] = '<center><img class="img-responsive" src="imagenes/aviso-logo-coah.jpg" alt="gráfica seguridad social"></center>';
-        $a[] = '            <p><br/><br/><b><h2>“El contenido de esta página será modificado temporalmente en atención a</br> las disposiciones legales y normativas con motivo de la Consulta Popular 2021.”</h2></b><br/><br/><br/></p>';
+        $a[] = '            <center><p><br/><br/><b><h1>“El contenido de esta página será modificado temporalmente en atención a</br> las disposiciones legales y normativas con motivo de la Consulta Popular 2022.”</h1></b><br/><br/><br/></p></center>';
 
         /**$a[] = '            <p>El IMPLAN Torreón acatará las disposiciones de este órgano federal electoral en cuanto a sus normas reglamentarias sobre la propaganda gubernamental para los procesos electorales 2021 respecto al artículo 41, base III, apartado C de la Constitución Política de los Estados Unidos Mexicanos.</p>';
         $a[] = '            <p>Ante estas disposiciones, se dejarán de emitir boletines de prensa y el Sistema Metropolitano de Indicadores (SMI) así como el Sistema de Información Geográfica (SIG) recibirán información que no sea considerada como propaganda gubernamental.</p>'; **/

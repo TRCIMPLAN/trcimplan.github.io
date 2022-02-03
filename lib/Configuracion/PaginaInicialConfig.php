@@ -50,17 +50,18 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Definir las secciones, al dividirlas es más fácil activarlas, desactivarlas o cambiar su orden
         $this->secciones   = array();
         $this->secciones[] = '\\PaginaInicial\\Organizacion';
-    //~ $this->secciones[] = '\\PaginaInicial\\GoogleBuscador';
-    //~ $this->secciones[] = '\\PaginaInicial\\Aviso';
-        $this->secciones[] = '\\PaginaInicial\\Servicios';
-    //~ $this->secciones[] = '\\PaginaInicial\\IBC';
-    //~ $this->secciones[] = '\\PaginaInicial\\InvestigacionSectorAutomotriz';
-        $this->secciones[] = '\\PaginaInicial\\UltimasPublicaciones';
-        $this->secciones[] = '\\PaginaInicial\\Categorias';
+
+        $this->secciones[] = '\\PaginaInicial\\Aviso';
+//~         $this->secciones[] = '\\PaginaInicial\\Servicios';
+
+//~         $this->secciones[] = '\\PaginaInicial\\UltimasPublicaciones';
+//~        $this->secciones[] = '\\PaginaInicial\\Categorias';
         $this->secciones[] = '\\PaginaInicial\\Mapas';
         $this->secciones[] = '\\PaginaInicial\\Redes';
     } // constructor
-
+        //~ $this->secciones[] = '\\PaginaInicial\\GoogleBuscador';
+    //~ $this->secciones[] = '\\PaginaInicial\\IBC';
+    //~ $this->secciones[] = '\\PaginaInicial\\InvestigacionSectorAutomotriz';
     /**
      * HTML
      *
