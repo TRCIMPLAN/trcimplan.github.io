@@ -54,7 +54,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->secciones[] = '\\PaginaInicial\\Aviso';
 //~         $this->secciones[] = '\\PaginaInicial\\Servicios';
 
-//~         $this->secciones[] = '\\PaginaInicial\\UltimasPublicaciones';
+        $this->secciones[] = '\\PaginaInicial\\UltimasPublicaciones';
 //~        $this->secciones[] = '\\PaginaInicial\\Categorias';
         $this->secciones[] = '\\PaginaInicial\\Mapas';
         $this->secciones[] = '\\PaginaInicial\\Redes';
