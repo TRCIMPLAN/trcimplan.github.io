@@ -35,8 +35,8 @@ class MonitorSeguridad extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Seguridad';
-        $this->autor                      = 'Lic. Pedro Eleazar González Valdez'; // Puede ser un arreglo de textos array('x','y')
-        $this->fecha                      = '2022-01-07T11:05';
+        $this->autor                      = 'Lic. Carlos Andrés Chairez Ibarra'; // Puede ser un arreglo de textos array('x','y')
+        $this->fecha                      = '2022-02-22T15:05';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-seguridad'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
