@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-02-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1428,6 +1428,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/necesidad-diagnostico-sobre-delincuencia-juvenil.html</loc>
     <lastmod>2015-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/negocios-en-tiempos-de-pandemia-feb-2022.html</loc>
+    <lastmod>2022-02-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

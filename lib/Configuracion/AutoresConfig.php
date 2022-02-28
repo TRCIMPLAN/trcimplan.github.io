@@ -58,7 +58,7 @@ class AutoresConfig {
 
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Frida García Gutiérrez',            'lic-frida-valeria-garcia-gutierrez',    'IMPLAN TORREÓN', 'Directora de Proyectos Estratégicos',   'Tel. de Contacto: (871) 5007078, ext.2305', 'proyectosestrategicos@trcimplan.gob.mx', 'garciafrida07');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Miriam Janeth González Quintana',   'lic-miriam-janeth-gonzalez-quintana',   'IMPLAN TORREÓN', 'Planeación Estratégica Integral',       'Tel. de Contacto: (871) 5007078, ext.2305', 'proyectosestrategicos@trcimplan.gob.mx', 'MiriamJglz');
-        $this->autores[] = new \Base\Autor('', 'Lic.', 'Olga Alejandra Noriega Aranda',     'lic-olga-alejandra-noriega-aranda',     'IMPLAN TORREÓN', 'Estudios Sectoriales',                  'Tel. de Contacto: (871) 5007078, ext.2305', 'proyectosestrategicos@trcimplan.gob.mx', ' ');
+
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Bernardo García Colores García',    'lic-bernardo-garcia-colores-garcia',    'IMPLAN TORREÓN', 'Analista SIG',                          'Tel. de Contacto: (871) 5007078, ext.2305', 'info@trcimplan.gob.mx', ' ');
 
         $this->autores[] = new \Base\Autor('', 'Ing.', 'José Juan Astorga Cabrales',        'ing-jose-juan-astorga-cabrales',        'IMPLAN Torreón', 'Analista de Costos',                    'Tel. de Contacto: (871) 5007078, ext.2305', 'proyectosestrategicos@trcimplan.gob.mx', ' ');
@@ -70,12 +70,13 @@ class AutoresConfig {
         $this->autores[] = new \Base\Autor('', 'Arq.', 'Julio Alexis Magaña Cisneros',      'arq-julio-alexis-magana-cisneros',      'IMPLAN TORREÓN', 'Estudios Sectoriales',                  'Tel. de Contacto: (871) 5007078, ext.2316', 'info@trcimplan.gob.mx', 'jokeralex53');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Edgardo de la Cruz Torres',         'lic-edgardo-de-la-cruz-torres',         'IMPLAN TORREÓN', 'Instrumentación política y jurídica',   'Tel. de Contacto: (871) 5007078', 'info@trcimplan.gob.mx', ' ');
         $this->autores[] = new \Base\Autor('', 'Arq.', 'Estefanía Rodríguez Schott',        'arq-estefania-rodriguez-schott',        'IMPLAN TORREÓN', 'Vinculación Universidad Empresa',       'Tel. de Contacto: (871) 5007078, ext.2338', 'info@trcimplan.gob.mx', ' ');
-        $this->autores[] = new \Base\Autor('', 'Ing.', 'Ricardo Miranda Briones',           'ing-ricardo-miranda-briones',           'IMPLAN TORREÓN', 'Estudios Sectoriales',                  'Tel. de Contacto: (871) 5007078, ext.2305', 'proyectosestrategicos@trcimplan.gob.mx', ' ');
+        $this->autores[] = new \Base\Autor('', 'Ing.', 'Ricardo Miranda Briones',           'ing-ricardo-miranda-briones',           'IMPLAN TORREÓN', 'Estudios Sectoriales',                  'Tel. de Contacto: (871) 5007078, ext.2305', 'info@trcimplan.gob.mx', ' ');
 
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Israel Sinai Charur Méndez',        'lic-israel-sinai-charur-mendez',        'IMPLAN TORREÓN', 'Difusión y Diseño Gráfico',             'Tel. de Contacto: (871) 5007078, ext.2461', 'info@trcimplan.gob.mx', 'sunnocharur');
 
 
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Pedro Eleazar González Valdez',     'lic-pedro-eleazar-gonzalez-valdez',     'IMPLAN TORREÓN', 'Director de Investigación Estratégica', 'Tel. de Contacto: (871) 5007078, ext.2311', 'info@trcimplan.gob.mx', ' ');
+        $this->autores[] = new \Base\Autor('', 'Lic.', 'Olga Alejandra Noriega Aranda',     'lic-olga-alejandra-noriega-aranda',     'IMPLAN TORREÓN', 'Indicadores Económicos',                  'Tel. de Contacto: (871) 5007078, ext.2305', 'info@trcimplan.gob.mx', ' ');
         $this->autores[] = new \Base\Autor('', 'Lic.', 'Carlos Andrés Chairez Ibarra',      'lic-carlos-andres-chairez-ibarra',      'IMPLAN Torreón', 'Indicadores Sociodemográficos',         'Tel. de Contacto: (871) 5007078, ext.2311', 'info@trcimplan.gob.mx', ' ');
         $this->autores[] = new \Base\Autor('', 'Lsci.', 'Víctor Manuel Gómez Reynoso',      'lsci-victor-manuel-gomez-reynoso',      'IMPLAN TORREÓN', 'Programación y Software',               'Tel. de Contacto: (871) 5007078, ext.2311', 'info@trcimplan.gob.mx', 'VGomezReynoso');
 
