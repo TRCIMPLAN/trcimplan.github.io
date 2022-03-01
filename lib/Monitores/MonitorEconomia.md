@@ -1,33 +1,36 @@
-# Monitor de Economía Diciembre 2021
+# Monitor de Economía Enero 2022
 
-## Indicadores macroeconómicos
-Indicador                                                       |Dato       |Periodo                                |Nivel      |Fuente                         |
-----------------------------------------------------------------|-----------|---------------------------------------|-----------|-------------------------------|
-Tipo de cambio fix del último mes                               |  $21.45   |Noviembre 2021                         |Nacional   |Banxico                        |
-Depreciación acumulada en 2021 del tipo de cambio               |  3.13%    |4 de enero 2020 a 31 de Diciembre 2021 |Nacional   |Banxico                        |
-Tasa de interés objetivo                                        |  5.50%    |Diciembre 2021                         |Nacional   |Banxico                        |
-Último movimiento de la tasa                                    |  +0.50%   |17 de Diciembre 2021                   |Nacional   |Banxico                        |
-Inflación interanual                                            |  7.37%    |Noviembre 2020 a Noviembre 2021        |Nacional   |Banxico                        |
+##INDICADORES MACROECONÓMICOS
+INDICADOR                                         | DATO    |NIVEL    |FUENTE/PERIODO                            |
+--------------------------------------------------|---------|---------|------------------------------------------|
+Tipo de cambio fix del último mes                 | 21.44   |Nacional |Banxico, enero 2022                       |
+Depreciación acumulada en 2021 del tipo de cambio | 3.13%   |Nacional |Banxico, 4 de enero – 26 de diciembre 2021|
+Tasa de interés objetivo                          | 5.50%   |Nacional |Banxico, diciembre 2021                   |
+Último movimiento de la tasa                      | 0.50%   |Nacional |Banxico, 12 de diciembre 2021             |
+Inflación interanual                              | 6.24%   |Nacional |INEGI, enero 2021 – enero 2022            |
 
-## Indicadores regionales
-Indicador                                                       |Dato       |Periodo                                |Nivel      |Fuente                         |
-----------------------------------------------------------------|-----------|---------------------------------------|-----------|-------------------------------|
-PIB estimado 2018                                               |351.80 mmp |2019                                   |ZML        |Censos Económicos 2019, INEGI  |
-Lugar nacional en Valor Agregado 2018                           |7°         |2019                                   |Torreón    |Censos Económicos 2019, INEGI  |
-Inflación anual 2020                                            |4.14%      |Diciembre 2019 a diciembre 2020        |Torreón    |INEGI                          |
-Inflación mensual interanual                                    |8.52%      |Noviembre 2020 a Noviembre 2021        |Torreón    |INEGI                          |
-Inflación mensual interanual del año anterior                   |3.84%      |Noviembre 2019 a Noviembre 2020        |Torreón    |INEGI                          |
+##INDICADORES REGIONALES
+INDICADOR                             |DATO      |NIVEL     |FUENTE                       |
+--------------------------------------|----------|----------|-----------------------------|
+PIB estimado 2018                     |351.8 mmp |ZML       |Censos Económicos 2019, INEGI|
+Lugar nacional en Valor Agregado 2018 |7°        |Torreón   |Censos Económicos 2019, INEGI|
+Inflación Nacional 2022               |7.07%     |Nacional  |INPC-INEGI enero 2022        |
+Inflación interanual Torreón          |8.33%     |Torreón   |INPC-INEGI enero 2022        |
+Inflación mensual interanual 2021     |8.15%     |Torreón   |INPC-INEGI enero 2022        |
 
-## Perspectivas de empresarios y consumidores
-Indicador                                                       |Dato       |Periodo                                |Nivel      |Fuente                         |
-----------------------------------------------------------------|-----------|---------------------------------------|-----------|-------------------------------|
-Cambio en la confianza de los consumidores                      |+23.95%    |Noviembre 2021                         |Nacional   |INEGI                          |
-Cambio en las expectativas de pedidos manufactureros            |+4.32%     |Noviembre 2021                         |Nacional   |INEGI                          |
-Cambio en la confianza del sector manufactura                   |+24.48%    |Noviembre 2021                         |Nacional   |INEGI                          |
-Cambio en la confianza del sector construcción                  |+21.30%    |Noviembre 2021                         |Nacional   |INEGI                          |
-Cambio en la confianza del sector comercio                      |+30.78%    |Noviembre 2021                         |Nacional   |INEGI                          |
+##PERSPECTIVAS ECONÓMICAS
+INDICADOR                                                    |DATO    |NIVEL     |FUENTE            |
+-------------------------------------------------------------|--------|----------|------------------|
+Cambio interanual en la confianza de los consumidores        |20.66%  |Nacional  |INEGI, enero 2021 |
+Cambio interanual en expectativas de pedidos manufactureros  |3.17%   |Nacional  |INEGI, enero 2021 |
+Cambio interanual en la confianza del sector manufactura     |21.53%  |Nacional  |INEGI, enero 2021 |
+Cambio interanual en la confianza del sector construcción    |18.03%  |Nacional  |INEGI, enero 2021 |
+Cambio interanual en la confianza del sector comercio        |24.31%  |Nacional  |INEGI, enero 2021 |
+
 
 </br>
+
+
 
 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS ECONÓMICOS</strong></p>
@@ -45,7 +48,8 @@ Cambio en la confianza del sector comercio                      |+30.78%    |Nov
 [Agosto 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ago-2021.pdf)
 [Septiembre 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-sep-2021.pdf)
 [Octubre 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-oct-2021.pdf)
-[Noviembre 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-nov-2021.pdf)
+[Noviembre 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-nov-2021.pdf)
+[Diciembre 2021](http://www.trcimplan.gob.mx/monitores/economia/economia-dic-2021.pdf)
 ###Año 2020
 [Marzo     2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-marzo-2020.pdf)
 [Mayo      2020 -](http://www.trcimplan.gob.mx/monitores/economia/economia-mayo-2020.pdf)
