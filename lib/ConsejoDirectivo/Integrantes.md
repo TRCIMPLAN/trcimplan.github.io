@@ -20,12 +20,12 @@ C. POR DEFINIR **                          | Representante del Consejo Municipal
 
 NOMBRE                                     | CARGO
 -------------------------------------------|------------------------------------------------------------------------------------
-**C. Ernesto Llamas Sotomayor**                | Colegio de Profesionistas y Empresarios de la Construcción
-**C. Rogelio Barrios**                         | Asociaciones y Colegios de Profesionistas y Emprendedores
+**C. Ernesto Llamas Sotomayor**                | Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción
+**C. Rogelio Barrios Cázares**                 | Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción
 **C. Fernando Menéndez Cuellar**               | Iniciativa Privada
 **C. Roberto A. Muñoz del Río**                | Iniciativa Privada
 **C. Ana Catalina Argüelles del Bosque**       | Organizaciones de la Sociedad Civil
-C. POR DEFINIR **                          | Organizaciones de la Sociedad Civil
+**C. José Isabel Ibarra Casiano**              | Organizaciones de la Sociedad Civil
 **C. José Luis Zapata Dávila**                 | Instituciones de Educación Superior
 **C. Raul Martínez Hernández**                 | Instituciones de Educación Superior
 
