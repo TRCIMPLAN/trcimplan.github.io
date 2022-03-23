@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-03-14</lastmod>
+    <lastmod>2022-03-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -413,6 +413,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/desarrollo-de-la-apertura-comercial-en-la-laguna.html</loc>
     <lastmod>2018-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/dia-de-la-felicidad-marzo-2022.html</loc>
+    <lastmod>2022-03-22</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
