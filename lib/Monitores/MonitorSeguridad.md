@@ -1,57 +1,65 @@
 
-##ENERO 2022
+##FEBRERO 2022
 
 ##DELITOS
 
-|INDICADOR                            |DATO      |NIVEL      |FECHA                      |
-|-------------------------------------|----------|-----------|---------------------------|
-|Delitos del fuero común              |23,376    |ZML        |SESNSP enero-diciembre 2021|
-|Delitos del fuero común              |11,442    |Torreón    |SESNSP enero-diciembre 2021|
-|Robo a casa habitación               |1,785     |ZML        |SESNSP enero-diciembre 2021|
-|Robo a negocio                       |927       |ZML        |SESNSP enero-diciembre 2021|
-|Robo de vehículo                     |401       |ZML        |SESNSP enero-diciembre 2021|
-|Robo de transeúnte en vía pública    |340       |ZML        |SESNSP enero-diciembre 2021|
-|Robo de autopartes                   |90        |ZML        |SESNSP enero-diciembre 2021|
-|Violencia familiar                   |5,263     |ZML        |SESNSP enero-diciembre 2021|
-|Violencia familiar                   |2,714     |Torreón    |SESNSP enero-diciembre 2021|
-|Lesiones                             |2,721     |ZML        |SESNSP enero-diciembre 2021|
-|Lesiones                             |1095      |Torreón    |SESNSP enero-diciembre 2021|
-|Daños a la propiedad                 |2,176     |ZML        |SESNSP enero-diciembre 2021|
-|Daños a la propiedad                 |1,416     |Torreón    |SESNSP enero-diciembre 2021|
-|Narcomenudeo                         |2,669     |ZML        |SESNSP enero-diciembre 2021|
-|Narcomenudeo                         |1,502     |Torreón    |SESNSP enero-diciembre 2021|
-|Amenazas                             |2,272     |ZML        |SESNSP enero-diciembre 2021|
-|Amenazas                             |1,548     |Torreón    |SESNSP enero-diciembre 2021|
+|INDICADOR                              |DATO       |NIVEL      |FECHA                  |
+|---------------------------------------|-----------|-----------|-----------------------|
+|Delitos del fuero común                |1,580      |ZML        |SESNSP febrero 2022    |
+|Delitos del fuero común                |793        |Torreón    |SESNSP febrero 2022    |
+|Robo a casa habitación                 |122        |ZML        |SESNSP febrero 2022    |
+|Robo a negocio                         |121        |ZML        |SESNSP febrero 2022    |
+|Robo de vehículo                       |42         |ZML        |SESNSP febrero 2022    |
+|Robo de transeúnte en vía pública      |29         |ZML        |SESNSP febrero 2022    |
+|Robo de autopartes                     |8          |ZML        |SESNSP febrero 2022    |
+|Violencia familiar                     |392        |ZML        |SESNSP febrero 2022    |
+|Violencia familiar                     |216        |Torreón    |SESNSP febrero 2022    |
+|Lesiones                               |173        |ZML        |SESNSP febrero 2022    |
+|Lesiones                               |69         |Torreón    |SESNSP febrero 2022    |
+|Daño a la propiedad                    |135        |ZML        |SESNSP febrero 2022    |
+|Daño a la propiedad                    |84         |Torreón    |SESNSP febrero 2022    |
+|Narcomenudeo                           |312        |ZML        |SESNSP febrero 2022    |
+|Narcomenudeo                           |210        |Torreón    |SESNSP febrero 2022    |
+|Amenazas                               |216        |ZML        |SESNSP febrero 2022    |
+|Amenazas                               |160        |Torreón    |SESNSP febrero 2022    |
 
 ##PERCEPCIÓN DE INSEGURIDAD
 
-|INDICADOR                                                                     |DATO   |NIVEL |FECHA               |
-|------------------------------------------------------------------------------|-------|------|--------------------|
-|Adultos que se sienten inseguros en su ciudad                                 |46.40% |ZML   |ENSU septiembre 2021|
-|Adultos que tuvieron contacto de manera directa con conflicto o enfrentamiento|29.10% |ZML   |ENSU septiembre 2021|
+|INDICADOR                                                                      |NIVEL  |FECHA                   |
+|-------------------------------------------------------------------------------|-------|------------------------|
+|Adultos que se sienten inseguros en su ciudad                                  |46.40% | ZML ENSU diciembre 2021|
+|Adultos que tuvieron contacto de manera directa con conflicto o enfrentamiento |29.10% | ZML ENSU diciembre 2021|
 
 ##DELITOS SEXUALES
 
-|INDICADOR              |DATO  |NIVEL  |FECHA                      |
-|-----------------------|------|-------|---------------------------|
-|Abuso sexual           |380   |ZML    |SESNSP enero-diciembre 2021|
-|Abuso sexual           |146   |Torreón|SESNSP enero-diciembre 2021|
-|Acoso sexual           |100   |Torreón|SESNSP enero-diciembre 2021|
+|INDICADOR     |DATO   |NIVEL  |FECHA                 |
+|--------------|-------|-------|----------------------|
+|Abuso sexual  |16     |ZML    | SESNSP febrero 2022  |
+|Abuso sexual  |9      |Torreón| SESNSP febrero 2022  |
+|Acoso sexual  |3      |Torreón| SESNSP febrero 2022  |
 
 
 ##Observaciones:
 
-- A diciembre de 2021, la violencia familiar fue el delito con mayor incidencia (29.01%), seguido de robo (27.95%) y lesiones (16.19%).
+- [1] La ZML conforma Torreón, Matamoros, Gómez Palacio, Lerdo en datos provenientes de la ENSU mientras que se añade Francisco y madero en el caso de datos provenientes de la SESNSP.
 
-- El delito de robo a coches de cuatro ruedas disminuyó 3.31% respecto a noviembre.
+- [2] Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)
 
-- El total de delitos sexuales asciende a 781 casos en 2021.
+- [3] Encuesta Nacional de Seguridad Pública Urbana (ENSU)
+
+
 
 </br></br></br></br>
 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS DEL MONITOR DE SEGURIDAD</strong></p>
 <b> De un click en el Monitor que desee ver (documento en versión PDF)</b>
 </br></br>
+<b> AÑO 2022 </b>
+</br>
+Informe:
+[- Enero 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-ene-2022.pdf)
+</br>
+
 <b> AÑO 2021 </b>
 </br>
 Informe:
