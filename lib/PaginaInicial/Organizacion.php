@@ -90,6 +90,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         if ($this->description != '') {
             $a[] = "    <div class=\"organizacion-descripcion\" itemprop=\"description\">{$this->description}</div>";
         }
+
         $a[] = '  </div>';
 
         // PRUEBA CLIMA
@@ -101,6 +102,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         // <!--   PRUEBA IDIOMA VM  -->
 
         $a[] = 'Traducir Página a tu Idioma';
+        $a[] = '</br>';
         $a[] = '<div id="google_translate_element" class="google"></div> ';
 
         $a[] = '<script type="text/javascript">
@@ -109,7 +111,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 }';
         $a[] = '</script>';
         $a[] = '<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>';
-
+        $a[] = '</br>';
         // <!--   FIN PRUEBA IDIOMA VM  -->
 
 

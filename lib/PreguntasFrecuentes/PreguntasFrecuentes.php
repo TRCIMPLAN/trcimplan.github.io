@@ -34,7 +34,7 @@ class PreguntasFrecuentes extends \Base\Publicacion {
         // Título, autor y fecha con el formato AAAA-MM-DD
         $this->nombre            = 'Preguntas Frecuentes';
      // $this->autor             = 'Autor';
-     // $this->fecha             = '2014-00-00';
+        $this->fecha             = '2021-01-01';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo           = 'preguntas-frecuentes';
         $this->imagen            = '../imagenes/imagen.jpg';
