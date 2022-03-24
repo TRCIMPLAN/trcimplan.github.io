@@ -1,42 +1,42 @@
-# Monitor de Economía Enero 2022
+# Monitor de Economía Febrero 2022
 
 ##INDICADORES MACROECONÓMICOS
-INDICADOR                                         | DATO    |NIVEL    |FUENTE/PERIODO                            |
---------------------------------------------------|---------|---------|------------------------------------------|
-Tipo de cambio fix del último mes                 | 21.44   |Nacional |Banxico, enero 2022                       |
-Depreciación acumulada en 2021 del tipo de cambio | 3.13%   |Nacional |Banxico, 4 de enero – 26 de diciembre 2021|
-Tasa de interés objetivo                          | 5.50%   |Nacional |Banxico, diciembre 2021                   |
-Último movimiento de la tasa                      | 0.50%   |Nacional |Banxico, 12 de diciembre 2021             |
-Inflación interanual                              | 6.24%   |Nacional |INEGI, enero 2021 – enero 2022            |
+INDICADOR                                           | DATO  |NIVEL      |FUENTE/PERIODO                 |
+----------------------------------------------------|-------|-----------|-------------------------------|
+Tipo de cambio fix del último mes                   |20.52  |Nacional   |Banxico, febrero 2022          |
+Depreciación acumulada en 2022 del tipo de cambio   |3.13%  |Nacional   |Banxico, febrero 2022          |
+Tasa de interés objetivo                            |6.00%  |Nacional   |Banxico, febrero 2022          |
+Último movimiento de la tasa                        |0.50%  |Nacional   |Banxico, febrero 2022          |
+Inflación interanual                                |6.89%  |Nacional   |INEGI, enero 2021 – enero 2022 |
 
 ##INDICADORES REGIONALES
-INDICADOR                             |DATO      |NIVEL     |FUENTE                       |
---------------------------------------|----------|----------|-----------------------------|
-PIB estimado 2018                     |351.8 mmp |ZML       |Censos Económicos 2019, INEGI|
-Lugar nacional en Valor Agregado 2018 |7°        |Torreón   |Censos Económicos 2019, INEGI|
-Inflación Nacional 2022               |7.07%     |Nacional  |INPC-INEGI enero 2022        |
-Inflación interanual Torreón          |8.33%     |Torreón   |INPC-INEGI enero 2022        |
-Inflación mensual interanual 2021     |8.15%     |Torreón   |INPC-INEGI enero 2022        |
+INDICADOR                               |DATO      |NIVEL       |FUENTE                       |
+----------------------------------------|----------|------------|-----------------------------|
+PIB estimado 2018                       |351.8 mmp  |ZML        |Censos Económicos 2019, INEGI|
+Lugar nacional en Valor Agregado 2018   |7°         |Torreón    |Censos Económicos 2019, INEGI|
+Inflación Nacional 2022                 |7.22%      |Nacional   |INPC-INEGI febrero 2022      |
+Inflación interanual Torreón            |8.33%      |Torreón    |INPC-INEGI febrero 2022      |
+Inflación mensual interanual 2022       |8.15%      |Torreón    |INPC-INEGI febrero 2022      |
 
 ##PERSPECTIVAS ECONÓMICAS
-INDICADOR                                                    |DATO    |NIVEL     |FUENTE            |
--------------------------------------------------------------|--------|----------|------------------|
-Cambio interanual en la confianza de los consumidores        |20.66%  |Nacional  |INEGI, enero 2021 |
-Cambio interanual en expectativas de pedidos manufactureros  |3.17%   |Nacional  |INEGI, enero 2021 |
-Cambio interanual en la confianza del sector manufactura     |21.53%  |Nacional  |INEGI, enero 2021 |
-Cambio interanual en la confianza del sector construcción    |18.03%  |Nacional  |INEGI, enero 2021 |
-Cambio interanual en la confianza del sector comercio        |24.31%  |Nacional  |INEGI, enero 2021 |
+INDICADOR                                                   |DATO   |NIVEL      |FUENTE             |
+------------------------------------------------------------|-------|-----------|-------------------|
+Cambio interanual en la confianza de los consumidores       |11.36% |Nacional   |INEGI, febrero 2022|
+Cambio interanual en expectativas de pedidos manufactureros |7.00%  |Nacional   |INEGI, febrero 2021|
+Cambio interanual en la confianza del sector manufactura    |17.88% |Nacional   |INEGI, febrero 2022|
+Cambio interanual en la confianza del sector construcción   |16.08% |Nacional   |INEGI, febrero 2021|
+Cambio interanual en la confianza del sector comercio       |20.60% |Nacional   |INEGI, febrero 2022|
 
 
 </br>
-
-
 
 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS ECONÓMICOS</strong></p>
 
 ###De click en el mes que desee descargar (PDF):
 
+###Año 2022
+[Enero 2022 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ene-2022.pdf)
 ###Año 2021
 [Enero 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ene-2021.pdf)
 [Febrero 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-feb-2021.pdf)
