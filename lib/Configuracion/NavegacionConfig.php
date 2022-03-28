@@ -63,6 +63,7 @@ class NavegacionConfig {
        //     'Información Geográfica > Zonificación Secundaria'        => 'sig-mapas-torreon/zonificacion-secundaria.html'),
         'Información Geográfica' => array(
             'Información Geográfica > Introducción al SIG'            => 'sig/introduccion.html',
+            'Información Geográfica > Plataforma Digital de Gestión Territorial'            => 'sig-mapas-torreon/construccion.html',
             'Información Geográfica > Mapas por Tema'                 => 'sig-mapas-torreon/temas-sig.html',
             'Información Geográfica > Usos de Suelo'                  => 'sig-mapas-torreon/plan-director-desarrollo-urbano.html'),
             //'Información Geográfica > Datos Abiertos'                 => 'sig/datos-abiertos.html'),
