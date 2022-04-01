@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-03-28</lastmod>
+    <lastmod>2022-04-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -6723,6 +6723,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-trabajadores-asegurados-region.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-trabajadores-eventuales.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-trabajadores-permanentes.html</loc>
+    <lastmod>2022-03-30</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

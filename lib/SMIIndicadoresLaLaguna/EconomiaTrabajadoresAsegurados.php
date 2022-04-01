@@ -159,7 +159,15 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2021-05-31', 'valor' => '307675', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-06-30', 'valor' => '309723', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-07-31', 'valor' => '316225', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2021-08-31', 'valor' => '319964', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 186, crudo 94
+            array('fecha' => '2021-08-31', 'valor' => '319964', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2021-09-30', 'valor' => '321645', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2021-10-30', 'valor' => '324314', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2021-11-30', 'valor' => '326069', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2021-12-31', 'valor' => '321411', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2022-01-31', 'valor' => '368869', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2022-01-31', 'valor' => '324612', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2022-02-28', 'valor' => '371358', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2022-02-28', 'valor' => '327127', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 202, crudo 102
     } // datos
 
     /**
@@ -183,14 +191,14 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2021-08-31', 'valor' => '208769', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2021-08-31', 'valor' => '87974', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2021-08-31', 'valor' => '12929', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2021-08-31', 'valor' => '10292', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2021-08-31', 'valor' => '319964', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2021-08-31', 'valor' => '793634', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Durango', 'fecha' => '2021-08-31', 'valor' => '251748', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2021-08-31', 'valor' => '20420823', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2022-02-28', 'valor' => '211977', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-02-28', 'valor' => '90565', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2022-02-28', 'valor' => '13551', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2022-02-28', 'valor' => '11034', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-02-28', 'valor' => '327127', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2022-02-28', 'valor' => '807975', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Durango', 'fecha' => '2022-02-28', 'valor' => '257932', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2022-02-28', 'valor' => '20941286', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));
     } // otras_regiones
 
     /**

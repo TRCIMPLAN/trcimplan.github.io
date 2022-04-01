@@ -306,6 +306,12 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">7.8200 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -337,29 +343,29 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2021-06-30</td>
-        <td class="derecha">42.6000 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">7.8200 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2021-06-30</td>
-        <td class="derecha">37.8900 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">9.3800 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2021-06-30</td>
-        <td class="derecha">38.5800 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">6.9600 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2021-06-30</td>
-        <td class="derecha">32.8100 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">7.2400 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -462,6 +468,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosDesocupadosDe15A25AnosEnLaLaguna === 'undefined') {
+     $('#SmiDatosDesocupadosDe15A25AnosEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosDesocupadosDe15A25AnosEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasDesocupadosDe15A25AnosEnLaLaguna === 'undefined') {
@@ -474,7 +498,8 @@
         { fecha: '2020-09-30', dato: 32.5800 },
         { fecha: '2020-12-31', dato: 25.7700 },
         { fecha: '2021-03-31', dato: 36.0500 },
-        { fecha: '2021-06-30', dato: 42.6000 }],
+        { fecha: '2021-06-30', dato: 42.6000 },
+        { fecha: '2021-12-31', dato: 7.8200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -489,7 +514,7 @@
   if (typeof varSmiOtrasRegionesDesocupadosDe15A25AnosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDesocupadosDe15A25AnosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDesocupadosDe15A25AnosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 45.7000 },{ region: 'La Laguna', dato: 42.6000 },{ region: 'Coahuila', dato: 37.8900 },{ region: 'Durango', dato: 38.5800 },{ region: 'Nacional', dato: 32.8100 }],
+      data: [{ region: 'Torreón', dato: 45.7000 },{ region: 'La Laguna', dato: 7.8200 },{ region: 'Coahuila', dato: 9.3800 },{ region: 'Durango', dato: 6.9600 },{ region: 'Nacional', dato: 7.2400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

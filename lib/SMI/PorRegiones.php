@@ -165,6 +165,10 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-total-de-importaciones.html" target="_blank">Total de importaciones.</a></li>
               <li><a href="../indicadores-torreon/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
               <li><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html" target="_blank">Trabajadores Asegurados (Región)</a></li>
+
+              <li><a href="../indicadores-torreon/economia-trabajadores-eventuales.html" target="_blank">Trabajadores Eventuales</a></li>
+              <li><a href="../indicadores-torreon/economia-trabajadores-permanentes.html" target="_blank">Trabajadores Permanentes</a></li>
+
               <li><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
               <li><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html" target="_blank">Unidades Económicas Dedicadas al Comercio</a></li>
               <li><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html" target="_blank">Unidades Económicas Dedicadas a los Servicios</a></li>
@@ -669,7 +673,7 @@ FINAL;
               <li><a href="../indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
-              
+
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -991,7 +995,7 @@ FINAL;
               <li><a href="../indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
               <li><a href="../indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
               <li><a href="../indicadores-lerdo/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
-              
+
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-lerdo/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -1315,7 +1319,7 @@ FINAL;
               <li><a href="../indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
               <li><a href="../indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
               <li><a href="../indicadores-matamoros/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
-              
+
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-matamoros/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
@@ -1644,7 +1648,7 @@ FINAL;
               <li><a href="../indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-negativos.html" target="_blank">Casos Acumulados de COVID19 negativos</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-positivos.html" target="_blank">Casos Acumulados de COVID19 positivos</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-casos-acumulados-de-covid-19-sospechosos.html" target="_blank">Casos Acumulados de COVID19 sospechosos</a></li>
-              
+
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil-por-enfermedades-respiratorias.html" target="_blank">Mortalidad infantil por enfermedades respiratorias</a></li>
               <li><a href="../indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>

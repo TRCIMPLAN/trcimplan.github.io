@@ -307,6 +307,12 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">87.5400 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -343,29 +349,29 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2021-06-30</td>
-        <td class="derecha">89.6600 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">87.5400 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2021-06-30</td>
-        <td class="derecha">87.8200 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">92.1200 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2021-06-30</td>
-        <td class="derecha">88.0800 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">90.4800 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2021-06-30</td>
-        <td class="derecha">91.7000 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">90.0900 %</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
@@ -468,6 +474,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosDesocupadosConExperienciaEnLaLaguna === 'undefined') {
+     $('#SmiDatosDesocupadosConExperienciaEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosDesocupadosConExperienciaEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasDesocupadosConExperienciaEnLaLagunaEncuestaNacionalDeOcupacionYEmpleoEnoeIndicadoresEstrategicos === 'undefined') {
@@ -480,7 +504,8 @@
         { fecha: '2020-09-30', dato: 94.0700 },
         { fecha: '2020-12-31', dato: 93.7100 },
         { fecha: '2021-03-31', dato: 88.9400 },
-        { fecha: '2021-06-30', dato: 89.6600 }],
+        { fecha: '2021-06-30', dato: 89.6600 },
+        { fecha: '2021-12-31', dato: 87.5400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -513,7 +538,7 @@
   if (typeof varSmiOtrasRegionesDesocupadosConExperienciaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDesocupadosConExperienciaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDesocupadosConExperienciaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 89.9000 },{ region: 'La Laguna', dato: 89.6600 },{ region: 'Coahuila', dato: 87.8200 },{ region: 'Durango', dato: 88.0800 },{ region: 'Nacional', dato: 91.7000 }],
+      data: [{ region: 'Torreón', dato: 89.9000 },{ region: 'La Laguna', dato: 87.5400 },{ region: 'Coahuila', dato: 92.1200 },{ region: 'Durango', dato: 90.4800 },{ region: 'Nacional', dato: 90.0900 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
