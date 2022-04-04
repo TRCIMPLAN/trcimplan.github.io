@@ -15,6 +15,8 @@ NOMBRE                                     | CARGO
 **C. Blanca Álvarez González**                 | Presidenta de la Comisión de Desarrollo Económico del Ayuntamiento
 **C. Francisco José Torres**                   | Titular Responsable del área de Desarrollo Urbano
 C. POR DEFINIR **                          | Representante del Consejo Municipal de Desarrollo Urbano
+**C. Cristian Manuel López Chávez**            | Décimo quinto regidor, Pdte. Comisión de Ciencia y Tecnología
+**C. José Armando González Murillo**           | Décimo sexo regidor, Pdte. Comisión Metropolitana
 
 ##Consejeros de representación Sectorial
 
@@ -33,9 +35,9 @@ NOMBRE                                     | CARGO
 
 NOMBRE                     | CARGO
 ---------------------------|------------------------------------------------------------------------------------
-POR DEFINIR **             | Organismos Empresariales
-POR DEFINIR **             | Organismos Empresariales
-POR DEFINIR **             | Organismos Empresariales
-POR DEFINIR **             | Organismos Empresariales
-POR DEFINIR **             | Organismos Empresariales
-POR DEFINIR **             | Organismos Empresariales
+**C. José Eleazar Piña Álvarez**              | Organismos Empresariales
+**C. Javier Ramos Salas**                     | Organismos Empresariales
+**C. Jesús Raúl Villarreal Gómez**            | Organismos Empresariales
+**C. Fernando Treviño Sepúlveda**             | Organismos Empresariales
+**C. Alfredo Villegas Camil**                 | Organismos Empresariales
+**C. Rafael Rebollar González**               | Organismos Empresariales
