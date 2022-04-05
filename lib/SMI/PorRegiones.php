@@ -166,6 +166,8 @@ class PorRegiones extends \Base\Publicacion {
               <li><a href="../indicadores-torreon/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
               <li><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html" target="_blank">Trabajadores Asegurados (Región)</a></li>
 
+              <li><a href="../indicadores-torreon/economia-asegurados-totales.html" target="_blank">Asegurados Totales</a></li>
+
               <li><a href="../indicadores-torreon/economia-trabajadores-eventuales.html" target="_blank">Trabajadores Eventuales</a></li>
               <li><a href="../indicadores-torreon/economia-trabajadores-permanentes.html" target="_blank">Trabajadores Permanentes</a></li>
 

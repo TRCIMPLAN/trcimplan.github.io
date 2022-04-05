@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2297,7 +2297,7 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/contacto/contacto.html</loc>
-    <lastmod>2014-05-01</lastmod>
+    <lastmod>2022-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6226,6 +6226,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-asegurados-totales.html</loc>
+    <lastmod>2022-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-balanza-comercial.html</loc>
     <lastmod>2018-07-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -8476,6 +8481,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-asegurados-totales.html</loc>
+    <lastmod>2022-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-balanza-comercial.html</loc>
     <lastmod>2018-07-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -10096,6 +10106,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-asegurados-totales.html</loc>
+    <lastmod>2022-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-cantidad-de-creditos-hipotecarios-trimestral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -11706,6 +11721,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-asegurados-totales.html</loc>
+    <lastmod>2022-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-cantidad-de-creditos-hipotecarios-trimestral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -13288,6 +13308,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-apertura-de-un-negocio-percentil-promedio.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-asegurados-totales.html</loc>
+    <lastmod>2022-04-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -15131,6 +15156,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-asegurados-totales.html</loc>
+    <lastmod>2022-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-coahuila/economia-crecimiento-del-pib-estatal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -15626,6 +15656,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-asegurados-totales.html</loc>
+    <lastmod>2022-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/economia-desocupados-con-educacion-superior-o-media-superior.html</loc>
     <lastmod>2018-07-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -16063,6 +16098,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-durango/sustentabilidad-motorizacion.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-nacional/economia-asegurados-totales.html</loc>
+    <lastmod>2022-04-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

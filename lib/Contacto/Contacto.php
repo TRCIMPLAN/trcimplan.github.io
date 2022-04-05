@@ -33,7 +33,7 @@ class Contacto extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre      = 'Medios de contacto';
     //  $this->autor       = '';
-        $this->fecha       = '2014-05-01T08:00';
+        $this->fecha       = '2022-04-05T08:00';
         // El nombre del archivo a crear
         $this->archivo     = 'contacto';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -97,7 +97,7 @@ FINAL;
 <ul>
     <li><b>Arq. José Antonio Ramírez Reyes,</b>            Director General:                      <a href="mailto:director@trcimplan.gob.mx">director@trcimplan.gob.mx</a></li>
     <li><b>Lic. Gustavo Flores Morales,</b>          Coordinador Administrativo:            <a href="mailto:administracion@trcimplan.gob.mx">administracion@trcimplan.gob.mx</a></li>
-    <li><b>Lic. Miriam Alejandra Ramírez Martínez,</b>          Transparencia:            <a href="mailto:transparencia@trcimplan.gob.mx">transparencia@trcimplan.gob.mx</a></li>
+    <li><b>Lic. Felipe de Jesús Medina Delgado,</b>          Transparencia:            <a href="mailto:transparencia@trcimplan.gob.mx">transparencia@trcimplan.gob.mx</a></li>
     <li><b>Víctor M. Gómez,</b>            Administrador del Sitio Web:           <a href="mailto:vgomez@trcimplan.gob.mx">vgomez@trcimplan.gob.mx</a></li>
 </ul>
 
