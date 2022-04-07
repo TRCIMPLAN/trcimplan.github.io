@@ -5,11 +5,19 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 05 Apr 2022 13:51:10 -0500</pubDate>
+    <pubDate>Wed, 06 Apr 2022 15:26:58 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Política Industrial</title>
+      <link>http://www.trcimplan.gob.mx/investigaciones/politica-industrial.html</link>
+      <guid isPermaLink="false">investigaciones-politica-industrial</guid>
+      <pubDate>Wed, 06 Apr 2022 11:40:00 -0500</pubDate>
+      <author>Lic. Frida García Gutiérrez</author>
+      <description><![CDATA[Descargue la <a href="http://www.trcimplan.gob.mx/investigaciones/politica-industrial/presentacion-politica-industrial-2017-05-25.pdf">presentación Política Industrial</a> como archivo PDF de 7.3 MB.]]></description>
+    </item>
     <item>
       <title>Vivienda asequible para las mujeres</title>
       <link>http://www.trcimplan.gob.mx/blog/vivienda-asequible-para-las-mujeres-abril-2022.html</link>
@@ -63,14 +71,6 @@
 <li><p>Sociedad Hipotecaria Federal. (2021). Índice SHF de Precios de la Vivienda en México. marzo 16, 2022, de Sociedad Hipotecaria Federal Sitio web: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.gob.mx%2Fcms%2Fuploads%2Fattachment%2Ffile%2F614750%2F2020_IV_ZM.pdf&amp;clen=373473&amp;chunk=true</p></li>
 </ul>
 ]]></description>
-    </item>
-    <item>
-      <title>Asegurados Totales en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-asegurados-totales.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-economia-asegurados-totales</guid>
-      <pubDate>Mon, 04 Apr 2022 12:21:00 -0500</pubDate>
-      <author>Dirección de Investigación Estratégica</author>
-      <description><![CDATA[Debe haber algo aquí.]]></description>
     </item>
     <item>
       <title>Asegurados Totales en Nacional</title>
