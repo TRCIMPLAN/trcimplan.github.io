@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5218,6 +5218,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2021-11-23-comunicado-enoe.html</loc>
     <lastmod>2021-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2022-04-05-comunicado-notas-suicidio.html</loc>
+    <lastmod>2022-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
