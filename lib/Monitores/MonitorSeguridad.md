@@ -1,42 +1,42 @@
 
-##FEBRERO 2022
+##MARZO 2022
 
 ##DELITOS
 
-|INDICADOR                              |DATO       |NIVEL      |FECHA                  |
-|---------------------------------------|-----------|-----------|-----------------------|
-|Delitos del fuero común                |1,580      |ZML        |SESNSP febrero 2022    |
-|Delitos del fuero común                |793        |Torreón    |SESNSP febrero 2022    |
-|Robo a casa habitación                 |122        |ZML        |SESNSP febrero 2022    |
-|Robo a negocio                         |121        |ZML        |SESNSP febrero 2022    |
-|Robo de vehículo                       |42         |ZML        |SESNSP febrero 2022    |
-|Robo de transeúnte en vía pública      |29         |ZML        |SESNSP febrero 2022    |
-|Robo de autopartes                     |8          |ZML        |SESNSP febrero 2022    |
-|Violencia familiar                     |392        |ZML        |SESNSP febrero 2022    |
-|Violencia familiar                     |216        |Torreón    |SESNSP febrero 2022    |
-|Lesiones                               |173        |ZML        |SESNSP febrero 2022    |
-|Lesiones                               |69         |Torreón    |SESNSP febrero 2022    |
-|Daño a la propiedad                    |135        |ZML        |SESNSP febrero 2022    |
-|Daño a la propiedad                    |84         |Torreón    |SESNSP febrero 2022    |
-|Narcomenudeo                           |312        |ZML        |SESNSP febrero 2022    |
-|Narcomenudeo                           |210        |Torreón    |SESNSP febrero 2022    |
-|Amenazas                               |216        |ZML        |SESNSP febrero 2022    |
-|Amenazas                               |160        |Torreón    |SESNSP febrero 2022    |
+|INDICADOR                              |DATO       |NIVEL      |FECHA            |
+|---------------------------------------|-----------|-----------|-----------------|
+|Delitos del fuero común                |4,138      |ZML        |SESNSP marzo 2022|
+|Delitos del fuero común                 |1,658      |Torreón    |SESNSP marzo 2022|
+|Robo a casa habitación                  |240        |ZML        |SESNSP marzo 2022|
+|Robo a negocio                          |218        |ZML        |SESNSP marzo 2022|
+|Robo de vehículo                        |66         |ZML        |SESNSP marzo 2022|
+|Robo de transeúnte en vía pública       |56         |ZML        |SESNSP marzo 2022|
+|Robo de autopartes                      |13         |ZML        |SESNSP marzo 2022|
+|Violencia familiar                      |730        |ZML        |SESNSP marzo 2022|
+|Violencia familiar                      |423        |Torreón    |SESNSP marzo 2022|
+|Lesiones                                |331        |ZML        |SESNSP marzo 2022|
+|Lesiones                                |152        |Torreón    |SESNSP marzo 2022|
+|Daño a la propiedad                     |326        |ZML        |SESNSP marzo 2022|
+|Daño a la propiedad                     |220        |Torreón    |SESNSP marzo 2022|
+|Narcomenudeo                            |598        |ZML        |SESNSP marzo 2022|
+|Narcomenudeo                            |376        |Torreón    |SESNSP marzo 2022|
+|Amenazas                                |516        |ZML        |SESNSP marzo 2022|
+|Amenazas                                |393        |Torreón    |SESNSP marzo 2022|
 
 ##PERCEPCIÓN DE INSEGURIDAD
 
-|INDICADOR                                                                      |NIVEL  |FECHA                   |
-|-------------------------------------------------------------------------------|-------|------------------------|
-|Adultos que se sienten inseguros en su ciudad                                  |46.40% | ZML ENSU diciembre 2021|
-|Adultos que tuvieron contacto de manera directa con conflicto o enfrentamiento |29.10% | ZML ENSU diciembre 2021|
+|INDICADOR                                                                      |DATO   |NIVEL  |FECHA              |
+|-------------------------------------------------------------------------------|-------|-------|-------------------|
+|Adultos que se sienten inseguros en su ciudad                                  |46.40% |ZML    |ENSU diciembre 2021|
+|Adultos que tuvieron contacto de manera directa con conflicto o enfrentamiento |29.10% |ZML    |ENSU diciembre 2021|
 
 ##DELITOS SEXUALES
 
 |INDICADOR     |DATO   |NIVEL  |FECHA                 |
 |--------------|-------|-------|----------------------|
-|Abuso sexual  |16     |ZML    | SESNSP febrero 2022  |
-|Abuso sexual  |9      |Torreón| SESNSP febrero 2022  |
-|Acoso sexual  |3      |Torreón| SESNSP febrero 2022  |
+|Abuso sexual   |49    |ZML    |SESNSP febrero 2022   |
+|Abuso sexual   |30    |Torreón|SESNSP febrero 2022   |
+|Acoso sexual   |15    |Torreón|SESNSP febrero 2022   |
 
 
 ##Observaciones:
@@ -58,6 +58,7 @@
 </br>
 Informe:
 [- Enero 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-ene-2022.pdf)
+[- Febrero 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-feb-2022.pdf)
 </br>
 
 <b> AÑO 2021 </b>
