@@ -5,28 +5,34 @@
 
 ##Población Económicamente Activa (PEA)
 
-Indicador                                                        |Dato       |Periodo        |Fuente     |Nivel      |
------------------------------------------------------------------|---------------|-----------------------|---------------|---------------|
-|PEA                                                             |573,798 |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Porcentaje de la PEA Ocupada                                    |96.27%  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Porcentaje de la PEA Desocupada                                 |3.73%   |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
+Indicador                       |Dato       |Periodo            |Fuente        |Nivel          |
+--------------------------------|-----------|-------------------|--------------|---------------|
+PEA                            |573,798    |IV Trimestre 2021  |ENOEN-INEGI |La Laguna  ZML|
+Porcentaje de la PEA Ocupada   |96.27%     |IV Trimestre 2021  |ENOEN-INEGI |La Laguna  ZML|
+Porcentaje de la PEA Desocupada |3.73%     |IV Trimestre 2021  |ENOEN-INEGI |La Laguna  ZML|
 
 ##Población ocupada
 
-Indicador                                                        |Dato    |Periodo           |Fuente         |Nivel            |
------------------------------------------------------------------|--------|------------------|---------------|-----------------|
-|Años promedio de escolaridad de la PEA                          |11.42   |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Horas promedio trabajadas a la semana                           |40.92   |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Ingreso promedio por hora trabajada                             |52.04   |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Población ocupada con sueldo menor o igual a 1 salario mínimo   |15.78%  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Población ocupada con acceso a instituciones de salud           |53.43%  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Población ocupada en la industria manufacturera                 |21.28%  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Personal ocupado en el comercio                                 |21.01%  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Personal ocupado en micronegocios                               |39.75%  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Tasa de trabajo asalariado                                      |0.7317  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Tasa de subocupación                                            |8.94%   |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Tasa de condiciones críticas de ocupación                       |17.91%  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
-|Tasa de informalidad laboral                                    |40.03%  |IV Trimestre 2021 | ENOEN - INEGI | La Laguna   ZML |
+Indicador                                                        |Dato      |Periodo           |Fuente        |Nivel            |
+-----------------------------------------------------------------|----------|------------------|--------------|-----------------|
+Años promedio de escolaridad de la PEA                          |11.42     |IV Trimestre 2021 |ENOEN - INEGI |La Laguna   ZML |
+Horas promedio trabajadas a la semana                           |40.92     |IV Trimestre 2021 |ENOEN - INEGI |La Laguna   ZML |
+Ingreso promedio por hora trabajada                             |52.04     |IV Trimestre 2021 |ENOEN - INEGI |La Laguna   ZML |
+Población ocupada con sueldo menor o igual a 1 salario mínimo   |15.78%    |IV Trimestre 2021 |ENOEN - INEGI |La Laguna   ZML |
+Población ocupada con acceso a instituciones de salud           |53.43%    |IV Trimestre 2021 |ENOEN - INEGI |La Laguna   ZML |
+Población ocupada en la industria manufacturera                 |21.28%    |IV Trimestre 2021 |ENOEN - INEGI |La Laguna   ZML |
+Personal ocupado en el comercio                                 |21.01%    |IV Trimestre 2021 |ENOEN - INEGI |La Laguna   ZML |
+Personal ocupado en micronegocios                               |39.75%    |IV Trimestre 2021 |ENOEN - INEGI |La Laguna   ZML |
+
+
+##Tasas
+
+Indicador                                         |Dato    |Periodo           |Fuente        |Nivel            |
+--------------------------------------------------|--------|------------------|--------------|-----------------|
+Tasa de trabajo asalariado                       |0.7317  |IV Trimestre 2021 |ENOEN - INEGI |La Laguna    ZML|
+Tasa de subocupación                              |8.94%   |IV Trimestre 2021 |ENOEN - INEGI |La Laguna    ZML|
+Tasa de condiciones críticas de ocupación         |17.91%  |IV Trimestre 2021 |ENOEN - INEGI |La Laguna    ZML|
+Tasa de informalidad laboral                      |40.03%  |IV Trimestre 2021 |ENOEN - INEGI |La Laguna    ZML|
 
 .
 <p style="background-color:#f95666;color:yellow;">ARCHIVOS HISTÓRICOS <strong>ENOE</strong></p>
