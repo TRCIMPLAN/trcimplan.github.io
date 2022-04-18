@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-04-08</lastmod>
+    <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1578,6 +1578,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/participacion-ciudadana-juvenil-en-la-planeacion-municipal-julio-2020.html</loc>
     <lastmod>2020-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/participacion-femenina-en-el-mercado-laboral-abril-2022.html</loc>
+    <lastmod>2022-04-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
