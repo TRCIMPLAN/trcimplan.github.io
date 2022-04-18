@@ -36,7 +36,7 @@ class ParticipacionFemeninaEnElMercadoLaboralDeLaLaguna extends \Base\Publicacio
         // Título, autor y fecha
         $this->nombre                     = 'La Participación Femenina en el Mercado Laboral de La Laguna.';
         $this->autor                      = 'Lic. Carlos Andrés Chairez Ibarra';
-        $this->fecha                      = '2022-04-11T08:00';
+        $this->fecha                      = '2022-04-18T08:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'participacion-femenina-en-el-mercado-laboral-abril-2022';
         // La descripción y claves dan información a los buscadores y redes sociales
