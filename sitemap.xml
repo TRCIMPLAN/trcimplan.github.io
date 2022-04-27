@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-04-18</lastmod>
+    <lastmod>2022-04-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1143,6 +1143,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/la-importancia-del-comercio-local-para-el-desarrollo-barrial-nov2019.html</loc>
     <lastmod>2019-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/inequidad-en-el-espacio-en-la-zml-abril-2022.html</loc>
+    <lastmod>2022-04-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
