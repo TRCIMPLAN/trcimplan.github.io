@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-04-28</lastmod>
+    <lastmod>2022-05-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1673,6 +1673,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/por-una-cultura-inclusiva-del-reciclaje.html</loc>
     <lastmod>2016-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/por-una-infancia-plena-y-feliz-mayo-2022.html</loc>
+    <lastmod>2022-05-02</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
