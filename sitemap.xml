@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-05-02</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4353,6 +4353,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/institucional/estructura-organica.html</loc>
     <lastmod>2014-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/institucional/manual.html</loc>
+    <lastmod>2022-05-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

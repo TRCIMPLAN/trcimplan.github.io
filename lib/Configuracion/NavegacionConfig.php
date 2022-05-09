@@ -116,7 +116,8 @@ class NavegacionConfig {
              'Institucional > Quienes Somos'                           => 'autores/index.html',
              'Institucional > Estructura Orgánica'                     => 'institucional/estructura-organica.html',
              'Institucional > Modelo Operativo Univ.'                  => 'institucional/modelo-operativo-universal.html',
-             'Institucional > Reglamentos'                             => 'institucional/reglamentos.html'),
+             'Institucional > Reglamentos'                             => 'institucional/reglamentos.html',
+             'Institucional > Manual Implan'                             => 'institucional/manual.html'),
         'Transparencia'  => array(
               'Transparencia > Transparencia Estatal (ICAI)'           => 'http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload',
               'Transparencia > Plataforma Nacional de Transparencia'   => 'https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio',

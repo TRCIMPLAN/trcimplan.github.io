@@ -6,6 +6,7 @@
 </br></br></br></br></br></br></br>
 ---
 
+
 En relación al festejo del día del niño y de la niña el 30 de abril, se hace un contexto sobre el objetivo de esta celebración.  De acuerdo a la Comisión Nacional de los Derechos Humanos de México. En 1924 se inició este festejo, con la finalidad de reafirmar los derechos de los infantes y fomentar un desarrollo pleno como seres humanos, derivado de una infancia feliz. 
 
 Son niñas y niños los menores de 12 años, y adolescentes las personas de entre 12 años y menos de 18 años de edad, de acuerdo al artículo 5 de la Ley General de los Derechos de las Niñas, Niños, y Adolescentes. En esta fecha se busca recordar que este grupo de la población es el más vulnerable, y el más afectado ante crisis, por ello es importante conocer sus derechos y generar conciencia sobre la necesidad de una constante lucha por su bienestar y desarrollo.
