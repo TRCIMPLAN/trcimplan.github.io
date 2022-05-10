@@ -3,30 +3,29 @@
 ##INDICADORES MACROECONÓMICOS
 INDICADOR                                           | DATO  |NIVEL      |FUENTE/PERIODO                 |
 ----------------------------------------------------|-------|-----------|-------------------------------|
-Tipo de cambio fix del último mes                  |19.91    |Nacional   |Banxico, marzo 2022|
-Depreciación acumulada en 2022 del tipo de cambio  |4.17%    |Nacional   |Banxico, marzo 2022|
-Tasa de interés objetivo                           |6.50%    |Nacional   |Banxico, marzo 2022|
-Último movimiento de la tasa                       |0.50%    |Nacional   |Banxico, marzo 2022|
-Inflación interanual                               |7.28%    |Nacional   |INEGI, febrero 2021 – febrero 2022|
+Tipo de cambio fix del último mes                   |20.32  |Nacional   |Banxico, abril 2022            |
+Depreciación acumulada en 2022 del tipo de cambio   |1.31%  |Nacional   |Banxico, abril 2022            |
+Tasa de interés objetivo                            |6.50%  |Nacional   |Banxico, abril 2022            |
+Último movimiento de la tasa                        |0.50%  |Nacional   |Banxico, abril 2022            |
+Inflación interanual                                |7.45%  |Nacional   |INEGI, abril 2021 – abril 2022 |
 
 ##INDICADORES REGIONALES
 INDICADOR                               |DATO      |NIVEL       |FUENTE                       |
 ----------------------------------------|----------|------------|-----------------------------|
-PIB estimado 2018                      |351.8 mmp   |ZML     |Censos Económicos 2019, INEGI|
-Lugar nacional en Valor Agregado 2018  |7°          |Torreón |Censos Económicos 2019, INEGI|
-Inflación Nacional 2022                |7.22%       |Nacional|INPC-INEGI febrero 2022|
-Inflación interanual Torreón           |8.33%       |Torreón |INPC-INEGI febrero 2022|
-Inflación mensual interanual 2022      |8.15%       |Torreón |INPC-INEGI febrero 2022|
+PIB estimado 2018                       |351.8 mmp |ZML         |Censos Económicos 2019, INEGI|
+Lugar nacional en Valor Agregado 2018   |7°        |Torreón     |Censos Económicos 2019, INEGI|
+Inflación Nacional 2022                 |7.22%     |Nacional    |INPC-INEGI febrero 2022      |
+Inflación interanual Torreón            |8.33%     |Torreón     |INPC-INEGI febrero 2022      |
+Inflación mensual interanual 2022       |8.15%     |Torreón     |INPC-INEGI febrero 2022      |
 
 ##PERSPECTIVAS ECONÓMICAS
 INDICADOR                                                   |DATO   |NIVEL      |FUENTE             |
 ------------------------------------------------------------|-------|-----------|-------------------|
-Cambio interanual en la confianza de los consumidores        |11.36%    |Nacional   |INEGI, marzo 2022|
-Cambio interanual en expectativas de pedidos manufactureros  |7.00% |Nacional   |INEGI, marzo 2021|
-Cambio interanual en la confianza del sector manufactura     |17.88%    |Nacional   |INEGI, marzo 2020|
-Cambio interanual en la confianza del sector construcción    |16.08%    |Nacional   |INEGI, marzo 2019|
-Cambio interanual en la confianza del sector comercio        |20.60%    |Nacional   |INEGI, marzo 2018|
-
+Cambio interanual en la confianza de los consumidores       |0.11   |Nacional   |INEGI, abril 2022  |
+Cambio interanual en expectativas de pedidos manufactureros |7.00%  |Nacional   |INEGI, abril 2021  |
+Cambio interanual en la confianza del sector manufactura    |17.88% |Nacional   |INEGI, abril 2020  |
+Cambio interanual en la confianza del sector construcción   |16.08% |Nacional   |INEGI, abril 2019  |
+Cambio interanual en la confianza del sector comercio       |20.60% |Nacional   |INEGI, abril 2018  |
 
 
 </br>
@@ -39,6 +38,7 @@ Cambio interanual en la confianza del sector comercio        |20.60%    |Naciona
 ###Año 2022
 [Enero 2022 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ene-2022.pdf)
 [Febrero 2022 -](http://www.trcimplan.gob.mx/monitores/economia/economia-feb-2022.pdf)
+[Marzo 2022 -](http://www.trcimplan.gob.mx/monitores/economia/economia-mar-2022.pdf)
 ###Año 2021
 [Enero 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ene-2021.pdf)
 [Febrero 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-feb-2021.pdf)

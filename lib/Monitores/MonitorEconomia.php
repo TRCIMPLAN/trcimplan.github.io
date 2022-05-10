@@ -36,7 +36,7 @@ class MonitorEconomia extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Economía';
         $this->autor                      = 'Lic. Carlos Andrés Chairez Ibarra'; // Puede ser un arreglo de textos array('x','y')
-        $this->fecha                      = '2022-04-07T15:20';
+        $this->fecha                      = '2022-05-10T12:20';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-economia'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
