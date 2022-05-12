@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -271,13 +271,19 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">843</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Amenazas en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Amenazas en La Laguna con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
 
-    <div id="SmiGraficasAmenazasEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasAmenazasEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Amenazas en La Laguna</h3>
@@ -323,9 +329,30 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">1,564</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">843</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">469</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">86</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">9,205</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
     </tbody>
@@ -431,11 +458,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasAmenazasEnLaLaguna === 'undefined') {
-    varSmiGraficasAmenazasEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasAmenazasEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasAmenazasEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
+    varSmiGraficasAmenazasEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
+      element: 'SmiGraficasAmenazasEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
       data: [
         { fecha: '2015-12-31', dato: 981 },
         { fecha: '2016-12-31', dato: 1621 },
@@ -455,7 +482,7 @@
   if (typeof varSmiOtrasRegionesAmenazasEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesAmenazasEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAmenazasEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 1017 },{ region: 'Gómez Palacio', dato: 385 },{ region: 'Lerdo', dato: 93 },{ region: 'Matamoros', dato: 69 },{ region: 'La Laguna', dato: 1564 }],
+      data: [{ region: 'Torreón', dato: 1017 },{ region: 'Gómez Palacio', dato: 385 },{ region: 'Lerdo', dato: 93 },{ region: 'Matamoros', dato: 69 },{ region: 'La Laguna', dato: 843 },{ region: 'Coahuila', dato: 469 },{ region: 'Durango', dato: 86 },{ region: 'Nacional', dato: 9205 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

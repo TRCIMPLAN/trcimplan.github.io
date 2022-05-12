@@ -68,7 +68,8 @@ class EconomiaPoblacionOcupada extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2021-06-30', 'valor' => '55242748', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2021-12-31', 'valor' => '56611211', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2021-12-31', 'valor' => '56611211', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2021-12-31', 'valor' => '56611211', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**

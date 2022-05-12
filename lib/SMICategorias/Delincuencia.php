@@ -98,7 +98,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-abuso-de-confianza.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">78</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-abuso-de-confianza.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">15</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-abuso-de-confianza.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-abuso-de-confianza.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">182</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-abuso-de-confianza.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">62</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -107,7 +107,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-abuso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">85</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-abuso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">37</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-abuso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">20</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-abuso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">297</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-abuso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">76</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -125,7 +125,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-acoso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-acoso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-acoso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-acoso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">89</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-acoso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">46</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -143,7 +143,16 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-amenazas.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">385</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-amenazas.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">93</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-amenazas.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">69</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-amenazas.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1564</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-amenazas.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">843</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Corrupción de menores</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-corrupcion-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -152,7 +161,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-dano-a-la-propiedad.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">483</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-dano-a-la-propiedad.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">124</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-dano-a-la-propiedad.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">117</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-dano-a-la-propiedad.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2245</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-dano-a-la-propiedad.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">591</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -162,6 +171,15 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">144</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">103</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1591</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Delitos cometidos por servidores públicos</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos-cometidos-por-servidores-publicos.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">38</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -179,7 +197,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-despojo.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">106</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-despojo.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">13</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-despojo.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-despojo.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">241</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-despojo.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">61</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -188,7 +206,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-extorsion.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-extorsion.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-extorsion.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-extorsion.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">16</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-extorsion.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">5</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -206,7 +224,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -215,7 +233,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-fraude.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">197</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-fraude.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">34</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-fraude.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-fraude.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">507</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-fraude.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">225</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -251,7 +269,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">22</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">31</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -260,7 +278,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-hostigamiento-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-hostigamiento-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-hostigamiento-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-hostigamiento-sexual.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">11</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-hostigamiento-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">2</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -278,7 +296,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-lesiones.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1040</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-lesiones.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">261</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-lesiones.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">183</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-lesiones.html" data-toggle="tooltip" title="Cantidad, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2842</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-lesiones.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">589</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -287,7 +305,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/05/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">29</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/08/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">43</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">312</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -314,7 +332,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-otros-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2016, IMCO">17.68</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-otros-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">199</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -368,7 +386,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, INEGI">13584</a></td>
     <td class="nd">ND</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, INEGI">1100</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-presuntos-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">2941</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -386,7 +404,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">23</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">90</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">286</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -395,7 +413,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">25</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">39</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">78</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -404,7 +422,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">32</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">53</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">97</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -422,7 +440,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">79</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">26</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">11</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">162</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">407</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -431,7 +449,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">208</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">50</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">28</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">397</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">1479</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -440,7 +458,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -494,7 +512,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">46</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">21</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -503,7 +521,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">54</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">10</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">17</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">127</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">27</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -521,7 +539,7 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1475</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">548</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">358</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5133</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">1306</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -548,6 +566,55 @@ class Delincuencia extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Abuso de Confianza</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-abuso-de-confianza.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">51</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-abuso-de-confianza.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">46</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-abuso-de-confianza.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">2319</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Abuso sexual</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-abuso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">44</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-abuso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">29</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-abuso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">1812</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Acoso sexual</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-acoso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">21</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-acoso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">6</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-acoso-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">464</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Amenazas</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-amenazas.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">469</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-amenazas.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">86</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-amenazas.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">9205</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Corrupción de menores</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-corrupcion-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-corrupcion-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-corrupcion-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">164</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Daño a la propiedad</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-dano-a-la-propiedad.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">553</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-dano-a-la-propiedad.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">152</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-dano-a-la-propiedad.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">11162</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Delitos cometidos por servidores públicos</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-delitos-cometidos-por-servidores-publicos.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">94</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-delitos-cometidos-por-servidores-publicos.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">3</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-delitos-cometidos-por-servidores-publicos.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">1490</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos Patrimoniales</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 30/11/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">20</a></td>
     <td class="nd">ND</td>
@@ -555,10 +622,66 @@ class Delincuencia extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Despojo</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-despojo.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">28</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-despojo.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">32</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-despojo.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">2057</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Extorsión</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-extorsion.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">3</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-extorsion.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">11</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-extorsion.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">699</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Feminicidio</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/12/2018, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-feminicidio.html" data-toggle="tooltip" title="Personas, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">75</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Fraude</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-fraude.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">110</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-fraude.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">141</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-fraude.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">7482</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Homicidios</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">342</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">24</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">3395</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Hostigamiento sexual</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-hostigamiento-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-hostigamiento-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-hostigamiento-sexual.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">133</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Lesiones</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-lesiones.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">321</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-lesiones.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">287</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-lesiones.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">15376</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Narcomenudeo</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">1107</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">56</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-narcomenudeo.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">7477</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Otros delitos del Fuero Común</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-otros-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">317</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-otros-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">73</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-otros-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">16228</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -576,31 +699,52 @@ class Delincuencia extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Presuntos Delitos del Fuero Común</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-presuntos-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-presuntos-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-presuntos-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robo a Negocios</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">93</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">130</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">7145</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Transeuntes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">22</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">32</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">6268</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de automóviles</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/10/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">29</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">35</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">101</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-robo-de-automoviles.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">11679</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/07/2016, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">86</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">183</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">121</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">4888</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/08/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">195</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">661</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">537</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">49350</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Secuestros</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">43</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -643,6 +787,27 @@ class Delincuencia extends \Base\Publicacion {
     <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-trafico-de-menores.html" data-toggle="tooltip" title="Cantidad, 31/12/2019, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Violación equiparada</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">13</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-violacion-equiparada.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">482</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Violación simple</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">14</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">20</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-violacion-simple.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">946</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Violencia familiar</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-coahuila/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">797</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-durango/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">353</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-nacional/seguridad-violencia-familiar.html" data-toggle="tooltip" title="Cantidad, 31/03/2022, Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos">17389</a></td>
   </tr>
 </tbody>
 </table>

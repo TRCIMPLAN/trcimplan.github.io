@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -679,10 +679,16 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">407</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
     <h3>Robos a Casa Habitación en La Laguna con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
 
     <div id="SmiGraficasRobosACasaHabitacionEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
@@ -731,16 +737,30 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">162</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">407</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2016-07-31</td>
-        <td class="derecha">86</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">183</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">121</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">4,888</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
     </tbody>
@@ -864,8 +884,8 @@
     });
     varSmiDatosRobosACasaHabitacionEnLaLaguna = 1;
   }
-  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasRobosACasaHabitacionEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
     varSmiGraficasRobosACasaHabitacionEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
       element: 'SmiGraficasRobosACasaHabitacionEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
@@ -953,7 +973,7 @@
   if (typeof varSmiOtrasRegionesRobosACasaHabitacionEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesRobosACasaHabitacionEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesRobosACasaHabitacionEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 46 },{ region: 'Gómez Palacio', dato: 79 },{ region: 'Lerdo', dato: 26 },{ region: 'Matamoros', dato: 11 },{ region: 'La Laguna', dato: 162 },{ region: 'Coahuila', dato: 86 }],
+      data: [{ region: 'Torreón', dato: 46 },{ region: 'Gómez Palacio', dato: 79 },{ region: 'Lerdo', dato: 26 },{ region: 'Matamoros', dato: 11 },{ region: 'La Laguna', dato: 407 },{ region: 'Coahuila', dato: 183 },{ region: 'Durango', dato: 121 },{ region: 'Nacional', dato: 4888 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

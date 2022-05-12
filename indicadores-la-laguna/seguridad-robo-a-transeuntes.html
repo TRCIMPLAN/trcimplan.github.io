@@ -233,7 +233,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica3" aria-controls="LenguetasIndicadorGrafica3" role="tab" data-toggle="tab">Gráfica 3</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -686,6 +686,12 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">78</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -694,7 +700,7 @@
 
     <div id="SmiGraficasRoboATranseuntesEnLaLagunaAyuntamientoDeTorreon" class="grafica"></div>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica3">
     <h3>Robo a Transeuntes en La Laguna con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
 
     <div id="SmiGraficasRoboATranseuntesEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
@@ -743,16 +749,30 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">39</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">78</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2019-10-31</td>
-        <td class="derecha">2</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">22</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">32</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">6,268</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
     </tbody>
@@ -893,8 +913,8 @@
     });
   }
   })
-  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  // LenguetaWeb LenguetasIndicadorGrafica3 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica3"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasRoboATranseuntesEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
     varSmiGraficasRoboATranseuntesEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
       element: 'SmiGraficasRoboATranseuntesEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
@@ -983,7 +1003,7 @@
   if (typeof varSmiOtrasRegionesRoboATranseuntesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesRoboATranseuntesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesRoboATranseuntesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 8 },{ region: 'Gómez Palacio', dato: 25 },{ region: 'Lerdo', dato: 4 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 39 },{ region: 'Coahuila', dato: 2 }],
+      data: [{ region: 'Torreón', dato: 8 },{ region: 'Gómez Palacio', dato: 25 },{ region: 'Lerdo', dato: 4 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 78 },{ region: 'Coahuila', dato: 22 },{ region: 'Durango', dato: 32 },{ region: 'Nacional', dato: 6268 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

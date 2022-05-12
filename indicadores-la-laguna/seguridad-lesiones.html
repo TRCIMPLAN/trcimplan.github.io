@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -271,13 +271,19 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">589</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Lesiones en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Lesiones en La Laguna con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
 
-    <div id="SmiGraficasLesionesEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasLesionesEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Lesiones en La Laguna</h3>
@@ -323,9 +329,30 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">2,842</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">589</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">321</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">287</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">15,376</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
     </tbody>
@@ -431,11 +458,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasLesionesEnLaLaguna === 'undefined') {
-    varSmiGraficasLesionesEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasLesionesEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasLesionesEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
+    varSmiGraficasLesionesEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
+      element: 'SmiGraficasLesionesEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
       data: [
         { fecha: '2015-12-31', dato: 2057 },
         { fecha: '2016-12-31', dato: 2854 },
@@ -455,7 +482,7 @@
   if (typeof varSmiOtrasRegionesLesionesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesLesionesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesLesionesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 1358 },{ region: 'Gómez Palacio', dato: 1040 },{ region: 'Lerdo', dato: 261 },{ region: 'Matamoros', dato: 183 },{ region: 'La Laguna', dato: 2842 }],
+      data: [{ region: 'Torreón', dato: 1358 },{ region: 'Gómez Palacio', dato: 1040 },{ region: 'Lerdo', dato: 261 },{ region: 'Matamoros', dato: 183 },{ region: 'La Laguna', dato: 589 },{ region: 'Coahuila', dato: 321 },{ region: 'Durango', dato: 287 },{ region: 'Nacional', dato: 15376 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

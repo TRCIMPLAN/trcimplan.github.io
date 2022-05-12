@@ -232,6 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -247,9 +248,60 @@
     <tbody>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">17.6800</td>
+        <td>17.6800</td>
         <td>IMCO</td>
         <td>En 2016 se manejó como "decimal" de Delitos del fuero común por cada mil habitantes</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-03-31</td>
+        <td>199</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Otros delitos del Fuero Común en La Laguna</h3>
+    <div id="SmiOtrasRegionesOtrosDelitosDelFueroComunEnLaLagunaGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesOtrosDelitosDelFueroComunEnLaLagunaTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>La Laguna</td>
+        <td class="centrado">2022-03-31</td>
+        <td>199</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Coahuila</td>
+        <td class="centrado">2022-03-31</td>
+        <td>317</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Durango</td>
+        <td class="centrado">2022-03-31</td>
+        <td>73</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Nacional</td>
+        <td class="centrado">2022-03-31</td>
+        <td>16228</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -354,6 +406,19 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesOtrosDelitosDelFueroComunEnLaLagunaGrafica === 'undefined') {
+    varSmiOtrasRegionesOtrosDelitosDelFueroComunEnLaLagunaGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesOtrosDelitosDelFueroComunEnLaLagunaGrafica',
+      data: [{ region: 'La Laguna', dato: 199 },{ region: 'Coahuila', dato: 317 },{ region: 'Durango', dato: 73 },{ region: 'Nacional', dato: 16228 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+  })
   // LenguetasWeb LenguetasIndicador ordenar que Datos es la que se mostrará
   $(document).ready(function(){
     $('#LenguetasIndicador a[href="#LenguetasIndicadorDatos"]').tab('show')
