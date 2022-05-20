@@ -52,7 +52,7 @@ class Abastos extends \IBCBase\PublicacionWeb {
         return array(
             'Demografía' => array(
                 '2010' => array(
-                    'Población total' => 3790,
+                    'Población total' => 3518,
                     'Porcentaje de población masculina' => 48.35,
                     'Porcentaje de población femenina' => 51.65,
                     'Porcentaje de población de 0 a 14 años' => 25.44,
