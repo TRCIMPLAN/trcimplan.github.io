@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - VolverAlInicio
+ * TrcIMPLAN Sitio Web - UnCuartoDeHora
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace Blog;
 
 /**
- * Clase VolverAlInicio
+ * Clase UnCuartoDeHora
  */
-class VolverAlInicio extends \Base\PublicacionSchemaBlogPosting {
+class UnCuartoDeHora extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
@@ -34,22 +34,22 @@ class VolverAlInicio extends \Base\PublicacionSchemaBlogPosting {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título, autor y fecha
-        $this->nombre                     = 'Volver al inicio';
+        $this->nombre                     = 'Un cuarto de hora';
         $this->autor                      = 'Mtro. Aldo Valdés López';
-        $this->fecha                      = '2021-08-04T00:00';
+        $this->fecha                      = '2022-06-06T10:00';
         // El nombre del archivo a crear
-        $this->archivo                    = 'volver-al-inicio-ago-2021';
+        $this->archivo                    = 'un-cuarto-de-hora-junio-2022';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'El centro histórico de Torreón es el lugar más icónico de la ciudad. En él se pueden apreciar marcas de los principales acontecimientos que ha vivido la región desde finales del siglo XIX hasta la nuestra época.';
-        $this->claves                     = 'IMPLAN, Torreon, centro, historico';
+        $this->descripcion                = 'El Objetivo #11 de Desarrollo Sostenible de la ONU plantea que debemos “lograr que las ciudades sean más inclusivas, seguras, resilientes y sostenibles”.';
+        $this->claves                     = 'IMPLAN, Torreon, ciudad, social, servicios';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/Blog/VolverAlInicio.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/UnCuartoDeHora.md';
         // Para el Organizador
-        $this->categorias                 = array();
+        $this->categorias                 = array('Población');
         $this->fuentes                    = array();
-        $this->regiones                   = array('Torreón');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
-} // Clase VolverAlInicio
+} // Clase UnCuartoDeHora
 
 ?>
