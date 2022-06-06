@@ -1,11 +1,13 @@
-
-<img class="img-responsive" src="volver-al-inicio-ago-2021/Aldo.jpg"  align="right" alt="foto Aldo">
-
+<p>
+    <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/mtro-aldo-valdes-lopez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/otros/Aldo.png" align="right" alt="Foto Aldo" width="200" height="100"></a>
+</p>
 
 </br></br></br></br></br></br></br></br>
-Por: <b>Lic. Aldo Valdés</b> </br>
+
+Por: <b>Mtro. Aldo Valdés</b> </br>
 Consejero de Visión Metrópoli
 </br></br>
+
 
 
 Hace unos años, el académico Carlos Moreno de la Universidad Sorbona de París propuso el concepto de “la ciudad de los 15 minutos”, el cual consiste en un rediseño de las funciones sociales que permita a cualquier persona habitar, trabajar, descansar, consumir y acceder a servicios de salud, educación y cultura en un tiempo que no supere esta fracción de hora (Moreno, 2016). Esta propuesta, abordada anteriormente por activistas como Jane Jacobs, nos invita a revisar cómo vivimos en nuestras comunidades y a su vez, nos permite cuestionar si el modelo actual de nuestras ciudades facilita estos estándares deseables de calidad de vida.

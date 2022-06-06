@@ -1,9 +1,11 @@
-
-
-<img class="img-responsive" src="volver-al-inicio-ago-2021/Aldo.jpg"  align="right" alt="foto Aldo">
-
+<p>
+    <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/mtro-aldo-valdes-lopez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/otros/Aldo.png" align="right" alt="Foto Aldo" width="200" height="100"></a>
+</p>
 
 </br></br></br></br></br></br></br></br>
+
+
+
 Por: <b>Lic. Aldo Valdés</b> </br>
 Consejero de Visión Metrópoli
 </br></br>
