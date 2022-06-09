@@ -3,9 +3,9 @@
 
 ##DELITOS
 
-|INDICADOR                              |DATO       |NIVEL      |FECHA            |
-|---------------------------------------|-----------|-----------|-----------------|
-|Delitos del fuero común                |7,041      |ZML        |SESNSP abril 2022|
+|INDICADOR                               |DATO       |NIVEL      |FECHA            |
+|----------------------------------------|-----------|-----------|-----------------|
+|Delitos del fuero común                 |7,041      |ZML        |SESNSP abril 2022|
 |Delitos del fuero común                 |3,805      |Torreón    |SESNSP abril 2022|
 |Robo a casa habitación                  |542        |ZML        |SESNSP abril 2022|
 |Robo a negocio                          |365        |ZML        |SESNSP abril 2022|
@@ -25,18 +25,18 @@
 
 ##PERCEPCIÓN DE INSEGURIDAD
 
-|INDICADOR                                                                                         |DATO   |NIVEL|FECHA           |
-|--------------------------------------------------------------------------------------------------|-------|-----|----------------|
-|Porcentaje de población que consideran el desempeño gubernamental muy o algo efectivo en la zml   |34.80% |ZML  |ENSU abril 2022 |
-|Porcentaje de población con sensación de inseguridad por temor a delito (percepción).             |49.20% |ZML  |ENSU abril 2022 |
+|INDICADOR                                                                                          |DATO   |NIVEL     |FECHA      |
+|---------------------------------------------------------------------------------------------------|-------|----------|-----------|
+|Porcentaje de población que consideran el desempeño gubernamental muy o algo efectivo en la ZML    |29.38% | ZML ENSU |marzo 2022 |
+|Porcentaje de población con sensación de inseguridad por temor a delito (percepción).              |49.20% | ZML ENSU |marzo 2022 |
 
 ##DELITOS SEXUALES
 
-|INDICADOR     |DATO   |NIVEL   |FECHA             |
-|--------------|-------|--------|------------------|
-|Abuso sexual  |77     |ZML     |SESNSP mayo 2022  |
-|Abuso sexual  |44     |Torreón |SESNSP mayo 2022  |
-|Acoso sexual  |36     |Torreón |SESNSP mayo 2022  |
+|INDICADOR     |DATO   |NIVEL          |FECHA      |
+|--------------|-------|---------------|-----------|
+|Abuso sexual  |  116  |ZML SESNSP     |abril 2022 |
+|Abuso sexual  |  60   |Torreón SESNSP |abril 2022 |
+|Acoso sexual  |  49   |Torreón SESNSP |abril 2022 |
 
 
 ##Observaciones:
@@ -47,23 +47,6 @@
 
 - [3] Encuesta Nacional de Seguridad Pública Urbana (ENSU)
 
-
-------------------------------------
-
-
-DELITOS DATO    NIVEL   FECHA
-
-PERCEPCIÓN DE INSEGURIDAD   DATO    NIVEL   FECHA
-Porcentaje de población que consideran el desempeño gubernamental muy o algo efectivo en la ZML 29.38%  ZML ENSU marzo 2022
-Porcentaje de población con sensación de inseguridad por temor a delito (percepción).   49.20%  ZML ENSU marzo 2022
-DELITOS SEXUALES    DATO    NIVEL   FECHA
-Abuso sexual    116 ZML SESNSP abril 2022
-Abuso sexual    60  Torreón SESNSP abril 2022
-Acoso sexual    49  Torreón SESNSP abril 2022
-
-
-
-------------------------------------
 
 
 </br></br></br></br>
@@ -77,6 +60,7 @@ Informe:
 [- Enero 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-ene-2022.pdf)
 [- Febrero 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-feb-2022.pdf)
 [- Marzo 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-mar-2022.pdf)
+[- Abril 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-abr-2022.pdf)
 </br>
 
 <b> AÑO 2021 </b>
