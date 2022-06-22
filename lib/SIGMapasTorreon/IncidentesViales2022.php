@@ -67,7 +67,7 @@ class IncidentesViales2022 extends \Base\Publicacion {
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/0abfd176-8f38-41d2-8600-a63660c25a84/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</br><b>Fuente: Dirección de Tránsito y Vialidad, 2022.</b></br></br>
+</br><b>Fuente: Tribunales de Justicia Municipal, 2022.</b></br></br>
 </br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS</b></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
