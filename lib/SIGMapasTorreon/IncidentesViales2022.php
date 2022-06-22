@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - SIGMapasTorreon IncidentesViales2021
+ * TrcIMPLAN Sitio Web - SIGMapasTorreon
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,22 +23,22 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase IncidentesViales2021
+ * Clase IncidentesViales2022
  */
-class IncidentesViales2021 extends \Base\Publicacion {
+class IncidentesViales2022 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Incidentes Viales2021';
+        $this->nombre             = 'Incidentes Viales2022';
         $this->autor              = 'Dirección de Planeación Urbana Sustentable IMPLAN';
-        $this->fecha              = '2021-04-26T13:06';
+        $this->fecha              = '2022-06-20T13:06';
         // El nombre del archivo a crear y rutas relativas a las imágenes
-        $this->archivo            = 'incidentes-viales2021';
-        $this->imagen             = 'incidentes-viales2021/imagen.jpg';
-        $this->imagen_previa      = 'incidentes-viales2021/imagen-previa.jpg';
+        $this->archivo            = 'incidentes-viales2022';
+        $this->imagen             = 'incidentes-viales2022/imagen.jpg';
+        $this->imagen_previa      = 'incidentes-viales2022/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion        = 'Incidentes viales ocurridos en el municipio de Torreón clasificados por tipo. El mapa muestra a su vez, los incidentes agrupados por proximidad en los puntos con mas incidencia de siniestros.';
         $this->claves             = 'IMPLAN, Torreon, Transporte, Urbano, Rutas, Camiones';
@@ -53,7 +53,7 @@ class IncidentesViales2021 extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias         = array('Vialidad', 'Movilidad');
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/56a84f3a-87de-439a-869d-5def492ceead/embed';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/0abfd176-8f38-41d2-8600-a63660c25a84';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -66,8 +66,8 @@ class IncidentesViales2021 extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/56a84f3a-87de-439a-869d-5def492ceead/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</br><b>Fuente: Dirección de Tránsito y Vialidad, 2021.</b></br></br>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/builder/0abfd176-8f38-41d2-8600-a63660c25a84/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</br><b>Fuente: Dirección de Tránsito y Vialidad, 2022.</b></br></br>
 </br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS</b></br></br>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
@@ -116,6 +116,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase IncidentesViales2021
+} // Clase
 
 ?>

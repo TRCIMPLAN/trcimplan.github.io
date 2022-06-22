@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-06-21</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5898,6 +5898,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/incidentes-viales2021.html</loc>
     <lastmod>2021-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/incidentes-viales2022.html</loc>
+    <lastmod>2022-06-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
