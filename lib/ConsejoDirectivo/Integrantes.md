@@ -12,11 +12,11 @@ NOMBRE                                     | CARGO
 **C. Luis Jorge Cuerda Serna**                 | Presidente de la Comisión de Hacienda, Patrimonio y Cuenta Pública del Ayuntamiento
 **C. Felipe Eduardo González Miranda**         | Presidente de la Comisión de Planeación y Urbanismo del Ayuntamiento
 **C. Cristhian González Zambrano**             | Presidente de la Comisión de Obras Públicas del Ayuntamiento
-**C. Blanca Álvarez González**                 | Presidenta de la Comisión de Desarrollo Económico del Ayuntamiento
+**C. Blanca Álvarez Garza**                    | Presidenta de la Comisión de Desarrollo Económico del Ayuntamiento
 **C. Francisco José Torres**                   | Titular Responsable del área de Desarrollo Urbano
 C. POR DEFINIR **                          | Representante del Consejo Municipal de Desarrollo Urbano
 **C. Cristian Manuel López Chávez**            | Décimo quinto regidor, Pdte. Comisión de Ciencia y Tecnología
-**C. José Armando González Murillo**           | Décimo sexo regidor, Pdte. Comisión Metropolitana
+**C. José Armando González Murillo**           | Décimo sexto regidor, Pdte. Comisión Metropolitana
 
 ##Consejeros de representación Sectorial
 
