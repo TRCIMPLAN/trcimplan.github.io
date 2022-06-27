@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -513,6 +513,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/economia-sector-salud-laguna.html</loc>
     <lastmod>2014-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/edo-actual-de-la-industria-junio-2022.html</loc>
+    <lastmod>2022-06-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
