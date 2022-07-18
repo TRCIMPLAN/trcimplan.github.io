@@ -32,8 +32,8 @@
 
 ##DELITOS SEXUALES
 
-|INDICADOR     |DATO   |NIVEL          |FECHA      |
-|--------------|-------|---------------|-----------|
+|INDICADOR      |DATO   |NIVEL          |FECHA      |
+|:--------------:|-------|---------------|-----------|
 |Abuso sexual   | 77    |ZML SESNSP     |junio 2022 |
 |Abuso sexual   | 44    |Torreón SESNSP |junio 2022 |
 |Acoso sexual   | 36    |Torreón SESNSP |junio 2022 |

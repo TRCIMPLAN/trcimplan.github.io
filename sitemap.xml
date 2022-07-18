@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-07-11</lastmod>
+    <lastmod>2022-07-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1933,6 +1933,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/salud-mental-en-los-medios-de-comunicacion-jun-2021.html</loc>
     <lastmod>2021-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/salud-mental-importante-julio-2022.html</loc>
+    <lastmod>2022-07-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
