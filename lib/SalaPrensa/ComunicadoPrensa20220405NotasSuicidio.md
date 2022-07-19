@@ -13,7 +13,7 @@ En dicho evento estuvieron presentes la Sra. Selina Bremer de Cepeda, Presidenta
 
 Este trabajo se realizó gracias a la colaboración entre diversas dependencias y asociaciones civiles como Consejo Visión Metrópoli, IMPLAN Torreón, Red MOTUS, DIF Torreón, Universidad La Salle Laguna, el equipo de jóvenes que apoyaron en el diseño y redacción de la elaboración del manual y a los medios de comunicación que participaron con la retroalimentación.
 
-###El Manual se puede consultar en el siguiente enlace: [bit.ly/manualdenotas](bit.ly/manualdenotas)
+###El Manual se puede consultar en el siguiente enlace: [http://www.trcimplan.gob.mx/vision-metropoli/publicaciones/manual-notas-periodisticas.pdf](http://www.trcimplan.gob.mx/vision-metropoli/publicaciones/manual-notas-periodisticas.pdf)
 
 <img class="img-responsive" src="2022-04-05-comunicado-notas-suicidio/ima02.jpg" alt="Imagen Notas sobre Suicidio 2">
 
