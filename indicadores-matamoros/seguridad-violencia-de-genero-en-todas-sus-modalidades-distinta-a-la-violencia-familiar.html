@@ -283,6 +283,36 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-01-31</td>
+        <td class="derecha">0</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-02-28</td>
+        <td class="derecha">0</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">0</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-04-30</td>
+        <td class="derecha">0</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-05-31</td>
+        <td class="derecha">0</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -307,36 +337,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">9</td>
-        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Gómez Palacio</td>
-        <td class="centrado">2019-12-31</td>
+        <td class="centrado">2022-05-31</td>
         <td class="derecha">0</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
+        <td>Gómez Palacio</td>
+        <td class="centrado">2022-05-31</td>
+        <td class="derecha">10</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
         <td>Lerdo</td>
-        <td class="centrado">2019-12-31</td>
+        <td class="centrado">2022-05-31</td>
         <td class="derecha">0</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2019-12-31</td>
+        <td class="centrado">2022-05-31</td>
         <td class="derecha">0</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">9</td>
+        <td class="centrado">2022-05-31</td>
+        <td class="derecha">10</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
@@ -437,6 +467,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosViolenciaDeGeneroEnTodasSusModalidadesDistintaALaViolenciaFamiliarEnMatamoros === 'undefined') {
+     $('#SmiDatosViolenciaDeGeneroEnTodasSusModalidadesDistintaALaViolenciaFamiliarEnMatamoros').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosViolenciaDeGeneroEnTodasSusModalidadesDistintaALaViolenciaFamiliarEnMatamoros = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasViolenciaDeGeneroEnTodasSusModalidadesDistintaALaViolenciaFamiliarEnMatamoros === 'undefined') {
@@ -448,7 +496,12 @@
         { fecha: '2017-12-31', dato: 1 },
         { fecha: '2018-12-31', dato: 0 },
         { fecha: '2019-10-31', dato: 0 },
-        { fecha: '2019-12-31', dato: 0 }],
+        { fecha: '2019-12-31', dato: 0 },
+        { fecha: '2022-01-31', dato: 0 },
+        { fecha: '2022-02-28', dato: 0 },
+        { fecha: '2022-03-31', dato: 0 },
+        { fecha: '2022-04-30', dato: 0 },
+        { fecha: '2022-05-31', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -463,7 +516,7 @@
   if (typeof varSmiOtrasRegionesViolenciaDeGeneroEnTodasSusModalidadesDistintaALaViolenciaFamiliarEnMatamorosGrafica === 'undefined') {
     varSmiOtrasRegionesViolenciaDeGeneroEnTodasSusModalidadesDistintaALaViolenciaFamiliarEnMatamorosGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesViolenciaDeGeneroEnTodasSusModalidadesDistintaALaViolenciaFamiliarEnMatamorosGrafica',
-      data: [{ region: 'Torreón', dato: 9 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 9 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 10 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 10 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

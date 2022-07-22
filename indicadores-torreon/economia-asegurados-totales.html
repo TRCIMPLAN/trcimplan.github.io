@@ -259,6 +259,30 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">244,406</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-04-30</td>
+        <td class="derecha">245,462</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-05-31</td>
+        <td class="derecha">244,482</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">244,679</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -283,36 +307,36 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2022-02-28</td>
-        <td class="derecha">244,299</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">244,679</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2022-02-28</td>
-        <td class="derecha">96,441</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">96,066</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2022-02-28</td>
-        <td class="derecha">16,253</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">16,920</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2022-02-28</td>
-        <td class="derecha">14,365</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">14,368</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2022-02-28</td>
-        <td class="derecha">371,358</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">372,033</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
@@ -383,7 +407,11 @@
       element: 'SmiGraficasAseguradosTotalesEnTorreon',
       data: [
         { fecha: '2022-01-31', dato: 241962 },
-        { fecha: '2022-02-28', dato: 244299 }],
+        { fecha: '2022-02-28', dato: 244299 },
+        { fecha: '2022-03-31', dato: 244406 },
+        { fecha: '2022-04-30', dato: 245462 },
+        { fecha: '2022-05-31', dato: 244482 },
+        { fecha: '2022-06-30', dato: 244679 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -398,7 +426,7 @@
   if (typeof varSmiOtrasRegionesAseguradosTotalesEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesAseguradosTotalesEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAseguradosTotalesEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 244299 },{ region: 'Gómez Palacio', dato: 96441 },{ region: 'Lerdo', dato: 16253 },{ region: 'Matamoros', dato: 14365 },{ region: 'La Laguna', dato: 371358 },{ region: 'Coahuila', dato: 940298 },{ region: 'Durango', dato: 336557 },{ region: 'Nacional', dato: 29292460 }],
+      data: [{ region: 'Torreón', dato: 244679 },{ region: 'Gómez Palacio', dato: 96066 },{ region: 'Lerdo', dato: 16920 },{ region: 'Matamoros', dato: 14368 },{ region: 'La Laguna', dato: 372033 },{ region: 'Coahuila', dato: 940298 },{ region: 'Durango', dato: 336557 },{ region: 'Nacional', dato: 29292460 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

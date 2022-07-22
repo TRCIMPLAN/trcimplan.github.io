@@ -91,6 +91,11 @@ class SeguridadPersonasPrivadasDeLaLibertadEnCentrosPenitenciariosVaroniles exte
      */
     public function otras_regiones() {
         return array(
+            array('region_nombre' => 'Torreón', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-05-31', 'valor' => '1', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-05-31', 'valor' => '1', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2016-12-31', 'valor' => '1933', 'fuente_nombre' => 'Encuesta Nacional de Población Privada de la Libertad'),
             array('region_nombre' => 'Durango', 'fecha' => '2016-12-31', 'valor' => '5704', 'fuente_nombre' => 'Encuesta Nacional de Población Privada de la Libertad'),
             array('region_nombre' => 'Nacional', 'fecha' => '2016-12-31', 'valor' => '200380', 'fuente_nombre' => 'Encuesta Nacional de Población Privada de la Libertad'));

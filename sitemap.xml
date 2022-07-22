@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-07-19</lastmod>
+    <lastmod>2022-07-21</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -7101,6 +7101,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-corrupcion-de-menores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-dano-a-la-propiedad.html</loc>
     <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -7108,6 +7113,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos-cometidos-por-servidores-publicos.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7191,6 +7201,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-otros-delitos-del-fuero-comun.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
     <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -7198,6 +7213,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-percepcion-de-inseguridad.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-varoniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7991,6 +8011,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-proporcion-de-mujeres.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-razon-de-mortalidad-materna.html</loc>
     <lastmod>2015-01-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -8323,6 +8348,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-contaminacion-por-monoxido-de-carbono.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9001,6 +9031,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-trabajadores-eventuales.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-trabajadores-permanentes.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -9216,6 +9256,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-corrupcion-de-menores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-dano-a-la-propiedad.html</loc>
     <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -9223,6 +9268,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-delitos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-delitos-cometidos-por-servidores-publicos.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9306,6 +9356,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-otros-delitos-del-fuero-comun.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
     <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -9323,6 +9378,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
     <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-varoniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9811,6 +9871,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-proporcion-de-mujeres.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html</loc>
     <lastmod>2015-01-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -9998,6 +10063,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-contaminacion-por-monoxido-de-carbono.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10621,6 +10691,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-trabajadores-eventuales.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-trabajadores-permanentes.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -10836,6 +10916,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-corrupcion-de-menores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-dano-a-la-propiedad.html</loc>
     <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -10843,6 +10928,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos-cometidos-por-servidores-publicos.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10926,6 +11016,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-otros-delitos-del-fuero-comun.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
     <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -10943,6 +11038,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
     <lastmod>2015-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-varoniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11431,6 +11531,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-proporcion-de-mujeres.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html</loc>
     <lastmod>2015-01-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -11618,6 +11723,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-contaminacion-por-monoxido-de-carbono.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12236,6 +12346,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-trabajadores-eventuales.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-trabajadores-permanentes.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -12451,6 +12571,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-corrupcion-de-menores.html</loc>
+    <lastmod>2018-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-dano-a-la-propiedad.html</loc>
     <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -12458,6 +12583,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-delitos.html</loc>
     <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-delitos-cometidos-por-servidores-publicos.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12541,6 +12671,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-otros-delitos-del-fuero-comun.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual.html</loc>
     <lastmod>2018-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -12548,6 +12683,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-percepcion-de-inseguridad.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-varoniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13026,6 +13166,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-proporcion-de-mujeres.html</loc>
+    <lastmod>2018-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html</loc>
     <lastmod>2015-01-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -13208,6 +13353,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-contaminacion-por-monoxido-de-carbono.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13876,6 +14026,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-trabajadores-eventuales.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-trabajadores-permanentes.html</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -14248,6 +14408,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-percepcion-de-inseguridad.html</loc>
     <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-personas-privadas-de-la-libertad-en-centros-penitenciarios-varoniles.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -15008,6 +15173,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-electrico-residencial.html</loc>
     <lastmod>2019-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-contaminacion-por-monoxido-de-carbono.html</loc>
+    <lastmod>2018-07-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

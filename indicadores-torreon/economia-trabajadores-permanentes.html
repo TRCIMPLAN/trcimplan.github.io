@@ -233,6 +233,7 @@
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
   <div role="tabpanel" class="tab-pane active" id="LenguetasIndicadorDatos">
@@ -258,6 +259,30 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-03-31</td>
+        <td class="derecha">195,176</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-04-30</td>
+        <td class="derecha">195,572</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-05-31</td>
+        <td class="derecha">195,113</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">195,204</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -265,6 +290,58 @@
     <h3>Trabajadores Permanentes en Torreón </h3>
 
     <div id="SmiGraficasTrabajadoresPermanentesEnTorreon" class="grafica"></div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
+    <h3>Últimos datos de Trabajadores Permanentes en Torreón</h3>
+    <div id="SmiOtrasRegionesTrabajadoresPermanentesEnTorreonGrafica" class="grafica"></div>
+  <table id="SmiOtrasRegionesTrabajadoresPermanentesEnTorreonTabla" class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Región</th>
+        <th>Fecha</th>
+        <th>Dato</th>
+        <th>Fuente</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Torreón</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">195,204</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gómez Palacio</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">83,081</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Lerdo</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">12,187</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Matamoros</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">6,679</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>La Laguna</td>
+        <td class="centrado">2022-06-30</td>
+        <td class="derecha">20,665</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   </div>
   </div>
 </div>
@@ -312,13 +389,30 @@
       element: 'SmiGraficasTrabajadoresPermanentesEnTorreon',
       data: [
         { fecha: '2022-01-31', dato: 193058 },
-        { fecha: '2022-02-28', dato: 194931 }],
+        { fecha: '2022-02-28', dato: 194931 },
+        { fecha: '2022-03-31', dato: 195176 },
+        { fecha: '2022-04-30', dato: 195572 },
+        { fecha: '2022-05-31', dato: 195113 },
+        { fecha: '2022-06-30', dato: 195204 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
+  // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiOtrasRegionesTrabajadoresPermanentesEnTorreonGrafica === 'undefined') {
+    varSmiOtrasRegionesTrabajadoresPermanentesEnTorreonGrafica = Morris.Bar({
+      element: 'SmiOtrasRegionesTrabajadoresPermanentesEnTorreonGrafica',
+      data: [{ region: 'Torreón', dato: 195204 },{ region: 'Gómez Palacio', dato: 83081 },{ region: 'Lerdo', dato: 12187 },{ region: 'Matamoros', dato: 6679 },{ region: 'La Laguna', dato: 20665 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
   })

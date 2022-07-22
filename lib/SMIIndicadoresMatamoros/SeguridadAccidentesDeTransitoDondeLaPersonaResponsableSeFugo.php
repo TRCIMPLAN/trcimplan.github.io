@@ -43,7 +43,7 @@ class SeguridadAccidentesDeTransitoDondeLaPersonaResponsableSeFugo extends \SMIB
         $this->claves      = 'IMPLAN, Matamoros, Seguridad, Delincuencia';
         // Para el Organizador
         $this->categorias  = array('Seguridad', 'Delincuencia');
-        $this->fuentes     = array('INEGI');
+        $this->fuentes     = array('INEGI', 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
         $this->regiones    = array('Matamoros');
     } // constructor
 
@@ -55,7 +55,7 @@ class SeguridadAccidentesDeTransitoDondeLaPersonaResponsableSeFugo extends \SMIB
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -70,7 +70,12 @@ class SeguridadAccidentesDeTransitoDondeLaPersonaResponsableSeFugo extends \SMIB
             array('fecha' => '2015-12-31', 'valor' => '13.4000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2016-12-31', 'valor' => '9.1000', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2017-12-31', 'valor' => '4.0000', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2018-12-31', 'valor' => '4.7000', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 8, crudo 4
+            array('fecha' => '2018-12-31', 'valor' => '4.7000', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2022-01-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-02-28', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-03-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-04-30', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 18, crudo 9
     } // datos
 
     /**
@@ -82,7 +87,7 @@ class SeguridadAccidentesDeTransitoDondeLaPersonaResponsableSeFugo extends \SMIB
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -94,11 +99,11 @@ class SeguridadAccidentesDeTransitoDondeLaPersonaResponsableSeFugo extends \SMIB
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2018-12-31', 'valor' => '4.5000', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-12-31', 'valor' => '23.0000', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2018-12-31', 'valor' => '14.4000', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2018-12-31', 'valor' => '4.7000', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '11.3600', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'Torreón', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-05-31', 'valor' => '1', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-05-31', 'valor' => '1', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
     /**

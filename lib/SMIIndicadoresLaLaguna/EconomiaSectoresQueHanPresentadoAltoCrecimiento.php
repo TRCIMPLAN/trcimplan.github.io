@@ -43,7 +43,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \SMIBase\Publicaci
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Mercados';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Mercados');
-        $this->fuentes     = array('IMCO', 'Elaboración propia con datos obtenidos del INEGI');
+        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI', 'IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
