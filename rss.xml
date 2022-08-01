@@ -5,11 +5,55 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Fri, 22 Jul 2022 13:37:24 -0500</pubDate>
+    <pubDate>Mon, 01 Aug 2022 09:21:57 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inventario Nacional de Vivienda 2020, una herramienta para desarrollar política pública</title>
+      <link>http://www.trcimplan.gob.mx/blog/inventario-nacional-de-vivienda-2020-jul-2022.html</link>
+      <guid isPermaLink="false">blog-inventario-nacional-de-vivienda-2020-jul-2022</guid>
+      <pubDate>Mon, 01 Aug 2022 08:40:00 -0500</pubDate>
+      <author>Arq. Carla Estefanía Tovar Triana</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/inventario-nacional-de-vivienda-2020-jul-2022/imagen.jpg"><br>
+
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/carla-estefania-tovar-triana.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/blog/../imagenes/128/arq-carla-estefania-tovar-triana-top5.png" align="right" alt="Foto Carla Tovar" width="500" height="200"></a>
+
+</p>
+
+<p></br></br></br></br></br></br></br></br></p>
+
+<hr />
+
+<p>El programa se compone de 43 indicadores que se plasman a través de la unidad geográfica de “manzana”. Proporcionando información para 1 millón 596 mil manzanas que componen un total de 4,911 localidades urbanas del país. También se ofrecen datos de 184 mil 295 localidades rurales a nivel nacional.</p>
+
+<p>De la información que proporciona este programa en el ámbito urbano, se encuentran datos sobre las características de las viviendas, datos de población, indicadores relacionados con la oferta de infraestructura vial, mobiliario y servicios urbanos, entre otros. Dentro de las innovaciones en esta actualización se encuentra la incorporación de datos que nos permiten crear un panorama en relación a la infraestructura con la que cuentan nuestras ciudades, relacionada con la movilidad y accesibilidad en el espacio público. Aparte de integrar la información del Directorio Estadístico Nacional de Unidades Económicas (DENUE).</p>
+
+<p>Herramienta para la generación de política pública</p>
+
+<p>En el caso de Torreón se presenta información para un total de 12,069 manzanas que conforman la zona urbana del municipio. Podemos encontrar información por manzana y frente de manzana, sobre la presencia de infraestructura como: rampas, pasos peatonales, banquetas, guarniciones, ciclo-vías, ciclo-carriles, árboles, entre otros.</p>
+
+<p>Los datos se presentan en un mapa interactivo, el cual permite visualizar la información por zona, y así determinar en dónde existe mayor presencia de infraestructura y dónde existe déficit. Es así como podemos obtener diagnósticos y análisis que concluyan en política pública y proyectos que generen el mayor beneficio para la sociedad.</p>
+
+<p>Utilizando el Inventario Nacional de Vivienda y los datos del Censo de Población y Vivienda 2020, podemos reconocer si la ciudad ofrece infraestructura para mejorar la accesibilidad en las zonas en las que más se necesita, por ejemplo, lugares con mayor presencia de comercio, servicios públicos o incluso comparar con las zonas de la ciudad en las que existe una mayor densidad de población con alguna discapacidad.</p>
+
+<p>Según el Inventario Nacional de Vivienda, en relación a la infraestructura relacionada a la accesibilidad y seguridad de los peatones, en Torreón el 62% de las manzanas urbanas cuenta con banquetas en todas sus vialidades, mientras que el 26% cuenta con banquetas en alguna vialidad y apenas el 6.8% de las manzanas cuenta con rampas en todas sus vialidades y el 13.5% en alguna vialidad.</p>
+
+<p>También se puede utilizar para llevar a cabo acciones que mejoren el clima urbano, por ejemplo, la información arroja que en la ciudad existe una presencia de árboles en el 34.2% de las manzanas en todas sus vialidades y 52.4% en alguna vialidad. Pero es importante señalar que en este caso existe un 10% de manzanas que no tiene árboles en ninguna vialidad. Por lo que identificar territorialmente cuáles son estas zonas en las que existe mayor carencia, posibilita determinar dónde es necesario llevar a cabo, campañas de reforestación. De igual manera, relacionado con la movilidad, comparar las rutas de transporte público con la oferta de paradas.</p>
+
+<p>Resulta de vital importancia generar análisis sobre la situación actual de nuestra ciudad, identificando las brechas y áreas de oportunidad, pero para garantizar un cambio, es fundamental que estos diagnósticos desemboquen en política pública, con la finalidad de encaminar el desarrollo hacia una ciudad inclusiva y sostenible.</p>
+
+<h3>FUENTE:</h3>
+
+<ul>
+<li>Inventario Nacional de Vivienda 2020. INEGI. <a href="https://www.inegi.org.mx/app/mapa/espacioydatos/?app=inv">https://www.inegi.org.mx/app/mapa/espacioydatos/?app=inv</a></li>
+</ul>
+
+<p></br></p>
+]]></description>
+    </item>
     <item>
       <title>Salud Mental ¿Importante?</title>
       <link>http://www.trcimplan.gob.mx/blog/salud-mental-importante-julio-2022.html</link>
@@ -270,48 +314,6 @@ Incidentes viales ocurridos en el municipio de Torreón clasificados por tipo. E
 <ul>
 <li><p>Sistemas de Prepago (Ecobus)</p></li>
 <li><p>Históricos de censos, Censos de Población y Vivienda de INEGI.</p></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Un cuarto de hora</title>
-      <link>http://www.trcimplan.gob.mx/blog/un-cuarto-de-hora-junio-2022.html</link>
-      <guid isPermaLink="false">blog-un-cuarto-de-hora-junio-2022</guid>
-      <pubDate>Mon, 06 Jun 2022 10:00:00 -0500</pubDate>
-      <author>Mtro. Aldo Valdés López</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/un-cuarto-de-hora-junio-2022/imagen.jpg"><br>
-
-<p>
-    <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/mtro-aldo-valdes-lopez.html"><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/blog/../imagenes/128/otros/Aldo.png" align="right" alt="Foto Aldo" width="200" height="100"></a>
-</p>
-
-<p></br></br></br></br></br></br></br></br></p>
-
-<p>Por: <b>Mtro. Aldo Valdés</b> </br>
-Consejero de Visión Metrópoli
-</br></br></p>
-
-<p>Hace unos años, el académico Carlos Moreno de la Universidad Sorbona de París propuso el concepto de “la ciudad de los 15 minutos”, el cual consiste en un rediseño de las funciones sociales que permita a cualquier persona habitar, trabajar, descansar, consumir y acceder a servicios de salud, educación y cultura en un tiempo que no supere esta fracción de hora (Moreno, 2016). Esta propuesta, abordada anteriormente por activistas como Jane Jacobs, nos invita a revisar cómo vivimos en nuestras comunidades y a su vez, nos permite cuestionar si el modelo actual de nuestras ciudades facilita estos estándares deseables de calidad de vida.</p>
-
-<p>Si bien, la mancha urbana de la Zona Metropolitana de La Laguna se ha extendido de forma desproporcionada al crecimiento poblacional (ONU-Habitat, 2017), con una expansión del 3.6% en la mancha urbana y un crecimiento poblacional de sólo un 1.52% en los últimos años (IMPLAN), existen áreas en las que se podrían poner en práctica algunas de las propuestas de Moreno. El Centro Histórico de Torreón aparece como un lugar propicio para esto: tiene una dinámica comercial importante, siendo sede del 22% de las unidades económicas del municipio (IMPLAN); cuenta con diversos espacios públicos y de esparcimiento; han existido intervenciones esporádicas de urbanismo para la movilidad activa; y se cuenta con la infraestructura básica para promover más proyectos de vivienda vertical.</p>
-
-<p>En el artículo “Volver al inicio”, mencionamos la importancia de integrar distintos ejes (económicos, medioambientales y de movilidad) alrededor de la redensificación del centro. Mientras el indicador de vivienda deshabitada a nivel municipal se encuentra en un 14.8%, el centro histórico destaca con un 31.61% en este campo. En este sentido, resulta necesario subrayar los retos para lograr esta redensificación, comenzando por la ausencia de políticas integrales de vivienda que permitan atraer nuevos habitantes y prevenir externalidades por temas de gentrificación.</p>
-
-<p>En relación a estos puntos, hay temas básicos que necesitan abordarse como el ruido excesivo (provocado principalmente por establecimientos que no respetan el límite de decibeles), el desabasto de agua (extremadamente común) y los problemas de movilidad (deterioro en banquetas, ausencia de cruces seguros, incertidumbre en cuanto al futuro de la ciclovía y carencia de alternativas para la movilidad no motorizada). Estos aspectos convierten a la zona en un lugar poco atractivo en aras del tan deseado repoblamiento, le restan competitividad en relación a otros sectores y la alejan del precepto de los 15 minutos acuñado por Moreno.</p>
-
-<p>Sin embargo, es importante visualizar que existen estrategias factibles de solución a estos problemas. En el pasado, el Centro Histórico de Torreón ha vivido procesos, muchas veces impulsados por colectivos ciudadanos y vinculados a la gestión pública local, gracias a los cuales se ha logrado intervenir y mejorar distintos aspectos de la zona. Algunas calles importantes, espacios públicos y edificios históricos lo atestiguan. Es cierto que estos esfuerzos aparecen de manera aislada e inconexa, pero sientan precedentes y nos muestran una vía en la cual es posible sortear obstáculos.</p>
-
-<p>El Objetivo #11 de Desarrollo Sostenible de la ONU plantea que debemos “lograr que las ciudades sean más inclusivas, seguras, resilientes y sostenibles” y define de forma clara las metas que debemos alcanzar en los siguientes años en cuestión de vivienda, transporte, urbanización, acceso a espacios públicos, protección del patrimonio cultural, entre otras (ONU, 2015). Los mecanismos para llegar a estas metas implican una coordinación efectiva entre distintos actores públicos y privados, que junto con la participación y exigencia ciudadana nos acerca a la puesta en práctica del concepto de gobernanza. Este nivel de organización, desde lo local, puede contribuir a que logremos tener comunidades en las que podamos satisfacer nuestras necesidades más importantes en un entorno cercano y seguro. En el centro de la ciudad tenemos bosquejos, debemos seguir diseñando.</p>
-
-<h3>Referencias:</h3>
-
-<ul>
-<li><p>Moreno, C; Allam, Z; Chabaud, D; Gall, C; Pratlong, F. (2021). Introducing the “15-Minute City”: Sustainability, Resilience and Place Identity in Future Post-Pandemic Cities. Sorbonne Business School. Paris.</p></li>
-<li><p>Garcia Vega, M.A. (2021). La Ciudad de los 15 Minutos. 2021, de Ethic Sitio web: <a href="https://ethic.es/2021/10/la-ciudad-de-los-15-minutos/">https://ethic.es/2021/10/la-ciudad-de-los-15-minutos/</a></p></li>
-<li><p>Avila, M. (2017). ‘Reprueba’ ONU-Hábitat a Torreón por crecimiento urbano desmedido. 2017, de GREM Sitio web: <a href="http://www.noticierosgrem.com.mx/reprueba-onu-habitat-torreon-crecimiento-urbano-desmedido/">http://www.noticierosgrem.com.mx/reprueba-onu-habitat-torreon-crecimiento-urbano-desmedido/</a></p></li>
-<li><p>UN HABITAT. (2017). Los usos mixtos del suelo y sus beneficios. 2017, de ONU HABITAT Sitio web: <a href="https://onuhabitat.org.mx/index.php/los-usos-mixtos-del-suelo-y-sus-beneficios">https://onuhabitat.org.mx/index.php/los-usos-mixtos-del-suelo-y-sus-beneficios</a></p></li>
-<li><p>Miramontes, J. (2018). Los Centros Históricos de la Zona Metropolitana. 2018, de IMPLAN Torreón Sitio web: <a href="http://www.trcimplan.gob.mx/blog/los-centros-historicos-de-la-zona-metropolitana.html">http://www.trcimplan.gob.mx/blog/los-centros-historicos-de-la-zona-metropolitana.html</a></p></li>
-<li><p>Ramírez, J.A.. (2019). El Suelo Mixto como Política de Desarrollo Sostenible.. 2019, de IMPLAN Torreón Sitio web: <a href="http://www.trcimplan.gob.mx/blog/suelo-mixto-como-politica-de-desarrollo-sostenible-nov2019.html">http://www.trcimplan.gob.mx/blog/suelo-mixto-como-politica-de-desarrollo-sostenible-nov2019.html</a></p></li>
 </ul>
 ]]></description>
     </item>

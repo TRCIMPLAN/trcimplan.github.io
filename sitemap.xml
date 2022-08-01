@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-07-22</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1033,6 +1033,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2.html</loc>
     <lastmod>2015-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/inventario-nacional-de-vivienda-2020-jul-2022.html</loc>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
