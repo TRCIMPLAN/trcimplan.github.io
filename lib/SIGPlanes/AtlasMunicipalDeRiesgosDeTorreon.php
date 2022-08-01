@@ -37,7 +37,7 @@ class AtlasMunicipalDeRiesgosDeTorreon extends \Base\Publicacion {
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'El Atlas Municipal de Riesgos de Torreón contiene diagnóstico, susceptibilidades, peligros, vulnerabilidades, riesgos e índices de exposición, así como las medidas de mitigación. Es la base para la planeación de un territorio resiliente. - PDF 184 MB.';
+        $this->descripcion               = 'El Atlas Municipal de Riesgos de Torreón contiene diagnóstico, susceptibilidades, peligros, vulnerabilidades, riesgos e índices de exposición, así como las medidas de mitigación. </br>Es la base para la planeación de un territorio resiliente. - PDF 184 MB.';
         $this->claves                    = 'IMPLAN, Torreon, Atlas, Atlas de riesgos, riesgos, Municipio';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Infraestructura', 'Población');

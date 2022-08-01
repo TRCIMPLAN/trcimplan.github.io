@@ -37,7 +37,7 @@ class PlanIntegralMovilidadUrbanaSustentableLaLaguna extends \Base\Publicacion {
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Conjunto de acciones para implementar las distintas formas de transporte sustentable: a pie, bicicleta y transporte público. - PDF 33.7 MB';
+        $this->descripcion               = 'Conjunto de acciones para implementar las distintas formas de transporte sustentable: a pie, bicicleta y transporte público.</br> - PDF 33.7 MB </br></br></br>';
         $this->claves                    = 'IMPLAN, Torreón, Plan, Movilidad, Urbana, Sustentable, La Laguna';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Movilidad');
