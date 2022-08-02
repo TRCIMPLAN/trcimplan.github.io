@@ -1,42 +1,42 @@
 
-##JUNIO 2022
+##JULIO 2022
 
 ##DELITOS
 
-|INDICADOR                               |DATO       |NIVEL         |FECHA      |
-|----------------------------------------|-----------|--------------|-----------|
-|Delitos del fuero común                  |7,453      |ZML SESNSP    |junio 2022 |
-|Delitos del fuero común                  |2,807      |Torreón SESNSP|junio 2022 |
-|Robo a casa habitación                   |438        |ZML SESNSP    |junio 2022 |
-|Robo a negocio                           |286        |ZML SESNSP    |junio 2022 |
-|Robo de vehículo                         |99         |ZML SESNSP    |junio 2022 |
-|Robo de transeúnte en vía pública        |80         |ZML SESNSP    |junio 2022 |
-|Robo de autopartes                       |27         |ZML SESNSP    |junio 2022 |
-|Violencia familiar                       |1,306      |ZML SESNSP    |junio 2022 |
-|Violencia familiar                       |790        |Torreón SESNSP|junio 2022 |
-|Lesiones                                 |662        |ZML SESNSP    |junio 2022 |
-|Lesiones                                 |260        |Torreón SESNSP|junio 2022 |
-|Daño a la propiedad                      |665        |ZML SESNSP    |junio 2022 |
-|Daño a la propiedad                      |393        |Torreón SESNSP|junio 2022 |
-|Narcomenudeo                             |1,032      |ZML SESNSP    |junio 2022 |
-|Narcomenudeo                             |578        |Torreón SESNSP|junio 2022 |
-|Amenazas                                 |909        |ZML SESNSP    |junio 2022 |
-|Amenazas                                 |645        |Torreón SESNSP|junio 2022 |
+|INDICADOR                               |DATO       |NIVEL         |FECHA            |
+|----------------------------------------|-----------|--------------|-----------------|
+|Delitos del fuero común                 |14,852     |ZML           |SESNSP Julio 2022|
+|Delitos del fuero común                 |8,409      |Torreón       |SESNSP Julio 2022|
+|Robo a casa habitación                  |827        |ZML           |SESNSP Julio 2022|
+|Robo a negocio                          |531        |ZML           |SESNSP Julio 2022|
+|Robo de vehículo                        |191        |ZML           |SESNSP Julio 2022|
+|Robo de transeúnte en vía pública       |173        |ZML           |SESNSP Julio 2022|
+|Robo de autopartes                      |51         |ZML           |SESNSP Julio 2022|
+|Violencia familiar                      |2,985      |ZML           |SESNSP Julio 2022|
+|Violencia familiar                      |1,829      |Torreón       |SESNSP Julio 2022|
+|Lesiones                                |1,443      |ZML           |SESNSP Julio 2022|
+|Lesiones                                |648        |Torreón       |SESNSP Julio 2022|
+|Daño a la propiedad                     |1,312      |ZML           |SESNSP Julio 2022|
+|Daño a la propiedad                     |895        |Torreón       |SESNSP Julio 2022|
+|Narcomenudeo                            |1,884      |ZML           |SESNSP Julio 2022|
+|Narcomenudeo                            |1,220      |Torreón       |SESNSP Julio 2022|
+|Amenazas                                |1,824      |ZML           |SESNSP Julio 2022|
+|Amenazas                                |1,404      |Torreón       |SESNSP Julio 2022|
 
 ##PERCEPCIÓN DE INSEGURIDAD
 
-|INDICADOR                                                                                          |DATO   |NIVEL     |FECHA      |
-|---------------------------------------------------------------------------------------------------|-------|----------|-----------|
-|Porcentaje de población que consideran el desempeño gubernamental muy o algo efectivo en la zml     |34.80% | ZML ENSU |abril 2022 |
-|Porcentaje de población con sensación de inseguridad por temor a delito (percepción).               |49.20% | ZML ENSU |abril 2022 |
+|INDICADOR                                                                                          |DATO   |NIVEL      |FECHA          |
+|---------------------------------------------------------------------------------------------------|-------|-----------|---------------|
+|Porcentaje de población que consideran el desempeño gubernamental muy o algo efectivo en la ZML    |32.20% | ZML       |ENSU Junio 2022|
+|Porcentaje de población con sensación de inseguridad por temor a delito (percepción).              |44.50% | ZML       |ENSU Junio 2022|
 
 ##DELITOS SEXUALES
 
-|INDICADOR      |DATO   |NIVEL          |FECHA      |
-|:--------------:|-------|---------------|-----------|
-|Abuso sexual   | 77    |ZML SESNSP     |junio 2022 |
-|Abuso sexual   | 44    |Torreón SESNSP |junio 2022 |
-|Acoso sexual   | 36    |Torreón SESNSP |junio 2022 |
+|INDICADOR       |DATO   |NIVEL          |FECHA            |
+|:--------------:|-------|---------------|-----------------|
+|Abuso sexual    |207    |ZML            |SESNSP Julio 2022|
+|Abuso sexual    |117    |Torreón        |SESNSP Julio 2022|
+|Acoso sexual    |76     |Torreón        |SESNSP Julio 2022|
 
 
 ##Observaciones:
@@ -62,6 +62,7 @@ Informe:
 [- Marzo 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-mar-2022.pdf)
 [- Abril 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-abr-2022.pdf)
 [- Mayo 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-may-2022.pdf)
+[- Junio 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-jun-2022.pdf)
 </br>
 
 <b> AÑO 2021 </b>
