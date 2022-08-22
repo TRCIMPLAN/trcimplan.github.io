@@ -51,10 +51,12 @@ class MapaInferiorConfig {
     //~ $a[] = '        </div>'; // col-md-8
     //~ $a[] = '        <div class="col-md-4">';
         $a[] = '          <div class="pull-right redes-sociales">';
+
         $a[] = '            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>';
         $a[] = '            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>';
         //$a[] = '            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>';
         $a[] = '            <a class="fa fa-facebook-square" href="http://www.instagram.com/implantorreon" target="_blank"></a>';
+
         //$a[] = '            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>';
         if ($this->en_raiz) {
             $a[] = '            <a class="fa fa-rss-square" href="rss.xml"></a>';
