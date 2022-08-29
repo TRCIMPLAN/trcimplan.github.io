@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-08-22</lastmod>
+    <lastmod>2022-08-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1343,6 +1343,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/laguna-y2040-una-oportunidad-de-liderazgo-para-los-jovenes.html</loc>
     <lastmod>2018-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/las-ciudades-tambien-se-planean-para-la-noche-agosto-2022.html</loc>
+    <lastmod>2022-08-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
