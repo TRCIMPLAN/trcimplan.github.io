@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-09-06</lastmod>
+    <lastmod>2022-09-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -23,6 +23,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/agua-recurso-indispensable-para-el-desarrollo-de-la-zml.html</loc>
     <lastmod>2017-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/alfabetizacion-factor-de-dignidad-sep-2022.html</loc>
+    <lastmod>2022-09-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
