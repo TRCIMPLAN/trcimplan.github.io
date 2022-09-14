@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -249,47 +249,53 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">54.4100</td>
+        <td>54.4100</td>
         <td>IMCO</td>
         <td>En 2016 la unidad es "Personas por hectárea"</td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>51</td>
+        <td>INEGI</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Densidad Poblacional en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Densidad Poblacional en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasDensidadPoblacionalEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasDensidadPoblacionalEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Densidad Poblacional en La Laguna</h3>
@@ -308,37 +314,37 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">6,401.3953</td>
+        <td>6401.3953</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">54.4100</td>
-        <td>IMCO</td>
-        <td>En 2016 la unidad es "Personas por hectárea"</td>
+        <td class="centrado">2021-12-31</td>
+        <td>51</td>
+        <td>INEGI</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -443,11 +449,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasDensidadPoblacionalEnLaLaguna === 'undefined') {
-    varSmiGraficasDensidadPoblacionalEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasDensidadPoblacionalEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasDensidadPoblacionalEnLaLagunaImco === 'undefined') {
+    varSmiGraficasDensidadPoblacionalEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasDensidadPoblacionalEnLaLagunaImco',
       data: [
         { fecha: '2008-12-31', dato: 6401.3953 },
         { fecha: '2009-12-31', dato: 6401.3953 },
@@ -469,7 +475,7 @@
   if (typeof varSmiOtrasRegionesDensidadPoblacionalEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDensidadPoblacionalEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDensidadPoblacionalEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 6401.3953 },{ region: 'Gómez Palacio', dato: 6401.3953 },{ region: 'Lerdo', dato: 6401.3953 },{ region: 'Matamoros', dato: 6401.3953 },{ region: 'La Laguna', dato: 54.4100 }],
+      data: [{ region: 'Torreón', dato: 6401.3953 },{ region: 'Gómez Palacio', dato: 6401.3953 },{ region: 'Lerdo', dato: 6401.3953 },{ region: 'Matamoros', dato: 6401.3953 },{ region: 'La Laguna', dato: 51 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

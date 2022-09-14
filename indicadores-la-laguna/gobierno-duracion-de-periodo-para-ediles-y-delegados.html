@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -249,41 +249,47 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">3.5000</td>
+        <td>3.5000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">3.5000</td>
+        <td>3.5000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">3.5000</td>
+        <td>3.5000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">3.5000</td>
+        <td>3.5000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">3.5000</td>
+        <td>3.5000</td>
         <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>50</td>
+        <td>INEGI</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Duración de Período para Ediles y Delegados en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Duración de Período para Ediles y Delegados en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasDuracionDePeriodoParaEdilesYDelegadosEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasDuracionDePeriodoParaEdilesYDelegadosEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Duración de Período para Ediles y Delegados en La Laguna</h3>
@@ -302,36 +308,36 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">4.0000</td>
+        <td>4.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">3.0000</td>
+        <td>3.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">3.0000</td>
+        <td>3.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">4.0000</td>
+        <td>4.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-12-31</td>
-        <td class="derecha">3.5000</td>
-        <td>IMCO</td>
+        <td class="centrado">2017-12-31</td>
+        <td>50</td>
+        <td>INEGI</td>
         <td></td>
       </tr>
     </tbody>
@@ -437,11 +443,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasDuracionDePeriodoParaEdilesYDelegadosEnLaLaguna === 'undefined') {
-    varSmiGraficasDuracionDePeriodoParaEdilesYDelegadosEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasDuracionDePeriodoParaEdilesYDelegadosEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasDuracionDePeriodoParaEdilesYDelegadosEnLaLagunaImco === 'undefined') {
+    varSmiGraficasDuracionDePeriodoParaEdilesYDelegadosEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasDuracionDePeriodoParaEdilesYDelegadosEnLaLagunaImco',
       data: [
         { fecha: '2008-12-31', dato: 3.5000 },
         { fecha: '2009-12-31', dato: 3.5000 },
@@ -462,7 +468,7 @@
   if (typeof varSmiOtrasRegionesDuracionDePeriodoParaEdilesYDelegadosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDuracionDePeriodoParaEdilesYDelegadosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDuracionDePeriodoParaEdilesYDelegadosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 4.0000 },{ region: 'Gómez Palacio', dato: 3.0000 },{ region: 'Lerdo', dato: 3.0000 },{ region: 'Matamoros', dato: 4.0000 },{ region: 'La Laguna', dato: 3.5000 }],
+      data: [{ region: 'Torreón', dato: 4.0000 },{ region: 'Gómez Palacio', dato: 3.0000 },{ region: 'Lerdo', dato: 3.0000 },{ region: 'Matamoros', dato: 4.0000 },{ region: 'La Laguna', dato: 50 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -43,7 +43,7 @@ class SustentabilidadUsoDeBicicleta extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente, Movilidad, Vialidad';
         // Para el Organizador
         $this->categorias  = array('Medio Ambiente', 'Movilidad', 'Vialidad');
-        $this->fuentes     = array('Logit');
+        $this->fuentes     = array('Logit', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,8 @@ class SustentabilidadUsoDeBicicleta extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2011-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'Logit')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2011-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'Logit'),
+            array('fecha' => '2020-12-31', 'valor' => '6.8400', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**

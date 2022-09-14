@@ -55,7 +55,7 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \SMIBase\Publica
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -71,7 +71,16 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \SMIBase\Publica
             array('fecha' => '2009-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2013-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2014-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '-2', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '-1', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '-1', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '5', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 28, crudo 14
     } // datos
 
     /**
@@ -83,7 +92,7 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \SMIBase\Publica
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -99,7 +108,7 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \SMIBase\Publica
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '4.8200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '-10.6700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '-1.2200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '-1.5500', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

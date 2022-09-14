@@ -249,57 +249,63 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">7.1100 %</td>
+        <td>7.1100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">30.8600 %</td>
+        <td>30.8600</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">18.7000 %</td>
+        <td>18.7000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">26.7700 %</td>
+        <td>26.7700</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">26.7500 %</td>
+        <td>26.7500</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">27.0400 %</td>
+        <td>27.0400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">64.3000 %</td>
+        <td>64.3000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2017-12-31</td>
-        <td class="derecha">6.3800 %</td>
+        <td>6.3800</td>
         <td>IMCO</td>
         <td>Porcentaje del PIB en sectores que crecen a una tasa de crecimiento superior al promedio nacional (INEGI (Censo Económico))</td>
       </tr>
       <tr>
         <td class="centrado">2018-12-31</td>
-        <td class="derecha">5.5800 %</td>
+        <td>5.5800</td>
         <td>IMCO</td>
         <td>Porcentaje del PIB en sectores que crecen a una tasa de crecimiento superior al promedio nacional (INEGI (Censo Económico))</td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>22</td>
+        <td>IMCO</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -353,10 +359,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td>5.5800</td>
+        <td class="centrado">2021-12-31</td>
+        <td>22</td>
         <td>IMCO</td>
-        <td>Porcentaje del PIB en sectores que crecen a una tasa de crecimiento superior al promedio nacional (INEGI (Censo Económico))</td>
+        <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
@@ -477,7 +483,8 @@
         { fecha: '2012-12-31', dato: 27.0400 },
         { fecha: '2016-12-31', dato: 64.3000 },
         { fecha: '2017-12-31', dato: 6.3800 },
-        { fecha: '2018-12-31', dato: 5.5800 }],
+        { fecha: '2018-12-31', dato: 5.5800 },
+        { fecha: '2021-12-31', dato: 22 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -492,7 +499,7 @@
   if (typeof varSmiOtrasRegionesSectoresQueHanPresentadoAltoCrecimientoEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesSectoresQueHanPresentadoAltoCrecimientoEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesSectoresQueHanPresentadoAltoCrecimientoEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 139894042.00 },{ region: 'Gómez Palacio', dato: 21527736.00 },{ region: 'Lerdo', dato: 2395472.00 },{ region: 'Matamoros', dato: 3034970.00 },{ region: 'La Laguna', dato: 5.5800 },{ region: 'Nacional', dato: 26.4400 }],
+      data: [{ region: 'Torreón', dato: 139894042.00 },{ region: 'Gómez Palacio', dato: 21527736.00 },{ region: 'Lerdo', dato: 2395472.00 },{ region: 'Matamoros', dato: 3034970.00 },{ region: 'La Laguna', dato: 22 },{ region: 'Nacional', dato: 26.4400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

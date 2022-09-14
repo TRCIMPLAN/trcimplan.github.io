@@ -95,7 +95,7 @@ class SociedadAguaSurtidaPorPipas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.2800', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0.3200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '0.1300', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de hogares (MCS)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '0.0600', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

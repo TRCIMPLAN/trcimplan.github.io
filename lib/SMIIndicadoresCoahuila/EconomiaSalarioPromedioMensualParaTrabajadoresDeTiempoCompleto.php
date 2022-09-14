@@ -103,7 +103,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \SM
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-03-31', 'valor' => '6254.41', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2017-03-31', 'valor' => '6603.44', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2017-03-31', 'valor' => '4705.54', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-09-30', 'valor' => '8823.8800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '7612', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2017-03-31', 'valor' => '7225.63', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Durango', 'fecha' => '2017-03-31', 'valor' => '6217.26', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Nacional', 'fecha' => '2017-03-31', 'valor' => '6543.52', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'));

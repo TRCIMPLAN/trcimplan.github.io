@@ -96,7 +96,7 @@ class SociedadCarenciaPorAccesoALaSeguridadSocial extends \SMIBase\PublicacionWe
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '32.8000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '44.4000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '37.2000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '34.5900', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '41.2400', 'fuente_nombre' => 'CONEVAL'));
     } // otras_regiones
 
     /**

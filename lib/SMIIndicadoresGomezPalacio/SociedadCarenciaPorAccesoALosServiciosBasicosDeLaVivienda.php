@@ -95,7 +95,7 @@ class SociedadCarenciaPorAccesoALosServiciosBasicosDeLaVivienda extends \SMIBase
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '8.0000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '6.3000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '9.0000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '4.6500', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '4.4700', 'fuente_nombre' => 'CONEVAL'));
     } // otras_regiones
 
     /**

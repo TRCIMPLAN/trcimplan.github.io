@@ -95,7 +95,7 @@ class SociedadCarenciaPorAccesoALosServiciosDeSalud extends \SMIBase\Publicacion
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '16.3000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '15.0000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '17.6000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '18.0800', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '24.3500', 'fuente_nombre' => 'CONEVAL'));
     } // otras_regiones
 
     /**

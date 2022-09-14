@@ -55,7 +55,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -73,7 +73,8 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '34.9078', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2019-09-30', 'valor' => '46.9200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2019-12-31', 'valor' => '47.1100', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2020-03-31', 'valor' => '48.2200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 14, crudo 7
+            array('fecha' => '2020-03-31', 'valor' => '48.2200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2022-08-22', 'valor' => '173075', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 16, crudo 8
     } // datos
 
     /**
@@ -85,7 +86,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -101,7 +102,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2013-12-31', 'valor' => '28.5100', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2013-12-31', 'valor' => '20.3095', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2013-12-31', 'valor' => '24.1582', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2020-03-31', 'valor' => '48.2200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-08-22', 'valor' => '173075', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2013-12-31', 'valor' => '28.6520', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2013-12-31', 'valor' => '28.1982', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2013-12-31', 'valor' => '36.4504', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));

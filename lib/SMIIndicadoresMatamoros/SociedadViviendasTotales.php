@@ -96,7 +96,7 @@ class SociedadViviendasTotales extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '103222', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '41234', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '34281', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '373428', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '654799', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

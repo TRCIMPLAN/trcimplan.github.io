@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -295,13 +295,19 @@
         <td>IMCO</td>
         <td>Porcentaje de los hogares (INEGI (MCS))</td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">91.9600 %</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Viviendas con Líneas Telefónicas Móviles en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Viviendas con Líneas Telefónicas Móviles en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasViviendasConLineasTelefonicasMovilesEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasViviendasConLineasTelefonicasMovilesEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Viviendas con Líneas Telefónicas Móviles en La Laguna</h3>
@@ -347,10 +353,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td>88.6100</td>
-        <td>IMCO</td>
-        <td>Porcentaje de los hogares (INEGI (MCS))</td>
+        <td class="centrado">2020-12-31</td>
+        <td>91.9600</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -459,11 +465,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasViviendasConLineasTelefonicasMovilesEnLaLaguna === 'undefined') {
-    varSmiGraficasViviendasConLineasTelefonicasMovilesEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasViviendasConLineasTelefonicasMovilesEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasConLineasTelefonicasMovilesEnLaLagunaImco === 'undefined') {
+    varSmiGraficasViviendasConLineasTelefonicasMovilesEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasViviendasConLineasTelefonicasMovilesEnLaLagunaImco',
       data: [
         { fecha: '2008-12-31', dato: 53.7900 },
         { fecha: '2009-12-31', dato: 60.6000 },
@@ -487,7 +493,7 @@
   if (typeof varSmiOtrasRegionesViviendasConLineasTelefonicasMovilesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesViviendasConLineasTelefonicasMovilesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesViviendasConLineasTelefonicasMovilesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 165314 },{ region: 'Gómez Palacio', dato: 90746 },{ region: 'Lerdo', dato: 35794 },{ region: 'Matamoros', dato: 28362 },{ region: 'La Laguna', dato: 88.6100 }],
+      data: [{ region: 'Torreón', dato: 165314 },{ region: 'Gómez Palacio', dato: 90746 },{ region: 'Lerdo', dato: 35794 },{ region: 'Matamoros', dato: 28362 },{ region: 'La Laguna', dato: 91.9600 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

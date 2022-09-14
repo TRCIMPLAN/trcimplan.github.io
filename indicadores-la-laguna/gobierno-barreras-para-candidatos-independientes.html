@@ -265,6 +265,24 @@
         <td>IMCO</td>
         <td>Porcentaje de la lista nominal (Legislación estatal)</td>
       </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">1.3162 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">1.3167 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">1.3173 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -317,10 +335,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">1.3200 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">1.3173 %</td>
         <td>IMCO</td>
-        <td>Porcentaje de la lista nominal (Legislación estatal)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -430,7 +448,10 @@
       data: [
         { fecha: '2016-12-31', dato: 6.0000 },
         { fecha: '2017-12-31', dato: 1.3200 },
-        { fecha: '2018-12-31', dato: 1.3200 }],
+        { fecha: '2018-12-31', dato: 1.3200 },
+        { fecha: '2019-12-31', dato: 1.3162 },
+        { fecha: '2020-12-31', dato: 1.3167 },
+        { fecha: '2021-12-31', dato: 1.3173 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -445,7 +466,7 @@
   if (typeof varSmiOtrasRegionesBarrerasParaCandidatosIndependientesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesBarrerasParaCandidatosIndependientesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesBarrerasParaCandidatosIndependientesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 8.5000 },{ region: 'Gómez Palacio', dato: 3.0000 },{ region: 'Lerdo', dato: 3.0000 },{ region: 'Matamoros', dato: 8.5000 },{ region: 'La Laguna', dato: 1.3200 }],
+      data: [{ region: 'Torreón', dato: 8.5000 },{ region: 'Gómez Palacio', dato: 3.0000 },{ region: 'Lerdo', dato: 3.0000 },{ region: 'Matamoros', dato: 8.5000 },{ region: 'La Laguna', dato: 1.3173 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

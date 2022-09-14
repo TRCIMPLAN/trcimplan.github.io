@@ -55,7 +55,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -74,7 +74,8 @@ class EconomiaTamanoDelMercadoHipotecario extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '9.7623', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '19.4200', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '22.7100', 'fuente_nombre' => 'IMCO', 'notas' => 'Créditos por cada mil adultos (CNBV)'),
-            array('fecha' => '2018-12-31', 'valor' => '22.5300', 'fuente_nombre' => 'IMCO', 'notas' => 'Créditos por cada mil adultos (CNBV)')); // formateado 0, valor 16, crudo 10
+            array('fecha' => '2018-12-31', 'valor' => '22.5300', 'fuente_nombre' => 'IMCO', 'notas' => 'Créditos por cada mil adultos (CNBV)'),
+            array('fecha' => '2021-12-31', 'valor' => '20', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 11
     } // datos
 
     /**
@@ -102,7 +103,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '5943', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Contratos de crédito hipotecarios'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '3102', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Contratos de crédito hipotecarios'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '1099', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Contratos de crédito hipotecarios'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '22.5300', 'fuente_nombre' => 'IMCO', 'notas' => 'Créditos por cada mil adultos (CNBV)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '20', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

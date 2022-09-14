@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -283,13 +283,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">90.6900 %</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Viviendas con Drenaje (sólo conexión a red pública) en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Viviendas con Drenaje (sólo conexión a red pública) en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasViviendasConDrenajeSoloConexionARedPublicaEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasViviendasConDrenajeSoloConexionARedPublicaEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Viviendas con Drenaje (sólo conexión a red pública) en La Laguna</h3>
@@ -335,9 +341,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>86.0000</td>
-        <td>IMCO</td>
+        <td class="centrado">2020-12-31</td>
+        <td>90.6900</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
         <td></td>
       </tr>
     </tbody>
@@ -447,11 +453,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasViviendasConDrenajeSoloConexionARedPublicaEnLaLaguna === 'undefined') {
-    varSmiGraficasViviendasConDrenajeSoloConexionARedPublicaEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasViviendasConDrenajeSoloConexionARedPublicaEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasConDrenajeSoloConexionARedPublicaEnLaLagunaImco === 'undefined') {
+    varSmiGraficasViviendasConDrenajeSoloConexionARedPublicaEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasViviendasConDrenajeSoloConexionARedPublicaEnLaLagunaImco',
       data: [
         { fecha: '2008-12-31', dato: 84.0800 },
         { fecha: '2009-12-31', dato: 83.0500 },
@@ -473,7 +479,7 @@
   if (typeof varSmiOtrasRegionesViviendasConDrenajeSoloConexionARedPublicaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesViviendasConDrenajeSoloConexionARedPublicaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesViviendasConDrenajeSoloConexionARedPublicaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 191451 },{ region: 'Gómez Palacio', dato: 74367 },{ region: 'Lerdo', dato: 35001 },{ region: 'Matamoros', dato: 20667 },{ region: 'La Laguna', dato: 86.0000 }],
+      data: [{ region: 'Torreón', dato: 191451 },{ region: 'Gómez Palacio', dato: 74367 },{ region: 'Lerdo', dato: 35001 },{ region: 'Matamoros', dato: 20667 },{ region: 'La Laguna', dato: 90.6900 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

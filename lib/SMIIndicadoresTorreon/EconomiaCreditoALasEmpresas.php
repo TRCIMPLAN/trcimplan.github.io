@@ -84,7 +84,7 @@ class EconomiaCreditoALasEmpresas extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -100,7 +100,7 @@ class EconomiaCreditoALasEmpresas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '12699918.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "Miles de pesos"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '12699918.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "Miles de pesos"'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '37857566.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "Miles de pesos"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '211.04', 'fuente_nombre' => 'IMCO', 'notas' => 'Pesos por cada mil pesos de actividad económica (CNBV)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '131', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

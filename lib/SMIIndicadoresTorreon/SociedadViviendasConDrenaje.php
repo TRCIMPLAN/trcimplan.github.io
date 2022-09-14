@@ -96,7 +96,7 @@ class SociedadViviendasConDrenaje extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '95.9500', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '95.7700', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '94.0700', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2010-12-31', 'valor' => '96.2600', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '98.9200', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

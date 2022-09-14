@@ -100,7 +100,7 @@ class EconomiaDiversificacionEconomica extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '721', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '721', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '721', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '727', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de sectores económicos presentes (INEGI (DENUE))'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '0.4070', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

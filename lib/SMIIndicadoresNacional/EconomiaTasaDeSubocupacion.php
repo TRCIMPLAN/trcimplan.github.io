@@ -74,7 +74,8 @@ class EconomiaTasaDeSubocupacion extends \SMIBase\PublicacionWeb {
             array('fecha' => '2021-03-31', 'valor' => '13.8200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2021-06-30', 'valor' => '13.2700', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2021-12-31', 'valor' => '10.6100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2021-12-31', 'valor' => '10.6100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 16, crudo 8
+            array('fecha' => '2021-12-31', 'valor' => '10.6100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2021-12-31', 'valor' => '10.6100', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 18, crudo 9
     } // datos
 
     /**

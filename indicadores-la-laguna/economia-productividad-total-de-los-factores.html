@@ -265,6 +265,12 @@
         <td>IMCO</td>
         <td>Crecimiento anual de la productividad total de los factores (usando parámetros del modelo KLEMS) (IMCO, INEGI)</td>
       </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>-3</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -317,10 +323,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td>-0.8100</td>
+        <td class="centrado">2021-12-31</td>
+        <td>-3</td>
         <td>IMCO</td>
-        <td>Crecimiento anual de la productividad total de los factores (usando parámetros del modelo KLEMS) (IMCO, INEGI)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -426,7 +432,8 @@
       data: [
         { fecha: '2016-12-31', dato: -12.3000 },
         { fecha: '2017-12-31', dato: 0.1200 },
-        { fecha: '2018-12-31', dato: -0.8100 }],
+        { fecha: '2018-12-31', dato: -0.8100 },
+        { fecha: '2021-12-31', dato: -3 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -441,7 +448,7 @@
   if (typeof varSmiOtrasRegionesProductividadTotalDeLosFactoresEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesProductividadTotalDeLosFactoresEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesProductividadTotalDeLosFactoresEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: -13.2300 },{ region: 'Gómez Palacio', dato: -11.8800 },{ region: 'Lerdo', dato: -8.9900 },{ region: 'Matamoros', dato: -11.9700 },{ region: 'La Laguna', dato: -0.8100 }],
+      data: [{ region: 'Torreón', dato: -13.2300 },{ region: 'Gómez Palacio', dato: -11.8800 },{ region: 'Lerdo', dato: -8.9900 },{ region: 'Matamoros', dato: -11.9700 },{ region: 'La Laguna', dato: -3 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

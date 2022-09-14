@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -259,13 +259,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">41.2400 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Carencia por acceso a la seguridad social en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Carencia por acceso a la seguridad social en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasCarenciaPorAccesoALaSeguridadSocialEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasCarenciaPorAccesoALaSeguridadSocialEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Carencia por acceso a la seguridad social en La Laguna</h3>
@@ -311,9 +317,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2015-12-31</td>
-        <td class="derecha">34.5900 %</td>
-        <td>IMCO</td>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">41.2400 %</td>
+        <td>CONEVAL</td>
         <td></td>
       </tr>
     </tbody>
@@ -419,11 +425,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasCarenciaPorAccesoALaSeguridadSocialEnLaLaguna === 'undefined') {
-    varSmiGraficasCarenciaPorAccesoALaSeguridadSocialEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasCarenciaPorAccesoALaSeguridadSocialEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasCarenciaPorAccesoALaSeguridadSocialEnLaLagunaImco === 'undefined') {
+    varSmiGraficasCarenciaPorAccesoALaSeguridadSocialEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasCarenciaPorAccesoALaSeguridadSocialEnLaLagunaImco',
       data: [
         { fecha: '2010-12-31', dato: 36.9000 },
         { fecha: '2015-12-31', dato: 34.5900 }],
@@ -441,7 +447,7 @@
   if (typeof varSmiOtrasRegionesCarenciaPorAccesoALaSeguridadSocialEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesCarenciaPorAccesoALaSeguridadSocialEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCarenciaPorAccesoALaSeguridadSocialEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 33.6000 },{ region: 'Gómez Palacio', dato: 32.8000 },{ region: 'Lerdo', dato: 44.4000 },{ region: 'Matamoros', dato: 37.2000 },{ region: 'La Laguna', dato: 34.5900 }],
+      data: [{ region: 'Torreón', dato: 33.6000 },{ region: 'Gómez Palacio', dato: 32.8000 },{ region: 'Lerdo', dato: 44.4000 },{ region: 'Matamoros', dato: 37.2000 },{ region: 'La Laguna', dato: 41.2400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

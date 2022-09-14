@@ -100,7 +100,7 @@ class EconomiaCentrosDeInvestigacion extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '1.3000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

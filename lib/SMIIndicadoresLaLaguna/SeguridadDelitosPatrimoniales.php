@@ -126,7 +126,21 @@ class SeguridadDelitosPatrimoniales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2019-09-30', 'valor' => '245', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2019-10-31', 'valor' => '283', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2019-11-30', 'valor' => '251', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2019-12-31', 'valor' => '242', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 120, crudo 60
+            array('fecha' => '2019-12-31', 'valor' => '242', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-01-31', 'valor' => '756', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-01-31', 'valor' => '756', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-02-28', 'valor' => '830', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-02-28', 'valor' => '830', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-03-31', 'valor' => '973', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-03-31', 'valor' => '973', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-04-30', 'valor' => '829', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-04-30', 'valor' => '829', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-05-31', 'valor' => '795', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-05-31', 'valor' => '795', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-06-30', 'valor' => '1091', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-06-30', 'valor' => '1091', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-07-31', 'valor' => '898', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-07-31', 'valor' => '898', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 148, crudo 74
     } // datos
 
     /**
@@ -154,7 +168,7 @@ class SeguridadDelitosPatrimoniales extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-12-31', 'valor' => '62', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2019-12-31', 'valor' => '16', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2019-12-31', 'valor' => '12', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2019-12-31', 'valor' => '242', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-07-31', 'valor' => '898', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2019-11-30', 'valor' => '20', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 

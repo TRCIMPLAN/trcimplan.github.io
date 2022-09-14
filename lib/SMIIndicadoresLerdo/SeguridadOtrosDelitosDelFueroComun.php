@@ -99,10 +99,10 @@ class SeguridadOtrosDelitosDelFueroComun extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2022-05-31', 'valor' => '1', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2022-05-31', 'valor' => '1', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2022-05-31', 'valor' => '57', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2022-03-31', 'valor' => '317', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Durango', 'fecha' => '2022-03-31', 'valor' => '73', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2022-03-31', 'valor' => '16228', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-07-31', 'valor' => '51', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2022-04-30', 'valor' => '317', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Durango', 'fecha' => '2022-04-30', 'valor' => '73', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2022-04-30', 'valor' => '16228', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
     /**

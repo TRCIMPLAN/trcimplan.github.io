@@ -101,7 +101,7 @@ Fuente: INEGI (Censo de Población y Vivienda).';
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '22.7400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '21.4400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '15.0100', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '22.1400', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '15.5500', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

@@ -71,7 +71,8 @@ class EconomiaPoblacionEconomicamenteActivaPea extends \SMIBase\PublicacionWeb {
             array('fecha' => '2020-09-30', 'valor' => '806911', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2021-06-30', 'valor' => '843167', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2021-12-31', 'valor' => '836016', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2021-12-31', 'valor' => '836016', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2021-12-31', 'valor' => '836016', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2021-12-31', 'valor' => '836016', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -99,7 +100,7 @@ class EconomiaPoblacionEconomicamenteActivaPea extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '165171', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '54779', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '81243', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '573798', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '570545', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2021-12-31', 'valor' => '1493537', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Durango', 'fecha' => '2021-12-31', 'valor' => '836016', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Nacional', 'fecha' => '2021-12-31', 'valor' => '58761793', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));

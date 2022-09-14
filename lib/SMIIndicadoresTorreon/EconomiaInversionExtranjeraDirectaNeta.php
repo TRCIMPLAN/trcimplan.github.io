@@ -100,7 +100,7 @@ class EconomiaInversionExtranjeraDirectaNeta extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '186.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '186.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '1420.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '2523.57', 'fuente_nombre' => 'IMCO', 'notas' => 'Millones de dólares ponderados por PIB (Secretaría de Economía)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '409.67', 'fuente_nombre' => 'IMCO', 'notas' => 'Millones de dólares ponderados por PIB'));
     } // otras_regiones
 
     /**

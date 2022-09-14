@@ -166,10 +166,10 @@ class SeguridadRoboDeAutomoviles extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-12-31', 'valor' => '32', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2019-12-31', 'valor' => '5', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2019-12-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2022-03-31', 'valor' => '97', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2022-03-31', 'valor' => '35', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Durango', 'fecha' => '2022-03-31', 'valor' => '101', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2022-03-31', 'valor' => '11679', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-04-30', 'valor' => '97', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2022-04-30', 'valor' => '35', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Durango', 'fecha' => '2022-04-30', 'valor' => '101', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2022-04-30', 'valor' => '11679', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
     /**

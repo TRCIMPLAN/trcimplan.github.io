@@ -74,7 +74,10 @@ class EconomiaCiudadFronterizaOPortuaria extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO', 'notas' => 'Variable categórica (0=ninguna, 1=puerto, 2=frontera) (IMCO)'),
-            array('fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO', 'notas' => 'Variable categórica (0=ninguna, 1=puerto, 2=frontera) (IMCO)')); // formateado 2, valor 14, crudo 10
+            array('fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO', 'notas' => 'Variable categórica (0=ninguna, 1=puerto, 2=frontera) (IMCO)'),
+            array('fecha' => '2019-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO')); // formateado 2, valor 20, crudo 13
     } // datos
 
     /**
@@ -102,7 +105,7 @@ class EconomiaCiudadFronterizaOPortuaria extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => 'ND', 'fuente_nombre' => 'IMCO', 'notas' => 'Variable categórica (0=ninguna, 1=puerto, 2=frontera) (IMCO)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '0', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

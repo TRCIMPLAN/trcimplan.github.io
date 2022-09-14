@@ -95,7 +95,7 @@ class SustentabilidadUsuariosDeTransportePublico extends \SMIBase\PublicacionWeb
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '34.9900', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '33.5200', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '31.0800', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '34.9100', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '28.2300', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

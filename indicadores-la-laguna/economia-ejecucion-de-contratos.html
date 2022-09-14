@@ -278,8 +278,62 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2015-12-31</td>
+        <td>735</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2016-12-31</td>
         <td>211</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td>735</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>725</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>729</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>729</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>727</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>727</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>776</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>770</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -335,8 +389,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>211</td>
+        <td class="centrado">2021-12-31</td>
+        <td>770</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -439,6 +493,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosEjecucionDeContratosEnLaLaguna === 'undefined') {
+     $('#SmiDatosEjecucionDeContratosEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosEjecucionDeContratosEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasEjecucionDeContratosEnLaLaguna === 'undefined') {
@@ -450,7 +522,13 @@
         { fecha: '2010-12-31', dato: 264.5000 },
         { fecha: '2011-12-31', dato: 256.5000 },
         { fecha: '2012-12-31', dato: 256.5000 },
-        { fecha: '2016-12-31', dato: 211 }],
+        { fecha: '2015-12-31', dato: 735 },
+        { fecha: '2016-12-31', dato: 735 },
+        { fecha: '2017-12-31', dato: 725 },
+        { fecha: '2018-12-31', dato: 729 },
+        { fecha: '2019-12-31', dato: 727 },
+        { fecha: '2020-12-31', dato: 776 },
+        { fecha: '2021-12-31', dato: 770 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -465,7 +543,7 @@
   if (typeof varSmiOtrasRegionesEjecucionDeContratosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesEjecucionDeContratosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesEjecucionDeContratosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 200 },{ region: 'Gómez Palacio', dato: 228 },{ region: 'Lerdo', dato: 228 },{ region: 'Matamoros', dato: 200 },{ region: 'La Laguna', dato: 211 }],
+      data: [{ region: 'Torreón', dato: 200 },{ region: 'Gómez Palacio', dato: 228 },{ region: 'Lerdo', dato: 228 },{ region: 'Matamoros', dato: 200 },{ region: 'La Laguna', dato: 770 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

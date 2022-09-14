@@ -86,7 +86,8 @@ class EconomiaTasaDeInformalidad extends \SMIBase\PublicacionWeb {
             array('fecha' => '2021-03-31', 'valor' => '55.0700', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2021-06-30', 'valor' => '56.1600', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2021-12-31', 'valor' => '55.8400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2021-12-31', 'valor' => '55.8400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 40, crudo 20
+            array('fecha' => '2021-12-31', 'valor' => '55.8400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2021-12-31', 'valor' => '55.8400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 42, crudo 21
     } // datos
 
     /**
@@ -114,7 +115,7 @@ class EconomiaTasaDeInformalidad extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2017-03-31', 'valor' => '41.6500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2017-03-31', 'valor' => '41.8200', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2017-03-31', 'valor' => '39.1000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '40.0400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-07-31', 'valor' => '38.7700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2021-12-31', 'valor' => '35.3800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Durango', 'fecha' => '2021-12-31', 'valor' => '50.4600', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Nacional', 'fecha' => '2021-12-31', 'valor' => '55.8400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));

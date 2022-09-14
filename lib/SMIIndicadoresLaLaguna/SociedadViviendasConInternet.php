@@ -43,7 +43,7 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Vivienda, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Vivienda', 'Sector Automotriz');
-        $this->fuentes     = array('INEGI', 'IMCO');
+        $this->fuentes     = array('INEGI', 'IMCO', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -69,7 +69,8 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '22.8100', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '35.4200', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '29.3500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
+            array('fecha' => '2016-12-31', 'valor' => '29.3500', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '55.5200', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 8, crudo 4
     } // datos
 
     /**
@@ -97,7 +98,7 @@ class SociedadViviendasConInternet extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30573', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con internet'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '12784', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con internet'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '6384', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con internet'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '29.3500', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '55.5200', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

@@ -290,8 +290,20 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2015-12-31</td>
+        <td>0.3870</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2016-12-31</td>
         <td>721</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td>0.3790</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -302,10 +314,52 @@
         <td>Número de sectores económicos presentes (INEGI (DENUE))</td>
       </tr>
       <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>0.3620</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2018-12-31</td>
         <td>727</td>
         <td>IMCO</td>
         <td>Número de sectores económicos presentes (INEGI (DENUE))</td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>0.3800</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>0.3800</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>0.3640</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>0.3640</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>0.3020</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>0.4070</td>
+        <td>IMCO</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -359,10 +413,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td>727</td>
+        <td class="centrado">2021-12-31</td>
+        <td>0.4070</td>
         <td>IMCO</td>
-        <td>Número de sectores económicos presentes (INEGI (DENUE))</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -460,6 +514,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosDiversificacionEconomicaEnLaLaguna === 'undefined') {
+     $('#SmiDatosDiversificacionEconomicaEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosDiversificacionEconomicaEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasDiversificacionEconomicaEnLaLaguna === 'undefined') {
@@ -473,9 +545,13 @@
         { fecha: '2012-12-31', dato: 734 },
         { fecha: '2013-12-31', dato: 717.0000 },
         { fecha: '2014-12-31', dato: 717 },
-        { fecha: '2016-12-31', dato: 721 },
-        { fecha: '2017-12-31', dato: 729 },
-        { fecha: '2018-12-31', dato: 727 }],
+        { fecha: '2015-12-31', dato: 0.3870 },
+        { fecha: '2016-12-31', dato: 0.3790 },
+        { fecha: '2017-12-31', dato: 0.3620 },
+        { fecha: '2018-12-31', dato: 0.3800 },
+        { fecha: '2019-12-31', dato: 0.3640 },
+        { fecha: '2020-12-31', dato: 0.3020 },
+        { fecha: '2021-12-31', dato: 0.4070 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -490,7 +566,7 @@
   if (typeof varSmiOtrasRegionesDiversificacionEconomicaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDiversificacionEconomicaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDiversificacionEconomicaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 721 },{ region: 'Gómez Palacio', dato: 721 },{ region: 'Lerdo', dato: 721 },{ region: 'Matamoros', dato: 721 },{ region: 'La Laguna', dato: 727 }],
+      data: [{ region: 'Torreón', dato: 721 },{ region: 'Gómez Palacio', dato: 721 },{ region: 'Lerdo', dato: 721 },{ region: 'Matamoros', dato: 721 },{ region: 'La Laguna', dato: 0.4070 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

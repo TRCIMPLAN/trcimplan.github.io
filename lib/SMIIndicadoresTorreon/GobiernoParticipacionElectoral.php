@@ -95,7 +95,7 @@ class GobiernoParticipacionElectoral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-07-01', 'valor' => '58.3100', 'fuente_nombre' => 'INE-IEPCC'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-07-01', 'valor' => '59.5700', 'fuente_nombre' => 'INE-IEPCC'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-07-01', 'valor' => '64.5800', 'fuente_nombre' => 'INE-IEPCC'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-07-01', 'valor' => '57.6800', 'fuente_nombre' => 'INE-IEPCC'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

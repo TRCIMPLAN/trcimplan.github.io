@@ -68,7 +68,8 @@ class SociedadViviendasConAguaEntubada extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '98.1500', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
-            array('fecha' => '2015-12-31', 'valor' => '99.0500', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2015-12-31', 'valor' => '99.0500', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'),
+            array('fecha' => '2020-12-31', 'valor' => '99.4700', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -93,7 +94,7 @@ class SociedadViviendasConAguaEntubada extends \SMIBase\PublicacionWeb {
     public function otras_regiones() {
         return array(
             array('region_nombre' => 'Torreón', 'fecha' => '2015-12-31', 'valor' => '96.3000', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Fuente: INEGI, Intercensal 2015'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '99.0500', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '99.4700', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

@@ -85,7 +85,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -101,7 +101,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-11-25', 'valor' => '57.5500', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-11-25', 'valor' => '31.3000', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-11-25', 'valor' => '11.0100', 'fuente_nombre' => 'RFOSC'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '7.9100', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada 100 mil habitantes (Segob)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '51', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2016-11-25', 'valor' => '26.4300', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Durango', 'fecha' => '2016-11-25', 'valor' => '143.3800', 'fuente_nombre' => 'RFOSC'),
             array('region_nombre' => 'Nacional', 'fecha' => '2016-11-25', 'valor' => '28.8400', 'fuente_nombre' => 'RFOSC'));

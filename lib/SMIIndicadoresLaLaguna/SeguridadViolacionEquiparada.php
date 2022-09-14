@@ -77,7 +77,8 @@ class SeguridadViolacionEquiparada extends \SMIBase\PublicacionWeb {
             array('fecha' => '2022-03-31', 'valor' => '21', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2022-03-31', 'valor' => '8', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2022-04-30', 'valor' => '9', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2022-05-31', 'valor' => '11', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 22, crudo 11
+            array('fecha' => '2022-04-30', 'valor' => '21', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-05-31', 'valor' => '11', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 24, crudo 12
     } // datos
 
     /**
@@ -106,9 +107,9 @@ class SeguridadViolacionEquiparada extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Lerdo', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2022-05-31', 'valor' => '0', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'La Laguna', 'fecha' => '2022-05-31', 'valor' => '11', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2022-03-31', 'valor' => '13', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2022-04-30', 'valor' => '13', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Durango', 'fecha' => '2022-03-31', 'valor' => '0', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2022-03-31', 'valor' => '482', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'Nacional', 'fecha' => '2022-04-30', 'valor' => '482', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
     /**

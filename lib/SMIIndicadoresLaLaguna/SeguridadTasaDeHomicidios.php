@@ -56,7 +56,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -78,7 +78,10 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
             array('fecha' => '2015-12-31', 'valor' => '15.5350', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '11.0711', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '12.9000', 'fuente_nombre' => 'IMCO', 'notas' => 'Homicidios por cada 100 mil habitantes (INEGI)'),
-            array('fecha' => '2018-12-31', 'valor' => '9.3100', 'fuente_nombre' => 'IMCO', 'notas' => 'Homicidios por cada 100 mil habitantes (INEGI)')); // formateado 0, valor 22, crudo 13
+            array('fecha' => '2018-12-31', 'valor' => '9.3100', 'fuente_nombre' => 'IMCO', 'notas' => 'Homicidios por cada 100 mil habitantes (INEGI)'),
+            array('fecha' => '2019-12-31', 'valor' => '9.3104', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '11.4126', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '8.1353', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 28, crudo 16
     } // datos
 
     /**
@@ -106,7 +109,7 @@ Las tasas de elaboración propia consideran las defunciones por homicidio ocurri
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'A partir de 2016 el dato cambió a dato cantidad por "Muertes por homicidio doloso al año"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '9.3100', 'fuente_nombre' => 'IMCO', 'notas' => 'Homicidios por cada 100 mil habitantes (INEGI)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '8.1353', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

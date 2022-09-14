@@ -95,7 +95,7 @@ class SustentabilidadUsuariosDeBicicleta extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '10.5700', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '9.2300', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '9.8400', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '8.0300', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '9.3800', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

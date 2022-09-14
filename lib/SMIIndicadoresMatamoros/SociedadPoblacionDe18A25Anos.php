@@ -95,7 +95,7 @@ class SociedadPoblacionDe18A25Anos extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '51089', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '14441', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '17073', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '156926', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '197736', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda', 'notas' => 'Incluye los municipios de Torreón, Matamoros y Francisco I. Madero del estado de Coahiula, y Gómez Palacio y Lerdo del estado de Durango'));
     } // otras_regiones
 
     /**

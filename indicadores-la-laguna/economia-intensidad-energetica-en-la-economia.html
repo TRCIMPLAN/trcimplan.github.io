@@ -232,6 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -247,13 +248,72 @@
     </thead>
     <tbody>
       <tr>
+        <td class="centrado">2015-12-31</td>
+        <td>11504</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">6,542.3900</td>
+        <td>6542.3900</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td>11660</td>
+        <td>IMCO</td>
+        <td>KWh al año por cada millón de actividad económica</td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>12030</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>10967</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>10967</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>10286</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>10286</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>10994</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-11-23</td>
+        <td>12313</td>
         <td>IMCO</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Intensidad energética en la economía en La Laguna </h3>
+
+    <div id="SmiGraficasIntensidadEnergeticaEnLaEconomiaEnLaLaguna" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Intensidad energética en la economía en La Laguna</h3>
@@ -272,35 +332,35 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">3,745.3700</td>
+        <td>3745.3700</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">2,242.9300</td>
+        <td>2242.9300</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">298.8300</td>
+        <td>298.8300</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">255.2500</td>
+        <td>255.2500</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">6,542.3900</td>
+        <td class="centrado">2021-11-23</td>
+        <td>12313</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -407,12 +467,34 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasIntensidadEnergeticaEnLaEconomiaEnLaLaguna === 'undefined') {
+    varSmiGraficasIntensidadEnergeticaEnLaEconomiaEnLaLaguna = Morris.Line({
+      element: 'SmiGraficasIntensidadEnergeticaEnLaEconomiaEnLaLaguna',
+      data: [
+        { fecha: '2015-12-31', dato: 11504 },
+        { fecha: '2016-12-31', dato: 11660 },
+        { fecha: '2017-12-31', dato: 12030 },
+        { fecha: '2018-12-31', dato: 10967 },
+        { fecha: '2019-12-31', dato: 10286 },
+        { fecha: '2020-12-31', dato: 10994 },
+        { fecha: '2021-11-23', dato: 12313 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesIntensidadEnergeticaEnLaEconomiaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesIntensidadEnergeticaEnLaEconomiaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesIntensidadEnergeticaEnLaEconomiaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 3745.3700 },{ region: 'Gómez Palacio', dato: 2242.9300 },{ region: 'Lerdo', dato: 298.8300 },{ region: 'Matamoros', dato: 255.2500 },{ region: 'La Laguna', dato: 6542.3900 }],
+      data: [{ region: 'Torreón', dato: 3745.3700 },{ region: 'Gómez Palacio', dato: 2242.9300 },{ region: 'Lerdo', dato: 298.8300 },{ region: 'Matamoros', dato: 255.2500 },{ region: 'La Laguna', dato: 12313 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

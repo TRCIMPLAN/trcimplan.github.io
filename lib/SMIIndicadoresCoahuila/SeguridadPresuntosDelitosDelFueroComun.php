@@ -94,7 +94,7 @@ class SeguridadPresuntosDelitosDelFueroComun extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Torreón', 'fecha' => '2012-12-31', 'valor' => '6647', 'fuente_nombre' => 'INEGI', 'notas' => 'Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '13584', 'fuente_nombre' => 'INEGI', 'notas' => 'Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '1100', 'fuente_nombre' => 'INEGI', 'notas' => 'Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2022-03-31', 'valor' => '2941', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-04-30', 'valor' => '2941', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2022-03-31', 'valor' => '0', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Durango', 'fecha' => '2022-03-31', 'valor' => '0', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('region_nombre' => 'Nacional', 'fecha' => '2022-03-31', 'valor' => '0', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));

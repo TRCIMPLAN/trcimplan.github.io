@@ -140,7 +140,16 @@ class SeguridadRoboATranseuntes extends \SMIBase\PublicacionWeb {
             array('fecha' => '2019-10-31', 'valor' => '57', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2019-11-30', 'valor' => '29', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('fecha' => '2019-12-31', 'valor' => '39', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('fecha' => '2022-03-31', 'valor' => '78', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 148, crudo 74
+            array('fecha' => '2022-03-31', 'valor' => '78', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2022-04-30', 'valor' => '78', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-04-30', 'valor' => '22', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-04-30', 'valor' => '22', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-05-31', 'valor' => '19', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-05-31', 'valor' => '19', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-06-30', 'valor' => '15', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-06-30', 'valor' => '15', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-07-31', 'valor' => '27', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('fecha' => '2022-07-31', 'valor' => '27', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública')); // formateado 0, valor 166, crudo 83
     } // datos
 
     /**
@@ -168,10 +177,10 @@ class SeguridadRoboATranseuntes extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2019-12-31', 'valor' => '25', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2019-12-31', 'valor' => '4', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2019-12-31', 'valor' => '2', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2022-03-31', 'valor' => '78', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Coahuila', 'fecha' => '2022-03-31', 'valor' => '22', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Durango', 'fecha' => '2022-03-31', 'valor' => '32', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('region_nombre' => 'Nacional', 'fecha' => '2022-03-31', 'valor' => '6268', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-07-31', 'valor' => '27', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Coahuila', 'fecha' => '2022-04-30', 'valor' => '22', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Durango', 'fecha' => '2022-04-30', 'valor' => '32', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'),
+            array('region_nombre' => 'Nacional', 'fecha' => '2022-04-30', 'valor' => '6268', 'fuente_nombre' => 'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública'));
     } // otras_regiones
 
     /**

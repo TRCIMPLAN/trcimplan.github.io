@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -249,65 +249,71 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">25.9500 %</td>
+        <td>25.9500</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">36.2400 %</td>
+        <td>36.2400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">32.2100 %</td>
+        <td>32.2100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">32.4900 %</td>
+        <td>32.4900</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">29.9600 %</td>
+        <td>29.9600</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">31.9200 %</td>
+        <td>31.9200</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2014-12-31</td>
-        <td class="derecha">25.7400 %</td>
+        <td>25.7400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2015-12-31</td>
-        <td class="derecha">36.9800 %</td>
+        <td>36.9800</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">31.9520 %</td>
+        <td>31.9520</td>
         <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>57802</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Personas de 18 a 25 años que estudian en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Personas de 18 a 25 años que estudian en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasPersonasDe18A25AnosQueEstudianEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasPersonasDe18A25AnosQueEstudianEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Personas de 18 a 25 años que estudian en La Laguna</h3>
@@ -353,9 +359,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>31.9520</td>
-        <td>IMCO</td>
+        <td class="centrado">2020-12-31</td>
+        <td>57802</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
         <td></td>
       </tr>
     </tbody>
@@ -461,11 +467,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasPersonasDe18A25AnosQueEstudianEnLaLaguna === 'undefined') {
-    varSmiGraficasPersonasDe18A25AnosQueEstudianEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasPersonasDe18A25AnosQueEstudianEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPersonasDe18A25AnosQueEstudianEnLaLagunaImco === 'undefined') {
+    varSmiGraficasPersonasDe18A25AnosQueEstudianEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasPersonasDe18A25AnosQueEstudianEnLaLagunaImco',
       data: [
         { fecha: '2008-12-31', dato: 25.9500 },
         { fecha: '2009-12-31', dato: 36.2400 },
@@ -490,7 +496,7 @@
   if (typeof varSmiOtrasRegionesPersonasDe18A25AnosQueEstudianEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPersonasDe18A25AnosQueEstudianEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPersonasDe18A25AnosQueEstudianEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 23507 },{ region: 'Gómez Palacio', dato: 16434 },{ region: 'Lerdo', dato: 5829 },{ region: 'Matamoros', dato: 4371 },{ region: 'La Laguna', dato: 31.9520 }],
+      data: [{ region: 'Torreón', dato: 23507 },{ region: 'Gómez Palacio', dato: 16434 },{ region: 'Lerdo', dato: 5829 },{ region: 'Matamoros', dato: 4371 },{ region: 'La Laguna', dato: 57802 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

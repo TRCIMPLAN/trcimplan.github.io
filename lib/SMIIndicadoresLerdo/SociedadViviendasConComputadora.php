@@ -102,7 +102,7 @@ class SociedadViviendasConComputadora extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30573', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con computadora'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '12784', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con computadora'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '6384', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con computadora'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '29.3500', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '40.4900', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

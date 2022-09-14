@@ -77,7 +77,8 @@ class EconomiaPoblacionOcupadaSinIngresos extends \SMIBase\PublicacionWeb {
             array('fecha' => '2018-12-31', 'valor' => '24.5500', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la población ocupada (ENOE, CONEVAL)'),
             array('fecha' => '2019-09-30', 'valor' => '13859', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2019-12-31', 'valor' => '11473', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2020-03-31', 'valor' => '13534', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 22, crudo 13
+            array('fecha' => '2020-03-31', 'valor' => '13534', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2021-12-31', 'valor' => '11', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 24, crudo 14
     } // datos
 
     /**
@@ -105,7 +106,7 @@ class EconomiaPoblacionOcupadaSinIngresos extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '23376', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas ocupadas sin ingresos'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '8989', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas ocupadas sin ingresos'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '11944', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas ocupadas sin ingresos'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2020-03-31', 'valor' => '13534', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '11', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

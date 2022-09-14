@@ -43,7 +43,7 @@ class EconomiaInversionPerCapita extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Macroeconomía, Finanzas Públicas';
         // Para el Organizador
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
-        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI');
+        $this->fuentes     = array('Elaboración propia con datos obtenidos del INEGI', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -76,7 +76,8 @@ class EconomiaInversionPerCapita extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '435.33', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2014-12-31', 'valor' => '506.52', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('fecha' => '2015-12-31', 'valor' => '514.85', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '780.89', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI')); // formateado 0, valor 20, crudo 10
+            array('fecha' => '2016-12-31', 'valor' => '780.89', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('fecha' => '2021-12-31', 'valor' => '478.93', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 22, crudo 11
     } // datos
 
     /**
@@ -104,7 +105,7 @@ class EconomiaInversionPerCapita extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '166.04', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '567.45', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '329.76', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '780.89', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '478.93', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2016-12-31', 'valor' => '837.41', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2016-12-31', 'valor' => '750.61', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2016-12-31', 'valor' => '495.10', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));

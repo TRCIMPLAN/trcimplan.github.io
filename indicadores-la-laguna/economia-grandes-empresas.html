@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -249,23 +249,29 @@
     <tbody>
       <tr>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">0.5300 %</td>
+        <td>0.5300</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2014-07-31</td>
-        <td class="derecha">1.0700 %</td>
+        <td>1.0700</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-11-23</td>
+        <td>213</td>
+        <td>INEGI</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Grandes Empresas en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Grandes Empresas en La Laguna con fuente Sistema de Información Empresarial Mexicano (SIEM)</h3>
 
-    <div id="SmiGraficasGrandesEmpresasEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasGrandesEmpresasEnLaLagunaSistemaDeInformacionEmpresarialMexicanoSiem" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Grandes Empresas en La Laguna</h3>
@@ -284,56 +290,56 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2014-07-31</td>
-        <td class="derecha">1.1300 %</td>
+        <td>1.1300</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2014-07-31</td>
-        <td class="derecha">0.9800 %</td>
+        <td>0.9800</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2014-07-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2014-07-31</td>
-        <td class="derecha">0.5800 %</td>
+        <td>0.5800</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2014-07-31</td>
-        <td class="derecha">1.0700 %</td>
-        <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
+        <td class="centrado">2021-11-23</td>
+        <td>213</td>
+        <td>INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
         <td class="centrado">2014-07-31</td>
-        <td class="derecha">1.0400 %</td>
+        <td>1.0400</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
         <td class="centrado">2014-07-31</td>
-        <td class="derecha">0.7800 %</td>
+        <td>0.7800</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
         <td class="centrado">2014-07-31</td>
-        <td class="derecha">0.5900 %</td>
+        <td>0.5900</td>
         <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
         <td></td>
       </tr>
@@ -438,11 +444,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasGrandesEmpresasEnLaLaguna === 'undefined') {
-    varSmiGraficasGrandesEmpresasEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasGrandesEmpresasEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasGrandesEmpresasEnLaLagunaSistemaDeInformacionEmpresarialMexicanoSiem === 'undefined') {
+    varSmiGraficasGrandesEmpresasEnLaLagunaSistemaDeInformacionEmpresarialMexicanoSiem = Morris.Line({
+      element: 'SmiGraficasGrandesEmpresasEnLaLagunaSistemaDeInformacionEmpresarialMexicanoSiem',
       data: [
         { fecha: '2013-12-31', dato: 0.5300 },
         { fecha: '2014-07-31', dato: 1.0700 }],
@@ -460,7 +466,7 @@
   if (typeof varSmiOtrasRegionesGrandesEmpresasEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesGrandesEmpresasEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesGrandesEmpresasEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 1.1300 },{ region: 'Gómez Palacio', dato: 0.9800 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.5800 },{ region: 'La Laguna', dato: 1.0700 },{ region: 'Coahuila', dato: 1.0400 },{ region: 'Durango', dato: 0.7800 },{ region: 'Nacional', dato: 0.5900 }],
+      data: [{ region: 'Torreón', dato: 1.1300 },{ region: 'Gómez Palacio', dato: 0.9800 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.5800 },{ region: 'La Laguna', dato: 213 },{ region: 'Coahuila', dato: 1.0400 },{ region: 'Durango', dato: 0.7800 },{ region: 'Nacional', dato: 0.5900 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

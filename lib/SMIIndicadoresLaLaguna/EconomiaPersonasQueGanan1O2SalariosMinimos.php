@@ -74,7 +74,8 @@ class EconomiaPersonasQueGanan1O2SalariosMinimos extends \SMIBase\PublicacionWeb
             array('fecha' => '2020-09-30', 'valor' => '43.0400', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2021-06-30', 'valor' => '47.9800', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
             array('fecha' => '2021-12-31', 'valor' => '46.6000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
-            array('fecha' => '2021-12-31', 'valor' => '46.6000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 16, crudo 8
+            array('fecha' => '2021-12-31', 'valor' => '46.6000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos'),
+            array('fecha' => '2021-12-31', 'valor' => '46.6000', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos')); // formateado 0, valor 18, crudo 9
     } // datos
 
     /**

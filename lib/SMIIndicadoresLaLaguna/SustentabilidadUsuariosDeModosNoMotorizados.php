@@ -43,7 +43,7 @@ class SustentabilidadUsuariosDeModosNoMotorizados extends \SMIBase\PublicacionWe
         $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente, Movilidad';
         // Para el Organizador
         $this->categorias  = array('Medio Ambiente', 'Movilidad');
-        $this->fuentes     = array('INEGI');
+        $this->fuentes     = array('INEGI', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,8 @@ class SustentabilidadUsuariosDeModosNoMotorizados extends \SMIBase\PublicacionWe
      */
     public function datos() {
         return array(
-            array('fecha' => '2015-12-31', 'valor' => '24.4700', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2015-12-31', 'valor' => '24.4700', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2020-12-31', 'valor' => '23.3800', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 4, crudo 2
     } // datos
 
     /**
@@ -95,7 +96,7 @@ class SustentabilidadUsuariosDeModosNoMotorizados extends \SMIBase\PublicacionWe
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '27.4600', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '30.5500', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '33.2900', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '24.4700', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '23.3800', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

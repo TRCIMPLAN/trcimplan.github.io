@@ -249,51 +249,75 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">$ 789.75</td>
+        <td>789.75</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">$ 831.11</td>
+        <td>831.11</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">$ 907.31</td>
+        <td>907.31</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">$ 773.14</td>
+        <td>773.14</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">$ 725.64</td>
+        <td>725.64</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 57.00</td>
+        <td>57.00</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2017-12-31</td>
-        <td class="derecha">$ 219.79</td>
+        <td>219.79</td>
         <td>IMCO</td>
         <td>Pesos por cada mil pesos de actividad económica (CNBV)</td>
       </tr>
       <tr>
         <td class="centrado">2018-12-31</td>
-        <td class="derecha">$ 211.04</td>
+        <td>211.04</td>
         <td>IMCO</td>
         <td>Pesos por cada mil pesos de actividad económica (CNBV)</td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>127</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>127</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>116</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>131</td>
+        <td>IMCO</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -320,37 +344,37 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 37,857,566.00</td>
+        <td>37857566.00</td>
         <td>IMCO</td>
         <td>En 2016 cambió a "Miles de pesos"</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 12,699,918.00</td>
+        <td>12699918.00</td>
         <td>IMCO</td>
         <td>En 2016 cambió a "Miles de pesos"</td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 12,699,918.00</td>
+        <td>12699918.00</td>
         <td>IMCO</td>
         <td>En 2016 cambió a "Miles de pesos"</td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">$ 37,857,566.00</td>
+        <td>37857566.00</td>
         <td>IMCO</td>
         <td>En 2016 cambió a "Miles de pesos"</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">$ 211.04</td>
+        <td class="centrado">2021-12-31</td>
+        <td>131</td>
         <td>IMCO</td>
-        <td>Pesos por cada mil pesos de actividad económica (CNBV)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -448,6 +472,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosCreditoALasEmpresasEnLaLaguna === 'undefined') {
+     $('#SmiDatosCreditoALasEmpresasEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosCreditoALasEmpresasEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasCreditoALasEmpresasEnLaLaguna === 'undefined') {
@@ -461,7 +503,10 @@
         { fecha: '2012-12-31', dato: 725.64 },
         { fecha: '2016-12-31', dato: 57.00 },
         { fecha: '2017-12-31', dato: 219.79 },
-        { fecha: '2018-12-31', dato: 211.04 }],
+        { fecha: '2018-12-31', dato: 211.04 },
+        { fecha: '2019-12-31', dato: 127 },
+        { fecha: '2020-12-31', dato: 116 },
+        { fecha: '2021-12-31', dato: 131 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -476,7 +521,7 @@
   if (typeof varSmiOtrasRegionesCreditoALasEmpresasEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesCreditoALasEmpresasEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCreditoALasEmpresasEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 37857566.00 },{ region: 'Gómez Palacio', dato: 12699918.00 },{ region: 'Lerdo', dato: 12699918.00 },{ region: 'Matamoros', dato: 37857566.00 },{ region: 'La Laguna', dato: 211.04 }],
+      data: [{ region: 'Torreón', dato: 37857566.00 },{ region: 'Gómez Palacio', dato: 12699918.00 },{ region: 'Lerdo', dato: 12699918.00 },{ region: 'Matamoros', dato: 37857566.00 },{ region: 'La Laguna', dato: 131 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

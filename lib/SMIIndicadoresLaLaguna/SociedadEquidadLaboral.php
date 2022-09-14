@@ -55,7 +55,7 @@ class SociedadEquidadLaboral extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -70,7 +70,8 @@ class SociedadEquidadLaboral extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '0.5302', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '0.5531', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '0.2300', 'fuente_nombre' => 'IMCO', 'notas' => 'Diferencia entre el ingreso promedio de la mujer y el hombre (ENOE)'),
-            array('fecha' => '2018-12-31', 'valor' => '0.2900', 'fuente_nombre' => 'IMCO', 'notas' => 'Diferencia entre el ingreso promedio de la mujer y el hombre (ENOE)')); // formateado 0, valor 8, crudo 6
+            array('fecha' => '2018-12-31', 'valor' => '0.2900', 'fuente_nombre' => 'IMCO', 'notas' => 'Diferencia entre el ingreso promedio de la mujer y el hombre (ENOE)'),
+            array('fecha' => '2021-12-31', 'valor' => '22', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 7
     } // datos
 
     /**

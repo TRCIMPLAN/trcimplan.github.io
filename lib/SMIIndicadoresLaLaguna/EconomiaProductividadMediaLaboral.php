@@ -55,7 +55,7 @@ class EconomiaProductividadMediaLaboral extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -74,7 +74,8 @@ class EconomiaProductividadMediaLaboral extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '416.42', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '289.33', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 el dinero es por "Pesos por hora trabajada"'),
             array('fecha' => '2017-12-31', 'valor' => '232.36', 'fuente_nombre' => 'IMCO', 'notas' => 'Pesos por hora trabajada (IMCO)'),
-            array('fecha' => '2018-12-31', 'valor' => '227.87', 'fuente_nombre' => 'IMCO', 'notas' => 'Pesos por hora trabajada (IMCO)')); // formateado 0, valor 16, crudo 11
+            array('fecha' => '2018-12-31', 'valor' => '227.87', 'fuente_nombre' => 'IMCO', 'notas' => 'Pesos por hora trabajada (IMCO)'),
+            array('fecha' => '2021-12-31', 'valor' => '208', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 12
     } // datos
 
     /**
@@ -86,7 +87,7 @@ class EconomiaProductividadMediaLaboral extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'dinero'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -102,7 +103,7 @@ class EconomiaProductividadMediaLaboral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '1771.11', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '4094.59', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '4496.77', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '227.87', 'fuente_nombre' => 'IMCO', 'notas' => 'Pesos por hora trabajada (IMCO)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '208', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

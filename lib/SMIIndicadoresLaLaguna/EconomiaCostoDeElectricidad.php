@@ -68,9 +68,18 @@ class EconomiaCostoDeElectricidad extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2015-12-31', 'valor' => '45.4369', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '1385', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '26.3000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '1385', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '1385.27', 'fuente_nombre' => 'IMCO', 'notas' => 'Dólares por mega watt-hora (CENACE)'),
-            array('fecha' => '2018-12-31', 'valor' => '1586.75', 'fuente_nombre' => 'IMCO', 'notas' => 'Dólares por mega watt-hora (CENACE)')); // formateado 0, valor 8, crudo 6
+            array('fecha' => '2017-12-31', 'valor' => '1385', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '1586.75', 'fuente_nombre' => 'IMCO', 'notas' => 'Dólares por mega watt-hora (CENACE)'),
+            array('fecha' => '2018-12-31', 'valor' => '1385', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '1385', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '1587', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '1587', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '875', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '466', 'fuente_nombre' => 'IMCO', 'notas' => 'Dólares por mega watt-hora')); // formateado 0, valor 26, crudo 16
     } // datos
 
     /**
@@ -98,7 +107,7 @@ class EconomiaCostoDeElectricidad extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '26.3116', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '26.3116', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '26.3116', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '1586.75', 'fuente_nombre' => 'IMCO', 'notas' => 'Dólares por mega watt-hora (CENACE)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '466', 'fuente_nombre' => 'IMCO', 'notas' => 'Dólares por mega watt-hora'));
     } // otras_regiones
 
     /**

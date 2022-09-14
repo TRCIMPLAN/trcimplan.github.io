@@ -43,7 +43,7 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Empleo';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -77,7 +77,13 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
             array('fecha' => '2015-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '29.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '29.6700', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de población ocupada que trabaja más de 48 horas (INEGI (ENOE))'),
-            array('fecha' => '2018-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de población ocupada que trabaja más de 48 horas (INEGI (ENOE))')); // formateado 0, valor 22, crudo 13
+            array('fecha' => '2018-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de población ocupada que trabaja más de 48 horas (INEGI (ENOE))'),
+            array('fecha' => '2018-12-31', 'valor' => '50', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2018-12-31', 'valor' => '50', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2019-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '28.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '24.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 34, crudo 19
     } // datos
 
     /**
@@ -105,7 +111,7 @@ class EconomiaJornadasLaboralesMuyLargas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '50093', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '10766', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '27668', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Personas con jornadas laborales de más de 48 hrs'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '28.4900', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de población ocupada que trabaja más de 48 horas (INEGI (ENOE))'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '24.0000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

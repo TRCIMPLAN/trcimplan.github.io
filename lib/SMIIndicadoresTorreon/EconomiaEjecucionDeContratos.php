@@ -116,7 +116,7 @@ Costo (% de cantidad demandada) = 27,9'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '228', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '228', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '211', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '770', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

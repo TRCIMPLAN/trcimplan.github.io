@@ -43,7 +43,7 @@ class SociedadViviendasTotales extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Vivienda';
         // Para el Organizador
         $this->categorias  = array('Vivienda');
-        $this->fuentes     = array('INEGI');
+        $this->fuentes     = array('INEGI', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -68,7 +68,8 @@ class SociedadViviendasTotales extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '408227', 'fuente_nombre' => 'INEGI'),
-            array('fecha' => '2016-12-31', 'valor' => '373428', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2016-12-31', 'valor' => '373428', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2020-12-31', 'valor' => '654799', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -96,7 +97,7 @@ class SociedadViviendasTotales extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '103222', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '41234', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '34281', 'fuente_nombre' => 'INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '373428', 'fuente_nombre' => 'INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '654799', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

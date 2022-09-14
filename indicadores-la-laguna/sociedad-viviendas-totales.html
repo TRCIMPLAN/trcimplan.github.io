@@ -230,7 +230,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -257,13 +257,19 @@
         <td>INEGI</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">654,799</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Viviendas Totales en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Viviendas Totales en La Laguna con fuente INEGI</h3>
 
-    <div id="SmiGraficasViviendasTotalesEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasViviendasTotalesEnLaLagunaInegi" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Viviendas Totales en La Laguna</h3>
@@ -309,9 +315,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td class="derecha">373,428</td>
-        <td>INEGI</td>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">654,799</td>
+        <td>INEGI. Censos de Población y Vivienda</td>
         <td></td>
       </tr>
     </tbody>
@@ -418,11 +424,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasViviendasTotalesEnLaLaguna === 'undefined') {
-    varSmiGraficasViviendasTotalesEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasViviendasTotalesEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasViviendasTotalesEnLaLagunaInegi === 'undefined') {
+    varSmiGraficasViviendasTotalesEnLaLagunaInegi = Morris.Line({
+      element: 'SmiGraficasViviendasTotalesEnLaLagunaInegi',
       data: [
         { fecha: '2010-12-31', dato: 408227 },
         { fecha: '2016-12-31', dato: 373428 }],
@@ -440,7 +446,7 @@
   if (typeof varSmiOtrasRegionesViviendasTotalesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesViviendasTotalesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesViviendasTotalesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 194691 },{ region: 'Gómez Palacio', dato: 103222 },{ region: 'Lerdo', dato: 41234 },{ region: 'Matamoros', dato: 34281 },{ region: 'La Laguna', dato: 373428 }],
+      data: [{ region: 'Torreón', dato: 194691 },{ region: 'Gómez Palacio', dato: 103222 },{ region: 'Lerdo', dato: 41234 },{ region: 'Matamoros', dato: 34281 },{ region: 'La Laguna', dato: 654799 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

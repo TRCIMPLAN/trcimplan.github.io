@@ -100,7 +100,7 @@ class GobiernoIngresosPropios extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30.1700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '19.6300', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '13.1500', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '13.9000', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los ingresos totales (INEGI (SIMBAD))'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '32.0700', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

@@ -55,7 +55,7 @@ class EconomiaIntensidadEnergeticaEnLaEconomia extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,16 @@ class EconomiaIntensidadEnergeticaEnLaEconomia extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '6542.3900', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2015-12-31', 'valor' => '11504', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '6542.3900', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '11660', 'fuente_nombre' => 'IMCO', 'notas' => 'KWh al año por cada millón de actividad económica'),
+            array('fecha' => '2017-12-31', 'valor' => '12030', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '10967', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '10967', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '10286', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '10286', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '10994', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-11-23', 'valor' => '12313', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 20, crudo 11
     } // datos
 
     /**
@@ -79,7 +88,7 @@ class EconomiaIntensidadEnergeticaEnLaEconomia extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -95,7 +104,7 @@ class EconomiaIntensidadEnergeticaEnLaEconomia extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '2242.9300', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '298.8300', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '255.2500', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '6542.3900', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-11-23', 'valor' => '12313', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

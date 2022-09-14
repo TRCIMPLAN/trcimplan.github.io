@@ -307,6 +307,18 @@
         <td>CONAPO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">48,921</td>
+        <td>CONAPO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-12-31</td>
+        <td class="derecha">50,972</td>
+        <td>CONAPO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -359,8 +371,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-06-30</td>
-        <td class="derecha">47,559</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">48,921</td>
         <td>CONAPO</td>
         <td></td>
       </tr>
@@ -485,6 +497,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosAdultosMayoresMasculinoEnLaLaguna === 'undefined') {
+     $('#SmiDatosAdultosMayoresMasculinoEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosAdultosMayoresMasculinoEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasAdultosMayoresMasculinoEnLaLaguna === 'undefined') {
@@ -500,7 +530,9 @@
         { fecha: '2017-06-30', dato: 42247 },
         { fecha: '2018-06-30', dato: 43959 },
         { fecha: '2019-06-30', dato: 45732 },
-        { fecha: '2020-06-30', dato: 47559 }],
+        { fecha: '2020-06-30', dato: 47559 },
+        { fecha: '2021-12-31', dato: 48921 },
+        { fecha: '2022-12-31', dato: 50972 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -515,7 +547,7 @@
   if (typeof varSmiOtrasRegionesAdultosMayoresMasculinoEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesAdultosMayoresMasculinoEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesAdultosMayoresMasculinoEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 25576 },{ region: 'Gómez Palacio', dato: 11936 },{ region: 'Lerdo', dato: 5523 },{ region: 'Matamoros', dato: 4524 },{ region: 'La Laguna', dato: 47559 },{ region: 'Coahuila', dato: 110020 },{ region: 'Durango', dato: 67066 },{ region: 'Nacional', dato: 4463109 }],
+      data: [{ region: 'Torreón', dato: 25576 },{ region: 'Gómez Palacio', dato: 11936 },{ region: 'Lerdo', dato: 5523 },{ region: 'Matamoros', dato: 4524 },{ region: 'La Laguna', dato: 48921 },{ region: 'Coahuila', dato: 110020 },{ region: 'Durango', dato: 67066 },{ region: 'Nacional', dato: 4463109 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

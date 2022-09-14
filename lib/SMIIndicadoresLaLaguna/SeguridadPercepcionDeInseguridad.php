@@ -43,7 +43,7 @@ class SeguridadPercepcionDeInseguridad extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Seguridad';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Seguridad');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class SeguridadPercepcionDeInseguridad extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -74,7 +74,8 @@ class SeguridadPercepcionDeInseguridad extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '68.8400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '51.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '42.4800', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de encuestados que reportan sentirse seguros (INEGI (ENVIPE))'),
-            array('fecha' => '2018-12-31', 'valor' => '41.9700', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de encuestados que reportan sentirse seguros (INEGI (ENVIPE))')); // formateado 0, valor 16, crudo 10
+            array('fecha' => '2018-12-31', 'valor' => '41.9700', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de encuestados que reportan sentirse seguros (INEGI (ENVIPE))'),
+            array('fecha' => '2020-12-31', 'valor' => '50', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 18, crudo 11
     } // datos
 
     /**
@@ -86,7 +87,7 @@ class SeguridadPercepcionDeInseguridad extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -102,7 +103,7 @@ class SeguridadPercepcionDeInseguridad extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '51.8100', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '51.8100', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '50.4400', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '41.9700', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de encuestados que reportan sentirse seguros (INEGI (ENVIPE))'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '50', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**

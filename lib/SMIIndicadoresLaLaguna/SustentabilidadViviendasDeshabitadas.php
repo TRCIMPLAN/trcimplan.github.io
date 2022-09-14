@@ -44,7 +44,7 @@ Fuente: INEGI (Censo de Población y Vivienda).';
         $this->claves      = 'IMPLAN, La Laguna, Vivienda, Índice de Competitividad Urbana';
         // Para el Organizador
         $this->categorias  = array('Vivienda', 'Índice de Competitividad Urbana');
-        $this->fuentes     = array('IMCO', 'INEGI');
+        $this->fuentes     = array('IMCO', 'INEGI', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -73,7 +73,8 @@ Fuente: INEGI (Censo de Población y Vivienda).';
             array('fecha' => '2010-12-31', 'valor' => '19.4500', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2010-12-31', 'valor' => '22.1400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '22.1400', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '22.1400', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2012-12-31', 'valor' => '22.1400', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '15.5500', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -101,7 +102,7 @@ Fuente: INEGI (Censo de Población y Vivienda).';
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '22.7400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '21.4400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '15.0100', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '22.1400', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '15.5500', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

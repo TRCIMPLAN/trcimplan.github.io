@@ -271,6 +271,24 @@
         <td>IMCO</td>
         <td>Viviendas en U1 y U2 como % de las viviendas vigentes (CONAVI (SNIIV))</td>
       </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">72.1100 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">61.0000 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">70.8000 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -323,10 +341,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">72.1200 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">70.8000 %</td>
         <td>IMCO</td>
-        <td>Viviendas en U1 y U2 como % de las viviendas vigentes (CONAVI (SNIIV))</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -441,7 +459,10 @@
         { fecha: '2014-12-31', dato: 64.1400 },
         { fecha: '2016-12-31', dato: 73.0000 },
         { fecha: '2017-12-31', dato: 73.2600 },
-        { fecha: '2018-12-31', dato: 72.1200 }],
+        { fecha: '2018-12-31', dato: 72.1200 },
+        { fecha: '2019-12-31', dato: 72.1100 },
+        { fecha: '2020-12-31', dato: 61.0000 },
+        { fecha: '2021-12-31', dato: 70.8000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -456,7 +477,7 @@
   if (typeof varSmiOtrasRegionesNuevasViviendasIntraurbanasEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesNuevasViviendasIntraurbanasEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesNuevasViviendasIntraurbanasEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 71.7000 },{ region: 'Gómez Palacio', dato: 91.6500 },{ region: 'Lerdo', dato: 71.9600 },{ region: 'Matamoros', dato: 16.0800 },{ region: 'La Laguna', dato: 72.1200 }],
+      data: [{ region: 'Torreón', dato: 71.7000 },{ region: 'Gómez Palacio', dato: 91.6500 },{ region: 'Lerdo', dato: 71.9600 },{ region: 'Matamoros', dato: 16.0800 },{ region: 'La Laguna', dato: 70.8000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

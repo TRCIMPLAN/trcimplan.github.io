@@ -249,57 +249,63 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">59.8700 %</td>
+        <td>59.8700</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">59.2500 %</td>
+        <td>59.2500</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">61.8800 %</td>
+        <td>61.8800</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">59.4100 %</td>
+        <td>59.4100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">68.3000 %</td>
+        <td>68.3000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2014-12-31</td>
-        <td class="derecha">71.0000 %</td>
+        <td>71.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2017-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td>Porcentaje de la oferta total de cuartos (SECTUR)</td>
       </tr>
       <tr>
         <td class="centrado">2018-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td>Porcentaje de la oferta total de cuartos (SECTUR)</td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>0</td>
+        <td>IMCO</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -326,37 +332,37 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">0.1600 %</td>
+        <td>0.1600</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td>0</td>
         <td>IMCO</td>
-        <td>Porcentaje de la oferta total de cuartos (SECTUR)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -471,7 +477,8 @@
         { fecha: '2014-12-31', dato: 71.0000 },
         { fecha: '2016-12-31', dato: 0.0000 },
         { fecha: '2017-12-31', dato: 0.0000 },
-        { fecha: '2018-12-31', dato: 0.0000 }],
+        { fecha: '2018-12-31', dato: 0.0000 },
+        { fecha: '2021-12-31', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -486,7 +493,7 @@
   if (typeof varSmiOtrasRegionesOfertaDeCuartosDeHotelDeCuatroYCincoEstrellasEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesOfertaDeCuartosDeHotelDeCuatroYCincoEstrellasEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesOfertaDeCuartosDeHotelDeCuatroYCincoEstrellasEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 0.1600 },{ region: 'Gómez Palacio', dato: 0.0000 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 0.0000 }],
+      data: [{ region: 'Torreón', dato: 0.1600 },{ region: 'Gómez Palacio', dato: 0.0000 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 0 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

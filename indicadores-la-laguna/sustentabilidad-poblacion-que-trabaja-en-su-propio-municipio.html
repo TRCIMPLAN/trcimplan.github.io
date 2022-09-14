@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -259,13 +259,19 @@
         <td>CONAPO-INEGI</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">87.1500 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Población que Trabaja en su PROPIO Municipio en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Población que Trabaja en su PROPIO Municipio en La Laguna con fuente CONAPO-INEGI</h3>
 
-    <div id="SmiGraficasPoblacionQueTrabajaEnSuPropioMunicipioEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasPoblacionQueTrabajaEnSuPropioMunicipioEnLaLagunaConapoInegi" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Población que Trabaja en su PROPIO Municipio en La Laguna</h3>
@@ -311,9 +317,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2015-12-31</td>
-        <td class="derecha">81.3000 %</td>
-        <td>CONAPO-INEGI</td>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">87.1500 %</td>
+        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
         <td></td>
       </tr>
     </tbody>
@@ -421,11 +427,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasPoblacionQueTrabajaEnSuPropioMunicipioEnLaLaguna === 'undefined') {
-    varSmiGraficasPoblacionQueTrabajaEnSuPropioMunicipioEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasPoblacionQueTrabajaEnSuPropioMunicipioEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPoblacionQueTrabajaEnSuPropioMunicipioEnLaLagunaConapoInegi === 'undefined') {
+    varSmiGraficasPoblacionQueTrabajaEnSuPropioMunicipioEnLaLagunaConapoInegi = Morris.Line({
+      element: 'SmiGraficasPoblacionQueTrabajaEnSuPropioMunicipioEnLaLagunaConapoInegi',
       data: [
         { fecha: '2010-12-31', dato: 82.9000 },
         { fecha: '2015-12-31', dato: 81.3000 }],
@@ -443,7 +449,7 @@
   if (typeof varSmiOtrasRegionesPoblacionQueTrabajaEnSuPropioMunicipioEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPoblacionQueTrabajaEnSuPropioMunicipioEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPoblacionQueTrabajaEnSuPropioMunicipioEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 91.5000 },{ region: 'Gómez Palacio', dato: 83.0000 },{ region: 'Lerdo', dato: 65.5000 },{ region: 'Matamoros', dato: 65.6000 },{ region: 'La Laguna', dato: 81.3000 }],
+      data: [{ region: 'Torreón', dato: 91.5000 },{ region: 'Gómez Palacio', dato: 83.0000 },{ region: 'Lerdo', dato: 65.5000 },{ region: 'Matamoros', dato: 65.6000 },{ region: 'La Laguna', dato: 87.1500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

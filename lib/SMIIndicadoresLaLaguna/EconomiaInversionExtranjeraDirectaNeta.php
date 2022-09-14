@@ -73,8 +73,16 @@ class EconomiaInversionExtranjeraDirectaNeta extends \SMIBase\PublicacionWeb {
             array('fecha' => '2011-12-31', 'valor' => '155.04', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '206.25', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '363.00', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '444.68', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '2004.62', 'fuente_nombre' => 'IMCO', 'notas' => 'Millones de dólares ponderados por PIB (Secretaría de Economía)'),
-            array('fecha' => '2018-12-31', 'valor' => '2523.57', 'fuente_nombre' => 'IMCO', 'notas' => 'Millones de dólares ponderados por PIB (Secretaría de Economía)')); // formateado 0, valor 16, crudo 10
+            array('fecha' => '2017-12-31', 'valor' => '417.71', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '2523.57', 'fuente_nombre' => 'IMCO', 'notas' => 'Millones de dólares ponderados por PIB (Secretaría de Economía)'),
+            array('fecha' => '2018-12-31', 'valor' => '653.99', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '653.99', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '878.49', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '878.49', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '400.82', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '409.67', 'fuente_nombre' => 'IMCO', 'notas' => 'Millones de dólares ponderados por PIB')); // formateado 0, valor 32, crudo 19
     } // datos
 
     /**
@@ -102,7 +110,7 @@ class EconomiaInversionExtranjeraDirectaNeta extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '186.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '186.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '1420.00', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejó como "Millones de dólares (promedio de 3 años)"'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '2523.57', 'fuente_nombre' => 'IMCO', 'notas' => 'Millones de dólares ponderados por PIB (Secretaría de Economía)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '409.67', 'fuente_nombre' => 'IMCO', 'notas' => 'Millones de dólares ponderados por PIB'));
     } // otras_regiones
 
     /**

@@ -104,7 +104,7 @@ class EconomiaInversionPerCapita extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '166.04', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '567.45', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '329.76', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '780.89', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '478.93', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2016-12-31', 'valor' => '837.41', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Durango', 'fecha' => '2016-12-31', 'valor' => '750.61', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'),
             array('region_nombre' => 'Nacional', 'fecha' => '2016-12-31', 'valor' => '495.10', 'fuente_nombre' => 'Elaboración propia con datos obtenidos del INEGI'));

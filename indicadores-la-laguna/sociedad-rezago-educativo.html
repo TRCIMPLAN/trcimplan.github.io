@@ -232,6 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -247,13 +248,30 @@
     </thead>
     <tbody>
       <tr>
+        <td class="centrado">2010-12-31</td>
+        <td class="derecha">15.7600 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2015-12-31</td>
         <td class="derecha">87.2500 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">13.7400 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
+    <h3>Rezago Educativo en La Laguna </h3>
+
+    <div id="SmiGraficasRezagoEducativoEnLaLaguna" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Rezago Educativo en La Laguna</h3>
@@ -299,8 +317,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2015-12-31</td>
-        <td class="derecha">87.2500 %</td>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">13.7400 %</td>
         <td>CONEVAL</td>
         <td></td>
       </tr>
@@ -429,12 +447,30 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasRezagoEducativoEnLaLaguna === 'undefined') {
+    varSmiGraficasRezagoEducativoEnLaLaguna = Morris.Line({
+      element: 'SmiGraficasRezagoEducativoEnLaLaguna',
+      data: [
+        { fecha: '2010-12-31', dato: 15.7600 },
+        { fecha: '2015-12-31', dato: 87.2500 },
+        { fecha: '2020-12-31', dato: 13.7400 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesRezagoEducativoEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesRezagoEducativoEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesRezagoEducativoEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 10.1000 },{ region: 'Gómez Palacio', dato: 14.3000 },{ region: 'Lerdo', dato: 15.6000 },{ region: 'Matamoros', dato: 16.2000 },{ region: 'La Laguna', dato: 87.2500 },{ region: 'Coahuila', dato: 12.1000 },{ region: 'Durango', dato: 18.6000 },{ region: 'Nacional', dato: 20.6000 }],
+      data: [{ region: 'Torreón', dato: 10.1000 },{ region: 'Gómez Palacio', dato: 14.3000 },{ region: 'Lerdo', dato: 15.6000 },{ region: 'Matamoros', dato: 16.2000 },{ region: 'La Laguna', dato: 13.7400 },{ region: 'Coahuila', dato: 12.1000 },{ region: 'Durango', dato: 18.6000 },{ region: 'Nacional', dato: 20.6000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

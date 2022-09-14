@@ -95,7 +95,7 @@ class SociedadPersonasDe18A25AnosQueEstudian extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '16434', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejo como cantidad de personas de 18 a 25 años que estudian'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '5829', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejo como cantidad de personas de 18 a 25 años que estudian'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '4371', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejo como cantidad de personas de 18 a 25 años que estudian'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '31.9520', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '57802', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

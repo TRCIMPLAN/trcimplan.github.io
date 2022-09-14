@@ -43,7 +43,7 @@ class SociedadPersonasDe18A25AnosQueEstudian extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Educación';
         // Para el Organizador
         $this->categorias  = array('Educación');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class SociedadPersonasDe18A25AnosQueEstudian extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -75,7 +75,8 @@ class SociedadPersonasDe18A25AnosQueEstudian extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '31.9200', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-12-31', 'valor' => '25.7400', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '36.9800', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '31.9520', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
+            array('fecha' => '2016-12-31', 'valor' => '31.9520', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '57802', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 20, crudo 10
     } // datos
 
     /**
@@ -103,7 +104,7 @@ class SociedadPersonasDe18A25AnosQueEstudian extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '16434', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejo como cantidad de personas de 18 a 25 años que estudian'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '5829', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejo como cantidad de personas de 18 a 25 años que estudian'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '4371', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se manejo como cantidad de personas de 18 a 25 años que estudian'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '31.9520', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '57802', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

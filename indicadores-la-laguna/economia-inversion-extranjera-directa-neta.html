@@ -284,16 +284,64 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2016-12-31</td>
+        <td class="derecha">$ 444.68</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2017-12-31</td>
         <td class="derecha">$ 2,004.62</td>
         <td>IMCO</td>
         <td>Millones de dólares ponderados por PIB (Secretaría de Economía)</td>
       </tr>
       <tr>
+        <td class="centrado">2017-12-31</td>
+        <td class="derecha">$ 417.71</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2018-12-31</td>
         <td class="derecha">$ 2,523.57</td>
         <td>IMCO</td>
         <td>Millones de dólares ponderados por PIB (Secretaría de Economía)</td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 653.99</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td class="derecha">$ 653.99</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">$ 878.49</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">$ 878.49</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">$ 400.82</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">$ 409.67</td>
+        <td>IMCO</td>
+        <td>Millones de dólares ponderados por PIB</td>
       </tr>
     </tbody>
   </table>
@@ -347,10 +395,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">$ 2,523.57</td>
+        <td class="centrado">2021-12-31</td>
+        <td class="derecha">$ 409.67</td>
         <td>IMCO</td>
-        <td>Millones de dólares ponderados por PIB (Secretaría de Economía)</td>
+        <td>Millones de dólares ponderados por PIB</td>
       </tr>
     </tbody>
   </table>
@@ -451,6 +499,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosInversionExtranjeraDirectaNetaEnLaLaguna === 'undefined') {
+     $('#SmiDatosInversionExtranjeraDirectaNetaEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosInversionExtranjeraDirectaNetaEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasInversionExtranjeraDirectaNetaEnLaLaguna === 'undefined') {
@@ -462,9 +528,12 @@
         { fecha: '2010-12-31', dato: 281.92 },
         { fecha: '2011-12-31', dato: 155.04 },
         { fecha: '2012-12-31', dato: 206.25 },
-        { fecha: '2016-12-31', dato: 363.00 },
-        { fecha: '2017-12-31', dato: 2004.62 },
-        { fecha: '2018-12-31', dato: 2523.57 }],
+        { fecha: '2016-12-31', dato: 444.68 },
+        { fecha: '2017-12-31', dato: 417.71 },
+        { fecha: '2018-12-31', dato: 653.99 },
+        { fecha: '2019-12-31', dato: 878.49 },
+        { fecha: '2020-12-31', dato: 400.82 },
+        { fecha: '2021-12-31', dato: 409.67 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -479,7 +548,7 @@
   if (typeof varSmiOtrasRegionesInversionExtranjeraDirectaNetaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesInversionExtranjeraDirectaNetaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesInversionExtranjeraDirectaNetaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 1420.00 },{ region: 'Gómez Palacio', dato: 186.00 },{ region: 'Lerdo', dato: 186.00 },{ region: 'Matamoros', dato: 1420.00 },{ region: 'La Laguna', dato: 2523.57 }],
+      data: [{ region: 'Torreón', dato: 1420.00 },{ region: 'Gómez Palacio', dato: 186.00 },{ region: 'Lerdo', dato: 186.00 },{ region: 'Matamoros', dato: 1420.00 },{ region: 'La Laguna', dato: 409.67 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

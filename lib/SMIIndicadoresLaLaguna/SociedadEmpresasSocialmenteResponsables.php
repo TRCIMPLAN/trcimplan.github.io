@@ -76,7 +76,10 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
             array('fecha' => '2015-12-31', 'valor' => '11', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-05-24', 'valor' => '0.0241', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
             array('fecha' => '2017-12-31', 'valor' => '2.8400', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de empresas certificadas por cada 10 mil (CEMEFI)'),
-            array('fecha' => '2018-12-31', 'valor' => '2.8400', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de empresas certificadas por cada 10 mil (CEMEFI)')); // formateado 0, valor 20, crudo 12
+            array('fecha' => '2018-12-31', 'valor' => '2.8400', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de empresas certificadas por cada 10 mil (CEMEFI)'),
+            array('fecha' => '2019-12-31', 'valor' => '3', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '3', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '4', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 26, crudo 15
     } // datos
 
     /**
@@ -104,7 +107,7 @@ class SociedadEmpresasSocialmenteResponsables extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-05-24', 'valor' => '0.0214', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-05-24', 'valor' => '0.0000', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-05-24', 'valor' => '0.0000', 'fuente_nombre' => 'Centro Mexicano para la Filantropía (Cemefi)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '2.8400', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de empresas certificadas por cada 10 mil (CEMEFI)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '4', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

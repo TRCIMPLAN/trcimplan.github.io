@@ -249,57 +249,63 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">30.4000 %</td>
+        <td>30.4000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">27.4500 %</td>
+        <td>27.4500</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">26.5800 %</td>
+        <td>26.5800</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">26.5800 %</td>
+        <td>26.5800</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">47.0000 %</td>
+        <td>47.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2014-12-31</td>
-        <td class="derecha">43.0000 %</td>
+        <td>43.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">49.0000 %</td>
+        <td>49.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2017-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td>Porcentaje de la oferta total (SECTUR)</td>
       </tr>
       <tr>
         <td class="centrado">2018-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td>Porcentaje de la oferta total (SECTUR)</td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>0</td>
+        <td>IMCO</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -326,37 +332,37 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">48.8700 %</td>
+        <td>48.8700</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td>0.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">0.0000 %</td>
+        <td class="centrado">2021-12-31</td>
+        <td>0</td>
         <td>IMCO</td>
-        <td>Porcentaje de la oferta total (SECTUR)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -471,7 +477,8 @@
         { fecha: '2014-12-31', dato: 43.0000 },
         { fecha: '2016-12-31', dato: 49.0000 },
         { fecha: '2017-12-31', dato: 0.0000 },
-        { fecha: '2018-12-31', dato: 0.0000 }],
+        { fecha: '2018-12-31', dato: 0.0000 },
+        { fecha: '2021-12-31', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -486,7 +493,7 @@
   if (typeof varSmiOtrasRegionesOcupacionHoteleraEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesOcupacionHoteleraEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesOcupacionHoteleraEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 48.8700 },{ region: 'Gómez Palacio', dato: 0.0000 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 0.0000 }],
+      data: [{ region: 'Torreón', dato: 48.8700 },{ region: 'Gómez Palacio', dato: 0.0000 },{ region: 'Lerdo', dato: 0.0000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 0 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

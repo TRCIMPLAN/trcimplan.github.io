@@ -43,7 +43,7 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \SMIBase\Publicaci
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Empleo';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Empleo');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \SMIBase\Publicaci
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -71,7 +71,9 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \SMIBase\Publicaci
             array('fecha' => '2009-12-31', 'valor' => '0.1500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '0.1500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0.1500', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '0.1500', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '0.1500', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '50', 'fuente_nombre' => 'INEGI'),
+            array('fecha' => '2021-11-23', 'valor' => '24', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 14, crudo 7
     } // datos
 
     /**
@@ -83,7 +85,7 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \SMIBase\Publicaci
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -99,7 +101,7 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \SMIBase\Publicaci
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '0.8400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '-10.0400', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '6.2200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '0.1500', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-11-23', 'valor' => '24', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

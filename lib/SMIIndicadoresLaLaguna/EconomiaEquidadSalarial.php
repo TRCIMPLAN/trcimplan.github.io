@@ -43,7 +43,7 @@ class EconomiaEquidadSalarial extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'Ayuntamiento de Torreón');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaEquidadSalarial extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -75,7 +75,16 @@ class EconomiaEquidadSalarial extends \SMIBase\PublicacionWeb {
             array('fecha' => '2013-12-31', 'valor' => '0.2287', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2014-12-31', 'valor' => '0.1185', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2015-12-31', 'valor' => '0.0643', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2016-12-31', 'valor' => '0.2213', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 9
+            array('fecha' => '2015-12-31', 'valor' => '23.9700', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2016-12-31', 'valor' => '0.2213', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '17.3700', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2017-12-31', 'valor' => '28.6900', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2018-12-31', 'valor' => '23.4300', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2018-12-31', 'valor' => '23.4300', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2019-12-31', 'valor' => '29.0000', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2019-12-31', 'valor' => '29.0000', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2020-12-31', 'valor' => '24.2400', 'fuente_nombre' => 'Ayuntamiento de Torreón'),
+            array('fecha' => '2021-12-31', 'valor' => '21.6100', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 36, crudo 18
     } // datos
 
     /**

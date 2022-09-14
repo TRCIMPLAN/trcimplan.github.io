@@ -69,7 +69,10 @@ class GobiernoBarrerasParaCandidatosIndependientes extends \SMIBase\PublicacionW
         return array(
             array('fecha' => '2016-12-31', 'valor' => '6.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '1.3200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la lista nominal (Legislación estatal)'),
-            array('fecha' => '2018-12-31', 'valor' => '1.3200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la lista nominal (Legislación estatal)')); // formateado 0, valor 6, crudo 5
+            array('fecha' => '2018-12-31', 'valor' => '1.3200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la lista nominal (Legislación estatal)'),
+            array('fecha' => '2019-12-31', 'valor' => '1.3162', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '1.3167', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '1.3173', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 12, crudo 8
     } // datos
 
     /**
@@ -97,7 +100,7 @@ class GobiernoBarrerasParaCandidatosIndependientes extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '8.5000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '1.3200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la lista nominal (Legislación estatal)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '1.3173', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

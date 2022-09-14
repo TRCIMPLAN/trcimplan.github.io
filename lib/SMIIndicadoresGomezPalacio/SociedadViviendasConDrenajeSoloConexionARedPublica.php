@@ -100,7 +100,7 @@ class SociedadViviendasConDrenajeSoloConexionARedPublica extends \SMIBase\Public
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '74367', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de viviendas con conexión a red pública'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '35001', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de viviendas con conexión a red pública'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '20667', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de viviendas con conexión a red pública'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '86.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '90.6900', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

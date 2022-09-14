@@ -232,6 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -258,8 +259,19 @@
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-04-30</td>
+        <td class="derecha">661</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Robos Totales en Coahuila con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
+
+    <div id="SmiGraficasRobosTotalesEnCoahuilaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Robos Totales en Coahuila</h3>
@@ -305,30 +317,30 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2022-05-31</td>
-        <td class="derecha">404</td>
+        <td class="centrado">2022-07-31</td>
+        <td class="derecha">528</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2022-03-31</td>
+        <td class="centrado">2022-04-30</td>
         <td class="derecha">661</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2022-03-31</td>
+        <td class="centrado">2022-04-30</td>
         <td class="derecha">537</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2022-03-31</td>
+        <td class="centrado">2022-04-30</td>
         <td class="derecha">49,350</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
     </tbody>
@@ -374,12 +386,29 @@ Incluye todos los tipos y modalidades de robo especificadas en el SESNSP</p>
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasRobosTotalesEnCoahuilaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
+    varSmiGraficasRobosTotalesEnCoahuilaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
+      element: 'SmiGraficasRobosTotalesEnCoahuilaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
+      data: [
+        { fecha: '2019-08-31', dato: 195 },
+        { fecha: '2022-04-30', dato: 661 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesRobosTotalesEnCoahuilaGrafica === 'undefined') {
     varSmiOtrasRegionesRobosTotalesEnCoahuilaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesRobosTotalesEnCoahuilaGrafica',
-      data: [{ region: 'Torreón', dato: 143 },{ region: 'Gómez Palacio', dato: 139 },{ region: 'Lerdo', dato: 53 },{ region: 'Matamoros', dato: 46 },{ region: 'La Laguna', dato: 404 },{ region: 'Coahuila', dato: 661 },{ region: 'Durango', dato: 537 },{ region: 'Nacional', dato: 49350 }],
+      data: [{ region: 'Torreón', dato: 143 },{ region: 'Gómez Palacio', dato: 139 },{ region: 'Lerdo', dato: 53 },{ region: 'Matamoros', dato: 46 },{ region: 'La Laguna', dato: 528 },{ region: 'Coahuila', dato: 661 },{ region: 'Durango', dato: 537 },{ region: 'Nacional', dato: 49350 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -289,6 +289,12 @@
         <td>IMCO</td>
         <td>Número por cada 100 mil de la PEA (CONACYT)</td>
       </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>3</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -341,10 +347,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td>2.9800</td>
+        <td class="centrado">2021-12-31</td>
+        <td>3</td>
         <td>IMCO</td>
-        <td>Número por cada 100 mil de la PEA (CONACYT)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -458,7 +464,8 @@
         { fecha: '2011-12-31', dato: 0 },
         { fecha: '2012-12-31', dato: 0 },
         { fecha: '2017-12-31', dato: 3.3600 },
-        { fecha: '2018-12-31', dato: 2.9800 }],
+        { fecha: '2018-12-31', dato: 2.9800 },
+        { fecha: '2021-12-31', dato: 3 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -473,7 +480,7 @@
   if (typeof varSmiOtrasRegionesPosgradosDeCalidadPorCada100milDePeaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPosgradosDeCalidadPorCada100milDePeaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPosgradosDeCalidadPorCada100milDePeaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 2.9800 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 3 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -249,57 +249,75 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">23.5055</td>
+        <td>23.5055</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">23.5055</td>
+        <td>23.5055</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">23.5055</td>
+        <td>23.5055</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">23.5055</td>
+        <td>23.5055</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">19.0018</td>
+        <td>19.0018</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">8.4836</td>
+        <td>8.4836</td>
         <td>IMCO</td>
         <td>En 2013 se manejó como número de vehículos reportados como robados por cada 1,000 vehículos registrados</td>
       </tr>
       <tr>
         <td class="centrado">2014-12-31</td>
-        <td class="derecha">3.4958</td>
+        <td>3.4958</td>
         <td>IMCO</td>
         <td>En 2014 se manejó como número de vehículos reportados como robados por cada 1,000 vehículos registrados</td>
       </tr>
       <tr>
         <td class="centrado">2017-12-31</td>
-        <td class="derecha">0.7400</td>
+        <td>0.7400</td>
         <td>IMCO</td>
         <td>Por cada mil vehículos registrados ( Segob (SESNSP))</td>
       </tr>
       <tr>
         <td class="centrado">2018-12-31</td>
-        <td class="derecha">0.8700</td>
+        <td>0.8700</td>
         <td>IMCO</td>
         <td>Por cada mil vehículos registrados ( Segob (SESNSP))</td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>2.6452</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>2.0043</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>1.7068</td>
+        <td>IMCO</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -326,37 +344,37 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">23.1372</td>
+        <td>23.1372</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">7.5040</td>
+        <td>7.5040</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">40.1776</td>
+        <td>40.1776</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">8.3992</td>
+        <td>8.3992</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">0.8700</td>
+        <td class="centrado">2021-12-31</td>
+        <td>1.7068</td>
         <td>IMCO</td>
-        <td>Por cada mil vehículos registrados ( Segob (SESNSP))</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -461,6 +479,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTasaDeRoboDeVehiculosEnLaLaguna === 'undefined') {
+     $('#SmiDatosTasaDeRoboDeVehiculosEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosTasaDeRoboDeVehiculosEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTasaDeRoboDeVehiculosEnLaLaguna === 'undefined') {
@@ -475,7 +511,10 @@
         { fecha: '2013-12-31', dato: 8.4836 },
         { fecha: '2014-12-31', dato: 3.4958 },
         { fecha: '2017-12-31', dato: 0.7400 },
-        { fecha: '2018-12-31', dato: 0.8700 }],
+        { fecha: '2018-12-31', dato: 0.8700 },
+        { fecha: '2019-12-31', dato: 2.6452 },
+        { fecha: '2020-12-31', dato: 2.0043 },
+        { fecha: '2021-12-31', dato: 1.7068 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -490,7 +529,7 @@
   if (typeof varSmiOtrasRegionesTasaDeRoboDeVehiculosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTasaDeRoboDeVehiculosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTasaDeRoboDeVehiculosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 23.1372 },{ region: 'Gómez Palacio', dato: 7.5040 },{ region: 'Lerdo', dato: 40.1776 },{ region: 'Matamoros', dato: 8.3992 },{ region: 'La Laguna', dato: 0.8700 }],
+      data: [{ region: 'Torreón', dato: 23.1372 },{ region: 'Gómez Palacio', dato: 7.5040 },{ region: 'Lerdo', dato: 40.1776 },{ region: 'Matamoros', dato: 8.3992 },{ region: 'La Laguna', dato: 1.7068 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

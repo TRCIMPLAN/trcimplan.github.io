@@ -55,7 +55,7 @@ class EconomiaCrecimientoDelPibEstatal extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -75,7 +75,8 @@ class EconomiaCrecimientoDelPibEstatal extends \SMIBase\PublicacionWeb {
             array('fecha' => '2016-12-31', 'valor' => '2.1000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '2.3100', 'fuente_nombre' => 'IMCO', 'notas' => 'Tasa de crecimiento promedio anual estatal (INEGI)'),
             array('fecha' => '2018-12-31', 'valor' => '2.3000', 'fuente_nombre' => 'IMCO', 'notas' => 'Tasa de crecimiento promedio anual estatal (INEGI)'),
-            array('fecha' => '2018-12-31', 'valor' => '25.3700', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 11
+            array('fecha' => '2018-12-31', 'valor' => '25.3700', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2022-07-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 20, crudo 12
     } // datos
 
     /**
@@ -87,7 +88,7 @@ class EconomiaCrecimientoDelPibEstatal extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -103,7 +104,7 @@ class EconomiaCrecimientoDelPibEstatal extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2018-12-31', 'valor' => '1.0700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2018-12-31', 'valor' => '1.0700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2018-12-31', 'valor' => '2.7200', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '25.3700', 'fuente_nombre' => 'IMCO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-07-31', 'valor' => '0.4000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2018-12-31', 'valor' => '1.2200', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 

@@ -250,44 +250,50 @@
     <tbody>
       <tr>
         <td class="centrado">1998-12-31</td>
-        <td class="derecha">22.5000 %</td>
+        <td>22.5000</td>
         <td>INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2003-12-31</td>
-        <td class="derecha">25.4000 %</td>
+        <td>25.4000</td>
         <td>INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">28.0342 %</td>
+        <td>28.0342</td>
         <td>INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">27.6995 %</td>
+        <td>27.6995</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2019-09-30</td>
-        <td class="derecha">22.3100 %</td>
+        <td>22.3100</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2019-12-31</td>
-        <td class="derecha">24.4200 %</td>
+        <td>24.4200</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2020-03-31</td>
-        <td class="derecha">21.8700 %</td>
+        <td>21.8700</td>
         <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-08-22</td>
+        <td>110999</td>
+        <td>INEGI</td>
         <td></td>
       </tr>
     </tbody>
@@ -320,56 +326,56 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">26.9458 %</td>
+        <td>26.9458</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">29.4578 %</td>
+        <td>29.4578</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">24.1890 %</td>
+        <td>24.1890</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">35.3180 %</td>
+        <td>35.3180</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2020-03-31</td>
-        <td class="derecha">21.8700 %</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td class="centrado">2022-08-22</td>
+        <td>110999</td>
+        <td>INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Coahuila</td>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">22.8278 %</td>
+        <td>22.8278</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">30.6424 %</td>
+        <td>30.6424</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
         <td class="centrado">2013-12-31</td>
-        <td class="derecha">29.6141 %</td>
+        <td>29.6141</td>
         <td>Elaboración propia con datos obtenidos del INEGI</td>
         <td></td>
       </tr>
@@ -498,7 +504,8 @@
       data: [
         { fecha: '1998-12-31', dato: 22.5000 },
         { fecha: '2003-12-31', dato: 25.4000 },
-        { fecha: '2008-12-31', dato: 28.0342 }],
+        { fecha: '2008-12-31', dato: 28.0342 },
+        { fecha: '2022-08-22', dato: 110999 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -513,7 +520,7 @@
   if (typeof varSmiOtrasRegionesPersonalOcupadoEnElComercioEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPersonalOcupadoEnElComercioEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPersonalOcupadoEnElComercioEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 26.9458 },{ region: 'Gómez Palacio', dato: 29.4578 },{ region: 'Lerdo', dato: 24.1890 },{ region: 'Matamoros', dato: 35.3180 },{ region: 'La Laguna', dato: 21.8700 },{ region: 'Coahuila', dato: 22.8278 },{ region: 'Durango', dato: 30.6424 },{ region: 'Nacional', dato: 29.6141 }],
+      data: [{ region: 'Torreón', dato: 26.9458 },{ region: 'Gómez Palacio', dato: 29.4578 },{ region: 'Lerdo', dato: 24.1890 },{ region: 'Matamoros', dato: 35.3180 },{ region: 'La Laguna', dato: 110999 },{ region: 'Coahuila', dato: 22.8278 },{ region: 'Durango', dato: 30.6424 },{ region: 'Nacional', dato: 29.6141 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

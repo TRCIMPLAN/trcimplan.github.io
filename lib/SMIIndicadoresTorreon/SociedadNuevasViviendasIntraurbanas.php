@@ -95,7 +95,7 @@ class SociedadNuevasViviendasIntraurbanas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '91.6500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '71.9600', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '16.0800', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '72.1200', 'fuente_nombre' => 'IMCO', 'notas' => 'Viviendas en U1 y U2 como % de las viviendas vigentes (CONAVI (SNIIV))'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '70.8000', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

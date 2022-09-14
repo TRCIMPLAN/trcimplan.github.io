@@ -249,37 +249,67 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">115.9000</td>
+        <td>115.9000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">114.6000</td>
+        <td>114.6000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">113.1000</td>
+        <td>113.1000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">111.6000</td>
+        <td>111.6000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">110.2000</td>
+        <td>110.2000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">105.7900</td>
+        <td>105.7900</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>105</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>104</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>102</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>101</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -335,8 +365,8 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2016-12-31</td>
-        <td>105.7900</td>
+        <td class="centrado">2021-12-31</td>
+        <td>100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
@@ -444,6 +474,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosConsumoDeAguaEnLaLaguna === 'undefined') {
+     $('#SmiDatosConsumoDeAguaEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosConsumoDeAguaEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasConsumoDeAguaEnLaLaguna === 'undefined') {
@@ -455,7 +503,12 @@
         { fecha: '2010-12-31', dato: 113.1000 },
         { fecha: '2011-12-31', dato: 111.6000 },
         { fecha: '2012-12-31', dato: 110.2000 },
-        { fecha: '2016-12-31', dato: 105.7900 }],
+        { fecha: '2016-12-31', dato: 105.7900 },
+        { fecha: '2017-12-31', dato: 105 },
+        { fecha: '2018-12-31', dato: 104 },
+        { fecha: '2019-12-31', dato: 102 },
+        { fecha: '2020-12-31', dato: 101 },
+        { fecha: '2021-12-31', dato: 100 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -470,7 +523,7 @@
   if (typeof varSmiOtrasRegionesConsumoDeAguaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesConsumoDeAguaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesConsumoDeAguaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 85429000 },{ region: 'Gómez Palacio', dato: 29321000 },{ region: 'Lerdo', dato: 13828000 },{ region: 'Matamoros', dato: 11893000 },{ region: 'La Laguna', dato: 105.7900 }],
+      data: [{ region: 'Torreón', dato: 85429000 },{ region: 'Gómez Palacio', dato: 29321000 },{ region: 'Lerdo', dato: 13828000 },{ region: 'Matamoros', dato: 11893000 },{ region: 'La Laguna', dato: 100 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

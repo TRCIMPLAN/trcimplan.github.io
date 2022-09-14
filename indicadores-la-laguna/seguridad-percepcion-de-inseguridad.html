@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -249,59 +249,65 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">70.0700 %</td>
+        <td>70.0700</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">70.0700 %</td>
+        <td>70.0700</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">70.0700 %</td>
+        <td>70.0700</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">70.9400 %</td>
+        <td>70.9400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">68.8400 %</td>
+        <td>68.8400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">51.0000 %</td>
+        <td>51.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2017-12-31</td>
-        <td class="derecha">42.4800 %</td>
+        <td>42.4800</td>
         <td>IMCO</td>
         <td>Porcentaje de encuestados que reportan sentirse seguros (INEGI (ENVIPE))</td>
       </tr>
       <tr>
         <td class="centrado">2018-12-31</td>
-        <td class="derecha">41.9700 %</td>
+        <td>41.9700</td>
         <td>IMCO</td>
         <td>Porcentaje de encuestados que reportan sentirse seguros (INEGI (ENVIPE))</td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>50</td>
+        <td>INEGI</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Percepción de Inseguridad en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Percepción de Inseguridad en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasPercepcionDeInseguridadEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasPercepcionDeInseguridadEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Percepción de Inseguridad en La Laguna</h3>
@@ -320,37 +326,37 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">50.4400 %</td>
+        <td>50.4400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">51.8100 %</td>
+        <td>51.8100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">51.8100 %</td>
+        <td>51.8100</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">50.4400 %</td>
+        <td>50.4400</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">41.9700 %</td>
-        <td>IMCO</td>
-        <td>Porcentaje de encuestados que reportan sentirse seguros (INEGI (ENVIPE))</td>
+        <td class="centrado">2020-12-31</td>
+        <td>50</td>
+        <td>INEGI</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -455,11 +461,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasPercepcionDeInseguridadEnLaLaguna === 'undefined') {
-    varSmiGraficasPercepcionDeInseguridadEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasPercepcionDeInseguridadEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasPercepcionDeInseguridadEnLaLagunaImco === 'undefined') {
+    varSmiGraficasPercepcionDeInseguridadEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasPercepcionDeInseguridadEnLaLagunaImco',
       data: [
         { fecha: '2008-12-31', dato: 70.0700 },
         { fecha: '2009-12-31', dato: 70.0700 },
@@ -483,7 +489,7 @@
   if (typeof varSmiOtrasRegionesPercepcionDeInseguridadEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesPercepcionDeInseguridadEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesPercepcionDeInseguridadEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 50.4400 },{ region: 'Gómez Palacio', dato: 51.8100 },{ region: 'Lerdo', dato: 51.8100 },{ region: 'Matamoros', dato: 50.4400 },{ region: 'La Laguna', dato: 41.9700 }],
+      data: [{ region: 'Torreón', dato: 50.4400 },{ region: 'Gómez Palacio', dato: 51.8100 },{ region: 'Lerdo', dato: 51.8100 },{ region: 'Matamoros', dato: 50.4400 },{ region: 'La Laguna', dato: 50 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -302,6 +302,12 @@
         <td></td>
       </tr>
       <tr>
+        <td class="centrado">2022-04-30</td>
+        <td class="derecha">62</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td></td>
+      </tr>
+      <tr>
         <td class="centrado">2022-05-31</td>
         <td class="derecha">26</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
@@ -366,23 +372,23 @@
       </tr>
       <tr>
         <td>Coahuila</td>
-        <td class="centrado">2022-03-31</td>
+        <td class="centrado">2022-04-30</td>
         <td class="derecha">51</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Durango</td>
-        <td class="centrado">2022-03-31</td>
+        <td class="centrado">2022-04-30</td>
         <td class="derecha">46</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
       <tr>
         <td>Nacional</td>
-        <td class="centrado">2022-03-31</td>
+        <td class="centrado">2022-04-30</td>
         <td class="derecha">2,319</td>
-        <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Indicadores Estratégicos</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
     </tbody>
@@ -488,6 +494,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosAbusoDeConfianzaEnLaLaguna === 'undefined') {
+     $('#SmiDatosAbusoDeConfianzaEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosAbusoDeConfianzaEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasAbusoDeConfianzaEnLaLagunaSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
@@ -501,7 +525,7 @@
         { fecha: '2022-01-31', dato: 14 },
         { fecha: '2022-02-28', dato: 22 },
         { fecha: '2022-03-31', dato: 26 },
-        { fecha: '2022-04-30', dato: 19 },
+        { fecha: '2022-04-30', dato: 62 },
         { fecha: '2022-05-31', dato: 26 }],
       xkey: 'fecha',
       ykeys: ['dato'],

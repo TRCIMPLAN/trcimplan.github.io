@@ -43,7 +43,7 @@ class GobiernoParticipacionCiudadana extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Participación Ciudadana';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Participación Ciudadana');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class GobiernoParticipacionCiudadana extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -72,9 +72,11 @@ class GobiernoParticipacionCiudadana extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '46.0500', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '62.5300', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '62.5300', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '51', 'fuente_nombre' => 'INEGI'),
             array('fecha' => '2016-12-31', 'valor' => '31.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '44.5000', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la lista nominal (INE)'),
-            array('fecha' => '2018-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la lista nominal (INE)')); // formateado 0, valor 16, crudo 10
+            array('fecha' => '2018-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la lista nominal (INE)'),
+            array('fecha' => '2021-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 20, crudo 12
     } // datos
 
     /**
@@ -86,7 +88,7 @@ class GobiernoParticipacionCiudadana extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -102,7 +104,7 @@ class GobiernoParticipacionCiudadana extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '37.3500', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '39.0200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '8.6100', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de la lista nominal (INE)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

@@ -43,7 +43,7 @@ class GobiernoParticipacionElectoral extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Participación Ciudadana';
         // Para el Organizador
         $this->categorias  = array('Participación Ciudadana');
-        $this->fuentes     = array('INE-IEPCC');
+        $this->fuentes     = array('INE-IEPCC', 'IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -67,7 +67,9 @@ class GobiernoParticipacionElectoral extends \SMIBase\PublicacionWeb {
      */
     public function datos() {
         return array(
-            array('fecha' => '2012-07-01', 'valor' => '57.6800', 'fuente_nombre' => 'INE-IEPCC')); // formateado 0, valor 2, crudo 1
+            array('fecha' => '2012-07-01', 'valor' => '57.6800', 'fuente_nombre' => 'INE-IEPCC'),
+            array('fecha' => '2019-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -95,7 +97,7 @@ class GobiernoParticipacionElectoral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-07-01', 'valor' => '58.3100', 'fuente_nombre' => 'INE-IEPCC'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-07-01', 'valor' => '59.5700', 'fuente_nombre' => 'INE-IEPCC'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-07-01', 'valor' => '64.5800', 'fuente_nombre' => 'INE-IEPCC'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-07-01', 'valor' => '57.6800', 'fuente_nombre' => 'INE-IEPCC'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '63.8200', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

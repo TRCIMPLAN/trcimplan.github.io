@@ -43,7 +43,7 @@ class SociedadCarenciaPorAccesoALosServiciosDeSalud extends \SMIBase\Publicacion
         $this->claves      = 'IMPLAN, La Laguna, Población';
         // Para el Organizador
         $this->categorias  = array('Población');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'CONEVAL');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -68,7 +68,8 @@ class SociedadCarenciaPorAccesoALosServiciosDeSalud extends \SMIBase\Publicacion
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '23.0900', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2015-12-31', 'valor' => '18.0800', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2015-12-31', 'valor' => '18.0800', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '24.3500', 'fuente_nombre' => 'CONEVAL')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -96,7 +97,7 @@ class SociedadCarenciaPorAccesoALosServiciosDeSalud extends \SMIBase\Publicacion
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '16.3000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '15.0000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '17.6000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '18.0800', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '24.3500', 'fuente_nombre' => 'CONEVAL'));
     } // otras_regiones
 
     /**

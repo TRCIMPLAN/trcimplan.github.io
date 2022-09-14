@@ -74,7 +74,10 @@ class GobiernoIngresosPropios extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '32.6557', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '34.0000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '11.9700', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los ingresos totales (INEGI (SIMBAD))'),
-            array('fecha' => '2018-12-31', 'valor' => '13.9000', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los ingresos totales (INEGI (SIMBAD))')); // formateado 0, valor 16, crudo 10
+            array('fecha' => '2018-12-31', 'valor' => '13.9000', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los ingresos totales (INEGI (SIMBAD))'),
+            array('fecha' => '2019-12-31', 'valor' => '30.6800', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '31.8600', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '32.0700', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 22, crudo 13
     } // datos
 
     /**
@@ -102,7 +105,7 @@ class GobiernoIngresosPropios extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '30.1700', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '19.6300', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '13.1500', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '13.9000', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los ingresos totales (INEGI (SIMBAD))'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '32.0700', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

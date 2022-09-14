@@ -163,20 +163,26 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2021-08-31', 'valor' => '87974', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-09-30', 'valor' => '89035', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-09-30', 'valor' => '89035', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2021-09-30', 'valor' => '89035', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-10-30', 'valor' => '90001', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-10-30', 'valor' => '90001', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2021-10-31', 'valor' => '90001', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2021-11-30', 'valor' => '90751', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-11-30', 'valor' => '90751', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-11-30', 'valor' => '90751', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-12-31', 'valor' => '89282', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2021-12-31', 'valor' => '89282', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2021-12-31', 'valor' => '89282', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-01-31', 'valor' => '90269', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-01-31', 'valor' => '90269', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2022-01-31', 'valor' => '90269', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2022-02-28', 'valor' => '90565', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-02-28', 'valor' => '90565', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-02-28', 'valor' => '90565', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-03-31', 'valor' => '90824', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-04-30', 'valor' => '90490', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-05-31', 'valor' => '90217', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2022-06-30', 'valor' => '90241', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 220, crudo 111
+            array('fecha' => '2022-06-30', 'valor' => '90241', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 232, crudo 117
     } // datos
 
     /**

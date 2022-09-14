@@ -74,7 +74,8 @@ class EconomiaPatentes extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '5.3714', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '16', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Patentes solicitadas'),
             array('fecha' => '2017-12-31', 'valor' => '1.6000', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de patentes solicitadas por cada 100 mil de la PEA (CONACYT)'),
-            array('fecha' => '2018-12-31', 'valor' => '11.0000', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de patentes solicitadas por cada 100 mil de la PEA (CONACYT)')); // formateado 0, valor 16, crudo 11
+            array('fecha' => '2018-12-31', 'valor' => '11.0000', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de patentes solicitadas por cada 100 mil de la PEA (CONACYT)'),
+            array('fecha' => '2021-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 12
     } // datos
 
     /**
@@ -102,7 +103,7 @@ class EconomiaPatentes extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Patentes solicitadas'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Patentes solicitadas'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '49', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Patentes solicitadas'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '11.0000', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de patentes solicitadas por cada 100 mil de la PEA (CONACYT)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

@@ -74,7 +74,8 @@ class EconomiaDemandantesDeConflictoLaboral extends \SMIBase\PublicacionWeb {
             array('fecha' => '2012-12-31', 'valor' => '9.0768', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '0.7000', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se mostró como "porcentaje" Por cada mil PEA'),
             array('fecha' => '2017-12-31', 'valor' => '7.6500', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada mil PEA (INEGI)'),
-            array('fecha' => '2018-12-31', 'valor' => '6.9200', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada mil PEA (INEGI)')); // formateado 0, valor 16, crudo 11
+            array('fecha' => '2018-12-31', 'valor' => '6.9200', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada mil PEA (INEGI)'),
+            array('fecha' => '2021-11-23', 'valor' => '6', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 18, crudo 12
     } // datos
 
     /**
@@ -102,7 +103,7 @@ class EconomiaDemandantesDeConflictoLaboral extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '1058', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Trabajadores involucrados en demandas laborales'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '0.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '6.9200', 'fuente_nombre' => 'IMCO', 'notas' => 'Por cada mil PEA (INEGI)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-11-23', 'valor' => '6', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

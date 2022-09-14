@@ -43,7 +43,7 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Vivienda';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Vivienda');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -74,7 +74,8 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
             array('fecha' => '2012-12-31', 'valor' => '80.2700', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '85.0900', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '84.4500', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los hogares (INEGI (MCS))'),
-            array('fecha' => '2018-12-31', 'valor' => '88.6100', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los hogares (INEGI (MCS))')); // formateado 0, valor 16, crudo 10
+            array('fecha' => '2018-12-31', 'valor' => '88.6100', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los hogares (INEGI (MCS))'),
+            array('fecha' => '2020-12-31', 'valor' => '91.9600', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 18, crudo 11
     } // datos
 
     /**
@@ -102,7 +103,7 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \SMIBase\PublicacionW
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '90746', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '35794', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '28362', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Hogares con líneas telefónicas móviles'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '88.6100', 'fuente_nombre' => 'IMCO', 'notas' => 'Porcentaje de los hogares (INEGI (MCS))'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '91.9600', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

@@ -43,7 +43,7 @@ class EconomiaInversionSinActividadPetroleraExtraccionYRefinacion extends \SMIBa
         $this->claves      = 'IMPLAN, La Laguna, Finanzas Públicas';
         // Para el Organizador
         $this->categorias  = array('Finanzas Públicas');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('INEGI', 'IMCO');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaInversionSinActividadPetroleraExtraccionYRefinacion extends \SMIBa
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -67,7 +67,16 @@ class EconomiaInversionSinActividadPetroleraExtraccionYRefinacion extends \SMIBa
      */
     public function datos() {
         return array(
-            array('fecha' => '2016-12-31', 'valor' => '116.0700', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se mostró como "Miles de pesos por PEA"')); // formateado 0, valor 2, crudo 2
+            array('fecha' => '2015-11-30', 'valor' => '10.31', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'),
+            array('fecha' => '2016-12-31', 'valor' => '116.0700', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se mostró como "Miles de pesos por PEA"'),
+            array('fecha' => '2016-12-31', 'valor' => '12.19', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'),
+            array('fecha' => '2017-12-31', 'valor' => '11.87', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'),
+            array('fecha' => '2018-12-31', 'valor' => '13.49', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'),
+            array('fecha' => '2018-12-31', 'valor' => '13.49', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'),
+            array('fecha' => '2019-12-31', 'valor' => '13.27', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'),
+            array('fecha' => '2019-12-31', 'valor' => '13.27', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'),
+            array('fecha' => '2020-12-31', 'valor' => '12.10', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'),
+            array('fecha' => '2021-12-31', 'valor' => '10.34', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA')); // formateado 0, valor 20, crudo 20
     } // datos
 
     /**
@@ -95,7 +104,7 @@ class EconomiaInversionSinActividadPetroleraExtraccionYRefinacion extends \SMIBa
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '16707350.00', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '1667420.00', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '914365.00', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '116.0700', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 se mostró como "Miles de pesos por PEA"'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '10.34', 'fuente_nombre' => 'INEGI', 'notas' => 'Miles de pesos por PEA'));
     } // otras_regiones
 
     /**

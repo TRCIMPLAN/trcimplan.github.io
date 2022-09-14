@@ -55,7 +55,7 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -72,9 +72,18 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \SMIBase\PublicacionWeb {
             array('fecha' => '2010-12-31', 'valor' => '0.1618', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '0.1633', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2012-12-31', 'valor' => '0.1640', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2015-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '6.0200', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2016-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '1.0200', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de matrices que están del Top 500 CNN por cada 10 mil empresas (CNN Expansión)'),
-            array('fecha' => '2018-12-31', 'valor' => '1.0200', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de matrices que están del Top 500 CNN por cada 10 mil empresas (CNN Expansión)')); // formateado 0, valor 16, crudo 10
+            array('fecha' => '2017-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '1.0200', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de matrices que están del Top 500 CNN por cada 10 mil empresas (CNN Expansión)'),
+            array('fecha' => '2018-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2018-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2019-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 34, crudo 19
     } // datos
 
     /**
@@ -86,7 +95,7 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -102,7 +111,7 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '2.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '1.0200', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de matrices que están del Top 500 CNN por cada 10 mil empresas (CNN Expansión)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '2', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

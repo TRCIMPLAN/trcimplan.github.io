@@ -43,7 +43,7 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Medio Ambiente, Movilidad, Sector Automotriz, Vialidad';
         // Para el Organizador
         $this->categorias  = array('Medio Ambiente', 'Movilidad', 'Sector Automotriz', 'Vialidad');
-        $this->fuentes     = array('Logit', 'IMCO');
+        $this->fuentes     = array('Logit', 'IMCO', 'INEGI. Censos de Población y Vivienda');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -68,7 +68,8 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2011-12-31', 'valor' => '49.0000', 'fuente_nombre' => 'Logit'),
-            array('fecha' => '2016-12-31', 'valor' => '32.0000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2016-12-31', 'valor' => '32.0000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '51.4800', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -96,7 +97,7 @@ class SustentabilidadUsoDeAutomovilParticular extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '26.8200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '25.7200', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '16.9000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2016-12-31', 'valor' => '32.0000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '51.4800', 'fuente_nombre' => 'INEGI. Censos de Población y Vivienda'));
     } // otras_regiones
 
     /**

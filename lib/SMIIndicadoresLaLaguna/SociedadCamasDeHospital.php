@@ -55,7 +55,7 @@ class SociedadCamasDeHospital extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -76,7 +76,10 @@ class SociedadCamasDeHospital extends \SMIBase\PublicacionWeb {
             array('fecha' => '2014-12-31', 'valor' => '0.1252', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2016-12-31', 'valor' => '45.5900', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2017-12-31', 'valor' => '10.1600', 'fuente_nombre' => 'IMCO', 'notas' => 'Camas censables por cada 10 mil habitantes (SSA (SINAIS))'),
-            array('fecha' => '2018-12-31', 'valor' => '10.1300', 'fuente_nombre' => 'IMCO', 'notas' => 'Camas censables por cada 10 mil habitantes (SSA (SINAIS))')); // formateado 0, valor 20, crudo 12
+            array('fecha' => '2018-12-31', 'valor' => '10.1300', 'fuente_nombre' => 'IMCO', 'notas' => 'Camas censables por cada 10 mil habitantes (SSA (SINAIS))'),
+            array('fecha' => '2019-12-31', 'valor' => '10', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2020-12-31', 'valor' => '10', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2021-12-31', 'valor' => '10', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 26, crudo 15
     } // datos
 
     /**
@@ -104,7 +107,7 @@ class SociedadCamasDeHospital extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '818', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de camas censables'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '114', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de camas censables'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '71', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de camas censables'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '10.1300', 'fuente_nombre' => 'IMCO', 'notas' => 'Camas censables por cada 10 mil habitantes (SSA (SINAIS))'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '10', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**

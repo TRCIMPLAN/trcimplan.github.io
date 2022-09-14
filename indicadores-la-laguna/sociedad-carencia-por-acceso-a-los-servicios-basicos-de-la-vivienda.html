@@ -232,7 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
-    <li role="presentation"><a href="#LenguetasIndicadorGrafica" aria-controls="LenguetasIndicadorGrafica" role="tab" data-toggle="tab">Gráfica</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica2" aria-controls="LenguetasIndicadorGrafica2" role="tab" data-toggle="tab">Gráfica 2</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -259,13 +259,19 @@
         <td>IMCO</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">4.4700 %</td>
+        <td>CONEVAL</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica">
-    <h3>Carencia por acceso a los servicios básicos de la vivienda en La Laguna </h3>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica2">
+    <h3>Carencia por acceso a los servicios básicos de la vivienda en La Laguna con fuente IMCO</h3>
 
-    <div id="SmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLaguna" class="grafica"></div>
+    <div id="SmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Carencia por acceso a los servicios básicos de la vivienda en La Laguna</h3>
@@ -311,9 +317,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2015-12-31</td>
-        <td class="derecha">4.6500 %</td>
-        <td>IMCO</td>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">4.4700 %</td>
+        <td>CONEVAL</td>
         <td></td>
       </tr>
     </tbody>
@@ -419,11 +425,11 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
-  // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
-  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
-  if (typeof varSmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLaguna === 'undefined') {
-    varSmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLaguna = Morris.Line({
-      element: 'SmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLaguna',
+  // LenguetaWeb LenguetasIndicadorGrafica2 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica2"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaImco === 'undefined') {
+    varSmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaImco',
       data: [
         { fecha: '2010-12-31', dato: 4.5100 },
         { fecha: '2015-12-31', dato: 4.6500 }],
@@ -441,7 +447,7 @@
   if (typeof varSmiOtrasRegionesCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesCarenciaPorAccesoALosServiciosBasicosDeLaViviendaEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 1.9000 },{ region: 'Gómez Palacio', dato: 8.0000 },{ region: 'Lerdo', dato: 6.3000 },{ region: 'Matamoros', dato: 9.0000 },{ region: 'La Laguna', dato: 4.6500 }],
+      data: [{ region: 'Torreón', dato: 1.9000 },{ region: 'Gómez Palacio', dato: 8.0000 },{ region: 'Lerdo', dato: 6.3000 },{ region: 'Matamoros', dato: 9.0000 },{ region: 'La Laguna', dato: 4.4700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

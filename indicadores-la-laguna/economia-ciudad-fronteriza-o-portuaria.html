@@ -295,6 +295,24 @@
         <td>IMCO</td>
         <td>Variable categórica (0=ninguna, 1=puerto, 2=frontera) (IMCO)</td>
       </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>0</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>0</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>0</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -347,10 +365,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td>ND</td>
+        <td class="centrado">2021-12-31</td>
+        <td>0</td>
         <td>IMCO</td>
-        <td>Variable categórica (0=ninguna, 1=puerto, 2=frontera) (IMCO)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -448,6 +466,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosCiudadFronterizaOPortuariaEnLaLaguna === 'undefined') {
+     $('#SmiDatosCiudadFronterizaOPortuariaEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosCiudadFronterizaOPortuariaEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasCiudadFronterizaOPortuariaEnLaLaguna === 'undefined') {
@@ -461,7 +497,10 @@
         { fecha: '2012-12-31', dato: 0 },
         { fecha: '2016-12-31', dato: 0 },
         { fecha: '2017-12-31', dato: 0 },
-        { fecha: '2018-12-31', dato: 0 }],
+        { fecha: '2018-12-31', dato: 0 },
+        { fecha: '2019-12-31', dato: 0 },
+        { fecha: '2020-12-31', dato: 0 },
+        { fecha: '2021-12-31', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

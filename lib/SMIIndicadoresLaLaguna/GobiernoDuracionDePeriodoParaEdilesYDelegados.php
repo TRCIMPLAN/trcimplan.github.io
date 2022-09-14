@@ -43,7 +43,7 @@ class GobiernoDuracionDePeriodoParaEdilesYDelegados extends \SMIBase\Publicacion
         $this->claves      = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Gobierno';
         // Para el Organizador
         $this->categorias  = array('Índice de Competitividad Urbana', 'Gobierno');
-        $this->fuentes     = array('IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class GobiernoDuracionDePeriodoParaEdilesYDelegados extends \SMIBase\Publicacion
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -71,7 +71,8 @@ class GobiernoDuracionDePeriodoParaEdilesYDelegados extends \SMIBase\Publicacion
             array('fecha' => '2009-12-31', 'valor' => '3.5000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2010-12-31', 'valor' => '3.5000', 'fuente_nombre' => 'IMCO'),
             array('fecha' => '2011-12-31', 'valor' => '3.5000', 'fuente_nombre' => 'IMCO'),
-            array('fecha' => '2012-12-31', 'valor' => '3.5000', 'fuente_nombre' => 'IMCO')); // formateado 0, valor 10, crudo 5
+            array('fecha' => '2012-12-31', 'valor' => '3.5000', 'fuente_nombre' => 'IMCO'),
+            array('fecha' => '2017-12-31', 'valor' => '50', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 12, crudo 6
     } // datos
 
     /**
@@ -83,7 +84,7 @@ class GobiernoDuracionDePeriodoParaEdilesYDelegados extends \SMIBase\Publicacion
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'decimal'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -99,7 +100,7 @@ class GobiernoDuracionDePeriodoParaEdilesYDelegados extends \SMIBase\Publicacion
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2012-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2012-12-31', 'valor' => '3.0000', 'fuente_nombre' => 'IMCO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2012-12-31', 'valor' => '4.0000', 'fuente_nombre' => 'IMCO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2012-12-31', 'valor' => '3.5000', 'fuente_nombre' => 'IMCO'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2017-12-31', 'valor' => '50', 'fuente_nombre' => 'INEGI'));
     } // otras_regiones
 
     /**

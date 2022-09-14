@@ -96,7 +96,7 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \SMIBase\Pub
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '83.0000', 'fuente_nombre' => 'CONAPO-INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '65.5000', 'fuente_nombre' => 'CONAPO-INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '65.6000', 'fuente_nombre' => 'CONAPO-INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '81.3000', 'fuente_nombre' => 'CONAPO-INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '87.1500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'));
     } // otras_regiones
 
     /**

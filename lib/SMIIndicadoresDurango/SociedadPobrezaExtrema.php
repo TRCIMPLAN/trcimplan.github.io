@@ -95,7 +95,7 @@ class SociedadPobrezaExtrema extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '0.8000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '1.0000', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '3.6000', 'fuente_nombre' => 'CONEVAL'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '2.0600', 'fuente_nombre' => 'CONEVAL'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '6.9700', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2010-12-31', 'valor' => '2.9400', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Durango', 'fecha' => '2010-12-31', 'valor' => '10.1200', 'fuente_nombre' => 'CONEVAL'),
             array('region_nombre' => 'Nacional', 'fecha' => '2010-12-31', 'valor' => '11.2000', 'fuente_nombre' => 'CONEVAL'));

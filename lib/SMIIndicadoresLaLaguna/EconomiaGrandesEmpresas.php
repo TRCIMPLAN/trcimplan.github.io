@@ -43,7 +43,7 @@ class EconomiaGrandesEmpresas extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Empresas';
         // Para el Organizador
         $this->categorias  = array('Empresas');
-        $this->fuentes     = array('Sistema de Información Empresarial Mexicano (SIEM)');
+        $this->fuentes     = array('Sistema de Información Empresarial Mexicano (SIEM)', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -55,7 +55,7 @@ class EconomiaGrandesEmpresas extends \SMIBase\PublicacionWeb {
     public function datos_estructura() {
         return array(
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // datos_estructura
@@ -68,7 +68,8 @@ class EconomiaGrandesEmpresas extends \SMIBase\PublicacionWeb {
     public function datos() {
         return array(
             array('fecha' => '2013-12-31', 'valor' => '0.5300', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
-            array('fecha' => '2014-07-31', 'valor' => '1.0700', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2014-07-31', 'valor' => '1.0700', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('fecha' => '2021-11-23', 'valor' => '213', 'fuente_nombre' => 'INEGI')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -80,7 +81,7 @@ class EconomiaGrandesEmpresas extends \SMIBase\PublicacionWeb {
         return array(
             'region_nombre' => array('enca' => 'Región', 'formato' => 'texto'),
             'fecha' => array('enca' => 'Fecha', 'formato' => 'fecha'),
-            'valor' => array('enca' => 'Dato', 'formato' => 'porcentaje'),
+            'valor' => array('enca' => 'Dato', 'formato' => 'texto'),
             'fuente_nombre' => array('enca' => 'Fuente', 'formato' => 'texto'),
             'notas' => array('enca' => 'Notas', 'formato' => 'texto'));
     } // otras_regiones_estructura
@@ -96,7 +97,7 @@ class EconomiaGrandesEmpresas extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2014-07-31', 'valor' => '0.9800', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2014-07-31', 'valor' => '0.0000', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2014-07-31', 'valor' => '0.5800', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2014-07-31', 'valor' => '1.0700', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-11-23', 'valor' => '213', 'fuente_nombre' => 'INEGI'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2014-07-31', 'valor' => '1.0400', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
             array('region_nombre' => 'Durango', 'fecha' => '2014-07-31', 'valor' => '0.7800', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2014-07-31', 'valor' => '0.5900', 'fuente_nombre' => 'Sistema de Información Empresarial Mexicano (SIEM)'));

@@ -232,6 +232,7 @@
 <div>
   <ul class="nav nav-tabs lenguetas" role="tablist" id="LenguetasIndicador">
     <li role="presentation" class="active"><a href="#LenguetasIndicadorDatos" aria-controls="LenguetasIndicadorDatos" role="tab" data-toggle="tab">Datos</a></li>
+    <li role="presentation"><a href="#LenguetasIndicadorGrafica1" aria-controls="LenguetasIndicadorGrafica1" role="tab" data-toggle="tab">Gráfica 1</a></li>
     <li role="presentation"><a href="#LenguetasIndicadorOtrasRegiones" aria-controls="LenguetasIndicadorOtrasRegiones" role="tab" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -252,8 +253,25 @@
         <td>INE-IEPCC</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td class="derecha">63.8200 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">63.8200 %</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorGrafica1">
+    <h3>Participación Electoral en La Laguna con fuente IMCO</h3>
+
+    <div id="SmiGraficasParticipacionElectoralEnLaLagunaImco" class="grafica"></div>
   </div>
   <div role="tabpanel" class="tab-pane" id="LenguetasIndicadorOtrasRegiones">
     <h3>Últimos datos de Participación Electoral en La Laguna</h3>
@@ -299,9 +317,9 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2012-07-01</td>
-        <td class="derecha">57.6800 %</td>
-        <td>INE-IEPCC</td>
+        <td class="centrado">2020-12-31</td>
+        <td class="derecha">63.8200 %</td>
+        <td>IMCO</td>
         <td></td>
       </tr>
     </tbody>
@@ -400,12 +418,29 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorGrafica1 ejecuta lo siguiente al mostrar
+  $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica1"]').on('shown.bs.tab', function(e){
+  if (typeof varSmiGraficasParticipacionElectoralEnLaLagunaImco === 'undefined') {
+    varSmiGraficasParticipacionElectoralEnLaLagunaImco = Morris.Line({
+      element: 'SmiGraficasParticipacionElectoralEnLaLagunaImco',
+      data: [
+        { fecha: '2019-12-31', dato: 63.8200 },
+        { fecha: '2020-12-31', dato: 63.8200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+  })
   // LenguetaWeb LenguetasIndicadorOtrasRegiones ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorOtrasRegiones"]').on('shown.bs.tab', function(e){
   if (typeof varSmiOtrasRegionesParticipacionElectoralEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesParticipacionElectoralEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesParticipacionElectoralEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 53.7500 },{ region: 'Gómez Palacio', dato: 58.3100 },{ region: 'Lerdo', dato: 59.5700 },{ region: 'Matamoros', dato: 64.5800 },{ region: 'La Laguna', dato: 57.6800 }],
+      data: [{ region: 'Torreón', dato: 53.7500 },{ region: 'Gómez Palacio', dato: 58.3100 },{ region: 'Lerdo', dato: 59.5700 },{ region: 'Matamoros', dato: 64.5800 },{ region: 'La Laguna', dato: 63.8200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -249,51 +249,105 @@
     <tbody>
       <tr>
         <td class="centrado">2008-12-31</td>
-        <td class="derecha">0.1592</td>
+        <td>0.1592</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2009-12-31</td>
-        <td class="derecha">0.1611</td>
+        <td>0.1611</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2010-12-31</td>
-        <td class="derecha">0.1618</td>
+        <td>0.1618</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2011-12-31</td>
-        <td class="derecha">0.1633</td>
+        <td>0.1633</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2012-12-31</td>
-        <td class="derecha">0.1640</td>
+        <td>0.1640</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2015-12-31</td>
+        <td>2</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">6.0200</td>
+        <td>6.0200</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2016-12-31</td>
+        <td>1</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td class="centrado">2017-12-31</td>
-        <td class="derecha">1.0200</td>
+        <td>1.0200</td>
+        <td>IMCO</td>
+        <td>Número de matrices que están del Top 500 CNN por cada 10 mil empresas (CNN Expansión)</td>
+      </tr>
+      <tr>
+        <td class="centrado">2017-12-31</td>
+        <td>1</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>1.0200</td>
         <td>IMCO</td>
         <td>Número de matrices que están del Top 500 CNN por cada 10 mil empresas (CNN Expansión)</td>
       </tr>
       <tr>
         <td class="centrado">2018-12-31</td>
-        <td class="derecha">1.0200</td>
+        <td>1</td>
         <td>IMCO</td>
-        <td>Número de matrices que están del Top 500 CNN por cada 10 mil empresas (CNN Expansión)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2018-12-31</td>
+        <td>1</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>1</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2019-12-31</td>
+        <td>1</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2020-12-31</td>
+        <td>1</td>
+        <td>IMCO</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="centrado">2021-12-31</td>
+        <td>2</td>
+        <td>IMCO</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -320,37 +374,37 @@
       <tr>
         <td>Torreón</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">2.0000</td>
+        <td>2.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">2.0000</td>
+        <td>2.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Lerdo</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">2.0000</td>
+        <td>2.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>Matamoros</td>
         <td class="centrado">2016-12-31</td>
-        <td class="derecha">2.0000</td>
+        <td>2.0000</td>
         <td>IMCO</td>
         <td></td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2018-12-31</td>
-        <td class="derecha">1.0200</td>
+        <td class="centrado">2021-12-31</td>
+        <td>2</td>
         <td>IMCO</td>
-        <td>Número de matrices que están del Top 500 CNN por cada 10 mil empresas (CNN Expansión)</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -448,6 +502,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosGrandesEmpresasSegunCnnExpansionEnLaLaguna === 'undefined') {
+     $('#SmiDatosGrandesEmpresasSegunCnnExpansionEnLaLaguna').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosGrandesEmpresasSegunCnnExpansionEnLaLaguna = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasGrandesEmpresasSegunCnnExpansionEnLaLaguna === 'undefined') {
@@ -459,9 +531,13 @@
         { fecha: '2010-12-31', dato: 0.1618 },
         { fecha: '2011-12-31', dato: 0.1633 },
         { fecha: '2012-12-31', dato: 0.1640 },
-        { fecha: '2016-12-31', dato: 6.0200 },
-        { fecha: '2017-12-31', dato: 1.0200 },
-        { fecha: '2018-12-31', dato: 1.0200 }],
+        { fecha: '2015-12-31', dato: 2 },
+        { fecha: '2016-12-31', dato: 1 },
+        { fecha: '2017-12-31', dato: 1 },
+        { fecha: '2018-12-31', dato: 1 },
+        { fecha: '2019-12-31', dato: 1 },
+        { fecha: '2020-12-31', dato: 1 },
+        { fecha: '2021-12-31', dato: 2 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -476,7 +552,7 @@
   if (typeof varSmiOtrasRegionesGrandesEmpresasSegunCnnExpansionEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesGrandesEmpresasSegunCnnExpansionEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesGrandesEmpresasSegunCnnExpansionEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 2.0000 },{ region: 'Gómez Palacio', dato: 2.0000 },{ region: 'Lerdo', dato: 2.0000 },{ region: 'Matamoros', dato: 2.0000 },{ region: 'La Laguna', dato: 1.0200 }],
+      data: [{ region: 'Torreón', dato: 2.0000 },{ region: 'Gómez Palacio', dato: 2.0000 },{ region: 'Lerdo', dato: 2.0000 },{ region: 'Matamoros', dato: 2.0000 },{ region: 'La Laguna', dato: 2 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

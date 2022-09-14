@@ -43,7 +43,7 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \SMIBase\Pub
         $this->claves      = 'IMPLAN, La Laguna, Movilidad, Sector Automotriz';
         // Para el Organizador
         $this->categorias  = array('Movilidad', 'Sector Automotriz');
-        $this->fuentes     = array('CONAPO-INEGI');
+        $this->fuentes     = array('CONAPO-INEGI', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos');
         $this->regiones    = array('La Laguna');
     } // constructor
 
@@ -68,7 +68,8 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \SMIBase\Pub
     public function datos() {
         return array(
             array('fecha' => '2010-12-31', 'valor' => '82.9000', 'fuente_nombre' => 'CONAPO-INEGI'),
-            array('fecha' => '2015-12-31', 'valor' => '81.3000', 'fuente_nombre' => 'CONAPO-INEGI')); // formateado 0, valor 4, crudo 2
+            array('fecha' => '2015-12-31', 'valor' => '81.3000', 'fuente_nombre' => 'CONAPO-INEGI'),
+            array('fecha' => '2020-12-31', 'valor' => '87.1500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos')); // formateado 0, valor 6, crudo 3
     } // datos
 
     /**
@@ -96,7 +97,7 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \SMIBase\Pub
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2015-12-31', 'valor' => '83.0000', 'fuente_nombre' => 'CONAPO-INEGI'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2015-12-31', 'valor' => '65.5000', 'fuente_nombre' => 'CONAPO-INEGI'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2015-12-31', 'valor' => '65.6000', 'fuente_nombre' => 'CONAPO-INEGI'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2015-12-31', 'valor' => '81.3000', 'fuente_nombre' => 'CONAPO-INEGI'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2020-12-31', 'valor' => '87.1500', 'fuente_nombre' => 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos'));
     } // otras_regiones
 
     /**

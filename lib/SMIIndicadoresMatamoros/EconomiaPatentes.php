@@ -100,7 +100,7 @@ class EconomiaPatentes extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Patentes solicitadas'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2016-12-31', 'valor' => '9', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Patentes solicitadas'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2016-12-31', 'valor' => '49', 'fuente_nombre' => 'IMCO', 'notas' => 'En 2016 cambió a "cantidad" de Patentes solicitadas'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2018-12-31', 'valor' => '11.0000', 'fuente_nombre' => 'IMCO', 'notas' => 'Número de patentes solicitadas por cada 100 mil de la PEA (CONACYT)'));
+            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '1', 'fuente_nombre' => 'IMCO'));
     } // otras_regiones
 
     /**
