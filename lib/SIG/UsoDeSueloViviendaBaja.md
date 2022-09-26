@@ -1,74 +1,54 @@
 ﻿
-### Densidad
+###LINEAMIENTOS
 
-Densidad de vivienda
-**20 Viv./Ha.**
+Clave: **H1**
 
-### Restricciones Generales
+Frente mínimo (m): **12**
 
-Lote mínimo unifamiliar
-**350 m2**
+Lote mínimo (Vivienda unifamiliar): **350**
 
-Frente mínimo del lote
-**12m**
+Densidad Unifamiliar <sup>1</sup> (viv/ha): **29**
 
-Remetimiento
-**3 m a partir del alineamiento**
+COS máximo <sup>2</sup>: **0.7**
 
-Altura máxima
-**2 niveles o 6m**
+CUS máximo <sup>2</sup>: **1.4**
 
-COS (Coeficiente de Ocupación del Suelo)
-**0.70**
+CAS mínimo <sup>2</sup>: **0.3**
 
-CUS (Coeficiente de Uso del Suelo)
-**1.2**
+Porcentaje máximo de área destinada a vivienda multifamiliar: **N/A**
 
-CAS (Coeficiente de Absorción del Suelo)
-**15 %**
+Niveles máximos <sup>3</sup>: **2**
 
-Cajones de estacionamiento
-**1 por cada 100m2 de construcción**
+Niveles máximos con Norma 8 <sup>3,4</sup>: **N/A**
 
-Porcentaje de Área Multifamiliar
-**15%**
+<p>
+<span style="color:gray">
+</br>
+    <b>NOTAS:</b></br>
 
-Lote mínimo multifamiliar
-**Condicionado**
+    <b>N/A</b> = No aplica</br>
 
-### Usos y Destinos del Suelo
+    <b>1.</b> La densidad definida en esta tabla es aplicable a vivienda unifamiliar; cuando se trate de vivienda multifamiliar, esta densidad se determinará con base en el apartado Cálculo para densidad de Vivienda Multifamiliar del Plan Director de Desarrollo Urbano 2022.</br>
 
-**Permitidos**
+    <b>2.</b> Se ajustarán los valores de acuerdo con la normativa correspondiente (Norma 8) y el proyecto aprobado del Plan Director de Desarrollo Urbano 2022.</br>
 
-* Vivienda unifamiliar
-* Parques, jardines y plazas abiertas públicas.
-* Tanques de abastecimiento, equipo de bombeo de agua potable
-* Drenaje pluvial
+    <b>3.</b> Los niveles aprobados para los predios que se encuentran en la Cónica de aproximación al Aeropuerto Internacional de Torreón y que está señalado en el Mapa. Cónica de aproximación del Aeropuerto, están sujetos a dictamen positivo de aeronáutica civil, expedido por la Dirección homónima de acuerdo con la normatividad aplicable señalada en el Plan Director de Desarrollo Urbano 2022 y demás similares en materia de Aeronáutica Civil.</br>
 
-**Condicionados**
+    <b>4.</b>Aplicable solamente a los predios localizados en el área de aplicación de la Norma 8: Fomento a la densidad, bajo los criterios que esta especifique en tanto esta no se contraponga con la Norma: Área sujeta a alturas por cono de aproximación del Aeropuerto de Torreón.</br>
 
-* Planta de tratamiento de aguas
+    <b>5.</b>Lineamientos aplicables a cualquier tipo de equipamiento.</br>
 
-Para revisar restricciones de giros condicionados, referirse a la Matriz de Compatibilidad del Uso del Suelo del presente Reglamento.
+</span>
+</p>
 
-**Prohibidos**
+###USOS Y DESTINOS DEL SUELO
 
-* Todos los demás no indicados en las secciones “Permitidos” y “Condicionados”.
+**GIROS PERMITIDOS**
 
-### Infraestructura Urbana
+- Vivienda unifamiliar
+- Vivienda plurifamiliar horizontal
+- Parques, jardines vecinales y de juegos infantiles
+- Casetas de vigilancia
 
-* Sistema de alcantarillado con descargas domiciliarias.
-* Abastecimiento de agua potable con toma domiciliaria.
-* Red de distribución de energía eléctrica.
-* Alumbrado público
-* Redes telefónicas
-* Guarniciones y banquetas
-* Pavimento de calles de concreto asfáltico u otro material de calidad similar.
-* Arbolado en áreas de calles y glorietas.
-* Placas de nomenclatura en los cruces de calles.
-* Red de drenaje sanitario y descargas domiciliarias.
-* Descarga de aguas pluviales a un colector.
-* Contenedores de basura.
-* Plan de Manejo Integral de Aguas Pluviales.
-
-FUENTE: REGLAMENTO DE DESARROLLO URBANO Y CONSTRUCCIÓN DE TORREÓN.
+###FUENTE
+Plan Director de Desarrollo Urbano de Torreón, Coahuila, 2022.

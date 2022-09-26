@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-09-20</lastmod>
+    <lastmod>2022-09-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -168,6 +168,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/calles-mejor-conectadas-julio2019.html</loc>
     <lastmod>2019-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/cambio-climatico-cuenta-regresiva-sep-2022.html</loc>
+    <lastmod>2022-09-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5752,12 +5757,12 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sig/uso-de-suelo-vivienda-alta.html</loc>
-    <lastmod>2017-08-22</lastmod>
+    <lastmod>2022-09-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sig/uso-de-suelo-vivienda-baja.html</loc>
-    <lastmod>2017-08-22</lastmod>
+    <lastmod>2022-09-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

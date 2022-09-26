@@ -34,8 +34,8 @@ class UsoDeSueloViviendaAlta extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre                     = 'Uso de suelo H6';
-        $this->fecha                      = '2017-08-22T12:07';
+        $this->nombre                     = 'Habitacional Densidad Alta H6';
+        $this->fecha                      = '2022-09-21T12:07';
         // El nombre del archivo a crear
         $this->archivo                    = 'uso-de-suelo-vivienda-alta';
         // La descripción y claves dan información a los buscadores y redes sociales
