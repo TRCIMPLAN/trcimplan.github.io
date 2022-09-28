@@ -35,11 +35,11 @@ class UsoDeSueloViviendaBaja extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título y fecha
         $this->nombre                     = 'Uso de suelo H1';
-        $this->fecha                      = '2022-09-21T12:06';
+        $this->fecha                      = '2017-08-22T12:06';
         // El nombre del archivo a crear
         $this->archivo                    = 'uso-de-suelo-vivienda-baja';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Habitacional Densidad Baja.';
+        $this->descripcion                = 'Usos de suelo para vivienda baja.';
         $this->claves                     = 'IMPLAN, Torreon, Usos, Suelo, Vivienda, Densidad Baja';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Información Geográfica > Zonificación Secundaria';

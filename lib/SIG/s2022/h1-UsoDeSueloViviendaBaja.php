@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - UsoDeSueloViviendaAlta
+ * TrcIMPLAN Sitio Web - h1-UsoDeSueloViviendaBaja
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SIG;
 
 /**
- * Clase UsoDeSueloViviendaAlta
+ * Clase h1-UsoDeSueloViviendaBaja
  */
-class UsoDeSueloViviendaAlta extends \Base\PublicacionSchemaArticle {
+class h1-UsoDeSueloViviendaBaja extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
@@ -34,19 +34,19 @@ class UsoDeSueloViviendaAlta extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre                     = 'Uso de suelo H6';
-        $this->fecha                      = '2017-08-22T12:07';
+        $this->nombre                     = 'Uso de suelo H1';
+        $this->fecha                      = '2022-09-21T12:06';
         // El nombre del archivo a crear
-        $this->archivo                    = 'uso-de-suelo-vivienda-alta';
+        $this->archivo                    = 'uso-de-suelo-vivienda-baja';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Usos de suelo para vivienda con densidad alta.';
-        $this->claves                     = 'IMPLAN, Torreon, Usos, Suelo, Vivienda, Densidad Alta';
+        $this->descripcion                = 'Habitacional Densidad Baja.';
+        $this->claves                     = 'IMPLAN, Torreon, Usos, Suelo, Vivienda, Densidad Baja';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Información Geográfica > Zonificación Secundaria';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SIG/UsoDeSueloViviendaAlta.md';
+        $this->contenido_archivo_markdown = 'lib/SIG/s2022/h1-UsoDeSueloViviendaBaja.md';
     } // constructor
 
-} // Clase UsoDeSueloViviendaAlta
+} // Clase h1-UsoDeSueloViviendaBaja
 
 ?>

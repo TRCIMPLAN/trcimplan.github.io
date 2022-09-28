@@ -1,210 +1,153 @@
 ﻿
-###LINEAMIENTOS
-
-Clave: **H6**
-
-Frente mínimo (m): **7**
-
-Lote mínimo (Vivienda unifamiliar): **105**
-
-Densidad Unifamiliar <sup>1</sup> (viv/ha): **95**
-
-COS máximo <sup>2</sup>: **0.8**
-
-CUS máximo <sup>2</sup>: **3.2**
-
-CAS mínimo <sup>2</sup>: **0.2**
-
-Porcentaje máximo de área destinada a vivienda multifamiliar: **60%**
-
-Niveles máximos <sup>3</sup>: **3**
-
-Niveles máximos con Norma 8 <sup>3,4</sup>: **N/A**
-<p>
-<span style="color:gray">
-
-<b>NOTAS:</b></br>
-
-<b>N/A</b> = No aplica</br>
-
-<b>1.</b> La densidad definida en esta tabla es aplicable a vivienda unifamiliar; cuando se trate de vivienda multifamiliar, esta densidad se determinará con base en el apartado Cálculo para densidad de Vivienda Multifamiliar del Plan Director de Desarrollo Urbano 2022.</br>
-
-<b>2.</b> Se ajustarán los valores de acuerdo con la normativa correspondiente (Norma 8) y el proyecto aprobado del Plan Director de Desarrollo Urbano 2022.</br>
-
-<b>3.</b> Los niveles aprobados para los predios que se encuentran en la Cónica de aproximación al Aeropuerto Internacional de Torreón y que está señalado en el Mapa. Cónica de aproximación del Aeropuerto, están sujetos a dictamen positivo de aeronáutica civil, expedido por la Dirección homónima de acuerdo con la normatividad aplicable señalada en el Plan Director de Desarrollo Urbano 2022 y demás similares en materia de Aeronáutica Civil.</br>
-
-<b>4.</b> Aplicable solamente a los predios localizados en el área de aplicación de la Norma 8: Fomento a la densidad, bajo los criterios que esta especifique en tanto esta no se contraponga con la Norma: Área sujeta a alturas por cono de aproximación del Aeropuerto de Torreón.</br>
-
-<b>5.</b> Lineamientos aplicables a cualquier tipo de equipamiento.</br>
-
-</span>
-</p>
-
-###USOS Y DESTINOS DEL SUELO
-
-**GIROS PERMITIDOS**
-
-- Vivienda unifamiliar
-
-- Vivienda plurifamiliar horizontal
-
-- Vivienda plurifamiliar vertical
-
-- Carnicería, pollería, pescadería y venta de frutas, legumbres, lácteos, embutidos y otros perecederos
-
-- Papelería, mercería, cibercafé, dulcerías o confiterías, expendios de revistas y periódicos
-
-- Farmacia o droguería alópata u homeópata y ópticas
-
-- Venta de perfumes, joyas, relojes, flores, ropa, accesorios de vestir, zapatos, telas, regalos y artesanías
-
-- Venta de productos y alimentos para animales
-
-- Venta de discos, libros, artículos musicales, deportivos y artísticos
-
-- Venta de artículos para decoración de interiores y muebles
-
-- Viveros y tiendas de venta de plantas artículos y jardinería
-
-- Venta y reparación de artículos eléctricos y electrónicos para el hogar, incluidos línea blanca, computación básica y de oficina
-
-- Venta de billetes de lotería, pronósticos deportivos y otros boletos de sorteo
-
-- Venta de granos, semillas y forrajes
-
-- Venta de equipo de rehabilitación, ortopédico, quirúrgico o dental
-
-- Ferretería y Tlapalería
-
-- Venta e instalación de refacciones, partes y accesorios de vehículos motorizados y no motorizados
-
-- Lavandería, planchaduría, tintorería y sastrería
-
-- Peluquería y salones de belleza
-
-- Cerrajería
-
-- Reparación y mantenimiento de electrodomésticos y equipo eléctrico de uso doméstico
-
-- Clínica y estética veterinaria
-
-- Escuela de manejo
-
-- Paqueterías, servicios de envío y otros de comunicaciones y transporte
-
-- Imprentas, serigrafías, centros de copiado
-
-- Productoras discográficas, editoras de software, editoras de música y y otros servicios similares
-
-- Servicios de fotografía y videograbación
-
-- Alquiler de ropa, mobiliario, blancos y/o línea blanca
-
-- Boliches, patinaje, juegos de mesa y juegos infantiles
-
-- Casa de huéspedes y mesones
-
-- Agencia de viajes
-
-- Consultorios, dispensarios médicos, unidades de primer contacto
-
-- Biblioteca
-
-- Centro y casa cultural y galerías de arte
-
-- Parques, jardines vecinales y de juegos infantiles
-
-- Plaza cívica y/o explanada
-
-- Parque urbano
-
-- Unidad deportiva, que incluye canchas, alberca y clubes públicos
-
-- Casetas de vigilancia
-
-**GIROS CONDICIONADOS**
-
-- Abarrotes, minisúper, misceláneas, tiendas de abarrotes y de artículos básicos de uso personal y doméstico, tortillería, panadería, nevería y paletería (incluyendo elaboración): C-2
-
-- Purificadoras de agua: C-2
-
-- Fondas, cocinas económicas, cenadurías y loncherías sin venta de bebidas alcohólicas: C-6
-
-- Supermercados y tiendas de autoservicio: C-3 y C-4
-
-- Gimnasio, centros de acondicionamiento físico o donde se impartan clases de disciplinas deportivas: C-5
-
-- Restaurantes, cafés, fuentes de sodas y otros servicios de preparación de alimentos sin venta de alcohol: C-6
-
-- Laboratorios médicos, dentales, patológicos y bioquímicos: C-5 y C-6
-
-- Domicilio fiscal y oficinas sin atención al público: C-5
-
-- Oficinas y consultorios de profesionistas: C-5
-
-- Bodegas y depósitos en general de alquiler: C-5
-
-- Quintas y jardines para eventos sociales: C-5
-
-- Alquiler de vehículos, estacionamientos públicos, servicios de carga y mudanzas: C-5
-
-- Centro de lucha libre: C-3 y C-4
-
-- Clubes deportivos, campestres y/o de golf sin vivienda: C-3
-
-- Sitios de taxis: C-3
-
-- Jardín de niños y guarderías: C-2, C-3 y C-4
-
-- Escuelas de educación básica, que incluye escuelas primarias, secundarias y de educación especial: C-2, C-3 y C-4
-
-- Mercado público: C-3 y C-4
-
-- Catedral, templo o capilla: C-3
-
-- Seminarios, conventos y albergues: C-3
-
-- Centro de asistencia de desarrollo infantil, guarderías y estancias de bienestar y desarrollo infantil: C-4
-
-- Elaboración de alimentos perecederos como quesos, tamales, chorizo, empanadas y similares en pequeña escala: C-2, C-5 y C-6
-
-- Bebidas alcohólicas de producción artesanal: C-2 y C-6
-
-- Artesanías en general: C-3
-
-- Elaboración de ropa y bordados: C-3
-
-- Talleres de joyería, orfebrería y similares: C-3
-
-- Tapicería: C-5
-
-.
-
-**CONDICIONANTES**
-
-<p>
-
-<span style="color:gray">
-
-<b>C-1</b> Sujeto a estudio de impacto ambiental y al cumplimiento de las normas de control ambiental</br>
-
-
-<b>C-2</b> Sujeto a dictamen de factibilidad de servicios</br>
-
-<b>C-3</b> Sujeto a estudio de impacto urbano y de movilidad evaluado por la autoridad competente de acuerdo con lo establecido en los artículos 252, 253 y 254 del Reglamento.</br>
-
-<b>C-4</b> Sujeto a las medidas que para tal efecto establezca el estudio de riesgos y peligros correspondiente de acuerdo con el Programa Interno de Protección Civil que se realice para estos efectos de acuerdo con lo establecido en el artículo 27 de la Ley de Protección Civil para el Estado de Coahuila, así como con lo establecido en el Reglamento de Protección Civil para el Municipio de Torreón, Coahuila.</br>
-
-<b>C-5</b> Sujeto a dictamen de entradas y salidas positivo evaluado por la Dirección de Ingeniería de Tránsito y Vialidades de acuerdo con los requisitos establecidos en el artículo 164 del Reglamento</br>
-
-<b>C-6</b> Sujeto a permiso o autorización sanitaria expedida por la Secretaría de Salud estatal de acuerdo con lo establecidos en los artículos 69, 70, 71, 72, 73, 74, 75 y 76 del Reglamento de la Ley de Salud del Estado de Coahuila</br>
-
-<b>C-7</b> Sujeto a cumplimiento de la NOM para instalaciones de Petróleos Mexicanos (Pemex) así como con lo dispuesto en el Reglamento para el establecimiento de gasolineras, estaciones de venta, almacenamiento de gasolinas, diésel y plantas de almacenamiento para distribución de gas licuado de petróleo del municipio de Torreón y con cualquier otra normatividad aplicable</br>
-
-<b>C-8</b> Sujeto a opinión técnica favorable del Comisariado Ejidal
-</span>
-</p>
-
-###FUENTE
-
-Plan Director de Desarrollo Urbano de Torreón, Coahuila, 2022.
+### Densidad
+
+Densidad de vivienda
+**65 Viv./Ha.**
+
+### Restricciones Generales
+
+Lote mínimo unifamiliar
+**91 m2**
+
+Frente mínimo del lote
+**7 m**
+
+Remetimiento
+**3 m a partir del alineamiento**
+
+Altura máxima
+**3 niveles o 9 m**
+
+COS (Coeficiente de Ocupación del Suelo)
+**.8**
+
+CUS (Coeficiente de Uso del Suelo)
+**1.6**
+
+CAS (Coeficiente de Absorción del Suelo)
+**10%**
+
+Cajones de estacionamiento
+**1 cajón por cada vivienda **
+
+Porcentaje de Área Multifamiliar
+**60%**
+
+Lote mínimo multifamiliar
+**Lote Multifamiliar deberá de respetar el CUS, COS, CAS y niveles señalados**
+
+### Usos y Destinos del Suelo
+
+**Permitidos**
+
+* Vivienda unifamiliar
+* Multifamiliar horizontal
+* Multifamiliar vertical
+* Dúplex
+* Triplex
+* Renta de videos y videoclub
+* Caseta de policía
+* Parques, jardines y plazas abiertas públicas.
+* Tanques de abastecimiento, equipo de bombeo de agua potable
+* Drenaje pluvial
+
+**Condicionados**
+
+* Jardín de niños
+* Educación primaria
+* Educación secundaria
+* Escuelas técnicas
+* Artes, deportes, educación especial y similar
+* Guardería infantil
+* Centro comunitario público no comercial
+* Templo, iglesia, todas las religiones
+* Convento, seminario
+* Club deportivo recreativo
+* Parque deportivo
+* Vitapista, ciclo pista
+* Snack
+* Cafés
+* Comida rápida y para llevar
+* Restaurante sin venta de bebidas alcohólicas
+* Tintorería
+* Lavandería,  planchaduria
+* Salón de belleza, peluquería, estética, depilación, uñas
+* Spa
+* Quiropráctico
+* Alquiler de ropa
+* Sitio de taxis
+* Renta de internet
+* Mercería, bonetería
+* Papel, cartón o vidrio nuevo
+* Envases
+* Artículos para oficina
+* Artículos electrónicos, computadoras, telefonía
+* Juguetería
+* Bicicletas y accesorios
+* Papelería, librería, revistaría, envoltura de regalos
+* Artículos escolares
+* Tienda de autoservicio
+* Frutas, legumbres
+* Carnicería, salchichonería, huevo, productos lácteos
+* Pescados, mariscos, productos marinos
+* Abarrotes, ultramarinos
+* Dulcería, chocolatería, paletería, nevería, aguas frescas
+* Refrescos embotellados, agua purificada, hielo
+* Panadería, tortillería
+* Farmacia
+* Productos naturistas
+* Herbarios
+* Alimento para animales domésticos
+* Mascotas, animales domésticos
+* Muebles, electrodomésticos, línea blanca
+* Alfombras, cortinas
+* Artículos de decoración, lámparas, candiles
+* Espejos, vidrios
+* Discos compactos, cintas, instrumentos musicales
+* Equipo y material fotográfico o cinematográfico
+* Aparatos y equipos deportivos
+* Aparatos médicos, aparatos ortopédicos
+* Óptica
+* Florería
+* Relojería
+* Perfumería
+* Artesanías
+* Artículos de arte
+* Antigüedades
+* Artículos religiosos
+* Consultorio médico, dental
+* Laboratorio médico, dental
+* Puesto de socorro
+* Centro de salud
+* Biblioteca
+* Museo, pinacoteca, acuario
+* Galería de arte, sala de exposiciones
+* Micro industria
+* Cerrajería
+* Compostura de calzado, ropa y sastrería
+* Reparación  de aparatos electrodomésticos
+* Taller de joyería y relojería
+* Planta de tratamiento de aguas
+
+Para revisar restricciones de giros condicionados, referirse a la Matriz de Compatibilidad del Uso del Suelo del presente Reglamento.
+
+**Prohibidos**
+
+* Todos los demás no indicados en las secciones “Permitidos” y “Condicionados”.
+
+### Infraestructura Urbana
+
+* Abastecimiento de agua potable con toma domiciliaria.
+* Sistema de alcantarillado con descargas domiciliarias.
+* Red de distribución de energía eléctrica.
+* Alumbrado público
+* Pavimento de calles de concreto asfáltico u otro material de calidad similar.
+* Arbolado en áreas de calles y glorietas.
+* Placas de nomenclatura en los cruces de calles.
+* Red de drenaje sanitario y descargas domiciliarias.
+* Descarga de aguas pluviales a un colector.
+* Contenedores de basura.
+* Plan de Manejo Integral de Aguas Pluviales.
+* Caseta de Vigilancia, en aquellos fraccionamientos que tengan una superficie vendible de 60,000 m2 o más.
+
+FUENTE: REGLAMENTO DE DESARROLLO URBANO Y CONSTRUCCIÓN DE TORREÓN.
