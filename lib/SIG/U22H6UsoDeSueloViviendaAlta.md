@@ -1,7 +1,7 @@
 ﻿
 ###LINEAMIENTOS
 
-Clave: **H6**
+Clave: <span style="color:orange; font-size:x-large">H6</span>
 
 Frente mínimo (m): **7**
 
@@ -21,7 +21,7 @@ Niveles máximos <sup>3</sup>: **3**
 
 Niveles máximos con Norma 8 <sup>3,4</sup>: **N/A**
 <p>
-<span style="color:gray">
+<span style="color:gray; font-size:small">
 
 <b>NOTAS:</b></br>
 
@@ -178,13 +178,13 @@ Niveles máximos con Norma 8 <sup>3,4</sup>: **N/A**
 
 - Tapicería: C-5
 
-.
+
 
 **CONDICIONANTES**
 
 <p>
 
-<span style="color:gray">
+<span style="color:gray; font-size:small">
 
 <b>C-1</b> Sujeto a estudio de impacto ambiental y al cumplimiento de las normas de control ambiental</br>
 

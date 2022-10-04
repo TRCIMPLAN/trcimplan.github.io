@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - h1-UsoDeSueloViviendaBaja
+ * TrcIMPLAN Sitio Web - U22CU11UsoDeSueloCorredorUrbano
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SIG;
 
 /**
- * Clase h1-UsoDeSueloViviendaBaja
+ * Clase U22CU11UsoDeSueloCorredorUrbano
  */
-class h1-UsoDeSueloViviendaBaja extends \Base\PublicacionSchemaArticle {
+class U22CU11UsoDeSueloCorredorUrbano extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
@@ -34,19 +34,19 @@ class h1-UsoDeSueloViviendaBaja extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre                     = 'Uso de suelo H1';
-        $this->fecha                      = '2022-09-21T12:06';
+        $this->nombre                     = 'CU 1.1 – Corredor Urbano Habitacional, Comercio y Servicios';
+        $this->fecha                      = '2022-09-28T12:07';
         // El nombre del archivo a crear
-        $this->archivo                    = 'uso-de-suelo-vivienda-baja';
+        $this->archivo                    = 'u22-cu11-uso-de-suelo-corredor-urbano';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Habitacional Densidad Baja.';
-        $this->claves                     = 'IMPLAN, Torreon, Usos, Suelo, Vivienda, Densidad Baja';
+        $this->descripcion                = 'Usos de suelo para Corredor Urbano Habitacional, Comercio y Servicios.';
+        $this->claves                     = 'IMPLAN, Torreon, Usos, Suelo, corredor, urbano, comercio, servicios';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Información Geográfica > Zonificación Secundaria';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SIG/s2022/h1-UsoDeSueloViviendaBaja.md';
+        $this->contenido_archivo_markdown = 'lib/SIG/U22CU11UsoDeSueloCorredorUrbano.md';
     } // constructor
 
-} // Clase h1-UsoDeSueloViviendaBaja
+} // Clase U22CU11UsoDeSueloCorredorUrbano
 
 ?>

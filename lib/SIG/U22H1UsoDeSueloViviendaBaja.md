@@ -1,7 +1,7 @@
 ﻿
 ###LINEAMIENTOS
 
-Clave: **H1**
+Clave: <span style="color:orange; font-size:x-large">H1</span>
 
 Frente mínimo (m): **12**
 
@@ -22,7 +22,7 @@ Niveles máximos <sup>3</sup>: **2**
 Niveles máximos con Norma 8 <sup>3,4</sup>: **N/A**
 
 <p>
-<span style="color:gray">
+<span style="color:gray; font-size:small">
 </br>
     <b>NOTAS:</b></br>
 

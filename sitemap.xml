@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-09-28</lastmod>
+    <lastmod>2022-10-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5643,6 +5643,96 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig/../sig-mapas-torreon/index.html</loc>
     <lastmod>2015-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-ai-agroindustria.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-ar-agricola-de-riego.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-av-area-verde-y-espacios-abiertos.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-cu11-uso-de-suelo-corredor-urbano.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-cu12-uso-de-suelo-corredor-urbano.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-eap-equipamiento-de-administracion-publica.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-ee-equipamiento-de-educacion.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-ei-equipamiento-de-infraestructura.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-erd-equipamiento-de-recreacion-y-deporte.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-es-equipamiento-de-salud.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-h1-uso-de-suelo-vivienda-baja.html</loc>
+    <lastmod>2022-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-h2-habitacional-densidad-media-baja.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-h3-habitacional-densidad-media.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-h5-uso-de-suelo-vivienda-media-alta.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-h6-uso-de-suelo-vivienda-alta.html</loc>
+    <lastmod>2022-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-hb-habitacional-densidad-muy-baja.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-s-servicios.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-zc-zona-de-conservacion.html</loc>
+    <lastmod>2022-09-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

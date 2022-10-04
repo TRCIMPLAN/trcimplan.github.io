@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - UsoDeSueloViviendaAlta
+ * TrcIMPLAN Sitio Web - U22AVAreaVerdeYEspaciosAbiertos
  *
  * Copyright (C) 2017 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
  *
@@ -23,9 +23,9 @@
 namespace SIG;
 
 /**
- * Clase UsoDeSueloViviendaAlta
+ * Clase U22AVAreaVerdeYEspaciosAbiertos
  */
-class UsoDeSueloViviendaAlta extends \Base\PublicacionSchemaArticle {
+class U22AVAreaVerdeYEspaciosAbiertos extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
@@ -34,19 +34,19 @@ class UsoDeSueloViviendaAlta extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre                     = 'Habitacional Densidad Alta H6';
-        $this->fecha                      = '2022-09-21T12:07';
+        $this->nombre                     = 'AV – Área Verde y Espacios Abiertos';
+        $this->fecha                      = '2022-09-28T12:07';
         // El nombre del archivo a crear
-        $this->archivo                    = 'uso-de-suelo-vivienda-alta';
+        $this->archivo                    = 'u22-av-area-verde-y-espacios-abiertos';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Usos de suelo para vivienda con densidad alta.';
-        $this->claves                     = 'IMPLAN, Torreon, Usos, Suelo, Vivienda, Densidad Alta';
+        $this->descripcion                = 'Usos de suelo para Área Verde y Espacios Abiertos.';
+        $this->claves                     = 'IMPLAN, Torreon, Usos, Suelo, area, verde';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Información Geográfica > Zonificación Secundaria';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/SIG/UsoDeSueloViviendaAlta.md';
+        $this->contenido_archivo_markdown = 'lib/SIG/U22AVAreaVerdeYEspaciosAbiertos.md';
     } // constructor
 
-} // Clase UsoDeSueloViviendaAlta
+} // Clase U22AVAreaVerdeYEspaciosAbiertos
 
 ?>
