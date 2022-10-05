@@ -2051,6 +2051,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/blog/ser-mujer-hacer-ciudad-oct-2022.html</loc>
+    <lastmod>2022-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/blog/servicios-publicos-intermunicipales-mar-2022.html</loc>
     <lastmod>2022-03-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -5672,6 +5677,21 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sig/u22-eap-equipamiento-de-administracion-publica.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-eas-equipamiento-de-asistencia-social.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-eca-equipamiento-de-comercio-y-abasto.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-ecl-equipamiento-cultural-y-religioso.html</loc>
     <lastmod>2022-09-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
