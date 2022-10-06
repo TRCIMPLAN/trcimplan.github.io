@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-10-04</lastmod>
+    <lastmod>2022-10-06</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5676,6 +5676,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-cu2-corredor-urbano-hab-comercio-servicios.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-cu3-corredor-urbano-comercio-servicios-ind.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig/u22-eap-equipamiento-de-administracion-publica.html</loc>
     <lastmod>2022-09-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -5692,6 +5702,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sig/u22-ecl-equipamiento-cultural-y-religioso.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-ect-equipamiento-comunicaciones-y-transporte.html</loc>
     <lastmod>2022-09-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5742,6 +5757,46 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sig/u22-hb-habitacional-densidad-muy-baja.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-he-habitacional-ejidal.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-ie-industria-extractiva.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-il-industria-ligera.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-im-industria-mediana.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-ip-industria-pesada.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-m1-mixto-hab-comercio.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-m2-mixto-hab-comercio-serv.html</loc>
+    <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-m3-mixto-hab-comercio-serv-ind.html</loc>
     <lastmod>2022-09-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
