@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Los Planes de Movilidad Activa son una reciente iniciativa de planeación urbana que considera los factores que limitan e impulsan el uso de medios no motorizados y su relación con la tipología de vías.">
+  <meta name="author" content="Mtro. Salvador Herrera Montes">
+  <meta name="keywords" content="IMPLAN, Torreon, movilidad">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Un Torreón para caminar y andar en bici es posible. - IMPLAN Torreón">
+  <meta name="twitter:description" content="Los Planes de Movilidad Activa son una reciente iniciativa de planeación urbana que considera los factores que limitan e impulsan el uso de medios no motorizados y su relación con la tipología de vías.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/un-torreon-para-caminar-y-andar-en-bici-oct-2022/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/un-torreon-para-caminar-y-andar-en-bici-oct-2022.html">
+  <meta name="og:title" content="Un Torreón para caminar y andar en bici es posible. - IMPLAN Torreón">
+  <meta name="og:description" content="Los Planes de Movilidad Activa son una reciente iniciativa de planeación urbana que considera los factores que limitan e impulsan el uso de medios no motorizados y su relación con la tipología de vías.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/un-torreon-para-caminar-y-andar-en-bici-oct-2022/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/un-torreon-para-caminar-y-andar-en-bici-oct-2022.html">
+  <title>Un Torreón para caminar y andar en bici es posible. - IMPLAN Torreón</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/estilosvm.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Google buscar..." value="" name="q">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active">
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Últimos Análisis</a></li>
+            <li><a href="../excolaboradores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Análisis por Autor</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi/niveles-socioeconomicos.html"><span class="navegacion-icono"><i class="fa fa-bar-chart"></i></span> Niveles Socioeconómicos</a></li>
+            <li><a href="../monitores/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Monitores</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicadores Básicos de Colonias<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../ibc/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al IBC</a></li>
+            <li><a href="../ibc-colonias-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Colonias de Torreón</a></li>
+            <li><a href="https://implantorreon.carto.com/u/sigimplan/builder/907a6bc0-2c7e-451e-9668-b78d952e52ff/embed" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Mapa Completo</a></li>
+            <li><a href="../ibc/torreon-urbano.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Torreón Urbano</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="https://solucionessig.com.mx/trcimplan_SGT/" target="_blank"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Plataforma Digital de Gestión Territorial</a></li>
+            <li><a href="../sig-mapas-torreon/temas-sig.html"><span class="navegacion-icono"><i class="fa fa-map-o"></i></span> Mapas por Tema</a></li>
+            <li><a href="../sig-mapas-torreon/plan-director-desarrollo-urbano.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Usos de Suelo</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+            <li><a href="../vision-de-ciudad/vision-de-ciudad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión de Ciudad desde IMPLAN</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Documentos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Planes y Programas</a></li>
+            <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Investigaciones</a></li>
+            <li><a href="../estudios/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estudios</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li><a href="../programas-radio/index.html"><span class="navegacion-icono"><i class="fa fa-microphone"></i></span> Programas de Radio</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Consejo Visión Metrópoli<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../convocatorias/vision-metropoli.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Consejo Juvenil</a></li>
+            <li><a href="../vision-metropoli/integrantes.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Integrantes del Consejo</a></li>
+            <li><a href="../vision-metropoli/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+            <li><a href="../vision-metropoli/publicaciones.html"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Publicaciones</a></li>
+            <li><a href="../vision-metropoli/reglamento-vision-metropoli-2022.pdf"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamento</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Misión / Visión</a></li>
+            <li><a href="../institucional/NuestrosProyectos.html"><span class="navegacion-icono"><i class="fa fa-pencil-square-o"></i></span> Nuestros Proyectos</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/manual.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Manual Implan</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="http://www2.icai.org.mx/ipo/dependencia.php?dep=178#pageload" target="_blank"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Transparencia Estatal (ICAI)</a></li>
+            <li><a href="https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio" target="_blank"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Plataforma Nacional de Transparencia</a></li>
+            <li><a href="../transparencia/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Documentos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Sist. Metropolitano de Indicadores</a></li>
+            <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicador Básico de Colonias</a></li>
+            <li><a href="../sig/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Sist. Información Geográfica</a></li>
+            <li><a href="https://arcg.is/0vySSr" target="_blank"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Atlas de Riesgos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+        <li><a href="../convocatorias/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Convocatorias</a></li>
+        <li><a href="http://177.244.42.17/ovie-torreon/#!" target="_blank"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Oficina Virtual de Información Económica (OVIE)</a></li>
+        <li><a href="https://arcg.is/0vySSr" target="_blank"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Atlas Municipal de Riesgos de Torreón</a></li>
+        <li><a href="../multi-city-challenge/multi-city-challenge.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Multi-City Challenge México 2020</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="encabezado">
+          <h1 itemprop="headline">Un Torreón para caminar y andar en bici es posible.</h1>
+          <div class="encabezado-descripcion" itemprop="description">Los Planes de Movilidad Activa son una reciente iniciativa de planeación urbana que considera los factores que limitan e impulsan el uso de medios no motorizados y su relación con la tipología de vías.</div>
+          <div class="encabezado-autor-fecha">
+            Por <span itemprop="author">Mtro. Salvador Herrera Montes</span> -
+            <meta itemprop="datePublished" content="2022-10-10T11:00">10/10/2022 11:00
+          </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Un Torreón para caminar y andar en bici es posible." src="un-torreon-para-caminar-y-andar-en-bici-oct-2022/imagen.jpg"></span>
+        <div itemprop="articleBody">
+<!-- Contenido: Inicia  -->
+<p>Los Planes de Movilidad Activa son una reciente iniciativa de planeación urbana que considera los factores que limitan e impulsan el uso de medios no motorizados y su relación con la tipología de vías.  En el municipio de Torreón, el Instituto Municipal de Planeación y Competitividad llevó a cabo un plan de este tipo con el propósito de identificar las problemáticas en torno a estos medios. El Plan incluye estrategias, acciones y los actores involucrados en su implementación. Todo ello, tomando en cuenta que este municipio forma parte de la Zona Metropolitana de la Laguna y priorizando dos tipos de viajes: los escolares, en transporte público y a pie; los laborales, en bicicleta y transporte público. Además de considerar la movilidad y condiciones de los carromatos y las condiciones climáticas.</p>
+
+<p>Imaginar que una sola medida pueda beneficiar a 341,289 personas en Torreón resulta difícil de imaginar. Sin embargo, es posible, mediante diferentes estrategias de movilidad activa.</p>
+
+<p>La movilidad activa comprende todo aquel desplazamiento que se realiza de un lugar a otro, utilizando como única energía la fuerza motriz de la persona, sin necesidad de utilizar un motor. El caminar es el modo no motorizado por excelencia, ya que es la forma de desplazamiento innata y más primitiva del ser humano. Por lo tanto, el caminante y posterior peatón, es el primer actor para considerar en este grupo. El segundo grupo lo compone el ciclista, persona que utiliza un vehículo de transporte personal de propulsión humana de dos ruedas o bicicleta. Aunque peatones y ciclistas componen en su mayoría la población de movilidad activa, también deben considerarse otros modos como monociclos, patinetas, patines, “scooters” etc. La movilidad activa es considerada la forma más sustentable de desplazarse ya que, al utilizar nuestra propia fuerza, el impacto al medio ambiente es prácticamente nulo.</p>
+
+<p>La medida que puede beneficiar a esa gran cantidad de personas es la de zonas de tránsito calmado. Una zona de tránsito calmado se propone como las calles locales ubicadas a 400 metros de espacios públicos en donde la velocidad máxima será de 30 kilómetros por hora. En Torreón existen 908 espacios públicos (plazas, parques, canchas, camellones anchos, etc). Sin embargo, únicamente el 64% de la población puede acceder a estos espacios (en un radio de 400m caminando). Si se establecen zonas de tránsito calmado en esos 908 espacios y se define un polígono de 400 metros de caminata a partir de los espacios públicos, se beneficia a los 341,289 habitantes de una forma directa y económica ya que para calmar el tránsito se requieren de inversiones muy bajas como alumbrado público y señalamientos adecuados, cierres dominicales a la circulación de vehículos motorizados en zonas con bajos niveles de cobertura de espacio público, arte urbano en pasos de cebra para dar mantenimiento y habilitar cruces innovadores y promover la movilidad peatonal, paraderos seguros, señalética, elementos de información de rutas de transporte público y bici estacionamientos.</p>
+
+<p>El municipio de Torreón y la Zona Metropolitana de La Laguna, como en el resto de las ciudades de México, han experimentado un periodo de expansión horizontal desmedida trayendo consigo problemáticas en economía, movilidad, medio ambiente, entorno social/urbano, competitividad etc. Todo esto consecuencia, en gran medida, de la falta de planeación de ciudades, deficientes políticas públicas de desarrollo de vivienda, y falta de mecanismos eficientes de control urbano, que han generado un deterioro sostenido de la calidad de vida en sus habitantes.</p>
+
+<p>Las ciudades de México y más aún las del norte del país han implementado políticas de desarrollo urbano importadas de ciudades norteamericanas, como la zonificación monofuncional del uso de suelo, provocando una expansión hacia la periferia, disminuyendo la densidad media urbana y generando la necesidad de traslado de distancias aún mayores. El resultado es que las distancias son cada vez mayores al igual que el costo de mantener la ciudad ya que cada calle tiene que ser cubierta por infraestructura y servicios como pavimentación, banquetas, drenaje sanitario y pluvial, alumbrado, transporte público, etc.</p>
+
+<p>Hablamos aquí del “urbanismo del automóvil” que consistió en que la planeación urbana se orientó al automóvil como el único eje rector del diseño de la ciudad; priorizando la infraestructura vial que favorece e incentiva el tránsito vehicular.</p>
+
+<p>En el caso específico de movilidad y accesibilidad urbana, una ciudad expandida horizontalmente requiere de un esquema de transporte mucho más complejo del de una ciudad compacta; la cobertura de transporte público se vuelve insuficiente al no tener la capacidad para proveer del servicio a toda la población. Los tiempos de traslado se elevan y la calidad del servicio disminuye, volviéndolo una opción ineficiente y poco competitiva frente al automóvil. Es entonces donde la población opta por el vehículo motorizado individual, generando a su vez más tráfico, aún mayores tiempos de traslado, contaminación, ruido y decrecimiento en la calidad de vida.</p>
+
+<p>Ante este panorama, es urgente un cambio de paradigma en el modelo de movilidad de las ciudades que contemple el diseño de políticas públicas enfocadas hacia crear ciudades conectadas, accesibles, compactas, equitativas e inclusivas. Este paradigma debe contemplar acciones que sean estratégicas al origen de la problemática y no gastar esfuerzos en tratar de resolver las consecuencias de este.</p>
+
+<p>El transporte público masivo ha demostrado ser el esquema que tiene mayor impacto en resolver las problemáticas de movilidad urbana de las grandes ciudades, ya sean estos sistemas de tren ligero o metro, o de sistemas de autobuses rápidos troncales (BRT por sus siglas en inglés). En los últimos años, el avance de las ciudades mexicanas ha sido rápido: en 10 zonas de más de 500 mil habitantes, se iniciaron o consolidaron la operación de esquemas BRT y en otras 16 zonas se encuentran en fase de construcción, planeación o estudios de factibilidad (ONU-Hábitat, 2015).</p>
+
+<p>Sin embargo, en esta ecuación aparece también un modo de moverse que no requiere de energía externa a la producida por el cuerpo humano: la movilidad activa (también llamada no motorizada), la cual es objeto del presente plan.</p>
+
+<p>Un Plan de Movilidad Activa replantea la forma de usar las calles. Las ciudades apenas hace un siglo atrás, eran espacios urbanos con la persona como principal eje rector de desarrollo. En la actualidad, la calle significa espacio de circulación de automóviles y transporte público, característica que conlleva el gran problema de la movilidad: tráfico. Las ciudades y sus poblaciones han crecido a niveles insostenibles donde el moverse por la ciudad (en automóvil) es una hazaña que significa largos tiempos de traslado, saturación de vehículos, ruido y contaminación. Uno de los factores determinantes que contribuyen en gran medida a los altos niveles de tráfico, es el espacio ocupado por cada persona en sus diferentes modos de transporte utilizados.</p>
+
+<p>Al ordenar el espacio público de la calle de manera democrática e igualitaria, se promueve la equidad social. El poseer o no un automóvil no hace al usuario más o menos importante en el espacio vial.</p>
+
+<p>Un Plan de Movilidad Activa propone políticas públicas de movilidad sustentable y activa que representan un gran ahorro frente a los grandes presupuestos públicos destinados a construcción de obras viales y acciones para la reducción de la congestión del tráfico y contaminación. La clave reside en solucionar el origen del problema y no sus consecuencias.</p>
+
+<p>Por otra parte, un Plan de Movilidad Activa reconoce los beneficios en la economía personal de los usuarios de la movilidad activa ya que las estrategias que propone representan un ahorro considerable al reducir los costos de viaje como tarifas de transporte, combustible, mantenimiento, plaqueo e impuestos como tenencia. El caminar o andar en bicicleta representa un costo directo prácticamente nulo.</p>
+
+<p>En otro aspecto en un Plan de Movilidad Activa es el de la seguridad pública. El implementar estrategias de movilidad peatonal y ciclista, tiene efectos beneficiosos en la prevención del delito. Calles con personas caminando o andando en bicicleta son calles vibrantes, con vida pública y “habitadas” la mayor parte del tiempo; factores que desincentivan la inseguridad al haber “ojos en la calle”, forma natural de vigilancia del espacio público.</p>
+
+<p>En materia de salud, la planeación de la movilidad activa es clave ya que México tiene la tasa más alta de sobrepeso y obesidad en mayores de 15 años (OCDE, 2018). No es casual que los países con mayores índices de obesidad tengan a su vez una alta tasa de motorización. Un estudio realizado en 2013 reveló que cada hora que pasa una persona en un automóvil al día, se incrementan en un 6% sus probabilidades de desarrollar obesidad. Mientras que, por cada kilómetro caminado al día, se tiene un 4.8% de probabilidad de reducir la obesidad (Frank LD, Andresen MA, Schmid TL, 2013).</p>
+
+<p>Finalmente, en cuanto al medio ambiente, y sabiendo que los medios de transporte representan las mayores fuentes de emisión del dióxido de carbono (CO2) en las ciudades. La huella de carbono al caminar o andar en bicicleta es de 0g CO2/km (sin tomar en cuenta los insumos utilizados al fabricar la bicicleta), mientras que el conducir un automóvil supone una huella de carbono de entre 160- 200 g CO2/km. Esto aunado al incremento sostenido del consumo de combustibles fósiles, recurso no renovable, que es obtenido a su vez con procesos de extracción perjudiciales para el medio ambiente; los medios motorizados significan un gran aporte nocivo para el proceso del llamado cambio climático.</p>
+
+<p>El Plan de Movilidad Activa de Torreón pretende ser el instrumento de planeación estratégica que diseñe y desarrolle las políticas, metas, proyectos y programas en materia de movilidad para modos no motorizados, para así, programar, organizar y priorizar las acciones necesarias para lograr un sistema de movilidad urbana sustentable.
+Asimismo, busca atender a los convenios firmados por México y alinearse con las agendas como los Objetivos para el Desarrollo Sostenible 2030 y al Plan del Decenio de Seguridad Vial 2021-2030, en los que se busca que las ciudades sean más seguras, incluyentes y sustentables. Finalmente, se vincula también con la reciente adición del Derecho a la Movilidad Segura en el Artículo 4° de la Constitución Política de los Estados Unidos Mexicanos.</p>
+
+<p>Uno de los principales problemas a nivel nacional, es el creciente uso tanto del automóvil particular como de las motocicletas. Torreón, concentra casi el 50% de los vehículos motor registrados en toda la Zona Metropolitana de la Laguna. De acuerdo con el Plan Director de Desarrollo Urbano del Municipio, de 2015 a 2020 el parque vehicular aumento de 210 a 286 Automóviles por cada 1000 habitantes.</p>
+
+<p>La población para Torreón en el año 2030 tiene una proyección de 798,014 aproximadamente, con una tasa de crecimiento anualizada de 1.25%, dando como resultado 24% más habitantes en 2030 (CONAPO, 2015).  La tasa de crecimiento del parque vehicular de 2010-2020 fue del 3% con un total de 206,414 unidades, mientras que para el 2030 se proyectan más de 278,000 vehículos motor. El constante incremento del uso del automóvil generará una demanda en de infraestructura vial, incremento del consumo energético, aumento de contaminación atmosférica, disminución de la seguridad vial, aumento de costos de congestión, exclusión social y ocupación creciente del espacio.
+De acuerdo con la información estadística y cartográfica presentada en los apartados anteriores, se logró identificar que en 2011 el 19% de los viajes en la ciudad, se realizan a pie y el 2% en bicicleta. En 2020, los principales motivos de desplazamiento son por motivo de escuela y trabajo; en el primero, la mayor parte de las personas que realizan este tipo de viaje, lo hace a pie; en el segundo, el principal medio de traslado es el transporte público. En ambos casos, el uso de la bicicleta ha ido incrementando.</p>
+
+<p>Por lo anterior, el Plan busca proteger cuatro tipos de viaje:</p>
+
+<ul>
+<li><p>Viajes escolares: A pie y en bicicleta</p></li>
+<li><p>Viajes laborales: En bicicleta y en transporte público</p></li>
+</ul>
+
+<p>Para proteger y favorecer estos viajes, cambiar el paradigma de movilidad y transformas las calles de Torreón, el Plan propone 10 estrategias que se conciben bajo un enfoque sistémico e integrado.</p>
+
+<p>La red vial actual de Torreón se encuentra conformada por vialidades primarias, secundarias, colectoras y locales, además de un libramiento. Más del 56% de las vías disponibles en la ciudad, son locales. En las cuales se generan desplazamientos principalmente a pie o en bicicleta, pues son viajes cortos. Por lo que deben de tener la infraestructura suficiente para que estos sean cómodos y seguros, modificando el diseño actual, enfocado principalmente al vehículo privado. De ahí que la primera estrategia propone un nuevo concepto de calles que facilita la accesibilidad en beneficio de los modos no motorizados y dignifica el espacio público a la vez que incorpora técnicas de infraestructura verde. Se parte de priorizar las calles que hoy no cuentan con recubrimiento. La meta es que 1500 kilómetros de vialidades se intervengan o construyan bajo estos criterios.</p>
+
+<p>La segunda estrategia aborda la situación actual en la que los espacios públicos están desconectados y desaprovechados. Ya se dijo que el municipio de Torreón cuenta con más de 900 espacios públicos, sin embargo, sólo el 17% tiene cobertura de transporte público. La cobertura máxima de estos sitios que cuentan con transporte público es de 10 rutas como máximo. Esta estrategia propone que a los espacios públicos se les dote de infraestructura que permita que funcionen como puntos de acceso a la red transporte, ciclovías y servicios de taxi, facilitando la intermodalidad y propiciando la accesibilidad para que las personas que viven en cercanía puedan llegar a ellos sin importar su condición de movilidad, facilitando la convivencia de la población. La meta es El 80% de la población accede a espacios públicos de calidad en un radio de 400 metros.</p>
+
+<p>Tras abordar las calles locales y los espacios públicos como interconectores, el Plan propone como tercera estrategia el reconocer que el diseño de las vialidades principales promueve la velocidad a pesar de que consideradas corredores de movilidad. Estas arterias forman parte fundamental de la traza urbana y permiten la accesibilidad, integración y conexión de zonas estratégicas de Torreón. Tienen una alta presencia de transporte público y se consideran zonas estratégicas para la movilidad sostenible. Sin embargo, en ellas existe una alta incidencia de siniestros viales. Esta estrategia consiste en enfocarse en los usuarios más vulnerables de estas vías: peatones y ciclistas, para que puedan desplazarse con menos riesgo de accidentes al contar con infraestructura segura y una mayor educación vial por parte de todos los usuarios de la vía respetando los límites de velocidad para lo cual se fina una meta de reducción del número de accidentes en estas vías al 50% a 2040.</p>
+
+<p>La cuarta estrategia es muy cercana a la anterior y reconoce que los corredores de movilidad concentran una gran parte de los incidentes viales de Torreón. Los corredores de movilidad se convierten en vialidades de especial importancia para la conectividad, accesibilidad e integración de zonas estratégicas del Municipio. Hoy, el 27% de la infraestructura ciclista, se encuentra en estos corredores, así como el 85% de los paraderos de autobús) y el 22% de los paraderos de taxi. Finalmente, en ellos se encuentran 34 puentes peatonales. Esta estrategia propone entre otras cosas, intervenir 8 intersecciones inseguras y eliminar 8 puentes peatonales para convertir estas vías en espacios seguros para el tránsito de todos sus usuarios.</p>
+
+<p>La quinta estrategia aborda el hecho de que la infraestructura ciclista se encuentra desconectada y dispersa. Además, es heterogénea en sus tipologías por lo que no fomenta el uso seguro de la bicicleta. La cultura vial en la ciudad tiene una fuerte perspectiva automovilística en la que el vehículo particular, es el protagonista del espacio vial y los modos no motorizados como “intrusos” del mismo. Esta estrategia propone una red de ciclovías que permita que los desplazamientos en bicicleta sean una alternativa eficaz y segura para desarrollar desplazamientos dentro de Torreón, conectando las zonas habitacionales con los principales centros de empleo. Entre sus acciones están la de dar mantenimiento a 74 kilómetros de la infraestructura ciclista existente y la construcción de 110 kilómetros de ciclovías que conecten los segmentos existentes.</p>
+
+<p>La sexta estrategia reconoce que existen zonas de la ciudad con altos viajes peatonales y ciclistas carentes de políticas para la movilidad activa. En esas zonas se ubican el 51% de las unidades económicas se encuentran en la Zona Centro de Torreón (Zona Centro, Metalúrgica y Cobián), en estas se proponen los lineamientos de accesibilidad a aplicar en estas 3 zonas de movilidad que concentran el mayor número de empleos y la intervención de al menos 16 intersecciones en el primer distrito de movilidad.</p>
+
+<p>En la séptima estrategia se abordan los viajes a la escuela los cuales representan un gran porcentaje de los recorridos que las personas realizan diariamente. Por esta razón, deben realizarse de forma eficiente y sustentable. En el municipio de Torreón, estos traslados se ven condicionados a la cobertura de transporte público de las escuelas, la distancia caminable que las personas pueden realizar hacia el servicio de transporte, así como las condiciones necesarias de infraestructura para que las personas puedan caminar. Sin embargo, persiste un problema: las calles y paradas de transporte con carencia de elementos de seguridad, comodidad y confort para desplazamientos escolares. Esta estrategia aborda los viajes por motivo de estudio y les confiere una alta prioridad de atención porque se realizan a pie y en transporte público, ya que las calles, propician desplazamientos seguros para niñas, niños y adolescentes. Para ello, se propone que el transporte público acceda al menos al 50% de las escuelas de Torreón y se mejoren las condiciones de banquetas y paradas de transporte público en al menos el 70% de los centros escolares.</p>
+
+<p>Las últimas tres estrategias abordan nichos específicos y particulares a Torreón. La octava tiene que ver con el hecho de que en el municipio de Torreón existen 29 núcleos ejidales distribuidos principalmente en el norte y oriente del municipio. Estos asentamientos han sido “absorbidos” por el proceso de crecimiento y expansión urbana de la localidad. Sin embargo, aún conservan elementos urbanos y de movilidad, muy importantes, que vale la pena conservar y proteger. Por ello, se propone que los ejidos se conviertan en comunidades que mantienen una movilidad segura y activa a través de la conexión de ciclovías con el resto de la ciudad y espacios públicos, facilitando la intermodalidad y propiciando la accesibilidad para que las personas que viven en cercanía puedan llegar a ellos sin importar su condición de movilidad, facilitando la convivencia de la población. En tanto que la novena estrategia tiene que ver con que las zonas industriales atraigan una mayor cantidad de viajes ciclistas a partir de la promoción de la cultura, de facilidades dadas por los empleadores y de infraestructura segura para la movilidad activa.</p>
+
+<p>Finalmente, la movilidad con tracción animal, en especial en Torreón tienen presencia los carromateros, que son un grupo de personas dedicadas a la venta de materiales en un carromato, que es un vehículo de dos ruedas, cubierto y diseñado para ser tirado por uno o dos animales. A pesar de los cambios en la movilidad urbana y el aumento del uso del vehículo privado, estas formas de traslado siguen presentes y forman parte de la movilidad que se vive día con día en el Municipio de Torreón, por esa razón vale la pena considerarse y abordarla desde una perspectiva integral.</p>
+
+<p>Como parte de la construcción de las estrategias, se revisó su alineación con el Reglamento de Movilidad del Municipio de Torreón. El objetivo de este ejercicio fue fundamentar las estrategias propuestas en el Plan de Movilidad Activa, de manera que lo dispuesto en el reglamento, se vea aplicado territorialmente.  Con este ejercicio realizado, se puede decir que el plan y el reglamento se encuentran alineados.</p>
+
+<p>En resumen, este Plan de Movilidad Activa, conformado por un diagnóstico que considera los factores que limitan e impulsan el uso de medios no motorizados, la tipología de vías en el municipio de Torreón tiene el propósito de identificar las problemáticas en torno a estos medios, enlista las estrategias, acciones y los actores involucrados en su implementación. Todo ello, tomando en cuenta que este municipio forma parte de la Zona Metropolitana de la Laguna y priorizando dos tipos de viajes: los escolares, en transporte público y a pie; los laborales, en bicicleta y transporte público. Además de considerar la movilidad y condiciones de los carromatos y las condiciones climáticas.</p>
+
+<h3>Bullets con información precisa del artículo</h3>
+
+<ul>
+<li><p>de 2015 a 2020 el parque vehicular aumento de 210 a 286 Automóviles por cada 1000 habitantes. (Implan Torreón (2021), Plan de Movilidad de Activa, p 20)</p></li>
+<li><p>La tasa de crecimiento del parque vehicular de 2010-2020 fue del 3% con un total de 206,414 unidades, mientras que para el 2030 se proyectan más de 278,000 vehículos motor. (Implan Torreón (2021), Plan de Movilidad de Activa, p. 21)</p></li>
+<li><p>2011 el 19% de los viajes en la ciudad, se realizan a pie y el 2% en bicicleta. (Implan Torreón (2021), Plan de Movilidad de Activa, p. 54)</p></li>
+</ul>
+
+<!-- Contenido: Termina -->
+        </div>
+              <div class="publicador" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="../imagenes/implan-logo.png"></span>
+          <h3 class="titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+          <div class="descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+          <div class="contenido-imagen-previa-final"></div>
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fun-torreon-para-caminar-y-andar-en-bici-oct-2022.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="http://www.instagram.com/implantorreon" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="../vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="../vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="../dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+
+<!-- Javascript termina -->
+<!-- Javascript Google Analytics -->
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58290501-1', 'auto');ga('send', 'pageview');
+</script>
+</body>
+</html>
