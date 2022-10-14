@@ -34,7 +34,7 @@ class U22H6UsoDeSueloViviendaAlta extends \Base\PublicacionSchemaArticle {
         // Ejecutar constructor en el padre
         parent::__construct();
         // Título y fecha
-        $this->nombre                     = 'h6 - Habitacional Densidad Alta';
+        $this->nombre                     = 'H6 - Habitacional Densidad Alta';
         $this->fecha                      = '2022-09-21T12:07';
         // El nombre del archivo a crear
         $this->archivo                    = 'u22-h6-uso-de-suelo-vivienda-alta';
