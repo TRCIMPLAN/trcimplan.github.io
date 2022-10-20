@@ -94,7 +94,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $a[] = '  </div>';
 
         // PRUEBA CLIMA
-        //        $a[] = '<div id="cont_48bbd494eaf01080ac4dc6a238b4497f"><script type="text/javascript" async src="https://www.meteored.mx/wid_loader/48bbd494eaf01080ac4dc6a238b4497f"></script></div>';
+                //$a[] = '<div id="cont_48bbd494eaf01080ac4dc6a238b4497f"><script type="text/javascript" async src="https://www.meteored.mx/wid_loader/48bbd494eaf01080ac4dc6a238b4497f"></script></div>';
 
 
         //FIN PRUEBA CLIMA
@@ -127,15 +127,18 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<li></li>';
 
 
+            $b[] = '<center><a href=""><img src="http://www.trcimplan.gob.mx/imagenes/inegi/inegi2022a.png"  width="60%" alt="Inegi 2022"></a></center>';
 
+            $b[] = '</br>';
             //INICIO  CONVOCATORIAS
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
 
+              // $b[] = '<a href=""><img src="http://localhost/trcimplan_sitioweb/imagenes/inegi/inegi2022a.png" alt="Inegi 2022"></a>';
+
                $b[] = '<a href="http://www.trcimplan.gob.mx/multi-city-challenge-vive-tu-acera-2022/multi-city-challenge.html"><img src="imagenes\multi-city-challenge-vive-tu-acera-2022\banners-vive-tu-acera-2022.jpg" alt="banners-vive-tu-acera-2022"></a>';
 
                 $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
-
 
                 $b[] = '<a href="https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021"><img src="http://www.trcimplan.gob.mx/imagenes/libros/banner-arte-urbano-01.jpg" alt="Arte Urbano"></a>';
 
@@ -157,6 +160,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
 
             $b[] = '</div>';
+            //$b[] = '<center><a href=""><img src="http://localhost/trcimplan_sitioweb/imagenes/inegi/inegi2022a.png" alt="Inegi 2022"></a></center>';
             //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes/icono-pddu-2020.jpg"  alt="liga PPDU"></a>';
             //$b[] = '</br>';
             //FIN CONVOCATORIA

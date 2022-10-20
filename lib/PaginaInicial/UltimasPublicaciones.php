@@ -74,6 +74,9 @@ class UltimasPublicaciones {
         $a[] = '          <a class="twitter-timeline" height="820px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
         $a[] = '        </div>';
         $a[] = '      </div>';
+
+
+
         $a[] = '    </div>';
         $a[] = '  </section>';
         return implode("\n", $a);
