@@ -136,7 +136,9 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
               // $b[] = '<a href=""><img src="http://localhost/trcimplan_sitioweb/imagenes/inegi/inegi2022a.png" alt="Inegi 2022"></a>';
 
-               $b[] = '<a href="http://www.trcimplan.gob.mx/multi-city-challenge-vive-tu-acera-2022/multi-city-challenge.html"><img src="imagenes\multi-city-challenge-vive-tu-acera-2022\banners-vive-tu-acera-2022.jpg" alt="banners-vive-tu-acera-2022"></a>';
+               $b[] = '<a href="http://www.trcimplan.gob.mx/sig-planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf"><img src="imagenes\pddu-2040\pddu-2040.jpg" alt="banner pddu 2040"></a>';
+
+
 
                 $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
 
@@ -160,11 +162,12 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
 
             $b[] = '</div>';
+            //$b[] = '<a href="https://issuu.com/consejovisionmetropoli/docs/digital_graffiti-2021"><img src="http://www.trcimplan.gob.mx/imagenes/libros/banner-arte-urbano-01.jpg" alt="Arte Urbano"></a>';
             //$b[] = '<center><a href=""><img src="http://localhost/trcimplan_sitioweb/imagenes/inegi/inegi2022a.png" alt="Inegi 2022"></a></center>';
             //$b[] = '<a href="https://solucionessig.com.mx/ENCUESTA_GENERAL/Index.html"><img src="imagenes/icono-pddu-2020.jpg"  alt="liga PPDU"></a>';
             //$b[] = '</br>';
             //FIN CONVOCATORIA
-
+            //$b[] = '<a href="http://www.trcimplan.gob.mx/multi-city-challenge-vive-tu-acera-2022/multi-city-challenge.html"><img src="imagenes\multi-city-challenge-vive-tu-acera-2022\banners-vive-tu-acera-2022.jpg" alt="banners-vive-tu-acera-2022"></a>';
             //Inicio Visión de ciudad
             //$b[] = '</br>';
             //$b[] = '<center><a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" width=95% height="20%" alt="visión de ciudad"></a></center>';
