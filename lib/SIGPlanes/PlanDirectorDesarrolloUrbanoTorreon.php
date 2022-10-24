@@ -32,12 +32,12 @@ class PlanDirectorDesarrolloUrbanoTorreon extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                    = 'Plan Director de Desarrollo Urbano de Torreón Coahuila 2040';
+        $this->nombre                    = 'Plan Director de Desarrollo Urbano de Torreón Coahuila 2022';
         $this->fecha                     = '2022-10-24T08:00';
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Establecer una metrópoli articulada y coherente con equipamiento e infraestructura para la regeneración urbana. </br> - PDF 37.6 MB.</br></br></br>';
+        $this->descripcion               = 'Plan Director de Desarrollo Urbano del Municipio de Torreón, Coahuila;  aprobado en la Décimo octava Sesión Ordinaria de Cabildo, el 31/agosto/2022 y en proceso de publicación en el Periódico Oficial. </br> - PDF 37.6 MB.</br></br></br>';
         $this->claves                    = 'IMPLAN, Torreon, Plan, Director, Desarrollo, Urbano, Municipio';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Infraestructura');

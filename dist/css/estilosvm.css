@@ -72,7 +72,7 @@
     padding:0;
     width:500%;
 
-    animation: cambio2 35s infinite alternate linear;
+    animation: cambio2 45s infinite alternate linear;
     animation-timing-function:ease;
 }
 
