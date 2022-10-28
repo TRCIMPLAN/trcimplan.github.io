@@ -121,7 +121,8 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $b   = array();
         $b[] = '  <section id="organizacion">';
             //~ $b[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
-            $b[] = '    <img class="banner" src="imagenes/banner-implan-2022-02-veda.jpg" width="100" height="500" alt="IMPLAN Torreon">';
+            //$b[] = '    <img class="banner" src="imagenes/banner-implan-2022-02-veda.jpg" width="100" height="500" alt="IMPLAN Torreon">';
+            $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros-2022.html"><img class="banner" src="imagenes\convocatorias\convocatoria-sectoriales-2022.jpg" width="100" height="500" alt="IMPLAN Torreon"></a>';
 
             //  $b[] = ' ';
             $b[] = '<li></li>';
@@ -135,14 +136,15 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
                 $b[] = '<ul>';
 
               // $b[] = '<a href=""><img src="http://localhost/trcimplan_sitioweb/imagenes/inegi/inegi2022a.png" alt="Inegi 2022"></a>';
+               //$b[] = '<a href=""><img src="imagenes\convocatorias\convocatoria-sectoriales-2022.jpg" alt="banner Convocatorias 2022"></a>';
 
                $b[] = '<a href="http://www.trcimplan.gob.mx/sig-planes/pddu2022.html"><img src="imagenes\pddu-2040\pddu-2040.jpg" alt="banner pddu 2040"></a>';
 
                 $b[] = '<a href="https://solucionessig.com.mx/trcimplan_SGT/"><img src="imagenes\plataforma-gestion\banner-plataforma-gestion-territorial.jpg" alt="banner plataforma"></a>';
 
-                $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
+                //$b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
 
-
+                $b[] = '<a href="http://www.trcimplan.gob.mx/sig-planes/pddu2022.html"><img src="imagenes\pddu-2040\pddu-2040.jpg" alt="banner pddu 2040"></a>';
 
                 $b[] = '<a href="http://www.trcimplan.gob.mx/vision-de-ciudad/vision-de-ciudad.html"><img src="imagenes\vision-de-ciudad\banner-vision-de-ciudad2.jpg" alt="visión de ciudad"></a>';
 
