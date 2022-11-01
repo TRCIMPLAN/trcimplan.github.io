@@ -1,8 +1,9 @@
 
-###URBANIZADO
+###URBANIZABLE
 
 
-Suelo urbano actual
+
+Suelo apto para el desarrollo urbano
 
 ###Fuente
 

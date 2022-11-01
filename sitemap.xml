@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2022-11-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5838,6 +5838,26 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig/u22-zc-zona-de-conservacion.html</loc>
     <lastmod>2022-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-zp-no-urbanizable.html</loc>
+    <lastmod>2022-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-zp-urbanizable.html</loc>
+    <lastmod>2022-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-zp-urbanizable-no-programado.html</loc>
+    <lastmod>2022-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig/u22-zp-urbanizado.html</loc>
+    <lastmod>2022-10-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
