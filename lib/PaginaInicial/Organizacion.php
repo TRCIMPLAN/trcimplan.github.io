@@ -135,14 +135,9 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
 
-              // $b[] = '<a href=""><img src="http://localhost/trcimplan_sitioweb/imagenes/inegi/inegi2022a.png" alt="Inegi 2022"></a>';
-               //$b[] = '<a href=""><img src="imagenes\convocatorias\convocatoria-sectoriales-2022.jpg" alt="banner Convocatorias 2022"></a>';
-
-               $b[] = '<a href="http://www.trcimplan.gob.mx/sig-planes/pddu2022.html"><img src="imagenes\pddu-2040\pddu-2040.jpg" alt="banner pddu 2040"></a>';
+                $b[] = '<a href="http://www.trcimplan.gob.mx/sig-planes/pddu2022.html"><img src="imagenes\pddu-2040\pddu-2040.jpg" alt="banner pddu 2040"></a>';
 
                 $b[] = '<a href="https://solucionessig.com.mx/trcimplan_SGT/"><img src="imagenes\plataforma-gestion\banner-plataforma-gestion-territorial.jpg" alt="banner plataforma"></a>';
-
-                //$b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
 
                 $b[] = '<a href="http://www.trcimplan.gob.mx/sig-planes/pddu2022.html"><img src="imagenes\pddu-2040\pddu-2040.jpg" alt="banner pddu 2040"></a>';
 
@@ -150,8 +145,9 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
 
                 $b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
 
-
-
+                //$b[] = '<a href="https://arcg.is/0vySSr"><img src="imagenes\atlas-de-riesgo2020\banner-atlas-21.jpg" alt="liga Atlas de Riesgo Torreón"></a>';
+                // $b[] = '<a href=""><img src="http://localhost/trcimplan_sitioweb/imagenes/inegi/inegi2022a.png" alt="Inegi 2022"></a>';
+               //$b[] = '<a href=""><img src="imagenes\convocatorias\convocatoria-sectoriales-2022.jpg" alt="banner Convocatorias 2022"></a>';
                 // Fin: Anterior a veda AMLO
 
                 //----------------
