@@ -39,7 +39,7 @@ class U22ZPUrbanizado extends \Base\PublicacionSchemaArticle {
         // El nombre del archivo a crear
         $this->archivo                    = 'u22-zp-urbanizado';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Urbanizado.';
+        $this->descripcion                = 'Consideraciones según el tipo de suelo en Zonificación Primaria.';
         $this->claves                     = 'IMPLAN, Torreon, Usos, Suelo, urbanizado';
         // Opción de navegación a poner como activa
         $this->nombre_menu                = 'Información Geográfica > Zonificación Secundaria';
