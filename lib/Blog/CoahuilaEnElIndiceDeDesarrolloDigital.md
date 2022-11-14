@@ -1,4 +1,12 @@
 
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jesus-abraham-salazar-valadez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/lic-jesus-abraham-salazar-valadez-top2.png" align="right" alt="Foto Abraham" width="500" height="200"></a>
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
+
 Open data es una herramienta del gobierno abierto que impulsa la accesibilidad de datos e información que generan las instituciones públicas. Estas bases de datos deben ser sistémicas, actualizadas periódicamente y de acceso libre, o sea sin candados legales, y comparables con otras.
 
 La importancia del open data en la administración pública radica en identificar los procesos susceptibles de mejora, como la autorización de los trámites más recurrentes por la ciudadanía, la comparación de buenas prácticas con otros actores que tengan mayores ventajas competitivas, la toma de decisiones con herramientas que disminuyan el margen de error y la optimización de recursos que permitan tener una mayor y mejor cobertura.
