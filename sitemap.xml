@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-11-02</lastmod>
+    <lastmod>2022-11-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -273,6 +273,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/clima-urbano-la-zona-norte-de-torreon-mayo-2020.html</loc>
     <lastmod>2020-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/coahuila-en-el-indice-de-desarrollo-digital-nov-2022.html</loc>
+    <lastmod>2022-11-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -988,6 +993,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna.html</loc>
     <lastmod>2014-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/inflacion-y-crecimiento-economico-nov-2022.html</loc>
+    <lastmod>2022-11-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
