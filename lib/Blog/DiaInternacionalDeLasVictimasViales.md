@@ -1,3 +1,11 @@
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/jair-miramontes-chavez.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-jair-miramontes-chavez-top2.png" align="right" alt="Foto Jair" width="500" height="200"></a>
+
+</p>
+
+</br></br></br></br></br></br></br></br>
+
+---
 
 La Organización de las Naciones Unidas a través de su Asamblea General del 1° de diciembre de 2005, declaró el tercer domingo de noviembre el Día Mundial en Recuerdo de las Víctimas de Accidentes de Tráfico, en reconocimiento de las víctimas de los accidentes de tráfico.
 
