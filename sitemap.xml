@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-11-28</lastmod>
+    <lastmod>2022-12-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -463,6 +463,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/dia-internacional-del-peaton-ago-2021.html</loc>
     <lastmod>2021-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/dia-internacional-eliminacion-violencia-mujer-dic-2022.html</loc>
+    <lastmod>2022-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -4662,7 +4667,7 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/monitores/monitor-de-seguridad.html</loc>
-    <lastmod>2022-11-02</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

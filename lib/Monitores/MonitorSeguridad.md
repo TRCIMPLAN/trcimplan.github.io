@@ -1,27 +1,27 @@
 
-##OCTUBRE 2022
+##NOVIEMBRE 2022
 
 ##DELITOS
 
-|INDICADOR                                |DATO     |NIVEL      |FECHA                 |
-|---------------------------------------|-----------|-----------|----------------------|
-|Delitos del fuero común                |22,275     |ZML        |SESNSP Septiembre 2022|
-|Delitos del fuero común                |12,481     |Torreón    |SESNSP Septiembre 2022|
-|Robo a casa habitación                 |1,264      |ZML        |SESNSP Septiembre 2022|
-|Robo a negocio                         |850        |ZML        |SESNSP Septiembre 2022|
-|Robo de vehículo                       |296        |ZML        |SESNSP Septiembre 2022|
-|Robo a transeúnte                      |223        |ZML        |SESNSP Septiembre 2022|
-|Robo de autopartes                     |71         |ZML        |SESNSP Septiembre 2022|
-|Violencia familiar                     |4,346      |ZML        |SESNSP Septiembre 2022|
-|Violencia familiar                     |2,634      |Torreón    |SESNSP Septiembre 2022|
-|Lesiones                               |6,401      |ZML        |SESNSP Septiembre 2022|
-|Lesiones                               |925        |Torreón    |SESNSP Septiembre 2022|
-|Daño a la propiedad                    |1,924      |ZML        |SESNSP Septiembre 2022|
-|Daño a la propiedad                    |1,312      |Torreón    |SESNSP Septiembre 2022|
-|Narcomenudeo                           |2,830      |ZML        |SESNSP Septiembre 2022|
-|Narcomenudeo                           |1,827      |Torreón    |SESNSP Septiembre 2022|
-|Amenazas                               |2,838      |ZML        |SESNSP Septiembre 2022|
-|Amenazas                               |2,180      |Torreón    |SESNSP Septiembre 2022|
+|INDICADOR                              |DATO       |NIVEL      |FECHA              |
+|---------------------------------------|-----------|-----------|-------------------|
+|Delitos del fuero común                |24,485     |ZML        |SESNSP Octubre 2022|
+|Delitos del fuero común                |13,708     |Torreón    |SESNSP Octubre 2022|
+|Robo a casa habitación                 |1,385      |ZML        |SESNSP Octubre 2022|
+|Robo a negocio                         |919        |ZML        |SESNSP Octubre 2022|
+|Robo de vehículo                       |319        |ZML        |SESNSP Octubre 2022|
+|Robo a transeúnte                      |241        |ZML        |SESNSP Octubre 2022|
+|Robo de autopartes                     |79         |ZML        |SESNSP Octubre 2022|
+|Violencia familiar                     |4,711      |ZML        |SESNSP Octubre 2022|
+|Violencia familiar                     |2,834      |Torreón    |SESNSP Octubre 2022|
+|Lesiones                               |2,323      |ZML        |SESNSP Octubre 2022|
+|Lesiones                               |1,022      |Torreón    |SESNSP Octubre 2022|
+|Daño a la propiedad                    |2,126      |ZML        |SESNSP Octubre 2022|
+|Daño a la propiedad                    |1,448      |Torreón    |SESNSP Octubre 2022|
+|Narcomenudeo                           |3,117      |ZML        |SESNSP Octubre 2022|
+|Narcomenudeo                           |1,997      |Torreón    |SESNSP Octubre 2022|
+|Amenazas                               |3,159      |ZML        |SESNSP Octubre 2022|
+|Amenazas                               |2,430      |Torreón    |SESNSP Octubre 2022|
 
 ##PERCEPCIÓN DE INSEGURIDAD
 
@@ -31,13 +31,15 @@
 |Porcentaje de población con sensación de inseguridad por temor a delito (percepción).              |43.70% |ZML        |ENSU Septiembre 2022 |
 
 
+
 ##DELITOS SEXUALES
 
 |INDICADOR       |DATO       |NIVEL          |FECHA                 |
 |:--------------:|-----------|---------------|----------------------|
-|Abuso sexual   |316        |ZML            |SESNSP Septiembre 2022|
-|Abuso sexual   |176        |Torreón        |SESNSP Septiembre 2022|
-|Acoso sexual   |103        |Torreón        |SESNSP Septiembre 2022|
+|Abuso sexual   |316        |ZML            |SESNSP Octubre 2022    |
+|Abuso sexual   |203        |Torreón        |SESNSP Octubre 2022    |
+|Acoso sexual   |113        |Torreón        |SESNSP Octubre 2022    |
+
 
 
 
@@ -67,6 +69,7 @@ Informe:
 [- Julio 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-jul-2022.pdf)
 [- Agosto 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-ago-2022.pdf)
 [- Septiembre 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-sep-2022.pdf)
+[- Octubre 2022](http://www.trcimplan.gob.mx/monitores/seguridad/monitor-seguridad-oct-2022.pdf)
 </br>
 
 <b> AÑO 2021 </b>
