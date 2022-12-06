@@ -31,7 +31,7 @@ Las denuncias por violencia familiar en Torreón, según el Secretariado Ejecuti
 
 El movimiento #MeToo, fundado por Tarana Burke en 2006, provocó una movilización mundial que manifestó la urgente necesidad de prevenir y responder a la violencia contra las mujeres. Movimientos mundiales como #NiUnaMenos, #TimesUp entre muchos otros, también catalizaron el cambio.
 
-A nivel local, se cuenta con redes de apoyo para las mujeres que deciden poner alto a la situación que están viviendo, entre las que se encuentran el Centro de Justicia y Empoderamiento para las Mujeres en Torreón, el Instituto Municipal de la Mujer, el Instituto de Formación, Consultoría e Incidencia en Derechos Humanos y Perspectiva de Género (Incide Femme), Red de Mujeres de La Laguna, Musas de La Laguna, entre otros.
+A nivel local, se cuenta con redes de apoyo para las mujeres que deciden poner alto a la situación que están viviendo, entre las que se encuentran el Centro de Justicia y Empoderamiento para las Mujeres en Torreón, el Instituto Municipal de la Mujer, el Instituto de Formación, Consultoría e Incidencia en Derechos Humanos y Perspectiva de Género (Incide Femme), Activistas Feministas de La Laguna, Musas de La Laguna, entre otros.
 
 El Centro de Justicia y Empoderamiento en La Laguna cuenta con servicios de orientación, psicología, área legal, área lúdica, ministerio público, empoderamiento (preparación académica, talleres, etc.), la idea es tener una atención integral, todo bajo un mismo techo.
 
@@ -42,6 +42,7 @@ El Incide Femme tiene un registro de 22 casos atendidos, todos los casos se acom
 La violencia contra la mujer sigue siendo un obstáculo para alcanzar igualdad, desarrollo, paz, al igual que el respeto de los derechos humanos de mujeres y niñas. Incluso la pandemia de Covid-19 agravó la situación, ya que el trabajo de cuidados no remunerado aumentó de manera significativa como consecuencia del cierre de las escuelas y el incremento de las necesidades de los adultos mayores. Además, con las medidas de confinamiento, muchas mujeres se encontraban en casa con sus agresores, con dificultades para acceder a servicios que están padeciendo recortes y restricciones.
 
 Y queda claro que la promesa de los Objetivos de Desarrollo Sostenible (ODS) de no dejar que nadie se quede atrás, no podrá cumplirse si no se toma en cuenta la estabilidad física y mental de las mujeres y niñas, un sector que, sin duda alguna, es piedra angular en toda sociedad.
+
 
 
 
