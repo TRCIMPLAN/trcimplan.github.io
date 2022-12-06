@@ -121,8 +121,8 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
         $b   = array();
         $b[] = '  <section id="organizacion">';
             //~ $b[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
-            //$b[] = '    <img class="banner" src="imagenes/banner-implan-2022-02-veda.jpg" width="100" height="500" alt="IMPLAN Torreon">';
-            $b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros-2022.html"><img class="banner" src="imagenes\convocatorias\convocatoria-sectoriales-2022.jpg" width="100" height="500" alt="IMPLAN Torreon"></a>';
+            $b[] = '    <img class="banner" src="imagenes/banner-implan-2022-02-veda.jpg" width="100" height="500" alt="IMPLAN Torreon">';
+            //$b[] = '<a href="http://www.trcimplan.gob.mx/convocatorias/consejeros-2022.html"><img class="banner" src="imagenes\convocatorias\convocatoria-sectoriales-2022.jpg" width="100" height="500" alt="IMPLAN Torreon"></a>';
 
             //  $b[] = ' ';
             $b[] = '<li></li>';
