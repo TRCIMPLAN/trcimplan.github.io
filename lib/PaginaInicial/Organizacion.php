@@ -128,7 +128,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<li></li>';
 
 
-            $b[] = '<center><a href=""><img src="http://www.trcimplan.gob.mx/imagenes/inegi/inegi2022a.png"  width="60%" alt="Inegi 2022"></a></center>';
+            //$b[] = '<center><a href=""><img src="http://www.trcimplan.gob.mx/imagenes/inegi/inegi2022a.png"  width="60%" alt="Inegi 2022"></a></center>';
 
             $b[] = '</br>';
             //INICIO  CONVOCATORIAS
