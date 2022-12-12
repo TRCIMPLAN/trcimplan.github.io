@@ -35,8 +35,8 @@ class MonitorSaludMental extends \Base\PublicacionSchemaArticle {
         parent::__construct();
         // Título, autor y fecha
         $this->nombre                     = 'Monitor de Salud Mental';
-        $this->autor                      = 'Arq. Alejandra Martínez Avilés'; // Puede ser un arreglo de textos
-        $this->fecha                      = '2020-03-26T09:00';
+        $this->autor                      = 'Lic. Carlos Andrés Chairez Ibarra'; // Puede ser un arreglo de textos
+        $this->fecha                      = '2022-12-12T14:40';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-salud-mental'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales
