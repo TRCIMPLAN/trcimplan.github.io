@@ -36,7 +36,7 @@ class MonitorEmpleo extends \Base\PublicacionSchemaArticle {
         // Título, autor y fecha
         $this->nombre                     = 'Monitor del Empleo';
         $this->autor                      = 'Lic. Carlos Andrés Chairez Ibarra'; // Puede ser un arreglo de textos  array(' ',' ')
-        $this->fecha                      = '2022-08-03T14:25';
+        $this->fecha                      = '2022-12-09T13:25';
         // El nombre del archivo a crear
         $this->archivo                    = 'monitor-de-empleo'; // En minúsculas, sin espacios, use guiones, letras y números
         // La descripción y claves dan información a los buscadores y redes sociales

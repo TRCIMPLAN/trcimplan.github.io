@@ -1,38 +1,38 @@
 
 ###Monitor de Empleo
 
-<p style="background-color:#4F81BD;color:white;"><strong>Indicadores Empleo 2do. Trimestre 2022</strong></p>
+<p style="background-color:#4F81BD;color:white;"><strong>Indicadores Empleo 3er. Trimestre 2022</strong></p>
 
 ##Población Económicamente Activa (PEA)
 
 Indicador                       |Dato       |Periodo            |Fuente        |Nivel          |
 --------------------------------|-----------|-------------------|--------------|---------------|
-PEA                             |585,207    |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Porcentaje de la PEA Ocupada    |96.21%     |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Porcentaje de la PEA Desocupada |3.79%      |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
+PEA                             |580,306    |III Trimestre 2022 |ENOEN - INEGI | La Laguna  ZML|
+Porcentaje de la PEA Ocupada    |96.63%     |III Trimestre 2022 |ENOEN - INEGI | La Laguna  ZML|
+Porcentaje de la PEA Desocupada |3.37%      |III Trimestre 2022 |ENOEN - INEGI | La Laguna  ZML|
 
 ##Población ocupada
 
-Indicador                                                       |Dato      |Periodo             |Fuente        |Nivel          |
-----------------------------------------------------------------|-----------|-------------------|--------------|---------------|
-Años promedio de escolaridad de la PEA                          | 11.58     |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Horas promedio trabajadas a la semana                           |40.92      |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Ingreso promedio por hora trabajada                             |52.04      |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Población ocupada con sueldo menor o igual a 1 salario mínimo   |15.78%     |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Población ocupada con acceso a instituciones de salud           |53.43%     |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Población ocupada en la industria manufacturera                 |21.28%     |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Personal ocupado en el comercio                                 |21.01%     |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
-Personal ocupado en micronegocios                               |39.75%     |II Trimestre 2022  |ENOEN - INEGI | La Laguna  ZML|
+Indicador                                                       |Dato      |Periodo             |Fuente         |Nivel          |
+----------------------------------------------------------------|-----------|-------------------|---------------|---------------|
+Años promedio de escolaridad de la PEA                          |11.51      |III Trimestre 2022 | ENOEN - INEGI | La Laguna   ZML|
+Horas promedio trabajadas a la semana                           |42.08      |III Trimestre 2022 | ENOEN - INEGI | La Laguna   ZML|
+Ingreso promedio por hora trabajada                             |55.05      |III Trimestre 2022 | ENOEN - INEGI | La Laguna   ZML|
+Población ocupada con sueldo menor o igual a 1 salario mínimo   |23.43%     |III Trimestre 2022 | ENOEN - INEGI | La Laguna   ZML|
+Población ocupada con acceso a instituciones de salud           |54.62%     |III Trimestre 2022 | ENOEN - INEGI | La Laguna   ZML|
+Población ocupada en la industria manufacturera                 |21.69%     |III Trimestre 2022 | ENOEN - INEGI | La Laguna   ZML|
+Personal ocupado en el comercio                                 |22.09%     |III Trimestre 2022 | ENOEN - INEGI | La Laguna   ZML|
+Personal ocupado en micronegocios                               |38.70%     |III Trimestre 2022 | ENOEN - INEGI | La Laguna   ZML|
 
 
 ##Tasas
 
 Indicador                                       |Dato    |Periodo           |Fuente        |Nivel          |
 ------------------------------------------------|--------|------------------|--------------|---------------|
-Tasa de trabajo asalariado                      |73.17%  |II Trimestre 2022 |ENOEN - INEGI | La Laguna  ZML|
-Tasa de subocupación                            |6.75%   |II Trimestre 2022 |ENOEN - INEGI | La Laguna  ZML|
-Tasa de condiciones críticas de ocupación       |24.80%  |II Trimestre 2022 |ENOEN - INEGI | La Laguna  ZML|
-Tasa de informalidad laboral                    |40.30%  |II Trimestre 2022 |ENOEN - INEGI | La Laguna  ZML|
+Tasa de trabajo asalariado                      |73.13%  |III Trimestre 2022|ENOEN - INEGI | La Laguna   ZML|
+Tasa de subocupación                            |8.35%   |III Trimestre 2022|ENOEN - INEGI | La Laguna   ZML|
+Tasa de condiciones críticas de ocupación       |24.10%  |III Trimestre 2022|ENOEN - INEGI | La Laguna   ZML|
+Tasa de informalidad laboral                    |39.42%  |III Trimestre 2022|ENOEN - INEGI | La Laguna   ZML|
 
 
 
@@ -43,6 +43,7 @@ Tasa de informalidad laboral                    |40.30%  |II Trimestre 2022 |ENO
 </br>
 Informe:
 [1er. Trimestre 2022](http://www.trcimplan.gob.mx/monitores/empleo/monitor-empleo-trim1-2022.pdf)
+[, 2do. Trimestre 2022](http://www.trcimplan.gob.mx/monitores/empleo/monitor-empleo-trim2-2022.pdf)
 
 <b> AÑO 2021 </b>
 </br>
