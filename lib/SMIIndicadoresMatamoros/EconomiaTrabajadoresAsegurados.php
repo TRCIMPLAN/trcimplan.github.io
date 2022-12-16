@@ -182,7 +182,12 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
             array('fecha' => '2022-03-31', 'valor' => '10857', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-04-30', 'valor' => '10849', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-05-31', 'valor' => '11021', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2022-06-30', 'valor' => '10928', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 232, crudo 117
+            array('fecha' => '2022-06-30', 'valor' => '10928', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2022-07-31', 'valor' => '10956', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('fecha' => '2022-08-31', 'valor' => '11058', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('fecha' => '2022-09-30', 'valor' => '11065', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('fecha' => '2022-10-31', 'valor' => '10980', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('fecha' => '2022-11-30', 'valor' => '10937', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS')); // formateado 0, valor 242, crudo 127
     } // datos
 
     /**
@@ -206,11 +211,11 @@ class EconomiaTrabajadoresAsegurados extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2022-06-30', 'valor' => '212305', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-06-30', 'valor' => '90241', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Lerdo', 'fecha' => '2022-06-30', 'valor' => '13924', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'Matamoros', 'fecha' => '2022-06-30', 'valor' => '10928', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2022-06-30', 'valor' => '327398', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2022-11-30', 'valor' => '218320', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-11-30', 'valor' => '91730', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('region_nombre' => 'Lerdo', 'fecha' => '2022-11-30', 'valor' => '13252', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('region_nombre' => 'Matamoros', 'fecha' => '2022-11-30', 'valor' => '10937', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-11-30', 'valor' => '391412', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => ' '),
             array('region_nombre' => 'Coahuila', 'fecha' => '2022-02-28', 'valor' => '807975', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Durango', 'fecha' => '2022-02-28', 'valor' => '257932', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Nacional', 'fecha' => '2022-02-28', 'valor' => '20941286', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'));

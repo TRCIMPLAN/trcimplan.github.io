@@ -188,7 +188,6 @@
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Sist. Metropolitano de Indicadores</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicador Básico de Colonias</a></li>
             <li><a href="../sig/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Sist. Información Geográfica</a></li>
-            <li><a href="https://arcg.is/0vySSr" target="_blank"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Atlas de Riesgos</a></li>
           </ul>
         </li>
         <li>
@@ -756,6 +755,30 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-07-31</td>
+        <td class="derecha">2,367</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-08-31</td>
+        <td class="derecha">2,425</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-09-30</td>
+        <td class="derecha">2,631</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">2,210</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td> </td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -780,38 +803,38 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">808</td>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">1,227</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
+        <td>Total de delitos cometidos</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">536</td>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">512</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
+        <td> </td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">144</td>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">168</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
+        <td> </td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2019-12-31</td>
-        <td class="derecha">103</td>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">214</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
+        <td> </td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2022-07-31</td>
-        <td class="derecha">2,367</td>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">2,210</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
+        <td> </td>
       </tr>
     </tbody>
   </table>
@@ -1017,7 +1040,10 @@
         { fecha: '2022-04-30', dato: 2441 },
         { fecha: '2022-05-31', dato: 2511 },
         { fecha: '2022-06-30', dato: 3047 },
-        { fecha: '2022-07-31', dato: 2367 }],
+        { fecha: '2022-07-31', dato: 2367 },
+        { fecha: '2022-08-31', dato: 2425 },
+        { fecha: '2022-09-30', dato: 2631 },
+        { fecha: '2022-10-31', dato: 2210 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -1032,7 +1058,7 @@
   if (typeof varSmiOtrasRegionesDelitosEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDelitosEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDelitosEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 808 },{ region: 'Gómez Palacio', dato: 536 },{ region: 'Lerdo', dato: 144 },{ region: 'Matamoros', dato: 103 },{ region: 'La Laguna', dato: 2367 }],
+      data: [{ region: 'Torreón', dato: 1227 },{ region: 'Gómez Palacio', dato: 512 },{ region: 'Lerdo', dato: 168 },{ region: 'Matamoros', dato: 214 },{ region: 'La Laguna', dato: 2210 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

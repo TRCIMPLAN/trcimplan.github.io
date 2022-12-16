@@ -188,7 +188,6 @@
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Sist. Metropolitano de Indicadores</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicador Básico de Colonias</a></li>
             <li><a href="../sig/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Sist. Información Geográfica</a></li>
-            <li><a href="https://arcg.is/0vySSr" target="_blank"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Atlas de Riesgos</a></li>
           </ul>
         </li>
         <li>
@@ -690,6 +689,24 @@
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-08-31</td>
+        <td class="derecha">896</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-09-30</td>
+        <td class="derecha">949</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">824</td>
+        <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+        <td> </td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -714,17 +731,17 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2019-12-31</td>
-        <td>152</td>
+        <td class="centrado">2022-10-31</td>
+        <td>404</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
+        <td> </td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2019-12-31</td>
-        <td>62</td>
+        <td class="centrado">2022-10-31</td>
+        <td>243</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
+        <td> </td>
       </tr>
       <tr>
         <td>Lerdo</td>
@@ -742,10 +759,10 @@
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2022-07-31</td>
-        <td>898</td>
+        <td class="centrado">2022-10-31</td>
+        <td>824</td>
         <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-        <td></td>
+        <td> </td>
       </tr>
       <tr>
         <td>Coahuila</td>
@@ -947,7 +964,10 @@
         { fecha: '2022-04-30', dato: 829 },
         { fecha: '2022-05-31', dato: 795 },
         { fecha: '2022-06-30', dato: 1091 },
-        { fecha: '2022-07-31', dato: 898 }],
+        { fecha: '2022-07-31', dato: 898 },
+        { fecha: '2022-08-31', dato: 896 },
+        { fecha: '2022-09-30', dato: 949 },
+        { fecha: '2022-10-31', dato: 824 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -962,7 +982,7 @@
   if (typeof varSmiOtrasRegionesDelitosPatrimonialesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesDelitosPatrimonialesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesDelitosPatrimonialesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 152 },{ region: 'Gómez Palacio', dato: 62 },{ region: 'Lerdo', dato: 16 },{ region: 'Matamoros', dato: 12 },{ region: 'La Laguna', dato: 898 },{ region: 'Coahuila', dato: 20 }],
+      data: [{ region: 'Torreón', dato: 404 },{ region: 'Gómez Palacio', dato: 243 },{ region: 'Lerdo', dato: 16 },{ region: 'Matamoros', dato: 12 },{ region: 'La Laguna', dato: 824 },{ region: 'Coahuila', dato: 20 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

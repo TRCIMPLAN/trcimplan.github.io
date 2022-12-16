@@ -94,7 +94,7 @@ class EconomiaTrabajadoresPermanentes extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2022-06-30', 'valor' => '195204', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2022-11-30', 'valor' => '200071', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-06-30', 'valor' => '83081', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2022-06-30', 'valor' => '12187', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2022-06-30', 'valor' => '6679', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),

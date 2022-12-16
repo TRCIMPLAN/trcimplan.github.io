@@ -188,7 +188,6 @@
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Sist. Metropolitano de Indicadores</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicador Básico de Colonias</a></li>
             <li><a href="../sig/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Sist. Información Geográfica</a></li>
-            <li><a href="https://arcg.is/0vySSr" target="_blank"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Atlas de Riesgos</a></li>
           </ul>
         </li>
         <li>
@@ -282,6 +281,36 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-07-31</td>
+        <td class="derecha">14,607</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-08-31</td>
+        <td class="derecha">15,142</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-09-30</td>
+        <td class="derecha">15,273</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">15,405</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">15,502</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -306,10 +335,10 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2022-06-30</td>
-        <td class="derecha">14,368</td>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">15,502</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
+        <td>Con datos del IMSS</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
@@ -381,6 +410,24 @@
 <!-- Javascript global termina -->
 <!-- Javascript inicia -->
 <script>
+  // LenguetaWeb LenguetasIndicadorDatos
+  if (typeof varSmiDatosTrabajadoresEventualesEnTorreon === 'undefined') {
+     $('#SmiDatosTrabajadoresEventualesEnTorreon').DataTable({
+      "language": {
+        "lengthMenu":   "Mostrando _MENU_ filas por página",
+        "zeroRecords":  "No se encontró nada",
+        "info":         "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty":    "No se encontraron registros",
+        "infoFiltered": "(fitrados a partir de un máximo de _MAX_ registros)",
+        "search":       "Filtrar:",
+        "paginate": {
+          "previous":   "Anterior",
+          "next":       "Siguiente"
+        }
+      }
+    });
+    varSmiDatosTrabajadoresEventualesEnTorreon = 1;
+  }
   // LenguetaWeb LenguetasIndicadorGrafica ejecuta lo siguiente al mostrar
   $('#LenguetasIndicador a[href="#LenguetasIndicadorGrafica"]').on('shown.bs.tab', function(e){
   if (typeof varSmiGraficasTrabajadoresEventualesEnTorreon === 'undefined') {
@@ -392,7 +439,12 @@
         { fecha: '2022-03-31', dato: 14144 },
         { fecha: '2022-04-30', dato: 14463 },
         { fecha: '2022-05-31', dato: 14532 },
-        { fecha: '2022-06-30', dato: 14368 }],
+        { fecha: '2022-06-30', dato: 14368 },
+        { fecha: '2022-07-31', dato: 14607 },
+        { fecha: '2022-08-31', dato: 15142 },
+        { fecha: '2022-09-30', dato: 15273 },
+        { fecha: '2022-10-31', dato: 15405 },
+        { fecha: '2022-11-30', dato: 15502 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -407,7 +459,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresEventualesEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresEventualesEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresEventualesEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 14368 },{ region: 'Gómez Palacio', dato: 4516 },{ region: 'Lerdo', dato: 1165 },{ region: 'Matamoros', dato: 616 },{ region: 'La Laguna', dato: 297151 }],
+      data: [{ region: 'Torreón', dato: 15502 },{ region: 'Gómez Palacio', dato: 4516 },{ region: 'Lerdo', dato: 1165 },{ region: 'Matamoros', dato: 616 },{ region: 'La Laguna', dato: 297151 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -96,7 +96,7 @@ class EconomiaTrabajadoresEventuales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2022-06-30', 'valor' => '14368', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2022-11-30', 'valor' => '15502', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-06-30', 'valor' => '4516', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2022-06-30', 'valor' => '1165', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2022-06-30', 'valor' => '616', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),

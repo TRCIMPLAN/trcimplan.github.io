@@ -72,7 +72,12 @@ class EconomiaAseguradosTotales extends \SMIBase\PublicacionWeb {
             array('fecha' => '2022-03-31', 'valor' => '244406', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-04-30', 'valor' => '245462', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('fecha' => '2022-05-31', 'valor' => '244482', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
-            array('fecha' => '2022-06-30', 'valor' => '244679', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)')); // formateado 0, valor 12, crudo 6
+            array('fecha' => '2022-06-30', 'valor' => '244679', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('fecha' => '2022-07-31', 'valor' => '244873', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('fecha' => '2022-08-31', 'valor' => '247470', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('fecha' => '2022-09-30', 'valor' => '251492', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('fecha' => '2022-10-31', 'valor' => '251850', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
+            array('fecha' => '2022-11-30', 'valor' => '252534', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS')); // formateado 0, valor 22, crudo 16
     } // datos
 
     /**
@@ -96,7 +101,7 @@ class EconomiaAseguradosTotales extends \SMIBase\PublicacionWeb {
      */
     public function otras_regiones() {
         return array(
-            array('region_nombre' => 'Torreón', 'fecha' => '2022-06-30', 'valor' => '244679', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
+            array('region_nombre' => 'Torreón', 'fecha' => '2022-11-30', 'valor' => '252534', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)', 'notas' => 'Con datos del IMSS'),
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2022-06-30', 'valor' => '96066', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2022-06-30', 'valor' => '16920', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2022-06-30', 'valor' => '14368', 'fuente_nombre' => 'Instituto Mexicano del Seguro Social (IMSS)'),

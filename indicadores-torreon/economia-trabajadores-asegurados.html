@@ -188,7 +188,6 @@
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Sist. Metropolitano de Indicadores</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicador Básico de Colonias</a></li>
             <li><a href="../sig/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Sist. Información Geográfica</a></li>
-            <li><a href="https://arcg.is/0vySSr" target="_blank"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Atlas de Riesgos</a></li>
           </ul>
         </li>
         <li>
@@ -942,6 +941,36 @@
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
         <td></td>
       </tr>
+      <tr>
+        <td class="centrado">2022-07-31</td>
+        <td class="derecha">212,939</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-08-31</td>
+        <td class="derecha">214,669</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-09-30</td>
+        <td class="derecha">215,984</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-10-31</td>
+        <td class="derecha">217,474</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
+      <tr>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">218,320</td>
+        <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+        <td>Con datos del IMSS</td>
+      </tr>
     </tbody>
   </table>
   </div>
@@ -966,38 +995,38 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2022-06-30</td>
-        <td class="derecha">212,305</td>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">218,320</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
+        <td>Con datos del IMSS</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
-        <td class="centrado">2022-06-30</td>
-        <td class="derecha">90,241</td>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">91,730</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
+        <td>Con datos del IMSS</td>
       </tr>
       <tr>
         <td>Lerdo</td>
-        <td class="centrado">2022-06-30</td>
-        <td class="derecha">13,924</td>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">13,252</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
+        <td>Con datos del IMSS</td>
       </tr>
       <tr>
         <td>Matamoros</td>
-        <td class="centrado">2022-06-30</td>
-        <td class="derecha">10,928</td>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">10,937</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
+        <td>Con datos del IMSS</td>
       </tr>
       <tr>
         <td>La Laguna</td>
-        <td class="centrado">2022-06-30</td>
-        <td class="derecha">327,398</td>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">391,412</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
+        <td> </td>
       </tr>
       <tr>
         <td>Coahuila</td>
@@ -1247,7 +1276,12 @@
         { fecha: '2022-03-31', dato: 212133 },
         { fecha: '2022-04-30', dato: 212825 },
         { fecha: '2022-05-31', dato: 212211 },
-        { fecha: '2022-06-30', dato: 212305 }],
+        { fecha: '2022-06-30', dato: 212305 },
+        { fecha: '2022-07-31', dato: 212939 },
+        { fecha: '2022-08-31', dato: 214669 },
+        { fecha: '2022-09-30', dato: 215984 },
+        { fecha: '2022-10-31', dato: 217474 },
+        { fecha: '2022-11-30', dato: 218320 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -1262,7 +1296,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresAseguradosEnTorreonGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresAseguradosEnTorreonGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresAseguradosEnTorreonGrafica',
-      data: [{ region: 'Torreón', dato: 212305 },{ region: 'Gómez Palacio', dato: 90241 },{ region: 'Lerdo', dato: 13924 },{ region: 'Matamoros', dato: 10928 },{ region: 'La Laguna', dato: 327398 },{ region: 'Coahuila', dato: 807975 },{ region: 'Durango', dato: 257932 },{ region: 'Nacional', dato: 20941286 }],
+      data: [{ region: 'Torreón', dato: 218320 },{ region: 'Gómez Palacio', dato: 91730 },{ region: 'Lerdo', dato: 13252 },{ region: 'Matamoros', dato: 10937 },{ region: 'La Laguna', dato: 391412 },{ region: 'Coahuila', dato: 807975 },{ region: 'Durango', dato: 257932 },{ region: 'Nacional', dato: 20941286 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

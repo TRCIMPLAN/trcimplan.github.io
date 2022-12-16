@@ -43,7 +43,7 @@ class EconomiaInflacionAnual extends \SMIBase\PublicacionWeb {
         $this->claves      = 'IMPLAN, La Laguna, Macroeconomía';
         // Para el Organizador
         $this->categorias  = array('Macroeconomía');
-        $this->fuentes     = array('INEGI', 'IMCO');
+        $this->fuentes     = array('IMCO', 'INEGI');
         $this->regiones    = array('La Laguna');
     } // constructor
 

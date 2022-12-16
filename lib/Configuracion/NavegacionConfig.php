@@ -125,8 +125,8 @@ class NavegacionConfig {
         'Datos Abiertos'  => array(
              'Datos Abiertos > Sist. Metropolitano de Indicadores'     => 'smi/datos-abiertos.html',
              'Datos Abiertos > Indicador Básico de Colonias'           => 'ibc/datos-abiertos.html',
-             'Datos Abiertos > Sist. Información Geográfica'           => 'sig/datos-abiertos.html',
-             'Datos Abiertos > Atlas de Riesgos'                       => 'https://arcg.is/0vySSr'),
+             'Datos Abiertos > Sist. Información Geográfica'           => 'sig/datos-abiertos.html'),
+             //'Datos Abiertos > Atlas de Riesgos'                       => 'https://arcg.is/0vySSr'),
 
         'Términos de Uso' => array(
              'Términos de Uso > De la información'                     => 'terminos/terminos-informacion.html',
@@ -220,7 +220,7 @@ class NavegacionConfig {
             'Sist. Metropolitano de Indicadores' => 'fa fa-area-chart',
             'Indicador Básico de Colonias' => 'fa fa-puzzle-piece',
             'Sist. Información Geográfica' => 'fa fa-map-marker',
-            'Atlas de Riesgos'             => 'fa fa-globe',
+            //'Atlas de Riesgos'             => 'fa fa-globe',
         'Convocatorias'                    => 'fa fa-file-text-o',
         'Oficina Virtual de Información Económica (OVIE)' => 'fa fa-map-marker',
         'Atlas Municipal de Riesgos de Torreón'  => 'fa fa-globe');

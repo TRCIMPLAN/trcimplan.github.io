@@ -188,7 +188,6 @@
             <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Sist. Metropolitano de Indicadores</a></li>
             <li><a href="../ibc/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-puzzle-piece"></i></span> Indicador Básico de Colonias</a></li>
             <li><a href="../sig/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Sist. Información Geográfica</a></li>
-            <li><a href="https://arcg.is/0vySSr" target="_blank"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Atlas de Riesgos</a></li>
           </ul>
         </li>
         <li>
@@ -306,10 +305,10 @@
     <tbody>
       <tr>
         <td>Torreón</td>
-        <td class="centrado">2022-06-30</td>
-        <td class="derecha">14,368</td>
+        <td class="centrado">2022-11-30</td>
+        <td class="derecha">15,502</td>
         <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-        <td></td>
+        <td>Con datos del IMSS</td>
       </tr>
       <tr>
         <td>Gómez Palacio</td>
@@ -407,7 +406,7 @@
   if (typeof varSmiOtrasRegionesTrabajadoresEventualesEnLaLagunaGrafica === 'undefined') {
     varSmiOtrasRegionesTrabajadoresEventualesEnLaLagunaGrafica = Morris.Bar({
       element: 'SmiOtrasRegionesTrabajadoresEventualesEnLaLagunaGrafica',
-      data: [{ region: 'Torreón', dato: 14368 },{ region: 'Gómez Palacio', dato: 4516 },{ region: 'Lerdo', dato: 1165 },{ region: 'Matamoros', dato: 616 },{ region: 'La Laguna', dato: 297151 }],
+      data: [{ region: 'Torreón', dato: 15502 },{ region: 'Gómez Palacio', dato: 4516 },{ region: 'Lerdo', dato: 1165 },{ region: 'Matamoros', dato: 616 },{ region: 'La Laguna', dato: 297151 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

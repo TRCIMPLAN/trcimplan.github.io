@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2022-12-12</lastmod>
+    <lastmod>2022-12-16</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -581,6 +581,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/blog/ejercicios-de-planeacion-urbana-con-ninos-dic-2022.html</loc>
+    <lastmod>2022-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/blog/el-bosque-venustiano-carranza-diagnostico-y-problematicas.html</loc>
     <lastmod>2016-08-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -893,6 +898,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/hacinamiento-en-torreon-marzo2020.html</loc>
     <lastmod>2020-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/identidad-y-politicas-culturales-dic-2022.html</loc>
+    <lastmod>2022-12-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
