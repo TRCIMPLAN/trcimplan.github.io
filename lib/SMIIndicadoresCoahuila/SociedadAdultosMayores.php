@@ -104,7 +104,7 @@ class SociedadAdultosMayores extends \SMIBase\PublicacionWeb {
             array('region_nombre' => 'Gómez Palacio', 'fecha' => '2020-06-30', 'valor' => '25929', 'fuente_nombre' => 'CONAPO'),
             array('region_nombre' => 'Lerdo', 'fecha' => '2020-06-30', 'valor' => '11717', 'fuente_nombre' => 'CONAPO'),
             array('region_nombre' => 'Matamoros', 'fecha' => '2020-06-30', 'valor' => '9196', 'fuente_nombre' => 'CONAPO'),
-            array('region_nombre' => 'La Laguna', 'fecha' => '2021-12-31', 'valor' => '108202', 'fuente_nombre' => 'CONAPO'),
+            array('region_nombre' => 'La Laguna', 'fecha' => '2022-12-31', 'valor' => '112850', 'fuente_nombre' => 'CONAPO'),
             array('region_nombre' => 'Coahuila', 'fecha' => '2020-06-30', 'valor' => '237152', 'fuente_nombre' => 'CONAPO'),
             array('region_nombre' => 'Durango', 'fecha' => '2020-06-30', 'valor' => '143292', 'fuente_nombre' => 'CONAPO'),
             array('region_nombre' => 'Nacional', 'fecha' => '2020-06-30', 'valor' => '9627630', 'fuente_nombre' => 'CONAPO'));
