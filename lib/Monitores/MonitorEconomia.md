@@ -1,33 +1,34 @@
-# Monitor de Economía Octubre 2022
+# Monitor de Economía Noviembre 2022
 
 ##INDICADORES MACROECONÓMICOS
-INDICADOR                                                       | DATO  |NIVEL      |FUENTE/PERIODO                             |
-----------------------------------------------------------------|-------|-----------|-------------------------------------------|
-Tipo de cambio fix del último mes                               |19.82  |Nacional   |Banxico, octubre 2022  |
-Depreciación/Apreciación acumulada en 2022 del tipo de cambio   |3.71%  |Nacional   |Banxico, octubre 2022  |
-Tasa de interés objetivo                                        |9.25%  |Nacional   |Banxico, octubre 2022  |
-Último movimiento de la tasa                                    |0.75%  |Nacional   |Banxico, octubre 2022  |
-Inflación interanual                                            |8.70%  |Nacional   |Banxico, octubre 2022  |
+INDICADOR                                                       | DATO  |NIVEL      |FUENTE/PERIODO         |
+----------------------------------------------------------------|-------|-----------|-----------------------|
+Tipo de cambio fix del último mes                               |19.31  |Nacional   |Banxico, noviembre 2022|
+Depreciación/Apreciación acumulada en 2022 del tipo de cambio   |6.41%  |Nacional   |Banxico, noviembre 2022|
+Tasa de interés objetivo                                        |10.00% |Nacional   |Banxico, noviembre 2022|
+Último movimiento de la tasa                                    |0.75%  |Nacional   |Banxico, noviembre 2022|
+Inflación interanual                                            |8.41%  |Nacional   |Banxico, noviembre 2022|
 
 ##INDICADORES REGIONALES
 INDICADOR                               |DATO       |NIVEL      |FUENTE                         |
 ----------------------------------------|-----------|-----------|-------------------------------|
 PIB estimado 2018                       |351.8 mmp  |ZML        |Censos Económicos 2019, INEGI  |
 Lugar nacional en Valor Agregado 2018   |7°         |Torreón    |Censos Económicos 2019, INEGI  |
-Inflación Nacional 2022                 |8.70%      |Nacional   |INPC-INEGI octubre 2022        |
-Inflación interanual Torreón            |10.20%     |Torreón    |INPC-INEGI octubre 2022        |
-Inflación mensual interanual 2022       |5.57%      |Torreón    |INPC-INEGI octubre 2022        |
+Inflación Nacional 2022                 |8.41%      |Nacional   |INPC-INEGI noviembre 2022      |
+Inflación interanual Torreón            |9.29%      |Torreón    |INPC-INEGI noviembre 2022      |
+Inflación mensual interanual 2022       |5.57%      |Torreón    |INPC-INEGI noviembre 2022      |
 
 ##PERSPECTIVAS ECONÓMICAS
 INDICADOR                                                   |DATO   |NIVEL      |FUENTE                 |
 ------------------------------------------------------------|-------|-----------|-----------------------|
-Cambio interanual en la confianza de los consumidores       |1.61%  |Nacional   |Banxico, octubre 2022  |
-Cambio interanual en expectativas de pedidos manufactureros |2.35%  |Nacional   |Banxico, octubre 2022  |
-Cambio interanual en la confianza del sector manufactura    |1.53%  |Nacional   |Banxico, octubre 2022  |
-Cambio interanual en la confianza del sector construcción   |-2.25% |Nacional   |Banxico, octubre 2022  |
-Cambio interanual en la confianza del sector comercio       |-0.22% |Nacional   |Banxico, octubre 2022  |
+Cambio interanual en la confianza de los consumidores       |1.61%  |Nacional   |INEGI, noviembre 2022  |
+Cambio interanual en expectativas de pedidos manufactureros |2.35%  |Nacional   |INEGI, noviembre 2022  |
+Cambio interanual en la confianza del sector manufactura    |1.53%  |Nacional   |INEGI, noviembre 2022  |
+Cambio interanual en la confianza del sector construcción   |-2.25% |Nacional   |INEGI, noviembre 2022  |
+Cambio interanual en la confianza del sector comercio       |-0.22% |Nacional   |INEGI, noviembre 2022  |
 
 </br>
+
 
 
 <p style="background-color:#f95666;color:yellow;"><strong>ARCHIVOS HISTÓRICOS ECONÓMICOS</strong></p>
@@ -44,6 +45,7 @@ Cambio interanual en la confianza del sector comercio       |-0.22% |Nacional   
 [Julio 2022 -](http://www.trcimplan.gob.mx/monitores/economia/economia-jul-2022.pdf)
 [Agosto 2022 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ago-2022.pdf)
 [Septiembre 2022 -](http://www.trcimplan.gob.mx/monitores/economia/economia-sep-2022.pdf)
+[Octubre 2022 -](http://www.trcimplan.gob.mx/monitores/economia/economia-oct-2022.pdf)
 
 ###Año 2021
 [Enero 2021 -](http://www.trcimplan.gob.mx/monitores/economia/economia-ene-2021.pdf)
