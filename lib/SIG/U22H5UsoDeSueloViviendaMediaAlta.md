@@ -17,7 +17,7 @@ CAS mínimo <sup>2</sup>: <b>0.2</b>
 
 Porcentaje máximo de área destinada a vivienda multifamiliar: <b>50%</b>
 
-Niveles máximos <sup>3</sup>: <b>3</b>
+Niveles máximos <sup>3</sup>: <b>4</b>
 
 Niveles máximos con Norma 8 <sup>3,4</sup>: <b>N/A</b>
 

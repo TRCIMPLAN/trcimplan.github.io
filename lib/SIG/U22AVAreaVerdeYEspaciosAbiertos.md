@@ -11,7 +11,7 @@ Densidad Unifamiliar <sup>1</sup> (viv/ha): <b>N/A</b>
 
 COS máximo <sup>2</sup>: <b>0.05</b>
 
-CUS máximo <sup>2</sup>: <b>0.1</b>
+CUS máximo <sup>2</sup>: <b>0.05</b>
 
 CAS mínimo <sup>2</sup>: <b>0.95</b>
 
