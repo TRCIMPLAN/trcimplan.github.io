@@ -1,5 +1,11 @@
 
+<p>
+   <a title="ir a Otras Publicaciones" href="http://www.trcimplan.gob.mx/autores/estefania-rodriguez-schott.html"><img class="img-responsive contenido-imagen" src="../imagenes/128/arq-estefania-rodriguez-schott-top5.png" align="right" alt="Foto Estefanía" width="500" height="200"></a>
+</p>
 
+</br></br></br></br></br></br></br></br>
+
+---
 
 En 1972, durante la conferencia de las Naciones Unidas en Estocolmo, Suecia; se habló por primera vez sobre la importancia de cuidar el medio ambiente. Consecutivamente, en 1975, en el Seminario Internacional de Educación Ambiental, se plasmaron los primeros objetivos sobre la Carta de Belgrado. Lo que dio origen al día mundial de la educación ambiental, conmemorado el 26 de enero.
 
@@ -23,6 +29,6 @@ Fue a través de la campaña de Octubre Urbano 2022, que el IMPLAN, como parte d
 
 - [https://www.gob.mx/profepa/articulos/26-de-enero-dia-mundial-de-la-educacion-ambiental-293022?idiom=es](https://www.gob.mx/profepa/articulos/26-de-enero-dia-mundial-de-la-educacion-ambiental-293022?idiom=es)
 
--[ https://www.undp.org/sustainable-development-goals?utm_source=EN&utm_medium=GSR&utm_content=US_UNDP_PaidSearch_Brand_English&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=GSR&gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNkjbyvGb03qsWyMKHRQmjElecQFRJcy6Sqs3Fg0lqdqJo1zASdqff0aAondEALw_wcB]( https://www.undp.org/sustainable-development-goals?utm_source=EN&utm_medium=GSR&utm_content=US_UNDP_PaidSearch_Brand_English&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=GSR&gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNkjbyvGb03qsWyMKHRQmjElecQFRJcy6Sqs3Fg0lqdqJo1zASdqff0aAondEALw_wcB)
+- [ https://www.undp.org/sustainable-development-goals?utm_source=EN&utm_medium=GSR&utm_content=US_UNDP_PaidSearch_Brand_English&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=GSR&gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNkjbyvGb03qsWyMKHRQmjElecQFRJcy6Sqs3Fg0lqdqJo1zASdqff0aAondEALw_wcB]( https://www.undp.org/sustainable-development-goals?utm_source=EN&utm_medium=GSR&utm_content=US_UNDP_PaidSearch_Brand_English&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=GSR&gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNkjbyvGb03qsWyMKHRQmjElecQFRJcy6Sqs3Fg0lqdqJo1zASdqff0aAondEALw_wcB)
 
 - [https://www.unep.org/resources/adaptation-gap-report-2022#:~:text=UNEP's%20Adaptation%20Gap%20Report%202022,these%20impacts%20of%20climate%20change.](https://www.unep.org/resources/adaptation-gap-report-2022#:~:text=UNEP's%20Adaptation%20Gap%20Report%202022,these%20impacts%20of%20climate%20change.)

@@ -38,15 +38,15 @@ class EducacionAmbiental extends \Base\PublicacionSchemaBlogPosting {
         $this->autor                      = 'Arq. Estefanía Rodríguez Schott';
         $this->fecha                      = '2023-01-19T09:50';
         // El nombre del archivo a crear
-        $this->archivo                    = 'archivo';
+        $this->archivo                    = 'educacion-ambiental-ene-2023';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Descripción.';
-        $this->claves                     = 'IMPLAN, Torreon, ';
+        $this->descripcion                = 'En 1972, durante la conferencia de las Naciones Unidas en Estocolmo, Suecia; se habló por primera vez sobre la importancia de cuidar el medio ambiente.';
+        $this->claves                     = 'IMPLAN, Torreon, ambiental';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Blog/EducacionAmbiental.md';
         // Para el Organizador
-        $this->categorias                 = array();
-        $this->fuentes                    = array();
+        $this->categorias                 = array('Medio Ambiente');
+        $this->fuentes                    = array('PROFEPA');
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
