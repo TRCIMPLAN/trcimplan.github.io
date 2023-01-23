@@ -14,7 +14,7 @@ NOMBRE                                     | CARGO
 **C. Cristhian González Zambrano**             | Presidente de la Comisión de Obras Públicas del Ayuntamiento
 **C. Blanca Álvarez Garza**                    | Presidenta de la Comisión de Desarrollo Económico del Ayuntamiento
 **C. Francisco José Torres**                   | Titular Responsable del área de Desarrollo Urbano
-C. POR DEFINIR **                          | Representante del Consejo Municipal de Desarrollo Urbano
+**C. Alberto Allegre del Cueto**               | Presidente del Consejo Municipal de Ordenamiento Territorial y Urbanismo
 **C. Cristian Manuel López Chávez**            | Décimo quinto regidor, Pdte. Comisión de Ciencia y Tecnología
 **C. José Armando González Murillo**           | Décimo sexto regidor, Pdte. Comisión Metropolitana
 
@@ -23,13 +23,13 @@ C. POR DEFINIR **                          | Representante del Consejo Municipal
 NOMBRE                                     | CARGO
 -------------------------------------------|------------------------------------------------------------------------------------
 **C. Ernesto Llamas Sotomayor**                | Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción
-**C. Rogelio Barrios Cázares**                 | Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción
+**C. Jesús Héctor de la Garza Acosta**         | Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción
 **C. Fernando Menéndez Cuellar**               | Iniciativa Privada
-**C. Roberto A. Muñoz del Río**                | Iniciativa Privada
+**C. Carlos Javier González Silva**            | Iniciativa Privada
 **C. Ana Catalina Argüelles del Bosque**       | Organizaciones de la Sociedad Civil
-**C. José Isabel Ibarra Casiano**              | Organizaciones de la Sociedad Civil
+**C. Ángel Fidel Morales Salazar**             | Organizaciones de la Sociedad Civil
 **C. José Luis Zapata Dávila**                 | Instituciones de Educación Superior
-**C. Raul Martínez Hernández**                 | Instituciones de Educación Superior
+**C. Indalecio Medina Morales**                | Instituciones de Educación Superior
 
 ##Consejeros Propuestos por el Alcalde
 
