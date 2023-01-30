@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2023-01-24</lastmod>
+    <lastmod>2023-01-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -938,6 +938,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/importancia-agricola-y-ganadera-de-la-laguna-jun-2021.html</loc>
     <lastmod>2021-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/importancia-de-la-cartografia-electoral-ene-2023.html</loc>
+    <lastmod>2023-01-30</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
