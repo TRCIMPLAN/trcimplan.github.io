@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2023-01-30</lastmod>
+    <lastmod>2023-02-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2168,6 +2168,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/situacion-social-de-los-adultos-mayores-en-la-laguna.html</loc>
     <lastmod>2017-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/smart-cities-ene-2023.html</loc>
+    <lastmod>2023-02-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
