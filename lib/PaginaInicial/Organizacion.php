@@ -135,7 +135,7 @@ class Organizacion extends \Base\SchemaGovernmentOrganization {
             $b[] = '<div class="slider2">';
                 $b[] = '<ul>';
 
-                $b[] = '<a href="http://www.trcimplan.gob.mx/sig-planes/pddu2022.html"><img src="imagenes\pddu-2040\pddu-2040.jpg" alt="banner pddu 2040"></a>';
+                $b[] = '<a href="http://177.244.42.17/icluster-torreon/"><img src="imagenes\icluster\icluster-banner.png" alt="iCluster"></a>';
 
                 $b[] = '<a href="https://solucionessig.com.mx/trcimplan_SGT/"><img src="imagenes\plataforma-gestion\banner-plataforma-gestion-territorial.jpg" alt="banner plataforma"></a>';
 
