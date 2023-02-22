@@ -8,7 +8,7 @@
 
 Mucho se ha hablado sobre el impacto que nuestras actividades humanas tienen sobre el medio ambiente, y como han generado consecuencias negativas que afectan nuestra calidad de vida, ya sea por traslados que se ven interrumpidos debido a las abundantes lluvias (se estimaron pérdidas de 300 millones de pesos en 2018), o el uso de aparatos refrescantes para lidiar con las altas temperaturas, que aumentarán 5 °C, y los efectos de isla de calor en nuestra ciudad.
 
-De acuerdo con el Atlas Nacional de Vulnerabilidad (SEMARNAT, 2019), Torreón se encuentra entre los 10 municipios más vulnerables al cambio climático. Por consiguiente, es imprescindible el continuo esfuerzo de proponer y realizar acciones que hagan frente a sus efectos, a través de la protección de las especies vegetales de nuestro ecosistema y al mismo tiempo, podamos aprovechar los servicios y beneficios que aportan, para coexistir en un entorno armonioso y equilibrado.
+De acuerdo con el Atlas Nacional de Vulnerabilidad (SEMARNAT, 2019), Torreón se encuentra en el lugar 83 de los municipios más vulnerables al cambio climático. Por consiguiente, es imprescindible el continuo esfuerzo de proponer y realizar acciones que hagan frente a sus efectos, a través de la protección de las especies vegetales de nuestro ecosistema y al mismo tiempo, podamos aprovechar los servicios y beneficios que aportan, para coexistir en un entorno armonioso y equilibrado.
 
 Recientemente, se ha demostrado que las áreas verdes urbanas albergan diferentes especies de flora y fauna que proporcionan múltiples beneficios, entre los cuales resalta la mejora, el confort, disminuyendo temperaturas, lo cual es de gran utilidad en una ciudad con las características climatológicas de Torreón. Así mismo, estos espacios albergan una gran variedad de organismos vivos que terminan conformando la biodiversidad en una región.
 
@@ -24,13 +24,15 @@ Actualmente, se está llevando a cabo el primer Taller Virtual de trabajo para e
 
 Torreón se destaca en el uso de agua tratada para el riego de estas áreas verdes, anualmente, se producen 51,088,320 m³ de agua tratada, (CONAGUA, 2020) esto es una técnica de interés en la ciudad de Nancy, mientras que nuestro municipio se interesa por conocer los métodos de adaptación de especies al suelo para contrarrestar los efectos de isla de calor. Servicios Públicos, Medio Ambiente e IMPLAN Torreón, se esfuerzan en conjunto para dar seguimiento y consolidar este tipo relaciones que favorecen a la ciudad y a la calidad de vida de la población.
 
+
 ###FUENTES:
 
 - Agencia Mexicana de Cooperación Internacional para el Desarrollo (SRE/AMEXCID). (s. f.). COOPERACIÓN DESCENTRALIZADA MÉXICO-FRANCIA. Gobierno de México. Recuperado 15 de febrero de 2022, de [https://www.gob.mx/amexcid/documentos/apertura-de-la-convocatoria-2022-en-apoyo-a-la-cooperacion-descentralizada-mexico-francia](https://www.gob.mx/amexcid/documentos/apertura-de-la-convocatoria-2022-en-apoyo-a-la-cooperacion-descentralizada-mexico-francia)
 
 - Comisión Nacional del Agua, CONAGUA, 2021, Plantas de tratamiento de aguas residuales. [http://sina.conagua.gob.mx/sina/tema.php?tema=plantasTratamiento&n=regional](http://sina.conagua.gob.mx/sina/tema.php?tema=plantasTratamiento&n=regional)
 
-- Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, CONABIO. (s. f.). ¿Por qué conservar? Biodiversidad Mexicana. [https://www.biodiversidad.gob.mx/biodiversidad/porque_conserva](https://www.biodiversidad.gob.mx/biodiversidad/porque_conserva)
+- Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, CONABIO. (s. f.). ¿Por qué conservar? Biodiversidad Mexicana.
+ [https://www.biodiversidad.gob.mx/biodiversidad/porque_conserva](https://www.biodiversidad.gob.mx/biodiversidad/porque_conserva)
 
 - Secretaría de Medio Ambiente y Recursos Naturales, SEMARNAT. (2019), Atlas Nacional de Vulnerabilidad al Cambio Climático   [https://atlasvulnerabilidad.inecc.gob.mx/](https://atlasvulnerabilidad.inecc.gob.mx/)
 
