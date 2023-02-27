@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2023-02-21</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1763,6 +1763,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/plan-de-movilidad-activa-ene-2022.html</loc>
     <lastmod>2022-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/pddu-aportes-y-beneficios-feb-2023.html</loc>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

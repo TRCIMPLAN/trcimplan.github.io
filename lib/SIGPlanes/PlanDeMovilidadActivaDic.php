@@ -37,7 +37,7 @@ class PlanDeMovilidadActivaDic extends \Base\Publicacion {
         // El nombre del archivo a crear
         $this->archivo                   = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion               = 'Este Plan pretende ser el instrumento de planeación estratégica que diseñe y desarrolle las políticas, metas, proyectos y programas en materia de movilidad para modos no motorizados, para así, programar, organizar y priorizar las acciones necesarias para lograr un sistema de movilidad urbana sustentable.</br> - PDF 22.9 MB </br></br>';
+        $this->descripcion               = 'Este Plan pretende ser el instrumento de planeación estratégica que diseñe y desarrolle las políticas, metas, proyectos y programas en materia de movilidad para modos no motorizados, para así, programar, organizar y priorizar las acciones necesarias para lograr un sistema de movilidad urbana sustentable. - PDF 22.9 MB </br></br>';
         $this->claves                    = 'IMPLAN, Torreón, Plan, Movilidad, Activa, La Laguna';
         // Para el Organizador
         $this->categorias                = array('Gobierno', 'Movilidad');
