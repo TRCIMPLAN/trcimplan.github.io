@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2023-03-06</lastmod>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2088,6 +2088,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/salud-mental-y-adicciones-dic-2021.html</loc>
     <lastmod>2021-12-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/salud-y-asistencia-social-torreon-pddu-marzo-2023.html</loc>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
